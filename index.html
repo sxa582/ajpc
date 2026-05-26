@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>American Journal of Preventive Cardiology</title>
+
+  <style>
+
+    :root {
+      --primary: #C40816;
+      --primary-dark: #7F0811;
+      --primary-light: #FFF4F5;
+
+      --text: #1B1B1B;
+      --muted: #666666;
+
+      --light: #F7F7F8;
+      --border: #E5E5E5;
+
+      --shadow:
+        0 10px 30px rgba(0,0,0,0.06);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background: white;
+      line-height: 1.6;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    header {
+      background: white;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(12px);
+    }
+
+    .topbar {
+      max-width: 1400px;
+      margin: auto;
+      padding: 24px 32px;
+      display: grid;
+      grid-template-columns: 180px 1fr 180px;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .logo-left,
+    .logo-right {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo-right {
+      justify-content: flex-end;
+    }
+
+    .logo {
+      height: 72px;
+      width: auto;
+      object-fit: contain;
+      transition: 0.25s;
+    }
+
+    .logo:hover {
+      transform: scale(1.04);
+    }
+
+    .journal-title {
+      text-align: center;
+      line-height: 1.05;
+    }
+
+    .journal-title span {
+      display: block;
+      color: var(--primary);
+      font-size: 24px;
+      font-weight: 400;
+      font-family: Georgia, serif;
+    }
+
+    .journal-title strong {
+      display: block;
+      color: var(--primary-dark);
+      font-size: 54px;
+      font-family: Georgia, serif;
+      font-weight: 800;
+      margin-top: 6px;
+    }
+
+    nav {
+      background: var(--primary);
+    }
+
+    .nav-inner {
+      max-width: 1400px;
+      margin: auto;
+      padding: 0 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .nav-links a {
+      color: white;
+      padding: 18px;
+      font-weight: 700;
+      font-size: 15px;
+      transition: 0.25s;
+    }
+
+    .nav-links a:hover {
+      background: rgba(255,255,255,0.14);
+    }
+
+    .search-form {
+      display: flex;
+      align-items: center;
+      background: white;
+      border-radius: 999px;
+      overflow: hidden;
+      min-width: 340px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    }
+
+    .search-form input {
+      border: none;
+      outline: none;
+      padding: 12px 18px;
+      font-size: 14px;
+      width: 100%;
+    }
+
+    .search-form button {
+      border: none;
+      background: var(--primary-dark);
+      color: white;
+      padding: 12px 18px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    .search-form button:hover {
+      background: #5f060d;
+    }
+
+    .hero {
+      background:
+        linear-gradient(
+          135deg,
+          #fff6f7,
+          #ffffff
+        );
+      border-bottom: 1px solid var(--border);
+      overflow: hidden;
+    }
+
+    .hero-inner {
+      max-width: 1400px;
+      margin: auto;
+      padding: 90px 32px;
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .label {
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 800;
+      font-size: 13px;
+      margin-bottom: 14px;
+      animation: fadeUp 0.7s ease;
+    }
+
+    h1 {
+      font-family: Georgia, serif;
+      font-size: 68px;
+      line-height: 1.02;
+      margin: 0 0 24px;
+      color: var(--primary-dark);
+      max-width: 850px;
+      animation: fadeUp 0.9s ease;
+    }
+
+    .hero p {
+      font-size: 22px;
+      color: var(--muted);
+      max-width: 800px;
+      animation: fadeUp 1.1s ease;
+    }
+
+    .buttons {
+      margin-top: 34px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+
+    .btn {
+      padding: 14px 24px;
+      border-radius: 999px;
+      font-weight: 800;
+      display: inline-block;
+      transition: 0.25s;
+    }
+
+    .btn.primary {
+      background: var(--primary);
+      color: white;
+    }
+
+    .btn.primary:hover {
+      background: var(--primary-dark);
+      transform: translateY(-3px);
+    }
+
+    .btn.secondary {
+      background: white;
+      color: var(--primary-dark);
+      border: 1px solid var(--border);
+    }
+
+    .btn.secondary:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow);
+    }
+
+    .issue-card {
+      background: white;
+      border-radius: 28px;
+      padding: 10px;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+      animation: floatIn 1.1s ease;
+    }
+
+    .issue-image {
+      width: 100%;
+      height: 520px;
+      object-fit: cover;
+      border-radius: 22px;
+      transition: 0.3s;
+    }
+
+    .issue-image:hover {
+      transform: scale(1.015);
+    }
+
+    main {
+      max-width: 1400px;
+      margin: auto;
+      padding: 80px 32px;
+    }
+
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 28px;
+    }
+
+    .section-title h2 {
+      margin: 0;
+      font-size: 38px;
+      color: var(--primary-dark);
+      font-family: Georgia, serif;
+    }
+
+    .bar {
+      width: 56px;
+      height: 5px;
+      border-radius: 999px;
+      background: var(--primary);
+    }
+
+    .top-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 30px;
+      margin-bottom: 70px;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      padding: 32px;
+      box-shadow: var(--shadow);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-7px);
+    }
+
+    .article-type {
+      color: var(--primary);
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+
+    .featured-title {
+      font-size: 42px;
+      line-height: 1.15;
+      color: var(--primary-dark);
+      margin: 14px 0;
+      font-family: Georgia, serif;
+    }
+
+    .author {
+      color: var(--muted);
+      margin-bottom: 18px;
+    }
+
+    .featured-image {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      margin-top: 24px;
+      box-shadow: var(--shadow);
+    }
+
+    .article-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-bottom: 70px;
+    }
+
+    .article-card h3 {
+      margin: 10px 0;
+      font-size: 28px;
+      line-height: 1.2;
+      color: var(--primary-dark);
+      font-family: Georgia, serif;
+    }
+
+    .article-card a:hover,
+    .featured-title a:hover {
+      color: var(--primary);
+    }
+
+    .article-card h3 a,
+    .featured-title a {
+      transition: 0.2s;
+    }
+
+    .mini-cards {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 22px;
+      margin-bottom: 80px;
+    }
+
+    .mini-card {
+      background: linear-gradient(145deg,#fff8f8,#ffffff);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 28px;
+      box-shadow: var(--shadow);
+      transition: 0.3s;
+      text-align: center;
+    }
+
+    .mini-card:hover {
+      transform: translateY(-6px);
+    }
+
+    .mini-card h3 {
+      margin: 12px 0 8px;
+      color: var(--primary-dark);
+      font-size: 22px;
+      font-family: Georgia, serif;
+    }
+
+    .mini-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .metric {
+      font-size: 38px;
+      color: var(--primary);
+      font-weight: 800;
+    }
+
+    footer {
+      background: #1a0004;
+      color: rgba(255,255,255,0.85);
+      text-align: center;
+      padding: 44px 24px;
+      margin-top: 80px;
+      font-size: 14px;
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(24px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes floatIn {
+      from {
+        opacity: 0;
+        transform: translateY(30px) scale(0.98);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    @media (max-width: 1100px) {
+
+      .hero-inner,
+      .top-grid,
+      .article-grid,
+      .mini-cards {
+        grid-template-columns: 1fr;
+      }
+
+      .topbar {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      .logo-left,
+      .logo-right {
+        justify-content: center;
+      }
+
+      .journal-title strong {
+        font-size: 44px;
+      }
+
+      h1 {
+        font-size: 52px;
+      }
+
+      .search-form {
+        width: 100%;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+<header>
+
+  <div class="topbar">
+
+    <div class="logo-left">
+      <img src="ajpc-logo.jpg"
+           alt="AJPC Logo"
+           class="logo">
+    </div>
+
+    <div class="journal-title">
+      <span>American Journal of</span>
+      <strong>Preventive Cardiology</strong>
+    </div>
+
+    <div class="logo-right">
+
+      <a href="https://www.aspconline.org/"
+         target="_blank">
+
+        <img src="aspc-logo.jpg"
+             alt="ASPC Logo"
+             class="logo">
+
+      </a>
+
+    </div>
+
+  </div>
+
+  <nav>
+
+    <div class="nav-inner">
+
+      <div class="nav-links">
+
+        <a href="https://www.sciencedirect.com/journal/american-journal-of-preventive-cardiology/vol/26/suppl/C"
+           target="_blank">
+          Current Issue
+        </a>
+
+        <a href="https://www.sciencedirect.com/journal/american-journal-of-preventive-cardiology/articles-in-press"
+           target="_blank">
+          Articles in Press
+        </a>
+
+        <a href="https://www.editorialmanager.com/ajpc/default.aspx?adobe_mc=MCMID%3D29699147371652695884101806268074587709%7CMCORGID%3D4D6368F454EC41940A4C98A6%2540AdobeOrg%7CTS%3D1779819522"
+           target="_blank">
+          Submit
+        </a>
+
+        <a href="#">
+          Special Issues
+        </a>
+
+        <a href="editorial-board.html">
+          Editorial Board
+        </a>
+
+        <a href="about.html">
+          About
+        </a>
+
+      </div>
+
+      <form class="search-form"
+            onsubmit="searchAJPC(event)">
+
+        <input type="text"
+               id="ajpcSearch"
+               placeholder="Search AJPC articles..."
+               required>
+
+        <button type="submit">
+          Search
+        </button>
+
+      </form>
+
+    </div>
+
+  </nav>
+
+</header>
+
+<section class="hero">
+
+  <div class="hero-inner">
+
+    <div>
+
+      <div class="label">
+        Prevention • Cardiometabolic Health • Population Science
+      </div>
+
+      <h1>
+        Advancing the science and practice of cardiovascular prevention.
+      </h1>
+
+      <p>
+        The American Journal of Preventive Cardiology publishes rigorous,
+        clinically relevant science across prevention, cardiometabolic health,
+        digital health, implementation science, lifestyle medicine,
+        imaging, and population cardiovascular health.
+      </p>
+
+      <div class="buttons">
+
+        <a href="https://www.editorialmanager.com/ajpc/default.aspx?adobe_mc=MCMID%3D29699147371652695884101806268074587709%7CMCORGID%3D4D6368F454EC41940A4C98A6%2540AdobeOrg%7CTS%3D1779819522"
+           class="btn primary"
+           target="_blank">
+          Submit Manuscript
+        </a>
+
+        <a href="https://www.sciencedirect.com/journal/american-journal-of-preventive-cardiology/vol/26/suppl/C"
+           class="btn secondary"
+           target="_blank">
+          Read Latest Issue
+        </a>
+
+      </div>
+
+    </div>
+
+    <div class="issue-card">
+
+      <a href="https://www.sciencedirect.com/journal/american-journal-of-preventive-cardiology/vol/26/suppl/C"
+         target="_blank">
+
+        <img src="current-issue.jpg"
+             alt="Current Issue AJPC"
+             class="issue-image">
+
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<main>
+
+  <!-- EDITOR'S PICK -->
+
+  <section class="top-grid">
+
+    <div class="card">
+
+      <div class="article-type">
+        Editor’s Pick
+      </div>
+
+      <div class="featured-title">
+
+        <a href="https://www.sciencedirect.com/science/article/pii/S2666667726000498"
+           target="_blank"
+           style="color:inherit;text-decoration:none;">
+
+          The socio-environmental exposome and maternal cardiometabolic health in the US: a machine learning approach
+
+        </a>
+
+      </div>
+
+      <div class="author">
+        Pedro Rafael Vieira de Oliveira Salerno et al.
+      </div>
+
+      <p>
+        This article represents an emerging frontier in preventive cardiology by integrating socio-environmental exposures, machine learning, and maternal cardiometabolic health.
+      </p>
+
+      <p>
+        It expands prevention beyond traditional risk factors into the broader exposome framework and highlights how environmental and social determinants shape cardiovascular risk across the lifespan.
+      </p>
+
+      <img src="editorspick-image.jpg"
+           alt="Socio-environmental exposome article"
+           class="featured-image">
+
+    </div>
+
+    <div class="card">
+
+      <div class="article-type">
+        Special Collection
+      </div>
+
+      <h2 style="margin-top:12px;color:var(--primary-dark);font-family:Georgia,serif;font-size:38px;">
+        Digital Health and AI in Preventive Cardiology
+      </h2>
+
+      <p>
+        AJPC welcomes original investigations,
+        implementation studies, and perspectives focused
+        on digital innovation in cardiovascular prevention.
+      </p>
+
+      <p>
+        Areas of interest include multimodal AI,
+        imaging analytics, precision prevention,
+        digital therapeutics, wearable technologies,
+        implementation science, and population health.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- HIGHLIGHTED ARTICLES -->
+
+  <section>
+
+    <div class="section-title">
+      <h2>Highlighted Articles</h2>
+      <div class="bar"></div>
+    </div>
+
+    <div class="article-grid">
+
+      <div class="card article-card">
+
+        <div class="article-type">
+          Imaging AI
+        </div>
+
+        <h3>
+
+          <a href="https://www.sciencedirect.com/science/article/pii/S2666667726000462"
+             target="_blank"
+             style="color:inherit;text-decoration:none;">
+
+            Artificial intelligence-enabled coronary plaque quantification for personalized risk assessment and lipid-lowering therapy: Insights from the FISH&CHIPS study
+
+          </a>
+
+        </h3>
+
+        <div class="author">
+          Shyon Parsa et al.
+        </div>
+
+        <p>
+          One of the clearest examples of AI-enabled plaque phenotyping translating directly into personalized prevention and lipid management.
+        </p>
+
+      </div>
+
+      <div class="card article-card">
+
+        <div class="article-type">
+          Population Health
+        </div>
+
+        <h3>
+
+          <a href="https://www.sciencedirect.com/science/article/pii/S2666667726000620"
+             target="_blank"
+             style="color:inherit;text-decoration:none;">
+
+            Prediabetes, obesity and risk for incident atherosclerotic cardiovascular disease: A large-scale contemporary cohort study
+
+          </a>
+
+        </h3>
+
+        <div class="author">
+          Jamal S. Rana et al.
+        </div>
+
+        <p>
+          Large-scale contemporary evidence showing that prediabetes and obesity are major contributors to premature ASCVD risk.
+        </p>
+
+      </div>
+
+      <div class="card article-card">
+
+        <div class="article-type">
+          Precision Prevention
+        </div>
+
+        <h3>
+
+          <a href="https://www.sciencedirect.com/science/article/pii/S2666667726000814"
+             target="_blank"
+             style="color:inherit;text-decoration:none;">
+
+            Polygenic risk scores enhance LDL cholesterol–based risk stratification for coronary artery disease
+
+          </a>
+
+        </h3>
+
+        <div class="author">
+          Colin Harper et al.
+        </div>
+
+        <p>
+          Integrates genomics with traditional lipid metrics to advance individualized primary prevention and precision risk prediction.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- METRICS -->
+
+  <section>
+
+    <div class="section-title">
+      <h2>Journal Highlights</h2>
+      <div class="bar"></div>
+    </div>
+
+    <div class="mini-cards">
+
+      <div class="mini-card">
+        <div class="metric">7.4</div>
+        <h3>CiteScore</h3>
+        <p>Global impact across preventive cardiology research.</p>
+      </div>
+
+      <div class="mini-card">
+        <div class="metric">5.9</div>
+        <h3>Impact Factor</h3>
+        <p>Strong scientific influence in cardiovascular prevention.</p>
+      </div>
+
+      <div class="mini-card">
+        <div class="metric">8d</div>
+        <h3>First Decision</h3>
+        <p>Rapid editorial review and decision timeline.</p>
+      </div>
+
+      <div class="mini-card">
+        <div class="metric">24%</div>
+        <h3>Acceptance Rate</h3>
+        <p>Selective publication of high-quality scientific work.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- EXPLORE -->
+
+  <section>
+
+    <div class="section-title">
+      <h2>Explore AJPC</h2>
+      <div class="bar"></div>
+    </div>
+
+    <div class="article-grid">
+
+      <div class="card article-card">
+
+        <div class="article-type">
+          For Authors
+        </div>
+
+        <h3>
+
+          <a href="https://www.editorialmanager.com/ajpc/default.aspx?adobe_mc=MCMID%3D29699147371652695884101806268074587709%7CMCORGID%3D4D6368F454EC41940A4C98A6%2540AdobeOrg%7CTS%3D1779819522"
+             target="_blank"
+             style="color:inherit;text-decoration:none;">
+
+            Submit your manuscript
+
+          </a>
+
+        </h3>
+
+        <p>
+          Share research that advances prevention,
+          cardiometabolic health, implementation science,
+          and population cardiovascular health.
+        </p>
+
+      </div>
+
+      <div class="card article-card">
+
+        <div class="article-type">
+          Journal Information
+        </div>
+
+        <h3>
+
+          <a href="about.html"
+             style="color:inherit;text-decoration:none;">
+
+            About the journal
+
+          </a>
+
+        </h3>
+
+        <p>
+          Learn more about AJPC’s aims, scope,
+          publishing model, indexing,
+          and role as the official journal of ASPC.
+        </p>
+
+      </div>
+
+      <div class="card article-card">
+
+        <div class="article-type">
+          Leadership
+        </div>
+
+        <h3>
+
+          <a href="editorial-board.html"
+             style="color:inherit;text-decoration:none;">
+
+            Editorial board
+
+          </a>
+
+        </h3>
+
+        <p>
+          Meet the editorial leadership and international
+          board guiding the journal’s scientific direction.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+</main>
+
+<footer>
+  © 2026 American Journal of Preventive Cardiology.
+  All rights reserved.
+</footer>
+
+<script>
+
+function searchAJPC(event) {
+
+  event.preventDefault();
+
+  const query =
+    document.getElementById("ajpcSearch").value.trim();
+
+  if (!query) return;
+
+  const url =
+    "https://www.sciencedirect.com/search?qs=" +
+    encodeURIComponent(query) +
+    "&pub=American+Journal+of+Preventive+Cardiology&cid=777610";
+
+  window.open(url, "_blank");
+}
+
+</script>
+
+</body>
+</html>
