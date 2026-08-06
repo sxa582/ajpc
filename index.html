@@ -216,14 +216,13 @@
     .theme-heading span { color: var(--muted); font-size: .72rem; }
     .theme-paper {
       display: grid;
-      grid-template-columns: minmax(150px, .24fr) minmax(0, 1.25fr) minmax(180px, .48fr) 38px;
+      grid-template-columns: minmax(0, 1.5fr) minmax(180px, .48fr) 38px;
       gap: 24px;
       align-items: center;
       padding: 21px 0;
       border-bottom: 1px solid var(--line-dark);
     }
     .theme-paper:hover { background: rgba(255,255,255,.52); }
-    .paper-type { color: var(--accent); font-size: .68rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
     .paper-title { margin: 0; font: 700 1.25rem/1.22 var(--serif); letter-spacing: -.012em; }
     .paper-title a:hover { color: var(--accent); }
     .paper-byline { color: var(--muted); font-size: .75rem; line-height: 1.5; }
@@ -496,7 +495,7 @@
     @media (max-width: 1050px) {
       .brand-row { grid-template-columns: 130px 1fr 130px; }
       .nav-inner { gap: 23px; }
-      .theme-paper { grid-template-columns: 130px minmax(0, 1fr) minmax(170px, .42fr) 38px; gap: 18px; }
+      .theme-paper { grid-template-columns: minmax(0, 1fr) minmax(170px, .42fr) 38px; gap: 18px; }
       .interviews-grid { grid-template-columns: 1fr 1fr; }
       .interview-card.featured { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr; }
       .interview-card.featured .interview-visual { min-height: 330px; }
@@ -522,8 +521,8 @@
       .lead-copy h1 { font-size: clamp(2.65rem, 13vw, 4.3rem); }
       .theme-heading { align-items: flex-start; flex-direction: column; gap: 5px; }
       .theme-paper { grid-template-columns: 1fr 38px; gap: 8px 14px; }
-      .paper-type, .paper-byline { grid-column: 1; }
-      .paper-arrow { grid-column: 2; grid-row: 1 / span 3; align-self: center; }
+      .paper-byline { grid-column: 1; }
+      .paper-arrow { grid-column: 2; grid-row: 1 / span 2; align-self: center; }
       .interviews-grid { grid-template-columns: 1fr; }
       .interview-card.featured { grid-column: auto; display: flex; }
       .interview-card.featured .interview-visual { min-height: 225px; }
@@ -865,7 +864,6 @@
             <div class="theme-list">
               ${papers.map(article => `
                 <article class="theme-paper">
-                  <div class="paper-type">${escapeHTML(article.articleType)}</div>
                   <h4 class="paper-title"><a href="${escapeHTML(article.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(article.title)}</a></h4>
                   <div class="paper-byline"><strong>${escapeHTML(article.authorsShort)}</strong>${escapeHTML(articleDate(article.published))}</div>
                   <a class="paper-arrow" href="${escapeHTML(article.url)}" target="_blank" rel="noopener noreferrer" aria-label="Read ${escapeHTML(article.title)}">→</a>
