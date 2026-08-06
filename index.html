@@ -2,958 +2,971 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>American Journal of Preventive Cardiology</title>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Concept landing page for the American Journal of Preventive Cardiology." />
+  <title>AJPC | American Journal of Preventive Cardiology</title>
   <style>
-
     :root {
-      --primary: #C40816;
-      --primary-dark: #7F0811;
-      --primary-light: #FFF4F5;
-
-      --text: #1B1B1B;
-      --muted: #666666;
-
-      --light: #F7F7F8;
-      --border: #E5E5E5;
-
-      --shadow:
-        0 10px 30px rgba(0,0,0,0.06);
+      --ink: #202124;
+      --muted: #666a70;
+      --faint: #8a8e93;
+      --line: #d9d9d6;
+      --line-dark: #b8b8b4;
+      --paper: #ffffff;
+      --soft: #f5f5f2;
+      --soft-warm: #f8f5f1;
+      --accent: #9d1d35;
+      --accent-dark: #741125;
+      --navy: #18324a;
+      --teal: #167d7f;
+      --max: 1260px;
+      --serif: Georgia, "Times New Roman", serif;
+      --sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
 
-    * {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
     body {
       margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      color: var(--text);
-      background: white;
-      line-height: 1.6;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: var(--sans);
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
     }
-
-    img {
-      max-width: 100%;
-      display: block;
+    a { color: inherit; text-decoration: none; }
+    button, input { font: inherit; }
+    img, svg { display: block; max-width: 100%; }
+    .container { width: min(calc(100% - 44px), var(--max)); margin-inline: auto; }
+    .kicker {
+      color: var(--accent);
+      font-size: 0.72rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
     }
-
-    a {
-      text-decoration: none;
+    .muted { color: var(--muted); }
+    .text-link {
+      color: var(--accent);
+      font-size: 0.82rem;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+      white-space: nowrap;
     }
-
-    header {
-      background: white;
-      border-bottom: 1px solid var(--border);
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      backdrop-filter: blur(12px);
+    .text-link:hover { color: var(--accent-dark); }
+    .btn {
+      min-height: 42px;
+      border: 1px solid var(--ink);
+      background: var(--ink);
+      color: #fff;
+      padding: 0 18px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+      cursor: pointer;
+      transition: background .18s ease, border-color .18s ease, color .18s ease;
     }
+    .btn:hover { background: var(--accent); border-color: var(--accent); }
+    .btn-outline { background: transparent; color: var(--ink); }
+    .btn-outline:hover { color: #fff; }
+    .btn-accent { background: var(--accent); border-color: var(--accent); }
+    .btn-accent:hover { background: var(--accent-dark); border-color: var(--accent-dark); }
 
-    .topbar {
-      max-width: 1400px;
-      margin: auto;
-      padding: 24px 32px;
+    .utility {
+      background: #f1f1ef;
+      border-bottom: 1px solid var(--line);
+      color: #505256;
+      font-size: 0.72rem;
+    }
+    .utility-inner {
+      min-height: 34px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .utility-links { display: flex; align-items: center; gap: 18px; }
+    .utility a:hover { color: var(--accent); }
+
+    .brand-header { background: #fff; }
+    .brand-row {
+      min-height: 118px;
       display: grid;
       grid-template-columns: 180px 1fr 180px;
       align-items: center;
       gap: 20px;
     }
-
-    .logo-left,
-    .logo-right {
-      display: flex;
-      align-items: center;
+    .volume-label {
+      color: var(--muted);
+      font-size: 0.73rem;
+      line-height: 1.55;
     }
-
-    .logo-right {
+    .volume-label strong { display: block; color: var(--ink); }
+    .brand {
+      justify-self: center;
+      width: min(100%, 720px);
+    }
+    .brand img {
+      width: 100%;
+      height: auto;
+    }
+    .brand-actions {
+      display: flex;
       justify-content: flex-end;
-    }
-
-    .logo {
-      height: 72px;
-      width: auto;
-      object-fit: contain;
-      transition: 0.25s;
-    }
-
-    .logo:hover {
-      transform: scale(1.04);
-    }
-
-    .journal-title {
-      text-align: center;
-      line-height: 1.05;
-    }
-
-    .journal-title span {
-      display: block;
-      color: var(--primary);
-      font-size: 24px;
-      font-weight: 400;
-      font-family: Georgia, serif;
-    }
-
-    .journal-title strong {
-      display: block;
-      color: var(--primary-dark);
-      font-size: 54px;
-      font-family: Georgia, serif;
-      font-weight: 800;
-      margin-top: 6px;
-    }
-
-    nav {
-      background: var(--primary);
-    }
-
-    .nav-inner {
-      max-width: 1400px;
-      margin: auto;
-      padding: 0 32px;
-      display: flex;
-      justify-content: space-between;
       align-items: center;
-      gap: 24px;
-      flex-wrap: wrap;
+      gap: 9px;
     }
-
-    .nav-links {
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    .nav-links a {
-      color: white;
-      padding: 18px;
-      font-weight: 700;
-      font-size: 15px;
-      transition: 0.25s;
-    }
-
-    .nav-links a:hover {
-      background: rgba(255,255,255,0.14);
-    }
-
-    .search-form {
-      display: flex;
-      align-items: center;
-      background: white;
-      border-radius: 999px;
-      overflow: hidden;
-      min-width: 340px;
-      box-shadow: 0 3px 12px rgba(0,0,0,0.08);
-    }
-
-    .search-form input {
-      border: none;
-      outline: none;
-      padding: 12px 18px;
-      font-size: 14px;
-      width: 100%;
-    }
-
-    .search-form button {
-      border: none;
-      background: var(--primary-dark);
-      color: white;
-      padding: 12px 18px;
-      font-weight: 700;
+    .round-btn {
+      width: 40px;
+      height: 40px;
+      border: 1px solid var(--line-dark);
+      background: #fff;
+      display: grid;
+      place-items: center;
       cursor: pointer;
-      transition: 0.2s;
     }
+    .round-btn:hover { border-color: var(--accent); color: var(--accent); }
 
-    .search-form button:hover {
-      background: #5f060d;
+    .nav-wrap {
+      border-top: 1px solid var(--ink);
+      border-bottom: 1px solid var(--ink);
+      background: #fff;
+      position: sticky;
+      top: 0;
+      z-index: 50;
     }
-
-    .hero {
-      background:
-        linear-gradient(
-          135deg,
-          #fff6f7,
-          #ffffff
-        );
-      border-bottom: 1px solid var(--border);
-      overflow: hidden;
-    }
-
-    .hero-inner {
-      max-width: 1400px;
-      margin: auto;
-      padding: 90px 32px;
-      display: grid;
-      grid-template-columns: 1.2fr 0.8fr;
-      gap: 60px;
+    .nav-inner {
+      min-height: 49px;
+      display: flex;
       align-items: center;
+      justify-content: center;
+      gap: 34px;
     }
-
-    .label {
-      color: var(--primary);
-      text-transform: uppercase;
-      letter-spacing: 2px;
+    .nav-inner a {
+      font-size: 0.75rem;
       font-weight: 800;
-      font-size: 13px;
-      margin-bottom: 14px;
-      animation: fadeUp 0.7s ease;
+      letter-spacing: 0.045em;
+      text-transform: uppercase;
+      padding: 16px 0 14px;
+      border-bottom: 3px solid transparent;
+    }
+    .nav-inner a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+    .menu-btn { display: none; }
+    .search-panel {
+      display: none;
+      border-bottom: 1px solid var(--line);
+      background: #fff;
+      padding: 14px 0;
+    }
+    .search-panel.open { display: block; }
+    .search-form { display: grid; grid-template-columns: 1fr auto; gap: 10px; }
+    .search-form input {
+      min-height: 44px;
+      border: 1px solid var(--line-dark);
+      padding: 0 14px;
+      outline: none;
+    }
+    .search-form input:focus { border-color: var(--accent); }
+
+    .issue-bar {
+      border-bottom: 1px solid var(--line);
+      background: var(--soft-warm);
+    }
+    .issue-inner {
+      min-height: 45px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      font-size: 0.74rem;
+    }
+    .issue-inner strong { font-family: var(--serif); font-size: 0.92rem; }
+    .issue-links { display: flex; gap: 20px; color: var(--muted); }
+    .issue-links a:hover { color: var(--accent); }
+
+    main section { padding: 74px 0; }
+    .section-heading {
+      padding-bottom: 15px;
+      border-bottom: 2px solid var(--ink);
+      margin-bottom: 28px;
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 24px;
+    }
+    .section-heading h2 {
+      margin: 4px 0 0;
+      color: var(--ink);
+      font: 700 clamp(2rem, 3.6vw, 3.3rem)/1 var(--serif);
+      letter-spacing: -0.035em;
     }
 
-    h1 {
-      font-family: Georgia, serif;
-      font-size: 68px;
-      line-height: 1.02;
-      margin: 0 0 24px;
-      color: var(--primary-dark);
-      max-width: 850px;
-      animation: fadeUp 0.9s ease;
+    .lead-section { padding-top: 42px; }
+    .lead-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.7fr) minmax(310px, 0.78fr);
+      gap: 42px;
     }
-
-    .hero p {
-      font-size: 22px;
+    .lead-story {
+      display: grid;
+      grid-template-columns: 1.02fr 0.98fr;
+      gap: 32px;
+      padding-bottom: 34px;
+      border-bottom: 1px solid var(--line-dark);
+    }
+    .lead-copy h1 {
+      margin: 10px 0 16px;
+      color: var(--ink);
+      font: 700 clamp(2.65rem, 5vw, 4.9rem)/0.98 var(--serif);
+      letter-spacing: -0.05em;
+    }
+    .lead-copy p {
+      margin: 0;
+      color: #50545a;
+      font: 400 1.04rem/1.72 var(--serif);
+    }
+    .article-meta {
+      margin-top: 20px;
       color: var(--muted);
-      max-width: 800px;
-      animation: fadeUp 1.1s ease;
-    }
-
-    .buttons {
-      margin-top: 34px;
+      font-size: 0.75rem;
       display: flex;
       flex-wrap: wrap;
-      gap: 14px;
+      gap: 8px 16px;
     }
-
-    .btn {
-      padding: 14px 24px;
-      border-radius: 999px;
-      font-weight: 800;
-      display: inline-block;
-      transition: 0.25s;
+    .article-meta strong { color: var(--ink); }
+    .lead-actions { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 25px; }
+    .lead-art {
+      min-height: 410px;
+      background: #e8ecee;
+      border: 1px solid var(--line-dark);
+      position: relative;
+      overflow: hidden;
+      display: grid;
+      place-items: center;
+      padding: 30px;
     }
-
-    .btn.primary {
-      background: var(--primary);
-      color: white;
+    .lead-art::after {
+      content: "VISUAL ABSTRACT";
+      position: absolute;
+      left: 16px;
+      bottom: 15px;
+      font-size: 0.63rem;
+      font-weight: 900;
+      letter-spacing: 0.15em;
+      color: #51575d;
     }
+    .lead-art svg { width: min(100%, 390px); }
 
-    .btn.primary:hover {
-      background: var(--primary-dark);
-      transform: translateY(-3px);
-    }
-
-    .btn.secondary {
-      background: white;
-      color: var(--primary-dark);
-      border: 1px solid var(--border);
-    }
-
-    .btn.secondary:hover {
-      transform: translateY(-3px);
-      box-shadow: var(--shadow);
-    }
-
-    .issue-card {
-      background: white;
-      border-radius: 28px;
-      padding: 10px;
-      box-shadow: var(--shadow);
-      border: 1px solid var(--border);
-      animation: floatIn 1.1s ease;
-    }
-
-    .issue-image {
-      width: 100%;
-      height: 520px;
-      object-fit: cover;
-      border-radius: 22px;
-      transition: 0.3s;
-    }
-
-    .issue-image:hover {
-      transform: scale(1.015);
-    }
-
-    main {
-      max-width: 1400px;
-      margin: auto;
-      padding: 80px 32px;
-    }
-
-    .section-title {
+    .side-head {
       display: flex;
       align-items: center;
-      gap: 14px;
-      margin-bottom: 28px;
+      justify-content: space-between;
+      padding-bottom: 12px;
+      border-bottom: 2px solid var(--ink);
+      margin-bottom: 4px;
     }
-
-    .section-title h2 {
-      margin: 0;
-      font-size: 38px;
-      color: var(--primary-dark);
-      font-family: Georgia, serif;
+    .side-head h2 { margin: 0; font: 700 1.32rem/1 var(--serif); }
+    .article-list { display: grid; }
+    .list-item {
+      padding: 21px 0;
+      border-bottom: 1px solid var(--line);
     }
-
-    .bar {
-      width: 56px;
-      height: 5px;
-      border-radius: 999px;
-      background: var(--primary);
+    .list-item h3 {
+      margin: 7px 0 8px;
+      font: 700 1.14rem/1.23 var(--serif);
+      letter-spacing: -0.015em;
     }
+    .list-item h3 a:hover { color: var(--accent); }
+    .list-meta { color: var(--muted); font-size: 0.7rem; }
+    .most-read {
+      margin-top: 26px;
+      padding: 20px 22px;
+      background: var(--soft);
+      border-top: 4px solid var(--accent);
+    }
+    .most-read h3 { margin: 0 0 13px; font: 700 1.28rem/1.1 var(--serif); }
+    .ranked { display: grid; gap: 12px; }
+    .ranked a {
+      display: grid;
+      grid-template-columns: 25px 1fr;
+      gap: 10px;
+      font: 700 0.9rem/1.3 var(--serif);
+    }
+    .ranked span { color: var(--accent); font-family: var(--sans); font-size: 0.72rem; }
+    .ranked a:hover { color: var(--accent); }
 
-    .top-grid {
+    .latest-section { background: var(--soft-warm); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+    .latest-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+    .article-card {
+      background: #fff;
+      border-top: 4px solid var(--ink);
+      padding: 24px 24px 22px;
+      min-height: 300px;
+      display: flex;
+      flex-direction: column;
+    }
+    .article-card.accent { border-top-color: var(--accent); }
+    .article-card.teal { border-top-color: var(--teal); }
+    .article-card h3 {
+      margin: 9px 0 12px;
+      font: 700 1.48rem/1.17 var(--serif);
+      letter-spacing: -0.02em;
+    }
+    .article-card h3 a:hover { color: var(--accent); }
+    .article-card p { margin: 0; color: var(--muted); font-size: 0.84rem; }
+    .article-card .article-meta { margin-top: auto; padding-top: 22px; border-top: 1px solid var(--line); }
+
+    .interviews-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr 0.85fr;
+      gap: 24px;
+    }
+    .interview-card {
+      border: 1px solid var(--line-dark);
+      background: #fff;
+      min-height: 385px;
+      display: flex;
+      flex-direction: column;
+    }
+    .interview-visual {
+      min-height: 215px;
+      background: #ececeb;
+      position: relative;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+    }
+    .interview-card.featured .interview-visual { min-height: 258px; }
+    .portrait {
+      width: 138px;
+      height: 138px;
+      border-radius: 50%;
+      border: 8px solid rgba(255,255,255,.78);
+      background: linear-gradient(145deg, #bfc8ce, #f7f7f5);
+      color: var(--navy);
+      display: grid;
+      place-items: center;
+      font: 700 2.1rem/1 var(--serif);
+    }
+    .play-icon {
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      background: var(--accent);
+      color: #fff;
+      display: grid;
+      place-items: center;
+      position: absolute;
+      right: 18px;
+      bottom: 16px;
+      box-shadow: 0 5px 18px rgba(0,0,0,.16);
+    }
+    .interview-body { padding: 22px; }
+    .interview-body h3 {
+      margin: 8px 0 9px;
+      font: 700 1.35rem/1.2 var(--serif);
+      letter-spacing: -0.015em;
+    }
+    .interview-card.featured h3 { font-size: 1.75rem; }
+    .interview-body p { margin: 0; color: var(--muted); font-size: 0.82rem; }
+
+    .practice-grid {
       display: grid;
       grid-template-columns: 1.2fr 0.8fr;
-      gap: 30px;
-      margin-bottom: 70px;
+      gap: 38px;
     }
-
-    .card {
-      background: white;
-      border: 1px solid var(--border);
-      border-radius: 28px;
-      padding: 32px;
-      box-shadow: var(--shadow);
-      transition: 0.3s;
+    .briefing {
+      padding: 32px 34px;
+      background: var(--navy);
+      color: #fff;
     }
-
-    .card:hover {
-      transform: translateY(-7px);
+    .briefing h2 {
+      margin: 8px 0 16px;
+      font: 700 clamp(2.2rem, 4vw, 3.7rem)/1.02 var(--serif);
+      letter-spacing: -0.04em;
     }
-
-    .article-type {
-      color: var(--primary);
-      font-size: 12px;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      font-weight: 800;
-    }
-
-    .featured-title {
-      font-size: 42px;
-      line-height: 1.15;
-      color: var(--primary-dark);
-      margin: 14px 0;
-      font-family: Georgia, serif;
-    }
-
-    .author {
-      color: var(--muted);
-      margin-bottom: 18px;
-    }
-
-    .featured-image {
-      width: 100%;
-      height: 280px;
-      object-fit: cover;
-      border-radius: 20px;
-      border: 1px solid var(--border);
-      margin-top: 24px;
-      box-shadow: var(--shadow);
-    }
-
-    .article-grid {
+    .briefing > p { max-width: 760px; color: #d8e0e5; font-family: var(--serif); }
+    .key-points { margin: 26px 0 30px; display: grid; gap: 14px; }
+    .key-point {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 24px;
-      margin-bottom: 70px;
+      grid-template-columns: 30px 1fr;
+      gap: 12px;
+      padding-top: 13px;
+      border-top: 1px solid rgba(255,255,255,.2);
+      font-size: 0.88rem;
     }
-
-    .article-card h3 {
-      margin: 10px 0;
-      font-size: 28px;
-      line-height: 1.2;
-      color: var(--primary-dark);
-      font-family: Georgia, serif;
+    .key-point span { color: #ffb8c4; font-weight: 900; }
+    .editor-column { border-top: 4px solid var(--accent); padding-top: 22px; }
+    .editor-column blockquote {
+      margin: 14px 0 22px;
+      font: 700 1.65rem/1.3 var(--serif);
+      letter-spacing: -0.02em;
     }
-
-    .article-card a:hover,
-    .featured-title a:hover {
-      color: var(--primary);
+    .editor-profile { display: flex; align-items: center; gap: 12px; }
+    .small-avatar {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: #e4e4e1;
+      display: grid;
+      place-items: center;
+      font: 700 1rem/1 var(--serif);
     }
+    .editor-profile strong { display: block; font-size: 0.82rem; }
+    .editor-profile span { color: var(--muted); font-size: 0.72rem; }
 
-    .article-card h3 a,
-    .featured-title a {
-      transition: 0.2s;
-    }
-
-    .mini-cards {
+    .topics-section { background: #fff; border-top: 1px solid var(--line); }
+    .topic-grid {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      gap: 22px;
-      margin-bottom: 80px;
+      border-top: 1px solid var(--line-dark);
+      border-left: 1px solid var(--line-dark);
     }
+    .topic-link {
+      min-height: 132px;
+      padding: 20px;
+      border-right: 1px solid var(--line-dark);
+      border-bottom: 1px solid var(--line-dark);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: #fff;
+    }
+    .topic-link:hover { background: var(--soft-warm); }
+    .topic-link strong { font: 700 1.22rem/1.15 var(--serif); }
+    .topic-link span { color: var(--muted); font-size: 0.72rem; }
 
-    .mini-card {
-      background: linear-gradient(145deg,#fff8f8,#ffffff);
-      border: 1px solid var(--border);
-      border-radius: 24px;
-      padding: 28px;
-      box-shadow: var(--shadow);
-      transition: 0.3s;
-      text-align: center;
+    .jobs-section { background: var(--soft); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+    .jobs-layout {
+      display: grid;
+      grid-template-columns: 0.72fr 1.28fr;
+      gap: 44px;
+      align-items: start;
     }
+    .jobs-intro {
+      position: sticky;
+      top: 75px;
+    }
+    .jobs-intro h2 {
+      margin: 7px 0 16px;
+      font: 700 clamp(2.3rem, 4vw, 3.8rem)/1 var(--serif);
+      letter-spacing: -0.04em;
+    }
+    .jobs-intro p { color: var(--muted); font-family: var(--serif); }
+    .jobs-actions { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 22px; }
+    .job-list { border-top: 2px solid var(--ink); }
+    .job-card {
+      padding: 24px 0;
+      border-bottom: 1px solid var(--line-dark);
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 24px;
+      align-items: center;
+    }
+    .job-card h3 { margin: 5px 0 7px; font: 700 1.35rem/1.16 var(--serif); }
+    .job-card h3 a:hover { color: var(--accent); }
+    .job-meta { color: var(--muted); font-size: 0.74rem; display: flex; flex-wrap: wrap; gap: 7px 14px; }
+    .job-date { color: var(--faint); font-size: 0.7rem; margin-top: 8px; }
+    .job-arrow {
+      width: 40px;
+      height: 40px;
+      border: 1px solid var(--line-dark);
+      display: grid;
+      place-items: center;
+      font-size: 1.1rem;
+    }
+    .job-card:hover .job-arrow { border-color: var(--accent); background: var(--accent); color: #fff; }
 
-    .mini-card:hover {
-      transform: translateY(-6px);
+    .author-cta { padding-top: 52px; }
+    .author-box {
+      border-top: 5px solid var(--accent);
+      background: var(--soft-warm);
+      padding: 42px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 34px;
+      align-items: center;
     }
+    .author-box h2 {
+      margin: 7px 0 10px;
+      font: 700 clamp(2rem, 3.8vw, 3.4rem)/1.03 var(--serif);
+      letter-spacing: -0.035em;
+    }
+    .author-box p { margin: 0; color: var(--muted); max-width: 760px; }
+    .author-actions { display: flex; flex-wrap: wrap; gap: 9px; justify-content: flex-end; }
 
-    .mini-card h3 {
-      margin: 12px 0 8px;
-      color: var(--primary-dark);
-      font-size: 22px;
-      font-family: Georgia, serif;
+    .newsletter { padding-top: 28px; }
+    .newsletter-box {
+      background: var(--ink);
+      color: #fff;
+      padding: 36px 40px;
+      display: grid;
+      grid-template-columns: 1fr 0.85fr;
+      gap: 35px;
+      align-items: center;
     }
-
-    .mini-card p {
-      margin: 0;
-      color: var(--muted);
-      font-size: 15px;
+    .newsletter-box h2 { margin: 5px 0 8px; font: 700 2.15rem/1.05 var(--serif); }
+    .newsletter-box p { margin: 0; color: #c8c9ca; font-size: 0.82rem; }
+    .signup { display: grid; grid-template-columns: 1fr auto; }
+    .signup input {
+      min-width: 0;
+      min-height: 44px;
+      border: 1px solid #777;
+      border-right: 0;
+      background: #fff;
+      padding: 0 14px;
+      outline: none;
     }
-
-    .metric {
-      font-size: 38px;
-      color: var(--primary);
-      font-weight: 800;
-    }
+    .signup-note { color: #9fa0a2; font-size: 0.66rem; margin-top: 8px; }
 
     footer {
-      background: #1a0004;
-      color: rgba(255,255,255,0.85);
-      text-align: center;
-      padding: 44px 24px;
-      margin-top: 80px;
-      font-size: 14px;
+      margin-top: 72px;
+      padding: 50px 0 28px;
+      border-top: 1px solid var(--ink);
+      background: #fff;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.4fr repeat(3, .7fr);
+      gap: 40px;
+    }
+    .footer-brand strong { color: var(--accent); font: 700 2.6rem/1 var(--serif); letter-spacing: -.05em; }
+    .footer-brand span { display: block; margin-top: 8px; font: 700 .72rem/1.2 var(--serif); text-transform: uppercase; }
+    .footer-copy { color: var(--muted); font-size: 0.78rem; max-width: 400px; }
+    footer h4 { margin: 0 0 13px; font-size: 0.72rem; letter-spacing: .1em; text-transform: uppercase; }
+    footer ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; color: var(--muted); font-size: 0.78rem; }
+    footer a:hover { color: var(--accent); }
+    .footer-bottom {
+      margin-top: 40px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      color: var(--faint);
+      font-size: .68rem;
     }
 
-    @keyframes fadeUp {
-      from {
-        opacity: 0;
-        transform: translateY(24px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
+    .reveal { opacity: 1; transform: none; }
+    .reveal.visible { opacity: 1; transform: none; }
+
+    @media (max-width: 1050px) {
+      .brand-row { grid-template-columns: 130px 1fr 130px; }
+      .nav-inner { gap: 23px; }
+      .lead-grid { grid-template-columns: 1fr; }
+      .lead-side { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+      .most-read { margin-top: 0; }
+      .interviews-grid { grid-template-columns: 1fr 1fr; }
+      .interview-card.featured { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr; }
+      .interview-card.featured .interview-visual { min-height: 330px; }
+      .topic-grid { grid-template-columns: repeat(3, 1fr); }
+      .jobs-layout { grid-template-columns: 1fr; }
+      .jobs-intro { position: static; }
+      .footer-grid { grid-template-columns: 1.3fr repeat(2, .7fr); }
+      .footer-grid > div:last-child { display: none; }
     }
 
-    @keyframes floatIn {
-      from {
-        opacity: 0;
-        transform: translateY(30px) scale(0.98);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0) scale(1);
-      }
+    @media (max-width: 760px) {
+      .container { width: min(calc(100% - 26px), var(--max)); }
+      .utility-inner { min-height: 32px; font-size: .64rem; }
+      .utility-links a:not(:last-child) { display: none; }
+      .brand-row { min-height: 92px; grid-template-columns: 1fr auto; }
+      .volume-label { display: none; }
+      .brand { justify-self: start; }
+      .brand-actions .btn { display: none; }
+      .nav-inner { justify-content: flex-end; min-height: 44px; }
+      .nav-inner a { display: none; }
+      .menu-btn { display: grid; }
+      .issue-inner { align-items: flex-start; flex-direction: column; padding: 11px 0; gap: 6px; }
+      .issue-links { gap: 14px; font-size: .68rem; }
+      main section { padding: 58px 0; }
+      .section-heading { align-items: flex-start; flex-direction: column; gap: 10px; }
+      .lead-section { padding-top: 30px; }
+      .lead-story { grid-template-columns: 1fr; }
+      .lead-copy h1 { font-size: clamp(2.65rem, 13vw, 4.3rem); }
+      .lead-art { min-height: 310px; }
+      .lead-side { grid-template-columns: 1fr; }
+      .latest-grid { grid-template-columns: 1fr; }
+      .article-card { min-height: auto; }
+      .interviews-grid { grid-template-columns: 1fr; }
+      .interview-card.featured { grid-column: auto; display: flex; }
+      .interview-card.featured .interview-visual { min-height: 225px; }
+      .practice-grid { grid-template-columns: 1fr; }
+      .briefing { padding: 28px 24px; }
+      .topic-grid { grid-template-columns: 1fr 1fr; }
+      .topic-link { min-height: 120px; }
+      .job-card { grid-template-columns: 1fr auto; gap: 13px; }
+      .author-box { padding: 30px 24px; grid-template-columns: 1fr; }
+      .author-actions { justify-content: flex-start; }
+      .newsletter-box { padding: 30px 24px; grid-template-columns: 1fr; }
+      .signup { grid-template-columns: 1fr; gap: 8px; }
+      .signup input { border-right: 1px solid #777; }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+      .footer-grid > div:first-child { grid-column: 1 / -1; }
+      .footer-bottom { flex-direction: column; }
     }
 
-    @media (max-width: 1100px) {
-
-      .hero-inner,
-      .top-grid,
-      .article-grid,
-      .mini-cards {
-        grid-template-columns: 1fr;
-      }
-
-      .topbar {
-        grid-template-columns: 1fr;
-        text-align: center;
-      }
-
-      .logo-left,
-      .logo-right {
-        justify-content: center;
-      }
-
-      .journal-title strong {
-        font-size: 44px;
-      }
-
-      h1 {
-        font-size: 52px;
-      }
-
-      .search-form {
-        width: 100%;
-      }
+    @media (max-width: 470px) {
+      .topic-grid { grid-template-columns: 1fr; }
+      .job-arrow { width: 36px; height: 36px; }
     }
 
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; }
+      .reveal { opacity: 1; transform: none; }
+    }
   </style>
 </head>
-
 <body>
-
-<header>
-
-  <div class="topbar">
-
-    <div class="logo-left">
-      <img src="ajpc-logo.jpg"
-           alt="AJPC Logo"
-           class="logo">
+  <div class="utility">
+    <div class="container utility-inner">
+      <div>Official Journal of the American Society for Preventive Cardiology</div>
+      <div class="utility-links">
+        <a href="#">About AJPC</a>
+        <a href="#authors">For Authors</a>
+        <a href="#jobs">Career Center</a>
+        <a href="#">ASPC.org</a>
+      </div>
     </div>
-
-    <div class="journal-title">
-      <span>American Journal of</span>
-      <strong>Preventive Cardiology</strong>
-    </div>
-
-    <div class="logo-right">
-
-      <a href="https://www.aspconline.org/"
-         target="_blank">
-
-        <img src="aspc-logo.jpg"
-             alt="ASPC Logo"
-             class="logo">
-
-      </a>
-
-    </div>
-
   </div>
 
-  <nav>
-
-    <div class="nav-inner">
-
-      <div class="nav-links">
-
-        <a href="https://www.sciencedirect.com/journal/american-journal-of-preventive-cardiology/vol/26/suppl/C"
-           target="_blank">
-          Current Issue
-        </a>
-
-        <a href="inpress.html"
-           target="_blank">
-          Articles in Press
-        </a>
-
-        <a href="https://www.editorialmanager.com/ajpc/default.aspx?adobe_mc=MCMID%3D29699147371652695884101806268074587709%7CMCORGID%3D4D6368F454EC41940A4C98A6%2540AdobeOrg%7CTS%3D1779819522"
-           target="_blank">
-          Submit
-        </a>
-
-        <a href="#">
-          Special Issues
-        </a>
-
-        <a href="editorial-board.html">
-          Editorial Board
-        </a>
-
-        <a href="about.html">
-          About
-        </a>
-
-      </div>
-
-      <form class="search-form"
-            onsubmit="searchAJPC(event)">
-
-        <input type="text"
-               id="ajpcSearch"
-               placeholder="Search AJPC articles..."
-               required>
-
-        <button type="submit">
-          Search
+  <header class="brand-header">
+    <div class="container brand-row">
+      <div class="volume-label"><strong>Volume 27</strong>August 2026<br />Open access</div>
+      <a class="brand" href="#top" aria-label="AJPC home">
+        <img src="ajpc-logo.png" alt="The American Journal of Preventive Cardiology" />
+      </a>
+      <div class="brand-actions">
+        <button class="round-btn" id="searchToggle" aria-label="Open search" aria-expanded="false">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="m20 20-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
         </button>
-
-      </form>
-
-    </div>
-
-  </nav>
-
-</header>
-
-<section class="hero">
-
-  <div class="hero-inner">
-
-    <div>
-
-      <div class="label">
-        Prevention • Cardiometabolic Health • Population Science
+        <a class="btn btn-accent" href="https://www.editorialmanager.com/ajpc/default.aspx?adobe_mc=MCMID%3D29699147371652695884101806268074587709%7CMCORGID%3D4D6368F454EC41940A4C98A6%2540AdobeOrg%7CTS%3D1785975391" target="_blank" rel="noopener noreferrer">Submit</a>
       </div>
-
-      <h1>
-        Advancing the science and practice of cardiovascular prevention.
-      </h1>
-
-      <p>
-        The American Journal of Preventive Cardiology publishes rigorous,
-        clinically relevant science across prevention, cardiometabolic health,
-        digital health, implementation science, lifestyle medicine,
-        imaging, and population cardiovascular health.
-      </p>
-
-      <div class="buttons">
-
-        <a href="https://www.editorialmanager.com/ajpc/default.aspx?adobe_mc=MCMID%3D29699147371652695884101806268074587709%7CMCORGID%3D4D6368F454EC41940A4C98A6%2540AdobeOrg%7CTS%3D1779819522"
-           class="btn primary"
-           target="_blank">
-          Submit Manuscript
-        </a>
-
-        <a href="https://www.sciencedirect.com/journal/american-journal-of-preventive-cardiology/vol/26/suppl/C"
-           class="btn secondary"
-           target="_blank">
-          Read Latest Issue
-        </a>
-
-      </div>
-
     </div>
+  </header>
 
-    <div class="issue-card">
-
-      <a href="https://www.sciencedirect.com/journal/american-journal-of-preventive-cardiology/vol/26/suppl/C"
-         target="_blank">
-
-        <img src="current-issue.jpg"
-             alt="Current Issue AJPC"
-             class="issue-image">
-
-      </a>
-
-    </div>
-
+  <div class="nav-wrap">
+    <nav class="container nav-inner" aria-label="Primary navigation">
+      <a href="#latest">New Online</a>
+      <a href="#research">Research</a>
+      <a href="#practice">Reviews</a>
+      <a href="#interviews">Author Interviews</a>
+      <a href="#topics">Topics</a>
+      <a href="#jobs">Jobs</a>
+      <a href="#authors">For Authors</a>
+      <button class="round-btn menu-btn" aria-label="Open menu">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </nav>
   </div>
 
-</section>
+  <div class="search-panel" id="searchPanel">
+    <form class="container search-form" role="search">
+      <input type="search" placeholder="Search articles, authors, topics, and issues" aria-label="Search AJPC" />
+      <button class="btn btn-accent" type="submit">Search</button>
+    </form>
+  </div>
 
-<main>
-
-  <!-- EDITOR'S PICK -->
-
-  <section class="top-grid">
-
-    <div class="card">
-
-      <div class="article-type">
-        Editor’s Pick
-      </div>
-
-      <div class="featured-title">
-
-        <a href="https://www.sciencedirect.com/science/article/pii/S2666667726000498"
-           target="_blank"
-           style="color:inherit;text-decoration:none;">
-
-          The socio-environmental exposome and maternal cardiometabolic health in the US: a machine learning approach
-
-        </a>
-
-      </div>
-
-      <div class="author">
-        Pedro Rafael Vieira de Oliveira Salerno et al.
-      </div>
-
-      <p>
-        This article represents an emerging frontier in preventive cardiology by integrating socio-environmental exposures, machine learning, and maternal cardiometabolic health.
-      </p>
-
-      <p>
-        It expands prevention beyond traditional risk factors into the broader exposome framework and highlights how environmental and social determinants shape cardiovascular risk across the lifespan.
-      </p>
-
-      <img src="editorspick-image.jpg"
-           alt="Socio-environmental exposome article"
-           class="featured-image">
-
+  <div class="issue-bar">
+    <div class="container issue-inner">
+      <div><span class="kicker">Current Issue</span> &nbsp; <strong>Prevention Across the Life Course</strong></div>
+      <div class="issue-links"><a href="#">View Issue</a><a href="#">Articles in Press</a><a href="#">Most Read</a></div>
     </div>
+  </div>
 
-    <div class="card">
+  <main id="top">
+    <section class="lead-section" id="research">
+      <div class="container lead-grid">
+        <div class="lead-main">
+          <article class="lead-story reveal">
+            <div class="lead-copy">
+              <div class="kicker">Featured Original Investigation</div>
+              <h1>Personalizing cardiovascular prevention across the life course</h1>
+              <p>A model feature story built around a concise clinical question, clear findings, and an immediate path to the visual abstract, full article, and related commentary.</p>
+              <div class="article-meta">
+                <span><strong>Sadeer Al-Kindi, MD</strong>, et al</span>
+                <span>Published online August 5, 2026</span>
+                <span>Open access</span>
+              </div>
+              <div class="lead-actions">
+                <a class="btn btn-accent" href="#">Read Article</a>
+                <a class="btn btn-outline" href="#interviews">Watch Author Interview</a>
+              </div>
+            </div>
+            <div class="lead-art" aria-label="Abstract cardiovascular visual">
+              <svg viewBox="0 0 430 370" fill="none" aria-hidden="true">
+                <rect x="31" y="28" width="368" height="314" fill="#F8F8F5" stroke="#A9ABAD"/>
+                <path d="M68 286H362M68 233H362M68 180H362M68 127H362M68 74H362" stroke="#D9DAD7"/>
+                <path d="M85 275C124 263 148 222 176 230C210 240 216 152 250 169C285 187 293 103 350 79" stroke="#9D1D35" stroke-width="7" stroke-linecap="round"/>
+                <path d="M85 275C124 263 148 222 176 230C210 240 216 152 250 169C285 187 293 103 350 79" stroke="#18324A" stroke-width="2" stroke-dasharray="3 11" stroke-linecap="round"/>
+                <circle cx="85" cy="275" r="10" fill="#167D7F"/><circle cx="176" cy="230" r="10" fill="#167D7F"/><circle cx="250" cy="169" r="10" fill="#167D7F"/><circle cx="350" cy="79" r="10" fill="#167D7F"/>
+                <path d="M91 56h104" stroke="#202124" stroke-width="8" stroke-linecap="round"/><path d="M91 73h72" stroke="#85898D" stroke-width="4" stroke-linecap="round"/>
+                <text x="83" y="318" fill="#63676B" font-size="12" font-family="Arial">EARLY RISK</text>
+                <text x="296" y="318" fill="#63676B" font-size="12" font-family="Arial">LONGEVITY</text>
+              </svg>
+            </div>
+          </article>
+        </div>
 
-      <div class="article-type">
-        Special Collection
+        <aside class="lead-side">
+          <div>
+            <div class="side-head"><h2>New Online</h2><a class="text-link" href="#latest">View all</a></div>
+            <div class="article-list">
+              <article class="list-item">
+                <div class="kicker">Clinical Review</div>
+                <h3><a href="#">Contemporary lipid management in patients with residual risk</a></h3>
+                <div class="list-meta">August 4, 2026 · 12 min read</div>
+              </article>
+              <article class="list-item">
+                <div class="kicker">Perspective</div>
+                <h3><a href="#">Artificial intelligence and the next era of preventive cardiology</a></h3>
+                <div class="list-meta">August 3, 2026 · 7 min read</div>
+              </article>
+              <article class="list-item">
+                <div class="kicker">Original Research</div>
+                <h3><a href="#">Neighborhood climate vulnerability and epicardial adipose tissue</a></h3>
+                <div class="list-meta">August 1, 2026 · Open access</div>
+              </article>
+            </div>
+          </div>
+          <div class="most-read">
+            <h3>Most Read</h3>
+            <div class="ranked">
+              <a href="#"><span>01</span>GLP-1 receptor agonists and cardiovascular prevention</a>
+              <a href="#"><span>02</span>Coronary calcium in contemporary risk assessment</a>
+              <a href="#"><span>03</span>Environmental exposures and cardiovascular disease</a>
+            </div>
+          </div>
+        </aside>
       </div>
+    </section>
 
-      <h2 style="margin-top:12px;color:var(--primary-dark);font-family:Georgia,serif;font-size:38px;">
-        Digital Health and AI in Preventive Cardiology
-      </h2>
+    <section class="latest-section" id="latest">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><div class="kicker">Research and Opinion</div><h2>Selected articles</h2></div>
+          <a class="text-link" href="#">Browse all articles →</a>
+        </div>
+        <div class="latest-grid">
+          <article class="article-card accent reveal">
+            <div class="kicker">Original Research</div>
+            <h3><a href="#">Wearable-derived physiology and progression of coronary plaque during hormonal therapy</a></h3>
+            <p>Prospective evidence linking changes in physical activity and physiologic measures with imaging-defined atherosclerosis.</p>
+            <div class="article-meta"><span>Research</span><span>Open access</span><span>8 min read</span></div>
+          </article>
+          <article class="article-card teal reveal">
+            <div class="kicker">Review</div>
+            <h3><a href="#">A practical framework for implementing cardiovascular prevention in cancer care</a></h3>
+            <p>A clinician-focused review of risk assessment, surveillance, and prevention across the cancer journey.</p>
+            <div class="article-meta"><span>Review</span><span>Figures</span><span>13 min read</span></div>
+          </article>
+          <article class="article-card reveal">
+            <div class="kicker">Editorial</div>
+            <h3><a href="#">From prediction to action: what makes preventive AI clinically useful?</a></h3>
+            <p>Editorial perspective on validation, implementation, fairness, and measurable impact in clinical practice.</p>
+            <div class="article-meta"><span>Editorial</span><span>Related research</span><span>5 min read</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-      <p>
-        AJPC welcomes original investigations,
-        implementation studies, and perspectives focused
-        on digital innovation in cardiovascular prevention.
-      </p>
+    <section id="interviews">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><div class="kicker">AJPC Conversations</div><h2>Author interviews</h2></div>
+          <a class="text-link" href="#">View all interviews →</a>
+        </div>
+        <div class="interviews-grid">
+          <article class="interview-card featured reveal">
+            <div class="interview-visual">
+              <div class="portrait">SA</div>
+              <div class="play-icon">▶</div>
+            </div>
+            <div class="interview-body">
+              <div class="kicker">Featured Interview · 11:42</div>
+              <h3>What this study changes about cardiovascular risk assessment</h3>
+              <p>The lead author discusses the study question, the most important result, and what clinicians should take into practice now.</p>
+            </div>
+          </article>
+          <article class="interview-card reveal">
+            <div class="interview-visual"><div class="portrait">LM</div><div class="play-icon">▶</div></div>
+            <div class="interview-body">
+              <div class="kicker">Author Interview · 08:15</div>
+              <h3>Closing the implementation gap in lipid management</h3>
+              <p>A concise discussion of barriers, solutions, and next steps.</p>
+            </div>
+          </article>
+          <article class="interview-card reveal">
+            <div class="interview-visual"><div class="portrait">RK</div><div class="play-icon">▶</div></div>
+            <div class="interview-body">
+              <div class="kicker">Editor Interview · 06:48</div>
+              <h3>How AJPC editors evaluate clinically meaningful research</h3>
+              <p>Inside the journal’s approach to rigor, relevance, and communication.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-      <p>
-        Areas of interest include multimodal AI,
-        imaging analytics, precision prevention,
-        digital therapeutics, wearable technologies,
-        implementation science, and population health.
-      </p>
+    <section id="practice">
+      <div class="container practice-grid">
+        <article class="briefing reveal">
+          <div class="kicker" style="color:#ffb8c4">Clinical Briefing</div>
+          <h2>The five-minute prevention briefing</h2>
+          <p>A disciplined summary format that brings the clinical question, main finding, limitations, and practical meaning to the top.</p>
+          <div class="key-points">
+            <div class="key-point"><span>01</span><div><strong>Question</strong><br />What problem did the investigators test?</div></div>
+            <div class="key-point"><span>02</span><div><strong>Findings</strong><br />What is the clearest, most actionable result?</div></div>
+            <div class="key-point"><span>03</span><div><strong>Meaning</strong><br />How should this influence prevention practice?</div></div>
+          </div>
+          <a class="btn btn-accent" href="#">Read this week’s briefing</a>
+        </article>
+        <aside class="editor-column reveal">
+          <div class="kicker">From the Editors</div>
+          <blockquote>“AJPC should feel like the daily front door to preventive cardiology, not simply an archive of published articles.”</blockquote>
+          <div class="editor-profile">
+            <div class="small-avatar">AJ</div>
+            <div><strong>AJPC Editorial Team</strong><span>Journal priorities and editor selections</span></div>
+          </div>
+        </aside>
+      </div>
+    </section>
 
+    <section class="topics-section" id="topics">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><div class="kicker">Explore AJPC</div><h2>Topics</h2></div>
+          <a class="text-link" href="#">Browse all topics →</a>
+        </div>
+        <div class="topic-grid reveal">
+          <a class="topic-link" href="#"><strong>Lipids & Atherosclerosis</strong><span>LDL lowering, plaque, imaging</span></a>
+          <a class="topic-link" href="#"><strong>Hypertension</strong><span>Detection, treatment, implementation</span></a>
+          <a class="topic-link" href="#"><strong>Obesity & Metabolism</strong><span>GLP-1 therapies, diabetes, nutrition</span></a>
+          <a class="topic-link" href="#"><strong>Digital Health & AI</strong><span>Wearables, models, workflows</span></a>
+          <a class="topic-link" href="#"><strong>Environment & Equity</strong><span>Pollution, climate, place, access</span></a>
+          <a class="topic-link" href="#"><strong>Lifestyle & Wellness</strong><span>Exercise, sleep, diet, behavior</span></a>
+          <a class="topic-link" href="#"><strong>Cardio-Oncology</strong><span>Prevention across cancer care</span></a>
+          <a class="topic-link" href="#"><strong>Policy & Implementation</strong><span>Guidelines, systems, value</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="jobs-section" id="jobs">
+      <div class="container jobs-layout">
+        <div class="jobs-intro reveal">
+          <div class="kicker">AJPC Career Center</div>
+          <h2>Opportunities in preventive cardiology</h2>
+          <p>A dedicated space for academic, clinical, research, fellowship, and industry opportunities relevant to the AJPC community.</p>
+          <div class="jobs-actions">
+            <a class="btn btn-accent" href="#">Browse All Jobs</a>
+            <a class="btn btn-outline" href="#">Post a Job</a>
+          </div>
+        </div>
+        <div class="job-list reveal">
+          <article class="job-card">
+            <div>
+              <div class="kicker">Academic Faculty</div>
+              <h3><a href="#">Director of Preventive Cardiology</a></h3>
+              <div class="job-meta"><span>University Medical Center</span><span>Houston, Texas</span><span>Full time</span></div>
+              <div class="job-date">Posted 2 days ago</div>
+            </div>
+            <a class="job-arrow" href="#" aria-label="View job">→</a>
+          </article>
+          <article class="job-card">
+            <div>
+              <div class="kicker">Research</div>
+              <h3><a href="#">Postdoctoral Fellow in Cardiovascular Prevention and Data Science</a></h3>
+              <div class="job-meta"><span>Heart and Vascular Institute</span><span>Boston, Massachusetts</span><span>Hybrid</span></div>
+              <div class="job-date">Posted 4 days ago</div>
+            </div>
+            <a class="job-arrow" href="#" aria-label="View job">→</a>
+          </article>
+          <article class="job-card">
+            <div>
+              <div class="kicker">Clinical Practice</div>
+              <h3><a href="#">Preventive Cardiologist, Cardiometabolic Health Program</a></h3>
+              <div class="job-meta"><span>Regional Health System</span><span>Chicago, Illinois</span><span>Full time</span></div>
+              <div class="job-date">Posted 1 week ago</div>
+            </div>
+            <a class="job-arrow" href="#" aria-label="View job">→</a>
+          </article>
+          <article class="job-card">
+            <div>
+              <div class="kicker">Fellowship</div>
+              <h3><a href="#">Advanced Fellowship in Preventive Cardiology</a></h3>
+              <div class="job-meta"><span>Academic Heart Center</span><span>New York, New York</span><span>July 2027 start</span></div>
+              <div class="job-date">Posted 9 days ago</div>
+            </div>
+            <a class="job-arrow" href="#" aria-label="View job">→</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="author-cta" id="authors">
+      <div class="container author-box reveal">
+        <div>
+          <div class="kicker">For Authors</div>
+          <h2>Bring your best prevention science to AJPC.</h2>
+          <p>Clear pathways for original research, reviews, perspectives, clinical practice articles, visual abstracts, and multimedia supplements.</p>
+        </div>
+        <div class="author-actions">
+          <a class="btn btn-accent" href="#">Submit a Manuscript</a>
+          <a class="btn btn-outline" href="#">Author Instructions</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="container newsletter-box reveal">
+        <div>
+          <div class="kicker" style="color:#ffb8c4">AJPC Update</div>
+          <h2>The best of AJPC, delivered monthly.</h2>
+          <p>New research, interviews, editor selections, career opportunities, and calls for papers.</p>
+        </div>
+        <form>
+          <div class="signup">
+            <input type="email" placeholder="Email address" aria-label="Email address" required />
+            <button class="btn btn-accent" type="submit">Subscribe</button>
+          </div>
+          <div class="signup-note">By subscribing, you agree to receive AJPC updates. Unsubscribe anytime.</div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand"><strong>AJPC</strong><span>American Journal of Preventive Cardiology</span></div>
+          <p class="footer-copy">A modern open-access journal for cardiovascular prevention science, clinical practice, population health, policy, and implementation.</p>
+        </div>
+        <div><h4>Journal</h4><ul><li><a href="#">Current issue</a></li><li><a href="#">New online</a></li><li><a href="#">Most read</a></li><li><a href="#">Editorial board</a></li></ul></div>
+        <div><h4>Authors</h4><ul><li><a href="#">Submit</a></li><li><a href="#">Guide for authors</a></li><li><a href="#">Open access</a></li><li><a href="#">Calls for papers</a></li></ul></div>
+        <div><h4>Connect</h4><ul><li><a href="#">Author interviews</a></li><li><a href="#">Career center</a></li><li><a href="#">Newsletter</a></li><li><a href="#">ASPC</a></li></ul></div>
+      </div>
+      <div class="footer-bottom"><span>© 2026 AJPC concept design. Demo content for review.</span><span>Privacy · Terms · Accessibility</span></div>
     </div>
-
-  </section>
-
-  <!-- HIGHLIGHTED ARTICLES -->
-
-  <section>
-
-    <div class="section-title">
-      <h2>Highlighted Articles</h2>
-      <div class="bar"></div>
-    </div>
-
-    <div class="article-grid">
-
-      <div class="card article-card">
-
-        <div class="article-type">
-          Imaging AI
-        </div>
-
-        <h3>
-
-          <a href="https://www.sciencedirect.com/science/article/pii/S2666667726000462"
-             target="_blank"
-             style="color:inherit;text-decoration:none;">
-
-            Artificial intelligence-enabled coronary plaque quantification for personalized risk assessment and lipid-lowering therapy: Insights from the FISH&CHIPS study
-
-          </a>
-
-        </h3>
-
-        <div class="author">
-          Shyon Parsa et al.
-        </div>
-
-        <p>
-          One of the clearest examples of AI-enabled plaque phenotyping translating directly into personalized prevention and lipid management.
-        </p>
-
-      </div>
-
-      <div class="card article-card">
-
-        <div class="article-type">
-          Population Health
-        </div>
-
-        <h3>
-
-          <a href="https://www.sciencedirect.com/science/article/pii/S2666667726000620"
-             target="_blank"
-             style="color:inherit;text-decoration:none;">
-
-            Prediabetes, obesity and risk for incident atherosclerotic cardiovascular disease: A large-scale contemporary cohort study
-
-          </a>
-
-        </h3>
-
-        <div class="author">
-          Jamal S. Rana et al.
-        </div>
-
-        <p>
-          Large-scale contemporary evidence showing that prediabetes and obesity are major contributors to premature ASCVD risk.
-        </p>
-
-      </div>
-
-      <div class="card article-card">
-
-        <div class="article-type">
-          Precision Prevention
-        </div>
-
-        <h3>
-
-          <a href="https://www.sciencedirect.com/science/article/pii/S2666667726000814"
-             target="_blank"
-             style="color:inherit;text-decoration:none;">
-
-            Polygenic risk scores enhance LDL cholesterol–based risk stratification for coronary artery disease
-
-          </a>
-
-        </h3>
-
-        <div class="author">
-          Colin Harper et al.
-        </div>
-
-        <p>
-          Integrates genomics with traditional lipid metrics to advance individualized primary prevention and precision risk prediction.
-        </p>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- METRICS -->
-
-  <section>
-
-    <div class="section-title">
-      <h2>Journal Highlights</h2>
-      <div class="bar"></div>
-    </div>
-
-    <div class="mini-cards">
-
-      <div class="mini-card">
-        <div class="metric">7.4</div>
-        <h3>CiteScore</h3>
-        <p>Global impact across preventive cardiology research.</p>
-      </div>
-
-      <div class="mini-card">
-        <div class="metric">5.9</div>
-        <h3>Impact Factor</h3>
-        <p>Strong scientific influence in cardiovascular prevention.</p>
-      </div>
-
-      <div class="mini-card">
-        <div class="metric">8d</div>
-        <h3>First Decision</h3>
-        <p>Rapid editorial review and decision timeline.</p>
-      </div>
-
-      <div class="mini-card">
-        <div class="metric">24%</div>
-        <h3>Acceptance Rate</h3>
-        <p>Selective publication of high-quality scientific work.</p>
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- EXPLORE -->
-
-  <section>
-
-    <div class="section-title">
-      <h2>Explore AJPC</h2>
-      <div class="bar"></div>
-    </div>
-
-    <div class="article-grid">
-
-      <div class="card article-card">
-
-        <div class="article-type">
-          For Authors
-        </div>
-
-        <h3>
-
-          <a href="https://www.editorialmanager.com/ajpc/default.aspx?adobe_mc=MCMID%3D29699147371652695884101806268074587709%7CMCORGID%3D4D6368F454EC41940A4C98A6%2540AdobeOrg%7CTS%3D1779819522"
-             target="_blank"
-             style="color:inherit;text-decoration:none;">
-
-            Submit your manuscript
-
-          </a>
-
-        </h3>
-
-        <p>
-          Share research that advances prevention,
-          cardiometabolic health, implementation science,
-          and population cardiovascular health.
-        </p>
-
-      </div>
-
-      <div class="card article-card">
-
-        <div class="article-type">
-          Journal Information
-        </div>
-
-        <h3>
-
-          <a href="about.html"
-             style="color:inherit;text-decoration:none;">
-
-            About the journal
-
-          </a>
-
-        </h3>
-
-        <p>
-          Learn more about AJPC’s aims, scope,
-          publishing model, indexing,
-          and role as the official journal of ASPC.
-        </p>
-
-      </div>
-
-      <div class="card article-card">
-
-        <div class="article-type">
-          Leadership
-        </div>
-
-        <h3>
-
-          <a href="editorial-board.html"
-             style="color:inherit;text-decoration:none;">
-
-            Editorial board
-
-          </a>
-
-        </h3>
-
-        <p>
-          Meet the editorial leadership and international
-          board guiding the journal’s scientific direction.
-        </p>
-
-      </div>
-
-    </div>
-
-  </section>
-
-</main>
-
-<footer>
-  © 2026 American Journal of Preventive Cardiology.
-  All rights reserved.
-</footer>
-
-<script>
-
-function searchAJPC(event) {
-
-  event.preventDefault();
-
-  const query =
-    document.getElementById("ajpcSearch").value.trim();
-
-  if (!query) return;
-
-  const url =
-    "https://www.sciencedirect.com/search?qs=" +
-    encodeURIComponent(query) +
-    "&pub=American+Journal+of+Preventive+Cardiology&cid=777610";
-
-  window.open(url, "_blank");
-}
-
-</script>
-
+  </footer>
+
+  <script>
+    const searchToggle = document.getElementById('searchToggle');
+    const searchPanel = document.getElementById('searchPanel');
+    searchToggle.addEventListener('click', () => {
+      const isOpen = searchPanel.classList.toggle('open');
+      searchToggle.setAttribute('aria-expanded', isOpen);
+      if (isOpen) searchPanel.querySelector('input').focus();
+    });
+
+    document.querySelectorAll('form').forEach(form => {
+      form.addEventListener('submit', event => event.preventDefault());
+    });
+
+  </script>
 </body>
 </html>
