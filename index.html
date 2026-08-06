@@ -845,12 +845,16 @@
       if (!container || !Array.isArray(articles) || articles.length === 0) return;
 
       if (label && data.currentVolume) label.textContent = `Volume ${data.currentVolume}`;
-      const themes = Array.isArray(data.themeOrder)
+      const themes = Array.isArray(data.themeOrder) && data.themeOrder.length
         ? data.themeOrder
         : [...new Set(articles.map(article => article.theme).filter(Boolean))];
+      const themedArticles = themes.length
+        ? articles
+        : articles.map(article => ({ ...article, theme: 'Current issue papers' }));
+      const visibleThemes = themes.length ? themes : ['Current issue papers'];
 
-      container.innerHTML = themes.map(theme => {
-        const papers = articles.filter(article => article.theme === theme);
+      container.innerHTML = visibleThemes.map(theme => {
+        const papers = themedArticles.filter(article => article.theme === theme);
         if (!papers.length) return '';
         return `
           <section class="theme-section">
@@ -872,7 +876,7 @@
       }).join('');
     };
 
-    fetch('data/articles.json')
+    fetch('data/articles.json?v=20260805-2', { cache: 'no-store' })
       .then(response => {
         if (!response.ok) throw new Error(`Article feed returned ${response.status}`);
         return response.json();
