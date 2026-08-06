@@ -6,6 +6,8 @@
   })[character]);
 
   const articleURL = article => `article.html?pmcid=${encodeURIComponent(article.pmcid)}`;
+  const abstractText = article => article.abstractText || article.summary || 'An abstract is not available in the local article index.';
+  const abstractId = (article, context) => `${context}-abstract-${String(article.pmcid || article.doi || article.title).replace(/[^a-z0-9_-]/gi, '-')}`;
   const dateLabel = value => {
     if (!value) return 'Recently published';
     const date = new Date(`${value}T00:00:00Z`);
@@ -64,12 +66,20 @@
       if (!papers.length) return '';
       return `<section class="theme-section">
         <div class="theme-heading"><h3>${escapeHTML(theme)}</h3><span>${papers.length} ${papers.length === 1 ? 'paper' : 'papers'}</span></div>
-        <div class="theme-list">${papers.map(article => `
+        <div class="theme-list">${papers.map(article => {
+          const panelId = abstractId(article, 'issue');
+          return `
           <article class="theme-paper">
-            <h4 class="paper-title"><a href="${articleURL(article)}">${escapeHTML(article.title)}</a></h4>
+            <h4 class="paper-title"><button class="article-title-toggle" type="button" data-abstract-target="${escapeHTML(panelId)}" aria-expanded="false" aria-controls="${escapeHTML(panelId)}">${escapeHTML(article.title)}</button></h4>
             <div class="paper-byline"><strong>${escapeHTML(article.authorsShort || '')}</strong>${escapeHTML(dateLabel(article.published))}</div>
-            <a class="paper-arrow" href="${articleURL(article)}" aria-label="Read ${escapeHTML(article.title)} on AJPC">→</a>
-          </article>`).join('')}</div>
+            <span class="paper-arrow" aria-hidden="true">+</span>
+            <div class="abstract-preview paper-abstract" id="${escapeHTML(panelId)}" hidden>
+              <div class="kicker">Abstract</div>
+              <p>${escapeHTML(abstractText(article))}</p>
+              <a class="library-link" href="${articleURL(article)}">Open full text on AJPC →</a>
+            </div>
+          </article>`;
+        }).join('')}</div>
       </section>`;
     }).join('') || '<p class="feed-status">No current issue articles are indexed yet.</p>';
   }
@@ -86,15 +96,40 @@
       return (!search || haystack.includes(search)) && (!topic || article.theme === topic);
     });
     if (count) count.textContent = `${filtered.length} ${filtered.length === 1 ? 'article' : 'articles'}`;
-    grid.innerHTML = filtered.length ? filtered.map(article => `
+    grid.innerHTML = filtered.length ? filtered.map(article => {
+      const panelId = abstractId(article, 'library');
+      return `
       <article class="library-card">
         <div class="kicker">${escapeHTML(article.theme || article.articleType || 'Article')}</div>
-        <h3><a href="${articleURL(article)}">${escapeHTML(article.title)}</a></h3>
-        <p>${escapeHTML(article.summary || '')}</p>
+        <h3><button class="article-title-toggle" type="button" data-abstract-target="${escapeHTML(panelId)}" aria-expanded="false" aria-controls="${escapeHTML(panelId)}">${escapeHTML(article.title)}</button></h3>
         <div class="library-meta">${escapeHTML(article.authorsShort || '')}<br>${escapeHTML(dateLabel(article.published))} · ${escapeHTML(article.license || 'Open access')}</div>
-        <a class="library-link" href="${articleURL(article)}">Read full article on AJPC →</a>
-      </article>`).join('') : '<div class="empty-state">No articles match this search.</div>';
+        <div class="abstract-preview library-abstract" id="${escapeHTML(panelId)}" hidden>
+          <div class="kicker">Abstract</div>
+          <p>${escapeHTML(abstractText(article))}</p>
+        </div>
+        <div class="library-actions">
+          <button class="abstract-toggle-link" type="button" data-abstract-target="${escapeHTML(panelId)}" aria-expanded="false" aria-controls="${escapeHTML(panelId)}">Show abstract</button>
+          <a class="library-link" href="${articleURL(article)}">Open full text on AJPC →</a>
+        </div>
+      </article>`;
+    }).join('') : '<div class="empty-state">No articles match this search.</div>';
   }
+
+  document.addEventListener('click', event => {
+    const toggle = event.target.closest('[data-abstract-target]');
+    if (!toggle) return;
+    const panelId = toggle.dataset.abstractTarget;
+    const panel = panelId ? document.getElementById(panelId) : null;
+    if (!panel) return;
+    const expanded = panel.hidden;
+    panel.hidden = !expanded;
+    const article = toggle.closest('article');
+    article?.classList.toggle('abstract-open', expanded);
+    article?.querySelectorAll(`[data-abstract-target="${CSS.escape(panelId)}"]`).forEach(control => {
+      control.setAttribute('aria-expanded', String(expanded));
+      if (control.classList.contains('abstract-toggle-link')) control.textContent = expanded ? 'Hide abstract' : 'Show abstract';
+    });
+  });
 
   function populateTopics() {
     const select = document.getElementById('topicFilter');

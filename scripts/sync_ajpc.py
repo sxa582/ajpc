@@ -56,7 +56,7 @@ def strip_html(value: str) -> str:
     return re.sub(r"\s+", " ", html_module.unescape(value)).strip()
 
 
-def article_summary(article: dict[str, Any], max_chars: int = 360) -> str:
+def article_abstract(article: dict[str, Any]) -> str:
     abstract = article.get("abstract") or []
     text = " ".join(strip_html(item.get("html") or item.get("text") or "") if isinstance(item, dict) else strip_html(str(item)) for item in abstract)
     if not text:
@@ -68,6 +68,11 @@ def article_summary(article: dict[str, Any], max_chars: int = 360) -> str:
                         break
             if text:
                 break
+    return text
+
+
+def article_summary(article: dict[str, Any], max_chars: int = 360) -> str:
+    text = article_abstract(article)
     return text if len(text) <= max_chars else text[: max_chars - 1].rstrip() + "…"
 
 
@@ -110,6 +115,7 @@ def index_entry(article: dict[str, Any]) -> dict[str, Any]:
         "articleType": article.get("articleType", "Article"),
         "theme": classify_theme(article),
         "license": article.get("license", "CC BY"),
+        "abstractText": article_abstract(article),
         "summary": article_summary(article),
     }
 
