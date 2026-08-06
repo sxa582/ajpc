@@ -1,0 +1,30 @@
+name: Sync AJPC articles from PMC
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 7 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Import CC BY articles
+        env:
+          NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+        run: python scripts/sync_ajpc.py --download-assets --keep-going
+      - name: Commit updates
+        run: |
+          git config user.name "AJPC PMC Sync"
+          git config user.email "actions@users.noreply.github.com"
+          git add data assets/pmc
+          git diff --cached --quiet || git commit -m "Update AJPC PMC article library"
+          git push
