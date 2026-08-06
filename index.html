@@ -537,6 +537,26 @@
     .footer-brand strong { color: var(--accent); font: 700 2.6rem/1 var(--serif); letter-spacing: -.05em; }
     .footer-brand span { display: block; margin-top: 8px; font: 700 .72rem/1.2 var(--serif); text-transform: uppercase; }
     .footer-copy { color: var(--muted); font-size: 0.78rem; max-width: 400px; }
+    .society-link {
+      width: fit-content;
+      margin-top: 20px;
+      display: block;
+    }
+    .society-link span {
+      display: block;
+      margin-bottom: 7px;
+      color: var(--faint);
+      font-size: .62rem;
+      font-weight: 800;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+    .society-link img {
+      width: 122px;
+      height: auto;
+      transition: opacity .18s ease;
+    }
+    .society-link:hover img { opacity: .72; }
     footer h4 { margin: 0 0 13px; font-size: 0.72rem; letter-spacing: .1em; text-transform: uppercase; }
     footer ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; color: var(--muted); font-size: 0.78rem; }
     footer a:hover { color: var(--accent); }
@@ -629,7 +649,7 @@
         <a href="#">About AJPC</a>
         <a href="#authors">For Authors</a>
         <a href="#jobs">Career Center</a>
-        <a href="#">ASPC.org</a>
+        <a href="https://www.aspconline.org/" target="_blank" rel="noopener noreferrer">ASPC.org</a>
       </div>
     </div>
   </div>
@@ -651,6 +671,7 @@
 
   <div class="nav-wrap">
     <nav class="container nav-inner" aria-label="Primary navigation">
+      <a href="#current-issue">Current Issue</a>
       <a href="#latest">New Online</a>
       <a href="#research">Research</a>
       <a href="#practice">Reviews</a>
@@ -671,7 +692,7 @@
     </form>
   </div>
 
-  <div class="issue-bar">
+  <div class="issue-bar" id="current-issue">
     <div class="container issue-inner">
       <div><span class="kicker">Current Issue</span> &nbsp; <strong>Prevention Across the Life Course</strong></div>
       <div class="issue-links"><a href="#">View Issue</a><a href="#">Articles in Press</a><a href="#">Most Read</a></div>
@@ -945,10 +966,14 @@
         <div>
           <div class="footer-brand"><strong>AJPC</strong><span>American Journal of Preventive Cardiology</span></div>
           <p class="footer-copy">A modern open-access journal for cardiovascular prevention science, clinical practice, population health, policy, and implementation.</p>
+          <a class="society-link" href="https://www.aspconline.org/" target="_blank" rel="noopener noreferrer" aria-label="Visit the American Society for Preventive Cardiology website">
+            <span>Official journal of</span>
+            <img src="aspc-logo.png" alt="American Society for Preventive Cardiology" />
+          </a>
         </div>
         <div><h4>Journal</h4><ul><li><a href="#">Current issue</a></li><li><a href="#">New online</a></li><li><a href="#">Most read</a></li><li><a href="#">Editorial board</a></li></ul></div>
         <div><h4>Authors</h4><ul><li><a href="#">Submit</a></li><li><a href="#">Guide for authors</a></li><li><a href="#">Open access</a></li><li><a href="#">Calls for papers</a></li></ul></div>
-        <div><h4>Connect</h4><ul><li><a href="#">Author interviews</a></li><li><a href="#">Career center</a></li><li><a href="#">Newsletter</a></li><li><a href="#">ASPC</a></li></ul></div>
+        <div><h4>Connect</h4><ul><li><a href="#">Author interviews</a></li><li><a href="#">Career center</a></li><li><a href="#">Newsletter</a></li><li><a href="https://www.aspconline.org/" target="_blank" rel="noopener noreferrer">ASPC</a></li></ul></div>
       </div>
       <div class="footer-bottom"><span>© 2026 AJPC concept design. Demo content for review.</span><span>Privacy · Terms · Accessibility</span></div>
     </div>
