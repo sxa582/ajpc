@@ -76,22 +76,6 @@
     .btn-accent { background: var(--accent); border-color: var(--accent); }
     .btn-accent:hover { background: var(--accent-dark); border-color: var(--accent-dark); }
 
-    .utility {
-      background: #f1f1ef;
-      border-bottom: 1px solid var(--line);
-      color: #505256;
-      font-size: 0.72rem;
-    }
-    .utility-inner {
-      min-height: 34px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 20px;
-    }
-    .utility-links { display: flex; align-items: center; gap: 18px; }
-    .utility a:hover { color: var(--accent); }
-
     .brand-header { background: #fff; }
     .brand-row {
       min-height: 118px;
@@ -592,8 +576,6 @@
 
     @media (max-width: 760px) {
       .container { width: min(calc(100% - 26px), var(--max)); }
-      .utility-inner { min-height: 32px; font-size: .64rem; }
-      .utility-links a:not(:last-child) { display: none; }
       .brand-row { min-height: 92px; grid-template-columns: 1fr auto; }
       .volume-label { display: none; }
       .brand { justify-self: start; }
@@ -642,18 +624,6 @@
   </style>
 </head>
 <body>
-  <div class="utility">
-    <div class="container utility-inner">
-      <div>Official Journal of the American Society for Preventive Cardiology</div>
-      <div class="utility-links">
-        <a href="#">About AJPC</a>
-        <a href="#authors">For Authors</a>
-        <a href="#jobs">Career Center</a>
-        <a href="https://www.aspconline.org/" target="_blank" rel="noopener noreferrer">ASPC.org</a>
-      </div>
-    </div>
-  </div>
-
   <header class="brand-header">
     <div class="container brand-row">
       <div class="volume-label"><strong>Volume 27</strong>August 2026<br />Open access</div>
