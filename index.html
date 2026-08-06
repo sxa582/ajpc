@@ -156,22 +156,6 @@
     }
     .search-form input:focus { border-color: var(--accent); }
 
-    .issue-bar {
-      border-bottom: 1px solid var(--line);
-      background: var(--soft-warm);
-    }
-    .issue-inner {
-      min-height: 45px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 20px;
-      font-size: 0.74rem;
-    }
-    .issue-inner strong { font-family: var(--serif); font-size: 0.92rem; }
-    .issue-links { display: flex; gap: 20px; color: var(--muted); }
-    .issue-links a:hover { color: var(--accent); }
-
     main section { padding: 74px 0; }
     .section-heading {
       padding-bottom: 15px;
@@ -583,8 +567,6 @@
       .nav-inner { justify-content: flex-end; min-height: 44px; }
       .nav-inner a { display: none; }
       .menu-btn { display: grid; }
-      .issue-inner { align-items: flex-start; flex-direction: column; padding: 11px 0; gap: 6px; }
-      .issue-links { gap: 14px; font-size: .68rem; }
       main section { padding: 58px 0; }
       .section-heading { align-items: flex-start; flex-direction: column; gap: 10px; }
       .lead-section { padding-top: 30px; }
@@ -641,7 +623,7 @@
 
   <div class="nav-wrap">
     <nav class="container nav-inner" aria-label="Primary navigation">
-      <a href="#current-issue">Current Issue</a>
+      <a href="https://www.sciencedirect.com/journal/american-journal-of-preventive-cardiology" target="_blank" rel="noopener noreferrer">Current Issue</a>
       <a href="#latest">New Online</a>
       <a href="#research">Research</a>
       <a href="#practice">Reviews</a>
@@ -660,13 +642,6 @@
       <input type="search" placeholder="Search articles, authors, topics, and issues" aria-label="Search AJPC" />
       <button class="btn btn-accent" type="submit">Search</button>
     </form>
-  </div>
-
-  <div class="issue-bar" id="current-issue">
-    <div class="container issue-inner">
-      <div><span class="kicker">Current Issue</span> &nbsp; <strong>Volume 28 · August 2026</strong></div>
-      <div class="issue-links"><a href="https://www.sciencedirect.com/journal/american-journal-of-preventive-cardiology" target="_blank" rel="noopener noreferrer">View Issue</a><a href="https://www.sciencedirect.com/journal/american-journal-of-preventive-cardiology/articles-in-press" target="_blank" rel="noopener noreferrer">Articles in Press</a><a href="https://www.sciencedirect.com/journal/american-journal-of-preventive-cardiology" target="_blank" rel="noopener noreferrer">Most Read</a></div>
-    </div>
   </div>
 
   <main id="top">
