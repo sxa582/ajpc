@@ -174,15 +174,9 @@
     }
 
     .lead-section { padding-top: 42px; }
-    .lead-grid {
-      display: grid;
-      grid-template-columns: minmax(0, 1.7fr) minmax(310px, 0.78fr);
-      gap: 42px;
-    }
+    .lead-grid { display: block; }
     .lead-story {
-      display: grid;
-      grid-template-columns: 1.02fr 0.98fr;
-      gap: 32px;
+      max-width: 1020px;
       padding-bottom: 34px;
       border-bottom: 1px solid var(--line-dark);
     }
@@ -207,86 +201,43 @@
     }
     .article-meta strong { color: var(--ink); }
     .lead-actions { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 25px; }
-    .lead-art {
-      min-height: 410px;
-      background: #e8ecee;
-      border: 1px solid var(--line-dark);
-      position: relative;
-      overflow: hidden;
-      display: grid;
-      place-items: center;
-      padding: 30px;
-    }
-    .lead-art::after {
-      content: "VISUAL ABSTRACT";
-      position: absolute;
-      left: 16px;
-      bottom: 15px;
-      font-size: 0.63rem;
-      font-weight: 900;
-      letter-spacing: 0.15em;
-      color: #51575d;
-    }
-    .lead-art svg { width: min(100%, 390px); }
-
-    .side-head {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding-bottom: 12px;
-      border-bottom: 2px solid var(--ink);
-      margin-bottom: 4px;
-    }
-    .side-head h2 { margin: 0; font: 700 1.32rem/1 var(--serif); }
-    .article-list { display: grid; }
-    .list-item {
-      padding: 21px 0;
-      border-bottom: 1px solid var(--line);
-    }
-    .list-item h3 {
-      margin: 7px 0 8px;
-      font: 700 1.14rem/1.23 var(--serif);
-      letter-spacing: -0.015em;
-    }
-    .list-item h3 a:hover { color: var(--accent); }
-    .list-meta { color: var(--muted); font-size: 0.7rem; }
-    .most-read {
-      margin-top: 26px;
-      padding: 20px 22px;
-      background: var(--soft);
-      border-top: 4px solid var(--accent);
-    }
-    .most-read h3 { margin: 0 0 13px; font: 700 1.28rem/1.1 var(--serif); }
-    .ranked { display: grid; gap: 12px; }
-    .ranked a {
-      display: grid;
-      grid-template-columns: 25px 1fr;
-      gap: 10px;
-      font: 700 0.9rem/1.3 var(--serif);
-    }
-    .ranked span { color: var(--accent); font-family: var(--sans); font-size: 0.72rem; }
-    .ranked a:hover { color: var(--accent); }
 
     .latest-section { background: var(--soft-warm); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-    .latest-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
-    .article-card {
-      background: #fff;
-      border-top: 4px solid var(--ink);
-      padding: 24px 24px 22px;
-      min-height: 300px;
+    .theme-groups { display: grid; gap: 46px; }
+    .theme-heading {
       display: flex;
-      flex-direction: column;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 20px;
+      padding-bottom: 12px;
+      border-bottom: 3px solid var(--ink);
     }
-    .article-card.accent { border-top-color: var(--accent); }
-    .article-card.teal { border-top-color: var(--teal); }
-    .article-card h3 {
-      margin: 9px 0 12px;
-      font: 700 1.48rem/1.17 var(--serif);
-      letter-spacing: -0.02em;
+    .theme-heading h3 { margin: 0; font: 700 1.55rem/1.1 var(--serif); }
+    .theme-heading span { color: var(--muted); font-size: .72rem; }
+    .theme-paper {
+      display: grid;
+      grid-template-columns: minmax(150px, .24fr) minmax(0, 1.25fr) minmax(180px, .48fr) 38px;
+      gap: 24px;
+      align-items: center;
+      padding: 21px 0;
+      border-bottom: 1px solid var(--line-dark);
     }
-    .article-card h3 a:hover { color: var(--accent); }
-    .article-card p { margin: 0; color: var(--muted); font-size: 0.84rem; }
-    .article-card .article-meta { margin-top: auto; padding-top: 22px; border-top: 1px solid var(--line); }
+    .theme-paper:hover { background: rgba(255,255,255,.52); }
+    .paper-type { color: var(--accent); font-size: .68rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .paper-title { margin: 0; font: 700 1.25rem/1.22 var(--serif); letter-spacing: -.012em; }
+    .paper-title a:hover { color: var(--accent); }
+    .paper-byline { color: var(--muted); font-size: .75rem; line-height: 1.5; }
+    .paper-byline strong { display: block; color: var(--ink); font-weight: 700; }
+    .paper-arrow {
+      width: 38px;
+      height: 38px;
+      border: 1px solid var(--line-dark);
+      display: grid;
+      place-items: center;
+      font-size: 1rem;
+    }
+    .theme-paper:hover .paper-arrow { border-color: var(--accent); background: var(--accent); color: #fff; }
+    .feed-status { color: var(--muted); font-family: var(--serif); }
 
     .interviews-grid {
       display: grid;
@@ -545,9 +496,7 @@
     @media (max-width: 1050px) {
       .brand-row { grid-template-columns: 130px 1fr 130px; }
       .nav-inner { gap: 23px; }
-      .lead-grid { grid-template-columns: 1fr; }
-      .lead-side { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
-      .most-read { margin-top: 0; }
+      .theme-paper { grid-template-columns: 130px minmax(0, 1fr) minmax(170px, .42fr) 38px; gap: 18px; }
       .interviews-grid { grid-template-columns: 1fr 1fr; }
       .interview-card.featured { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr; }
       .interview-card.featured .interview-visual { min-height: 330px; }
@@ -570,12 +519,11 @@
       main section { padding: 58px 0; }
       .section-heading { align-items: flex-start; flex-direction: column; gap: 10px; }
       .lead-section { padding-top: 30px; }
-      .lead-story { grid-template-columns: 1fr; }
       .lead-copy h1 { font-size: clamp(2.65rem, 13vw, 4.3rem); }
-      .lead-art { min-height: 310px; }
-      .lead-side { grid-template-columns: 1fr; }
-      .latest-grid { grid-template-columns: 1fr; }
-      .article-card { min-height: auto; }
+      .theme-heading { align-items: flex-start; flex-direction: column; gap: 5px; }
+      .theme-paper { grid-template-columns: 1fr 38px; gap: 8px 14px; }
+      .paper-type, .paper-byline { grid-column: 1; }
+      .paper-arrow { grid-column: 2; grid-row: 1 / span 3; align-self: center; }
       .interviews-grid { grid-template-columns: 1fr; }
       .interview-card.featured { grid-column: auto; display: flex; }
       .interview-card.featured .interview-visual { min-height: 225px; }
@@ -664,79 +612,19 @@
                 <a class="btn btn-outline" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13330701/" target="_blank" rel="noopener noreferrer">View Full Text</a>
               </div>
             </div>
-            <div class="lead-art" aria-label="LDL cholesterol lowering and cardiovascular risk visual">
-              <svg viewBox="0 0 430 370" fill="none" aria-hidden="true">
-                <rect x="31" y="28" width="368" height="314" fill="#F8F8F5" stroke="#A9ABAD"/>
-                <path d="M68 286H362M68 233H362M68 180H362M68 127H362M68 74H362" stroke="#D9DAD7"/>
-                <path d="M85 275C124 263 148 222 176 230C210 240 216 152 250 169C285 187 293 103 350 79" stroke="#9D1D35" stroke-width="7" stroke-linecap="round"/>
-                <path d="M85 275C124 263 148 222 176 230C210 240 216 152 250 169C285 187 293 103 350 79" stroke="#18324A" stroke-width="2" stroke-dasharray="3 11" stroke-linecap="round"/>
-                <circle cx="85" cy="275" r="10" fill="#167D7F"/><circle cx="176" cy="230" r="10" fill="#167D7F"/><circle cx="250" cy="169" r="10" fill="#167D7F"/><circle cx="350" cy="79" r="10" fill="#167D7F"/>
-                <path d="M91 56h104" stroke="#202124" stroke-width="8" stroke-linecap="round"/><path d="M91 73h72" stroke="#85898D" stroke-width="4" stroke-linecap="round"/>
-                <text x="83" y="318" fill="#63676B" font-size="12" font-family="Arial">LDL-C LOWERING</text>
-                <text x="280" y="318" fill="#63676B" font-size="12" font-family="Arial">RELATIVE BENEFIT</text>
-              </svg>
-            </div>
           </article>
         </div>
-
-        <aside class="lead-side">
-          <div>
-            <div class="side-head"><h2>New Online</h2><a class="text-link" href="#latest">View all</a></div>
-            <div class="article-list" id="latestFeedList">
-              <article class="list-item">
-                <div class="kicker">Clinical Review</div>
-                <h3><a href="#">Contemporary lipid management in patients with residual risk</a></h3>
-                <div class="list-meta">August 4, 2026 · 12 min read</div>
-              </article>
-              <article class="list-item">
-                <div class="kicker">Perspective</div>
-                <h3><a href="#">Artificial intelligence and the next era of preventive cardiology</a></h3>
-                <div class="list-meta">August 3, 2026 · 7 min read</div>
-              </article>
-              <article class="list-item">
-                <div class="kicker">Original Research</div>
-                <h3><a href="#">Neighborhood climate vulnerability and epicardial adipose tissue</a></h3>
-                <div class="list-meta">August 1, 2026 · Open access</div>
-              </article>
-            </div>
-          </div>
-          <div class="most-read">
-            <h3>Most Read</h3>
-            <div class="ranked">
-              <a href="#"><span>01</span>GLP-1 receptor agonists and cardiovascular prevention</a>
-              <a href="#"><span>02</span>Coronary calcium in contemporary risk assessment</a>
-              <a href="#"><span>03</span>Environmental exposures and cardiovascular disease</a>
-            </div>
-          </div>
-        </aside>
       </div>
     </section>
 
     <section class="latest-section" id="latest">
       <div class="container">
         <div class="section-heading reveal">
-          <div><div class="kicker">Research and Opinion</div><h2>Selected articles</h2></div>
-          <a class="text-link" href="#">Browse all articles →</a>
+          <div><div class="kicker" id="currentIssueLabel">Current issue</div><h2>Current issue</h2></div>
+          <a class="text-link" href="https://www.sciencedirect.com/journal/american-journal-of-preventive-cardiology" target="_blank" rel="noopener noreferrer">View on ScienceDirect →</a>
         </div>
-        <div class="latest-grid" id="selectedFeedGrid">
-          <article class="article-card accent reveal">
-            <div class="kicker">Original Research</div>
-            <h3><a href="#">Wearable-derived physiology and progression of coronary plaque during hormonal therapy</a></h3>
-            <p>Prospective evidence linking changes in physical activity and physiologic measures with imaging-defined atherosclerosis.</p>
-            <div class="article-meta"><span>Research</span><span>Open access</span><span>8 min read</span></div>
-          </article>
-          <article class="article-card teal reveal">
-            <div class="kicker">Review</div>
-            <h3><a href="#">A practical framework for implementing cardiovascular prevention in cancer care</a></h3>
-            <p>A clinician-focused review of risk assessment, surveillance, and prevention across the cancer journey.</p>
-            <div class="article-meta"><span>Review</span><span>Figures</span><span>13 min read</span></div>
-          </article>
-          <article class="article-card reveal">
-            <div class="kicker">Editorial</div>
-            <h3><a href="#">From prediction to action: what makes preventive AI clinically useful?</a></h3>
-            <p>Editorial perspective on validation, implementation, fairness, and measurable impact in clinical practice.</p>
-            <div class="article-meta"><span>Editorial</span><span>Related research</span><span>5 min read</span></div>
-          </article>
+        <div class="theme-groups" id="currentIssueThemes">
+          <p class="feed-status">Loading current issue papers…</p>
         </div>
       </div>
     </section>
@@ -950,31 +838,38 @@
         : new Intl.DateTimeFormat('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(date);
     };
 
-    const renderArticleFeeds = articles => {
-      const latest = document.getElementById('latestFeedList');
-      const selected = document.getElementById('selectedFeedGrid');
-      if (!latest || !selected || !Array.isArray(articles) || articles.length === 0) return;
+    const renderCurrentIssue = data => {
+      const container = document.getElementById('currentIssueThemes');
+      const label = document.getElementById('currentIssueLabel');
+      const articles = data?.articles;
+      if (!container || !Array.isArray(articles) || articles.length === 0) return;
 
-      latest.innerHTML = articles.slice(0, 3).map(article => `
-        <article class="list-item">
-          <div class="kicker">${escapeHTML(article.articleType)}</div>
-          <h3><a href="${escapeHTML(article.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(article.title)}</a></h3>
-          <div class="list-meta">${escapeHTML(articleDate(article.published))} · ${escapeHTML(article.authorsShort)}</div>
-        </article>
-      `).join('');
+      if (label && data.currentVolume) label.textContent = `Volume ${data.currentVolume}`;
+      const themes = Array.isArray(data.themeOrder)
+        ? data.themeOrder
+        : [...new Set(articles.map(article => article.theme).filter(Boolean))];
 
-      selected.innerHTML = articles.slice(0, 3).map((article, index) => `
-        <article class="article-card ${index === 0 ? 'accent' : index === 1 ? 'teal' : ''}">
-          <div class="kicker">${escapeHTML(article.articleType)}</div>
-          <h3><a href="${escapeHTML(article.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(article.title)}</a></h3>
-          <p>${escapeHTML(article.authors)}</p>
-          <div class="article-meta">
-            <span>${escapeHTML(article.volume ? `Volume ${article.volume}` : 'AJPC')}</span>
-            <span>${escapeHTML(article.issue ? `Issue ${article.issue}` : 'Open access')}</span>
-            <span>${escapeHTML(articleDate(article.published))}</span>
-          </div>
-        </article>
-      `).join('');
+      container.innerHTML = themes.map(theme => {
+        const papers = articles.filter(article => article.theme === theme);
+        if (!papers.length) return '';
+        return `
+          <section class="theme-section">
+            <div class="theme-heading">
+              <h3>${escapeHTML(theme)}</h3>
+              <span>${papers.length} ${papers.length === 1 ? 'paper' : 'papers'}</span>
+            </div>
+            <div class="theme-list">
+              ${papers.map(article => `
+                <article class="theme-paper">
+                  <div class="paper-type">${escapeHTML(article.articleType)}</div>
+                  <h4 class="paper-title"><a href="${escapeHTML(article.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(article.title)}</a></h4>
+                  <div class="paper-byline"><strong>${escapeHTML(article.authorsShort)}</strong>${escapeHTML(articleDate(article.published))}</div>
+                  <a class="paper-arrow" href="${escapeHTML(article.url)}" target="_blank" rel="noopener noreferrer" aria-label="Read ${escapeHTML(article.title)}">→</a>
+                </article>
+              `).join('')}
+            </div>
+          </section>`;
+      }).join('');
     };
 
     fetch('data/articles.json')
@@ -982,8 +877,12 @@
         if (!response.ok) throw new Error(`Article feed returned ${response.status}`);
         return response.json();
       })
-      .then(data => renderArticleFeeds(data.articles))
-      .catch(error => console.warn('Using fallback article cards:', error));
+      .then(renderCurrentIssue)
+      .catch(error => {
+        console.warn('Unable to load current issue papers:', error);
+        const container = document.getElementById('currentIssueThemes');
+        if (container) container.innerHTML = '<p class="feed-status">Current issue papers are temporarily unavailable. Please view the issue on ScienceDirect.</p>';
+      });
 
   </script>
 </body>
