@@ -68,6 +68,31 @@ class ParseSectionsTests(unittest.TestCase):
         self.assertEqual(len(sections[0]["blocks"]), 2)
         self.assertIn("Main editorial paragraph one.", sections[0]["blocks"][0]["html"])
 
+    def test_extracts_figures_and_tables_nested_in_paragraphs(self):
+        article = ET.fromstring(
+            """
+            <article xmlns:xlink="http://www.w3.org/1999/xlink">
+              <body><sec><title>Results</title>
+                <p>Study results.
+                  <fig><label>Fig. 1</label><caption><p>Outcome plot.</p></caption>
+                    <graphic xlink:href="figure-1.jpg" />
+                  </fig>
+                  <table-wrap><label>Table 1</label><caption><p>Patient data.</p></caption>
+                    <table><tr><th>Group</th><th>N</th></tr><tr><td>A</td><td>10</td></tr></table>
+                  </table-wrap>
+                </p>
+              </sec></body>
+            </article>
+            """
+        )
+
+        blocks = import_pmc.parse_sections(article, "PMC123")[0]["blocks"]
+
+        self.assertEqual([block["type"] for block in blocks], ["paragraph", "figure", "table"])
+        self.assertNotIn("Outcome plot", blocks[0]["html"])
+        self.assertEqual(blocks[1]["src"], "https://pmc.ncbi.nlm.nih.gov/articles/PMC123/bin/figure-1.jpg")
+        self.assertIn("<table>", blocks[2]["html"])
+
 
 if __name__ == "__main__":
     unittest.main()

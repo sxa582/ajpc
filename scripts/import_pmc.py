@@ -44,14 +44,18 @@ def plain_text(node: ET.Element | None) -> str:
     return clean_space("".join(node.itertext())) if node is not None else ""
 
 
-def inline_html(node: ET.Element | None) -> str:
+def inline_html(node: ET.Element | None, excluded_tags: set[str] | None = None) -> str:
     if node is None:
         return ""
+    excluded_tags = excluded_tags or set()
 
     def render(current: ET.Element) -> str:
         output = html.escape(current.text or "")
         for child in list(current):
             tag = local_name(child.tag)
+            if tag in excluded_tags:
+                output += html.escape(child.tail or "")
+                continue
             body = render(child)
             if tag in ALLOWED_INLINE:
                 mapped = ALLOWED_INLINE[tag]
@@ -284,6 +288,29 @@ def table_html(table_wrap: ET.Element) -> str:
     return f"<table>{''.join(rows)}</table>" if rows else ""
 
 
+def display_block(node: ET.Element, pmcid: str) -> dict[str, Any] | None:
+    tag = local_name(node.tag)
+    label = plain_text(node.find("./{*}label"))
+    caption_node = node.find("./{*}caption")
+    caption = " ".join(inline_html(p) for p in caption_node.findall("./{*}p")) if caption_node is not None else ""
+    if tag == "fig":
+        return {
+            "type": "figure",
+            "label": label,
+            "caption": caption,
+            "src": graphic_source(node, pmcid),
+            "alt": clean_space(f"{label} {plain_text(caption_node)}"),
+        }
+    if tag == "table-wrap":
+        return {
+            "type": "table",
+            "label": label,
+            "caption": caption,
+            "html": table_html(node),
+        }
+    return None
+
+
 def parse_direct_blocks(container: ET.Element, pmcid: str) -> list[dict[str, Any]]:
     blocks: list[dict[str, Any]] = []
     for child in list(container):
@@ -291,29 +318,21 @@ def parse_direct_blocks(container: ET.Element, pmcid: str) -> list[dict[str, Any
         if tag in {"title", "label", "sec"}:
             continue
         if tag == "p":
-            value = inline_html(child)
+            value = inline_html(child, {"fig", "table-wrap"})
             if value:
                 blocks.append({"type": "paragraph", "html": value})
+            for embedded in child.iter():
+                parsed_display = display_block(embedded, pmcid)
+                if parsed_display:
+                    blocks.append(parsed_display)
         elif tag == "list":
             parsed = parse_list(child)
             if parsed["items"]:
                 blocks.append(parsed)
-        elif tag == "fig":
-            label = plain_text(child.find("./{*}label"))
-            caption_node = child.find("./{*}caption")
-            caption = " ".join(inline_html(p) for p in caption_node.findall("./{*}p")) if caption_node is not None else ""
-            blocks.append({
-                "type": "figure",
-                "label": label,
-                "caption": caption,
-                "src": graphic_source(child, pmcid),
-                "alt": clean_space(f"{label} {plain_text(caption_node)}"),
-            })
-        elif tag == "table-wrap":
-            label = plain_text(child.find("./{*}label"))
-            caption_node = child.find("./{*}caption")
-            caption = " ".join(inline_html(p) for p in caption_node.findall("./{*}p")) if caption_node is not None else ""
-            blocks.append({"type": "table", "label": label, "caption": caption, "html": table_html(child)})
+        elif tag in {"fig", "table-wrap"}:
+            parsed_display = display_block(child, pmcid)
+            if parsed_display:
+                blocks.append(parsed_display)
         elif tag in {"disp-quote", "boxed-text", "verse-group"}:
             value = inline_html(child)
             if value:
