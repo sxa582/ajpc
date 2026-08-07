@@ -340,6 +340,13 @@ def parse_sections(article: ET.Element, pmcid: str) -> list[dict[str, Any]]:
 
     top_sections = body.findall("./{*}sec")
     if top_sections:
+        # Editorials and other short article types often place their main
+        # narrative directly under <body>, followed by titled disclosure
+        # sections. Keep those direct blocks instead of dropping them merely
+        # because at least one <sec> is also present.
+        direct_blocks = parse_direct_blocks(body, pmcid)
+        if direct_blocks:
+            sections.append({"title": "Article", "level": 1, "blocks": direct_blocks})
         for section in top_sections:
             walk(section)
     else:

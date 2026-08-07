@@ -42,5 +42,32 @@ class ExtractLicenseTests(unittest.TestCase):
             )
 
 
+class ParseSectionsTests(unittest.TestCase):
+    def test_keeps_direct_body_paragraphs_before_titled_sections(self):
+        article = ET.fromstring(
+            """
+            <article>
+              <body>
+                <p>Main editorial paragraph one.</p>
+                <p>Main editorial paragraph two.</p>
+                <sec>
+                  <title>Declaration of competing interest</title>
+                  <p>No competing interests.</p>
+                </sec>
+              </body>
+            </article>
+            """
+        )
+
+        sections = import_pmc.parse_sections(article, "PMC123")
+
+        self.assertEqual([section["title"] for section in sections], [
+            "Article",
+            "Declaration of competing interest",
+        ])
+        self.assertEqual(len(sections[0]["blocks"]), 2)
+        self.assertIn("Main editorial paragraph one.", sections[0]["blocks"][0]["html"])
+
+
 if __name__ == "__main__":
     unittest.main()
