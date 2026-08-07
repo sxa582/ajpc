@@ -177,6 +177,12 @@ def main() -> int:
                 raise
         time.sleep(delay)
 
+    if pmcids and not entries:
+        raise RuntimeError(
+            "PMC returned records, but none passed the importer. "
+            "The existing article index was preserved."
+        )
+
     destination = write_index(entries, args.project_root)
     print(f"Wrote {len(entries)} CC BY articles to {destination}")
     return 0

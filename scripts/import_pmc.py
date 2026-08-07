@@ -152,8 +152,25 @@ def extract_license(article: ET.Element) -> dict[str, str]:
             href = link.get(XLINK) or link.get("href")
             if href:
                 urls.append(href)
+    # Some PMC/JATS records print the Creative Commons URL as ordinary text
+    # instead of exposing it through an xlink:href attribute.
+    urls.extend(
+        re.findall(
+            r"https?://creativecommons\.org/licenses/[a-z-]+/\d+(?:\.\d+)?/?",
+            text,
+            flags=re.I,
+        )
+    )
+    urls = list(dict.fromkeys(urls))
     normalized_urls = [url.lower().rstrip("/") + "/" for url in urls]
-    strict_cc_by = next((url for url in normalized_urls if re.search(r"creativecommons\.org/licenses/by/\d(?:\.\d)?/$", url)), "")
+    strict_cc_by = next(
+        (
+            url
+            for url in normalized_urls
+            if re.search(r"creativecommons\.org/licenses/by/\d+(?:\.\d+)?/$", url)
+        ),
+        "",
+    )
     text_lower = text.lower()
     text_cc_by = (
         "creative commons attribution" in text_lower
@@ -168,7 +185,7 @@ def extract_license(article: ET.Element) -> dict[str, str]:
             f"Detected license text: {text[:220] or 'not found'}"
         )
     license_url = strict_cc_by or next((url for url in urls if "creativecommons.org/licenses/by/" in url.lower()), "https://creativecommons.org/licenses/by/4.0/")
-    version_match = re.search(r"licenses/by/(\d(?:\.\d)?)", license_url, re.I)
+    version_match = re.search(r"licenses/by/(\d+(?:\.\d+)?)", license_url, re.I)
     version = version_match.group(1) if version_match else "4.0"
     return {"name": f"CC BY {version}", "url": license_url, "text": text}
 
