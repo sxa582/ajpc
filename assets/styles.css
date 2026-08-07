@@ -241,7 +241,7 @@
       border-bottom: 1px solid var(--line-dark);
     }
     .theme-paper:hover { background: rgba(255,255,255,.52); }
-    .paper-title { margin: 0; font: 700 1.25rem/1.22 var(--serif); letter-spacing: -.012em; }
+    .paper-title { margin: 0; font: 700 1.05rem/1.3 var(--serif); letter-spacing: -.008em; }
     .article-title-toggle {
       appearance: none;
       width: 100%;
@@ -684,7 +684,7 @@
   border-color: var(--accent);
   box-shadow: 0 14px 34px rgba(26, 30, 34, .08);
 }
-.library-card h3 { margin: 9px 0 11px; font: 700 1.35rem/1.18 var(--serif); }
+.library-card h3 { margin: 9px 0 11px; font: 700 1.1rem/1.28 var(--serif); }
 .library-card p { margin: 0; color: var(--muted); font: 400 .87rem/1.55 var(--serif); }
 .library-card .library-meta { margin-top: auto; padding-top: 20px; color: var(--muted); font-size: .71rem; }
 .library-card .library-link { margin-top: 13px; color: var(--accent); font-size: .75rem; font-weight: 800; }
