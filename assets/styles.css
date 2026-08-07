@@ -167,6 +167,32 @@
 
     .lead-section { padding-top: 42px; }
     .lead-grid { display: block; }
+    .journal-performance {
+      margin: 0;
+      overflow: hidden;
+      background: #000;
+      border: 1px solid var(--line);
+      border-radius: 3px;
+      box-shadow: 0 12px 34px rgba(14, 35, 50, .1);
+    }
+    .journal-performance img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .editor-message {
+      margin: 34px 0 0;
+      padding: 22px;
+      overflow: hidden;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 3px;
+    }
+    .editor-message img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
     .lead-story {
       max-width: 1020px;
       padding-bottom: 34px;
@@ -533,6 +559,7 @@
       main section { padding: 58px 0; }
       .section-heading { align-items: flex-start; flex-direction: column; gap: 10px; }
       .lead-section { padding-top: 30px; }
+      .editor-message { margin-top: 22px; padding: 10px; }
       .lead-copy h1 { font-size: clamp(2.65rem, 13vw, 4.3rem); }
       .theme-heading { align-items: flex-start; flex-direction: column; gap: 5px; }
       .theme-paper { grid-template-columns: 1fr 38px; gap: 8px 14px; }
