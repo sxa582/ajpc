@@ -79,15 +79,19 @@
 
     <section id="library">
       <div class="container">
-        <div class="section-heading reveal">
-          <div><div class="kicker">AJPC Open Library</div><h2>Read every article here</h2></div>
-          <span class="muted" id="libraryCount">Loading…</span>
-        </div>
-        <div class="article-library-toolbar">
-          <input id="librarySearch" type="search" placeholder="Search the AJPC library" aria-label="Search article library" />
-          <select id="topicFilter" aria-label="Filter by topic"><option value="">All topics</option></select>
-        </div>
-        <div class="library-grid" id="libraryGrid"></div>
+        <details class="library-disclosure reveal">
+          <summary class="section-heading">
+            <div><div class="kicker">AJPC Open Library</div><h2>Read every article here</h2></div>
+            <span class="library-summary-meta"><span class="muted" id="libraryCount">Loading…</span><span class="disclosure-icon" aria-hidden="true">+</span></span>
+          </summary>
+          <div class="library-disclosure-content">
+            <div class="article-library-toolbar">
+              <input id="librarySearch" type="search" placeholder="Search the AJPC library" aria-label="Search article library" />
+              <select id="topicFilter" aria-label="Filter by topic"><option value="">All topics</option></select>
+            </div>
+            <div class="library-grid" id="libraryGrid"></div>
+          </div>
+        </details>
       </div>
     </section>
 
