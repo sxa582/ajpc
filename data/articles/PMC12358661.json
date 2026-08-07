@@ -1,0 +1,502 @@
+{
+  "pmcid": "PMC12358661",
+  "pmid": "40831762",
+  "doi": "10.1016/j.ajpc.2025.101072",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12358661/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Phthalate exposure is associated with subclinical coronary atherosclerosis: The Aragon Workers' Health Study (AWHS)",
+  "articleType": "Research Article",
+  "published": "2025-08-06",
+  "year": "2025",
+  "volume": "23",
+  "issue": "",
+  "articleNumber": "101072",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2025",
+  "authors": [
+    {
+      "given": "Diana María",
+      "surname": "Mérida",
+      "display": "Diana María Mérida"
+    },
+    {
+      "given": "Carolina",
+      "surname": "Torrijo-Belanche",
+      "display": "Carolina Torrijo-Belanche"
+    },
+    {
+      "given": "Belén",
+      "surname": "Moreno-Franco",
+      "display": "Belén Moreno-Franco"
+    },
+    {
+      "given": "Martín",
+      "surname": "Laclaustra",
+      "display": "Martín Laclaustra"
+    },
+    {
+      "given": "Jimena",
+      "surname": "Rey-García",
+      "display": "Jimena Rey-García"
+    },
+    {
+      "given": "Sofía",
+      "surname": "Gimeno-Ruiz",
+      "display": "Sofía Gimeno-Ruiz"
+    },
+    {
+      "given": "Ana",
+      "surname": "Bayán-Bravo",
+      "display": "Ana Bayán-Bravo"
+    },
+    {
+      "given": "Pilar",
+      "surname": "Guallar-Castillón",
+      "display": "Pilar Guallar-Castillón"
+    }
+  ],
+  "affiliations": [
+    "aDepartment of Preventive Medicine and Public Health. School of Medicine, Universidad Autónoma de Madrid, 28029 Madrid, Spain",
+    "bDepartment of Pharmacoepidemiology and Biostatistics, Fundación Teófilo Hernando, 28290 Las Rozas de Madrid, Spain",
+    "cCIBERESP (CIBER of Epidemiology and Public Health), 28029 Madrid, Spain",
+    "dDepartment of Preventive Medicine and Public Health, Universidad de Zaragoza, Zaragoza, 50009 Spain",
+    "eInstituto de Investigación Sanitaria Aragón, Hospital Universitario Miguel Servet, 50009 Zaragoza, Spain",
+    "fCIBERCV (CIBER de Enfermedades Cardiovasculares), 28029, Madrid, Spain",
+    "gDepartment of Medicine, Psychiatry and Dermatology, Universidad de Zaragoza, 50009 Zaragoza, Spain",
+    "hDepartment of Internal Medicine, Hospital Universitario Rey Juan Carlos, IIS-FJD, 28933 Móstoles, Spain",
+    "iVeterinary School, Universidad de Zaragoza, 50013 Zaragoza, Spain",
+    "jClinical Nutrition and Dietetics Unit, Department of Endocrinology and Nutrition, 12 de Octubre Hospital, 28041 Madrid, Spain",
+    "kIMDEA-Food Institute. CEI UAM+CSIC, Carretera de Cantoblanco 8, 28049 Madrid, Spain"
+  ],
+  "keywords": [
+    "Phthalates",
+    "Endocrine disruptors",
+    "Atherosclerosis",
+    "Cardiovascular",
+    "Epidemiology"
+  ],
+  "abstract": [
+    {
+      "html": "•This study examined the association between urinary phthalates and subclinical coronary atherosclerosis (SCA) in middle-aged male workers.•Only mono-ethyl phthalate (MEP) was significantly associated with a higher prevalence of SCA.•A 1-unit increase in log-transformed MEP levels was associated with a 21 % higher prevalence of SCA.•The findings support a potential role of MEP in the early stages of cardiovascular disease.•This study highlights the relevance of environmental exposures as modifiable cardiovascular risk factors."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Phthalates are ubiquitous chemicals found in a wide range of products, including food packaging and ultra-processed foods [1], personal care products, medical devices, industrial chemicals and automotive products [2]. The effects of phthalates on the cardiovascular system have been a matter of study, and it has been shown that phthalates are implicated in oxidative stress, lipid peroxidation, endothelial dysfunction and in the activation of procoagulant pathways [[3], [4], [5]], all of which play a critical role in the pathogenesis of atherosclerosis and cardiovascular disease (CVD). Comprehensive observational studies have also shown that phthalates are associated with higher prevalence of CVD [6] and higher risk of coronary heart disease (CHD) (including acute myocardial infarction and severe CHD [7]). In addition, phthalates have been associated with myocardial injury as evidenced by elevated troponin I levels [8,9]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Beyond cardiovascular outcomes, phthalates are also associated with several CVD risk factors, including obesity [10], diabetes [11], and the metabolic syndrome [12], as well as higher levels of oxidative biomarkers [9], and increased levels of fibrinogen and D-dimer [7]. Despite this scientific evidence, the association between phthalates and atherosclerosis (the most common underlying process of CVD) has been scarcely studied [[13], [14], [15], [16], [17], [18]]. However, a recent systematic review showed the relationship between phthalates and increased carotid intima-media thickness and higher prevalence of carotid plaques, which are surrogate markers of atherosclerosis [19]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Coronary atherosclerosis is characterized by plaque build-up and reduced blood flow in the vessels that perfuse the heart [20,21]. Coronary artery calcium (CAC) score provides a good estimate of atherosclerotic plaque burden [[22], [23], [24]]. Several clinical guidelines have suggested incorporating CAC score alongside risk prediction models [25], given its widespread use in predicting future cardiovascular events among asymptomatic patients [[26], [27], [28]]. Higher CAC score is associated with an increased risk of CHD [29,30], myocardial infarction, stroke and cardiovascular mortality [31]. Patients with CAC &gt; 100 are classified as having an intermediate risk of future cardiovascular events, as it was associated with a 2.3- to 3.4-fold increase in atherosclerotic cardiovascular disease (ASCVD) and a 3.3- to 5.6-fold increased risk of CHD [30]. Also, most clinical guidelines suggest CAC &gt; 100 as the threshold for the initiation of statins as a preventive measure for cardiovascular events [32]."
+        },
+        {
+          "type": "paragraph",
+          "html": "In addition to traditional cardiovascular risk factors, such as hypertension, dyslipidemia, diabetes, obesity, smoking, sedentary lifestyle, and unhealthy diet [33], environmental contaminants have been identified as modifiable risk factors that are probably underestimated at present [3]. Therefore, the aim of this study was to assess the association between urinary phthalates and subclinical coronary atherosclerosis (SCA) in middle-aged male workers of a car assembly plant in Zaragoza, Spain."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Study population",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Cross-sectional study conducted with participants from the Aragon Workers&#x27; Health Study (AWHS). Briefly, the AWHS is a prospective cohort based on the annual health examination of workers at the General Motors Spain car assembly plant in Figueruelas (Zaragoza, Spain), recruited in 2009–2010. The design and methodology have been described elsewhere [34]. Between January 2011 and December 2014, 2167 participants aged 40–60 years underwent non-invasive imaging for subclinical atherosclerosis, completed a questionnaire interview on dietary, cardiovascular and lifestyle factors, and provided blood and urine samples after an overnight fast. Specimens were collected in polypropylene tubes and stored at − 70 °C at the Occupational Medicine Service Unit, Opel Factory, Figueruelas (Spain). Phthalates were measured in 2134 participants with available urine samples. Female participants (<em>n</em> = 114), those with insufficient sample volume for analysis (<em>n</em> = 1), previous diagnosis of CVD (<em>n</em> = 27), urinary creatinine &lt; 30 mg/dL or &gt; 300 mg/dL (<em>n</em> = 30) (cut-off points established by the World Health Organization to identify highly dilute or concentrated samples [35]), missing data on urinary creatinine (<em>n</em> = 837) or CAC (<em>n</em> = 6) were excluded. Finally, 1119 participants were included in the data analysis (Fig. 1, Fig. 2). All participants gave written informed consent, and the study was approved by the Central Institutional Review Board of Aragón (CEICA).Fig. 1Participant flow diagram.Fig. 1Fig. 2Restricted spline of the association between mono-ethyl phthalate (MEP) exposure and subclinical coronary atherosclerosis prevalence (<em>N</em> = 1119). The solid black line represents the OR of SCA across MEP levels with the 95 % CI (dashed lines). The right y-axis shows the prevalence of SCA. Abbreviations: ln-MEP: natural logarithm of MEP; CI: confidence intervals.Fig. 2"
+        }
+      ]
+    },
+    {
+      "title": "Coronary artery calcium",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "CAC was determined using non-contrast ECG-gated prospective acquisition with a multidetector computed tomography (CT) scanner (Mx 8000 IDT 16, Philips Medical System, Best, The Netherlands). CAC was quantified according to the Agatston method [36], which is the sum of the attenuation value (in Hounsfield units) and the area of all CAC lesions in the coronary arteries [37]. The CAC has been used as a proxy for the SCA [31]. For the purpose of the study and to identify those participants with clinically meaningful subclinical atherosclerosis, we defined SCA as CAC ≥ 100. This threshold is associated with increased risk of ASCVD and CHD and is frequently used in clinical practice to guide preventive interventions such as statin initiation [28,32]."
+        }
+      ]
+    },
+    {
+      "title": "Phthalates",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The preparation of the urine samples is described elsewhere [38]. Phthalates were measured by liquid chromatography coupled to tandem mass spectrometry (LC-MS/MS), using electrospray ionization in negative mode. The following 14 urinary phthalate metabolites were measured: Mono-ethyl phthalate (MEP), Mono-isobutyl phthalate (MiBP), Mono-n‑butyl phthalate (MnBP), Monobenzyl phthalate (MBzP), Mono(2-ethyl-5-oxohexyl) phthalate (MEOHP), Mono(2-ethyl-5-carboxypentyl) phthalate (MECPP), Mono(2-ethyl-5-hydroxyhexyl) phthalate (MEHHP), Mono(2-carboxymethylhexyl) phthalate (MCMHP), Mono-cyclohexyl phthalate (MCHP), Mono-n-pentyl phthalate (MnPeP), Mono‑hydroxy‑isononyl phthalate (OH-MiNP), Mono-carboxy-isodecyl phthalate (cx-MiDP), Mono‑hydroxy‑isodecyl phthalate (OH-MiDP), and Mono-n-octyl phthalate (MnOP). The molar sum of Di(2-ethylhexyl) phthalate (ΣDEHP) was also calculated by dividing each DEHP metabolite (ng/ml) by its molar weight (g/mol) and then summing the results: [(MEOHP/292.33) + (MECPP/308.33) + (MEHHP/294.34) + (MCMHP/308.33)] [39]. Phthalate parent compounds, molecular weight, and CAS registry number are described in Table S1."
+        },
+        {
+          "type": "paragraph",
+          "html": "The limit of quantification (LoQ) was 0.50 ng/ml for MEP, MBzP, MEOHP, MECPP, MEHHP, MCMHP, MCHP, and MnPeP; and 1.00 ng/ml for MiBP, MnBP, OH-MiNP, cx-MiDP, OH-MiDP, and MnOP. Phthalate metabolites with &gt; 15 % values below the LoQ were excluded. Values below the LoQ were replaced by LoQ/√2 [40]. Finally, 11 metabolites and ΣDEHP were included in the analyses."
+        },
+        {
+          "type": "paragraph",
+          "html": "To account for urinary dilution, phthalate concentrations (ng/ml) were divided by urinary creatinine (mg/dL) and multiplied by 100 to obtain urinary metabolite concentrations in µg/g creatinine [41]."
+        }
+      ]
+    },
+    {
+      "title": "Covariates",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The age of the workers at the time of the physical examination was considered. Body mass index (BMI) was calculated as weight (kg) divided by height (m) squared and further classified as normal (&lt; 25 kg/m<sup>2</sup>), overweight (≥25 - &lt;30 kg/m<sup>2</sup>), and obesity (≥30 kg/m<sup>2</sup>). Smoking status was self-reported as non-smoker, former smoker, and current smoker. Alcohol consumption (grams/day) was obtained using a 136-item food frequency questionnaire (FFQ) validated in Spain [[42], [43], [44]]. Work type was categorized as office and manual work. There were two rotating shifts: morning/afternoon (06:00–14:00 and 14:00–22:00) and morning/afternoon/night (06:00–14:00, 14:00–22:00 and 22:00–06:00), and two fixed shifts: central (08:00–16:00) and night (22:00–06:00). Hypertension (HTN) was defined as systolic blood pressure (SBP) ≥ 140 mmHg or diastolic blood pressure (DBP) ≥ 90 mmHg or use of antihypertensive treatment [45]. Sample collection and laboratory methods are described elsewhere [34]. Briefly, dyslipidemia was defined as total cholesterol (TC) ≥ 240 mg/dL or LDL ≥ 160 mg/dL or HDL &lt; 40 mg/dL or triglycerides (TG) ≥ 150 mg/dL or use of lipid-lowering treatment [46]. LDL was calculated using the Friedewald equation if TG &lt;400 mg/dL, otherwise Sampson equation was used [47]. Diabetes Mellitus (DM) was defined as fasting glucose ≥ 126 mg/dL or use of antidiabetic treatment [48]. Physical activity (METs-h/week) was assessed using a validated version of the Spanish Nurses’ Health Study and the Health Professionals’ Follow-up Study [49]. Total energy intake (Kcal/day) derived from the Spanish food composition tables was considered as a covariate [50,51]. In sensitivity analyses, urinary creatinine (mg/dL) was included as a covariate to adjust for urinary dilution."
+        }
+      ]
+    },
+    {
+      "title": "Statistical analysis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The phthalates in µg/g-creatinine were transformed to the natural logarithm (ln) and were also categorized into quartiles (the first quartile was used as a reference). To assess the association between phthalates and SCA, logistic regression models were used providing the odds ratio (OR) for SCA (CAC ≥ 100 versus CAC &lt; 100) and the corresponding 95 % confidence intervals (CI). Two logistic regression models (crude and adjusted) were fitted analyzing both as continuous variable (ln transformed) and as quartiles. The adjusted model accounted for age (continuous), BMI (&lt;25, ≥25 - &lt;30, ≥30), smoking status (non-smoker, former, current), alcohol consumption (g/day), work type (office/manual work), work turn (morning/afternoon, morning/afternoon/night, central and night), hypertension (no/yes), dyslipidemia (no/yes), diabetes (no/yes), physical activity (METs-h/week), and total energy intake (Kcal/day). P for linear trend was calculated including quartiles as continuous variables in the models."
+        },
+        {
+          "type": "paragraph",
+          "html": "Two sensitivity analyses were performed. First, phthalates were analyzed in ng/ml and adjusted for urine creatinine in the regression models. Second, the association was analyzed after excluding participants with diabetes (<em>n</em> = 60), and the model was further adjusted for fasting glucose levels as a continuous covariate."
+        },
+        {
+          "type": "paragraph",
+          "html": "Restricted cubic spline regression with three knots (10th, 50th, and 90th percentile) was also fitted to evaluate the dose-response relationship between phthalates (ln-transformed) and SCA (dichotomous). As an additional statistical approach to better understand the linear relationship between phthalate exposure and CAC, this association was also evaluated using linear regression models adjusted for covariates. Since CAC did not follow a normal distribution, values were log-transformed as ln(CAC + 1), given that the logarithm of zero is undefined. Results were displayed using predicted margins plots, illustrating adjusted values of ln(CAC+1) and their 95 % CI across the range of ln(phthalate) concentrations. Analyses were performed using Stata SE 17, and statistical significance was set at <em>p</em>-value &lt; 0.05 (two-tail)."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Characteristics of the participants",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The study included 1119 participants with a mean age of 50.9 years. Of the total participants, 79 % were overweight or obese, former smokers (43.3 %), manual workers (87.6 %), and working the morning/afternoon shift (61.5 %). Regarding chronic diseases, 39.3 % had hypertension, 65.2 % had dyslipidemia, and only 5.4 % had diabetes. Regarding lifestyle factors, participants had a mean alcohol intake of 22.5 g/day, an average physical activity level of 35.4 METs-h/week, and a total energy intake of 2948 kcal/day. A total of 114 cases of SCA (CAC ≥ 100) were observed (10.2 %). No differences were found in the distribution of covariates across quartiles of MEP exposure, except for diabetes. Participants in the highest quartile of MEP exposure had twice as many cases of diabetes as those in the lowest quartile (Table 1).Table 1Baseline characteristics according to quartiles of mono-ethyl phthalate exposure (<em>N</em> = 1119).Table 1Mono-ethyl phthalate (MEP) (µg/g-creatinine)Total participants (<em>N</em> = 1119)Q1 (lowest)Q2Q3Q4 (highest)p-for linear trendAge, mean ± SD50.9 ± 3.6750.7 ± 3.8750.7 ± 3.4451.0 ± 3.6651.1 ± 3.680.084BMI, n (%) &lt; 25 kg/m<sup>2</sup>235 (21.0)55 (19.7)54 (19.3)57 (20.4)69 (24.7)0.180 25–29 kg/m<sup>2</sup>639 (57.1)160 (57.1)170 (60.7)169 (60.4)140 (50.2) ≥ 30 kg/m<sup>2</sup>245 (21.9)65 (23.2)56 (20.0)54 (19.3)70 (25.1)Physical activity (METs-h/week), mean ± SD35.4 ± 21.535.2 ± 20.734.1 ± 19.936.3 ± 23.236.0 ± 22.10.430Total energy (Kcal/day), mean ± SD2948 ± 7692944 ± 7562908 ± 7572988 ± 7922952 ± 7730.614Alcohol (g/day), mean (SD)22.5 ± 21.321.6 ± 21.420.7 ± 20.923.9 ± 21.823.7 ± 21.10.092Smoking, n (%) Non-smoker253 (22.6)75 (26.8)58 (20.7)61 (21.8)59 (21.2)0.602 Former smoker485 (43.3)113 (4.4)127 (45.4)126 (45.0)119 (42.7) Current smoker381 (34.1)92 (32.9)95 (33.9)93 (33.2)101 (36.2)Hypertension, n (%)440 (39.3)108 (38.6)111 (39.6)109 (38.9)112 (40.1)0.760Dyslipidemia, n (%)730 (65.2)172 (61.4)185 (66.1)182 (65.0)191 (68.5)0.116Diabetes, n (%)60 (5.36)9 (3.21)14 (5.00)17 (6.07)20 (7.17)0.033*Work type, n (%) Manual work980 (87.6)245 (87.5)243 (86.8)248 (88.6)244 (87.5)0.851Work shift, n (%) Morning/afternoon688 (61.5)163 (58.2)174 (62.1)177 (63.2)174 (62.4)0.914 Morning/afternoon/night241 (21.5)66 (23.6)58 (20.7)60 (21.4)57 (20.4) Central94 (8.40)28 (10.0)22 (7.86)23 (8.21)21 (7.53) Night96 (8.58)23 (8.21)26 (9.29)20 (7.14)27 (9.68)Urinary creatinine (mg/dL), mean ± SD154.5 ± 57.2155.3 ± 57.1152.2 ± 54.7158.7 ± 59.3151.8 ± 57.60.795Glucose (mg/dL), mean ± SD99.0 ± 17.597.6 ± 17.399.7 ± 20.898.9 ± 14.699.8 ± 16.80.230Subclinical coronary atherosclerosis, n (%)114 (10.2)23 (8.21)26 (9.29)30 (10.71)35 (12.54)0.359⁎<em>p</em> &lt; 0.05BMI: body mass index; CAC: coronary artery calcium; METs: metabolic equivalent of task; SD: standard deviation. Working shifts: morning/afternoon (06:00–14:00 and 14:00–22:00), morning/afternoon/night (06:00–14:00, 14:00–22:00 and 22:00–06:00), central (08:00–16:00) and night (22:00–06:00).Quartiles of MEP exposure: Q1 (6.58–54.55), Q2 (54.61–101.37), Q3 (101.56–245.68), Q4 (246.11–10,925.80)."
+        },
+        {
+          "type": "paragraph",
+          "html": "The phthalate with the highest median concentration was MEP, followed by MiBP and MnBP (Table 2). Participants with SCA (CAC ≥ 100) had a median MEP concentration of 126.1 µg/g-creatinine compared to a median of 99.3 µg/g-creatinine in those without SCA (CAC &lt; 100). The remaining phthalates did not show statistically significant differences between the CAC groups (Table S2).Table 2Urinary phthalate metabolites distribution (<em>N</em> = 1119).Table 2LoQ&lt; LoQPhthalate (ng/ml)Phthalate/creatinine (µg/g-creatinine)*MinMaxP25P50P75MinMaxP25P50P75<strong>MEP</strong>0.5005.0718,060.3474.78149.67379.526.5810,925.7954.55101.37245.68<strong>MiBP</strong>1.0002.431763.0214.9324.4538.143.59897.6711.5816.3123.70<strong>MnBP</strong>1.0001.9417,620.5012.4719.9731.272.6114,478.648.9013.5619.66<strong>MBzP</strong>0.5020.56273.534.907.9713.670.41162.483.475.458.91<strong>MEOHP</strong>0.5000.50999.146.029.7015.730.58406.654.286.409.94<strong>MECPP</strong>0.5001.12883.8811.7919.7331.651.29449.158.6813.0120.11<strong>MEHHP</strong>0.5001.011298.7911.1018.6031.011.16585.848.0512.2419.17<strong>MCMHP</strong>0.5030.50159.682.684.226.480.3866.561.982.794.05<strong>MCHP</strong>0.5011060.5150.830.580.761.38NANANANANA<strong>MnPEP</strong>0.5011160.590.960.590.670.96NANANANANA<strong>OH-MiNP</strong>1.0001.01999.957.0312.0121.541.061340.415.018.1714.64<strong>cx-MiDP</strong>1.001421.00136.831.552.183.370.26148.730.931.302.05<strong>OH-MiDP</strong>1.001471.00128.891.762.714.290.2696.041.031.612.60<strong>MnOP</strong>1.0011172.012.442.012.232.44NANANANANA<strong>ΣDEHP (nmol/ml)</strong>NANA0.0111.210.110.180.280.01⁎⁎4.56⁎⁎0.08⁎⁎0.12⁎⁎0.17⁎⁎Phthalate abbreviations: MEP: mono-ethyl phthalate; MiBP: mono-isobutyl phthalate; MnBP: mono-n‑butyl phthalate; MBzP: monobenzyl phthalate; MEOHP: mono(2-ethyl-5-oxohexyl) phthalate; MECPP: mono(2-ethyl-5-carboxypentyl) phthalate; MEHHP: mono(2-ethyl-5-hydroxyhexyl) phthalate; MCMHP: mono(2-carboxymethylhexyl) phthalate; MCHP: mono-cyclohexyl phthalate; MnPeP: mono-n-pentyl phthalate; OH-MiNP: mono‑hydroxy‑isononyl phthalate; cx-MiDP: mono-carboxy-isodecyl phthalate, OH-MiDP: mono‑hydroxy‑isodecyl phthalate, MnOP: mono-n-octyl phthalate; ΣDEHP: molar sum of di(2-ethylhexyl) phthalate.LoQ: limit of quantification; NA: not applicable.⁎Phthalate metabolites with &gt; 15 % values below the LoQ were excluded. Values below the LoQ were replaced by LoQ/√2.⁎⁎ΣDEHP concentrations in µmol/g-creatinine."
+        }
+      ]
+    },
+    {
+      "title": "Association between phthalates and SCA",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "After adjustment for potential confounders, a 1-unit increase in the natural logarithm of MEP was associated with a 21 % higher prevalence of SCA (OR = 1.21, 95 % CI: 1.02–1.44) (Table 3). The restricted cubic spline confirmed this linear trend: the higher the MEP exposure, the higher the prevalence of SCA. This association reached statistical significance when MEP concentrations were above 6 in the ln-MEP in µg/g-creatinine (Fig. 2). A non-significant higher prevalence of SCA was observed when comparing the extreme quartiles of MEP (Table 3). The association between MiBP and MnBP with SCA followed the same direction (OR &gt; 1) as MEP without reaching statistical significance (Fig. 3).Table 3Association between phthalates and subclinical coronary atherosclerosis (<em>N</em> = 1119).Table 3Phthalates as continuousPhthalates in quartilesPhthalate metabolite (µg/g-creatinine)OR (95 % CI) for 1-unit increase in natural logp-valueQ1 OR (95 % CI)Q2 OR (95 % CI)Q3 OR (95 % CI)Q4 OR (95 % CI)p-for linear trendMEP Events/n23/28026/28030/28035/279 Crude model1.24 (1.05–1.45)⁎⁎0.0091 (Ref.)1.14 (0.64–2.06)1.34 (0.76–2.37)1.60 (0.92–2.79)0.076 Adjusted model1.21 (1.02–1.44)*0.0291 (Ref.)1.08 (0.58–1.99)1.18 (0.64–2.14)1.37 (0.76–2.46)0.270MiBP Events/n22/28030/28029/28033/279 Crude model1.20 (0.88–1.64)0.2371 (Ref.)1.40 (0.79–2.51)1.35 (0.76–2.42)1.57 (0.89–2.77)0.154 Adjusted model1.25 (0.90–1.76)0.1811 (Ref.)1.52 (0.82–2.79)1.31 (0.71–2.43)1.52 (0.83–2.78)0.264MnBP Events/n18/28033/28032/28031/279 Crude model1.12 (0.87–1.45)0.3791 (Ref.)1.94 (1.07–3.54)*1.88 (1.03–3.43)*1.82 (0.99–3.34)0.091 Adjusted model1.06 (0.79–1.42)0.7151 (Ref.)1.91 (1.01–3.58)*1.73 (0.91–3.26)1.58 (0.83–2.99)0.284MBzP Events/n32/28022/28035/28025/279 Crude model0.87 (0.67–1.12)0.2751 (Ref.)0.66 (0.37–1.17)1.11 (0.66–1.85)0.76 (0.44–1.32)0.734 Adjusted model0.86 (0.65–1.13)0.2691 (Ref.)0.63 (0.34–1.15)1.22 (0.71–2.10)0.76 (0.42–1.38)0.876MEOHP Events/n25/28032/28033/28024/279 Crude model0.91 (0.69–1.20)0.5041 (Ref.)1.32 (0.76–2.28)1.36 (0.79–2.36)0.96 (0.53–1.73)0.940 Adjusted model0.92 (0.67–1.25)0.5811 (Ref.)1.27 (0.70–2.28)1.28 (0.71–2.29)1.00 (0.54–1.85)0.999MECPPEvents/n21/28035/28036/28022/279Crude model0.95 (0.71–1.27)0.7281 (Ref.)1.76 (1.00–3.11)1.82 (1.03–3.20)1.06 (0.57–1.97)0.849Adjusted model0.94 (0.68–1.29)0.6901 (Ref.)1.83 (1.00–3.34)*1.90 (1.04–3.47)*1.04 (0.54–2.01)0.893MEHHP Events/n28/28030/28029/28027/279 Crude model0.94 (0.72–1.24)0.6641 (Ref.)1.08 (0.63–1.86)1.04 (0.60–1.80)0.96 (0.55–1.68)0.870 Adjusted model0.94 (0.70–1.28)0.7091 (Ref.)0.94 (0.53–1.68)0.91 (0.51–1.63)0.99 (0.55–1.80)0.955MCMHP Events/n31/28027/28029/28027/279 Crude model0.89 (0.65–1.22)0.4681 (Ref.)0.86 (0.50–1.48)0.92 (0.54–1.59)0.86 (0.50–1.48)0.668 Adjusted model0.97 (0.69–1.35)0.8441 (Ref.)0.98 (0.55–1.76)1.08 (0.60–1.91)0.95 (0.53–1.70)0.938OH-MiNP Events/n30/28028/28026/28030/279 Crude model1.03 (0.84–1.27)0.7801 (Ref.)0.93 (0.54–1.60)0.85 (0.49–1.48)1.00 (0.59–1.71)0.940 Adjusted model0.97 (0.78–1.22)0.8141 (Ref.)0.95 (0.53–1.70)0.60 (0.33–1.10)0.90 (0.51–1.59)0.436cx-MiDP Events/n25/28130/27932/28027/279 Crude model1.04 (0.80–1.36)0.7561 (Ref.)1.23 (0.71–2.16)1.32 (0.76–2.29)1.10 (0.62–1.94)0.707 Adjusted model1.02 (0.76–1.37)0.8951 (Ref.)1.09 (0.60–1.96)1.18 (0.66–2.11)0.99 (0.54–1.82)0.947OH-MiDP Events/n34/28023/28029/28028/279 Crude model0.92 (0.71–1.19)0.5391 (Ref.)0.65 (0.37–1.13)0.84 (0.49–1.41)0.81 (0.47–1.37)0.605 Adjusted model0.87 (0.66–1.15)0.3211 (Ref.)0.61 (0.34–1.09)0.76 (0.44–1.33)0.69 (0.39–1.22)0.310ΣDEHP (µmol/g-creatinine) Events/n26/28026/28038/28024/279 Crude model0.93 (0.69–1.25)0.6371 (Ref.)1.00 (0.57–1.77)1.53 (0.90–2.60)0.92 (0.51–1.65)0.780 Adjusted model0.92 (0.67–1.29)0.6571 (Ref.)1.03 (0.56–1.88)1.42 (0.80–2.50)0.96 (0.52–1.78)0.785⁎<em>p</em> &lt; 0.05.⁎⁎<em>p</em> &lt; 0.01OR: Odds Ratio; CI: confidence intervals.Phthalate abbreviations: MEP: mono-ethyl phthalate; MiBP: mono-isobutyl phthalate; MnBP: mono-n‑butyl phthalate; MBzP: monobenzyl phthalate; MEOHP: mono(2-ethyl-5-oxohexyl) phthalate; MECPP: mono(2-ethyl-5-carboxypentyl) phthalate; MEHHP: mono(2-ethyl-5-hydroxyhexyl) phthalate; MCMHP: mono(2-carboxymethylhexyl) phthalate; MCHP: mono-cyclohexyl phthalate; MnPeP: mono-n-pentyl phthalate; OH-MiNP: mono‑hydroxy‑isononyl phthalate; cx-MiDP: mono-carboxy-isodecyl phthalate, OH-MiDP: mono‑hydroxy‑isodecyl phthalate, MnOP: mono-n-octyl phthalate; ΣDEHP: molar sum of di(2-ethylhexyl) phthalate.Crude model: unadjusted. Adjusted model: age (continuous), BMI (&lt;25, ≥25 - &lt;30, ≥30), smoking status (non-smoker, former, current), alcohol consumption (g/day), work type (office/manual work), work turn (morning/afternoon, morning/afternoon/night, central and night), hypertension (no/yes), dyslipidemia (no/yes), diabetes (no/yes), physical activity (METs-h/week), total energy intake (Kcal/day).Fig. 3Plot of Odds Ratios and 95 % confidence intervals for the association between phthalates (per 1-unit increase in natural logarithm) and subclinical coronary atherosclerosis. Results correspond to the adjusted model, controlling for age, BMI, smoking status, alcohol consumption, work type, work turn, hypertension, dyslipidemia, diabetes, physical activity, and total energy intake (as shown in Table 3). Abbreviations: OR: Odds Ratio; CI: confidence interval.Fig. 3"
+        },
+        {
+          "type": "paragraph",
+          "html": "To further explore the dose–response relationship between phthalates and CAC, we conducted linear regression analyses using ln(CAC+1) as the outcome. Predicted margins plots illustrated a modest linear increase in ln(CAC+1) with higher ln(MEP) levels (Figure S1), consistent with the logistic regression findings (Fig. 2, Fig. 3). Similar positive trends were observed for MiBP, MnBP, and OH-MiNP, though with wider 95 % CIs and flatter slopes. In contrast, negative trends were noted for MBzP, MEHHP, and MCMHP. Overall, these results aligned with the main analyses."
+        },
+        {
+          "type": "paragraph",
+          "html": "In the sensitivity analyses, results were consistent with the main findings when phthalates were analyzed in their original units (ng/ml) with additional adjustment for urinary creatinine (Table S3). Results were also robust when participants with diabetes were excluded from the models, with further adjustment for fasting glucose levels as a continuous covariate (Table S4)."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In this well-characterized sample of male workers, a 1-unit increase in the natural logarithm of MEP exposure was associated with a 21 % higher prevalence of SCA (CAC ≥ 100), independent of sociodemographic, lifestyle, and CVD risk factors. A total of 114 cases of SCA (10.2 %) were identified, with participants in the highest quartile of MEP exposure having a median concentration of 126.1 µg/g creatinine compared with 99.3 µg/g creatinine in those without SCA. Positive but non-significant associations were observed for MiBP and MnBP. These results highlight a linear relationship between MEP exposure and SCA prevalence, which was visualized using a restricted cubic spline and showed positive significant associations at higher MEP concentrations."
+        },
+        {
+          "type": "paragraph",
+          "html": "Our findings are consistent with previous research showing that MEP exposure was associated with a 54 % higher prevalence of carotid plaques among community-dwelling older adults in Sweden, when comparing extreme quintiles of exposure [13]. Similarly, a study conducted among type 2 diabetic patients in China found that MEP was associated with a 14 % higher prevalence of self-reported CVD, including CHD, myocardial infarction, and stroke [17]. Taken together, these studies suggest that MEP is positively associated with early stages of CVD and major cardiovascular events. However, it is important to emphasize that all the available evidence (three studies including ours) is based on cross-sectional designs which limit the ability to establish causality."
+        },
+        {
+          "type": "paragraph",
+          "html": "Diethyl phthalate (DEP), the parent compound of MEP, is widely used as a plasticizer [52] (chemicals used to make plastic softer and more flexible) in various industries and products, including perfumes, mosquito repellents, toothbrushes, automotive parts, tools, toys, and food packaging [53]. While the primary concern regarding DEP has been environmental [54], it is also being evaluated as an endocrine disruptor (substances that disrupt the synthesis, metabolism, and function of hormones) [[55], [56], [57]]. Our study population includes male workers in a car assembly plant who may be exposed to some products containing DEP. Therefore, occupational exposure to this chemical could be considered as a potential cardiovascular risk factor in this subgroup of the population, especially given that occupational exposure to DEP has been a matter of interest [[58], [59], [60], [61]]. The cardiovascular effects of DEP should be investigated for public health purposes and the regulation of DEP could potentially be a measure for the primary prevention of CVD among workers. It is noteworthy that although several phthalates have been restricted in specific products [[62], [63], [64]], DEP has only been restricted in food contact materials [65]."
+        },
+        {
+          "type": "paragraph",
+          "html": "The association between MEP exposure and higher coronary calcification may be explained by several biological mechanisms, particularly those involving the pro-atherogenic and pro-senescence effects of MEP. MEP has been shown to induce oxidative stress and disrupt lipid metabolism, promoting the degradation, oxidation, and aggregation of both HDL and LDL cholesterol. These processes impair the protective role of HDL and enhance the atherogenic properties of LDL, leading to increased foam cell formation through accelerated LDL phagocytosis by macrophages [4]. Animal studies have associated MEP exposure with significant metabolic disturbances, including the accumulation of cholesterol and triglycerides in the liver, which may contribute to systemic dyslipidemia [66]. Furthermore, MEP has been shown to induce endothelial dysfunction by reducing nitric oxide bioavailability and promoting vascular inflammation [67]. These combined effects suggest that MEP exposure may create a pro-atherogenic environment conducive to the development and progression of atherosclerosis."
+        },
+        {
+          "type": "paragraph",
+          "html": "Although Spain is classified as a low-risk region for CVD mortality (&lt;100 CVD deaths per 100,000) [68], SCA is highly prevalent in middle-aged Spanish men as is the prevalence of traditional cardiovascular risk factors (such as hypertension, dyslipidemia, obesity and smoking). The prevalence of SCA in Spain varies according to the criteria used to define it. In the PESA study, SCA (defined as CAC ≥ 1) was observed in 25 % of asymptomatic employees of the Santander Bank in Madrid [69], whereas in our study, the prevalence of SCA (defined as CAC ≥ 100) was 10.2 %, increasing to 38 % when a CAC ≥ 1 cut-off was used [70]. Regardless of the cut-off used, the high prevalence of SCA remains a significant public health concern, particularly given the potential for many of these cases to progress to major cardiovascular events."
+        },
+        {
+          "type": "paragraph",
+          "html": "The study of phthalates and their relationship with SCA is of great societal interest due to the public health implications of both. Phthalates are widely used in everyday products and humans are constantly exposed to them from the earliest stages of life. At the same time, SCA can begin early in life and remain asymptomatic for several decades until a major cardiovascular event occurs (myocardial infarction or stroke). Understanding how phthalate exposure contributes to the development of SCA may be useful in developing preventive strategies to reduce the incidence of CVD. The available scientific evidence may also inform public policy aimed at reducing phthalate exposure as a preventive measure for cardiometabolic diseases. Beyond population-level regulations, our findings may also have implications at the individual clinical level. In patients at intermediate cardiovascular risk, reducing phthalate exposure could represent a modifiable environmental factor. A more detailed clinical history could facilitate the identification of potential sources of phthalate exposure. Educational strategies might complement cardiovascular prevention by promoting behaviors that reduce phthalate exposure, such as choosing fragrance-free products, preferring glass containers over plastics, and minimizing ultraprocessed food consumption."
+        },
+        {
+          "type": "paragraph",
+          "html": "This study has several strengths. First, to our knowledge, it is the first to analyze the association between phthalates and coronary calcification, used as a proxy for SCA. Second, the inclusion of multiple confounders in the analysis minimizes residual confounding. Third, both exposure and outcome were measured using reliable and standardized methods. Fourth, defining SCA as CAC ≥100 improves the clinical interpretability of our findings by identifying participants with a meaningful burden of subclinical atherosclerosis, for whom preventive interventions may be considered. Finally, investigating phthalate exposure is a socially relevant topic, contributing to the growing body of evidence on environmental determinants of CVD."
+        },
+        {
+          "type": "paragraph",
+          "html": "However, this study has some limitations. First, its cross-sectional design limits the ability to infer causality between phthalates and SCA. Second, the sample population (male workers from a car assembly plant) may limit the generalizability of the findings to other groups, such as women, older adults, or individuals from different socioeconomic or occupational backgrounds. Third, a significant number of participants were excluded due to missing data on urinary creatinine or CAC, which reduced the sample size and the power to detect statistical significance, even if the reported associations were of a certain magnitude for some phthalates. Finally, urinary concentrations of phthalate metabolites reflect short-term exposure, which may not adequately capture long-term exposure, which is more relevant for chronic diseases such as SCA."
+        },
+        {
+          "type": "paragraph",
+          "html": "In conclusion, this study provides new evidence on the relationship between MEP exposure and SCA, as measured by CAC. The results show that higher urinary MEP concentrations are associated with an increased prevalence of SCA, suggesting that the exposure to phthalates may play a role in the early stages of CVD. Given the widespread exposure to phthalates and their potential impact on the cardiovascular system, these findings highlight the importance of regulatory measures to minimize phthalate exposure. Future longitudinal studies and diverse population-based studies are needed to confirm these findings and to explore the underlying mechanisms. These findings provide a basis for public health initiatives aimed at reducing environmental risk factors and preventing the progression of SCA and thus the incidence of CVD."
+        }
+      ]
+    },
+    {
+      "title": "Statement on the use of artificial intelligence",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "During the preparation of this paper the author(s) used ChatGPT 4o and DeepL Write in order to improve the readability. After using this tool/service, the author(s) reviewed and edited the content accordingly and take(s) full responsibility for the content of the publication."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Diana María Mérida:</strong> Writing – original draft, Visualization, Methodology, Investigation, Formal analysis, Data curation. <strong>Carolina Torrijo-Belanche:</strong> Writing – review &amp; editing. <strong>Belén Moreno-Franco:</strong> Writing – review &amp; editing, Resources, Data curation. <strong>Martín Laclaustra:</strong> Writing – review &amp; editing, Conceptualization. <strong>Jimena Rey-García:</strong> Writing – review &amp; editing. <strong>Sofía Gimeno-Ruiz:</strong> Writing – review &amp; editing. <strong>Ana Bayán-Bravo:</strong> Writing – review &amp; editing. <strong>Pilar Guallar-Castillón:</strong> Writing – review &amp; editing, Validation, Supervision, Resources, Project administration, Methodology, Funding acquisition, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "BuckleyJ.P.KimH.WongE.RebholzC.M.Ultra-processed food consumption and exposure to phthalates and bisphenols in the US National Health and Nutrition Examination Survey, 2013-2014Env Int131201910.1016/J.ENVINT.2019.105057PMC672818731398592"
+    },
+    {
+      "html": "GiulianiA.ZuccariniM.CichelliA.KhanH.RealeM.Critical review on the presence of phthalates in food and evidence of their biological impactInt J Environ Res Public Health 2020172020565510.3390/IJERPH17165655PMC746037532764471"
+    },
+    {
+      "html": "SagheerU.Al-KindiS.AbohashemS.PhillipsC.T.RanaJ.S.BhatnagarA.GulatiM.RajagopalanS.KalraD.K.Environmental Pollution and Cardiovascular Disease: part 2 of 2: soil, water, and other forms of pollutionJACC Adv3202410081510.1016/J.JACADV.2023.100815PMC1119845838939394"
+    },
+    {
+      "html": "MarianaM.Castelo-BrancoM.SoaresA.M.CairraoE.Phthalates’ exposure leads to an increasing concern on cardiovascular healthJ Hazard Mater457202313168010.1016/J.JHAZMAT.2023.13168037269565"
+    },
+    {
+      "html": "WenZ.J.WangZ.Y.ZhangY.F.Adverse cardiovascular effects and potential molecular mechanisms of DEHP and its metabolites—A reviewSci Total Environ847202215744310.1016/J.SCITOTENV.2022.15744335868369"
+    },
+    {
+      "html": "FuX.XuJ.ZhangR.YuJ.The association between environmental endocrine disruptors and cardiovascular diseases: a systematic review and meta-analysisEnv Res187202010.1016/J.ENVRES.2020.10946432438096"
+    },
+    {
+      "html": "SuT.C.HwangJ.J.SunC.W.WangS.L.Urinary phthalate metabolites, coronary heart disease, and atherothrombotic markersEcotoxicol Env Saf1732019374410.1016/J.ECOENV.2019.02.02130753939"
+    },
+    {
+      "html": "ZhangJ.WangZ.LiX.ZhangY.YuanJ.WangZ.XuF.ChenY.LiC.Association between phthalates exposure and myocardial damage in the general population: a cross-sectional studyEnv Res261202411963210.1016/J.ENVRES.2024.11963239025350"
+    },
+    {
+      "html": "MoawadA.M.AwadyS.AliA.A.E.R.AbdelgwadM.BelalS.TahaS.H.N.MohamedM.I.HassanF.M.Phthalate exposure and coronary heart disease: possible implications of oxidative stress and altered miRNA expressionChem Res Toxicol37202472373010.1021/ACS.CHEMRESTOX.3C00423/ASSET/IMAGES/MEDIUM/TX3C00423_0006.GIF38636967"
+    },
+    {
+      "html": "WuQ.LiG.ZhaoC.Y.NaX.L.ZhangY.B.Association between phthalate exposure and obesity risk: a meta-analysis of observational studiesEnv Toxicol Pharmacol102202310.1016/J.ETAP.2023.10424037549759"
+    },
+    {
+      "html": "ZhangH.BenY.HanY.ZhangY.LiY.ChenX.Phthalate exposure and risk of diabetes mellitus: implications from a systematic review and meta-analysisEnv Res204202210.1016/J.ENVRES.2021.11210934562484"
+    },
+    {
+      "html": "MéridaD.M.Moreno-FrancoB.MarquèsM.León-LatreM.LaclaustraM.Guallar-CastillónP.Phthalate exposure and the metabolic syndrome: a systematic review and meta-analysisEnv. Pollut333202310.1016/J.ENVPOL.2023.12195737328121"
+    },
+    {
+      "html": "LindP.M.LindL.Circulating levels of bisphenol A and phthalates are related to carotid atherosclerosis in the elderlyAtherosclerosis218201120721310.1016/J.ATHEROSCLEROSIS.2011.05.00121621210"
+    },
+    {
+      "html": "WibergB.LindP.M.LindL.Serum levels of monobenzylphthalate (MBzP) is related to carotid atherosclerosis in the elderlyEnv Res133201434835210.1016/J.ENVRES.2014.06.00925036990"
+    },
+    {
+      "html": "SuT.C.HwangJ.S.TorngP.L.WuC.LinC.Y.SungF.C.Phthalate exposure increases subclinical atherosclerosis in young populationEnv Pollut250201958659310.1016/J.ENVPOL.2019.04.00631026707"
+    },
+    {
+      "html": "LinC.Y.LeeH.L.HwangY.T.WangC.HsiehC.J.WuC.SungF.C.SuT.C.The association between urine di-(2-ethylhexyl) phthalate metabolites, global DNA methylation, and subclinical atherosclerosis in a young Taiwanese populationEnv Pollut265202010.1016/J.ENVPOL.2020.11491232540595"
+    },
+    {
+      "html": "ZhangH.ChenJ.ChenC.WanH.ChenY.WangY.ZhangW.ChenB.WangN.LuY.Exposure to phthalates and cardiovascular diseases in Chinese with type 2 diabetesEnv Sci Pollut Res Int282021581135812210.1007/S11356-021-14807-434109519"
+    },
+    {
+      "html": "YalçinS.S.Erdalİ.OğuzB.DuzovaA.Association of urine phthalate metabolites, bisphenol A levels and serum electrolytes with 24-h blood pressure profile in adolescentsBMC Nephrol23202210.1186/S12882-022-02774-YPMC900418235410150"
+    },
+    {
+      "html": "MéridaD.M.Acosta-ReyesJ.Bayán-BravoA.Moreno-FrancoB.LaclaustraM.Guallar-CastillónP.Phthalate exposure and subclinical carotid atherosclerosis: a systematic review and meta-analysisEnviron Pollut350202412404410.1016/J.ENVPOL.2024.12404438677462"
+    },
+    {
+      "html": "VrintsC.AndreottiF.KoskinasK.C.RosselloX.AdamoM.AinslieJ.BanningA.P.BudajA.BuechelR.R.ChiarielloG.A.ChieffoA.ChristodorescuR.M.DeatonC.DoenstT.JonesH.W.KunadianV.MehilliJ.MilojevicM.PiekJ.J.PuglieseF.RubboliA.SembA.G.SeniorR.ten BergJ.M.Van BelleE.Van CraenenbroeckE.M.Vidal-PerezR.WintherS.BorgerM.GudmundsdóttirI.J.KnuutiJ.AhrensI.BöhmM.BuccheriS.CapodannoD.ChristiansenE.H.ColletJ.-P.DicksteinK.EekC.FalkV.HenriksenP.A.IbanezB.JamesS.KedevS.KøberL.KyriakouM.MagavernE.F.McInernyA.MershaC.O.MihaylovaB.MindhamR.NeubeckL.NeumannF.-J.NielsenJ.C.PaolissoP.ParadiesV.PasquetA.A.PiepoliM.PrescottE.RakishevaA.RoccaB.RuelM.SandnerS.SarasteA.SzummerK.VaartjesI.WijnsW.WindeckerS.WitkowskyA.ZdrakovicM.ZeppenfeldK.ShukaN.BouraghdaM.A.HayrapetyanH.G.ReinstadlerS.J.MusayevO.De PauwM.KušljugićZ.GelevV.SkoricB.KarakyriouM.KovarnikT.NielsenL.H.Abdel-AzizI.S.AinlaT.PorelaP.BenamerH.NadaraiaK.RichardtG.PapafaklisM.I.BeckerD.GudmundsdóttirI.J.WolakA.RiccioC.ZholdinB.K.EleziS.AbilovaS.MintaleI.AllamB.BadarienėJ.PereiraB.DingliP.RevencoV.BulatovicN.BenounaE.G.M.DedicA.MitevskaI.AngelK.BryniarskiK.LuzA.M.C.PopescuB.A.BertelliL.BeleslinB.D.HudecM.FrasZ.Freixa-PamiasR.HolmA.JegerR.MarjehM.Y.B.HammamiR.AytekinV.NesukayE.G.SwansonN.ShekA.B.PrescottE.JamesS.ArbeloE.BaigentC.BorgerM.A.BuccheriS.IbanezB.KøberL.KoskinasK.C.McEvoyJ.W.MihaylovaB.MindhamR.NeubeckL.NielsenJ.C.PasquetA.A.RakishevaA.RoccaB.RosselloX.VaartjesI.VrintsC.WitkowskiA.ZeppenfeldK.RossiA.2024 ESC guidelines for the management of chronic coronary syndromesEur Heart J202410.1093/EURHEARTJ/EHAE177"
+    },
+    {
+      "html": "ShreyaD.ZamoraD.I.PatelG.S.GrossmannI.RodriguezK.SoniM.JoshiP.K.PatelS.C.SangeI.Coronary artery calcium score - A reliable indicator of Coronary artery disease?Cureus132021e2014910.7759/CUREUS.20149PMC872378535003981"
+    },
+    {
+      "html": "OsawaK.NakanishiR.BudoffM.Coronary artery calcificationGlob Heart11201628729310.1016/J.GHEART.2016.08.00127741976PMC5108577"
+    },
+    {
+      "html": "OnnisC.VirmaniR.KawaiK.NardiV.LermanA.CademartiriF.ScicoloneR.BoiA.CongiuT.FaaG.LibbyP.SabaL.Coronary artery calcification: current concepts and clinical implicationsCirculation149202425126610.1161/CIRCULATIONAHA.123.06565738227718PMC10794033"
+    },
+    {
+      "html": "MoriH.ToriiS.KutynaM.SakamotoA.FinnA.V.VirmaniR.Coronary artery calcification and its progression: what does it really mean?JACC Cardiovasc Imaging11201812714210.1016/J.JCMG.2017.10.01229301708"
+    },
+    {
+      "html": "GulsinG.S.MossA.J.Coronary artery calcium paradox and physical activityHeart10720211686168710.1136/HEARTJNL-2021-31986834544806"
+    },
+    {
+      "html": "BildD.E.DetranoR.PetersonD.GuerciA.LiuK.ShaharE.OuyangP.JacksonS.SaadM.F.Ethnic differences in coronary calcification: the Multi-Ethnic Study of Atherosclerosis (MESA)Circulation11120051313132010.1161/01.CIR.0000157730.94423.4B15769774"
+    },
+    {
+      "html": "FerencikM.PencinaK.M.LiuT.GhemigianK.BaltrusaitisK.MassaroJ.M.D’AgostinoR.B.O’DonnellC.J.HoffmannU.Coronary artery calcium distribution is an independent predictor of incident major Coronary heart disease events: results from the Framingham heart studyCirc Cardiovasc Imaging10201710.1161/CIRCIMAGING.117.006592PMC565929628956774"
+    },
+    {
+      "html": "LimpijankitT.JongjirasiriS.MeemookK.UnwanathamN.ThakkinstianA.LaothamatasJ.Predictive values of coronary artery calcium and arterial stiffness for long-term cardiovascular events in patients with stable coronary artery diseaseClin Cardiol46202217110.1002/CLC.2395536448219PMC9933115"
+    },
+    {
+      "html": "DetranoR.GuerciA.D.CarrJ.J.BildD.E.BurkeG.FolsomA.R.LiuK.SheaS.SzkloM.BluemkeD.A.O’LearyD.H.TracyR.WatsonK.WongN.D.KronmalR.A.Coronary calcium as a predictor of Coronary events in four racial or ethnic groupsN Engl J Med35820081336134510.1056/NEJMOA072100/ASSET/550B9357-4F3A-4870-BB68-91143035FFBE/ASSETS/IMAGES/LARGE/NEJMOA072100_T5.JPG18367736"
+    },
+    {
+      "html": "MehtaA.PandeyA.AyersC.R.KheraA.SperlingL.S.SzkloM.GottesmanR.F.BudoffM.J.BlahaM.J.BlumenthalR.S.NasirK.JoshiP.H.Predictive value of coronary artery calcium score categories for coronary events versus strokes: impact of sex and race: MESA and DHSCirc Cardiovasc Imaging132020E01015310.1161/CIRCIMAGING.119.010153/SUPPL_FILE/CIRCCVIM_CIRCCVIM-2019-010153_SUPP1.PDFPMC744077332806939"
+    },
+    {
+      "html": "HaqA.VeeratiT.Walser-KuntzE.AldujeliA.TangM.MiedemaM.Coronary artery calcium and the risk of cardiovascular events and mortality in younger adults: a meta-analysisEur J Prev Cardiol3120241061106910.1093/EURJPC/ZWAD39938113426"
+    },
+    {
+      "html": "GolubI.S.TermeieO.G.KristoS.SchroederL.P.LakshmananS.ShafterA.M.HusseinL.VergheseD.Aldana-BitarJ.ManuboluV.S.BudoffM.J.Major global coronary artery calcium guidelinesJACC Cardiovasc Imaging1620239811710.1016/J.JCMG.2022.06.01836599573"
+    },
+    {
+      "html": "BrownJ.C.GerhardtT.E.KwonE.Risk factors for coronary artery diseaseRisk Factors Coron Artery Dis2023121910.3109/9781420014570"
+    },
+    {
+      "html": "CasasnovasJ.A.AlcaideV.CiveiraF.GuallarE.IbañezB.BorregueroJ.J.LaclaustraM.LeónM.PeñalvoJ.L.OrdovásJ.M.PocoviM.SanzG.FusterV.Aragon workers’ health study – design and cohort descriptionBMC Cardiovasc Disord1220124510.1186/1471-2261-12-4522712826PMC3439398"
+    },
+    {
+      "html": "Biological monitoring of chemical exposure in the workplace : guidelines, (n.d.). <a href=\"https://iris.who.int/handle/10665/41856\">https://iris.who.int/handle/10665/41856</a> (accessed December 28, 2024)."
+    },
+    {
+      "html": "AgatstonA.S.JanowitzW.R.HildnerF.J.ZusmerN.R.ViamonteM.DetranoR.Quantification of coronary artery calcium using ultrafast computed tomographyJ Am Coll Cardiol15199082783210.1016/0735-1097(90)90282-T2407762"
+    },
+    {
+      "html": "ObisesanO.H.OseiA.D.UddinS.M.I.DzayeO.BlahaM.J.An update on coronary artery calcium interpretation at chest and cardiac ctRadiol Cardiothorac Imaging3202110.1148/RYCT.2021200484/ASSET/IMAGES/LARGE/RYCT.2021200484.FIG5.JPEGPMC797773233778659"
+    },
+    {
+      "html": "DualdeP.LeonN.PardoO.CoscollàC.VentoM.PastorA.YusàV.Risk assessment of exposure to phthalates in breastfeeding women using human biomonitoringChemosphere255202012700310.1016/J.CHEMOSPHERE.2020.12700332679629"
+    },
+    {
+      "html": "MesserlianC.WylieB.J.Mínguez-AlarcónL.WilliamsP.L.FordJ.B.SouterI.C.CalafatA.M.HauserR.Urinary concentrations of phthalate metabolites in relation to pregnancy loss among women conceiving with medically assisted reproductionEpidemiology27201687910.1097/EDE.000000000000052527299194PMC5248552"
+    },
+    {
+      "html": "WangW.SchaumbergD.A.ParkS.K.Cadmium and lead exposure and risk of cataract surgery in U.S. adultsInt J Hyg Env Health219201685085610.1016/J.IJHEH.2016.07.01227460785PMC5086441"
+    },
+    {
+      "html": "BarrD.B.WilderL.C.CaudillS.P.GonzalezA.J.NeedhamL.L.PirkleJ.L.Urinary creatinine concentrations in the U.S. population: implications for urinary biologic monitoring measurementsEnv. Health Perspect113200519220010.1289/EHP.733715687057PMC1277864"
+    },
+    {
+      "html": "Martin-morenoJ.M.BoyleP.GorgojoL.MaisonneuveP.Fernandez-rodriguezJ.C.SalviniS.WillettW.C.Development and validation of a food frequency questionnaire in SpainInt J Epidemiol22199351251910.1093/IJE/22.3.5128359969"
+    },
+    {
+      "html": "De La Fuente-ArrillagaC.Vzquez RuizZ.Bes-RastrolloM.SampsonL.Martinez-GonzálezM.A.Reproducibility of an FFQ validated in SpainPublic Health Nutr1320101364137210.1017/S136898000999306520105389"
+    },
+    {
+      "html": "Fernández-BallartJ.D.PiñolJ.L.ZazpeI.CorellaD.CarrascoP.ToledoE.Perez-BauerM.Martínez-GonzálezM.Á.Salas-SalvadóJ.Martn-MorenoJ.M.Relative validity of a semi-quantitative food-frequency questionnaire in an elderly Mediterranean population of SpainBr J Nutr10320101808181610.1017/S000711450999383720102675"
+    },
+    {
+      "html": "UngerT.BorghiC.CharcharF.KhanN.A.PoulterN.R.PrabhakaranD.RamirezA.SchlaichM.StergiouG.S.TomaszewskiM.WainfordR.D.WilliamsB.SchutteA.E.2020 International Society of Hypertension Global Hypertension Practice GuidelinesHypertension7520201334135710.1161/HYPERTENSIONAHA.120.15026/ASSET/434A8F41-377A-4EA9-9A94-F0CAADC7CECF/ASSETS/IMAGES/LARGE/HYPERTENSIONAHA.120.15026.TAB06.JPG32370572"
+    },
+    {
+      "html": "Third report of the National Cholesterol Education Program (NCEP)Expert Panel on detection, evaluation, and treatment of high blood Cholesterol in adults (Adult Treatment Panel III) National CholesterolEducation Program200212485966"
+    },
+    {
+      "html": "SajjaA.ParkJ.SathiyakumarV.VargheseB.PallazolaV.A.MarvelF.A.KulkarniK.MuthukumarA.JoshiP.H.GianosE.HirshB.MintzG.GoldbergA.MorrisP.B.SharmaG.BlumenthalR.S.MichosE.D.PostW.S.ElshazlyM.B.JonesS.R.MartinS.S.Comparison of methods to estimate low-density lipoprotein cholesterol in patients with high triglyceride levelsJAMA Netw Open4202110.1001/JAMANETWORKOPEN.2021.28817PMC855464434709388"
+    },
+    {
+      "html": "CommitteeA.D.A.P.P.ElSayedN.A.AleppoG.BannuruR.R.BruemmerD.CollinsB.S.EkhlaspourL.GagliaJ.L.HilliardM.E.JohnsonE.L.KhuntiK.LingvayI.MatfinG.McCoyR.G.PerryM.LouPillaS.J.PolskyS.PrahaladP.PratleyR.E.SegalA.R.SeleyJ.J.SelvinE.StantonR.C.GabbayR.A.2. Diagnosis and classification of diabetes: standards of Care in diabetes—2024Diabetes Care472024S20S4210.2337/DC24-S00238078589PMC10725812"
+    },
+    {
+      "html": "Martínez-GonzálezM.A.López-FontanaC.VaroJ.J.Sánchez-VillegasA.MartinezJ.A.Validation of the spanish version of the physical activity questionnaire used in the Nurses’ Health Study and the Health Professionals’ Follow-up StudyPublic Health Nutr8200592092710.1079/PHN200574516277809"
+    },
+    {
+      "html": "O. Moreiras, A. Carbajal, L. Cabrera, C. Cuadrado, Tablas de composición de alimentos (Food Composition Tables), 2005."
+    },
+    {
+      "html": "Mataix VerdúJ.Tablas de composición de alimentos españoles2009Universidad de Granada5a ed."
+    },
+    {
+      "html": "MondalT.MondalS.GhoshS.K.PalP.SorenT.PandeyS.MaitiT.K.Phthalates - A family of plasticizers, their health risks, phytotoxic effects, and microbial bioaugmentation approachesEnv Res214202211405910.1016/J.ENVRES.2022.11405935961545"
+    },
+    {
+      "html": "Diethyl phthalate | C12H14O4 | CID 6781 - PubChem, (n.d.). <a href=\"https://pubchem.ncbi.nlm.nih.gov/compound/Diethyl-Phthalate\">https://pubchem.ncbi.nlm.nih.gov/compound/Diethyl-Phthalate</a> (accessed December 28, 2024)."
+    },
+    {
+      "html": "DIETHYL PHTHALATE | CAMEO Chemicals | NOAA, (n.d.). <a href=\"https://cameochemicals.noaa.gov/chemical/8534\">https://cameochemicals.noaa.gov/chemical/8534</a> (accessed December 28, 2024)."
+    },
+    {
+      "html": "Substance information - ECHA, (n.d.). <a href=\"https://echa.europa.eu/es/substance-information/-/substanceinfo/100.001.409\">https://echa.europa.eu/es/substance-information/-/substanceinfo/100.001.409</a> (accessed December 28, 2024)."
+    },
+    {
+      "html": "Endocrine disruptor assessment list - ECHA, (n.d.). <a href=\"https://echa.europa.eu/es/ed-assessment/-/dislist/details/0b0236e185cd8e76\">https://echa.europa.eu/es/ed-assessment/-/dislist/details/0b0236e185cd8e76</a> (accessed January 4, 2025)."
+    },
+    {
+      "html": "ArrigoF.ImpellitteriF.PiccioneG.FaggioC.Phthalates and their effects on human health: focus on erythrocytes and the reproductive systemComp Biochem Physiol C: Toxicol Pharmacol270202310964510.1016/J.CBPC.2023.10964537149015"
+    },
+    {
+      "html": "KolenaB.PetrovicováI.ŠidlovskáM.PilkaT.NeuschlováM.ValentováI.RybanskýL.TrnovecT.Occupational phthalate exposure and health outcomes among hairdressing apprenticesHum Exp Toxicol3620171100111210.1177/096032711667829527852937"
+    },
+    {
+      "html": "HuangP.C.LiaoK.W.ChangJ.W.ChanS.H.LeeC.C.Characterization of phthalates exposure and risk for cosmetics and perfume sales clerksEnv Pollut233201857758710.1016/J.ENVPOL.2017.10.07929102888"
+    },
+    {
+      "html": "WangX.WangL.ZhangJ.YinW.HouJ.ZhangY.HuC.WangG.ZhangR.TaoY.YuanJ.Dose-response relationships between urinary phthalate metabolites and serum thyroid hormones among waste plastic recycling workers in ChinaEnv Res1652018637010.1016/J.ENVRES.2018.04.00429665466"
+    },
+    {
+      "html": "CavallariJ.M.SimcoxN.J.WakaiS.LuC.GarzaJ.L.CherniackM.Characterization of urinary phthalate metabolites among custodiansAnn Occup Hyg59201598299910.1093/ANNHYG/MEV05026240196PMC4715255"
+    },
+    {
+      "html": "Ftalatos - ECHA, (n.d.). <a href=\"https://echa.europa.eu/es/hot-topics/phthalates\">https://echa.europa.eu/es/hot-topics/phthalates</a> (accessed January 4, 2025)."
+    },
+    {
+      "html": "Phthalates Business guidance | CPSC.Gov, (n.d.). <a href=\"https://www.cpsc.gov/Business-Manufacturing/Business-Education/Business-Guidance/Phthalates\">https://www.cpsc.gov/Business–Manufacturing/Business-Education/Business-Guidance/Phthalates</a> (accessed January 4, 2025)."
+    },
+    {
+      "html": "Regulation - 2018/2005 - EN - EUR-lex, (n.d.). <a href=\"https://eur-lex.europa.eu/eli/reg/2018/2005/oj\">https://eur-lex.europa.eu/eli/reg/2018/2005/oj</a> (accessed January 4, 2025)."
+    },
+    {
+      "html": "Federal Register : indirect food additives: adhesives and components of coatings; paper and paperboard components; polymers; adjuvants, production aids, and sanitizers, (n.d.). <a href=\"https://www.federalregister.gov/documents/2022/05/20/2022-10531/indirect-food-additives-adhesives-and-components-of-coatings-paper-and-paperboard-components\">https://www.federalregister.gov/documents/2022/05/20/2022-10531/indirect-food-additives-adhesives-and-components-of-coatings-paper-and-paperboard-components</a> (accessed January 4, 2025)."
+    },
+    {
+      "html": "MarianaM.LorigoM.FeiteiroJ.Castelo-BrancoM.SoaresA.M.CairraoE.Adverse cardiovascular effects of long-term exposure to diethyl phthalate in the rat aortaChemosphere340202310.1016/J.CHEMOSPHERE.2023.13990437611763"
+    },
+    {
+      "html": "KimS.M.YooJ.A.BaekJ.M.ChoK.H.Diethyl phthalate exposure is associated with embryonic toxicity, fatty liver changes, and hypolipidemia via impairment of lipoprotein functionsToxicol Vitro30201538339310.1016/J.TIV.2015.09.02626423653"
+    },
+    {
+      "html": "working groupS.risk collaborationE.C.SCORE2 risk prediction algorithms: new models to estimate 10-year risk of cardiovascular disease in EuropeEur Heart J422021243910.1093/EURHEARTJ/EHAB30934120177PMC8248998"
+    },
+    {
+      "html": "Fernández-FrieraL.PeñalvoJ.L.Fernández-OrtizA.IbañezB.López-MelgarB.LaclaustraM.OlivaB.MocoroaA.MendigurenJ.De VegaV.M.GarcíaL.MolinaJ.Sánchez-GonzálezJ.GuzmánG.Alonso-FartoJ.C.GuallarE.CiveiraF.SillesenH.PocockS.OrdovásJ.M.SanzG.Jiménez-BorregueroL.J.FusterV.Prevalence, vascular distribution, and multiterritorial extent of subclinical atherosclerosis in a middle-aged cohort the PESA (Progression of Early Subclinical Atherosclerosis) studyCirculation13120152104211310.1161/CIRCULATIONAHA.114.014310/-/DC125882487"
+    },
+    {
+      "html": "LaclaustraM.CasasnovasJ.A.Fernández-OrtizA.FusterV.León-LatreM.Jiménez-BorregueroL.J.PocoviM.Hurtado-RocaY.OrdovasJ.M.JarautaE.GuallarE.IbañezB.CiveiraF.Femoral and carotid subclinical atherosclerosis association with risk factors and coronary calcium: the AWHS studyJ Am Coll Cardiol6720161263127410.1016/J.JACC.2015.12.05626988945"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

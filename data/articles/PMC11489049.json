@@ -1,0 +1,705 @@
+{
+  "pmcid": "PMC11489049",
+  "pmid": "39430429",
+  "doi": "10.1016/j.ajpc.2024.100868",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11489049/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Vegetarian dietary patterns and cardiovascular risk factors and disease prevention: An umbrella review of systematic reviews",
+  "articleType": "Review Article",
+  "published": "2024-09-28",
+  "year": "2024",
+  "volume": "20",
+  "issue": "",
+  "articleNumber": "100868",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2024",
+  "authors": [
+    {
+      "given": "Matthew J.",
+      "surname": "Landry",
+      "display": "Matthew J. Landry"
+    },
+    {
+      "given": "Katelyn E.",
+      "surname": "Senkus",
+      "display": "Katelyn E. Senkus"
+    },
+    {
+      "given": "A Reed",
+      "surname": "Mangels",
+      "display": "A Reed Mangels"
+    },
+    {
+      "given": "Nanci S.",
+      "surname": "Guest",
+      "display": "Nanci S. Guest"
+    },
+    {
+      "given": "Roman",
+      "surname": "Pawlak",
+      "display": "Roman Pawlak"
+    },
+    {
+      "given": "Sudha",
+      "surname": "Raj",
+      "display": "Sudha Raj"
+    },
+    {
+      "given": "Deepa",
+      "surname": "Handu",
+      "display": "Deepa Handu"
+    },
+    {
+      "given": "Mary",
+      "surname": "Rozga",
+      "display": "Mary Rozga"
+    }
+  ],
+  "affiliations": [
+    "aDepartment of Population Health and Disease Prevention, University of California, Program in Public Health, 856 Health Sciences Rd., Irvine, CA 92697, United States",
+    "bDepartment of Human Nutrition, The University of Alabama, Tuscaloosa, AL, United States",
+    "cUSDA/ARS Children's Nutrition Research Center, Baylor College of Medicine, 1100 Bates Avenue, Houston, TX 77030, United States",
+    "dRetired, 190 Walnut Avenue, Santa Cruz, CA 95060, United States",
+    "eDepartment of Nutritional Science, Temerty Faculty of Medicine, University of Toronto, Toronto, ON, Canada",
+    "fDepartment of Nutrition Science, East Carolina University, Greenville, NC 27858, United States",
+    "gDepartment of Nutrition and Food Studies, David B Falk College of Sport and Human Dynamics, Syracuse University, Syracuse, NY 13214, United States",
+    "hEvidence Analysis Center, Academy of Nutrition and Dietetics, 120 S. Riverside Plaza, Suite 2190, Chicago, IL 60606-6995, United States"
+  ],
+  "keywords": [
+    "Vegetarians",
+    "Vegans",
+    "Dietary patterns",
+    "Cardiovascular diseases",
+    "Systematic review",
+    "Umbrella review"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Background:</strong> Diet significantly influences the risk of developing cardiovascular disease (CVD), the leading cause of death in the United States. As vegetarian dietary patterns are increasingly being included within clinical practice guidelines, there is a need to review the most recent evidence regarding if and how these dietary patterns mitigate CVD risk."
+    },
+    {
+      "html": "<strong>Objective:</strong> This umbrella review of systematic reviews compared the relationships between vegetarian, vegan and non-vegetarian dietary patterns and CVD health outcomes and risk factors among presumably healthy adults (≥18 years) in the general population."
+    },
+    {
+      "html": "<strong>Methods:</strong> MEDLINE, CINAHL, Cochrane Databases of Systematic Reviews, Food Science Source and SportsDiscus databases were searched for systematic reviews (SRs) published from 2018 until March 2024. Eligible SRs and meta-analyses examined relationships between vegetarian or vegan diets and CVD risk factors and disease outcomes compared to non-vegetarian diets. SRs were screened in duplicate, and SR quality was assessed with AMSTAR2. The overall certainty of evidence (COE) was evaluated using the Grading of Recommendation, Assessment, Development, and Evaluation (GRADE) method."
+    },
+    {
+      "html": "<strong>Results:</strong> There were 758 articles identified in the databases’ search and 21 SRs met inclusion criteria. SRs targeting the general population had primarily observational evidence. Vegetarian, including vegan, dietary patterns were associated with reduced risk for CVD incidence [Relative Risk: 0.85 (0.79, 0.92)] and CVD mortality [Hazard Ratio: 0.92 (0.85, 0.99)] compared to non-vegetarian diets. Vegan dietary patterns were associated with reductions in CVD risk factors including blood pressure [systolic mean difference (95 % CI): -2.56 mmHg (-4.66, -0.445)], low-density lipoprotein cholesterol [-0.49 mmol/l (-0.62, -0.36)], and body mass index [-1.72 kg/m<sup>2</sup> (-2.30, -1.16)] compared to non-vegetarian dietary patterns, as well as c-reactive protein concentrations in a novel meta-analysis [-0.55 mg/l (-1.07, -0.03)]."
+    },
+    {
+      "html": "<strong>Conclusion:</strong> Practitioners can consider recommending vegetarian dietary patterns to reduce cardiometabolic risk factors and risk of CVD incidence and mortality."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Cardiovascular disease (CVD) continues to pose a significant global health challenge, creating a considerable burden due to both morbidity and mortality. Prominent heart-health organizations, such as the American Heart Association and the American College of Cardiology, underscore the critical role of dietary modifications in the prevention and management of CVD [[1], [2], [3]]. Recommendations emphasize the significance of adopting dietary patterns that focus on reducing consumption of red and processed meats while concomitantly increasing the intake of plant-derived foods [1,2]. A comprehensive analysis of 78 clinical practice guidelines across the globe revealed that 49 % advocate for plant-focused dietary patterns [4]."
+        },
+        {
+          "type": "paragraph",
+          "html": "A healthy vegetarian-style dietary pattern includes some degree of restriction of animal products (Supplementary Fig. 1 [5]) while being rich in vegetables and fruits, legumes, whole grains, nuts, and seeds [[6], [7], [8]]. Vegetarian-style dietary patterns are typically low in saturated fats and cholesterol while providing health-promoting foods rich in fiber, antioxidants, and phytochemicals. These dietary attributes are key factors in maintaining cardiovascular health, including improved lipid profiles, blood pressure (BP) regulation, enhancing endothelial function, inflammation control, as well as contributing to a diverse microbiome [[9], [10], [11], [12]]. However, a poorly planned vegetarian-style dietary pattern can limit specific nutrients such as vitamin B12, iron, and calcium or include an excess of refined carbohydrates, added sugar, or saturated fat which can contribute to increased CVD risk [7,13,14]."
+        },
+        {
+          "type": "paragraph",
+          "html": "In recent years, there has been an emergence of numerous systematic reviews (SRs) on the impact of vegetarian dietary patterns for CVD risk and prevention. This underscores the growing recognition and scientific interest in the potential benefits of vegetarian dietary patterns for maintaining cardiovascular health. However, these SRs have variable quality and typically focus on limited outcomes. To support development and refinement of evidence-based dietary recommendations and clinical practice guidelines for primary prevention of CVD, a systematic and comprehensive overview of current evidence was warranted. Therefore, our objective was to conduct an umbrella review to (1) systematically identify, compare, and summarize relevant systematic reviews and meta-analyses on the relationships between vegetarian, vegan and non-vegetarian dietary patterns and prevention of cardiovascular risk factors and health outcomes among presumably healthy adults in the general population and (2) evaluate the quality/certainty of the best available evidence."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "An overview of SRs, or an umbrella review, was conducted due to high availability of existing SRs examining the relationships between dietary patterns and outcomes of interest [15]. This umbrella review followed methods for Overviews of Reviews from the Cochrane Collaboration [16] and was reported using the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) checklist [17]. Methods were specified <em>a priori</em> and registered at The International Prospective Register of Systematic Reviews (PROSPERO) (CRD42023396453) [18]."
+        }
+      ]
+    },
+    {
+      "title": "Eligibility criteria",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Eligibility criteria are described in Table 1. Briefly, participants were required to be presumably healthy adults (≥18 years) in the general population. The exposure of interest was vegetarian including vegan dietary patterns, and the comparison of interest was non-vegetarian dietary patterns. The greater aim of this umbrella review was to inform health care professionals of the comprehensive benefits and potential risks of vegetarian and vegan dietary patterns, and, thus, several outcomes were assessed. This umbrella review is part of a greater project examining the impact of vegetarian dietary patterns [18]. This manuscript reports the outcomes for cardiovascular risk and disease, and results for other outcomes are available on the Academy of Nutrition and Dietetics Evidence Analysis Library website [19]. Primary outcomes of interest included CVD incidence, events and mortality. Coronary heart disease (CHD) and ischemic heart disease were both described as CHD. Secondary outcomes included hypertension and overweight/obesity incidence, BP, low-density lipoprotein (LDL) cholesterol and triglyceride (TG) concentrations, c-reactive protein (CRP) concentrations, and body mass index (BMI). Publication date was limited to SRs published since 2018 because older SRs do not include recent research. Included SRs were limited to peer-reviewed articles published in the English language due to resource constraints. No supplemental primary studies were included.Table 1Eligibility criteria for the research question examining the relationships between vegetarian, vegan and non-vegetarian diets in presumably healthy adults in the general population.Table 1CategoryInclusion CriteriaExclusion Criteria<strong>Population</strong>Human adults ≥18 years&lt;18 years of age, animal studies<strong>Health Status</strong>Studies targeting or with sub-group analysis of presumably healthy adults in the general populationStudies which <em>target</em> participants with limited generalizability to the general population, such as those with diagnosed•HTN, dyslipidemia, overweight/obesity, impaired glucose tolerance•Type 2 DM•CVD•Eating disorders•COPD•HIV/AIDS•Post-bariatric surgery•Severe/persistent mental illness•Pregnancy<strong>Intervention/ Exposure</strong>Vegetarian (including lacto- and lacto-ovo- vegetarians) and/or vegan diets and all sub-groups. Plant-based diets will only be included if the definition meets the definition of a vegetarian or vegan diet.Diets not meeting vegetarian/vegan definition. Flexitarian, pescatarian, semi-vegetarian diets. Studies that do not define “plant-based” and in which it is not possible to determine if plant-based is being used to mean vegetarian/vegan. Samples that combine data for semi-vegetarians and/or pescatarians with vegetarians.<strong>Exposure Measurement</strong>For observational studies, participants may consume meat/poultry/fish ≤once/month and still be classified as “vegetarian”.Not applicable<strong>Comparison</strong>Non-vegetarian diets. Vegan diets may serve as comparison for vegetarian diets.•No comparison group.•The comparison group is an intervention that differs from the vegetarian/vegan diet in more ways than inclusion of meat, animal, products, etc.<strong>Outcome</strong><strong>Health Outcomes:</strong>•Disease Incidence○CVD, HTN, CV Events, Overweight/Obesity•CVD Mortality<strong>Intermediate Outcomes:</strong>•BP•LDL-Cholesterol, TGs•CRP•BMIOutcomes not specified in inclusion criteria<strong>Study Design</strong>Systematic Reviews and Meta-AnalysisSRs can include RCTs, non-randomized controlled trials, longitudinal cohort studies and cross-sectional studies.SRs must address the research question and search at least two databases. SRs that are rated as having higher quality with the AMSTAR2 tool, those that conduct meta-analysis, those that assess risk of bias of individual articles and those with graded certainty of evidence will be prioritized for evidence synthesis.Primary studies, case reports, narrative reviews, commentaries<strong>Study Duration</strong>No limits.No limits.<strong>Sample Size</strong>No limits.No limits.<strong>Publication Dates</strong>2018- March 6, 2024Published prior to 2018 or after search date of March 6, 2024.<strong>Publication Status</strong>peer-reviewed publicationsGray literature, conference abstracts<strong>Abbreviations:</strong> AMSTAR2= <em>A</em> MeaSurement Tool to Assess systematic Reviews version 2, BMI= body mass index; BP= blood pressure; COPD= chronic obstructive pulmonary disorder; CRP= C-reactive protein; CV= cardiovascular; CVD= cardiovascular disease; DM= diabetes mellitus; HIV/AIDS= Human immunodeficiency virus infection and acquired immune deficiency syndrome; HTN= hypertension; LDL= low-density lipoprotein; RCT= randomized controlled trial; SR= systematic review."
+        }
+      ]
+    },
+    {
+      "title": "Information sources",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The databases search was designed and conducted by an information specialist who searched MEDLINE, CINAHL, Cochrane Databases of Systematic Reviews, Food Science Source and SportsDiscus databases. The search included terms such as “vegetarian”, “vegan”, and “plant-based”, with limits on language (English language), publication date (2018-March 6, 2024) and study design (systematic reviews and meta-analyses). Full search strategies are described in Supplementary Table 1."
+        }
+      ]
+    },
+    {
+      "title": "Selection process",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Following de-duplication, titles and abstracts of identified articles were independently screened by two reviewers using Rayyan software [20]. After initial title/abstract screening, potentially included full-text SRs were assessed by two independent reviewers. Discrepancies in screening were settled through consensus by expert panel members. The study selection process was documented in a PRISMA flow diagram [17]. Overlap of primary studies included in SRs was addressed during data extraction and evidence summary."
+        }
+      ]
+    },
+    {
+      "title": "Data collection",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "A standardized data extraction sheet was created to extract study characteristics for each SR. Data were extracted by trained evidence analysts and checked by a second reviewer. Data included bibliographic information, participant health status and ages, exposure/intervention details [e.g., vegetarian, vegan or non-vegetarian diet, diet duration], eligible primary study designs, date of published studies in SRs, whether meta-analysis was conducted, if risk of bias (RoB) was assessed and with which tool, if certainty of evidence (COE) was assessed and with which tool, and outcomes of interest reported."
+        }
+      ]
+    },
+    {
+      "title": "Quality assessment",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The quality of SRs was assessed by two independent reviewers with the A MeaSurement Tool to Assess systematic Reviews version 2 (AMSTAR2) tool [21,22]. Discrepancies in AMSTAR2 ratings were settled with consensus or a third reviewer. RoB of primary studies as assessed in included SRs were used for certainty of evidence (COE) assessment [16]."
+        }
+      ]
+    },
+    {
+      "title": "Synthesis methods",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Characteristics of included SRs were described in a study characteristics table. When more than one SR examined the relationship between vegetarian dietary patterns and a specific outcome of interest, primary studies from each SR were plotted to determine overlap. Several of the SRs relied on previously conducted meta-analyses. Umbrella review authors analyzed study overlap according to primary studies, even if data from secondary studies was used in an included SR."
+        },
+        {
+          "type": "paragraph",
+          "html": "SRs with higher quality as assessed by the AMSTAR2 tool, those that conducted meta-analysis and/or assessed RoB and COE, and those that were more recent and comprehensive were prioritized when interpreting results. If only one SR conducted meta-analysis, umbrella review authors discussed if results from the other included SR(s) agreed. If more than one SR conducted a meta-analysis, umbrella review authors determined appropriateness of combining the data from both meta-analyses to increase coverage and statistical power. If data could not be combined, the effect estimate from the higher quality SR was prioritized."
+        },
+        {
+          "type": "paragraph",
+          "html": "When a novel meta-analysis could be conducted, data was extracted from the SRs, not the primary studies themselves [16]. When meta-analysis was conducted for this umbrella review, we estimated the effect size and 95 % CI using a DerSimonian-Laird random-effects model as true associations between vegetarian dietary patterns and outcomes may vary according to sub-population [23]. For continuous outcomes, results were reported as mean differences (MD) and 95 % confidence interval (CI). Results of meta-analysis were visualized using forest plots. Publication bias was assessed using funnel plots and Egger&#x27;s statistics. Heterogeneity was measured using the I<sup>2</sup> measure. Sub-group analyses were conducted for each research question regarding the type of vegetarian dietary pattern and the RoB of primary studies. Statistical analyses were conducted using OpenMeta [24] and RStudio [25]. A p-value of &lt;0.05 was considered statistically significant."
+        }
+      ]
+    },
+    {
+      "title": "Certainty of evidence assessment",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Umbrella review authors used the Grading of Recommendation, Assessment, Development, and Evaluation (GRADE) method to assess COE [26]. If authors of included SRs graded COE, ratings between the umbrella review and SR were compared and any deviations from the SR grading were justified. A summary of findings table was drafted using gradePRO [27], which reports the number of studies and participants, effect size, factors contributing to COE and overall conclusion for each outcome and was adapted for this manuscript."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Database searches identified 758 SRs; we screened 80 full-text SRs, and 21 SRs were included (Fig. 1) [[28], [29], [30], [31], [32], [33], [34], [35], [36], [37], [38], [39], [40], [41], [42], [43], [44], [45], [46], [47], [48]]. A list of articles excluded during full text review and reasons is available in Supplementary Table 2. Characteristics of included studies are described in Table 2. Seven SRs examined vegetarian and vegan dietary patterns combined [30,34,36,41,44,47,48], six SRs examined vegan dietary patterns [28,29,38,40,43,45], and eight SRs provided separate results for both vegetarian and vegan dietary patterns [[31], [32], [33],35,37,39,42,46]. Quality of SRs as assessed by the AMSTAR2 tool are shown in Supplementary Table 3. Though several SRs aimed to describe the impact of dietary patterns in the general population using RCTs, generally the RCTs available examined adults with cardiometabolic disease only. Thus, despite intending to include SRs with RCTs, umbrella review authors judged that these SRs often did not answer the research question, as studies targeting adults with cardiometabolic disease may have different goals, evaluation of efficacy and comparison diets compared to those evaluating impact for the general population. Thus, conclusions were primarily based on results from observational evidence. For most outcomes, included SRs did not report data required to combine data from different SRs in a novel meta-analysis, except for CRP concentrations, for which a novel meta-analysis was conducted.Fig. 1PRISMA flow diagram for new systematic reviews which included searches of databases and registers only.Fig 1Table 2Study characteristics of included systematic reviews examining the relationship between vegetarian and vegan diets and cardiovascular risk and disease outcomes.Table 2Author, YearPopulation (Health Status, Age)Diet (Vegetarian, Vegan) Diet DurationStudy Designs IncludedYears of Primary StudiesDiet Adherence Assessment ReportedOutcomes of Interest ReportedMeta-AnalysisRoB AssessmentCertainty of Evidence GradingOverall Confidence in Results from AMSTAR2Bakaloudi et al. 2021 [28]No limits on health status or ageVeganDuration: NA-11.7 yearsCross-sectional, cohortNRYesBMINoNewcastle-Ottawa and modified Newcastle-Ottawa ScaleNoLowBenatar et al. 2018 [29]No significant comorbidities≥18 yearsVeganDuration: ≥1 yearCross-sectional, cohort1960–2018Yes•BMI•BP•LDL-C•TGsYesNewcastle-Ottawa ScaleNoCritically LowCraddock et al. 2019 [30]No limits on health status or ageVegetarianDuration: ≥4 weeks for interventions, ≥1 year for observationalCross-sectional, RCTsNA-2017NoCRPYesModified Newcastle-Ottawa ScaleGRADECritically LowDybvik et al. 2022 [31]Presumably healthy general populationNo limits on ageVegetarian, VeganDuration: 5.14–28.3 yearsProspective Cohort StudiesNA-2021No•CVD Incidence•CVD Mortality•IHD Incidence•IHD Mortality•Stroke Incidence•Stroke MortalityYesModified ROBINS-IWorld Cancer Research Fund grading criteriaLowElliot et al. 2022 [32]No limits on health status≥18 yearsVegetarian, VeganDuration: 3 months- 3.75 yearsRCT, prospective cohort, cross-sectionalNA-2022No•LDL-C•TGs•CRP/ hsCRPNoNoNoCritically LowGibbs et al. 2021 [33]No limits on health status≥18 yearsVegetarian, VeganDuration: 1.4–204 weeks (median 12 weeks)Controlled trials1961–2019NoBPYesRoB2GRADELowGlenn et al. 2019 [34]With or without diabetesMedian age range: 33–58 yearsVegetarianDuration: ≥1 yearProspective cohortNA-2018Yes•CHD Incidence•CHD Mortality•CVD Mortality•Stroke MortalityYesNewcastle-OttawaGRADECritically LowIvanova et al. 2021 [35]No limits on health status≥18 yearsVegetarian, VeganDuration: 30 days-2 yearsControlled trials, prospective cohort studiesNA-2021No•BMI•LDL-CNoNewcastle-Ottawa ScaleNoCritically LowJabri et al. 2021 [36]No limits on health status or ageVegetarianDuration: Mean of 10.68 yearsProspective Cohort StudiesNA-2019No•CHD Mortality•CBVD MortalityYesROBINS-IGRADECritically LowJafari et al. 2021 [37]No limit on health status≥18 yearsVegetarian, VeganDuration: 4–25 yearsProspective Cohort Studies1988–2020Yes•CVD Mortality•CBVD Mortality•CHD MortalityYesNewcastle-OttawaGRADELowKaiser et al. 2021 [38]No limits on health status or ageVeganDuration 8 weeks-18.1 yearsRCTs, Prospective Cohort, Cross-sectionalNR-2020Yes•Stroke Incidence•Myocardial Infarction Incidence•CHD Incidence•CHD Incidence•CVD Mortality•CBVD MortalityNoCochrane Collaboration Tool and Newcastle-OttawaAgency for Healthcare Research and QualityLowKoch et al. 2023 [47]No limit on health status≥18 yearsVegetarian, VeganRCTs1980–2022NoLDL-CTGsYesRoB 2NoCritically LowLee et al. 2020 [39]No limits on health status or ageVegetarian, VeganDuration: ≥ 2 weeksRCTsNA-2020NoBPYesRoBGRADECritically LowLopez et al. 2019 [40]No limit on health status≥18 yearsVeganDuration: ≥3 weeksRCTsNA-2018NoBPYesNRGRADELowLu et al. 2021 [41]No history of strokeNo limits on ageVegetarianDuration: 6–26 yearsProspective Cohort StudiesNA-2021YesStroke IncidenceYesNewcastle-OttawaNutrigradeHighMenzel et al. 2020 [42]No limit on health status≥18 yearsVegetarian, VeganDuration: 1–25 yearsCross-sectionalNA-2020NoCRPYesNewcastle-Ottawa Quality Assessment Scale adapted for cross-sectional studiesNoLowPollakova et al. 2021 [43]Healthy≥18 yearsVeganDuration: 6–74 weeksRCTsNR-2020NoBMINoCochrane Risk of Bias toolNoCritically LowQuek et al. 2021 [44]No limit on health status38–67 yearsVegetarianDuration: NRProspective Cohort StudiesNA-2021Yes•CVD Incidence•CVD Mortality•Stroke IncidenceYesNewcastle-OttawaNoCritically LowRees et al. 2021 [45]General Population or with CVD RiskVeganDuration: 8–39 weeksRCTs1900–2020No•CVD Events•CVD Mortality•LDL-C•TGs•BP•BMIYesRoB2GRADE (for some outcomes)HighRemde et al. 2022 [46]No limit on health statusAdultVegetarian, VeganDuration: ≥4 weeksRCTs and Quasi-experimental studiesNR-2020No•BMI•BP•LDL-C•TGsNoCochrane RoBNoLowWang et al. 2023 [48]No limit on health status≥18 yearsVegetarianDuration: 2–36 yearsProspective cohort studies, case-cohort studies, or nested case-controlstudiesNR- 2023Yes•CVD Incidence•T2DM IncidenceYesQuality Assessment Tool for Observational Cohort and Cross-Sectional StudiesNoCritically Low<strong>Abbreviations:</strong> AMSTAR2= <em>A</em> MeaSurement Tool to Assess systematic Reviews version 2, BMI= body mass index, BP= blood pressure, CBVD= cerebrovascular disease, CRP= C-reactive protein, CHD= coronary heart disease, CVD= cardiovascular disease, GRADE= Grading of Recommendations, Assessment, Development, and Evaluations, IHD= ischemic heart disease, hsCRP= high-sensitivity c-reactive protein, LDL-C= low-density lipoprotein cholesterol, NA= not applicable, NR= not reported, RCT= randomized controlled trial, ROB= risk of bias, RoB2= Version 2 of the Cochrane risk-of-bias tool for randomized trials, ROBINS-<em>I</em>= Risk Of Bias In Non-Randomized Studies - of Interventions; TGs= triglycerides."
+        }
+      ]
+    },
+    {
+      "title": "Cardiovascular disease and coronary heart disease incidence",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Five SRs examined the relationship between consuming vegetarian dietary patterns, compared to non-vegetarian dietary patterns, and CVD and CHD incidence in presumably healthy adults in the general population [31,34,38,44,48]. Among these, Dybvik et al. [31] and Kaiser et al. [38] had the highest quality as assessed by the AMSTAR2 tool (Supplementary Table 3). In total, nine primary studies were included in the SRs and eight of these studies were reported in Dybvik et al. [31]."
+        },
+        {
+          "type": "paragraph",
+          "html": "In the SR by Dybvik et al. [31], follow-up ranged from 5.14 to 28.3 years. In meta-analysis, vegetarian including vegan dietary patterns reduced risk of both CVD [relative risk (RR) (95 % CI): 0.85 (0.79, 0.92) I<sup>2</sup>=68 %] and CHD [0.79 (0.71, 0.88) I<sup>2</sup>=67 %] compared to non-vegetarian dietary patterns (Table 3). In a meta-analysis of six studies in Dybvik et al. [31], there was no significant relationship between consuming vegan dietary patterns, compared to non-vegetarian dietary patterns, and CVD [0.92 (0.79, 1.06) I<sup>2</sup>= 0 %] or CHD [0.82 (0.68, 1.00) I<sup>2</sup>= 0 %] incidence (Table 3). It is important to note that Dybvik et al. [31]. reported incidence by using data on CVD and CHD incidence when available and using CVD and CHD mortality as a measure of incidence (i.e., CVD/CHD must have been incident if participants died of this cause) when incidence was not available. Dybvik et al. [31] rated vegetarian including vegan dietary patterns as having a “probably protective effect”. Authors described a “limited-suggestive” impact of vegan dietary patterns on CHD, and “limited-no conclusion” for the impact of vegan dietary patterns on CVD [31].Table 3Quantitative results of included systematic reviews examining the impact of vegetarian diets compared to non-vegetarian diets on cardiovascular disease (CVD) incidence and results for presumably healthy adults in the general population.Table 3Author, YearDietOutcomeN StudiesN ParticipantsEffect Size TypeEffect Size95 % CII2CoE1SR Quality3<strong>CVD Incidence</strong>Dybvik et al. 2022 [31]VegetarianCVD Incidence or Mortality18621,282RR0.850.79, 0.9268 %Probably protective effectLowQuek et al. 2021[44]VegetarianCVD Incidence116,254HR0.810.72, 0.91NANRCritically LowDybvik et al. 2022 [31]VeganCVD Incidence or Mortality16197,668RR0.920.79, 1.060 %Limited-no conclusionLowDybvik et al. 2022 [31]VegetarianCHD2 Incidence or Mortality18621,282RR0.790.71, 0.8867 %Probably protective effectLowGlenn et al. 2019 [34]VegetarianCHD Incidence144,561RR0.720.61, 0.85NAVery LowCritically LowWang et al. 2023VegetarianCVD Incidence45UnclearRR0.850.70, 1.0399 %NRCritically LowDybvik et al. 2022 [31]VeganCHD Incidence or Mortality16197,668RR0.820.68, 1.000 %Limited-suggestiveLowKaiser et al. 2021 [38]VeganCHD Incidence126,260HR0.820.64, 1.05NALowLow<strong>Cardiovascular Events</strong>Dybvik et al. 2022 [31]VegetarianTotal Stroke12770,867RR0.900.77, 1.0561 %Limited-no conclusionLowQuek et al. 2021 [44]VegetarianTotal StrokeUnclear20,397HR0.720.36, 1.4181.9 %NRCritically LowLu et al. 2021 [41]VegetarianTotal Stroke7679,773HR0.860.67, 1.1168 %LowHighDybvik et al. 2022 [31]VeganTotal Stroke5109,938RR1.170.69, 1.9928 %Limited-no conclusionLowKaiser et al. 2021 [38]VeganTotal Stroke126,260HR1.350.95, 1.92NAVery LowLowKaiser et al. 2021 [38]VeganMyocardial Infarction126,260HR0.770.46, 1.27NANRLow<strong>CVD Mortality</strong>Glenn et al. 2019 [34]VegetarianCVD Mortality5144,247RR0.920.84, 1.0234 %Very LowCritically LowJafari et al. 2021 [37]VegetarianCVD Mortality5144,247HR0.920.85, 0.990 %NR Vegetarian DietsLowQuek et al. 2021 [44]VegetarianCVD Mortality358,274HR0.890.78, 1.010 %NRCritically LowJafari et al. 2021 [37]Lacto-ovo-vegetarianCVD Mortality173,308HR0.900.76, 1.06NANR Vegetarian DietsLowJafari et al. 2021 [37]VeganCVD Mortality173,308HR0.910.71, 1.16NANR Vegetarian DietsLowKaiser et al. 2021 [38]VeganCVD Mortality140, 907HR0.910.71, 1.16NANRLowGlenn et al. 2019 [34]VegetarianCHD Mortality7197,737RR0.780.69, 0.8846 %Very LowCritically LowJabri et al. 2021 [36]VegetarianCHD Mortality7127,517RR0.700.55, 0.8982 %Very LowCritically LowJafari et al. 2021 [37]VegetarianCHD Mortality7197,377HR0.760.68, 0.8535 %NR Vegetarian DietsLowJafari et al. 2021 [37]Lacto-ovo-vegetarianCHD Mortality1UnclearHR0.820.63, 1.07NANR Vegetarian DietsLowJafari et al. 2021 [37]VeganCHD Mortality1UnclearHR0.900.60, 1.34NANR Vegetarian DietsLowKaiser et al. 2021 [38]VeganCHD Mortality273,308Not pooledBoth studies NSNRNRNRLowGlenn et al. 2019 [34]VegetarianStroke Mortality5123,638RR0.920.77, 1.1044 %Very LowCritically LowJabri et al. 2021 [36]VegetarianCBVD Mortality7124,817RR0.840.63, 1.1490 %Very LowCritically LowJafari et al. 2021 [37]VegetarianCBVD Mortality5UnclearHR0.930.78, 1.1045 %NR Vegetarian DietsLowKaiser et al. 2021 [38]VeganCBVD Mortality1753HR0.700.25, 1.98NANRLow<strong>Abbreviations:</strong> COE = Certainty of evidence; CHD= coronary heart disease; CVD= cardiovascular disease; HR = Hazard ratio; <em>N</em>= number/sample size; NA= not applicable, NR= not reported; NS = Not specified RR = Relative risk; SR = Systematic Review.1In Dybvik et al. 2023, mortality was used as a proxy for incidence when incidence was not available.2Some studies reported CHD as IHD. These terms were used interchangeably in this umbrella review.3Systematic review quality was rated with the AMSTAR2 tool.4It was unclear which primary studies were included in the subgroup analysis for vegetarian diets in Wang et al., but it appears authors included the outcome of stroke in CVD incidence."
+        },
+        {
+          "type": "paragraph",
+          "html": "Umbrella review authors graded outcomes similarly to Dybvik et al. [31]; COE was downgraded for RoB for vegetarian including vegan dietary patterns, but COE started as ‘high’ because Dybvik et al. [31] utilized the ROBINS-I tool to assess RoB, which is a stricter assessment for observational study designs [49]. Ratings were lower for vegan dietary patterns because the confidence interval included a null effect. COE was moderate for vegetarian and low for vegan dietary patterns (Fig. 2).Fig. 2Summary of findings table demonstrating the relationships between (A) Vegetarian and (B) Vegan diets compared to non-vegetarian diets on outcomes of interest.Fig 2<strong>Abbreviations:</strong> BMI= body mass index, CBVD= cerebrovascular disease, CHD= coronary heart disease, CI= confidence interval, CRP= <em>c</em>-reactive protein, CVD= cardiovascular disease, GRADE= Grading of Recommendation, Assessment, Development, and Evaluation, HR= hazard ratio, LDL-C= low-density lipoprotein cholesterol concentrations, MD= mean difference, MI= myocardial infarction, <em>N</em>= number/sample size, NA= not applicable, NR= not reported, RCTs= randomized controlled trials, RR= RR = Relative risk, SR= systematic review, TG= triglyceride concentrations a. The most comprehensive and highest quality SR for each study design was used to assess COE. b. Systematic review authors describe some concerns or high risk of bias in included studies. c. Wide confidence interval and/or confidence interval includes both benefits and harms. d. I<sup>2</sup>&gt;75 % and/or qualitative heterogeneity in results between studies. e. Small or unclear sample sizes. f. Some evidence of publication bias."
+        }
+      ]
+    },
+    {
+      "title": "Cardiovascular disease events",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "title": "Stroke",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Four SRs examined the relationship between vegetarian dietary patterns and risk of stroke in the target population using cohort studies [31,38,41,44]. One SR focused on interventions but did not identify any primary articles targeting the population of interest [45]. Lu et al. [41] was the highest quality SR followed by Dybvik et al. [31] and Kaiser et al. [38] (Supplementary Table 3). A total of twelve primary observational studies were included in the SRs. All twelve primary studies were reported in Dybvik et al. [31], but only seven were reported in Lu et al. [41]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Diet durations ranged from 5.14 to 28.3 years in Dybvik et al. [31] and 6–26 years in Lu et al. [41] In a meta-analysis of twelve primary studies, there was no impact of vegetarian dietary patterns on risk for total stroke [RR: 0.90 (0.77, 1.05)] (Table 3) [31]. Results were similar in Lu et al. [41], which had higher quality (Supplementary Table 3) and in Quek et al. [44]. In a meta-analysis of five studies, there was no significant relationship between vegan dietary patterns, compared to non-vegetarian dietary patterns, and total stroke [RR: 1.17 (0.69–1.99)]. This effect size was like that found in Kaiser et al. [38] (Table 3). Similarly, there was no significant impact of vegetarian dietary patterns on hemorrhagic or ischemic strokes specifically compared to non-vegetarian dietary patterns [31,38,41,44]. In Dybvik et al. [31], authors described that evidence was rated as “limited-no conclusion” for the impact of vegetarian dietary patterns on reduced risk of total stroke. COE started as high because Dybvik et al. utilized the ROBINS-I tool to assess risk of bias, which is a stricter assessment for observational study designs [31]. In Lu et al. [41], authors described COE as low for vegetarian diet using the Nutrigrade system."
+        },
+        {
+          "type": "paragraph",
+          "html": "Umbrella review authors agreed with ratings from SR authors, and COE was graded as low using the GRADE method due to RoB and imprecision because the CI included potential for both reduced and increased risk of stroke (Fig. 2). The SR focusing on interventions did not identify any primary articles targeting the population of interest [45]."
+        }
+      ]
+    },
+    {
+      "title": "Myocardial infarction",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Myocardial infarction (MI) risk was only reported in Kaiser et al. [38], which included one primary study (EPIC—Oxford). Authors found no impact of vegan dietary patterns, compared to non-vegetarian dietary patterns, on risk of MI [hazard ratio (HR): 0.77 (0.46–1.27)] after up to 18.1 years duration (Table 3) [38]."
+        }
+      ]
+    },
+    {
+      "title": "Cardiovascular disease mortality",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "SR authors reported associations between vegetarian dietary patterns and total CVD mortality as well as mortality from specific types of CVD, including CHD, CBVD and stroke."
+        }
+      ]
+    },
+    {
+      "title": "CVD mortality",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Four SRs reported the impact of vegetarian including vegan dietary patterns, on CVD mortality [34,37,38,44]. Five primary studies were represented in the four SRs and all these studies were represented in both Glenn et al. [34] and Jafari et al. [37]."
+        },
+        {
+          "type": "paragraph",
+          "html": "The meta-analyses in the SRs demonstrated similar results, though the results in Jafari et al. were statistically significant [HR: 0.92 (0.85, 0.99)] while results in Glenn et al. were not [RR: 0.92 (0.84, 1.02)] (Table 3). Effect sizes were similar in Quek et al. [44] Jafari et al. [37] examined the impact of vegan and lacto-ovo-vegetarian dietary patterns specifically, while Kaiser et al. [38] examined the impact of vegan dietary patterns only. Jafari et al. [37] and Kaiser et al. [38] reported no impact of vegan dietary patterns on CVD mortality risk compared to non-vegetarian dietary patterns."
+        },
+        {
+          "type": "paragraph",
+          "html": "The effect size for Jafari et al. [37] was used for making conclusions because it was rated as higher quality than Glenn et al. [34] (Supplementary Table 3). Though Glenn et al. [34] reduced COE for imprecision, umbrella review authors did not reduce the grade for this reason, because the quantitative results for vegetarian dietary patterns did not indicate imprecision in Jafari et al. [37] Therefore, COE was rated as low due to observational study designs (Table 3)."
+        }
+      ]
+    },
+    {
+      "title": "CHD mortality",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Four SRs examined the relationship between vegetarian or vegan dietary patterns and CHD mortality [34,[36], [37], [38]]. Eight primary studies were represented in the four SRs; Jabri et al. [36] and Jafari et al. [37] each included seven primary studies examining the impact of vegetarian dietary patterns."
+        },
+        {
+          "type": "paragraph",
+          "html": "Effect sizes were similar and statistically significant in all these SRs. Jafari et al. [37], which was one of the better-quality SRs (Supplementary Table 3), demonstrated that participants following vegetarian including vegan dietary patterns had lower risk of CHD mortality compared to those following non-vegetarian dietary patterns [HR (95 % CI): 0.76 (0.68, 0.85)] (Table 3). The impact of lacto-ovo-vegetarian and vegan dietary patterns specifically were examined in two SRs. Jafari et al. [37] found no significant impact of lacto-ovo-vegetarian or vegan dietary patterns on CHD mortality compared to non-vegetarian dietary patterns (Table 3). Kaiser et al. [38] found no significant relationship between vegan, compared to omnivorous, dietary patterns and CHD in two primary studies. Jabri et al. [36], Jafari et al. [37] and Glenn et al. [34] each downgraded evidence for observational study designs. Glenn additionally downgraded COE for indirectness as some included cohorts were health-conscious groups that may not represent the general population."
+        },
+        {
+          "type": "paragraph",
+          "html": "For vegetarian dietary patterns, umbrella review authors chose to mark COE down for observational evidence only, because the predominant health-conscious behavior of concern is, in this case, the behavior of interest, and COE was low. For vegan dietary patterns, umbrella review authors utilized findings from the higher quality SR [37] and rated COE as very low due to observational study designs and a CI ranging from a reduced risk to increased risk (Fig. 2)."
+        }
+      ]
+    },
+    {
+      "title": "Stroke mortality",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "One SR examined the impact of vegetarian dietary patterns on stroke mortality [34]. Glenn et al. [34] included five primary studies in meta-analysis and found no significant impact of vegetarian including vegan dietary patterns on risk of stroke mortality [RR: 0.92 (0.77, 1.10)] (Table 3). Using the GRADE method, Glenn et al. [34] rated COE as very low due to indirectness, because participants consuming vegetarian dietary patterns were part of health-conscious groups, and imprecision."
+        },
+        {
+          "type": "paragraph",
+          "html": "Umbrella review authors did not agree that evidence should be marked down for indirectness but did agree evidence should be marked down for imprecision because the CI is wide and includes both potential reduction and increase in risk (Fig. 2)."
+        }
+      ]
+    },
+    {
+      "title": "Cerebrovascular disease (CBVD) mortality",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Three SRs examined the relationship between vegetarian dietary patterns and CBVD mortality in the target population [[36], [37], [38]]. In the two SRs examining the impact of vegetarian dietary patterns [36,37], eight primary studies were represented, and five of these were included in both SRs. Neither SR demonstrated a significant impact of vegetarian including vegan dietary patterns on risk of CBVD mortality (Table 3). While Jafari et al. [37] had higher quality (Supplementary Table 3), Jabri et al. [36] was more comprehensive and the effect size was RR (95 % CI): 0.84 (0.63–1.14). Kaiser et al. [38] found no significant relationship between vegan, compared to omnivorous, dietary patterns and risk of mortality from CBVD (Table 3). Jabri et al. [36] described COE as very low due to RoB, inconsistency (I<sup>2</sup>=90 %), and publication bias. It was unclear why Jabri et al. [36] rated down for publication bias because they describe that they do not assess publication bias for analyses with &lt;10 studies, and no data on publication bias was provided. Jafari et al. [37] rated evidence for CBVD as very low due to observational study design and imprecision (CI includes potential for both decreased and increased risk)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Umbrella review author described evidence certainty was very low for vegetarian dietary patterns due to RoB, inconsistency between studies and a wide confidence interval for the effect size. The impact of vegan dietary patterns on CBVD mortality was also very low (Fig. 2)."
+        }
+      ]
+    },
+    {
+      "title": "Hypertension incidence and overweight/obesity incidence",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "No included SRs reported on the relationship between vegetarian dietary patterns, compared to non-vegetarian dietary patterns, and risk of hypertension or overweight/obesity in presumably healthy adults in the general population."
+        }
+      ]
+    },
+    {
+      "title": "Blood pressure",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Seven SRs examined the relationship between vegetarian including vegan dietary patterns and BP. One SR examined evidence from observational studies [29], and six SRs examined results from controlled trials [33,39,40,43,45,46]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Benatar et al. [29] examined the relationship between following vegan diets for at least one year and BP in 16 primary observational studies. In meta-analysis, vegan diets were associated with lower systolic BP [MD (95 % CI): −2.56 mmHg (−4.66, −0.45); I<sup>2</sup>=83 %], but results were not significant for diastolic BP [−1.33 mmHg (−2.67, 0.02); I<sup>2</sup>=82 %]. The relationship was largely driven by participants from non-Eastern Asian countries. The six SRs that utilized controlled trials of vegetarian or vegan dietary patterns [33,39,40,43,45,46] collectively included 24 primary studies after de-duplication. However, 19 of these studies targeted adults with diagnosed diseases such as type 2 diabetes, hypertension, overweight or obesity, and/or heart disease, and SR conclusions were not considered applicable to the general population."
+        },
+        {
+          "type": "paragraph",
+          "html": "COE was very low when assessed by umbrella review authors due to observational study design and high heterogeneity when comparing results between studies (Fig. 2)."
+        }
+      ]
+    },
+    {
+      "title": "LDL-Cholesterol & triglyceride concentrations",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Seven SRs examined the relationship between vegetarian, including vegan, dietary patterns and LDL-cholesterol and/or triglyceride concentrations [29,32,35,43,[45], [46], [47]]. Six SRs examined evidence from controlled trials [32,35,43,[45], [46], [47]], but available evidence was not applicable to disease prevention in the general population in five of these SRs [32,35,43,45,46]. One SR of RCTs included sub-group analysis to examine effects of vegetarian dietary patterns in presumably healthy adults [47]. The SR that examined evidence from observational studies required adults to have no significant co-morbidities and follow a vegan diet for at least one year [29]."
+        },
+        {
+          "type": "paragraph",
+          "html": "The SR with RCTs described there may be no effect of vegetarian and vegan dietary patterns combined on LDL cholesterol concentrations in four RCTs in presumably healthy adults [−0.13 mmol/l (−0.37, 0.12)] [47]. In addition, there may be no effect of vegetarian and vegan dietary patterns combined on triglyceride concentrations in five RCTs in presumably healthy adults [−0.05 mmol/l (−0.29, 0.10) [47]."
+        },
+        {
+          "type": "paragraph",
+          "html": "In the SR and meta-analysis of 31 observational studies, vegan dietary patterns may be associated with significantly lower LDL-cholesterol concentrations of −0.49 mmol/l (−0.62, −0.36) (<em>p</em> &lt; 0.0001) compared to omnivorous diets, though heterogeneity was high (I<sup>2</sup>=92 %) [29]. In the SR and meta-analysis of 29 observational studies, vegan dietary patterns may be associated with significantly lower triglyceride concentrations of −0.05 mmol/l (−0.24, −0.05) (<em>p</em> = 0.004) compared to omnivorous diets, and heterogeneity was high [29]. Most included primary studies examining LDL cholesterol and triglyceride concentrations were rated as “high quality” using the Newcastle-Ottawa Scale."
+        },
+        {
+          "type": "paragraph",
+          "html": "For the impact of vegetarian dietary patterns on LDL-cholesterol, COE was graded as low due to very small sample sizes and a wide CI that included potential for both increased and decreased LDL-cholesterol concentrations (Fig. 2). When grading evidence on the impact of vegan dietary patterns and LDL cholesterol concentrations, we chose not to reduce COE for imprecision, because nearly all studies demonstrated a benefit of vegan dietary patterns, and COE was low. For the impact of vegetarian including vegan dietary patterns on triglyceride concentrations, COE was low due to very small sample sizes and a wide confidence interval that includes potential for both increased and decreased triglyceride concentrations (Fig. 2). For the impact of vegan dietary patterns on triglyceride concentrations, COE was very low when assessed by umbrella review authors due to observational study designs, inconsistency between studies and publication bias (Fig. 2)."
+        }
+      ]
+    },
+    {
+      "title": "CRP concentrations",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Three SRs examined the relationship between vegetarian dietary patterns and CRP concentrations in presumably healthy adults in the general population [30,32,42]. Two SRs examined evidence from observational studies [30,42], and two SRs examined evidence from controlled trials [30,32]. Evidence from controlled trials did not address the population of interest and umbrella review conclusions were primarily based on observational evidence, which assessed large, population-based studies. In the two SRs utilizing observational (cross-sectional) studies, there were 22 primary studies represented in the SRs after de-duplication, and 13 of these studies were reported in both SRs [30,42]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Data from both SR meta-analyses were combined in a novel meta-analysis conducted by umbrella review authors. Meta-analysis of two SRs including 22 primary studies with 8250 participants, demonstrated a statistically significant lower CRP concentration in all vegetarian and vegan dietary patterns combined compared with non-vegetarian dietary patterns, and heterogeneity was very high [MD (95 % CI): −0.55 mg/l (−1.07, −0.03); I<sup>2</sup>=99.5 %] (Supplementary Fig. 2a–c). Two SRs examined the effect of vegetarian including vegan diets using intervention studies [30,32]. Quantitative results for non-specified vegetarian dietary patterns did not reach statistical significance, likely because only three studies were included and heterogeneity with was very high (I<sup>2</sup>=99.9 %) (Supplementary Fig. 2a). Studies with low risk of bias demonstrated a significant effect, while those with some risk of bias demonstrated did not (Supplementary Fig. 2b). Publication bias was not detected (Supplementary Fig. 2c)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Umbrella review authors graded COE as very low due to observational study designs, RoB and inconsistency between studies, which aligned with evidence grading in the SRs (Fig. 2) [30,42]."
+        }
+      ]
+    },
+    {
+      "title": "Body mass index (BMI)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Two SRs examined the relationship between vegan dietary patterns, compared to non-vegetarian dietary patterns, and BMI in the target population using observational studies [28,29]. Four SRs examined this relationship using intervention studies [35,43,45,46]. In the four SRs of intervention studies combined, 13 of the 14 primary studies represented specifically targeted adults with disease or high disease risk and results were not applicable to the target population. In both SRs with observational studies combined, 64 primary observational studies were represented, and there was an overlap of six primary studies between SRs [28,29]. Benatar et al. [29] demonstrated vegans had a lower BMI than omnivores [−1.72 kg/m<sup>2</sup> (−2.52, −1.32); I<sup>2</sup>=98 %]. Bakaloudi et al. [28] did not include quantitative results or assess COE, but reported similar direction of findings and RoB assessment as Benatar et al. [29]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Umbrella review authors graded COE as very low due to observational study designs and high heterogeneity between studies (Fig. 2)."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This umbrella review of published SRs and meta-analyses examined the relationships between vegetarian including vegan dietary patterns, compared to non-vegetarian dietary patterns, and prevention of cardiovascular risk factors, disease and mortality. Consumption of vegetarian including vegan dietary patterns was associated with reduced risk for CVD and CHD incidence and mortality compared to non-vegetarian dietary patterns. Vegan dietary patterns were associated with mitigated CVD risk factors such as lower BP, LDL-C, triglycerides, CRP, and BMI when compared to non-vegetarian dietary patterns. Effect sizes and direction of results were generally consistent between all included SRs for the outcomes of CVD incidence, events and mortality (Table 3). SRs with the target population were more sparse for intermediate outcomes, but were generally consistent in reporting improvement from vegan dietary patterns. An overview of the umbrella review and results can be found in Central Illustration. These findings can be used in the development and refinement of clinical guidelines for CVD prevention."
+        },
+        {
+          "type": "paragraph",
+          "html": "Across most risk factor and disease outcomes reviewed, there was generally low COE due to inherent limitations in examining dietary patterns for disease prevention in free-living adults, including reliance on observational study designs and their associated biases. In addition, biomarker outcomes had high heterogeneity in results. Though the source of this heterogeneity is not elucidated in the included SRs, it may result from differences in the quality of vegetarian and comparison dietary patterns, time following the dietary patterns, or variability in cardiometabolic risk factors in participants in the general population. In the outcomes reviewed, only lower CVD and CHD incidence had moderate certainty evidence for following vegetarian compared to non-vegetarian dietary patterns. Findings in this umbrella review were consistent with those reported in recent SRs and meta-analysis examining similar research questions [50,51]. Despite minor differences in population or outcome parameters compared to this review, results across reviews consistently suggest that consuming vegetarian including vegan dietary patterns are associated with improvements in several important cardiovascular risk factors."
+        }
+      ]
+    },
+    {
+      "title": "Practice implications",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "There is robust evidence supporting vegetarian and vegan dietary patterns to promote cardiometabolic health [9,10,13]. Individuals may choose to adopt a vegetarian-style dietary pattern for a variety of reasons, including ethical concerns for the treatment of animals and protection of the environment, mitigation of green-house gas emissions, and to therapeutically manage or lower the risk of several chronic diseases [52,53]. Similar to other dietary patterns, vegetarian dietary patterns can be followed in healthy and less healthy ways [14]. Following a vegetarian-style dietary pattern that mainly consists of low-quality foods and beverages (such as those high in refined carbohydrates, added sugars, and saturated fat) could be unhealthy and increase the risk of CVD when compared to non-vegetarian dietary patterns [14,54,55]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Nutrition misinformation [56], misplaced emphasis on a food or dietary component or the lack of nuance and oversimplification of dietary approaches may lead to adoption of dietary patterns that do not optimally support health [3]. The diet quality of vegetarian compared with non-vegetarian dietary patterns can be dependent on the index or measure used to assess diet quality. However, it is more greatly impacted by the foods vegetarians consumed in place of meat, fish, and poultry in their diets (e.g., replacing animal-based protein with refined carbohydrates) [57]. A recent scientific statement from the American Heart Association found that vegetarian dietary patterns (including ovo, lacto, and ovo/lacto) were in the top tier of popular dietary patterns that were in alignment with the organization&#x27;s dietary guidance (along with the Mediterranean, DASH [Dietary Approaches to Stop Hypertension] and pescetarian diets) [58]. <em>A priori</em>, we decided to look for impact of healthfulness of vegetarian dietary patterns, but there was little/no information available in the SRs. This should be a focus for future analyses as previous research has found that a higher quality plant-based dietary pattern compared to a lower quality plant-based diet was associated with improvements in obesity, mortality, diabetes, and cardiovascular disease [57]. Practitioners can guide clients in discerning between healthy and unhealthy components of dietary patterns by focusing nutrition education and counseling on well-established features of heart-healthy vegetarian and vegan dietary patterns (e.g., vegetables, fruits, legumes, whole grains, and incorporation of healthy sources of unsaturated fats). Fig. 3 may be used to transparently guide shared decision making with clients or patients regarding if a vegetarian or vegan dietary patterns can achieve health goals.Fig. 3Evidence on the impact of vegetarian dietary patterns for the general population to aid in shared decision-making with clients.Fig 3<strong>Abbreviations:</strong> BMI= body mass index; LDL= low-density lipoprotein Certainty of Evidence: °= Very Low; ◑ = Low; ● = Moderate.Central IllustrationSummary of umbrella review examining the impact of vegetarian dietary patterns on cardiovascular risk factors and disease prevention for the general population.Central Illustration<strong>Abbreviations:</strong> AMSTAR2= <em>A</em> Measurement Tool to Assess Systematic Reviews, version 2; BMI= body mass index; BP= blood pressure; CRP= <em>c</em>-reactive protein; CVD= cardiovascular disease; GRADE= Grading of Recommendations, Assessment, Development, and Evaluation"
+        }
+      ]
+    },
+    {
+      "title": "Strengths and limitations",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "A strength of our umbrella review was the broad and inclusive approach based on a prespecified research protocol, rigorous search using five databases, and using a well-established quality assessment tool. Several limitations of our review warrant discussion. A key challenge when interpreting studies included in this review was the lack of a clear definition of vegetarian and vegan dietary patterns [6]. This was further complicated as some studies reported associations or RRs for vegetarian or vegan dietary patterns in isolation, while others combined the two patterns. Additionally, within observational studies, participants may have consumed meat/poultry/fish ≤once/month but were still classified as “vegetarian”. Overall, categorization of dietary patterns as “vegetarian” or “vegan” was inconsistent and variably defined by primary study authors. Also, we were not able to assess dietary adherence and nutritional quality of dietary patterns as this was not reported within SRs. We acknowledge these are impactful variables that should be reported and considered when interpreting results of nutrition trials [59]. Third, there were gaps in available SRs characterizing the health impacts of vegetarian and vegan dietary patterns on the outcomes MI, hypertension incidence, overweight and obesity incidence, and BMI. Additionally, the included SRs utilized different tools for assessing risk of bias of primary studies and assessments were conducted by many different researchers, which may lead to variation in risk of bias assessments."
+        },
+        {
+          "type": "paragraph",
+          "html": "Finally, lack of SRs with RCTs targeting CVD prevention for generally healthy adults led to a reliance on SRs of observational studies. However, observational studies, particularly long-term prospective cohort studies, can be an invaluable resource in answering nutritional questions in regard to long-term health [60]. A forthcoming manuscript from our group will discuss the impact of vegetarian dietary patterns on adults with chronic diseases (e.g., type 2 diabetes)."
+        }
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This umbrella review of SRs found that in presumably healthy adults in the general population, vegetarian and vegan dietary patterns were associated with lower CVD and CHD incidence, and risk of CVD mortality compared to non-vegetarian dietary patterns. Vegan dietary patterns were associated with lower triglyceride, LDL-C, and CRP concentrations, BP, and BMI. Across most outcomes reviewed, there was generally low COE due to reliance on observational study designs and high heterogeneity between studies. Therefore, additional high-quality RCTs examining the effects of vegetarian dietary patterns compared to non-vegetarian dietary patterns for CVD prevention among generally healthy adults are needed. Clinicians may consider recommending vegetarian dietary patterns to reduce cardiometabolic risk factors and decrease the risk of CVD incidence and mortality."
+        }
+      ]
+    },
+    {
+      "title": "Role of the funder/sponsor",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The funder had no role in the design and conduct of the study; collection, analysis and interpretation of the data; preparation, review, or approval of manuscript; and decision to submit the manuscript for publication."
+        }
+      ]
+    },
+    {
+      "title": "Data sharing statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Data described in the manuscript and analytic code will be made available upon request pending application and approval from manuscript authors."
+        }
+      ]
+    },
+    {
+      "title": "Funding support",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This systematic review was supported by the Academy of Nutrition and Dietetics, the Academy of Nutrition and Dietetics Foundation, and the Academy of Nutrition and Dietetics Vegetarian Nutrition Dietetic Practice Group [no grant number]."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Matthew J. Landry:</strong> Writing – review &amp; editing, Writing – original draft, Visualization, Conceptualization. <strong>Katelyn E. Senkus:</strong> Project administration, Methodology, Formal analysis, Data curation, Conceptualization. <strong>A Reed Mangels:</strong> Writing – review &amp; editing, Conceptualization. <strong>Nanci S. Guest:</strong> Writing – review &amp; editing, Conceptualization. <strong>Roman Pawlak:</strong> Writing – review &amp; editing, Conceptualization. <strong>Sudha Raj:</strong> Writing – review &amp; editing, Conceptualization. <strong>Deepa Handu:</strong> Writing – review &amp; editing, Supervision, Methodology, Conceptualization. <strong>Mary Rozga:</strong> Writing – review &amp; editing, Writing – original draft, Visualization, Supervision, Project administration, Methodology, Formal analysis, Data curation, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare the following financial interests/personal relationships which may be considered as potential competing interests: Mary Rozga reports financial support was provided by Academy of Nutrition and Dietetics. Mary Rozga reports financial support was provided by Academy of Nutrition and Dietetics Foundation. Mary Rozga reports financial support was provided by Academy of Nutrition and Dietetics Vegetarian Nutrition Dietetic Practice Group. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "LichtensteinA.H.AppelL.J.VadivelooM.HuF.B.Kris-EthertonP.M.RebholzC.M.2021 dietary guidance to improve cardiovascular health: a scientific statement from the American heart associationCirculation144232021e472ee873472480610.1161/CIR.0000000000001031"
+    },
+    {
+      "html": "ViraniS.S.NewbyL.K.ArnoldS.V.BittnerV.BrewerL.C.DemeterS.H.2023 AHA/ACC/ACCP/ASPC/NLA/PCNA guideline for the management of patients with chronic coronary disease: a report of the American Heart Association/American College of Cardiology Joint Committee on Clinical Practice GuidelinesCirculation14892023e9e1193747150110.1161/CIR.0000000000001168"
+    },
+    {
+      "html": "GardnerC.D.VadivelooM.K.PetersenK.S.AndersonC.A.SpringfieldS.Van HornL.Popular dietary patterns: alignment with American Heart Association 2021 dietary guidance: a scientific statement from the American Heart AssociationCirculation147222023171517303712894010.1161/CIR.0000000000001146"
+    },
+    {
+      "html": "CaraK.C.GoldmanD.M.KollmanB.K.AmatoS.S.TullM.D.KarlsenM.C.Commonalities among dietary recommendations from 2010 to 2021 clinical practice guidelines: a meta-epidemiological study from the American College of Lifestyle MedicineAdv Nutr14320235005153694090310.1016/j.advnut.2023.03.007PMC10201822"
+    },
+    {
+      "html": "LandryM.J.WardC.P.Health benefits of a plant-based dietary pattern and implementation in healthcare and clinical practiceAm J Lifestyle Med18520246576653930932010.1177/15598276241237766PMC11412377"
+    },
+    {
+      "html": "StorzM.A.What makes a plant-based diet? A review of current concepts and proposal for a standardized plant-based dietary intervention checklistEur J Clin Nutr76620227898003467540510.1038/s41430-021-01023-zPMC9187516"
+    },
+    {
+      "html": "MelinaV.CraigW.LevinS.Position of the academy of nutrition and dietetics: vegetarian dietsJ Acad Nutr Diet116122016197019802788670410.1016/j.jand.2016.09.025"
+    },
+    {
+      "html": "HargreavesS.M.RosenfeldD.L.MoreiraA.V.B.ZandonadiR.P.Plant-based and vegetarian diets: an overview and definition of these dietary patternsEur J Nutr6232023110911213668174410.1007/s00394-023-03086-z"
+    },
+    {
+      "html": "SatijaA.HuF.B.Plant-based diets and cardiovascular healthTrends Cardiovasc Med28720184374412949641010.1016/j.tcm.2018.02.004PMC6089671"
+    },
+    {
+      "html": "KahleovaH.LevinS.BarnardN.DVegetarian dietary patterns and cardiovascular diseaseProg Cardiovasc Dis611201854612980059810.1016/j.pcad.2018.05.002"
+    },
+    {
+      "html": "GlennA.J.Guasch-FerréM.MalikV.S.KendallC.W.MansonJ.E.RimmE.B.Portfolio diet score and risk of cardiovascular disease: findings from 3 prospective cohort studiesCirculation1482023175017633787728810.1161/CIRCULATIONAHA.123.065551PMC10841173"
+    },
+    {
+      "html": "NeuenschwanderM.StadelmaierJ.EbleJ.GrummichK.SzczerbaE.KiesswetterE.Substitution of animal-based with plant-based foods on cardiometabolic health and all-cause mortality: a systematic review and meta-analysis of prospective studiesBMC Med21120234043796862810.1186/s12916-023-03093-1PMC10652524"
+    },
+    {
+      "html": "OussalahA.LevyJ.BerthezèneC.AlpersD.H.GuéantJ.L.Health outcomes associated with vegetarian diets: an umbrella review of systematic reviews and meta-analysesClin Nutr39112020328333073220497410.1016/j.clnu.2020.02.037"
+    },
+    {
+      "html": "SatijaA.BhupathirajuS.N.SpiegelmanD.ChiuveS.E.MansonJ.E.WillettW.Healthful and unhealthful plant-based diets and the risk of coronary heart disease in US adultsJ Am Coll Cardiol70420174114222872868410.1016/j.jacc.2017.05.047PMC5555375"
+    },
+    {
+      "html": "HanduD.PiemonteT.Dietary approaches and health outcomes: an evidence analysis center scoping reviewJ Acad Nutr Diet1227202213751393e93557774710.1016/j.jand.2021.08.106"
+    },
+    {
+      "html": "HigginsJ.P.T.ThomasJ.ChandlerJ.CumpstonM.LiT.PageM.J.WelchV.A.Cochrane handbook for systematic reviews of interventions version 6.3 cochrane2022[updated February 2022. Available from<a href=\"http://www.training.cochrane.org/handbook\">www.training.cochrane.org/handbook</a>"
+    },
+    {
+      "html": "PageM.J.McKenzieJ.E.BossuytP.M.BoutronI.HoffmannT.C.MulrowC.D.The PRISMA 2020 statement: an updated guideline for reporting systematic reviewsBMJ3722021n713378205710.1136/bmj.n71PMC8005924"
+    },
+    {
+      "html": "Rozga M., Senkus K., Raj S., Mangels R., Landry M, Guest N., Pawlak R., Craig W. Impact of Vegetarian, Vegan and Non-Vegetarian Diets on Cardiometabolic Disease Prevention, Secondary Prevention and Management in Adults. PROSPERO 2023 CRD42023396453 Available from: <a href=\"https://www.crd.york.ac.uk/prospero/display_record.php?ID=CRD42023396453\">https://www.crd.york.ac.uk/prospero/display_record.php?ID=CRD42023396453</a>."
+    },
+    {
+      "html": "Academy of Nutrition and Dietetics Evidence Analysis Library. “In adults with CVD risk factors (e.g., overweight/obesity, dyslipidemia, hypertension), CVD or T2DM, what are the effects of vegetarian diets on disease-specific outcomes of interest, including CVD risk factors, type 2 diabetes mellitus, and cardiovascular disease.” Accessed 30 September 2024: <a href=\"https://www.andeal.org/topic.cfm?menu=5271\">https://www.andeal.org/topic.cfm?menu=5271</a>."
+    },
+    {
+      "html": "OuzzaniM.HammadyH.FedorowiczZ.ElmagarmidA.Rayyan-a web and mobile app for systematic reviewsSyst Rev5120162102791927510.1186/s13643-016-0384-4PMC5139140"
+    },
+    {
+      "html": "The AMSTAR Team. AMSTAR 2 – the new and improved AMSTAR 2021. Bruyère Research Institute. Ontario, Canada [Available from: <a href=\"https://amstar.ca/Amstar-2.php.]\">https://amstar.ca/Amstar-2.php.]</a>. Accessed September 30, 2024."
+    },
+    {
+      "html": "SheaB.J.ReevesB.C.WellsG.ThukuM.HamelC.MoranJ.AMSTAR 2: a critical appraisal tool for systematic reviews that include randomised or non-randomised studies of healthcare interventions, or bothBMJ3582017j40082893570110.1136/bmj.j4008PMC5833365"
+    },
+    {
+      "html": "DettoriJ.R.NorvellD.C.ChapmanJ.R.Fixed-effect vs random-effects models for meta-analysis: 3 points to considerGlob Spine J12720221624162610.1177/21925682221110527PMC939398735723546"
+    },
+    {
+      "html": "WallaceB.C.DahabrehI.J.TrikalinosT.A.LauJ.TrowP.SchmidC.H.Closing the gap between methodologists and end-users: R as a computational back-endJ Stat Softw4952012115"
+    },
+    {
+      "html": "RStudio Team (2019). RStudio: Integrated Development for R. RStudio, Inc., Boston, MA. (version 1.2.5029). URL <a href=\"http://www.rstudio.com/\">http://www.rstudio.com/</a>."
+    },
+    {
+      "html": "GuyattG.OxmanA.D.SultanS.BrozekJ.GlasziouP.Alonso-CoelloP.GRADE guidelines: 11. Making an overall rating of confidence in effect estimates for a single outcome and for all outcomesJ Clin Epidemiol66220131511572254202310.1016/j.jclinepi.2012.01.006"
+    },
+    {
+      "html": "GRADEpro GDT: GRADEpro Guideline Development Tool [Software]. McMaster University and Evidence Prime, 2024. Available from <a href=\"https://www.gradepro.org/\">https://www.gradepro.org/</a>."
+    },
+    {
+      "html": "BakaloudiD.R.HalloranA.RippinH.L.OikonomidouA.C.DardavesisT.I.WilliamsJ.Intake and adequacy of the vegan diet. A systematic review of the evidenceClin Nutr4052021350335213334131310.1016/j.clnu.2020.11.035"
+    },
+    {
+      "html": "BenatarJ.R.StewartR.A.H.Cardiometabolic risk factors in vegans; A meta-analysis of observational studiesPLoS One13122018e020908610.1371/journal.pone.0209086PMC630167330571724"
+    },
+    {
+      "html": "CraddockJ.C.NealeE.P.PeoplesG.E.ProbstY.C.Vegetarian-based dietary patterns and their relation with inflammatory and immune biomarkers: a systematic review and meta-analysisAdv Nutr10320194334513094733810.1093/advances/nmy103PMC6520040"
+    },
+    {
+      "html": "DybvikJ.S.SvendsenM.AuneD.Vegetarian and vegan diets and the risk of cardiovascular disease, ischemic heart disease and stroke: a systematic review and meta-analysis of prospective cohort studiesEur J Nutr621202351693603032910.1007/s00394-022-02942-8PMC9899747"
+    },
+    {
+      "html": "ElliottP.S.KharatyS.S.PhillipsC.M.Plant-based diets and lipid, lipoprotein, and inflammatory biomarkers of cardiovascular disease: a review of observational and interventional studiesNutrients1424202253713655853010.3390/nu14245371PMC9787709"
+    },
+    {
+      "html": "GibbsJ.GaskinE.JiC.MillerM.A.CappuccioF.PThe effect of plant-based dietary patterns on blood pressure: a systematic review and meta-analysis of controlled intervention trialsJ Hypertens391202123373327539810.1097/HJH.0000000000002604"
+    },
+    {
+      "html": "GlennA.J.ViguilioukE.SeiderM.BoucherB.A.KhanT.A.Blanco MejiaS.Relation of vegetarian dietary patterns with major cardiovascular outcomes: a systematic review and meta-analysis of prospective cohort studiesFront Nutr62019803126370010.3389/fnut.2019.00080PMC6585466"
+    },
+    {
+      "html": "IvanovaS.DelattreC.Karcheva-BahchevanskaD.BenbasatN.NalbantovaV.IvanovKPlant-based diet as a strategy for weight controlFoods1012202110.3390/foods10123052PMC870132734945602"
+    },
+    {
+      "html": "JabriA.KumarA.VergheseE.AlamehA.KumarA.KhanM.S.Meta-analysis of effect of vegetarian diet on ischemic heart disease and all-cause mortalityAm J Prev Cardiol7202110018210.1016/j.ajpc.2021.100182PMC838729534611632"
+    },
+    {
+      "html": "JafariS.HezavehE.JalilpiranY.JayediA.WongA.SafaiyanA.Plant-based diets and risk of disease mortality: a systematic review and meta-analysis of cohort studiesCrit Rev Food Sci Nutr62282022776077723395199410.1080/10408398.2021.1918628"
+    },
+    {
+      "html": "KaiserJ.van DaalenK.R.ThayyilA.CoccoM.CaputoD.Oliver-WilliamsC.A systematic review of the association between vegan diets and risk of cardiovascular diseaseJ Nutr15162021153915523383195310.1093/jn/nxab037PMC8169813"
+    },
+    {
+      "html": "LeeK.W.LohH.C.ChingS.M.DevarajN.K.HooF.K.Effects of vegetarian diets on blood pressure lowering: a systematic review with meta-analysis and trial sequential analysisNutrients126202016043248610210.3390/nu12061604PMC7352826"
+    },
+    {
+      "html": "LopezP.D.CativoE.H.AtlasS.A.RosendorffC.The effect of vegan diets on blood pressure in adults: a meta-analysis of randomized controlled trialsAm J Med13272019875883e73085126410.1016/j.amjmed.2019.01.044"
+    },
+    {
+      "html": "LuJ.W.YuL.H.TuY.K.ChengH.Y.ChenL.Y.LohC.H.Risk of incident stroke among vegetarians compared to nonvegetarians: a systematic review and meta-analysis of prospective cohort studiesNutrients139202130193457889710.3390/nu13093019PMC8471883"
+    },
+    {
+      "html": "MenzelJ.JabakhanjiA.BiemannR.MaiK.AbrahamK.WeikertCSystematic review and meta-analysis of the associations of vegan and vegetarian diets with inflammatory biomarkersSci Rep1012020217363330376510.1038/s41598-020-78426-8PMC7730154"
+    },
+    {
+      "html": "PollakovaD.AndreadiA.PacificiF.Della-MorteD.LauroD.TubiliC.The impact of vegan diet in the prevention and treatment of type 2 diabetes: a systematic reviewNutrients136202121233420567910.3390/nu13062123PMC8235036"
+    },
+    {
+      "html": "QuekJ.LimG.LimW.H.NgC.H.SoW.Z.TohJ.The Association of plant-based diet with cardiovascular disease and mortality: a meta-analysis and systematic review of prospect cohort studiesFront Cardiovasc Med8202175681010.3389/fcvm.2021.756810PMC860415034805312"
+    },
+    {
+      "html": "ReesK.Al-KhudairyL.TakedaA.StrangesSVegan dietary pattern for the primary and secondary prevention of cardiovascular diseasesCochrane Database Syst Rev222021Cd01350110.1002/14651858.CD013501.pub2PMC809264033629376"
+    },
+    {
+      "html": "RemdeA.DeTurkS.N.AlmardiniA.SteinerL.WojdaT.Plant-predominant eating patterns - how effective are they for treating obesity and related cardiometabolic health outcomes? - a systematic reviewNutr Rev8052022109411043449807010.1093/nutrit/nuab060"
+    },
+    {
+      "html": "KochC.A.KjeldsenE.W.Frikke-SchmidtR.Vegetarian or vegan diets and blood lipids: a meta-analysis of randomized trialsEur Heart J44282023260926223722663010.1093/eurheartj/ehad211PMC10361023"
+    },
+    {
+      "html": "WangY.LiuB.HanH.HuY.ZhuL.RimmE.B.Associations between plant-based dietary patterns and risks of type 2 diabetes, cardiovascular disease, cancer, and mortality - a systematic review and meta-analysisNutr J2212023463778934610.1186/s12937-023-00877-2PMC10548756"
+    },
+    {
+      "html": "SchünemannH.J.CuelloC.AklE.A.MustafaR.A.MeerpohlJ.J.ThayerK.GRADE guidelines: 18. How ROBINS-I and other tools to assess risk of bias in nonrandomized studies should be used to rate the certainty of a body of evidenceJ Clin Epidemiol11120191051142943285810.1016/j.jclinepi.2018.01.012PMC6692166"
+    },
+    {
+      "html": "WangT.KroegerC.M.CassidyS.MitraS.RibeiroR.V.JoseS.Vegetarian dietary patterns and cardiometabolic risk in people with or at high risk of cardiovascular disease: a systematic review and meta-analysisJAMA Netw Open672023e2325658-e10.1001/jamanetworkopen.2023.25658PMC1036920737490288"
+    },
+    {
+      "html": "OcagliH.BertiG.RangoD.NorbiatoF.ChiaruttiniM.V.LorenzoniG.Association of vegetarian and vegan diets with cardiovascular health: an umbrella review of meta-analysis of observational studies and randomized trialsNutrients1519202341033783639410.3390/nu15194103PMC10574056"
+    },
+    {
+      "html": "MikiA.J.LivingstonK.A.KarlsenM.C.FoltaS.C.McKeownN.M.Using evidence mapping to examine motivations for following plant-based dietsCurr Dev Nutr432020nzaa0133211076910.1093/cdn/nzaa013PMC7042611"
+    },
+    {
+      "html": "Mendoza-VasconezA.S.LandryM.J.CrimarcoA.BladierC.GardnerC.D.Sustainable diets for cardiovascular disease prevention and managementCurr Atheroscler Rep2372021313397034910.1007/s11883-021-00929-0"
+    },
+    {
+      "html": "ThompsonA.S.Tresserra-RimbauA.KaravasiloglouN.JenningsA.CantwellM.HillC.Association of healthful plant-based diet adherence with risk of mortality and major chronic diseases among adults in the UKJAMA Netw Open632023e234714-e10.1001/jamanetworkopen.2023.4714PMC1005111436976560"
+    },
+    {
+      "html": "HemlerE.C.HuF.B.Plant-based diets for cardiovascular disease prevention: all plant foods are not created equalCurr Atheroscler Rep212019183089547610.1007/s11883-019-0779-5"
+    },
+    {
+      "html": "DiekmanC.RyanC.D.OliverT.L.Misinformation and disinformation in food science and nutrition: impact on practiceJ Nutr15312023393691346510.1016/j.tjnut.2022.10.001"
+    },
+    {
+      "html": "ParkerH.W.VadivelooM.K.Diet quality of vegetarian diets compared with nonvegetarian diets: a systematic reviewNutr Rev77320191441603062469710.1093/nutrit/nuy067"
+    },
+    {
+      "html": "GardnerC.D.VadivelooM.K.PetersenK.S.AndersonC.A.M.SpringfieldS.Van HornL.Popular dietary patterns: alignment With American Heart Association 2021 dietary guidance: a scientific statement from the American Heart AssociationCirculation147222023171517303712894010.1161/CIR.0000000000001146"
+    },
+    {
+      "html": "GardnerC.D.CrimarcoA.LandryM.J.Fielding-SinghP.Nutrition study design issues—important issues for interpretationAm J Health Promot34820209519543307669010.1177/0890117120960580dPMC7935659"
+    },
+    {
+      "html": "SatijaA.StampferM.J.RimmE.B.WillettW.HuF.B.Perspective: are large, simple trials the solution for nutrition research?Adv Nutr9420183783873003222910.1093/advances/nmy030PMC6054238"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

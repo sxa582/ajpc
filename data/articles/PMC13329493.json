@@ -1,0 +1,331 @@
+{
+  "pmcid": "PMC13329493",
+  "pmid": "42403444",
+  "doi": "10.1016/j.ajpc.2026.101560",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13329493/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "2-Aminoadipic Acid mediates the association between BMI and Lipids: Evidence from the CLSA and BHS Cohorts and Mendelian randomization",
+  "articleType": "Brief Report",
+  "published": "2026-03-15",
+  "year": "2026",
+  "volume": "29",
+  "issue": "",
+  "articleNumber": "101560",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2026",
+  "authors": [
+    {
+      "given": "Ruiyuan",
+      "surname": "Zhang",
+      "display": "Ruiyuan Zhang"
+    },
+    {
+      "given": "Yixi",
+      "surname": "Sun",
+      "display": "Yixi Sun"
+    },
+    {
+      "given": "Yizhuo",
+      "surname": "Liu",
+      "display": "Yizhuo Liu"
+    },
+    {
+      "given": "Tingting",
+      "surname": "Liu",
+      "display": "Tingting Liu"
+    },
+    {
+      "given": "Yanling",
+      "surname": "Qi",
+      "display": "Yanling Qi"
+    },
+    {
+      "given": "Lang",
+      "surname": "Wu",
+      "display": "Lang Wu"
+    },
+    {
+      "given": "Xiao",
+      "surname": "Sun",
+      "display": "Xiao Sun"
+    },
+    {
+      "given": "Zhijie",
+      "surname": "Huang",
+      "display": "Zhijie Huang"
+    },
+    {
+      "given": "Yang",
+      "surname": "Pan",
+      "display": "Yang Pan"
+    },
+    {
+      "given": "Adrianna",
+      "surname": "Westbrook",
+      "display": "Adrianna Westbrook"
+    },
+    {
+      "given": "Shengxu",
+      "surname": "Li",
+      "display": "Shengxu Li"
+    },
+    {
+      "given": "Lydia",
+      "surname": "Bazzano",
+      "display": "Lydia Bazzano"
+    },
+    {
+      "given": "Wei",
+      "surname": "Chen",
+      "display": "Wei Chen"
+    },
+    {
+      "given": "Jing",
+      "surname": "Chen",
+      "display": "Jing Chen"
+    },
+    {
+      "given": "Jiang",
+      "surname": "He",
+      "display": "Jiang He"
+    },
+    {
+      "given": "Tanika",
+      "surname": "Kelly",
+      "display": "Tanika Kelly"
+    },
+    {
+      "given": "Changwei",
+      "surname": "Li",
+      "display": "Changwei Li"
+    }
+  ],
+  "affiliations": [
+    "aO’Donnell School of Public Health, University of Texas Southwestern Medical Center, Dallas, TX, USA",
+    "bDivision of Epidemiology and Biostatistics, School of Public Health, University of Illinois Chicago, Chicago, IL, USA",
+    "cDivision of Endocrinology, Diabetes and Metabolism, Department of Medicine, College of Medicine, University of Illinois Chicago, Chicago, IL, USA",
+    "dCollege of Nursing, Florida State University, Tallahassee, FL, USA",
+    "eDepartment of Health Care Administration, California State University Long Beach, College of Health and Human Services, Long Beach, CA, USA",
+    "fPopulation Sciences in the Pacific Program, University of Hawai’i Cancer Center, Honolulu, HI, USA",
+    "gPediatric Biostatistics Core, Department of Pediatrics, Emory University, Atalanta, GA, USA",
+    "hChildren’s Minnesota Research Institute, Children’s Minnesota, Minneapolis, MN, USA",
+    "iDepartment of Internal Medicine, University of Texas Southwestern Medical Center, Dallas, TX, USA",
+    "jDepartment of Epidemiology, Tulane University School of Public Health and Tropical Medicine, New Orleans, LA, USA"
+  ],
+  "keywords": [
+    "CLSA",
+    "2-aminoadipic acid",
+    "OBESITY",
+    "lipid",
+    "Mediation",
+    "Mendelian randomization"
+  ],
+  "abstract": [],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Obesity is a major risk factor for dyslipidemia and subsequent cardiovascular disease. Excess adiposity induces metabolic disturbances, leading to elevated triglycerides (TG), reduced high-density lipoprotein cholesterol (HDL-C), and increased low-density lipoprotein cholesterol (LDL-C). However, the biochemical intermediates mediating these associations remain incompletely defined. Identifying such mediators can improve mechanistic understanding of obesity-related lipid dysregulation and reveal novel therapeutic targets for CVD prevention."
+        },
+        {
+          "type": "paragraph",
+          "html": "Two-aminoadipic acid (2-AAA), a catabolic intermediate in the lysine degradation pathway, has emerged as a biomarker of oxidative stress, mitochondrial dysfunction, and metabolic perturbation [1,2], potentially linking obesity to lipid dysregulation. To test this hypothesis, we investigated whether 2-AAA mediates the association between BMI and lipid profiles across two population-based cohorts. Furthermore, given the altered metabolic signaling inherent to obesity, we evaluated effect modification by baseline obesity status and applied Mendelian randomization (MR) to infer directionality."
+        }
+      ]
+    },
+    {
+      "title": "Materials and methods",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Study population",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "A multi-stage investigation was conducted (Fig. 1 <strong>Panel A</strong>). First, we performed mediation analysis in a discovery cohort from the Canadian Longitudinal Study on Aging (CLSA) and replicated findings in the Bogalusa Heart Study (BHS). We then performed two-sample MR using summary statistics from large-scale genome-wide association studies (GWAS). This study utilized de-identified, secondary data and is exempt from Institutional Review Board review; original investigators obtained necessary ethical approvals.Fig. 1Panel A. Study Design of the Current Study. Panel B. Characteristics of Study Participants. Note: Physical activity was assessed using the International Physical Activity Questionnaire (IPAQ) in BHS and the Physical Activity Scale for the Elderly (PASE) in CLSA. Panel C. Mediation Effects of 2-AAA on BMI-lipid Associations. Note: *Multiplied by 10 for demonstration purpose. Panel D. Mediation Effects of 2-AAA on BMI-lipid Associations Stratified by Obese Status. Note: Mediation effects were estimated by Average Causal Mediation Effect (ACME) calculated using mediation R package. [1] the effects were multiplied by 100 for demonstration purpose. Panel E. Results of Mendelian Randomization Analysis for Directionality Inference. Abbreviations: 2-AAA=2aminoadipic acid, BHS=Bogalusa heart study, BMI=Body mass index, CI=confidence interval, CLSA=Canadian Longitudinal Study on Aging, IVW= inverse variance weighted, HDL-C &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; version=&quot;1.0&quot; width=&quot;20.666667pt&quot; height=&quot;16.000000pt&quot; viewBox=&quot;0 0 20.666667 16.000000&quot; preserveAspectRatio=&quot;xMidYMid meet&quot;&gt;&lt;metadata&gt; Created by potrace 1.16, written by Peter Selinger 2001-2019 &lt;/metadata&gt;&lt;g transform=&quot;translate(1.000000,15.000000) scale(0.019444,-0.019444)&quot; fill=&quot;currentColor&quot; stroke=&quot;none&quot;&gt;&lt;path d=&quot;M0 440 l0 -40 480 0 480 0 0 40 0 40 -480 0 -480 0 0 -40z M0 280 l0 -40 480 0 480 0 0 40 0 40 -480 0 -480 0 0 -40z&quot;/&gt;&lt;/g&gt;&lt;/svg&gt; High density lipoprotein cholesterol, IQR=Interquartile range, LDL-C=low density lipoprotein cholesterol, SD=Standard deviation, TC=Total cholesterol, TG=Triglyceride.Fig 1 dummy alt text"
+        },
+        {
+          "type": "paragraph",
+          "html": "<em><span class=\"underline\">The CLSA</span></em> is a prospective cohort of over 50,000 Canadian residents aged 45 to 85 at recruitment, with detailed protocols reported previously[3]. For the present study, our analyses were based on 1683 participants who have available 2-AAA measurements and relevant baseline study variables."
+        },
+        {
+          "type": "paragraph",
+          "html": "<em><span class=\"underline\">The BHS</span></em> is a longitudinal, community-based cohort of Black (35 %) and White (65 %) residents from Bogalusa, Louisiana. In the 2013–2016 visit cycle, plasma metabolome was profiled among 1261 participants[4]. For this replication analysis, we included 1102 participants with complete measurements for all required study variables."
+        }
+      ]
+    },
+    {
+      "title": "Exposure (BMI) and outcomes (Lipids)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Height and weight were measured in both cohorts and used to calculate BMI. Lipid measures included total cholesterol (TC), HDL-C, LDL-C, and TG. In both cohorts, TC, HDL-C, and TG were directly assayed from blood samples[4,5]. LDL-C was calculated using the Friedewald equation in BHS and directly assayed in CLSA[5]. TG levels were log-transformed. Fasting status (≥8 h) was recorded, although fasting was only mandatory in the BHS."
+        }
+      ]
+    },
+    {
+      "title": "Mediator (2-AAA)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Two-AAA were quantified and log-transformed from plasma samples in both cohorts using an identical ultrahigh performance liquid chromatography-tandem mass spectroscopy protocol and quality control procedure[4]."
+        }
+      ]
+    },
+    {
+      "title": "Statistical analysis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Baseline characteristics of the two study cohorts were summarized, with categorical variables presented as frequency (percentage) and continuous variables as mean (standard deviation) or median (interquartile range)."
+        }
+      ]
+    },
+    {
+      "title": "Mediation analysis",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "R package “mediation” was used to estimate the effect of BMI on lipids transmitted through 2-AAA, and the proportion mediated, adjusting for age, sex, race, education, smoking status, drinking status, physical activity, use of lipid-lowering medication, and fasting status (for CLSA only). Mediation was assessed overall and stratified by obesity (BMI ≥ 30 kg/m²), with robust effects requiring Bonferroni-corrected significance (<em>p</em> &lt; 0.0125) in the CLSA discovery cohort alongside nominal significance in the BHS replication cohort."
+        }
+      ]
+    },
+    {
+      "title": "MR analysis",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "To assess bidirectional BMI/2-AAA relationships and 2-AAA effects on HDL-C and TG, we conducted two-sample MR using OpenGWAS summary statistics. Genetic instruments (<em>p</em> &lt; 5 × 10<sup>–8</sup>) for BMI, HDL-C, and TG were extracted from large European-ancestry GWASs (IEU IDs: ieu-b-40, ieu-b-109, ieu-b-111). For 2-AAA, we selected the <em>cis</em>-acting variant rs7094385, a missense mutation at <em>DHTKD1</em>, which encodes the rate-limiting enzyme responsible for 2-AAA catabolism. Primary MR analyses utilized the inverse-variance weighted (IVW) method, with weighted median and MR-Egger regressions evaluating pleiotropy and robustness. For 2-AAA exposure models relying on the single rs7094385 SNP, effects were estimated via the Wald ratio, precluding standard sensitivity analyses."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Characteristics of the participants are presented in Fig. 1 <strong>Panel B</strong>. CLSA participants (<em>n</em> = 1683) had a mean age of 62.2 years, were predominantly Whites (96.1 %), and nearly half were females (49.0 %). Most participants had at least a high school education (94.8 %) and were non-smokers (90.5 %)."
+        },
+        {
+          "type": "paragraph",
+          "html": "BHS participants (<em>n</em> = 1102) were younger, with a mean age of 48.1 years, and included a higher proportion of females (58.8 %) and Black participants (33.1 %). Only half (51.5 %) had at least high school education, and current smoking was prevalent (20.1 %). Metabolic profiles were generally similar between cohorts, though CLSA participants had a slightly lower mean BMI and a higher rate of lipid-lowering medication use."
+        },
+        {
+          "type": "paragraph",
+          "html": "After adjusting for covariates, 2-AAA significantly mediated the association of BMI with both HDL-C and TG, but not with TC or LDL-C, in both populations (Fig. 1 <strong>Panel C</strong>). Upon stratification by obesity status, these mediation effects were observed only among non-obese participants (Fig. 1 <strong>Panel D</strong>). In the obese group, no significant mediation effects were observed for any lipid trait."
+        },
+        {
+          "type": "paragraph",
+          "html": "Two-sample MR (Fig. 1 <strong>Panel E</strong>) revealed that genetically predicted higher BMI significantly increases plasma 2-AAA concentrations, an association robust to horizontal pleiotropy. Conversely, reverse MR indicated no causal effect of 2-AAA on BMI. Regarding downstream lipid effects, genetically predicted 2-AAA was significantly associated with reduced HDL-C and marginally associated with elevated TG levels."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Our study identified a consistent mediating role of 2-AAA in BMI-lipid associations across two independent, demographically diverse populations, with the directionality of these relationships supported by MR analyses. Furthermore, we demonstrated that the mediation effects were much stronger among non-obese individuals, suggesting that the 2-AAA pathway may play a more prominent role during earlier stages of adiposity development. These findings highlight the potential value of targeting the 2-AAA pathway as an early intervention, ideally before the onset of obesity, to prevent downstream dyslipidemia. Such insights may inform stage-specific prevention strategies and the development of personalized therapeutic approaches."
+        },
+        {
+          "type": "paragraph",
+          "html": "While previous studies have linked 2-AAA to both adipogenesis and metabolic disorders [1,2], our study provided critical missing evidence, at the population level and via MR, that 2-AAA significantly mediates the association between BMI and lipid traits (specifically HDL-C and TG). We further demonstrated this mediation was most relevant before the onset of pronounced obesity, underscoring the importance of early intervention. Targeting 2-AAA pathways may be highly effective in preventing dyslipidemia among individuals who are not yet obese. Recent studies showed shifting to plant-based or seafood diets reduces 2-AAA[6,7]. This effect relies on overall dietary patterns rather than isolated lysine intake, which does not significantly increase 2-AAA[7]. Therefore, our findings support these dietary modifications as an early preventative strategy against metabolic syndrome in at-risk, non-obese populations."
+        },
+        {
+          "type": "paragraph",
+          "html": "Our study has several limitations. First, the observational part of our study relied on cross-sectional analyses, therefore we could not determine the relationship between long-term changes in 2-AAA and lipids alteration. Second, despite similar findings from previous MR study [1], only one SNP was selected as the instrumental variable for 2-AAA, potentially limited the power of MR analyses. Third, unmeasured confounders driving the observed effects, such as eating behavior, might present. Fourth, the MR analysis relied on GWAS summary statistics of European Ancestry, which could limit the generalizability."
+        }
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In two independent cohorts, 2-AAA mediates the causal association between BMI and dyslipidemia (HDL-C and TG), with the strongest effects observed prior to clinical obesity. Future interventional studies among non-obese individuals are warranted to determine if proactively targeting 2-AAA, whether through plant-based dietary modifications or targeted pharmacologic therapies, can successfully disrupt the trajectory toward dyslipidemia."
+        },
+        {
+          "type": "paragraph",
+          "html": "<strong>Disclaimer:</strong> The opinions expressed in this manuscript are the author&#x27;s own and do not reflect the views of the Canadian Longitudinal Study on Aging."
+        },
+        {
+          "type": "paragraph",
+          "html": "During the preparation of this work the author(s) used Gemini in order to polish the language. After using this tool/service, the author(s) reviewed and edited the content as needed and take(s) full responsibility for the content of the published article."
+        }
+      ]
+    },
+    {
+      "title": "Data availability",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Data are available from the Canadian Longitudinal Study on Aging (<a href=\"http://www.clsa-elcv.ca\">www.clsa-elcv.ca</a>) for researchers who meet the criteria for access to de-identified CLSA data."
+        },
+        {
+          "type": "paragraph",
+          "html": "Data are available upon application to steering committee for researchers to de-identified BHS data."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Ruiyuan Zhang:</strong> Writing – original draft, Visualization, Project administration, Investigation, Formal analysis, Conceptualization. <strong>Yixi Sun:</strong> Writing – review &amp; editing. <strong>Yizhuo Liu:</strong> Data curation. <strong>Tingting Liu:</strong> Writing – review &amp; editing. <strong>Yanling Qi:</strong> Writing – review &amp; editing. <strong>Lang Wu:</strong> Writing – review &amp; editing. <strong>Xiao Sun:</strong> Data curation. <strong>Zhijie Huang:</strong> Data curation. <strong>Yang Pan:</strong> Data curation. <strong>Adrianna Westbrook:</strong> Writing – review &amp; editing. <strong>Shengxu Li:</strong> Resources. <strong>Lydia Bazzano:</strong> Resources, Funding acquisition. <strong>Wei Chen:</strong> Resources. <strong>Jing Chen:</strong> Resources. <strong>Jiang He:</strong> Resources. <strong>Tanika Kelly:</strong> Resources, Funding acquisition. <strong>Changwei Li:</strong> Validation, Supervision, Resources, Methodology, Funding acquisition."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "ShiM.WangC.MeiH.Genetic architecture of plasma alpha-aminoadipic acid reveals a relationship with high-density lipoprotein cholesterolJ Am Heart Assoc11112022e02438810.1161/jaha.121.024388PMC923872435621206"
+    },
+    {
+      "html": "LeeH.J.JangH.B.KimW.H.ParkK.J.KimK.Y.ParkS.I.2-Aminoadipic acid (2-AAA) as a potential biomarker for insulin resistance in childhood obesitySci Rep9120191361010.1038/s41598-019-49578-zPMC675451031541119"
+    },
+    {
+      "html": "RainaP.WolfsonC.KirklandS.Cohort profile: the Canadian longitudinal study on aging (CLSA)Int J Epidemiol486201917521753j3163375710.1093/ije/dyz173PMC6929533"
+    },
+    {
+      "html": "GuX.LiC.HeJ.Serum metabolites associate with lipid phenotypes among Bogalusa heart study participantsNutr Metab Cardiovasc Dis305202077778710.1016/j.numecd.2020.01.00432131987PMC7524581"
+    },
+    {
+      "html": "LiuJ.SonS.GiancaterinoM.VerschoorC.P.NarushimaM.Non-HDL cholesterol level and depression among canadian elderly—a cross-sectional analysis of the baseline data from the CLSAFACETS51202010061018"
+    },
+    {
+      "html": "RossA.B.SvelanderC.UndelandI.PintoR.SandbergA.SHerring and beef meals lead to differences in plasma 2-aminoadipic acid, β-alanine, 4-hydroxyproline, cetoleic acid, and docosahexaenoic acid concentrations in overweight menJ Nutr1451120152456246310.3945/jn.115.21426226400963"
+    },
+    {
+      "html": "AntonettiO.R.DesineS.SmithH.M.The consumption of animal products is associated with plasma levels of alpha-aminoadipic acid (2-AAA)Nutr Metab Cardiovasc Dis34720241712172010.1016/j.numecd.2024.03.00938658223PMC11188583"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

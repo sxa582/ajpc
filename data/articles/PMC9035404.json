@@ -1,0 +1,499 @@
+{
+  "pmcid": "PMC9035404",
+  "pmid": "35478931",
+  "doi": "10.1016/j.ajpc.2022.100341",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9035404/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Type and effectiveness of community-based interventions in improving knowledge related to cardiovascular diseases and risk factors: A systematic review",
+  "articleType": "Research Article",
+  "published": "2022-04-06",
+  "year": "2022",
+  "volume": "10",
+  "issue": "",
+  "articleNumber": "100341",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2022",
+  "authors": [
+    {
+      "given": "Hamid Yimam",
+      "surname": "Hassen",
+      "display": "Hamid Yimam Hassen"
+    },
+    {
+      "given": "Rawlance",
+      "surname": "Ndejjo",
+      "display": "Rawlance Ndejjo"
+    },
+    {
+      "given": "Jean-Pierre",
+      "surname": "Van Geertruyden",
+      "display": "Jean-Pierre Van Geertruyden"
+    },
+    {
+      "given": "Geofrey",
+      "surname": "Musinguzi",
+      "display": "Geofrey Musinguzi"
+    },
+    {
+      "given": "Steven",
+      "surname": "Abrams",
+      "display": "Steven Abrams"
+    },
+    {
+      "given": "Hilde",
+      "surname": "Bastiaens",
+      "display": "Hilde Bastiaens"
+    }
+  ],
+  "affiliations": [
+    "aDepartment of Population Health and Family Medicine, Faculty of Medicine and Health Sciences, University of Antwerp, Doornstraat 331 Wilrijk, Antwerp 2610, Belgium",
+    "bGlobal Health Institute, Faculty of Medicine and Health Sciences, University of Antwerp, Antwerp 2610, Belgium",
+    "cInteruniversity Institute for Biostatistics and Statistical Bioinformatics, Data Science Institute, Hasselt University, Diepenbeek 3590, Belgium",
+    "dDepartment of Disease Control and Environmental Health, School of Public Health, Makerere University, Kampala, Uganda"
+  ],
+  "keywords": [],
+  "abstract": [
+    {
+      "html": "Background: Despite an improvement in the healthcare system, cardiovascular diseases (CVDs) remain the leading cause of morbidity and mortality worldwide. Improving knowledge is a key for behavioral change towards prevention of CVDs. However, up-to-date evidence is limited on the effect of interventions on CVD knowledge. Thus this study aimed to synthesize comprehensive evidence on the type and effectiveness of community-based interventions (CBIs) to improve knowledge related to CVDs. Methods: We performed a systematic review of studies that tested the effectiveness of CBIs in improving CVD knowledge. International databases including MEDLINE, EMBASE, CINAHL, PSYCINFO and Cochrane register of controlled studies were searched for studies published between January 2000 and December 2019. The Cochrane risk of bias tools were used to assess the methodological quality of included studies. Since CVD knowledge was measured using various tools, results were synthesized narratively and reported in line with the reporting guideline for Synthesis Without Meta-analysis (SWiM). The review protocol is registered in the PROSPERO database (CRD42019119885). Results: 7 randomized and 9 non-randomized controlled trials involving 34,845 participants were included. Most of the interventions targeted the general population and majorities delivered the intervention to groups of individuals. Likewise, most of the interventions employed various intervention components including health education using different strategies. Overall, most studies showed that CBIs significantly improved knowledge related to CVDs. Conclusion: Community-based CVD preventive interventions are effective in improving knowledge related to CVD and risk factors. Measures to scale up CBIs are recommended to improve an individual&#x27;s level of CVD knowledge, which potentially helps to counter the growing burden of CVDs."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The World Health Organization (WHO) predicts, non-communicable diseases (NCDs) are expected to cause above three-fourth of all global deaths in 2030 [1]. In particular, cardiovascular diseases (CVDs) are the leading cause of disease burden accounting for an estimated 523 million cases and 18.6 million deaths in 2019 [2]. In the past three decades, most high-income (HIC) and some middle-income countries showed a steady decline in the age-standardized mortality rate due to CVDs [3]. In contrast, the burden increased in most low- and middle-income countries (LMICs) contributing today to 75% of all global CVD deaths [4]. Recently, the age-standardized rate of CVD death has begun to increase in some areas where it was previously declining [2]. Acquisition of lifestyle-related risk factors due to demographic changes, socioeconomic and epidemiological transitions, and the influence of globalization and industrialization could be the causes of such huge variations in the CVD burden and trends across time and contexts [3], [4], [5]."
+        },
+        {
+          "type": "paragraph",
+          "html": "An individual&#x27;s lifestyle including dietary habits, tobacco use, level of physical activity (PA), excessive alcohol consumption, and stress greatly determines the occurrence of CVDs [6,7]. Likewise, metabolic and physical risk factors including high low-density lipoprotein (LDL) cholesterol, high body mass index (BMI), hypertension and diabetes contribute to a large proportion of CVD morbidity and mortality globally [2]. Knowledge of behavioral and metabolic risks is the central element to adopt healthy lifestyles [8], [9], [10]. However, knowledge and awareness related to CVDs and their risk factors is still low [11]. Therefore, improving an individual&#x27;s knowledge level related to CVD and risk factors is an essential element of CVD prevention and control programs [12,13]. The burden of CVD and risk factors can be reduced in the entire community using community-based interventions (CBI) aimed at improving CVD knowledge and multi-component risk reduction practices [14], [15], [16]. Health promotion and disease preventive interventions in the community as well as in primary care settings seem effective in improving CVD risk factors and estimated risk scores [17,18]. Lifestyle interventions using various strategies including health education seem more cost effective than pharmacological interventions in resource limited LMICs as well as HICs [19], [20], [21]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Interventions targeting the general population and/or high risk groups have been developed and their impact on CVD knowledge and change in behavior has been tested. A review of studies before 2015 [22] indicated that CBIs enhanced short-term knowledge related to CVD risk factors, though the review was limited to interventions in non-urban settings. A comprehensive up-to-date synthesized evidence is limited on the long term effect of such interventions on CVD related knowledge while such exhaustive information is crucial to inform prevention and control efforts across different contexts. Available reviews give little attention to CVD related knowledge and are limited to specific target populations such as prisoners or vulnerable groups [23,24], region [25,26] or context such as only rural areas [22]. Besides, the variation in effectiveness across different intervention approaches and strategies, target populations and contexts is not well documented. Therefore, we synthesized the type of intervention approach and components as well as their effectiveness in increasing knowledge on CVD, their risk factors and preventive mechanisms. Furthermore, we compared the intervention effectiveness across different contexts. The evidence from this review is beneficial for public health practitioners and the scientific community to scale up effective interventions to enhance prevention and control of CVDs."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This review is part of the SPICES project - Scaling-up Packages of Interventions for Cardiovascular diseases in selected sites in Europe and Sub-Saharan Africa (https://www.uantwerpen.be/en/projects/spices/). The review aimed to synthesize available evidence on CBIs targeting CVD risk knowledge and behaviors including smoking, PA level, dietary habit, and alcohol intake. In this study, we particularly focused on studies that reported CVD knowledge as one of the outcomes. The review protocol is registered in the PROSPERO International prospective register of systematic reviews (Reg. no.: CRD42019119885). Since this study is a systematic review of published data, it was exempted from the institutional board review. Details of the search strategy and screening process is available elsewhere [27]. Methods specific to this paper are briefly summarized below."
+        }
+      ]
+    },
+    {
+      "title": "Search strategy",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Electronic databases including MEDLINE, CINAHL, EMBASE, Cochrane register of controlled studies, and PSYCINFO were searched. In addition, we checked databases including thesis online, OpenGrey, ProQuest, CHW Central, Google Scholar, ClinicalTrials.gov and the WHO International Clinical trials registry platform. We developed a comprehensive search strategy based on terms related to the population, intervention and outcomes of interest. The search strategy used in the MEDLINE is available in the Supplementary Material (Box S1). Furthermore, reference lists of included articles were searched and eligible studies were incorporated in this review."
+        }
+      ]
+    },
+    {
+      "title": "Study selection",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Studies were included if they tested interventions to prevent CVDs and reported knowledge related to CVD and/or risk factors as an outcome. Studies being the subject of multiple publications were considered as a single study. Studies were included if they: were published between the years inclusive of 2000 and 2019; were either primordial or primary prevention of CVD; and interventions were based in the community including workplaces, households, schools, sport centers, religious centers, pharmacies, primary health care units, etc. Studies were excluded from this review if; study participants were of individuals who had a formal diagnosis of any type of CVD; interventions involved clinical procedures and/or pharmacologic components and/or solely took place in clinical settings; sample size was less than 150, attrition rate more than 40%, the follow-up duration less than 9 months; or if analyses included individuals aged below 18 years. Individual or cluster-randomized controlled or controlled quasi-experimental or interrupted time series studies were included. This review was restricted to studies reported in the English language with no limitation on the study location."
+        },
+        {
+          "type": "paragraph",
+          "html": "Articles from electronic databases were exported as EndNote files where duplicate articles were checked and deleted. Then, to facilitate screening and collaboration, the remaining abstracts were imported into rayyan.QCRI.org [28]. Using structured inclusion and exclusion criteria, double screening (HYH and RN) was performed independently for all retrieved titles/abstracts. Articles selected for full-text review were screened again for final decision of inclusion. When the primary reviewers did not agree concerning the eligibility of an article in the final review, other reviewers (HB and GM) were consulted. The review process including the reasons for exclusion is summarized in the PRISMA flow chart."
+        }
+      ]
+    },
+    {
+      "title": "Risk of bias assessment",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We used the revised Cochrane tool for Risk of Bias (RoB2) in order to assess the risk of bias of individual randomized studies with some additional components for cluster randomized studies [29]. Non-randomized controlled (NRC) studies were evaluated using the Risk of Bias In Non-randomized Studies - of Interventions (ROBINS-I) tool [30]. Two authors (HYH and RN) independently assessed the risk of bias, and any differences were resolved through discussion with a third reviewer (HB)."
+        }
+      ]
+    },
+    {
+      "title": "Data extraction",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Double data extraction was done from all eligible full-text articles by two reviewers (HYH and RN). Data related to study design, intervention characteristics and contexts, comparator group(s), detailed participant characteristics, sample size and attrition rate, follow up (FU) duration, outcome measures, result summaries, and funding sources were extracted. Intervention description including components, setting, approach, duration, and intensity were also collected. Furthermore, the outcome measurement tool, effect estimates, and observed changes in the level of CVD knowledge were recorded for each group. Authors were contacted twice via email whenever key information was missing."
+        }
+      ]
+    },
+    {
+      "title": "Data synthesis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Due to the variation in the outcome measures and intervention types, a formal meta-analysis of effect estimates was not possible for this review and thus, we used the Synthesis Without Meta-analysis (SWiM) reporting guideline to present the results [31] and the checklist is available in the Supplementary Material (Table S2). Data were synthesized narratively and descriptive statistics were considered to summarize the main study characteristics including the risk of bias. Studies were grouped according to the following three criteria: (1) study design (RCT or NRC); (2) target population (general population vs. high-risk); and (3) intervention approach (individual, group or combined). Findings are descriptively presented and discussed by income per capita, intervention approach, study design, and risk of bias. For comparison, data are presented using tables mentioning country and year of study, intervention approach and duration, target population, context, and outcome measures. The findings reported in different eligible studies were expressed either in terms of absolute differences (i.e., in means/medians/proportions) and/or in terms of relative measures (i.e., ratio of prevalence/risks/) between intervention and control groups. Lastly, to find out whether any evidence of an intervention effect on the outcome exists, we synthesized all available evidence in tabular format by vote counting based on the direction of the estimated effects [32]."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "A total of 15,885 abstracts were retrieved from all the databases. We screened the titles and abstracts, and 741 were promoted for full-text review. We identified 64 additional articles through manual searching thereby leading to a total of 805 articles. The full-text review resulted in 124 studies to be eligible. Of those, 16 studies involving 34,845 participants assessed knowledge related to CVD and risk factors as an outcome and were therefore included in this review. The PRISMA flow chart illustrating the screening process is summarized in Fig. 1.Fig. 1Study selection.Fig 1"
+        }
+      ]
+    },
+    {
+      "title": "Characteristics of included studies",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Detailed characteristics of the included studies are presented in the supplementary material (Table S1). Of the 16 included studies, 9 were conducted in HICs, particularly, three in the USA [33], [34], [35], two in Japan [36,37], one each in Australia [38], Canada [39], UK [40], and the Netherlands [41]. Seven studies were performed in LMICs including four in China [42], [43], [44], [45], and one each in Pakistan [46], India [47] and Bangladesh [48]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Seven studies were randomized trials, of which three were individual-randomized [33,42,45] while four were cluster-randomized studies [34,40,47,48]. Nine studies were NRC before-after studies [[35], [36], [37], [38], [39],41,43,44,46]. Of the seven randomized studies, two had low risk of bias [33,40] while five had some concerns of bias [34,42,45,47,48] related to either in the randomization process, selection of participants, deviation from the intervention or missing outcome measurements. In particular, all three individual randomized studies [33,42,45] had bias due to deviation from the intended intervention mainly because of not clearly indicating the possibilities of participants to switch the intervention under study or other similar ongoing interventions. Three out of four cluster-randomized studies had some concerns of bias from the timing of participant recruitment and randomization of clusters. Out of 9 non-randomized studies, two had low risk [38,41], four moderate [35,36,39,43] and three serious risk of bias [37,44,46]. Three out of these 9 studies suffered from serious bias due to lack of comprehensive adjustment for potential confounders. Furthermore, three and four studies had some concerns of bias due to confounding and deviation from intended intervention, respectively. Details of the risk of bias assessment for each of the individual studies is available in the Supplementary Material (Table S3, Fig S1)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Most (<em>n</em> = 11) of the interventions targeted the general population [34,[36], [37], [38], [39],41,43,44,[46], [47], [48]] through various primordial and primary prevention activities while few of them targeted specifically high-risk groups including individuals with diabetes [33,40], hypertension [42], or older adults [35,45]."
+        },
+        {
+          "type": "paragraph",
+          "html": "With regard to the approach, majority of studies included in this systematic review delivered the intervention to groups of individuals [33,[35], [36], [37], [38], [39],[41], [42], [43], [44],46,47], a few of them employed a one-to-one approach [34,40] while some others combined both approaches [40,45,48]. Interventions employed various components including awareness creation and health education in group or one-to-one via lectures, courses, trainings and/or workshops [33,35,36,38,[40], [41], [42], [43], [44], [45], [46],48]; health promotion activities through group events, social marketing and campaigns [33,37,38,43,[46], [47], [48]]; individual-based motivational counseling face-to-face or via phone calls [34] or peer support programs; [40] provision of learning materials and/or educational messages in print and/or electronically [39]; and organizational changes [38,41,[43], [44], [45]]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Almost all (<em>n</em> = 15) studies had an intervention duration longer than 12 months while one study lasted for only three months. More specifically, four studies implemented the intervention for 12 months [33,34,37,40], six studies for 24 months [36,[41], [42], [43],47, 48], one study for 18 months [45], and four studies for 36 months [35,38,44,46]. The point of FU assessment ranged from 12 to 36 months, in which some studies assessed the outcome at multiple FU points."
+        }
+      ]
+    },
+    {
+      "title": "Measures of knowledge related to CVD and risk factors",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Studies employed various measures of CVD related knowledge including diabetes knowledge [33,40,48], hypertension knowledge [42], both knowledge of diabetes and high blood pressure [35], knowledge of risk factors and health behaviors related to CVDs [43,44,46,47], knowledge about PA guidelines [36], early signs of stroke [37,39], knowledge of recommended level of fruit &amp; vegetable intake, and portion size [34,38,41], or measurement of a general health knowledge score [45]."
+        }
+      ]
+    },
+    {
+      "title": "Effectiveness of CBIs on knowledge of CVD and risk factors",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "A summary of the direction of effects of CBIs on various CVD knowledge measures is summarized in Table 1. Overall, in 12 studies, i.e. 4 RCTs and 8 NRC studies, the improvement in knowledge related to CVDs and/or risk factors is significantly higher in the intervention group as compared to controls [33,[35], [36], [37], [38], [39],41,42,[44], [45], [46],48]. Whereas three studies found no significant difference in the average post-intervention knowledge level across intervention groups [34,40,47] and all of them were cluster-randomized studies. One study [43] with some concerns of bias in comparability of clusters and deviation from the intended intervention, showed that the increase in tobacco related knowledge was significantly larger in the control areas (average increase from 5.21 to 6.38) than the intervention (from 4.97 to 5.74). In addition, knowledge related to diet and physical activity also decreased in the intervention group compared to the controls [43].Table 1Summary of effect of community-based interventions on knowledge related to cardiovascular diseases.Table 1Study ID, countryStudy designComparisonTarget groupEffect on the outcomesEffect measureDirectionEffect sizeP valueLu et al. [42], ChinaRCT (3 arms)IG: Interactive workshop vs. CG: Self reading learningHigh-riskHypertension knowledge scoreMDI3&lt;0.001IG: regular lecture vs. CG: Self reading learningHigh-riskHypertension knowledge scoreMDI1.7&lt;0.001Chao et al. [45], ChinaRCTIG: Community-based health management vs. CG: Usual careHigh-riskHealth knowledge scoreMDI12.14&lt;0.0001Brown et al. [33], USARCTIG: Culturally competent diabetes self-management education vs. CG: Wait-listed (control)High-riskDiabetes knowledgeMDI3.09&lt;0.0001Fottrell et al. [48], BangladeshC-RCT (3 arms)IG: Participatory learning and action vs CG: Usual careGeneral adult populationAbility to report one or more valid cause of diabetesAORI35.7 (17.7, 71.9)&lt;0.0001IG: mHealth mobile phone messaging vs CG: Usual careGeneral adult populationAbility to report one or more valid cause of diabetesAORI3.77 (2.05, 6.91)&lt;0.0001IG: Participatory learning and action vs CG: Usual careGeneral adult populationAbility to report one or more valid symptom of diabetesAORI24.0 (11.3, 50.9)&lt;0.0001IG: mHealth mobile phone messaging vs CG: Usual careGeneral adult populationAbility to report one or more valid symptom of diabetesAORI4.37 (2.07, 9.24)&lt;0.0001IG: Participatory learning and action vs CG: Usual careGeneral adult populationAbility to report one or more valid complication of diabetesAORI35.4 (17.8, 70.4)&lt;0.0001IG: mHealth mobile phone messaging vs CG: Usual careGeneral adult populationAbility to report one or more valid complication of diabetesAORI5.42 (2.60, 11.3)&lt;0.0001IG: Participatory learning and action vs CG: Usual careGeneral adult populationAbility to recognize one or more valid complication of diabetes when promptedAORI18.3 (7.66, 43.9)&lt;0.0001IG: mHealth mobile phone messaging vs CG: Usual careGeneral adult populationAbility to recognize one or more valid complication of diabetes when promptedAORI3.88 (1.47, 10.2)0.0063IG: Participatory learning and action vs CG: Usual careGeneral adult populationAbility to report one or more valid way to prevent diabetesAORI10.0 (5.44, 18.5)&lt;0.0001IG: mHealth mobile phone messaging vs CG: Usual careGeneral adult populationAbility to report one or more valid way to prevent diabetesAORI4.31 (2.10, 8.85)0.0001IG: Participatory learning and action vs CG: Usual careGeneral adult populationAbility to report one or more valid way to control diabetesAORI8.36 (4.42, 15.8)&lt;0.0001IG: mHealth mobile phone messaging vs CG: Usual careGeneral adult populationAbility to report one or more valid way to control diabetesAORI3.93 (1.90, 8.12)0.0002Joshi et al. [47], IndiaC-RCTIG: Health promotion campaign vs. CG: No interventionGeneral adult populationKnowledge 6 key health behaviors related to CVDMDNS–0.08(−0.14, 0.02)0.15Resnicow et al. [34], USAC-RCT (3 arms)IG: A self-help intervention with 1 telephone cue call vs. CG: Standard practiceGeneral adult populationKnowledge of portion sizeMDNSNDIG: A self-help intervention with 1 telephone cue call and 3 counseling calls vs. CG: Standard practiceGeneral adult populationKnowledge of portion sizeMDNSNDSimmons et al. [40], UKC-RCT (4 arms) - 2 × 2 factorialIG: Group meeting vs CG: No interventionHigh-riskDiabetes KnowledgeESNS0.17 (−0.17, 0.51)IG: One-to-one vs CG: No interventionHigh-riskDiabetes KnowledgeESNS−0.13 (−0.47, 0.21)IG: Combined vs CG: No interventionHigh-riskDiabetes KnowledgeESNS0.05 (−0.35, 0.45)Lv et al. [43], ChinaNRCIG: Community Interventions for Health (CIH) vs. Routine practicesGeneral adult populationTobacco-related knowledgeMDC−0.4SIG: Community Interventions for Health (CIH) vs. Routine practicesGeneral adult populationDiet related knowledgeMDNS−0.3NSIG: Community Interventions for Health (CIH) vs. Routine practicesGeneral adult populationPA-related knowledgeMDNS−0.34NSSaito et al. [36], JapanNRCIG: Community wide intervention vs. CG: Standard health promotion serviceGeneral adult populationAwareness and PA guideline knowledgeAPDI0.82 (0.33, 1.31)&lt;0.01Glasson et al. [38], AustraliaNRCIG: The Eat It To Beat It program+ vs ongoing Good for Life program CG: only ongoing Good for Life programGeneral adult populationUnderstanding of fruit servings recommended each dayPDI0.05SIG: The Eat It To Beat It program+ vs ongoing Good for Life program CG: only ongoing Good for Life programGeneral adult populationUnderstanding of fruit serving sizePDNS−0.02NSIG: The Eat It To Beat It program+ vs ongoing Good for Life program CG: only ongoing Good for Life programGeneral adult populationUnderstanding of vegetable servings recommended each dayPDI0.01SIG: The Eat It To Beat It program+ vs ongoing Good for Life program CG: only ongoing Good for Life programGeneral adult populationUnderstanding of vegetable serving sizePDNS0.05NSBertera [35], USANRCIG: Storytelling vs. CG: Assessment onlyHigh-riskKnowledge, attitudes, and practices related to diabetes and high blood pressureMDI0.282NSSilver et al. [39], CanadaNRC (4 arms)IG: print vs CG: No interventionGeneral adult populationAbility to name &gt;2 warning signs of strokeMDNS0.2NSIG: low-level TV vs CG: No interventionGeneral adult populationAbility to name &gt;2 warning signs of strokeMDI0.480.021IG: high-intensity TV vs CG: No interventionGeneral adult populationAbility to name &gt;2 warning signs of strokeMDI0.62&lt;0.001Nishtar et al. [46], PakistanNRCIG: Community health education vs. CG: No interventionGeneral adult populationKnowledge about CVDs and their preventionPDI0.16&lt;0.001Huang et al. [44], ChinaNRCIG: Training of health staff and health education vs CG: No interventionGeneral adult populationKnowledge and perceptions on HTN, dietary and lifestyle behaviors.PDI&lt;0.05Kloek et al. [41], NetherlandsNRCIG: Community health interventions vs CG: Usual careGeneral adult populationFruit and vegetable knowledge scoreMDI0.130.03Miyamatsu et al. [37], JapanNRCIG: Television campaign vs. CG: No interventionGeneral adult populationKnowledge about early symptoms of strokePDI0.12&lt;0.05<em>Keys: Positive effect (green), evidence of favorable impacts of the intervention; No significant effect (orange), evidence of null impacts of the intervention; Negative (red), the control group is better than the intervention.</em><em>AOR: Adjusted Odds Ratio; CG: Control Group; ES: Effect size; IG: Intervention Group; MD: mean difference; ND: No Data; PD: Proportion Difference; NRC: Non-randomized controlled; RCT: Randomized controlled trials</em>."
+        },
+        {
+          "type": "paragraph",
+          "html": "Overall, interventions that were more effective in improving knowledge of CVD and risk factors mainly involved intervention components including health education through regular lecture, interactive workshop, group meetings, trainings by community volunteers and/or local healthcare staff [33,35,36,38,41,42,[44], [45], [46],48], health management advice and community support [36,38,45], and community wide interventions [37], [38], [39]. The three studies that showed non-significant difference in the effectiveness, tested interventions involving mainly promotion campaigns using posters, street theater, etc., counseling calls or take-home educational materials, distributed either electronically or printed. A three-arm trial by Fottrell et al. [48] found that participatory learning and action intervention were more effective than mHealth intervention in improving all components of knowledge related to causes, symptoms, and complications of diabetes. Furthermore, Silver et al. [39] examined the effectiveness using multiple arm of print materials, low-level TV and high-level TV campaign with no intervention, and found that both low- and high-level TV significantly improved the ability to name more than two signs of stroke. However, no significant improvement was observed for participants in the print group compared to no intervention."
+        },
+        {
+          "type": "paragraph",
+          "html": "All individual-randomized and 8 out of 9 NRC studies found that interventions were more effective than controls in improving at least one knowledge-related outcome measure. However, only one of four cluster randomized studies demonstrated the effectiveness of CBIs in improving CVD knowledge. On the other hand, five out of seven in LMICs and seven out of nine studies conducted in HICs found an improvement in the CVD knowledge in the intervention group compared with controls."
+        },
+        {
+          "type": "paragraph",
+          "html": "Two studies described the use of a one-to-one approach to deliver the proposed intervention package and in both of them the difference in change of knowledge level was found to be non-significant. One study [40] compared one-to-one vs. group meetings using a 2 × 2 factorial design and no significant difference was found across all comparison groups. Four out of five studies with interventions targeting high-risk groups and eight of 11 that targeted the general population showed a significantly higher increase in CVD related knowledge in the intervention group than controls. Two interventions involved primary care settings as part of the intervention center and both of them were effective in improving CVD knowledge."
+        },
+        {
+          "type": "paragraph",
+          "html": "Regarding the outcome measures, although two out of three studies showed effectiveness in improving overall knowledge related to diet and recommended level of fruit and vegetable intake, two studies that measured knowledge of portion size found no significant improvement post-intervention. Glasson et al. [38] also found that the community-based ‘Eat It To Beat It’ program increased the knowledge on recommended levels of fruit and vegetable intake but the effect on serving/portion sizes was not statistically significant."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We performed a comprehensive systematic review of available literature on community-based preventive interventions and their effectiveness in improving CVD knowledge. Our findings support the potential of community-based preventive interventions to improve awareness and knowledge related to CVDs, risk factors and preventive mechanisms. As knowledge is an important prerequisite for behavioral change, CBIs could facilitate the primary prevention of CVDs and contribute to halt the continuing high burden of CVDs in various contexts. We found that the majority of studies, both NRCs and RCTs, demonstrated an improvement in CVD knowledge. Comparatively, interventions involving group lectures, training and/or workshops showed a larger effect than interventions through take-home self-learning materials, media campaigns and telephone calls. Interventions through mass media campaigns and/or posters were less effective in improving CVD knowledge in comparison with those targeted specific intervention populations. Furthermore, interventions that employed a one-to-one approach through telephone counseling or print materials showed no significant intervention effect. Interventions that targeted diet related knowledge showed improvement in the recommended level of fruit and vegetable intake but not knowledge about the portion size. Despite the fact that the CVD burden is higher in LMICs, studies quantifying the effect of interventions on knowledge levels are limited in low-income countries, particularly, no such studies were found in sub-Saharan Africa, where NCDs are the second most common cause of death [49]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Overall, our review indicated that CBIs are effective in improving CVD knowledge measured at one to three years of FU. Although limited to specific regions and contexts, previous reviews also indicated that CBIs are effective in improving CVD related knowledge, behavioral and metabolic risks [26,50]. One&#x27;s health behavior depends on various personal, social and cultural factors apart from knowledge and perception, including capacity, self-efficacy, resources, and choice [51]. Hence, CVD preventive interventions should include strategies to translate the observed increase in knowledge to actual behavior change. Multicomponent interventions involving multi-disciplinary teams could help to translate an increase in knowledge to favorable intention and change in behavioral risks. With high levels of commitment and coordination, population-wide interventions might be feasible approaches in various contexts including resource-limited settings [52,53]."
+        },
+        {
+          "type": "paragraph",
+          "html": "In this systematic review, the observed heterogeneity in the components of the intervention across various studies makes it hardly possible to depict certain aspects of the intervention attributable to the beneficial effect. Most intervention packages, however, used multi-faceted implementation approaches. Relatively, interventions that employed health education through either group lectures, workshops and/or training were more effective in improving CVD knowledge than interventions via media campaigns, telephone calls, and take-home materials. Likewise, a review by Van de Vijver et al. found that most successful interventions to improve behavioral and metabolic risk factors of CVD contain health education along with intensive training and coaching [26]. Several other studies also found educational interventions are effective in improving the level of CVD related knowledge and physical activity behavior [17,54,55]. Thus, besides other behavioral change activities, taking health education as one component of intervention could help to improve participant&#x27;s CVD and risk factors knowledge which in turn facilitate adopting a healthy lifestyle."
+        },
+        {
+          "type": "paragraph",
+          "html": "Interventions that used a one-to-one approach showed less significant intervention effect in contrast to group-based interventions. A study by Imazu et al. also found that group-based intervention leads to a higher increase in knowledge than those individual-based [56]. Several other studies also demonstrated that group-based interventions are a more effective health education approach than one-to-one sessions [57,58]. Trief et al. investigated the effectiveness of group vs individual approach and found that group is more effective than solo contact in achieving behavioral change related to activity and diet [59]. This could be due to the presumption that in a group one can find the support and encouragement needed to acquire relevant knowledge [60]. Group-based interventions are more likely resource-saving in terms of total health professional or coaching staff hours per participant. We suggest future studies to evaluate the cost-effectiveness of group vs one-to-one approaches using comparable groups in different contexts."
+        },
+        {
+          "type": "paragraph",
+          "html": "On the other hand, interventions through take-home print or electronic materials were less effective compared to face-to-face training or lectures. Another previous study also showed that face-to-face education leads to better health outcomes than educational movies [61]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Despite the burden being higher in LMICs, our review found that such studies are scant in low-income countries particularly SSA, indicating unmet global health need and research effort, in which resources to conduct research are centralized in HICs. The larger share of the social and economic burden due to CVDs is in LMICs particularly sub-Saharan Africa, however, studies evaluating the effectiveness of CBIs are limited, challenging the development and implementation of evidence-based public health policies [62], [63], [64]. Therefore, more NCDs research centers need to be established in LMICs to investigate and evaluate sustainable preventive solutions through drawing upon existing research in HICs."
+        },
+        {
+          "type": "paragraph",
+          "html": "We also found that interventions were effective in increasing knowledge about fruit and vegetable intake whereas the change in knowledge about portion size was not statistically significant. Despite the knowledge of portion size being crucial to balance energy intake, most of the interventions were not effective. Therefore, innovative intervention strategies targeting practical knowledge of portion size are needed to halt the CVD burden related to dietary habits."
+        },
+        {
+          "type": "paragraph",
+          "html": "The implications of this review for future research and public health practice are that CBIs are effective and helpful in improving knowledge, which is an integral part of CVD prevention and control programs. Such interventions need to be scaled up and implemented in various contexts particularly in LMICs to create wider health impacts. Nevertheless, for such interventions to be effective, it is imperative to contextualize interventions and to identify the optimal strategy and approach that fit the target population and outcome. Furthermore, community-based lifestyle interventions could be a possible candidate as a strategy for CVD prevention and control in resource-limited settings. Nevertheless, it is essential to evaluate the cost effectiveness of such interventions in comparison with other primary prevention strategies in different contexts."
+        },
+        {
+          "type": "paragraph",
+          "html": "Methodologically, some of the included studies had high or some concerns of bias, particularly bias arose from insufficient description of deviation from the intended intervention, bias due to the timing of randomization and participant recruitment and bias from confounding. Thus, future studies that test the effectiveness of CBIs should make note of the recruitment process, details of the intervention activities and participants involvement during the intervention duration. Furthermore, studies should give more emphasis to control/adjust for possible confounding during the design or analysis phase."
+        },
+        {
+          "type": "paragraph",
+          "html": "This review has some limitations that need to be considered when interpreting the findings. First, due to the heterogeneity in the outcome measures, presentation of findings, and inconsistent intervention approach, extensive meta-analysis was not feasible. Thus, the data presented in this review are predominantly narrative. Nevertheless, this review highlights evidence on the approach and effectiveness of CBIs in improving knowledge about CVD risk factors and preventive mechanisms. Second, our review is restricted to the English language, which might lead to language bias. Last, due to inadequate description of the intervention for some of the studies, it was not possible to attribute certain intervention activities to the observed effectiveness. The use of template for intervention description and replication (TIDieR) checklist and guide is highly recommended to facilitate replication of the study. In spite of these limitations, this review highlighted the importance of preventive lifestyle interventions using community and primary healthcare settings in order to increase CVD knowledge and in turn improve healthy lifestyle. Thus, with the growing burden of NCDs including CVDs, scaling up effective CBIs should be considered as the main component besides pharmacologic intervention."
+        }
+      ]
+    },
+    {
+      "title": "Conclusions",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "CBIs targeting to improve knowledge related to CVD risks and preventive mechanisms are promising to bring the intended change. The most effective interventions employed health education through workshops, training, group meetings, and counseling via primary healthcare or community volunteers. Such interventional studies are minimal in LMICs particularly no studies were available from sub-Saharan Africa. This indicates the need for further studies to contextualize and test the effectiveness of interventions in these resource-limited settings, where the CVD burden is disproportionately higher. In general, this review provides evidence to inform policy makers and public health practitioners to facilitate decision-making and prioritizing interventions for CVD prevention in various contexts. Thus, CBIs could play a key role in CVD prevention programs through improving CVD related knowledge besides other intervention strategies."
+        }
+      ]
+    },
+    {
+      "title": "Funding",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The SPICES project in Belgium supports this study, which received funding from the European Commission through the Horizon 2020 research and innovation action grant agreement No 733356. The funder had no role in the design, decision to publish, or preparation of the manuscript."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Hamid Yimam Hassen:</strong> Conceptualization, Writing – review &amp; editing, Investigation, Data curation, Writing – original draft, Validation. <strong>Rawlance Ndejjo:</strong> Investigation, Writing – review &amp; editing, Validation. <strong>Jean-Pierre Van Geertruyden:</strong> Data curation, Supervision, Writing – review &amp; editing, Validation. <strong>Geofrey Musinguzi:</strong> Supervision, Writing – review &amp; editing, Validation. <strong>Steven Abrams:</strong> Conceptualization, Writing – review &amp; editing, Data curation, Supervision, Validation. <strong>Hilde Bastiaens:</strong> Conceptualization, Writing – review &amp; editing, Data curation, Supervision, Validation."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of Competing Interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare no competing interests."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "WHOA global brief on hypertension: silent killer, global public health crisis2013World Health OrganizationGeneva, Switzerland"
+    },
+    {
+      "html": "Roth GregoryA.Mensah GeorgeA.Johnson CatherineO.AddoloratoG.AmmiratiE.Baddour LarryM.Global burden of cardiovascular diseases and risk factors, 1990–2019J Am Coll Cardiol762520202982302110.1016/j.jacc.2020.11.01033309175PMC7755038"
+    },
+    {
+      "html": "RothG.A.JohnsonC.AbajobirA.Abd-AllahF.AberaS.F.AbyuG.Global, regional, and national burden of cardiovascular diseases for 10 causes, 1990 to 2015J Am Coll Cardiol701201712510.1016/j.jacc.2017.04.052Epub 2017/05/22PubMed PMID: 28527533; PubMed Central PMCID: PMCPMC549140628527533PMC5491406"
+    },
+    {
+      "html": "World Health Organization. Cardiovascular diseases (CVDs) 2021 [cited 2021 October]. Available from: <a href=\"https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)\">https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)</a>."
+    },
+    {
+      "html": "GazianoT.A.BittonA.AnandS.Abrahams-GesselS.MurphyA.Growing epidemic of coronary heart disease in low-and middle-income countriesCurr Probl Cardiol3522010721152010997910.1016/j.cpcardiol.2009.10.002PMC2864143"
+    },
+    {
+      "html": "ArsenaultB.J.RanaJ.S.LemieuxI.DesprésJ.P.KasteleinJ.J.BoekholdtS.M.Physical inactivity, abdominal obesity and risk of coronary heart disease in apparently healthy men and womenInt J Obes342201034034710.1038/ijo.2009.229(Lond)Epub 2009/11/18PubMed PMID: 1991824919918249"
+    },
+    {
+      "html": "SilvermanA.L.HerzogA.A.SilvermanD.I.Hearts and minds: stress, anxiety, and depression: unsung risk factors for cardiovascular diseaseCardiol Rev274201920220710.1097/crd.0000000000000228Epub 2018/08/22PubMed PMID: 3013025730130257"
+    },
+    {
+      "html": "LynchE.B.LiuK.KiefeC.I.GreenlandP.Cardiovascular disease risk factor knowledge in young adults and 10-year change in risk factors: the coronary artery risk development in young adults (CARDIA) studyAm J Epidemiol1641220061171117910.1093/aje/kwj334Epub 2006/10/14PubMed PMID: 1703841817038418"
+    },
+    {
+      "html": "HomkoC.J.SantamoreW.P.ZamoraL.ShirkG.GaughanJ.CrossR.Cardiovascular disease knowledge and risk perception among underserved individuals at increased risk of cardiovascular diseaseJ Cardiovasc Nurs234200833233710.1097/01.JCN.0000317432.44586.aaEpub 2008/07/04PubMed PMID: 1859649618596496"
+    },
+    {
+      "html": "ImesC.C.LewisF.M.Family history of cardiovascular disease, perceived cardiovascular disease risk, and health-related behavior: a review of the literatureJ Cardiovasc Nurs292201410812910.1097/JCN.0b013e31827db5ebEpub 2013/01/17PubMed PMID: 23321782; PubMed Central PMCID: PMCPMC363364623321782PMC3633646"
+    },
+    {
+      "html": "BoatengD.WekesahF.BrowneJ.L.AgyemangC.Agyei-BaffourP.AikinsA.D.Knowledge and awareness of and perception towards cardiovascular disease risk in sub-Saharan Africa: a systematic reviewPLoS One12122017e018926410.1371/journal.pone.0189264Epub 2017/12/13PubMed PMID: 29232703; PubMed Central PMCID: PMCPMC5726714PMC572671429232703"
+    },
+    {
+      "html": "AlbarqouniL.SmenesK.MeinertzT.SchunkertH.FangX.RonelJ.Patients’ knowledge about symptoms and adequate behaviour during acute myocardial infarction and its impact on delay time: findings from the multicentre MEDEA StudyPatient Educ Couns99112016184518512738712210.1016/j.pec.2016.06.007"
+    },
+    {
+      "html": "ImesC.C.LewisF.M.Family history of cardiovascular disease, perceived cardiovascular disease risk, and health-related behavior: a review of the literatureJ Cardiovasc Nurs292201410812910.1097/JCN.0b013e31827db5ebPubMed PMID: 2332178223321782PMC3633646"
+    },
+    {
+      "html": "ParkerD.R.AssafA.R.Community interventions for cardiovascular diseasePrim Care Clin Off Pract324200586588110.1016/j.pop.2005.09.01216326217"
+    },
+    {
+      "html": "ElderJ.P.SchmidT.L.DowerP.HedlundS.Community heart health programs: components, rationale, and strategies for effective interventionsJ Public Health Policy14419934634798163635"
+    },
+    {
+      "html": "MensahG.A.WeiG.S.SorlieP.D.FineL.J.RosenbergY.KaufmannP.G.Decline in cardiovascular mortality: possible causes and implicationsCirc Res1202201736638010.1161/CIRCRESAHA.116.309115PubMed PMID: 2810477028104770PMC5268076"
+    },
+    {
+      "html": "Ramôa CastroA.OliveiraN.L.RibeiroF.OliveiraJImpact of educational interventions on primary prevention of cardiovascular disease: a systematic review with a focus on physical activityEur J Gen Pract2312017596810.1080/13814788.2017.1284791PubMed PMID: 2827192028271920PMC5774278"
+    },
+    {
+      "html": "CastellanoJ.M.NarulaJ.CastilloJ.FusterV.Promoting cardiovascular health worldwide: strategies, challenges, and opportunitiesRev Esp Cardiol679201472473010.1016/j.rec.2014.01.023(English Edition)25172068"
+    },
+    {
+      "html": "FeiginV.L.BraininM.NorrvingB.GorelickP.B.DichgansM.WangW.What is the best mix of population-wide and high-risk targeted strategies of primary stroke and cardiovascular disease prevention?J Am Heart Assoc932020e01449410.1161/JAHA.119.014494PMC703390131983323"
+    },
+    {
+      "html": "CecchiniM.SassiF.LauerJ.A.LeeY.Y.Guajardo-BarronV.ChisholmD.Tackling of unhealthy diets, physical inactivity, and obesity: health effects and cost-effectivenessLancet376975420101775178410.1016/S0140-6736(10)61514-021074255"
+    },
+    {
+      "html": "CheckleyW.GhannemH.IrazolaV.KimaiyoS.LevittN.S.MirandaJ.J.Management of NCD in low-and middle-income countriesGlob Heart9420144314432559279810.1016/j.gheart.2014.11.003PMC4299752"
+    },
+    {
+      "html": "RodriguesA.L.BallJ.SkiC.StewartS.CarringtonM.JA systematic review and meta-analysis of primary prevention programmes to improve cardio-metabolic risk in non-urban communitiesPrev Med872016223410.1016/j.ypmed.2016.02.01126876624"
+    },
+    {
+      "html": "Walton-MossB.SamuelL.NguyenT.H.Commodore-MensahY.HayatM.J.SzantonS.L.Community-based cardiovascular health interventions in vulnerable populations: a systematic reviewJ Cardiovasc Nurs294201429330710.1097/JCN.0b013e31828e2995PubMed PMID: 2361203623612036PMC3859833"
+    },
+    {
+      "html": "MohanA.R.M.ThomsonP.LeslieS.J.DimovaE.HawS.McKayJ.A.A systematic review of interventions to improve health factors or behaviors of the cardiovascular health of prisoners during incarcerationJ Cardiovasc Nurs331201810.1097/JCN.000000000000042028489726"
+    },
+    {
+      "html": "BrownT.SmithS.BhopalR.KasimA.SummerbellC.Diet and physical activity interventions to prevent or treat obesity in South Asian children and adults: a systematic review and meta-analysisInt J Environ Res Public Health12120155665942558442310.3390/ijerph120100566PMC4306880"
+    },
+    {
+      "html": "Van de VijverS.OtiS.AddoJ.de Graft-AikinsA.AgyemangC.Review of community-based interventions for prevention of cardiovascular diseases in low- and middle-income countriesEthn Health176201265167610.1080/13557858.2012.75440923297746"
+    },
+    {
+      "html": "HassenH.Y.NdejjoR.MusinguziG.Van GeertruydenJ.P.AbramsS.BastiaensH.Effectiveness of community-based cardiovascular disease prevention interventions to improve physical activity: a systematic review and meta-regressionPrev Med153202110679710.1016/j.ypmed.2021.10679734508731"
+    },
+    {
+      "html": "OuzzaniM.HammadyH.FedorowiczZ.ElmagarmidA.Rayyan—a web and mobile app for systematic reviewsSyst Rev5120162102791927510.1186/s13643-016-0384-4PMC5139140"
+    },
+    {
+      "html": "SterneJ.A.C.SavovićJ.PageM.J.ElbersR.G.BlencoweN.S.BoutronI.RoB 2: a revised tool for assessing risk of bias in randomised trialsBMJ3662019l489810.1136/bmj.l489831462531"
+    },
+    {
+      "html": "SterneJ.A.HernánM.A.ReevesB.C.SavovićJ.BerkmanN.D.ViswanathanM.ROBINS-I: a tool for assessing risk of bias in non-randomised studies of interventionsBMJ3552016i49192773335410.1136/bmj.i4919PMC5062054"
+    },
+    {
+      "html": "CampbellM.McKenzieJ.E.SowdenA.KatikireddiS.V.BrennanS.E.EllisS.Synthesis without meta-analysis (SWiM) in systematic reviews: reporting guidelineBMJ3682020l689010.1136/bmj.l689031948937PMC7190266"
+    },
+    {
+      "html": "McKenzieJ.E.BrennanS.E.Chapter 12: Synthesizing and presenting findings using other methodsHigginsJ.P.T.ThomasJ.ChandlerJ.CumpstonM.LiT.PageM.J.WelchV.A.Cochrane Handbook for Systematic Reviews of Interventions version 6.3 (updated February 2022)2022CochraneAvailable from <a href=\"https://www.training.cochrane.org/handbook\">www.training.cochrane.org/handbook</a>"
+    },
+    {
+      "html": "BrownS.A.GarciaA.A.KouzekananiK.HanisC.L.Culturally competent diabetes self-management education for Mexican Americans: the Starr County border health initiativeDiabetes Care252200225926810.2337/diacare.25.2.259Epub 2002/01/30PubMed PMID: 11815493; PubMed Central PMCID: PMCPMC213480511815493PMC2134805"
+    },
+    {
+      "html": "ResnicowK.JacksonA.WangT.DeA.K.McCartyF.DudleyW.N.A motivational interviewing intervention to increase fruit and vegetable intake through black churches: results of the eat for life trialAm J Public Health911020011686169310.2105/ajph.91.10.1686Epub 2001/09/28PubMed PMID: 11574336; PubMed Central PMCID: PMCPMC144685511574336PMC1446855"
+    },
+    {
+      "html": "BerteraE.M.Storytelling slide shows to improve diabetes and high blood pressure knowledge and self-efficacy: three-year results among community dwelling older African AmericansEduc Gerontol4011201478580010.1080/03601277.2014.894381"
+    },
+    {
+      "html": "SaitoY.OgumaY.TanakaA.KamadaM.InoueS.InajiJ.Community-wide physical activity intervention based on the Japanese physical activity guidelines for adults: a non-randomized controlled trialPrev Med1072018616810.1016/j.ypmed.2017.11.008Epub 2017/11/12PubMed PMID: 2912691829126918"
+    },
+    {
+      "html": "MiyamatsuN.KimuraK.OkamuraT.IguchiY.NakayamaH.ToyotaA.Effects of public education by television on knowledge of early stroke symptoms among a Japanese population aged 40 to 74 years: a controlled studyStroke432201254554910.1161/strokeaha.111.634196Epub 2011/11/05PubMed PMID: 2205252322052523"
+    },
+    {
+      "html": "GlassonC.ChapmanK.WilsonT.GanderK.HughesC.HudsonN.Increased exposure to community-based education and &#x27;below the line&#x27; social marketing results in increased fruit and vegetable consumptionPublic Health Nutr161120131961197010.1017/s1368980013001614Epub 2013/06/29PubMed PMID: 2380667523806675PMC10271448"
+    },
+    {
+      "html": "SilverF.L.RubiniF.BlackD.HodgsonC.S.Advertising strategies to increase public knowledge of the warning signs of strokeStroke34820031965196810.1161/01.Str.0000083175.01126.62Epub 2003/07/12PubMed PMID: 1285582312855823"
+    },
+    {
+      "html": "SimmonsD.PrevostA.T.BunnC.HolmanD.ParkerR.A.CohnS.Impact of community based peer support in type 2 diabetes: a cluster randomised controlled trial of individual and/or group approachesPLoS One1032015e012027710.1371/journal.pone.0120277Epub 2015/03/19PubMed PMID: 25785452; PubMed Central PMCID: PMCPMC4364716PMC436471625785452"
+    },
+    {
+      "html": "KloekG.C.van LentheF.J.van NieropP.W.KoelenM.A.MackenbachJ.P.Impact evaluation of a Dutch community intervention to improve health-related behaviour in deprived neighbourhoodsHealth Place124200666567710.1016/j.healthplace.2005.09.002Epub 2005/10/29PubMed PMID: 1625354116253541"
+    },
+    {
+      "html": "LuC.H.TangS.T.LeiY.X.ZhangM.Q.LinW.Q.DingS.H.Community-based interventions in hypertensive patients: a comparison of three health education strategiesBMC Public Health15120153310.1186/s12889-015-1401-625631224PMC4314804"
+    },
+    {
+      "html": "LvJ.LiuQ.M.RenY.J.HeP.P.WangS.F.GaoF.A community-based multilevel intervention for smoking, physical activity and diet: short-term findings from the community interventions for health programme in Hangzhou, ChinaJ Epidemiol Community Health684201433333910.1136/jech-2013-203356Epub 2013/12/04PubMed PMID: 24297972; PubMed Central PMCID: PMCPMC396355924297972PMC3963559"
+    },
+    {
+      "html": "HuangS.HuX.ChenH.XieD.GanX.WuY.The positive effect of an intervention program on the hypertension knowledge and lifestyles of rural residents over the age of 35 years in an area of ChinaHypertens Res344201150350810.1038/hr.2010.26521248756"
+    },
+    {
+      "html": "ChaoJ.WangY.XuH.YuQ.JiangL.TianL.The effect of community-based health management on the health of the elderly: a randomized controlled trial from ChinaBMC Health Serv Res121201244910.1186/1472-6963-12-44923217036PMC3537545"
+    },
+    {
+      "html": "NishtarS.BadarA.KamalM.U.IqbalA.BajwaR.ShahT.The heartfile Lodhran CVD prevention project–end of project evaluationPromot Educ14120071727Epub 2007/05/29. PubMed PMID: 1752632017526320"
+    },
+    {
+      "html": "JoshiR.ChowC.K.RajuP.K.RajuK.R.GottumukkalaA.K.ReddyK.S.The rural Andhra Pradesh cardiovascular prevention study (RAPCAPS): a cluster randomized trialJ Am Coll Cardiol591320121188119610.1016/j.jacc.2011.10.901Epub 2012/03/24PubMed PMID: 2244021922440219"
+    },
+    {
+      "html": "FottrellE.AhmedN.MorrisonJ.KuddusA.ShahaS.K.KingC.Community groups or mobile phone messaging to prevent and control type 2 diabetes and intermediate hyperglycaemia in Bangladesh (DMagic): a cluster-randomised controlled trialLancet Diabetes Endocrinol73201920021210.1016/S2213-8587(19)30001-430733182PMC6381080"
+    },
+    {
+      "html": "YuyunM.F.SliwaK.KengneA.P.MocumbiA.O.BukhmanG.Cardiovascular diseases in Sub-Saharan Africa compared to high-income countries: an epidemiological perspectiveGlob Heart15120201510.5334/gh.403PubMed PMID: 3248978832489788PMC7218780"
+    },
+    {
+      "html": "SheaS.BaschC.E.A review of five major community-based cardiovascular disease prevention programs. Part II: intervention strategies, evaluation methods, and resultsAm J Health Promot44199027928710.4278/0890-1171-4.4.27910106505"
+    },
+    {
+      "html": "GlanzK.RimerB.K.ViswanathK.Health behavior and health education: theory, research, and practice2008John Wiley &amp; Sons"
+    },
+    {
+      "html": "World Health OGlobal status report on noncommunicable diseases 20142014World Health Organization"
+    },
+    {
+      "html": "ShroufiA.ChowdhuryR.AnchalaR.StevensS.BlancoP.HanT.Cost effective interventions for the prevention of cardiovascular disease in low and middle income countries: a systematic reviewBMC Public Health131201328510.1186/1471-2458-13-28523537334PMC3623661"
+    },
+    {
+      "html": "CrouchR.WilsonA.NewburyJA systematic review of the effectiveness of primary health education or intervention programs in improving rural women&#x27;s knowledge of heart disease risk factors and changing lifestyle behavioursInt J Evid Based Healthc93201123624510.1111/j.1744-1609.2011.00226.xEpub 2011/09/03PubMed PMID: 2188445121884451"
+    },
+    {
+      "html": "HwangW.J.KangS.J.Interventions to reduce the risk of cardiovascular disease among workers: a systematic review and meta-analysisInt J Environ Res Public Health177202010.3390/ijerph17072267Epub 2020/04/02PubMed PMID: 32230939; PubMed Central PMCID: PMCPMC7177901PMC717790132230939"
+    },
+    {
+      "html": "ImazuM.F.M.FariaB.N.de ArrudaG.O.SalesC.A.MarconS.S.Effectiveness of individual and group interventions for people with type 2 diabetesRev Lat Am Enfermagem232201520020710.1590/0104-1169.0247.2543PubMed PMID: 2603928926039289PMC4458992"
+    },
+    {
+      "html": "ChiY.C.ShaF.YipP.S.F.ChenJ.L.ChenY.Y.Randomized comparison of group versus individual educational interventions for pregnant women to reduce their secondhand smoke exposureMedicine9540201610.1097/MD.0000000000005072(Baltimore)e5072-ePubMed PMID: 27749578PMC505908127749578"
+    },
+    {
+      "html": "Paul-EbhohimhenV.AvenellA.A systematic review of the effectiveness of group versus individual treatments for adult obesityObes Facts21200917242005420010.1159/000186144PMC6444750"
+    },
+    {
+      "html": "TriefP.M.DelahantyL.M.CibulaD.A.WeinstockR.S.Behavior change of participants in group vs. individual DPP weight loss interventions—the SHINE studyDiabetes67201810.2337/db18-800-P(Supplement 1):800-P"
+    },
+    {
+      "html": "World Health OEducation for health: a manual on health education in primary health care1988World Health Organization"
+    },
+    {
+      "html": "VameghiR.MohammadK.KarimlooM.SoleimaniF.SajediF.The effects of health education through face to face teaching and educational movies, on suburban women in childbearing ageIran J Public Health39220107788Epub 2010/06/30. PubMed PMID: 2311301023113010PMC3481752"
+    },
+    {
+      "html": "Gómez-OlivéF.X.ThorogoodM.Sustainable development goal 3 is unlikely to be achieved without renewed effortLancet Glob Health682018e824e8e510.1016/S2214-109X(18)30297-330012258"
+    },
+    {
+      "html": "VosT.LimS.S.AbbafatiC.AbbasK.M.AbbasiM.AbbasifardM.Global burden of 369 diseases and injuries in 204 countries and territories, 1990 to 2019: a systematic analysis for the global burden of disease study 2019Lancet3961025820201204122210.1016/S0140-6736(20)30925-933069326PMC7567026"
+    },
+    {
+      "html": "OwolabiM.MirandaJ.J.YariaJ.OvbiageleB.Controlling cardiovascular diseases in low and middle income countries by placing proof in pragmatismBMJ Glob Health132016e00010510.1136/bmjgh-2016-000105PMC510331427840737"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

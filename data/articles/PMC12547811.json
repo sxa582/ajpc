@@ -1,0 +1,477 @@
+{
+  "pmcid": "PMC12547811",
+  "pmid": "41141614",
+  "doi": "10.1016/j.ajpc.2025.101326",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12547811/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Global trends in cardiovascular mortality attributable to high body mass index: 1990–2021 analysis with future projections",
+  "articleType": "Research Article",
+  "published": "2025-10-07",
+  "year": "2025",
+  "volume": "24",
+  "issue": "",
+  "articleNumber": "101326",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2025",
+  "authors": [
+    {
+      "given": "Parisa",
+      "surname": "Fallahtafti",
+      "display": "Parisa Fallahtafti"
+    },
+    {
+      "given": "Hamidreza",
+      "surname": "Soleimani",
+      "display": "Hamidreza Soleimani"
+    },
+    {
+      "given": "Shaghayegh",
+      "surname": "Khanmohammadi",
+      "display": "Shaghayegh Khanmohammadi"
+    },
+    {
+      "given": "Amirhossein",
+      "surname": "Habibzadeh",
+      "display": "Amirhossein Habibzadeh"
+    },
+    {
+      "given": "Morvarid",
+      "surname": "Taebi",
+      "display": "Morvarid Taebi"
+    },
+    {
+      "given": "Alireza",
+      "surname": "Azarboo",
+      "display": "Alireza Azarboo"
+    },
+    {
+      "given": "Amirhossein",
+      "surname": "Shirinezhad",
+      "display": "Amirhossein Shirinezhad"
+    },
+    {
+      "given": "Aysan",
+      "surname": "Valinejad",
+      "display": "Aysan Valinejad"
+    },
+    {
+      "given": "Michael J.",
+      "surname": "Blaha",
+      "display": "Michael J. Blaha"
+    },
+    {
+      "given": "Sadeer",
+      "surname": "Al-Kindi",
+      "display": "Sadeer Al-Kindi"
+    },
+    {
+      "given": "Khurram",
+      "surname": "Nasir",
+      "display": "Khurram Nasir"
+    }
+  ],
+  "affiliations": [
+    "aTehran Heart Center, Cardiovascular Diseases Research Institute, Tehran University of Medical Sciences, Tehran, Iran",
+    "bDepartment of Cardiology, Imam Khomeini Hospital Complex, Tehran University of Medical Sciences, Tehran, Iran",
+    "cNon-Communicable Diseases Research Center, Endocrinology and Metabolism Population Sciences Institute, Tehran University of Medical Sciences, Tehran, Iran",
+    "dSchool of Medicine, Tehran University of Medical Sciences, Tehran, Iran",
+    "eCenter for Orthopedic Trans-Disciplinary Applied Research, Tehran University of Medical Sciences, Tehran, Iran",
+    "fJohns Hopkins Ciccarone Center for the Prevention of Cardiovascular Disease, Baltimore, MD, USA",
+    "gDivision of Cardiovascular Prevention and Wellness, DeBakey Heart and Vascular Center, Houston Methodist, Houston, TX, USA"
+  ],
+  "keywords": [
+    "Body mass index",
+    "Cardiovascular disease",
+    "Global burden of disease",
+    "Mortality",
+    "Obesity"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Objective:</strong> Cardiovascular disease (CVD) remains a major global cause of death, with high body mass index (BMI) as a key modifiable risk factor. This study examines global and regional patterns of CVD mortality attributable to high BMI from 1990 to 2021, with projections to 2032."
+    },
+    {
+      "html": "<strong>Methods:</strong> Using Global Burden of Disease 2021 data from 204 countries, we analyzed age-standardized mortality rates (ASMRs) and population-attributable fractions by sex, age, socio-demographic index (SDI), and region. Future trends were estimated using a Bayesian age-period-cohort model, with uncertainity intervals from 1000 posterior simulations."
+    },
+    {
+      "html": "<strong>Results:</strong> High BMI-related deaths due to CVD rose from 0.9 million in 1990 to 1.9 million in 2021, with ASMR declining from 24.43 to 22.77 per 100,000 (-6.83 %). High-middle SDI regions had the highest ASMR, while low-middle SDI regions saw the largest increase. Mortality rose for hypertensive heart disease and atrial fibrillation and flutter, but declined for ischemic heart disease and stroke. Older adults accounted for most deaths, though ASMR increased among those aged 15–49. By 2032, deaths are projected to reach 2.5 million (+33 %), with ASMR dropping to 22.06."
+    },
+    {
+      "html": "<strong>Conclusion:</strong> Despite modest ASMR declines, high-BMI-related CVD deaths are rising, especially in low-SDI regions, underscoring the need for targeted prevention."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Cardiovascular disease (CVD) remains a leading cause of global mortality. In recent decades, the prevalence of CVD-related conditions has doubled [1]. Between 1990 and 2019, CVD cases surged from 271 million to 523 million, and CVD-related deaths rose from 12.1 million to 18.16 million [1]. Additionally, the global years lived with disability due to CVD increased to 34.4 million in the same period [1]. This upward trend puts an enormous burden on older adults, caregivers, and health systems."
+        },
+        {
+          "type": "paragraph",
+          "html": "Obesity has emerged as a major global concern, surpassing undernutrition and infectious diseases [2]. Since the 1980s, obesity rates have surged, with nearly one-third of the global population now classified as overweight [3]. Contributing factors to this trend include increased access to high-calorie foods, reduced physical activity, lifestyle changes, sedentary behavior, and genetic predisposition [4]. High body mass index (BMI) is a well-established risk factor for various cardiovascular conditions, including coronary artery disease (CAD), hypertension, heart failure (HF), stroke, and peripheral arterial disease (PAD) [5,6]. Research has shown that obesity contributes to CVD risk through mechanisms such as hypertension, metabolic dysregulation, and reduced cardiorespiratory fitness, leading to higher rates of hospitalization and premature mortality [[7], [8], [9]]. A large meta-analysis of 57 studies found that every 5 kg/m² increase in the BMI raises CVD mortality risk by 40 %, with higher BMI reducing life expectancy by 2–4 years due to CVD [10]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Given the substantial global burden of CVD, understanding its epidemiology is essential for effective public health strategies. Despite preventive and treatment efforts, trends in high BMI-related CVD and intervention effectiveness remain unclear. This study examines global and regional CVD mortality attributable to high BMI from 1990 to 2021, with projections to 2032, offering insights to guide future health policies and interventions."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Data sources",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This study investigates global and regional trends in CVD mortality linked to high BMI from 1990 to 2021, with forecasts extended to 2032. The analysis utilizes data from the Global Burden of Disease (GBD) 2021 project, a large-scale initiative directed by the Institute for Health Metrics and Evaluation (IHME) at the University of Washington, encompassing 204 countries and territories. The GBD database integrates health data from a wide range of sources, such as national censuses, household health surveys, civil registration and vital statistics, disease-specific registries, healthcare usage records, environmental monitoring systems, and disease notification systems. The GBD 2021 dataset provides estimates for 288 causes of death, 371 diseases and injuries, and 88 risk factors. All data analyzed in this research are publicly available through the GBD Results Tool (<a href=\"https://vizhub.healthdata.org/gbd-results/\">https://vizhub.healthdata.org/gbd-results/</a>). Given the diversity of input sources, the accuracy and robustness of the GBD estimates may be influenced by the quality of the underlying data. Detailed descriptions of the data inputs, statistical models, and estimation procedures used in the GBD study have been presented in earlier publications [11,12]."
+        }
+      ]
+    },
+    {
+      "title": "Study outcomes and definitions",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The study targets CVD mortality associated with high BMI, as defined by the GBD study, refers to BMI above the Theoretical Minimum Risk Exposure Level (TMREL), which is 20–23 kg/m² for adults aged 20 and older. For children and adolescents aged 2–19 years, high BMI is defined as being overweight or obese based on International Obesity Task Force standards [13,14]. The data were categorized by sex, distinguishing between males and females. Age groups were defined as 15–49, 50–69, and 70+ years, with additional detailed bands (e.g., 50–59, 75–84) to allow for more granular proportion breakdowns. In terms of socio-demographic factors, data were stratified by the socio-demographic index (SDI), which was divided into five quintiles (low, low-middle, middle, high-middle, and high), reflecting income, education, and fertility metrics. Geographic regions were categorized into seven GBD super-regions, which included 1) Central Europe, Eastern Europe, and Central Asia, 2) High-income, 3) Latin America and Caribbean, 4) North Africa and Middle East, 5) South Asia, 6) Southeast Asia, East Asia, and Oceania, and 8) Sub-Saharan Africa along with 204 individual countries and territories. For cause-specific subgroup analysis, we included CVDs for which high BMI was identified as a risk factor, including ischemic heart disease (IHD), stroke, hypertensive heart disease (HHD), atrial fibrillation and flutter (AF/AFL), aortic aneurysm, and lower extremity PAD. It should be noted that, in the GBD classification, HF is considered an impairment rather than a direct cause of death. HF contributes to the burden of many CVDs—excluding aortic aneurysm and PAD—but is not reported as an underlying cause. Instead, its impact is captured under etiologic conditions like IHD and HHD."
+        }
+      ]
+    },
+    {
+      "title": "Statistical analysis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We analyzed temporal trends in age-standardized mortality rates (ASMRs) and absolute death counts from 1990 to 2021 using the GBD 2021 dataset. ASMRs were calculated using direct standardization with the World Health Organization (WHO) standard population [15]. The contribution of high BMI to CVD mortality was estimated through Population-Attributable Fractions (PAFs). Trends were examined across various subgroups, including sex, age group, SDI quintile, geographic regions, and countries. Cause-specific analyses were also conducted for CVD subtypes. Statistical significance was determined by assessing whether the 95 % Uncertainty Intervals (UIs) of percentage changes excluded zero. All uncertainty estimates were derived from 1000 posterior distribution draws, with the 2.5th and 97.5th percentiles defining the range."
+        }
+      ]
+    },
+    {
+      "title": "Age-period-cohort analysis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "To examine the independent effects of age, period, and birth cohort on high BMI-attributed CVD mortality, an age-period-cohort (APC) analysis was performed. Mortality rates were modeled using a Poisson regression framework with a log-link function [16]. Age was categorized in 5-year intervals, periods spanned 1990–2021 in 5-year increments, and cohorts ranged from pre-1900 to post-2000. The intrinsic estimator method was used to resolve identifiability constraints inherent in APC models. Results were visualized to illustrate age-specific mortality patterns, period-specific risk trends, and cohort-specific risk trajectories. National Cancer Institute’s APC web tool was utilized for analysis and visualization (<a href=\"https://dceg.cancer.gov/tools/analysis/apc\">https://dceg.cancer.gov/tools/analysis/apc</a>) [17]."
+        }
+      ]
+    },
+    {
+      "title": "Future projections",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Future trends in high BMI-attributed CVD mortality to 2032 were forecasted using a Bayesian age-period-cohort (BAPC) model. This method combines empirical data with prior distributions for age, period, and cohort effects. This approach applies Gaussian Random Walk (RW) smoothing priors to APC-related trends, preventing excessive deviations between parameter estimates in adjacent time intervals. RW1 assumes temporal consistency by enforcing a constant trend across time intervals, while RW2 accommodates linear temporal changes by assuming a gradual progression. Given the time-varying nature of CVD mortality patterns, the RW2 prior—with its capacity to model linear trends—was selected for predictive analysis to capture evolving mortality dynamics better [18]. Projections were generated using Markov Chain Monte Carlo (MCMC) simulations, yielding median estimates and 95 % UIs for global, regional, and sex-specific outcomes. We performed multiple runs of the Bayesian projection model with alternative prior parameters to evaluate sensitivity. All statistical analyses were conducted using the R software (R for Windows, version 4.1.3, Vienna, Austria) and R Studio version 1.1.463 (Posit PBC, Boston, MA, United States), utilizing packages <em>BAPC</em> [19] and <em>INLA</em> [20]."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Trends in high BMI-attributed CVD mortality",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Between 1990 and 2021, the absolute number of deaths due to high BMI-related CVD rose from 0.9 million to 1.9 million. However, when adjusted for age within populations over time, the ASMR declined from 24.43 per 100,000 persons (95 % UI 13.63–37.3) in 1990 to 22.77 per 100,000 persons (95 % UI 12.87–34.24) in 2021 [total percentage change −6.83 % (95 % UI −14.0 to 1.6); Table 1].Table 1The mortality burden of cardiovascular disease attributable to high BMI in 1990 and 2021, and its temporal trends from 1990 to 2021.Table 1Total Death CountsAge-Standardized Mortality Rates1990,<em>N</em> × 1000 (95 % UI)2021,<em>N</em> × 1000 (95 % UI)Percentage change, %, (95 % CI)1990,Rate per 100,000 (95 % UI)2021,Rate per 100,000 (95 % UI)Percentage change, %, (95 % CI)Global863 (477–1316)1904 (1072–2864)120.64 (103–141.23)24.43 (13.63–37.3)22.77 (12.87–34.24)−6.83 (−14–1.6)<strong>SDI Quintiles</strong> Low SDI32 (21–43)95 (62- 134)197.85 (139–259.02)15.6 (10.36–20.98)20.61 (13.64–29.36)32.09 (7–58.19) Low-middle SDI94 (60–134)333 (193–489)252.02 (191–306.93)17.33 (11.15–24.52)24.6 (14.77–35.86)41.96 (16–63.8) Middle SDI167 (113–237)567 (322–845)238.16 (163–290.48)19 (12.81–26.79)22.87 (12.91–34.13)20.38 (−7–39.5) High-middle SDI288 (140–460)546 (277–863)89.11 (68–114.85)32.95 (15.91–52.22)28.29 (14.36–44.72)−14.14 (−23– −3.7) High SDI277 (132–453)358 (198–548)29.03 (15–59.26)25.37 (12.02–41.3)16.03 (9.08–24.47)−36.83 (−42– −24.04)<strong>Super Regions</strong> High-income278 (132–451)350 (190–536)25.74 (7–63.44)23.42 (11.16–37.87)14.43 (8.25–21.82)−38.39 (−45– −23.71) Central Europe, Eastern Europe, and Central Asia240 (98–396)337 (160–545)40.54 (25–67.39)54.55 (22.39–90.35)51.47 (24.55–83.29)−5.64 (−16–12.07) Latin America and Caribbean54 (30–82)139 (75–215)156.25 (132–180.14)26.24 (15.3–39.71)22.83 (12.51–35.41)−12.99 (−22– −4.96) North Africa and Middle East94 (55–140)272 (153–400)187.19 (149–230.46)63.79 (37.96–94.05)67.54 (38.92–100.73)5.88 (−8–21.2) South Asia38 (23–56)210 (115–313)444.81 (318–584.95)7.04 (4.25–10.11)14.79 (8.31–22.09)110.08 (57–168.02) Southeast Asia, East Asia, and Oceania117 (83–157)471 (265–721)302.48 (154–430.14)12.49 (8.25–17.61)18.33 (10.22–27.79)46.79 (−9–101.21) Sub-Saharan Africa39 (28–52)123 (81–170)211.84 (152–272.13)21.16 (14.71–28.31)29.76 (19.6–41.84)40.63 (15–65.86)<strong>Sex</strong> Female473 (268–724)991 (566–1486)109.56 (90–135.48)24.01 (13.45–36.84)21.29 (12.11–31.88)−11.3 (−19– −1.4) Male389 (208–598)912 (478–1393)134.09 (115–155.24)24.09 (13.11–36.99)24.09 (13.2–36.57)0 (−8–8.5)<strong>Age groups</strong> 15–49 years78 (41–120)170 (83–262)117.84 (92–138.56)2.89 (1.52–4.43)4.32 (2.11–6.64)49.54 (32–63.76) 50–69 years334 (174–522)672 (342–1030)100.8 (83–115.77)49.11 (25.64–76.67)46.81 (23.84–71.72)−4.67 (−13–2.44) ≥ 70 years449 (247–698)1061 (582–1598)135.88 (112–167.05)222.74 (122.54–346.02)214.69 (117.87–323.44)−3.61 (−13–9.12)UI: uncertainty intervals; CI: confidence interval; SDI: socio-demographic index."
+        },
+        {
+          "type": "paragraph",
+          "html": "In 2021, the total number of deaths from high BMI-attributed CVD was higher in females (approximately 1 million) than in males (0.9 million; Fig. 1<em>A</em>). However, the ASMR was lower in females than in males. The ASMR in females declined from 24.01 per 100,000 (95 % UI 13.45–36.84) in 1990 to 21.29 per 100,000 (95 % UI 12.11–31.88) in 2021 [total percentage change −11.3 (95 % UI −19 to −1.4)]. In contrast, the ASMR in males remained unchanged, at 24.09 per 100,000 in both 1990 and 2021 [total percentage change 0 (95 % UI −8 to 8.5); Fig. 1<em>B</em>].Fig. 1A: Total number of deaths from high BMI-attributed cardiovascular disease (CVD) by sex, 1990–2021.Fig. 1B: Age-standardized mortality rate (ASMR) for high BMI-attributed CVD by sex, 1990–2021.Fig. 1C: ASMR for high BMI-attributed CVD by Socio-Demographic Index (SDI) regions, 1990–2021.Fig. 1D: ASMR for high BMI-attributed CVD by super-region, 1990–2021.Fig 1"
+        },
+        {
+          "type": "paragraph",
+          "html": "The absolute number of deaths due to high BMI-related CVD increased with age, peaking in individuals aged 70 and older, where deaths rose from 0.4 million in 1990 to 1 million in 2021. ASMR declined in the 50–69 and 70+ age groups but increased among individuals aged 15–49, rising from 2.89 per 100,000 (95 % UI 1.52–4.43) in 1990 to 4.32 per 100,000 (95 % UI 2.11–6.64) in 2021 [total percentage change 49.54 (95 % UI 32 to 63.76)]. The highest proportion of deaths occurred in the 50–59 age group, followed by 75–84, throughout the entire period (<em>Supplementary Figure 1</em>)."
+        },
+        {
+          "type": "paragraph",
+          "html": "The mortality from CVD attributed to high BMI varied significantly across SDI regions. In both 1990 and 2021, the highest ASMR was observed in high-middle SDI regions compared to other groups [32.95 per 100,000 (95 % UI 15.91–52.22) in 1990, and 28.29 (95 % UI 14.36–44.72) in 2021]. In 2021, the lowest ASMR was recorded in high SDI regions, at 16.03 per 100,000 (95 % UI 9.08–24.47). In contrast, middle, low-middle, and high-middle SDI regions faced a higher burden of BMI-related CVD as seen in Fig. 1<em>C</em>. Between 1990 and 2021, ASMR decreased in high and high-middle SDI regions, while an increasing trend was observed in low, middle, and low-middle SDI regions. The most significant reduction occurred in high SDI regions [total percentage change −36.83 (95 % UI −42 to −24.04)]. Conversely, the most substantial increase was recorded in low-middle SDI regions [total percentage change 41.96 (95 % UI 16 to 63.8)]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Regional differences in the mortality from high BMI-attributed CVD were evident in 2021. North Africa and Middle East had the highest ASMR at 67.54 per 100,000, followed by Central Europe, Eastern Europe, and Central Asia super-region at 51.47 per 100,000. In contrast, High-income super-region (14.43 per 100,000) and South Asia (14.79 per 100,000) recorded the lowest ASMRs (Fig. 2). Mortality rates significantly declined in High-income [total percentage change −38.39 (95 % UI −45.0 to −23.71)], and Latin America and Caribbean super-regions [total percentage change −12.99 (95 % UI −22.0 to −4.96)]. Despite an overall rise in the number of deaths, the change in ASMRs was not statistically significant in Central Europe, Eastern Europe, and Central Asia, North Africa and Middle East, Southeast Asia, East Asia, and Oceania (<em>Supplementary Figures 2, 3</em>). In contrast, South Asia and Sub-Saharan Africa experienced an increasing trend in high BMI-related CVD mortality rates, with South Asia showing the sharpest rise [total percentage change 110.08 (95 % UI 57.0 to 168.02); Fig. 1<em>D,</em> 3<em>A</em>].Fig. 2<strong>Global map</strong> showing the age-standardized mortality rate (ASMR) for high BMI-attributed cardiovascular disease (CVD), 2021.Fig 2:Fig. 3A: Global map illustrating the total percentage change in ASMR for high BMI-related CVD by region, 1990–2021.Fig. 3B: Cause-specific trends in ASMR for high BMI-attributed CVD, 1990–2021.Fig 3"
+        },
+        {
+          "type": "paragraph",
+          "html": "As expected, the highest absolute number of deaths in 2021 was recorded in China, followed by India, the United States, and the Russian Federation. In terms of ASMR, the highest values were observed in Republic of Nauru [151.95, 95 % UI (67.12–239.36)], Egypt [136.89, 95 % UI (75.82–203.74)], and the Syrian Arab Republic [108.59, 95 % UI (52.88–174.49)], while the lowest ASMRs were reported in Japan [3.28, (95 % UI 1.7–5.11)] and the Republic of Korea [4.58, (95 % UI 2.51–7.38)]. Zimbabwe had the highest increase in ASMR [total percentage change 150.8 (95 % UI 66.0 to 248.89)], followed by Pakistan, Indonesia and India. In contrast, Israel had the most significant reduction in ASMR [percentage change −71.09 (95 % UI −76.0 to −66.01)], followed by Norway, Denmark, and Ireland. The absolute number of deaths and ASMR values for each country are presented in <em>Supplementary Table 1.</em>"
+        }
+      ]
+    },
+    {
+      "title": "Cause-specific CVD mortality attributable to high BMI",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Analysis of the trends in ASMR for CVD subgroups from 1990 to 2021 revealed distinct patterns across geographical super-regions, SDI, sex, and age groups (Fig. 3<em>B</em>). Globally, a downward trend in CVD mortality was observed with aortic aneurysm, IHD, lower extremity PAD, and stroke. This positive trend was particularly pronounced in the High-income super-region, where consistent declines were observed across most analyzed CVD subcategories. However, AF/AFL and HHD showed an increase in ASMR globally. This trend was most pronounced in Southeast Asia, East Asia, and Oceania and South Asia super-regions for AF/AFL, and in South Asia for HHD."
+        },
+        {
+          "type": "paragraph",
+          "html": "High SDI regions generally mirrored the trends observed in High-income super-region, with consistent decreases in most CVD subtypes’ mortality. In contrast, lower-SDI regions experienced mixed trends, with many CVD types showing increasing ASMR. Stratification by sex revealed similar overall trends in CVD mortality for both males and females, although subtle differences in the magnitude of change were observed across specific CVDs. The decline in IHD and stroke mortality was more prominent in females, while males showed a slight upward trend in some CVD subcategories. Among age groups, the most significant reductions in IHD and stroke mortality occurred in individuals aged 70 and older while, younger age groups (15–49 years) exhibited increasing mortality rates."
+        }
+      ]
+    },
+    {
+      "title": "Age, period, and cohort effects on high BMI-attributed CVD mortality",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Mortality rates due to high BMI-related CVD increased exponentially with age, with a sharp rise after 60 years. This pattern was observed in both sexes, with the most significant increase occurring in individuals aged 80 and older. Over the study period, mortality risk generally declined, particularly after 2005. However, progress has slowed in recent years, with a slight uptick after 2015. While mortality risk among females continued to decline, males exhibited an upward trend, specifically after 2010. Cohort analysis revealed a declining mortality risk among individuals born after 1900, followed by a sharp reversal between 1960 and 2000, forming a U-shaped trend. Mortality risk steadily declined in cohorts born before 1965 but rose significantly in those born afterward. This shift was more pronounced in females, with both the decline and subsequent rise being steeper, while males exhibited a more gradual change (<em>Supplemnetary Table 2</em>). These findings indicate that mortality from high BMI-related CVD rises sharply with age, peaking after 80. Overall risk declined until 2015, though progress has slowed, with males showing rising rates after 2010. Birth-year cohorts reveal a U-shaped trend: declining risk before 1965 and a sharp increase thereafter, especially among females (Fig. 4A–C).Fig. 4Age, period, and cohort effects on high BMI-attributed CVD mortality, 1990–2021. Panel A presents ASMR for both sexes, Panel B for females, and Panel C for males.Fig 4:"
+        }
+      ]
+    },
+    {
+      "title": "Future projections of high BMI-attributed CVD mortality to 2032",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "To forecast future trends in high BMI-related CVD mortality, a BAPC analysis was conducted (<em>Supplementary Tables 3, 4</em>). By 2032, global deaths due to high BMI-related CVD are expected to rise to 2.5 million, marking a 33 % increase compared to 2021. However, ASMR is projected to decrease to 22.06 per 100,000 in 2032 compared to 22.77 per 100,000 in 2021. The sensitivity analysis shows that overdispersion lowers projections, suggesting more conservative estimates when variability is accounted for. The rate parameter has minimal impact, while higher shape parameters slightly decrease projections (<em>Supplementary Table 5; Supplementary Figures 4–6</em>)."
+        },
+        {
+          "type": "paragraph",
+          "html": "In terms of sex, female deaths are projected to reach 1.4 million (ASMR 21.10 per 100,000), while male deaths are estimated at 1.2 million (ASMR 23.46 per 100,000). Despite the declining ASMR, the absolute number of deaths is expected to rise due to population growth and aging. Regionally, ASMR is anticipated to increase in North Africa and Middle East, South Asia, Southeast Asia, East Asia and Oceania, and Sub-Saharan Africa. Conversely, Central Europe, Eastern Europe, Central Asia, Latin America, and High-income super-regions are predicted to experience a decline in ASMR, indicating progress in reducing high BMI-related CVD mortality. Absolute death counts are expected to rise across all world regions, with the most significant increases predicted in South Asia (+427,000 deaths), Southeast Asia, East Asia and Oceania (+312,000 deaths), North Africa and Middle East (+694,000 deaths), and Sub-Saharan Africa (+97,000 deaths)."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This study analyzes CVD mortality linked to high BMI from 1990 to 2021 using GBD data. Key findings include: 1) deaths nearly doubled from 0.9 million to 1.9 million, despite a decline in ASMR; 2) high-middle SDI regions had the highest mortality, while low-middle SDI regions showed the fastest ASMR increase; 3) mortality from IHD, stroke, and lower extremity PAD declined globally, but deaths from AF/AFL and HHD increased; 4) females had higher absolute deaths but larger ASMR declines than males, whose rates remained stable; 5) mortality peaked in those 70+, with rising ASMR in younger adults (15–49 years); 6) projections to 2032 indicate rising deaths, especially in South Asia, Southeast Asia, East Asia, and Oceania, though global ASMR may slightly decrease."
+        },
+        {
+          "type": "paragraph",
+          "html": "In 2021, the highest ASMRs for high-BMI-attributed CVD were observed in North Africa and the Middle East, followed by Central and Eastern Europe and Central Asia, while the lowest rates were found in the High-income super-region and South Asia. Between 1990 and 2021, notable reductions in ASMR occurred in the High-income super-region and Latin America and the Caribbean, reflecting successful public health efforts such as smoking cessation and improved healthcare access [21]. Conversely, South Asia and Sub-Saharan Africa experienced rising mortality, with South Asia’s younger population and lower life expectancy temporarily moderating ASMR despite rapidly increasing obesity prevalence [22]. The elevated ASMR in North Africa and the Middle East is linked to rapid urbanization, dietary shifts, physical inactivity, and metabolic disorders [23]."
+        },
+        {
+          "type": "paragraph",
+          "html": "At the national level, countries like the Republic of Nauru, Egypt, and the Syrian Arab Republic reported the highest ASMRs in 2021, possibly due to factors including weakened healthcare systems, high smoking rates, and unhealthy lifestyles [24,25]. Zimbabwe saw the largest ASMR increase since 1990, likely driven by urbanization and limited public health infrastructure, whereas Israel recorded the largest decline, probably reflecting stronger healthcare and prevention strategies [[26], [27], [28]]. From an SDI perspective, the steepest increases in high BMI-attributable CVD deaths occurred in low and low-middle SDI regions. These areas are undergoing rapid nutrition transitions while lacking adequate healthcare infrastructure and public health capacity [29]. In contrast, high and high-middle SDI regions benefited from more effective prevention, treatment, and health policies—though disparities persist even within these countries, often affecting low-income and marginalized populations [[30], [31], [32]]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Our analysis indicates a significant shift in the global CVD mortality landscape from 1990 to 2021, with a notable increase in ASMR for HHD and AF/AFL attributable to high BMI. While traditional atherosclerotic cardiovascular diseases like IHD and stroke have shown declining trends, the burden of HHD and AF/AFL attributable to high BMI has risen, particularly in regions with low to middle SDI. Improved survival rates for conditions like IHD and stroke, due to better medical treatment, have shifted the mortality burden towards other cardiovascular complications. Moreover, the rise in mortality due to HHD and AF/AFL is likely associated with aging populations. These conditions tend to be more prevalent in older individuals, and as global life expectancy increases, the incidence of HHD and AF/AFL has risen accordingly [33]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Sex-specific analyses revealed a significant decline in ASMR among females but not in males. These findings align with prior research suggesting that females benefit from estrogen-mediated cardiovascular protection, healthier behavioral patterns, and greater healthcare engagement [34]. Conversely, males tend to exhibit higher metabolic risk at equivalent BMI levels and are less likely to adopt weight loss interventions or seek preventive care [35]. Additionally, sex-based differences in fat distribution and cardiometabolic responses contribute to these disparities [36]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Age-stratified results showed that absolute CVD deaths increased with age, peaking among individuals ≥70 years. Despite this, ASMR declined in adults aged 50–69 and ≥70, likely due to better access to care and advancements in secondary prevention [37]. However, individuals aged 15–49 experienced an increase in ASMR, reflecting an alarming rise in early-onset high-BMI-related CVD. This could be driven by increasing childhood and adolescent obesity, as well as early exposure to cardiometabolic risk factors such as hypertension and diabetes [[38], [39], [40]]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Furthermore, a critical finding in our study is the U-shaped pattern observed in the APC analysis, where mortality risk decreased among individuals born before 1965 but increased for those born afterward. This reversal in mortality risk may be associated with significant global lifestyle and dietary changes since the mid-20th century [41]. The global nutrition transition, characterized by adopting Western dietary habits, including increased consumption of processed and energy-dense foods, declining physical activity levels, and rising sedentary behaviors, has contributed to the increasing prevalence of obesity and related metabolic disorders [42]. Additionally, the rapid urbanization seen in many regions during this period may have further elevated CVD mortality risk [43]."
+        },
+        {
+          "type": "paragraph",
+          "html": "By 2032, total CVD deaths due to high BMI are projected to rise ∼33 %, though ASMR may slightly decline if healthcare improves. Regions like North Africa and the Middle East, South Asia, Southeast Asia, East Asia, Oceania, and Sub-Saharan Africa face increasing ASMRs, underscoring urgent intervention needs. Urbanization, dietary changes, physical inactivity, and weak health infrastructure drive these trends [44,45]. If current trends persist, the rising burden of high BMI-related CVD mortality could overwhelm already fragile healthcare systems in low- and middle-income countries. Preventive strategies, such as restricting unhealthy food marketing to children, expanding digital health tools, and implementing large-scale obesity prevention programs, could help mitigate future mortality trends. The projections in this study do not account for the potential impact of novel weight loss therapies, lipid-lowering treatments, or antihypertensive medications and procedures on obesity-related cardiovascular diseases. As these interventions become more widely used, they may reduce the burden of CVD related to high BMI, and future studies should explore the effects of these treatments on long-term mortality trends."
+        },
+        {
+          "type": "paragraph",
+          "html": "The clinical implications of our findings include the need to address age, gender, and regional disparities in high BMI-related cardiovascular mortality. Older adults, particularly those over 70, continue to experience the highest mortality, but the rising burden among younger individuals aged 15 to 49 highlights the importance of early prevention. Gender differences were also evident, with females experiencing more absolute deaths but showing greater improvements in mortality rates over time compared to males. Additionally, regional disparities tied to socio-demographic development were observed, with high-middle SDI regions carrying the highest mortality burden and low-middle SDI regions showing the fastest increase. These findings underscore the importance of implementing tailored interventions that consider age, gender, and regional context in order to reduce obesity-related cardiovascular deaths."
+        },
+        {
+          "type": "paragraph",
+          "html": "This study has several limitations. Data quality varies across regions, particularly in low-income and conflict-affected areas, which may lead to underreporting or misclassification of cardiovascular deaths. The GBD methodology is based on modeling assumptions that may not fully capture regional variations. Additionally, we were unable to adjust for important confounding factors such as smoking, hypertension, and type 2 diabetes, which are closely linked to both high BMI and cardiovascular outcomes. A further limitation is the inability to account for the effects of the COVID-19 pandemic. Individuals with obesity were more vulnerable to severe COVID-19 illness and death, and pandemic-related disruptions to healthcare access, preventive services, and lifestyle behaviors may have affected both BMI and cardiovascular mortality during 2019–2021."
+        }
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Although high-BMI attributable CVD ASMR has slightly declined overall, the absolute number of deaths continues to rise, particularly in low to middle SDI regions. While mortality from traditional atherosclerotic diseases has decreased, conditions like HHD and AF/AFL are on the rise. Projections for 2032 indicate a continued increase in the absolute number of deaths, while global ASMR is expected to decrease slightly. These trends highlight the urgent need for global obesity prevention and targeted public health interventions to address the rising CVD burden attributed to high BMI."
+        }
+      ]
+    },
+    {
+      "title": "Funding",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "None"
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Parisa Fallahtafti:</strong> Writing – original draft, Visualization, Data curation, Conceptualization. <strong>Hamidreza Soleimani:</strong> Writing – review &amp; editing, Writing – original draft, Supervision, Methodology, Formal analysis, Conceptualization. <strong>Shaghayegh Khanmohammadi:</strong> Writing – review &amp; editing. <strong>Amirhossein Habibzadeh:</strong> Writing – original draft, Data curation. <strong>Morvarid Taebi:</strong> Visualization, Data curation. <strong>Alireza Azarboo:</strong> Writing – original draft. <strong>Amirhossein Shirinezhad:</strong> Writing – original draft. <strong>Aysan Valinejad:</strong> Writing – review &amp; editing. <strong>Michael J. Blaha:</strong> Writing – review &amp; editing, Supervision. <strong>Sadeer Al-Kindi:</strong> Writing – review &amp; editing, Supervision. <strong>Khurram Nasir:</strong> Writing – review &amp; editing, Supervision."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "RothG.A.Global burden of cardiovascular diseases and Risk factors, 1990-2019: update from the GBD 2019 study(in eng)J Am Coll Cardiol762520202982302110.1016/j.jacc.2020.11.01033309175PMC7755038"
+    },
+    {
+      "html": "KopelmanP.G.Obesity as a medical problem(in eng)Nature4046778200063564310.1038/3500750810766250"
+    },
+    {
+      "html": "ChooiY.C.DingC.MagkosF.The epidemiology of obesity(in eng)Metabolism92201961010.1016/j.metabol.2018.09.00530253139"
+    },
+    {
+      "html": "SelassieM.SinhaA.C.The epidemiology and aetiology of obesity: a global challenge(in eng)Best Pract Res Clin Anaesthesiol25120111910.1016/j.bpa.2011.01.00221516909"
+    },
+    {
+      "html": "Powell-WileyT.M.Obesity and Cardiovascular Disease: a scientific statement from the American Heart Association(in eng)Circulation143212021e984e101010.1161/cir.000000000000097333882682PMC8493650"
+    },
+    {
+      "html": "Lopez-JimenezF.Obesity and cardiovascular disease: mechanistic insights and management strategies. A joint position paper by the World Heart Federation and World Obesity FederationEur J Prev Cardiol291720222218223710.1093/eurjpc/zwac18736007112"
+    },
+    {
+      "html": "MittalN.The impact of obesity on cardiorespiratory fitness and weight changes in a cardiac rehabilitation program(in eng)J Cardiopulm Rehabil Prev4442024E9e1110.1097/hcr.000000000000087038836700PMC11222021"
+    },
+    {
+      "html": "DeMarcoV.G.AroorA.R.SowersJ.R.The pathophysiology of hypertension in patients with obesity(in eng)Nat Rev Endocrinol106201436437610.1038/nrendo.2014.4424732974PMC4308954"
+    },
+    {
+      "html": "GalloG.DesideriG.SavoiaC.Update on obesity and Cardiovascular risk: from pathophysiology to clinical managementNutrients161620242781[Online]. Available:<a href=\"https://www.mdpi.com/2072-6643/16/16/2781\">https://www.mdpi.com/2072-6643/16/16/2781</a>3920391710.3390/nu16162781PMC11356794"
+    },
+    {
+      "html": "WhitlockG.Body-mass index and cause-specific mortality in 900 000 adults: collaborative analyses of 57 prospective studies(in eng)Lancet373966920091083109610.1016/s0140-6736(09)60318-419299006PMC2662372"
+    },
+    {
+      "html": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990-2019: a systematic analysis for the Global Burden of Disease Study 2019(in eng)Lancet3961025820201204122210.1016/s0140-6736(20)30925-933069326PMC7567026"
+    },
+    {
+      "html": "Global age-sex-specific mortality, life expectancy, and population estimates in 204 countries and territories and 811 subnational locations, 1950-2021, and the impact of the COVID-19 pandemic: a comprehensive demographic analysis for the Global Burden of Disease Study 2021(in eng)Lancet4031044020241989205610.1016/s0140-6736(24)00476-838484753PMC11126395"
+    },
+    {
+      "html": "G.H. Metrics. <a href=\"https://www.healthdata.org\">https://www.healthdata.org</a> (accessed."
+    },
+    {
+      "html": "ColeT.J.LobsteinT.Extended international (IOTF) body mass index cut-offs for thinness, overweight and obesity(in eng)Pediatr Obes74Aug 201228429410.1111/j.2047-6310.2012.00064.x22715120"
+    },
+    {
+      "html": "<a href=\"https://www.who.int/data/gho/indicator-metadata-registry/imr-details/78\">https://www.who.int/data/gho/indicator-metadata-registry/imr-details/78</a> (accessed."
+    },
+    {
+      "html": "RosenbergP.S.AndersonW.F.Proportional hazards models and age-period-cohort analysis of cancer rates(in eng)Stat Med291120101228123810.1002/sim.386520209480PMC2904510"
+    },
+    {
+      "html": "RosenbergP.S.CheckD.P.AndersonW.F.A web tool for age-period-cohort analysis of cancer incidence and mortality rates(in eng)Cancer Epidemiol Biomarkers Prev231120142296230210.1158/1055-9965.Epi-14-030025146089PMC4221491"
+    },
+    {
+      "html": "LuW.-l.Worldwide trends in mortality for hypertensive heart disease from 1990 to 2019 with projection to 2034: data from the Global Burden of Disease 2019 studyEur J Prev Cardiol3112024233710.1093/eurjpc/zwad26237665956"
+    },
+    {
+      "html": "RieblerA.HeldL.Projecting the future burden of cancer: bayesian age-period-cohort analysis with integrated nested Laplace approximations(in eng)Biom J593201753154910.1002/bimj.20150026328139001"
+    },
+    {
+      "html": "RueH.MartinoS.ChopinN.Approximate bayesian inference for latent Gaussian models by using integrated nested Laplace approximationsJ R Stat Soc: Series B (Statistical Methodology)712200931939210.1111/j.1467-9868.2008.00700.x"
+    },
+    {
+      "html": "JayadevanC.M.HoangN.T.Healthcare spending in high-income and upper-middle-income countries: a cross-country analysisDiscover Health Systems3120243710.1007/s44250-024-00099-1"
+    },
+    {
+      "html": "BansalD.MS.V.S.DeviN.BoyaC.Dhora BabuK.DuttaP.Trends estimation of obesity prevalence among South Asian young population: a systematic review and meta-analysisSci Rep141202459610.1038/s41598-023-50973-w38182700PMC10770040"
+    },
+    {
+      "html": "ChaabaneS.ChaabnaK.AbrahamA.MamtaniR.CheemaS.Physical activity and sedentary behaviour in the Middle East and North Africa: an overview of systematic reviews and meta-analysisSci Rep1012/01202010.1038/s41598-020-66163-xPMC728326732518254"
+    },
+    {
+      "html": "BlanchetK.AbbaraA.M.FouadF.CouttsA.SahloulM.MaziakW.The effects of conflict on Syria&#x27;s health system and human resources for healthWorld Health Popul162016879501/01"
+    },
+    {
+      "html": "AbouzidM.R.AliK.ElkhawasI.ElshafeiS.M.An overview of diabetes mellitus in Egypt and the significance of integrating preventive cardiology in diabetes management(in eng)Cureus1472022e2706610.7759/cureus.27066PMC939080036000101"
+    },
+    {
+      "html": "LukwaA.T.ChiwireP.AkinsoluF.T.OkovaD.HongoroC.Double burden of malnutrition among women and children in Zimbabwe: a pooled logistic regression and Oaxaca-Blinder decomposition analysis(in eng)Front Public Health122024145189810.3389/fpubh.2024.1451898PMC1142442939328995"
+    },
+    {
+      "html": "MutowoM.GowdaU.MangwiroJ.LorgellyP.OwenA.RenzahoA.Prevalence of diabetes in Zimbabwe: a systematic review with meta-analysisInt J Public Health60201511110.1007/s00038-014-0626-y25432797"
+    },
+    {
+      "html": "GinsbergG.M.RosenbergE.Economic effects of interventions to reduce obesity in Israel(in eng)Isr J Health Policy Res1120121710.1186/2045-4015-1-1722913803PMC3424853"
+    },
+    {
+      "html": "YanW.HuaY.Trends in deaths and disability-adjusted life-years of ischemic heart disease attributable to high body-mass index worldwide, 1990–2019BMC Cardiovasc Disord241202448210.1186/s12872-024-04136-y39261774PMC11389382"
+    },
+    {
+      "html": "WangM.YiJ.ChenZ.Global, regional, and national burden of childhood cardiovascular disease: trends from 1990 to 2021(in eng)Front Pediatr122024149523810.3389/fped.2024.1495238PMC1166880739722769"
+    },
+    {
+      "html": "WashingtonT.B.Disparities in access and quality of obesity care(in eng)Gastroenterol Clin North Am522202342944110.1016/j.gtc.2023.02.00337197884PMC10198472"
+    },
+    {
+      "html": "GongS.WangL.ZhouZ.WangK.AlamianA.Income disparities in obesity trends among U.S. Adults: an analysis of the 2011-2014 California Health Interview Survey(in eng)Int J Environ Res Public Health1912202210.3390/ijerph19127188PMC922281035742437"
+    },
+    {
+      "html": "HeY.RenY.ZhangY.ZhuZ.LiX.Global trends and projections of high BMI burden and its independent impact on atrial fibrillation and flutterInt Health2025ihaf00510.1093/inthealth/ihaf005PMC1221221739901840"
+    },
+    {
+      "html": "SrikanthanP.HorwichT.B.Calfon PressM.GornbeinJ.WatsonK.E.Sex differences in the association of body composition and cardiovascular mortalityJ Am Heart Assoc1052021e01751110.1161/JAHA.120.0175112021/03/02PMC817423833619971"
+    },
+    {
+      "html": "SeyedhoseinpourA.BMI category-specific waist circumference thresholds based on cardiovascular disease outcomes and all-cause mortality: tehran lipid and glucose study (TLGS)232023BMC Public Health129710.1186/s12889-023-16190-w(in eng)PMC1032410937407928"
+    },
+    {
+      "html": "KocevaA.HermanR.JanezA.RakusaM.JensterleM.Sex- and gender-related differences in obesity: from pathophysiological mechanisms to clinical implicationsInt. J. Mol. Sci.251320247342[Online]. Available:<a href=\"https://www.mdpi.com/1422-0067/25/13/7342\">https://www.mdpi.com/1422-0067/25/13/7342</a>3900044910.3390/ijms25137342PMC11242171"
+    },
+    {
+      "html": "SiaC.H.SimonO.LohP.H.PohK.K.Atherosclerotic cardiovascular disease landscape in Singapore(in eng)Front Cardiovasc Med112024134269810.3389/fcvm.2024.1342698PMC1107675538720921"
+    },
+    {
+      "html": "ZhangX.Global prevalence of overweight and obesity in children and adolescents: a systematic review and meta-analysis(in eng)JAMA Pediatr1788202480081310.1001/jamapediatrics.2024.157638856986PMC11165417"
+    },
+    {
+      "html": "KerrJ.A.Global, regional, and national prevalence of child and adolescent overweight and obesity, 1990–2021, with forecasts to 2050: a forecasting study for the Global Burden of Disease Study 2021The Lancet40510481202578581210.1016/S0140-6736(25)00397-6PMC1192000640049185"
+    },
+    {
+      "html": "SanyaoluA.OkorieC.QiX.LockeJ.RehmanS.Childhood and adolescent obesity in the United States: a public health concern(in eng)Glob Pediatr Health620192333794×1989130510.1177/2333794×19891305PMC688780831832491"
+    },
+    {
+      "html": "MozaffarianD.RosenbergI.UauyR.History of modern nutrition science—Implications for current research, dietary guidelines, and food policyBMJ3612018k239210.1136/bmj.k239229899124PMC5998735"
+    },
+    {
+      "html": "LeeJ.H.DusterM.RobertsT.DevinskyO.United States dietary trends since 1800: lack of association between saturated fatty acid consumption and non-communicable diseases(in eng)Front Nutr8202174884710.3389/fnut.2021.748847PMC880551035118102"
+    },
+    {
+      "html": "ArmstrongA.D.C.Urbanization is associated with increased trends in cardiovascular mortality among indigenous populations: the PAI Study,&quot; (in por eng)Arq Bras Cardiol1103201824024510.5935/abc.2018002629466492PMC5898773"
+    },
+    {
+      "html": "NejadghaderiS.A.Burden of diseases attributable to excess body weight in the Middle East and North Africa region, 1990–2019Sci. Rep.13120232033810.1038/s41598-023-46702-yPMC1066347837990049"
+    },
+    {
+      "html": "LiX.Changing trends of the diseases burden attributable to high BMI in Asia from 1990 to 2019: results from the global burden of disease study 2019BMJ Open13102023e07543710.1136/bmjopen-2023-075437PMC1060349537865409"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

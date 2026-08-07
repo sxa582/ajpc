@@ -1,0 +1,588 @@
+{
+  "pmcid": "PMC13083028",
+  "pmid": "42006421",
+  "doi": "10.1016/j.ajpc.2026.101495",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13083028/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Very low-grade albuminuria is linked to arterial stiffness in a population-based cohort",
+  "articleType": "Research Article",
+  "published": "2026-02-21",
+  "year": "2026",
+  "volume": "26",
+  "issue": "",
+  "articleNumber": "101495",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2026",
+  "authors": [
+    {
+      "given": "Victor",
+      "surname": "Walendy",
+      "display": "Victor Walendy"
+    },
+    {
+      "given": "Michael",
+      "surname": "Gekle",
+      "display": "Michael Gekle"
+    },
+    {
+      "given": "Claudia",
+      "surname": "Grossmann",
+      "display": "Claudia Grossmann"
+    },
+    {
+      "given": "Alexander",
+      "surname": "Kluttig",
+      "display": "Alexander Kluttig"
+    },
+    {
+      "given": "Frank Bernhard",
+      "surname": "Kraus",
+      "display": "Frank Bernhard Kraus"
+    },
+    {
+      "given": "Beatrice",
+      "surname": "Ludwig-Kraus",
+      "display": "Beatrice Ludwig-Kraus"
+    },
+    {
+      "given": "Rafael",
+      "surname": "Mikolajczyk",
+      "display": "Rafael Mikolajczyk"
+    },
+    {
+      "given": "Thomas",
+      "surname": "Schmid",
+      "display": "Thomas Schmid"
+    },
+    {
+      "given": "Oliver",
+      "surname": "Thews",
+      "display": "Oliver Thews"
+    },
+    {
+      "given": "Andreas",
+      "surname": "Wienke",
+      "display": "Andreas Wienke"
+    },
+    {
+      "given": "Melanie",
+      "surname": "Zinkhan",
+      "display": "Melanie Zinkhan"
+    },
+    {
+      "given": "Matthias",
+      "surname": "Girndt",
+      "display": "Matthias Girndt"
+    }
+  ],
+  "affiliations": [
+    "aMartin-Luther-University Halle-Wittenberg, Department of Internal Medicine II, Halle, Germany",
+    "bMartin-Luther-University Halle-Wittenberg, Julius-Bernstein-Institute of Physiology, Halle, Germany",
+    "cMartin-Luther-University Halle-Wittenberg, NAKO study cohort recruiting center, Halle, Germany",
+    "dUniversity Hospital Halle (Saale), Department of Laboratory Medicine, Unit II Laboratory Medicine and Clinical Chemistry, Germany",
+    "eMartin-Luther-University Halle-Wittenberg, Institute for Medical Epidemiology, Biometry, and Informatics, Halle, Germany",
+    "fMartin-Luther-University Halle-Wittenberg, Digital Research Methods in Medicine Group, Halle, Germany",
+    "gMartin-Luther-University Halle-Wittenberg, Biobank of the University Medicine Halle, Halle, Germany"
+  ],
+  "keywords": [
+    "Albuminuria",
+    "Urine albumin-creatinine ratio",
+    "Pulse wave velocity",
+    "Arterial stiffness",
+    "Cardiovascular risk",
+    "Epidemiology"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Background:</strong> Albuminuria even at low levels and increased arterial stiffness are associated with higher cardiovascular risk. Very low-grade albuminuria (VLGA; urinary albumin–creatinine ratio [uACR] &lt;30 mg/g) has been linked to adverse outcomes, but its association with arterial stiffness in the general population, particularly among individuals without major cardiometabolic disease, remains uncertain."
+    },
+    {
+      "html": "<strong>Methods:</strong> We analyzed data from 7613 participants of the German National Cohort (NAKO) with available uACR and brachial–ankle pulse wave velocity (PWV[ba]) measurements. Multivariable linear regression was used to assess the association between log₁₀-transformed uACR and PWV(ba), adjusting for age, sex, systolic blood pressure, obesity indices, LDL-cholesterol, HbA1c, and estimated glomerular filtration rate (eGFR). A low-risk subgroup excluded participants with arterial hypertension or diabetes mellitus."
+    },
+    {
+      "html": "<strong>Results:</strong> Among included participants, 49.6 % were female and 7100 (93.3 %) had uACR &lt;30 mg/g. In the full cohort, a 10-fold higher uACR was associated with higher PWV(ba) by 0.10 m/s (95 % CI 0.03–0.17). Similar associations were observed in the VLGA subgroup (0.16 m/s; 95 % CI 0.07–0.25). In the low-risk VLGA subgroup (<em>n</em> = 4308), uACR remained positively associated with PWV(ba) (0.18 m/s per 10-fold higher uACR; 95 % CI 0.08–0.28)."
+    },
+    {
+      "html": "<strong>Conclusion:</strong> Higher uACR was consistently associated with greater arterial stiffness across the full cohort and among individuals with very low-grade albuminuria, including those without arterial hypertension or diabetes mellitus."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Albuminuria in the general population relates to an increased risk of mortality, myocardial infarction, and progression of kidney disease, independent of the initial kidney function [[1], [2], [3], [4]]. Furthermore, albuminuria as a marker of endothelial dysfunction is associated with the progression of coronary heart disease [5] and is in addition linked to increased coronary artery calcification [6]. Albuminuria is also a known marker of progression of diabetic kidney disease [7]. Already very low levels of albuminuria (urinary albumin-creatine-ratio (uACR) &lt; 30 mg/g) are associated with an increased probability of cardiovascular events, hospitalization, or death [8,9]. Microvascular cardiac dysfunction measured as impaired flow-reserve is related to the degree of albuminuria in diabetic individuals, which was also evident in the range of albuminuria levels below 30 mg/g [10]. A recent meta-analysis of over 219,000 participants with a uACR &lt;30 mg/g evaluated the risk of cardiovascular mortality in individuals with uACR levels between 10 and 30 mg/g compared with those with uACR levels below 5 mg/g. This analysis demonstrated a more than twofold increased risk (hazard ratio 2.12; 95 % CI, 1.61–2.80) [11]. These findings indicate that clinically relevant differences in cardiovascular risk exist within the range currently considered normo-albuminuric, suggesting that uACR may capture risk gradients below the conventional 30 mg/g threshold."
+        },
+        {
+          "type": "paragraph",
+          "html": "Enhanced pulse-wave-velocity (PWV) is a hallmark of vascular stiffness and is associated with an increased number of cardiovascular events in individuals with diabetes mellitus and CKD. It shows promising results as an early diagnostic marker for cardiovascular disease (CVD) in this population [12,13]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Prior studies have reported inconsistent findings regarding the association between uACR and PWV. In the HELIUS study, aortic stiffness was associated with albuminuria only among individuals with type 2 diabetes [14]. A study from China reported an association between uACR and carotid–femoral PWV primarily among individuals with high-normal albuminuria or macroalbuminuria [15]. In contrast, an analysis of 812 participants from the GENOA cohort found no association between aortic PWV and uACR [16]. These discrepancies may reflect differences in study populations, sample sizes, and the distribution of albuminuria levels. Several prior cohorts were enriched for individuals with established cardiometabolic disease or familial cardiovascular risk, and many included relatively small numbers of participants within the very low uACR range, limiting power to detect associations in normoalbuminuric and otherwise low-risk individuals. Thus, it remains uncertain whether subtle elevations of albumin excretion are associated with arterial stiffness in the general population, particularly among individuals without overt cardiovascular disease or diabetes."
+        },
+        {
+          "type": "paragraph",
+          "html": "Based on these considerations, we hypothesized that very low-grade albuminuria (uACR &lt; 30 mg/g) is independently associated with higher arterial stiffness, assessed by brachial-ankle PWV (PWV(ba)), in the study population. Secondly, we hypothesize that this association is present even among individuals without diabetes, hypertension, or chronic kidney disease, indicating relevance in a cardiovascular low-risk subgroup."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Study population",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The German National Cohort (NAKO) is a prospective, population-based cohort study that recruited 205,415 participants aged 19 to 74 years from 18 study centers across Germany between 2014 and 2019. The primary aim of NAKO is to investigate the etiology, incidence, and progression of major diseases, with a focus on identifying modifiable risk factors to inform and enhance preventive health strategies. All participants provided written informed consent prior to enrollment. The study protocol was approved by the appropriate institutional ethics committees [17,18]. The present analysis is based on baseline data from a single study center located in Halle (Saale), Germany."
+        }
+      ]
+    },
+    {
+      "title": "Data collection and handling",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Detailed descriptions of the NAKO study design and methodology have been published previously [17,18]. During baseline examination, all participants underwent standardized assessment. Information on smoking history, alcohol consumption, and physical activity was collected using a standardized touchscreen-based questionnaire. Medication use was recorded through a structured face-to-face interview, during which all medications taken within the previous seven days were documented using specialized software. Participants reporting the use of medications classified under Anatomical Therapeutic Chemical (ATC) codes C02, C03, C07, C08, or C09 during this period were categorized as users of antihypertensive drugs."
+        }
+      ]
+    },
+    {
+      "title": "Pulse wave velocity (PWV) and blood pressure assessment",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We measured PWV using the Vascular Explorer system (Enverdis GmbH, Jena, Germany) [19]. Participants rested in a supine position for at least 10 min prior to the assessment to ensure standardized measurement conditions. The device conducted pulse wave analysis and simultaneously recorded ankle and brachial blood pressures using photoplethysmographic signals from the fingers and toes, along with pressure measurements from occlusion cuffs."
+        },
+        {
+          "type": "paragraph",
+          "html": "To minimize variability, participants were instructed to refrain from speaking and to breathe slowly during the measurement. For the present analysis, PWV(ba) is defined as:PWV(ba)=La−LbPTTwhere <em>PTT</em> denotes pulse transit time (in seconds), <em>Lₐ</em> represents the distance from the jugular notch to the ankle cuff (in meters), and Lb the distance from the jugular notch to the brachial cuff (in meters)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Blood pressure was assessed twice on the right arm using the OMRON HEM-705CP oscillometric device (Omron Corporation, Kyoto, Japan) after a rest period of at least 5 min before the first measurement and a break of 2 min between measurements; the second measurement was used for the analysis."
+        },
+        {
+          "type": "paragraph",
+          "html": "In large population-based studies, brachial–ankle PWV (PWV(ba)) offers practical advantages over carotid–femoral PWV, including shorter examination time and reduced operator dependence, while showing strong correlation with central arterial stiffness and independent associations with cardiovascular outcomes. Accordingly, PWV(ba) is well suited for evaluating vascular aging in epidemiological cohorts [20,21]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Arterial hypertension was defined as systolic blood pressure ≥140 mmHg and/or diastolic blood pressure ≥90 mmHg at examination, self-reported physician diagnosis of hypertension, or current use of antihypertensive medication."
+        }
+      ]
+    },
+    {
+      "title": "Laboratory measurements",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Plasma levels of glycated hemoglobin (HbA1c) were determined using a turbidimetric inhibition immunoassay (TINIA), and serum concentrations of high-density lipoprotein cholesterol (HDL-C) and low-density lipoprotein cholesterol (LDL-C) were measured with homogeneous enzymatic colorimetric assays. Urine albumin was measured using an immunoturbidimetric assay, and serum and urine creatinine were quantified with a kinetic colorimetric assay based on the Jaffé method. All analyses were conducted using a Roche Cobas 8000 modular analyzer (Roche Diagnostics, Rotkreuz, Switzerland) in the Department of Laboratory Medicine, Unit II Laboratory Medicine and Clinical Chemistry of the University Hospital Halle (Saale), according to the manufacturer’s instructions and manuals, with routine maintenance and quality control procedures."
+        }
+      ]
+    },
+    {
+      "title": "Statistical methods",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Descriptive statistics were computed using the tableone R package with stratification for VLGA and albuminuria (AU). VLGA was defined as any uACR below 30 mg/g. Participants with an uACR equal or above 30 mg/g were classified as AU. Skewed variables (e. g., uACR, urinary albumin) were summarized with medians and interquartile ranges. Group differences of median were calculated using the Hodges-Lehmann estimator. Continuous and categorical variables were compared using appropriate non-parametric methods. We used a multivariable linear regression model to assess the association between PWV(ba) and uACR. Covariates were selected a priori based on established associations with both albuminuria and arterial stiffness reported in prior literature. To minimize overadjustment and collider bias, we additionally evaluated a reduced adjustment set informed by conceptual causal diagrams. All analyses were interpreted associative, and no causal inference was intended. We used the software dagitty to construct the graph and to determine the minimal sufficient adjustment set [22]. Consequently, we adjusted for the following covariates: systolic blood pressure (continuous), age, sex, dyslipidemia (LDL-C), obesity indices and diabetes mellitus (HbA1c). All multivariable models were additionally adjusted for estimated glomerular filtration rate (eGFR, continuous) to account for potential confounding by kidney function. Prior to the inclusion in a joint model, we assessed multicollinearity by calculating variance inflation factors. We used the weight-adjusted waist index (WWI), calculated as waist circumference (cm) divided by the square root of body weight (kg), as an anthropometric marker of obesity [23,24]. We verified model assumptions by inspecting residual-versus-fitted, Q–Q, scale–location, and residuals-versus-leverage plots to assess linearity, normality, homoscedasticity, and influential observations. Moreover, no patterns suggesting nonlinearity or the need for alternative modeling approaches were detected. We log-transformed uACR due to extreme right skewness. For urine albumin values below the detection limit of 3 mg/L, we assigned an estimated value of 1.5 mg/L to minimize the risk of over- or underestimating true albuminuria. We conducted a sensitivity analysis to verify this approach. The overall results of the linear regression analysis were not affected after excluding participants with urine albumin below the detection limit (Supplementary Table S1). Linear regression analyses were conducted on the entire cohort and subsequently stratified by VLGA, with further stratification by sex. For analyses in the low-risk subgroup, participants were excluded if they met the study definition of arterial hypertension (systolic blood pressure ≥140 mmHg and/or diastolic blood pressure ≥90 mmHg at examination, self-reported physician diagnosis, or current antihypertensive medication use), had diabetes mellitus (HbA1c ≥ 48mmol/mol, self-reported physician diagnosis), or reported a prior physician diagnosis of impaired kidney function or chronic kidney disease. Pre-existing kidney disease was defined solely by self-report and not by laboratory measurements. All statistical analyses were conducted using R (Version 4.5.2, R Core Team, Vienna, Austria)."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "General characteristics",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We analyzed data from 10,139 participants; finally, we included 7613 participants with data on albuminuria and PWV(ba) in the following analyses. The 2526 excluded observations exhibited predominantly similar characteristics as the study population. We excluded observations because of missing data on uACR or PWV. Among the included, 49.6 % were female (Table 1). The median uACR was slightly higher in women than men, with a difference of 1.6 mg/g (95 % CI: 1.3–1.7 mg/g). A total of 7100 participants were classified as having VLGA, while 513 exhibited an uACR ≥ 30 mg/g (AU) (Table 1). Participants in the AU group were, on average, 4.5 years older than those with VLGA. PWV(ba) increased progressively with age across both uACR categories, with the highest values observed among participants aged 65–72 years (Fig. 1). The mean PWV(ba) was slightly higher in the AU group compared with the VLGA group (11.6 ± 2.2 m/s vs. 10.7 ± 1.9 m/s, respectively; Table 1), particularly in older age groups (Fig. 1). The AU group also showed differences in the distribution of comorbidities, with a higher prevalence of diabetes mellitus and arterial hypertension (Table 1). Participants with uACR ≥30 mg/g had a higher treatment intensity, with substantially more frequent use of antihypertensive therapy (51.5 % vs. 30.5 %), ACE inhibitors/ARBs (26.1 % vs. 15.2 %), and statins (16.4 % vs. 7.2 %) compared with those with uACR &lt;30 mg/g (Supplementary Table S2). Despite broadly similar LDL-C levels, this group had higher blood pressure, HbA1c, and PWV(ba), indicating greater vascular burden alongside more intensive pharmacotherapy.Table 1Baseline demographic and clinical characteristics of participants stratified by albuminuria status. Abbreviations: BP, blood pressure; BMI, body mass index; eGFR, estimated glomerular filtration rate; CKD, chronic kidney disease; uACR, urinary albumin–creatinine ratio; HbA1c, glycated hemoglobin; LDL-C, low-density lipoprotein cholesterol; HDL-C, high-density lipoprotein cholesterol; PWV(ba), brachial–ankle pulse wave velocity; WWI, weight-adjusted waist index. <sup>1</sup>Smoking status is reported for all participants; pack-years are calculated among ever-smokers only (former and current smokers).Table 1 dummy alt textOverallVLGA (uACR &lt; 30 mg/g)AU (uACR ≥ 30 mg/g)n76137100513Age, years (mean (SD))50.1 (12.6)49.8 (12.5)54.3 (12.3)Female sex (%)3775 (49.6)3524 (49.6)251 (48.9)Bodyweight, kg (mean (SD))79.3 (16.7)79.1 (16.5)82.2 (19.4)BP systolic, mmHg (mean (SD))128.1 (15.9)127.7 (15.6)134.7 (18.9)BP diastolic, mmHg (mean (SD))78.3 (9.6)78.1 (9.5)80.8 (11.1)WWI (mean (SD))10.5 (0.8)10.4 (0.8)10.8 (0.9)eGFR, ml/min/1.73m² (mean (SD))98.4 (15.0)98.8 (14.6)93.5 (18.8)CKD Stage (n, %)G15520 (73.9)5178 (74.3)342 (68.3)G21854 (24.8)1730 (24.8)124 (24.8)G3a74 (1.0)53 (0.8)21 (4.2)G3b17 (0.2)5 (0.1)12 (2.4)G43 (0.0)1 (0.0)2 (0.4)Urine albumin, mg/l (median (IQR))3.1 (1.5, 7.9)3.0 (1.5, 6.4)57.5 (29.0, 122.6)uACR, mg/g (median (IQR))4.0 (1.5, 8.7)3.6 (1.5, 7.3)59.8 (41.5, 118.7)HbA1c, mmol/mol (mean (SD))35.1 (6.9)34.8 (6.4)39.1 (11.2)LDL-C, mmol/l (mean (SD))3.4 (1.0)3.4 (1.0)3.3 (1.1)HDL-C, mmol/l (mean (SD))1.5 (0.4)1.5 (0.4)1.4 (0.5)Cholesterol, mmol/l (mean (SD))5.2 (1.1)5.2 (1.1)5.3 (1.2)Antihypertensive medication (%)2428 (31.9)2164 (30.5)264 (51.5)Arterial Hypertension (n, %)2596 (34.2)2332 (32.9)264 (51.9)Prior kidney disease (n, %)198 (2.6)156 (2.2)42 (8.2)Diabetes mellitus (n, %)534 (7.0)433 (6.1)101 (19.8)PWV (ba), m/s (mean (SD))10.8 (1.9)10.7 (1.9)11.6 (2.2)Smoking status (%)<sup>1</sup>Never3339 (43.9)3151 (44.4)188 (36.6)Former2282 (30.0)2135 (30.1)147 (28.7)Current1750 (23.0)1600 (22.5)150 (29.2)Packyears (mean (SD))13.5 (14.2)13.2 (14.0)17.4 (15.6)Amount pure alcohol consumed, g (mean (SD)) per day10.4 (16.1)10.4 (15.9)11.3 (18.1)Fig. 1Distribution of brachial-ankle pulse wave velocity (in m/s) by age group and urinary albumin-to-creatinine ratio (uACR) category. Violin plots depict the density distribution, with embedded boxplots showing medians and interquartile ranges across age groups. (VLGA, urine albumin-creatinine ratio (uACR) &lt; 30mg/g) and albuminuric (AU, uACR ≥ 30mg/g) participants. baPWV: brachial-ankle pulse-wave-velocity, VLGA: very low-grade albuminuria.Fig 1 dummy alt text"
+        }
+      ]
+    },
+    {
+      "title": "Associations of albuminuria and cardiometabolic factors with pulse-wave-velocity",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Multivariable regression analyses are summarized in Table 2. In the full cohort, higher urinary albumin–creatinine ratio (log<sub>10</sub>(uACR)) was independently associated with higher PWV(ba), with an estimated increase of 0.10 units per log<sub>10</sub> increase in uACR (95 % CI: 0.03–0.17). Age and systolic blood pressure showed strong and consistent positive associations with PWV(ba) (Table2, Fig. 2A). Greater weight-adjusted waist index (WWI) was also associated with higher PWV(ba) (β = 0.11, 95 % CI: 0.06–0.16). Male sex (β = 0.24, 95 % CI: 0.18–0.30), LDL-cholesterol (β = 0.04, 95 % CI: 0.00–0.07), and HbA1c (β = 0.01, 95 % CI: 0.01–0.02) were additionally associated with PWV(ba), whereas estimated glomerular filtration rate (eGFR) showed effect estimates close to zero (Table 2, Fig. 2A).Table 2Results of multivariable linear regression models, including the full cohort and the VLGA subgroup. PWV(ba) as the dependent variable and log<sub>10</sub>-transformed uACR as the independent variable. VLGA: very low-grade albuminuria (uACR &lt; 30mg/g); uACR: urinary albumin-creatinine ratio; WWI: weight-adjusted waist index; LDL-C: low density lipoprotein cholesterol; eGFR: estimated glomerular filtration rate; BP: blood pressure; 95 %CI: 95 % confidence interval (robust).Table 2 dummy alt textFull cohortβ-estimate (95 %CI)(<em>n</em> = 7613)VLGA modelβ-estimate (95 %CI)(<em>n</em> = 7100)VLGA model (males)β-estimate (95 %CI)(<em>n</em> = 3576)VLGA model (females)β-estimate (95 %CI)(<em>n</em> = 3524)log<sub>10</sub>(uACR)0.10 (0.03, 0.17)0.16 (0.07, 0.25)0.20 (0.06, 0.34)0.11 (0.00, 0.22)Age (years)0.07 (0.07, 0.08)0.07 (0.07, 0.08)0.07 (0.06, 0.07)0.07 (0.07, 0.08)WWI0.11 (0.06, 0.16)0.11 (0.06, 0.16)0.26 (0.18, 0.34)0.00(−0.06, 0.06)Sex (male vs. female)0.24 (0.18, 0.30)0.27 (0.20, 0.33)--LDL-C (mmol/l)0.04 (0.00, 0.07)0.04 (0.00, 0.07)0.03 (−0.01, 0.08)0.06 (0.01, 0.11)HbA1c (mmol/ mol)0.01 (0.01, 0.02)0.01 (0.01, 0.02)0.01 (0.00, 0.02)0.01 (0.00, 0.02)eGFR (ml/min/1.73m²)0.00 (0.00, 0.00)0.00 (0.00, 0.00)0.00 (−0.01, 0.00)0.00 (0.00, 0.00)Systolic BP (mmHg)0.04 (0.04, 0.04)0.04 (0.04, 0.04)0.04 (0.04, 0.05)0.04 (0.04, 0.05)R<sup>2</sup>0.550.550.520.57Fig. 2Multivariable-adjusted associations of clinical and metabolic factors with PWV(ba).Panel A shows adjusted β estimates (95 % confidence intervals) for associations with brachial–ankle pulse wave velocity (PWV[ba]) in the full cohort, the very low-grade albuminuria (VLGA) subgroup (uACR &lt;30 mg/g), and sex-stratified VLGA models. Panel B shows corresponding associations in the low-risk VLGA subgroup after exclusion of participants with arterial hypertension, antihypertensive medication use, diabetes mellitus, or self-reported chronic kidney disease, including sex-stratified models. All models were adjusted for age, systolic blood pressure, adiposity (weight-adjusted waist index, WWI), kidney function (estimated glomerular filtration rate, eGFR), lipid levels (LDL-cholesterol), glycemic status (HbA1c), and sex where applicable. Points represent adjusted β coefficients, and horizontal bars represent 95 % confidence intervals. PWV(ba), brachial–ankle pulse wave velocity; uACR, urinary albumin–creatinine ratio; VLGA, very low-grade albuminuria; WWI, weight-adjusted waist index; eGFR, estimated glomerular filtration rate; LDL-C, low-density lipoprotein cholesterol; HbA1c, glycated hemoglobin; BP, blood pressure.Fig 2 dummy alt text"
+        },
+        {
+          "type": "paragraph",
+          "html": "In the very low-grade albuminuria (VLGA) subgroup, the association between log10(uACR) and PWV(ba) was of similar magnitude (β = 0.16, 95 % CI: 0.07–0.25). Age, systolic blood pressure, WWI, male sex, LDL-cholesterol, and HbA1c remained positively associated with PWV(ba), while eGFR again showed no meaningful association."
+        },
+        {
+          "type": "paragraph",
+          "html": "Sex-stratified analyses in the VLGA subgroup demonstrated heterogeneity in associations of uACR and WWI with PWV(ba) (Table 2). The association between log<sub>10</sub>(uACR) and PWV(ba) was numerically higher in men (β = 0.20, 95 % CI: 0.06–0.34; R² = 0.52) than in women (β = 0.11, 95 % CI: 0.00–0.22; R² = 0.57). WWI showed a pronounced positive association with PWV(ba) in men (β = 0.26, 95 % CI: 0.18–0.34), whereas the corresponding estimate in women was close to zero (β = 0.00, 95 % CI: −0.06–0.06) (Table 2, Fig. 2A). Age and systolic blood pressure remained consistently associated with PWV(ba) in both sexes, while LDL-cholesterol was positively associated with PWV(ba) in women but not in men. In the VLGA subgroup, the univariable linear regression exhibited a positive association between PWV(ba) and log₁₀(uACR) (β = 0.67, 95 % CI (0.55, 0.79)), explaining 2 % of the variance (R² = 0.02)."
+        },
+        {
+          "type": "paragraph",
+          "html": "To evaluate potential effect modification by sex, interaction terms between sex and log<sub>10</sub>(uACR) were added to the multivariable model in the full cohort (Supplementary Table S3). The interaction estimate for sex and log10(uACR) was small and imprecise (β for interaction = −0.07, 95 % CI: −0.19 to 0.05), indicating little evidence for clinically meaningful sex-related differences in the association between uACR and PWV(ba) after multivariable adjustment. Main associations of age, systolic blood pressure, LDL-cholesterol, and HbA1c with PWV(ba) remained stable, while effect estimates for eGFR were close to zero (Supplementary Table S3)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Because uACR was modeled on the log₁₀ scale, β coefficients represent differences in PWV(ba) per 10-fold higher uACR. In the full cohort, a 10-fold increase in uACR (e.g., from 30 to 300 mg/g) was associated with higher PWV(ba) by 0.10 m/s (95 % CI 0.03–0.17). Corresponding estimates were 0.16 m/s (95 % CI 0.07–0.25) in the VLGA subgroup, 0.20 m/s (95 % CI 0.06–0.34) among men with VLGA, and 0.11 m/s (95 % CI 0.00–0.22) among women with VLGA (Table 2)."
+        },
+        {
+          "type": "paragraph",
+          "html": "We further examined whether the relationship between uACR und PWV(ba) persists in the absence of overt comorbidities. We conducted an additional analysis excluding participants meeting the study definition of arterial hypertension, diabetes mellitus, or pre-existing kidney disease. This low-risk VLGA subgroup (<em>n</em> = 4308) was generally slightly younger, had a lower body weight, slightly lower WWI, lower blood pressure and pulse wave velocity. This group also had a better kidney function, as reflected by higher mean eGFR and lower uACR (Supplementary Table S4). In multivariable models within this low-risk subgroup, log<sub>10</sub>(uACR) remained positively associated with PWV(ba) (β = 0.18, 95 % CI: 0.08–0.28), alongside age, systolic blood pressure, WWI, and male sex (Table 3, Fig. 2B). In sex-stratified models, the uACR–PWV(ba) association was larger in men (β = 0.26, 95 % CI: 0.09–0.42; R² = 0.54) than in women (β = 0.10, 95 % CI: −0.03–0.23; R² = 0.59), although estimates in women were less precise. WWI showed a strong positive association with PWV(ba) in men (β = 0.35, 95 % CI: 0.26–0.45) but not in women (β = 0.04, 95 % CI: −0.03–0.11). Across all models, effect estimates for eGFR were close to zero, while systolic blood pressure and age remained consistently associated with PWV(ba) (Table 3, Fig. 2B). In the low-risk VLGA subgroup, a 10-fold increase in uACR (e.g., from 30 to 300 mg/g) was associated with higher PWV(ba) of 0.18 m/s (95 % CI 0.08–0.28) overall, 0.26 m/s (95 % CI 0.09–0.42) in men, and 0.10 m/s (95 % CI −0.03 to 0.23) in women per 10-fold higher uACR (Table 3). Additional adjustment for LDL-cholesterol did not materially affect effect estimates or model fit and was therefore not retained in the final low-risk models. Excluding uACR from the low-risk models did not materially change overall model fit (R² = 0.57 overall, 0.54 in men, and 0.59 in women). Additional adjustment for cardiometabolic medication use did not substantialy change the association between uACR and PWV(ba) (β≈0.10 per log₁₀ increase in uACR in both models), and model fit remained unchanged (R² = 0.55), indicating that the observed association was robust to adjustment for pharmacotherapy (Supplementary Table S5).Table 3Results of multivariable linear regression models, excluding participants with comorbidities (arterial hypertension, antihypertensive medication use, diabetes mellitus, or pre-existing kidney disease). PWV(ba) as the dependent variable and log10-transformed uACR as the independent variable. VLGA: very low-grade albuminuria (uACR &lt; 30mg/g); uACR: urinary albumin-creatinine ratio; WWI: weight-adjusted waist index; LDL-C: low density lipoprotein cholesterol; eGFR: estimated glomerular filtration rate; BP: blood pressure; 95 %CI: 95 % confidence interval (robust).Table 3: dummy alt textLow-risk VLGA modelβ-estimate (95 %CI)(<em>n</em> = 4308)Low-risk VLGA model (males)β-estimate (95 %CI)(<em>n</em> = 2118)Low-risk VLGA models (females)β-estimate (95 %CI)(<em>n</em> = 2190)log<sub>10</sub>(uACR)0.18 (0.08, 0.28)0.26 (0.09, 0.42)0.10 (−0.03, 0.23)Age (years)0.07 (0.07, 0.07)0.06 (0.06, 0.07)0.07 (0.07, 0.08)WWI0.18 (0.12, 0.24)0.35 (0.26, 0.45)0.04 (−0.03, 0.11)Sex (male vs. female)0.28 (0.20, 0.35)--eGFR (ml/min/1.73m²)−0.00 (−0.00, 0.00)−0.00 (−0.01, 0.00)0.00 (−0.00, 0.00)Systolic BP (mmHg)0.04 (0.04, 0.04)0.04 (0.04, 0.05)0.04 (0.04, 0.05)R<sup>2</sup>0.570.540.59"
+        },
+        {
+          "type": "paragraph",
+          "html": "Consistent with the interaction analyses in the full cohort, interaction terms between sex and log<sub>10</sub>(uACR) and between sex and WWI were added to the multivariable model in the low-risk subgroup. The interaction estimate for sex and log<sub>10</sub>(uACR) was small with a wide confidence intervall (β for interaction = 0.13, 95 % CI: −0.07 to 0.33), indicating little evidence for meaningful sex-related differences in the association between uACR and PWV(ba) (Supplementary Table S6). In contrast, the interaction between sex and WWI was larger and more precisely estimated (β for interaction = 0.24, 95 % CI: 0.14 to 0.34) (Supplementary Table S6), consistent with a stronger association between central adiposity and PWV(ba) in men compared with women, mirroring the pattern observed in the full cohort and VLGA subgroup."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We observed a positive association between PWV(ba) and log<sub>10</sub>(uACR) in a large population-based cohort study. This finding was present for males and females and persisted after excluding participants with a uACR ≥ 30 mg/g. Moreover, this finding was persistent after exclusion of participants with known comorbidities (arterial hypertension, diabetes mellitus or known kidney disease). This observation held true for both sexes, although sex-stratified analyses suggested numerically larger uACR–PWV associations in men, formal interaction models did not support meaningful effect modification by sex. Such discrepancies may reflect reduced precision after stratification and differences in covariate distributions between men and women."
+        },
+        {
+          "type": "paragraph",
+          "html": "The minimal change in model R² after inclusion of uACR indicates that traditional determinants such as age and blood pressure dominate cross-sectional variability in PWV(ba). However, the persistence of an independent association suggests that very low-grade albuminuria may capture early vascular vulnerability not fully reflected by conventional risk factors. In relative terms, the association between uACR and PWV(ba) was smaller than that observed for systolic blood pressure, a well-established determinant of arterial stiffness. In our models, systolic blood pressure was associated with approximately 0.04 m/s higher PWV(ba) per 1 mmHg increase (0.40 m/s per 10 mmHg), whereas a 10-fold higher uACR was associated with approximately 0.10–0.18 m/s higher PWV(ba), depending on the subgroup analyzed. This difference in magnitude is expected given the dominant role of blood pressure in arterial stiffening.“Importantly, the stability of effect estimates after additional adjustment for cardiometabolic medication classes argues against confounding by treatment intensity and supports an independent association between albuminuria and arterial stiffness; however, as several medications may lie on the causal pathway between cardiometabolic risk and vascular damage, these analyses were considered sensitivity analyses rather than primary causal models."
+        }
+      ]
+    },
+    {
+      "title": "Risk of atherosclerotic vascular disease in cohorts with VLGA",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "An association between VLGA and atherosclerosis was described in a recent cohort study that enrolled 1756 men with an eGFR &gt;60 mL/min/1.73 m² and uACR in the range of 10.0–29.8 mg/g [25]. Participants were recruited while a routine occupational health examination was carried out. The study population was comparable to ours, except for the fact that only men were recruited. The authors concluded that high-normal albuminuria is associated with increased intima-media thickness (IMT) and increased carotid plaque number. In another publication using data from the Cardiovascular Health Study (CHS), which is a population-based cohort study of individuals aged ≥65 years from the US (2006), a relation between microalbuminuria (defined as uACR of 30–300 mg/g) and subclinical atherosclerosis (IMT &gt; 80th percentile, ABI 〈 0.9 and/ or left ventricular mass 〉 80th percentile) could not be confirmed. However, the study found an association between overt cardiovascular disease and microalbuminuria [26]. Another prospective cohort study from Shanghai, China which included over 9500 participants, reported an adjusted odds-ratio (OR) of 1.15 (95 %CI 1.02 to 1.30) for subclinical atherosclerosis in the VLGA group [2]. Further, Liu and colleagues report a substantially increased risk for manifest atherosclerosis of the carotid artery (adjusted OR: 1.22 (95 %CI 1.07 to 1.38)). Similar results yielded the Changfeng Study, in which a positive association between IMT and VLGA was reported [27]. In a meta-analysis of 14 studies including 105,872 participants, Matsushita and colleagues demonstrated a linear increase in cardiovascular and all-cause mortality beginning at a uACR of 5 mg/g, independent of kidney function [8]. A separate meta-analysis stratifying uACR into three categories (&lt;5 mg/g, 5–10 mg/g, and 10–30 mg/g) reported a twofold higher risk of cardiovascular mortality in the highest group compared with the lowest (HR: 2.12; 95 % CI: 1.61–2.80), with even intermediate levels (5–10 mg/g) associated with increased risk (HR: 1.50; 95 % CI: 1.14–1.99) [11]. These findings question the traditional definition of “normo-albuminuria” as uACR &lt;30 mg/g, since cardiovascular risk is already elevated at lower levels."
+        }
+      ]
+    },
+    {
+      "title": "Pulse-Wave-Velocity and VLGA",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "McEniery and colleagues found that global endothelial function correlates with central and (somewhat less) peripheral pulse pressure and is independently and inversely correlated with aortic PWV [28]. Endothelial dysfunction of the small vessels is associated with increased albuminuria in prevalent CKD patients [29]. Moreover, albuminuria is considered a surrogate parameter for endothelial dysfunction in individuals with diabetic kidney disease (DKD) [30]. Cross-sectional and prospective data suggest a bidirectional relationship between PWV and uACR. In a Chinese cohort of 1343 participants, carotid-femoral PWV(cf) was in positive linear relation to uACR (β = 0.093) analyzed for high-normal albuminuria (defined as uACR 6.36–30 mg/g) [15]. Consistent with our analysis, the authors performed a multivariable linear regression adjusted for systolic blood pressure, age, uric acid, heart rate, and fasting plasma glucose. They found the strongest association for PWV and uACR in normotensive, elderly males. This corresponds with our results. In another large cross-sectional study of over 5600 participants from a community in Beijing, the investigators found that PWV(ba) showed a stronger association with uACR than PWV(cf) using an adjusted logistic model (odds ratio PWV(ba) 1.06; 95 %CI, 1.03 to 1.10). The authors conclude that PWV(ba) holds strong potential for large-scale community health screening [31]. A cross-sectional analysis of data from the Jackson Heart Study showed a higher prevalence of high-normal uACR (&gt; 25 mg/g in men and &gt;35 mg/g in women) in those with increased PWV(cf) (OR 1.66 (95 %CI 1.32 to 2.11)) among African Americans [32]. Comparable results were reported from the Framingham Offspring study, in which an elevated uACR (uACR ≥17 mg/g (men) or ≥25 mg/g (women)) was linked to elevated PWV(cf) (1.28 (1.02–1.61)) [33]. Furthermore, Vasan and colleagues observed that greater arterial stiffness was associated with a higher prevalence and incidence of target organ damage (albuminuria, left ventricular hypertrophy, covert brain infarcts) and served as a predictor of cardiovascular events [33]."
+        },
+        {
+          "type": "paragraph",
+          "html": "In the GENOA study, Coutinho et al. investigated the relationship between arterial stiffness and markers of subclinical target-organ damage in a community-based cohort enriched for hypertension and reported that aortic (carotid–femoral) PWV was associated with several cardiovascular damage markers but not independently associated with urinary albumin excretion after multivariable adjustment [16]. Differences in arterial stiffness measures may also contribute to the discrepant findings between studies. GENOA assessed carotid–femoral PWV as a measure of central elastic artery stiffness, whereas we used brachial–ankle PWV, which incorporates both central and peripheral arterial segments and yields systematically higher absolute values that are not directly comparable to cfPWV [34]. Peripheral muscular arteries may be particularly sensitive to early endothelial and microvascular dysfunction, which could enhance detection of associations with very low-grade albuminuria. In addition, cohort-specific differences in age distribution, adiposity, and measurement protocols may influence absolute PWV levels. Thus, differences in PWV methodology and population characteristics likely contribute to variation in both mean PWV values and observed associations with albuminuria. In a longitudinal study (5.3 years) of 629 elderly Icelandic adults, researchers investigated the relationship between arterial stiffness and kidney function, focusing on urinary albumin-to-creatinine ratio (uACR) and estimated glomerular filtration rate (eGFR). It is remarkable that despite associations between PWV(cf) with augmentation index on eGFR decline, none of the vascular tonometry measures were associated with changes in uACR [35]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Although in our analysis the regression coefficient for uACR was numerically larger in the low-risk subgroup, this should not be interpreted as evidence of a stronger causal relationship. In cross-sectional analyses, effect estimates may vary across subgroups due to differences in variance structure, competing determinants of PWV, and residual confounding, rather than reflecting true differences in biological effect. In general, a potential association between very low-grade albuminuria and arterial stiffness may reflect shared vascular pathology rather than a direct causal relationship. Subtle increases in urinary albumin excretion may indicate endothelial dysfunction, leading to increased microvascular permeability [36]. Low-grade systemic inflammation may further contribute to both phenotypes, as inflammatory markers such as C-reactive protein are associated with higher uACR and increased PWV, and inflammation promotes arterial elastin degradation, collagen remodeling, and increased glomerular basement membrane permeability [37,38]. Hemodynamic mechanisms may also play a role, whereby increased stiffness of large arteries enhances transmission of pulsatile pressure to the renal microcirculation, particularly in juxtamedullary nephrons with limited autoregulatory capacity [39]. Finally, structural vascular remodeling, including basement membrane thickening and early intima–media changes, may occur in parallel in microvascular and macrovascular beds, supporting the concept that very low-grade albuminuria reflects early, systemic vascular vulnerability rather than isolated kidney involvement [38,39]."
+        }
+      ]
+    },
+    {
+      "title": "Effect of obesity and sex on pulse-wave velocity and albuminuria",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "There is reliable data that obesity is independently associated with albuminuria [[40], [41], [42]]. Nevertheless, there are things to consider about the interpretation of the uACR in relation to obesity [43,44]. An analysis of data from the large German Study of Health in Pomerania (SHIP) reported a U-shaped association between uACR and obesity indices, including waist circumference and waist-to-height ratio. Interestingly, BMI in this analysis was associated with uACR only at the lower end of the BMI spectrum, whereas higher BMI levels showed no association with uACR [45]. This behavior of BMI in relation to urine creatinine was described for several cohort studies [43,44]. It leads to an underestimation of uACR in higher BMI groups. We therefore substituted BMI by the weight-adjusted waist index (WWI) in our models. The WWI is superior in cardiovascular risk assessment compared to the BMI in individuals with diabetes [46] and in a normal risk cohort [47]. The WWI showed its best performance in CVD risk prediction, compared to BMI, WC, waist-to-height ratio and body shape index [23]. The influence of obesity on PWV was investigated in a French cohort study (<em>n</em> = 2304), in which Desamericq and colleagues found no association [48]. In a Korean single center study, involving 3850 participants, waist-to-hip ratio and visceral fat area using bioimpedance, but not BMI and waist circumference, showed an association with PWV [49]. We formally tested for sex interactions and found a significant WWI×sex interaction, indicating a stronger association between WWI and PWV(ba) in men than in women (Supplementary Table S3 and S6). In the interaction model, the WWI×male term showed a precise positive association (β = 0.18, 95 % CI 0.11–0.26), whereas the main WWI effect was attenuated after accounting for sex. This supports the presumption of true effect modification rather than confounding. This finding aligns with prior evidence that WWI is strongly linked to arterial stiffness measured by brachial–ankle PWV. In a recent study of patients with type 2 diabetes, each standard deviation increase in WWI was associated with an approximately 49 cm/s higher baPWV after multivariable adjustment, and WWI showed the strongest correlation with baPWV among several anthropometric indices (<em>r</em> = 0.33), outperforming BMI and waist circumference [50]. Sex-specific differences in fat distribution and muscle mass, which WWI is designed to capture, may partly explain the stronger association in men, whereas higher relative fat mass and lower creatinine excretion in women may reduce contrast across WWI levels. Together, these data support WWI as a relevant marker of arterial stiffness, with evidence of sex-dependent effect size."
+        },
+        {
+          "type": "paragraph",
+          "html": "A large meta-analysis of 167 studies (<em>n</em> = 509,743) reported sex related differences in PWV. Lu and colleagues stated that males had a markedly faster increase of PWV(ba) than females during young adulthood, but sex differences vanished at higher ages [51]. Interestingly, they further report a substantially higher age-standardized PWV(ba) in Asia compared to Europe (+1.83 m/s) [51]. In a study from Finland on healthy young volunteers (<em>n</em> = 799), a higher PWV was seen in males (8.9 ± 1,8 m/s) than in females (8.1 ± 2.0 m/s), although using a different measurement technique (whole-body impedance cardiography) [52]. Doonan et al. found similar sex-specific differences (men: 6.0 ± 0.7 m/s, women: 5.6 ± 0.6 m/s) in healthy young individuals (<em>n</em> = 112) [53]. This observation was reflected in our results. An additional consideration is that uACR depends on urinary creatinine excretion, which differs by sex. Lower creatinine excretion in women can shift the uACR distribution upward even at low absolute albumin excretion, potentially affecting comparability at very low uACR levels and attenuating associations in sex-stratified analyses [54]."
+        }
+      ]
+    },
+    {
+      "title": "Strengths and limitations",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This study leverages a large, population-based cohort, enhancing the external validity and applicability of its findings. Participants are comprehensively characterized across demographic, clinical, and lifestyle domains, enabling rigorous adjustment for confounding and detailed subgroup analyses. Importantly, the cohort reflects the characteristics of the general cardiovascular risk in Europe, increasing the relevance of these findings to similar populations and informing preventive strategies. To our knowledge, no prior study has demonstrated an association between very low-grade albuminuria and pulse wave velocity in a low-risk group at the population level."
+        },
+        {
+          "type": "paragraph",
+          "html": "Several limitations should be acknowledged. The sample was derived from one center within the NAKO cohort, which may introduce some degree of regional bias. However, the large sample size and population-based recruitment likely mitigate major threats to generalizability. Arterial stiffness was assessed using brachial–ankle PWV rather than carotid–femoral PWV, the reference standard for central arterial stiffness, and absolute values are therefore not directly comparable across studies. Urinary albumin excretion was assessed from a single spot urine sample, which is subject to considerable day-to-day variability and may introduce random misclassification, likely biasing associations toward the null. Detailed information on smoking intensity at the time of assessment and dietary protein intake, both of which can influence albumin excretion, was not taken into account. Finally, the cross-sectional design precludes causal inference and does not allow assessment of prognostic implications, which will require longitudinal analyses within the NAKO cohort."
+        }
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We observed a consistent positive association between PWV(ba) and uACR in the overall cohort and within the very low-grade albuminuria (VLGA) subgroup, which remained evident after exclusion of participants with major cardiometabolic comorbidities. These findings suggest that variations in albumin excretion well below the conventional threshold for albuminuria are associated with concurrent differences in arterial stiffness and may reflect early, shared vascular vulnerability rather than isolated kidney involvement."
+        },
+        {
+          "type": "paragraph",
+          "html": "Future longitudinal studies are needed to determine whether very low-grade albuminuria and arterial stiffness provide incremental prognostic information beyond established cardiovascular risk factors and whether they may be useful for characterizing early vascular vulnerability in preventive settings."
+        }
+      ]
+    },
+    {
+      "title": "Disclosures",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "MG, CG, OT, AK, TS, AW, BLK, BK, RM, and MZ declare that they have no conflicts of interest to disclose. MGir reports lecture fees from Amgen, Astellas, Bayer Vital, Daiichi. Sankyo, Hexal, Sanofi, Vifor, outside the submitted work; He is engaged in complimentary work for the Commission for Hygiene and Infection Prevention, German Society of Nephrology and as Member of the Board of the German Society for Applied Hygiene in Dialysis. VW received a lecture fee from Bayer Pharmaceuticals and received financial support for congress costs from Lilly Pharma Germany."
+        }
+      ]
+    },
+    {
+      "title": "Funding",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The German National Cohort (NAKO) is funded by the Bundesministerium für Bildung und Forschung of the Federal Republic of Germany."
+        }
+      ]
+    },
+    {
+      "title": "Data sharing statement*",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Original data can be requested from the NAKO transfer office. NAKO ensures that the same dataset used in this study will be made available via the transfer office in order to comply with good scientific practice."
+        }
+      ]
+    },
+    {
+      "title": "Author declaration",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We wish to confirm that there are no known conflicts of interest associated with this publication and there has been no significant financial support for this work that could have influenced its outcome."
+        },
+        {
+          "type": "paragraph",
+          "html": "We confirm that the manuscript has been read and approved by all named authors and that there are no other persons who satisfied the criteria for authorship but are not listed."
+        },
+        {
+          "type": "paragraph",
+          "html": "We further confirm that the order of authors listed in the manuscript has been approved by all of us. We confirm that we have given due consideration to the protection of intellectual property associated with this work and that there are no impediments to publication, including the timing of publication, with respect to intellectual property. In so doing we confirm that we have followed the regulations of our institutions concerning intellectual property."
+        },
+        {
+          "type": "paragraph",
+          "html": "We understand that the Corresponding Author is the sole contact for the Editorial process (including Editorial Manager and direct communications with the office)."
+        },
+        {
+          "type": "paragraph",
+          "html": "He is responsible for communicating with the other authors about progress, submissions of revisions and final approval of proofs."
+        },
+        {
+          "type": "paragraph",
+          "html": "We confirm that we have provided a current, correct email address which is accessible by the Corresponding Author."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Victor Walendy:</strong> Writing – original draft, Visualization, Validation, Methodology, Formal analysis, Conceptualization. <strong>Michael Gekle:</strong> Writing – review &amp; editing, Data curation, Conceptualization. <strong>Claudia Grossmann:</strong> Writing – review &amp; editing, Data curation. <strong>Alexander Kluttig:</strong> Writing – review &amp; editing, Formal analysis, Data curation. <strong>Frank Bernhard Kraus:</strong> Writing – review &amp; editing, Data curation. <strong>Beatrice Ludwig-Kraus:</strong> Writing – review &amp; editing, Data curation. <strong>Rafael Mikolajczyk:</strong> Writing – review &amp; editing, Formal analysis. <strong>Thomas Schmid:</strong> Writing – review &amp; editing, Formal analysis. <strong>Oliver Thews:</strong> Writing – review &amp; editing, Formal analysis. <strong>Andreas Wienke:</strong> Writing – review &amp; editing, Formal analysis. <strong>Melanie Zinkhan:</strong> Writing – review &amp; editing, Formal analysis. <strong>Matthias Girndt:</strong> Writing – review &amp; editing, Methodology, Formal analysis, Data curation, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare the following financial interests/personal relationships which may be considered as potential competing interests:"
+        },
+        {
+          "type": "paragraph",
+          "html": "Victor Walendy reports a relationship with Eli Lilly and Company, Bayer Pharmaceuticals Germany that includes: speaking and lecture fees. Matthias Girndt reports a relationship with Amgen Europe GmbH, Astellas, Bayer Vital, Daiichi. Sankyo, Hexal, Sanofi, Vifor,German Society of Nephrology that includes: board membership and speaking and lecture fees. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "HemmelgarnB.R.Relation between kidney function, proteinuria, and adverse outcomesJAMA303201042310.1001/jama.2010.3920124537"
+    },
+    {
+      "html": "LiuS.NiuJ.WuS.XinZ.ZhaoZ.XuM.LuJ.WangT.ChenY.WangS.LinH.XuY.YeL.DaiM.WangW.NingG.BiY.XuY.LiM.Urinary albumin-to-creatinine ratio levels are associated with subclinical atherosclerosis and predict CVD events and all-cause deaths: a prospective analysisBMJ Open11202110.1136/bmjopen-2020-040890PMC793176733658258"
+    },
+    {
+      "html": "SminkP.A.Lambers HeerspinkH.J.GansevoortR.T.De JongP.E.HillegeH.L.BakkerS.J.L.De ZeeuwD.Albuminuria, estimated GFR, traditional risk factors, and incident cardiovascular disease: the PREVEND (Prevention of renal and vascular endstage disease) studyAm J Kidney Dis60201280481110.1053/j.ajkd.2012.06.01722835901"
+    },
+    {
+      "html": "GersteinH.C.Albuminuria and risk of cardiovascular events, death, and heart failure in diabetic and nondiabetic individualsJAMA286200142110.1001/jama.286.4.42111466120"
+    },
+    {
+      "html": "OzyolA.YucelO.EgeM.R.ZorluA.YilmazM.B.Microalbuminuria is associated with the severity of coronary artery disease independently of other cardiovascular risk factorsAngiology63201245746010.1177/000331971142352822007029"
+    },
+    {
+      "html": "SongJ.J.LeeK.B.HyunY.Y.KimH.Trace albumin in the urine dipstick test is associated with coronary artery calcification in Korean adultsNephron140201816917410.1159/00049095429991020"
+    },
+    {
+      "html": "O’HareA.M.Prognostic implications of the urinary albumin to creatinine ratio in veterans of different ages with diabetesArch Intern Med170201093010.1001/archinternmed.2010.12920548004"
+    },
+    {
+      "html": "MatsushitaK.van der VeldeM.AstorB.C.WoodwardM.LeveyA.S.de JongP.E.CoreshJ.GansevoortR.T.El-NahasM.EckardtK.U.KasiskeB.L.TonelliM.HemmelgarnB.WangY.AtkinsR.C.PolkinghorneK.R.ChadbanS.J.ShankarA.KleinR.KleinB.E.K.WangH.WangF.ZhangL.LiuL.ShlipakM.SarnakM.J.KatzR.FriedL.P.JafarT.IslamM.HatcherJ.PoulterN.ChaturvediN.RothenbacherD.BrennerH.RaumE.KoenigW.FoxC.S.HwangS.J.MeigsJ.B.CirilloM.HallanS.LydersenS.HolmenJ.SarnakM.J.KatzR.FriedL.P.RoderickP.NitschD.FletcherA.BulpittC.OhkuboT.MetokiH.NakayamaM.KikuyaM.ImaiY.JassalS.K.Barrett-ConnorE.BergstromJ.WarnockD.G.MuntnerP.JuddS.McClellanW.M.CushmanM.HowardG.McClureL.A.JeeS.H.KimmH.YunJ.E.WenC.P.WenS.F.TsaoC.K.TsaiM.K.ÄrnlövJ.AugusteP.VeldhuisK.CamarataL.ThomasB.ManleyT.Association of estimated glomerular filtration rate and albuminuria with all-cause and cardiovascular mortality in general population cohorts: a collaborative meta-analysisLancet37520102073208110.1016/S0140-6736(10)60674-520483451PMC3993088"
+    },
+    {
+      "html": "AppelL.J.GramsM.WoodwardM.HarrisK.ArimaH.ChalmersJ.YatsuyaH.TamakoshiK.LiY.CoreshJ.SangY.MatsushitaK.PolkinghorneK.ChadbanS.LevinA.DjurdjevO.TangM.ZhangL.WangF.WangJ.ZhaoM.-H.SchaeffnerE.EbertN.MielkeN.TonelliM.LloydA.SacksF.ShlipakM.G.BansalN.SarnakM.YamagishiK.MurakiI.ShimizuY.IsoH.FukagawaM.MaruyamaS.HamanoT.FujiiN.ImaizumiT.Alencar De PinhoN.MetzgerM.StengelB.HamrounA.MassyZ.JafarT.H.JehanI.HatcherJ.ChaturvediN.PoulterN.WheelerD.C.LandrayM.AndersonA.ChenJ.LashJ.TaliercioJ.Estimated Glomerular Filtration Rate, Albuminuria, and Adverse OutcomesJAMA3302023126610.1001/jama.2023.1700237787795PMC10548311"
+    },
+    {
+      "html": "PotierL.ChequerR.RousselR.MohammediK.SismailS.HartemannA.AmouyalC.MarreM.Le GuludecD.HyafilF.Relationship between cardiac microvascular dysfunction measured with 82Rubidium-PET and albuminuria in patients with diabetes mellitusCardiovasc Diabetol17201810.1186/s12933-017-0652-1PMC576354129325551"
+    },
+    {
+      "html": "Sehtman-ShacharD.R.YanuvI.SchechterM.FishkinA.Aharon-HananelG.LeibowitzG.RozenbergA.MosenzonO.Normoalbuminuria—is it normal? The association of urinary albumin within the ‘normoalbuminuric’ range with adverse cardiovascular and mortality outcomes: a systematic review and meta-analysisDiabetes Obes Metab2620244225424010.1111/dom.1575239021242"
+    },
+    {
+      "html": "CheongS.S.SamahN.Che RoosN.A.UgusmanA.MohamadM.S.F.BehB.C.ZainalI.A.AminuddinA.Prognostic value of pulse wave velocity for cardiovascular disease risk stratification in diabetic patients: a systematic review and meta-analysisJ Diabetes Complic38202410.1016/j.jdiacomp.2024.10889439531755"
+    },
+    {
+      "html": "TownsendR.R.AndersonA.H.ChirinosJ.A.FeldmanH.I.GrunwaldJ.E.NesselL.RoyJ.WeirM.R.WrightJ.T.BansalN.HsuC.AppelL.J.GoA.S.HeJ.KusekJ.W.LashJ.P.OjoA.RahmanM.Association of pulse wave velocity with chronic kidney disease progression and mortalityHypertension7120181101110710.1161/HYPERTENSIONAHA.117.1064829712736PMC6342478"
+    },
+    {
+      "html": "Hayfron-BenjaminC.F.AmoahA.G.B.Maitland - van der ZeeA.H.van CharanteE.M.GalenkampH.van den BornB.J.AgyemangC.Associations between macrovascular and renal microvascular dysfunction in type 2 diabetes and non-diabetes: the HELIUS studyMicrovasc Res136202110.1016/j.mvr.2021.10416233705823"
+    },
+    {
+      "html": "YeC.GongJ.WangT.LuoL.LianG.WangH.ChenW.XieL.Relationship between high-normal albuminuria and arterial stiffness in Chinese populationJ Clin Hypertens2220201674168110.1111/jch.13979PMC803008033284512"
+    },
+    {
+      "html": "CoutinhoT.TurnerS.T.KulloI.J.Aortic pulse wave velocity is associated with measures of subclinical target organ damageJACC Cardiovasc Imaging4201175476110.1016/j.jcmg.2011.04.01121757166PMC3862768"
+    },
+    {
+      "html": "AhrensW.HoffmannW.JöckelK.H.KaaksR.GromerB.GreiserK.H.LinseisenJ.SchmidtB.WichmannH.E.Weg-RemersS.The German National Cohort: aims, study desEur J Epidemiol29201437138210.1007/s10654-014-9890-724840228PMC4050302"
+    },
+    {
+      "html": "PetersA.GreiserK.H.GöttlicherS.AhrensW.AlbrechtM.BambergF.BärnighausenT.BecherH.BergerK.BeuleA.BoeingH.BohnB.BohnertK.BraunB.BrennerH.BülowR.CastellS.Damms-MachadoA.DörrM.EbertN.EckerM.EmmelC.FischerB.FranzkeC.W.GastellS.GianiG.GüntherM.GüntherK.GüntherK.P.HaertingJ.HaugU.HeidI.M.HeierM.HeinemeyerD.HendelT.HerbolsheimerF.HirschJ.HoffmannW.HolleczekB.HöllingH.HörleinA.JöckelK.H.KaaksR.KarchA.KarraschS.KartschmitN.KauczorH.U.KeilT.KemmlingY.KleeB.KlüppelholzB.KluttigA.KofinkL.KöttgenA.KraftD.KrauseG.KretzL.KristL.KühnischJ.KußO.LegathN.LehnichA.T.LeitzmannM.LiebW.LinseisenJ.LoefflerM.MacdonaldA.Maier-HeinK.H.MangoldN.Meinke-FranzeC.MeisingerC.MelzerJ.MergartenB.MichelsK.B.MikolajczykR.MoebusS.MuellerU.NauckM.NiendorfT.NikolaouK.ObiN.OstrzinskiS.PanreckL.PigeotI.PischonT.Pschibul-ThammI.RathmannW.ReinekeA.RoloffS.RujescuD.RupfS.SanderO.SchikowskiT.SchipfS.SchirmacherP.SchlettC.L.SchmidtB.SchmidtG.SchmidtM.SchöneG.SchulzH.SchulzeM.B.SchweigA.SedlmeierA.M.SelderS.Six-MerkerJ.SowadeR.StangA.StegleO.SteindorfK.StübsG.SwartE.TeismannH.ThieleI.ThierryS.UeffingM.VölzkeH.WaniekS.WeberA.WernerN.WichmannH.E.WillichS.N.WirknerK.WolfK.WolffR.ZeebH.ZinkhanM.ZschockeJ.Framework and baseline examination of the German National Cohort (NAKO)Eur J Epidemiol3720221107112410.1007/s10654-022-00890-536260190PMC9581448"
+    },
+    {
+      "html": "TerenA.BeutnerF.WirknerK.LöfflerM.ScholzM.Relationship between determinants of arterial stiffness assessed by diastolic and suprasystolic pulse oscillometry: comparison of vicorder and vascular explorerMedicine (United States)95201610.1097/MD.0000000000002963PMC499887826962797"
+    },
+    {
+      "html": "ChengY.-B.LiY.ShengC.-S.HuangQ.-F.WangJ.-G.Quantification of the interrelationship between brachial-ankle and carotid-femoral pulse wave velocity in a workplace populationPulse3201525326210.1159/000444645PMC486507327195246"
+    },
+    {
+      "html": "TanakaH.MunakataM.KawanoY.OhishiM.ShojiT.SugawaraJ.TomiyamaH.YamashinaA.YasudaH.SawayamaT.OzawaT.Comparison between carotid-femoral and brachial-ankle pulse wave velocity as measures of arterial stiffnessJ Hypertens2720092022202710.1097/HJH.0b013e32832e94e719550355"
+    },
+    {
+      "html": "TextorJ.van der ZanderB.GilthorpeM.S.LiśkiewiczM.EllisonG.T.H.Robust causal inference using directed acyclic graphs: the R package ‘dagitty,’Int J Epidemiol2017dyw34110.1093/ije/dyw34128089956"
+    },
+    {
+      "html": "ParkY.KimN.H.KwonT.Y.KimS.G.A novel adiposity index as an integrated predictor of cardiometabolic disease morbidity and mortalitySci Rep8201810.1038/s41598-018-35073-4PMC623318030425288"
+    },
+    {
+      "html": "KimJ.Y.ChoiJ.VellaC.A.CriquiM.H.AllisonM.A.KimN.H.Associations between weight-adjusted waist index and abdominal fat and muscle mass: multi-ethnic study of atherosclerosisDiabetes Metab J46202274775510.4093/dmj.2021.029435350091PMC9532169"
+    },
+    {
+      "html": "KimuraT.UenoT.DoiS.NakashimaA.DoiT.AshitaniA.KawanoR.YamaneK.MasakiT.High-normal albuminuria is associated with subclinical atherosclerosis in male population with estimated glomerular filtration rate 60 mL/min/1.73 m2: a cross-sectional studyPLoS One14201910.1371/journal.pone.0218290PMC667508831369578"
+    },
+    {
+      "html": "CaoJ.J.BarzilayJ.I.PetersonD.ManolioT.A.PsatyB.M.KullerL.WexlerJ.BleyerA.J.CushmanM.The association of microalbuminuria with clinical cardiovascular disease and subclinical atherosclerosis in the elderly: the Cardiovascular Health StudyAtherosclerosis187200637237710.1016/j.atherosclerosis.2005.09.01516242696"
+    },
+    {
+      "html": "MaH.LinH.HofmanA.HuY.LiX.HeW.JeekelJ.JinX.GaoJ.ZhaoN.GaoX.Low-grade albuminuria is associated with carotid atherosclerosis in normotensive and euglycemic Chinese middle-aged and elderly adults: the Shanghai Changfeng StudyAtherosclerosis228201323724210.1016/j.atherosclerosis.2013.02.00723453351"
+    },
+    {
+      "html": "McEnieryC.M.WallaceS.MackenzieI.S.McDonnellB.YasminD.E.N.CockcroftJ.R.WilkinsonI.B.Endothelial function is associated with pulse pressure, pulse wave velocity, and augmentation index in healthy humansHypertension48200660260810.1161/01.HYP.0000239206.64270.5f16940223"
+    },
+    {
+      "html": "SeligerS.L.SalimiS.PierreV.GiffuniJ.KatzelL.ParsaA.Microvascular endothelial dysfunction is associated with albuminuria and CKD in older adultsBMC Nephrol17201610.1186/s12882-016-0303-xPMC494423527412615"
+    },
+    {
+      "html": "KakutaniY.MoriokaT.MoriK.YamazakiY.OchiA.KurajohM.FukumotoS.ShioiA.ShojiT.InabaM.EmotoM.Albuminuria rather than glomerular filtration rate is associated with vascular endothelial function in patients with type 2 diabetesJ Diabetes Complic34202010770210.1016/j.jdiacomp.2020.10770232888790"
+    },
+    {
+      "html": "WangT.FanF.GongY.GaoL.LiuZ.JiaJ.LiuM.JiangY.ZhangY.LiJ.Comparison of brachial–ankle pulse wave velocity and carotid–femoral pulse wave velocity in association with albuminuria in a community of Beijing: a cross-sectional studyJ Hum Hypertens37202341241810.1038/s41371-022-00697-735474137"
+    },
+    {
+      "html": "SehestedtT.JeppesenJ.HansenT.W.RasmussenS.WachtellK.IbsenH.Torp-PedersenC.OlsenM.H.Thresholds for pulse wave velocity, urine albumin creatinine ratio and left ventricular mass index using SCORE, Framingham and ESH/ESC risk chartsJ Hypertens3020121928193610.1097/HJH.0b013e328356c57922871892"
+    },
+    {
+      "html": "VasanR.S.ShortM.I.NiiranenT.J.XanthakisV.DeCarliC.ChengS.SeshadriS.MitchellG.F.Interrelations between arterial stiffness, target organ damage, and cardiovascular disease outcomesJ Am Heart Assoc8201910.1161/JAHA.119.012141PMC666212331303106"
+    },
+    {
+      "html": "KyriakoulisK.G.ChatzopoulosM.KomnianouA.Terentes-PrintziosD.DimitriadisK.VlachopoulosC.ProtogerouA.D.PantazisN.StergiouG.S.KolliasA.Brachial-ankle versus carotid-femoral pulse wave velocity: a systematic review and meta-analysisJ Hypertens4320251773178610.1097/HJH.000000000000413140986695"
+    },
+    {
+      "html": "HuangN.FosterM.C.MitchellG.F.AndresdottirM.B.EiriksdottirG.GudmundsdottirH.HarrisT.B.LaunerL.J.PalssonR.GudnasonV.LeveyA.S.InkerL.A.Aortic stiffness and change in glomerular filtration rate and albuminuria in older peopleNephrol Dialysis Transpl32201767768410.1093/ndt/gfw050PMC583731627190377"
+    },
+    {
+      "html": "C.D.A Stehouwer, J. Lambert, A. Donker, V.W. van Hinsbergh, Endothelial dysfunction and pathogenesis of diabetic angiopathy, 1997. <a href=\"http://cardiovascres.oxfordjournals.org/\">http://cardiovascres.oxfordjournals.org/</a>.10.1016/s0008-6363(96)00272-69217873"
+    },
+    {
+      "html": "UpadhyayA.HwangS.-J.MitchellG.F.VasanR.S.VitaJ.A.StantchevP.I.MeigsJ.B.LarsonM.G.LevyD.BenjaminE.J.FoxC.S.Arterial stiffness in mild-to-moderate CKDJ Am Soc Nephrol2020092044205310.1681/ASN.200901007419608701PMC2736768"
+    },
+    {
+      "html": "Gil-OrtegaM.García-PrietoC.F.Ruiz-HurtadoG.SteireifC.GonzálezM.C.SchulzA.KreutzR.Fernández-AlfonsoM.S.ArribasS.SomozaB.Genetic predisposition to albuminuria is associated with increased arterial stiffness: role of elastinBr J Pharmacol17220154406441810.1111/bph.1322326075500PMC4556477"
+    },
+    {
+      "html": "KalaitzidisR.G.Albuminuria as a marker of arterial stiffness in chronic kidney disease patientsWorld J Nephrol4201540610.5527/wjn.v4.i3.40626167465PMC4491932"
+    },
+    {
+      "html": "ZhuP.LewingtonS.HaynesR.EmbersonJ.LandrayM.J.CherneyD.WoodwardM.BaigentC.HerringtonW.G.StaplinN.Cross-sectional associations between central and general adiposity with albuminuria: observations from 400,000 people in UK BiobankInt J Obes4420202256226610.1038/s41366-020-0642-3PMC757784732678323"
+    },
+    {
+      "html": "KimH.KimH.J.ShinN.HanM.ParkH.KimM.KwonH.ChoiS.Y.HeoN.J.Visceral obesity is associated with microalbuminuria in nondiabetic AsiansHypertens Res37201467968410.1038/hr.2014.4724646640"
+    },
+    {
+      "html": "CuiZ.ChenX.ZhaiS.LuoF.WangY.HuC.YuanB.A cross-sectional study investigating the L-shaped relationship between urinary albumin creatinine ratio and overweight/obesity in children and adolescentsSci Rep15202510.1038/s41598-025-99594-5PMC1203332840287475"
+    },
+    {
+      "html": "ChagnacA.FriedmanA.N.Measuring albuminuria in individuals with obesity: pitfalls of the urinary albumin-creatinine ratioKidney Med6202410.1016/j.xkme.2024.100804PMC1099319138576526"
+    },
+    {
+      "html": "FotheringhamJ.WeatherleyN.KawarB.FogartyD.G.EllamT.The body composition and excretory burden of lean, obese, and severely obese individuals has implications for the assessment of chronic kidney diseaseKidney Int8620141221122810.1038/ki.2014.11224717300"
+    },
+    {
+      "html": "K. Dittmann, A. Hannemann, H. Wallaschofski, R. Rettig, S. Stracke, H. Völzke, M. Nauck, N. Friedrich, U-shaped association between central body fat and the urinary albumin-to-creatinine ratio and microalbuminuria, 2013. <a href=\"http://www.biomedcentral.com/1471-2369/14/87\">http://www.biomedcentral.com/1471-2369/14/87</a>.10.1186/1471-2369-14-87PMC363759523594567"
+    },
+    {
+      "html": "TaoZ.ZuoP.MaG.The association between weight-adjusted waist circumference index and cardiovascular disease and mortality in patients with diabetesSci Rep14202410.1038/s41598-024-69712-wPMC1132969839152145"
+    },
+    {
+      "html": "WangB.SunX.Weight-adjusted waist index shows superior detection of coronary artery disease than body mass index in NHANES 1999–2020Sci Rep15202510.1038/s41598-025-90877-5PMC1186861140016289"
+    },
+    {
+      "html": "DesamericqG.TissotC.M.AkakpoS.TropeanoA.I.MillasseauS.MacQuin-MavierI.Carotid-femoral pulse wave velocity is not increased in obesityAm J Hypertens28201554655110.1093/ajh/hpu19025300568"
+    },
+    {
+      "html": "KimH.L.AhnD.W.KimS.H.LeeD.S.YoonS.H.ZoJ.H.KimM.A.JeongJ.B.Association between body fat parameters and arterial stiffnessSci Rep11202110.1038/s41598-021-00175-zPMC851999234654852"
+    },
+    {
+      "html": "GongS.MaoJ.ZhouQ.ZhouH.F.LiuQ.SunT.GanS.Weight adjusted waist index is a superior obesity index for predicting arterial stiffness in type 2 diabetes mellitusSci Rep15202510.1038/s41598-025-17715-6PMC1239742640883486"
+    },
+    {
+      "html": "LuY.KiechlS.J.WangJ.Global distributions of age- and sex-related arterial stiffness: systematic review and meta-analysis of 167 studies with 509,743 participantsEBioMedicine92202310.1016/j.ebiom.2023.104619PMC1032786937229905"
+    },
+    {
+      "html": "KoivistoinenT.KööbiT.JulaA.Hutri-kähönenN.RaitakariO.T.MajahalmeS.Kukkonen-harjulaK.LehtimäkiT.ReunanenA.ViikariJ.TurjanmaaV.NieminenT.KähönenM.Pulse wave velocity reference values in healthy adults aged 26-75 yearsClin Physiol Funct Imaging27200719119610.1111/j.1475-097X.2007.00734.x17445071"
+    },
+    {
+      "html": "DoonanR.J.MutterA.EgizianoG.GomezY.H.DaskalopoulouS.S.Differences in arterial stiffness at rest and after acute exercise between young men and womenHypertens Res36201322623110.1038/hr.2012.15823051656"
+    },
+    {
+      "html": "ShiY.HuH.WuZ.WuJ.ChenZ.LiP.Sex modifies the association between urinary albumin-to-creatinine ratio and diabetes among adults in the United States (NHANES 2011–2018)Biol Sex Differ13202210.1186/s13293-022-00462-yPMC952408536175972"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

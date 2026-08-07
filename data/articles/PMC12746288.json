@@ -1,0 +1,415 @@
+{
+  "pmcid": "PMC12746288",
+  "pmid": "41473018",
+  "doi": "10.1016/j.ajpc.2025.101345",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12746288/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Wearable device–measured physical activity and risk of MAFLD in adolescents",
+  "articleType": "Research Article",
+  "published": "2025-11-03",
+  "year": "2025",
+  "volume": "24",
+  "issue": "",
+  "articleNumber": "101345",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2025",
+  "authors": [
+    {
+      "given": "Ruli",
+      "surname": "Wang",
+      "display": "Ruli Wang"
+    },
+    {
+      "given": "Congwei",
+      "surname": "You",
+      "display": "Congwei You"
+    },
+    {
+      "given": "Zijuan",
+      "surname": "Dong",
+      "display": "Zijuan Dong"
+    },
+    {
+      "given": "Qingqing",
+      "surname": "Zheng",
+      "display": "Qingqing Zheng"
+    },
+    {
+      "given": "Xiaowei",
+      "surname": "Zheng",
+      "display": "Xiaowei Zheng"
+    },
+    {
+      "given": "Liangbin",
+      "surname": "Zhou",
+      "display": "Liangbin Zhou"
+    },
+    {
+      "given": "Xiaolei",
+      "surname": "Wang",
+      "display": "Xiaolei Wang"
+    },
+    {
+      "given": "Le",
+      "surname": "Zhang",
+      "display": "Le Zhang"
+    },
+    {
+      "given": "Haoyang",
+      "surname": "Zhang",
+      "display": "Haoyang Zhang"
+    }
+  ],
+  "affiliations": [
+    "aDepartment of Paediatrics, Affiliated Children’s Hospital of Jiangnan University (Wuxi Children’s Hospital), Wuxi, China",
+    "bDepartment of Paediatrics, Affiliated Wuxi People's Hospital of Nanjing Medical University, Wuxi, China",
+    "cPublic Health Research Center and Department of Public Health and Preventive Medicine, Wuxi School of Medicine, Jiangnan University, Wuxi, China",
+    "dDepartment of Biomedical Engineering, Faculty of Engineering, The Chinese University of Hong Kong, Hong Kong, China",
+    "eDepartment of Experimental Medical Science, Lund University, Lund, Sweden"
+  ],
+  "keywords": [
+    "Physical activity",
+    "MAFLD",
+    "Wearable devices",
+    "Adolescent"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Background:</strong> While physical activity is known to affect the risk of MAFLD in adults, evidence in adolescents is limited and often based on self-reported questionnaires. We therefore used wearable device–based measurements to investigate the association between physical activity and MAFLD in adolescents."
+    },
+    {
+      "html": "<strong>Methods:</strong> Data were obtained from the National Health and Nutrition Examination Survey (NHANES) database for adolescents aged 12–19 years during the 2003–2006 and 2011–2014 cycle. Physical activity was measured using wearable accelerometers, averaged across all valid wearing days. Weighted multivariate logistic regressions were applied to assess associations between physical activity (overall, daytime, and nighttime) and MAFLD."
+    },
+    {
+      "html": "<strong>Result:</strong> Among 5705 adolescents, higher physical activity levels were strongly associated with lower odds of MAFLD in the 2003–2006 cycle, with a clear dose–response trend across quartiles (<em>P</em> for trend &lt; 0.001). Participants in the highest physical activity (Q4) had 60 % lower odds overall, 58 % lower odds for daytime, and 43 % lower odds for nighttime activity, compared with those with lowest physical activity (Q1). The association between higher physical activity and lower MAFLD risk was generally observed across sex, age, and income subgroups. In contrast, no significant association between physical activity and MAFLD risk was observed in the 2011–2014 cycle."
+    },
+    {
+      "html": "<strong>Conclusion:</strong> Our results suggest that higher levels of physical activity, especially during the daytime, may protect against MAFLD in adolescents. Our findings offer partial evidence for the role of circadian activity patterns in MAFLD risk and underscore the need for future studies to validate these associations."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Metabolic Dysfunction-Associated Fatty Liver Disease (MAFLD), formerly referred to as non-alcoholic fatty liver disease (NAFLD), is a chronic liver disease closely associated with metabolic dysfunction and its global incidence is on the rise [1,2]. The global prevalence of pediatric MAFLD is estimated at 7.4 %, reaching 8.53 % in Asia, and continues to rise annually [3]. This growing burden is especially concerning, as studies have indicated that pediatric MAFLD or NAFLD may progress more aggressively than in adults [4,5], with evidence pointing to greater severity of liver fibrosis and disease progression in younger patients [6,7]. While the incidence of chronic liver disease in children is low [8], it tends to progress rapidly when it occurs, often resulting in liver fibrosis and cirrhosis [9]. Pharmacological intervention in children is controversial, and lifestyle changes and adjustments remain the primary treatment for pediatric MAFLD [10]. In most patients, a weight loss of 7 %–10 % is described as reversing MAFLD [10,11]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Adolescence is widely recognized as a transitional period from childhood to adulthood, marked by a second pubertal growth spurt, and is a critical phase for shaping future health and well-being [12]. In recent years, lifestyle patterns across all age groups have shifted markedly, with adolescents particularly affected [13]. Compared with previous generations, contemporary youth engage in lower levels of physical activity and spend more time in sedentary behaviors such as screen-based entertainment [14,15]. Limited physical activity or frequent complete lack of physical activity can result in various health issues, including postural problems [16,17], physical conditions [18], overweight and obesity [19], circulatory problems [20,21], and even premature death [22]. To date, no study has used wearable devices to objectively measure physical activity in pediatric populations and examine its association with MAFLD. In NHANES, interview data for children under 16 years are typically provided by proxy respondents, which can lead to incomplete or imprecise reporting. Additionally, children often engage in sporadic physical activity outside the home, making it difficult for proxies to accurately recall and quantify their behavior. To address these limitations, this study utilizes wearable devices to objectively measure adolescents’ physical activity and examines the association between activity intensity, timing (daytime vs. nighttime), and MAFLD in this population."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Study population",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This study utilized data from the NHANES, a nationally representative program designed to assess the health and nutritional status of children and adults in the United States (available on <a href=\"https://wwwn.cdc.gov/nchs/nhanes/\">https://wwwn.cdc.gov/nchs/nhanes/</a>). The survey was approved by the Research Ethics Review Committee of the National Center for Health Statistics, and all participants provided informed consent."
+        },
+        {
+          "type": "paragraph",
+          "html": "We included participants from two NHANES cycles (2003–2006 and 2011–2014), during which wearable accelerometers were used to objectively measure physical activity. The inclusion criteria for the final participant selection were as follows: (1) adolescent aged between 12 and 19 years old; (2) exclusion of those with missing values for MAFLD and physical activity. A total of 3666 participants were included from the 2003–2006 period, and 2039 participants were included from the 2011–2014 period. The flow of participants is illustrated in Fig. 1.Fig. 1Flow diagram of data collection and participant selection.Fig 1Adolescents aged 12–19 from NHANES 2003–2006 and 2011–2014 were included. Physical activity was measured by accelerometers, and MAFLD was defined based on hepatic steatosis with metabolic risk factors. After exclusions, the final samples were 3666 (829 MAFLD) in 2003–2006 and 2039 (448MAFLD) in 2011–2014."
+        }
+      ]
+    },
+    {
+      "title": "Wearable device–measured physical activity",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The physical activity monitor was added to the NHANES database in 2003, with the main objective of collecting objective information on physical activity. In the NHANES database from 2003 to 2006, physical activity was monitored using the ActiGraph AM-7164, a device manufactured by ActiGraph. This monitor records vertical accelerations as “counts”, which represent the relative intensity of each movement. Participants were instructed to wear the monitor over their right hip during waking hours and to remove it only for activities such as swimming or bathing. The data were collected in 1-minute epochs over a period of 7 days."
+        },
+        {
+          "type": "paragraph",
+          "html": "From 2011 to 2014, physical activity was assessed using the ActiGraph GT3X+ accelerometer, which was manufactured by ActiGraph in Pensacola, Florida. Participants were instructed to wear the device on their non-dominant wrist and were advised not to tamper with it, except for wearing it as directed. The device measured acceleration on three axes (x, y, and z) at a sampling rate of 80. For this study, we utilized the summary datasets produced and released by NHANES, which included individual-level data summarized in monitor-independent movement summary units (MIMS-units) by minute, hour, and day."
+        }
+      ]
+    },
+    {
+      "title": "Demographic and clinical characteristics",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Basic demographic characteristics include age, sex, race (non-Hispanic White, non-Hispanic Black, Mexican American, or other), ratio of family income to poverty (PIR), body mass index (BMI), alanine aminotransferase (ALT), and aspartate aminotransferase (AST), systolic blood pressure (SBP), diastolic blood pressure (DBP), obesity, and diabetes. PIR is used to categorize household income levels into low (PIR&lt;1.3), middle (PIR: 1.3–3.5), and high (PIR&gt;3.5). ALT and AST are included in biochemical analysis. SBP and DBP are the average of three measurements. Excess adiposity is diagnosed using BMI and waist circumference. Adolescent diabetes is determined based on self-reported questionnaire data combined with blood glucose concentration and glycated hemoglobin (HbA1c) levels."
+        }
+      ]
+    },
+    {
+      "title": "MAFLD diagnosis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In accordance with the International Expert Consensus on Pediatric MAFLD, the diagnostic criteria for MAFLD are based on hepatic fat accumulation (steatosis), as well as one of the following three criteria: excess adiposity, presence of type 2 diabetes (T2DM), or evidence of metabolic dysfunction [23]."
+        },
+        {
+          "type": "paragraph",
+          "html": "For hepatic fat accumulation, we used the Hepatic Steatosis Index (HSI) [24] to define hepatic steatosis: HSI = ALT/AST + BMI + 2 (if diabetic) + 2 (if female). A score greater than 36 is associated with the presence of hepatic steatosis."
+        },
+        {
+          "type": "paragraph",
+          "html": "Childhood excess adiposity was classified into overweight and obesity and abdominal obesity. Overweight and obesity were defined according to the WHO Child Growth Standards: for children under 5 years of age, a BMI greater than 2 standard deviations above the mean; and for those aged 5 to 15 years, a BMI greater than 1 standard deviation above the mean. Abdominal obesity was defined as a waist circumference greater than the 90th percentile for age and sex."
+        },
+        {
+          "type": "paragraph",
+          "html": "Childhood diabetes was defined by any of the following: a self-reported diagnosis by a physician, a fasting blood glucose level equal to or greater than 126 mg/dL, or a HbA1c level of 6.5 % or higher."
+        },
+        {
+          "type": "paragraph",
+          "html": "Metabolic dysfunction is defined as the presence of at least two or more metabolic risks out of the following seven items, according to gender and age percentiles. For children aged 2 to 9 years, the presence of any two or more of the following metabolic abnormalities qualified as metabolic dysfunction: serum triglyceride concentration above the 90th percentile, serum HDL cholesterol at or below the 10th percentile, systolic or diastolic blood pressure above the 90th percentile, or a triglyceride-to-HDL cholesterol ratio greater than 2.25. For children aged 10 to 15 years, the criteria included systolic blood pressure greater than 130 mmHg or diastolic pressure greater than 85 mmHg, serum triglycerides greater than 1.5 g/L, HDL cholesterol &lt;0.4 g/L, or a triglyceride-to-HDL ratio greater than 2.25. For individuals aged 16 years and older, the same diagnostic criteria used for adults were applied."
+        }
+      ]
+    },
+    {
+      "title": "Statistical analysis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Due to differences in the measurement devices used during the two time periods, data from 2003 to 2006 and 2011–2014 were processed separately. For descriptive and comparative analyses, categorical variables were summarized as counts and percentages, while continuous variables were reported as means with standard deviations (SD). Differences between MAFLD and non-MAFLD groups were assessed using the chi-square test for categorical variables and the Wilcoxon rank-sum test for continuous variables."
+        },
+        {
+          "type": "paragraph",
+          "html": "To assess the relationship between physical activity and MAFLD, we first summarized the daily device-measured intensity values and categorized participants into quartiles (Q1–Q4), representing increasing levels of physical activity. Physical activity was further divided into daytime (7:00 AM–7:00 PM) and nighttime (7:00 PM–6:00 AM the following day) periods. Weighted multivariable logistic regression models were used to evaluate the association between physical activity and MAFLD. Two models were applied to assess the robustness of the association: Model 1 was unadjusted to show the crude relationship, while Model 2 was adjusted for potential confounders (age, sex, race, and PIR) to account for demographic and socioeconomic influences on both physical activity and MAFLD risk. Tests for linear trends across quartiles were performed in Model 3."
+        },
+        {
+          "type": "paragraph",
+          "html": "To examine the consistency of associations, subgroup analyses were conducted to further explore these associations, stratified by sex (male and female), age group (12–15 and 16–19 years old), PIR (≤1.3, 1.3–3.5, &gt;3.5), and race/ethnicity (non-Hispanic White, non-Hispanic Black, Mexican American). All our data analyses were conducted using R version 4.3.3. Descriptive analyses were performed with “gtsummary” R package. A two-sided <em>P</em> &lt;0.05 was considered statistically significant."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Baseline characteristics of participants",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "After excluding participants with missing data on physical activity or MAFLD status, 5705 adolescents aged 12–19 years were included in the final analysis, comprising 3666 from the 2003–2006 cycle and 2039 from the 2011–2014 cycle. Their characteristics is shown in Table 1. The prevalence of MAFLD was 22.6 % and 20.0 % in the two cycles, respectively. The median age was 15 years in both cycles, and the sex distribution was balanced (51 % males, 49 % females). MAFLD prevalence was higher among females (58 % vs. 42 % in 2003–2006; 55 % vs. 45 % in 2011–2014). Across both cycles, MAFLD was positively associated with higher BMI, ALT, SBP, and obesity status (<em>P</em> &lt; 0.001). A significant difference of MAFLD rate in difference physical activity quartiles was observed in 2003–2006, whereas no significant difference was found in 2011–2014."
+        }
+      ]
+    },
+    {
+      "title": "Physical activity associated with lower mafld risk",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "To examine the association between total physical activity and MAFLD, we conducted logistic regression analyses with different sets of covariates in two survey cycles, respectively. As shown in Table 2, in 2003–2006, higher total physical activity was strongly and consistently associated with lower odds of MAFLD across all models. In the fully adjusted model, Q3 and Q4 participants had 46 % and 60 % lower odds, respectively, compared with Q1. Both daytime and nighttime activity in Q4 were significantly protective, with daytime activity showing a slightly stronger association. In 2011–2014, the inverse association was weaker and not statistically significant after full adjustment."
+        },
+        {
+          "type": "paragraph",
+          "html": "Next, we investigated the impact of physical activity timing on MAFLD. Fig. 2A shows that physical activity was concentrated between 7:00 AM and 10:00 PM in both cycles, with non-MAFLD participants consistently exhibiting higher hourly activity levels, particularly during the day. Nighttime activity levels were generally higher in 2011–2014 compared to 2003–2006, indicating a shift in patterns over time. Fig. 2B shows that in 2003–2006, the prevalence of MAFLD decreased steadily with increasing activity levels for overall, daytime, and nighttime activity. However, for 2011–2014 cycle, the trend was less apparent.Fig. 2Distribution of physical activity by MAFLD status and time period.Fig 2(A) Hourly distribution of accelerometer-measured physical activity among adolescents with and without MAFLD during 2003–2006 (ActiGraph AM-7164; activity counts) and 2011–2014 (ActiGraph GT3X+; MIMS-units) survey cycle. Violin plots show activity levels by hour, with daytime (7:00–19:00) and nighttime (20:00–6:00) periods shaded. Values above the 99th percentile were excluded. (B) Proportion of adolescents with MAFLD across quartiles of overall, daytime, and nighttime physical activity levels, stratified by survey cycle."
+        },
+        {
+          "type": "paragraph",
+          "html": "We then divided physical activity into daytime (7:00 AM–7:00 PM) and nighttime (7:00 PM–6:00 AM) periods and conducted stratified logistic regression analyses (Table 2). In the 2003–2006 cycle, both daytime and nighttime activity in the highest quartile (Q4) were significantly associated with lower odds of MAFLD, with daytime activity showing a stronger effect. In contrast, during the 2011–2014 cycle, we found no significant association between psychical activity with MAFLD in adolescents. To ensure the robustness of our findings regarding the definition of daytime and nighttime activity, we conducted a sensitivity analysis using alternative time thresholds for day/night classification. Across all definitions, the associations between higher physical activity and lower MAFLD risk remained consistent. Detailed results are provided in Supplementary Table S1 and Supplementary Figure S1."
+        }
+      ]
+    },
+    {
+      "title": "Subgroup analysis of the 2003–2006 cycle",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "To investigate potential subgroup differences in the association between physical activity and MAFLD, we conducted logistic regression analyses stratified by sex, age, family income, and race in 2003–2006 survey cycle (Table 3)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Females exhibited a stronger inverse relationship between physical activity and MAFLD risk than males, particularly for daytime activity (Q4 vs. Q1: female OR = 0.31, male OR = 0.51). Adolescents aged 16–19 years (nighttime Q4 vs. Q1: OR = 0.52) showed a more pronounced benefit from high-intensity nighttime activity compared to those aged 12–15 years (nighttime Q4 vs. Q1: OR = 0.68). Race-stratified analyses indicated that non-Hispanic White engaging in higher-intensity activity had lower odds of MAFLD (overall Q4 vs. Q1: OR = 0.36) than that of Mexican American (overall Q4 vs. Q1: OR = 0.55) and Non-Hispanic Black (overall Q4 vs. Q1: OR = 0.53)."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In this cross-sectional study based on NHANES data, we found that higher physical activity levels (particularly during the daytime) were significantly associated with a lower risk of MAFLD in adolescents. Although most existing evidence comes from adult populations, our findings are consistent with prior studies. For instance, a large cohort study using UK Biobank data showed that accelerometer-measured MVPA was inversely associated with incident NAFLD in adults [25]. A Korean population-based study showed that achieving the WHO-recommended volume of moderate-to-vigorous physical activity (≥150 min/week) was associated with a 14 % lower risk of NAFLD [26]. Given the consensus on the important role of circadian rhythm in physiology and disease, daytime patterns of physical activity appear relevant for health outcomes. For example, Zhang et al. reported that individuals with an early-morning physical activity pattern had higher all-cause and cardiovascular mortality compared with those active at midday, particularly when combined with irregular sleep patterns [27]. We considered that physical activity during different time periods may have an impact on the risk of MAFLD in adolescents, so we monitored the characteristics of hourly physical activity in the population and artificially divided the time into daytime and nighttime based on the circadian rhythm. The final study showed that compared to high-intensity physical activity at night, daytime reduces the risk of MAFLD in adolescents more likely. However, this association was only observed in the 2003–2006 data and not in the 2011–2014 data. A possible reason may be the physical activity monitor used in 2003–2006 was a uniaxial device worn on the right hip, whereas the monitor used in 2011–2014 was worn on the wrist and measured acceleration in three mutually perpendicular directions (x, y, and z axes). This allows it to capture movements in any direction in space, which is the most fundamental reason why the two datasets are not directly comparable. Additionally, there were differences in the lifestyle patterns of U.S. adolescents between 2003–2006 and 2011–2014. The proportion of people across all age groups in the United States using computers during leisure time increased significantly [28]. For example, the percentage of adolescents using a computer for one hour or more per day rose from 52.6 % in 2003 to 64.1 % in 2014 [28]. From 2007 to 2016, self-reported sedentary time among adolescents increased from 7.0 h per day to 8.2 h [28] and prolonged sedentary time is associated with an increased risk of obesity [29]."
+        },
+        {
+          "type": "paragraph",
+          "html": "In our subgroup analysis, regardless of which group, the risk of MAFLD was lower during the day for the same intensity of physical activity. And we did not observe any association between nighttime physical activity and MAFLD in the data from 2011 to 2014. The reasons for the difference in the risk of illness between day and night may be because our nighttime includes physical activities and sleep during the night. A study has shown that nighttime physical activity in adolescents can cause circadian rhythm disorders [30]. Reutrakul et al. found that circadian rhythm disorders are associated with impaired cardiometabolic function as well as increased risks of obesity, diabetes, and cardiovascular diseases [31]. The mechanisms behind these associations may still need more research to explore. What can be clearly stated is that physical activity during the day can significantly reduce the risk of MAFLD in adolescents."
+        },
+        {
+          "type": "paragraph",
+          "html": "Our study indicates that white women who engage in high-intensity physical activity have the lowest risk of developing MAFLD, which may be attributed to the role of estrogen in enabling more efficient utilization of fat as fuel during high-intensity exercise [32,33]. Additionally, genetic differences in muscle fiber composition and muscular metabolic efficiency may exist among different racial groups. These differences could influence individual metabolic responses to high-intensity exercise, leading to varying effectiveness in reducing MAFLD risk [34]. Furthermore, white populations may enjoy more favorable socioeconomic status, providing them with greater capacity and opportunities to maintain a healthy lifestyle that includes high-intensity exercise over the long term [35]."
+        },
+        {
+          "type": "paragraph",
+          "html": "However, current research has some limitations. Firstly, due to the cross-sectional design used in this study, the observed connections do not necessarily indicate a causal relationship. Additionally, factors such as weather conditions or seasonal variations may lead to differences in adolescents&#x27; physical activity levels, which we were unable to capture in our data. Secondly, we used indirect methods (HSI assessment tools) rather than imaging studies or pathological evaluations to determine MAFLD. While HSI has been validated as a non-invasive screening, it remains less precise than imaging or biopsy. Thirdly, there is no direct evidence that MIMS units can be converted into standardized measures of moderate-to-vigorous physical activity, and results may vary when using different accelerometer devices. Finally, the physical activity monitor used in 2003–2006 was a uniaxial accelerometer that measured only vertical acceleration. As a result, any activities not primarily generating motion in the vertical direction were likely underestimated. However, it accurately captured walking, running, and daily activities for most people, the conclusions of this study remain valid despite this limitation."
+        }
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In this large national cross-sectional study, we demonstrated a potential protective association between physical activity measured by accelerometer and adolescent MAFLD, with stronger physical activity leading to a lower risk of MAFLD in adolescents. The association was more evident for daytime physical activity.Table 1Characteristics of participants in the NHANES 2003–2006 and 2013–2014 cycles, stratified by physical activity (Q1-Q4).Table 1Characteristics2003–2006 (<em>N</em> = 3666)2013–2014 (<em>N</em> = 2039)Overall (<em>N</em> = 3666)Non-MAFLD (<em>N</em> = 2837)MAFLD (<em>N</em> = 829)<em>P</em>Overall (<em>N</em> = 2039)Non-MAFLD (<em>N</em> = 1591)MAFLD (<em>N</em> = 448)<em>P</em>Age, years15.5 (2.3)15.3 (2.3)16.2 (2.2)&lt; 0.00115.4 (2.3)15.2 (2.2)16.0 (2.2)&lt; 0.001BMI, kg/m24.1 (6.1)21.5 (3.1)33.1 (5.7)&lt; 0.00124.1 (6.3)21.5 (3.3)33.3 (5.7)&lt; 0.001ALT, U/L20.0 (16.0)17.7 (11.8)27.9 (23.9)&lt; 0.00119.1 (13.1)17.0 (8.5)26.6 (21.2)&lt; 0.001AST, U/L24.5 (11.8)24.4 (11.8)24.8 (11.8)0.02723.6 (11.1)23.4 (11.2)24.1 (10.5)0.200SBP, mmHg110.3 (10.4)109.0 (10.0)114.9 (10.4)&lt; 0.001109.0 (9.9)107.8 (9.5)113.0 (10.2)&lt; 0.001DBP, mmHg59.4 (11.6)59.4 (11.4)59.6 (12.2)0.50058.3 (13.2)57.7 (13.0)60.3 (13.5)&lt; 0.001Sex&lt; 0.0010.006 Male1875 (51.1)1529 (53.8)346 (42.1)1036 (50.8)834 (52.4)202 (45.1) Female1791 (48.9)1315 (46.2)476 (57.9)1003 (49.2)757 (47.6)246 (54.9)Race0.0270.029 Mexican American1181 (32.2)892 (31.4)289 (35.2)429 (21.0)320 (20.1)109 (24.3) Non-Hispanic White963 (26.3)777 (27.3)186 (22.6)499 (24.5)392 (24.6)107 (23.9) Non-Hispanic Black1260 (34.4)967 (34.0)293 (35.6)533 (26.1)406 (25.5)127 (28.3) Other262 (7.1)208 (7.3)54 (6.6)578 (28.3)473 (29.7)105 (23.4)Family income&lt; 0.001&lt; 0.001 Low1461 (39.9)1098 (38.6)363 (44.2)846 (41.5)631 (39.7)215 (48.0) Medium1290 (35.2)997 (35.1)293 (35.6)644 (31.6)500 (31.4)144 (32.1) High915 (25.0)749 (26.3)166 (20.2)549 (26.9)460 (28.9)89 (19.9)Diabetes0.021 No3652 (99.6)2837 (99.8)815 (99.1)2029 (99.5)1586 (99.7)443 (98.9)0.047 Yes14 (0.4)7 (0.2)7 (0.9)10 (0.5)5 (0.3)5 (1.1)Obesity&lt; 0.001&lt; 0.001 No1632 (44.2)1631 (57.0)1 (0.01)933 (45.2)933 (58.1)0 (0.0) Yes2034 (55.8)1213 (43.0)821 (99.9)1106 (54.8)658 (41.9)448 (100.0)Physical activity&lt; 0.0010.400 Q1917 (25.0)635 (22.3)282 (34.3)510 (25.0)395 (24.8)115 (25.7) Q2916 (25.0)679 (23.9)237 (28.8)509 (25.0)394 (24.8)115 (25.7) Q3916 (25.0)735 (25.8)181 (22.0)510 (25.0)390 (24.5)120 (26.8) Q4917 (25.0)795 (28.0)122 (14.8)510 (25.0)412 (25.9)98 (21.9)Note: Categorical variables are presented as N ( %), and continuous variables are presented as mean (SD). P values indicate differences between MAFLD and non-MAFLD groups.Table 2Association between physical activity and MAFLD.Table 2Physical activity2003–20062011–2014OverallDay-time (7 AM to 7 PM)Night-time (8 PM to 6 AM)OverallDay-time (7 AM to 7 PM)Night-time (8 PM to 6 AM)OR (95 %CI)<em>P</em>OR (95 %CI)<em>P</em>OR (95 %CI)<em>P</em>OR (95 %CI)<em>P</em>OR (95 %CI)<em>P</em>OR (95 %CI)<em>P</em>Model 1 Q1RefRefRefRefRefRef Q20.95 (0.74, 1.23)0.7071.04 (0.77, 1.40)0.8170.67 (0.52, 0.87)0.0050.89 (0.57, 1.39)0.6040.70 (0.46, 1.06)0.0991.12 (0.70, 1.80)0.637 Q30.53 (0.38, 0.75)0.0010.62 (0.46, 0.82)0.0030.64 (0.46, 0.88)0.0100.80 (0.49, 1.31)0.3820.75 (0.49, 1.13)0.1791.15 (0.75, 1.77)0.520 Q40.34 (0.26, 0.45)&lt; 0.0010.36 (0.26, 0.48)&lt; 0.0010.58 (0.46, 0.73)&lt; 0.0010.60 (0.39, 0.95)0.0370.53 (0.33, 0.85)0.0131.18 (0.76, 1.84)0.465 Trend0.70 (0.64, 0.76)&lt; 0.0010.72 (0.66, 0.78)&lt; 0.0010.84 (0.77, 0.90)&lt; 0.0010.85 (0.74,0.98)0.0380.83 (0.72,0.96)0.0181.05 (0.92, 1.21)0.466Model2 Q1RefRefRefRefRefRef Q21.01 (0.78, 1.30)0.9511.08 (0.80, 1.46)0.5990.67 (0.52, 0.86)&lt; 0.0010.90 (0.57, 1.42)0.6540.71 (0.47, 1.08)0.1201.11 (0.68, 1.82)0.671 Q30.59 (0.42, 0.83)&lt; 0.0010.69 (0.51, 0.92)0.020.66 (0.47, 0.91)0.0180.89 (0.54, 1.48)0.6650.86 (0.56, 1.33)0.4991.10 (0.72, 1.70)0.664 Q40.41 (0.31, 0.55)&lt; 0.0010.44 (0.31, 0.61)&lt; 0.0010.58 (0.45, 0.75)&lt; 0.0010.68 (0.43, 1.08)0.1150.66 (0.41, 1.07)0.1061.02 (0.64, 1.61)0.937 Trend0.74 (0.68, 0.82)&lt; 0.0010.77 (0.70, 0.85)&lt; 0.0010.84 (0.77, 0.92)0.0000.89 (0.77, 1.04)0.1460.90 (0.77, 1.04)0.1691.01 (0.87, 1.16)0.941Model3 Q1RefRefRefRefRefRef Q20.98 (0.76, 1.26)0.8721.07 (0.81, 1.42)0.6470.67 (0.52, 0.88)0.0090.86 (0.54, 1.37)0.5210.66 (0.43, 1.02)0.0731.17 (0.69, 1.97)0.560 Q30.54 (0.39, 0.74)&lt; 0.0010.62 (0.48, 0.81)0.0020.62 (0.45, 0.87)0.0120.87 (0.51, 1.47)0.6030.82 (0.52, 1.28)0.3871.16 (0.76, 1.76)0.503 Q40.40 (0.30, 0.53)&lt; 0.0010.42 (0.30, 0.60)&lt; 0.0010.57 (0.44, 0.75)&lt; 0.0010.65 (0.41, 1.03)0.0800.63 (0.38, 1.05)0.0890.97 (0.63, 1.50)0.895 Trend0.73 (0.67, 0.80)&lt; 0.0010.75 (0.69, 0.82)&lt; 0.0010.83 (0.76, 0.91)&lt; 0.0010.88 (0.76, 1.03)0.1170.89 (0.76, 1.04)0.1470.99 (0.87, 1.14)0.914Note: Model 1 shows unadjusted estimates. Model 2 adjusted for age and sex. Model 3 further adjusted for race and family income.Table 3Subgroup analysis of the association between physical activity and MAFLD (03–06 cycle).Table 3Physical activitySexAgePIRRaceMaleFemale12–15 years16–19 yearsLowMediumHighMexican AmericanNon-Hispanic WhiteNon-Hispanic BlackOverall Q1RefRefRefRefRefRefRefRefRefRef Q20.99 (0.58, 1.69)0.97 (0.71, 1.31)1.35 (0.90, 2.03)0.80 (0.53, 1.22)0.65 (0.45, 0.94)1.03 (0.61, 1.71)1.44 (0.87, 2.37)0.85 (0.58, 1.25)1.05 (0.70, 1.57)0.70 (0.48, 1.01) Q30.54 (0.32, 0.92)0.55 (0.39, 0.76)0.67 (0.44, 1.01)0.47 (0.30, 0.75)0.50 (0.32, 0.78)0.60 (0.33, 1.10)0.52 (0.26, 1.01)0.70 (0.47, 1.04)0.54 (0.33, 0.88)0.59 (0.41, 0.87) Q40.46 (0.30, 0.69)0.32 (0.19, 0.53)0.38 (0.25, 0.58)0.48 (0.31, 0.73)0.37 (0.21, 0.65)0.45 (0.28, 0.74)0.37 (0.17, 0.81)0.55 (0.35, 0.85)0.36 (0.21, 0.64)0.53 (0.35, 0.80)Day-time Q1RefRefRefRefRefRefRefRefRefRef Q21.12 (0.74, 1.68)1.06 (0.71, 1.58)1.69 (1.13, 2.55)0.81 (0.56, 1.16)0.56 (0.41, 0.77)1.36 (0.81, 2.29)1.57 (0.94, 2.62)0.71 (0.48, 1.04)1.15 (0.77, 1.73)0.68 (0.47, 0.98) Q30.66 (0.43, 1.01)0.59 (0.42, 0.83)0.76 (0.54, 1.06)0.56 (0.37, 0.84)0.59 (0.38, 0.90)0.59 (0.35, 0.97)0.70 (0.40, 1.23)0.75 (0.50, 1.11)0.62 (0.39, 0.99)0.59 (0.41, 0.87) Q40.51 (0.34, 0.75)0.31 (0.16, 0.63)0.40 (0.23, 0.69)0.53 (0.33, 0.85)0.33 (0.17, 0.63)0.55 (0.32, 0.93)0.40 (0.20, 0.81)0.56 (0.36, 0.87)0.36 (0.20, 0.64)0.53 (0.34, 0.82)Night-time Q1RefRefRefRefRefRefRefRefRefRef Q20.83 (0.54, 1.27)0.59 (0.37, 0.94)0.79 (0.49, 1.25)0.62 (0.45, 0.84)0.78 (0.53, 1.16)0.83 (0.49, 1.40)0.47 (0.26, 0.86)0.93 (0.65, 1.33)0.75 (0.49, 1.16)0.70 (0.46, 1.06) Q30.66 (0.36, 1.22)0.60 (0.44, 0.81)0.88 (0.53, 1.44)0.47 (0.31, 0.71)0.76 (0.47, 1.24)0.69 (0.38, 1.27)0.39 (0.19, 0.80)0.76 (0.51, 1.12)0.69 (0.44, 1.09)0.57 (0.38, 0.85) Q40.63 (0.38, 1.04)0.54 (0.36, 0.81)0.68 (0.43, 1.06)0.52 (0.36, 0.74)0.53 (0.34, 0.84)0.65 (0.40, 1.06)0.55 (0.27, 1.13)0.64 (0.41, 0.98)0.60 (0.37, 0.97)0.62 (0.42, 0.91)Note: covariates included age, sex, race, and family income, except for the variable used for stratification in subgroup analysis."
+        }
+      ]
+    },
+    {
+      "title": "Data availability",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The data used in this study are publicly available at the NHANES database. Analysis code is available at: <a href=\"https://zhanghaoyang.net/project/mafld_pa/\">https://zhanghaoyang.net/project/mafld_pa/</a>."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Ruli Wang:</strong> Writing – original draft, Formal analysis, Data curation, Conceptualization. <strong>Congwei You:</strong> Formal analysis, Data curation. <strong>Zijuan Dong:</strong> Formal analysis, Data curation. <strong>Qingqing Zheng:</strong> Writing – review &amp; editing. <strong>Xiaowei Zheng:</strong> Methodology. <strong>Liangbin Zhou:</strong> Writing – review &amp; editing. <strong>Xiaolei Wang:</strong> Supervision. <strong>Le Zhang:</strong> Supervision, Funding acquisition. <strong>Haoyang Zhang:</strong> Writing – original draft, Supervision, Data curation."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We wish to confirm that there are no known conflicts of interest associated with this publication and there has been no significant financial support for this work that could have influenced its outcome"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "ByrneC.D.TargherG.NAFLD: a multisystem diseaseJ Hepatol621 Suppl2015S47S642592009010.1016/j.jhep.2014.12.012"
+    },
+    {
+      "html": "YounossiZ.AnsteeQ.M.MariettiM.HardyT.HenryL.EslamM.GeorgeJ.BugianesiE.Global burden of NAFLD and NASH: trends, predictions, risk factors and preventionNat Rev Gastroenterol Hepatol151201811202893029510.1038/nrgastro.2017.109"
+    },
+    {
+      "html": "RuanS.HuangL.SongJ.YiZ.SunW.ZhouF.FengC.DuG.XieJ.LuY.Global burden trends and forecasts for MAFLD in adolescents and young adults from 1990 to 2021Sci Rep15120251353410.1038/s41598-025-98489-9PMC1200936640253566"
+    },
+    {
+      "html": "CorteC.D.FerrariF.VillaniA.NobiliV.Epidemiology and natural history of NAFLDJ Med Biochem341201513172835681810.2478/jomb-2014-0049PMC4922331"
+    },
+    {
+      "html": "ZouZ.Y.ZengJ.RenT.Y.HuangL.J.WangM.Y.ShiY.W.YangR.X.ZhangQ.R.FanJ.G.The burden and sexual dimorphism with nonalcoholic fatty liver disease in Asian children: a systematic review and meta-analysisLiver Int4292022196919803461902610.1111/liv.15080"
+    },
+    {
+      "html": "NobiliV.AlisiA.NewtonK.P.Schwimmer JB: comparison of the phenotype and approach to pediatric vs adult patients with nonalcoholic fatty liver diseaseGastroenterology15082016179818102700360010.1053/j.gastro.2016.03.009PMC4887388"
+    },
+    {
+      "html": "SchwimmerJ.B.BehlingC.NewburyR.DeutschR.NievergeltC.SchorkN.J.LavineJ.E.Histopathology of pediatric nonalcoholic fatty liver diseaseHepatology42320056416491611662910.1002/hep.20842"
+    },
+    {
+      "html": "YangF.HuM.XuL.ZhengX.ZhuL.ZhangL.ZhangH.Potential alternative and novel biomarkers for paediatric MAFLD: exploratory evidence from a Chinese cohortBMC Gastroenterol2512025283984408610.1186/s12876-025-03619-2PMC11752933"
+    },
+    {
+      "html": "DholeS.D.KherA.S.GhildiyalR.G.TambseM.P.Chronic liver diseases in children: clinical profile and histologyJ Clin Diagn Res972015Sc04Sc0710.7860/JCDR/2015/13383.6250PMC457301126393179"
+    },
+    {
+      "html": "KeatingS.E.ChawlaY.DeA.GeorgeE.S.Lifestyle intervention for metabolic dysfunction-associated fatty liver disease: a 24-h integrated behavior perspectiveHepatol Int18Suppl 220249599763871769110.1007/s12072-024-10663-9PMC11450077"
+    },
+    {
+      "html": "RupasingheK.HindJ.HegartyR.Updates in metabolic dysfunction-associated fatty liver disease (MAFLD) in childrenJ Pediatr Gastroenterol Nutr77520235835913759239810.1097/MPG.0000000000003919"
+    },
+    {
+      "html": "National Academies of Sciences E, Medicine, Health, Medicine D, Division of B, Social S, Education, Board on Children Y, Families, Committee on the NBackesE.P.BonnieRJ.<em>The promise of adolescence: realizing opportunity for all youth</em> edited by2019National Academies Press (US) Copyright 2019 by the National Academy of SciencesWashington (DC)All rights reserved31449373"
+    },
+    {
+      "html": "MastorciF.LazzeriM.F.L.VassalleC.PingitoreA.The transition from childhood to adolescence: between health and vulnerabilityChildren (Basel)118202410.3390/children11080989PMC1135251139201923"
+    },
+    {
+      "html": "HiddingL.M.AltenburgT.M.van EkrisE.ChinapawM.J.M.Why do children engage in sedentary behavior? Child- and parent-perceived determinantsInt J Environ Res Public Health147201710.3390/ijerph14070671PMC555110928640232"
+    },
+    {
+      "html": "BabeyS.H.HastertT.A.WolsteinJ.Adolescent sedentary behaviors: correlates differ for television viewing and computer useJ Adolesc Health521201370762326083710.1016/j.jadohealth.2012.05.001PMC3786734"
+    },
+    {
+      "html": "de AssisS.J.C.SanchisG.J.B.de SouzaC.G.RoncalliA.G.Influence of physical activity and postural habits in schoolchildren with scoliosisArch Public Health7912021633392655610.1186/s13690-021-00584-6PMC8086061"
+    },
+    {
+      "html": "BaranowskaA.SierakowskaM.OwczarczukA.OlejnikB.J.LankauA.BaranowskiP.An analysis of the risk factors for postural defects among early school-aged childrenJ Clin Med1214202310.3390/jcm12144621PMC1038038337510735"
+    },
+    {
+      "html": "GesekM.FornalA.D.ZarzyckaD.Promoting health in pediatric obesity: a decade&#x27;s research of physical activity&#x27;s influence on cardiometabolic parametersMed Sci Monit292023e94074210.12659/MSM.940742PMC1054690137771141"
+    },
+    {
+      "html": "HillsA.P.AndersenL.B.ByrneN.M.Physical activity and obesity in childrenBr J Sports Med451120118668702183617110.1136/bjsports-2011-090199"
+    },
+    {
+      "html": "GutholdR.StevensG.A.RileyL.M.BullF.C.Global trends in insufficient physical activity among adolescents: a pooled analysis of 298 population-based surveys with 1·6 million participantsLancet Child Adolesc Health41202023353176156210.1016/S2352-4642(19)30323-2PMC6919336"
+    },
+    {
+      "html": "KamalN.N.RagyM.M.The effects of exercise on C-reactive protein, insulin, leptin and some cardiometabolic risk factors in Egyptian children with or without metabolic syndromeDiabetol Metab Syndr412012272269146510.1186/1758-5996-4-27PMC3536685"
+    },
+    {
+      "html": "EkelundU.TarpJ.Steene-JohannessenJ.HansenB.H.JefferisB.FagerlandM.W.WhincupP.DiazK.M.HookerS.P.ChernofskyA.Dose-response associations between accelerometry measured physical activity and sedentary time and all cause mortality: systematic review and harmonised meta-analysisBmj3662019l45703143469710.1136/bmj.l4570PMC6699591"
+    },
+    {
+      "html": "EslamM.AlkhouriN.VajroP.BaumannU.WeissR.SochaP.MarcusC.LeeW.S.KellyD.PortaG.Defining paediatric metabolic (dysfunction)-associated fatty liver disease: an international expert consensus statementLancet Gastroenterol Hepatol61020218648733436454410.1016/S2468-1253(21)00183-7"
+    },
+    {
+      "html": "LeeJ.H.KimD.KimH.J.LeeC.H.YangJ.I.KimW.KimY.J.YoonJ.H.ChoS.H.SungM.W.Hepatic steatosis index: a simple screening tool reflecting nonalcoholic fatty liver diseaseDig Liver Dis42720105035081976654810.1016/j.dld.2009.08.002"
+    },
+    {
+      "html": "LiuM.YeZ.ZhangY.HeP.ZhouC.YangS.ZhangY.GanX.Qin X: accelerometer-derived moderate-to-vigorous physical activity and incident nonalcoholic fatty liver diseaseBMC Med22120243983928972710.1186/s12916-024-03618-2PMC11409607"
+    },
+    {
+      "html": "ParkY.SinnD.H.KimK.GwakG.Y.Associations of physical activity domains and muscle strength exercise with non-alcoholic fatty liver disease: a nation-wide cohort studySci Rep131202347243695931610.1038/s41598-023-31686-6PMC10036618"
+    },
+    {
+      "html": "ZhangY.KivimäkiM.Carrillo-LarcoR.M.ChengY.ZhouY.WangH.YuanC.XuX.Diurnal patterns of accelerometer-measured physical activity and sleep and risk of all-cause mortality: a follow-up of the National Health and Nutrition Examination Surveys (NHANES)Int J Behav Nutr Phys Act21120241203942516410.1186/s12966-024-01673-9PMC11490014"
+    },
+    {
+      "html": "YangL.CaoC.KantorE.D.NguyenL.H.ZhengX.ParkY.GiovannucciE.L.MatthewsC.E.ColditzG.A.CaoY.Trends in sedentary behavior among the US population, 2001-2016Jama321162019158715973101293410.1001/jama.2019.3636PMC6487546"
+    },
+    {
+      "html": "GortmakerS.L.MustA.SobolA.M.PetersonK.ColditzG.A.DietzW.H.Television viewing as a cause of increasing obesity among children in the United States, 1986-1990Arch Pediatr Adolesc Med15041996356362863472910.1001/archpedi.1996.02170290022003"
+    },
+    {
+      "html": "RichardsonC.CainN.BartelK.MicicG.MaddockB.GradisarM.A randomised controlled trial of bright light therapy and morning activity for adolescents and young adults with delayed sleep-Wake Phase disorderSleep Med4520181141232968041910.1016/j.sleep.2018.02.001"
+    },
+    {
+      "html": "ReutrakulS.KnutsonK.L.Consequences of circadian disruption on cardiometabolic healthSleep Med Clin10420154554682656812210.1016/j.jsmc.2015.07.005PMC4648711"
+    },
+    {
+      "html": "HevenerA.L.CleggD.J.Mauvais-Jarvis F: impaired estrogen receptor action in the pathogenesis of the metabolic syndromeMol Cell Endocrinol418Pt 3(Pt 3)20153063212603324910.1016/j.mce.2015.05.020PMC5965692"
+    },
+    {
+      "html": "RibasV.NguyenM.T.HenstridgeD.C.NguyenA.K.BeavenS.W.WattM.J.HevenerA.L.Impaired oxidative metabolism and inflammation are associated with insulin resistance in ERalpha-deficient miceAm J Physiol Endocrinol Metab29822010E304E3191992021410.1152/ajpendo.00504.2009PMC2822483"
+    },
+    {
+      "html": "SimoneauJ.A.BouchardC.Genetic determinism of fiber type proportion in human skeletal muscleFaseb J911199510911095764940910.1096/fasebj.9.11.7649409"
+    },
+    {
+      "html": "ZhangY.B.ChenC.PanX.F.GuoJ.LiY.FrancoO.H.LiuG.PanA.Associations of healthy lifestyle and socioeconomic status with mortality and incident cardiovascular disease: two prospective cohort studiesBmj3732021n6043385382810.1136/bmj.n604PMC8044922"
+    },
+    {
+      "html": "LiJ.HaA.RuiF.ZouB.YangH.XueQ.HuX.XuY.HenryL.BarakatM.Meta-analysis: global prevalence, trend and forecasting of non-alcoholic fatty liver disease in children and adolescents, 2000-2021Aliment Pharmacol Ther56320223964063573600810.1111/apt.17096"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

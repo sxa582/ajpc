@@ -1,0 +1,973 @@
+{
+  "pmcid": "PMC12731936",
+  "pmid": "41451116",
+  "doi": "10.1016/j.ajpc.2025.101361",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12731936/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Racial and ethnic disparities in the management of risk factors in individuals with atrial fibrillation: A narrative review",
+  "articleType": "Review Article",
+  "published": "2025-11-28",
+  "year": "2025",
+  "volume": "25",
+  "issue": "",
+  "articleNumber": "101361",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2025",
+  "authors": [
+    {
+      "given": "Anthony",
+      "surname": "D’Oro",
+      "display": "Anthony D’Oro"
+    },
+    {
+      "given": "Zoee",
+      "surname": "D’Costa",
+      "display": "Zoee D’Costa"
+    },
+    {
+      "given": "Jasmyn J.",
+      "surname": "Tang",
+      "display": "Jasmyn J. Tang"
+    },
+    {
+      "given": "Stephen",
+      "surname": "Min",
+      "display": "Stephen Min"
+    },
+    {
+      "given": "Larry R.",
+      "surname": "Jackson",
+      "display": "Larry R. Jackson II"
+    },
+    {
+      "given": "Utibe R.",
+      "surname": "Essien",
+      "display": "Utibe R. Essien"
+    }
+  ],
+  "affiliations": [
+    "aUniversity of California, Los Angeles, Department of Medicine, 757 Westwood Plaza, Los Angeles, CA 90095, USA",
+    "bUniversity of California, Los Angeles, Division of General Internal Medicine and Health Services Research, 1100 Glendon Ave, Suite 850, Los Angeles, CA 90024, USA",
+    "cDuke Clinical Research Institute, 300 W Morgan St, Durham, NC 27701, USA",
+    "dCenter for the Study of Healthcare Innovation, Implementation, and Policy at the Greater Los Angeles Veterans Affairs, 11301 Wilshire Blvd, Los Angeles, CA 90049, USA"
+  ],
+  "keywords": [
+    "Atrial fibrillation",
+    "Obesity",
+    "Hypertension",
+    "Diabetes",
+    "Sleep apnea",
+    "Alcohol",
+    "Smoking",
+    "Disparities",
+    "Pharmacoequity"
+  ],
+  "abstract": [
+    {
+      "html": "Atrial fibrillation (AF) is the most prevalent arrhythmia, affecting approximately 10 million individuals in the United States and nearly 60 million people globally. Significant racial and ethnic disparities exist in rates of complications for individuals with AF. Compared to White patients, Black and Hispanic patients are significantly more likely to experience stroke and death. While research has examined pharmacoequity in receipt of stroke-preventing therapies among individuals with AF, limited literature exists examining disparities in risk factor management for AF complications. The American College of Cardiology / American Heart Association Joint Committee on Clinical Practice Guidelines have identified ten risk factors whose effective management reduces the recurrence of AF, symptom burden, and complications. Six cardiometabolic risk factors, selected given the availability of evidence-based therapies to manage them, will be discussed herein including obesity, hypertension, diabetes, obstructive sleep apnea, alcohol consumption, and tobacco use. We seek to highlight the data examining how risk factors contribute to poor outcomes in patients with AF and to summarize the data on racial and ethnic disparities in the management of those risk factors in this patient population. Lastly, we provide a call to action to achieve pharmacoequity in AF risk factor management and improve downstream outcomes."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Atrial fibrillation (AF) is the most prevalent arrhythmia, affecting approximately 10 million individuals in the United States [1] and nearly 60 million people globally [2]. According to estimates from the Framingham Heart Study, age-adjusted prevalence of AF increased from 20.4 to 96.2 cases per 1000 person years between 1958 and 2007 [3]. Moreover, the prevalence of AF is expected to double in the next 25 years [4]. Complications from AF include heart failure, ischemic heart disease, and stroke, and lead to approximately 460,000 hospitalizations, 80,000 deaths [5], and an estimated healthcare cost of $26 billion each year [6]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Whereas prior work has been mixed in reporting variation in incidence of AF by race and ethnicity [7,8], significant disparities exist in rates of adverse outcomes for individuals with AF. Compared to non-Hispanic White (White) patients, non-Hispanic Black (Black) and Hispanic patients with AF are significantly more likely to experience stroke and death[[9], [10], [11]]. Compared to White patients, Black patients with AF experience approximately double the rates of hemorrhagic or ischemic stroke [12]. Black patients with AF also suffer higher rates of heart failure, coronary artery disease, and death [12,13]. Higher rates of stroke have also been observed among Black Medicare beneficiaries [10] and Black enrollees in the Veterans Health Administration (VA) with diagnosed AF [14]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Despite the growing literature describing outcome differences among individuals with AF by race and ethnicity, the determinants of these disparities remain underexplored. Prior work has primarily examined differences in anticoagulation as a driver of disparities, with multiple analyses demonstrating lower receipt of direct oral anticoagulant (DOAC) therapy in particular among minoritized groups[[15], [16], [17]]. Among those who are prescribed oral anticoagulation therapy, Black and Hispanic patients are more likely to be offered warfarin vs. DOACs [16,18,19]. Beyond anticoagulation, minoritized patients are less likely to be offered anti-arrhythmic medications or advanced therapies like catheter ablation aimed at restoring normal sinus rhythm[[20], [21], [22]]. A nationwide U.S. analysis of patients with AF found Black race and Hispanic ethnicity be to significantly associated with 11 and 27 % lower odds of catheter ablation receipt respectively [22]. These disparities are critical as prior work has shown significant improvement in AF-associated outcomes (e.g., stroke, bleeding, cardiac arrest) and mortality in minoritized patients receiving catheter ablation compared with non-minoritized groups [23]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Representation of racial and ethnic minoritized groups in clinical trials of AF management has historically been low. This poor representation is often the result of historical exploitation and healthcare discrimination and, despite greater societal awareness, has not significantly improved over time [24]. In the landmark trials of DOAC medications, Black patients represented only 2 % of the study population while Hispanic patients represented only 3.9 %, far lower than their national representation[[25], [26], [27]]. In the CABANA (Catheter Ablation Versus Antiarrhythmic Drug Therapy for Atrial Fibrillation) trial comparing catheter ablation to anti-arrhythmic medications, Black patients represented only 3.5 % of the study population and minoritized groups in total represented &lt;10 % of the study population [28]. A single-center study of patients who received ablation therapy from 2000–2009 included a patient population that was 93 % White compared to 2 % Black and fewer than 1 % Hispanic or Asian patients each [29]. These data suggest a critical opportunity to advance AF care in diverse populations."
+        },
+        {
+          "type": "paragraph",
+          "html": "Robust literature exists to support the association between AF recurrence and cardiometabolic risk factors including data from the diverse Cohorts for Heart and Aging Research in Genomic Epidemiology (CHARGE-AF) [30]. While the initial detection of AF may be hindered by its paroxysmal nature, varied disease burden, and varied symptom manifestation, all patients with AF should be screened for risk factors and comorbidities whose effective management can greatly alter the disease course and mitigate future complications [31]. The American College of Cariology / American Heart Association Joint Committee on Clinical Practice Guidelines has identified ten risk factors or management strategies whose effective management and utilization has demonstrably reduced recurrence of AF, symptom burden, or reduced complications [31]. Six of the ten cardiometabolic risk factors will be discussed including: obesity, hypertension, diabetes mellitus, obstructive sleep apnea, alcohol consumption, and tobacco use (<strong>Central Illustration)</strong>). We selected these six specific risk factors because of their strong association with daily clinical practice and the evidence-based therapies that exist to manage them, thereby providing clinicians with tangible opportunities to reduce complications of AF."
+        },
+        {
+          "type": "paragraph",
+          "html": "In this Review, we seek to highlight mechanisms by which risk factors contribute to AF incidence and adverse outcomes in patients with AF. Additionally, we seek to summarize the data on racial and ethnic disparities in the incidence and management of risk factors in patients with AF, including an emphasis on how minoritized groups have been underrepresented in AF clinical trials. We also provide a call to action for increased investigation on the determinants of disparities in the incidence and management of risk factors associated with AF. Such research is needed to guide future, targeted, individual- and population-level interventions and advance quality and pharmacoequity of care for AF."
+        }
+      ]
+    },
+    {
+      "title": "AF and obesity",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Obesity is a cardiometabolic syndrome that has steadily grown in prevalence in the U.S. and globally. Since 1970, the prevalence of Americans with a body mass index (BMI) greater than 25 has grown from ∼15 % to 42 % with varying rates by race and ethnicity [32,33]. In a similar period, the prevalence of AF has nearly quadrupled."
+        },
+        {
+          "type": "paragraph",
+          "html": "Several pathophysiologic pathways link obesity with AF (Fig. 2). The increased circulating volume associated with obesity places more demand on the left atrium and left ventricle, leading to myocyte hypertrophy and left atrial enlargement [34]. Patients with AF have been shown to have increased myocardial fibrosis and differential fatty deposition in the myocardium, potentially acting as a substrate for arrhythmia [35]. Epicardial adipose tissue has been shown to have a step-wise relationship with the risk of AF [36,37]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Research examining the relationship between obesity and adverse outcomes in AF have been mixed, suggesting an “obesity paradox.” [38] A post hoc analysis of the Atrial Fibrillation Follow-up Investigation of Rhythm Management (AFFIRM) study found that patients who were overweight (hazard ratio [HR] 0.64; 95 % confidence interval [CI], 0.48–0.84; <em>P</em>=.001) and obese (HR 0.80; 95 % CI, 0.68–0.93; <em>P</em>=.005) had lower all-cause mortality as compared to those with normal weight [39]. The ENGAGE AF‐TIMI 48 (Effective Anticoagulation With Factor Xa Next Generation in Atrial Fibrillation–Thrombolysis in Myocardial Infarction 48) trial showed that overweight and obese patients with AF had lower risk of stroke and systemic embolism compared with normal weight patients [40]. In contrast, a Danish analysis found significantly higher rates of ischemic stroke, thromboembolism, and death in overweight and obese individuals compared to those with normal weight [41]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Despite the apparent obesity paradox, reducing BMI in patients who are obese with AF has been shown to reduce AF recurrence and symptom-burden including in the LEGACY (Long-Term Effect of Goal directed weight management on Atrial Fibrillation Cohort) and SORT-AF (Supervised Obesity Reduction Trial for AF Ablation Patients) studies [42,43]. A study of 150 patients in Australia demonstrated that an active weight-loss intervention and sustained weight loss resulted in reduced self-assessed symptom burden, less time in AF based on electrocardiographic monitoring, reduced left atrial size, and reduced interventricular thickness [44]. Another study demonstrated a step-wise, direct relationship between weight and AF severity, with greater weight loss able to reverse classification of AF from persistent to paroxysmal or no AF with greater success than moderate or no weight loss [45]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Targeted weight loss programs are efficacious in reducing BMI and improving overall health[[46], [47], [48]]. However, this research suggests that minoritized populations may not gain the same degree of weight loss compared to White patients [48]. The Prediabetes Informed Decision and Education (PRIDE) trial showed that Hispanic patients were less likely to achieve weight loss after participation in a behavioral intervention program, citing barriers including inconvenient location of classes, limited time to attend classes, and affordability of adjunct interventions like gym memberships [49,50]. Another study showed that Black women participating in weight loss intervention groups were less likely to achieve the same amount of weight loss as women from different racial and ethnic groups [51]."
+        },
+        {
+          "type": "paragraph",
+          "html": "For individuals in whom behavioral intervention is insufficient at achieving weight loss, pharmacologic therapy is recommended [32,52]. Historical medications to achieve weight loss include orlistat, phentermine, and bupropion, with efficacy rates ranging from 3–8 % of total body weight loss (TBWL); while newer incretin-based therapies like glucagon-like peptide-1 receptor agonist (GLP-1RA) medications have demonstrated efficacy ranging from 10–18 % TBWL [53,54]`."
+        },
+        {
+          "type": "paragraph",
+          "html": "Nonetheless, there are inequities in receipt of novel therapeutics for obesity [16,55]. A 2021 study showed that Black, Hispanic, Asian, and lower-income patients were less likely to be prescribed GLP-1RA medications than White or higher income patients [56]. Another analysis showed 30 % fewer Black individuals were prescribed GLP-1RA therapies from 2013–2019 than White individuals [57]. These findings were corroborated in a VA analysis of over 1.9 million patients which showed that Black and American Indian patients were less likely to be prescribed GLP-1RA therapies than their White counterparts [58]. Moreover, in landmark trials of GLP-1RA therapies evaluating cardiovascular outcomes, racial and ethnic minoritized groups were largely underrepresented [59,60]."
+        },
+        {
+          "type": "paragraph",
+          "html": "The inequitable prescription of these novel weight-loss medications has been directly linked to primary incidence of AF. A 2024 meta-analysis of 10 randomized control trials demonstrated that prescription of GLP-1RA therapies is associated with 42 % lower risk of incident AF [61]. Moreover, GLP-1RAs have been shown to reduce recurrence of AF after catheter ablation [62]. Together, these outcomes data suggest an urgent need to address obesity as a driver of adverse outcomes in AF, yet, data are scarce on how management of obesity may influence downstream AF outcomes including stroke and mortality. Furthermore, how such management may differ by race and ethnicity is to date unknown and warrants further study."
+        }
+      ]
+    },
+    {
+      "title": "AF and hypertension",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Approximately 46 % of U.S. adults carry a diagnosis of hypertension[[63], [64], [65]]. Overall, Asian individuals have a 36–45 % prevalence of hypertension among women and men, respectively, compared to 42–44 % among Hispanic, 41–47 % among White, and 56–59 % among Black individuals. Importantly, 80 % of patients with AF have comorbid hypertension, making it a prime target of risk factor management [66]."
+        },
+        {
+          "type": "paragraph",
+          "html": "There are several mechanisms by which hypertension is thought to contribute to incidence of AF (Fig. 2). Hypertension has been demonstrated to cause left ventricular hypertrophy and left atrial enlargement due to elevated filling pressures in the left ventricle. In the Framingham Heart Study, for each 4 mm increase in thickness of the left ventricular wall, incidence of AF increased by 28 % [67]. Similarly, for each 5 mm increase in left atrial size, prevalence of AF increased by 39 % [67]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Given the high comorbid prevalence of hypertension with AF, control of hypertension is essential to minimizing risk of AF incidence and recurrence. Yet while myriad studies have demonstrated an association between hypertension and AF incidence [[68], [69], [70], [71]], few have linked hypertension directly to adverse AF outcomes. In a post-hoc analysis of the Apixaban for Reduction in Stroke and Other Thromboembolic Events in Atrial Fibrillation (ARISTOTLE) trial, researchers found that an elevated blood pressure measurement at any point during the trial, was associated with a significantly higher rate of stroke or systemic embolism (HR, 1.53; 95 % confidence interval [CI], 1.25–1.86), hemorrhagic stroke (HR 1.85; 95 % CI, 1.26–2.72), and ischemic stroke (HR, 1.50; 95 % CI, 1.18–1.90) [72]. A separate analysis of patients with AF in Korea found that ischemic stroke and systemic embolism occurred in 9.8 % of hypertensive patients, compared with 4.6 % of non-hypertensive patients, with an increased risk observed in the highest quartile of systolic blood pressures [73]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Control of blood pressure is disparate between racial and ethnic subgroups, with correlate consequences for outcomes of stroke, cardiovascular disease, and death. Black patients have been shown to be less likely to achieve blood pressure control than White patients [74]. Control of blood pressure is also worse among Asian and Hispanic patients, with rates of control between 39.9 % and 43.5 %, respectively, compared to 59.1 % for White adults [75]. Hypertension control is often multimodal, including lifestyle interventions such as weight loss, limitation of alcohol consumption, participation in physical activity, and dietary modification [63]. Racial variation in uptake of lifestyle interventions may account for the disparities observed in optimal blood pressure control [76]. The PRIDE Trial demonstrated that Black and Hispanic patients face social barriers to participation in weight loss programs, including cost, geographic availability, and time constraints [49]. The Dietary Approaches to Stop Hypertension (DASH) diet is the cornerstone of dietary recommendations for patients with hypertension, yet racial and ethnic minoritized populations face barriers to adherence including food availability, cost, and cultural familiarity [77,78]. Minoritized populations are more likely to live in food deserts, which are known to be associated with higher systolic blood pressure [79,80]. Finally, Black and Hispanic patients are less likely to participate in physical activity during leisure time, independent of socioeconomic class [81]."
+        },
+        {
+          "type": "paragraph",
+          "html": "When lifestyle interventions are insufficient, pharmacotherapy is used to control blood pressure. Despite worse blood pressure control overall, an analysis of the National Health and Nutrition Examination Survey (NHANES) showed that Black patients had similar awareness of their hypertension diagnosis and were prescribed antihypertensive medication at higher rates than White patients, while Asian and Hispanic patients had less awareness of their diagnosis and treatment [82]. A later NHANES study using data from 2013–2018 corroborated these findings, showing that Black patients were more likely to be prescribed more medications for hypertension but still achieved lower rates of blood pressure control [83]. Among patients with AF, The Aggressive Risk Factor Reduction Study for Atrial Fibrillation (ARREST-AF) demonstrated that patients following catheter ablation were significantly more likely to have arrhythmia-free survival in the cohort undergoing risk factor modification including control of hypertension [84]. A recent randomized clinical trial of this cohort showed that aggressive risk factor management, including achieving a target blood pressure &lt;130/80 mm Hg at least 80 % of the time, reduced 1-year arrhythmia recurrence in patents post catheter ablation[85]. Nonetheless, to date there has been limited study of the role of hypertension management in reducing racial and ethnic disparities in adverse outcomes for patients with AF."
+        }
+      ]
+    },
+    {
+      "title": "AF and diabetes mellitus",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The prevalence of diabetes worldwide has risen from 200 in 1990 to 830 million individuals in 2022, with over 38 million people in the US carrying a diagnosis[86,87]. Racial and ethnic differences in diabetes prevalence exist, with rates ranging from 13.6 % for American Indian or Alaska Native (AI/AN), 12.1 % for Black, 11.7 % for Hispanic, 9.1 % for non-Hispanic Asian (Asian), to 6.9 % in White individuals[87,88]. Patients with diabetes have a 34 % higher risk of developing AF, compared to those without diabetes[89,90]. In a cohort of 293,124 individuals with type II diabetes in the VA, AF occurred in 14.9 % patients[91,92]. In the Framingham Heart Study, this number was reported to be 17.9 %, with the risk of developing AF observed as 3 % higher for each additional year of diabetes duration[90,93]."
+        },
+        {
+          "type": "paragraph",
+          "html": "There are several mechanisms by which diabetes is thought to contribute to AF incidence (Fig. 2)[94,95]. Chronic hyperglycemia and insulin resistance promote atrial fibrosis, enlargement, and myocyte hypertrophy related to oxidative stress, advanced glycation end products and inflammation[92,94,[96], [97], [98], [99]]. Ultimately, these factors lead to cellular senescence and electrical remodeling which promote AF[100]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Diabetes is associated with poor outcomes for patients with AF including thromboembolic events and is associated with a 70 % increase in risk of stroke[101,102]. Prior studies have also demonstrated a dose-dependent risk of ischemic stroke and mortality with higher HbA1c levels, even after adjusting for stroke risk and anticoagulation. An analysis of Olmsted County, Minnesota residents with incident AF from 1980 to 2010 found that patients with diabetes had a higher risk of stroke, adjusted HR 1.32 (95 % CI 1.02–1.69), compared to those without diabetes[103]. Beyond stroke, diabetes confers a mortality risk in AF. Using data from the Outcomes Registry for Better Informed Treatment of Atrial Fibrillation (ORBIT-AF) registry, researchers found that patients with AF and diabetes had a significantly higher mortality risk, adjusted hazard ratio 1.63 (95 % CI of 1.04–2.56), compared to those without diabetes[104,104]. Diabetes was also associated with higher risk of all cause and cardiovascular hospitalizations in patients in this AF registry[89,104]. Beyond stroke and mortality, diabetes can also worsen symptom burden of AF and ultimately lead to heart failure as an additional comorbidity[105,106]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Control of diabetes is associated with improved outcomes in AF, including reduced incidence and recurrence. Prior research has shown that medications like metformin (Glucophage), thiazolidinediones, and dapagliflozin reduced the risk of AF and protected patients with diabetes from new-onset AF [96,[107], [108], [109]]. Sodium glucose cotransporter-2 inhibitors (SGLT2is) have also been shown to be associated with lower risk of incident AF compared to GLP-1RA therapies, though both were shown to reduce AF risk compared to placebo[110,111]. SLGT2 inhibitors have also been associated with decreased rates of heart failure related hospitalization or cardiovascular death in AF and, therefore, could be used as a cardioprotective medication in AF patients with diabetes[112]. Improved glycemic control prior to catheter ablation has also been shown to decrease risks of AF recurrence[31]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Despite evidence of the benefits of diabetes control in AF, the optimal stroke prevention strategies in patients with AF and diabetes has not been established[105]. Furthermore, pervasive disparities have long existed in diabetes care, especially within Black, Hispanic, and Asian American populations[113]. Hispanic and Black individuals are significantly less likely to achieve glycemic control compared to White individuals when diagnosed with diabetes[[114], [115], [116]]. Minoritized groups consistently have lower rates of SGLT2 inhibitors and GLP-1RA therapy receipt[117,118]. Among 1,197,914 U.S. Veteran patients with diabetes, Black patients had the lowest odds of prescription for GLP-1 RAs while Hispanic patients had the lowest odds of prescription for SGLT2is[119]. While there are multiple large cohort studies and meta-analyses examining the relationship between diabetes treatment and AF, there are no studies directly evaluating the role of variation in diabetes treatment by race, sex, socioeconomic status or other underrepresented identity on AF outcome disparities. Studies do, however, emphasize how minoritized populations are underrepresented in trials evaluating novel anti-diabetic therapies and their effect on cardiovascular outcomes[60,120]. Future work is needed to develop, test, and implement interventions to address the social and medical needs of patients with diabetes and AF to advance the care of this high-risk population[121]."
+        }
+      ]
+    },
+    {
+      "title": "AF and obstructive sleep apnea",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The prevalence of obstructive sleep apnea (OSA) has increased significantly in recent years with an estimated 30 million U.S. adults and 1 billion worldwide with a diagnosis[122,123]. The percentage of White men and women diagnosed with OSA is 6.9 % and 3.2 %, respectively. In comparison, 4.4 % and 3.5 % of Black men and women, as well as 2.4 % and 1.4 % of Mexican-American men and women, are diagnosed with OSA in the U.S[124]. OSA in Black adults has been shown to increase the odds of AF by 58 %, compared to a 12 % increase in White adults[125]."
+        },
+        {
+          "type": "paragraph",
+          "html": "The data surrounding OSA as a risk factor in the development of AF is abundant. In a study of 14 Canadian arrhythmia clinics, OSA was detected in 85 % of patients with AF[126]. Data from hospital records and follow-up phone interviews with patients with AF referred to Mayo Clinic Cardioversion Center shows that OSA increases the 12-month recurrence of AF after cardioversion from 53 % (patients without OSA) to 82 % (patients with untreated OSA)[127]. In addition to AF, OSA significantly increases the risk of stroke with, greater severity of sleep apnea at baseline associated with greater the risk of stroke. An observational cohort study of 1022 patients being evaluated for sleep-disordered breathing at the Yale Center for Sleep Medicine found that even after adjustment for various confounding variables, such as age, BMI, and hypertension, OSA was significantly associated with stroke[128]. Outcome data from a study of 53 patients with OSA showed that the majority of cardioembolic strokes occurred in moderate to severe cases of OSA. Within a year of the study, 72 % of subjects with OSA suffered a cardioembolic stroke, compared to 33 % of controls[129]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Nonetheless, the data on OSA and adverse AF outcomes is mixed. An analysis of patients with AF and OSA in Rome, Italy found that while OSA and AF were highly prevalent concurrently, OSA was not an independent risk factor for stroke in this patient population[130]. A broader European cohort of 364 patients with known AF and OSA found that indices of hypoxia during sleep were associated with a higher CHADS<sub>2</sub>VA<sub>2</sub>Sc stroke risk score, with the lowest level of hypoxia being associated with the highest level of cardiometabolic risk[131]. These studies suggest the importance of addressing OSA in patients with AF while representing a literature gap."
+        },
+        {
+          "type": "paragraph",
+          "html": "Despite the rising prevalence of OSA, the syndrome remains underdiagnosed in patients with AF. A prospective study of two tertiary U.S. hospitals included 188 patients with AF that did not have a prior diagnosis of sleep apnea[132]. Results from individual home sleep apnea tests showed that 82 % of these patients were actually positive for sleep apnea[133]. Once diagnosed, treatment of OSA in critical. A nurse-led program at the University of Pennsylvania demonstrated a potentially sustainable model for treating OSA, as patients showed improved quality of life and arrhythmia symptoms after 6 months[134]. Interventions such as these are significant because untreated OSA reduces the effectiveness of AF treatment including electric cardioversion, ablation, and pharmacological therapies[133,135]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Once OSA has been screened and diagnosed, the use of continuous positive airway pressure (CPAP) therapy is the preferred treatment as it has been associated with lower prevalence of arrhythmias and reduced sympathetic nerve activity[136]. In a prospective study of 720 patients from 2005–2011, AF recurrence was 35 % in patients with OSA using CPAP and 68 % in patients with untreated OSA[137]. In the ORBIT-AF study, AF progression in 1841 patients with OSA and AF was assessed. In CPAP users, AF progression was significantly lower in comparison to CPAP non-users[138]. Furthermore, in-lab studies have shown that there is a significant decrease in the atrial and ventricular ectopy count in patients with both OSA and AF after 3 and 6 months of CPAP treatment[139]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Notably, the data surrounding racial and ethnic differences in adherence to CPAP therapy is mixed. A multi-center clinical trial between five U.S. cities demonstrated lower CPAP acceptance rates in Black versus non-Black participants[140]. In contrast, researchers measured the mean number of self-reported hours per week of CPAP use among Black and White patients in order to assess CPAP acceptance rate, which showed similar rates between groups[141]. Access to care and health insurance are potential structural barriers in the treatment of OSA for minoritized groups. A recent review found that Black individuals are disproportionately affected by OSA due to underdiagnosis, lower rate of referral to sleep specialists, and lower adherence to CPAP therapy compared to white individuals[125]. This raises the possibility of OSA as a risk factor for AF complications that has higher implications for Black than White individuals. Nonetheless, there is a lack of research surrounding the racial and ethnic disparities that exist in treating OSA in patients with AF. Of particular concern, Black adults are markedly underrepresented in sleep related clinical studies[142,143]. This observation, an assessment of how biological, genomic, and social factors contribute to race-based differences in OSA and AF, and a clearer understanding of the role of medications, such as GLP1-RA therapies, in the management of OSA, overall, and for racial and ethnic minoritized populations, represent ample opportunities for future research."
+        }
+      ]
+    },
+    {
+      "title": "AF and alcohol use",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Alcohol consumption is a significant risk factor for AF (Fig. 2)[144]. Approximately 57 % of American adults drink regularly [145], though the prevalence of alcohol use in AF is notably lower. A study analyzing national trends in AF hospitalizations found that 4.29 % of AF hospitalizations were associated with alcohol use disorder (AUD)[146]. The 2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation highlights that even moderate alcohol consumption can elevate the risk of AF episodes, with an increase in risk observed within four hours of consuming a single drink [147], and heavier alcohol consumption predicting higher risk[[148], [149], [150]]. Alcohol can also lead to left atrial enlargement and fibrosis which both are known precipitators of AF risk[[151], [152], [153]]. Chronic heavy drinking further exacerbates this risk, contributing to the development and progression of AF[31]. As such, there is a Class 1B recommendation that patients with AF should decrease or eliminate alcohol consumption to limit recurrence and ectopy burden[31]."
+        },
+        {
+          "type": "paragraph",
+          "html": "The association between alcohol consumption and adverse AF outcomes has been limited. An analysis using Korean nationwide claims data from 2010–2016 found that alcohol abstainers and non-drinkers had a lower risk of stroke than current drinkers[154]. Using data from the Global Burden of Disease Study 2021, researchers found that AF attributable to high alcohol use contributed to 11,908 deaths and 362,698 disability-adjusted life years across 204 countries worldwide[155]. These numbers notably represented 176.4 % and 132.9 % increases respectively since 1990, highlighting an urgent need to address this critical risk factor in AF care."
+        },
+        {
+          "type": "paragraph",
+          "html": "There are several pharmacotherapies that have been proven to be effective in alcohol cessation efforts including naltrexone, an opioid receptor antagonist, acamprosate, an NMDA receptor antagonist, disulfiram, a daily medication that inhibits acetaldehyde dehydrogenase, baclofen, gabapentin (Neurontin) and topiramate (Topamax tablets) which each act on the GABA pathway[156,157]. Recent evidence also shows that low-dose semaglutide reduced alcohol consumption, drinks per drinking day, weekly cravings, and heavy drinking over time in a randomized trial, highlighting its potential as a pharmacologic adjunct for alcohol use reduction[158]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Alcohol abstinence has been shown to significantly reduce the recurrence and burden of AF in regular drinkers with the condition. In a multicenter prospective randomized controlled trial, patients who abstained from alcohol had a lower AF burden and fewer recurrences compared to those who continued drinking (HR 0.55, 95 % CI, 0.36 to 0.84; <em>P</em> = .005) and over 6 months the AF burden in the abstinence group was less than half the control group (<em>P</em>=.01)[145]. There have been additional studies that also demonstrate lower AF burden in those who abstain including the Atherosclerosis Risk In Communities (ARIC) Study that demonstrated a 20 % lower incidence rate of AF for every decade abstinent from alcohol, a 13 % higher rate of AF for every additional decade of past alcohol consumption (and every additional drink per day during former drinking with a 4 % higher rate of AF[159]. Nonetheless, despite their benefit in alcohol abstinence, the direct effects of alcohol cessation medications on AF related outcomes have not been specifically studied, representing an opportunity for future study."
+        },
+        {
+          "type": "paragraph",
+          "html": "Racial disparities in alcohol consumption and its management may influence variation in AF associated outcomes. Studies have shown that minoritized groups, such as Black and Hispanic individuals, often face higher rates of alcohol-related health issues due to targeted marketing of alcohol in their communities and limited access to healthcare resources for managing AUD[[160], [161], [162]]. A study found that Black (aOR=0.78, 95 % CI=0.69–0.89) and Hispanic (aOR=0.75, 95 % CI=0.64–0.88) individuals were less likely to receive medication for AUD than their White counterparts[160]. Uninsured individuals and underinsured individuals were also less likely to receive less AUD medications as confirmed in additional studies[160,163].These disparities are compounded by socioeconomic factors, leading to a higher burden of alcohol-related cardiovascular conditions, including AF, in these populations[162,164,165]. However, no studies to date have specifically examined racial, ethnic, and socioeconomic disparities in alcohol cessation nor identified interventions to address such disparities in alcohol cessation in patients with AF."
+        }
+      ]
+    },
+    {
+      "title": "AF and tobacco use",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Smoking is a well-established risk factor for AF, with both current and former smokers demonstrating a higher risk of incident AF compared to non-smokers in a dose-dependent manner[93,166]. In the general population, the prevalence of cigarette smoking among U.S. adults was reported to be 11.5 % in 2021 [167], while the prevalence of smoking among individuals with AF is significantly higher[168]. According to a study from the Danish Diet, Cancer, and Health cohort, 34 % of patients with incident AF were current smokers, and 37 % were former smokers[168]. The ARIC study found that current smokers had a higher incidence of AF, with a population attributable fraction of 9.78 % for current smokers[93,169,170]. Another study utilizing the National Inpatient Sample database reported that 23.5 % of AF hospitalizations involved patients with tobacco use disorder[146]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Smoking affects the progression of AF through several mechanisms including promoting atrial fibrosis by upregulating transforming growth factor-beta1 (TGF-β1) and its receptor, and leading to increased collagen production, impairing atrial contractility (Fig. 2)[31,[171], [172], [173], [174]]. This structural remodeling creates a substrate conducive to AF. Smoking also increases oxidative stress and inflammatory signaling, which contribute to atrial structural abnormalities and remodeling[31]. Nicotine can also affect the autonomic nervous system, increasing sympathetic activity and reducing parasympathetic tone and exacerbating AF[175]."
+        },
+        {
+          "type": "paragraph",
+          "html": "The literature suggests that smoking is associated with higher AF recurrence rates following catheter ablation, less time in therapeutic range on warfarin and therefore increased risk of stroke, heart failure, hospitalization and death[168,[176], [177], [178], [179], [180], [181], [182]]. A Danish cohort demonstrated that even among those receiving anticoagulation, the hazard ratios (HRs) (95 % CI) of thromboembolism or death were 3.13 (1.72–6.37) and 2.73 (2.02–3.70) among women and men who were currently heavy smokers respectively[183]. Another cohort of patients with AF in Japan found the adjusted HRs (95 % CIs) of current smokers relative to non–current smokers for ischemic stroke and all-cause mortality were 1.65 (1.03–2.64), 0.52 (0.12–2.15), and 1.26 (0.83–1.92), respectively. Despite the high rates of smoking in the U.S., an examination of the association of tobacco use on AF-related outcomes in this population is scarce."
+        },
+        {
+          "type": "paragraph",
+          "html": "There is currently a Class 1B recommendation for smoking cessation of patients with a history of AF who should receive cognitive behavioral therapy and a combination of pharmacologic interventions including varenicline, nicotine replacement therapy (NRT), and bupropion for tobacco cessation to mitigate adverse outcomes and cardiac complications[31]. Yet, smokers with AF are less likely to receive cessation intervention attempts than smokers without it[184,185]. Notably, GLP-1RAs, such as low dose semaglutide, are associated with reductions in cigarettes per day among current smokers, suggesting potential dual benefits for tobacco and alcohol use interventions[158]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Despite recommendation, myriad disparities exist in smoking prevalence and cessation efforts. Black patients have lower overall smoking rates compared to White patients but still experience a disproportionately high burden of smoking-related cardiovascular morbidity and mortality[186]. This disparity is partly due to certain social determinants of health, such as lower access to smoking cessation resources for Black, Hispanic, Asian, and uninsured smokers, targeted marketing of tobacco products, and higher levels of stress and socioeconomic disadvantage[[186], [187], [188], [189]]. In a study using the NCDR PINNACLE registry, significant provider-level variation in smoking cessation assistance (generally decreased) was observed in patients with AF compared to without, and these disparities were exacerbated based on location and patient demographics like race[184]. Another study conducted in primary care clinics found that non-White patients were less likely to receive counseling or medications even after adjusting for other socioeconomic factors compared to White patients[189]. Another study that examined pharmacotherapy efficacy of NRT in Black and White patients found that Black smokers had 49 % lower odds (95 % CI 0.39–0.66, <em>p</em>&lt;.001) of achieving smoking cessation compared to their White counterparts, even after accounting for baseline smoking behavior, and adherence to treatment[190]."
+        },
+        {
+          "type": "paragraph",
+          "html": "A Korean study found that male patients with newly diagnosed AF that were able to quit smoking had a 35 % reduced risk of CVD (aHR 0.65, 95 % CI 0.44–0.97) and a 41 % reduced risk of stroke (aHR 0.59, 95 % CI 0.35–0.99) compared to continual smokers[179]. In another study, patients from the Korean National Health Insurance Database with new-onset AF who quit smoking had lower risks of ischemic stroke and all-cause death compared to current smokers [191],. Among 97,637 patients, 6.9 % stopped after AF diagnosis and after 5-year follow-up this group had lower risk of ischemic stroke (HR 0.70, 95 % CI 0.59–0.83) and all cause death (HR 0.84, 95 % CI 0.75–0.95) than current smokers[191]. Nonetheless, while the 2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation stresses the importance of addressing health inequities and social barriers to AF management, including smoking cessation, there are no studies to date that examine the role of unequal receipt of smoking cessation therapies on AF associated outcome inequities[31]."
+        }
+      ]
+    },
+    {
+      "title": "Future research directions and call to action",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Our review has highlighted myriad opportunities to extend the current literature and our understanding of the role of risk factors on adverse AF outcomes, the determinants of these disparities in these risk factors (Fig. 3) and how such risk factors are differentially managed among minoritized populations. To help advance this literature, racial and ethnic minoritized groups need greater representation in clinical trials and epidemiologic studies examining the medical and procedure-based management of AF[192]. Further, more research is needed on the effective and equitable implementation of lifestyle and risk factor modification in AF, particularly in individuals from racial and ethnically diverse backgrounds[30]. To date no such studies are present in the literature. In the management of obesity, research is needed to examine the role that GLP-1RA therapies and other weight loss therapies broadly may have on prevention of AF and its complications, particularly in traditionally underserved populations. In hypertension management, examining the role of newer agents including aldosterone synthase inhibitors and injectable angiotensinogen inhibitors which are on the horizon and how the diffusion of such therapies may influence AF-related stroke and mortality is needed[193,194]. To date there are no studies examining the role of diabetes control in minoritized patients and AF related complications, despite the availability of novel, effective therapies for manage diabetes, which represents a key target for future study. Evidently, early systematic screenings, proper diagnosis, and effective treatment of OSA, including with weight management, can greatly improve AF risk modification, and lead to improvement in the quality of life of patients, yet research in this field is scarce, highlighting another important area of investigation. Finally, addressing disparities in alcohol and tobacco cessation and their influence on AF-related complications requires not only research but targeted public health interventions and tailored strategies focused on culturally sensitive education and expanded access to care in nontraditional settings such as community centers or faith-based organizations[195,196]."
+        },
+        {
+          "type": "paragraph",
+          "html": "To address the critical gaps in the literature described above, there is an urgent need for improved collection of social barriers to equitable risk factor management along with culturally directed, multilevel (e.g., patient, provider, health system, and policy) interventions to improve management of AF and stroke related risk factors (Fig. 4). Interventions to address systemic factors and structural and social determinants such as housing, education, employment, access to healthy food, insurance status, health, language, and digital literacy, perceived discrimination, transportation, environmental exposures, family and financial support are needed to help target non-healthcare factors that inform care access and quality[192]. Such interventions will only come through deep health system investments and shifting incentives to address social factors. Policies such as Medicaid expansion and the Inflation Reduction Act, which aim to reduce medication costs among low-income and older adults, can help shift funding to prioritizing these aforementioned social barriers[197]. Within health care, expanded training for clinicians to prioritize risk factor management in the care of AF while enhancing the workforce to ensure they are competent to address various backgrounds will improve care across each of these highlighted conditions[160,196]. Novel integrated care models, such as AF centers of excellence, that combine cardiovascular and risk factor treatments can provide comprehensive care for patients with AF and improve adherence to both AF and other risk factor treatments[198]. The involvement of a multidisciplinary team, including cardiologists, nurse practitioners, primary care providers, pharmacists, and social workers, can enhance the support for risk factor management provided to patients. Finally, an expanded focus on community partnerships can build trustworthiness and help health systems more effectively engage with groups that have traditionally had unequal access to health care."
+        }
+      ]
+    },
+    {
+      "title": "Conclusions",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In this review we highlighted several important mechanisms by which risk factors influence AF incidence and associated adverse outcomes. We reveal opportunities for further study within each risk factor to better understand how such factors are associated with disparities in AF outcomes. Regularly monitoring and evaluating the effectiveness of interventions and treatment outcomes across different racial and ethnic groups can help identify and address ongoing disparities. By implementing these strategies, healthcare systems can work towards eliminating racial and ethnic risk factor disparities among patients with AF, ultimately improving cardiovascular outcomes and overall health equity."
+        }
+      ]
+    },
+    {
+      "title": "Funding",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This study is supported in part by a Robert Wood Johnson / American Heart Association Amos Medical Faculty Development Program Award."
+        }
+      ]
+    },
+    {
+      "title": "Disclosures",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "There are no disclosures to report."
+        },
+        {
+          "type": "paragraph",
+          "html": "Fig. 1 (Central Illustration). Mechanisms of Atrial Fibrillation Risk Factor ManagementFig. 1(Central Illustration). Mechanisms of Atrial Fibrillation Risk Factor Management.Fig 1"
+        },
+        {
+          "type": "paragraph",
+          "html": "This figure represents how risk factors including obesity, sleep apnea, alcohol use, hypertension, smoking, and diabetes, have overlapping contributions to the pathophysiologic underpinnings of atrial fibrillation (AF). It further describes racial and ethnic differences in the management of these risk factors which in turn influences AF outcomes."
+        },
+        {
+          "type": "paragraph",
+          "html": "Fig. 2. Cardiovascular Effect of Atrial Fibrillation Risk FactorsFig. 2Cardiovascular Effect of Atrial Fibrillation Risk Factors.Fig 2"
+        },
+        {
+          "type": "paragraph",
+          "html": "This figure highlights the key mechanisms contributing to disparities in the management of atrial fibrillation (AF), focusing on six major health factors: obesity, sleep apnea, alcohol use, hypertension, smoking, and diabetes. The diagram illustrates how these conditions exacerbate AF through distinct pathophysiological pathways at the cellular, organ, and individual levels. Disparities in the recognition and treatment of AF in populations with these risk factors are also emphasized, showing how socioeconomic, cultural, and healthcare system factors can exacerbate management challenges. The figure aims to provide a comprehensive overview of how each factor contributes to both the clinical outcomes and health inequities in AF patients."
+        },
+        {
+          "type": "paragraph",
+          "html": "Fig. 3. Determinants of Disparities in Atrial Fibrillation Risk FactorsFig. 3Determinants of Disparities in Atrial Fibrillation Risk Factors.Fig 3"
+        },
+        {
+          "type": "paragraph",
+          "html": "This figure represents a conceptual model for the multifaceted drivers of racial and ethnic disparities in risk factor management of patients with atrial fibrillation, including at the structural and health system, patient, clinician, and clinical encounter levels."
+        },
+        {
+          "type": "paragraph",
+          "html": "Fig. 4. Atrial Fibrillation Risk Factors Targeted SolutionsFig. 4Atrial Fibrillation Risk Factors Targeted Solutions.Fig 4"
+        },
+        {
+          "type": "paragraph",
+          "html": "This figure provides strategies addressing disparities in AF risk factors through multifaceted solutions, including patient, policy, financial, and community level approaches."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Anthony D’Oro:</strong> Writing – review &amp; editing, Writing – original draft, Visualization, Formal analysis, Conceptualization. <strong>Zoee D’Costa:</strong> Writing – review &amp; editing, Writing – original draft, Visualization, Formal analysis. <strong>Jasmyn J. Tang:</strong> Writing – review &amp; editing, Writing – original draft, Project administration, Formal analysis. <strong>Stephen Min:</strong> Writing – review &amp; editing, Writing – original draft, Formal analysis. <strong>Larry R. Jackson:</strong> Writing – review &amp; editing, Supervision, Formal analysis. <strong>Utibe R. Essien:</strong> Writing – review &amp; editing, Writing – original draft, Visualization, Supervision, Funding acquisition, Formal analysis, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "NoubiapJ.J.TangJ.J.TeraokaJ.T.DewlandT.A.MarcusG.M.Minimum national prevalence of diagnosed atrial fibrillation inferred from California Acute Care facilitiesJ Am Coll Cardiol841620241501150810.1016/j.jacc.2024.07.01439269390"
+    },
+    {
+      "html": "LinzD.GawalkoM.BetzK.Atrial fibrillation: epidemiology, screening and digital healthLancet reg health Eur37202410.1016/j.lanepe.2023.100786100786-100786"
+    },
+    {
+      "html": "SchnabelR.B.D.YinX.P.GonaP.P.50 year trends in atrial fibrillation prevalence, incidence, risk factors, and mortality in the Framingham Heart Study: a cohort studyLancet (Br ed)3869989201515416210.1016/S0140-6736(14)61774-8"
+    },
+    {
+      "html": "NaccarelliG.V.VarkerH.LinJ.SchulmanK.L.Increasing prevalence of atrial fibrillation and flutter in the United StatesAm J Cardiol1041120091534153910.1016/j.amjcard.2009.07.02219932788"
+    },
+    {
+      "html": "Lloyd-JonesD.AdamsR.CarnethonM.Heart Disease and Stroke Statistics–2009 update: a report from the American Heart Association Statistics Committee and Stroke Statistics SubcommitteeCirculation11932009e2118110.1161/CIRCULATIONAHA.108.19126119075105"
+    },
+    {
+      "html": "KimM.H.JohnstonS.S.ChuB.-C.DalalM.R.SchulmanK.L.Estimation of total incremental health care costs in patients with atrial fibrillation in the United StatesCirc Cardiovasc qual outcomes43201131332010.1161/CIRCOUTCOMES.110.95816521540439"
+    },
+    {
+      "html": "StamosT.D.DarbarD.The “double” paradox of atrial fibrillation in black individualsJAMA cardiol14201637737910.1001/jamacardio.2016.125927438310"
+    },
+    {
+      "html": "HeckbertS.R.AustinT.R.JensenP.N.Differences by race/ethnicity in the prevalence of clinically detected and monitor-detected atrial fibrillation: MESACirc Arrhythmia electrophysiol131202010.1161/CIRCEP.119.007698e007698-e007698"
+    },
+    {
+      "html": "TedlaY.G.SchwartzS.M.SilbermanP.GreenlandP.PassmanR.S.Racial disparity in the prescription of anticoagulants and risk of stroke and bleeding in atrial fibrillation patientsJ Stroke Cerebrovasc Dis295202010.1016/j.jstrokecerebrovasdis.2020.104718104718-104718"
+    },
+    {
+      "html": "KabraR.CramP.GirotraS.Vaughan SarrazinM.Effect of race on outcomes (Stroke and Death) in patients &gt;65 years with atrial fibrillationAm J Cardiol1162201523023510.1016/j.amjcard.2015.04.01226004053PMC4780330"
+    },
+    {
+      "html": "SimpsonJ.R.ZahuranecD.B.LisabethL.D.Mexican Americans with atrial fibrillation have more recurrent strokes than do Non-Hispanic whitesStroke (1970)411020102132213610.1161/STROKEAHA.110.589127"
+    },
+    {
+      "html": "MagnaniJ.W.NorbyF.L.AgarwalS.K.Racial differences in atrial fibrillation-related cardiovascular disease and mortality: the atherosclerosis risk in communities (ARIC) studyJAMA cardiol14201643344110.1001/jamacardio.2016.102527438320PMC5347977"
+    },
+    {
+      "html": "MitraniL.R.TumasianR.A.VilchesS.Racial differences in atrial fibrillation management between white patients and black patients in Transthyretin Cardiac AmyloidAm J Cardiol187202316417010.1016/j.amjcard.2022.10.03936459741"
+    },
+    {
+      "html": "EssienU.R.TangJ.J.KimN.Association of race and ethnicity with stroke and mortality outcomes in atrial fibrillationJACC Adv (Online)47202510186010.1016/j.jacadv.2025.101860"
+    },
+    {
+      "html": "KornejJ.BörschelC.S.BenjaminE.J.SchnabelR.B.Epidemiology of atrial fibrillation in the 21st century: novel methods and new insightsCirc Res1271202042010.1161/CIRCRESAHA.120.31634032716709PMC7577553"
+    },
+    {
+      "html": "EssienU.R.HolmesD.N.JacksonL.R.Association of race/ethnicity with oral anticoagulant use in patients with atrial fibrillation: findings from the outcomes registry for better informed treatment of atrial fibrillation IIJAMA cardiol31220181174118210.1001/jamacardio.2018.394530484833PMC6583087"
+    },
+    {
+      "html": "EssienU.R.KimN.HausmannL.R.M.Disparities in anticoagulant therapy initiation for incident atrial fibrillation by race/ethnicity among patients in the Veterans Health Administration SystemJAMA Netw Open47202110.1001/jamanetworkopen.2021.14234e2114234-e2114234"
+    },
+    {
+      "html": "SurN.B.WangK.Di TullioM.R.Disparities and temporal trends in the use of anticoagulation in patients with ischemic stroke and atrial fibrillationStroke50620191452145910.1161/STROKEAHA.118.02395931084325PMC6538423"
+    },
+    {
+      "html": "ReynoldsK.R.Khosrow-KhavarF.DaveC.V.Racial and ethnic disparities in initiation of direct oral anticoagulants among Medicare beneficiariesJAMA netw open752024e24946510.1001/jamanetworkopen.2024.9465"
+    },
+    {
+      "html": "PatelN.DeshmukhA.ThakkarB.Gender, race, and health insurance status in patients undergoing catheter ablation for atrial fibrillationAm J Cardiol117720161117112610.1016/j.amjcard.2016.01.04026899494"
+    },
+    {
+      "html": "GolwalaH.JacksonL.R.SimonD.N.Racial/ethnic differences in atrial fibrillation symptoms, treatment patterns, and outcomes: insights from Outcomes Registry for better informed treatment for Atrial fibrillation RegistryAm Heart J1742016293610.1016/j.ahj.2015.10.02826995367"
+    },
+    {
+      "html": "EberlyL.A.GargL.YangL.Racial/ethnic and socioeconomic disparities in management of incident paroxysmal atrial fibrillationJAMA Netw Open42202110.1001/jamanetworkopen.2021.0247e210247-e210247"
+    },
+    {
+      "html": "ThomasK.L.HRAl-KhalidiSilversteinA.P.Ablation versus drug therapy for atrial fibrillation in racial and ethnic minoritiesJ Am Coll Cardiol782202112613810.1016/j.jacc.2021.04.09234238436PMC8354144"
+    },
+    {
+      "html": "LanR.H.ParanjpeI.SaeedM.PerezM.V.Inequities in atrial fibrillation trials: an analysis of participant race, ethnicity, and sex over timeHeart rhythm223202560260810.1016/j.hrthm.2024.06.05238950875"
+    },
+    {
+      "html": "TertulienT.MagnaniJ.W.EssienU.R.Racial and ethnic representation in atrial fibrillation trials: CABANA and beyondJ Am Coll Cardiol78192021e163e16410.1016/j.jacc.2021.08.05434736573PMC8734656"
+    },
+    {
+      "html": "SarrajuA.MaronD.J.RodriguezF.Under-reporting and Under-representation of racial/ethnic minorities in major atrial fibrillation clinical trialsJACC Clin electrophysiol66202073974110.1016/j.jacep.2020.03.00132553226PMC7531872"
+    },
+    {
+      "html": "JacksonL.R.PetersonE.D.OkeaguE.ThomasK.Review of race/ethnicity in non vitamin K antagonist oral anticoagulants clinical trialsJ Thromb Thrombolysis392201522222710.1007/s11239-014-1145-725362508"
+    },
+    {
+      "html": "PackerD.L.MarkD.B.RobbR.A.Effect of catheter ablation vs antiarrhythmic drug therapy on mortality, stroke, bleeding, and cardiac arrest among patients with atrial fibrillation: the CABANA randomized clinical trialJAMA: j Am Med Assoc3211320191261127410.1001/jama.2019.0693"
+    },
+    {
+      "html": "HoytH.NazarianS.AlhumaidF.Demographic profile of patients undergoing catheter ablation of atrial fibrillationJ Cardiovasc Electrophysiol229201199499810.1111/j.1540-8167.2011.02043.x21385269"
+    },
+    {
+      "html": "NorbyF.L.BenjaminE.J.AlonsoA.ChughS.S.Racial and ethnic considerations in patients with atrial fibrillation: JACC Focus Seminar 5/9J Am Coll Cardiol782520212563257210.1016/j.jacc.2021.04.11034887142PMC8688256"
+    },
+    {
+      "html": "JoglarJ.A.ChungM.K.ArmbrusterA.L.2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of atrial fibrillation: a report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice GuidelinesCirc (N Y NY)14912024e1e15610.1161/CIR.0000000000001193"
+    },
+    {
+      "html": "GrunvaldE.ShahR.HernaezR.AGA clinical practice guideline on pharmacological interventions for adults with obesityGastroenterol (N Y NY 1943)163520221198122510.1053/j.gastro.2022.08.045"
+    },
+    {
+      "html": "LiuB.DuY.WuY.SnetselaarL.G.WallaceR.B.BaoW.Trends in obesity and adiposity measures by race or ethnicity among adults in the United States 2011-18: population based studyBMJ372202110.1136/bmj.n365n365–n365"
+    },
+    {
+      "html": "BellaJ.N.DevereuxR.B.RomanM.J.Relations of left ventricular mass to fat-free and adipose body mass: the strong heart study. The Strong Heart Study InvestigatorsCirc (N Y NY)9823199825382544"
+    },
+    {
+      "html": "MahajanR.M.D.P.LauD.H.M.P.BrooksA.G.P.Electrophysiological, electroanatomical, and structural remodeling of the atria as consequences of sustained obesityJ Am Coll Cardiol661201511110.1016/j.jacc.2015.04.05826139051"
+    },
+    {
+      "html": "AcetH.ErtaşF.AkılM.A.New inflammatory predictors for non-valvular atrial fibrillation: echocardiographic epicardial fat thickness and neutrophil to lymphocyte ratioInt J Cardiovasc Imaging3012014818910.1007/s10554-013-0317-4"
+    },
+    {
+      "html": "WongC.X.SunM.T.OdutayoA.Associations of epicardial, abdominal, and overall adiposity with atrial fibrillationCirc Arrhythmia electrophysiol912201610.1161/CIRCEP.116.004378e004378-e004378"
+    },
+    {
+      "html": "ShaR.BainesO.HayesA.Impact of obesity on atrial fibrillation pathogenesis and treatment optionsJ Am Heart Assoc1312024e03227710.1161/JAHA.123.032277"
+    },
+    {
+      "html": "BadhekaA.O.RathodA.KizilbashM.A.Influence of obesity on outcomes in atrial fibrillation: yet another obesity paradoxAm J Med1237201064665110.1016/j.amjmed.2009.11.02620609687"
+    },
+    {
+      "html": "BorianiG.RuffC.T.KuderJ.F.Relationship between body mass index and outcomes in patients with atrial fibrillation treated with edoxaban or warfarin in the ENGAGE AF-TIMI 48 trialEur Heart J401920191541155010.1093/eurheartj/ehy86130624719"
+    },
+    {
+      "html": "OvervadT.F.RasmussenL.H.SkjøthF.OvervadK.LipG.Y.H.LarsenT.B.Body mass index and adverse events in patients with incident atrial fibrillationAm J Med1267201310.1016/j.amjmed.2012.11.024640.e9-640.e17"
+    },
+    {
+      "html": "PathakR.K.MiddeldorpM.E.MeredithM.Long-term effect of goal-directed weight management in an atrial fibrillation cohort: a Long-term follow-up study (LEGACY)J Am Coll Cardiol652020152159216910.1016/j.jacc.2015.03.00225792361"
+    },
+    {
+      "html": "GesslerN.WillemsS.StevenD.Supervised Obesity Reduction Trial for AF ablation patients: results from the SORT-AF trialEur (L Engl)231020211548155810.1093/europace/euab122"
+    },
+    {
+      "html": "AbedH.S.WittertG.A.LeongD.P.Effect of weight reduction and cardiometabolic risk factor management on symptom burden and severity in patients with atrial fibrillation: a randomized clinical trialJAMA: j Am Med Assoc3101920132050206010.1001/jama.2013.280521"
+    },
+    {
+      "html": "MiddeldorpM.E.PathakR.K.MeredithM.PREVEntion and regReSsive effect of weight-loss and risk factor modification on Atrial fibrillation: the REVERSE-AF studyEP Eur201220181929193510.1093/europace/euy117"
+    },
+    {
+      "html": "JensenM.D.RyanD.H.ApovianC.M.2013 AHA/ACC/TOS Guideline for the management of overweight and Obesity in adults: a report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines and The Obesity SocietyCirc (N Y NY)12925_suppl_2 Suppl 12014S102S13810.1161/01.cir.0000437739.71477.ee"
+    },
+    {
+      "html": "BurgessE.HassménP.WelvaertM.PumpaK.L.Behavioural treatment strategies improve adherence to lifestyle intervention programmes in adults with obesity: a systematic review and meta-analysisClin Obes72201710511410.1111/cob.1218028199047"
+    },
+    {
+      "html": "KatzmarzykP.T.MartinC.K.NewtonR.L.Weight loss in underserved patients — A cluster-randomized trialN Engl J Med38310202090991810.1056/NEJMoa200744832877581PMC7493523"
+    },
+    {
+      "html": "SajuR.Castellon-LopezY.TurkN.Differences in weight loss by race and ethnicity in the PRIDE Trial: a qualitative analysis of participant perspectivesJ gen intern med: JGIM371420223715372210.1007/s11606-022-07521-535469358PMC9037581"
+    },
+    {
+      "html": "HoersterK.D.LaiZ.GoodrichD.E.Weight loss after participation in a national VA Weight management program among veterans with or without PTSDPsychiatr serv (Wash DC)651120141385138810.1176/appi.ps.201300404"
+    },
+    {
+      "html": "WestD.S.PrewittT.E.BursacZ.FelixH.C.Weight loss of black, white, and Hispanic men and women in the diabetes prevention programObes (Silver Spring Md)16620081413142010.1038/oby.2008.224"
+    },
+    {
+      "html": "HungA.WongE.S.DennisP.A.Real world use of anti-obesity medications and weight change in veteransJ gen intern med: JGIM394202451952810.1007/s11606-023-08501-z37962730PMC10973309"
+    },
+    {
+      "html": "EmmerichS.D.FryarC.D.StiermanB.OgdenC.L.Obesity and severe Obesity prevalence in adults: united States, August 2021-August 2023NCHS data br508202410.15620/cdc/159281"
+    },
+    {
+      "html": "FredrickT.CamilleriM.AcostaA.Pharmacotherapy for obesity: recent updatesClin pharmacol: adv appl17Issue 1202530532710.2147/CPAA.S497904"
+    },
+    {
+      "html": "EssienU.R.MagnaniJ.W.ChenN.GelladW.F.FineM.J.HernandezI.Race/ethnicity and sex-related differences in direct oral anticoagulant initiation in newly diagnosed atrial fibrillation: a retrospective study of Medicare dataJ Natl Med Assoc1121202010310810.1016/j.jnma.2019.10.00332035755PMC7183759"
+    },
+    {
+      "html": "EberlyL.A.YangL.EssienU.R.Racial, ethnic, and socioeconomic inequities in glucagon-like peptide-1 receptor agonist use among patients with diabetes in the USJAMA health forum212202110.1001/jamahealthforum.2021.4182e214182-e214182"
+    },
+    {
+      "html": "WangE.PatornoE.Khosrow-KhavarF.CrystalS.DaveC.VRacial and ethnic disparities in the uptake of SGLT2is and GLP-1RAs among Medicare beneficiaries with type 2 diabetes and heart failure, atherosclerotic cardiovascular disease and chronic kidney disease, 2013–2019Diabetologia68120259410410.1007/s00125-024-06321-239514094PMC11663158"
+    },
+    {
+      "html": "TisdaleR.L.BeyeneT.J.TangW.HeidenreichP.AschS.M.YongC.M.Racial and ethnic differences in semaglutide prescriptions for Veterans with overweight or obesity in the Veterans Affairs Healthcare SystemCirc Cardiovasc qual outcomes181202510.1161/CIRCOUTCOMES.124.011649e011649-e011649"
+    },
+    {
+      "html": "MarsoS.P.BainS.C.ConsoliA.Semaglutide and cardiovascular outcomes in patients with type 2 diabetesN Engl J Med3751920161834184410.1056/NEJMoa160714127633186"
+    },
+    {
+      "html": "MishrikyB.M.PowellJ.R.WittwerJ.A.Do GLP-1RAs and SGLT-2is reduce cardiovascular events in black patients with type 2 diabetes? A systematic review and meta-analysisDiabetes Obes Metab211020192274228310.1111/dom.1380531168889"
+    },
+    {
+      "html": "SagliettoA.FalasconiG.PenelaD.Glucagon-like peptide-1 receptor agonist semaglutide reduces atrial fibrillation incidence: a systematic review and meta-analysisEur J Clin Invest5412202410.1111/eci.14292e14292-n/a"
+    },
+    {
+      "html": "KarakasisP.FragakisN.PatouliasD.Effects of glucagon-like peptide 1 receptor agonists on atrial fibrillation recurrence after catheter ablation: a systematic review and meta-analysisAdv Ther411020243749375610.1007/s12325-024-02959-x39141282"
+    },
+    {
+      "html": "WheltonP.K.CareyR.M.AronowW.S.2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA Guideline for the prevention, detection, evaluation, and management of high blood pressure in adults: a report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice guidelinesJ Am Coll Cardiol71192018e127e24810.1016/j.jacc.2017.11.00629146535"
+    },
+    {
+      "html": "HuangY.M.D.SuL.M.D.CaiX.M.D.Association of all-cause and cardiovascular mortality with prehypertension: a meta-analysisAm heart j16722014160168.e110.1016/j.ahj.2013.10.02324439976"
+    },
+    {
+      "html": "GuoX.ZhangX.GuoL.Association between Pre-hypertension and cardiovascular outcomes: a systematic review and meta-analysis of prospective studiesCurr Hypertens Rep156201370371610.1007/s11906-013-0403-y24234576"
+    },
+    {
+      "html": "HealeyJ.S.ConnollyS.J.Atrial fibrillation: hypertension as a causative agent, risk factor for complications, and potential therapeutic targetAm J Cardiol9110200391410.1016/S0002-9149(03)00227-3"
+    },
+    {
+      "html": "KannelW.B.WolfP.A.BenjaminE.J.LevyD.Prevalence, incidence, prognosis, and predisposing conditions for atrial fibrillation: population-based estimatesAm J Cardiol82719982N9N10.1016/S0002-9149(98)00583-9"
+    },
+    {
+      "html": "VermesE.TardifJ.-C.BourassaM.G.Enalapril decreases the incidence of atrial fibrillation in patients with left ventricular dysfunction: insight from the studies of left ventricular dysfunction (SOLVD) trialsCirculation1072320032926293110.1161/01.CIR.0000072793.81076.D412771010"
+    },
+    {
+      "html": "OkinP.M.HilleD.A.LarstorpA.C.K.Effect of lower on-treatment systolic blood pressure on the risk of atrial fibrillation in hypertensive patientsHypertension662201536837310.1161/hypertensionaha.115.0572826056336"
+    },
+    {
+      "html": "SolimanE.Z.RahmanA.F.Z-mZhangEffect of intensive blood pressure lowering on the risk of atrial fibrillationHypertension75620201491149610.1161/HYPERTENSIONAHA.120.1476632362229PMC7225060"
+    },
+    {
+      "html": "GargP.K.WilsonN.YuanY.Association of hypertension severity and control with risk of incident atrial fibrillation: the REasons for geographic and racial differences in stroke (REGARDS) studyClin cardiol (Mahwah NJ)461120231418142510.1002/clc.24135"
+    },
+    {
+      "html": "RaoM.P.HalvorsenS.WojdylaD.Blood pressure control and risk of stroke or systemic embolism in patients with atrial fibrillation: results from the Apixaban for reduction in stroke and other thromboembolic events in atrial fibrillation (ARISTOTLE) trialJ Am Heart Assoc412201510.1161/JAHA.115.002015n/a"
+    },
+    {
+      "html": "KimM.ChoM.S.NamG.-B.DoU.KimJ.ChoiK.-J.Controlled level and variability of systolic blood pressure on the risk of thromboembolic events in atrial fibrillation and hypertensionAm J Cardiol1802022374310.1016/j.amjcard.2022.06.03635934564"
+    },
+    {
+      "html": "MuntnerP.HardyS.T.FineL.J.Trends in blood pressure control among US adults with hypertension, 1999-2000 to 2017-2018JAMA: j Am Med Assoc3241220201190120010.1001/jama.2020.14545"
+    },
+    {
+      "html": "AggarwalR.ChiuN.WadheraR.K.Racial/ethnic disparities in hypertension prevalence, awareness, treatment, and control in the United States, 2013 to 2018Hypertens (Dallas Tex 1979)78620211719172610.1161/HYPERTENSIONAHA.121.17570"
+    },
+    {
+      "html": "OgdenC.L.CarrollM.D.KitB.K.FlegalK.M.Prevalence of obesity among adults: united States, 2011-2012NCHS data br131201318"
+    },
+    {
+      "html": "WhiteB.M.OoNorasakK.SesayN.A.HaskinsD.RobinsonC.M.Economic and cultural assessment of the DASH eating Plan for low-income African Americans: an integrative reviewInt J Env Res Public Health21112024148010.3390/ijerph2111148039595747PMC11594161"
+    },
+    {
+      "html": "BertoniA.G.FoyC.G.HunterJ.C.QuandtS.A.VitolinsM.Z.Whitt-GloverM.CA multilevel assessment of barriers to adoption of dietary approaches to stop hypertension (DASH) among African Americans of low socioeconomic statusJ Health Care Poor Underserved22420111205122010.1353/hpu.2011.014222080704PMC3769217"
+    },
+    {
+      "html": "SuarezJ.J.IsakovaT.AndersonC.A.BoulwareL.E.WolfM.SciallaJ.J.Food access, chronic kidney disease, and hypertension in the U.SAm J Prev Med496201591292010.1016/j.amepre.2015.07.01726590940PMC4656149"
+    },
+    {
+      "html": "ShakerY.GrineskiS.E.CollinsT.W.FloresA.B.Redlining, racism and food access in US urban coresAgric Hum Values401202310111210.1007/s10460-022-10340-3"
+    },
+    {
+      "html": "CrespoC.J.SmitE.AndersenR.E.Carter-PokrasO.AinsworthB.E.Race/ethnicity, social class and their relation to physical inactivity during leisure time: results from the Third National Health and Nutrition Examination Survey, 1988–1994Am J Prev Med1812000465310.1016/S0749-3797(99)00105-110808982"
+    },
+    {
+      "html": "LuY.LiuY.DhingraL.S.National trends in racial and ethnic disparities in antihypertensive medication use and blood pressure control among adults with hypertension, 2011–2018Hypertens (Dallas Tex 1979)791202220721710.1161/HYPERTENSIONAHA.121.18381"
+    },
+    {
+      "html": "HayesD.K.JacksonS.L.LiY.Blood pressure control among Non-Hispanic black adults is lower than Non-Hispanic white adults despite similar treatment with antihypertensive medication: NHANES 2013–2018Am J Hypertens356202251452510.1093/ajh/hpac01135380626PMC9233145"
+    },
+    {
+      "html": "PathakR.K.MiddeldorpM.E.KalmanJ.M.Aggressive risk factor reduction study for atrial fibrillation and implications for the outcome of ablation: the ARREST-AF cohort studyJ Am Coll Cardiol642120142222223110.1016/j.jacc.2014.09.02825456757"
+    },
+    {
+      "html": "PathakR.K.ElliottA.D.LauD.H.Aggressive risk factor reduction study for atrial fibrillation implications for ablation outcomes: the ARREST-AF randomized clinical trialJAMA cardiol202510.1001/jamacardio.2025.4007"
+    },
+    {
+      "html": "WHO. Diabetes. <a href=\"https://www.who.int/news-room/fact-sheets/detail/diabetes\">https://www.who.int/news-room/fact-sheets/detail/diabetes</a>."
+    },
+    {
+      "html": "CDC. National diabetes Statistics Report. <a href=\"https://www.cdc.gov/diabetes/php/data-research/index.html\">https://www.cdc.gov/diabetes/php/data-research/index.html</a>."
+    },
+    {
+      "html": "Association AD. Statistics about diabetes. <a href=\"https://diabetes.org/about-diabetes/statistics/about-diabetes\">https://diabetes.org/about-diabetes/statistics/about-diabetes</a>."
+    },
+    {
+      "html": "SohailM.U.KhanT.M.SajidM.Trends and disparities in diabetes mellitus and atrial fibrillation related mortality in the United States: 1999–2020Diabetes Res Clin Pr223202511211210.1016/j.diabres.2025.112112"
+    },
+    {
+      "html": "DublinS.GlazerN.L.SmithN.L.Diabetes mellitus, glycemic control, and risk of atrial fibrillationJ gen intern med: JGIM258201085385810.1007/s11606-010-1340-y20405332PMC2896589"
+    },
+    {
+      "html": "MovahedM.-R.HashemzadehM.Mazen JamalM.Diabetes mellitus is a strong, independent risk for atrial fibrillation and flutter in addition to other cardiovascular diseaseInt J Cardiol1053200531531810.1016/j.ijcard.2005.02.05016274775"
+    },
+    {
+      "html": "SunY.HuD.The link between diabetes and atrial fibrillation: cause or correlation?J Cardiovasc Dis Res112010101110.4103/0975-3583.5997821188083PMC3004163"
+    },
+    {
+      "html": "GorenekB.PellicciaA.BenjaminE.J.European Heart Rhythm Association (EHRA)/European Association of Cardiovascular Prevention and Rehabilitation (EACPR) position paper on how to prevent atrial fibrillation endorsed by the Heart Rhythm Society (HRS) and Asia Pacific Heart Rhythm Society (APHRS)Eur J Prev Cardiol241201744010.1177/2047487316676037"
+    },
+    {
+      "html": "PlittA.McGuireD.K.GiuglianoR.P.Atrial fibrillation, type 2 diabetes, and non–Vitamin K antagonist oral anticoagulants: a reviewJAMA cardiol24201744244810.1001/jamacardio.2016.522428122078"
+    },
+    {
+      "html": "Lorenzo-AlmorósA.JCasado Cerradal-AÁlvarez-Sala WaltherMMéndez BailónÓLorenzo GonzálezAtrial fibrillation and diabetes mellitus: dangerous liaisons or innocent bystanders?J Clin Med1282023286810.3390/jcm1208286837109205PMC10142815"
+    },
+    {
+      "html": "ChungM.K.EckhardtL.L.ChenL.Y.Lifestyle and risk factor modification for reduction of atrial fibrillation: a scientific statement from the American Heart AssociationCirculation141162020e750e77210.1161/CIR.000000000000074832148086"
+    },
+    {
+      "html": "BohneL.J.JohnsonD.RoseR.A.WiltonS.B.GillisA.M.The Association between Diabetes Mellitus and Atrial Fibrillation: clinical and mechanistic insightsFront Physiol10201910.3389/fphys.2019.00135135-135"
+    },
+    {
+      "html": "KanthariaB.K.TabaryM.WuL.Diabetes and atrial fibrillation: insight from basic to translational science into the mechanisms and managementJ Cardiovasc Electrophysiol202510.1111/jce.16655"
+    },
+    {
+      "html": "GoetteA.KalmanJ.M.AguinagaL.EHRA/HRS/APHRS/SOLAECE expert consensus on atrial cardiomyopathies: definition, characterization, and clinical implicationEur (L Engl)181020161455149010.1093/europace/euw161"
+    },
+    {
+      "html": "ZhengD.L.WuQ.R.ZengP.Advanced glycation end products induce senescence of atrial myocytes and increase susceptibility of atrial fibrillation in diabetic miceAging cell2112202210.1111/acel.13734e13734-n/a"
+    },
+    {
+      "html": "PattiG.CavallariI.AndreottiF.Prevention of atherothrombotic events in patients with diabetes mellitus: from antithrombotic therapies to new-generation glucose-lowering drugsNat rev cardiol162201911313010.1038/s41569-018-0080-230250166PMC7136162"
+    },
+    {
+      "html": "PapazoglouA.S.KartasA.SamarasA.Prognostic significance of diabetes mellitus in patients with atrial fibrillationCardiovasc Diabetol201202110.1186/s12933-021-01232-740-40"
+    },
+    {
+      "html": "PatlollaS.H.LeeH.-C.NoseworthyP.A.Impact of diabetes mellitus on stroke and survival in patients with atrial fibrillationAm J Cardiol1312020333910.1016/j.amjcard.2020.06.04932723556PMC7484039"
+    },
+    {
+      "html": "Echouffo-TcheuguiJ.B.ShraderP.ThomasL.Care patterns and outcomes in atrial fibrillation patients with and without diabetes: ORBIT-AF registryJ Am Coll Cardiol701120171325133510.1016/j.jacc.2017.07.75528882229"
+    },
+    {
+      "html": "WangA.GreenJ.B.HalperinJ.L.PicciniS.J.P.Atrial fibrillation and diabetes mellitus: JACC review topic of the weekJ Am Coll Cardiol74820191107111510.1016/j.jacc.2019.07.02031439220"
+    },
+    {
+      "html": "GengT.WangY.LuQ.Associations of new-onset atrial fibrillation with risks of cardiovascular disease, chronic kidney disease, and mortality among patients with type 2 diabetesDiabetes care451020222422242910.2337/dc22-071735984477"
+    },
+    {
+      "html": "KimS.ParkS.Y.KimB.Association between antidiabetic drugs and the incidence of atrial fibrillation in patients with type 2 diabetes: a nationwide cohort study in South KoreaDiabetes Res Clin Pr198202310.1016/j.diabres.2023.110626110626-110626"
+    },
+    {
+      "html": "ZelnikerT.A.BonacaM.P.FurtadoR.H.M.Effect of Dapagliflozin on atrial fibrillation in patients with type 2 diabetes mellitus: insights from the DECLARE-TIMI 58 trialCirc (N Y NY)1411520201227123410.1161/CIRCULATIONAHA.119.044183"
+    },
+    {
+      "html": "ChangS.-H.WuL-SChiouM.-J.Association of metformin with lower atrial fibrillation risk among patients with type 2 diabetes mellitus: a population-based dynamic cohort and in vitro studiesCardiovasc Diabetol131201410.1186/s12933-014-0123-x123-123"
+    },
+    {
+      "html": "KidessG.G.HamzaM.GoruR.BasitJ.AlraiyesM.AlraiesM.C.The impact of sodium-glucose cotransporter-2 inhibitors on atrial fibrillation burden in diabetic patientsAm J Cardiol2462025657010.1016/j.amjcard.2025.03.00240058622"
+    },
+    {
+      "html": "LiW.ChenX.XieX.Comparison of sodium–Glucose cotransporter 2 inhibitors and glucagon-like peptide receptor agonists for atrial fibrillation in type 2 diabetes mellitus: systematic review with network meta-analysis of randomized controlled trialsJ Cardiovasc Pharmacol793202228128810.1097/FJC.000000000000119734935705"
+    },
+    {
+      "html": "FitchettD.ZinmanB.WannerC.Heart failure outcomes with empagliflozin in patients with type 2 diabetes at high cardiovascular risk: results of the EMPA-REG OUTCOME ® trialEur Heart J371920161526153410.1093/eurheartj/ehv72826819227PMC4872285"
+    },
+    {
+      "html": "JosephJ.J.DeedwaniaP.AcharyaT.Comprehensive management of cardiovascular risk factors for adults with type 2 diabetes: a scientific statement from the American Heart AssociationCirc (N Y NY)14592022e722e75910.1161/CIR.0000000000001040"
+    },
+    {
+      "html": "ZakariaN.I.TehranifarP.LaferrèreB.AlbrechtS.S.Racial and ethnic disparities in glycemic control among insured US adultsJAMA netw open610202310.1001/jamanetworkopen.2023.36307e2336307-e2336307"
+    },
+    {
+      "html": "WangL.LiX.WangZ.Trends in prevalence of diabetes and control of risk factors in diabetes among US adults, 1999-2018JAMA: j Am Med Assoc3268202170471610.1001/jama.2021.9883"
+    },
+    {
+      "html": "SaydahS.CowieC.EberhardtM.S.De RekeneireN.NarayanK.M.V.Race and ethnic differences in glycemic control among adults with diagnosed diabetes in the United StatesEthn Dis173200752953510.1043/1049-510X(2007)17[529:RAEDIG]2.0.CO;217985509"
+    },
+    {
+      "html": "RodriguezL.A.FinertieH.NeugebauerR.S.Race and ethnicity and pharmacy dispensing of SGLT2 inhibitors and GLP-1 receptor agonists in type 2 diabetesLancet Reg Health - Am (Online)34202410.1016/j.lana.2024.100759100759-100759"
+    },
+    {
+      "html": "ZhaoJ.Z.WeinhandlE.D.CarlsonA.M.St. PeterW.LDisparities in SGLT2 inhibitor or glucagon-like peptide 1 receptor agonist initiation among medicare-insured adults with CKD in the United StatesKidney med51202310.1016/j.xkme.2022.100564100564-100564"
+    },
+    {
+      "html": "Lamprea-MontealegreJ.A.MaddenE.TummalapalliS.L.Association of race and ethnicity with prescription of SGLT2 inhibitors and GLP1 receptor agonists among patients with type 2 diabetes in the Veterans Health Administration SystemJAMA3289202286187110.1001/jama.2022.1388536066519PMC9449794"
+    },
+    {
+      "html": "RubinoD.AngeleneH.FabricatoreA.ArdJ.Efficacy and safety of semaglutide 2.4 mg by race and ethnicity: a post hoc analysis of three randomized controlled trialsObes (Silver Spring Md)32720241268128010.1002/oby.24042"
+    },
+    {
+      "html": "EgedeL.E.WalkerR.J.LindeS.Nonmedical interventions for type 2 diabetes: evidence, actionable strategies, and policy opportunitiesHealth aff (Millwood Va)417202210.1377/hlthaff.2022.00236963-28"
+    },
+    {
+      "html": "NIH. What is sleep apnea? 2025."
+    },
+    {
+      "html": "AliD.QureshiS.SiddiquiH.Rising cardiovascular mortality among obstructive sleep apnea patients: united States epidemiological trends (1999–2019)Heart lung70202527127710.1016/j.hrtlng.2025.01.00539798186"
+    },
+    {
+      "html": "Acevedo-FontanezA.I.PatelS.R.Racial disparities in obstructive sleep apnea care in the United StatesSleep (N Y NY)486202510.1093/sleep/zsaf078"
+    },
+    {
+      "html": "HealyW.J.JohnsonD.A.LiuX.Jean-LouisG.KwonY.Disparities in sleep care and cardiovascular outcomes: defining the problem and implementing solutionsJ clin sleep med206202484184410.5664/jcsm.1107238415745PMC11145049"
+    },
+    {
+      "html": "AbumuamarA.M.DorianP.NewmanD.ShapiroC.M.The prevalence of obstructive sleep apnea in patients with atrial fibrillationClin cardiol (Mahwah NJ)415201860160710.1002/clc.22933"
+    },
+    {
+      "html": "KanagalaR.MuraliN.S.FriedmanP.A.Obstructive sleep apnea and the recurrence of atrial fibrillationCirculation1072020032589259410.1161/01.CIR.0000068337.259Clin. cardiol. (Mahwah NJ)94.211274300210.1161/01.CIR.0000068337.25994.21"
+    },
+    {
+      "html": "YaggiH.K.ConcatoJ.KernanW.N.LichtmanJ.H.BrassL.M.MohseninV.Obstructive sleep apnea as a risk factor for stroke and deathN Engl J Med3531920052034204110.1056/NEJMoa04310416282178"
+    },
+    {
+      "html": "LipfordM.C.FlemmingK.D.CalvinA.D.Associations between cardioembolic stroke and obstructive sleep apneaSleep (N Y NY)381120151699170510.5665/sleep.5146"
+    },
+    {
+      "html": "BrunettiV.TestaniE.LosurdoA.Association of obstructive sleep apnea and atrial fibrillation in acute ischemic stroke: a cross-sectional studyJ Pers Med133202352710.3390/jpm1303052736983709PMC10051494"
+    },
+    {
+      "html": "PengoM.F.FainiA.GroteL.Impact of sleep apnea on cardioembolic risk in patients with atrial fibrillation: data from the ESADA cohortStroke (1970)522202171271510.1161/STROKEAHA.120.030285"
+    },
+    {
+      "html": "Shapira-DanielsA.MohantyS.Contreras-ValdesF.M.Prevalence of undiagnosed sleep apnea in patients with atrial fibrillation and its impact on therapyJACC Clin electrophysiol61220201499150610.1016/j.jacep.2020.05.03033213809"
+    },
+    {
+      "html": "SankaranarayananR.BansalA.YanamaladoddiV.R.Atrial fibrillation in obstructive sleep apnea patients: mechanisms, risk factors, and management strategiesCur3us (Palo Alto CA)153202310.7759/cureus.36282e36282-e36282"
+    },
+    {
+      "html": "YaegerA.CashN.R.ParhamT.A nurse-led limited risk factor modification program to address obesity and obstructive sleep apnea in atrial fibrillation patientsJ Am Heart Assoc723201810.1161/JAHA.118.010414e010414-e010414"
+    },
+    {
+      "html": "HuangB.LiuH.ScherlagB.J.Atrial fibrillation in obstructive sleep apnea: neural mechanisms and emerging therapiesTrends Cardiovasc Med312202112713210.1016/j.tcm.2020.01.00632008837"
+    },
+    {
+      "html": "VargaP.C.RosianuH.S.VesaS.C.HancuB.G.D.BeyerR.PopC.M.The impact of continuous positive airway pressure on cardiac arrhythmias in patients with sleep apneaJ res med sci251202010.4103/jrms.JRMS_677_1842-42"
+    },
+    {
+      "html": "NeilanT.G.FarhadH.DodsonJ.A.Effect of sleep apnea and continuous positive airway pressure on cardiac structure and recurrence of atrial fibrillationJ Am Heart Assoc26201310.1161/jaha.113.000421e-n/a"
+    },
+    {
+      "html": "HolmqvistF.GuanN.ZhuZ.Impact of obstructive sleep apnea and continuous positive airway pressure therapy on outcomes in patients with atrial fibrillation—Results from the Outcomes Registry for better informed treatment of atrial fibrillation (ORBIT-AF)Am heart j1695201564765410.1016/j.ahj.2014.12.024.e225965712"
+    },
+    {
+      "html": "AbumuamarA.M.NewmanD.DorianP.ShapiroC.M.Cardiac effects of CPAP treatment in patients with obstructive sleep apnea and atrial fibrillationJ interv card electrophysiol543201928929710.1007/s10840-018-0482-430415352"
+    },
+    {
+      "html": "BillingsM.E.AuckleyD.BencaR.Race and residential socioeconomics as predictors of CPAP adherenceSleep (N Y NY)341220111653165810.5665/sleep.1428"
+    },
+    {
+      "html": "ScharfS.M.SeidenL.DeMoreJ.Carter-PokrasO.Racial differences in clinical presentation of patients with sleep-disordered breathingSleep breath84200417318310.1055/s-2004-86089415611892"
+    },
+    {
+      "html": "ThorntonJ.D.DudleyK.A.SaeedG.J.Differences in symptoms and severity of obstructive sleep apnea between black and white patientsAnn Am Thorac Soc192202227227810.1513/AnnalsATS.202012-1483OC34242152PMC8867366"
+    },
+    {
+      "html": "OlafiranyeO.AkinboboyeO.MitchellJ.E.OgedegbeG.Jean-LouisG.Obstructive sleep apnea and cardiovascular disease in blacks: a call to action from the Association of Black CardiologistsAm heart j1654201346847610.1016/j.ahj.2012.12.01823537962PMC4144432"
+    },
+    {
+      "html": "GallagherC.HendriksJ.M.L.ElliottA.D.Alcohol and incident atrial fibrillation – A systematic review and meta-analysisInt J Cardiol2462017465210.1016/j.ijcard.2017.05.13328867013"
+    },
+    {
+      "html": "VoskoboinikA.KalmanJ.M.De SilvaA.Alcohol abstinence in drinkers with atrial fibrillationN Engl J Med38212020202810.1056/NEJMoa181759131893513"
+    },
+    {
+      "html": "DoshiR.DaveM.MajmundarM.National rates and trends of tobacco and substance use disorders among atrial fibrillation hospitalizationsHeart lung502202124425110.1016/j.hrtlng.2020.12.00933359929PMC8310779"
+    },
+    {
+      "html": "MarcusG.M.VittinghoffE.WhitmanI.R.Acute consumption of alcohol and discrete atrial fibrillation eventsAnn Intern Med1741120211503150910.7326/M21-022834461028"
+    },
+    {
+      "html": "PianoM.R.MarcusG.M.AycockD.M.Alcohol use and cardiovascular disease: a scientific statement from the American Heart AssociationCirc (N Y NY)202510.1161/CIR.0000000000001341"
+    },
+    {
+      "html": "KodamaS.SaitoK.OhashiY.Alcohol consumption and risk of atrial fibrillation: a meta-analysisJ Am Coll Cardiol574201142743610.1016/j.jacc.2010.08.64121251583"
+    },
+    {
+      "html": "LarssonS.C.DrcaN.WolkA.Alcohol consumption and risk of atrial fibrillation: a prospective study and dose-response meta-analysisJ Am Coll Cardiol643201428228910.1016/j.jacc.2014.03.048"
+    },
+    {
+      "html": "McManusD.D.YinX.GladstoneR.Alcohol consumption, left atrial diameter, and atrial fibrillationJ Am Heart Assoc59201610.1161/jaha.116.004060n/a"
+    },
+    {
+      "html": "VoskoboinikA.WongG.LeeG.Moderate alcohol consumption is associated with atrial electrical and structural changes: insights from high-density left atrial electroanatomic mappingHeart rhythm162201925125910.1016/j.hrthm.2018.10.04130639070"
+    },
+    {
+      "html": "QiaoY.ShiR.HouB.Impact of alcohol consumption on substrate remodeling and ablation outcome of paroxysmal atrial fibrillationJ Am Heart Assoc411201510.1161/jaha.115.002349"
+    },
+    {
+      "html": "LeeS.-R.ChoiE.-K.JungJ.-H.HanK.-D.OhS.LipG.Y.H.Lower risk of stroke after alcohol abstinence in patients with incident atrial fibrillation: a nationwide population-based cohort studyEur Heart J424620214759476810.1093/eurheartj/ehab31534097040PMC8651176"
+    },
+    {
+      "html": "WangX.ChenC.YangZ.Global burden of atrial fibrillation and atrial flutter due to high alcohol use from 1990 to 2021: estimates from the global burden of disease study 2021BMC Cardiovasc Disord251202510.1186/s12872-025-04947-7488-15"
+    },
+    {
+      "html": "KristA.H.BradleyK.A.Addressing alcohol useN Engl J Med3921720251721173110.1056/NEJMcp240212140305713"
+    },
+    {
+      "html": "McPheetersM.O’ConnorE.A.RileyS.Pharmacotherapy for Alcohol use disorder: a systematic review and meta-analysisJAMA: j Am Med Assoc3301720231653166510.1001/jama.2023.19761"
+    },
+    {
+      "html": "HendershotC.S.BremmerM.P.PaladinoM.B.Once-weekly semaglutide in adults with alcohol use disorder: a randomized clinical trialJAMA psychiatry (Chic Ill)824202539540510.1001/jamapsychiatry.2024.4789"
+    },
+    {
+      "html": "DixitS.AlonsoA.VittinghoffE.SolimanE.ChenL.Y.MarcusG.M.Past alcohol consumption and incident atrial fibrillation: the Atherosclerosis risk in Communities (ARIC) studyPloS one1210201710.1371/journal.pone.0185228e0185228-e0185228"
+    },
+    {
+      "html": "LeP.RichJ.J.BernsteinE.Y.Disparities in treatment for alcohol use disorder among all of us participantsAm J Psychiatry18111202497398710.1176/appi.ajp.2023073039482947PMC11632673"
+    },
+    {
+      "html": "HaenyA.M.OluwoyeO.CruzR.Drug and alcohol treatment utilization and barriers among black, American Indian/Alaskan Native, Latine, Asian/Pacific Islander/Native Hawaiian, and white adults: findings from NESARC-IIIJ Subst Abuse Treat131202110.1016/j.jsat.2021.108569108569-108569"
+    },
+    {
+      "html": "VaethP.A.C.Wang-SchweigM.DrinkingCaetano R.Alcohol use disorder, and treatment access and utilization among U.S. Racial/ethnic groupsAlcohol clin exp res411201761910.1111/acer.1328528019654PMC5205547"
+    },
+    {
+      "html": "PinedoM.A current re-examination of racial/ethnic disparities in the use of substance abuse treatment: do disparities persist?Drug Alcohol Depend202201916216710.1016/j.drugalcdep.2019.05.01731352305PMC10676029"
+    },
+    {
+      "html": "CookW.K.KerrW.C.TamC.C.LiL.Risky drinking and other drug use in adults with chronic conditions in the United States: differential associations by race/ethnicityAlcohol alcohol (Oxf)585202352353110.1093/alcalc/agad024"
+    },
+    {
+      "html": "WardS.AutauboJ.WatersP.A scoping review of health inequities in alcohol use disorderAm J Drug Alcohol Abuse5012024274110.1080/00952990.2023.229686038295346"
+    },
+    {
+      "html": "AuneD.SchlesingerS.NoratT.RiboliE.Tobacco smoking and the risk of atrial fibrillation: a systematic review and meta-analysis of prospective studiesEur J Prev Cardiol251320181437145110.1177/204748731878043529996680"
+    },
+    {
+      "html": "CorneliusM.E.LoretanC.G.JamalA.Tobacco product use among adults – United States, 2021MMWR Morb mortal wkly rep7218202347548310.15585/mmwr.mm7218a137141154PMC10168602"
+    },
+    {
+      "html": "AlbertsenI.E.B.RasmussenL.H.P.LaneD.A.P.The impact of smoking on thromboembolism and mortality in patients with incident atrial fibrillationChest1453201455956610.1378/chest.13-174024091709"
+    },
+    {
+      "html": "RodriguezC.J.SolimanE.Z.AlonsoA.Atrial fibrillation incidence and risk factors in relation to race-ethnicity and the population attributable fraction of atrial fibrillation risk factors: the Multi-Ethnic Study of AtherosclerosisAnn Epidemiol2522015717610.1016/j.annepidem.2014.11.024.e1.25523897PMC4559265"
+    },
+    {
+      "html": "ChamberlainAMPMPHAgarwalSKMDMPHFolsomARMDMPHSmoking and incidence of atrial fibrillation: results from the Atherosclerosis risk in Communities (ARIC) studyHeart Rhythm8820111160116610.1016/j.hrthm.2011.03.03821419237PMC3139831"
+    },
+    {
+      "html": "GoetteA.LendeckelU.KuchenbeckerA.Cigarette smoking induces atrial fibrosis in humans via nicotineHeart93920071056106310.1136/hrt.2005.08717117395670PMC1955003"
+    },
+    {
+      "html": "GramleyF.LorenzenJ.KoellenspergerE.KetteringK.WeissC.MunzelT.Atrial fibrosis and atrial fibrillation: the role of the TGF-β1 signaling pathwayInt J Cardiol1433201040541310.1016/j.ijcard.2009.03.11019394095"
+    },
+    {
+      "html": "ShanH.ZhangY.LuY.Downregulation of miR-133 and miR-590 contributes to nicotine-induced atrial remodelling in caninesCardiovasc Res833200946547210.1093/cvr/cvp13019398468"
+    },
+    {
+      "html": "RenX.WangX.YuanM.Mechanisms and treatments of oxidative stress in atrial fibrillationCurr Pharm Des242620183062307110.2174/138161282466618090314404230179130"
+    },
+    {
+      "html": "D&#x27;AlessandroA.BoeckelmannI.HammwhönerM.GoetteA.Nicotine, cigarette smoking and cardiac arrhythmia: an overviewEur J Prev Cardiol193201229730510.1177/174182671141173822779085"
+    },
+    {
+      "html": "BuiattiA.KaessB.ReentsT.Catheter ablation for &quot;lone&quot; atrial fibrillation: efficacy and predictors of recurrenceJ Cardiovasc Electrophysiol275201653654110.1111/jce.1293626799683"
+    },
+    {
+      "html": "ChengW.H.LoL.W.LinY.J.Cigarette smoking causes a worse long-term outcome in persistent atrial fibrillation following catheter ablationJ Cardiovasc Electrophysiol295201869970610.1111/jce.1345129424013"
+    },
+    {
+      "html": "ApostolakisS.SullivanR.M.OlshanskyB.LipG.Y.H.Factors affecting quality of anticoagulation control among patients with atrial fibrillation on warfarin: the SAMe-TT₂R₂ scoreChest144520131555156310.1378/chest.13-005423669885"
+    },
+    {
+      "html": "ChoiS.ChangJ.KimK.Association of smoking cessation after atrial fibrillation diagnosis on the risk of cardiovascular disease: a cohort study of South Korean menBMC public health201202010.1186/s12889-020-8275-y168-168"
+    },
+    {
+      "html": "BenzA.P.HealeyJ.S.ChinA.Stroke risk prediction in patients with atrial fibrillation with and without rheumatic heart diseaseCardiovasc Res1181202229530410.1093/cvr/cvaa34433386845"
+    },
+    {
+      "html": "ChatterjeeN.A.M.D.M.ChaeCUMDMPHKimE.M.Modifiable risk factors for incident heart failure in atrial fibrillationJACC Heart fail58201755256010.1016/j.jchf.2017.04.00428624486PMC5873947"
+    },
+    {
+      "html": "ChamberlainA.M.AlonsoA.GershB.J.Multimorbidity and the risk of hospitalization and death in atrial fibrillation: a population-based studyAm Heart J1852017748410.1016/j.ahj.2016.11.00828267478PMC5343767"
+    },
+    {
+      "html": "AlbertsenI.E.RasmussenL.H.LaneD.A.The impact of smoking on thromboembolism and mortality in patients with incident atrial fibrillationChest1453201455956610.1378/chest.13-174024091709"
+    },
+    {
+      "html": "SardanaM.TangY.MagnaniJ.W.Provider-level variation in smoking cessation assistance provided in the cardiology clinics: insights from the NCDR PINNACLE RegistryJ Am Heart Assoc8132019e01141210.1161/JAHA.118.011307"
+    },
+    {
+      "html": "HuangY.BrittonJ.HubbardR.LewisS.Who receives prescriptions for smoking cessation medications? An association rule mining analysis using a large primary care databaseTob Control224201327427910.1136/tobaccocontrol-2011-05012422246781"
+    },
+    {
+      "html": "Sabado-LiwagM.ZamoraM.El-ToukhyS.Current state of unhealthy living characteristics in Black/African American and Latino populations: tobacco useProg Cardiovasc Dis712022273610.1016/j.pcad.2022.04.00935490867PMC10699915"
+    },
+    {
+      "html": "CokkinidesV.E.HalpernM.T.BarbeauE.M.WardE.ThunM.J.Racial and ethnic disparities in smoking-cessation interventions: analysis of the 2005 National Health Interview SurveyAm J Prev Med345200840441210.1016/j.amepre.2008.02.00318407007"
+    },
+    {
+      "html": "TibuakuuM.OkunrintemiV.JirruE.National trends in cessation counseling, prescription medication use, and associated costs among US adult cigarette smokersJAMA Netw Open25201910.1001/jamanetworkopen.2019.4585e194585-e194585"
+    },
+    {
+      "html": "BaileyS.R.HeintzmanJ.JacobR.L.PuroJ.MarinoM.Disparities in smoking cessation assistance in US primary care clinicsAm j public health (1971)108820181082109010.2105/AJPH.2018.304492"
+    },
+    {
+      "html": "NollenN.L.AhluwaliaJ.S.Sanderson CoxL.Assessment of racial differences in pharmacotherapy efficacy for smoking cessation: secondary analysis of the EAGLES randomized clinical trialJAMA Netw Open412021e203205310.1001/jamanetworkopen.2020.32053"
+    },
+    {
+      "html": "LeeS.-R.ChoiE.-K.JungJ.-H.HanK.-D.OhS.LipG.Y.H.Smoking cessation after diagnosis of new-onset atrial fibrillation and the risk of stroke and deathJ Clin Med10112021223810.3390/jcm1011223834064089PMC8196704"
+    },
+    {
+      "html": "BenjaminE.J.ThomasK.L.GoA.S.Transforming atrial fibrillation research to integrate social determinants of health: a National Heart, Lung, and Blood Institute workshop reportJAMA cardiol82202318219110.1001/jamacardio.2022.409136478155PMC10993288"
+    },
+    {
+      "html": "LaffinL.J.KopjarB.MelgaardC.Lorundrostat efficacy and safety in patients with uncontrolled hypertensionN Engl J Med3921820251813182310.1056/NEJMoa250144040267417"
+    },
+    {
+      "html": "DesaiA.S.WebbD.J.TaubelJ.Zilebesiran, an RNA interference therapeutic agent for hypertensionN Engl J Med3893202322823810.1056/nejmoa220839137467498"
+    },
+    {
+      "html": "AlegríaM.AlvarezK.IshikawaR.Z.DiMarzioK.McPeckS.Removing obstacles to eliminating racial and ethnic disparities In behavioral health careHealth Aff356201699199910.1377/hlthaff.2016.0029"
+    },
+    {
+      "html": "ZemoreS.E.Karriker-JaffeK.J.MuliaN.The future of research on alcohol-related disparities across U.S. Racial/ethnic groups: a plan of attackJ Stud Alcohol Drugs791201872110.15288/jsad.2018.79.729227222PMC5894859"
+    },
+    {
+      "html": "NarasimmarajP.R.OseranA.TaleA.Out-of-pocket drug costs for Medicare beneficiaries with cardiovascular risk factors under the inflation Reduction ActJ Am Coll Cardiol811520231491150110.1016/j.jacc.2023.02.00237045519PMC11129895"
+    },
+    {
+      "html": "HaberP.S.RopperA.H.Identification and treatment of Alcohol use disorderN Engl J Med3923202525826610.1056/NEJMra230651139813644"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

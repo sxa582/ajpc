@@ -1,0 +1,489 @@
+{
+  "pmcid": "PMC13261193",
+  "pmid": "42291037",
+  "doi": "10.1016/j.ajpc.2026.101457",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13261193/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "The impact of post-acute sequelae of COVID-19 on cardiac function and structure: A systematic review and a hybrid individual participant data meta-analysis",
+  "articleType": "Review Article",
+  "published": "2026-01-31",
+  "year": "2026",
+  "volume": "27",
+  "issue": "",
+  "articleNumber": "101457",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2026",
+  "authors": [
+    {
+      "given": "Binyam Tariku",
+      "surname": "Seboka",
+      "display": "Binyam Tariku Seboka"
+    },
+    {
+      "given": "Lillian",
+      "surname": "Ma",
+      "display": "Lillian Ma"
+    },
+    {
+      "given": "Dianna J.",
+      "surname": "Magliano",
+      "display": "Dianna J. Magliano"
+    },
+    {
+      "given": "Stella",
+      "surname": "Talic",
+      "display": "Stella Talic"
+    },
+    {
+      "given": "Antonio da Silva Menezes",
+      "surname": "Junior",
+      "display": "Antonio da Silva Menezes Junior"
+    },
+    {
+      "given": "Alessandra",
+      "surname": "Borlotti",
+      "display": "Alessandra Borlotti"
+    },
+    {
+      "given": "Helena Thomaides",
+      "surname": "Brears",
+      "display": "Helena Thomaides Brears"
+    },
+    {
+      "given": "Andrea",
+      "surname": "Dennis",
+      "display": "Andrea Dennis"
+    },
+    {
+      "given": "Amitava",
+      "surname": "Banerjee",
+      "display": "Amitava Banerjee"
+    },
+    {
+      "given": "Thomas H.",
+      "surname": "Marwick",
+      "display": "Thomas H. Marwick"
+    },
+    {
+      "given": "Quan",
+      "surname": "Huynh",
+      "display": "Quan Huynh"
+    }
+  ],
+  "affiliations": [
+    "aBaker Department of Cardiometabolic Health, University of Melbourne, Melbourne, Victoria, Australia",
+    "bImaging Research Laboratory, Baker Heart and Diabetes Institute, Melbourne, Victoria, Australia",
+    "cDiabetes and Population Health, Baker Heart and Diabetes Institute, Melbourne, Australia",
+    "dSchool of Public Health and Preventive Medicine, Monash University, Melbourne, Australia",
+    "eMonash University, Clinical Epidemiology and Pharmacoepidemiology, Australia",
+    "fFaculty of Medicine, Federal University of Goiás, Brazil",
+    "gPerspectum Diagnostics, United Kingdom",
+    "hInstitute of Health Informatics, University College London, United Kingdom",
+    "iMenzies Institute for Medical Research, University of Tasmania, Hobart, Australia"
+  ],
+  "keywords": [
+    "Post-acute sequelae of SARS-CoV-2 infection (PASC)",
+    "Cardiac function",
+    "Cardiac structure",
+    "Long COVID-19",
+    "Systematic review"
+  ],
+  "abstract": [
+    {
+      "html": "•This study examines the impact of persistent symptoms following COVID-19 infection (known as Post-Acute Sequelae of SARS-CoV-2 infection or PASC) on heart function.•Individuals with PASC show measurable impairments in cardiac function, particularly in global longitudinal strain (GLS) and left ventricular ejection fraction (LVEF).•Cardiac abnormalities are more pronounced in older adults and in those with diabetes or hypertension, indicating increased cardiovascular vulnerability and supporting a risk-stratified surveillance approach."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) infection has been shown to have effects that extend beyond the acute phase of illness. By December 2025, &gt;777 million people worldwide had been infected with COVID-19, and 10–20 % were estimated to develop post-acute sequelae of SARS-CoV-2 (PASC) [[1], [2], [3]]. This burden is expected to increase as the virus continues to infect tens of thousands of people globally each week [1]. Despite the respiratory onset of COVID-19, myocardial injury, arrhythmias, and ventricular dysfunction were commonly documented during both the acute phase and recovery [[4], [5], [6], [7]], raising concerns that PASC may also lead to long-term cardiac sequelae."
+        },
+        {
+          "type": "paragraph",
+          "html": "PASC, also referred to as Long COVID, is defined by the World Health Organization (WHO) as the persistence or emergence of symptoms at least three months after infection, lasting for a minimum of two months without an alternative explanation [8]. While cardiovascular symptoms such as palpitations, arrhythmias, chest pain, and dysautonomia are commonly reported in PASC [[9], [10], [11],12], understanding its impact on cardiac function and structure require objective assessment. This may requires assessment through imaging modalities such as echocardiography, cardiac magnetic resonance imaging (CMR), and other advanced techniques [13,14]. Emerging evidence points to alterations in myocardial performance, ventricular remodeling, and subclinical cardiac injury [[15], [16], [17]]. The potential of these effects could resemble the multiple-hit hypothesis, where an initial myocardial injury may predispose individuals to longer-term cardiac dysfunction [18,19]. Whether these changes are directly attributable to PASC or reflect underlying susceptibility in individuals predisposed to developing PASC remains uncertain, and there is limited consensus on the persistence and progression of these alterations over time."
+        },
+        {
+          "type": "paragraph",
+          "html": "Existing systematic reviews and meta-analyses characterized the cardiac phenotype during the acute and after recovery phases of COVID-19, including myocardial injury, left and right ventricular dysfunction [[20], [21], [22]]. However, PASC represents a distinct post-infectious condition, and it is unclear how the cardiovascular sequelae evolve in this population. Hence, this systematic review and hybrid individual participant data (IPD) meta-analysis aimed to synthesize existing evidence on cardiac structural and functional changes in individuals with PASC. By combining aggregate and participant-level data, we sought to provide a comprehensive understanding of its long-term impact on cardiovascular health and to inform risk-stratified monitoring and future research priorities in this growing population."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Study design.</strong> The study protocol was prospectively registered in the PROSPERO (CRD42024577867) [23]. The review followed the Meta-analysis of Observational Studies in Epidemiology (MOOSE) guidelines [24] and the Preferred Reporting Items for Systematic Reviews and Meta-analyses (PRISMA) guidelines for manuscript reporting [25]."
+        },
+        {
+          "type": "paragraph",
+          "html": "For the IPD meta-analysis, we included three studies providing non-identifiable IPD from the 17 studies included in the systematic review, comprising a total of 956 participants. Corresponding authors of all 17 studies were contacted to request IPD. IPD variables were analyzed largely as provided by the original studies. Categorical variables (e.g., sex and comorbidities) were recoded using consistent binary definitions where necessary to enable pooled analyses; no additional harmonization of continuous variables or outcome definitions was performed. Analyses of unadjusted pooled means included all participants with available cardiac outcome measures. For analyses adjusted for covariates, complete-case data were used."
+        },
+        {
+          "type": "paragraph",
+          "html": "<strong>Search strategy.</strong> The literature search was conducted across seven databases: Medline, PubMed, Embase (Ovid), Web of Science, CINAHL, Scopus, and PsycINFO. The search strategy used the PECO framework to ensure the identification of all relevant articles [26]. The Population included COVID-19 survivors with PASC; Exposure was COVID-19 infection; Comparators were healthy individuals, individuals previously hospitalized with COVID-19, and age- and gender-matched individuals without COVID-19; and Outcomes focused on cardiac function and structural measures. Initial searches and data extraction were conducted in August 2024 and were updated in October 2025 to include articles published up to that date. 3580 studies were identified across seven databases: PubMed (47), Embase (915), Scopus (2353), Web of Science (67), Medline Ovid (46), CINAHL (146), and PsycINFO (6). Detailed search strategies and results are in <strong>Supplementary Tables 1–7.</strong>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<strong>Eligibility criteria.</strong> Articles were eligible if they met the following criteria: (1) included adults (≥18 years old); and (2) assessed cardiac function and structure using non-invasive approaches such as echocardiography or CMR imaging. In this systematic review, cardiac function was evaluated in terms of systolic and diastolic performance. Systolic function was assessed using left ventricular ejection fraction (LVEF), Left Ventricular (LV) myocardial deformation (GLS), and right ventricular ejection fraction (RVEF), based on guidelines from the American Society of Echocardiography (ASE) and the European Association of Cardiovascular Imaging (EACVI) [13,14,27,28]. Diastolic function was assessed using the E/e&#x27; ratio, while right ventricular function was evaluated through tricuspid annular plane systolic excursion (TAPSE) and systolic pulmonary arterial pressure (sPAP). Cardiac structure, including chamber size, ventricular volumes, and wall thickness, was measured, with left ventricular end-diastolic volume (LVEDV) as a key indicator. Systolic and diastolic blood pressure (SBP and DBP) were also included as markers of cardiac workload. We excluded studies involving pregnant participants, those with a follow-up period shorter than 28 days, and review articles or studies that were not primary research."
+        },
+        {
+          "type": "paragraph",
+          "html": "The search results were imported into Covidence, a web-based platform for managing systematic reviews <strong>(Covidence, Melbourne, AU).</strong> The selection process followed the four-step procedure (identification, screening, eligibility, and inclusion) described in the PRISMA guidelines [25] and is illustrated in Fig. 1. Titles, abstracts, and full texts were independently reviewed by two reviewers (BTS and LM), with unresolved discrepancies referred to a third reviewer.Fig. 1Flowchart depicting study selection. A total of 3580 records were identified from seven databases. After applying the exclusion criteria, 17 studies were included in the final analysis. Some studies reported data for more than one of the review outcomes of cardiac function/structure.Fig. 1: dummy alt text"
+        },
+        {
+          "type": "paragraph",
+          "html": "<strong>Data extraction.</strong> The following information was extracted from studies: authors, publication year, population characteristics (including sample size and demographics), clinical characteristics (such as COVID-19 severity and comorbidities), cardiac function outcomes (including systolic and diastolic performance), cardiac structure outcomes (including ventricular size and systemic hemodynamic parameters), imaging modalities used, study location, follow-up period, study design, and effect sizes."
+        },
+        {
+          "type": "paragraph",
+          "html": "<strong>Quality assessment.</strong> We evaluated the quality of included studies using the Newcastle-Ottawa Scale (NOS) for cohort and case-control designs [29], and the Joanna Briggs Institute (JBI) tool for cross-sectional studies [30]. The NOS scores studies from 0 to 9, with 7 to 9 indicating high quality, 4 to 6 moderate quality, and 0 to 3 low quality. The JBI tool scores studies from 0 to 10, with 8 to 10 indicating high quality, 5 to 7 moderate quality, and 0 to 4 low quality. To assess publication bias, we used funnel plot visual inspection, Egger’s regression test, and the trim-and-fill method [31]. We also applied the Grading of Recommendations, Assessment, Development, and Evaluations (GRADE) criteria to evaluate the overall evidence quality [32,33], considering study design, risk of bias, consistency, directness, precision, and publication bias. The quality of the evidence was classified as very low, low, moderate, and high."
+        },
+        {
+          "type": "paragraph",
+          "html": "<strong>Outcomes.</strong> The meta-analysis included the following outcomes based on the available statistics reported by each study: LVEF, LVEDV, Left Ventricular Mass Index(LVMI), Left Ventricular Internal Dimension in Diastole(LVIDd), Left Ventricular End-Diastolic Volume Index(LVEDVi), Left Ventricular End-Systolic Volume Index(LVESVi), Left Atrial Volume Index(LAVI), the E/e&#x27; ratio, LV-GLS, RVEF, TAPSE, and sPAP in mmHg. Additionally, heart rate (beats per minute), SBP, and DBP for both the PASC and control groups were explored."
+        },
+        {
+          "type": "paragraph",
+          "html": "<strong>Statistical analysis.</strong> We employed a random-effects meta-analysis with the REML (Restricted Maximum Likelihood) method to assess the effect of PASC on cardiac structure and function outcomes, estimating pooled Mean Differences (MDs) with 95 % confidence intervals (CIs). Heterogeneity was evaluated with the I² statistic, where values of 25 %, 50 %, and 75 % indicated low, moderate, and high heterogeneity, respectively. Tau² was also estimated to measure variability in true effect sizes. To further investigate sources of heterogeneity, we conducted stratified analyses by age, sex, clinical status, and comorbidities. Cardiac function was analyzed as continuous variables (GLS and LVEF) and using categorical thresholds (GLS &lt;16 %, LVEF &lt;50 %) to assess the prevalence of subclinical dysfunction. We also performed a multiple linear regression analysis using IPD to assess the associations between predictors (HTN, DM, weight, height, age, BMI, and sex) and cardiovascular measures, including LVEF, RVEF, LVEDV, RVEDV, and LV-GLS."
+        },
+        {
+          "type": "paragraph",
+          "html": "In this study, we assessed potential publication bias using the trim-and-fill method, which estimates the number of missing studies, adjusts the overall effect size, and provides a more accurate estimate by accounting for potentially unpublished studies [34]. We also performed a sensitivity analysis through Leave-One-Out methodology to evaluate the robustness of our findings [35]. Meta-analyses and statistical testing were performed using R-Studio statistical software, with a two-tailed alpha level set at 0.05."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Study Selection and Characteristics.</strong> Our systematic literature search identified 3580 records, of which 958 were duplicates. Initial screening based on titles resulted in 2072 articles. These articles were then screened by the abstracts to determine if they focused on the association of PASC with cardiac function and structure, which led to the exclusion of 1711 papers. At the eligibility stage, the full texts of 361 papers were reviewed, and 344 were excluded for not meeting the inclusion criteria. Seventeen studies with 4852 participants were included, of which 3932 contributed to the meta-analysis. IPD were requested from these studies, and data were obtained from three. The literature search process follows the PRISMA Guideline and is summarized using a flowchart as illustrated in Fig. 1."
+        },
+        {
+          "type": "paragraph",
+          "html": "<strong>Supplementary Table 8</strong> summarizes the baseline characteristics of the 17 studies included in the systematic review, comprising four cross-sectional studies, eleven cohort studies, and two case–control studies. Sample sizes ranged from 30 to 1154 participants. The mean age of participants varied between 51 and 60 years, and follow-up durations ranged from 6 weeks to 18 months, with six studies following participants for over a year. Control groups consisted of healthy participants, previously hospitalized COVID-19 survivors, and age- and sex-matched participants without a history of COVID-19. Transthoracic echocardiography (TTE) was the most commonly used imaging modality, followed by CMR. Detailed descriptions of cardiac imaging methods are provided in <strong>Supplementary Material</strong>, Section 4<strong>.</strong> Definitions of PASC varied across studies with respect to symptom duration, symptom domains, and ascertainment methods, and are summarized in <strong>Supplementary Table 9</strong>. Full citations for all included studies are available in the <strong>Supplementary Material (page 18).</strong>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<strong>Left Ventricular Function.</strong> In individuals with PASC, left ventricular function appears to be modestly impaired. The association between PASC and cardiac function was most apparent when assessed using LV-GLS and LVEF (see Table 1).Table 1Cardiac function and comorbidity prevalence in long COVID and control groups: pooled systematic review.Table 1: dummy alt textCharacteristicsPooled Mean (95 % CI)Mean Difference (95 % CI)P-valueLong COVID-19 (<em>n</em> = 726)Control (<em>n</em> = 230)<strong>Demographic</strong>Female <strong>Sex</strong>522(71.9 %)139(63.2 %)–0.000<strong>Age</strong>47.6(46.78–48.44)65.55(63.6–66.7)−17.5(−19.3- −15.7)0.000<strong>Cardiac parameters</strong>LVGLS15.49(15.28–15.72)19.13(18.85–19.4)−3.63 (−4.74 to −2.92)0.000LVEF61.36(60.70–62.02)59.7(59.39–60.2)1.577(0.33 - 2.83)0.000LVEDV148.31(145.11–151.49)163.27(149.1–177.4)−14.96 (−30.34 to 0.42)0.104RVEDV15.49(15.27–15.72)26.82(22.21–31.44)−11.33 (−18.02 to −4.64)0.000E’e average7.64(7.31–7.98)7.79(7.58–7.98)−0.15 (−0.31 to 0.01)0.226LAVI28.85(27.54–30.16)29.81(28.91–30.69)−0.96 (−2.74 to 0.82)0.110LVMI70.52(68.1–72.9)65.9(64.47–67.5)4.62 (1.28 to 7.96)0.999LVIDd4.51(4.42–4.6)4.3(4.21–4.35)0.21 (−0.01 to 0.43)0.999LVEDV2D Index45.48(43.65–47.32)43.5(42.87–44.26)1.98(−0.61–4.45)0.977LVESV2D Index17.62(16.71–18.54)16.84(16.47–17.22)0.78(−0.51–2.07)0.947<strong>Comorbidity status</strong>Diabetes0.037(0.022–0.051)0.29(0.24–0.35)−0.25(−0.32- −0.19)0.000Hypertension0.11(0.09–0.14)0.65(0.59–0.71)−0.53(−0.60- −0.47)0.000<strong>CI:</strong> Confidence Interval<strong>| LVEF:</strong> Left Ventricular Ejection Fraction | <strong>LVGLS:</strong> Left Ventricular Global Longitudinal Strain | <strong>LVEDV:</strong> Left Ventricular End-Diastolic Volume | <strong>RVEDV:</strong> Right Ventricular End-Diastolic Volume | <strong>E’e average:</strong> Average Early Diastolic Velocity of the Left Ventricle (E&#x27; wave) | <strong>LAVI:</strong> Left Atrial Volume Index | <strong>LVMI:</strong> Left Ventricular Mass Index | <strong>LVIDd:</strong> Left Ventricular Internal Diastolic Dimension| <strong>LVEDV2D Index:</strong> Left Ventricular End-Diastolic Volume 2-Dimensional Index| <strong>LVESV2D Index:</strong> Left Ventricular End-Systolic Volume 2-Dimensional Index."
+        },
+        {
+          "type": "paragraph",
+          "html": "In the pooled IPD analysis, the PASC group was associated with a significant reduction in GLS. The mean GLS was −15 % in the PASC group, compared to −19 % in the control group, indicating impaired myocardial deformation among individuals with PASC. Using categorical cut-offs, a higher proportion of individuals with PASC had abnormal GLS (&lt;16 %) compared to controls (58.2 %, 95 % CI: 54.5–61.8 vs. 12.2 %, 95 % CI: 8.5–17.1) (Table 2). In line with the IPD findings, a meta-analysis of 10 studies showed that, compared to the control groups, LV-GLS was significantly reduced in the PASC group, with a mean difference of 1.07 % (95 % CI: 0.64 to 1.51; Fig. 2). A subsequent meta-regression indicated varying levels of LV-GLS across groups, with diabetes significantly contributing to the observed heterogeneity <strong>(Supplementary Table 10).</strong> Furthermore, IPD-based meta-regression revealed that individuals with hypertension and diabetes tend to exhibit worse LV-GLS <strong>(Supplementary Table 11).</strong> These findings are summarized in <strong>Supplementary Table 12</strong>, which provides a narrative interpretation of GLS changes as being associated with subclinical systolic dysfunction in the PASC group.Table 2Cardiac function parameters in control and Long COVID participants: an IPD analysis.Table 2: dummy alt textMeasureCategoryControl ( %)Long COVID ( %)Global Longitudinal Strain(GLS)GLS ≥1687.8 %(82.9–91.4)41.7 %(38.1–45.4)GLS &lt;1612.2 %(8.5–17.1)58.2(54.5–61.8)Ejection Fraction (EF)EF ≥ 50 %100 %96.8 %(95.1–97.8)EF &lt; 50 %0 %3.2 %(2.1–4.8)No EF &lt;50 % events observed in the control group; confidence interval not estimable.Fig. 2Forest plots of mean difference in Global Longitudinal Strain for LV Function.Fig. 2: dummy alt text"
+        },
+        {
+          "type": "paragraph",
+          "html": "In contrast, findings related to LVEF were more variable. IPD analysis showed that the PASC group was associated with a slightly higher mean LVEF (61 %) compared to controls (60 %) (Table 1). However, a post hoc analysis excluding the Australian cohort showed lower LVEF in the PASC group compared to controls, reversing the direction of the effect seen in the full IPD sample <strong>(Supplementary Table 13).</strong> The post hoc findings are in line with the meta-analysis results, which demonstrated a significant association between PASC and reduced LVEF (Fig. 3). Fourteen studies including 3876 participants (2234 PASC, 1642 controls) were analyzed. The random-effects pooled estimate showed that PASC was associated with a significant reduction in LVEF (MD = −1.30 %, 95 % CI: −2.53 to −0.07), with significant heterogeneity (τ² = 3.0; <em>p</em> &lt; 0.001; I² = 86.7 %). Using categorical thresholds, the majority of participants had preserved LVEF (&gt;50 %), with 3.2 % of individuals with PASC showing LVEF &lt;50 %, compared to 0 % of controls (Table 2), supporting the overall finding of modest impairment in systolic function. Meta-regression indicated that older age and diabetes mellitus were associated with further reduction in LVEF <strong>(Supplementary Table 10).</strong> Additionally, the IPD analysis indicated that diabetes was associated with a reduction in LVEF among individuals with severe PASC <strong>(Supplementary Table 11)</strong>.Fig. 3Forest plots of mean difference in Left Ventricular Ejection Fraction (LVEF).Fig. 3: dummy alt text"
+        },
+        {
+          "type": "paragraph",
+          "html": "<strong>Structural Cardiac Parameters.</strong> Structural cardiac differences between individuals with and without PASC were generally modest and mostly non-significant. This section examines the relationships between PASC and cardiac structure using parameters such as LVIDd, LVMI, LVEDVi, LVESVi, E’e avg, LAVI, and LVEDV (Table 1). LVIDd was slightly higher in the Long COVID group (4.5 cm) than in controls (4.3 cm), with a non-significant mean difference of 0.2 cm. Likewise, the Long COVID group showed a marginally elevated LVMI (71 mg/m²) compared to controls (66 mg/m²), though this difference was not statistically significant. No meaningful differences were observed for LVEDVi and LVESVi, with mean values of 45 and 18 mL/m² respectively, in the Long COVID group, compared to 44 and 17 mL/m² in the controls. Furthermore, diastolic function measures, including E’e avg and LAVI, showed no notable differences."
+        },
+        {
+          "type": "paragraph",
+          "html": "IPD analysis indicated a lower LVEDV in the Long COVID group (148 mL) compared to controls (163 mL), though the difference was not statistically significant (Table 1). However, this trend is supported by a random-effects meta-analysis, which showed a significant reduction in LVEDV among the PASC group compared to controls (MD = −3.98 mL, 95 % CI: −7.20 to −0.76), with substantial heterogeneity (τ² = 6.9; <em>p</em> &lt; 0.001; I² = 81 %; Fig. 4). Meta-regression analysis identified older age as significantly associated with reduced LVEDV (<em>B</em> = −0.44 mL, <strong>Supplementary Table 10</strong>). Consistent with this, the IPD analysis also found a negative association between age and LVEDV <strong>(Supplementary Table 11).</strong>Fig. 4Forest plots of mean difference in Left Ventricular End-Diastolic Volume (LVEDV).Fig. 4: dummy alt text"
+        },
+        {
+          "type": "paragraph",
+          "html": "<strong>Right Ventricular Function and Diastolic Parameters.</strong> The association between PASC and Right Ventricular Function and Diastolic Parameters was assessed using TAPSE, E/e&#x27; ratio, sPAP, RVEF, blood pressure, and heart rate (see Table 1)."
+        },
+        {
+          "type": "paragraph",
+          "html": "PASC was associated with lower TAPSE (MD = −0.67, 95 % CI: −1.09 to −0.24; <em>p</em> = 0.05) but with borderline statistical significance (Fig. 5). No heterogeneity was observed, and meta-regression did not identify any significant predictors <strong>(Supplementary Table 10).</strong> There were no significant differences in right heart parameters and diastolic markers due to PASC. Specifically, the E/e′ ratio showed no difference (MD = 0.00; <em>p</em> = 0.99), while the differences in RVEF and sPAP demonstrated borderline significance, with p-values of 0.08 and 0.29, respectively. Similarly, the mean difference in heart rate was 4.23 beats per minute (<em>p</em> = 0.19). There were small differences in systolic (−1.20 mmHg, <em>p</em> = 0.86) and diastolic blood pressure (−1.54 mmHg, <em>p</em> = 0.73), <strong>Supplementary Figures 1–6.</strong>Fig. 5Forest Plot of Mean Differences in Tricuspid Annular Plane Systolic Excursion (TAPSE).Fig. 5: dummy alt text"
+        },
+        {
+          "type": "paragraph",
+          "html": "<strong>Diabetes and Hypertension in Long COVID.</strong> Diabetes and hypertension were reported in only 3.7 % and 11 % of Long COVID participants, versus 29 % and 65 % in controls, indicating a higher comorbidity burden in the control group (Table 1). To clarify their role, we conducted subgroup analyses focused on diabetes and hypertension. Findings show variations in LVGLS and LVEF by diabetes status <strong>(Supplementary Table 14).</strong> LVGLS was 19.4 % in controls without diabetes (reference), 18.7 % with diabetes (<em>p</em> = 0.009), 15.9 % in Long COVID participants with diabetes (<em>p</em> = 0.002), and 15.0 % without diabetes (<em>p</em> = 0.002), suggesting a more pronounced effect of Long COVID. LVEF was 61.9 % in controls without diabetes, 60.3 % with diabetes (<em>p</em> = 0.030), 58.9 % in Long COVID with diabetes (<em>p</em> = 0.232), and 59.5 % without (<em>p</em> &lt; 0.001)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Similarly, in the hypertension analysis <strong>(Supplementary Table 15),</strong> LVGLS was 18.4 % in controls without hypertension and 19.4 % with hypertension. In Long COVID participants, LVGLS dropped to 15.1 % regardless of hypertension status. LVEF remained 61.4 % in both control subgroups, while Long COVID participants showed lower values: 59.7 % (with hypertension) and 59.4 % (without). Effect modification analysis showed a significant association between Long COVID and both LVEF (−2.69) and GLS (−4.48), indicating cardiac impairment <strong>(Supplementary Table 16).</strong> Overall, the results showed that while LVGLS and LVEF altered in individuals with hypertension and diabetes, the effects were minimal, with Long COVID having a more profound effect. IPD has a limited sample size; thus, these exploratory findings should be interpreted cautiously."
+        },
+        {
+          "type": "paragraph",
+          "html": "<strong>Quality Assessment, Publication Bias, and Sensitivity Analyses.</strong> All studies were assessed for quality using the NOS for case-control and cohort studies and the JBI risk of bias tool for cross-sectional studies. Among the studies, 9(64 %) were assessed as good quality, 5(36 %) as fair quality, and none were classified as poor quality <strong>Supplementary Figures 7 and 8.</strong> We also assessed publication bias for estimates of LVEF, LVEDV, LVGLS, TAPSE, and sPAP in individuals with PASC and controls. Visual inspection of funnel plots indicated no publication bias for studies reporting all these estimates <strong>(Supplementary Figures 9–13)</strong>. Additionally, Egger’s test yielded non-significant p-values for all parameters. For all parameters (LVEF, LVEDV, LVGLS, TAPSE, and sPAP), the p-values were well above 0.05 <strong>(Supplementary Table 17).</strong> A trim-and-fill analysis also found no missing studies <strong>(Supplementary Figures 14–16).</strong> However, as per Cochrane guidelines [36], tests for publication bias, such as funnel plots and Egger’s test, have limited reliability when fewer than 10 studies are included in a meta-analysis. Therefore, the results of these analyses should be interpreted with caution. Despite these limitations, the consistent findings across multiple methods provide no strong indication of publication bias, though its presence cannot be entirely ruled out."
+        },
+        {
+          "type": "paragraph",
+          "html": "The robustness of the results was further confirmed using a Leave-One-Out sensitivity analysis. The pooled MD for LVEF, LVEDV, and LV-GLS remained significant across all sensitivity scenarios. Results showed that removing individual studies had minimal impact on the overall estimates, indicating that the findings were robust. However, the heterogeneity remained high <strong>(Supplementary Figures 17, 18, and 19).</strong>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<strong>In terms of overall evidence quality,</strong> we included 17 observational studies in our review, all graded as low-certainty evidence according to GRADE. However, the risk of bias was low, and the studies were ranked as high quality based on several quality assessments <strong>(Supplementary Table 18).</strong> Regarding inconsistency, subgroup analysis, meta-regression, and sensitivity analysis addressed substantial heterogeneity, with results remaining moderately consistent, further supported by IPD analysis. The studies examined the direct effects of PASC on cardiac parameters; however, PASC definitions varied, and control groups were heterogeneous. Consequently, directness was rated as moderate. Precision was also rated as moderate, due to small sample sizes despite relatively narrow confidence intervals. Finally, Egger’s test, funnel plots, and the trim-and-fill method showed no indication of publication bias, supporting a high level of confidence in this domain. Despite these consistent findings and low risk of bias, the overall certainty of the evidence remains low because all data are observational and heterogeneous."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This review suggests that COVID-19 survivors experiencing PASC exhibit modest, largely subclinical impairments in cardiac function, primarily involving the left ventricle. We examined data from 4852 individuals, including 3173 with PASC and 1679 controls. Among those with PASC, a modest yet statistically significant reduction was observed in LV-GLS, LVEF, and LVEDV. Cardiac impairments were evident not only in individuals with acute COVID-19 [6,22] but also in those who had recovered from the virus [21,37]. Moreover, impairments in cardiac function and structure resemble those seen following other viral infections, such as SARS and MERS [[38], [39], [40], [41], [42]]. These ongoing, subclinical impairments could enhance susceptibility to further cardiovascular injury. This highlights the need for continued follow-up and research to clarify their long-term clinical relevance."
+        },
+        {
+          "type": "paragraph",
+          "html": "To further explain the observed heterogeneity among included studies, we conducted meta-regression and IPD analysis. Our findings indicate that reductions in cardiac function were more pronounced among individuals with pre-existing hypertension or diabetes, as well as in those with more severe PASC. These findings are broadly consistent with current hypotheses on cardiac dysfunction following COVID-19, which propose distinct yet overlapping mechanisms across the acute and post-acute phases. It has been demonstrated that pre-existing cardiometabolic risk factors may reduce cardiac functional capacity [43,44], thereby increasing vulnerability to subsequent stressors. This vulnerability may become evident during acute COVID-19, when myocardial injury can occur through direct viral effects, systemic inflammation, and microvascular thrombosis [6,7]. In addition, PASC-specific processes, including chronic low-grade inflammation, autonomic dysfunction, endothelial dysfunction, and other post-viral sequelae, may contribute to persistent or delayed impairments in cardiac function [45,46]. It is also possible that reverse causality plays a role, with a predisposition to these underlying conditions increasing the likelihood of developing PASC."
+        },
+        {
+          "type": "paragraph",
+          "html": "We also observed no statistically significant differences between PASC and control groups in the E/e&#x27; ratio, RVEF, sPAP, heart rate, systolic blood pressure, or diastolic blood pressure. The lack of a significant difference in these measures may be attributed to PASC’s particular effect on cardiac function, or to subtle effects that take longer to manifest. In contrast to acute COVID-19 infection, PASC often appears to be more associated with the left ventricle than the right, and changes in parameters like the E/e&#x27; ratio or RVEF may be less pronounced if cardiac effects are mild or subclinical [7]. sPAP and autonomic dysfunction affecting heart rate and blood pressure may also remain stable, especially if lung or vascular involvement is not severe [47]. In addition, lifestyle, medication use, socioeconomic status, and genetic predispositions may also affect these parameters. We believe future studies need to emphasize the multifactorial and heterogeneous nature of risk factors related to cardiac dysfunction to better understand these complex associations."
+        },
+        {
+          "type": "paragraph",
+          "html": "Given that approximately 10–20 % of COVID-19 survivors are expected to develop PASC, even modest reductions in cardiac function may translate into a meaningful burden of cardiovascular vulnerability at the population level. In this review, PASC was associated with small reductions in left ventricular function, most consistently reflected by changes in LV-GLS and, to a lesser extent, LVEF. These findings should be interpreted as indicators of cardiovascular vulnerability rather than markers of inevitable progression to overt heart failure. The observed impairments were more pronounced among individuals with multiple persistent symptoms, older age, and cardiometabolic comorbidities. Taken together, these patterns support a risk-stratified approach to cardiovascular surveillance, with targeted monitoring of higher-risk individuals rather than routine cardiac imaging for all patients with PASC. Further longitudinal studies are needed to clarify the persistence, progression, and clinical significance of these subclinical changes, linking imaging to symptoms, biomarkers, and clinical outcomes."
+        },
+        {
+          "type": "paragraph",
+          "html": "<strong>Strengths and Limitations.</strong> This review has several strengths, including a comprehensive search strategy across seven databases and the inclusion of IPD from three studies, which supplemented the meta-regression analysis and enhanced the robustness of our findings. Both analyses show a significant association between reduced cardiac function and the severity of PASC, as well as preexisting comorbidities, in the multivariable-adjusted pooled effect estimates. We also assessed the risk of bias in the included studies and evaluated the certainty of the evidence using the GRADE approach. However, the findings should be interpreted in light of several limitations. First, although statistically significant, the observed differences in GLS among individuals with PASC (3.6 % [95 % CI 2.9 to 4.7]) were modest and largely subclinical. However, categorical analysis revealed that the majority of participants (58 %) had abnormal GLS (&lt;16 %) compared to 12 % of controls, indicating meaningful subclinical myocardial impairment. While these values are comparable to those reported following potentially cardiotoxic chemotherapy [48], corresponding reductions in LVEF were smaller, and the clinical significance of these changes remains uncertain. In this context, the “multiple hit” hypothesis of heart failure postulates that an initial myocardial injury could be worsened over time by other sources of myocardial injury and stress, including diabetes mellitus, hypertension, and obesity [18]. Second, the subgroup and meta-regression analyses, while informative, remain exploratory and are based on a limited IPD sample size, which restricts the strength of causal inference. In addition, residual confounding cannot be excluded, as control groups were heterogeneous and, in some studies, had a higher prevalence of cardiometabolic risk factors than the PASC cohorts, reflecting imbalances in baseline characteristics that may influence results. Consequently, the observed cardiac abnormalities may reflect underlying vulnerability among individuals predisposed to both persistent symptoms and myocardial dysfunction, rather than effects directly attributable to PASC. Finally, heterogeneity in study design (cohort, case–control, and cross-sectional), follow-up duration, symptom definitions, and differences in imaging methods may have influenced the assessment of cardiac structure and function and may contribute to between-study differences <strong>(see Supplementary Table 9).</strong> In addition, GLS measurements may vary according to imaging protocols and analysis software; however, vendor-specific information was not consistently reported. Furthermore, while no evidence of publication bias was detected using funnel plots, Egger’s test, or trim-and-fill analysis, the small number of studies per outcome limits the reliability of these methods, and reporting bias cannot be fully excluded."
+        }
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The review shows that PASC (Long COVID) is associated with modest but significant impairments in cardiac function, mainly affecting left ventricular performance, while structural heart changes and right ventricular function remain largely unchanged. Diabetes and older age appear to have an association with the observed decline. This finding emphasizes that routine cardiac imaging for all COVID-19 survivors with PASC is unlikely to be beneficial; instead, tailored evaluation of high-risk populations should be prioritized. The results also highlight the need for further research to have a better understanding of vulnerable COVID-19 survivors&#x27; long-term cardiovascular health."
+        }
+      ]
+    },
+    {
+      "title": "Funding",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This work is part of the PERCEIVE study (Persistent Cardiovascular Effects of COVID-19 Viral Infection) and was funded by the Medical Research Future Fund (MRFF) under Grant number 2005874, as part of the MRFF 2020 Rare Cancers Rare Diseases Unmet Need COVID-19 Grant Opportunity. BTS is supported by a Melbourne Research Scholarship, a Rowden White Scholarship, and the Baker Bright Spark Top-Up Scholarship. THM is supported by an Investigator grant (2008129) from the NHMRC."
+        }
+      ]
+    },
+    {
+      "title": "Data Availability Statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "NAll data supporting the findings of this study are included in the manuscript and its supplementary materials. The IPD used in this analysis were obtained from three studies that are part of the systematic review. These data were shared with the authors through data-sharing agreements and are not publicly available due to privacy and confidentiality restrictions. Requests to access the IPD should be directed to the corresponding authors of the original studies, as cited in the Supplementary materials."
+        }
+      ]
+    },
+    {
+      "title": "Relationships with industry",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors have no relationships with industry relevant to this work."
+        }
+      ]
+    },
+    {
+      "title": "Author agreement: the American Journal of Preventive Cardiology",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Manuscript Title: The Impact of Post-Acute Sequelae of COVID-19 on Cardiac Function and Structure: A Systematic Review and a Hybrid Individual Participant Data Meta-Analysis"
+        },
+        {
+          "type": "paragraph",
+          "html": "As the submitting author, I certify on behalf of all authors that this manuscript is original, not previously published, and not under consideration elsewhere. All authors meet ICMJE authorship criteria, have contributed substantially, approved the final manuscript, and agree on the author order. All conflicts of interest have been disclosed. All authors accept responsibility for the accuracy and integrity of the data, analyses, and conclusions."
+        },
+        {
+          "type": "paragraph",
+          "html": "Submitting Author: Binyam Tariku Seboka, MPH"
+        },
+        {
+          "type": "paragraph",
+          "html": "Baker Department of Cardiometabolic Health, University of Melbourne and Baker Heart and Diabetes Institute"
+        },
+        {
+          "type": "paragraph",
+          "html": "Email: bseboka@baker.edu.au"
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Binyam Tariku Seboka:</strong> Writing – review &amp; editing, Writing – original draft, Visualization, Validation, Software, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. <strong>Lillian Ma:</strong> Writing – review &amp; editing, Writing – original draft, Software, Data curation. <strong>Dianna J. Magliano:</strong> Writing – review &amp; editing, Writing – original draft. <strong>Stella Talic:</strong> Writing – review &amp; editing, Writing – original draft, Supervision. <strong>Antonio da Silva Menezes Junior:</strong> Writing – review &amp; editing, Writing – original draft. <strong>Alessandra Borlotti:</strong> Writing – review &amp; editing, Writing – original draft. <strong>Helena Thomaides Brears:</strong> Writing – review &amp; editing, Writing – original draft. <strong>Andrea Dennis:</strong> Writing – review &amp; editing, Writing – original draft. <strong>Amitava Banerjee:</strong> Writing – review &amp; editing, Writing – original draft. <strong>Thomas H. Marwick:</strong> Writing – review &amp; editing, Writing – original draft, Validation, Supervision, Methodology, Funding acquisition, Formal analysis, Conceptualization. <strong>Quan Huynh:</strong> Writing – review &amp; editing, Writing – original draft, Supervision, Methodology, Funding acquisition, Formal analysis, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare the following financial interests/personal relationships which may be considered as potential competing interests:"
+        },
+        {
+          "type": "paragraph",
+          "html": "Quan Huynh reports financial support was provided by Medical Research Future Fund (MRFF). Thomas H. Marwick reports financial support was provided by Medical Research Future Fund (MRFF). If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "World Health Organization(WHO). <em>WHO COVID-19 dashboard</em>. 2024 Access Date: 27/10/2025]; Available from: <a href=\"https://covid19.who.int/\">https://covid19.who.int/</a>."
+    },
+    {
+      "html": "World Health Organization(WHO) Regional Office for Europe. <em>Post COVID-19 condition (Long COVID)</em>. 2023 Access Date: 11/09/2024]; Available from: <a href=\"https://www.who.int/europe/news-room/fact-sheets/item/post-COVID-19-condition\">https://www.who.int/europe/news-room/fact-sheets/item/post-COVID-19-condition</a>."
+    },
+    {
+      "html": "World Health Organization (2025) – processed by our world in data. Cumulative confirmed COVID-19 cases by world region. June 7, 2025; Available from: <a href=\"https://ourworldindata.org/grapher/cumulative-covid-cases-region\">https://ourworldindata.org/grapher/cumulative-covid-cases-region</a>."
+    },
+    {
+      "html": "SiripanthongB.Recognizing COVID-19-related myocarditis: the possible pathophysiology and proposed guideline for diagnosis and managementHeart Rhythm1792020146314713238724610.1016/j.hrthm.2020.05.001PMC7199677"
+    },
+    {
+      "html": "SalabeiJ.K.COVID-19 and the cardiovascular system: an updateAm J Med Sci364220221391473515163510.1016/j.amjms.2022.01.022PMC8830924"
+    },
+    {
+      "html": "SoumyaR.S.UnniT.G.RaghuK.G.Impact of COVID-19 on the cardiovascular system: a review of available reportsCardiovasc Drugs Ther35320214114253292627210.1007/s10557-020-07073-yPMC7487338"
+    },
+    {
+      "html": "ChangW.T.Cardiac involvement of COVID-19: a comprehensive reviewAm J Med Sci3611202114223318763310.1016/j.amjms.2020.10.002PMC7536131"
+    },
+    {
+      "html": "SorianoJ.B.A clinical case definition of post-COVID-19 condition by a Delphi consensusLancet Infect Dis2242022e102e1073495195310.1016/S1473-3099(21)00703-9PMC8691845"
+    },
+    {
+      "html": "SkładanekJ.A.Long COVID and its cardiovascular consequences: what is known?Adv Clin Exp Med33320242993083738685710.17219/acem/167482"
+    },
+    {
+      "html": "DavisH.E.Long COVID: major findings, mechanisms and recommendationsNat Rev Microbiol21320231331463663960810.1038/s41579-022-00846-2PMC9839201"
+    },
+    {
+      "html": "TomidokoroD.HiroiY.Cardiovascular implications of the COVID-19 pandemicJ Cardiol79420224604673456343910.1016/j.jjcc.2021.09.010PMC8440165"
+    },
+    {
+      "html": "HuangL.W.Prevalence of cardiovascular symptoms in post-acute COVID-19 syndrome: a meta-analysisBMC Med2312025703991579510.1186/s12916-025-03908-3PMC11803987"
+    },
+    {
+      "html": "RudskiL.G.Guidelines for the echocardiographic assessment of the right heart in adults: a report from the American Society of Echocardiography endorsed by the European Association of Echocardiography, a registered branch of the European Society of Cardiology, and the Canadian Society of EchocardiographyJ Am Soc Echocardiogr2372010685713quiz 786-82062085910.1016/j.echo.2010.05.010"
+    },
+    {
+      "html": "NaguehS.F.Recommendations for the evaluation of left ventricular diastolic function by echocardiography: an update from the American Society of Echocardiography and the European Association of Cardiovascular ImagingJ Am Soc Echocardiogr29420162773142703798210.1016/j.echo.2016.01.011"
+    },
+    {
+      "html": "MarwickT.H.Cardiac function and functional capacity in patients with long COVID: a comparison to propensity-matched community controlsJ Am Soc Echocardiogr38120251623.e13929935210.1016/j.echo.2024.09.006"
+    },
+    {
+      "html": "SchellenbergJ.Cardiac structure and function 1.5 years after COVID-19: results from the EPILOC studyInfection5352025168516973999256210.1007/s15010-025-02481-4PMC12460391"
+    },
+    {
+      "html": "KrljanacG.Cardiovascular manifestations of patients with long COVIDDiagnostics1514202517714072252110.3390/diagnostics15141771PMC12293197"
+    },
+    {
+      "html": "HartupeeJ.MannD.L.Neurohormonal activation in heart failure with reduced ejection fractionNat Rev Cardiol141201730382770827810.1038/nrcardio.2016.163PMC5286912"
+    },
+    {
+      "html": "PfefferT.J.PietzschS.Hilfiker-KleinerD.Common genetic predisposition for heart failure and cancerHerz45720206326363254245910.1007/s00059-020-04953-9PMC7581596"
+    },
+    {
+      "html": "KrishnaB.A.Cardiovascular disease and covid-19: a systematic reviewInt J Cardiol Heart Vasc54202410148210.1016/j.ijcha.2024.101482PMC1134533539189008"
+    },
+    {
+      "html": "RahmatiM.The effect of SARS-CoV-2 infection on cardiac function in post-COVID-19 survivors: a systematic review and meta-analysisJ Med Virol9512023e2832510.1002/jmv.2832536401352"
+    },
+    {
+      "html": "KoleC.Acute and post-Acute COVID-19 cardiovascular complications: a comprehensive reviewCardiovasc Drugs Ther3852024101710323720926110.1007/s10557-023-07465-wPMC10199303"
+    },
+    {
+      "html": "Binyam Tariku SebokaL.M.TalicStellaMarwicThomas H.HuynhQuanThe impact of Long COVID-19 on cardiac structure and function – a systematic review and meta-analysis (CRD42024577867)PROSPERO2024Available from: CRD42024577867"
+    },
+    {
+      "html": "StroupD.F.Meta-analysis of observational studies in epidemiology: a proposal for reporting. Meta-analysis of observational studies in epidemiology (MOOSE) groupJama283152000200820121078967010.1001/jama.283.15.2008"
+    },
+    {
+      "html": "PageM.J.The PRISMA 2020 statement: an updated guideline for reporting systematic reviewsBmj3722021n713378205710.1136/bmj.n71PMC8005924"
+    },
+    {
+      "html": "MorganR.L.Identifying the PECO: a framework for formulating good questions to explore the association of environmental and other exposures with health outcomesEnv Int121Pt 12018102710313016606510.1016/j.envint.2018.07.015PMC6908441"
+    },
+    {
+      "html": "LangR.M.Recommendations for cardiac chamber quantification by echocardiography in adults: an update from the American Society of Echocardiography and the European Association of Cardiovascular ImagingJ Am Soc Echocardiogr2812015139.e142555947310.1016/j.echo.2014.10.003"
+    },
+    {
+      "html": "MarxN.2023 ESC guidelines for the management of cardiovascular disease in patients with diabetesEur Heart J44392023404341403762266310.1093/eurheartj/ehad192"
+    },
+    {
+      "html": "Wells, G.A., et al. <em>The Newcastle-Ottawa scale (NOS) for assessing the quality of nonrandomised studies in meta-analyses</em>. 2014."
+    },
+    {
+      "html": "Institute, J.B. <em>JBI critical appraisal checklist for analytical cross sectional studies</em>. 2017; Available from: <a href=\"https://joannabriggs.org/assets/docs/critical-appraisal-tools/JBI_Critical_Appraisal_Checklist_for_Analytical_Cross_Sectional_Studies.pdf\">https://joannabriggs.org/assets/docs/critical-appraisal-tools/JBI_Critical_Appraisal_Checklist_for_Analytical_Cross_Sectional_Studies.pdf</a>."
+    },
+    {
+      "html": "SterneJ.A.ROBINS-I: a tool for assessing risk of bias in non-randomised studies of interventionsBmj3552016i49192773335410.1136/bmj.i4919PMC5062054"
+    },
+    {
+      "html": "GuyattG.H.GRADE: an emerging consensus on rating quality of evidence and strength of recommendationsBMJ336765020089249261843694810.1136/bmj.39489.470347.ADPMC2335261"
+    },
+    {
+      "html": "GuyattG.GRADE guidelines: 1. Introduction-GRADE evidence profiles and summary of findings tablesJ Clin Epidemiol64420113833942119558310.1016/j.jclinepi.2010.04.026"
+    },
+    {
+      "html": "DuvalS.TweedieR.A nonparametric “trim and fill” method of accounting for publication bias in meta-analysisJ Am Stat Assoc9544920008998"
+    },
+    {
+      "html": "BeggC.B.MazumdarM.Operating characteristics of a rank correlation test for publication biasBiometrics5041994108811017786990"
+    },
+    {
+      "html": "CumpstonM.Updated guidance for trusted systematic reviews: a new edition of the Cochrane handbook for systematic reviews of interventionsCochrane Database Syst Rev10102019Ed00014210.1002/14651858.ED000142PMC1028425131643080"
+    },
+    {
+      "html": "DesaiA.D.Long-term complications of COVID-19Am J Physiol Cell Physiol32212022C1C113481726810.1152/ajpcell.00375.2021PMC8721906"
+    },
+    {
+      "html": "PeirisJ.S.Clinical progression and viral load in a community outbreak of coronavirus-associated SARS pneumonia: a prospective studyLancet36193712003176717721278153510.1016/S0140-6736(03)13412-5PMC7112410"
+    },
+    {
+      "html": "LiS.S.Left ventricular performance in patients with severe acute respiratory syndrome: a 30-day echocardiographic follow-up studyCirculation108152003179818031450418810.1161/01.CIR.0000094737.21775.32"
+    },
+    {
+      "html": "BadawiA.RyooS.G.Prevalence of comorbidities in the Middle East respiratory syndrome coronavirus (MERS-CoV): a systematic review and meta-analysisInt J Infect Dis4920161291332735262810.1016/j.ijid.2016.06.015PMC7110556"
+    },
+    {
+      "html": "HussainM.CollierP.MoudgilR.Cardiovascular complications in major 21st century viral epidemics and pandemics: an insight into COVID-19Curr Cardiol Rev1762021e05112119289710.2174/1573403X17666210419113037PMC895050133874873"
+    },
+    {
+      "html": "MadjidM.Potential effects of coronaviruses on the cardiovascular system: a reviewJAMA Cardiol5720208318403221936310.1001/jamacardio.2020.1286"
+    },
+    {
+      "html": "AshfieldS.OjhaU.Cardiometabolic dysregulation and heart failureRev Cardiovasc Med26520253850410.31083/RCM38504PMC1213563840475725"
+    },
+    {
+      "html": "von BibraH.PaulusW.St John SuttonM.Cardiometabolic syndrome and increased risk of heart failureCurr Heart Fail Rep13520162192292753904910.1007/s11897-016-0298-4PMC5069335"
+    },
+    {
+      "html": "NishigaM.COVID-19 and cardiovascular disease: from basic mechanisms to clinical perspectivesNat Rev Cardiol17920205435583269091010.1038/s41569-020-0413-9PMC7370876"
+    },
+    {
+      "html": "SiripanthongB.The pathogenesis and long-term consequences of COVID-19 cardiac injuryJACC73, Part 120222943083516566510.1016/j.jacbts.2021.10.011PMC8828362"
+    },
+    {
+      "html": "DaniM.Autonomic dysfunction in &#x27;long COVID&#x27;: rationale, physiology and management strategiesClin Med (L)2112021e63e6710.7861/clinmed.2020-0896PMC785022533243837"
+    },
+    {
+      "html": "MarwickT.H.Strain surveillance during chemotherapy to improve cardiovascular outcomes: the SUCCOUR-MRI trialEur Heart J45412024441444243921760110.1093/eurheartj/ehae574PMC11542702"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

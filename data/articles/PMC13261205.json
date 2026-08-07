@@ -1,0 +1,452 @@
+{
+  "pmcid": "PMC13261205",
+  "pmid": "42291085",
+  "doi": "10.1016/j.ajpc.2026.101498",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13261205/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Effect of IL-6 inhibition on lipoprotein(a) levels: A systematic review and meta-analysis",
+  "articleType": "Review Article",
+  "published": "2026-02-22",
+  "year": "2026",
+  "volume": "27",
+  "issue": "",
+  "articleNumber": "101498",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2026",
+  "authors": [
+    {
+      "given": "Saeid",
+      "surname": "Mirzai",
+      "display": "Saeid Mirzai"
+    },
+    {
+      "given": "James",
+      "surname": "McParland",
+      "display": "James McParland"
+    },
+    {
+      "given": "Muhammad Imtiaz",
+      "surname": "Ahmad",
+      "display": "Muhammad Imtiaz Ahmad"
+    },
+    {
+      "given": "Emil",
+      "surname": "deGoma",
+      "display": "Emil deGoma"
+    },
+    {
+      "given": "John",
+      "surname": "Walsh",
+      "display": "John Walsh"
+    },
+    {
+      "given": "Michael D.",
+      "surname": "Shapiro",
+      "display": "Michael D. Shapiro"
+    }
+  ],
+  "affiliations": [
+    "aCenter for Prevention of Cardiovascular Disease, Department of Cardiovascular Medicine, Wake Forest University School of Medicine, Winston-Salem, NC, USA",
+    "bDepartment of Internal Medicine, Section on Hospital Medicine, Medical College of Wisconsin, Milwaukee, WI, USA",
+    "cTourmaline Bio, Inc., NY, USA"
+  ],
+  "keywords": [
+    "Interleukin-6",
+    "Lipoprotein(a)",
+    "Monoclonal antibody",
+    "Anti-IL-6",
+    "Anti-IL-6R",
+    "Cardiovascular risk"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Background:</strong> Inhibition of interleukin (IL)-6 signaling by monoclonal antibodies (mAb) inhibits apolipoprotein(a) synthesis and reduces circulating lipoprotein(a) [Lp(a)] levels."
+    },
+    {
+      "html": "<strong>Aims:</strong> The aims of this systematic literature review and meta-analysis were to summarize clinical evidence for and quantify the effect of anti-IL­-6/IL-6 receptor (IL-6R) treatment on Lp(a) levels. Secondary inflammatory and lipid endpoints were also examined."
+    },
+    {
+      "html": "<strong>Methods:</strong> Searches were conducted using Embase, PubMed and Cochrane Library databases to identify studies reporting changes in Lp(a) levels following repeat doses of anti-IL-6/IL-6R mAbs. A random-effects meta-analysis compared the effect of IL-6 inhibition vs comparator on Lp(a) levels. A pre­-post analysis assessed the effect of IL-6 inhibition on Lp(a) levels before and after treatment. Subgroup analyses by disease type, IL-6 inhibition agent, and comparators were conducted."
+    },
+    {
+      "html": "<strong>Results:</strong> Out of 96 records, 10 studies with 1,201 participants were included. IL-6 inhibition was associated with significant reductions in Lp(a) levels vs baseline at 2–3 months (standardized mean difference [SMD] -0.29; 95% CI -0.44 to -0.14; <em>P</em> = .0002; I<sup>2</sup> = 33%) and 6 months (SMD -0.33; 95% CI -0.51 to -0.15; <em>P</em> = .0003; I<sup>2</sup> = 0%). Compared with tumor necrosis factor inhibitors or placebo, IL-6 inhibition showed greater Lp(a) reductions at 2–3 months (SMD -0.49; 95% CI -0.73 to -0.24; <em>P</em> = .0001; I<sup>2</sup> = 63%) and 6 months (SMD ­-0.97; 95% CI -1.16 to -0.77; <em>P</em> &lt; .00001; I<sup>2</sup> = 0%)."
+    },
+    {
+      "html": "<strong>Conclusions:</strong> This meta-analysis demonstrates significant reductions in Lp(a) levels with anti-IL­-6/IL-6R therapy vs controls. The relevance of these findings warrants investigation in cardiovascular outcome trials."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Atherosclerotic cardiovascular disease (ASCVD) remains the leading cause of morbidity and mortality worldwide, despite the widespread implementation of lipid-lowering, antihypertensive, and antithrombotic therapies [1]. Even among individuals receiving optimal medical treatment, a substantial burden of cardiovascular events persists, highlighting the challenge of residual cardiovascular risk [2]. Inflammation, as a key driver of atherosclerosis, has emerged as a compelling target for novel therapeutic strategies [3]. Interleukin (IL)-6, which promotes endothelial dysfunction, plaque instability, and thrombosis, has gained attention as a potential modifiable factor in ASCVD progression [4]. This has led to growing interest in IL-6 inhibition as a means of targeting residual inflammation and potentially mitigating cardiovascular risk."
+        },
+        {
+          "type": "paragraph",
+          "html": "The NLRP3 (NOD-, LRR-, and pyrin domain-containing protein 3) inflammasome and its downstream signaling through IL-1β, IL-6, and C-reactive protein (CRP) play a central role in the pathogenesis of atherosclerosis [5]. Given their contributions to vascular inflammation and plaque progression, targeting these pathways may offer novel therapeutic strategies for ASCVD. IL-6 is a multifunctional cytokine produced by endothelial and smooth muscle cells, macrophages, and T cells; it features pro-atherogenic effects such as endothelial cell activation, leukocyte recruitment, foam cell formation, and plaque rupture [6]. IL-6 also induces hepatic synthesis of CRP, a protein associated with inflammation, thrombosis, and cardiovascular events [7]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Synthesis of highly atherogenic lipoprotein(a) [Lp(a)] is also affected by IL-6. Like IL-6, Lp(a) is an independent and causal risk factor for ASCVD, whereby elevated Lp(a) increases ASCVD risk through various mechanisms, including atherogenesis, inflammation, thrombosis, and arterial calcification [8,9]. Although Lp(a) levels are largely determined by the <em>LPA</em> gene, IL-6 can upregulate <em>LPA</em> expression via response elements [10,11]. Additionally, IL-6 signaling blockade by monoclonal antibodies (mAb) inhibits apolipoprotein(a) synthesis and is associated with reductions in circulating Lp(a) concentration [12]. As such, IL-6 inhibition has been proposed as a potential treatment mechanism to lower ASCVD risk both directly (i.e., reducing inflammatory risk) and indirectly (i.e., reducing Lp(a) levels) [11,13]."
+        },
+        {
+          "type": "paragraph",
+          "html": "While evidence to date is mixed and varies by population, data from various randomized controlled trials (RCT) evaluating anti-IL-6/IL-6 receptor (IL-6R) treatment for patients with rheumatoid arthritis (RA) or chronic kidney disease (CKD) have reported reductions in Lp(a) levels [11]. Therefore, we conducted a systematic literature review (SLR) and meta-analysis to summarize the clinical evidence for and quantify the effect of anti-IL-6/IL-6R treatment on Lp(a) levels. Methods and key findings are detailed in the graphical abstract. The effects of IL-6 inhibition on concentrations and properties of lipids and lipoproteins other than Lp(a) are detailed in prior reviews [[14], [15], [16], [17], [18]]."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Search strategy, study selection, and data extraction",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The Embase, PubMed and Cochrane Library databases were searched for eligible studies published from any start date to June 30, 2024. Studies were eligible if they reported changes to Lp(a) levels over time following the administration of repeat doses of anti-IL-6/IL-6R mAbs. Search terms included lipoprotein(a), anti-IL-6, and anti-IL-6R, as well as generic names of such antibodies: clazakizumab, olokizumab, sarilumab, satralizumab, siltuximab, sirukumab, tocilizumab, and ziltivekimab (<strong>Supplementary Table 1</strong>). The following study types were excluded from this analysis: non-clinical studies, duplicate studies or those that leveraged the same data as a study already included in this analysis, studies where treatment was administered as a single dose, as well as any studies that did not investigate a treatment of interest or report outcomes of interest."
+        },
+        {
+          "type": "paragraph",
+          "html": "Search results were exported to Microsoft Excel. Following the manual removal of duplicate records, titles and abstracts were screened for potential relevance by two independent reviewers. Full-text articles of the remaining records were evaluated by both reviewers to further assess their eligibility. Of the studies selected for inclusion in the meta-analysis, the following data were extracted: details of the study (i.e., study design, sample size, underlying disease of enrolled patients, treatments, and dosage); patient baseline characteristics (i.e., age, sex, race/ethnicity, statin use, CRP levels); Lp(a) levels at baseline and following treatment; and the calculated absolute change in Lp(a) levels. Data on changes in high-sensitivity CRP (hs-CRP), apolipoprotein B (ApoB), low-density lipoprotein cholesterol (LDL-C), and high-density lipoprotein cholesterol (HDL-C) were also extracted from studies that reported these outcomes, acknowledging variability in outcome reporting across studies. Institutional Review Board approval was not required for this study as the meta-analysis leveraged already published data and did not involve collecting any new data from human participants."
+        }
+      ]
+    },
+    {
+      "title": "Statistical analysis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "All statistical analyses were performed using the web-based Review Manager software (RevMan Web, Version 8.0.0, The Cochrane Collaboration). <em>P</em>-values &lt; 0.05 were considered statistically significant."
+        },
+        {
+          "type": "paragraph",
+          "html": "The primary analysis employed a random-effects meta-analysis to compare the effect of IL-6 inhibitors on Lp(a) levels vs the comparator group in studies that included both arms. We analyzed the treatment effects at two time points: 2 to 3 months, and 6 months. The secondary pre-post analysis assessed the effect of IL­6 inhibitors on Lp(a) levels before and after the intervention, at 2 to 3 months, and at 6 months; this analysis is reported in the results before the primary analysis. A subgroup analysis also examined these effects by disease type, IL-6 inhibitor, and comparator."
+        },
+        {
+          "type": "paragraph",
+          "html": "Treatment effects were summarized using standardized mean differences (SMD) and 95 % confidence intervals (95 % CI) to allow pooling across studies reporting the biomarkers in different units. SMD values of 0.2 to 0.5, 0.5 to 0.8, and &gt; 0.8 were considered small, medium, and large, respectively [19]. To enhance clinical interpretability, SMD values were back-transformed into absolute changes using the pooled baseline standard deviations (SD) from the included studies. Additionally, SMDs were converted to percentiles using the standard normal distribution to estimate the proportion of control participants that a typical treated participant would outperform [20]. For Lp(a), separate calculations were performed for nmol/L and mg/dL to minimize inaccuracies related to unit conversion, given the absence of a reliable universal conversion factor. For LDL-C and HDL-C, values reported in mmol/L were converted to mg/dL by multiplying by 38.67."
+        },
+        {
+          "type": "paragraph",
+          "html": "Studies reporting medians and IQR were converted to means and SD using methods described by Wan et al [21]. If the SE was given, the SD was estimated by SD = SE × √n, where n is the number of subjects [22]. If SDs of absolute changes were missing, they were calculated by using correlation coefficients based on methods proposed by the Cochrane Handbook for Systematic Reviews of Interventions [23]. When correlation coefficients were unavailable, they were imputed from other studies included in the analysis that had similar treatment and follow-up periods; when no comparable studies were available, a correlation of 0.5 was assumed [23]. In cases where the imputed correlation yielded no valid solution due to mathematical constraints, follow-up SDs were assumed equal to baseline SDs [23]. For studies with multiple treatment arms of the same agent, all arms were combined using formulas from the Cochrane Handbook [24]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Heterogeneity was quantified using the I<sup>2</sup> statistic, with the following interpretation: 0 % to 40 % might not be important; 30 % to 60 % may represent moderate heterogeneity; 50 % to 90 % may represent substantial heterogeneity; and 75 % to 100 % indicates considerable heterogeneity [21]. Sensitivity analyses were performed using the leave-one-out method, removing one study at a time and repeating the analysis for all studies. Funnel plots (including Egger’s test and trim-and-fill tests) were not used to assess publication bias because all analyses included fewer than 10 papers, as per Cochrane guidance [25]."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Summary of included studies",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Out of 96 records retrieved across the three databases, 32 duplicates were removed. An additional 44 and 10 records were removed after reviewing titles/abstracts and full-text publications, respectively (Fig. 1). In total, the analyses included the following 10 studies (2010 to 2021), representing 1,201 patients who received either an anti-IL-6/IL-6R mAb (n = 711) or a comparator (n = 490): six RCTs [[26], [27], [28], [29], [30], [31]], three prospective observational studies [18,32,33], and one prospective interventional study [34] (Table 1). The most common IL­-6/IL-­6R antibody evaluated in the selected studies was tocilizumab (n = 7), followed by ziltivekimab (n = 2) and sarilumab (n = 1). Clazakizumab, which was evaluated in the Phase 2b POSIBIL<sub>6</sub>ESKD study, was not included in this meta-analysis as the necessary data were unavailable before study assessments and manuscript development.Fig. 1Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) Flow Diagram.Fig 1 dummy alt textTable 1Summary of Included Studies and Baseline Characteristicsa.Table 1 dummy alt textStudyStudy typeNumber of patientsAge, yearsbFemale sex, %Underlying conditionIL-6/IL-6R antibodyComparatorCRP (mg/L)bFollow-updLipoprotein(a)bGabay 2016 [26](ADACTA)RCT32453–5480–82Rheumatoid arthritisTocilizumabAdalimumab25–268 weeks22–26 mg/dLLee 2016 [28](MEASURE)RCT2059c100Rheumatoid arthritisTocilizumabPlacebo12.812 weeks30 mg/dLVirone 2019 [31](ROC)RCT14357c82Rheumatoid arthritisTocilizumabTNF inhibitor8.5c24 weeks10–15 mg/dLcGabay 2020 [27](MONARCH)RCT30750–5379–84Rheumatoid arthritisSarilumabAdalimumab17.4–23.612, 24 weeks17.9–23.6 mg/dLcRidker 2021 [30](RESCUE)RCT26466–70.0c44–55Non–dialysis-dependent CKDZiltivekimabPlacebo5.5–5.8c12 weeks37–50 nmol/LcPergola 2021 [29]RCT6158–6425–56Hemodialysis-dependent CKD, anemiaZiltivekimabPlacebo4.0–13.2c12 weeks22–64 nmol/LcFerraz-Amaro 2019 [34]Prospective interventional275288Rheumatoid arthritisTocilizumabNone88c3, 6, 12 months29 mg/dLSchultz 2010 [33]Prospective observational115164Rheumatoid arthritisTocilizumabNone–1, 3 months35 mg/dLBenucci 2013 [32]Prospective observational1656100Rheumatoid arthritisTocilizumabNone386 months28 mg/dLPierini 2021 [18]Prospective observational286189Rheumatoid arthritisTocilizumabNone3.9c3 months48 mg/dLcCKD, chronic kidney disease; CRP, C-reactive protein; IL-6, interleukin-6; IL-6R, interleukin-6 receptor; RCT, randomized controlled trial; TNF, tumor necrosis factor.aRanges are shown for studies that did not report baseline data for the total population.bValues are shown as means unless noted otherwise.cMedian value.dFor lipoprotein(a) measurement."
+        },
+        {
+          "type": "paragraph",
+          "html": "The mean age across the study groups ranged from 50.4 to 70.0 years, and the included studies enrolled between 25 % and 100 % female patients. Eight of the 10 studies enrolled patients with RA, and the remaining two enrolled patients with CKD. The follow-up duration ranged from 2 to 12 months. The average baseline Lp(a) levels across all studies and treatment groups were 65.7 (SD 89.5) nmol/L among 325 participants and 25.7 (SD 32.8) mg/dL among 876 participants."
+        }
+      ]
+    },
+    {
+      "title": "IL-6 inhibitors and Lp(a) levels",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Eight studies (n = 648) [18,[26], [27], [28], [29], [30],33,34] provided the data necessary to compare pre- and post-treatment Lp(a) levels at 2 to 3 months following anti-IL-6/IL-6R mAb therapy in the secondary analysis. Pooled analysis indicated small but statistically significant reductions in Lp(a) at 2 to 3 months with SMD of -0.29 (95 % CI -0.44 to -0.14) (Fig. 2<strong>A</strong>). When back-transformed using the baseline Lp(a) SD across studies, this translated to a Lp(a) reduction of 25.9 nmol/L or 9.5 mg/dL. Furthermore, this SMD corresponded to the 38.6th percentile, meaning that the average participant’s post-treatment Lp(a) levels were lower than 61.4 % of the pre-treatment levels. The findings remained significant on leave-one-out sensitivity analysis, indicating robust results. There was negligible heterogeneity with an I<sup>2</sup> of 33 % (P = .17), driven mainly by Lee 2016 [28].Fig. 2Reduction in Lipoprotein(a) Before vs After Treatment With an Anti-IL-6/IL-6 Receptor Monoclonal Antibody at (A) 2 to 3 Months and (B) 6 Months. <em>CI, confidence interval; IL-6, interleukin-6; IV, inverse variance; Lp(a), lipoprotein(</em>a<em>); SAR, sarilumab; SD, standard deviation; Std, standardized; TCZ, tocilizumab, ZTV, ziltivekimab.</em>Fig 2 dummy alt text"
+        },
+        {
+          "type": "paragraph",
+          "html": "Subgroup analyses were also performed by population type and anti-IL-6/IL-6R mAb. In six studies [18,[26], [27], [28],33,34], participants with RA (n = 401) who were treated with tocilizumab or sarilumab showed an SMD of -0.38 (95 % CI -0.55 to -0.20; <em>P</em> &lt; .0001), which translated to an Lp(a) reduction of 34.0 nmol/L or 12.4 mg/dL (Fig. 2<strong>A</strong>). This SMD corresponded to the 35.2nd percentile. Furthermore, the findings remained significant on leave-one-out sensitivity analysis. In two studies [29,30], participants with CKD (n = 247) who were treated with ziltivekimab showed an SMD of ­-0.12 (95 % CI -0.30 to 0.06; <em>P</em> = .18); the lack of statistical significance indicated no major Lp(a)­-lowering in this population (Fig. 2<strong>A</strong>). Upon direct comparison, the difference in Lp(a) reduction between subgroups was statistically significant (<em>P</em> = .05)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Four studies with 6-month follow-up data were pooled (n = 243) [27,31,32,34]. All studies included participants with RA who were treated with tocilizumab or sarilumab. Pooled analysis indicated small but statistically significant reductions in Lp(a) at 6 months with SMD of ­-0.33 (95 % CI ­-0.51 to -0.15; <em>P</em> = .0003), which translated to a reduction of 29.5 nmol/L or 10.8 mg/dL (Fig. 2<strong>B</strong>). This SMD corresponded to the 37.1st percentile, meaning that the average participant in the treatment group had Lp(a) levels lower than 62.9 % of participants in the control group. There was no heterogeneity (I<sup>2</sup> = 0 %). Lastly, one study (Ferraz-Amaro [34]) reported Lp(a) levels at 12 months with an absolute reduction of -6 mg/dL (IQR -33 to -0)."
+        }
+      ]
+    },
+    {
+      "title": "Comparative Lp(a) response: IL-6 inhibitors vs comparators",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Four studies (n = 915) that reported 2–3 months’ follow-up data were pooled in the primary analysis: 534 participants received anti-IL-6/IL-6R mAb therapy, and 381 received a comparator [26,27,29,30]. Pooled analysis indicated a small-to-moderate reduction in Lp(a) at 2 to 3 months with an SMD of ­-0.49 (95 % CI -0.73 to -0.24; <em>P</em> = .0001) (Fig. 3<strong>A</strong>). When back-transformed using the baseline Lp(a) SD across studies, this translated to a reduction of 43.8 nmol/L or 16.0 mg/dL. This SMD corresponded to the 31.2nd percentile, meaning that the average participant in the treatment group had Lp(a) levels lower than 68.8 % of participants in the control group. The findings remained significant on leave-one-out sensitivity analysis, indicating robust results. There was substantial heterogeneity with an I<sup>2</sup> of 63 % (<em>P</em> = .04), primarily driven by Gabay 2020 [27].Fig. 3Reduction in Lipoprotein(a) Following Treatment With an Anti-IL-6/IL-6 Receptor Monoclonal Antibody vs a Comparator at (A) 2 to 3 Months and (B) 6 Months. CI, confidence interval; IL-6, interleukin-6; IL-6R, interleukin-6 receptor; IV, inverse variance; Lp(a), lipoprotein(a); mAb, monoclonal antibody; PBO, placebo; SAR, sarilumab; SD, standard deviation; Std, standardized; TCZ, tocilizumab; TNFi, tumor necrosis factor inhibitor; ZTV, ziltivekimab.Fig 3 dummy alt text"
+        },
+        {
+          "type": "paragraph",
+          "html": "Subgroup analyses were also performed by population type, anti-IL-6/IL-6R mAb, and comparator. Two studies included participants with RA (n = 620) who were treated with tocilizumab, sarilumab, or a comparator (tumor necrosis factor inhibitor [TNFi]) [26,27]. These participants showed an SMD of -0.62 (95 % CI -0.90 to -0.33; <em>P</em> &lt; .0001), which translated to a Lp(a) reduction of 55.5 nmol/L or 20.3 mg/dL (Fig. 3<strong>A</strong>). This SMD corresponded to the 26.8th percentile. Two studies included participants with CKD (n = 295) who were treated with ziltivekimab or a placebo comparator [29,30]. Participants showed an SMD of -0.26 (95 % CI -0.53 to 0.01; <em>P</em> = .06), indicating small reductions in Lp(a) levels with ziltivekimab treatment that did not reach statistical significance compared with placebo treatment (Fig. 3<strong>A</strong>). The subgroups did not differ significantly upon direct comparison (<em>P</em> = .07)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Two studies (n = 450) reported 6-month follow-up data, which were pooled: 200 participants with RA who received tocilizumab [31] or sarilumab [27], and 250 who received a comparator (TNFi) [27,31]. Pooled analysis indicated a large reduction in Lp(a) at 6 months with an SMD of -0.97 (95 % CI -1.16 to -0.77; <em>P</em> &lt; .00001), which translated to a reduction of 86.8 nmol/L or 31.8 mg/dL (Fig. 3<strong>B</strong>). This SMD corresponded to the 16.6th percentile, meaning that the average participant in the treatment group had Lp(a) levels lower than 83.4 % of participants in the control group. There was no heterogeneity (I<sup>2</sup> = 0 %)."
+        }
+      ]
+    },
+    {
+      "title": "Effects on hs-CRP, apolipoprotein B, LDL-C, and HDL-C",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "To characterize the broader effects of IL-6 pathway inhibition on inflammatory and lipid markers, secondary analyses examined changes in hs-CRP, ApoB, LDL-C, and HDL-C (<strong>Figures S1–S4</strong>). The average baseline hs-CRP level across all studies and treatment groups among 392 participants [18,[28], [29], [30],34] was 0.73 (SD 0.76) mg/dL. Pre- versus post-treatment analyses, which compared values before and after anti-IL-6/IL-6R mAb therapy within treatment groups, demonstrated large reductions in hs-CRP at 3 months (SMD -1.28; 95 % CI -1.75 to -0.81; <em>P</em> &lt; .00001), corresponding to a reduction of 0.98 mg/dL, with significant reductions in both RA and CKD subgroups (<strong>Figure S1A</strong>). In the two CKD studies that compared anti-IL-6 mAb therapy versus placebo [29,30], hs-CRP was similarly reduced (SMD -1.33; 95 % CI -1.97 to -0.70; <em>P</em> &lt; .0001), corresponding to a reduction of 1.01 mg/dL (<strong>Figure S1B</strong>)."
+        },
+        {
+          "type": "paragraph",
+          "html": "The average baseline ApoB level across all studies and treatment groups among 482 participants [18,28,30,31,34] was 93.3 (SD 29.7) mg/dL. Despite reductions in systemic inflammation, anti-IL-6/IL-6R mAb therapy was associated with small increases in ApoB. Pre- versus post-treatment analyses showed an increase at 3 months (SMD 0.42; 95 % CI 0.02 to 0.82; <em>P</em> = .04), corresponding to an increase of 12.5 mg/dL, but not at 6 months (SMD 0.16; 95 % CI -0.16 to 0.48; <em>P</em> = .33), with neither RA nor CKD subgroups individually significant at either timepoint (<strong>Figure S2A–B</strong>). The analysis comparing anti-IL-6/IL-6R mAbs versus TNFi or placebo at 3 to 6 months showed a similar pattern (SMD 0.28; 95 % CI 0.06 to 0.51; <em>P</em> = .01), corresponding to an increase of 8.3 mg/dL, with neither subgroup individually significant (<strong>Figure S2C</strong>)."
+        },
+        {
+          "type": "paragraph",
+          "html": "The average baseline LDL-C level across all studies and treatment groups among 700 participants [18,26,[28], [29], [30],[32], [33], [34]] was 99.4 (SD 37.1) mg/dL. LDL-C showed small increases in pre- versus post-treatment analyses at 2 to 3 months (SMD 0.41; 95 % CI 0.11 to 0.70; <em>P</em> = .008), corresponding to an increase of 15.2 mg/dL, but not at 6 months (SMD 0.16; 95 % CI -0.26 to 0.59; <em>P</em> = .45) (<strong>Figure S3A–B</strong>). These increases were driven by the RA subgroup (<em>P</em> &lt; .00001 for subgroup differences), with no significant changes in patients with CKD treated with ziltivekimab (<strong>Figure S3A</strong>). A similar pattern was observed in the analysis versus TNFi or placebo at 2 to 3 months (SMD 0.40; 95 % CI 0.03 to 0.76; <em>P</em> = .03), corresponding to an increase of 14.8 mg/dL, with significant increases in the RA/tocilizumab subgroup but not the CKD/ziltivekimab subgroup (<em>P</em> = .01 for subgroup differences) (<strong>Figure S3C</strong>)."
+        },
+        {
+          "type": "paragraph",
+          "html": "The average baseline HDL-C level across all studies and treatment groups among 713 participants [18,26,[28], [29], [30],[32], [33], [34]] was 52.1 (SD 16.9) mg/dL. HDL-C showed small increases in pre- versus post-treatment analyses at 2 to 3 months (SMD 0.30; 95 % CI 0.11 to 0.48; <em>P</em> = .002), corresponding to an increase of 5.1 mg/dL, but not at 6 months (SMD 0.32; 95 % CI -0.50 to 1.15; <em>P</em> = .44), with significant increases in the RA but not CKD subgroup (<strong>Figure S4A–B</strong>). In the analysis versus TNFi or placebo at 2 to 3 months, HDL-C showed small increases (SMD 0.43; 95 % CI 0.16 to 0.70; <em>P</em> = .002), corresponding to an increase of 7.3 mg/dL, with significant increases in both RA and CKD subgroups (<strong>Figure S4C</strong>)."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This meta-analysis identified significant reductions in Lp(a) levels following IL-6/IL-6R inhibition. Pooled analyses demonstrated small but significant Lp(a) reductions at 2 to 3 months and 6 months compared with baseline. Compared with TNFi or placebo, IL-6 inhibition resulted in greater reductions, with the effect size increasing over time. Although not included in this analysis, results from the Phase 2b POSIBIL<sub>6</sub>ESKD study of 127 hemodialysis patients also demonstrated significant reductions in Lp(a) of 38 %, 37 %, and 52 % from baseline median Lp(a) levels of 56 to 77 nmol/L with clazakizumab 2.5, 5, and 10 mg IV monthly, respectively [35]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Among its hypothesized atherothrombotic effects, IL-6 stimulates hepatic synthesis of acute-phase reactants including fibrinogen, plasminogen activator inhibitor-1, and apolipoprotein(a) [11,36,37]. Apolipoprotein(a) expression is biologically linked to IL-6 due to the presence of an IL-6 response element on the LPA gene [12,38]. Consistent with this biological link, in vitro and epidemiological studies have demonstrated an association between levels of IL-6 and Lp(a). Transcriptomic analysis of human liver biopsies showed a correlation between gene expression of <em>LPA</em> and IL-6 response genes, and tocilizumab, an anti-IL-6R monoclonal antibody, inhibited IL-6-induced <em>LPA</em> expression by human hepatocytes [12]. In a cross-sectional study in Germany (N = 1,153), levels of Lp(a) were significantly positively correlated with IL-6 levels (<em>P</em> = .0005) [12]. These findings supported the current meta-analysis, confirming a reduction in Lp(a) with IL-6 pathway inhibition."
+        },
+        {
+          "type": "paragraph",
+          "html": "The clinical relevance of the observed Lp(a)-lowering with anti-IL-6/IL-6R monoclonal antibodies remains unknown. Analysis of the alirocumab Phase 3 ODYSSEY study showed that each 5 mg/dL reduction in Lp(a) predicted a 2.5 % reduction in major adverse cardiovascular events [39]. Human genetic studies have predicted that Lp(a)-lowering by 50 to 100 mg/dL may be needed to reduce cardiovascular risk by 20 % [40,41]."
+        }
+      ]
+    },
+    {
+      "title": "Limitations",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This meta-analysis has several limitations that should be considered when interpreting the results. Firstly, one limitation of this meta-analysis is the limited number of available studies and the low number of participants in most studies. Despite a comprehensive search strategy, only 64 unique publications were identified prior to screening, indicating that this research area remains relatively underexplored. Consequently, the pooled estimates and I<sup>2</sup> heterogeneity statistics should be interpreted with caution. I<sup>2</sup> estimates are imprecise when based on fewer than 10 studies, but we reported I<sup>2</sup> values alongside sensitivity analyses to provide transparency into between-study variability."
+        },
+        {
+          "type": "paragraph",
+          "html": "Secondly, the skewed distribution of Lp(a) may affect the accuracy of the pooled estimates. In addition, significant heterogeneity in Lp(a) reporting across studies (e.g., use of nmol/L or mg/dL) necessitated using SMD for analyses. Although this approach accounts for measurement differences, it limits direct clinical interpretation as SMD is a unitless measure. To address this, SMD was back­transformed to absolute Lp(a) values; however, these measures should be interpreted cautiously. These transformations used pooled SD across all studies, combining participants with RA and CKD, and were employed in analyses that merged data reported in different units from different populations. This heterogeneity may affect the accuracy and generalizability of back-transformed values to specific patient groups or clinical contexts."
+        },
+        {
+          "type": "paragraph",
+          "html": "Thirdly, percent changes in Lp(a) levels could not be pooled due to inconsistent reporting and missing data, potentially limiting the evaluation of relative changes. Analysis of comparator groups was restricted by insufficient data, particularly regarding SD, which prevented comprehensive pre- and post-treatment comparisons. Some studies were also excluded due to incomplete data reporting or limited data availability at the time of this analysis, such as the Phase 2b clazakizumab trial, which demonstrated larger reductions in Lp(a) than other included studies. In some cases, SD was imputed based on values from other studies, which introduced additional uncertainty. Furthermore, publication bias could not be formally assessed due to the small number of included studies; therefore, the possibility of selective reporting remains a concern. These limitations underscore the need for standardized Lp(a) data reporting in future studies, including the consistent use of measurement units and comprehensive reporting of statistical parameters to facilitate more robust and clinically interpretable meta-analyses."
+        },
+        {
+          "type": "paragraph",
+          "html": "Furthermore, although the clinically relevant population for this meta-analysis comprises those with high Lp(a) at baseline, such patients were not enrolled in the included studies. Such studies are needed to more accurately ascertain the magnitude of Lp(a) reduction with IL-6 inhibition. Lastly, the lower Lp(a) levels observed in these studies may actually reflect increases from baseline driven by patients’ underlying conditions, with IL-6 pathway blockade merely restoring Lp(a) to baseline levels. In this case, IL-6 inhibition may not have an effect in the absence of severe inflammatory states, which may limit its effectiveness in patients with mild elevations in hs-CRP levels."
+        }
+      ]
+    },
+    {
+      "title": "Conclusions",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Overall, this meta-analysis demonstrates that IL-6 inhibition leads to modest but significant reductions in Lp(a) levels compared with controls. Given the well-established independent roles of both inflammation and Lp(a) in ASCVD, these findings suggest that IL-6 blockade may offer a dual benefit by targeting both pathways. Whether this observed magnitude of Lp(a) reduction translates into meaningful cardiovascular risk reduction remains unknown. Results from ongoing RCTs investigating anti-IL-6/IL-6R therapies are eagerly awaited to characterize the potential benefits and risks of IL-6 inhibition in high-risk patients with cardiovascular disease (Table 2). Additional studies may be particularly informative.Table 2Ongoing Randomized Controlled Trials Investigating Anti-IL-6/IL-6R Therapy for the Treatment of Patients With or at High Risk of Cardiovascular Disease.Table 2 dummy alt textAntibodyStudyNCT numberPhaseUnderlying diseaseComparatorPrimary completion(estimated)Study completion(estimated)Enrollment(estimated)Primary endpoint(s)ZiltivekimabZEUSNCT050218353ASCVD, CKD, elevated hs-CRPPlaceboSeptember 2025January 20266200Time to first occurrence of 3-point MACEZiltivekimabARTEMISNCT061182813AMIPlaceboSeptember 2026September 202610,000Time to first occurrence of 3-point MACEZiltivekimabHERMESNCT056361763HFpEF, elevated hs-CRPPlaceboJuly 2027July 20275600Time to first occurrence of CV death, HF hospitalization, or urgent HF visitZiltivekimabATHENANCT062002073HFpEF, elevated hs-CRPPlaceboMay 2026August 2026680Change in KCCQ-CSSClazakizumabPOSIBIL<sub>6</sub>ESKDNCT054859612b/3ASCVD or diabetes mellitus, hemodialysis-dependent ESKDPlaceboDecember 2028December 20282310Change from baseline in CRP (Phase 2b)Time to first occurrence of CV death or MI (Phase 3)Pacibekitug (TOUR006)TRANQUILITYNCT063627592CKD, elevated hs-CRPPlaceboMay 2025February 2026143 (actual)Change from baseline in CRPAMI, acute myocardial infarction; ASCVD, atherosclerotic cardiovascular disease; CKD, chronic kidney disease; CSS, clinical summary score; CV, cardiovascular; ESKD, end-stage kidney disease; HFpEF, heart failure with preserved ejection fraction; hs-CRP, high-sensitivity C-reactive protein; KCCQ, Kansas City Cardiomyopathy Questionnaire; MACE, major adverse cardiovascular event; MI, myocardial infarction; NCT, National Clinical Trial"
+        }
+      ]
+    },
+    {
+      "title": "Data availability",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The data that support the findings of this meta-analysis are available from the individual studies included. Additional details on the included studies can be made available by the corresponding author."
+        }
+      ]
+    },
+    {
+      "title": "Funding",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "SM is supported by the National Heart, Lung, and Blood Institute of the National Institutes of Health (T32-HL-076132). JM and MIA declare no competing interests. JW is an employee of Tourmaline Bio, Inc, and EdG was an employee of Tourmaline Bio, Inc at the time of research and manuscript development. MDS is supported by institutional grants from Amgen, Arrowhead, Boehringer Ingelheim, 89Bio, Esperion, Novartis, Ionis, Merck, New Amsterdam, and Cleerly; has participated in Scientific Advisory Boards with Amgen, Ionis, Novartis, New Amsterdam, and Merck; and has served as a consultant for Ionis, Novartis, Regeneron, Aidoc, Kaneka, Novo Nordisk, Arrowhead, and Tourmaline. Given his role as Associate Editor on the Editorial Board of the American Journal of Preventive Cardiology, MDS had no involvement in the peer-review of this article and has no access to information regarding its peer-review. Full responsibility for the editorial process for this article was delegated to another journal editor."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Saeid Mirzai:</strong> Writing – review &amp; editing, Writing – original draft, Methodology, Conceptualization. <strong>James McParland:</strong> Writing – review &amp; editing, Writing – original draft. <strong>Muhammad Imtiaz Ahmad:</strong> Writing – review &amp; editing, Writing – original draft. <strong>Emil deGoma:</strong> Writing – review &amp; editing, Writing – original draft, Methodology, Conceptualization. <strong>John Walsh:</strong> Writing – review &amp; editing, Writing – original draft, Methodology, Conceptualization. <strong>Michael D. Shapiro:</strong> Writing – review &amp; editing, Writing – original draft, Methodology, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare the following financial interests/personal relationships which may be considered as potential competing interests: Saeid Mirzai reports writing assistance was provided by Tourmaline Bio, Inc., and a relationship with the National Heart, Lung, and Blood Institute of the National Institutes of Health that includes: funding or grants. James McParland writing assistance was provided by Tourmaline Bio, Inc. There are no additional relationships to disclose. Muhammad Imtiaz Ahmad writing assistance was provided by Tourmaline Bio, Inc. There are no additional relationships to disclose. Emil deGoma reports writing assistance was provided by Tourmaline Bio, Inc., and a relationship with Tourmaline Bio, Inc., that includes: employment. John Walsh reports writing assistance was provided by Tourmaline Bio, Inc., and a relationship with Tourmaline Bio, Inc., that includes: employment. Michael D. Shapiro reports writing assistance was provided by Tourmaline Bio, Inc.; a relationship with Amgen, Arrowhead, Boehringer Ingelheim, 89Bio, Esperion, Novartis, Ionis, Merck, New Amsterdam, and Cleerly that includes: funding or grants; a relationship with Amgen, Ionis, Novartis, New Amsterdam, Merck, Regeneron, Aidoc, Kaneka, Novo Nordisk, Arrowhead, and Tourmaline that includes: consultation or advisory fees; and a relationship with the American Journal of Preventive Cardiology that includes: editorial board member. Given his role as Associate Editor on the Editorial Board of the American Journal of Preventive Cardiology, Michael D. Shapiro had no involvement in the peer-review of this article and has no access to information regarding its peer-review. Full responsibility for the editorial process for this article was delegated to another journal editor."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "ArnettD.K.BlumenthalR.S.AlbertM.A.BurokerA.B.GoldbergerZ.D.HahnE.J.HimmelfarbC.D.KheraA.Lloyd-JonesD.McEvoyJ.W.MichosE.D.MiedemaM.D.MuñozD.SmithS.C.ViraniS.S.WilliamsK.A.YeboahJ.ZiaeianB.2019 acc/aha guideline on the primary prevention of cardiovascular disease: a report of the american college of cardiology/american heart association task force on clinical practice guidelinesCirculation140112019e596e64610.1161/cir.000000000000067830879355PMC7734661"
+    },
+    {
+      "html": "Gomez-DelgadoF.Raya-CruzM.KatsikiN.Delgado-ListaJ.Perez-MartinezP.Residual cardiovascular risk: when should we treat it?Eur J Intern Med1202024172410.1016/j.ejim.2023.10.01337845117"
+    },
+    {
+      "html": "KongP.CuiZ.Y.HuangX.F.ZhangD.D.GuoR.J.HanM.Inflammation and atherosclerosis: signaling pathways and therapeutic interventionSignal Transduct Target Ther71202213110.1038/s41392-022-00955-735459215PMC9033871"
+    },
+    {
+      "html": "RidkerP.M.RaneM.Interleukin-6 signaling and anti-interleukin-6 therapeutics in cardiovascular diseaseCirc Res1281120211728174610.1161/circresaha.121.31907733998272"
+    },
+    {
+      "html": "GrebeA.HossF.LatzE.Nlrp3 inflammasome and the il-1 pathway in atherosclerosisCirc Res1221220181722174010.1161/circresaha.118.31136229880500"
+    },
+    {
+      "html": "SuJ.H.LuoM.Y.LiangN.GongS.X.ChenW.HuangW.Q.TianY.WangA.P.Interleukin-6: a novel target for cardio-cerebrovascular diseasesFront Pharmacol12202174506110.3389/fphar.2021.745061PMC842153034504432"
+    },
+    {
+      "html": "Amezcua-CastilloE.González-PachecoH.Sáenz-San MartínA.Méndez-OcampoP.Gutierrez-MoctezumaI.MassóF.Sierra-LaraD.SpringallR.RodríguezE.Arias-MendozaA.Amezcua-GuerraL.M.C-reactive protein: the quintessential marker of systemic inflammation in coronary artery disease-advancing toward precision medicineBiomedicines119202310.3390/biomedicines11092444PMC1052578737760885"
+    },
+    {
+      "html": "Reyes-SofferG.GinsbergH.N.BerglundL.DuellP.B.HeffronS.P.KamstrupP.R.Lloyd-JonesD.M.MarcovinaS.M.YeangC.KoschinskyM.L.Lipoprotein(a): a genetically determined, causal, and prevalent risk factor for atherosclerotic cardiovascular disease: a scientific statement from the american heart associationArter Thromb Vasc Biol4212022e48e6010.1161/atv.0000000000000147PMC998994934647487"
+    },
+    {
+      "html": "DzoboK.E.KraaijenhofJ.M.StroesE.S.G.NurmohamedN.S.KroonJ.Lipoprotein(a): an underestimated inflammatory mastermindAtherosclerosis349202210110910.1016/j.atherosclerosis.2022.04.00435606070"
+    },
+    {
+      "html": "KaurG.AbdelrahmanK.BermanA.N.BieryD.W.ShiyovichA.HuckD.GarshickM.BlanksteinR.WeberB.Lipoprotein(a): emerging insights and therapeuticsAm J Prev Cardiol18202410064110.1016/j.ajpc.2024.100641PMC1103308938646022"
+    },
+    {
+      "html": "MakrisA.BarkasF.SfikakisP.P.LiberopoulosE.FilippatosT.D.RayK.K.AgouridisA.P.Lipoprotein(a), interleukin-6 inhibitors, and atherosclerotic cardiovascular disease: is there an association?Atheroscler Plus5420231610.1016/j.athplu.2023.09.00137720252PMC10500445"
+    },
+    {
+      "html": "MüllerN.SchulteD.M.TürkK.Freitag-WolfS.HampeJ.ZeunerR.SchröderJ.O.Gouni-BertholdI.BertholdH.K.KroneW.Rose-JohnS.SchreiberS.LaudesM.Il-6 blockade by monoclonal antibodies inhibits apolipoprotein (a) expression and lipoprotein (a) synthesis in humansJ Lipid Res56520151034104210.1194/jlr.P05220925713100PMC4409280"
+    },
+    {
+      "html": "WeberB.N.GilesJ.T.LiaoK.P.Shared inflammatory pathways of rheumatoid arthritis and atherosclerotic cardiovascular diseaseNat Rev Rheumatol197202341742810.1038/s41584-023-00969-737231248PMC10330911"
+    },
+    {
+      "html": "WilkinsonM.J.ShapiroM.D.Immune-mediated inflammatory diseases, dyslipidemia, and cardiovascular risk: a complex interplayArter Thromb Vasc Biol441220242396240610.1161/atvbaha.124.319983PMC1160238539479765"
+    },
+    {
+      "html": "Charles-SchoemanC.FleischmannR.DavignonJ.SchwartzH.TurnerS.M.BeysenC.MiladM.HellersteinM.K.LuoZ.KaplanI.V.RieseR.ZuckermanA.McInnesI.B.Potential mechanisms leading to the abnormal lipid profile in patients with rheumatoid arthritis versus healthy volunteers and reversal by tofacitinibArthritis Rheumatol673201561662510.1002/art.3897425470338PMC5024065"
+    },
+    {
+      "html": "ChoyE.GaneshalingamK.SembA.G.SzekaneczZ.NurmohamedM.Cardiovascular risk in rheumatoid arthritis: recent advances in the understanding of the pivotal role of inflammation, risk predictors and the impact of treatmentRheumatol (Oxf)531220142143215410.1093/rheumatology/keu224PMC424189024907149"
+    },
+    {
+      "html": "McInnesI.B.ThompsonL.GilesJ.T.BathonJ.M.SalmonJ.E.BeaulieuA.D.CoddingC.E.CarlsonT.H.DellesC.LeeJ.S.SattarN.Effect of interleukin-6 receptor blockade on surrogates of vascular risk in rheumatoid arthritis: measure, a randomised, placebo-controlled studyAnn Rheum Dis744201569470210.1136/annrheumdis-2013-20434524368514PMC4392313"
+    },
+    {
+      "html": "PieriniF.S.BottaE.SorianoE.R.MartinM.BoeroL.MeroñoT.SaezM.S.Lozano ChiappeE.CerdaO.CiteraG.GandinoI.RosaJ.SorrocheP.KontushA.BritesF.Effect of tocilizumab on ldl and hdl characteristics in patients with rheumatoid arthritis. An observational studyRheumatol Ther82202180381510.1007/s40744-021-00304-033811316PMC8217399"
+    },
+    {
+      "html": "CohenJ.Statistical power analysis for the behavioral sciences2nd ed.1988ErlbaumHillsdale, NJ"
+    },
+    {
+      "html": "AndradeC.How to use percentiles to better understand standardized mean difference (smd) as a measure of effect sizeJ Clin Psychiatry844202310.4088/JCP.23f1502837555679"
+    },
+    {
+      "html": "WanX.WangW.LiuJ.TongT.Estimating the sample mean and standard deviation from the sample size, median, range and/or interquartile rangeBMC Med Res Methodol14201413510.1186/1471-2288-14-13525524443PMC4383202"
+    },
+    {
+      "html": "AltmanD.G.BlandJ.M.Standard deviations and standard errorsBmj3317521200590310.1136/bmj.331.7521.90316223828PMC1255808"
+    },
+    {
+      "html": "J.P.T. Higgins, T. Li, J.J. Deeks, Choosing effect measures and computing estimates of effect, in: J.P.T. Higgins, J. Thomas, J. Chandler, M. Cumpston, T. Li, M.J. Page, V.A. Welch (Eds.), Cochrane handbook for systematic reviews of interventions version 6.4 (updated august 2023). Available from <a href=\"http://www.Training.Cochrane.Org/handbook\">www.Training.Cochrane.Org/handbook</a>."
+    },
+    {
+      "html": "J.P.T. Higgins, S. Eldridge, T. Li, Including variants on randomized trials, in: J.P.T. Higgins, J. Thomas, J. Chandler, M. Cumpston, T. Li, M.J. Page, V.A. Welch (Eds.), Cochrane handbook for systematic reviews of interventions version 6.4 (updated august 2023). <a href=\"https://doi.Org/10.1002/9781119756194.Ch8\">Https://doi.Org/10.1002/9781119756194.Ch8</a>."
+    },
+    {
+      "html": "J.B. Reitsma, A.W. Rutjes, P. Whiting, B. Yang, M.M. Leeflang, P.M. Bossuyt, J.J. Deeks, Assessing risk of bias and applicability, in: J.J. Deeks, P.M. Bossuyt, M.M. Leeflang, Y. Takwoingi (Eds.), Cochrane handbook for systematic reviews of diagnostic test accuracy (published june 2023). Available from <a href=\"http://www.Training.Cochrane.Org/handbook\">www.Training.Cochrane.Org/handbook</a>."
+    },
+    {
+      "html": "GabayC.McInnesI.B.KavanaughA.TuckwellK.KlearmanM.PulleyJ.SattarN.Comparison of lipid and lipid-associated cardiovascular risk marker changes after treatment with tocilizumab or adalimumab in patients with rheumatoid arthritisAnn Rheum Dis751020161806181210.1136/annrheumdis-2015-20787226613768PMC5036214"
+    },
+    {
+      "html": "GabayC.BurmesterG.R.StrandV.MsihidJ.ZilbersteinM.KimuraT.van HoogstratenH.BoklageS.H.SadehJ.GrahamN.M.H.BoyapatiA.Sarilumab and adalimumab differential effects on bone remodelling and cardiovascular risk biomarkers, and predictions of treatment outcomesArthritis Res Ther22120207010.1186/s13075-020-02163-632264972PMC7137491"
+    },
+    {
+      "html": "LeeJ.S.ChapmanM.J.PirainoP.LamerzJ.SchindlerT.CutlerP.DernickG.Remodeling of plasma lipoproteins in patients with rheumatoid arthritis: interleukin-6 receptor-alpha inhibition with tocilizumabProteom Clin Appl102201618319410.1002/prca.20150003626201085"
+    },
+    {
+      "html": "PergolaP.E.DevalarajaM.FishbaneS.ChoncholM.MathurV.S.SmithM.T.LoL.HerzogK.KakkarR.DavidsonM.H.Ziltivekimab for treatment of anemia of inflammation in patients on hemodialysis: results from a phase 1/2 multicenter, randomized, double-blind, placebo-controlled trialJ Am Soc Nephrol321202121122210.1681/asn.202005059533272965PMC7894678"
+    },
+    {
+      "html": "RidkerP.M.DevalarajaM.BaeresF.M.M.EngelmannM.D.M.HovinghG.K.IvkovicM.LoL.KlingD.PergolaP.RajD.LibbyP.DavidsonM.Il-6 inhibition with ziltivekimab in patients at high atherosclerotic risk (rescue): a double-blind, randomised, placebo-controlled, phase 2 trialLancet3971028920212060206910.1016/s0140-6736(21)00520-134015342"
+    },
+    {
+      "html": "VironeA.BastardJ.P.FellahiS.CapeauJ.RouanetS.SibiliaJ.RavaudP.BerenbaumF.GottenbergJ.E.SellamJ.Comparative effect of tumour necrosis factor inhibitors versus other biological agents on cardiovascular risk-associated biomarkers in patients with rheumatoid arthritisRMD Open522019e00089710.1136/rmdopen-2019-000897PMC666797131413865"
+    },
+    {
+      "html": "BenucciM.ManfrediM.SaviolaG.Sarzi-PuttiniP.AtzeniF.Changes in atherosclerosis markers during tocilizumab treatment in rheumatoid arthritis: preliminary resultsClin Exp Rheumatol312201332232323380047"
+    },
+    {
+      "html": "SchultzO.OberhauserF.SaechJ.Rubbert-RothA.HahnM.KroneW.LaudesM.Effects of inhibition of interleukin-6 signalling on insulin sensitivity and lipoprotein (a) levels in human subjects with rheumatoid diseasesPLoS One5122010e1432810.1371/journal.pone.0014328PMC300145121179199"
+    },
+    {
+      "html": "Ferraz-AmaroI.Hernández-HernándezM.V.Tejera-SeguraB.Delgado-FríasE.Macía-DíazM.MachadoJ.D.Diaz-GonzálezF.Effect of il-6 receptor blockade on proprotein convertase subtilisin/kexin type-9 and cholesterol efflux capacity in rheumatoid arthritis patientsHorm Metab Res513201920020910.1055/a-0833-462730695794"
+    },
+    {
+      "html": "ChertowG.M.ChangA.M.FelkerG.M.HeiseM.VelkoskaE.FellströmB.CharytanD.M.ClementiR.GibsonC.M.GoodmanS.G.JardineM.LevinA.LokhnyginaY.MearsJ.MehranR.StenvinkelP.WangA.Y.WheelerD.C.ZoccaliC.RidkerP.M.MahaffeyK.W.TricociP.WolfM.Il-6 inhibition with clazakizumab in patients receiving maintenance dialysis: a randomized phase 2b trialNat Med202410.1038/s41591-024-03043-1PMC1133327238796655"
+    },
+    {
+      "html": "MehtaN.N.deGomaE.ShapiroM.D.Il-6 and cardiovascular risk: a narrative reviewCurr Atheroscler Rep27120241210.1007/s11883-024-01259-739589436PMC11599326"
+    },
+    {
+      "html": "LibbyP.Targeting inflammatory pathways in cardiovascular disease: the inflammasome, interleukin-1, interleukin-6 and beyondCells104202110.3390/cells10040951PMC807359933924019"
+    },
+    {
+      "html": "WadeD.P.ClarkeJ.G.LindahlG.E.LiuA.C.ZysowB.R.MeerK.SchwartzK.LawnR.M.5′ control regions of the apolipoprotein(a) gene and members of the related plasminogen gene familyProc Natl Acad Sci U S A90419931369137310.1073/pnas.90.4.13697679504PMC45874"
+    },
+    {
+      "html": "SzarekM.BittnerV.A.AylwardP.Baccara-DinetM.BhattD.L.DiazR.FrasZ.GoodmanS.G.HalvorsenS.HarringtonR.A.JukemaJ.W.MoriartyP.M.PordyR.RayK.K.SinnaeveP.TsimikasS.VogelR.WhiteH.D.ZahgerD.ZeiherA.M.StegP.G.SchwartzG.G.Lipoprotein(a) lowering by alirocumab reduces the total burden of cardiovascular events independent of low-density lipoprotein cholesterol lowering: odyssey outcomes trialEur Heart J414420204245425510.1093/eurheartj/ehaa64933051646PMC7724642"
+    },
+    {
+      "html": "BurgessS.FerenceB.A.StaleyJ.R.FreitagD.F.MasonA.M.NielsenS.F.WilleitP.YoungR.SurendranP.KarthikeyanS.BoltonT.R.PetersJ.E.KamstrupP.R.Tybjærg-HansenA.BennM.LangstedA.SchnohrP.Vedel-KroghS.KobyleckiC.J.FordI.PackardC.TrompetS.JukemaJ.W.SattarN.Di AngelantonioE.SaleheenD.HowsonJ.M.M.NordestgaardB.G.ButterworthA.S.DaneshJ.Association of lpa variants with risk of coronary disease and the implications for lipoprotein(a)-lowering therapies: a mendelian randomization analysisJAMA Cardiol37201861962710.1001/jamacardio.2018.147029926099PMC6481553"
+    },
+    {
+      "html": "MadsenC.M.KamstrupP.R.LangstedA.VarboA.NordestgaardB.G.Lipoprotein(a)-lowering by 50 mg/dl (105 nmol/l) may be needed to reduce cardiovascular disease 20% in secondary prevention: a population-based studyArter Thromb Vasc Biol401202025526610.1161/atvbaha.119.31295131578080"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

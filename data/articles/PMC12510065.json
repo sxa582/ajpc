@@ -1,0 +1,458 @@
+{
+  "pmcid": "PMC12510065",
+  "pmid": "41078706",
+  "doi": "10.1016/j.ajpc.2025.101270",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12510065/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "The positive association between evening or night work schedules and coronary heart disease or angina among U.S. adults: A cross-sectional study",
+  "articleType": "Research Article",
+  "published": "2025-08-23",
+  "year": "2025",
+  "volume": "24",
+  "issue": "",
+  "articleNumber": "101270",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2025",
+  "authors": [
+    {
+      "given": "Jingyi",
+      "surname": "Ding",
+      "display": "Jingyi Ding"
+    },
+    {
+      "given": "Yuzhi",
+      "surname": "Jia",
+      "display": "Yuzhi Jia"
+    },
+    {
+      "given": "Ran",
+      "surname": "Ji",
+      "display": "Ran Ji"
+    },
+    {
+      "given": "Hui",
+      "surname": "Zhang",
+      "display": "Hui Zhang"
+    },
+    {
+      "given": "Ziyi",
+      "surname": "Wang",
+      "display": "Ziyi Wang"
+    },
+    {
+      "given": "Xinbin",
+      "surname": "Song",
+      "display": "Xinbin Song"
+    },
+    {
+      "given": "Jing",
+      "surname": "Gao",
+      "display": "Jing Gao"
+    },
+    {
+      "given": "Qingyong",
+      "surname": "He",
+      "display": "Qingyong He"
+    }
+  ],
+  "affiliations": [
+    "aDepartment of Cardiology, Guang’anmen Hospital, China Academy of Chinese Medical Sciences, Beijing, PR China",
+    "bDepartment of Intensive Care Unit, Guang’anmen Hospital, China Academy of Chinese Medical Sciences, Beijing, PR China",
+    "cHubei University of Chinese Medicine, Hubei, Wuhan, PR China",
+    "dDepartment of Intensive Care Unit, Zhumadian Hospital of Traditional Chinese Medicine, Zhumadian, Henan, PR China"
+  ],
+  "keywords": [
+    "Coronary heart disease",
+    "Angina",
+    "Work schedules",
+    "Cross-sectional study",
+    "NHANES"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Background:</strong> Currently, there is a scarcity of research exploring the connection between work schedules and coronary heart disease (CHD) or angina. Previous studies on the associations between work schedules and CHD or angina have been primarily limited to specific occupations, particular genders, small sample sizes, or narrow regional focus. This study aims to evaluate the potential association between work schedules and CHD or angina among adults in the United States."
+    },
+    {
+      "html": "<strong>Methods:</strong> In this cross-sectional study, we selected 13,147 adults aged ≥ 20 years from the National Health and Nutrition Examination Survey 2005–2010 and 2017–2020 cycles. We computed adjusted odds ratio (OR) and 95 % confidence interval (CI) utilizing multivariate logistic regression models. Meticulous subgroup analyses were conducted to ensure the reliability and consistency of our findings. Propensity score assessments were implemented to enhance the comparability between daytime workers and evening or night workers, thereby facilitating a more accurate estimation."
+    },
+    {
+      "html": "<strong>Results:</strong> Among the participants, 216 were diagnosed with CHD, while 125 were diagnosed with angina. Evening or night workers exhibited a prevalence of CHD that was 1.87 times higher than that of daytime workers (OR: 1.87, 95 % CI: 1.19–2.95, <em>P</em> = 0.007). Furthermore, evening or night workers exhibited a prevalence of angina that was 1.81 times higher than that of daytime workers (OR: 1.81, 95 % CI: 1.05–3.12, <em>P</em> = 0.033). Our findings demonstrated robustness and reliability through subgroup analyses and propensity score assessments."
+    },
+    {
+      "html": "<strong>Conclusions:</strong> In conclusion, evening or night work schedules were associated with increased CHD and angina risk. Further research should explore biological mechanisms for prevention in this population."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Coronary Heart Disease (CHD) remains the leading cause of global mortality [1], accounting for 33 % of deaths worldwide [2,3]. Its common symptom, angina, reflects underlying CHD and contributes significantly to healthcare burdens, particularly in the United States (U.S.)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Societal and economic demands have driven an increased need for 24-hour work schedules in various industries. Evening or night work disrupts circadian rhythms, leading to irregular sleep-wake cycles that heighten work-related stress [4]. Consequently, evening or night work is acknowledged as a contributing factor to cardiovascular diseases (CVDs) [5]. Evidence indicates that evening or night workers have higher CVD incidence than daytime workers, including increased prevalence and severity of hypertension, left ventricular hypertrophy, and myocardial infarction [6], along with increased inflammation, dyslipidaemia, and impaired cardiac excitability [7]. Among hypertensive patients, these workers also exhibit a 16 % higher risk of cardiometabolic multimorbidity [8]. A systematic meta-analysis further demonstrated that evening or night workers have the highest coronary event risk compared to other shift types [9]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Previous population-based studies have identified associations between evening or night work and CHD, angina, or ischemic heart disease in specific occupational groups [[10], [11], [12]]. However, these studies were either limited to particular populations (e.g., nurses) or failed to distinguish between CHD and angina diagnoses. Additionally, several cross-sectional studies were limited to narrow sample sizes [13,14]. To address these limitations, we utilized a cross-sectional study based on data from the National Health and Nutrition Examination Survey (NHANES) to investigate the relationship between work schedules and the prevalence of CHD or angina among U.S. workers."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Data sources and study participants",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "NHANES is a nationally representative survey administered by the National Center for Health Statistics of the Centers for Disease Control and Prevention. The study employed a sophisticated, stratified, multistage probability cluster methodology to collect data from the noninstitutionalized U.S. population [15]. All participants furnished written informed consent before participating in NHANES. This study followed the Strengthening the Reporting of Observational Studies in Epidemiology reporting guidelines."
+        },
+        {
+          "type": "paragraph",
+          "html": "In this cross-sectional study, information on work schedules was available only in the NHANES 2005–2010 and 2017–2020 cycles for adults aged ≥ 20 years, forming the basis for our analysis. The following exclusion criteria were applied: age &lt; 20 years; unavailable data on work schedules, CHD, and angina; and unavailable demographic information (including age, sex, race/ethnicity, marital status, and poverty income ratio [PIR]), as well as data on physical activity (PA), smoking status, and hypertension. The data analysis was conducted on 13,147 participants (Fig. 1).Fig. 1The flow chart of the screening and enrollment of study participants. NHANES, National Health and Nutrition Examination Survey; CHD, coronary heart disease; RIR, poverty income ratio.Fig 1"
+        }
+      ]
+    },
+    {
+      "title": "Work schedules",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Information about work schedules was gathered in participants&#x27; homes by skilled interviewers utilizing the computer-assisted personal interview system, which is programmed with built-in consistency checks to reduce data entry errors and assisted interviewers in defining key terms used in the questionnaire. Based on the occupation questionnaire regarding work schedules, participants were categorized into three groups: (a) Daytime worker (including persons who answered “A regular daytime schedule”, “Traditional 9 AM to 5 PM day”, or “Early mornings”); (b) Evening or night worker (including persons who answered “A regular evening shift”, “A regular night shift”, or “Evening or nights”); and (c) Shift worker (including persons who answered “A rotating shift”, “Another schedule”, or “Variable [early mornings, days, and nights]”)."
+        }
+      ]
+    },
+    {
+      "title": "Diagnosis of CHD or angina",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "According to previous NHANES research, CHD is primarily diagnosed based on a history of CHD [16,17], and angina is mainly diagnosed based on a history of angina. If participants responded affirmatively to the query, &quot;Have you ever been informed by a doctor or other health professional that you had CHD?&quot; or &quot;Have you ever been informed by a doctor or other health professional that you had angina?&quot; they were considered to be diagnosed with CHD or angina."
+        }
+      ]
+    },
+    {
+      "title": "Covariate assessment",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Details on age, sex, race/ethnicity, marital status, PIR, PA, smoking status, and hypertension history were obtained from questionnaires and assessed according to the literature [[18], [19], [20]]. Covariates were categorized as follows: race/ethnicity (non-Hispanic White, non-Hispanic Black, Mexican American, other Hispanic, and other race), marital status (married, never married, living with a partner, and other [including widowed, divorced, or separated]), PIR (low income [PIR ≤ 1.30], medium income [PIR = 1.31–3.50], and high income [PIR &gt; 3.50]) [21], and smoking status (never [less than 100 cigarettes], former [more than 100 cigarettes but quit], and current [more than 100 cigarettes and currently smoke]). Participants were considered diagnosed with hypertension if they responded &quot;yes&quot; to the question, &quot;Have you ever been told by a doctor or other health professional that you have hypertension, also called high blood pressure?&quot; or &quot;Are you now taking prescribed medicine for high blood pressure?&quot;."
+        }
+      ]
+    },
+    {
+      "title": "Statistical analysis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Mean and standard deviation were utilized for continuous variables with a normal distribution; otherwise, median values and interquartile ranges were utilized to characterize the central tendency and spread of non-normally distributed continuous variables. Kruskal-Wallis tests and <em>χ<sup>2</sup></em> tests were employed to compare continuous and categorical data, respectively. To explore the association between work schedules and CHD or angina, multivariate logistic regression models were employed, determining the odds ratio (OR) and 95 % confidence interval (CI). Age adjustment was made in Model 1, while Model 2 incorporated adjustments for factors from Model 1 and sex, race/ethnicity, and marital status. Model 3 went a step further, encompassing adjustments for factors from Model 2 and PIR, PA, smoking status, and hypertension."
+        },
+        {
+          "type": "paragraph",
+          "html": "Furthermore, interaction and subgroup analyses were conducted to assess the stability of the relationship between work schedules and CHD or angina across different populations. These analyses were performed by age (&lt; 40 years, 40–59 years, and ≥ 60 years) [22], sex, PIR (low income [PIR ≤ 1.30], medium income [PIR = 1.31–3.50], and high income [PIR &gt; 3.50]) [21], and smoking status (non-smokers versus smokers). Logistic regression models and likelihood ratio tests were used to assess heterogeneity and interactions between subgroups."
+        },
+        {
+          "type": "paragraph",
+          "html": "Propensity score matching (PSM) [23] was conducted for evening or night workers and daytime workers with a multivariable logistic regression model. A 1:1 nearest neighbor matching algorithm was employed with a caliper width of 0.2. Standardized mean differences were used to evaluate the balance after PSM, using age, sex, race/ethnicity, marital status, PIR, PA, smoking status, and hypertension as model covariates for propensity score assessments. Propensity scores were used as weights. To ensure robustness, the inverse probability of treatment weighting (IPTW) [24], the pairwise algorithm [25], and the overlap weight [26] models were used to address potential confounding factors. All statistical analyses were conducted using Free Statistics software (version 1.9.2) and the statistical software programs R (version 4.1.2; <a href=\"https://www.r-project.org/\">https://www.r-project.org/</a>)."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Participant selection and general characteristics",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The current study comprised a total of 31,933 participants from NHANES, with 13,147 participants included (Fig. 1). Exclusions were made for 17,345 participants due to missing or implausible data for work schedules, CHD, or angina, resulting in 14,588 participants available for analysis. An additional 1441 participants lacking covariate data were also excluded."
+        },
+        {
+          "type": "paragraph",
+          "html": "The baseline characteristics of the study participants are outlined in Table 1. The median age of the participants included was 42.9 (28.8–57) years, and 53.1 % were male. A total of 1333 participants worked in the evening or at night. Among all participants, 216 were diagnosed with CHD, while 125 were diagnosed with angina.Table 1Baseline characteristics of study participants according to work schedules.Table 1VariablesTotal (<em>n</em> = 13,147)Daytime worker (<em>n</em> = 8826)Evening or night worker (<em>n</em> = 1333)Shift worker (<em>n</em> = 2988)<em>P</em> value<strong>Age, Mean ± SD</strong>42.9 ± 14.143.4 ± 13.739.8 ± 14.342.9 ± 15.1&lt; 0.001<strong>Age, n ( %)</strong>&lt; 0.001 &lt;6011,171 (85.0)7509 (85.1)1177 (88.3)2485 (83.2) ≥601976 (15.0)1317 (14.9)156 (11.7)503 (16.8)<strong>Sex, n ( %)</strong>0.075 Male6979 (53.1)4628 (52.4)713 (53.5)1638 (54.8) Female6168 (46.9)4198 (47.6)620 (46.5)1350 (45.2)<strong>Race/Ethnicity, n ( %)</strong>&lt; 0.001 Non-Hispanic White5530 (42.1)3820 (43.3)437 (32.8)1273 (42.6) Non-Hispanic Black2918 (22.2)1782 (20.2)393 (29.5)743 (24.9) Mexican American2230 (17.0)1641 (18.6)210 (15.8)379 (12.7) Other Hispanic1194 (9.1)813 (9.2)142 (10.7)239 (8) Other race1275 (9.7)770 (8.7)151 (11.3)354 (11.8)<strong>Marital Status, n ( %)</strong>&lt; 0.001 Married7524 (57.2)5264 (59.6)613 (46)1647 (55.1) Never married2686 (20.4)1582 (17.9)394 (29.6)710 (23.8) Living with partner793 (6.0)569 (6.4)100 (7.5)124 (4.1) Other status2144 (16.3)1411 (16)226 (17)507 (17)<strong>PIR, Mean ± SD</strong>2.9 ± 1.63.0 ± 1.62.4 ± 1.52.8 ± 1.7&lt; 0.001<strong>PIR, n ( %)</strong>&lt; 0.001 ≤1.302881 (21.9)1752 (19.9)381 (28.6)748 (25) 1.31–3.505030 (38.3)3305 (37.4)617 (46.3)1108 (37.1) &gt;3.505236 (39.8)3769 (42.7)335 (25.1)1132 (37.9)<strong>PA, Mean ± SD</strong>1063.4 ± 1774.6952.8 ± 1675.61302.5 ± 1921.81283.4 ± 1951.3&lt; 0.001<strong>Smoke, n ( %)</strong>&lt; 0.001 Never7714 (58.7)5230 (59.3)735 (55.1)1749 (58.5) Former2723 (20.7)1876 (21.3)218 (16.4)629 (21.1) Now2710 (20.6)1720 (19.5)380 (28.5)610 (20.4)<strong>CHD, n ( %)</strong>0.397 No12,931 (98.4)8690 (98.5)1307 (98)2934 (98.2) Yes216 (1.6)136 (1.5)26 (2)54 (1.8)<strong>Angina, n ( %)</strong>0.259 No13,022 (99.0)8750 (99.1)1316 (98.7)2956 (98.9) Yes125 (1.0)76 (0.9)17 (1.3)32 (1.1)<strong>Hypertension, n ( %)</strong>0.128 No9403 (71.5)6275 (71.1)983 (73.7)2145 (71.8) Yes3744 (28.5)2551 (28.9)350 (26.3)843 (28.2)CHD, coronary heart disease; PIR, poverty income ratio; PA, physical activity; SD, standard deviation."
+        }
+      ]
+    },
+    {
+      "title": "Association between work schedules and CHD or angina prevalence",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In multivariable logistic regression analysis adjusted for age, sex, race/ethnicity, marital status, PIR, PA, smoking status, and hypertension in Model 3, evening or night work schedules were significantly positively associated with CHD or angina compared to daytime work schedules. The prevalence of CHD was 1.87 times higher in evening or night workers than in daytime workers (OR: 1.87, 95 % CI: 1.19–2.95, <em>P</em> = 0.007) (Table 2, Model 3). Moreover, the prevalence of angina was 1.81 times higher in evening or night workers than in daytime workers (OR: 1.81, 95 % CI: 1.05–3.12, <em>P</em> = 0.033) (Table 2, Model 3). Nevertheless, there was no significant difference in the prevalence of CHD or angina between daytime workers and shift workers.Table 2Association between work schedules and CHD or Angina.Table 2Cases/participantsModel 1aModel 2 bModel 3 cOR (95 % CI)<em>P</em> valueOR (95 % CI)<em>P</em> valueOR (95 % CI)<em>P</em> value<strong>CHD</strong> Daytime worker8826/13,1471 [Reference]1 [Reference]1 [Reference]Evening or night worker1333/13,1471.66 (1.07–2.56)0.0241.84 (1.18–2.87)0.0071.87 (1.19–2.95)0.007 Shift worker2988/13,1471.04 (0.75–1.44)0.830.99 (0.71–1.39)0.9661.06 (0.76–1.49)0.732<strong>Angina</strong> Daytime worker8826/13,1471 [Reference]1 [Reference]1 [Reference]Evening or night worker1333/13,1471.78 (1.04–3.03)0.0341.88 (1.09–3.21)0.0221.81 (1.05–3.12)0.033 Shift worker2988/13,1471.2 (0.79–1.82)0.3991.88 (1.09–3.21)0.0221.22 (0.8–1.86)0.359CHD, coronary heart disease; CI, confidence interval; OR, odds ratio.aAdjusted for age.bAdjusted for age, gender, race/ethnicity, and marital status.cAdjusted for age, gender, race/ethnicity, marital status, poverty income ratio, physical activity, smoking status, and hypertension."
+        }
+      ]
+    },
+    {
+      "title": "Subgroup analyses",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Fig. 2 illustrates the outcomes of the subgroup analyses. Subgroup analyses aimed to investigate the potential connection between work schedules and the prevalence of CHD (Fig. 2A) or angina (Fig. 2B) across various subgroups categorized by age, sex, PIR, and smoking status. However, no distinctions were observed among all subgroups regarding the influence of work schedules on CHD or angina prevalence.Fig. 2Subgroup analyses. (A) Subgroup analyses of the association between work schedules and coronary heart disease. (B) Subgroup analyses of the association between work schedules and angina. OR, odds ratio; Ref, reference group.Fig 2"
+        }
+      ]
+    },
+    {
+      "title": "Propensity score assessment",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "After PSM, the 1333 pairs (one from each group) were well-matched, displaying no significant differences between the two matched groups (Fig. 3). Various methods of propensity score assessments indicated that the prevalence of CHD and angina remained higher in evening or night workers when compared to daytime workers. The OR for CHD prevalence was 2.63 (95 % CI: 1.26–5.48, <em>P</em> = 0.01) after PSM. The OR for angina prevalence was 2.45 (95 % CI: 1.01–5.92, <em>P</em> = 0.047) after PSM. After IPTW, the ORs were 1.77 (95 % CI: 1.21–2.6, <em>P</em> = 0.003) for CHD prevalence and 2.08 (95 % CI: 1.29–3.34, <em>P</em> = 0.003) for angina (Table 3).Fig. 3Standardized mean difference between evening or night workers and daytime workers. PSM, propensity score matched; IPTW, inverse probability of treatment weighting; PA, pairwise algorithmic; OW, overlap weight; SMD, standardized mean difference.Fig 3Table 3The association between evening or night workers and CHD or angina compared to daytime workers after matching.Table 3AnalysisCHDAnginaOR (95 % CI)<em>P</em> valueOR (95 % CI)<em>P</em> valueMultivariable Adjusted1.91 (1.21–3.01)0.0061.87 (1.08–3.24)0.025Propensity Score Adjusted1.99 (1.29–3.08)0.0021.96 (1.14–3.37)0.016PSM2.63 (1.26–5.48)0.012.45 (1.01–5.92)0.047Weighted IPTW1.77 (1.21–2.6)0.0032.08 (1.29–3.34)0.003Weighted PA1.98 (1.02–3.85)0.0441.94 (0.86–4.38)0.112Weighted OW1.95 (0.96–3.95)0.0651.93 (0.81–4.62)0.139CHD, coronary heart disease; CI, confidence interval; OR, odds ratio; PSM, propensity score matched; IPTW, inverse probability of treatment weighting; PA, pairwise algorithmic; OW, overlap weight."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The outcomes of this cross-sectional study indicate a consistent positive association between evening or night work schedules and the prevalence of CHD or angina when compared to daytime work schedules. Nonetheless, no significant disparity in the prevalence of CHD or angina was observed between daytime work schedules and shift work schedules. Our findings remained robust in subgroup analyses and propensity score assessments."
+        },
+        {
+          "type": "paragraph",
+          "html": "Prior prospective cohort studies conducted by Céline et al [10] and Kivimäki et al [11], each independently identified elevated CHD and angina risk among female nurses engaged in prolonged night shifts. While informative, these studies were limited by gender and occupational homogeneity. Our study included a variety of gender and occupational groups, thereby yielding more universally applicable conclusions. Additionally, Kivimäki et al.&#x27;s study treated angina only as a CVD screening criterion and Céline et al.&#x27;s study considered it merely a CHD symptom; our study specifically examined its independent association with work schedules to address this gap. Previous cross-sectional investigation involving 140 adults revealed that evening or night work was linked to the increased atherogenic index of plasma score [13], a well-established predictor of atherosclerosis progression and subsequent CHD risk. Our large-scale analysis strengthens this observation."
+        },
+        {
+          "type": "paragraph",
+          "html": "The increased prevalence of CHD or angina among evening or night workers may be mediated by elevated oxidative stress and chronic inflammation. Night workers exhibit higher Interleukin (IL)-1β and IL-6 levels compared to daytime workers [27,28]. Rotational or permanent night shifts elevate oxidative stress markers, including DNA damage, lipid peroxidation, and reactive oxygen species, while reducing repair capacity and antioxidant defenses [29]. These effects are compounded by circadian disruption, as night work interferes with the 24-hour biological rhythms governing sleep-wake cycles, metabolism, and cardiovascular functions [30]. The resulting metabolic and hormonal dysregulation also promotes inflammation [31], oxidative stress [28], hypertension [32], and dyslipidemia [32,33], collectively increasing CHD risk [[34], [35], [36]]."
+        },
+        {
+          "type": "paragraph",
+          "html": "The potential pathophysiological mechanisms of the impact of evening or night work on CHD and angina are also tied to occupational stress [37]. Night-shift security guards exhibited higher salivary cortisol during street patrols [38], and elevated levels of late-night salivary cortisol indicate a heightened risk of coronary calcification [39] and cardiovascular mortality [40]. It can be inferred that the mental stress induced by evening or night work is also a significant contributing factor to the increased incidence of CHD or angina."
+        },
+        {
+          "type": "paragraph",
+          "html": "Research also underscored the impact of sleep quality on the occurrence of CHD and angina among evening or night workers, which carries significant implications for their overall health and well-being [[41], [42], [43]]. Overnight work is linked to difficulty falling asleep, sleep disturbances, sleep fragmentation, early morning awakening, and shorter, unconsolidated daytime sleep, all of which can lead to chronic sleep deprivation [44,45]. Suboptimal sleep behaviors are also associated with an increased risk of CHD or angina through diverse underlying mechanisms, including oxidative stress, inflammation, metabolic irregularities, changes in neural autonomic control, coagulatory responses, and sympathetic disturbance [46,47]."
+        },
+        {
+          "type": "paragraph",
+          "html": "After a sudden change in work schedules, re-establishing rhythm synchronization can be accomplished by taking a short daytime nap [48]. Nevertheless, when this change persists for five days or more, it leads to a misalignment between the internal and external facets of the rhythm [49]. Besides, the risk of CHD morbidity was 26 % greater among shift workers compared to daytime workers, and this association was non-linear, becoming apparent only after five years of exposure [9]. The delayed effect observed in shift work might be attributable to its intermittent nature, which could provide recovery periods that mitigate acute physiological disruptions. This potential buffering effect could also explain why shift work schedules in our study did not exhibit a significant difference in the association with CHD or angina compared to daytime work schedules, whereas evening or night work schedules did."
+        },
+        {
+          "type": "paragraph",
+          "html": "Nonetheless, our study had limitations. First, the cross-sectional design precluded causal inference between work schedules and CHD or angina risk. Second, as highlighted in our supplemental analysis (supplementary table 1), the exclusion of 18,786 participants due to missing data introduced selection bias: excluded individuals were older and had higher baseline prevalence of hypertension, CHD, and angina, suggesting our included participants underrepresented higher-risk populations, which may have led to conservative effect estimates. However, the consistency between our primary analysis and PSM results reinforces the validity of our findings. Third, our study used NHANES questionnaire data, which has inherent limitations: former smoker was defined without consideration of cessation duration, and hypertension assessment based on self-reported diagnosis could underestimate true prevalence due to undiagnosed cases. Fourth, self-reported work schedules and disease history may introduce recall bias and exposure misclassification. Prior evidence suggests patients may recall their night shifts more accurately, potentially overestimating the estimated risk ratios [50]. However, if the inaccuracies occur equally across all groups, the bias may cancel out [51]. In our study, the use of PSM also helped to mitigate this bias. Importantly, our study lacked granular data on work intensity, actual hours, and occupational specifics—including shift work composition—which may explain the non-significant differences between shift workers and daytime workers. Large-scale prospective cohort studies are needed to address these limitations."
+        }
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In this study, we observed a higher OR of CHD and angina among U.S. adults working in the evening or at night compared to those working during the day. The research emphasizes the necessity for intervention strategies to potentially diminish the risk of CHD or angina in evening or night workers. Moving forward, our findings should be validated in a prospective multi-ethnic study, and the underlying biological mechanisms contributing to the positive association between evening or night work schedules and CHD or angina should be further explored."
+        }
+      ]
+    },
+    {
+      "title": "Central illustration",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Declaration of generative AI in scientific writing",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "During the preparation of this work the authors used ChatGPT 3.5 in order to improve language and readability. After using this tool, the authors reviewed and edited the content as needed and take full responsibility for the content of the publication article."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Jingyi Ding:</strong> Writing – review &amp; editing, Writing – original draft, Validation, Supervision, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. <strong>Yuzhi Jia:</strong> Writing – review &amp; editing, Writing – original draft, Visualization, Methodology, Conceptualization. <strong>Ran Ji:</strong> Writing – review &amp; editing, Writing – original draft, Visualization, Methodology, Conceptualization. <strong>Hui Zhang:</strong> Writing – review &amp; editing, Validation, Supervision, Methodology, Investigation. <strong>Ziyi Wang:</strong> Writing – review &amp; editing, Validation, Supervision, Methodology, Investigation. <strong>Xinbin Song:</strong> Writing – review &amp; editing, Validation, Investigation, Data curation. <strong>Jing Gao:</strong> Writing – review &amp; editing, Validation, Investigation, Data curation. <strong>Qingyong He:</strong> Writing – review &amp; editing, Funding acquisition, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare that they have no conflict of interests."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "RothG.A.MensahG.A.JohnsonC.O.AddoloratoG.AmmiratiE.BaddourL.M.BarengoN.C.BeatonA.Z.BenjaminE.J.BenzigerC.P.Global burden of cardiovascular diseases and risk factors, 1990-2019: update from the GBD 2019 studyJ Am Coll Cardiol76252020298230213330917510.1016/j.jacc.2020.11.010PMC7755038"
+    },
+    {
+      "html": "ShayaG.E.LeuckerT.M.JonesS.R.MartinS.S.TothP.P.Coronary heart disease risk: low-density lipoprotein and beyondTrends Cardiovasc Med32420221811943387275710.1016/j.tcm.2021.04.002"
+    },
+    {
+      "html": "HeneinM.Y.VancheriS.LongoG.VancheriF.The role of inflammation in cardiovascular diseaseInt J Mol Sci232120221290610.3390/ijms232112906PMC965890036361701"
+    },
+    {
+      "html": "HulseggeG.van MechelenW.ProperK.I.PaagmanH.AnemaJ.R.Shift work, and burnout and distress among 7798 blue-collar workersInt Arch Occup Env Health93820209559633235060910.1007/s00420-020-01536-3PMC7519910"
+    },
+    {
+      "html": "RiveraA.S.AkanbiM.O’DwyerL.C.McHughM.Shift work and long work hours and their association with chronic health conditions: a systematic review of systematic reviews with meta-analysesPLoS One1542020e023103710.1371/journal.pone.0231037PMC711771932240254"
+    },
+    {
+      "html": "HausE.SmolenskyM.Biological clocks and shift work: circadian dysregulation and potential long-term effectsCancer Causes Control17420064895001659630210.1007/s10552-005-9015-4"
+    },
+    {
+      "html": "ErdemJ.S.DasM.K.De RyckE.SkareØ.LieJ.S.BuggeM.HardingB.JorgensenI.L.MehlumI.S.KogevinasM.Night shift work and indicators of cardiovascular risk: a systematic review and meta-analysisEnv Res276202512150310.1016/j.envres.2025.12150340164421"
+    },
+    {
+      "html": "YangL.LuoY.HeL.YinJ.LiT.LiuS.LiD.ChengX.BaiY.Shift work and the risk of cardiometabolic multimorbidity among patients with hypertension: a prospective cohort study of UK BiobankJ Am Heart Assoc11172022e02593610.1161/JAHA.122.025936PMC949640636036170"
+    },
+    {
+      "html": "TorquatiL.MielkeG.I.BrownW.J.Kolbe-AlexanderT.Shift work and the risk of cardiovascular disease. A systematic review and meta-analysis including dose-response relationshipScand J Work Env Health44320182292382924750110.5271/sjweh.3700"
+    },
+    {
+      "html": "VetterC.DevoreE.E.WegrzynL.R.MassaJ.SpeizerF.E.KawachiI.RosnerB.StampferM.J.SchernhammerE.S.Association between rotating night shift work and risk of coronary heart disease among womenJAMA315162016172617342711537710.1001/jama.2016.4454PMC5102147"
+    },
+    {
+      "html": "KivimakiM.VirtanenM.ElovainioM.VaananenA.Keltikangas-JarvinenL.VahteraJ.Prevalent cardiovascular disease, risk factors and selection out of shift workScand J Work Env Health32320062042081680462310.5271/sjweh.1000"
+    },
+    {
+      "html": "EngA.DenisonH.J.CorbinM.BarnesL.t MannetjeA.McLeanD.JacksonR.LairdI.DouwesJ.Long working hours, sedentary work, noise, night shifts and risk of ischaemic heart diseaseHeart109520233723793594085810.1136/heartjnl-2022-320999"
+    },
+    {
+      "html": "Abu FarhaR.AlefishatE.Shift work and the risk of cardiovascular diseases and metabolic syndrome among Jordanian employeesOman Med J33320182352422989633210.5001/omj.2018.43PMC5971048"
+    },
+    {
+      "html": "SkogstadM.MamenA.LundeL.K.UlvestadB.MatreD.AassH.C.DOvsteboR.NielsenP.SamuelsenK.N.SkareO.Shift work including night work and long working hours in industrial plants increases the risk of atherosclerosisInt J Env Res Public Health16320195213075988410.3390/ijerph16030521PMC6388185"
+    },
+    {
+      "html": "About the National health and nutrition examination survey [<a href=\"https://www.cdc.gov/nchs/nhanes/about_nhanes.htm\">https://www.cdc.gov/nchs/nhanes/about_nhanes.htm</a>]."
+    },
+    {
+      "html": "MaR.GaoJ.MaoS.WangZ.Association between heart rate and cardiovascular death in patients with coronary heart disease: a NHANES-based cohort studyClin Cardiol45520225745823535238510.1002/clc.23818PMC9045079"
+    },
+    {
+      "html": "MaR.ZhouX.ZhangG.WuH.LuY.LiuF.ChangY.DingY.Association between composite dietary antioxidant index and coronary heart disease among US adults: a cross-sectional analysisBMC Public Health231202324263805309910.1186/s12889-023-17373-1PMC10699074"
+    },
+    {
+      "html": "LiuH.WangL.ChenC.DongZ.YuS.Association between dietary niacin intake and migraine among American adults: national health and nutrition examination surveyNutrients14152022305210.3390/nu14153052PMC933082135893904"
+    },
+    {
+      "html": "ChenX.WangC.DongZ.LuoH.YeC.LiL.WangE.Interplay of sleep patterns and oxidative balance score on total cardiovascular disease risk: insights from the National Health and Nutrition Examination Survey 2005-2018J Glob Health1320230417010.7189/jogh.13.04170PMC1071545638085249"
+    },
+    {
+      "html": "Lopez-NeymanS.M.DavisK.ZohooriN.BroughtonK.S.MooreC.E.MiketinasD.Racial disparities and prevalence of cardiovascular disease risk factors, cardiometabolic risk factors, and cardiovascular health metrics among US adults: NHANES 2011-2018Sci Rep12120221947510.1038/s41598-022-21878-xPMC966359036376533"
+    },
+    {
+      "html": "What we eat in America [<a href=\"https://www.ars.usda.gov/northeast-area/beltsville-md-bhnrc/beltsville-human-nutrition-research-center/food-surveys-research-group/docs/wweia-data-tables/\">https://www.ars.usda.gov/northeast-area/beltsville-md-bhnrc/beltsville-human-nutrition-research-center/food-surveys-research-group/docs/wweia-data-tables/</a>]."
+    },
+    {
+      "html": "Technical advisory group for measurement, monitoring and evaluation of the UN decade of healthy ageing [<a href=\"https://www.who.int/groups/technical-advisory-group-for-measurement-monitoring-and-evaluation-of-the-un-decade-of-healthy-ageing\">https://www.who.int/groups/technical-advisory-group-for-measurement-monitoring-and-evaluation-of-the-un-decade-of-healthy-ageing</a>]."
+    },
+    {
+      "html": "AustinP.C.An introduction to propensity score methods for reducing the effects of confounding in observational studiesMultivar Behav Res463201139942410.1080/00273171.2011.568786PMC314448321818162"
+    },
+    {
+      "html": "AustinP.C.StuartE.A.Moving towards best practice when using inverse probability of treatment weighting (IPTW) using the propensity score to estimate causal treatment effects in observational studiesStat Med34282015366136792623895810.1002/sim.6607PMC4626409"
+    },
+    {
+      "html": "LiL.GreeneT.A weighting analogue to pair matching in propensity score analysisInt J Biostat9220132152342390269410.1515/ijb-2012-0030"
+    },
+    {
+      "html": "LiF.MorganK.L.ZaslavskyA.M.Balancing covariates via propensity score weightingJ Am Stat Assoc1135212018390400"
+    },
+    {
+      "html": "AmanoH.FukudaY.YokooT.YamaokaK.Interleukin-6 level among shift and night workers in Japan: cross-sectional analysis of the J-HOPE studyJ Atheroscler Thromb25122018120612142959317210.5551/jat.42036PMC6249360"
+    },
+    {
+      "html": "RizzaS.LongoS.PiciucchiG.RomanelloD.MavilioM.MontagnaM.CoppetaL.MartelliE.MagriniA.FedericiM.Carotid intimal medial thickness in rotating night shift is related to IL1beta/IL6 axisNutr Metab Cardiovasc Dis30102020182618323266520910.1016/j.numecd.2020.05.028"
+    },
+    {
+      "html": "GibsonM.A systematic review of the relationship between night shift work and oxidative stressChronobiol Int39220222852983464782510.1080/07420528.2021.1989446"
+    },
+    {
+      "html": "HuangT.MarianiS.RedlineS.Sleep irregularity and risk of cardiovascular events: the multi-ethnic study of atherosclerosisJ Am Coll Cardiol75920209919993213897410.1016/j.jacc.2019.12.054PMC7237955"
+    },
+    {
+      "html": "TsaiS.S.LaiC.H.ShihT.S.LinM.H.LiouS.H.High job strain is associated with inflammatory markers of disease in young long-haul bus driversJ Occup Health Psychol19320143363472479622610.1037/a0036600"
+    },
+    {
+      "html": "SolymanzadehF.RokhafrozD.AsadizakerM.DastoorpoorM.Prediction of risk of coronary artery disease based on the Framingham risk score in association with shift work among nursesInt J Occup Saf Erg2912023566110.1080/10803548.2021.202440334983313"
+    },
+    {
+      "html": "HermanssonJ.BoggildH.HallqvistJ.KarlssonB.KnutssonA.NilssonT.ReuterwallC.Gillander Gadin K: interaction between shift work and established coronary risk factorsInt J Occup Env Med102201957653104192210.15171/ijoem.2019.1466PMC6524742"
+    },
+    {
+      "html": "TakedaN.MaemuraK.Circadian clock and cardiovascular diseaseJ Cardiol57320112492562144101510.1016/j.jjcc.2011.02.006"
+    },
+    {
+      "html": "Rabinovich-NikitinI.LiebermanB.MartinoT.A.KirshenbaumL.A.Circadian-regulated cell death in cardiovascular diseasesCirculation139720199659803074253810.1161/CIRCULATIONAHA.118.036550"
+    },
+    {
+      "html": "GangwischJ.E.RexrodeK.FormanJ.P.MukamalK.MalaspinaD.FeskanichD.Daytime sleepiness and risk of coronary heart disease and stroke: results from the Nurses’ Health Study IISleep Med15720147827882484111110.1016/j.sleep.2014.04.001PMC4078727"
+    },
+    {
+      "html": "EsquirolY.PerretB.RuidavetsJ.B.MarquieJ.C.DienneE.NiezboralaM.FerrieresJ.Shift work and cardiovascular risk factors: new knowledge from the past decadeArch Cardiovasc Dis1041220116366682215251610.1016/j.acvd.2011.09.004"
+    },
+    {
+      "html": "CannizzaroE.CirrincioneL.MazzuccoW.ScorciapinoA.CatalanoC.RamaciT.LeddaC.PlesciaF.Night-time shift work and related stress responses: a study on security guardsInt J Env Res Public Health17220205623195233710.3390/ijerph17020562PMC7013811"
+    },
+    {
+      "html": "HajatA.Diez-RouxA.V.SanchezB.N.HolvoetP.LimaJ.A.MerkinS.S.PolakJ.F.SeemanT.E.WuM.Examining the association between salivary cortisol levels and subclinical measures of atherosclerosis: the Multi-Ethnic Study of AtherosclerosisPsychoneuroendocrinology3872013103610462314665510.1016/j.psyneuen.2012.10.007PMC4020284"
+    },
+    {
+      "html": "KarlS.JoharH.LadwigK.H.PetersA.LederbogenF.Dysregulated diurnal cortisol patterns are associated with cardiovascular mortality: findings from the KORA-F3 studyPsychoneuroendocrinology141202210575310.1016/j.psyneuen.2022.10575335395560"
+    },
+    {
+      "html": "Silva-CostaA.GriepR.H.RotenbergL.Disentangling the effects of insomnia and night work on cardiovascular diseases: a study in nursing professionalsBraz J Med Biol Res48220151201272542437010.1590/1414-431X20143965PMC4321217"
+    },
+    {
+      "html": "BargerL.K.RajaratnamS.M.W.CannonC.P.LukasM.A.ImK.GoodrichE.L.CzeislerC.A.O’DonoghueM.L.Short sleep duration, obstructive sleep apnea, shiftwork, and the risk of adverse cardiovascular events in patients after an acute coronary syndromeJ Am Heart Assoc6102017e00695910.1161/JAHA.117.006959PMC572188229018021"
+    },
+    {
+      "html": "VestergaardJ.M.DalbogeA.BondeJ.P.E.GardeA.H.HansenJ.HansenA.M.LarsenA.D.HarmaM.CostelloS.BottcherM.Night shift work characteristics and risk of incident coronary heart disease among health care workers: national cohort studyInt J Epidemiol5262023185318613774192410.1093/ije/dyad126PMC13030994"
+    },
+    {
+      "html": "DijkD.J.CzeislerC.A.Contribution of the circadian pacemaker and the sleep homeostat to sleep propensity, sleep structure, electroencephalographic slow waves, and sleep spindle activity in humansJ Neurosci155 Pt 1199535263538775192810.1523/JNEUROSCI.15-05-03526.1995PMC6578184"
+    },
+    {
+      "html": "JamesS.M.HonnK.A.GaddameedhiS.Van DongenH.P.A.Shift work: disrupted circadian rhythms and sleep-implications for health and well-beingCurr Sleep Med Rep3220171041122905720410.1007/s40675-017-0071-6PMC5647832"
+    },
+    {
+      "html": "AtroozF.SalimS.Sleep deprivation, oxidative stress and inflammationAdv Protein Chem Struct Biol11920203093363199777110.1016/bs.apcsb.2019.03.001"
+    },
+    {
+      "html": "HouX.Z.LiuE.Q.LiuS.Q.LvH.CuiH.F.HanJ.The negative association between serum albumin levels and coronary heart disease risk in adults over 45 years old: a cross-sectional surveySci Rep13120236723663539810.1038/s41598-023-27974-wPMC9837179"
+    },
+    {
+      "html": "MinorsD.S.WaterhouseJ.M.Does ‘anchor sleep’ entrain circadian rhythms? Evidence from constant routine studiesJ Physiol3451983451467666350810.1113/jphysiol.1983.sp014988PMC1193807"
+    },
+    {
+      "html": "WaterhouseJ.Jet-lag and shift work: (1). Circadian rhythmsJ R Soc Med92819993984011065600410.1177/014107689909200804PMC1297314"
+    },
+    {
+      "html": "VestergaardJ.M.HaugJ.N.D.DalbogeA.BondeJ.P.E.GardeA.H.HansenJ.HansenA.M.LarsenA.D.HarmaM.CostelloS.Validity of self-reported night shift work among women with and without breast cancerScand J Work Env Health50320241521573832926610.5271/sjweh.4142PMC11006433"
+    },
+    {
+      "html": "BongS.LeeK.DominiciF.Differential recall bias in estimating treatment effects in observational studiesBiometrics8022024ujae05810.1093/biomtc/ujae058PMC1119973438919141"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

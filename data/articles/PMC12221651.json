@@ -1,0 +1,521 @@
+{
+  "pmcid": "PMC12221651",
+  "pmid": "40612281",
+  "doi": "10.1016/j.ajpc.2025.101027",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12221651/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Positive childhood experiences in obesity and hypertension among young adults: Associations across adverse childhood experiences levels",
+  "articleType": "Research Article",
+  "published": "2025-06-07",
+  "year": "2025",
+  "volume": "23",
+  "issue": "",
+  "articleNumber": "101027",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2025",
+  "authors": [
+    {
+      "given": "Vineet",
+      "surname": "Chaudhary",
+      "display": "Vineet Chaudhary"
+    },
+    {
+      "given": "Gagandeep Kaur",
+      "surname": "Walia",
+      "display": "Gagandeep Kaur Walia"
+    },
+    {
+      "given": "Naorem Kiranmala",
+      "surname": "Devi",
+      "display": "Naorem Kiranmala Devi"
+    },
+    {
+      "given": "Kallur Nava",
+      "surname": "Saraswathy",
+      "display": "Kallur Nava Saraswathy"
+    }
+  ],
+  "affiliations": [
+    "aDepartment of Anthropology, University of Delhi, Delhi 110007, India",
+    "bPublic Health Foundation of India, Delhi 110030, India"
+  ],
+  "keywords": [
+    "ACEs",
+    "PCEs",
+    "BMI",
+    "Obesity",
+    "Hypertension",
+    "Self-esteem"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Background:</strong> Though the importance of childhood experiences in adult health is increasingly being recognized, the relationship between positive childhood experiences (PCEs) and cardiovascular risk factors remains understudied in low and middle-income countries, including India. This study explored the association of PCE exposure with obesity and hypertension among young adults in Delhi-NCR, India, independently and across different adverse childhood experiences (ACEs) levels."
+    },
+    {
+      "html": "<strong>Methods:</strong> A cross-sectional analysis was conducted among 1453 young adults (70.1 % female) recruited from two universities in Delhi-NCR. PCEs were measured using the Benevolent Childhood Experiences scale, and ACEs were assessed with the ACE-International Questionnaire. Obesity and hypertension were measured using standard protocols."
+    },
+    {
+      "html": "<strong>Results:</strong> Participants with moderate (6–9) and high (10) PCE exposure showed significantly lower prevalence rates of overweight/obesity (40 % and 41 %, respectively, vs. 57.5 %) and high waist circumference (WC) compared to low (0–5) PCE exposure group (22.9 % and 25.6 %, respectively, vs. 37.7 %). Adjusted logistic regression revealed reduced odds of overweight/obesity and high WC with higher PCE exposure. Specific PCE items, such as self-liking and predictable home routines, were associated with lower obesity risks. No significant association was found between PCE exposure and hypertension. Additionally, a combined analysis of ACE and PCE levels revealed that higher PCEs can mitigate some adverse effects of ACEs on obesity."
+    },
+    {
+      "html": "<strong>Conclusions:</strong> Higher PCE exposure may be associated with lower obesity risks and improved anthropometric measures among young adults. Promoting PCEs may help reduce obesity, especially in high-adversity contexts. Interventions enhancing early self-esteem could be crucial in addressing obesity in this population."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The global surge in cardiovascular diseases (CVDs) over recent decades can largely be attributed to the rising prevalence of two major modifiable risk factors, viz., obesity and hypertension [[1], [2], [3]]. In 2022, 43 % of adults were overweight, with 890 million classified as obese, and 1.28 billion adults aged 30–79 years had hypertension [1,3]. India reflects similar trends, with 24 % of women and 22.9 % of men overweight or obese, and hypertension affecting 21.3 % of women and 24 % of men, according to National Family Health Survey (NFHS) - 5 data [4]. Notably, these conditions are increasingly affecting younger populations, including university students, challenging the traditional view of youth as a generally healthy group [5,6]. This demographic is now experiencing a growing burden of non-communicable diseases (NCDs), such as CVDs and mental health issues, as well as communicable conditions like sexually transmitted infections (STIs), highlighting a critical gap in global health strategies and the urgent need to prioritize young adult health [[6], [7], [8]]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Studies during the last two decades have recognized the importance of early life experiences in conditions like obesity and hypertension [[9], [10], [11], [12], [13]]. While the negative health impacts of adverse childhood experiences (ACEs) are well-documented [[9], [10], [11]], there is a growing interest in the positive health outcomes associated with positive childhood experiences (PCEs) [[12], [13], [14], [15], [16], [17], [18]]. PCEs include elements like nurturing parenting, a stable home environment, meaningful beliefs, close relationships with family and friends, a supportive school environment, and support from teachers during the formative years [[14], [15], [16], [17], [18]]. These experiences have consistently been associated with healthy development and enhanced resilience, enabling individuals to cope more effectively with stress and adversity [[18], [19], [20], [21]]. PCEs can be seen as children&#x27;s assets and resources that serve as key resilience factors [18]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Positive internal assets, such as self-esteem and core beliefs, contribute significantly to long-term health and well-being [18,21,22]. A growing body of research highlights PCEs as robust predictors of favourable health outcomes across the life course [[19], [20], [21]]. Higher levels of PCEs have been consistently associated with reduced risks of mental health disorders, improved sleep quality, safer sexual behaviours, and lower levels of aggression [18]. Further, emerging evidence suggests that exposure to PCEs may offer protection against physical health conditions, including obesity and hypertension [12,13]. Given their potential to mitigate the effects of early adversity and independently promote a range of health outcomes, PCEs are increasingly recognized as vital targets for preventive and therapeutic interventions [12,13,18]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Despite the growing realization regarding the importance of PCEs, fewer attempts have been made to understand the relationship between PCEs and conditions like obesity and hypertension. This is particularly true in the Indian context, where no study so far has attempted to understand the relationship between cumulative PCE exposure and physical health conditions. Although some studies have attempted to understand the effect of one or a few PCE components on physical health, such studies do not allow for a comprehensive comparison between different PCE items and limit the identification of the most important PCE items with respect to different physical health conditions. Considering this gap, the present study attempted to understand the association of cumulative and item-wise PCE exposure with two highly prevalent physical health conditions, namely obesity and hypertension, among young adults in Delhi-National Capital Region (Delhi-NCR), India. The relationship has also been explored across different ACE levels."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Study area and participants",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The data for this study were derived from a larger ACE study conducted among 1843 college-going young adults (68.1 % females), aged 18–25 years (mean age 19.9 ± 1.89 years), residing in Delhi-NCR. Participants were recruited from various colleges and departments of the University of Delhi, Delhi, and centers and departments of Amity University, Noida, Uttar Pradesh. The inclusion criteria required participants to be Indian citizens, university students, and residents of Delhi-NCR, without self-reported serious physical or mental diseases or disorders. Exclusion criteria included individuals with major physical or mental health conditions, those on long-term medication, pregnant or lactating women, and foreigners. Individuals with prior diagnoses of major physical or mental health conditions were excluded to avoid potential confounding effects of the diagnoses and associated treatments on the relationship between PCEs and the outcome variables."
+        },
+        {
+          "type": "paragraph",
+          "html": "Of the 1843 individuals in the ACE study, 1453 participants (70.1 % females) who were successfully screened for PCEs, ACEs, and at least one selected outcome variable were included in the present study. The study protocol was approved by the Departmental Ethics Committee (Approval numbers: Ref. No. anth/2022–23/532 and Ref. No. anth/2022–23/14). All participants provided voluntary informed written consent in English prior to their recruitment and data collection."
+        }
+      ]
+    },
+    {
+      "title": "Data collection and measures",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Data collection was performed through in-person interviews with participants. Data on sociodemographic variables like age, gender, educational status, religion, and caste/tribe-based social category were collected using a pretested interview schedule. Participants&#x27; socioeconomic status (SES) was determined using the Modified Kuppuswamy Scale [23]. The scale scores range from 0 to 29, with 10 or below indicating lower-class, 11–15 representing lower-middle-class, 16–25 denoting upper-middle-class, and 26–29 indicating upper-class status [23]. For details on caste/tribe-based social categories, refer to [11]."
+        },
+        {
+          "type": "paragraph",
+          "html": "PCE: The Benevolent Childhood Experiences (BCEs) scale was used to assess PCEs [14]. This scale consists of a 10-item checklist of positive experiences during childhood, with each endorsed item contributing one point to the PCE score, resulting in a range from 0 to 10. For categorical analyses, participants were categorized into three groups: 10 PCEs (high PCE), 6–9 PCEs (moderate PCE), and 0–5 PCEs (low PCE) [20]."
+        },
+        {
+          "type": "paragraph",
+          "html": "ACE: Adverse Childhood Experiences International Questionnaire (ACE-IQ)-Frequency Version, which examines exposure to 13 different ACE domains, was used to assess exposure to ACEs [24]. Scoring followed the prescribed guidelines [24]. For categorical analyses, participants were divided into three categories: 0 ACE (no ACE), 1–3 ACEs (moderate ACE), and ≥4 ACEs (high ACE). These cutoffs were based on the meta-analysis by Hughes et al. [25], with 0 ACE as the reference and ≥4 ACEs as the high-risk category. Participants with 1–3 ACEs were grouped into the moderate risk category."
+        },
+        {
+          "type": "paragraph",
+          "html": "Obesity parameters: Weight, height, waist circumference (WC), and hip circumference (HC) were measured for all participants. Weight was measured using a weighing scale, height with an anthropometer rod, and WC and HC with a steel tape. Body mass index (BMI) was calculated by dividing the weight in kilograms by the square of the height in meters (kg/m²). BMI classifications were: Underweight (&lt;18.5), Normal (18.5–22.9), Overweight (23.0–24.9), and Obese (≥25.0) [26]. A WC of ≥90 cm for males and ≥80 cm for females was considered high [27]. The waist-to-hip ratio (WHR) was determined by dividing WC in cm by HC in cm, with high WHR defined as ≥0.9 for males and ≥0.85 for females [27]. The waist-to-height ratio (WHtR) was calculated by dividing WC in cm by height in cm, with a WHtR of ≥0.5 classified as high [28]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Blood pressure (BP): BP was measured three times for each participant using a digital sphygmomanometer, with a 5-minute interval between each measurement. The average of these three readings was used as the final value. Participants were categorized based on their average systolic BP (SBP) and diastolic BP (DBP) as follows: SBP below 120 mmHg and DBP below 80 mmHg were classified as normal; SBP between 120 and 129 mmHg and DBP below 80 mmHg as elevated; SBP between 130 and 139 mmHg or DBP between 80 and 89 mmHg as Stage 1 hypertension; and SBP ≥140 mmHg or DBP ≥90 mmHg as Stage 2 hypertension [29]."
+        }
+      ]
+    },
+    {
+      "title": "Analytic plan",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "SPSS version 22 (IBM-SPSS Inc., Chicago, IL) and MS Excel 19 were used for statistical analyses. Descriptive statistics (frequencies, percentages, means, and standard deviations) of dependent variables (obesity parameters and blood pressure/hypertension) were calculated for low, moderate, and high PCE exposure categories. Differences in prevalence and mean values were assessed using chi-square tests and ANOVA, respectively. Linear regression analysed the association between PCE scores and health outcomes. Logistic regression calculated the odds of obesity and hypertension at higher PCE levels compared to low PCE level. Linear and logistic regression models were adjusted for age, sex, education, and socioeconomic status, with additional adjustments for social category in obesity models (as social category was found to influence obesity, data not shown)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Further, the prevalence of obesity and hypertension, expressed as frequencies and percentages, was computed across exposed and unexposed groups for each PCE item. Differences in prevalence were assessed using chi-square tests. Adjusted logistic regression analyses calculated the odds of studied health outcomes for individuals exposed to individual PCE items compared to those unexposed."
+        },
+        {
+          "type": "paragraph",
+          "html": "To understand the relationship between ACE/PCE and studied health outcomes in the context of each other, the sample was stratified by ACE exposure to explore the relationship between PCE and outcome variables at specific ACE levels, and vice versa. This approach helped understand how PCEs might influence health outcomes in high- versus low-adversity contexts, highlighting different needs based on ACE exposure levels. Variations in levels of obesity parameters and blood pressure/hypertension were reported as prevalence and mean scores across ACE subcategories stratified by PCE exposure and PCE subcategories stratified by ACE exposure. Differences in prevalence and mean values were assessed using chi-square tests and ANOVA, respectively. Adjusted linear regression determined the association between independent variables (PCE and ACE) and dependent variables (studied outcomes) within each stratified group. Pearson correlation analysis was employed to assess the strength of linear relationships between continuous variables. Missing data was handled using pairwise deletion. A <em>p</em>-value of less than 0.05 was considered statistically significant."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "General characteristics of the study sample",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Of the total participants, 70.1 % were females, and 51.9 % were below 20 years of age (Supplementary Table 1). Most participants were undergraduates (87.9 %) and middle class (upper middle, 37.4 %; lower middle, 20.3 %). The predominant religion was Hinduism (84.5 %), followed by Islam (10.4 %) and other religions (5.1 %). Social categories included Unreserved (67 %), Other Backward Classes (OBC; 20 %), Scheduled Castes (SC; 10.6 %), and Scheduled Tribes (ST; 2.4 %) (Supplementary Table 1)."
+        }
+      ]
+    },
+    {
+      "title": "Physical health outcomes in various PCE categories: descriptive statistics",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The prevalence of studied physical health outcomes was examined across various PCE categories. The analysis showed a significant decrease in overweight/obesity from 57.5 % in the 0–5 (low) PCE category to 40 % and 41 % in the 6–9 (moderate) and 10 (high) PCE categories, respectively (Table 1). High WC prevalence was also significantly higher in the low PCE category (37.7 %) compared to the moderate and high PCE categories (22.9 % and 25.6 %, respectively). Again, the prevalence of high WHR and high WHtR was higher in the low PCE category than in the higher (6–9 and 10) PCE categories; however, the trend was not statistically significant. Surprisingly, the proportion of individuals with normal BP was significantly higher in the low PCE category (70.5 %) than in the moderate and high PCE categories (60.9 % and 60.3 %, respectively) (Table 1).Table 1Prevalence of obesity and hypertension in relation to PCEs.Table 1Physical health outcomesStatusPCEs<em>p</em>-value0–5 (Low)6–9 (Moderate)10 (High)N ( %)N ( %)N ( %)BMINormal36 (34)276 (38.2)254 (41)0.002*Underweight9 (8.5)157 (21.7)112 (18.1)Overweight/obese61 (57.5)289 (40)254 (41)WCNormal66 (62.3)556 (77.1)458 (74.4)0.004*High40 (37.7)165 (22.9)158 (25.6)WHRNormal76 (71.7)554 (76.8)490 (79.7)0.143High30 (28.3)167 (23.2)125 (20.3)WHtRNormal64 (60.4)486 (67.6)408 (66.2)0.335High42 (39.6)233 (32.4)208 (33.8)BPNormal74 (70.5)434 (60.9)369 (60.3)0.036*Elevated6 (5.7)47 (6.6)52 (8.5)HTN Stage 120 (19)190 (26.6)135 (22.1)HTN Stage 25 (4.8)42 (5.9)56 (9.2)⁎Significant at <em>p</em>-value &lt; 0.05; <em>N</em> = Count; % = Column Wise Percentage; PCEs = Positive Childhood Experiences; BMI = Body Mass Index; WC = Waist Circumference; WHR = Waist-to-Hip Ratio; WHtR = Waist-to-Height Ratio; BP = Blood Pressure; HTN = Hypertension"
+        },
+        {
+          "type": "paragraph",
+          "html": "Coming to mean values, mean BMI, WC, and WHtR were significantly higher in the low PCE category compared to the higher PCE categories (Fig. 1). In terms of BP variables, while the mean SBP and mean DBP were lower in the low PCEs category than in the higher PCEs categories, these differences were not found to be statistically significant (Fig. 1).Fig. 1Mean levels of A) BMI, B) WC, C) WHR, D) WHtR, E) SBP, F) DBP in PCE categories. *Significant at <em>p</em>-value&lt;0.05; PCE = Positive Childhood Experience; BMI = Body Mass Index; WC = Waist Circumference; WHR = Waist-to-Hip Ratio; WHtR = Waist-to-Height Ratio; SBP = Systolic Blood Pressure; DBP = Diastolic Blood Pressure.Fig 1"
+        }
+      ]
+    },
+    {
+      "title": "Variations in anthropometric and BP measures with PCE score",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Adjusted linear regression analysis explored the relationship between PCE scores and studied anthropometric and BP measures. The findings revealed that higher levels of PCEs were significantly associated with lower BMI, smaller WC, and lower WHtR (Supplementary Table 2). Further, while the trend suggested a lower WHR with an increased PCE score, this relationship did not attain statistical significance. The PCE score did not significantly predict SBP or DBP (Supplementary Table 2)."
+        }
+      ]
+    },
+    {
+      "title": "Cumulative PCE exposure and odds of obesity and hypertension",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "With the low PCE category as the reference, the odds of overweight/obesity and hypertension, in higher PCE categories were computed. The analyses revealed that exposures to moderate and high PCE were associated with significantly reduced odds of overweight/obesity (Table 2). Again, compared to the low PCE category, the odds of high WC were found to be lower in the moderate and high PCE categories (Table 2). However, higher PCE exposures were not found to be significantly associated with hypertension (Table 2).Table 2Association between cumulative PCE exposure and obesity and hypertension.Table 2PCE categoriesBMIWCWHRWHtRBPUnderweightOverweight/ obeseHighMediumHighHigh (stage 1 + 2)ORa (95 % CI)ORa (95 % CI)ORa (95 % CI)ORa (95 % CI)ORa (95 % CI)ORb (95 % CI)0–5Reference6–91.52 (0.65–3.54)0.55 (0.32–0.94)0.62 (0.37–1.02)0.88 (0.52–1.49)0.87 (0.53–1.41)1.27 (0.76–2.11)<em>p</em>-value0.3320.030*0.0620.6350.5620.362101.14 (0.49–2.68)0.45 (0.26–0.78)0.61 (0.37–1.02)0.64 (0.37–1.09)0.76 (0.47–1.24)1.21 (0.72–2.02)<em>p</em>-value0.7580.004*0.0580.1000.2760.470⁎Significant at <em>p</em>-value &lt; 0.05; PCEs = Positive Childhood Experiences; OR = Odds Ratio; CI = Confidence Interval; BMI = Body Mass Index; WC = Waist Circumference; WHR = Waist-to-Hip Ratio; WHtR = Waist-to-Height Ratio; BP = Blood Pressure; stage 1 + 2 = Hypertension Stage 1 + 2.aadjusted for age, sex, education, socioeconomic status, and social category.badjusted for age, sex, education, socioeconomic status."
+        }
+      ]
+    },
+    {
+      "title": "Distribution of obesity, and hypertension in groups exposed and not exposed to PCE items",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "To understand the impact of exposure to specific PCE items on physical health, the distribution of obesity and hypertension was examined in groups exposed and unexposed to individual PCE items. The analysis revealed that, of the 10 PCE items, the proportions of individuals with overweight/obesity, high WC, high WHR, and high WHtR were significantly lower in the exposed group than in the unexposed group for 2, 3, 1, and 1 PCE item(s), respectively (Supplementary Table 3). Notably, the proportion of individuals with any type of obesity was significantly lower in the group that ‘liked themselves/felt comfortable with themselves’ than in the group that did not. No significant difference in the distribution of hypertension was found between the exposed and unexposed groups for any of the PCE items (Supplementary Table 4)."
+        }
+      ]
+    },
+    {
+      "title": "Exposure to different PCE items and odds of overweight/obesity, and hypertension",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Adjusted logistic regression analysis was performed to compute the odds of overweight/ obesity, and hypertension among those exposed to different PCE items with their unexposed counterparts as a reference. Of the 10 PCE items, when compared to the unexposed group, the exposed group was found to be at significantly lower risk of overweight/obesity, high WC, and high WHR for 2, 1, and 2 items, respectively (Table 3). Further, PCE-exposed individuals were found to be at lower risk of overweight/obesity for three more items, with borderline significance. It is worth noting that feeling comfortable with oneself was found to be associated with reduced odds of both general and central obesity (high WHR). However, individual PCE items did not show a significant association with WHtR, or hypertension (Table 3).Table 3Exposure to PCE items and odds for obesity, and hypertension (with absence of respective PCEs items as the reference).Table 3PCE itemsBMIWCWHRWHtRBPUnderweightOverweight/obeseHighHighHighHigh (stage 1 + 2)ORa (95 % CI)ORa (95 % CI)ORa (95 % CI)ORa (95 % CI)ORa (95 % CI)ORb (95 % CI)Did you have at least one caregiver with whom you felt safe?0.75 (0.44–1.28)0.65 (0.42–1.01)0.84 (0.54–1.29)1.11 (0.7–1.76)0.76 (0.51–1.12)0.95 (0.64–1.4)p0.2890.0560.4280.6620.1660.781Did you have at least one good friend?1.05 (0.61–1.81)0.66 (0.43–1.01)0.77 (0.5–1.18)0.88 (0.57–1.38)0.84 (0.57–1.26)0.98 (0.66–1.44)p0.8670.0580.2290.5860.4050.909Did you have ‘beliefs’ that gave you comfort?1.18 (0.68–2.05)0.73 (0.48–1.11)0.62 (0.42–0.93)1.18 (0.75–1.86)0.84 (0.58–1.24)0.87 (0.6–1.27)p0.5490.1460.021*0.4660.3870.470Did you have enjoyment at school?1.39 (0.75–2.59)0.71 (0.47–1.07)0.74 (0.49–1.1)1 (0.65–1.55)0.83 (0.56–1.21)1.28 (0.86–1.9)p0.2950.1050.1370.9980.3250.218Did you have at least one teacher that cared?1.08 (0.65–1.8)0.9 (0.6–1.34)0.94 (0.62–1.41)0.73 (0.49–1.1)0.95 (0.66–1.39)0.94 (0.66–1.36)p0.7650.6050.7590.1340.8020.760Did you have good neighbours?1.11 (0.75–1.65)0.75 (0.54–1.02)0.9 (0.65–1.24)0.72 (0.52–0.99)0.85 (0.63–1.13)1.03 (0.77–1.37)p0.5960.0690.5240.045*0.2650.865Did you have an adult in your life (other than the person from question 1) who could provide you with support or advice?0.74 (0.49–1.11)1.02 (0.71–1.46)0.9 (0.63–1.28)0.85 (0.59–1.23)1.03 (0.74–1.43)1.18 (0.85–1.64)p0.1450.9270.5540.3970.8790.333Did you have opportunities to have a good time?0.88 (0.48–1.63)0.88 (0.53–1.47)1.21 (0.71–2.07)0.89 (0.54–1.49)1.32 (0.81–2.15)1.36 (0.84–2.2)p0.6910.6350.4860.6710.2580.212Did you like yourself or felt comfortable with yourself?0.91 (0.49–1.68)0.56 (0.36–0.86)0.77 (0.52–1.14)0.65 (0.43–0.97)0.77 (0.53–1.12)1.41 (0.94–2.11)p0.7590.009*0.1940.037*0.1750.092Did you have predictable home routine, like regular meals and a regular bedtime?0.81 (0.54–1.19)0.7 (0.5–0.97)0.79 (0.56–1.09)0.85 (0.6–1.19)0.86 (0.63–1.16)0.98 (0.73–1.32)p0.2800.032*0.1540.3320.3160.914⁎Significant at <em>p</em>-value &lt; 0.05; <em>p</em> = <em>p</em>-value; PCEs = Positive Childhood Experiences; OR = Odds Ratio; CI = Confidence Interval; BMI = Body Mass Index; WC = Waist Circumference; WHR = Waist-to-Hip Ratio; WHtR = Waist-to-Height Ratio; BP = Blood Pressure; stage 1 + 2= Hypertension Stage 1 + 2.aadjusted for age, sex, education, socioeconomic status, and social category.badjusted for age, sex, education, socioeconomic status."
+        }
+      ]
+    },
+    {
+      "title": "Mean anthropometric and BP measures across ACE subcategories stratified for PCE level and PCE subcategories stratified for ACE levels",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Variations in the mean anthropometric and BP measures across ACE subcategories stratified for PCE level and PCE subcategories stratified for ACE levels were examined. For a given PCE level, there were generally no statistically significant differences in mean values across ACE subcategories for any of the studied anthropometric and BP measures (Table 4). Exceptions were a statistically significant increase in mean BMI and a decrease in mean DBP through 0 (no) to ≥4 (high) ACE subcategories in the 6–9 (moderate) PCE category and the 10 (high) PCE category, respectively.Table 4Mean anthropometric and blood pressure measures in ACE subcategories stratified for PCE levels and PCE subcategories stratified for ACE levels.Table 4StratificationSubcategoryBMIWCWHRWHtRSBPDBPMean ± SDMean ± SDMean ± SDMean ± SDMean ± SDMean ± SD0–5 PCEs0 ACE24.76 ± 8.0785.5 ± 14.460.84 ± 0.080.51 ± 0.1111.33 ± 18.0175.39 ± 10.541–3 ACEs23.89 ± 5.2379.19 ± 13.560.82 ± 0.080.49 ± 0.08109.3 ± 14.3972.92 ± 11.28≥ 4 ACEs25.22 ± 4.7982.26 ± 13.240.83 ± 0.080.51 ± 0.07109.41 ± 12.7574.28 ± 6.95<em>p</em>-value0.4570.3480.5240.4580.9350.6936–9 PCEs0 ACEs21.53 ± 4.3573.91 ± 11.930.81 ± 0.080.46 ± 0.06110.57 ± 13.1576.42 ± 8.21–3 ACEs22.34 ± 4.6975.48 ± 11.520.81 ± 0.080.47 ± 0.07110.65 ± 12.5176.04 ± 8.92≥ 4 ACEs22.93 ± 5.1176.67 ± 12.370.81 ± 0.070.47 ± 0.08109.08 ± 12.5574.67 ± 9.77<em>p</em>-value0.031*0.1190.9310.3430.4360.20010 PCEs0 ACE22.49 ± 4.9875.29 ± 12.330.8 ± 0.070.47 ± 0.07111.67 ± 12.9976.85 ± 9.371–3 ACEs22.85 ± 4.6376.91 ± 12.380.82 ± 0.090.48 ± 0.07111.66 ± 13.8975.15 ± 9.84≥ 4 ACEs22.65 ± 4.1275.77 ± 11.160.81 ± 0.070.46 ± 0.06110.07 ± 12.672.78 ± 8.32<em>p</em>-value0.6820.3000.1810.1720.6590.006*0 ACE0–5 PCEs24.76 ± 8.0785.5 ± 14.460.84 ± 0.080.51 ± 0.1111.33 ± 18.0175.39 ± 10.546–9 PCEs21.53 ± 4.3573.91 ± 11.930.81 ± 0.080.46 ± 0.06110.57 ± 13.1576.42 ± 8.210 PCEs22.49 ± 4.9875.29 ± 12.330.80 ± 0.070.47 ± 0.07111.67 ± 12.9976.85 ± 9.37<em>p</em>-value0.0520.038*0.3150.1660.7260.8391–3 ACEs0–5 PCEs23.89 ± 5.2379.19 ± 13.560.82 ± 0.080.49 ± 0.08109.3 ± 14.3972.92 ± 11.286–9 PCEs22.34 ± 4.6975.48 ± 11.520.81 ± 0.080.47 ± 0.07110.65 ± 12.5176.04 ± 8.9210 PCEs22.85 ± 4.6376.91 ± 12.380.82 ± 0.090.48 ± 0.07111.66 ± 13.8975.15 ± 9.84<em>p</em>-value0.049*0.0540.5420.0950.3750.060≥4 ACEs0–5 PCEs25.22 ± 4.7982.26 ± 13.240.83 ± 0.080.51 ± 0.07109.41 ± 12.7574.28 ± 6.956–9 PCEs22.93 ± 5.1176.67 ± 12.370.81 ± 0.070.47 ± 0.08109.08 ± 12.5574.67 ± 9.7710 PCEs22.65 ± 4.1275.77 ± 11.160.81 ± 0.070.46 ± 0.06110.07 ± 12.672.78 ± 8.32<em>p</em>-value0.010*0.012*0.0740.002*0.8710.362⁎Significant at <em>p</em>-value &lt; 0.05; ACE = Adverse Childhood Experience; PCE = Positive Childhood Experience; SD = Standard Deviation; BMI = Body Mass Index; WC = Waist Circumference; WHR = Waist-to-Hip Ratio; WHtR = Waist-to-Height Ratio; SBP = Systolic Blood Pressure; DBP = Diastolic Blood Pressure."
+        },
+        {
+          "type": "paragraph",
+          "html": "Coming to variation in mean anthropometric and BP measures through PCE subcategories for a given level of ACEs, the findings indicated a general decrease in mean BMI and mean WC from 0–5 low to 10 (high) PCE subcategories for a given ACEs level (Table 4). This trend was particularly pronounced in the ≥4 (high) ACEs category. Further, mean WHR and mean WHtR also exhibited a decrease from 0–5 (low) to 10 (high) PCE subcategories in the ≥4 (high) ACEs category. All these observed trends either reached statistical significance or approached significance. No significant variations in mean SBP and mean DBP across PCE subcategories were observed for any of the ACE levels. For the prevalence of obesity and hypertension in ACE subcategories stratified for PCE levels and PCE subcategories stratified for ACE levels refer to Supplementary Table 5."
+        }
+      ]
+    },
+    {
+      "title": "Association of PCEs and ACEs with studied health outcomes in the context of one another",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Adjusted linear regression analyses were undertaken to understand the variations in anthropometric and BP measures with ACE scores for given PCE levels and with PCE scores for given ACE levels. In general, ACE score was not found to be significantly associated with anthropometric and blood pressure measures for any of the PCE levels, except for a significant positive association with BMI in the 6–9 (moderate) PCE category and a significant inverse association with DBP in the 10 (high) PCE category (Table 5).Table 5Stratified linear regression between ACE/ PCE scores and health parameters in context of each other.Table 5StratificationDependent variableRR<sup>2</sup>β (Unstandardized)Std. ErrorBeta (Standardized)t<em>p</em>-valueIndependent variable: ACE score0–5 PCEsBMIa0.3570.1280.2560.2370.1201.0780.285WCa0.3650.1330.3330.6150.0600.5420.590WHRa0.3460.120.0020.0040.0730.6490.518WHtRa0.3010.0910.0030.0040.1080.9520.344SBPb0.5820.3390.0490.5310.0090.0920.927DBPb0.2230.050.1460.4560.0380.3210.7496–9 PCEsBMIa0.3990.1590.2340.0910.0992.5770.010*WCa0.5130.2630.3300.2130.0561.5500.122WHRa0.5080.258−0.0010.001−0.034−0.9350.350WHtRa0.3770.1420.0020.0010.0451.1670.244SBPb0.4810.232−0.1900.234−0.030−0.8120.417DBPb0.1440.021−0.0790.185−0.018−0.4270.67010 PCEsBMIa0.2890.0840.0170.1320.0050.1270.899WCa0.4070.166−0.1330.323−0.017−0.4110.681WHRa0.3900.1520.0000.002−0.007−0.1780.859WHtRa0.2970.088−0.0010.002−0.017−0.3930.695SBPb0.4560.208−0.3040.347−0.036−0.8780.380DBPb0.1940.038−0.7050.279−0.113−2.5240.012*Independent variable: PCE scores0 ACEBMIa0.2980.089−0.1430.195−0.040−0.7330.464WCa0.4220.178−0.5250.464−0.058−1.1310.259WHRa0.4450.198−0.0030.003−0.051−0.9960.320WHtRa0.2750.075−0.0030.003−0.058−1.0530.293SBPb0.4580.210.2560.4650.0270.5510.582DBPb0.1690.0290.3780.3590.0571.0540.2931–3 ACEsBMIa0.3820.1460.0130.1040.0040.1210.903WCa0.4790.23−0.1280.249−0.018−0.5140.607WHRa0.4250.181−0.0010.002−0.015−0.4230.672WHtRa0.3570.127−0.0010.002−0.012−0.3230.747SBPb0.4590.2110.0520.2690.0070.1950.846DBPb0.1090.0120.0580.2170.0100.2660.790≥4 ACEsBMIa0.4290.184−0.6530.143−0.304−4.572&lt;0.001*WCa0.5090.259−1.3970.349−0.255−4.000&lt;0.001*WHRa0.5190.269−0.0050.002−0.159−2.4970.013*WHtRa0.4470.2−0.0090.002−0.280−4.226&lt;0.001*SBPb0.4900.24−0.4070.331−0.074−1.2310.219DBPb0.1140.013−0.1430.268−0.036−0.5320.595⁎Significant at <em>p</em>-value &lt; 0.05; PCEs = Positive Childhood Experiences; ACEs = Adverse Childhood Experiences; BMI = Body Mass Index; WC = Waist Circumference; WHR = Waist-to-Hip Ratio; WHtR = Waist-to-Height Ratio; SBP = Systolic Blood Pressure; DBP = Diastolic Blood Pressure.aadjusted for age, sex, education, socioeconomic status, and social category.badjusted for age, sex, education, socioeconomic status; <em>R</em>= Correlation Coefficient; R<sup>2</sup>= Coefficient of Determination; β= regression coefficient; <em>t</em> = <em>t</em>-statistic."
+        },
+        {
+          "type": "paragraph",
+          "html": "Coming to variation in anthropometric and BP measures with variation in PCE scores for given ACE levels, the linear regression analysis revealed no significant association between PCE scores and studied anthropometric and BP measures in the 0 (no) ACEs and 1–3 (moderate) ACEs categories. Nevertheless, the PCE score exhibited a significant inverse association with BMI, WC, WHR, and WHtR in the ≥4 (high) ACEs category (Table 5). For correlation patterns of ACEs score stratified for PCE level and PCE score stratified for ACEs level with anthropometric and BP measures, refer to Supplementary Table 6."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Higher PCE exposure was associated with a lower prevalence of overweight/obesity and high WC, along with reduced mean BMI, WC, and WHtR. Regression analyses confirmed an inverse relationship between PCE scores and adiposity measures, as well as a decreased risk of overweight/obesity and high WC (borderline significance). These findings suggest that moderate to high PCE exposure may help protect against weight gain and the development of both general and central obesity. Only a few studies thus far have attempted to understand the relationship between cumulative PCE exposure and adult obesity [12,17,30]. Consistent with the observations of the present study, previous studies have reported high PCE exposure to be protective against the risk of adult overweight/obesity [12], and childhood overweight/obesity [30]; however, no significant association has also been reported [17]. Apart from obesity, high PCE exposure has been found to be protective against other physical health conditions/, for instance, asthma [31], sleep problems [32], digestive system diseases, chronic headaches and neck/back pain [12], and cognitive functioning [33]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Coming to mechanisms, PCEs have been shown to have both promotive, where PCEs independently promote positive health outcomes regardless of the level of ACE exposure, and protective effect, where PCEs buffer against the detrimental effects of ACEs on health [18,34]. For instance, PCEs can promote the adoption of a healthier lifestyle and thereby reduce the risk of obesity [12,18]. High PCE exposure has also been found to be associated with better health-related behaviours during adulthood in terms of low risk of substance use [16], and increased physical activity [12]; however, no associations have also been reported [17,35]. Alternatively, PCEs can reduce the tendency to engage in risky health behaviours as well as the risk of poor mental health among ACE-exposed individuals [18], both of which are independent risk factors of obesity [36,37]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Besides behavioural and mental health-related factors, some lines of evidence hint toward the involvement of biological pathways in the promotive/protective effect of PCEs. In a recent study, increased positive parenting was found to be associated with slower epigenetic/biological aging among children who experienced high levels of adversity [38]. Further, studies have indicated that social factors like positive parenting and peer support can potentially buffer children and adolescents from dysregulation of the Hypothalamic-Pituitary-Adrenal (HPA) axis [39,40]. Based on emerging evidence, it can be suggested that slower epigenetic aging could potentially result in a more regulated metabolic profile, thereby reducing the risk of excessive weight gain. Additionally, buffering the dysregulation of the HPA axis might mitigate the effects of chronic stress, which is often associated with unhealthy behaviours and weight gain. How PCEs may promote better health outcomes through biological pathways, viz, through HPA-axis or epigenetic pathways, is a matter of curiosity [38,39], and should be investigated in future studies."
+        },
+        {
+          "type": "paragraph",
+          "html": "Regarding individual PCE items, of the 10 PCE items, two (liking oneself/feeling comfortable with oneself and predictable home routine) were associated with a significantly reduced risk of general overweight/obesity, and three (having beliefs that gave comfort, having good neighbours, and liking oneself/feeling comfortable with oneself) were associated with a significantly reduced risk of central obesity. It is worth underscoring that liking oneself /feeling comfortable with oneself during childhood was protective against both general and central obesity in adult life. The findings of the present study with respect to liking oneself or having positive self-esteem during childhood and adult obesity are consistent with some of the previous studies [41,42]. Supplementary to these reports, a recent paper exploring the longitudinal relationship between self-esteem and obesity in a general adult population sample also found a significant inverse relationship [43]."
+        },
+        {
+          "type": "paragraph",
+          "html": "It has been reported that individuals with low self-esteem discount the future more or participate less in future-oriented planning, leading to increased food intake and reduced physical activity levels, eventually resulting in weight gain and obesity [43]. Conversely, it can be suggested that those children with high self-esteem may be more future-oriented and inclined towards a healthier lifestyle. It has also been observed that self-esteem during early childhood may be more consequential in terms of adult health outcomes than that during mid or late adolescence [41,43]. Therefore, intervention to improve early self-esteem could be particularly beneficial for long-term health outcomes."
+        },
+        {
+          "type": "paragraph",
+          "html": "In the present study, PCE exposure was not found to be significantly associated with hypertension. Further, none of the 10 PCE items were found to be associated with hypertension. Similar to the observations of this study, two recent studies on the relationship between PCEs and different physical health outcomes reported no significant relationship between PCE exposure and adult cardiovascular diseases (including hypertension as one component) [12,13]. In another study examining the relationship between PCEs and midlife cardiovascular health, differences in the prevalence of hypertension across PCE quartiles were not found to be statistically significant [44]. Further, a recent study by Huang et al. also did not find PCE exposure protective against adult hypertension [31]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Overall, PCE exposure appears to have a limited role in reducing the risk of adult hypertension. These observations are rather surprising, especially since PCE exposure has been reported to be associated with better adult physical health outcomes [13], and ideal cardiovascular health metrics in midlife [44]. It is also counterintuitive given the inverse association between PCE exposure and the risk of adult overweight/obesity in the present study. Nevertheless, these observations are consistent with the limited existing literature [12,13,44]. One possible explanation for the lack of a significant association between PCEs and blood pressure parameters, despite their association with obesity and related anthropometric measures, may lie in the timing of these health outcomes. While PCEs promote resilience, stress regulation, and healthier lifestyle choices that can help prevent excessive weight gain even in early life, their effects on cardiovascular markers such as hypertension may take longer to emerge. This is particularly relevant given that the study sample comprises young adults. Existing literature suggests that the physiological consequences of ACEs, including elevated blood pressure, often become more apparent after the age of 30 years [11]. Therefore, it is plausible that the protective effects of PCEs on blood pressure may also manifest more clearly later in life. Given the limited literature on the relationship between PCEs and hypertension, it remains difficult to generalize the findings. Further research, especially longitudinal follow-up studies, is warranted to better understand this delayed protective trajectory."
+        },
+        {
+          "type": "paragraph",
+          "html": "Next, to examine the association between ACEs and adult physical health outcomes across PCE levels, the sample was stratified into 0–5 (low), 6–9 (moderate), and 10 (high) PCE exposure levels. Interestingly, ACE exposure was not found to be associated with any of the studied physical health parameters across any of the PCE levels, except for BMI in the moderate PCE category and DBP in the high PCE category. Put differently, for a particular level of PCE exposure, ACEs failed to account for the variances observed in obesity or BP parameters, except for BMI and DBP in the moderate and high PCE categories, respectively. This suggests that PCE exposure may play a predominant role in shaping the relationship between ACE and obesity parameters, particularly in low or high PCE contexts. In low PCE contexts, obesity may be promoted due to the absence of PCEs, independent of ACE exposure. In contrast, in high PCE contexts, PCE may counterbalance the risk conferred by ACE exposure. The negative association between ACE exposure and DBP in a high PCE context may be indicative of basal cardiovascular hypoactivation [45]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Further, to understand the association between PCE exposure and adult physical health outcomes across ACE levels, the sample was stratified into 0 (no), 1–3 (moderate), and ≥4 (high) ACE levels. In this analysis, PCE exposure was found to be inversely associated with BMI, WC, WHR, and WHtR only in the ≥4 (high) ACE category but not in the moderate or no ACE category. Similar observations were reported in a recent study where exposure to PCEs was associated with a reduced likelihood of being overweight/obese among children who had experienced high ACEs but not among those who had experienced zero to one ACEs [30]. In another study, higher family resilience reduced the odds of being in a higher-weight category among ACE-exposed children but not among ACE-unexposed children [46]. However, conflicting findings, where PCEs were more strongly associated with some favourable outcomes in low adversity context than in the high adversity context, have also been reported [17,35]."
+        },
+        {
+          "type": "paragraph",
+          "html": "The findings of the present study point towards the protective role of PCE with respect to obesity in the context of high adversity. However, PCE exposure does not appear to be independently promoting healthy levels of body weight, as indicated by the lack of association between PCE exposure and obesity parameters in low adversity contexts. Overall, the stratified analyses hint towards the protective but not promotive role of PCEs on the studied physical health parameters in the present sample. Together, these findings suggest that interventions to promote PCEs can positively affect adult obesity parameters, especially in high-adversity contexts. Improving early self-esteem can be particularly important in this regard."
+        },
+        {
+          "type": "paragraph",
+          "html": "Some of the limitations of the present study should be acknowledged. An important limitation is the higher proportion of females compared to males in the sample. To compensate for this, all regression models have been adjusted for sex. Additionally, the sample comprises university students, which may restrict the generalizability of the results to other demographic groups. Furthermore, while the ACE-IQ and BCE scales are widely used to assess adverse and positive childhood experiences, respectively, they may not fully capture these experiences within the Indian context, highlighting the need for India-specific assessment tools. Moreover, despite the apparent precedence of ACEs/PCEs over adult health outcomes, a causal relationship cannot be confidently inferred without information on the timing of the exposures and outcomes. Therefore, longitudinal studies are necessary to deepen our understanding of this relationship."
+        }
+      ]
+    },
+    {
+      "title": "Conclusions",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The present study highlights the protective effects of PCE on obesity parameters among young adults. Moderate or high exposure to PCEs was found to significantly reduce the prevalence of overweight/obesity and high WC, and to lower the mean BMI. Individuals with higher PCE exposure had a lower risk of general and central obesity compared to those with low PCE exposure. Specific PCE items such as liking oneself, having a predictable home routine, comforting beliefs, and supportive neighbours were linked to reduced risks of obesity. In contrast, no significant association was found between cumulative PCE exposure and hypertension. Regarding the combined effect of ACEs and PCE exposures, PCE exposure might mitigate the negative impact of ACEs on obesity. These findings suggest that promoting PCEs can have a beneficial impact on reducing obesity, particularly in high-adversity contexts. Interventions aimed at improving early self-esteem and providing supportive environments could be particularly important in addressing obesity among youth."
+        }
+      ]
+    },
+    {
+      "title": "Funding",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This work was supported by the Institute of Eminence, University of Delhi, under the grant Ref. No./IoE/2021/12/FRP and the Indian Council of Medical Research under the grant 5/4/8-22/CD/KNS/2021-NCD-II."
+        }
+      ]
+    },
+    {
+      "title": "Conflict of interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The author declared no potential conflicts of interest."
+        }
+      ]
+    },
+    {
+      "title": "Ethics approval",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The study procedures were carried out in accordance with the Declaration of Helsinki. The study protocol was approved by the Departmental Ethics Committee, Department of Anthropology, University of Delhi (Approval number: Ref. No. Anth/2022–23/532, Ref. No. Anth/2022–23/14, and Ref. No. Anth/2022–23/524)."
+        }
+      ]
+    },
+    {
+      "title": "Informed consent",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Informed written consent, typed in English, was obtained from each participant prior to their recruitment."
+        }
+      ]
+    },
+    {
+      "title": "Consent for publication",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Not applicable."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Vineet Chaudhary:</strong> Writing – original draft, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. <strong>Gagandeep Kaur Walia:</strong> Writing – review &amp; editing, Methodology, Formal analysis. <strong>Naorem Kiranmala Devi:</strong> Writing – review &amp; editing, Methodology. <strong>Kallur Nava Saraswathy:</strong> Writing – review &amp; editing, Validation, Supervision, Resources, Methodology, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "World Health Organization. Obesity and overweight. 2024. Accessed April 10, 2024. <a href=\"https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight#:~:text=Worldwide%20adult%20obesity%20has%20more,16%25%20were%20living%20with%20obesity\">https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight#:~:text=Worldwide%20adult%20obesity%20has%20more,16%25%20were%20living%20with%20obesity</a>."
+    },
+    {
+      "html": "WongM.C.HuangJ.WangJ.ChanP.S.LokV.ChenX.Global, regional and time-trend prevalence of central obesity: a systematic review and meta-analysis of 13.2 million subjectsEur J Epidemiol35202067368310.1007/s10654-020-00650-332448986PMC7387368"
+    },
+    {
+      "html": "World Health Organization. Hypertension. 2023. Accessed April 10, 2024. <a href=\"https://www.who.int/news-room/fact-sheets/detail/hypertension\">https://www.who.int/news-room/fact-sheets/detail/hypertension</a>."
+    },
+    {
+      "html": "IIPS (International Institute for Population Sciences) &amp; ICFNational family health survey (NFHS-5), 2019-21: indiaII2021IIPSMumbaiAccessed August 1, 2023<a href=\"https://rchiips.org/nfhs/NFHS-5_FCTS/Final%20Compendium%20of%20fact%20sheets_India%20and%2014%20States_UTs%20(Phase-II).pdf\">https://rchiips.org/nfhs/NFHS-5_FCTS/Final%20Compendium%20of%20fact%20sheets_India%20and%2014%20States_UTs%20(Phase-II).pdf</a>"
+    },
+    {
+      "html": "AnderssonC.VasanR.S.Epidemiology of cardiovascular disease in young individualsNat Rev Cardiol154201823024010.1038/nrcardio.2017.15429022571"
+    },
+    {
+      "html": "PeltzerK.PengpidS.Prevalence, risk awareness and health beliefs of behavioural risk factors for cardiovascular disease among university students in nine ASEAN countriesBMC Public Health1820181910.1186/s12889-018-5142-1PMC581002629433473"
+    },
+    {
+      "html": "GoreF.M.BloemP.J.PattonG.C.FergusonJ.JosephV.CoffeyC.Global burden of disease in young people aged 10–24 years: a systematic analysisLancet377978320112093210210.1016/S0140-6736(11)60512-621652063"
+    },
+    {
+      "html": "MokdadA.H.ForouzanfarM.H.DaoudF.MokdadA.A.El BcheraouiC.Moradi-LakehM.Global burden of diseases, injuries, and risk factors for young people&#x27;s health during 1990-2013: a systematic analysis for the Global Burden of Disease Study 2013Lancet3871003620162383240110.1016/S0140-6736(16)00648-627174305"
+    },
+    {
+      "html": "FelittiV.J.AndaR.F.NordenbergD.WilliamsonD.F.SpitzA.M.EdwardsV.KossM.P.MarksJ.S.Relationship of childhood abuse and household dysfunction to many of the leading causes of death in adults: the Adverse Childhood Experiences (ACE) StudyAm J Prev Med144199824525810.1016/S0749-3797(98)00017-89635069"
+    },
+    {
+      "html": "WissD.A.BrewertonT.D.Adverse childhood experiences and adult obesity: a systematic review of plausible mechanisms and meta-analysis of cross-sectional studiesPhysiol Behav223202011296410.1016/j.physbeh.2020.11296432479804"
+    },
+    {
+      "html": "ChaudharyV.WaliaG.K.ChoudhuryO.DeviN.K.SaraswathyK.N.Adverse childhood experiences in obesity and hypertension among young adults in Delhi-NCR, IndiaAm J Hum Biol3732025e7001610.1002/ajhb.7001640041929"
+    },
+    {
+      "html": "KuharM.Zager KocjanG.Associations of adverse and positive childhood experiences with adult physical and mental health and risk behaviours in SloveniaEur J Psychotraumatol1212021192495310.1080/20008198.2021.1924953PMC825320034262663"
+    },
+    {
+      "html": "La ChariteJ.KhanM.DudovitzR.NuckolsT.SastryN.HuangC.Specific domains of positive childhood experiences (PCEs) associated with improved adult health: a nationally representative studySSM Popul Health24202310155810.1016/j.ssmph.2023.101558PMC1068500738034480"
+    },
+    {
+      "html": "NarayanA.J.RiveraL.M.BernsteinR.E.HarrisW.W.LiebermanA.F.Positive childhood experiences predict less psychopathology and stress in pregnant women with childhood adversity: a pilot study of the benevolent childhood experiences (BCEs) scaleChild Abuse Negl782018193010.1016/j.chiabu.2017.09.02228992958"
+    },
+    {
+      "html": "BethellC.JonesJ.GombojavN.LinkenbachJ.SegeR.Positive childhood experiences and adult mental and relational health in a statewide sample: associations across adverse childhood experiences levelsJAMA Pediatr173112019e19300710.1001/jamapediatrics.2019.3007PMC673549531498386"
+    },
+    {
+      "html": "CrandallA.BroadbentE.StanfillM.MagnussonB.M.NovillaM.L.B.HansonC.L.BarnesM.D.The influence of adverse and advantageous childhood experiences during adolescence on young adult healthChild Abuse Negl108202010464410.1016/j.chiabu.2020.10464432795716"
+    },
+    {
+      "html": "CrandallA.MillerJ.R.CheungA.NovillaL.K.GladeR.NovillaM.L.B.ACEs and counter-ACEs: how positive and negative childhood experiences influence adult healthChild Abuse Negl96201910408910.1016/j.chiabu.2019.10408931362100"
+    },
+    {
+      "html": "HanD.DieujusteN.DoomJ.R.NarayanA.J.A systematic review of positive childhood experiences and adult outcomes: promotive and protective processes for resilience in the context of childhood adversityChild Abuse Negl144202310634610.1016/j.chiabu.2023.106346PMC1052814537473619"
+    },
+    {
+      "html": "ChoiK.W.SteinM.B.DunnE.C.KoenenK.C.SmollerJ.W.Genomics and psychological resilience: a research agendaMol Psychiatry241220191770177810.1038/s41380-019-0457-631341239PMC6874722"
+    },
+    {
+      "html": "BuntingL.McCartanC.DavidsonG.GrantA.MulhollandC.SchubotzD.The influence of adverse and positive childhood experiences on young people&#x27;s mental health and experiences of self-harm and suicidal ideationChild Abuse Negl140202310615910.1016/j.chiabu.2023.10615937028255"
+    },
+    {
+      "html": "KocatürkM.ÇiçekİRelationship between positive childhood experiences and psychological resilience in university students: the mediating role of self-esteemJ Psychol Couns Sch3312023788910.1017/jgc.2021.16"
+    },
+    {
+      "html": "TothS.L.CicchettiD.A developmental psychopathology perspective on child maltreatmentIntroduction. Child Maltreat183201313513910.1177/107755951350038023886641PMC4520222"
+    },
+    {
+      "html": "KumarG.DashP.PatnaikJ.PanyG.Socioeconomic status scale-Modified Kuppuswamy Scale for the year 2022Int J Community Dent10120221610.56501/intjcommunitydent.v10i1.26"
+    },
+    {
+      "html": "World Health Organization. Adverse childhood Experiences international questionnaire (ACE-IQ). 2020. Accessed August 1, 2023. <a href=\"https://www.who.int/publications/m/item/adverse-childhood-experiences-international-questionnaire-(ace-iq\">https://www.who.int/publications/m/item/adverse-childhood-experiences-international-questionnaire-(ace-iq</a>)."
+    },
+    {
+      "html": "HughesK.BellisM.A.HardcastleK.A.SethiD.ButchartA.MiktonC.The effect of multiple adverse childhood experiences on health: a systematic review and meta-analysisLancet Public Health282017e356e36610.1016/S2468-2667(17)30118-429253477"
+    },
+    {
+      "html": "Expert ConsultationW.H.O.Appropriate body-mass index for Asian populations and its implications for policy and intervention strategiesLancet3639403200415716310.1016/S0140-6736(03)15268-314726171"
+    },
+    {
+      "html": "World Health Organization. Waist circumference and waist–hip ratio: report of a WHO expert consultation, Geneva, 8–11 December 2008. 2008. <a href=\"https://www.who.int/publications/i/item/9789241501491\">https://www.who.int/publications/i/item/9789241501491</a>."
+    },
+    {
+      "html": "AshwellM.GibsonS.Waist-to-height ratio as an indicator of &#x27;early health risk&#x27;: simpler and more predictive than using a &#x27;matrix&#x27; based on BMI and waist circumferenceBMJ Open632016e01015910.1136/bmjopen-2015-010159PMC480015026975935"
+    },
+    {
+      "html": "WheltonP.K.CareyR.M.AronowW.S.CaseyD.E.JrCollinsK.J.Dennison HimmelfarbC.2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA Guideline for the prevention, detection, evaluation, and management of high blood pressure in adults: executive summary: a report of the American College of Cardiology/American Heart Association Task Force on clinical practice guidelinesHypertension71620181269132410.1161/HYP.000000000000006629133354"
+    },
+    {
+      "html": "CrouchE.RadcliffE.KellyK.MerrellM.A.BennettK.J.Examining the influence of positive childhood experiences on childhood overweight and obesity using a national samplePrev Med154202210690710.1016/j.ypmed.2021.10690734864065"
+    },
+    {
+      "html": "HuangC.X.HalfonN.SastryN.ChungP.J.SchickedanzA.Positive childhood experiences and adult health outcomesPediatrics1521202310.1542/peds.2022-060951e2022060951PMC1031223437337829"
+    },
+    {
+      "html": "GengF.ZouJ.LiangY.ZhanN.LiS.WangJ.Associations of positive and adverse childhood experiences and adulthood insomnia in a community sample of Chinese adultsSleep Med802021465110.1016/j.sleep.2021.01.02233550174"
+    },
+    {
+      "html": "LeeH.SchaferM.Are positive childhood experiences linked to better cognitive functioning in later life?: examining the role of life course pathwaysJ Aging Health333–4202121722610.1177/089826432097254733228449PMC7906946"
+    },
+    {
+      "html": "NarayanA.J.AtzlV.M.MerrickJ.S.HarrisW.W.LiebermanA.F.Developmental origins of ghosts and angels in the nursery: adverse and benevolent childhood experiencesAdvers Resil Sci1202012113410.1007/s42844-020-00008-4"
+    },
+    {
+      "html": "XuZ.ZhangD.DingH.ZhengX.LeeR.C.M.YangZ.Association of positive and adverse childhood experiences with risky behaviours and mental health indicators among Chinese university students in Hong Kong: an exploratory studyEur J Psychotraumatol1312022206542910.1080/20008198.2022.2065429PMC913542235646294"
+    },
+    {
+      "html": "PreissK.BrennanL.ClarkeD.A systematic review of variables associated with the relationship between obesity and depressionObes Rev1411201390691810.1111/obr.1205223809142"
+    },
+    {
+      "html": "PengpidS.PeltzerK.Associations between behavioural risk factors and overweight and obesity among adults in population-based samples from 31 countriesObes Res Clin Pract112201715816610.1016/j.orcp.2016.08.00127614950"
+    },
+    {
+      "html": "SullivanA.D.W.BozackA.K.CardenasA.ComerJ.S.BagnerD.M.ForehandR.ParentJ.Parenting practices may buffer the impact of adversity on epigenetic age acceleration among young children with developmental delaysPsychol Sci341020231173118510.1177/0956797623119422137733001PMC10626625"
+    },
+    {
+      "html": "GunnarM.R.HostinarC.E.The social buffering of the hypothalamic-pituitary-adrenocortical axis in humans: developmental and experiential determinantsSoc Neurosci105201547948810.1080/17470919.2015.107074726230646PMC4618716"
+    },
+    {
+      "html": "BrownS.M.SchlueterL.J.Hurwich-ReissE.DmitrievaJ.MilesE.WatamuraS.E.Parental buffering in the context of poverty: positive parenting behaviors differentiate young children&#x27;s stress reactivity profilesDev Psychopathol32520201778178710.1017/S095457942000122433427174PMC9118882"
+    },
+    {
+      "html": "TernouthA.CollierD.MaughanB.Childhood emotional problems and self-perceptions predict weight gain in a longitudinal regression modelBMC Med720094610.1186/1741-7015-7-4619747369PMC2753342"
+    },
+    {
+      "html": "ChengH.FurnhamA.Childhood locus of control and self-esteem, education, psychological distress and physical exercise as predictors of adult obesityJ Public Health (Oxf)413201943944610.1093/pubmed/fdy12530239855"
+    },
+    {
+      "html": "BythS.FrijtersP.BeattonT.The relationship between obesity and self-esteem: longitudinal evidence from Australian adultsOxf Open Econ12022odac00910.1093/ooec/odac009"
+    },
+    {
+      "html": "SlopenN.ChenY.GuidaJ.L.AlbertM.A.WilliamsD.R.Positive childhood experiences and ideal cardiovascular health in midlife: associations and mediatorsPrev Med972017727910.1016/j.ypmed.2017.01.00228087467PMC5430499"
+    },
+    {
+      "html": "SchreierH.M.C.JonesE.J.NaymanS.SmythJ.M.Associations between adverse childhood family environments and blood pressure differ between men and womenPLoS One14122019e022554410.1371/journal.pone.0225544PMC689248131800622"
+    },
+    {
+      "html": "HeermanW.J.SamuelsL.R.González PeñaT.van WykC.MayberryL.S.Lounds TaylorJ.MartinN.C.Family resilience and childhood obesity among children exposed to adverse childhood experiences in a national surveyObes Sci Pract81202131110.1002/osp4.49735127118PMC8804940"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

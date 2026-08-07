@@ -1,0 +1,584 @@
+{
+  "pmcid": "PMC13326136",
+  "pmid": "42395088",
+  "doi": "10.1016/j.ajpc.2026.101625",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13326136/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Independent external validation and head-to-head comparison of guideline-recommended CVD risk prediction models",
+  "articleType": "Research Article",
+  "published": "2026-04-11",
+  "year": "2026",
+  "volume": "28",
+  "issue": "",
+  "articleNumber": "101625",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2026",
+  "authors": [
+    {
+      "given": "Lum",
+      "surname": "Kastrati",
+      "display": "Lum Kastrati"
+    },
+    {
+      "given": "Eleftheria Maria",
+      "surname": "Alexandri",
+      "display": "Eleftheria Maria Alexandri"
+    },
+    {
+      "given": "Maurice",
+      "surname": "Rupp",
+      "display": "Maurice Rupp"
+    },
+    {
+      "given": "Lisa",
+      "surname": "Koch",
+      "display": "Lisa Koch"
+    },
+    {
+      "given": "Jose",
+      "surname": "Garcia-Tirado",
+      "display": "Jose Garcia-Tirado"
+    },
+    {
+      "given": "Christos",
+      "surname": "Nakas",
+      "display": "Christos Nakas"
+    },
+    {
+      "given": "David J.",
+      "surname": "Maron",
+      "display": "David J. Maron"
+    },
+    {
+      "given": "David",
+      "surname": "Herzig",
+      "display": "David Herzig"
+    },
+    {
+      "given": "Lia",
+      "surname": "Bally",
+      "display": "Lia Bally"
+    }
+  ],
+  "affiliations": [
+    "aDepartment of Diabetes, Endocrinology, Nutritional Medicine and Metabolism, Inselspital, Bern University Hospital, University of Bern, Bern, Switzerland",
+    "bLaboratory of Biometry, School of Agriculture, University of Thessaly, Volos, Greece",
+    "cDiabetes Center Berne, Bern, Switzerland",
+    "dDepartment of Clinical Chemistry, Inselspital, Bern University Hospital, University of Bern, Bern, Switzerland",
+    "eStanford Prevention Research Center, Stanford University School of Medicine, Stanford, CA, United States"
+  ],
+  "keywords": [
+    "Cardiovascular disease",
+    "Clinical risk prediction models",
+    "Prevention",
+    "Personalized medicine"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Background:</strong> Cardiovascular disease (CVD) prediction models recommended by guidelines are developed using different populations, predictors, and outcome definitions. The implications of this heterogeneity for risk estimation are unclear, and direct comparisons remain limited."
+    },
+    {
+      "html": "<strong>Objectives:</strong> Head-to-head comparison of the performance and transportability of three guideline-endorsed CVD risk prediction models, focusing on their sex-specific performance."
+    },
+    {
+      "html": "<strong>Methods:</strong> We evaluated models recommended by the American Heart Association (PREVENT), European Society of Cardiology (SCORE2), and the National Institute for Health and Care Excellence (QRISK3). Risk of bias was assessed using the PROBAST tool. External validation was performed using the UK Biobank (UKBB) in a primary analysis including all participants with complete data for all models, enabling direct comparison, and in a secondary analysis applying each model to participants meeting its original eligibility criteria. Model performance was assessed using Brier scores, Area Under the Receiver Operating Characteristic Curve (AUC), and calibration across original and alternative outcome definitions, stratified by sex."
+    },
+    {
+      "html": "<strong>Results:</strong> The PREVENT, SCORE2, and QRISK3 models varied substantially in terms of predictors, populations, and outcome definitions. We used data from 502,157 UKBB participants for the external validation in the primary analysis. Overall predictive performance (discrimination &amp; calibration), as measured by Brier scores, was generally better in females. The AUC (95% CI) ranged from 0.7092 (0.7090–0.7094) to 0.7468 (0.7465–0.7471) for female and 0.6813 (0.6812–0.6814) to 0.6946 (0.6945–0.6946) for male populations. Calibration was suboptimal, particularly for older individuals, with systematic overestimation of risk. The models showed consistent performance when applied to different outcomes. All models were at high risk of bias."
+    },
+    {
+      "html": "<strong>Conclusion:</strong> Despite heterogeneity in populations, predictors, and outcome definitions, PREVENT, SCORE2, and QRISK3 showed similar performance in the UKBB. Future studies should focus on prospective and standardized definitions and assessment of candidate predictors and outcomes."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Cardiovascular diseases (CVD) remain the leading cause of death worldwide [1]. However, timely preventive interventions can reduce the incidence of CVD events, thereby decreasing CVD-related morbidity and mortality. CVD risk prediction models are essential in clinical practice for identifying individuals at risk, enhancing patient communication and awareness, and guiding evidence-based decision-making for preventive interventions. These models are also valuable for informing follow-up strategies, improving trial design (e.g., through risk based-stratification), and enabling cost-effectiveness analyses. A systematic review published in 2016 identified 212 studies describing the development of 363 CVD prediction models and 473 external validations [2]. With the growing availability of electronic health data and advances in analytical methods, it is likely that the number of such models has since grown substantially. Yet, only a few models are endorsed by current guidelines and routinely used in clinical practice to inform decision-making."
+        },
+        {
+          "type": "paragraph",
+          "html": "Despite sharing the overarching goal of predicting CVD events, these models vary in their eligibility criteria, included predictors, and outcome definitions, differences that affect their applicability and performance. To enable appropriate interpretation and effective use of these models in clinical, research, and public health contexts, it is essential to recognize their distinctions, limitations, and generalizability. Notably, the literature highlights the low prevalence of such <em>head-to-head</em> comparisons of established CVD risk prediction models [3]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Therefore, the present work aims to provide a comprehensive review of guideline-endorsed CVD risk prediction models. Leveraging the UK Biobank (UKBB) population-based cohort, we perform an independent external validation and head-to-head comparison, adhering to best practice standards for such evaluations [3]. Specifically, we evaluate model discrimination and calibration, assess the sensitivity of performance to alternative outcome definitions, and compare performance by sex. Uniquely, our work departs from traditional validation approaches by assessing model performance both within and beyond the original target populations, providing an in-depth appraisal of their applicability and transportability. For transparency, we report results from a primary analysis in the maximal common sample of participants with complete predictor data, and a secondary analysis applying each model to its original target population."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Selection criteria",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The following original prediction models were included in the present work: CVD risk prediction models recommended for use by the most recent guidelines of the: (a) The National Institute for Health and Care Excellence from the United Kingdom [4] – <em>the QRISK3 model</em> [5], (b) European Heart Association [6] – <em>The SCORE2 models</em> [7], and (c) The American Heart Association [8] <em>- the PREVENT model</em> [9]."
+        }
+      ]
+    },
+    {
+      "title": "Data extraction",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "For each included CVD risk prediction model, we extracted the following data: study and population characteristics (year of publication, study design, number of participants, mean follow-up time, eligibility criteria), predictors, modelling approach, definition of CVD events, number of CVD events, and model performance metrics (calibration, Area Under the Receiver Operating Characteristic Curve (AUC) or C-statistic). Two authors (MR and LuK) independently extracted all the required data. Possible discrepancies were resolved by consulting a third author (LB)."
+        }
+      ]
+    },
+    {
+      "title": "Population for external validation",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We validated the prediction models using data from the UKBB, a large-scale biomedical database. It comprises a long-term prospective cohort (baseline recruitment window from 2006-2010) from the United Kingdom with &gt;500,000 participants from the general population. Its design is described elsewhere [10]. Data were collected through a combination of questionnaires, electronic health records (EHR), interviews, and biological samples. For our analysis, we used the baseline data of the participants and followed them until the end of the follow-up for up to 10 years. The end of follow-up was determined by the time of the first CVD event, death, or loss to follow-up, whichever happened first. Participants were censored at the last period of the follow-up or death from other causes, which define competing events. All UKBB participants provided informed consent, and the resource has received ethical approval from the relevant authorities. Therefore, no additional ethical approval was required for this study."
+        }
+      ]
+    },
+    {
+      "title": "Eligibility criteria of the UKBB population used for external validation",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "For the primary analysis, we defined a common analytic sample restricted to participants eligible for all three models and with complete data on the required predictor variables, enabling a direct head-to-head comparison under consistent conditions. For the secondary analysis, we adapted the eligibility criteria of the population included in the development of the original model and applied them respectively for each of the included models. Participants with missing data on the independent variables were excluded from the analysis. The eligibility criteria of the populations of all included prediction models are presented in Table 1.Table 1Reported characteristics of the included CVD risk prediction models.Table 1 dummy alt textStudySample SizeCVD Incidence N (%)Follow-up period Years Median (IQR)CalibrationC-Statistics (95 % CI)Inclusion criteriaPredictors included in the Prediction ModelQRISK 3Derivation Cohort of the Female Population4,019,956160,549 (4 %)4.4 years (interquartile range 1.6-10.8)--Free of CVD at baseline Were not using statins at baseline Have a Townsend deprivation scoreAge SBP Townsend score Ethnic origin Smoking status Family history of CVD Type 1 Diabetes Type 2 Diabetes Treated hypertension Rheumatoid arthritis Atrial Fibrillation CKD Migraine Corticosteroid use SLE Erectile dysfunction Atypical antipsychotic use Severe mental illness Total cholesterol BMIDerivation Cohort of the Male Population3,869,847203,016 (5.2 %)-0.879 (0.878 to 0.880)Validation Cohort of the Female Population1,360,457-4.4 years (interquartile range 1.6-10.8)4.7 % predicted risk 5.8 % Observed risk-Validation Cohort of the Male Population1,310,841-6.4 % Predicted risk 7.5 % Observed risk0.858 (0.856 to 0.859)SCORE2* **SCORE2677 68430, 121 (4.4 %)10.7 (5.0-18.6)Only Visual Representation0.67 (0.65–0.68) to 0.81 (0.76–0.86)Individuals aged 40-69 Free of CVD at baseline Free of diabetes at baselineAge Smoking status Total Cholesterol HDL-C SBPSCORE2- OP28,50310,089 (35 %)13 (8.0-15.0)Only Visual Representation0.63 (0.61-0.65) to 0.67 (0.64-0.69)Individuals aged ≥70 Free of CVD at baselineAge Smoking status Total Cholesterol HDL-C SBP DiabetesSCORE2-Diabetes229 46043706 (19 %)10.9 (6.8-11)Only Visual Representation0.64 (0.63-0.65) To 0.71 (0.7-0.72)Had Type 2 Diabetes at baseline Free of CVD at baseline Individuals aged 40-69Age Smoking status Total-C HDL-C SBP Diabetes Age at diabetes diagnosis HbA1c eGFRPREVENTDerivation Cohort of the Female Population1,839,82853,258 (2.9 %)4.8±3.1-0.789 (0.778– 0.810)Individuals aged 30-79 Free of CVD at baseline SBP 90-200 mm Hg Total Cholesterol 130-320 mg/dL HDL-C 20 -100 mg/dL BMI 18.5 - 40.0 kg/m<sup>2</sup>Age Smoking Status SBP Diabetes Cholesterol eGFR HDL-C Cholesterol Lowering Medication BP lowering treatmentDerivation Cohort of the Male Population1,442,09153,403 (3.7 %)4.6±3.0-0.745 (0.734–0.760)Validation Cohort of the Female Population1,894,88254,365 (2.9 %)5.0±3.2Calibration slope 1.03 (0.83-1.17)0.794 (0.763–0.809)Validation Cohort of the Male Population1,435,20350,489 (3.5 %)4.8±3.2Calibration slope 0.95 (0.85-1.13)0.757 (0.727–0.778)<strong>SBP</strong> –Systolic Blood Pressure, <strong>CKD</strong>- Chronic Kidney Disease, <strong>eGFR</strong>- Estimated Glomerular Filtration Rate, <strong>BMI-</strong> Body Mass Index, <strong>SLE-</strong> Systemic Lupus Erythematosus. <strong>CVD</strong>- Cardiovascular Disease, <strong>HDL-C</strong> High Density Lipoprotein Cholesterol. <strong>Total-C</strong> – Total Cholesterol, <strong>HbA1c-</strong> Haemoglobin A1c. * SCORE2 provided 4 different models calibrated for specific geographical regions. **- The reported AUC-s of the SCORE-2 Models present the range of the AUCs across the various external validation datasets."
+        }
+      ]
+    },
+    {
+      "title": "Outcome definition",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Model performance was evaluated using two outcome definitions: (i) by matching the original study&#x27;s outcome definition (e.g., SCORE2 model performance based on the SCORE2 outcome definition), and (ii) by applying the outcome definitions of other prediction models (e.g., SCORE2 model performance based on PREVENT and QRISK3 outcome definitions), to account for heterogeneity in outcome definitions. This approach allows us to assess model performance both within and beyond their originally intended outcome definitions. Detailed outcome definition and assessment for each study are provided in the Supplementary Appendix (Table SA2a-c)."
+        }
+      ]
+    },
+    {
+      "title": "Assessment of the outcome in the UKBB",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In the UKBB, the CVD outcome was assessed using self-reported questionnaires, or was extracted from EHR, namely the Hospital Episode Statistics from the UK (ICD10 &amp; ICD9 codes), or using death registries. Detailed information is provided in the Supplementary Appendix (Table SA2a-c)."
+        }
+      ]
+    },
+    {
+      "title": "Assessment and definition of predictors",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The list of predictors included in each prediction model is provided in Table 1. We matched the definition of the predictors from the original studies. The definition and assessment of predictors for each study and in the UKBB are described in Table SA1."
+        }
+      ]
+    },
+    {
+      "title": "Risk of bias assessment",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We used the PROBAST tool [11] to evaluate potential bias sources in individual studies that could impact the applicability of results concerning the intended use of the models. Two authors (MR and LuK) independently assessed the risk of bias of the presented models. Discrepancies were discussed to reach consensus. Following the PROBAST standards, if an evaluation was judged as high risk of bias (RoB) for at least one domain, overall risk was considered to be high. If the prediction model evaluation was unclear in one or more domains and was rated as low in the remaining domains, risk of bias was judged as unclear."
+        }
+      ]
+    },
+    {
+      "title": "Model implementation procedure",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Analyses were based on complete cases (with subjects having missing values in required inputs excluded) for implementing the selected models. Two complementary approaches were implemented. In the primary analysis, all three models were implemented in the maximal common sample of participants with all predictors available, ensuring direct comparability of model performance. In secondary analysis, each model was applied to participants meeting its original eligibility criteria, reflecting the populations for which the models were developed."
+        },
+        {
+          "type": "paragraph",
+          "html": "The selected CVD risk prediction models were implemented as follows. The QRISK3_2017 function from the QRISK3 R package was used to implement the QRISK3 algorithm, after applying the respective eligibility criteria [12]. The base equation of the PREVENT 10-year risk estimation model, developed for Total CVD (atherosclerotic CVD and heart failure) as described in [13] was selected for the present work, with predictors including total cholesterol, high-density lipoprotein cholesterol (HDL-C), systolic blood pressure (SBP), and body mass index (BMI) constrained to fall within specific value ranges. For the implementation of the SCORE2 model, the RiskScorescvd R package was used [14]. If a participant had type II diabetes and was between 40 and 69 years of age, their 10-year CVD risk was estimated using the SCORE2_Diabetes function. For those aged 40 to 69 without diabetes at baseline, the main SCORE2 model was applied. For participants aged 70 years and over, the SCORE2_Older_Persons function was applied. The functions were parameterized for the low-risk region, as the analyses were conducted using data from individuals living in the UK."
+        },
+        {
+          "type": "paragraph",
+          "html": "All analyses were conducted within a time-to-event framework, accounting for competing non-CVD death. Observed risks were estimated using cumulative incidence functions (CIF). Calibration was assessed at a 10-year horizon by comparing predicted risks with CIF-based observed risks. Continuous predictors were grouped into bins: age at recruitment (5-year bins) and SBP (20 mmHg bins), with the mean predicted risk within each bin plotted against observed risk. Calibration was quantified by fitting a linear regression of observed on predicted risk, with slope and intercept summarizing overall calibration. A slope of 1 and an intercept of 0 indicate perfect calibration. Decile-based calibration was also performed, with participants grouped into ten risk deciles, mean predicted and CIF-based observed risks calculated for each, and reference lines indicating perfect calibration. Numbers at risk per decile were recorded, and all calibration curves and decile-based plots are provided in the Supplementary Material (File B). Calibration curves were generated overall and stratified by age, SBP, and sex. Age and SBP were selected as readily available robust predictors of CVD risk, commonly used by practitioners in routine practice, with age being the strongest non-modifiable risk factor [15] and SBP as the most influential modifiable risk factor [16]. The calibration slopes and intercepts for each model are provided in Table 3."
+        },
+        {
+          "type": "paragraph",
+          "html": "Discrimination was assessed using a time-dependent area under the ROC curve (AUC) at 10 years, calculated with cumulative/dynamic definitions accounting for competing risks. This quantifies each model’s ability to distinguish between participants who did or did not experience the event. To evaluate transportability, all models were validated across different outcome definitions using a consistent statistical framework, isolating the impact of differences in outcome definitions from the underlying risk estimation methodology. Discrimination focuses on classification correctness, while calibration evaluates the reliability of probability estimates."
+        },
+        {
+          "type": "paragraph",
+          "html": "The models were validated and reported according to the TRIPOD guidelines [17]. All the models presented sex-specific coefficients. Therefore, model performance was separately assessed for females and males. Given that UKBB data was one of the original development cohorts of the SCORE2_main and SCORE2_diabetes models, using it for validation might lead to overoptimistic results. Thus, in a sensitivity analysis, we evaluated model performance (discrimination and calibration) using beta coefficients derived from training on all original development cohorts except UKBB."
+        },
+        {
+          "type": "paragraph",
+          "html": "Analyses were performed using R version 4.5.1 (The R Foundation for Statistical Computing, Vienna, Austria), along with the corresponding R packages associated with each CVD risk prediction algorithm. Additional technical details regarding the analyses are provided in the Supplementary Appendix (File C)."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Qualitative description of the included prediction models"
+        }
+      ]
+    },
+    {
+      "title": "Characteristics of the development cohorts of the included prediction models",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The QRISK3 model was developed using data coming from primary care EHRs in the UK [5], while the SCORE2 model was developed using 44 cohorts included in the “Emerging Risk Factor Collaboration” and the UKBB [7,18]. The PREVENT model was developed using data from a global consortium consisting of 46 US-based observational research and EHRs [9], for which details can be found elsewhere [19]. Specific eligibility criteria of the cohorts used for the development of each of the models are presented in Table 1."
+        }
+      ]
+    },
+    {
+      "title": "Outcome definitions of the included prediction models",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "All three models employed different outcome definitions for CVD events. Ischemic heart disease and cerebrovascular disease were included across all models (SCORE2 differentiated between fatal and non-fatal events). Other outcomes included (non) fatal heart failure, transient ischemic attack and fatal hypertensive disease, arrhythmias, atherosclerosis/abdominal aortic aneurysm, and sudden death, with various distributions across the three models. A general overview of outcome definitions for each of the models is provided in Fig. 1. Detailed information on outcome definition and their respective ICD10 codes is presented in the Supplementary Appendix (Table S2a-c)<strong>.</strong>Fig. 1CVD outcome definition of the included prediction models.Fig 1 dummy alt text"
+        }
+      ]
+    },
+    {
+      "title": "Final prediction models",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "All three development studies of the selected CVD models presented multivariable prediction models. All models were derived using survival analysis. The QRISK3 and PREVENT models used Cox`s proportional hazards models to estimate the coefficients for the risk factors [20], while SCORE2 utilized Fine and Gray competing risk models [21]. PREVENT and SCORE2 models adjusted for competing risk of non-CVD deaths, while QRISK3 censored the participants at the event of a non-CVD death. Age, smoking status, markers of kidney function, diabetes, SBP, and total cholesterol were used across the three models. SCORE2 additionally reported specific models for Low, Medium, High and Very High risk regions in Europe. Characteristics of these studies as reported in the original articles are provided in Table 1. Detailed information on predictors’ assessment and definition are presented in the Supplementary Appendix (Table S1)."
+        }
+      ]
+    },
+    {
+      "title": "Risk of bias assessment",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "All assessed models had at least one domain rated as high RoB (Fig. 2). None of the models was rated as low RoB in the <em>participants</em> domain. High or unclear RoB in this domain stemmed from eligibility criteria inconsistencies (SCORE2), or from using EHRs as data sources (QRISK3 and PREVENT). 12/45 cohorts used in the development of SCORE2 did not record non-fatal CVD events, despite being part of the outcome definition. This leads to misclassification bias: individuals who experienced non-fatal CVD events would have been misclassified as event-free and thus erroneously included in the analyses, contrary to the eligibility criteria. This misclassification could introduce bias in two ways. First, participants who actually had a non-fatal CVD event have a higher risk of fatal CVD events. Second, truly healthy individuals at baseline who later experienced non-fatal events may not have been captured, leading to false-negative classifications.Fig. 2Risk of bias assessment.Fig 2 dummy alt text"
+        },
+        {
+          "type": "paragraph",
+          "html": "In the predictors’ domain, the QRISK3 was rated at high RoB. This was primarily due to certain predictors not being systematically assessed for all participants (e.g. learning disability, severe mental illness, atypical psychosis, erectile dysfunction). Moreover, when baseline data were not available, the most recent values recorded before the baseline date were used. This means that not all data were collected at the same time at baseline (exposure misclassification), and the estimates may not represent 10-year associations."
+        },
+        {
+          "type": "paragraph",
+          "html": "All models were rated a high or unclear RoB for the outcome domain. SCORE2 was rated at high RoB because the outcome was not uniformly assessed across all cohorts: 12/45 cohorts used for developing/validating the SCORE2 did not capture non-fatal CVD events. PREVENT and QRISK3 were listed as unclear bias because they use variable definitions of CVD events, which were based on EHRs or contained multiple non-standardized cohorts, which might have led to inconsistencies in outcome assessment/assignment. In the analysis domain, as per the PROBAST guidelines, the PREVENT study was listed as high RoB because the authors excluded participants with missing data. The authors of the QRISK3 study report that they censored for CVD events; however, we believe that this is a syntax error rather than methodological (the authors have been contacted for clarification)."
+        },
+        {
+          "type": "paragraph",
+          "html": "External validation of QRISK3, SCORE2 and PREVENT models"
+        },
+        {
+          "type": "paragraph",
+          "html": "We used data from 502,157 UKBB participants for the external validation. After applying each model’s specific eligibility criteria, 302,670 participants were eligible for the validation of the three models. Fig. SA1 (Supplementary Appendix) present baseline characteristics of the UKBB participants eligible for each model. The median follow-up time (with 5<sup>th</sup> and 95<sup>th</sup> percentiles) was 10.0 (10.0-10.0), and 10.0 (6.9-10.0) years for females and males, respectively. At the end of follow-up, 4.2 % of females and 8.5 % of males experienced the outcome using the QRISK3 prediction model and the respective outcome definition, 1.6 % and 3.7 % for the SCORE2 model, and 1.9 % and 4.2 % for the PREVENT model respectively (Table 2).Table 2Summary of the event rates and performance metrics for the implementation of the models across the three outcome definitions, separately for female and male population in the UKBB.Table 2 dummy alt textAlgorithmOutcome DefinitionFemalesMales<em>AUC (95 % CI)</em><em>Brier score</em><em>N</em><em>Events%</em><em>AUC (95 % CI)</em><em>Brier score</em><em>N</em><em>Events %</em>QRISK3PREVENT<em>0.7468 (0.7465-0.7471)</em><em>0.0150</em><em>170,613</em><em>1.85</em><em>0.6944 (0.6943-0.6945)</em><em>0.0301</em><em>132,057</em><em>4.15</em>SCORE2<em>0.7405 (0.7402-0.7408)</em><em>0.0126</em><em>1.55</em><em>0.6909 (0.6908-0.6910)</em><em>0.0266</em><em>3.65</em>QRISK3<em>0.7242 (0.7240-0.7244)</em><em>0.0320</em><em>4.24</em><em>0.6946 (0.6945-0.6946)</em><em>0.0555</em><em>8.45</em>SCORE2 MAIN/OP/ DIABETESPREVENT<em>0.7367 (0.7365-0.7370)</em><em>0.0168</em><em>1.85</em><em>0.6857 (0.6856-0.6858)</em><em>0.0359</em><em>4.15</em>SCORE2<em>0.7332 (0.7329-0.7335)</em><em>0.0141</em><em>1.55</em><em>0.6875 (0.6874-0.6876)</em><em>0.0316</em><em>3.65</em>QRISK3<em>0.7092 (0.7090-0.7094)</em><em>0.0361</em><em>4.24</em><em>0.6813 (0.6812-0.6814)</em><em>0.0677</em><em>8.45</em>PREVENTPREVENT<em>0.7433 (0.7431-0.7436)</em><em>0.0160</em><em>1.85</em><em>0.6865 (0.6864-0.6866)</em><em>0.0340</em><em>4.15</em>SCORE2<em>0.7371 (0.7368-0.7374)</em><em>0.0134</em><em>1.55</em><em>0.6834 (0.6833-0.6835)</em><em>0.0300</em><em>3.65</em>QRISK3<em>0.7140 (0.7138-0.7142)</em><em>0.0344</em><em>4.24</em><em>0.6824 (0.6823-0.6825)</em><em>0.0640</em><em>8.45</em>"
+        }
+      ]
+    },
+    {
+      "title": "Models’ performance within and across different outcome definitions",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "All three models demonstrated moderate performance both within and beyond their original outcome definitions, without major differences between the models. Brier scores suggested good overall statistical performance, ranging from 0.0126 to 0.0361 for females and from 0.0266 to 0.0677 for males. Models showed consistently better discrimination in female populations, with AUC values ranging from 0.7092 (0.7090–0.7094) to 0.7468 (0.7465–0.7471) for females, and 0.6813 (0.6812–0.6814) to 0.6946 (0.6945–0.6946) for male populations respectively. The QRISK3 model demonstrated the best discrimination in both sexes, with consistently higher AUC values across all three outcome definitions, and the lowest Brier scores, indicating better overall predictive accuracy. In contrast, the SCORE2 model showed the poorest discrimination, with the lowest AUC values across the PREVENT and QRISK3 outcome definitions, and the highest Brier scores across all outcome definitions, indicating inferior discrimination and overall predictive performance compared with the other models (Table 2). Results for SCORE2 remained consistent in the sensitivity analysis, where evaluation was performed by employing coefficients derived from datasets not containing the UKBB (Table SA5a)."
+        }
+      ]
+    },
+    {
+      "title": "Model calibration across female populations",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Visual inspection of the calibration curves indicated that all models tend to overestimate risk. The QRISK3 model consistently overestimated the risk under the SCORE2 and PREVENT outcome definitions, while demonstrating slightly better calibration using its own outcome definition. This pattern persisted when assessing the calibration curves for age and SBP. Similarly, the PREVENT model overestimated the risk, also when calibration was assessed for age and SBP, using the PREVENT and SCORE2 outcome definitions. In contrast, the PREVENT model demonstrated better calibration under the QRISK3 outcome definition, with the predicted values aligning closer to the observed outcomes overall, and for ages &lt;55 years and SBP of &lt;160 mmHg. This combination yielded the best calibration across all model-outcome combinations (Fig. 3). The SCORE2 model displayed inconsistent calibration. Slight risk overestimation for its own and PREVENT outcome definitions, contrasted by risk underestimation for the QRISK3 outcome definition, particularly for participants older than 60.Fig. 3Calibration curves of the PREVENT model using the QRISK3 outcome definitions.Fig 3 dummy alt text"
+        },
+        {
+          "type": "paragraph",
+          "html": "These findings are broadly consistent with the calibration metrics as reflected by the corresponding overall slopes and intercepts for each model and outcome definition presented in Table 3. In the QRISK3 model, the QRISK3 outcome showed a slope closest to 1, suggesting somewhat better agreement between predicted and observed risks, whereas the SCORE2 outcome had the lowest intercept, indicating less pronounced overestimation. In the PREVENT model, agreement was also better with the QRISK3 outcome, while the intercept was closest to zero for the SCORE2 outcome. In the SCORE2 model, the slope was closest to 1 under the QRISK3 outcome, whereas the intercept was closest to zero for the SCORE2 outcome. Notably, this was also the only model–outcome combination showing risk underestimation, while all others predominantly overestimated risk. Overall, no model achieved ideal calibration. Importantly, visual inspection of the calibration curves indicated that the PREVENT model evaluated with the QRISK3 outcome definition showed the best overall calibration for females, followed by the SCORE2 model with the QRISK3 outcome definition, whereas the slope and intercept metrics provide a complementary but less discriminating summary of calibration performance.Table 3Overall Calibration Slope and Intercept (with 95 % Confidence Intervals) for Each Combination of Algorithm and Outcome Definition.Table 3 dummy alt textMean (95% CI)AlgorithmOutcome definitionPREVENTSCORE2QRISK3WomenMenWomenMenWomenMenQRISK3<em>Slope</em>0.144 (0.119‒0.169)0.142 (0.124‒0.160)0.104 (0.086‒0.123)0.127 (0.111‒0.144)0.207 (0.171‒0.243)0.249 (0.217‒0.281)<em>Intercept</em>0.037 (0.026‒0.048)0.040 (0.031‒0.048)0.030 (0.022‒0.039)0.035 (0.027‒0.044)0.070 (0.054‒0.086)0.076 (0.060‒0.092)PREVENT<em>Slope</em>0.287 (0.243‒0.332)0.278 (0.235‒0.320)0.227 (0.194‒0.260)0.233 (0.194‒0.272)0.413 (0.342‒0.484)0.448 (0.371‒0.525)<em>Intercept</em>0.018 (0.008‒0.027)0.030 (0.019‒0.040)0.014 (0.007‒0.022)0.028 (0.018‒0.038)0.041 (0.025‒0.056)0.061 (0.042‒0.080)SCORE2<em>Slope</em>0.453 (0.351‒0.554)0.329 (0.245‒0.414)0.408 (0.314‒0.501)0.342 (0.261‒0.422)0.683 (0.511‒0.855)0.611 (0.469‒0.753)<em>Intercept</em>0.015 (0.002‒0.028)0.036 (0.020‒0.051)0.012 (0.000‒0.025)0.030 (0.015‒0.045)0.035 (0.013‒0.058)0.064 (0.038‒0.091)"
+        },
+        {
+          "type": "paragraph",
+          "html": "All models achieved their lowest Brier scores when evaluated using the SCORE2 outcome definition, indicating better overall predictive performance under this outcome definition despite the calibration issues. The calibration curves are presented in the Supplementary Material (Calibration_Curves file, File B). Sensitivity analysis showed similar calibration for the SCORE2 models when validated using coefficients derived from cohorts excluding UKBB, indicating consistency with the main analysis (Table SA5b)."
+        }
+      ]
+    },
+    {
+      "title": "Model calibration across male populations",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Similarly, visual inspection of the calibration curves indicated a tendency toward risk overestimation in most cases across all outcome definitions. We consistently observed sharp declines in calibration at older ages and higher values of SBP. The QRISK3 model consistently overestimated the predicted risk under the SCORE2 and PREVENT outcome definitions, while showing slightly better calibration using its own outcome definition, as observed in females. However, miscalibration remained clearly evident both overall and across most age and SBP strata. The PREVENT model again showed the best model calibration using the QRISK3 outcome definition, while it overestimated the risk for the other outcome definitions (Fig. 3). The SCORE2 model slightly overestimated the risk under the PREVENT and SCORE2 definitions but underestimated the risk under the QRISK3 outcome definition, especially for participants older than 60 years."
+        },
+        {
+          "type": "paragraph",
+          "html": "These graphical observations are broadly consistent with the overall slopes and intercepts presented in Table 3. For males, the slope was generally closest to 1 for the QRISK3 outcome, suggesting somewhat better proportional calibration, while the intercept was nearest to zero for the SCORE2 outcome, reflecting slightly reduced systematic overestimation. Overall, no model achieved perfect calibration. Visually, the PREVENT model evaluated with the QRISK3 outcome definition demonstrated the most acceptable calibration in males, whereas slope and intercept metrics provide a complementary but less detailed summary of calibration performance."
+        },
+        {
+          "type": "paragraph",
+          "html": "Again, all models achieved their lowest Brier scores when evaluated using the SCORE2 outcome definition, indicating better overall predictive performance under this outcome definition. The calibration curves are provided in the Supplementary_Material_Calibration_Curves file (File B). Sensitivity analyses showed consistent calibration results for the SCORE2 models when validated using coefficients derived from cohorts excluding UKBB (Table SA5a-b)."
+        }
+      ]
+    },
+    {
+      "title": "Secondary analysis: model performance in original target populations",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Broadly, the results of the secondary analyses were consistent with those of the primary analysis in terms of both discrimination and calibration. Specifically, AUC values ranged from 0.7048 (0.7048–0.7049) to 0.7438 (0.7436–0.7440) in females and from 0.6750 (0.6750–0.6750) to 0.6998 (0.6996–0.6999) in males, generally slightly lower than in the primary analysis, with the exception of the QRISK3 model, where AUCs were higher than in the primary analysis. Brier scores ranged from 0.0132 to 0.0424 in females and from 0.0276 to 0.0774 in males, slightly higher than in the primary analysis. Calibration patterns, overall and stratified by age and systolic blood pressure, were consistent with the primary analysis. The PREVENT model using the QRISK3 outcome definition showed the best calibration, while the SCORE2 model with the PREVENT outcome definition also demonstrated acceptable calibration in both sexes. Sensitivity analyses for the SCORE2 model, using beta coefficients derived from all original development cohorts except UKBB, were consistent with the main results for SCORE2 in the secondary analysis, analogous to what was observed in the primary analysis. All results from the secondary analyses can be found in the Supplementary Material (Files D–E)."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Overall model performance and calibration",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In this independent external validation and head-to-head comparison of three guideline-recommended CVD prediction models, we observe vast heterogeneity among the predictors used and CVD outcome definitions. Upon external validation using the UKBB, we observe similar discriminatory performance across models. Overall, the models performed better for females, as indicated by lower Brier scores and higher AUC values. The AUCs ranged from 0.7092 (0.7090–0.7094) to 0.7468 (0.7465–0.7471) for female and 0.6813 (0.6812–0.6814) to 0.6946 (0.6945–0.6946) for male populations, respectively. The highest AUC values were observed for the QRISK3 model under the PREVENT outcome definition in females, and under the QRISK3 outcome definition in males. Notably, all models performed similarly even when tasked to predict outcomes slightly divergent from those for which they were originally developed."
+        },
+        {
+          "type": "paragraph",
+          "html": "In contrast, visual inspection of calibration curves demonstrates that models tend to overestimate risk, which might lead to overtreatment of some patients. The PREVENT model, when evaluated using the QRISK3 outcome definition, showed relatively better calibration upon visual inspection. Regarding overall predictive performance, the lowest Brier score was observed for the QRISK3 model under the SCORE2 outcome definition, while across all models, predictions using the SCORE2 outcome definition consistently achieved the lowest Brier scores in both females and males, reflecting superior accuracy. Declines in calibration were particularly evident with increasing age and higher systolic blood pressure, suggesting reduced agreement between predicted and observed risks in these subgroups."
+        },
+        {
+          "type": "paragraph",
+          "html": "The observed suboptimal calibration might reflect differences between the UKBB and the original model development cohorts. The UKBB cohort includes considerably older participants and/or has longer follow up in comparison to the other cohorts (Table SA3a-c). Furthermore, differences in the underlying data sources could explain the systematic risk overestimation by PREVENT and QRISK3. The UKBB is a population-based cohort, thus, it is subject to <em>healthy-user-bias</em>, where participants might have different health seeking behavior - leading to a healthier population than the general population, as shown by previous studies [22]. Unlike prospective research-derived cohorts, PREVENT and QRISK3 models leveraged EHR data susceptible to <em>informed-presence-bias</em>, a selection bias that occurs when individuals with more health concerns are overrepresented. Participants are not included in EHR randomly, but due to their health status. As a result, these populations generally have a higher baseline risk for adverse health outcomes than the general population [23]. Therefore, prediction models developed from EHR populations will link the prediction estimates more aggressively to the outcome. This is also shown in our data (Tables SA3a-c). The cumulative incidence of CVD in UKBB is significantly lower than in the original development cohorts of the three models. When compared to the SCORE2 model, which has a somewhat comparable follow-up time, CVD incidence in UKBB was 2.7 %, while in the SCORE2 model development population was 4.4 %. In comparison to QRISK3 and PREVENT, a similar proportion of participants developed the outcome in those cohorts despite having approximately half the follow-up time of UKBB."
+        }
+      ]
+    },
+    {
+      "title": "Other external validation attempts",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The QRISK3 model was recently validated using the UKBB data with similar results to ours (C-statistic 0.722 in female and 0.697 in male), and the calibration curves showing risk overestimation [24]. The slight discrepancies might stem from the authors imputing missing data, while we proceeded with a complete case analysis approach."
+        },
+        {
+          "type": "paragraph",
+          "html": "Other studies validating the SCORE2 model used a Russian cohort of 7251 participants aged from 40 to 69 years. While the authors do not report any of the traditional performance measurements, the authors claim that the model demonstrated better performance in men [25]."
+        },
+        {
+          "type": "paragraph",
+          "html": "SCORE2 validation in the EPIC-Norfolk cohort study showed slightly better performance for female than for men—C-statistics (95 % CI) of 0.78 (0.76–0.78) vs. 0.72 (0.69–0.74) [26]. In another validation using the REDISCOVER study from Malaysia, the authors validated all SCORE2 models (low, moderate, high and very high-risk models) by subgrouping participants into younger than 50, or 50 to 69 and then evaluated the model performance across sex. Interestingly, the model performed better for males in participants younger than 50, and better for females in older than 50 across all risk categories [27]."
+        },
+        {
+          "type": "paragraph",
+          "html": "In another cohort study in Canada, consisting of 57,409 adults, the <em>C</em>-statistic for SCORE2 in females was 0.74 (0.72–0.76), better than in males 0.69 (0.67–0.71), with overall good calibration for males and females [28]."
+        },
+        {
+          "type": "paragraph",
+          "html": "A study claiming to validate the PREVENT study, reported excellent performance of the models with C-statistics of 0.873 (0.860-0.886) for males and 0.904 (0.892-0.916) for females. However, this study only used fatal CVD events as an outcome and omitted the non-fatal CVD outcomes, for which PREVENT was developed as well [13]."
+        }
+      ]
+    },
+    {
+      "title": "Sex differences in model performance",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Observed sex differences in model performance may stem from various biological and methodological factors, which merit exploration in the models’ development cohorts and in the UKBB. For instance, the regression coefficients appear to be more strongly associated with outcomes in females than in males. In the PREVENT study, type II diabetes was associated with a hazard ratio for CVD of 2.39 (2.31–2.48) in females and 2.18 (2.08–2.29) in males (i.e., ≈ 10 % higher risk). However, men had a higher prevalence of diabetes. Similarly, females diagnosed with systemic lupus erythematosus (SLE), severe mental illness or who were using atypical antipsychotics had a greater risk of developing CVD than their male counterparts. Several reasons could explain these differences. Females might also report data of higher quality. For example, in QRISK3, females had fewer missing data on independent variables, providing a more complete dataset for model training and more stable parameter estimates (larger signal-to-noise ratio). Additionally, conditions like SLE are more prevalent in females, again allowing for more robust estimations. Another relevant factor is the differential incidence of CVD across the lifespan. Because premenopausal females have a lower risk of CVD than age-matched males, more males may have been excluded at baseline due to prevalent disease. This could result in a more representative sample of incident cases among females in the cohort. The average age of females at baseline in these models (e.g., ∼42 years in QRISK3, 53 years in PREVENT, 57 years in SCORE2) often coincides with perimenopause, a period of rapid cardiometabolic changes. Algorithms may more swiftly capture these shifts, improving prediction performance [29]. Moreover, peri-menopausal women may engage more with healthcare services due to climacteric symptoms, leading to higher data completeness and lower recall bias. Other socio-demographic factors could also play a role in these differences [30]."
+        }
+      ]
+    },
+    {
+      "title": "Limitations of our work",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "First, this was not a systematic search of the current available CVD risk prediction models across the literature. There might be other models with better transportability that were not captured by our inclusion criteria. However, since these models are the most used ones in the recent guidelines, we believe that the assessment of these models is the most impactful in terms of real-life applicability. Other limitations are inherent to the UKBB dataset."
+        },
+        {
+          "type": "paragraph",
+          "html": "UKBB, as the name suggests, exclusively comprises UK participants – a limited scope sharply contrasted by broader racial and ethnic diversity within the other CVD model development cohorts assessed in our analysis. Moreover, UKBB’s restriction to ages 40-69 introduces significant uncertainty regarding model applicability to populations falling outside of this range."
+        },
+        {
+          "type": "paragraph",
+          "html": "Another limitation pertinent is that the SCORE2 model has used the UKBB among the other 44 datasets used for the original development and validation of the model. Therefore, we have to acknowledge that our results for the SCORE2 model may not fully represent external validation. Our sensitivity analysis employing coefficients derived from all cohorts but UKBB, demonstrated comparable discrimination and calibration, with only slightly lower AUC values observed in both females and males across all models and outcome definitions in both primary and secondary analyses. In addition, inherent to every validation study, the assessment of the predictors and the outcome differed between our dataset and the development datasets, potentially leading to different baseline survival hazards and estimates."
+        },
+        {
+          "type": "paragraph",
+          "html": "Finally, a further limitation relates to missing data. Analyses were restricted to participants with complete data for each model’s predictors, which may introduce selection bias if missingness is not at random. Although we report missing data proportions per predictor stratified by sex (Supplementary File A, Table SA4), we did not perform multiple imputation due to the substantial computational burden and prior evidence suggesting minimal impact on discrimination and calibration. However, we cannot exclude the possibility that excluding individuals with incomplete data influenced model performance estimates, and our findings should be interpreted in light of this consideration."
+        }
+      ]
+    },
+    {
+      "title": "Implications for clinical practice and future research",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Our study highlights the inconsistency of CVD event definitions used in risk prediction models. While this variation might partly reflect the lack of a consensus definition for CVD outcomes, we believe that it more likely stems from differences in data availability across studies. Interestingly, even though all models used different CVD outcome definitions, the performance of the models did not vary significantly when the models were used to predict slightly different CVD outcomes than their “original” outcome definitions, highlighting the transportability of these models. In real-world practice—where time, data availability, and patient complexity may limit the ability to apply tailored models—clinicians may reasonably rely on any of these models without substantial compromise in predictive performance, depending on the availability of predictors at the time of intended use. As shown in the present work, the models consistently overestimated the predicted risk in the general population; thus, recalibration of the models and a revision of the suggested treatment thresholds might be worth revisiting."
+        },
+        {
+          "type": "paragraph",
+          "html": "To advance CVD risk prediction, we propose the development of methodologically rigorous prospective cohorts, unified in design, with standardized definitions and assessments of candidate predictors and the outcomes of interest. Incorporating regular follow-ups, diverse populations, and broad age representation would yield more accurate and individualized risk estimation."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of generative AI use",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "During the preparation of this work the authors used generative AI in order to enhance readability and language, aiding in formulating and structuring content. The authors reviewed and edited the content as needed and take full responsibility for the content of the published article.Central illustration.Unlabelled image dummy alt text"
+        }
+      ]
+    },
+    {
+      "title": "Funding",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The present work was funded by Strategie-Förderungsgrant of the Medical Faculty of the University of Bern."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Lum Kastrati:</strong> Writing – review &amp; editing, Writing – original draft, Visualization, Methodology, Formal analysis, Data curation, Conceptualization. <strong>Eleftheria Maria Alexandri:</strong> Writing – review &amp; editing, Methodology, Formal analysis, Data curation. <strong>Maurice Rupp:</strong> Writing – review &amp; editing, Data curation. <strong>Lisa Koch:</strong> Writing – review &amp; editing, Funding acquisition. <strong>Jose Garcia-Tirado:</strong> Writing – review &amp; editing, Funding acquisition. <strong>Christos Nakas:</strong> Writing – review &amp; editing, Writing – original draft, Visualization, Supervision, Methodology, Formal analysis, Data curation, Conceptualization. <strong>David J. Maron:</strong> Writing – review &amp; editing. <strong>David Herzig:</strong> Writing – review &amp; editing, Writing – original draft, Visualization, Supervision, Methodology, Formal analysis, Conceptualization. <strong>Lia Bally:</strong> Writing – review &amp; editing, Writing – original draft, Supervision, Methodology, Funding acquisition, Formal analysis, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare the following financial interests/personal relationships which may be considered as potential competing interests:"
+        },
+        {
+          "type": "paragraph",
+          "html": "Lia Bally reports a relationship with Eli Lilly and Company that includes: consulting or advisory and speaking and lecture fees. Lia Bally reports a relationship with Dexcom Inc that includes: consulting or advisory, funding grants, and speaking and lecture fees. Lia Bally reports a relationship with Novo Nordisk Inc that includes: consulting or advisory. Lia Bally reports a relationship with Ypsomed AG that includes: consulting or advisory, funding grants, and speaking and lecture fees. Lia Bally reports a relationship with Roche that includes: consulting or advisory. Lia Bally reports a relationship with Oviva that includes: consulting or advisory. Lia Bally reports a relationship with Sanofi SA that includes: consulting or advisory. All honoraria were allocated exclusively to the institution according to local policies. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "RothG.A.Global burden of cardiovascular diseases and risk factors, 1990-2019: update from the GBD 2019 studyJ Am Coll Cardiol76252020298230213330917510.1016/j.jacc.2020.11.010PMC7755038"
+    },
+    {
+      "html": "DamenJ.A.Prediction models for cardiovascular disease risk in the general population: systematic reviewBMJ3532016i24162718414310.1136/bmj.i2416PMC4868251"
+    },
+    {
+      "html": "SiontisG.C.Comparisons of established risk prediction models for cardiovascular disease: systematic reviewBMJ3442012e33182262800310.1136/bmj.e3318"
+    },
+    {
+      "html": "(NICE), N.I.f.H.a.C.ECardiovascular disease: risk assessment and reduction, including lipid modificationAvailable from<a href=\"https://www.ncbi.nlm.nih.gov/books/NBK602380/\">https://www.ncbi.nlm.nih.gov/books/NBK602380/</a>2023"
+    },
+    {
+      "html": "Hippisley-CoxJ.CouplandC.BrindleP.Development and validation of QRISK3 risk prediction algorithms to estimate future risk of cardiovascular disease: prospective cohort studyBMJ3572017j20992853610410.1136/bmj.j2099PMC5441081"
+    },
+    {
+      "html": "VisserenF.L.J.2021 ESC guidelines on cardiovascular disease prevention in clinical practice: developed by the Task Force for cardiovascular disease prevention in clinical practice with representatives of the European Society of Cardiology and 12 medical societies With the special contribution of the European Association of Preventive Cardiology (EAPC)Eur Heart J4234202132273337"
+    },
+    {
+      "html": "SCORE2 risk prediction algorithms: new models to estimate 10-year risk of cardiovascular disease in EuropeEur Heart J42252021243924543412017710.1093/eurheartj/ehab309PMC8248998"
+    },
+    {
+      "html": "KhanS.S.Novel prediction equations for absolute risk assessment of total cardiovascular disease incorporating cardiovascular-kidney-metabolic health: a scientific statement from the American Heart AssociationCirculation148242023198220043794709410.1161/CIR.0000000000001191"
+    },
+    {
+      "html": "KhanS.S.Development and validation of the American Heart Association&#x27;s PREVENT EquationsCirculation149620244304493794708510.1161/CIRCULATIONAHA.123.067626PMC10910659"
+    },
+    {
+      "html": "SudlowC.UK biobank: an open access resource for identifying the causes of a wide range of complex diseases of middle and old agePLoS Med1232015e100177910.1371/journal.pmed.1001779PMC438046525826379"
+    },
+    {
+      "html": "WolffR.F.PROBAST: a tool to assess the risk of bias and applicability of prediction model studiesAnn Intern Med1701201951583059687510.7326/M18-1376"
+    },
+    {
+      "html": "Li Y, S.M., Ltd. C, van Staa 10-Year cardiovascular disease risk calculator (QRISK3 2017)_. R package version 0.6.0. (2023)."
+    },
+    {
+      "html": "ScheuermannB.External validation of the American Heart Association PREVENT cardiovascular disease risk equationsJAMA Netw Open7102024e243831110.1001/jamanetworkopen.2024.38311PMC1147038539392632"
+    },
+    {
+      "html": "Perez-Vicencio D, D.D., Thurston A, Selva J _RiskScorescvd: cardiovascular risk scores calculator_. R package version 0.2.0. (2024)."
+    },
+    {
+      "html": "KimK.I.Risk stratification of cardiovascular disease according to age groups in new prevention guidelines: a reviewJ Lipid Atheroscler1222023961053726584510.12997/jla.2023.12.2.96PMC10232216"
+    },
+    {
+      "html": "KannelW.B.VasanR.S.LevyD.Is the relation of systolic blood pressure to risk of cardiovascular disease continuous and graded, or are there critical values?Hypertension42420034534561297538710.1161/01.HYP.0000093382.69464.C4"
+    },
+    {
+      "html": "CollinsG.S.Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD): the TRIPOD statementBmj3502015g75942556912010.1136/bmj.g7594"
+    },
+    {
+      "html": "DaneshJ.The Emerging Risk Factors Collaboration: analysis of individual data on lipid, inflammatory and other markers in over 1.1 million participants in 104 prospective studies of cardiovascular diseasesEur J Epidemiol221220078398691787671110.1007/s10654-007-9165-7"
+    },
+    {
+      "html": "MatsushitaK.Cohort profile: the chronic kidney disease prognosis consortiumInt J Epidemiol4262013166016682324311610.1093/ije/dys173"
+    },
+    {
+      "html": "CoxD.R.Regression models and life-tablesJ R Stat Soc: Ser B3422018187202"
+    },
+    {
+      "html": "FineJ.P.GrayR.J.A proportional hazards model for the subdistribution of a competing riskJ Am Stat Assoc944461999496509"
+    },
+    {
+      "html": "FryA.Comparison of sociodemographic and health-related characteristics of UK biobank participants with those of the general populationAm J Epidemiol18692017102610342864137210.1093/aje/kwx246PMC5860371"
+    },
+    {
+      "html": "GoldsteinB.A.Controlling for Informed Presence Bias Due to the Number of Health Encounters in an Electronic Health RecordAm J Epidemiol1841120168478552785260310.1093/aje/kww112PMC5152663"
+    },
+    {
+      "html": "ParsonsR.E.Independent external validation of the QRISK3 cardiovascular disease risk prediction model using UK BiobankHeart109222023169016973742374210.1136/heartjnl-2022-321231PMC10646868"
+    },
+    {
+      "html": "SvininG.E.Validation of SCORE2 on a sample from the Russian population and adaptation for the very high cardiovascular disease risk regionPLoS One1942024e030097410.1371/journal.pone.0300974PMC1102357638630773"
+    },
+    {
+      "html": "van TrierT.J.Validation of Systematic Coronary Risk Evaluation 2 (SCORE2) and SCORE2-Older Persons in the EPIC-Norfolk prospective population cohortEur J Prev Cardiol31220241821893779309810.1093/eurjpc/zwad318PMC10809184"
+    },
+    {
+      "html": "KasimS.S.Validation of the general Framingham Risk Score (FRS), SCORE2, revised PCE and WHO CVD risk scores in an Asian populationLancet Reg Health West Pac35202310074210.1016/j.lanwpc.2023.100742PMC1032668737424687"
+    },
+    {
+      "html": "SudM.Validation of the European SCORE2 models in a Canadian primary care cohortEur J Prev Cardiol31620246686763794660310.1093/eurjpc/zwad352PMC11025037"
+    },
+    {
+      "html": "NappiR.E.Menopause: a cardiometabolic transitionLancet Diabetes Endocrinol10620224424563552525910.1016/S2213-8587(22)00076-6"
+    },
+    {
+      "html": "LindleyK.J.Socioeconomic Determinants of Health and Cardiovascular Outcomes in WomenJACC78192021191919293473656810.1016/j.jacc.2021.09.011"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

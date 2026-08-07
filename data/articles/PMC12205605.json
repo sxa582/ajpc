@@ -1,0 +1,628 @@
+{
+  "pmcid": "PMC12205605",
+  "pmid": "40585342",
+  "doi": "10.1016/j.ajpc.2025.101016",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12205605/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Enhanced oral glucose tolerance test for early detection of insulin resistance and metabolic complications in children with obesity",
+  "articleType": "Research Article",
+  "published": "2025-06-04",
+  "year": "2025",
+  "volume": "23",
+  "issue": "",
+  "articleNumber": "101016",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2025",
+  "authors": [
+    {
+      "given": "Urh",
+      "surname": "Groselj",
+      "display": "Urh Groselj"
+    },
+    {
+      "given": "Jan",
+      "surname": "Kafol",
+      "display": "Jan Kafol"
+    },
+    {
+      "given": "Jaka",
+      "surname": "Sikonja",
+      "display": "Jaka Sikonja"
+    },
+    {
+      "given": "Matej",
+      "surname": "Mlinaric",
+      "display": "Matej Mlinaric"
+    },
+    {
+      "given": "Robert",
+      "surname": "Sket",
+      "display": "Robert Sket"
+    },
+    {
+      "given": "Ziga Iztok",
+      "surname": "Remec",
+      "display": "Ziga Iztok Remec"
+    },
+    {
+      "given": "Jernej",
+      "surname": "Kovac",
+      "display": "Jernej Kovac"
+    },
+    {
+      "given": "Ana",
+      "surname": "Drole Torkar",
+      "display": "Ana Drole Torkar"
+    },
+    {
+      "given": "Jasna",
+      "surname": "Suput Omladic",
+      "display": "Jasna Suput Omladic"
+    },
+    {
+      "given": "Barbka",
+      "surname": "Repic Lampret",
+      "display": "Barbka Repic Lampret"
+    },
+    {
+      "given": "Tadej",
+      "surname": "Battelino",
+      "display": "Tadej Battelino"
+    },
+    {
+      "given": "Primoz",
+      "surname": "Kotnik",
+      "display": "Primoz Kotnik"
+    }
+  ],
+  "affiliations": [
+    "aDepartment of Endocrinology, Diabetes, and Metabolic Diseases, University Children's Hospital, University Medical Centre Ljubljana, Ljubljana, Slovenia",
+    "bFaculty of Medicine, University of Ljubljana, Ljubljana, Slovenia",
+    "cDepartment of Vascular Diseases, Division of Internal Medicine, University Medical Centre Ljubljana, Ljubljana, Slovenia",
+    "dDepartment of Endocrinology, Diabetes and Metabolic Diseases, Division of Internal Medicine, University Medical Centre Ljubljana, Ljubljana, Slovenia",
+    "eClinical Institute of Special Laboratory Diagnostics, University Children's Hospital, University Medical Centre Ljubljana, Ljubljana, Slovenia"
+  ],
+  "keywords": [
+    "Insulin resistance",
+    "Oral glucose tolerance test",
+    "OGTT",
+    "Metabolic complications",
+    "Screening",
+    "Children",
+    "Adolescents",
+    "Obesity"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Background and aims:</strong> Early detection of insulin resistance (IR) and obesity-related complications is crucial for preventing type 2 diabetes. This study aimed to identify dynamic metabolic biomarkers for more precise early detection of IR and metabolic abnormalities."
+    },
+    {
+      "html": "<strong>Methods:</strong> This cross-sectional cohort study evaluated IR and metabolic biomarkers in 403 children with obesity (median age 13.18 years, 51.3 % female, 98.5 % with obesity) using an enhanced oral glucose tolerance test (eOGTT). IR was assessed via four indices, with the Matsuda Insulin Sensitivity Index (ISI-M) used as the primary measure. Participants were stratified into quartiles based on ISI-M."
+    },
+    {
+      "html": "<strong>Results:</strong> Participants with the highest IR (Q1) were older (<em>p</em> = 0.002), had a higher body mass index, were in a more advanced pubertal stage (<em>p</em> &lt; 0.001), and had significantly elevated glucose and insulin levels (<em>p</em> &lt; 0.001 for both) compared to the most insulin sensitive (Q4), with significant differences observed across all quartiles (<em>p</em> &lt; 0.050 for all). Insulin at 120 min demonstrated excellent diagnostic accuracy for IR (AUC=0.958). Triglyceride levels in Q1 showed minimal decline during the eOGTT, while greater declines were observed with increasing insulin sensitivity (<em>p</em> = 0.002 across quartiles), suggesting that a lack of decline in triglycerides may help identify IR. High-sensitivity C-reactive protein levels increased with IR (<em>p</em> = 0.024). Baseline beta-hydroxybutyrate levels were highest in the Q4 and showed the greatest absolute decrease during the eOGTT, compared to Q1 (<em>p</em> &lt; 0.001 for both)."
+    },
+    {
+      "html": "<strong>Conclusions:</strong> We validated established IR markers in children with obesity, while demonstrating that eOGTT may offer improved characterization and earlier identification of those at risk for metabolic complications."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Over the past decades, the prevalence of child overweight and obesity has rapidly increased, leading to psychological and physical health challenges and increasing the long-term risks for the development of cardiovascular disease, diabetes, certain cancers, and musculoskeletal disorders in adulthood[1,2]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Insulin resistance (IR), commonly linked with obesity, is a condition of impaired insulin-stimulated glucose uptake in muscle and adipose tissue, together with reduced insulin suppression of hepatic glucose production[3]. Fluctuations in insulin sensitivity are a normal part of the life cycle, with physiological IR occurring during puberty, pregnancy, and aging[[4], [5], [6]]."
+        },
+        {
+          "type": "paragraph",
+          "html": "The development of IR in obesity is driven by dysfunctional adipose tissue, which releases free fatty acids (FFA), reactive oxygen species, and pro-inflammatory cytokines. Over time, this leads to low-grade systemic inflammation, further worsening IR[7]. Diabetes occurs when the accompanying increase in insulin secretion can no longer compensate for the level of IR[8]. Therefore, accurate and early detection of IR is essential to delay or prevent the onset of pre-diabetes and type 2 diabetes (T2D)[9]."
+        },
+        {
+          "type": "paragraph",
+          "html": "The hyperinsulinemic-euglycemic clamp method is considered the gold standard for assessing insulin sensitivity. However, due to its complexity, its high cost, time-intensive nature, and labor demands, it is not suitable for epidemiological studies, large-scale clinical investigations, or routine clinical applications[10,11]. To overcome this limitation, various surrogate indexes of IR have been developed from loading tests, such as oral glucose tolerance test (OGTT) and mixed meal tolerance test, and from stable-state fasting plasma concentrations[12]. There is a growing need for reliable biomarkers for early identification of children and adolescents with IR that have a higher risk for the development of T2D and cardiometabolic complications, particularly with the ongoing obesity pandemic and emerging therapeutic options[13]."
+        },
+        {
+          "type": "paragraph",
+          "html": "In this study, we performed an enhanced OGTT (eOGTT) to identify metabolic biomarkers that provide a more precise early determination of metabolic complications of obesity in a cohort of children and adolescents with overweight and obesity beyond the markers of IR detectable in the fasting steady state."
+        }
+      ]
+    },
+    {
+      "title": "Materials and methods",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Study design",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This cross-sectional, single-center study aimed to identify biomarkers for early detection of IR and metabolic abnormalities in children and adolescents with overweight or obesity, using eOGTT. The study was approved by the Slovenian National Medical Ethics Committee (No. 29/02/13) and conducted in accordance with the Declaration of Helsinki. Written informed consent was obtained from the parents or caregivers of each participant."
+        }
+      ]
+    },
+    {
+      "title": "Study participants",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We screened for eligibility 1664 children and adolescents with overweight or obesity referred to the University Children’s Hospital Ljubljana (2010–2021) for: body mass index (BMI) &gt;98th percentile for age and sex, suspected genetic or hormonal causes of obesity, and/or obesity-related medical complications (e.g., impaired glucose homeostasis, menstrual irregularities, hyperandrogenism, hyperlipidemia, hypertension, fatty liver, respiratory or sleep disorders, and orthopedic issues). Inclusion criteria included a body weight or BMI &gt;85th percentile (or Z-score &gt;1), age 2–20 years, and availability of anthropometric and laboratory data (<strong>Supplementary Table 1</strong>), with exclusion criteria detailed in <strong>Supplementary Materials</strong>. A total of 403 individuals met the inclusion and exclusion criteria and were included in the final analysis. To evaluate possible selection bias, we compared baseline anthropometric and fasting biochemical variables of the analytic cohort with those of the full registry (see <strong>Supplementary Table 2</strong>)."
+        }
+      ]
+    },
+    {
+      "title": "Study visit",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Each participant was assessed by a pediatric endocrinologist who took a clinical history, performed a physical examination, and a pubertal stage assessment (<strong>Supplementary Materials</strong>). Anthropometric measurements (height, weight, waist, and hip circumference) were obtained using established methods, and British 1990 reference data with the LMS growth Excel add-in (Available at: <a href=\"http://www.healthforallchildren.com/shop-base/shop/software/lmsgrowth/\">http://www.healthforallchildren.com/shop-base/shop/software/lmsgrowth/</a>) was used to calculate Z-scores[14,15]. Obesity was defined as BMI&gt;95th percentile for age and sex[16]. Blood pressure and heart rate were measured in a seated position after rest using an automated sphygmomanometer."
+        }
+      ]
+    },
+    {
+      "title": "Biochemical analysis and enhanced oral glucose tolerance test",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Venous blood samples were collected in a fasting state at the University Medical Centre Ljubljana, both before their first meal and after undergoing the eOGTT. During the eOGTT, participants received 1.75 g of glucose per kilogram of body weight (up to 75 g) after the first blood draw (t0), with a second sample collected 120 min later (t120). Where necessary, samples were centrifuged within 30 min of collection. To minimize venipuncture burden, our institutional pediatric protocol mandates only two samples (fasting and 120 min); therefore no 30-minute blood draw was performed."
+        },
+        {
+          "type": "paragraph",
+          "html": "Glucose, liver enzymes (aspartate transaminase [AST], alanine transaminase [ALT], gamma-glutamyl transpeptidase [GGT]), total cholesterol (TC), cholesterol in high-density lipoprotein (HDL-C), directly measured cholesterol in low-density lipoprotein (LDL-C), and triglycerides (TAG) were measured in serum using the Abbott Alinity C Chemistry Analyzer (Abbott Laboratories, USA). Lipoprotein(a) [Lp(a)], apolipoprotein B (ApoB), apolipoprotein AI (ApoAI), and high-sensitivity C-reactive protein (hs-CRP) were determined from serum using immunonephelometry with the Siemens Nephelometer Analyzer Atellica Neph 630 (Siemens Healthineers, Ireland). FFA were determined using an enzymatic colorimetric method, beta-hydroxybutyrate (BHB) and l-carnitine were assessed with an enzymatic UV test on the Alinity C automated analyzer (Abbott Laboratories, USA). Insulin serum was measured using immunochemical methods with the Siemens Atellica analyzer (Siemens Healthineers, Ireland)."
+        }
+      ]
+    },
+    {
+      "title": "Estimation of insulin resistance",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "IR was estimated using four indices: Homeostasis Model Assessment for Insulin Resistance (HOMA-IR) [17], Matsuda Insulin Sensitivity Index (ISI-M) [18,19], Single Point Insulin Sensitivity Estimator (SPISE; calculated at t0 and t120) [20,21], and Quantitative Insulin Sensitivity Check Index (QUICKI)[22]. Detailed index calculations are provided in <strong>Supplementary Materials</strong>. ISI-M was the primary measure of whole-body insulin resistance (WBIR) since: several studies have demonstrated the high accuracy and superior diagnostic ability of ISI-M [19,[23], [24], [25]]; ISI-M also incorporates parameters during glucose loading in its calculation, unlike other indices of IR that are solely calculated from a fasting steady state; and a correlation analysis on our cohort demonstrated good correlation of ISI-M with other IR indices (<strong>Supplementary Fig. 1</strong>)."
+        }
+      ]
+    },
+    {
+      "title": "Statistical analysis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Data were analyzed using SPSS Statistics 26.0 (IBM), Excel 365 (Microsoft), and R 4.4.1 (R Foundation). Because the eligibility panel (fasting + 120-min glucose, insulin, full lipid profile, ApoAI, ApoB, liver enzymes) was an inclusion criterion, these variables were complete for all 403 participants; only ancillary biomarkers showed ≤ 4 % random missingness, so we analysed complete cases and did not impute. Outliers were included except for hs-CRP values &gt;6 mg/L (<em>N</em> = 64), excluded to account for potential infection at sampling. The cohort was stratified into quartiles of WBIR, with Q1 indicating highest IR (lowest ISI-M index) and Q4 the lowest IR (highest ISI-M index). Numerical data were assessed for normality using Shapiro-Wilk, Kolmogorov-Smirnov, and graphical methods. Non-normally distributed data were reported as median (interquartile range [Q1–Q3]). Levene’s test assessed variance equality. Non-parametric tests (Mann-Whitney U, Kruskal-Wallis, Wilcoxon rank-sum) or parametric tests (T-test, ANOVA, Welch’s ANOVA for unequal variances) were applied based on distribution. Categorical data were analyzed using Chi-Squared Tests with Monte Carlo simulations for larger tables. Correlations were evaluated using Pearson’s (normal distribution) or Spearman’s methods (non-normal distribution). Receiver Operating Characteristic (ROC) curves assessed diagnostic performance of insulin and glucose metrics. Statistical significance for all tests was set at <em>p</em> ≤ 0.05, and for comparisons of multiple groups, post-hoc analyses (Dunn’s test for Kruskal-Wallis and Welch ANOVA, and Tukey’s test for ANOVA) were conducted for significant results. False discovery rates were controlled using the Benjamini-Hochberg correction."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Baseline demographics and clinical characteristics",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The study included 403 children and adolescents (51.3 % female), median age of 13.18 years (10.45–15.21). The majority (98.5 %) had obesity. Demographic and clinical characteristics by WBIR quartile groups are summarized in Table 1. No significant sex differences were observed across WBIR groups (<em>p</em> = 0.648). The most insulin-resistant participants (Q1) were older (<em>p</em> = 0.013) and had higher BMI Z-scores (<em>p</em> &lt; 0.001), while there were no differences in height Z-scores (<em>p</em> = 0.672), implying that the increased BMI is attributable to increased weight. Waist-to-height ratio was also highest in Q1 (<em>p</em> = 0.001), whereas differences in waist-to-hip ratio were insignificant (<em>p</em> = 0.670).Table 1Baseline Demographics and Clinical Characteristics.Table 1:OverallQ1*Q2Q3Q4p-value†p-value§<strong>Demographic characteristics</strong><strong>Group size</strong>403101101100101<strong>Females</strong>207 (51.3 %)50 (49.5 %)58 (57.4 %)50 (50.0 %)49 (48.5 %)0.648a1.000b<strong>Age, year</strong>13.18 (10.45–15.21)13.65 (11.73–15.71)13.21 (11.19–14.75)13.12 (10.65–15.01)12.27 (8.59–15.04)0.013c0.002d<strong>Anthropometric characteristics</strong><strong>Weight, kg</strong>78.5 (62.1–94.9)90.3 (75.8–110.3)79.7 (65.6–92.6)76.4 (62.1–90.0)65.6 (50.1–86.2)&lt;0.001c&lt;0.001d<strong>Weight Z-score</strong>2.85 (2.26–3.40)3.24 (2.68–3.66)2.81 (2.42–3.23)2.74 (2.07–3.22)2.67 (2.11–3.45)&lt;0.001e&lt;0.001f<strong>Height, cm</strong>162.0 (151.4– 171.2)166.6 (156.5– 173.9)161.4 (151.5– 171.2)163.1 (153.0–169.9)155.4 (139.8–168.5)&lt;0.001c&lt;0.001f<strong>Height Z-score</strong>1.02 (−0.05 to 1.90)0.86 (−0.08 to 1.67)1.02 (−0.11 to 1.83)1.31 (0.24–2.08)1.13 (0.09–1.93)0.672c0.628f<strong>BMI, kg/m<sup>2</sup></strong>29.43 (26.47–33.17)32.69 (28.74–36.55)30.09 (27.42–33.02)28.48 (26.08–31.46)26.71 (24.70–30.28)&lt;0.001c&lt;0.001d<strong>BMI Z-score</strong>2.95 (2.55–3.35)3.23 (2.85–3.51)2.96 (2.74–3.25)2.76 (2.49–3.20)2.79 (2.24–3.37)&lt;0.001g&lt;0.001d<strong>Waist circumference, cm</strong>96 (88–105)100.5 (92.3–113.8)96 (89.8–104.5)96 (88.5–102)89 (80–97)&lt;0.001c&lt;0.001f<strong>Waist circumference Z-score</strong>3.15 (2.69–3.61)3.35 (2.91–3.70)3.15 (2.69–3.57)3.12 (2.59–3.55)3.18 (2.64–3.67)0.366c0.396d<strong>Hip circumference, cm</strong>104 (95–114)113 (102–123)104.5 (96–112.3)103 (95–109)100.5 (87.3–109)&lt;0.001c&lt;0.001f<strong>Waist-to-height ratio</strong>0.60 (0.56–0.65)0.62 (0.58–0.69)0.61 (0.55–0.66)0.59 (0.55–0.63)0.59 (0.55–0.62)0.001c&lt;0.001d<strong>Waist-to-hip ratio</strong>0.94 (0.89–0.99)0.95 (0.89–0.99)0.95 (0.89–1.01)0.94 (0.90–0.98)0.93 (0.88–0.98)0.670c0.563d<strong>Systolic pressure, mmHg</strong>126 (117–135)130 (124–138)129 (117–134)123 (117–135)119 (112–131)&lt;0.001e&lt;0.001f<strong>Diastolic pressure, mmHg</strong>66 (59–72)70 (65–75)66 (60–72)63 (58–70)63 (57–69)&lt;0.001e&lt;0.001d<strong>Pubertal status</strong><strong>Prepubertal</strong>68 (16.9 %)8 (7.9 %)14 (13.9 %)16 (16.0 %30 (29.7 %)0.002a&lt;0.001a<strong>Midpubertal</strong>115 (28.5 %)27 (26.7 %)30 (29.7 %)34 (34.0 %)24 (23.8 %)<strong>Late pubertal</strong>190 (47.1 %)58 (57.4 %)50 (49.5 %)45 (45.0 %)37 (36.6 %)Data are absolute frequency (proportion in %) and median (first quartile–third quartile).<strong>Legend:</strong> Q – Quartile; BMI – Body mass index.⁎Q1 represents individuals with the highest insulin resistance;.†p-value for comparisons between all four groups;.§p-value for comparisons between Q1 and Q4;.aMonte Carlo Significance Test;.bChi-Squared Test;.cKruskal-Wallis Test;.dMann-Whitney Test;.eANOVA;.fIndependent Samples T-test;.gWelch&#x27;s ANOVA.Post-hoc comparisons for significant results were performed using Tukey&#x27;s test for ANOVA or Dunn&#x27;s test for Kruskal-Wallis and Welch’s ANOVA, with p-values adjusted using the Benjamini-Hochberg method (significance set at adjusted <em>p</em> &lt; 0.05). Detailed results for significant comparisons are provided below (parameter name: adjusted p-value for Q2 vs. Q1, Q3 vs. Q1, Q4 vs. Q1, Q3 vs. Q2, Q4 vs. Q2, Q4 vs. Q3): Age: 0.205, 0.162, 0.003, 0.811, 0.116, 0.136; Weight: 0.003, &lt;0.001, &lt;0.001, 0.335, &lt;0.001, 0.007; Weight Z-score: 0.050, 0.005, 0.005, 0.997, 0.997, 1.000; Height: 0.091, 0.119, &lt;0.001, 0.822, 0.035, 0.028; BMI: 0.002, &lt;0.001, &lt;0.001, 0.039, &lt;0.001, 0.032; BMI Z-score: 0.009, &lt;0.001, &lt;0.001, 0.094, 0.155, 0.728; Waist circumference: 0.038, 0.006, &lt;0.001, 0.388, 0.003, 0.030; Hip circumference: 0.014, 0.001, &lt;0.001, 0.363, 0.033, 0.189; Waist-to-height ratio: 0.113, 0.005, &lt;0.001, 0.185, 0.079, 0.545; Systolic pressure: 0.007, &lt;0.001, &lt;0.001, 0.256, 0.002, 0.040; Diastolic pressure: 0.011, &lt;0.001, &lt;0.001, 0.099, 0.014, 0.386."
+        },
+        {
+          "type": "paragraph",
+          "html": "Higher IR was present with advanced pubertal stages (Fig. 1). Q4 had the highest proportion of prepubertal participants (29.7 %; <em>p</em> &lt; 0.001 for Q1 vs. Q4), whereas Q1 had the highest in late puberty (57.4 %; <em>p</em> = 0.045 for Q1 vs. Q4).Fig. 1Pubertal stages and insulin resistance. Note: Higher age and advanced pubertal stage were associated with increased IR. Note: Participants in the first whole-body insulin resistance (WBIR) quartile have the highest IR.Fig 1:"
+        },
+        {
+          "type": "paragraph",
+          "html": "Compared with the full registry population, the 403 included children had marginally higher median weight (+2 kg) and BMI (+0.6 kg m⁻²), while age and height did not differ; fasting glucose and insulin were statistically—but not clinically—higher (<strong>Supplementary Table 2</strong>)."
+        }
+      ]
+    },
+    {
+      "title": "Glucose homeostasis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Significant differences were observed in glucose homeostasis and insulin sensitivity indices across WBIR quartiles (<strong>Supplementary Table 3</strong>), some expected due to the nature of the calculation of IR indices. Fasting glucose was highest in Q1 and slightly decreased with decreasing IR (<em>p</em> &lt; 0.001). More pronounced differences were found in fasting insulin and post-load glucose and insulin levels (<em>p</em> &lt; 0.001 for all). HbA1c differences were nonsignificant across WBIR groups (<em>p</em> = 0.257). We observed the expected absolute and relative elevations of insulin and glucose levels after glucose loading. In addition, these differences were most prominent in the most insulin-resistant group, particularly their absolute rise. Insulin at t120 (134.5 mE/L) demonstrated a specificity of 90.7 % and a sensitivity of 85.1 %, while glucose at t0 (6.0 mmol/L) had a specificity of 63.2 % and sensitivity of 82.2 % for identifying IR (those in Q1). The area under the curve (AUC) for insulin at t120 was 0.958, indicating excellent discriminative ability, while glucose at t120 showed moderate accuracy (AUC=0.778). Insulin levels at t120 and t0 (AUC=0.945) showed similar discriminative ability, while glucose at t120 improved over t0 (AUC=0.616)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Correlation analysis (<strong>Supplementary Fig. 1</strong>) revealed strong correlations among IR indices (Spearman&#x27;s ρ≥0.50, <em>p</em> &lt; 0.001), with SPISE (t0 and t120) correlating least with the others, likely due to differing calculation parameters. Similar trends were seen across WBIR groups (<em>p</em> &lt; 0.001 for all indices), with Q4 having significantly lower IR compared to Q1 groups (<em>p</em> &lt; 0.001 for all indices). Although the difference in SPISE between t0 and t120 was significant (<em>p</em> &lt; 0.001, Wilcoxon rank-sum test), the correlations with WBIR were almost identical (ρ=0.504 vs. ρ=0.514), suggesting that t120 did not add any additional value in identifying IR."
+        }
+      ]
+    },
+    {
+      "title": "Lipid homeostasis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Baseline HDL-C and TAG levels differed significantly between WBIR groups (<em>p</em> = 0.001 and <em>p</em> &lt; 0.001, respectively), with TAG levels rising and HDL-C levels decreasing with higher IR (<strong>Supplementary Table 4</strong>). HDL-C differences were minor, while TAG levels at t120 were clinically meaningful (Q1: 1.30 (1.00–1.70) mmol/L vs. Q4: 0.70 (0.60–1.05) mmol/L; <em>p</em> &lt; 0.001). Fasting TC and LDL-C levels were similar across groups (<em>p</em> &gt; 0.050)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Cholesterol levels remained largely unaffected by glucose loading, as the relative changes in TC, HDL-C, and LDL-C were minimal (−4,2 % for TC and LDL-C and 0 % for HDL-C; <em>p</em> &gt; 0.050 for all). Differences after loading persisted for TAG with median levels of 1.30 (1.00–1.70) mmol/L in Q1 compared to 0.70 (0.50–1.00) mmol/L in Q4 (<em>p</em> &lt; 0.001). TAG levels displayed a slight absolute reduction after glucose loading of 0.1 [0.2–0.0] in the whole cohort (Fig. 2); however, absolute reductions in TAG were comparable across WBIR groups (<em>p</em> = 0.400). At the same time, relative reductions in TAG levels were significant between groups and much more pronounced in the insulin-sensitive group (Q4), in which the largest reductions were observed (12.5 % [0–21.1]; <em>p</em> = 0.037 for in-group difference [Wilcoxon Rank-Sum Test]), while practically no changes were observed in TAG levels in the most insulin resistant group (<em>p</em> = 0.543 for in group difference [Wilcoxon Rank-Sum Test]). Spearman’s correlation analysis showed a moderate correlation between WBIR and fasting TAG (ρ=−0.474; <em>p</em> &lt; 0.001), as well as TAG after glucose loading (ρ=−0.486; <em>p</em> &lt; 0.001). Additional correlations between lipid profile parameters and WBIR are presented in <strong>Supplementary Fig. 2</strong>.Fig. 2Association of whole body insulin resistance (WBIR) and relative change of total cholesterol, LDL cholesterol, HDL cholesterol and triglycerides (TAG) during glucose loading. Note: Participants in the first whole-body insulin resistance (WBIR) quartile have the highest IR.Fig 2:"
+        },
+        {
+          "type": "paragraph",
+          "html": "In the extended lipid panel, fasting ApoB and ApoB/ApoAI ratio increased with IR (<em>p</em> &lt; 0.001), while ApoAI levels remained similar across groups (<em>p</em> = 0.374). Both ApoB and ApoAI levels were stable during eOGTT (relative reductions of −3.7 %, <em>p</em> = 0.983, and −2.2 %, <em>p</em> = 0.238, respectively)."
+        }
+      ]
+    },
+    {
+      "title": "Low-grade inflammation",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "hs-CRP showed a positive trend with IR across WBIR groups (<em>p</em> = 0.043; <strong>Supplementary Table 5</strong>), peaking in the most insulin-resistant group (1.38 [0.72–2.74]). Levels were similar in the other three groups (<em>p</em> = 0.664; <strong>Supplementary Fig. 3</strong>). Spearman&#x27;s correlation with WBIR was weak but significant (ρ=−0.136; <em>p</em> = 0.012), suggesting increased low-grade inflammation in advanced IR states in the pediatric cohort.&quot;"
+        }
+      ]
+    },
+    {
+      "title": "Established insulin resistance biomarkers",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Numerous established biomarkers were correlated with IR: TAG at t120 after OGTT, AST/ALT ratio, GGT, TAG/HDL-C ratio, and ApoB-to-LDL-C[21,[26], [27], [28], [29], [30]]. Our data in the pediatric cohort show a clear association and a level-dependence relationship with IR for all established biomarkers across WBIR groups (<em>p</em> &lt; 0.001 for all; <strong>Supplementary Table 6</strong>)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Additionally, correlations (Spearman&#x27;s) between these biomarkers were significant and revealed interconnected relationships (<em>p</em> = 0.035 for correlation between ApoB/LDL-C ratio and AST/ALT ratio; all other correlations: <em>p</em> &lt; 0.001; <strong>Supplementary Fig. 4</strong>), except for the correlation between ApoB-to-LDL-C ratio and GGT (<em>p</em> = 0.130)."
+        }
+      ]
+    },
+    {
+      "title": "Metabolic parameters",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Fasting BHB levels rose with decreasing IR, peaking in Q4 (<em>p</em> = 0.002), while no differences were observed after glucose loading (<em>p</em> = 0.500; Fig. 3<strong>A</strong>). Consequently, we observed that the absolute reductions in BHB (<em>p</em> = 0.003) after glucose intake increased with better insulin sensitivity (Table 2). The correlation (Spearman’s) between WBIR and fasting BHB, the absolute relative change in BHB were weak (ρ=0.233, ρ=−0.230, ρ=−0.165, respectively) but significant (<em>p</em> ≤ 0.001 for all three correlations).Fig. 3A) Beta-Hydroxybutyrate at 0 and 120 min across quartiles; B) Relative change in Free Fatty Acids (FFA) across the whole body insulin resistance (WBIR) quartiles.Fig 3:Table 2Beta-hydroxybutyrate, free fatty acids, and l-carnitine.Table 2:OverallQ1Q2Q3Q4p-value†<sup>,</sup>ap-value§<sup>,</sup>b<strong>BHB at 0</strong><strong>min, μmol/L</strong>37 (22–69)31.5 (18–52.8)37 (21–59.8)34 (23.8–70.5)51 (25–119.5)0.002&lt;0.001<strong>BHB at 120</strong><strong>min, μmol/L</strong>10 (6–16)9.5 (6–16)9 (5–14.8)10 (6–16)11 (6–18.5)0.5000.396<strong>Absolute Δ BHB, mmol/L</strong>−25 (−55 to −10)−18.5 (−41 to −8)−24.5 (−47.8 to −10)−23.5 (−54 to −12)−42 (−102 to −14)0.003&lt;0.001<strong>Relative Δ BHB, %</strong>−74.3 (−88.4 to −51.3)−70.0 (−86.7 to −42.7)−76.0 (−88.8 to −52.6)−72.1 (−88.9 to −50.0)−79.8 (−91.1 to −56.5)0.0800.010<strong>FFA at 0</strong><strong>min, mmol/L</strong>0.61 (0.34–0.91)0.72 (0.31–0.92)0.61 (0.37–0.88)0.57 (0.34–0.90)0.62 (0.24–0.98)0.9550.959<strong>FFA at 120</strong><strong>min, mmol/L</strong>0.07 (0.06–0.12)0.09 (0.07–0.22)0.07 (0.06–0.11)0.07 (0.04–0.09)0.07 (0.05–0.09)&lt;0.0010.001<strong>Absolute Δ FFA, mmol/L</strong>−0.53 (−0.80 to −0.27)−0.59 (−0.75 to −0.25)−0.53 (−0.75 to −0.28)−0.51 (−0.81 to −0.28)−0.52 (−0.91 to −0.20)0.9490.587c<strong>Relative Δ FFA, %</strong>−86.7 (−91.8 to −76.4)−81.9 (−90.4 to −63.8)−86.0 (−91.8 to −80.8)−88.1 (−91.9 to −80.2)−88.7 (−92.7 to −78.7)0.0680.021<strong>L-Carnitine, μmol/L</strong>45.5 (35.3–60)48.5 (38.3–61.5)49 (33–62)47 (35–60)45 (30.5–55.3)0.3530.080Data are absolute frequency (proportion in %) and median (first quartile–third quartile).<strong>Legend:</strong> Q – Quartile; BHB – Beta-Hydroxybutyrate; FFA – Free Fatty Acids; Δ – change between 0 min and 120 min (negative value means a reduction of the parameter during test).<strong>Footnotes:</strong>.†p-value for comparisons between all four groups;.§p-value for comparisons between Q1 and Q4;.a- Kruskal-Wallis Test;.b- Mann-Whitney Test;.c- Independent Samples T-test.Post-hoc comparisons for significant results were performed using Dunn&#x27;s test for Kruskal-Wallis, with p-values adjusted using the Benjamini-Hochberg method (significance set at adjusted <em>p</em> &lt; 0.05). Detailed results for significant comparisons are provided below (parameter name: adjusted p-value for Q2 vs. Q1, Q3 vs. Q1, Q4 vs. Q1, Q3 vs. Q2, Q4 vs. Q2, Q4 vs. Q3): BHB at 0 min: 0.290, 0.129, 0.000, 0.587, 0.016, 0.051; Absolute Δ BHB: 0.333, 0.147, 0.001, 0.567, 0.020, 0.066; FFA at 120 min: 0.084, 0.001, 0.002, 0.084, 0.166, 0.679."
+        },
+        {
+          "type": "paragraph",
+          "html": "Levels of FFA also decreased during eOGTT. While fasting FFA levels were comparable in the four groups (<em>p</em> = 0.955), FFA at t120 displayed significant differences (<em>p</em> &lt; 0.001). However, these differences were small in absolute terms, and the absolute and relative change in FFA was insignificant (<em>p</em> = 0.949 and 0.068, respectively; Fig. 3<strong>B</strong>). FFA after glucose loading and relative change in FFA were weakly correlated (Spearman’s) with WBIR (ρ=−0.195, <em>p</em> &lt; 0.001; ρ=−0.159, <em>p</em> = 0.010). It is worth noting that the differences between groups could be diminished due to the methodology for determining FFA concentrations, as the method reports the result as semi-quantitative below the lower threshold of detectability."
+        },
+        {
+          "type": "paragraph",
+          "html": "Fasting l-carnitine levels did not differ significantly across quartiles (<em>p</em> = 0.353)."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Understanding IR in children and adolescents has become increasingly critical due to the global rise in pediatric obesity[1]. While IR has been extensively studied in adults, there is limited knowledge about the large-scale methods for early detection of children and adolescents with pronounced IR, as these have the greatest risk for developing T2D and cardiometabolic complications later in life."
+        },
+        {
+          "type": "paragraph",
+          "html": "Therefore, we conducted a cross-sectional clinical study aimed to identify metabolic biomarkers that allow for early detection of IR and obesity-associated metabolic complications in children and adolescents with overweight and obesity. While fasting steady-state markers are commonly used to define IR in children, our goal was to determine whether performing eOGTT, which captures the dynamic glucose response, provides additional information beyond parameters of glucose homeostasis and aids in identification of children with pronounced IR and metabolic abnormalities."
+        },
+        {
+          "type": "paragraph",
+          "html": "As obesity becomes an increasing public health issue, the implementation of eOGTT, which expands the conventional OGTT, could offer a clinically useful and cost-effective method for early identification of children and adolescents at higher risk for obesity-related complications without posing a significant burden on human resources, financial demands and logistics of the healthcare system[1,31]. This would allow for more precise monitoring and earlier intervention, helping to prevent future complications."
+        },
+        {
+          "type": "paragraph",
+          "html": "It is important to note that our comparison focuses on children and adolescents with overweight and obesity, with 98.5 % of participants exceeding the body weight threshold for obesity diagnosis, as IR is most pronounced in this population[16,32]. This adds further weight to our significant findings, as the observed differences would likely have been even more pronounced had we compared insulin-resistant subjects with healthy individuals."
+        },
+        {
+          "type": "paragraph",
+          "html": "Insulin-resistant participants in our cohort were significantly older and at more advanced pubertal stages. While aging increases the risk of T2D, likely due to its association with senile muscle dysfunction, this is not expected in the pediatric population[4]. Thus, the higher IR observed in older children and adolescents is likely attributed to pubertal progression, as expected with age. Pubertal IR is mediated by growth hormone, the production of which doubles during puberty, leading to increased total body lipolysis and fat oxidation[6,33]."
+        },
+        {
+          "type": "paragraph",
+          "html": "We validated our cohort and the division into four WBIR groups using several approaches. First, we compared our results with other commonly used IR indices (<strong>Supplementary Fig. 1</strong>). Additionally, we assessed anthropometric indicators such as BMI Z-scores and waist-to-height ratios. We also evaluated basic glucose homeostasis parameters and cross-referenced our findings with established biomarkers of IR reported in the literature (<strong>Supplementary Fig. 4</strong>)[21,[26], [27], [28], [29], [30]]. These methods ensured a comprehensive validation of our cohort and provided robust support for the accuracy of our further analysis."
+        },
+        {
+          "type": "paragraph",
+          "html": "Regarding the study&#x27;s aim, our findings indicate that measuring insulin and glucose levels after eOGTT is valuable for characterizing IR. These measurements exhibited better discriminative ability in identifying IR subjects compared to baseline measurements. Conversely, HbA1c proved to be an ineffective marker for IR, making its measurement redundant for diagnosing the condition. The lack of significant differences in HbA1c suggests that IR was adequately compensated by increased insulin secretion from pancreatic beta cells[34]. Notably, differences in glucose homeostasis across WBIR quartiles align with expectations due to the nature of the WBIR index calculations."
+        },
+        {
+          "type": "paragraph",
+          "html": "Lipid profile analysis showed no significant changes in cholesterol levels after eOGTT, likely due to the short 120-minute window. At baseline, HDL-C varied significantly across WBIR quartiles, while TC and LDL-C differences were insignificant. Low HDL-C in IR is commonly attributed to mechanisms such as increased TAG exchange from chylomicrons and very low-density lipoprotein with HDL-C, reduced lipoprotein lipase activity, enhanced HDL-C clearance due to increased hepatic triglyceride lipase, and decreased ApoAI synthesis and secretion[[35], [36], [37]]."
+        },
+        {
+          "type": "paragraph",
+          "html": "In our study, TAG levels at t0 and t120 declined with higher insulin sensitivity, consistent with previous research[29,38]. Vossen et al. previously highlighted the importance of measuring TAG after eOGTT, showing that post-eOGTT change in TAG often correlated more strongly with IR markers than fasting TAG, suggesting it could be a more robust risk marker[39]. The observed TAG decline during eOGTT is likely mediated by insulin’s effects, as insulin lowers plasma TAG by reducing VLDL secretion from the liver and enhancing TAG clearance through lipoprotein lipase and remnant receptors[[40], [41], [42]]. A key clinical finding from our study is that glucose loading had practically no effect on TAG levels in the most insulin-resistant individuals, whereas greater TAG declines were observed with increasing insulin sensitivity. The absence of a TAG decline after glucose loading may serve as an indicator of insulin resistance."
+        },
+        {
+          "type": "paragraph",
+          "html": "The higher baseline ApoB levels in more insulin-resistant participants were expected, as insulin usually reduces ApoB secretion and enhances its clearance[43]. Also, association of baseline ApoB/ApoAI ratio with IR was consistent with previous findings[44]. ApoB and ApoAI levels remained relatively stable during the eOGTT, suggesting that measuring apolipoprotein levels after glucose loading does not offer additional insight into IR. However, our results remain important: since each ApoB-containing lipoprotein particle has a single ApoB molecule, ApoB concentration reflects the number of these particles in the blood[45]. The stable ApoB levels during the eOGTT imply that changes in TAG levels after glucose loading likely reflect variations in TAG mass rather than changes in the mass of lipoproteins transporting TAG."
+        },
+        {
+          "type": "paragraph",
+          "html": "The median hs-CRP in our cohort (1.38 [0.72–2.74] mg/L) was significantly higher than the 0.2 to 0.3 mg/L reported for the normal pediatric population, likely reflecting increased inflammation, possibly due to low-grade inflammation associated with obesity[46]. Additionally, peak hs-CRP was highest in the most insulin-resistant group, indicating more pronounced low-grade inflammation with advancing IR. The elevated hs-CRP levels may be partially explained by higher BMI, as previous studies have shown a correlation between higher BMI and increased CRP concentrations[47]. However, McLaughlin et al. demonstrated that CRP levels are linked to the degree of IR and hyperinsulinemia, independent of BMI[48]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Elevated FFA are crucial in obesity-related IR. In individuals with obesity, increased FFA release from larger fat tissues disrupts insulin’s ability to suppress lipolysis, leading to even higher blood FFA levels[49]. While acute FFA elevation impairs insulin-stimulated glucose uptake, reducing FFA levels can improve IR and related conditions[50,51]. Baseline FFA levels in our study showed no difference across varying degrees of IR, questioning the role of FFAs in IR and aligning with Karpe et al.&#x27;s view that elevated FFAs are not always a mediator of IR, as FFA release per kilogram of adipose tissue decreases with adipose expansion, often normalizing plasma FFA levels in many individuals with obesity[52]. Methodological challenges in measuring FFAs in our study should also be considered."
+        },
+        {
+          "type": "paragraph",
+          "html": "Our results indicate that performing an eOGTT and monitoring reductions in BHB provides additional insight into IR, as smaller reductions were observed with increasing IR Ketogenesis is associated with IR, with individuals with T2D requiring higher insulin levels to suppress ketone production[53]. Although elevated ketone bodies are linked to T2D, obesity complicates this relationship by lowering plasma BHB levels and reducing BHB oxidation[54,55]. This was evident in our study, where more insulin-resistant subjects had significantly lower baseline BHB levels, showing a strong negative correlation with WBIR, consistent with Garcia et al.&#x27;s findings[56]."
+        }
+      ]
+    },
+    {
+      "title": "Limitations",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This study has several limitations. 1) Missing values were rare (&lt; 4 %) and pattern-free, so complete-case analysis may have modestly reduced statistical power for secondary biomarkers. 2) Because 98 % of participants had obesity, the cohort carried an intrinsically higher burden of insulin resistance, dyslipidemia and low-grade inflammation; the absence of a lean comparison group limits generalizability and may exaggerate some effect sizes. 3) No 30-minute sample was drawn during the eOGTT, precluding assessment of first-phase insulin secretion; future work should include denser time-points. 4) Only small, clinically insignificant differences in BMI and fasting glycaemia separated included from non-included children, so major selection bias is unlikely, yet replication in an unselected pediatric sample is warranted. 5) The cross-sectional design precludes causal inference and follow-up of insulin-resistance trajectories. 6) Our single-center, ethnically homogeneous sample may limit external validity. 7) Reliance on surrogate indices (e.g., HOMA-IR, ISI-M) rather than glucose-clamp measurements introduces potential measurement error, and their accuracy across pubertal stages requires further validation[17,19]."
+        }
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In this study, we validated several established markers of IR, previously demonstrated in adults, within a pediatric cohort. We also showed that performing an eOGTT allows for better and earlier characterization of children and adolescents with obesity, at risk for obesity-related complications. Special attention should be given to post-eOGTT TAG levels, alongside insulin and glucose measurements. Additionally, elevated hs-CRP and lower baseline BHB were associated with more severe IR."
+        },
+        {
+          "type": "paragraph",
+          "html": "Central illustration Central illustrationEnhanced oral glucose tolerance test (eOGTT) reveals early biomarkers of insulin resistance (IR) in children with obesity. The study included 403 children with obesity undergoing eOGTT with blood draws at 0 and 120 min. Key findings included excellent diagnostic performance of insulin at 120 min for IR identification (AUC=0.958), minimal triglyceride decline during eOGTT in insulin-resistant children, and higher hs-CRP levels with increasing IR. Clinical implications support eOGTT as an improved screening tool for IR in obese children, capturing dynamic metabolic changes and validating multiple biomarkers&quot;.Central illustration:"
+        }
+      ]
+    },
+    {
+      "title": "Funding",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This work was supported by the 10.13039/501100004329Slovenian Research and Innovation Agency (grant P3–0343). The funding organization had no role in the design and conduct of the study; collection, management, analysis, and interpretation of the data; preparation, review, or approval of the manuscript; and decision to submit the manuscript for publication."
+        }
+      ]
+    },
+    {
+      "title": "Ethics considerations",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The study was approved by the Slovenian National Medical Ethics Committee (No. 29/02/13) and conducted according to the Declaration of Helsinki. Written informed consent was obtained from the child’s parents/caregivers prior to the inclusion of children and adolescents into the study."
+        }
+      ]
+    },
+    {
+      "title": "Data availability",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Data is available upon request from the corresponding author."
+        }
+      ]
+    },
+    {
+      "title": "Originality of content",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We confirm all information and materials in the manuscript are original."
+        }
+      ]
+    },
+    {
+      "title": "Author agreement statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "1.<strong>Originality</strong>: This <strong>manuscript</strong> represents original work, has not been previously published, and is not currently under consideration for publication elsewhere.2.<strong>Responsibility</strong>: The <strong>authors</strong> take full responsibility for the integrity and accuracy of the data presented."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Urh Groselj:</strong> Writing – review &amp; editing, Supervision, Methodology, Conceptualization. <strong>Jan Kafol:</strong> Writing – review &amp; editing, Writing – original draft, Visualization, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. <strong>Jaka Sikonja:</strong> Writing – review &amp; editing, Writing – original draft, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. <strong>Matej Mlinaric:</strong> Writing – review &amp; editing, Investigation, Data curation. <strong>Robert Sket:</strong> Writing – review &amp; editing, Visualization, Validation, Formal analysis. <strong>Ziga Iztok Remec:</strong> Writing – review &amp; editing, Validation, Formal analysis. <strong>Jernej Kovac:</strong> Writing – review &amp; editing, Validation, Methodology. <strong>Ana Drole Torkar:</strong> Writing – review &amp; editing, Investigation, Data curation. <strong>Jasna Suput Omladic:</strong> Writing – review &amp; editing, Investigation. <strong>Barbka Repic Lampret:</strong> Writing – review &amp; editing, Validation, Data curation. <strong>Tadej Battelino:</strong> Writing – review &amp; editing, Supervision, Funding acquisition. <strong>Primoz Kotnik:</strong> Writing – review &amp; editing, Supervision, Methodology, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "LobsteinT.Jackson-LeachR.MoodieM.L.Child and adolescent obesity: part of a bigger pictureLancet385998620152510252010.1016/S0140-6736(14)61746-3Jun 2025703114PMC4594797"
+    },
+    {
+      "html": "Di CesareM.SoricM.BovetP.The epidemiological burden of obesity in childhood: a worldwide epidemic requiring urgent actionBMC Med171201921210.1186/s12916-019-1449-8Nov 2531760948PMC6876113"
+    },
+    {
+      "html": "LiM.ChiX.WangY.SetrerrahmaneS.XieW.XuH.Trends in insulin resistance: insights into mechanisms and therapeutic strategySignal Transduct Target Ther71202221610.1038/s41392-022-01073-0Jul 635794109PMC9259665"
+    },
+    {
+      "html": "ShouJ.ChenP.J.XiaoW.H.Mechanism of increased risk of insulin resistance in aging skeletal muscleDiabetol Metab Syndr1220201410.1186/s13098-020-0523-x32082422PMC7014712"
+    },
+    {
+      "html": "DahlgrenJ.Pregnancy and insulin resistanceMetab Syndr Relat Disord42200614915210.1089/met.2006.4.149Summer18370761"
+    },
+    {
+      "html": "HannonT.S.JanoskyJ.ArslanianS.A.Longitudinal study of physiologic insulin resistance and metabolic changes of pubertyPediatr Res606Dec 200675976310.1203/01.pdr.0000246097.73031.2717065576"
+    },
+    {
+      "html": "AhmedB.SultanaR.GreeneM.W.Adipose tissue and insulin resistance in obeseBiomed Pharmacother137May 202111131510.1016/j.biopha.2021.11131533561645"
+    },
+    {
+      "html": "WeirG.C.Bonner-WeirS.Five stages of evolving beta-cell dysfunction during progression to diabetesDiabetes53 Suppl 3Dec 2004S16S2110.2337/diabetes.53.suppl_3.s1615561905"
+    },
+    {
+      "html": "GhoshC.MukhopadhyayP.GhoshS.PradhanM.Insulin sensitivity index (ISI0, 120) potentially linked to carbon isotopes of breath CO2 for pre-diabetes and type 2 diabetesSci Rep520151195910.1038/srep11959Jul 7PMC449370626148706"
+    },
+    {
+      "html": "MuniyappaR.LeeS.ChenH.QuonM.J.Current approaches for assessing insulin sensitivity and resistance in vivo: advantages, limitations, and appropriate usageAm J Physiol Endocrinol Metab2941Jan 2008E15E2610.1152/ajpendo.00645.200717957034"
+    },
+    {
+      "html": "DeFronzoR.A.TobinJ.D.AndresR.Glucose clamp technique: a method for quantifying insulin secretion and resistanceAm J Physiol2373Sep 1979E214E22310.1152/ajpendo.1979.237.3.E214382871"
+    },
+    {
+      "html": "GastaldelliA.Measuring and estimating insulin resistance in clinical and research settingsObesity (Silver Spring)308Aug 20221549156310.1002/oby.2350335894085PMC9542105"
+    },
+    {
+      "html": "Ortiz-MartinezM.Gonzalez-GonzalezM.MartagonA.J.HlavinkaV.WillsonR.C.Rito-PalomaresM.Recent developments in biomarkers for diagnosis and screening of type 2 diabetes mellitusCurr Diab Rep223Mar 20229511510.1007/s11892-022-01453-435267140PMC8907395"
+    },
+    {
+      "html": "ColeT.J.FreemanJ.V.PreeceM.A.British 1990 growth reference centiles for weight, height, body mass index and head circumference fitted by maximum penalized likelihoodStat Med1741998407429Feb 289496720"
+    },
+    {
+      "html": "Pan H., Cole T.J. LMSgrowth, a Microsoft Excel add-In to access growth references based on the LMS method, version 2.77. Accessed 10.6.2024."
+    },
+    {
+      "html": "KumarS.KellyA.S.Review of childhood obesity: from epidemiology, etiology, and comorbidities to clinical assessment and treatmentMayo Clin Proc922Feb 201725126510.1016/j.mayocp.2016.09.01728065514"
+    },
+    {
+      "html": "MatthewsD.R.HoskerJ.P.RudenskiA.S.NaylorB.A.TreacherD.F.TurnerR.C.Homeostasis model assessment: insulin resistance and beta-cell function from fasting plasma glucose and insulin concentrations in manDiabetologia287Jul 198541241910.1007/BF002808833899825"
+    },
+    {
+      "html": "DeFronzoR.A.MatsudaM.Reduced time points to calculate the composite indexDiabetes Care337Jul 2010e9310.2337/dc10-064620587713"
+    },
+    {
+      "html": "MatsudaM.DeFronzoR.A.Insulin sensitivity indices obtained from oral glucose tolerance testing: comparison with the euglycemic insulin clampDiabetes Care229Sep 19991462147010.2337/diacare.22.9.146210480510"
+    },
+    {
+      "html": "BarchettaI.DuleS.BertocciniL.The single-point insulin sensitivity estimator (SPISE) index is a strong predictor of abnormal glucose metabolism in overweight/obese children: a long-term follow-up studyJ Endocrinol Invest451Jan 2022435110.1007/s40618-021-01612-634142364PMC8741725"
+    },
+    {
+      "html": "PaulmichlK.HatunicM.HojlundK.Modification and validation of the triglyceride-to-HDL cholesterol ratio as a surrogate of insulin sensitivity in white juveniles and adults without diabetes mellitus: the single point insulin sensitivity estimator (SPISE)Clin Chem629Sep 20161211121910.1373/clinchem.2016.25743627471037"
+    },
+    {
+      "html": "KatzA.NambiS.S.MatherK.Quantitative insulin sensitivity check index: a simple, accurate method for assessing insulin sensitivity in humansJ Clin Endocrinol Metab857Jul 20002402241010.1210/jcem.85.7.666110902785"
+    },
+    {
+      "html": "LorenzoC.HaffnerS.M.StancakovaA.KuusistoJ.LaaksoM.Fasting and OGTT-derived measures of insulin resistance as compared with the euglycemic-hyperinsulinemic clamp in nondiabetic Finnish offspring of type 2 diabetic individualsJ Clin Endocrinol Metab1002Feb 201554455010.1210/jc.2014-229925387258"
+    },
+    {
+      "html": "SelimogluH.DuranC.KiyiciS.Comparison of composite whole body insulin sensitivity index derived from mixed meal test and oral glucose tolerance test in insulin resistant obese subjectsEndocrine362Oct 200929930410.1007/s12020-009-9213-z19598007"
+    },
+    {
+      "html": "VAMalagon-SorianoLedezma-ForeroA.J.Espinel-PachonC.F.Surrogate indices of insulin resistance using the Matsuda index as reference in adult men-a computational approachFront Endocrinol (Lausanne)152024134364110.3389/fendo.2024.1343641PMC1107536838715798"
+    },
+    {
+      "html": "LarcherB.MaechlerM.SprengerL.260-OR: the ApoB/LDL-C ratio predicts major cardiovascular events in cardiovascular disease patients independent of type 2 diabetes statusDiabetes72Supplement_1202310.2337/db23-260-OR"
+    },
+    {
+      "html": "Pantoja-TorresB.Toro-HuamanchumoC.J.Urrunaga-PastorD.High triglycerides to HDL-cholesterol ratio is associated with insulin resistance in normal-weight healthy adultsDiabetes Metab Syndr131201938238810.1016/j.dsx.2018.10.006Jan-Feb30641729"
+    },
+    {
+      "html": "ThamerC.TschritterO.HaapM.Elevated serum GGT concentrations predict reduced insulin sensitivity and increased intrahepatic lipidsHorm Metab Res374Apr 200524625110.1055/s-2005-86141115952086"
+    },
+    {
+      "html": "MaM.LiuH.YuJ.Triglyceride is independently correlated with insulin resistance and islet beta cell function: a study in population with different glucose and lipid metabolism statesLipids Health Dis191202012110.1186/s12944-020-01303-wJun 232487177PMC7268278"
+    },
+    {
+      "html": "Minato-InokawaS.Tsuboi-KajiA.HondaM.Associations of alanine aminotransferase/aspartate aminotransferase with insulin resistance and beta-cell function in womenSci Rep1312023785310.1038/s41598-023-35001-1May 1537188859PMC10185667"
+    },
+    {
+      "html": "IcksA.HaastertB.GandjourA.Cost-effectiveness analysis of different screening procedures for type 2 diabetes: the KORA Survey 2000Diabetes Care279Sep 20042120212810.2337/diacare.27.9.212015333472"
+    },
+    {
+      "html": "ChiarelliF.MarcovecchioM.L.Insulin resistance and obesity in childhoodEur J Endocrinol159 Suppl 1Dec 2008S67S7410.1530/EJE-08-024518805916"
+    },
+    {
+      "html": "SaengerP.Dose effects of growth hormone during pubertyHorm Res60Suppl 12003525710.1159/00007122612955018"
+    },
+    {
+      "html": "KasugaM.Insulin resistance and pancreatic beta cell failureJ Clin Invest1167Jul 20061756176010.1172/JCI2918916823472PMC1483164"
+    },
+    {
+      "html": "de VriesR.BorggreveS.E.DullaartR.P.Role of lipases, lecithin:cholesterol acyltransferase and cholesteryl ester transfer protein in abnormal high density lipoprotein metabolism in insulin resistance and type 2 diabetes mellitusClin Lab4911–12200360161314651331"
+    },
+    {
+      "html": "GargA.Insulin resistance in the pathogenesis of dyslipidemiaDiabetes Care194Apr 199638738910.2337/diacare.19.4.3878729169"
+    },
+    {
+      "html": "BjornstadP.EckelR.H.Pathogenesis of lipid disorders in insulin resistance: a brief reviewCurr Diab Rep1812201812710.1007/s11892-018-1101-6Oct 1730328521PMC6428207"
+    },
+    {
+      "html": "ChoJ.HongH.ParkS.KimS.KangH.Insulin resistance and its association with metabolic syndrome in Korean childrenBiomed Res Int20172017872801710.1155/2017/8728017PMC580440229457038"
+    },
+    {
+      "html": "VossenM.TodterK.AltenburgC.BeisiegelU.SchejaL.Plasma triglycerides after oral glucose load specifically associate with metabolic risk markers in healthy type 2 diabetes offspringAtherosclerosis2171Jul 201121421910.1016/j.atherosclerosis.2011.03.01321474138"
+    },
+    {
+      "html": "PelikanovaT.KohoutM.BaseJ.Effect of acute hyperinsulinemia on fatty acid composition of serum lipids in non-insulin-dependent diabetics and healthy menClin Chim Acta2032–3199132933710.1016/0009-8981(91)90305-vDec 161777992"
+    },
+    {
+      "html": "AdielsM.OlofssonS.O.TaskinenM.R.BorenJ.Overproduction of very low-density lipoproteins is the hallmark of the dyslipidemia in the metabolic syndromeArterioscler Thromb Vasc Biol287Jul 20081225123610.1161/ATVBAHA.107.16019218565848"
+    },
+    {
+      "html": "LaatschA.MerkelM.TalmudP.J.GrewalT.BeisiegelU.HeerenJ.Insulin stimulates hepatic low density lipoprotein receptor-related protein 1 (LRP1) to increase postprandial lipoprotein clearanceAtherosclerosis2041May 200910511110.1016/j.atherosclerosis.2008.07.04618834984"
+    },
+    {
+      "html": "HaasM.E.AttieA.D.BiddingerS.B.The regulation of ApoB metabolism by insulinTrends Endocrinol Metab248Aug 201339139710.1016/j.tem.2013.04.00123721961PMC3810413"
+    },
+    {
+      "html": "Sierra-JohnsonJ.Romero-CorralA.SomersV.K.ApoB/apoA-I ratio: an independent predictor of insulin resistance in US non-diabetic subjectsEur Heart J2821Nov 20072637264310.1093/eurheartj/ehm36017766927"
+    },
+    {
+      "html": "SnidermanA.D.ThanassoulisG.GlavinovicT.Apolipoprotein B particles and cardiovascular disease: a narrative reviewJAMA Cardiol41220191287129510.1001/jamacardio.2019.3780Dec 131642874PMC7369156"
+    },
+    {
+      "html": "SchlenzH.IntemannT.WoltersM.C-reactive protein reference percentiles among pre-adolescent children in Europe based on the IDEFICS study populationInt J Obes (Lond)38 Suppl 2Sep 2014S26S3110.1038/ijo.2014.13225376218"
+    },
+    {
+      "html": "VisserM.BouterL.M.McQuillanG.M.WenerM.H.HarrisT.B.Elevated C-reactive protein levels in overweight and obese adultsJAMA2822219992131213510.1001/jama.282.22.2131Dec 810591334"
+    },
+    {
+      "html": "McLaughlinT.AbbasiF.LamendolaC.Differentiation between obesity and insulin resistance in the association with C-reactive proteinCirculation1062320022908291210.1161/01.cir.0000041046.32962.86Dec 312460870"
+    },
+    {
+      "html": "BodenG.Obesity, insulin resistance and free fatty acidsCurr Opin Endocrinol Diabetes Obes182Apr 201113914310.1097/MED.0b013e3283444b0921297467PMC3169796"
+    },
+    {
+      "html": "BodenG.JadaliF.WhiteJ.Effects of fat on insulin-stimulated carbohydrate metabolism in normal menJ Clin Invest883Sep 199196096610.1172/JCI1153991885781PMC295496"
+    },
+    {
+      "html": "SantomauroA.T.BodenG.SilvaM.E.Overnight lowering of free fatty acids with Acipimox improves insulin resistance and glucose tolerance in obese diabetic and nondiabetic subjectsDiabetes489Sep 19991836184110.2337/diabetes.48.9.183610480616"
+    },
+    {
+      "html": "KarpeF.DickmannJ.R.FraynK.N.Fatty acids, obesity, and insulin resistance: time for a reevaluationDiabetes6010Oct 20112441244910.2337/db11-042521948998PMC3178283"
+    },
+    {
+      "html": "SinghB.M.KrentzA.J.NattrassM.Insulin resistance in the regulation of lipolysis and ketone body metabolism in non-insulin dependent diabetes is apparent at very low insulin concentrationsDiabetes Res Clin Pract201Apr 1993556210.1016/0168-8227(93)90023-x8344130"
+    },
+    {
+      "html": "Szili-TorokT.de BorstM.H.GarciaE.Fasting ketone bodies and incident type 2 diabetes in the general populationDiabetes72920231187119210.2337/db22-0826Sep 137352012PMC10450821"
+    },
+    {
+      "html": "SoetersM.R.SauerweinH.P.FaasL.Effects of insulin on ketogenesis following fasting in lean and obese menObesity (Silver Spring)177Jul 20091326133110.1038/oby.2008.67819369940"
+    },
+    {
+      "html": "GarciaE.ShalaurovaI.MatyusS.P.Ketone bodies are mildly elevated in subjects with type 2 diabetes mellitus and are inversely associated with insulin resistance as measured by the lipoprotein insulin resistance indexJ Clin Med92Jan 23 202010.3390/jcm9020321PMC707433131979327"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

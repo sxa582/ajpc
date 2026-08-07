@@ -1,0 +1,403 @@
+{
+  "pmcid": "PMC11791329",
+  "pmid": "39906357",
+  "doi": "10.1016/j.ajpc.2025.100932",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11791329/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Elevated plasma trimethyllysine is associated with incident atrial fibrillation",
+  "articleType": "Research Article",
+  "published": "2025-01-14",
+  "year": "2025",
+  "volume": "21",
+  "issue": "",
+  "articleNumber": "100932",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2025",
+  "authors": [
+    {
+      "given": "Mads M",
+      "surname": "Svenningsson",
+      "display": "Mads M Svenningsson"
+    },
+    {
+      "given": "Gard FT",
+      "surname": "Svingen",
+      "display": "Gard FT Svingen"
+    },
+    {
+      "given": "Per M",
+      "surname": "Ueland",
+      "display": "Per M Ueland"
+    },
+    {
+      "given": "Gerhard",
+      "surname": "Sulo",
+      "display": "Gerhard Sulo"
+    },
+    {
+      "given": "Espen Ø",
+      "surname": "Bjørnestad",
+      "display": "Espen Ø Bjørnestad"
+    },
+    {
+      "given": "Eva R",
+      "surname": "Pedersen",
+      "display": "Eva R Pedersen"
+    },
+    {
+      "given": "Indu",
+      "surname": "Dhar",
+      "display": "Indu Dhar"
+    },
+    {
+      "given": "Dennis W.",
+      "surname": "Nilsen",
+      "display": "Dennis W. Nilsen"
+    },
+    {
+      "given": "Ottar",
+      "surname": "Nygård",
+      "display": "Ottar Nygård"
+    }
+  ],
+  "affiliations": [
+    "aHaukeland University Hospital, Department of Heart Disease, Bergen, Norway",
+    "bBevital AS, Bergen, Norway",
+    "cUniversity of Bergen, Department of Global Public Health and Primary Care, Bergen, Norway",
+    "dUniversity of Bergen, Department of Clinical Science, Bergen, Norway",
+    "eStavanger University Hospital, Department of Heart Disease, Stavanger, Norway"
+  ],
+  "keywords": [
+    "Atrial fibrillation",
+    "Biomarkers",
+    "Trimethyllysine"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Background/Aim:</strong> Trimethyllysine (TML) is a methylated amino acid, which is linked to epigenetic regulation and can serve as a precursor of trimethylamine-N-oxide (TMAO). TMAO is a microbiota-derived metabolite and a potential risk factor of cardiovascular disease. TML has recently been linked to atherosclerosis, acute myocardial infarction and prevalent atrial fibrillation (AF). However, any association between circulating TML and incident AF has not yet been reported and was the aim of the current study in a large community based cohort."
+    },
+    {
+      "html": "<strong>Methods:</strong> Information regarding AF was obtained by linking patient data to national health registries. Risk associations were explored by logistic regression. Potential improvements in risk reclassification were calculated by the continuous net reclassification index (NRI˃0) and the Receiver Operating Curve Area Under the Curve (ROC-AUC)."
+    },
+    {
+      "html": "<strong>Results:</strong> At baseline 3117 patients were included. During a median (25th-75th percentile) follow-up of 10.8 (9.4 – 11.2) years, 492 patients (15.8 %) developed AF. Higher plasma TML was associated with incident AF per 1 SD log-transformed TML (OR (95 % CI) 1.30 (1.16–1.46) <em>P</em> &lt; 0.01). Further analyses also showed an increase in NRI&gt;0 (95 % CI) of 0.24 (0.14–0.33) <em>P</em> &lt; 0.001 and ROC-AUC (95 % CI) of 0.013 (0.004–0.022) <em>P</em> = 0.006."
+    },
+    {
+      "html": "<strong>Conclusion:</strong> TML was associated with, and improved risk classification of, new-onset AF in this large cohort of community dwelling adults. Our results motivate further studies on the association between TML and cardiac arrhythmias."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Atrial fibrillation (AF) is a common and clinically important arrhythmia with increasing incidence and prevalence and is associated with increased morbidity, mortality, and health care costs [1]. Important risk factors for AF include male gender, higher age, smoking, diabetes mellitus (DM), hypertension (HT) and obesity. However, biomarkers have a minor role in the evaluation of AF risk [1,2]. Hence, it is important to identify new biomarkers to improve risk prediction of AF and explore potential pathophysiological mechanisms."
+        },
+        {
+          "type": "paragraph",
+          "html": "Trimethyllysine (TML) is a methylated amino acid, which has been linked to atherosclerosis and recently also to acute myocardial infarction (AMI) [3,4]. TML can be created endogenously from post-translational methylation (PTM) of lysine residues in proteins, such as histones, thus linking TML to epigenetic regulation. TML can also be ingested from multiple plant- and animal-derived dietary sources [5,6]. Notably, TML can serve as precursor of trimethylamine-N oxide (TMAO) a microbiome-derived metabolite that has been linked to cardiovascular disease (CVD), including incident AF [[7], [8], [9]]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Elevated plasma TML was reported in patients with prevalent AF [10], as well as related to adverse cardiovascular events among patients with stroke [11]. However, any association between circulating TML and incident AF has not yet been reported and was the aim of the current study in a large community-based cohort."
+        }
+      ]
+    },
+    {
+      "title": "Material and methods",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Study population and design",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The study population consisted of 3317 community-dwelling individuals, born in 1925–1927, participating in the second wave of the community-based Hordaland Health Study (HUSK 2: <a href=\"https://husk-en.w.uib.no\">https://husk-en.w.uib.no</a>), with baseline examinations carried out during 1997–1999. Patients with a previous history of AF and those with missing baseline data on TML or covariates incorporated in the risk models were excluded, leaving 3117 for the final analyses."
+        },
+        {
+          "type": "paragraph",
+          "html": "All participants provided written informed consent. The study was conducted according to the Declaration of Helsinki, and was approved by the Regional Committee for Medical and Health Research Ethics, Norwegian Health Region West (Approval number 2015/876)"
+        }
+      ]
+    },
+    {
+      "title": "Clinical and biochemical data",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Baseline information regarding demographics, anthropometry, anamnestic data and lifestyle were collected by questionnaires and by physical examination by study personnel, as previously described [12]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Blood samples were collected at the baseline survey and routine laboratory analyses were carried out on fresh blood samples. Study-specific analyses were performed at the laboratory of BEVITAL AS, Bergen, Norway (bevital.no) on samples stored at −80 ° C and later thawed. Plasma TML was analyzed by liquid chromatography-tandem mass spectrometry [13]."
+        }
+      ]
+    },
+    {
+      "title": "Endpoint data",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The endpoint was defined as receiving a diagnosis of AF during hospitalization (according to the International Classification of Diseases 10th edition I48) during hospitalization or death due to AF throughout 31 December 2009. Endpoint data were collected from the Cardiovascular Disease in Norway project (CVDNOR; <a href=\"https://cvdnor.b.uib.no\">https://cvdnor.b.uib.no</a>), which provides data on CVD diagnoses at discharge from Norwegian hospitals in the period 1994–2009. Information regarding death due to AF was obtained from the Norwegian Cause of Death Registry. Each participant was linked to endpoint data using a 11-digit personal identification number exclusive to each Norwegian resident."
+        }
+      ]
+    },
+    {
+      "title": "Statistical analyses",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Continuous and categorical variables are reported as medians (25th-75th percentiles) and counts (%), respectively. Linear trends across quartiles of plasma TML were tested by median linear regression for continuous variables, and by logistic regression for categorical variables. Differences between groups were tested by Mann-Whitney U test and Chi square test for continuous and categorical variables, respectively. Because of the potentially strong relationship between plasma TML and TMAO, we examined this correlation by calculating the Spearman&#x27;s correlation coefficient, as well as the variance inflation factor to check for collinearity."
+        },
+        {
+          "type": "paragraph",
+          "html": "Univariate and multivariate logistic regression models were used to obtain odds ratios (ORs) [95 % Confidence intervals (CIs)] between the 4th and 1st quartile of TML regarding AF risk, and to examine TML-AF association per 1 standard deviation (SD) increment in log-transformed plasma TML. Risk associations were explored unadjusted and adjusted for sex (Model 1). An extended Model 2 was created adding body mass index (BMI), DM, current smoking, creatinine, HT, TMAO, High-sensitivity C-reactive protein (hs-CRP) and neopterin to Model 1. We also created an extended Model 3 adding former MI and anamnestic heart failure (HF) to Model 2. We did not adjust for age as the cohort was selected based on birth-year. Potential unmeasured confounders were explored by calculating the E-value [14]."
+        },
+        {
+          "type": "paragraph",
+          "html": "We created a generalized additive model (GAM) smoothed spline using the unadjusted logistic regression model to investigate possible non-linear risk relationships between log-transformed plasma TML as a continuous variable and incident AF."
+        },
+        {
+          "type": "paragraph",
+          "html": "We explored reclassification by adding TML to a multivariate logistic model that included sex, HT, DM, BMI and smoking and calculated the continuous net reclassification improvement (NRI&gt;0) and the Receiver Operating Curve Area Under the Curve (ROC-AUC)."
+        },
+        {
+          "type": "paragraph",
+          "html": "All tests were two-sided and the significance level was set to 0.05. We used IBM SPSS Statistics for Windows, Version 23.0. Armonk, NY:IBM Corp. and R for Windows (R Core Team 2016, Vienna, Austria), utilizing the packages #survival, #Hmisc. #PredictABEL, #ROCR and #ICC."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Baseline characteristics",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Baseline characteristics according to plasma TML quartiles are shown in Table 1. Higher levels of TML were associated with male gender, and an overall more adverse CVD risk profile, including more often established coronary and cerebrovascular disease, hypertension, diabetes and higher serum creatinine, hs-CRP and neopterin, as well as usage of betablockers, statins, ACE inhibitors and angiotensin II receptor blockers. Current smoking and total cholesterol showed an inversed relationship with TML. Spearman&#x27;s correlation coefficient between TML and TMAO was 0.45 (<em>P</em> &lt; 0.001), which indicates a moderate correlation and a variance inflation factor of 1.2, ruling out collinearity.Table 1Baseline characteristics according to plasma trimethyllysine quartiles among HUSK participants.Table 1Plasma TML quartilesN*1234P<em><sub>trend</sub></em>Plasma TML, µmol/L31170.45 (0.41–0.47)0.54 (0.52–0.56)0.65 (0.62–0.68)0.86 (0.78–1.02)–Plasma TMAO, µmol/L31174.46 (3.27–6.74)5.62 (3.68–8.40)6.81 (4.50–10.1)11.3 (6.26–24.2)&lt; 0.001Age, years311772727272–BMI, kg/m<sup>2</sup>311725.0 (22.7–28.0)25.6 (23.3–28.4)25.8 (23.6–28.1)26.7 (24.4–28.7)&lt; 0.001Male gender, % (n)311717.2 (134)35.8 (279)57.3 (446)64.6 (505)&lt; 0.001Current smoking, % (n)311717.5 (136)18.1 (141)14.0 (109)11.9 (93)&lt; 0.001Diabetes, % (n)31175.5 (43)5.0 (39)7.7 (60)8.4 (66)0.004Hypertension, % (n)311722.4 (174)25.9 (202)29.9 (233)35.9 (281)&lt; 0.001Betablockers, % (n)311717.1 (133)20.3 (158)23.1 (180)26.2 (205)&lt; 0.001Statins, % (n)31179.5 (74)9.8 (76)12.3 (96)13.3 (104)0.006ACEi or ARB, % (n)31178.8 (68)12.2 (95)12.3 (96)18.4 (144)&lt; 0.001Serum lipid parameters Total cholesterol, mmol/L31176.47 (5.72–7.21)6.33 (5.63–7.04)6.13 (5.45–6.94)6.01 (5.24–6.81)&lt; 0.001 HDL-C, mmol/L31171.42 (1.22–1.71)1.35 (1.13–1.62)1.26 (1.03–1.53)1.20 (0.98–1.43)&lt; 0.001 Triglycerides, mmol/L31171.45 (1.08–2.04)1.60 (1.18–2.12)1.63 (1.17–2.25)1.71 (1.27–2.43)&lt; 0.001Serum Creatinine µmol/L311782 (76–88)88 (82–95)95 (87–104)102 (92–114)&lt; 0.001Plasma/serum methionine cycle metabolites Homocysteine, µmol/L311210.9 (9.2–13.0)11.9 (10.0–14.2)12.7 (10.8–14.9)13.4 (11.4–16.3)&lt; 0.001 Cysteine, µmol/L3112300 (282–317)305 (289–322)307 (291–325)311 (293–329)&lt; 0.001 Betaine, µmol/L311734.3 (28.8–41.6)36.9 (31.5–43.5)38.3 (32.6–44.2)38.5 (32.9–45.8)&lt; 0.001Plasma/serum markers of inflammation CRP, mg/L30311.38 (0.60–2.75)1.56 (0.74–3.15)1.51 (0.72–3.00)1.70 (0.78–3.18)0.008 Neopterin, nmol/L31078.05 (6.82–9.75)8.48 (7.31–10.1)8.92 (7.29–11.07)9.27 (7.73–11.7)&lt; 0.001Anamnestic MI, % (n)30954.7 (36)7.7 (60)11.3 (87)13.9 (109)&lt; 0.001Anamnestic angina, % (n)31177.8 (60)10.7 (83)13.5 (105)12.9 (101)&lt; 0.001Anamnestic stroke, % (n)31173.3 (26)3.7 (29)3.6 (28)6.0 (47)0.013High alcohol intake, % (n)*20791.2 (9)4.1 (32)5.9 (46)2.7 (21)0.03ACEi, Angiotensin-converting enzyme inhibitors; ARB, angiotensine reseptor blockers; BMI, body mass index; CRP, C-reactive-protein; HDL-C, high density lipoprotein cholesterol; MI, myocardial infarction; TMAO, Trimethylamine N-oxide; TML, trimethyllysine.⁎&gt; 16 units per two weeks."
+        }
+      ]
+    },
+    {
+      "title": "The association between plasma TML and incident atrial fibrillation",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "For the prospective analyses 3117 patients were included. During a median (25th-75th percentile) follow-up of 10.8 (9.4 – 11.2) years 492 patients (15.8 %) developed AF. Baseline median (25th-75th percentile) TML was higher among those who received a diagnosis of AF (0.64 (0.49 – 0.71) µmol/L) than those who did not median (0.58 (0.53 – 0.79) µmol/L), <em>P</em> &lt; 0.001. Accordingly, higher plasma TML was also associated with incident AF in Model 2 and 3 (Table 2) (OR (95 % CI) per 1 SD 1.30 (1.16–1.47) <em>P</em> &lt; 0.01), and the association was essentially linear (Fig. 1).Table 2Risk associations between TML and AF.Table 2UnadjustedModel 1#Model 2*Model 3†OR (95 % CI)<em>P-</em>ValueOR (95 % CI)<em>P-</em>ValueOR (95 % CI)<em>P-</em>ValueOR (95 % CI)<em>P-</em>ValuePlasma TML 2nd vs 1st quartile1.06 (0.78–1.43)<em>P</em> = 7.10.97 (0.71–1.31)<em>P</em> = 0.820.94 (0.68 – 1.29)<em>P</em> = 0.690.90 (0.65–1.24)<em>P</em> = 0.51 3rd vs 1st quartile1.61 (1.21–2.14)<em>P</em> &lt; 0.011.33 (0.99–1.80)<em>P</em> = 0.061.38 (1.01–1.88)<em>P</em> = 0.051.32 (0.96–1.81)<em>P</em> = 0.08 4th vs 1st quartile1.91 (1.45–2.52)<em>P</em> &lt; 0.011.53 (1.14–2.06)<em>P</em> &lt; 0.011.62 (1.15–2.28)<em>P</em> &lt; 0.011.56 (1.10–2.21)<em>P</em> = 0.01 Per 1 SD1.33 (1.22–1.45)<em>P</em> &lt; 0.011.25 (1.14–1.38)<em>P</em> &lt; 0.011.32 (1.17–1.49)<em>P</em> &lt; 0.011.31 (1.16–1.48)<em>P</em> &lt; 0.01OR indicates odds ratio; CI, confidence interval; values per 1 SD log transformed; SD, standard deviation.#adjusted for sex.⁎adjusted for sex, BMI, DM, current smoking, creatinine, HT, TMAO, CRP and neopterin.†adjusted for sex, BMI, DM, current smoking, creatinine, HT, TMAO, CRP, neopterin, former MI and anamnestic HF.Fig. 1The unadjusted risk relationship using a generalized additive model between plasma TML and new-onset atrial fibrillation in HUSK. The shaded area covering the spline depicts the 95 % confidence interval. A density plot is superimposed along the x-axis. The x-axis is truncated, excluding the lower and upper 2.5 %.Fig 1"
+        },
+        {
+          "type": "paragraph",
+          "html": "Application of the E-value formula to the multivariate model revealed E-values for the OR and lower CI of 2.47 and 1.43, respectively."
+        }
+      ]
+    },
+    {
+      "title": "Reclassification and model discrimination",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "When adding TML to a logistic regression model containing sex, BMI, smoking, hypertension, diabetes and TMAO the NRI&gt;0 (95 % CI) was 0.24 (0.14–0.33) <em>P</em> &lt; 0.001. Further ROC analyses also showed an increase in area under the curve from 0.613 to 0.626 with an area difference (95 % CI) of 0.013 (0.004–0.022) <em>P</em> = 0.006."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Principal findings",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In this large cohort of community-dwelling adults higher plasma levels of TML were associated with increased risk of developing AF during long-term follow-up. TML also improved reclassification of individuals beyond traditional risk factors."
+        }
+      ]
+    },
+    {
+      "title": "TML and the association with AF and CVD in previous studies",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "To our knowledge, our study is the first to report on the association between TML and incident AF."
+        },
+        {
+          "type": "paragraph",
+          "html": "Data on TML and CVD is scarce, although some studies have shed light on the association. In an untargeted metabolomics study TML was identified as a predictor of incident CVD-risk, and TML has been shown to predict CVD mortality [15,16]. Moreover, TML is associated with acute myocardial infarction in patients with suspected stable coronary artery disease and with acute coronary syndrome among patients admitted to the emergency department due to chest pain [3,17]. Furthermore, TML has been shown to correlate with existing HF, and higher levels of TML is associated with a worse prognosis [18]. Regarding AF, one earlier study examining TML among patients with ischemic stroke (IS) found that TML was elevated among patients with both IS and prevalent AF whereas, patients with isolated IS had a lower plasma TML concentration compared to healthy controls [10]."
+        },
+        {
+          "type": "paragraph",
+          "html": "The association between TML and AF may thus be mediated through other cardiovascular diseases; however adjusting for former myocardial infarction and anamnestic HF did not alter the risk estimates in this relatively healthy population."
+        }
+      ]
+    },
+    {
+      "title": "TML, epigenetic regulation and inflammation",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "TML can be created by PTM of lysine. In general, PTM of proteins alters cellular processes by affecting protein properties. Notably, the interaction between methylated lysine residues and histones is considered as a key regulator of dynamic epigenetic processes and cellular maintenance offering several potential links between TML and AF. First, TML is a precursor of carnitine synthesis. Disturbances in carnitine homeostasis have been linked to reduced nitric oxide signaling and endothelial function, suggesting a possible link between TML and AF [19,20]. Second, TML and histone methylation is associated with pathways associated with coronary artery disease, hypertension, cardiac hypertrophy, and endothelial dysfunction, in mice and humans, which again recently has been linked to AF [19,[21], [22], [23], [24]]. Third, histone methylation is shown to be central in regulation of metalloproteinases (MMPs), via inflammation and oxidative stress. MMPs play a key role in maintaining the extra cellular matrix (ECM), which in turn have been shown to play a role in the development of CVD in general and particularly AF [2,25]. In the present cohort TML was positively associated with hs-CRP and neopterin; however, adjusting for these inflammatory markers did not alter the risk estimates significantly. Thus, the link between TML and AF could be caused by electrophysiologic and morphologic atrial changes due to fibrosis and inflammation."
+        }
+      ]
+    },
+    {
+      "title": "TML, gut-microbiota and increased body weight",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Gut-microbial metabolites have been suggested as a potential paradigm shift for identifying predictive biomarkers, cardiovascular risk stratification and future treatment options [26]. Any association between TML and AF could be confounded by the previous reported positive relationship between plasma TMAO and incident AF [8]. However, including TMAO in model 2 did not alter the risk estimates. Accordingly, dietary TML has not shown to increase circulating TMAO in mice [15]. TML is also associated with other known risk factors for AF including increased body weight, incident type 2 diabetes and altered gut microbiome among individuals with and without insulin resistance [27,28]. However, adjusting for BMI and diabetes did not alter the risk estimates. Taken together, this suggests that TML exerts effects independent of TMAO and the known link with increased body weight and diabetes."
+        }
+      ]
+    },
+    {
+      "title": "Strengths and limitations",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Key strengths of this study include the large sample size, the long-term follow-up, its prospective design, as well as endpoints obtained from national health registries. However, our study has limitations. First, we only had one single measurement of plasma TML available, which may give rise to regression dilution bias. Second, as with any observational study there is a possibility of residual confounding. However, we calculated an E-value indicating that such a confounder would have to be associated with both TML and AF with a strength of RR &gt; 1.43. We are not aware of any potential confounder of this strength, conditional on the variables included in the multivariate model. Third, while TML did improve patient reclassification and model discrimination, it is uncertain if this information will confer any clinical benefit regarding risk stratification. Fourth, the cohort consisted primarily of Caucasian individuals from Western Norway and the results need to be replicated in populations with different ethnicity and demographics."
+        }
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Elevated TML was associated with increased risk of new-onset AF in this large cohort of community dwelling adults. Further research is needed to explore the potential proarrhythmic mechanisms related to TML."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Mads M Svenningsson:</strong> Writing – original draft, Methodology, Formal analysis. <strong>Gard FT Svingen:</strong> Writing – original draft, Methodology, Formal analysis. <strong>Per M Ueland:</strong> Writing – review &amp; editing. <strong>Gerhard Sulo:</strong> Writing – review &amp; editing, Validation, Investigation. <strong>Espen Ø Bjørnestad:</strong> Writing – review &amp; editing. <strong>Eva R Pedersen:</strong> Writing – review &amp; editing. <strong>Indu Dhar:</strong> Writing – review &amp; editing. <strong>Dennis W. Nilsen:</strong> Writing – review &amp; editing, Investigation. <strong>Ottar Nygård:</strong> Writing – review &amp; editing, Supervision, Project administration, Investigation, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare the following financial interests/personal relationships which may be considered as potential competing interests:"
+        },
+        {
+          "type": "paragraph",
+          "html": "Ottar Nygaard reports financial support was provided by Statens Helseundersøkelser. Ottar Nygaard reports financial support was provided by Stiftelsen for forskning på funksjonell vitamin B12-mangel. Ottar Nygaard reports financial support was provided by The research council of Norway. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "Van GelderI.C.RienstraM.BuntingK.V.2024 ESC guidelines for the management of atrial fibrillation developed in collaboration with the European association for cardio-thoracic surgery (EACTS): developed by the task force for the management of atrial fibrillation of the European society of cardiology (ESC), with the special contribution of the European heart rhythm association (EHRA) of the ESC. endorsed by the European stroke Organisation (ESO)Eur Heart J453620243314341410.1093/eurheartj/ehae17639210723"
+    },
+    {
+      "html": "BergD.D.RuffC.T.MorrowD.A.Biomarkers for Risk Assessment in Atrial FibrillationClin Chem6712020879510.1093/clinchem/hvaa29833313695"
+    },
+    {
+      "html": "BjornestadE.O.OlsetH.DharI.Circulating trimethyllysine and risk of acute myocardial infarction in patients with suspected stable coronary heart diseaseJ Intern Med2884Apr 9 202044645610.1111/joim.1306732270523"
+    },
+    {
+      "html": "LolandK.H.BleieO.BorgeraasH.The association between progression of atherosclerosis and the methylated amino acids asymmetric dimethylarginine and trimethyllysinePLoS One852013e6477410.1371/journal.pone.006477423734218PMC3666971"
+    },
+    {
+      "html": "HandyD.E.CastroR.LoscalzoJ.Epigenetic modifications: basic mechanisms and role in cardiovascular diseaseCirculation12319May 17 2011,2145215610.1161/circulationaha.110.95683921576679PMC3107542"
+    },
+    {
+      "html": "ServilloL.GiovaneA.CautelaD.CastaldoD.BalestrieriM.L.Where does N(epsilon)-trimethyllysine for the carnitine biosynthesis in mammals come from?PLoS One912014e8458910.1371/journal.pone.008458924454731PMC3890275"
+    },
+    {
+      "html": "WangZ.TangW.H.BuffaJ.A.Prognostic value of choline and betaine depends on intestinal microbiota-generated metabolite trimethylamine-N-oxideEur Heart J3514Apr 201490491010.1093/eurheartj/ehu00224497336PMC3977137"
+    },
+    {
+      "html": "SvingenG.F.T.ZuoH.UelandP.M.Increased plasma trimethylamine-N-oxide is associated with incident atrial fibrillationInt J Cardiol267Sep 15 201810010610.1016/j.ijcard.2018.04.12829957250"
+    },
+    {
+      "html": "TangW.H.WangZ.LevisonB.S.Intestinal microbial metabolism of phosphatidylcholine and cardiovascular riskN Engl J Med36817Apr 25 20131575158410.1056/NEJMoa110940023614584PMC3701945"
+    },
+    {
+      "html": "SchwedhelmE.von LucadouM.PeineS.Trimethyllysine, vascular risk factors and outcome in acute ischemic stroke (MARK-STROKE)Amino Acids534Apr 202155556110.1007/s00726-021-02969-x33788002"
+    },
+    {
+      "html": "XuJ.ZhaoM.WangA.Association between plasma trimethyllysine and prognosis of patients with ischemic strokeJ Am Heart Assoc1023Dec 7 2021e02097910.1161/jaha.121.020979PMC907536034816729"
+    },
+    {
+      "html": "VikseB.E.VollsetS.E.TellG.S.RefsumH.IversenB.M.Distribution and determinants of serum creatinine in the general population: the hordaland health studyScand J Clin Lab Invest648200470972210.1080/0036551041000305715719889"
+    },
+    {
+      "html": "MidttunØ.KvalheimG.UelandP.M.High-throughput, low-volume, multianalyte quantification of plasma metabolites related to one-carbon metabolism using HPLC-MS/MSAnal Bioanal Chem4056Feb 20132009201710.1007/s00216-012-6602-623232958"
+    },
+    {
+      "html": "VanderWeeleT.J.DingP.Sensitivity analysis in observational research: introducing the E-ValueAnn Intern Med1674Aug 15 201726827410.7326/m16-260728693043"
+    },
+    {
+      "html": "LiX.S.WangZ.CajkaT.Untargeted metabolomics identifies trimethyllysine, a TMAO-producing nutrient precursor, as a predictor of incident cardiovascular disease riskJCI Insight36Mar 22 201810.1172/jci.insight.99096PMC592694329563342"
+    },
+    {
+      "html": "BjørnestadE.Ø.DharI.SvingenG.F.T.Trimethyllysine predicts all-cause and cardiovascular mortality in community-dwelling adults and patients with coronary heart diseaseEur Heart J Open11202110.1093/ehjopen/oeab007PMC924204635919088"
+    },
+    {
+      "html": "LiX.S.ObeidS.WangZ.Trimethyllysine, a trimethylamine N-oxide precursor, provides near- and long-term prognostic value in patients presenting with acute coronary syndromesEur Heart J4032Aug 21 20192700270910.1093/eurheartj/ehz25931049589PMC7963132"
+    },
+    {
+      "html": "ZongX.FanQ.YangQ.Trimethyllysine, a trimethylamine N-oxide precursor, predicts the presence, severity, and prognosis of heart failureFront Cardiovasc Med9202290799710.3389/fcvm.2022.907997PMC955813836247428"
+    },
+    {
+      "html": "MaasM.N.HintzenJ.C.J.PorzbergM.R.B.MecinovićJ.Trimethyllysine: from carnitine biosynthesis to epigeneticsInt J Mol Sci.2124Dec 11 2020945110.3390/ijms2124945133322546PMC7764450"
+    },
+    {
+      "html": "SharmaS.BlackS.M.Carnitine homeostasis, mitochondrial function, and cardiovascular diseaseDrug Discov Today Dis Mech61–42009e31e3910.1016/j.ddmec.2009.02.00120648231PMC2905823"
+    },
+    {
+      "html": "KumarA.KumarS.VikramA.Histone and DNA methylation-mediated epigenetic downregulation of endothelial Kruppel-like factor 2 by low-density lipoprotein cholesterolArterioscler Thromb Vasc Biol338Aug 20131936194210.1161/atvbaha.113.30176523723375"
+    },
+    {
+      "html": "UdaliS.GuariniP.MoruzziS.ChoiS.-W.FrisoS.Cardiovascular epigenetics: from DNA methylation to microRNAsMol Aspects Med.344201388390110.1016/j.mam.2012.08.001/07/01/201322981780"
+    },
+    {
+      "html": "CorbanM.T.ToyaT.AhmadA.LermanL.O.LeeH.-C.LermanA.Atrial Fibrillation and Endothelial Dysfunction: a Potential Link?Mayo Clin Proc96620211609162110.1016/j.mayocp.2020.11.005/06/01/202133775421"
+    },
+    {
+      "html": "ZhangQ.J.ChenH.Z.WangL.LiuD.P.HillJ.A.LiuZ.P.The histone trimethyllysine demethylase JMJD2A promotes cardiac hypertrophy in response to hypertrophic stimuli in miceJ Clin Invest1216Jun 20112447245610.1172/jci4627721555854PMC3104772"
+    },
+    {
+      "html": "HeJ.QinM.ChenY.Epigenetic regulation of matrix metalloproteinases in inflammatory diseases: a narrative reviewCell Biosci10120208610.1186/s13578-020-00451-x2020/07/1832695308PMC7368751"
+    },
+    {
+      "html": "WitkowskiM.WeeksT.L.HazenS.L.Gut microbiota and cardiovascular diseaseCirc Res1274202055357010.1161/CIRCRESAHA.120.3162422020/07/3132762536PMC7416843"
+    },
+    {
+      "html": "PieningB.D.ZhouW.ContrepoisK.Integrative personal omics profiles during periods of weight gain and lossCell Syst.62Feb 28 201815717010.1016/j.cels.2017.12.013e829361466PMC6021558"
+    },
+    {
+      "html": "StrandE.RebnordE.W.FlygelM.R.Serum Carnitine metabolites and incident type 2 diabetes mellitus in patients with suspected stable angina pectorisJ Clin Endocrinol Metab1033Mar 1 20181033104110.1210/jc.2017-0213929325058"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

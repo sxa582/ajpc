@@ -1,0 +1,459 @@
+{
+  "pmcid": "PMC11402907",
+  "pmid": "39286650",
+  "doi": "10.1016/j.ajpc.2024.100725",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11402907/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Phenotyping lipid profiles in type 2 diabetes: Risk association and outcomes from the Cardiovascular Health Study",
+  "articleType": "Research Article",
+  "published": "2024-08-26",
+  "year": "2024",
+  "volume": "19",
+  "issue": "",
+  "articleNumber": "100725",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2024",
+  "authors": [
+    {
+      "given": "David",
+      "surname": "Bleich",
+      "display": "David Bleich"
+    },
+    {
+      "given": "Mary L.",
+      "surname": "Biggs",
+      "display": "Mary L. Biggs"
+    },
+    {
+      "given": "Julius M.",
+      "surname": "Gardin",
+      "display": "Julius M. Gardin"
+    },
+    {
+      "given": "Mary",
+      "surname": "Lyles",
+      "display": "Mary Lyles"
+    },
+    {
+      "given": "David S.",
+      "surname": "Siscovick",
+      "display": "David S. Siscovick"
+    },
+    {
+      "given": "Kenneth J.",
+      "surname": "Mukamal",
+      "display": "Kenneth J. Mukamal"
+    }
+  ],
+  "affiliations": [
+    "aDivision of Endocrinology, Diabetes, & Metabolism, Rutgers New Jersey Medical School, 185 South Orange Avenue, MSB I-588, Newark, NJ 07103, United States",
+    "bUniversity of Washington School of Medicine, Seattle, WA, United States",
+    "cWake Forest School of Medicine, Winston-Salem, NC, United States",
+    "dThe New York Academy of Medicine, New York, NY, United States",
+    "eHarvard Medical School, Boston, MA, United States"
+  ],
+  "keywords": [
+    "Type 2 diabetes",
+    "Cardiovascular risk",
+    "Lipid phenotyping"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Aims:</strong> To determine whether discrete lipid profiles (refer to as lipid phenotyping) can be used to stratify cardiovascular risk in individuals with type 2 diabetes."
+    },
+    {
+      "html": "<strong>Methods and results:</strong> Cardiovascular Health Study participants with diabetes and fasting lipid profiles at baseline (<em>n</em> = 866) were categorized separately by level of LDL cholesterol and HDL-C/Triglyceride (Tg) profiles (low Tg/high HDL-C; high Tg/low HDL-C; high Tg only or low HDL-C only). We performed Cox multivariate regression analysis to assess the risk of CVD mortality, incident myocardial infarction (MI), heart failure (HF), stroke, and composite MACE (MI, HF, stroke, and CVD mortality) associated with each lipid category. We also calculated risk estimates for MACE using lipid measures as continuous variables. In the fully adjusted model, the high triglyceride plus low HDL-C cholesterol phenotype demonstrated risk that was at least as high as the highest LDL-C sub-group phenotype for CVD mortality (Hazard ratio {HR} 1.58 vs 1.48), MI (HR 1.53 vs 1.58), HF (HR 1.47 vs 1.20), stroke (HR 2.02 vs 1.43), and MACE (HR 1.58 vs 1.38). When modeled continuously, the HR per SD for MACE was 1.12 (<em>p</em> = 0.03) for LDL-C and 1.19–1.20 (<em>p</em> &lt; 0.001) for triglycerides or remnant cholesterol."
+    },
+    {
+      "html": "<strong>Conclusions:</strong> Participants with the high triglyceride/low HDL-C phenotype had equivalent or higher CVD risk than those with the high LDL-C phenotype. Further studies are necessary to determine whether lipid phenotyping accounts for the substantial CVD risk not explained by LDL cholesterol among individuals with type 2 diabetes."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In major randomized placebo-controlled, double-blinded CVD studies, LDL lowering has conferred an approximately 30 percent risk reduction for major adverse cardiovascular events (MACE) [1]. Typically, these studies are enriched with type 2 diabetic (T2DM) subjects, who may account for greater than 50 percent of study participants. However, there is still approximately 70 percent remaining CVD risk reduction potential that is left unaddressed. The present treatment strategies focused on LDL reduction (e.g., statin therapy) are not fundamentally flawed, but in 2024 we may have reached the limit of maximizing CVD risk reduction in those individuals with T2DM and dyslipidemia even with the addition of the newer proprotein convertase subtilisin/kexin type 9 (PCSK-9) inhibitors. Furthermore, we have concluded that raising high-density lipoprotein (HDL) cholesterol with niacin or HDL-targeted drugs does not yield additional cardiovascular risk reduction [2,3]. So too, it might be the case that lowering triglyceride and VLDL cholesterol with fibrate drugs does not decrease CVD risk in individuals with type 2 diabetes, as recently shown [4]. Therefore, newer approaches to navigate CVD risk in patients with T2DM are warranted. This observation is further validated in the recently published AHA Presidential Advisory on Life&#x27;s Essential 8 where revised lipid guidelines now include non-HDL cholesterol, an acknowledgement that LDL cholesterol is not the whole story [5]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Subjects with T2DM have diverse phenotypic lipid profiles that are readily discernible in any diabetes clinic. These phenotypes can be categorized as: 1. High LDL-C (hLDL) only; 2. High triglyceride (hTg) plus low HDL-C (loHDL); and 3. Intermediate phenotypes with high triglyceride only or low HDL-C only. Each of these phenotypes is informed by genetic and molecular underpinnings. For example, the hLDL phenotype is due in part to increased LDL receptor (LDLr) recycling and degradation with low LDLr expression on the hepatocyte cell surface [6]. Newer therapy with the PCSK-9 inhibitor class inhibits LDL receptor recycling, preserving LDL receptors on the hepatocyte cell surface leading to dramatic lowering of LDL cholesterol."
+        },
+        {
+          "type": "paragraph",
+          "html": "In distinction, the hTg/loHDL phenotype occurs with insulin resistance in the liver that leads to up-regulation of Apo CIII and subsequent inhibition of lipoprotein lipase (LPL) [7,8]. Secondary effects of LPL inhibition result in high serum triglyceride levels with concomitant VLDL degradation to small dense LDL, a highly atherogenic particle. Reverse cholesterol transport is also impaired when HDL is converted into small dense particles [9]. These small dense HDL particles are broken down in the liver and APO AI, the major apolipoprotein of HDL, exits the circulation through the urine [10]. Moreover, the hTg/loHDL phenotype leads to increased fatty acid flux through the lipid scavenging receptor CD36 [11]. When combined with impaired reverse cholesterol transport, this dual defect has deleterious consequences on the vascular endothelium [12]. Genetic studies on individuals with loss of function mutation in the APOC3 gene reveal significant low serum triglyceride levels and decreased CVD risk [13]."
+        },
+        {
+          "type": "paragraph",
+          "html": "These different lipid phenotypes, commonly found in patients with T2DM, reflect different molecular mechanisms of disease. Recognition of these differences was described by John Brunzell and colleagues in 1992 as familial combined hyperlipidemia with reduced lipoprotein lipase activity [14]."
+        },
+        {
+          "type": "paragraph",
+          "html": "We assessed the association of lipid phenotypes on CVD risk in participants with T2DM in the Cardiovascular Health Study (CHS), which has followed a large cohort of older individuals for more than 30 years [15]. The objective of this study was to determine whether lipid phenotyping in subjects with T2DM provides additional CVD risk stratification beyond simple measurement of LDL cholesterol. We postulated that the hTg/loHDL phenotype would confer higher CVD risk in diabetic subjects compared to those with isolated LDL elevation or an intermediate phenotype."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Study population and design",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The CHS is a prospective, population-based, longitudinal study of coronary heart disease and stroke in adults aged 65 years and older [15]. Study subjects were initially recruited between 1989 and 1990 from Medicare eligible registries at four different field centers with a target goal of 1250 subjects per study site and ultimate enrollment of 5201 individuals in total. A second recruitment phase occurred 3 years later when an additional 687 Black subjects were enrolled. Full details of study enrollment and baseline data collection have been previously reported [16]."
+        },
+        {
+          "type": "paragraph",
+          "html": "All CHS participants provided written informed consent, and the CHS protocol was reviewed and approved by Institutional Review Boards at all participating institutions. All data used in this analysis, except for incident CVD and mortality events, were obtained at the baseline CHS examination (i.e. 1989–1990 or 1992–1993). Information on sociodemographic, lifestyle, and clinical risk factors was obtained via questionnaires administered by trained interviewers."
+        }
+      ]
+    },
+    {
+      "title": "Lipid and diabetes assessment",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Total cholesterol, high-density lipoprotein (HDL) cholesterol, triglyceride and glucose were directly measured in blood samples obtained from participants after an overnight 8–12-hour fast [17]. LDL cholesterol was calculated using the Friedewald equation [18] and secondarily using the updated NIH equation [19]. We also calculated non-HDL cholesterol (i.e., total cholesterol minus HDL-C) and remnant cholesterol (i.e., total cholesterol minus both HDL-C and LDL-C). Medication use among participants was assessed by clinic staff using a medication inventory [20]. We identified patients with type 2 diabetes based on fasting glucose ≥ 126 mg/dl, non-fasting glucose ≥ 200 mg/dL, or use of oral hypoglycemic agents or insulin injections."
+        }
+      ]
+    },
+    {
+      "title": "Cardiovascular event ascertainment",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Surveillance, ascertainment and adjudication of CVD and mortality has been described previously [21]. In brief, participants were asked about possible cardiovascular events and all hospitalizations. Field center staff then obtained discharge summaries for all hospital stays. For all adjudicated incident cardiovascular events (including myocardial infarction, stroke, and heart failure), relevant diagnostic information was also collected. The CHS Cardiovascular/Cerebrovascular Committees then reviewed and adjudicated all events blinded to data collection at CHS visits."
+        }
+      ]
+    },
+    {
+      "title": "Statistical analysis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We used clinically relevant, predetermined cut points for assigning study subjects into lipid phenotype groups. For LDL cholesterol, we divided individuals into three groups (high, intermediate, and low risk), those with LDL-C ≥ 130 mg/dL, &gt;100 to &lt;130 mg/dL, and &lt;100 mg/dL, respectively. For fasting triglyceride level, we defined &gt;160 mg/dl as high. For HDL cholesterol, we defined ≤ 50 mg/dL for women and ≤ 40 mg/dL for men as low. In some instances, study participants had high triglyceride with normal HDL-C or normal triglyceride with low HDL-C; we classified them as “intermediate &quot;."
+        },
+        {
+          "type": "paragraph",
+          "html": "We calculated mean and standard deviation (SD) for continuous variables and proportions for categorical variables to describe the sociodemographic, lifestyle, and clinical characteristics across categories of LDL and of TG/HDL-C. To adjust for potentially confounding variables that might be related to lipid levels and/or risk of cardiovascular disease, we used Cox proportional hazards regression to estimate adjusted hazard ratios (as estimates of relative risk) for several related binary endpoints. These include incident myocardial infarction, incident heart failure, incident stroke, CVD mortality, all-cause mortality, and composite MACE (a composite of MI, HF, stroke, and CVD mortality). Time at risk was calculated as the interval in days from the baseline examination to the earliest of the following: date of event, date of death, date of last follow-up, or administrative censoring date of June 2015."
+        },
+        {
+          "type": "paragraph",
+          "html": "To explore the importance of sets of confounders, we fit three sequential models. Model 1 adjusted for age, sex, race (black, non-black), and field center as core demographic variables. Model 2 additionally adjusted for cardiovascular risk factors, including smoking status (never, former, current), BMI, systolic blood pressure, diastolic blood pressure, hypertension medication use, lipid-lowering medication use, insulin use, and oral hypoglycemic medication use. Model 3 additionally adjusted for the other lipid phenotype (i.e., LDL-C vs TG/HDL-C). We tested equality of the LDL-C and TG/HDL-C HR estimates in Model 3 using a Wald test (i.e., to compare the strengths of associations of LDL-C and TG/HDL-C in relation to MACE). We evaluated the validity of the proportional hazards’ assumption using log-log plots and Schoenfeld residuals and found no evidence of meaningful non-proportionality."
+        },
+        {
+          "type": "paragraph",
+          "html": "In secondary analyses, we evaluated the potential interaction (i.e., positive or negative synergy) between LDL-C and TG/HDL-C with MACE by fitting a model with cross-product terms (i.e., each combination of LDL-C categories and TG/HDL-C categories). We then estimate the hazard ratios across the 9 joint LDL-C and TG/HDL-C categories, using the lowest joint category as the reference."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Lipid phenotypes",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We identified a total of 925 participants with diabetes at baseline. Of these, <em>n</em> = 45 were missing LDL cholesterol values, and 14 had not fasted for at least 8 h prior to blood draw, leaving <em>n</em> = 866 for the analysis. When sub-grouped by LDL cholesterol, 25.5% were categorized as low risk &lt;100 mg/dL (<em>n</em> = 221); 32.2% were intermediate risk ≥ 100 to &lt;130 mg/dL (<em>n</em> = 279); and 42.3% were high risk ≥ 130 mg/dl (<em>n</em> = 366). Mean LDL cholesterol in each group (± SD) was 80.2 ± 15.5 mg/dL, 115.2 ± 8.7 mg/dL, and 160.8 ± 26.3 mg/dL, respectively. LDL cholesterol estimated by the NIH method was nearly perfectly correlated with the Friedewald method (<em>r</em> = 0.998)."
+        },
+        {
+          "type": "paragraph",
+          "html": "When participants were stratified into triglyceride and HDL-C phenotypes, 38.3% had low triglyceride plus high HDL-C (loTG/hHDL) (<em>n</em> = 332), 28.5% had high triglyceride plus low HDL-C (hTg/loHDL; <em>n</em> = 247) and 33.1% were intermediate (<em>n</em> = 287). These intermediate study subjects had either high triglyceride plus “normal HDL” or “normal” triglyceride plus low HDL, so they did not fit into one of our a priori phenotypic groups."
+        },
+        {
+          "type": "paragraph",
+          "html": "In Table 1, we stratified CHS participants by Tg/HDL phenotypes. Strata did not differ meaningfully in age, blood pressure, BMI, LDL cholesterol, fasting glucose, oral hypoglycemic agents or insulin use, field center, education status, alcoholic beverages consumed per week, physical activity, or cigarette smoking status. There were fewer black participants with the hTG/lHDL phenotype. Comparable values by LDL-C are shown in Supplemental Table 1.Table 1Characteristic of CHS participants with diabetes at baseline, by TG/HDL phenotype.Table 1Low TG/High HDL*(<em>n</em> = 332)Intermediate*(<em>n</em> = 287)High TG/Low HDL*(<em>n</em> = 247)Age (years)73.1 ± 5.972.8 ± 5.072.9 ± 5.4Male52.4%48.8%46.6%Black race31.3%24.4%13.0%Field center Bowman Gray25.3%26.1%24.7% Davis25.0%18.8%17.4% Hopkins19.6%26.1%29.1% Pittsburgh30.1%28.9%28.7%Educational attainment &lt;HS37.7%35.2%37.2% HS25.9%29.3%26.3% &gt;HS36.4%35.5%36.4%Body mass index (kg/m2)27.7 ± 5.328.9 ± 5.029.4 ± 4.3Diastolic BP (mmHg)143.8 ± 21.9138.5 ± 21.9138.0 ± 20.3Systolic BP (mmHg)71.9 ± 11.970.3 ± 12.069.6 ± 11.7LDL (mg/dl)124.2 ± 36.8129.3 ± 37.9123.0 ± 40.2HDL (mg/dl)57.3 ± 12.245.2 ± 10.538.0 ± 6.3Triglyceride (mg/dl)105.2 ± 27.8154.9 ± 55.7235.7 ± 60.6Fasting glucose (mg/dl)165.4 ± 60.0169.1 ± 54.1178.3 ± 66.6Any anti-hypertensive medication59.3%63.1%70.4%Any lipid-lowering medication8.1%6.6%8.1%Oral hypoglycemic agents41.3%41.5%37.7%Insulins15.4%12.5%15.4%CHD23.8%27.2%34.0%CHF7.2%7.3%12.1%Stroke7.2%7.3%6.1%No. alcoholic beverages/wk2.1 ± 5.81.2 ± 4.01.0 ± 4.0Physical activity (kcal/wk)1652.7 ± 2317.51494.3 ± 1970.41273.4 ± 1654.7Smoking status Never smoked47.0%47.4%44.1% Former smoker45.5%40.4%45.3% Current smoker7.5%12.2%10.5%High TG defined as TG &gt; 160 mg/dL; low HDL defined as ≤40 mg/dL (men) or ≤50 mg/dL (women).Figures shown are mean ± SD for continuous measures and percentages for categorical measures."
+        },
+        {
+          "type": "paragraph",
+          "html": "The crude incidence of cardiovascular events at baseline in diabetic CHS participants stratified by LDL-C and hTg/lHDL phenotypes is shown in Supplemental Tables 2 and 3, respectively. As anticipated, CVD events were substantially higher in the hTg/lHDL and intermediate phenotypes (either hTG or lHDL only) compared to the lTG/hHDL group. In contrast, CVD events were marginally higher between the lowest and highest tertiles of LDL cholesterol. This result has been previous seen in other epidemiologic studies where elevated non-fasting triglyceride level was strongly associated with CVD events [22]."
+        }
+      ]
+    },
+    {
+      "title": "Association of continuous lipid measures and MACE",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "As shown in Table 2, a 1-SD increase in triglycerides, non-HDL cholesterol, and remanent cholesterol resulted in equivalent, highly statistically significant hazard ratios for MACE of ∼ 1.20. In contrast, LDL-C and HDL-C were numerically more weakly associated with risk, regardless of which LDL-C estimator was used.Table 2Association of continuous lipid measures and MACE.Table 2MeasureHR per SD (95% CI)p-valueLDL-C (Friedewald)1.12 (1.01–1.23)0.03LDL-C (NIH Equation)1.13 (1.02–1.24)0.02HDL-C0.89 (0.80–0.99)0.04Log Triglyceride1.19 (1.08–1.32)&lt;0.001Log Non-HDL-C1.19 (1.08–1.31)0.001Log Remnant Cholesterol1.20 (1.08–1.32)&lt;0.001Model adjusts for age, sex, race (Black, non-Black), field center, smoking status (never, former, current), BMI, systolic blood pressure, diastolic blood pressure, hypertension medication use, lipid-lowering medication use, insulin use, oral hypoglycemic medication use.. (SD) = standard deviation."
+        }
+      ]
+    },
+    {
+      "title": "Adjusted models of lipid phenotypes and outcomes in CHS participants with diabetes",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Regardless of the model, the hTg/loHDL phenotype demonstrated the highest hazard ratios for all outcomes except all-cause mortality and incident MI (Table 3). Model 3 controls for the greatest number of confounders and includes mutual adjustment of LDL-C and TG/HDL-C to assess their independent associations. When comparing CVD mortality between the hLDL phenotype and the hTg/loHDL phenotype, the hazard ratios were 1.45 versus 1.58. Further numeric comparison of these two high-risk groups showed approximate equal risk for incident MI (1.58 versus 1.53), greater risk for HF in the hTg/loHDL group (1.47 versus 1.20), greater risk for stroke in the hTg/loHDL group (2.02 versus 1.43), and greater risk for MACE in the hTg/loHDL group (1.58 versus 1.38). Although every comparison showed higher risk for the hTg/loHDL group, only the differences in stroke risk were statistically significantly stronger for hTg/loHDL than LDL-C (<em>p</em> = 0.03).Table 3Associations of lipid phenotypes with outcomes among CHS participants with diabetes.Table 3<strong>Model 1</strong><strong>Model 2</strong><strong>Model 3</strong><strong>All-cause mortality</strong><strong>HR (95% CI); p-value</strong><strong>HR (95% CI); p-value</strong><strong>HR (95% CI); p-value</strong>LDL-C&lt;1001.001.001.00&gt;=100-&lt;1300.95 (0.79–1.14); <em>p</em> = 0.550.95 (0.79–1.15); <em>p</em> = 0.620.95 (0.79–1.15); <em>p</em> = 0.63&gt;=1301.04 (0.87–1.24); <em>p</em> = 0.681.08 (0.90–1.30); <em>p</em> = 0.401.09 (0.91–1.31); <em>p</em> = 0.35TG/HDL-CLow TG/High HDL-C1.001.001.00Intermediate1.15 (0.98–1.35); <em>p</em> = 0.091.21 (1.02–1.43); <em>p</em> = 0.031.21 (1.02–1.43); <em>p</em> = 0.03High TG/Low HDL-C1.18 (0.99–1.40); <em>p</em> = 0.061.19 (1.00–1.43); <em>p</em> = 0.051.20 (1.00–1.43); <em>p</em> = 0.05Test LDL-C=TG/HDL-C<em>p</em> = 0.13<strong>CVD mortality</strong><strong>HR (95% CI); p-value</strong><strong>HR (95% CI); p-value</strong><strong>HR (95% CI); p-value</strong>LDL-C&lt;1001.001.001.00&gt;=100-&lt;1301.17 (0.88–1.54); <em>p</em> = 0.281.17 (0.88–1.55); <em>p</em> = 0.281.20 (0.90–1.60); <em>p</em> = 0.21&gt;=1301.34 (1.03–1.75); <em>p</em> = 0.031.44 (1.10–1.89); <em>p</em> = 0.011.48 (1.13–1.95); <em>p</em> = 0.01TG/HDL-CLow TG/High HDL-C1.001.001.00Intermediate1.26 (0.99–1.60); <em>p</em> = 0.061.38 (1.08–1.77); <em>p</em> = 0.011.38 (1.08–1.77); <em>p</em> = 0.01High TG/Low HDL-C1.45 (1.13–1.86); <em>p</em> &lt; 0.0011.55 (1.19–2.01); <em>p</em> &lt; 0.0011.58 (1.22–2.06);<em>p</em> &lt; 0.001Test LDL-C=TG/HDL-C<em>p</em> = 0.54<strong>Incident MI</strong><strong>HR (95% CI); p-value</strong><strong>HR (95% CI); p-value</strong><strong>HR (95% CI); p-value</strong>LDL-C&lt;1001.001.001.00&gt;=100-&lt;1301.30 (0.86–1.97); <em>p</em> = 0.221.32 (0.86–2.02); <em>p</em> = 0.201.35 (0.88–2.07); <em>p</em> = 0.17&gt;=1301.48 (0.99–2.22); <em>p</em> = 0.061.54 (1.02–2.33); <em>p</em> = 0.041.58 (1.04–2.40); <em>p</em> = 0.03TG/HDL-CLow TG/High HDL-C1.001.001.00Intermediate1.26 (0.89–1.79); <em>p</em> = 0.191.37 (0.95–1.98); <em>p</em> = 0.091.37 (0.95–1.97); <em>p</em> = 0.09High TG/Low HDL-C1.41 (0.97–2.04); <em>p</em> = 0.071.48 (1.00–2.17); <em>p</em> = 0.051.53 (1.04–2.26); <em>p</em> = 0.03Test LDL-C=TG/HDL-C<em>p</em> = 0.96<strong>Incident HF</strong><strong>HR (95% CI); p-value</strong><strong>HR (95% CI); p-value</strong><strong>HR (95% CI); p-value</strong>LDL-C&lt;1001.001.001.00&gt;=100-&lt;1301.25 (0.94–1.66); <em>p</em> = 0.121.25 (0.94–1.67); <em>p</em> = 0.131.29 (0.96–1.73); <em>p</em> = 0.09&gt;=1301.11 (0.84–1.47); <em>p</em> = 0.471.18 (0.88–1.57); <em>p</em> = 0.271.20 (0.90–1.60); <em>p</em> = 0.21TG/HDL-CLow TG/High HDL-C1.001.001.00Intermediate1.29 (1.00–1.65); <em>p</em> = 0.051.33 (1.03–1.72); <em>p</em> = 0.031.32 (1.02–1.72); <em>p</em> = 0.03High TG/Low HDL-C1.46 (1.12–1.90); <em>p</em> = 0.011.43 (1.09–1.88); <em>p</em> = 0.011.47 (1.12–1.93); <em>p</em> = 0.01Test LDL-C=TG/HDL-C<em>p</em> = 0.53<strong>Incident Stroke</strong><strong>HR (95% CI); p-value</strong><strong>HR (95% CI); p-value</strong><strong>HR (95% CI); p-value</strong>LDL-C-C&lt;1001.001.001.00&gt;=100-&lt;1300.99 (0.65–1.49); <em>p</em> = 0.951.06 (0.69–1.61); <em>p</em> = 0.801.07 (0.70–1.63); <em>p</em> = 0.76&gt;=1301.38 (0.95–2.02); <em>p</em> = 0.101.40 (0.95–2.07); <em>p</em> = 0.091.43 (0.97–2.12); <em>p</em> = 0.07TG/HDL-CLow TG/High HDL-C1.001.001.00Intermediate1.84 (1.29–2.64); <em>p</em> &lt; 0.0012.19 (1.51–3.16); <em>p</em> &lt; 0.0012.16 (1.50–3.12); <em>p</em> &lt; 0.001High TG/Low HDL-C1.73 (1.18–2.53); <em>p</em> &lt; 0.0011.99 (1.34–2.94); <em>p</em> &lt; 0.0012.02 (1.37–3.00); <em>p</em> &lt; 0.001Test LDL-C=TG/HDL-C<em>p</em> = 0.03<strong>MI, Stroke, HF, CVD mortality</strong><strong>HR (95% CI); p-value</strong><strong>HR (95% CI); p-value</strong><strong>HR (95% CI); p-value</strong>LDL-C-C&lt;1001.001.001.00&gt;=100-&lt;1301.21 (0.94–1.57); <em>p</em> = 0.141.24 (0.96–1.61); <em>p</em> = 0.101.27 (0.97–1.65); <em>p</em> = 0.08&gt;=1301.28 (1.00–1.64); <em>p</em> = 0.051.36 (1.06–1.76); <em>p</em> = 0.021.38 (1.07–1.78); <em>p</em> = 0.01TG/HDL-CLow TG/High HDL-C1.001.001.00Intermediate1.53 (1.23–1.90); <em>p</em> &lt; 0.0011.61 (1.28–2.01); <em>p</em> &lt; 0.0011.60 (1.28–2.00); <em>p</em> &lt; 0.001High TG/Low HDL-C1.47 (1.16–1.86); <em>p</em> &lt; 0.0011.55 (1.21–1.98); <em>p</em> &lt; 0.0011.58 (1.24–2.03); <em>p</em> &lt; 0.001Test LDL-C=TG/HDL-C<em>p</em> = 0.24*High TG defined as TG &gt; 160 mg/dL; low HDL defined as ≤40 mg/dL (men) or ≤50 mg/dL (women). Model 1 adjusts for age, sex, race (Black, non-Black), and field center. Model 2 adjusts for Model 1 covariates plus smoking status never, former, current), BMI, systolic blood pressure, diastolic blood pressure, hypertension medication use, lipid-lowering medication use, insulin use, oral hypoglycemic medication use.Model 3 adjusts for Model 2 covariates plus the other lipid phenotype."
+        },
+        {
+          "type": "paragraph",
+          "html": "In a secondary analysis (Fig. 1), we assessed hazard ratios and 95% confidence intervals for MACE stratified by Tg/HDL-C phenotypes and LDL-C levels together. When compared to the loTg/hHDL plus LDL-C &lt; 100 group (i.e., the lowest risk group for CVD events), hazard ratios increased ∼2.0 fold in both the intermediate and hTg/LoHDL phenotypic groups once LDL was &gt;100 mg/dl, with no significant evidence of synergy (<em>p</em> = 0.94).Fig. 1Hazard ratios and 95% confidence intervals for MACE across joint LDL and TG/HDL categories. Model is adjusted for age, sex, race (Black, non-Black), field center, smoking status (never, former, current), BMI, systolic blood pressure, diastolic blood pressure, hypertension medication use, lipid-lowering medication use, insulin use, and oral hypoglycemic medication use. High TG defined as TG &gt; 160 mg/dL; low HDL defined as ≤40 mg/dL (men) or ≤50 mg/dL (women). Test for interaction: <em>p</em> = 0.94.Fig 1"
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The present study utilized lipid phenotyping to risk stratify CHS participants with type 2 diabetes. LDL cholesterol has been demonstrated in numerous studies to be a risk factor for CVD outcomes in type 2 diabetes [23]. Our data demonstrate significant differences in CVD outcomes in diabetic subjects based on their lipid phenotype. Importantly, the hLDL phenotype did not clearly confer the highest risk, but rather the hTg/loHDL phenotype appeared at least as strong. Analysis of lipid values as continuous variables similarly demonstrated strong associations with high triglycerides as well as non-HDL cholesterol and remnant cholesterol that were at least as strong as LDL-C. Thus, a high triglyceride phenotype clearly marks high cardiovascular risk among older diabetic adults."
+        },
+        {
+          "type": "paragraph",
+          "html": "With that said, it may be that not all (or any) of these risk factors are targetable disease modifiers. The rationale for lipid phenotyping is based on the underlying molecular genetics and biology of various known dyslipidemias. Lipid phenotyping is also an attempt to break away from a reductionist view of CVD risk in diabetic individuals that rely primarily on LDL cholesterol. Patients with type 2 diabetes typically receive statin-drugs as a standard of care for cardiovascular disease (CVD) risk prevention to lower LDL cholesterol. Such individuals with or without lipid abnormalities have a 3–8 times increased risk for CVD compared to individuals without diabetes [24]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Manson and Haffner used the Nurses’ Health Study (NHS) with &gt; 110,000 study subjects followed for 20 years to show that female subjects with type 2 diabetes had significantly increased risk of CVD [25]. Compared to women who were non-diabetic throughout the NHS, those with type 2 diabetes at baseline entry into the study had an adjusted relative CVD risk of 5.02. Intermediate risks were found among participants who entered the study prior to developing diabetes. These subjects, once they developed diabetes, were risk stratified based on the time-period before diabetes onset or after diabetes onset. Those individuals had higher CVD risk after the onset of diabetes than before onset during the study period. Other studies showed similar data that patients with type 2 diabetes have increased risk of developing CVD over ∼10 to 20 years [26]. These well-conducted studies led to the present standard of aggressive lipid lowering with statin drugs to a target LDL cholesterol of &lt;70 mg/dl in all patients with type 2 diabetes and has remained unchanged for the past 20 years."
+        },
+        {
+          "type": "paragraph",
+          "html": "Of note, new therapeutic options for patient with type 2 diabetes including GLP-1 receptor agonists and SLGT-2 inhibitors appear to confer cardiovascular risk protection through diverse mechanisms, but these may include altering lipid profiles [27,28]. How much of their benefit relates to each of these diverse mechanisms remains to be determined."
+        },
+        {
+          "type": "paragraph",
+          "html": "The conceptual framework for statin treatment in all patients with type 2 diabetes arose from a misuse of the transitive law. First, patients with type 2 diabetes are known to have equal CVD risk as a non-diabetic individual with a first MI. Second, all patients with a first MI are treated with a statin to reduce CVD risk. Therefore, all diabetic subjects need to be treated with statins since their CVD risk is equal to first MI subjects. While useful for the past 20–30 years, this approach can be improved by combining newer insight into the molecular biology of lipid disorders, common lipid phenotypes, and clinical outcomes data."
+        },
+        {
+          "type": "paragraph",
+          "html": "The major present day CVD risk calculator is based on 2013 American College of Cardiology/American Heart Association guidelines updated in November 2017. This calculator includes age in years, sex (M or F), race (Black or other) total cholesterol, HDL cholesterol, systolic and diastolic BP, treatment for hypertension (yes or no), diabetes (yes or no) and smoker (yes or no). The risk score is tied to guidelines for treatment with statin and aspirin or not. Fasting triglyceride level is not considered in this calculation and neither (by definition) is lipid phenotype. Of note, the ADVANCE (Action in Diabetes and Vascular Disease) Study revealed that both the Framingham and UKPDS risk equations are unreliable, with overestimation of CVD risk by ∼150–250% [29]."
+        },
+        {
+          "type": "paragraph",
+          "html": "We previously published data showing a plot of CVD relative risk reduction (RRR) in six major statin studies versus fasting triglyceride level (represented as the mean of the treated study population). Linear regression analysis revealed a line with coefficient of variance (r<sup>2</sup>) = 0.59. For every 10 mg/dl increase in mean fasting triglyceride level the statin-induced CVD RRR was decreased by ∼2.5% [30]. This led us to the hypothesis that fasting triglyceride level per se plays a significant role in CVD risk reduction with statin use. Moreover, we speculated that fasting triglyceride and HDL cholesterol could be combined into a specific lipid phenotype since the metabolic pathways from VLDL to small dense LDL and small dense HDL are interconnected when insulin resistance is present [31]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Prior work from the Cardiovascular Health Study (CHS) reveals strong clues that support our lipid phenotype hypothesis. Cluster analysis of six cardiometabolic groups demonstrated those with higher levels of insulin resistance had a CVD hazard ratio of 2.26 compared to those non-insulin resistant groups [32]. This suggested that insulin resistance, which includes the high triglyceride plus low HDL phenotype, might be useful in a formalized risk calculator to better define CVD risk groups. Additional evidence of triglyceride-mediated CVD risk comes from analysis of polymorphisms of the APOC5 promoter in several large patient populations. Here, the research group analyzed the allelic frequency of −1131T&gt;C in the study population. They determined that for every C allele inherited, mean triglyceride level was 16% higher and was associated with higher VLDL particle concentration and small dense HDL (a known atherogenic particle). CVD risk increased with C-allele frequency in this study [33]. Indeed, Nanna and colleagues showed that pooled cohort risk equations, in general, did poorly at predicting 5-year ASCVD risk with a noted overestimation of risk in the highest risk groups [34]. It is therefore possible that additional biomarkers such as lipoprotein particle size and density might offer useful information on CVD risk assessment when integrated with lipid phenotyping [35]."
+        },
+        {
+          "type": "paragraph",
+          "html": "We see additional evidence from genetic studies supporting the lipid phenotype hypothesis. Exome-wide association studies have implicated triglyceride lowering alleles that increase lipoprotein lipase (LPL) activity (e.g., LPL and ANGPTL4). LPL activity increased peripheral lipolysis of triglycerides and led to lower CVD and type 2 diabetes risk [36]. The effect of triglyceride lowering was further established through analysis of loss of function gene mutations in the human APOC3 gene (the apoprotein that inhibits lipoprotein lipase activity). These rare individuals with loss of function mutations had triglyceride levels ∼40% lower than wild type APOC3 and ∼40% decreased risk for CVD [13]. Moreover, Mendelian randomization studies of SNP&#x27;s involved in plasma triglyceride levels showed strong association for CVD with odds ratios ∼1.6 [37]. Therefore, human evidence from phenotype to genotype appears to support the hypothesis that fasting triglyceride (with or without concurrent low HDL) plays a role in cardiovascular risk that is not accounted for by today&#x27;s CVD risk calculators."
+        },
+        {
+          "type": "paragraph",
+          "html": "Our study reveals that diabetic subjects with the hTg/loHDL phenotype had similar relative risks for HF, MI, and MACE and significantly higher risk for stroke compared to those individuals with the hLDL phenotype. This finding demonstrates that LDL-C alone should not be the sole target for strategies to reduce CVD risk in diabetic subjects. Furthermore, lipid phenotyping provides a simple approach to better categorizing different risk profiles in individuals with type 2 diabetes."
+        },
+        {
+          "type": "paragraph",
+          "html": "Indeed, both the Reduce-It and Jelis studies demonstrated that a focus on LDL cholesterol is not enough. In the Reduce-It Study, participants were stratified to a control group that received simvastatin alone or a treatment group that received equal dose simvastatin plus eicosapentanoic acid (icosapent ethyl) [38]. Approximately 60 percent of study subjects had type 2 diabetes and the median triglyceride level was 216.5 mg/dl. The addition of icosapent ethyl conferred an additional 25 percent CVD risk reduction compared to the group treated with statin only. In the Jelis study, EPA addition to statin treatment lowered CVD events by 53 percent compared to a statin-only control group [39]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Strengths of this study relate to the prospective study design of CHS in addition to its longevity and data abundance. As an ongoing effort for the past 30 years, nearly all CHS participants have been followed to death. Therefore, the data repository has excellent CVD outcomes and demographic risk factors. Moreover, the low use of statin drugs at baseline allowed us to obtain pristine lipid profiles in study participants. Most other studies with CVD outcomes have much higher rates of prior statin “contamination” that could significantly affect lipid phenotype assignments. Assignments of study subjects having diabetes were determined by baseline glucose and use of glucose lowering agents."
+        },
+        {
+          "type": "paragraph",
+          "html": "There are several limitations to our study. This is a relatively small study with participants recruited in 1989–1993. Dietary habits, exercise, and life-stressors have changed over the ensuing three decades; therefore, it is possible that other confounding factors are not fully accounted for in this observational study. The ethnic composition of CHS is primarily White and Black subjects, with only a small percent of other ethnicities represented. Therefore, we are not able to generalize our phenotyping results. Diabetes duration was not ascertained at baseline. Hence, the impact of disease severity on CVD outcome could not be accounted for in the analysis. Finally, we cannot extrapolate our data to treatment recommendations for those diabetic individuals without the hLDL phenotype until randomized clinical trials validate or refute our proposition."
+        },
+        {
+          "type": "paragraph",
+          "html": "Future studies are needed to determine whether statin therapy is the optimal treatment for the hTg/loHDL group or whether direct triglyceride lowering agents are more appropriate. This question was partially addressed in the ACCORD lipid study (simvastatin versus simvastatin plus fenofibrate) where fenofibrate was found not to improve CVD outcomes in type 2 diabetic subjects on statin therapy [40]. Unfortunately, this study does not provide us with incontrovertible proof of their hypothesis because approximately sixty percent of ACCORD lipid study participants had prior exposure to statins and mean fasting triglyceride was only ∼162 mg/dl for all subjects. This is not an optimal profile for treatment of the hTg/loHDL phenotype. In CHS, lipid lowering therapy (primarily statins) prior to enrollment in the hTg/loHDL phenotype ranged from 5 to 10 percent, with mean fasting triglyceride ∼236 mg/dl. Indeed, a post-hoc subgroup analysis of ACCORD lipid data demonstrated that significant CVD risk reduction occurred in ACCORD lipid study participants with fasting triglyceride levels ≥ 200 mg/dl [41]. However, the more recent PROMINENT CV study using pemafibrate to lower triglycerides in an appropriate study group with T2DM (mean baseline fasting triglyceride level was 271 mg/dl) did not show CVD risk reduction [4]. This study moves the needle away from using triglyceride level per se as a biological target for CVD risk reduction, at least until ApoC3-targeted strategies have been vetted."
+        },
+        {
+          "type": "paragraph",
+          "html": "In conclusion, we demonstrate that in CHS participants with type 2 diabetes CVD risk can be apportioned not only to elevated LDL cholesterol, but to diverse lipid phenotypes that include high triglycerides and low HDL cholesterol. This data should spur efforts to revamp cardiovascular risk stratification in subjects with type 2 diabetes since older methods do not account for a broad spectrum of lipid phenotypes."
+        }
+      ]
+    },
+    {
+      "title": "Disclosures",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "DB has no conflicts of interest. MLB has no conflicts of interest, JMG has no conflicts of interest. ML has no conflicts of interest. DS has no conflicts of interest. KM has no conflicts of interest. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health."
+        }
+      ]
+    },
+    {
+      "title": "Data sharing",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "CHS data are available to qualified investigators following study policies and procedures <a href=\"https://chs-nhlbi.org/CHS_DistribPolicy\">https://chs-nhlbi.org/CHS_DistribPolicy</a> or through the BioLINCC data repository: <a href=\"https://biolincc.nhlbi.nih.gov/home/\">https://biolincc.nhlbi.nih.gov/home/</a>"
+        }
+      ]
+    },
+    {
+      "title": "Funding sources",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "KM has funding from National Institute on Aging K24AG065525. This research was supported by contracts HHSN268201200036C, HHSN268200800007C, HHSN268201800001C, N01HC55222, N01HC85079, N01HC85080, N01HC85081, N01HC85082, N01HC85083, N01HC85086, 75N92021D00006, and grants U01HL080295 and U01HL130114 from the National Heart, Lung, and Blood Institute (NHLBI), with additional contribution from the National Institute of Neurological Disorders and Stroke (NINDS). Additional support was provided by R01AG023629 from the National Institute on Aging (NIA). A full list of principal CHS investigators and institutions can be found at CHS-NHLBI.org.&quot;"
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>David Bleich:</strong> Writing – review &amp; editing, Writing – original draft, Supervision, Conceptualization. <strong>Mary L. Biggs:</strong> Methodology, Formal analysis, Data curation. <strong>Julius M. Gardin:</strong> Writing – review &amp; editing, Supervision. <strong>Mary Lyles:</strong> Investigation, Data curation. <strong>David S. Siscovick:</strong> Writing – review &amp; editing, Conceptualization. <strong>Kenneth J. Mukamal:</strong> ."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare the following financial interests/personal relationships which may be considered as potential competing interests:"
+        },
+        {
+          "type": "paragraph",
+          "html": "Ken Mukamal, MD reports financial support was provided by National Institute on Aging. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "CheungB.M.LauderI.J.LauC.P.KumanaC.R.Meta-analysis of large randomized controlled trials to evaluate the impact of statins on cardiovascular outcomesBr J Clin Pharmacol5720046406511508981810.1111/j.1365-2125.2003.02060.xPMC1884492"
+    },
+    {
+      "html": "A.-H InvestigatorsNiacin in patients with low HDL cholesterol levels receiving intensive statin therapyN Eng J Med36520112255226710.1056/NEJMoa110757922085343"
+    },
+    {
+      "html": "BarterP.CaulfieldM.ErikssonM.M.for the ILLUMINATEE Investigators. Effects of torcetrapib in patients at high risk for coronary eventsN Eng J Med35720072019212210.1056/NEJMoa070662817984165"
+    },
+    {
+      "html": "As PradhanA.GlynnR.J.FruchartJ.-Cfor the PROMINENT investiigators. Triglyceride lowering with pemafibrate to reduce cardiovascular riskN Eng J Med38720221923193410.1056/NEJMoa221064536342113"
+    },
+    {
+      "html": "Lloyd-JonesD.M.AllenN.B.AndersonC.A.M.on behalf of the American Heart Association. Life&#x27;s essential 8: updating and enhancing the American Heart Association&#x27;s Construct of Cardiovascular Health: a presidential advisory from the American Heart AssociationCirculation.1462022e18e433576602710.1161/CIR.0000000000001078PMC10503546"
+    },
+    {
+      "html": "KleberM.E.DelgadoG.E.MarzW.LDL receptor traffic: in the fast laneEur Heart J412020105410563183437710.1093/eurheartj/ehz866"
+    },
+    {
+      "html": "KawakamiA.YoshidaM.Apolipoprotein CIII links dyslipidemia with atherosclerosisJ Atheroscler Thromb1620096111926200410.5551/jat.e607"
+    },
+    {
+      "html": "GiammancoA.SpinaR.CefaluA.B.AvernaM.APOC-III: a Gatekeeper in controlling triglyceride metabolismCurr Atheroscler Rep2532023677610.1007/s11883-023-01080-836689070PMC9947064"
+    },
+    {
+      "html": "DuX.-M.KimM.-J.HouL.HDL particle size is a critical determinant of ABCA1-mediated macrophage cellular cholesterol exportCirc Res11672015113311422558955610.1161/CIRCRESAHA.116.305485"
+    },
+    {
+      "html": "ZhouL.LiC.GaoL.WangA.High-density lipoprotein synthesis and metabolism (Review)Mol Med Rep1232015401540212608220010.3892/mmr.2015.3930"
+    },
+    {
+      "html": "ChenY.ZhangJ.SilversteinR.L.CD36, a signaling receptor and fatty acid transporter that regulates immune cell metabolism and fateJ Exp Med21962022e2021131410.1084/jem.20211314PMC902229035438721"
+    },
+    {
+      "html": "YangM.SilvermanR.L.CD36 signaling in vascular redox stressFree Radical Biol Med13620191591713082550010.1016/j.freeradbiomed.2019.02.021PMC6488418"
+    },
+    {
+      "html": "CrosbyJ.PelosoG.M.AuerP.L.Loss-of-function Mutations in APOC3, triglycerides, and coronary diseaseN Eng J Med37112014223110.1056/NEJMoa1307095PMC418026924941081"
+    },
+    {
+      "html": "BabirakS.P.BrownB.G.BrunzellJ.D.Familial combined hyperlipidemia and abnormal lipoprotein lipaseArterioscler Thromb1210199211761183139058910.1161/01.atv.12.10.1176"
+    },
+    {
+      "html": "FriedL.P.BorhaniN.O.EnrightP.for the Cardiovascular Health Study Research Group (CHS). The Cardiovascular Health Study; design and rationaleAnn Epidemiol131991263276166950710.1016/1047-2797(91)90005-w"
+    },
+    {
+      "html": "KullerL.FisherL.McClellandR.Differences in prevalence of and risk factors for subclinical vascular disease among black and white participants in the Cardiovascular Health StudyArteriosclet Thromb Vasc Biol182199828329310.1161/01.atv.18.2.2839484995"
+    },
+    {
+      "html": "CushmanM.CornellE.S.HowardP.R.BovillE.G.TracyR.P.Laboratory methods and quality assurance in the Cardiovascular Health StudyClin Chem1219952642707874780"
+    },
+    {
+      "html": "FreidewaldW.T.LevyR.I.FredricksonD.S.Estimation of the concentration of low-density lipoprotein cholesterol in plasma, without use of the preparative ultracentrifugeClin Chem1819724995014337382"
+    },
+    {
+      "html": "MartinS.S.BlahaM.J.ElshazlyM.B.TothP.P.KwiterovichP.O.BlumenthalR.S.JonesS.R.Comparison of a novel method vs the Friedewald equation for estimating low-density lipoprotein cholesterol levels from the standard lipid profileJAMA3102013206120682424093310.1001/jama.2013.280532PMC4226221"
+    },
+    {
+      "html": "PsatyB.M.LeeM.SavageP.J.RutanG.H.GermanP.S.LylesM.Assessing the use of medications in the elderly: methods and initial experience in the cardiovascular health study. The Cardiovascular Health Study collaborative research groupJ Clin Epidemiol4561992683692160790910.1016/0895-4356(92)90143-b"
+    },
+    {
+      "html": "IvesD.G.FitzpatrickA.L.BildD.E.Surveillance and ascertainment of cardiovascular events. The cardiovascular health studyAnn Epidemiol541995278285852070910.1016/1047-2797(94)00093-9"
+    },
+    {
+      "html": "NordestgaardB.G.BennM.SchnohrP.Tybjaerg-HansenA.Nonfasting triglycerides and risk of myocardial infarction, ischemic heart disease, and death in men and womenJAMA29820072993081763589010.1001/jama.298.3.299"
+    },
+    {
+      "html": "WangY.Lammi-KeefeC.J.HouL.HuG.Impact of low-density lipoprotein cholesterol on cardiovascular outcomes in people with type 2 diabetes: a meta-analysis of prospective cohort studiesDiabetes Res Clin Pract1021201365752393220610.1016/j.diabres.2013.07.009PMC4141536"
+    },
+    {
+      "html": "WeiM.GaskillS.P.HaffnerM.SternM.P.Effects of diabetes and level of glycemia on all-cause and cardiovascular mortality: the San Antonio heart studyDiabetes Care217199811671172965361410.2337/diacare.21.7.1167"
+    },
+    {
+      "html": "HuF.B.StampferM.J.HaffnerS.M.SolomonC.G.WilletW.C.MansonJ.E.Elevated risk of cardiovascular disease prior to clinical diagnosis of type 2 diabetesDiabetes Care2572002112911341208700910.2337/diacare.25.7.1129"
+    },
+    {
+      "html": "EinarsonT.R.AcsA.LudwigC.PantonU.H.Prevalence of cardiovascular disease in type 2 diabetes: a systematic literature review of scientific evidence from across the world in 2007-2017Cardiovasc Diabetol1783201810.1186/s12933-018-0728-6PMC599406829884191"
+    },
+    {
+      "html": "KosiborodM.N.BhattaM.DaviesM.Semaglutide improves cardiometabolic risk factors in adults with overweight or obesity:STEP 1 and 4 exploratory analysesDiabetes Obes Metab2520234684783620047710.1111/dom.14890PMC10092593"
+    },
+    {
+      "html": "SinclairA.BodeB.HarrisS.Efficacy and safety of canagliflozin compared with placebo in older patients with type 2 diabetes mellitus: a pooled analysis of clinical studiesBMC Endocr Disord181420143710.1186/1472-6823-14-37PMC402142624742013"
+    },
+    {
+      "html": "KengneA.P.PatelA.ColagiuriS.for the ADVANCE collaborative group. The Framingham and UK Prospective Diabetes Study (UKPDS) risk equations do not reliably estimate the probability of cardiovascular events in a large ethnically diverse sample of patient with diabetes: the Action in Diabetes and Vascular Disease: preterax and Diamicron-MR Controlled Evaluation (ADVANCE) StudyDiabetologia5320108218312015769510.1007/s00125-010-1681-4"
+    },
+    {
+      "html": "LimP.BleichD.Revisiting cardiovascular risk reduction in type 2 diabetes and dyslipidemiaInt J Cardiol Cardiovasc Risk Prev202210.1016/j.ijcrp.2022.200141PMC943440536060284"
+    },
+    {
+      "html": "TaskinenM.-R.BorenJ.New insights into the pathophysiology of dyslipidemia in type 2 diabetesAtherosclerosis239220154834952570606610.1016/j.atherosclerosis.2015.01.039"
+    },
+    {
+      "html": "MulkamalK.J.SiscovickD.S.de BoerI.H.Metabolic clusters and outcomes in older adults: the Cardiovascular Health StudyJ Am Heart Assoc8222019e012881"
+    },
+    {
+      "html": "SarwarN.SandhuM.S.RickettsS.L.Triglyceride-mediated pathways and coronary disease: collaborative analysis of 101 studiesLancet37597262010163416392045252110.1016/S0140-6736(10)60545-4PMC2867029"
+    },
+    {
+      "html": "NannaM.G.PetersonE.D.WojdylaD.AmarieNavarThe accuracy of cardiovascular pooled risk estimates in U.S. older adultsJ Gen Intern Med352020170117083166774510.1007/s11606-019-05361-4PMC7280419"
+    },
+    {
+      "html": "LiouL.KaptogeS.Association of small, dense LDL-cholesterol concentration and lipoprotein particle characteristics with coronary heart disease: a systemic review and meta-analysisPLoS One202010.1371/journal.pone.0241993PMC765232533166340"
+    },
+    {
+      "html": "LiuD.J.PelosoG.M.ButterworthA.S.Exom-wide Association Study of Plasma Lipids in &gt;300,000 IndividualsNat Genet49122017175817662908340810.1038/ng.3977PMC5709146"
+    },
+    {
+      "html": "HolmesM.V.AsselbergF.W.PalmerT.M.Mendelian randomization of blood lipids for coronary heart diseaseEur Heart J36920155395502447473910.1093/eurheartj/eht571PMC4344957"
+    },
+    {
+      "html": "BhattD.L.StegG.MillerM.and the REDUCE-IT Investigators. Cardiovascular Risk Reduction with Icosapent Ethyl for HypertriglyceridemiaN Eng J Med38012019112210.1056/NEJMoa181279230415628"
+    },
+    {
+      "html": "SaitoY.YokoyamaM.OrigasaH.and the JELIS Investigators, Japan. Effects of EPA on coronary artery disease in hypercholesterolemic patients with multiple risk factors: sub-analysis of primary prevention cases from the Japan EPA Lipid Intervention Study (JELIS)Atherosclerosis200120081351401866720410.1016/j.atherosclerosis.2008.06.003"
+    },
+    {
+      "html": "ACCORD Study GroupGinsbergH.N.ElamM.B.LovatoL.C.Effects of combination lipid therapy in type 2 diabetes mellitusN Eng J Med3621720101563157410.1056/NEJMoa1001282PMC287949920228404"
+    },
+    {
+      "html": "TenenbaumA.FismanE.Z.Fibrates are an essential part of modern anti-dyslipidemic arsenal: spotlight on atherogenic dyslipidemia and residual risk reductionCardiovasc Diabetol11201212510.1186/1475-2840-11-12523057687PMC3489608"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

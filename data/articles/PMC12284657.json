@@ -1,0 +1,860 @@
+{
+  "pmcid": "PMC12284657",
+  "pmid": "40703703",
+  "doi": "10.1016/j.ajpc.2025.101054",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12284657/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Preeclampsia: Insights into pathophysiological mechanisms and preventive strategies",
+  "articleType": "Review Article",
+  "published": "2025-07-03",
+  "year": "2025",
+  "volume": "23",
+  "issue": "",
+  "articleNumber": "101054",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2025",
+  "authors": [
+    {
+      "given": "Chiara",
+      "surname": "Martini",
+      "display": "Chiara Martini"
+    },
+    {
+      "given": "Zeeba",
+      "surname": "Saeed",
+      "display": "Zeeba Saeed"
+    },
+    {
+      "given": "Paola",
+      "surname": "Simeone",
+      "display": "Paola Simeone"
+    },
+    {
+      "given": "Stefano",
+      "surname": "Palma",
+      "display": "Stefano Palma"
+    },
+    {
+      "given": "Mirella",
+      "surname": "Ricci",
+      "display": "Mirella Ricci"
+    },
+    {
+      "given": "Allegra",
+      "surname": "Arata",
+      "display": "Allegra Arata"
+    },
+    {
+      "given": "Anna",
+      "surname": "Sorella",
+      "display": "Anna Sorella"
+    },
+    {
+      "given": "Rossella",
+      "surname": "Liani",
+      "display": "Rossella Liani"
+    },
+    {
+      "given": "Fabrizio",
+      "surname": "Ricci",
+      "display": "Fabrizio Ricci"
+    },
+    {
+      "given": "Francesco",
+      "surname": "D’Antonio",
+      "display": "Francesco D’Antonio"
+    },
+    {
+      "given": "Anna Vittoria",
+      "surname": "Mattioli",
+      "display": "Anna Vittoria Mattioli"
+    },
+    {
+      "given": "Sabina",
+      "surname": "Gallina",
+      "display": "Sabina Gallina"
+    },
+    {
+      "given": "Francesca",
+      "surname": "Santilli",
+      "display": "Francesca Santilli"
+    },
+    {
+      "given": "Giulia",
+      "surname": "Renda",
+      "display": "Giulia Renda"
+    }
+  ],
+  "affiliations": [
+    "aDepartment of Neuroscience, Imaging and Clinical Sciences, G. d’Annunzio University of Chieti-Pescara, Chieti, Italy",
+    "bCenter for Advanced Studies and Technology, G. d’Annunzio University of Chieti-Pescara, Chieti, Italy",
+    "cDepartment of Medicine and Aging, G. d’Annunzio University of Chieti-Pescara, Chieti, Italy",
+    "dUniversity Cardiology Division, SS. Annunziata Hospital, Chieti, Italy",
+    "eCenter for Fetal Care and High-risk Pregnancy, Department of Obstetrics and Gynecology, G. d’Annunzio University of Chieti-Pescara, Chieti, Italy",
+    "fDepartment of Quality of Life Sciences, University of Bologna – Alma Mater Studiorum, Bologna, Italy"
+  ],
+  "keywords": [
+    "Abnormal placentation",
+    "Endothelial dysfunction",
+    "Hypertension",
+    "Low-dose aspirin",
+    "Preeclampsia",
+    "Pregnancy"
+  ],
+  "abstract": [
+    {
+      "html": "Preeclampsia is a hypertensive disorder of pregnancy associated with significant maternal and fetal complications. Its pathogenesis involves endothelial dysfunction, abnormal placentation, and coagulation abnormalities, leading to increased thrombotic and hemorrhagic risks. This narrative review provides an in-depth overview of the pathophysiological mechanisms underlying preeclampsia, with a particular focus on its thrombotic and hemorrhagic complications. Treatment strategies are explored, with emphasis on the role of low-dose aspirin in reducing early-onset preeclampsia. However, aspirin’s effectiveness varies based on dosage and timing, with higher doses showing greater benefit in preventing severe preeclampsia. Despite aspirin’s widespread use, further optimization of its therapeutic role remains necessary to enhance maternal and fetal outcomes."
+    }
+  ],
+  "sections": [
+    {
+      "title": "List of abbreviations",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "APTTActivated partial thromboplastin timeCVDCardiovascular diseasesFGRFetal growth restrictionIUGRIntrauterine growth restrictionLDALow-dose aspirinLMWHLow-molecular-weight heparinMPsMicroparticlesNONitric oxidePlGFPlacental growth factorPTProthrombin timeRASrenin–angiotensin systemsEngsoluble endoglinsFlt-1soluble fms-like tyrosine kinase-1TFPITissue factor pathway inhibitorT-PATissue-type plasminogen activatorTXA2ThromboxaneA2VEGFVascular endothelial growth factorVTEVenous thromboembolism"
+        }
+      ]
+    },
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Preeclampsia is a complex multisystem disease, defined as new-onset hypertension, which usually occurs in a pre-gestational normotensive patient, typically after 20 weeks of gestation, and evidence of end-organ dysfunction in the presence or absence of proteinuria [1,2]. Preeclampsia commonly impacts 2 %−8 % of pregnancies, leading to substantial maternal and perinatal morbidity and mortality, especially in early-onset cases. Worldwide, approximately 76,000 women and 500,000 infants annually suffer from this condition. The economic impact includes increased cesarean deliveries, preterm births, and significant adverse outcomes, imposing a substantial burden on patients and healthcare systems [3].<strong>Central Illustration.</strong> Pathogenesis of preeclampsia and clinical manifestationsGenetic, environmental, and maternal risk factors lead to abnormal placentation, reduced maternal cardiovascular adaptation, and insufficient remodeling of spiral arteries. The release of antiangiogenic markers such as soluble fms-like tyrosine kinase-1 (sFlt-1) and soluble endoglin (sEng) in maternal circulation results in inflammation, immune dysfunction, hypercoagulability, platelet and endothelial dysfunction exerting a negative impact on maternal and fetus organ systems and causing hematological complications. For high-risk populations, low-dose aspirin treatment is recommended.IL-6, interleukin 6; MCP-1, monocyte chemotactic protein-1; PGE2, prostaglandin E2; PLGF, placental growth factor; sEng, soluble endoglin; sFlt-1, soluble fms-like tyrosine kinase-1; TXB<sub>2</sub>, thromboxaneB<sub>2</sub>; VEGF, vascular endothelial growth factor. (Created with Biorender.com).Unlabelled image"
+        },
+        {
+          "type": "paragraph",
+          "html": "The pathogenesis of preeclampsia is multifactorial, caused by genetic, environmental, and maternal risk factors leading to abnormal placentation, reduced maternal cardiovascular adaptation, and insufficient remodeling of spiral arteries. The abnormal placentation increases the release of antiangiogenic markers in maternal circulation, resulting in inflammation, immune dysfunction, hypercoagulability, platelet, and endothelial dysfunction. This exerts a negative impact on maternal and fetus organ systems and hematological complications (<strong>Central Illustration</strong>). Low-dose aspirin (LDA) is an effective treatment for reducing the risk of early-onset preeclampsia [1,4,5] in high-risk women by decreasing platelet activation and inflammation [6]. Given that efficacy varies due to factors such as dose and gestation [7,8], personalized management is crucial [7]."
+        },
+        {
+          "type": "paragraph",
+          "html": "This narrative review provides an in-depth overview of the pathophysiological mechanisms underlying preeclampsia, with a particular focus on its thrombotic and hemorrhagic complications. Treatment strategies are explored, with emphasis on the role of LDA in reducing early-onset preeclampsia."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors conducted the literature research between November 2023 and March 2025, using PubMed, ScienceDirect and Google Scholar as the primary sources. The search strategy focused on identifying the studies that particularly addressed the following outcomes in patients with preeclampsia: (a) the coagulation profile of preeclampsia patients, with an emphasis on endothelial and platelet dysfunction, coagulopathies, and microparticle production; (b) the clinical presentation and diagnostic features of preeclampsia; (c) bleeding and thrombotic complications; and (d) therapeutic strategies of preeclampsia involving aspirin, low-molecular-weight heparin (LMWH), and statins. Recent and high-impact studies were prioritized. The results were presented using a narrative approach due to the wide heterogeneity in study designs, populations, and outcomes across the available literature, which precluded a formal systematic synthesis. Studies were selected based on expert judgment of their relevance and scientific contribution, rather than through structured inclusion/exclusion criteria. The primary search terms used were ‘cardiovascular complication’, ‘hypercoagulation or coagulopathies’, ‘microparticles’ or ‘extracellular vesicles’, ‘clinical presentation’, ‘thrombotic complication’, ‘hemorrhage risk’, ‘aspirin’, ‘low molecular weight heparin’, and ‘statin,’ in combination with the term ‘preeclampsia’. Both original research articles and selected high-quality reviews were considered."
+        }
+      ]
+    },
+    {
+      "title": "Classification and risk factors of preeclampsia",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Preeclampsia is categorized into early-onset (&lt;34 weeks) and late-onset (≥34 weeks). Additionally, it is subcategorized as preterm (delivery at &lt;37 weeks) and term (delivery at ≥37 weeks). Early-onset preeclampsia carries a greater risk of adverse maternal and perinatal outcomes compared to late-onset or term preeclampsia [3]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Extensive research has examined risk factors associated with preeclampsia. Major factors include prior preeclampsia, chronic hypertension, pre-existing diabetes, antiphospholipid syndrome, and obesity. Additional risks comprise advanced maternal age, nulliparity, chronic kidney disease history, and assisted reproductive technology use [9,10]. These maternal conditions have been reported to be associated with endothelial dysfunction, which may contribute to increased risk of preeclampsia [11]. Genetic predisposition has been extensively investigated. African-American women have a higher risk than white women. Offspring of mothers with preeclampsia have increased risk. A genome-wide study linked a fetal genome single-nucleotide polymorphism near FLT1 to preeclampsia. Increased levels of soluble fms-like tyrosine kinase-1 (sFlt1) have been detected in instances of trisomy 13 and multifetal and molar pregnancies, indicating a heightened susceptibility to preeclampsia [11]. Tyrmi et al. [12]. identified 13 new loci significantly linked to preeclampsia and related maternal hypertension. These loci impact endothelial function, placental development, and immunity, suggesting shared genetic mechanisms between preeclampsia and cardiovascular diseases (CVD), highlighting pregnancy as a window to future cardiovascular health."
+        },
+        {
+          "type": "paragraph",
+          "html": "Recent studies point to hyperlipidemia as a risk factor for preeclampsia. Lipid metabolism undergoes significant physiological changes during normal pregnancy. From the second trimester onward, levels of total cholesterol, LDL-C, HDL-C, triglycerides, and non-HDL cholesterol increase markedly [13]. Total cholesterol and LDL-C can rise by up to 50–60 %, and triglycerides may increase by as much as 200 %, with values peaking in the third trimester [14]. These changes support placental hormone production, maternal fat storage, and fetal membrane development. Dyslipidemia in pregnancy is defined by lipid levels above the 95th percentile (for total cholesterol, triglycerides, LDL-C) or below the 5th percentile (for HDL-C) for gestational age. Severe hypertriglyceridemia (&gt;1000 mg/dL) is rare and usually occurs in late pregnancy [15]."
+        },
+        {
+          "type": "paragraph",
+          "html": "A large European cohort study found that high triglycerides levels in the first trimester, but not total cholesterol, were independently associated with adverse outcomes, such as gestational hypertension, preeclampsia, and large-for-gestational-age preterm births [16]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Maternal hypercholesterolemia has been proposed as a potential risk modifier and warrants further study [17,18]. Current practice does not routinely include lipid testing pre-conception or during pregnancy. Professional, societal recommendations should advocate for hyperlipidemia screening, followed by appropriate management, pre-conception and during pregnancy [19]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Diet has become a focus of growing concern as a risk factor in the etiology of preeclampsia. Several studies have reported that micronutrient deficiency is associated with increased risk of developing this disorder. A meta-analysis [20] of 27 randomized clinical trials reported that vitamin D supplementation significantly reduced the risk of preeclampsia, especially when administered before 20 weeks of gestation. Adequate calcium intake has also been shown to help prevent preeclampsia during pregnancy. Meertens et al. [21]. focused on calcium supplementation and recommended that it can lead to significant reductions seen in the incidence of this condition. A prospective cohort study [22] also reported that multivitamin/mineral supplementation in the first-trimester was associated with a reduced risk of preeclampsia, particularly among obese and overweight women, indicating that micronutrient support in the early weeks of pregnancy may modulate the inflammatory pathway or oxidative stress-induced mechanisms involved in preeclampsia pathogenesis."
+        }
+      ]
+    },
+    {
+      "title": "Pathophysiology of preeclampsia",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The pathogenesis of preeclampsia is complex and remains unclear. A multifactorial combination of genetic and environmental/maternal risk factors, along with abnormal placentation, reduced maternal cardiovascular adaptation, insufficient remodeling of spiral arteries, inflammation, immune dysfunction, hypercoagulability, platelet dysfunction, and endothelial dysfunction, is suggested to be involved in the pathophysiology of preeclampsia [9,10] (Fig. 1).Fig. 1Pathophysiology of preeclampsiaA complex combination of genetic and environmental/maternal risk factors are involved in the development of preeclampsia. Circulating syncytiotrophoblast-derived MPs reveal placental injury and trigger hypercoagulability. Preeclamptic women exhibit high levels of MPs derived from platelets, endothelial cell, leukocytes, and monocytes. Endothelial dysfunction leads to platelet aggregation and adhesion. Elevated levels of activated platelets enhance platelet-leukocyte aggregation, resulting in a inflammatory and prothrombotic state. Transfusing erythrocytes promote thrombosis in preeclamptic women. GLUT3, glucose transporter 3; MPs, microparticles; NO, nitric oxide; sFlt-1, soluble fms-like tyrosine kinase-1; TFPI, tissue factor pathway inhibitor; t-PA, Tissue-type plasminogen activator; TXA<sub>2</sub>, thromboxaneA2; vWf, von Willebrand factor.Fig 1"
+        }
+      ]
+    },
+    {
+      "title": "Abnormal placentation",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "It is believed that preeclampsia advances in two stages: a preclinical phase characterized by abnormal placental development with incomplete spiral artery remodeling in the early first trimester and a clinical phase in the later second and third trimesters, characterized by an excess of antiangiogenic factors, leading to a “maternal syndrome” featuring hypertension, proteinuria, and organ dysfunction due to placental hypoxia [23]. During normal implantation, placental trophoblasts migrate into the maternal uterine spiral arteries, prompting extensive remodeling that eliminates their smooth muscle layer. This invasion extends deeply into the spiral artery, resulting in extensive remodeling of maternal spiral arterioles into high-capacity and high-flow vessels, facilitating increased blood flow to nourish the fetus independently of maternal vascular adjustments. However, in preeclampsia, cytotrophoblasts fail to undergo the required transformation from a proliferative epithelial subtype to an invasive endothelial subtype, resulting in incomplete artery remodeling. This deficiency leads to narrowing of maternal vessels and relative placental ischemia [24]. Placental ischemia prompts the release of antiangiogenic factors such as sFlt-1 and soluble endoglin (sEng) into the maternal circulation. These factors antagonize proangiogenic molecules like vascular endothelial growth factor (VEGF) and placental growth factor (PlGF), impairing angiogenesis. This imbalance contributes to maternal hypertension, proteinuria, and organ dysfunction. Understanding these mechanisms highlights the importance of early detection to prevent adverse outcomes [25]."
+        }
+      ]
+    },
+    {
+      "title": "Endothelial dysfunction",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Endothelial integrity is vital for a successful pregnancy. In physiological conditions, the endothelium exhibits a negatively charged, non-adhesive glycosaminoglycan layer that impedes thrombin generation and the adhesion of platelets and leukocytes. The intact endothelial layer expresses various anticoagulant proteins, including thrombomodulin, the endothelial protein C receptor, and tissue plasminogen activator [26]. Abnormal placentation leading to endothelial dysfunction is key to pathophysiology of preeclampsia, and it occurs before the clinical manifestation of preeclampsia. In preeclampsia, placental ischemia induces systemic endothelial damage through the release of antiangiogenic factors and inflammatory mediators, disrupting vascular homeostasis [25]. Endothelial adhesion molecules on the endothelium of maternal and the uterine placental bed facilitate neutrophil and platelet recruitment [26], while increased expression of molecules like intercellular adhesion molecule 1 enhances inflammatory cell adhesion and endothelial derived microparticles (MPs) release [26]. In preeclampsia pathophysiology, oxidative stress reduces nitric oxide (NO) availability via endothelial NO synthase inhibition or NO reaction with superoxide to form peroxynitrite [27]. NO mediates vasorelaxation, anti-aggregation, and is crucial in placentation and VEGF production, besides inhibiting leukocyte adhesion and platelet aggregation. Reduced NO availability contributes to abnormal placentation; these changes heighten vascular resistance and promote hypertension [27]. Elevated levels of von Willebrand factor, endothelin, thrombomodulins, and fibronectin in maternal circulation activate endothelial cells [27], leading to platelet aggregation and adhesion with consequent increase in abnormal coagulation due to collagen exposure [25]. Increased thromboxaneA2 (TXA<sub>2</sub>) and decreased prostacyclin production disrupt the prostacyclin/TXA<sub>2</sub> ratio, reducing uteroplacental blood flow and exacerbating placental ischemia and endothelial damage [27]. Endothelial dysfunction and damage in preeclampsia can compromise the anticoagulant activity of activated protein C and increase exposure to sub-endothelial tissue factor, triggering blood coagulation [26]."
+        }
+      ]
+    },
+    {
+      "title": "Platelet dysfunction",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "During late first-trimester pregnancy, uterine arteries undergo remodeling as extravillous trophoblasts invade, replacing vascular smooth muscle and endothelium and creating vessels which facilitate placental perfusion. The perturbation of this process leads to reduced perfusion, placental stress, and platelet accumulation in the partially disrupted placenta [24,28]. Platelet activation play a key role in the pathophysiology of preeclampsia, by causing hemostatic abnormalities [29]. Procoagulant activity of platelets may cause impaired placental circulation, potentially causing fetal growth restriction (FGR) [30]. Nowaczyk et al. [30]. found that in pregnancies complicated by FGR, maternal platelets exhibit elevated reactive oxygen species and defective metabolism, so platelet dysfunction, rather than count or volume, correlates with FGR. Moreover, platelet redox imbalance contributes to oxidative damage and modulates platelet activation, impacting NO bioavailability. Although challenging to measure, intraplatelet reactive oxygen species warrant examination for potential interventions in preventing FGR. Targeting platelet mitochondria, crucial in generating reactive oxygen species, offers a promising therapeutic strategy to mitigate impaired oxygen metabolism and platelet dysfunction in preeclampsia. Thrombocytopenia, the most common hemostatic abnormality in pregnancy-induced hypertension, worsens with disease severity and is caused by platelet clearance and hemolysis in preeclampsia. In preeclampsia, platelet adhesion to endothelial cells induces inflammatory cytokine release, causing severe hemostatic, vascular, and coagulation abnormalities, leading to serious feto-maternal complications [29]. Elevated levels of activated platelets enhance platelet-leukocyte aggregation, promoting a prothrombotic state. The resultant platelets-leukocyte aggregates upregulate sFlt-1 expression, exacerbating endothelial dysfunction and inflammation [31]."
+        }
+      ]
+    },
+    {
+      "title": "Mother and infants’ outcomes",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Preeclampsia is linked to an elevated risk of short- and long-term cardiovascular and chronic diseases for both mothers and infants [2]. If preeclampsia is not treated, women are at risk of immediate life-threatening complications like acute kidney disfunction, hepatic failure and rupture, pulmonary oedema, eclampsia, brain injury, hematologic disturbance and even death [2,32]. In addition, women are at a higher risk of developing CVD, stroke, metabolic syndrome, cognitive impairment, and chronic end-stage renal disease later in life. Preeclampsia also correlates with FGR. Babies born to mothers with preeclampsia face potential complications in the medium and long term, including neurodevelopmental issues, insulin resistance, diabetes mellitus, coronary heart disease, and hypertension [2,32]."
+        }
+      ]
+    },
+    {
+      "title": "Clinical manifestation of pre-eclampsia",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The clinical manifestations extend beyond elevated blood pressure, involving various organ systems including renal, hepatic, neurological, cardiac, hematologic, and pulmonary systems. Understanding these systemic effects is critical for timely diagnosis and management [2] (Fig. 2).Fig. 2Clinical manifestation of preeclampsiaThe figure illustrates the systemic manifestations of preeclampsia, including hypertension, renal dysfunction with proteinuria, hepatic impairment, neurologic complications such as eclampsia, hematologic abnormalities leading to thrombotic complications, and cardiovascular involvement. These manifestations highlight the multifactorial impact of preeclampsia on maternal health and its potential complications. (Created with Biorender.com).Fig 2"
+        }
+      ]
+    },
+    {
+      "title": "Hypertension",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Gestational hypertension is defined by a systolic blood pressure equal to or exceeding 140 mmHg, and/or a diastolic blood pressure equal to or exceeding 90 mmHg, recorded on two separate occasions at least 4 h apart after the 20th week of gestation in a woman who previously had normal blood pressure. In cases of gestational hypertension with severe range blood pressures (a systolic reading of 160 mmHg or higher, and/or a diastolic reading of 110 mmHg or higher), a diagnosis of preeclampsia with severe features is warranted [1]. In preeclampsia, hypertension arises alongside increased systemic vascular resistance and afterload, involving the participation of the renin–angiotensin system (RAS) and immune mechanisms. While the RAS is typically upregulated in normal pregnancy, preeclampsia displays lower levels of renin, angiotensin II, and aldosterone. In normal pregnancies, AT1-receptor is down-regulated, whereas in preeclampsia, it enhances the RAS cascade by forming a heterodimer with bradykinin receptor B2 [33]. Furthermore, placental hypoxia triggers the production of stimulatory autoantibodies against the second extracellular AT1 receptor loop, intensifying vasoconstriction. These autoantibodies may contribute to angiotensin-II–induced vascular lesions in these patients, increasing sensitivity to angiotensin-II through elevated endothelin-1, and enhancing placental production of sFlt-1 and sEng [34]."
+        }
+      ]
+    },
+    {
+      "title": "Renal involvement",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Proteinuria in preeclampsia results from increased renal tubular permeability to large-molecular-weight proteins and it is defined as 300 mg or more per 24-hour urine collection or protein/creatinine ratio of 0.3 or more or dipstick reading of 2+[1]. In physiological conditions, VEGF plays a crucial role in maintaining renal glomerular integrity by inducing the formation of endothelial fenestrations. Elevated sFlt-1 released from the hypoxic placenta and reduced NO contribute to renal tubular injury. High sFlt-1 levels inhibit podocyte-specific VEGF, leading to glomerular endothelial damage, termed glomerular endotheliosis, characterized by endothelial swelling and capillary narrowing. This disrupts glomerular filtration barrier and induces inter-podocyte separation, thereby fostering proteinuria. This, combined with reduced VEGF and PlGF availability, triggers endothelin 1 expression, promoting podocyte detachment from the glomerular endothelium [35]. Additionally, preeclampsia induces thrombotic microangiopathy in the kidneys due to hematologic abnormalities, increased proinflammatory cytokines, and reduced prostaglandin and NO levels, causing renal dysfunction [36]. In preeclampsia, renal insufficiency is characterized by serum creatinine levels exceeding 1.1 mg/dL or a twofold increase in serum creatinine concentration without any underlying renal pathology [1]. While glomerular complications often improve post-delivery, evidence suggests that preeclampsia elevates the risk of future chronic kidney diseases [36]."
+        }
+      ]
+    },
+    {
+      "title": "Liver involvement",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Liver dysfunction in severe preeclampsia manifests with elevated alanine aminotransferase and aspartate aminotransferase levels, with alanine aminotransferase dominance indicating periportal necrosis. LDH elevation suggests hepatic ischemia and hemolysis, while coagulation parameter abnormalities reflect advanced disease. Alanine aminotransferase elevation surpassing aspartate aminotransferase initially aids in distinguishing preeclampsia from other liver diseases [1]. Liver dysfunction correlates with endothelial dysfunction, exacerbating hepatic microcirculatory compromise and hepatocellular necrosis. Elevated sFlt-1, inhibiting VEGF, alongside decreased NO synthase due to preeclampsia, synergistically induce liver dysfunction and thrombocytopenia. Liver rupture is a rare but life-threatening complication, associated with high maternal and perinatal mortality rates. Clinical presentation includes epigastric pain, shock, and collapse, with abdominal pain as a key initial symptom [37]."
+        }
+      ]
+    },
+    {
+      "title": "Neurological involvement",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Preeclampsia presents significant neurological complications such as seizures, cerebral hemorrhages, stroke, venous thrombosis, posterior reversible encephalopathy syndrome, and eclampsia, driven by complex mechanisms. These events, occurring during and after pregnancy, are often unpredictable and can lead to maternal mortality if not promptly managed [38]. In preeclampsia, posterior reversible encephalopathy syndrome can manifest, presenting with symptoms like headache, seizures, visual disturbances, and other focal neurological deficits. Two main theories explain its pathophysiology: elevated blood pressure exceeding brain autoregulatory limits, causing cerebral hypertension and vasogenic edema, and endothelial dysfunction [37,38]. Eclampsia, characterized by seizures in pregnancy-induced hypertension, involves complex mechanisms, which may involve endothelial injury mitigation. Eclampsia&#x27;s pathogenesis includes vasogenic and cytotoxic edema, possibly linked to cerebral blood flow dysregulation. Understanding these mechanisms aids in diagnosis and treatment, potentially preventing irreversible neurological damage [39]."
+        }
+      ]
+    },
+    {
+      "title": "Cardiac involvement",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "During a normal pregnancy, the cardiovascular system adjusts to support fetal development, with decreased peripheral resistance and a 30–50 % increase in cardiac output due to elevated heart rate and plasma volume. These changes prompt transient left ventricular eccentric hypertrophy, which resolves after childbirth. In preeclampsia, elevated vascular resistance due to impaired placentation exacerbates left ventricular remodeling, resulting in mild-to-moderate isolated left ventricular diastolic dysfunction and concentric hypertrophy. Unlike eccentric remodeling, which is a natural response, concentric remodeling reflects an abnormal cardiac adaptation to increased vascular resistance [37]. Preeclampsia increases the risk of peripartum cardiomyopathy, characterized by reduced left ventricular ejection fraction (&lt;45 %) late in pregnancy or in early postpartum. Angiogenic imbalance and endothelial damage are key factors in both conditions, suggesting a possible causal relationship between preeclampsia and peripartum cardiomyopathy [40]. Preeclampsia increases the risk of future CVD, including venous thromboembolic events, stroke, myocardial infarction, and coronary heart disease [41,42]. Shared risk factors between preeclampsia and CVD include obesity, insulin resistance, metabolic abnormalities, dyslipidemia, elevated inflammatory responses, endothelial dysfunction, and hypercoagulable conditions. Persistent vascular damage and metabolic abnormalities may contribute to future cardiovascular complications in women with a history of preeclampsia [41]. Early detection of risk factors during pregnancy can mitigate adverse outcomes and predict future CVD. Understanding defective uteroplacental vascular remodeling is crucial to uncover the mechanisms linking preeclampsia to CVD [42]. Elevated inflammatory biomarkers like IL-6 and TNF-α correlate with CVD risk in preeclampsia. Reducing inflammation may improve endothelial function and lower CVD risk via NO-mediated mechanisms. This approach warrants exploration for reducing CVD risk in this populations [43]."
+        }
+      ]
+    },
+    {
+      "title": "Pulmonary oedema",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Pulmonary oedema is a rare but severe complication of preeclampsia, contributing to maternal mortality. Multiple factors contribute to its development in pregnancy, including the use of tocolytic agents, cardiac disease, and fluid overload. Preeclampsia poses an elevated risk due to endothelial damage and reduced colloid osmotic pressure, resulting in fluid leakage into the pulmonary interstitium or alveolar space. When coupled with left ventricular dysfunction and increased peripheral vascular resistance, pulmonary oedema may ensue. Prompt recognition and management are essential to prevent adverse outcomes [44]."
+        }
+      ]
+    },
+    {
+      "title": "Hematologic involvement",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "title": "Mechanisms of thrombosis in preeclampsia",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In late pregnancies, pregnant women experience a protective hypercoagulable state to prevent excessive bleeding during delivery. This state intensifies in placenta-related complications, like preeclampsia, leading to pathological prothrombotic state [31]. Altered hemostasis involves heightened platelet activation, fibrin accumulation, impaired fibrinolysis, and consumptive thrombocytopenia. Narrowed spiral arteries cause turbulent blood flow, activating coagulation cascades in the intervillous space [27,31]. Preeclamptic patients exhibit atherosclerotic lesions in spiral arteries, accompanied by activated platelets marked by TXA<sub>2</sub>, fibrin, complement deposits, and foam cells [27]. Soluble factors and extracellular vesicles released by placental lesions propagate, contributing to endothelial dysfunction and a hypercoagulable state in preeclamptic patients [31]."
+        }
+      ]
+    },
+    {
+      "title": "Preeclampsia and venous thromboembolism",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Thromboembolic complications can occur four to five times higher in healthy pregnant women compared to non-pregnant women due to the prothrombotic state of the blood, with the highest-risk phase being the postpartum period [26]. The underlying factors leading to venous thrombosis consist of hypercoagulability, venous stasis, and vascular damage of Virchow&#x27;s triad, all persisting through pregnancy and extending into the postpartum period. High-risk factors for venous thromboembolism (VTE) include multiple birth, cesarean birth, preeclampsia, postpartum hemorrhage, placenta previa, advanced maternal age, low socioeconomic status, and premature rupture of membranes [45]. Particularly, preeclamptic patients are predisposed to a risk of VTE up to five times higher than the standard pregnancy-related risk documented in the general population, which can lead to death during pregnancy and the postpartum period [26]. Placenta previa correlates with antenatal thromboembolism, and postpartum hemorrhage is linked to postpartum thromboembolism. In both cases, blood transfusions are common [45]. In cases of placenta previa, frequent blood transfusions and the storage of red blood cells can increase the risk of thrombosis. Park et al. [45]. confirmed that preeclampsia is a postpartum, but not antenatal, risk factor for thromboembolism. This is attributed to vascular endothelial damage and the inherent thrombophilic disorder in preeclampsia, with limited delivery movement due to the mother&#x27;s condition being another potential factor. Multiple deliveries cause more than a 2-fold increase in the risk of thromboembolism, as they are more associated with gestational hypertension, antenatal hemorrhage, and cesarean delivery. Cesarean section is related to a high risk of thrombosis due to elevated tissue trauma, the increased release of tissue factor, and long-term immobilization [45]. Establishing personalized risk prediction models for the development of preeclampsia and the associated risk of VTE is crucial to advance promising therapeutic approaches. Prioritizing research in this area has the potential to decrease morbidity and mortality in both mothers and neonates [26]."
+        }
+      ]
+    },
+    {
+      "title": "Coagulopathy",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Normal pregnancy exhibits a hypercoagulable state with increased coagulation and angiogenic factors, and decreased natural anticoagulant factors, like protein S, activated protein C and fibrinolysis, providing protection against bleeding during implantation and childbirth. In preeclampsia, this balance shifts dramatically, exacerbating hypercoagulability and leading to coagulopathy. Enhanced thrombin generation triggers fibrin formation and platelet activation, promoting hypercoagulation and impairing vascular function [25,31]. During placentation, tissue factor and plasminogen activator inhibitor 1 are the key modulators of hemostasis [46]. The balance between coagulation and anticoagulation is necessary for uteroplacental circulation and organ perfusion in pregnant women. Enhanced thrombin generation in individuals with preeclampsia triggers fibrin formation and activates platelets and endothelial cells, resulting hypercoagulation [31]. Preeclamptic women exhibit abnormal coagulation profiles, with prolonged activated partial thromboplastin time (APTT), prothrombin time (PT), elevated D-dimer, and mean platelets volume [25]. However, natural anticoagulants like antithrombin III, protein C, and protein S decline. Jin et al. [25]. examined pregnant women&#x27;s coagulation profiles during first trimester for later preeclampsia risk. Their results showed lower D-dimer, APTT, thrombin time, antithrombin, and fibrin degradation products in preeclampsia women at diagnosis compared to controls. Alterations in coagulation were not linked to severity or onset time. Early pregnancy coagulation profiling may predict preeclampsia development, enhancing preventive strategies for patient safety. Additionally, postpartum women are at high risk of simultaneous bleeding and thrombosis, requiring vigilance in management strategies. Tissue factor pathway inhibitor (TFPI) plays a significant role in modulating coagulation, fibrinolysis, and trophoblast invasion for successful pregnancies [46]. TFPI deficiency and altered fibrinolytic system are linked to defective spiral artery development [46,47]. Plasminogen, converted to plasmin, is a key enzyme in the fibrinolytic system which induces fibrin degradation to produce fibrin degradation products. The activating capacity of tissue-type plasminogen activator (t-PA) depends on fibrin presence. Preeclampsia is associated with defects in t-PA induced activation of plasminogen [47]. Endothelial dysfunction in preeclamptic women elevates t-PA and plasminogen activator inhibitor 1, signifying hypercoagulability. Godtfredsen et al. [47]. found elevated t-PA and plasminogen activator inhibitor 1 levels in preeclampsia, with lower plasminogen activator inhibitor 2 concentrations compared to controls. Plasminogen activator inhibitor 2 polymerize in both groups and no difference in fibrinolytic potential was observed. D-dimer increased and plasminogen/plasmin inhibitor and fibrin clot lysability time decreased in preeclampsia. They concluded that disruptions in the t-PA/plasminogen activator inhibitor 1 system, decreased plasminogen activator inhibitor 2, and increased fibrin lysability contribute to preeclampsia development. Altered concentrations in preeclamptic women suggest TFPI as potential predictive biomarkers for preeclampsia [46]."
+        }
+      ]
+    },
+    {
+      "title": "HELLP syndrome in preeclampsia",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "HELLP syndrome is considered a severe complication of preeclampsia. HELLP syndrome involves microangiopathic hemolysis, liver enzyme elevation, and thrombocytopenia, often presenting with common symptoms like nausea, vomiting, headache, and visual changes. Thrombocytopenia arises from platelet consumption due to diffuse injury. Severe cases may progress to disseminated intravascular coagulation, characterized by decreased fibrinogen and antithrombin levels, and increased prothrombin time and fibrin [48]."
+        }
+      ]
+    },
+    {
+      "title": "Role of microparticles",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Under normal physiological conditions, MPs contribute to maintaining homeostasis. In comparison to normal pregnant women, preeclamptic women exhibit high levels of MPs derived from platelets, endothelial cells, syncytiotrophoblasts, leukocytes, and monocytes [49]. High levels of circulating membrane MPs exhibiting tissue factor and procoagulant phospholipids like phosphatidylserine trigger thrombin generation and are associated with vascular complications in pregnant women and the risk of fetal loss [50]. Maternal conditions associated with endothelial cell activation and immune system modulation may induce the release of MPs, leading to increased endothelial dysfunction, inflammation, and coagulation [49]. Circulating syncytiotrophoblast-derived MPs manifest placental injury [49]. Preeclampsia causes alterations in the circulating platelet MPs profile, which may affect hemostasis and increase the risk of preeclampsia-associated VTE [26]. Platelet MPs tend to activate endothelium, monocytes, and platelets and are involved in trophoblast dysfunction, abnormal placentation, imbalanced angiogenesis, and intravascular inflammation [49,51]. Elevated levels of circulating endothelial MPs in preeclamptic women indicate endothelial damage, and these MPs&#x27; count may serve as a biomarker for predicting severe endothelial dysfunction in pregnant women [49]."
+        }
+      ]
+    },
+    {
+      "title": "Prevention of preeclampsia and related complications",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "LDA is the recommended medication for preventing preeclampsia in high-risk women, using doses ranging from 50 to 150 mg daily, and starting between 12 and 28 weeks, continuing until delivery [52]. The most beneficial effects are seen when aspirin is started before 16 weeks’ gestation [1]. Aspirin is a non-steroidal anti-inflammatory drug that non-selectively and irreversibly inhibits the activity of cyclooxygenase, leading to a reduction of prostaglandins and TXA<sub>2</sub>. This effect results in an antithrombotic outcome by decreasing the TXA<sub>2</sub>/prostacyclin (PGI<sub>2</sub>) ratio [5]. The underlying mechanism of aspirin treatment to prevent preeclampsia is not clearly known. Proposed mechanisms include the inhibition of thromboxane production, enhancing the placentation process, inhibiting platelet aggregation to reduce placental infarction, and exerting anti-inflammatory effects while stabilizing endothelial function [4]. On the other hand, aspirin&#x27;s efficacy in preventing preeclampsia varies, possibly due to factors beyond TXA<sub>2</sub>/PGI<sub>2</sub> modulation, such as patient variability and gestational timing. Its greater effectiveness against early-onset preeclampsia suggests a role in placental development rather than maternal biochemical dysregulation [5]. Aspirin treatment inhibits platelets activation and inflammation, mitigating preeclampsia development [6]. LDA also improves trophoblast invasion and migration into the uterine arteries, disrupts cytokine production, and stimulates the production of the proangiogenic protein PlGF, thereby inhibiting apoptosis and premature remodeling of uterine arteries [28]. The first case report of aspirin’s potential use during pregnancy was reported in 1978 by Fitzgerald DJ [53], who described that in patients with preeclampsia thromboxane production was increased in conjunction with decreased prostaglandin; usually thromboxane is produced mainly in trophoblastic and stromal tissues, whereas PGI<sub>2</sub> is produced mainly in vascular tissue. In preeclamptic pregnancy, the placenta produces seven times more thromboxane than prostacyclin. However, the prophylactic role of aspirin remains controversial due to varying results, with literature reporting a risk reduction ranging from 10 % to 68 %. This variability could be due to factors like aspirin dosage, timing of initiation, and risk assessment methods [5]. Despite aspirin&#x27;s efficacy, a subgroup of women remains at high risk for preeclampsia regardless of treatment due to aspirin non-responsiveness. The underlying reason for this variability in responsiveness is unknown. Genetic differences, pharmacokinetics, and pharmacodynamics have been considered to play an essential role [7,8]. Given the large prevalence of preeclampsia, personalized management strategies are essential to optimize outcomes and mitigate drug side effects [7]."
+        }
+      ]
+    },
+    {
+      "title": "Aspirin treatment",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "title": "How and when",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "It is considered that initiation of aspirin treatment should be provided before 16 weeks of gestation, as placental development and remodeling of uterine spiral arteries are typically concluded by the 20th week of gestation [54]. Its effectiveness follows a dose-response pattern, with the greatest impact observed with 100 mg dose when taken before 16 weeks of gestation [5]. Aspirin was not effective when provided after the occurrence of preeclampsia due to placental factors such as shallow implantation [55]. Thus, administering aspirin before full placental formation is crucial to mitigate complications of pregnancy-induced hypertension [6]. The reason behind ineffectiveness of aspirin treatment initiation after 16 weeks of gestation is unknown and the effect of aspirin treatment on the molecular pathways involved in pathogenesis of preeclampsia is unclear."
+        },
+        {
+          "type": "paragraph",
+          "html": "The key characteristics of trials evaluating the use of low-dose aspirin for the prevention of preeclampsia are detailed in Table 1. Some studies have shown conflicting results, indicating no significant difference in reducing preeclampsia risk with aspirin. Meta-analyses suggest a dose-dependent effect, with doses ≥100 mg showing a stronger preventive impact—especially when started before 16 weeks—some individual trials yielded neutral results, likely due to heterogeneity in design, timing, and populations. The strongest evidence supports daily aspirin at 150 mg initiated before 16 weeks of gestation in high-risk women. This discrepancy may be attributed to diverse risk factors in preeclamptic women, compounded by various comorbidities and variations in aspirin dosage/timing. Earlier aspirin initiation may prevent preterm birth and small-for-gestational-age infants [6]. Richards et al.’s meta-analysis [6] found no preeclampsia risk reduction difference between early and late aspirin initiation. However, aspirin and/or dipyridamole significantly decreased preterm birth risk before 37 weeks, especially in hypertensive women. This suggests LDA could effectively prevent late preterm birth in hypertensive women. Moderate to late preterm birth is linked to placental vascular pathology, while very preterm birth is associated with infection and inflammation. Chronic hypertension notably predisposes pregnant women to vascular pathology compared to other preeclampsia risk factors. Aspirin’s efficacy in reducing late preterm birth in hypertensive women may stem from its action on placental vascular pathology. Further research is needed to comprehend aspirin&#x27;s mechanism in preventing preterm birth.Table 1Selected landmark trials on low-dose aspirin use in preeclampsia prevention.Table 1Authors, yearN. of patientsInclusion criteriaAspirinComparator armOnset (weeks)OutcomesFindingsAmro et al. (2025)[68]343BMI≥30 kg/m<sup>2</sup> and at least 1 of 3 high-risk PE factors162 mgASA 81 mg12–20PE with severe featuresAmong high-risk obese individuals, there was a 78 % probability of benefit that 162 mg aspirin compared with 81 mg will decrease the rate of preeclampsia with severe featuresAyala et al. (2013)[86]350History, risk factor100 mgPlacebo13PE, preterm delivery, stillbirth, IUGRLower hazard ratio (HR) of serious adverse outcomes (0.35, 95 % [CI]: 0.22–0.56; <em>p</em> &lt; 0.001); no increased risk of hemorrhage, with low-dose ASA relative to placebo (HR: 0.57, 95 % CI: 0.25–1.33; <em>p</em> = .194)Caritis et al. (1998)[87]523High risk60 mgPlacebo&lt;16PE, preterm birth, SGA, abruptio placentaLow-dose ASA did not reduce the incidence of PE significantly or improve perinatal outcomes in pregnant women at high risk for PECLASP (1994)[88]9309History, risk factors60 mgPlacebo12–32PE, IUGR, stillbirthNor was there any significant effect on outcomes. ASA significantly reduce the likelihood of preterm delivery (19.7 % aspirin vs 22.2 % control; absolute reduction of 2.5 [SD 0.9] per 100 women treated; 2p = 0.003). ASA was not associated with a significant increase in placental hemorrhagesGoffinet (1996)[89]970History, risk factors60 mgPlacebo12–32PE, preterm delivery, IUGR, birthweight, stillbirthThere were no significant differences between the treatment groups in terms of outcomes. ASA was not associated with a significant excess of maternal or fetal bleedingGolding et al. (1998)[90]6049Nulliparity60 mgPlacebo12–32Gestational HTN, PE, eclampsia, birthweight, preterm birthNo differences between patients in treatment with ASA and those on placebo in the development of hypertensive disorders OR was 1.02 [95 % CI 0.86–1.21]. They were, however, significantly more likely to suffer from bleeding disorders OR 1.40 (95 % CI 1.13–1.73)Hermida et al. (1999) [91]350History, risk factors100 mgPlacebo12–16IUGR, preterm birth, abruptio placentaEffects of aspirin on blood pressure were significantly larger for women with a positive tolerance-hyperbaric test at the time of recruitment (<em>P</em>&lt;.001)Morris et al. (1996) [92]102Nulliparity and abnormal uteroplacental resistance at 18 weeks of gestation100 mgPlacebo17–19Fetal growth restriction, PE, preterm birth, perinatal deathProphylactic ASA therapy did not result in a significant reduction in pregnancy complicationsRolnik et al. (2017)[93]1629High risk for preterm PE150 mgPlacebo11–14Preterm PE, PE, gestational HTN, SGA, stillbirth, abruption, preterm birth, poor fetal growthIn the ASA group, the incidence of preterm PE was reduced by 62 %Villa et al. (2013)[94]121Abnormal uterine artery Doppler plus history100 mgPlacebo12–14PE, gestational HTN, birthweight, SGALow-dose ASA did not reduce the rate of PE (relative risk [RR] 0.7, 95 % CI 0.3–1.7); gestational HTN (RR 1.6, 95 % CI 0.6–4.2)Yu et al. (2003)[55]560High risk of uteroplacental insufficiency150 mgPlacebo22–24Incidence of PE and the other consequences of impaired placentationNo significant differences between the ASA and placebo groups in either the incidence of PE (18 % vs. 19 %, <em>P</em> = .6)ASA, acetylsalicylic acid; HNT, hypertension; IUGR, intrauterine growth restriction; PE, preeclampsia; SGA, small for gestational age."
+        },
+        {
+          "type": "paragraph",
+          "html": "The milestone study informing the guidelines is the large ASPRE trial (Aspirin versus Placebo in Pregnancies at High Risk for Preterm Preeclampsia) [56], that enrolled 1776 women at high risk for preeclampsia undergoing a combined multimarker screening (based on maternal characteristics, biophysical parameters, biochemical profile) and randomized patient to aspirin for preeclampsia prevention. Aspirin was administered at 150 mg at 11–14 weeks of gestation until 36 weeks of gestation. Preterm preeclampsia occurred in 13 participants (1.6 %) in the aspirin group, as compared with 35 (4.3 %) in the placebo group (odds ratio in the aspirin group, 0.38; 95 % confidence interval, 0.20 to 0.74; <em>P</em> = .004). Results were materially unchanged in a sensitivity analysis that took into account participants who had withdrawn or were lost to follow-up. Adherence was good, with a reported intake of 85 % or more of the required number of tablets in 79.9 % of the participants. There were no significant between-group differences in the incidence of neonatal adverse outcomes or other adverse events."
+        },
+        {
+          "type": "paragraph",
+          "html": "The Roberge’s metanalysis [57] analysed 45 randomized controlled trials that included a total of 20,909 pregnant women randomized to between 50–150 mg of aspirin daily. When aspirin was initiated at ≤16 weeks, there was a significant reduction and a dose-response effect for the prevention of preeclampsia (relative risk, 0.57; 95 % confidence interval, 0.43–0.75; <em>P</em> &lt; .001; R<sup>2</sup>, 44 %; <em>P</em> = .036), severe preeclampsia (relative risk, 0.47; 95 % confidence interval, 0.26–0.83; <em>P</em> = .009; R<sup>2</sup>, 100 %; <em>P</em> = .008), and FGR (relative risk, 0.56; 95 % confidence interval, 0.44–0.70; <em>P</em> &lt; .001; R<sup>2</sup>, 100 %; <em>P</em> = .044) with higher dosages of aspirin being associated with greater reduction of the 3 outcomes. When aspirin was initiated at &gt;16 weeks, there was a smaller reduction of preeclampsia (relative risk, 0.81; 95 % confidence interval, 0.66–0.99; <em>P</em> = .04) without relationship with aspirin dosage (R<sup>2</sup>, 0 %; <em>P</em> = .941). Aspirin initiated at &gt;16 weeks was not associated with a risk reduction or a dose-response effect for severe preeclampsia (relative risk, 0.85; 95 % confidence interval, 0.64–1.14; <em>P</em> = .28; R<sup>2</sup>, 0 %; <em>P</em> = .838) and FGR (relative risk, 0.95; 95 % confidence interval, 0.86–1.05; <em>P</em> = .34; R<sup>2</sup>, not available; <em>P</em> = .563)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Placental dysfunction accounts for 70 % of preterm preeclampsia, but it is associated with only 30 % of term preeclampsia. Thus, aspirin may better prevent preterm than term preeclampsia if this is the underlying mechanism, while limited evidence exists on aspirin&#x27;s effectiveness against term preeclampsia. Currently, the aspirin dosages contrast among national guidelines worldwide, ranging from 60–162 mg/day. Therefore, further research is needed to find the optimal aspirin dosage [58]. The meta-analysis of Ghesquiere et al. [58]. found that starting aspirin at 150–162 mg/day between 11–14 weeks gestation reduced preterm preeclampsia compared to 75–81 mg/day. Higher doses also lowered the risk of severe preeclampsia. However, the aspirin dosage did not significantly reduce the risk of term or overall preeclampsia. The study suggests that 150–162 mg/day aspirin from 11–14 weeks may be preferable to the commonly used 75–81 mg/day to prevent preterm preeclampsia."
+        }
+      ]
+    },
+    {
+      "title": "Aspirin and hemorrhagic risk",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The antiplatelet properties of aspirin are believed to prevent preeclampsia by decreasing local thrombosis in the maternal vessels that supply the placenta, thereby improving placental perfusion. However, the increased maternal blood flow to the placenta may result in higher hemorrhage risk during delivery, even after aspirin treatment cessation at 36 weeks of gestation. Aspirin treatment in second half of pregnancy can cause severe outcomes such as placental disruption [59,60]. Previous literature indicates that administering aspirin therapy to nulliparous women with a daily dose of 60 mg between 13 and 26 weeks of gestation is linked to a heightened risk of placental abruption. This might be attributed to the delayed initiation of aspirin treatment. By 16 to 18 weeks of gestation, placentation concludes, suggesting that delaying aspirin treatment in women with abnormal placentation may elevate the risk of placental abruption [4]. In contrast, previous literature has also reported that initiating aspirin treatment before 11 weeks of gestation in high-risk women did not decrease the risk of preeclampsia and gestational hypertension [61]. Inconsistencies among studies could be due to inaccurate stratification of risk factors and aspirin dosage. Future research should focus on the prophylactic effects of aspirin in different populations or populations at different risks [62]. Using an aspirin dosage higher than 150 mg significantly increases the risk of bleeding. However, several studies have reported that the risks of placental abruption, postpartum hemorrhage, cerebral hemorrhage, and perinatal mortality are not increased by LDA. Hastie et al. [59] found higher rates of intrapartum bleeding (2.9 % vs. 1.5 %) and postpartum hemorrhage (10.2 % vs. 7.8 %) in pregnant women using aspirin compared to non-users. They also noted increased risks of postpartum hematoma and neonatal intracranial hemorrhage, advising careful risk assessment before prescribing aspirin to pregnant women [59]. The insufficient accuracy of clinical tests predicting preeclampsia limits the risk stratification. Thus, it can sometimes be challenging to decide which women should be prescribed aspirin prophylactically [26]. Mendoza et al. [60]. explored the safety of discontinuing aspirin earlier. They found that stopping aspirin at 24 to 28 weeks of gestation was not inferior in preventing preterm preeclampsia in high-risk pregnant individuals with a normal sFlt-1:PlGF ratio. This suggests the potential for reducing the risk of peripartum bleeding. Further research is needed to understand the clinical implications of varying doses and treatment durations. The risks associated with aspirin affect both mothers and fetuses. Therefore, during pregnancy, monitoring for adverse effects such as gastrointestinal ulceration, hepatic and renal toxicity, bleeding, allergic reactions, and Rayleigh&#x27;s syndrome is essential."
+        }
+      ]
+    },
+    {
+      "title": "Unmet needs",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Practice guidelines on aspirin use in pregnancy showed heterogeneity in the indication for aspirin administration, optimal dosage, time to starting and ending therapy, safety and side effects. The starting time and dose of oral aspirin are controversial. A meta-analysis by Meher et al. [63]. showed that aspirin could reduce the risk of preeclampsia by 10 % and there was no difference in the effect of oral aspirin before and after 16 weeks of pregnancy on the risk of preeclampsia; instead a meta-analysis by Roberge et al. [57]. that included 45 randomized controlled trials found that aspirin starting at &lt; 16 gestational weeks could effectively reduce the risk of preeclampsia (RR = 0.57), and the effect of daily oral aspirin &gt; 100 mg was much more significant."
+        },
+        {
+          "type": "paragraph",
+          "html": "One of the unmet needs is whether the timing of aspirin administration may be more important than the dosage in achieving significant net benefits, with &quot;timing&quot; referring both to the time of day the medication is taken and the gestational age at which the therapy is initiated."
+        },
+        {
+          "type": "paragraph",
+          "html": "The ASPRE trial [56] was the only trial to use a previously developed, externally validated risk prediction model for predicting preeclampsia. The model was used to assess risk of preeclampsia leading to preterm birth in participants with singleton pregnancies at 11 to 12 weeks of gestation. The prediction algorithm estimated risk based on clinical history characteristics such as weight, height, maternal age, race/ethnicity, previous preeclampsia, family history of preeclampsia, chronic hypertension, diabetes type 1 or 2, systemic lupus erythematosus or antiphospholipid syndrome, and conception by <em>in vitro</em> fertilization. This was then supplemented with serum biomarker tests (PAPP-A and PlGF), mean arterial pressure and Doppler ultrasound of the uterine artery pulsatility index. It is not clear whether the greater effectiveness of aspirin seen in the ASPRE trial [56] relative to other large trials can be attributed to the risk assessment approach, and how much is due to other differences, such as the higher aspirin dosage, or the early initiation of aspirin at 12 to 13 weeks of gestation and continuation until 36 weeks or onset of labor. Whether the algorithm identifies a population particularly responsive to aspirin cannot be determined without further comparative research."
+        },
+        {
+          "type": "paragraph",
+          "html": "In a retrospective cohort study [64], patients who were at high risk for preeclampsia and were treated under a 162 mg prophylactic aspirin protocol had a significantly lower rate of preeclampsia than women who received the standard 81 mg dose regimen alongside no apparent increased risk for bleeding."
+        },
+        {
+          "type": "paragraph",
+          "html": "In a recent metanalysis [65] LDA (75–150 mg) significantly reduced preeclampsia incidence in high-risk women. Early initiation, particularly between 12 and 16 weeks, demonstrated enhanced efficacy. Higher doses, such as 150 mg, were associated with better outcomes compared to lower doses. Based on the analysis of 31 studies involving 28,318 pregnancies and 20 studies involving 26,551 pregnancies, the early initiation of aspirin significantly reduced the overall incidence of preeclampsia (RR = 0.63, CI: 0.47–0.84) and perinatal death risk (RR = 0.82, CI: 0.72–0.93), respectively [66]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Whether body weight may affect the efficacy of aspirin and deserves higher doses is also a matter of debate. Obesity may alter aspirin pharmacokinetics during pregnancy. The absorption of aspirin , especially enteric-coated aspirin, is reduced in obese pregnant patients [67]. In an open-label randomized trial (ASPREO) [68] among high-risk obese individuals, there was a 78 % probability of benefit that 162 mg aspirin compared with 81 mg will decrease the rate of preeclampsia with severe features. With the best estimate of a 12 % reduction when using 162 mg of aspirin compared with 81 mg of aspirin in this population."
+        },
+        {
+          "type": "paragraph",
+          "html": "A smaller study investigating aspirin use in pregnant women found that obesity was associated with lower concentration of aspirin metabolites at the 81 mg dose, but not at 162 mg. Interestingly, metabolite levels in obese pregnant women receiving 162 mg were comparable to those in non-obese women taking 81 mg [69]. These findings suggest that individuals with obesity may benefit from a higher aspirin dose [69]. In evaluating the optimal circadian timing of aspirin administration, a prospective randomized trial enrolled 350 pregnant individuals at elevated risk, assigning them to receive either 100 mg of aspirin or a placebo. The intervention began between 12 and 16 weeks of gestation and was administered daily—either upon waking, eight hours after waking, or at bedtime."
+        },
+        {
+          "type": "paragraph",
+          "html": "Findings from the study revealed that aspirin taken at bedtime was associated with a lower incidence of preeclampsia, gestational hypertension, preterm birth, and FGR, compared to aspirin taken earlier in the day."
+        },
+        {
+          "type": "paragraph",
+          "html": "Although the underlying mechanism is not fully understood, it is hypothesized that circadian variations in thromboxane and prostacyclin production may play a role, and that nighttime administration of aspirin may more effectively modulate biological regulators of blood pressure [70,71]."
+        },
+        {
+          "type": "paragraph",
+          "html": "The long-term risks of low dose aspirin for the mother and her child are uncertain, as the included trials have not reported long-term outcomes. Several studies varied considerably about excluded populations and sample size. No studies reported head-to-head comparison of different protocols. Further research is needed to explore these grey areas and to address gaps in the research related to potential variability in the effectiveness of aspirin."
+        }
+      ]
+    },
+    {
+      "title": "Lower-than -expected aspirin responsiveness in preeclampsia",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Aspirin demonstrates efficacy in 50 % of patients at risk for preeclampsia. The progression of preeclampsia, despite aspirin prophylaxis, has been attributed to aspirin non-responsiveness [72]. Aspirin resistance [72], defined as the inability of aspirin to reduce TXA<sub>2</sub> production from platelets, leads to platelet activation and aggregation [73]. Aspirin non-responsiveness is multifactorial. In non-obstetric populations, factors such as platelet turnover, aspirin dosage, diabetes, smoking, and weight have been linked to aspirin non-responsiveness [8,74]. Incomplete adherence is the primary cause of aspirin low response, with a 46.3 % non-adherence rate reported in high-risk preeclampsia women. Aspirin reduces the risk of preeclampsia with ≥90 % adherence; but it does not lower the risk when adherence falls below 90 %. However, the high prevalence of inadequate aspirin adherence (&lt;90 %) significantly correlates with increased incidences of preeclampsia, intrauterine growth restriction (IUGR), and preterm delivery [72,74]. The pharmacological effects of aspirin interact with genetic polymorphisms in various genes, including those encoding glycoproteins, cyclooxygenases, adenosine diphosphate receptors, and hemostasis proteins, observed in CVD. Investigating pharmacogenetic effects of aspirin in preeclamptic women may elucidate mechanisms of aspirin non-responsiveness in those at high risk of developing preeclampsia despite therapy [7]. Aspirin undergoes polymorphic metabolism, with common genetic variants found in different racial and ethnic groups. These variants, along with their mixtures, may contribute to the considerable variability in both adverse reactions and efficacy of aspirin [73]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Obesity is recognized as an important risk factor for preeclampsia, and evidence suggests that LDA may be less effective in this population [67]. There are several potential mechanisms to explain this phenomenon, including increased platelet reactivity, increased platelet turnover, reduced bioavailability of LDA, as well as higher levels of oxidative stress and inflammation in obese individuals [67]. Given the increased rates of aspirin low responsiveness in obese individuals, the traditional low dose aspirin of 60 and 81 mg available in the United States may be insufficient to fully suppress TXA<sub>2</sub> production in this population. Exploring the pharmacokinetics and pharmacodynamics of aspirin during pregnancy would be beneficial for determining the optimal safe and effective dose of aspirin in high-risk pregnancies [8]."
+        }
+      ]
+    },
+    {
+      "title": "Low‐molecular‐weight heparin",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In the treatment of VTE during pregnancy, LMWH is preferred as it does not cross the placenta, ensuring fetal safety [75]. Literature suggests higher risks with heparin and its derivatives in preeclamptic patients compared to LDA, including bleeding and heparin-induced thrombocytopenia. However, it could be the limitation of large trials that may underweight LMWH efficacy by including all preeclamptic patients without considering underlying risk factors [76]. Chen et al. [77]. conducted a systematic review and meta-analysis indicating that the combination of LMWH and LDA is effective for the prevention preeclampsia, preterm birth, and FGR in high-risk women without thrombophilia compared to LDA alone. LMWH alone did not show prophylactic efficacy against preeclampsia when aspirin was not used concurrently. This may be because pregnant women requiring LDA are predisposed to thrombotic events and placental complications like preeclampsia. Additionally, LMWH may enhance aspirin&#x27;s effect. The reduction in preterm birth and FGR may signify LMWH&#x27;s role in preventing preeclampsia or targeting its pathogenesis. Notably, it has been reported in the literature that unfractionated heparin did not cause a significant reduction in placental thrombotic lesions in high-risk women [78]. These findings suggest that LMWH reduce the complications of preeclampsia through non‐anticoagulant pathways, as both unfractionated and LMWH exhibit various non‐anticoagulant function along with antithrombotic functions [76]."
+        }
+      ]
+    },
+    {
+      "title": "Statins",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Statins, inhibitors of HMG-CoA reductase, are effective in primary and secondary prevention of cardiovascular mortality and morbidity. Statins are promising candidates for the prevention and treatment of preeclampsia due to their multiple and pleiotropic mechanisms of action [79]. They upregulate endothelial NO synthase, promoting NO production, and enhance the release of VEGF and PlGF [80]. Statins also reduce sFlt-1 and sEng levels, while upregulating heme oxygenase-1 (HO-1) expression in endothelial and smooth muscle cells. Some studies suggest that statins activate the HO-1/CO pathway, suppressing sFlt-1 production [80]. Additionally, statins possess anti-inflammatory properties, lowering hs-C reactive protein even in patients with normal cholesterol levels [81]. They promote Th2 anti-inflammatory cytokines and reduce Th1 pro-inflammatory cytokines [82]. These effects, combined with actions on free radicals and smooth muscle cell proliferation, make statins strong candidates for preeclampsia management."
+        },
+        {
+          "type": "paragraph",
+          "html": "Prior findings raised concerns about statins&#x27; teratogenicity. However, research suggests that pravastatin&#x27;s hydrophilicity prevents fetal malformation risk by restricting placental crossing, indicating its potential safety in pregnancy [83]. Currently, its role in preventing preeclampsia is under study to counter the angiogenic imbalance, a key feature of preeclampsia, and to restore endothelial dysfunction. Toghi et al. [84]. proposed pravastatin as a promising treatment for preeclampsia, demonstrating its ability to lower systolic blood pressure and prevent placental weight loss in a mouse model. Its antioxidant properties protect against oxidative stress-induced metalloproteinase-2 activation and promote NO-dependent vasodilation from endothelium. Fruci et al. [85]. demonstrated that administering a daily 40 mg dose of pravastatin reduced the severity of liver, kidney, and hematological complications, as indicated by lower transaminase and creatinine levels, yet higher platelet counts. Furthermore, pravastatin did not reduce placental lesions in women with preeclampsia and IUGR, suggesting late second-trimester administration could not reverse established placental dysfunction. Pravastatin may stabilize the disease by enhancing prenatal weight gain and prolonging pregnancy duration, potentially mitigating maternal disease severity. Santoyo et al. [49]. studied pravastatin&#x27;s effects (20 mg/day) from 35 to 37 weeks of gestation until delivery on circulating extracellular vesicles (EVs) in high-risk women for term preeclampsia. They observed a significant reduction in plasma concentration of large EVs from platelets (42 %), leukocytes (25 %), monocytes (61 %), endothelial cells (69 %), activated endothelial cells (55 %), and syncytiotrophoblast cells (44 %), suggesting that statins may be beneficial in reducing endothelial dysfunction and pro-inflammatory and pro-coagulatory conditions associated with preeclampsia."
+        },
+        {
+          "type": "paragraph",
+          "html": "Given the promising preliminary findings and strong biological rationale, large-scale randomized controlled trials are urgently needed to evaluate the efficacy and safety of statins as a preventive strategy against preeclampsia."
+        }
+      ]
+    },
+    {
+      "title": "Limitations",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "There are a number of limitations to this review. Firstly, literature selection, while purposeful, is susceptible to subjective judgment and, in its narrative form, precludes systematic quantification of study quality or risk of bias. Secondly, indirect comparability and meta-analytic integration are compromised due to high heterogeneity in the included studies’ design, populations, endpoints, and interventions. Third, some of the results will be subject to revision as new information becomes available due to the dynamic nature of the evidence, especially the issue of new therapies and biomarkers. In spite of these challenges, we are convinced that this review represents an informed integration of major clinical and mechanistic results."
+        }
+      ]
+    },
+    {
+      "title": "Conclusions",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Preeclampsia represents a major maternal health challenge, with complex and multifactorial pathogenesis, centered on placental dysfunction, endothelial injury, and thrombo-inflammatory pathways. While low-dose aspirin remains the most established preventive strategy, questions persist regarding optimal use and individual response. Future research should prioritize personalized prevention strategies and the development of reliable biomarkers to improve maternal and fetal outcomes."
+        },
+        {
+          "type": "paragraph",
+          "html": "This review was supported by a grant from “NextGenerationEU” – MUR Promotion and Development Fund- DM 737/2021, “The AWARENESS Study”- vAriability in loW-dose Aspirin REspoNse in prEgnant women at high riSk for preeclampSia: implications for obstetric outcome, maternal and fetal cardiovascular function"
+        }
+      ]
+    },
+    {
+      "title": "Disclosures",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "FS: Advisory Board Bayer. GR: Research grant/contract: Bayer, BMS- Janssen; speaker fee: Bayer, Boehringer Ingelheim. The other authors have nothing to disclose."
+        }
+      ]
+    },
+    {
+      "title": "Author declaration",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This review was supported by a grant from “NextGenerationEU” – MUR Promotion and Development Fund- DM 737/2021, “The AWARENESS Study”- vAriability in loW-dose Aspirin REspoNse in prEgnant women at high riSk for preeclampSia: implications for obstetric outcome, maternal and fetal cardiovascular function."
+        },
+        {
+          "type": "paragraph",
+          "html": "We confirm that the manuscript has been read and approved by all named authors and that there are no other persons who satisfied the criteria for authorship but are not listed. We further confirm that the order of authors listed in the manuscript has been approved by all of us."
+        },
+        {
+          "type": "paragraph",
+          "html": "We confirm that we have given due consideration to the protection of intellectual property associated with this work and that there are no impediments to publication, including the timing of publication, with respect to intellectual property. In so doing we confirm that we have followed the regulations of our institutions concerning intellectual property."
+        },
+        {
+          "type": "paragraph",
+          "html": "We understand that the Corresponding Author is the sole contact for the Editorial process (including Editorial Manager and direct communications with the office). He/she is responsible for communicating with the other authors about progress, submissions of revisions and final approval of proofs. We confirm that we have provided a current, correct email address which is accessible by the Corresponding Author."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Chiara Martini:</strong> Validation, Writing – original draft. <strong>Zeeba Saeed:</strong> Validation, Writing – original draft. <strong>Paola Simeone:</strong> Validation, Writing – original draft. <strong>Stefano Palma:</strong> Validation, Visualization. <strong>Mirella Ricci:</strong> Validation, Visualization. <strong>Allegra Arata:</strong> Validation, Visualization. <strong>Anna Sorella:</strong> Validation, Visualization. <strong>Rossella Liani:</strong> Validation, Visualization. <strong>Fabrizio Ricci:</strong> Supervision, Validation. <strong>Francesco D’Antonio:</strong> Supervision, Validation. <strong>Anna Vittoria Mattioli:</strong> Supervision, Validation. <strong>Sabina Gallina:</strong> Supervision, Validation. <strong>Francesca Santilli:</strong> Validation, Funding acquisition, Supervision, Writing – review &amp; editing. <strong>Giulia Renda:</strong> Supervision, Writing – review &amp; editing, Conceptualization, Methodology, Validation."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare the following financial interests/personal relationships which may be considered as potential competing interests:"
+        },
+        {
+          "type": "paragraph",
+          "html": "Francesca Santilli reports financial support was provided by European Union. Francesca Santilli reports a relationship with Bayer AG that includes: board membership. Giulia Renda reports a relationship with Bayer AG that includes: funding grants and speaking and lecture fees. Giulia Renda reports a relationship with Janssen Pharmaceuticals Inc that includes: funding grants. Giulia Renda reports a relationship with Boehringer Ingelheim GmbH that includes: speaking and lecture fees. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "Gestational hypertension and preeclampsiaObstet Gynecol13562020e237e2603244307910.1097/AOG.0000000000003891"
+    },
+    {
+      "html": "DimitriadisE.RolnikD.L.ZhouW.Estrada-GutierrezG.KogaK.FranciscoR.P .V..Author correction: pre-eclampsiaNat Rev Dis Primers912023353740055610.1038/s41572-023-00451-4"
+    },
+    {
+      "html": "PoonL.C.ShennanA.HyettJ.A.KapurA.HadarE.DivakarH.The International Federation of Gynecology and Obstetrics (FIGO) initiative on pre-eclampsia: a pragmatic guide for first-trimester screening and preventionInt J Gynecol Obstet145S1201913310.1002/ijgo.12802PMC694428331111484"
+    },
+    {
+      "html": "RolnikD.L.NicolaidesK.H.PoonL.C.Prevention of preeclampsia with aspirinAm J Obs Gynecol22622022S1108S111910.1016/j.ajog.2020.08.04532835720"
+    },
+    {
+      "html": "ShanmugalingamR.HennessyA.MakrisA.Aspirin in the prevention of preeclampsia: the conundrum of how, who and whenJ Hum Hypertens33120191910.1038/s41371-018-0113-730232399"
+    },
+    {
+      "html": "RichardsE.M.F.GiorgioneV.StevensO.ThilaganathanB.Low-dose aspirin for the prevention of superimposed preeclampsia in women with chronic hypertension: a systematic review and meta-analysisAm J Obs Gynecol2284202339540810.1016/j.ajog.2022.09.04636209937"
+    },
+    {
+      "html": "ChaemsaithongP.BiswasM.LertrutW.WarintaksaP.WataganaraT.PoonL.C.Y.Pharmacogenomics of Preeclampsia therapies: current evidence and future challenges for clinical implementationBest Pr Res Clin Obs Gynaecol92202410243710.1016/j.bpobgyn.2023.10243738103508"
+    },
+    {
+      "html": "NavaratnamK.AlfirevicA.JorgensenA.AlfirevicZ.Aspirin non-responsiveness in pregnant women at high-risk of pre-eclampsiaEur J Obstet Gynecol Reprod Biol22120181441502930439210.1016/j.ejogrb.2017.12.052"
+    },
+    {
+      "html": "RanaS.LemoineE.GrangerJ.P.KarumanchiS.A.PreeclampsiaCirc Res12472019109411123092091810.1161/CIRCRESAHA.118.313276"
+    },
+    {
+      "html": "Correction to: preeclampsia: pathophysiology, challenges, and perspectivesCirc Res1261202010.1161/RES.000000000000031531895662"
+    },
+    {
+      "html": "TomimatsuT.MimuraK.MatsuzakiS.EndoM.KumasawaK.PreeclampsiaKimura T.Maternal systemic vascular disorder caused by generalized endothelial dysfunction due to placental antiangiogenic factorsInt J Mol Sci2017201942463148024310.3390/ijms20174246PMC6747625"
+    },
+    {
+      "html": "TyrmiJ.S.KaartokallioT.LokkiA.I.JääskeläinenT.KortelainenE.RuotsalainenS.Genetic risk factors associated with preeclampsia and hypertensive disorders of pregnancyJAMA Cardiol8720236743728511910.1001/jamacardio.2023.1312PMC10248811"
+    },
+    {
+      "html": "PiechotaW.StaszewskiA.Reference ranges of lipids and apolipoproteins in pregnancyEur J Obs Gynecol Reprod Biol4511992273510.1016/0028-2243(92)90190-a1618359"
+    },
+    {
+      "html": "BrizziP.TonoloG.EspositoF.PudduL.DessoleS.MaioliM.Lipoprotein metabolism during normal pregnancyAm J Obs Gynecol1812199943043410.1016/s0002-9378(99)70574-010454696"
+    },
+    {
+      "html": "VrijkotteT.G.M.KrukzienerN.HuttenB.A.VollebregtK.C.van EijsdenM.TwicklerM.B.Maternal lipid profile during early pregnancy and pregnancy complications and outcomes: the ABCD studyJ Clin Endocrinol Metab97112012391739252293354510.1210/jc.2012-1295"
+    },
+    {
+      "html": "BeloL.CaslakeM.GaffneyD.Santos-SilvaA.Pereira-LeiteL.QuintanilhaA.Changes in LDL size and HDL concentration in normal and preeclamptic pregnanciesAtherosclerosis162220024254321199696310.1016/s0021-9150(01)00734-1"
+    },
+    {
+      "html": "OuidirM.ZengX.WorkalemahuT.ShresthaD.GrantzK.L.MendolaP.Early pregnancy dyslipidemia is associated with placental DNA methylation at loci relevant for cardiometabolic diseasesEpigenomics121120209219343267746710.2217/epi-2019-0293PMC7466909"
+    },
+    {
+      "html": "MszarR.GopalD.J.ChowdaryR.SmithC.L.DolinC.D.IrwinM.L.Racial/ethnic disparities in screening for and awareness of high cholesterol among pregnant women receiving prenatal careJ Am Heart Assoc1012021e01741510.1161/JAHA.120.017415PMC795549133345544"
+    },
+    {
+      "html": "PoornimaI.G.IndaramM.RossJ.D.AgarwalaA.WildR.A.Hyperlipidemia and risk for preclampsiaJ Clin Lipidol16320222532603526034710.1016/j.jacl.2022.02.005PMC10320742"
+    },
+    {
+      "html": "FogacciS.FogacciF.BanachM.MichosE.D.HernandezA.VLipG.Y.H.Vitamin D supplementation and incident preeclampsia: a systematic review and meta-analysis of randomized clinical trialsClin Nutr3962020174217523152661110.1016/j.clnu.2019.08.015"
+    },
+    {
+      "html": "MeertensL.J.E.ScheepersH.C.J.WillemseJ.P.M.M.SpaandermanM.E.A.SmitsL.J.M.Should women be advised to use calcium supplements during pregnancy? A decision analysisMatern Child Nutr141201810.1111/mcn.12479PMC686603628626878"
+    },
+    {
+      "html": "VanderlelieJ.ScottR.ShiblR.LewkowiczJ.PerkinsA.ScuffhamP.A.First trimester multivitamin/mineral use is associated with reduced risk of pre-eclampsia among overweight and obese womenMatern Child Nutr12220163393482484794210.1111/mcn.12133PMC6860121"
+    },
+    {
+      "html": "RedmanC.W.SargentI.L.Latest advances in understanding preeclampsiaSci (1979)308572820051592159410.1126/science.111172615947178"
+    },
+    {
+      "html": "PhippsE.PrasannaD.BrimaW.PreeclampsiaJim B.Updates in pathogenesis, definitions, and guidelinesClin J Am Soc Nephrol1162016110211132709460910.2215/CJN.12081115PMC4891761"
+    },
+    {
+      "html": "JinP.P.DingN.DaiJ.LiuX.Y.MaoP.M.Investigation of the relationship between changes in maternal coagulation profile in the first trimester and the risk of developing preeclampsiaHeliyon972023e1798310.1016/j.heliyon.2023.e17983PMC1036638837496928"
+    },
+    {
+      "html": "Raia-BarjatT.EdebiriO.Ni AinleF.Preeclampsia and venous thromboembolism: pathophysiology and potential therapyFront Cardiovasc Med2022910.3389/fcvm.2022.856923PMC895706935345482"
+    },
+    {
+      "html": "GuerbyP.TastaO.SwiaderA.PontF.BujoldE.ParantO.Role of oxidative stress in the dysfunction of the placental endothelial nitric oxide synthase in preeclampsiaRedox Biol40202110186110.1016/j.redox.2021.101861PMC787369133548859"
+    },
+    {
+      "html": "DuttaKumarHyettSalomonMolecular targets of aspirin and prevention of preeclampsia and their potential association with circulating extracellular vesicles during pregnancyInt J Mol Sci2018201943703149201410.3390/ijms20184370PMC6769718"
+    },
+    {
+      "html": "UmezuluikeB.S.AnikweC.C.NnachiO.C.IweB.C.A.IfemelummaC.C.DimejesiI.B.O.Correlation of platelet parameters with adverse maternal and neonatal outcomes in severe preeclampsia: a case-control studyHeliyon7122021e0848410.1016/j.heliyon.2021.e08484PMC864543934917795"
+    },
+    {
+      "html": "NowaczykJ.PoniedziałekB.RzymskiP.SikoraD.Ropacka-LesiakM.Platelets in fetal growth restriction: role of reactive oxygen species, oxygen metabolism, and aggregationCells11420227243520337310.3390/cells11040724PMC8870240"
+    },
+    {
+      "html": "HanC.HuangP.LyuM.DongJ.Oxidative stress and preeclampsia-associated prothrombotic StateAntioxidants911202011393321279910.3390/antiox9111139PMC7696949"
+    },
+    {
+      "html": "BokslagA.van WeissenbruchM.MolB.W.de GrootC.J.M.Preeclampsia; short and long-term consequences for mother and neonateEarly Hum Dev102201647502765986510.1016/j.earlhumdev.2016.09.007"
+    },
+    {
+      "html": "IraniR.A.XiaY.The functional role of the renin–Angiotensin system in pregnancy and preeclampsiaPlacenta29920087637711868746610.1016/j.placenta.2008.06.011PMC2614866"
+    },
+    {
+      "html": "WallukatG.HomuthV.FischerT.LindschauC.HorstkampB.JüpnerA.Patients with preeclampsia develop agonistic autoantibodies against the angiotensin AT1 receptorJ Clin Investig103719999459521019446610.1172/JCI4106PMC408252"
+    },
+    {
+      "html": "SircarM.ThadhaniR.KarumanchiS.A.Pathogenesis of preeclampsiaCurr Opin Nephrol Hypertens24220151311382563614510.1097/MNH.0000000000000105"
+    },
+    {
+      "html": "MoghaddasSani HZununiVahed SArdalanM.Preeclampsia: a close look at renal dysfunctionBiomed Pharmacother10920194084163039957610.1016/j.biopha.2018.10.082"
+    },
+    {
+      "html": "PankiewiczK.SzczerbaE.MaciejewskiT.FijałkowskaA.Non-obstetric complications in preeclampsiaMenopausal Rev18220199910910.5114/pm.2019.85785PMC671963531485207"
+    },
+    {
+      "html": "MillerE.C.VollbrachtS.Neurology of Preeclampsia and Related disorders: an update in Neuro-obstetricsCurr Pain Headache Rep2562021403382599710.1007/s11916-021-00958-zPMC10069269"
+    },
+    {
+      "html": "WagnerS.J.AcquahL.A.LindellE.P.CraiciI.M.WingoM.T.RoseC.H.Posterior reversible encephalopathy syndrome and eclampsia: pressing the case for more aggressive blood pressure controlMayo Clin Proc86920118518562187859610.4065/mcp.2011.0090PMC3258001"
+    },
+    {
+      "html": "PfefferT.J.Hilfiker-KleinerD.Pregnancy and heart disease: pregnancy-associated hypertension and peripartum cardiomyopathyCurr Probl Cardiol43920183643882915014910.1016/j.cpcardiol.2017.10.005"
+    },
+    {
+      "html": "TassiA.SalaA.MazzeraI.RestainoS.VizzielliG.DriulL.Long-term outcomes of patients with preeclampsia, a review of the literatureHypertens Pregnancy421202310.1080/10641955.2023.221744837259591"
+    },
+    {
+      "html": "HongK.KimS.H.ChaD.H.ParkH.J.Defective uteroplacental vascular remodeling in preeclampsia: key molecular factors leading to long term cardiovascular diseaseInt J Mol Sci222020211120210.3390/ijms222011202PMC853960934681861"
+    },
+    {
+      "html": "StanhewiczA.E.DillonG.A.ServienteC.AlexanderL.M.Acute systemic inhibition of inflammation augments endothelium-dependent dilation in women with a history of preeclamptic pregnancyPregnancy Hypertens27202281863497359710.1016/j.preghy.2021.12.010PMC8858855"
+    },
+    {
+      "html": "SciscioneA.Acute pulmonary edema in pregnancyObstet Gynecol101320035115151263695510.1016/s0029-7844(02)02733-3"
+    },
+    {
+      "html": "ParkJ.E.ParkY.YukJ.S.Incidence of and risk factors for thromboembolism during pregnancy and postpartum: a 10-year nationwide population-based studyTaiwan J Obs Gynecol601202110311010.1016/j.tjog.2020.11.01633494981"
+    },
+    {
+      "html": "KobayashiH.MatsubaraS.YoshimotoC.ShigetomiH.ImanakaS.Tissue factor pathway inhibitors as potential targets for understanding the pathophysiology of preeclampsiaBiomedicines115202312373723890810.3390/biomedicines11051237PMC10215522"
+    },
+    {
+      "html": "GodtfredsenA.C.SidelmannJ.J.DollerisB.B.JørgensenJ.S.JohansenE.K.J.PedersenM.F.B.Fibrinolytic changes in women with preeclampsiaClin Appl Thromb/Hemost28202210760296221126110.1177/10760296221126172PMC955885236217728"
+    },
+    {
+      "html": "HaramK.SvendsenE.AbildgaardU.The HELLP syndrome: clinical issues and management. A reviewBMC Pregnancy Childbirth91200981924569510.1186/1471-2393-9-8PMC2654858"
+    },
+    {
+      "html": "SantoyoJ.M.NogueraJ.A.AvilésF.Hernández-CasellesT.de Paco-MatallanaC.DelgadoJ.L.Pravastatin reduces plasma levels of extracellular vesicles in pregnancies at high risk of term preeclampsiaFront Pharmacol14202310.3389/fphar.2023.1166123PMC1032322437426825"
+    },
+    {
+      "html": "Van DredenP.LefkouE.KaA.SfakianoudisK.RousseauA.GrusseM.Endothelial cell activation and thrombin generation assessment for the risk of severe early onset preeclampsia. The ROADMAP-EOP StudyClin Appl Thromb/Hemost282022107602962211382"
+    },
+    {
+      "html": "DionisioL.M.FaveroG.M.Platelet indices and angiogenesis markers in hypertensive disorders of pregnancyInt J Lab Hematol202310.1111/ijlh.1420237953406"
+    },
+    {
+      "html": "Di GirolamoR.AlameddineS.KhalilA.SantilliF.RizzoG.MaruottiG.M.Clinical practice guidelines on the use of aspirin in pregnancy: systematic reviewEur J Obs Gynecol Reprod Biol2822023647110.1016/j.ejogrb.2022.12.03236652835"
+    },
+    {
+      "html": "FitzgeraldD.J.MayoG.CatellaF.EntmanS.S.FitzGeraldG.A.Increased thromboxane biosynthesis in normal pregnancy is mainly derived from plateletsAm J Obs Gynecol1572198732533010.1016/s0002-9378(87)80162-x3618681"
+    },
+    {
+      "html": "BujoldE.RobergeS.LacasseY.BureauM.AudibertF.MarcouxS.Prevention of preeclampsia and intrauterine growth restriction with aspirin started in early pregnancyObstet Gynecol116220104024142066440210.1097/AOG.0b013e3181e9322a"
+    },
+    {
+      "html": "YuC.K.H.PapageorghiouA.T.ParraM.Palma DiasR.NicolaidesK.H.Fetal Medicine Foundation Second Trimester Screening GroupRandomized controlled trial using low-dose aspirin in the prevention of pre-eclampsia in women with abnormal uterine artery Doppler at 23 weeks’ gestationUltrasound Obs Gynecol223200323323910.1002/uog.21812942493"
+    },
+    {
+      "html": "RolnikD.L.WrightD.PoonL.C.O’GormanN.SyngelakiA.de Paco MatallanaC.Aspirin versus Placebo in pregnancies at high risk for preterm preeclampsiaN Engl J Med377720176136222865741710.1056/NEJMoa1704559"
+    },
+    {
+      "html": "RobergeS.NicolaidesK.DemersS.HyettJ.ChailletN.BujoldE.The role of aspirin dose on the prevention of preeclampsia and fetal growth restriction: systematic review and meta-analysisAm J Obs Gynecol21622017110120.e610.1016/j.ajog.2016.09.07627640943"
+    },
+    {
+      "html": "GhesquiereL.GuerbyP.MarchantI.KumarN.ZareM.FoisyM.A.Comparing aspirin 75 to 81 mg vs 150 to 162 mg for prevention of preterm preeclampsia: systematic review and meta-analysisAm J Obs Gynecol MFM57202310100010.1016/j.ajogmf.2023.10100037146687"
+    },
+    {
+      "html": "HastieR.TongS.WikströmA.K.SandströmA.HesselmanS.BergmanL.Aspirin use during pregnancy and the risk of bleeding complications: a Swedish population-based cohort studyAm J Obs Gynecol2241202195.e1-95.e1210.1016/j.ajog.2020.07.02332687818"
+    },
+    {
+      "html": "MendozaM.BonacinaE.Garcia-ManauP.LópezM.CaamiñaS.VivesÀ.Aspirin discontinuation at 24 to 28 weeks’ Gestation in pregnancies at high risk of preterm preeclampsiaJAMA329720235423680932110.1001/jama.2023.0691PMC9945069"
+    },
+    {
+      "html": "ChaemsaithongP.Cuenca-GomezD.PlanaM.N.GilM.M.PoonL.C.Does low-dose aspirin initiated before 11 weeks’ gestation reduce the rate of preeclampsia?Am J Obs Gynecol2225202043745010.1016/j.ajog.2019.08.04731494125"
+    },
+    {
+      "html": "huiLiu YshenZhang YyiChen JjianWang ZxinLiu YqiLi JComparative effectiveness of prophylactic strategies for preeclampsia: a network meta-analysis of randomized controlled trialsAm J Obs Gynecol2285202353554610.1016/j.ajog.2022.10.01436283479"
+    },
+    {
+      "html": "MeherS.DuleyL.HunterK.AskieL.Antiplatelet therapy before or after 16 weeks’ gestation for preventing preeclampsia: an individual participant data meta-analysisAm J Obs Gynecol21622017121128.e210.1016/j.ajog.2016.10.01627810551"
+    },
+    {
+      "html": "AyyashM.GoyertG.GarciaR.KhanguraR.PittsD.JacobsenG.Efficacy and safety of Aspirin 162 mg for preeclampsia prophylaxis in high-risk patientsAm J Perinatol41S 012024e2410–710.1055/s-0043-177126037516117"
+    },
+    {
+      "html": "SaxenaU.LachyanA.DebnathA.GuptaS.YadavA.KishoreJ.Effectiveness of low-dose aspirin (75-150 mg) in preventing preeclampsia among high-risk pregnant women: a systematic review and meta-analysis of randomized controlled trials10.1101/2025.03.27.25324291"
+    },
+    {
+      "html": "KomoróczyB.VáncsaS.VáradiA.HegyiP.VágásiV.BaradácsI.Optimal aspirin dosage for the prevention of preeclampsia and other adverse pregnancy outcomes: a systematic review and meta-analysis of randomized controlled trialsJ Clin Med147202510.3390/jcm14072134PMC1198991340217586"
+    },
+    {
+      "html": "NorgardN.B.Obesity and altered aspirin pharmacologyClin Pharmacokinet57620186636722913904210.1007/s40262-017-0611-8"
+    },
+    {
+      "html": "AmroF.H.BlackwellS.C.PedrozaC.BackleyS.BitarG.DayeN.Aspirin 162 mg vs 81 mg for preeclampsia prophylaxis in high-risk obese individuals: a comparative effectiveness open-label randomized trial (ASPREO)Am J Obs Gynecol23232025315.e1-315.e810.1016/j.ajog.2024.06.03838977068"
+    },
+    {
+      "html": "RoodK.M.Ma’ayehM.AbdelwahabM.PaglioneM.AbbottN.HillK.The effect of maternal body mass index on optimal dosing of aspirin for preeclampsia preventionAm J Obs Gynecol22812023S52S53"
+    },
+    {
+      "html": "AyalaD.E.UciedaR.HermidaR.C.Chronotherapy with low-dose aspirin for prevention of complications in pregnancyChronobiol Int301–220132602792300492210.3109/07420528.2012.717455"
+    },
+    {
+      "html": "SnoepJ.D.HovensM.M.C.PashaS.M.FrölichM.PijlH.TamsmaJ.T.Time-dependent effects of low-dose aspirin on plasma renin activity, aldosterone, cortisol, and catecholaminesHypertension5452009113611421980564310.1161/HYPERTENSIONAHA.109.134825"
+    },
+    {
+      "html": "StubertJ.HinzB.BergerR.The role of acetylsalicylic acid in the prevention of pre-eclampsia, fetal growth restriction, and preterm birthDtsch Arztebl Int202310.3238/arztebl.m2023.0133PMC1056874037378599"
+    },
+    {
+      "html": "TolcherM.C.Sangi-HaghpeykarH.Mendez-FigueroaH.AagaardK.M.Low-dose aspirin for preeclampsia prevention: efficacy by ethnicity and raceAm J Obs Gynecol MFM24202010018410.1016/j.ajogmf.2020.10018433345910"
+    },
+    {
+      "html": "ShanmugalingamR.WangX.MotumP.FulcherI.LeeG.KumarR.Clinical influence of nonadherence with prophylactic aspirin in preventing preeclampsia in high-risk pregnanciesHypertension7542020112511323211485210.1161/HYPERTENSIONAHA.119.14107"
+    },
+    {
+      "html": "MansoryE.M.AlphonsusL.HutsonJ.R.de VrijerB.Lazo-LangnerA.Anticoagulant prophylaxis in pregnant women with a history of venous thromboembolism: a systematic review and meta-analysisThromb Update132023100150"
+    },
+    {
+      "html": "WatJ.M.AudetteM.C.KingdomJ.C.Molecular actions of heparin and their implications in preventing pre-eclampsiaJ Thromb Haemost16820181510152210.1111/jth.1419129877031"
+    },
+    {
+      "html": "ChenJ.HuaiJ.YangH.Low-molecular-weight heparin for the prevention of preeclampsia in high-risk pregnancies without thrombophilia: a systematic review and meta-analysisBMC Pregnancy Childbirth2412024683823377310.1186/s12884-023-06218-9PMC10792962"
+    },
+    {
+      "html": "D’SouzaR.KeatingS.WalkerM.DrewloS.KingdomJ.Unfractionated heparin and placental pathology in high-risk pregnancies: secondary analysis of a pilot randomized controlled trialPlacenta351020148168232512848510.1016/j.placenta.2014.07.010"
+    },
+    {
+      "html": "BronsonF.H.Effect of food manipulation on the GnRH-LH-estradiol axis of young female ratsAm J Physiol2544 Pt 21988R616R621328147710.1152/ajpregu.1988.254.4.R616"
+    },
+    {
+      "html": "WolfrumS.JensenK.S.LiaoJ.K.Endothelium-dependent effects of statinsArter Thromb Vasc Biol235200372973610.1161/01.ATV.0000063385.12476.A712615672"
+    },
+    {
+      "html": "OmoriH.NagashimaH.TsurumiY.TakagiA.IshizukaN.HagiwaraN.Direct in vivo evidence of a vascular statin: a single dose of cerivastatin rapidly increases vascular endothelial responsiveness in healthy normocholesterolaemic subjectsBr J Clin Pharmacol54420023953991239258710.1046/j.1365-2125.2002.01677.xPMC1874448"
+    },
+    {
+      "html": "GreenwoodJ.SteinmanL.ZamvilS.S.Statin therapy and autoimmune disease: from protein prenylation to immunomodulationNat Rev Immunol6520063583701663942910.1038/nri1839PMC3842637"
+    },
+    {
+      "html": "CostantineM.M.ClearyK.HebertM.F.AhmedM.S.BrownL.M.RenZ.Safety and pharmacokinetics of pravastatin used for the prevention of preeclampsia in high-risk pregnant women: a pilot randomized controlled trialAm J Obs Gynecol21462016720.e1-720.e1710.1016/j.ajog.2015.12.038PMC488445926723196"
+    },
+    {
+      "html": "ToghiC.J.MartinsL.Z.PachecoL.L.CaetanoE.S.P.MattosB.R.RizziE.Pravastatin prevents increases in activity of metalloproteinase-2 and oxidative stress, and enhances endothelium-derived nitric oxide-dependent vasodilation in gestational hypertensionAntioxidants12420239393710731410.3390/antiox12040939PMC10135677"
+    },
+    {
+      "html": "FruciS.SalviS.MoresiS.GalliniF.Dell’AquilaM.ArenaV.Pravastatin for severe preeclampsia with growth restriction: placental findings and infant follow-upEur J Obstet Gynecol Reprod Biol283202337423676403410.1016/j.ejogrb.2023.01.036"
+    },
+    {
+      "html": "AyalaD.E.UciedaR.HermidaR.C.Chronotherapy with low-dose aspirin for prevention of complications in pregnancyChronobiol Int301–220132602792300492210.3109/07420528.2012.717455"
+    },
+    {
+      "html": "CaritisS.SibaiB.HauthJ.LindheimerM.D.KlebanoffM.ThomE.Low-dose aspirin to prevent preeclampsia in women at high riskN Engl J Med338111998701705949414510.1056/NEJM199803123381101"
+    },
+    {
+      "html": "CLASP: a randomised trial of low-dose aspirin for the prevention and treatment of pre-eclampsia among 9364 pregnant women. CLASP (Collaborative Low-dose Aspirin Study in Pregnancy) Collaborative GroupLancet343889819946196297906809"
+    },
+    {
+      "html": "ECPPA: randomised trial of low dose aspirin for the prevention of maternal and fetal complications in high risk pregnant womenBJOG10311996394710.1111/j.1471-0528.1996.tb09846.x8688404"
+    },
+    {
+      "html": "GoldingJ.A randomised trial of low dose aspirin for primiparae in pregnancyBJOG1053199829329910.1111/j.1471-0528.1998.tb10089.x9532989"
+    },
+    {
+      "html": "HermidaR.C.AyalaD.E.FernándezJ.R.MojónA.AlonsoI.SilvaI.Administration time–Dependent effects of Aspirin in women at differing risk for preeclampsiaHypertension3441999101610231052340110.1161/01.hyp.34.4.1016"
+    },
+    {
+      "html": "MORRISJ.FAYR.ELLWOODD.COOKC.DEVONALDK.A randomized controlled trial of Aspirin in patients with abnormal uterine artery blood flowObstet Gynecol87119967478853227110.1016/0029-7844(95)00340-1"
+    },
+    {
+      "html": "RolnikD.L.WrightD.PoonL.C.Y.SyngelakiA.O’GormanN.de Paco MatallanaC.ASPRE trial: performance of screening for preterm pre-eclampsiaUltrasound Obstet Gynecol50420174924952874178510.1002/uog.18816"
+    },
+    {
+      "html": "VillaP.KajantieE.RäikkönenK.PesonenA.HämäläinenE.VainioM.Aspirin in the prevention of pre-eclampsia in high-risk women: a randomised placebo-controlled PREDO Trial and a meta-analysis of randomised trialsBJOG12012013647410.1111/j.1471-0528.2012.03493.x23126307"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

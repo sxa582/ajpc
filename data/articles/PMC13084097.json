@@ -1,0 +1,254 @@
+{
+  "pmcid": "PMC13084097",
+  "pmid": "42006444",
+  "doi": "10.1016/j.ajpc.2026.101465",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13084097/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Association of lipoprotein(a) with ASCVD risk in women by menopausal status: the UK Biobank",
+  "articleType": "Brief Report",
+  "published": "2026-02-06",
+  "year": "2026",
+  "volume": "26",
+  "issue": "",
+  "articleNumber": "101465",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2026",
+  "authors": [
+    {
+      "given": "Mikaila P.",
+      "surname": "Reyes",
+      "display": "Mikaila P. Reyes"
+    },
+    {
+      "given": "Alexander C.",
+      "surname": "Razavi",
+      "display": "Alexander C. Razavi"
+    },
+    {
+      "given": "Harpreet S.",
+      "surname": "Bhatia",
+      "display": "Harpreet S. Bhatia"
+    }
+  ],
+  "affiliations": [
+    "aUniversity of California San Diego School of Medicine, San Diego, CA, USA",
+    "bDivision of Cardiology, Emory University School of Medicine, Atlanta, GA, USA",
+    "cDivision of Cardiovascular Medicine, University of California San Diego, CA, USA"
+  ],
+  "keywords": [
+    "Lipoprotein(a)",
+    "Lipids",
+    "Prevention",
+    "Menopause",
+    "Risk factors"
+  ],
+  "abstract": [],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Atherosclerotic cardiovascular disease (ASCVD) is the leading cause of morbidity and mortality among women [1], with the onset of ASCVD often overlapping with the menopausal transition [2]. Altered lipoprotein metabolism during menopause is one contributing factor to increased ASCVD risk and is well-understood through increased LDL-cholesterol, increased triglycerides, and lower HDL-cholesterol [3]. However, very little is known regarding the role of lipoprotein(a) [Lp(a)] in menopause-associated ASCVD risk despite menopause being among few acquired conditions that may lead to an increase in Lp(a) [4]. Here, we sought to evaluate the association between Lp(a) and ASCVD events among women with and without menopause over an extended follow-up period."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Study design",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The UK Biobank is a prospective, population-based cohort study of over 500,000 participants between the ages of 40 to 69 years. Participants were recruited between 2006 and 2010 across 22 assessment centers in the United Kingdom [5]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Serum Lp(a) was measured from blood samples taken during baseline assessment and analyzed using an immunoturbidimetric bioassay (Randox Biosciences, UK) with an analytical range of 3.8–189 nmol/L [6]. Menopause status was self-reported, based on if participants answered “Yes” to the question “Have you had your menopause (periods stopped)?”. Additional definitions of menopause used in sensitivity analyses are presented in Supplemental Table S1. The primary outcome was a composite of incident myocardial infarction (MI), incident hemorrhagic or ischemic stroke, or cardiovascular death."
+        }
+      ]
+    },
+    {
+      "title": "Statistical analysis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Only women were included in the present study (<em>n</em> = 273,297). Participants were excluded if they withdrew consent (<em>n</em> = 258), were missing Lp(a) measurement (<em>n</em> = 69,004), were missing co-variates of interest (<em>n</em> = 31,432), reported hormone replacement therapy (HRT) within 1 year (<em>n</em> = 15,654), or had a history of prior MI, stroke, or coronary artery bypass graft surgery (<em>n</em> = 3059). A total of 153,890 participants were included in the present analysis."
+        },
+        {
+          "type": "paragraph",
+          "html": "Baseline characteristics were stratified by menopause status and Lp(a) level (&lt;125 nmol/L or ≥125 nmol/L and &lt;75 nmol/L or ≥75 nmol/L). Continuous variables were compared using ANOVA or Kruskal-Wallis testing, as appropriate, while categorical variables were compared using Chi-Square testing."
+        },
+        {
+          "type": "paragraph",
+          "html": "Cox proportional hazard models were used to evaluate the association between Lp(a) levels and incident ASCVD events, stratified by menopause status. Models were adjusted for traditional ASCVD risk factors, as noted in Fig. 1C. Lp(a) was evaluated continuously per standard deviation and as a categorical variable (low: &lt;75 nmol/L, intermediate: 75–125 nmol/L, high: &gt;125 nmol/L). For each model, the multiplicative interaction between Lp(a) and menopause status was evaluated. Sensitivity analyses were conducted in the same manner.Fig. 1Lp(a) and ASCVD risk by menopausal status.(A) Unadjusted cumulative incidence of ASCD events by menopause status, Lp(a) ≥ or &lt; 125 nmol/L. (B) Unadjusted cumulative incidence of ASCD events by menopause status, Lp(a) ≥ or &lt; 75 nmol/L. (C) Multivariable association between Lp(a) and ASCVD according to menopausal status. Menopause Definition: Answered “Yes” to “Have you had your menopause (periods stopped)?” Models Adjusted For: age, race, smoking status, total cholesterol, HDL-C, cholesterol-lowering medication use, antihypertensive medication use, SBP, self-reported diabetes, glucose-lowering medication use, eGFR.Fig 1 dummy alt text"
+        },
+        {
+          "type": "paragraph",
+          "html": "All statistical analyses were performed using R (version 4.4.1). Statistical significance was determined by a two-tailed p-value &lt;0.05. The present study was deemed exempt from review by the University of California San Diego Human Research Protection Program (HRPP)."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The average age of study participants was 56.1 years with 60.4 % of women reporting experiencing menopause. Median Lp(a) level was 22.5 [10.1, 62.1] nmol/L, with 21.4 % and 11.5 % of participants having Lp(a) ≥75 and ≥125 nmol/L, respectively. Median Lp(a) levels were higher among post-menopausal women (23.75; IQR [10.50, 61.60] nmol/L) than pre-menopausal women (20.79; IQR [9.47, 63.00] nmol/L) (<em>p</em> &lt; 0.001). There were 5160 (3.4 %) incident ASCVD events over a median follow-up time of 13.7 years. Fig. 1A and 1B show the unadjusted cumulative incidence of ASCVD events stratified by menopause status and Lp(a) thresholds of 125 nmol/L and 75 nmol/L, respectively."
+        },
+        {
+          "type": "paragraph",
+          "html": "Each standard deviation increase in Lp(a) was associated with a 6 % higher risk of ASCVD among both pre- (HR 1.06, 95 % CI 1.00–1.12, <em>p</em> = 0.041) and post-menopausal (HR 1.06, 95 % CI 1.03–1.09, <em>p</em> &lt; 0.001) women, with no significant interaction between Lp(a) level and menopausal status. Among both pre-menopausal and post-menopausal women, higher Lp(a) risk category was associated with increased ASCVD risk, but this only reached statistical significance among post-menopausal women. Post-menopausal women with Lp(a) levels of 75–125 nmol/L had a 13 % increase in risk of ASCVD events (HR 1.13, 95 % CI 1.01–1.25, <em>p</em> = 0.028) and those with Lp(a) levels greater than 125 nmol/L had a 15 % increase in risk of ASCVD events (HR 1.15, 95 % CI 1.05–1.26, <em>p</em> = 0.003), when compared to post-menopausal women with Lp(a) &lt;75 nmol/L. Again, no significant interaction between Lp(a) category and menopausal status was noted (Fig. 1C)."
+        },
+        {
+          "type": "paragraph",
+          "html": "In sensitivity analyses with different menopause definitions, similar associations were observed for Lp(a) level and ASCVD risk and no significant interactions were observed between menopause status and Lp(a) levels (Supplemental Table S2)."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Among &gt;150,000 women without a prior ASCVD event from the UK Biobank, higher Lp(a) levels were independently associated with increased ASCVD risk among both pre- and post-menopausal women. Consistent results were noted when Lp(a) was evaluated continuously or categorically, and no significant interaction between Lp(a) and menopausal status for ASCVD risk was noted. Despite higher median Lp(a) levels and incidence of ASCVD events among post-menopausal women, menopause status did not significantly modify the association between Lp(a) and ASCVD risk."
+        },
+        {
+          "type": "paragraph",
+          "html": "Our findings build on data from the Women’s Health Study by Ridker et al. which demonstrated that among 27,939 healthy women with a median age of 54.7 years at baseline and 30-year follow-up period, women with the highest quintile of Lp(a) levels (&gt;44.1 mg/dL) had a significantly increased incidence of major adverse cardiovascular events when compared to the lowest quintile (&lt;3.6 mg/dL) [7]. Similarly, Honigberg et al. demonstrated that in among 88,266 post-menopausal women in the UK Biobank study, women in the highest (61.50–189 nmol/L) vs lowest (3.80–10.31 nmol/L) Lp(a) quartiles had the highest risk of CHD [8]. The differences in the magnitude of the association between incident cardiovascular events in the highest vs lowest Lp(a) categories in Ridker et al. (HR 1.33), Honigberg et al. (HR 1.14), and our study (HR 1.15) are likely due to differences in Lp(a) categorization."
+        },
+        {
+          "type": "paragraph",
+          "html": "Although higher median Lp(a) levels were observed in post-menopausal women (23.75 nmol/L) than pre-menopausal women (20.79 nmol/L) in our study, definitive conclusions cannot be made regarding within-person changes in Lp(a) through the menopausal transition, as age alone has also been found to be associated with higher Lp(a) levels [9]."
+        },
+        {
+          "type": "paragraph",
+          "html": "There were several strengths of the current study. First, our analysis adds to the current literature by assessing the interaction between menopause and Lp(a) on ASCVD risk in a large cohort. Secondly, the present findings re-emphasize the utility of Lp(a) screening in assessing ASCVD risk, with consideration of repeat Lp(a) testing among post-menopausal women who had intermediate Lp(a) levels prior to the menopausal transition[4]."
+        },
+        {
+          "type": "paragraph",
+          "html": "The present findings should be interpreted in context of certain limitations. First, as an analysis of an observational cohort study, the data is subject to recall bias and missingness, which may result in misclassification of menopause status and outcome ascertainment. However, our findings were consistent across several different definitions of menopause. Due to the observational nature of the present study, there is also a potential for overadjustment for covariates which may mediate rather than confound the relationship between Lp(a) and ASCVD risk, attenuating differential associations in pre- and post-menopausal women. Second, the present study included women who had used, but discontinued HRT use &gt;1 year prior to baseline assessment, which may have attenuated differences in Lp(a) levels even after discontinuation as post-menopausal women were more likely to have reported any HRT use. Third, UK Biobank participants tended to be healthier than the general population of the United Kingdom [10], increasing the possibility of healthy volunteer bias. Participants were also predominantly White, limiting generalizability to other racial/ethnic groups and suggesting the importance of validating the present findings in more diverse cohorts."
+        },
+        {
+          "type": "paragraph",
+          "html": "In conclusion, Lp(a) is an independent risk factor for incident ASCVD events among pre- and post-menopausal women, and menopausal status does not modify this association."
+        }
+      ]
+    },
+    {
+      "title": "Funding",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Dr. Bhatia is supported by 10.13039/100000002National Institutes of Health, Grant 1K08HL166962 and UC San Diego BEACON. Dr. Razavi is supported by the 10.13039/100000050National Heart, Lung, and Blood Institute Grant L30HL175751."
+        }
+      ]
+    },
+    {
+      "title": "Disclosures",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Dr. Bhatia - consultant / advisor for Kaneka, Novartis, NewAmsterdam, Arrowhead and Abbott."
+        }
+      ]
+    },
+    {
+      "title": "Ethical review statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Participants provided informed consent upon recruitment for the UK Biobank study. The present study was deemed exempt from review by the University of California San Diego Human Research Protection Program (HRPP)."
+        }
+      ]
+    },
+    {
+      "title": "Author agreement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We wish to draw the attention of the Editor to the following facts which may be considered as potential conflicts of interest and to significant financial contributions to this work."
+        },
+        {
+          "type": "paragraph",
+          "html": "We confirm that the manuscript has been read and approved by all named authors and that there are no other persons who satisfied the criteria for authorship but are not listed. We further confirm that the order of authors listed in the manuscript has been approved by all of us."
+        },
+        {
+          "type": "paragraph",
+          "html": "We confirm that we have given due consideration to the protection of intellectual property associated with this work and that there are no impediments to publication, including the timing of publication, with respect to intellectual property. In so doing we confirm that we have followed the regulations of our institutions concerning intellectual property."
+        },
+        {
+          "type": "paragraph",
+          "html": "We understand that the Corresponding Author is the sole contact for the Editorial process (including Editorial Manager and direct communications with the office). He/she is responsible for communicating with the other authors about progress, submissions of revisions and final approval of proofs. We confirm that we have provided a current, correct email address which is accessible by the Corresponding Author."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Mikaila P. Reyes:</strong> Writing – review &amp; editing, Writing – original draft, Investigation, Formal analysis, Data curation. <strong>Alexander C. Razavi:</strong> Writing – review &amp; editing, Writing – original draft, Methodology, Conceptualization. <strong>Harpreet S. Bhatia:</strong> Writing – review &amp; editing, Supervision, Methodology, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare the following financial interests/personal relationships which may be considered as potential competing interests: Harpreet S. Bhatia reports financial support was provided by 10.13039/501100020300National Institutes of Health. Alexander C. Razavi reports financial support was provided by 10.13039/100000050National Heart Lung and Blood Institute. Harpreet S. Bhatia reports financial support was provided by 10.13039/100005522University of California San Diego. Harpreet S. Bhatia reports a relationship with Kaneka that includes: consulting or advisory. Harpreet S. Bhatia reports a relationship with Novartis that includes: consulting or advisory. Harpreet S. Bhatia reports a relationship with NewAmsterdam that includes: consulting or advisory. Harpreet S. Bhatia reports a relationship with Arrowhead that includes: consulting or advisory. Harpreet S. Bhatia reports a relationship with Abbott that includes: consulting or advisory. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "MartinS.S.AdayA.W.AllenN.B.AlmarzooqZ.I.AndersonC.A.M.AroraP.2025 Heart Disease and Stroke statistics: a report of US and global data from the American Heart AssociationCirculation15182025e41e6603986611310.1161/CIR.0000000000001303PMC12256702"
+    },
+    {
+      "html": "El KhoudaryS.R.AggarwalB.BeckieT.M.HodisH.N.JohnsonA.E.LangerR.D.Menopause transition and cardiovascular disease risk: implications for timing of early prevention: a scientific statement from the American Heart AssociationCirculation142252020e506ee323325182810.1161/CIR.0000000000000912"
+    },
+    {
+      "html": "InarajaV.ThuissardI.Andreu-VazquezC.JodarE.Lipid profile changes during the menopausal transitionMenopause27720207807873218713010.1097/GME.0000000000001532"
+    },
+    {
+      "html": "KoschinskyM.L.BajajA.BoffaM.B.DixonD.L.FerdinandK.C.GiddingS.S.A focused update to the 2019 NLA scientific statement on use of lipoprotein(a) in clinical practiceJ Clin Lipidol1832024e308ee193856546110.1016/j.jacl.2024.03.001"
+    },
+    {
+      "html": "SudlowC.GallacherJ.AllenN.BeralV.BurtonP.DaneshJ.UK biobank: an open access resource for identifying the causes of a wide range of complex diseases of middle and old agePLoS Med1232015e100177910.1371/journal.pmed.1001779PMC438046525826379"
+    },
+    {
+      "html": "PatelA.P.WangM.PirruccelloJ.P.EllinorP.T.NgK.KathiresanS.Lp(a) (Lipoprotein[a]) concentrations and incident atherosclerotic cardiovascular disease: new insights from a large national biobankArter Thromb Vasc Biol411202146547410.1161/ATVBAHA.120.315291PMC776989333115266"
+    },
+    {
+      "html": "RidkerP.M.MoorthyM.V.CookN.R.RifaiN.LeeI.M.BuringJE.Inflammation, cholesterol, lipoprotein(a), and 30-year cardiovascular outcomes in womenN Engl J Med391222024208720973921609110.1056/NEJMoa2405182PMC11711015"
+    },
+    {
+      "html": "HonigbergM.C.TrinderM.NatarajanP.Lipoprotein(a), menopausal hormone therapy, and risk of coronary heart disease in postmenopausal individualsJAMA Cardiol7520225655683537794510.1001/jamacardio.2022.0716PMC8981063"
+    },
+    {
+      "html": "SimonyS.B.MortensenM.B.LangstedA.AfzalS.KamstrupP.R.NordestgaardBG.Sex differences of lipoprotein(a) levels and associated risk of morbidity and mortality by age: the Copenhagen General Population StudyAtherosclerosis355202276823580376710.1016/j.atherosclerosis.2022.06.1023"
+    },
+    {
+      "html": "FryA.LittlejohnsT.J.SudlowC.DohertyN.AdamskaL.SprosenT.Comparison of sociodemographic and health-related characteristics of UK biobank participants with those of the general populationAm J Epidemiol18692017102610342864137210.1093/aje/kwx246PMC5860371"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

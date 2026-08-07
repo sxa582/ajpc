@@ -1,0 +1,699 @@
+{
+  "pmcid": "PMC9214826",
+  "pmid": "35757317",
+  "doi": "10.1016/j.ajpc.2022.100363",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9214826/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Implications of the heterogeneity between guideline recommendations for the use of low dose aspirin in primary prevention of cardiovascular disease",
+  "articleType": "Review Article",
+  "published": "2022-06-06",
+  "year": "2022",
+  "volume": "11",
+  "issue": "",
+  "articleNumber": "100363",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2022",
+  "authors": [
+    {
+      "given": "Xiao-Ying",
+      "surname": "Li",
+      "display": "Xiao-Ying Li"
+    },
+    {
+      "given": "Li",
+      "surname": "Li",
+      "display": "Li Li"
+    },
+    {
+      "given": "Sang-Hoon",
+      "surname": "Na",
+      "display": "Sang-Hoon Na"
+    },
+    {
+      "given": "Francesca",
+      "surname": "Santilli",
+      "display": "Francesca Santilli"
+    },
+    {
+      "given": "Zhongwei",
+      "surname": "Shi",
+      "display": "Zhongwei Shi"
+    },
+    {
+      "given": "Michael",
+      "surname": "Blaha",
+      "display": "Michael Blaha"
+    }
+  ],
+  "affiliations": [
+    "aDepartment of Geriatric Cardiology, Chinese PLA General Hospital, Beijing, China",
+    "bMedical Affairs & Pharmacovigilance, Pharmaceuticals, Bayer AG, Berlin, Germany",
+    "cSeoul National University Hospital, Seoul, Republic of Korea",
+    "dDepartment of Medicine and Aging and Center for Advanced Studies and Technology, D'Annunzio University of Chieti–Pescara, Chieti, Italy",
+    "eDepartment of Cardiology, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China",
+    "fJohns Hopkins Ciccarone Center for the Prevention of Heart Disease, Johns Hopkins University Medical Center, Baltimore, MD, United States"
+  ],
+  "keywords": [
+    "Cardiovascular disease",
+    "Primary prevention guidelines",
+    "Low dose aspirin",
+    "Antiplatelet"
+  ],
+  "abstract": [
+    {
+      "html": "The most recent primary cardiovascular disease (CVD) prevention clinical guidelines used in Europe, Italy, the USA, China, and South Korea differ in aspects of their approach to CVD risk assessment and reduction. Low dose aspirin use is recommended in certain high-risk patients by most but not all the countries. Assessment of traditional risk factors and which prediction models are commonly used differ between countries. The assessments and tools may not, however, identify all patients at high risk but without manifest CVD. The use of coronary artery calcium (CAC) score to guide decisions regarding primary prevention aspirin therapy is recommended only by the US primary prevention guidelines and the 2021 European Society of Cardiology guidelines. A more consistent and comprehensive global approach to CVD risk estimation in individual patients could help to personalize primary CVD prevention. Wider detection of subclinical atherosclerosis, together with structured assessment and effective mitigation of bleeding risk, may appropriately target patients likely to gain net benefit from low dose aspirin therapy."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Aspirin remains the most widely used and least expensive antiplatelet agent. Low dose aspirin has a unique mechanism of action, consisting of irreversible inhibition of cyclooxygenase-1 (COX-1) enzymes that are expressed in platelets and megakaryocytes, and suppression of prostaglandin and thromboxane-A<sub>2</sub> production. Since anucleate platelets cannot generate new COX, the inhibitory effect lasts the lifespan of the platelet [1]. Inhibition of megakaryocyte COX-1 allows the long-lasting effect of aspirin throughout the 24-hour dosing interval, despite the short, 20-minute half-life of the drug [2]. The action of aspirin complements the action of other cardiovascular (CV) protective agents, (e.g., statins, antihypertensives, and other antithrombotic treatments), to provide additive reduction of CV risk [3]. In contrast to the inclusion of low dose aspirin as a key component of treatment for secondary prevention of CV events in international guidelines, its role in primary prevention has long been a subject of debate. The findings of 3 primary prevention trials in 2018 [4], [5], [6], [7], [8], which reported neutral net benefit results or evidence of harm for aspirin in patients with no overt cardiovascular disease (CVD), have added to that debate and are reflected in the changes in, and discordance between, major primary prevention guidelines over time and by different organizations."
+        },
+        {
+          "type": "paragraph",
+          "html": "Estimating the absolute CV risk of the patient is acknowledged as a critical step in the current approach to primary prevention of atherosclerotic CVD (ASCVD) [9]. Numerous primary prevention management guidelines provide recommendations or guidance for treatment, based on ASCVD risk assessment and stratification using a population-based risk assessment system or score. However, with an increased understanding of, and ability to detect, subclinical atherosclerosis, it has become apparent that some patients with extensive subclinical disease have a level of CV risk that is similar to or higher than some patients who have had a CV event [10,11]. In patients with a history of CVD, low dose aspirin for secondary prevention has a well-established and near-universal positive benefit:risk ratio. It may therefore be that low dose aspirin retains a role in primary prevention in a group of patients with extensive subclinical disease."
+        },
+        {
+          "type": "paragraph",
+          "html": "We conducted a review of the most recent guidelines for primary prevention used in the authors’ regions/countries—Europe, Italy, the USA, China, and South Korea—with the aim of establishing the commonalities and differences between risk factor targets, risk modifiers, and treatment approaches, with a specific focus on the degree to which these guidelines help to identify patients who are most likely to benefit from primary prevention with low dose aspirin therapy (Fig. 1)."
+        }
+      ]
+    },
+    {
+      "title": "The history and diversity of risk assessment in the primary prevention of cardiovascular disease",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The Framingham 10-year Coronary Heart Disease (CHD) risk prediction equation (Framingham-CHD) was the first risk assessment tool to be developed and was based on a prospective single-center study of the Framingham Heart Study Community Cohort in the USA [12]. This was updated with guidance on dyslipidemia in 2001 to the National Cholesterol Education Program Adult Treatment Panel III (NCEP ATP-III) assessment tool [13] and then to the Framingham General CVD Risk Profile tool, which included assessments for the 10-year risk of CHD, cerebrovascular events, peripheral artery disease, and heart failure [14]. However, limitations in these tools were recognized, such as their basis on historical data that were limited to White patients and the initial exclusion of ischemic stroke. Introduced in 2013 [15], the pooled cohort equations (PCE), which include specific risk assessments for African Americans, are integral to the ASCVD Risk Estimator Plus calculator currently recommended for the estimation of 10-year ASCVD risk for asymptomatic adults aged 40–75 years in the USA [16] (Table 1).Table 1Comparison between risk calculators in the USA, Europe, Italy, China, and South Korea.Table 1<strong>CV risk calculator</strong><strong>ASCVD Risk Estimator Plus</strong><strong>SCORE2</strong><strong>Progetto Cuore</strong><strong>China-PAR</strong><strong>Korean Risk Prediction Model</strong><strong>Outputs: 10-year risk of:</strong>Fatal and nonfatal CVDX✓XXXFatal CHD✓✓✓✓✓Nonfatal CHDXX✓X✓Fatal MIXXX✓✓Nonfatal MI✓✓X✓✓Fatal stroke✓✓✓✓✓Nonfatal stroke✓✓✓✓✓RevascularizationXX✓XXSudden deathXX✓X✓<strong>Risk factors included in calculator</strong>RegionX✓X✓XEthnicity✓XXXXSpecific locationX✓XXXSex✓✓✓✓✓Age✓✓✓✓✓Smoker✓✓✓✓✓Previous smokerXXXX✓Diabetes✓✓✓✓✓Duration of diabetesXXXXXHbA<sub>1c</sub>XXXXXFamily historyXXX✓XBMI (or height/ weight/waist)XXX✓ (waist)XHypertension✓X✓✓Systolic BP✓✓✓✓✓Antihypertensive treatment✓✓✓✓✓Total cholesterol✓✓✓✓✓HDL-C✓✓✓✓✓LDL-C✓XXX✓TriglyceridesXXXXXLipid-lowering treatment✓XXXXCACXXXXXASCVD, atherosclerotic cardiovascular disease; BMI, body mass index; BP, blood pressure; CAC, coronary artery calcium; CHD, coronary heart disease; China-PAR, Prediction for ASCVD Risk in China; CVD, cardiovascular disease; HbA<sub>1c</sub>, glycated hemoglobin; HDL-C, high-density lipoprotein-cholesterol; LDL-C, low-density lipoprotein-cholesterol; MI, myocardial infarction; SCORE, Systematic COronary Risk Evaluation."
+        },
+        {
+          "type": "paragraph",
+          "html": "Based on the Framingham risk assessment tools, the Systematic COronary Risk Evaluation (SCORE), a comprehensive risk assessment model, was developed for both high-risk and low-risk regions of Europe [17]. Updated, recalibrated country-specific versions of SCORE risk charts have been published for all European countries [18]. The recently published SCORE2 has several advantages over the original SCORE model: it is based on the most contemporary and representative datasets on CVD in all European countries, grouped into 4 risk regions (low, moderate, high, and very high risk) according to their most recently reported World Health Organization (WHO) age- and sex-standardized overall CVD mortality rates, and provides estimates for both fatal and nonfatal CV events [19,20] (the previous focus on fatal events alone may have underestimated total CVD burden) [21]. The SCORE2-Older Persons (SCORE2-OP) risk model estimates 5- and 10-year risk of CVD in individuals aged &gt;70 years in the 4 risk regions [19,20]. The Progetto Cuore score tailored the SCORE model for regions in Italy, adding 2 additional risk factors (diabetes and hypertension) and a new endpoint (nonfatal CV events) [22]. In China, the risk assessment model for risk factors and ischemic CVD events was established in 2003 [23]. Subsequent models include the Prediction for ASCVD Risk in China (China-PAR) equations [24]. Among these models, the ASCVD Risk Assessment Process Flow Chart for Chinese Adult Population is currently the most widely used for primary prevention [25]. In South Korea, the Korean Risk Prediction Model (KRPM) was developed using data from the Korean Heart Study cohort of over 200,000 adults aged 40–79 years who were free from ASCVD at baseline [26]. The KRPM improved ASCVD risk prediction in this population compared with the PCE, which overestimated this risk by approximately twofold [27]. The lack of easy-to-use tools that incorporate the KRPM, however, has inhibited its adoption into local guidelines for risk assessment. In addition, there have been concerns and some evidence that further recalibration of this model is required to better predict outcomes in clinical practice in South Korea [28]."
+        }
+      ]
+    },
+    {
+      "title": "Identification of high-risk patients in the primary prevention population in China, the USA, South Korea, Italy, and Europe",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The presence of modifiable risk factors such as tobacco use, poor diet, excess body weight or obesity, hypertension, dyslipidemia, and diabetes mellitus (DM) are key indicators of CV risk. However, because the development of ASCVD is usually the result of multiple, interacting factors, assessment of total CVD risk is recommended [29]. Across the 5 guidelines for primary prevention reviewed here (Table 2) [8,16,25,[30], [31], [32]] the categories of risk severity differ, as do the definitions used for each category. Only the European Society of Cardiology (ESC)/European Society of Hypertension (ESH) and Chinese guidelines include a very high risk category. Patients could be classified as high risk with <em>a</em>≥ 20% 10-year CVD risk (American College of Cardiology [ACC]/American Heart Association [AHA] 2019 and the Progetto Cuore), <em>a</em>≥ 10% 10-year CVD risk (China-PAR), or <em>a</em>≥ 5% to &lt;10% 10-year risk (SCORE), although the outputs from the respective risk calculators also differ (Table 1).Table 2Risk categories for cardiovascular disease according to primary prevention guidelines in the USA, Europe, Italy, China, and South Korea.Table 2<strong>CVD risk</strong><strong>US 2019</strong>[16]<strong>ESC 2021</strong>[8]<strong>Italy 2018</strong>[33]<strong>China 2020</strong>[25]<strong>South Korea 2018</strong> [31,32]*Very highNot categorizedApparently healthy subjects with 10-year ASCVD risk (according to age) of:•≥15% (≥70 years)•≥10% (50–69 years)•≥7.5% (&lt;50 years)Not applicableDocumented ASCVD2018 Dyslipidemia guidelines•CAD•PAD•atherosclerotic ischemic stroke•TIA2018 Hypertension guidelines•Not categorizedHigh≥20% 10-year ASCVD risk<sup>†</sup>Apparently healthy subjects with 10-year ASCVD risk (according to age) of:•7.5% to &lt;15% (≥70 years)•5% to &lt;10% (50–69 years)•2.5% to &lt;7.5% (&lt;50 years)≥20% 10-year CV risk (first major CV event)Subjects with ≥10% 10-year ASCVD risk:•Diabetes and ≥40 years•LDL-C ≥ 4.9 mmol/L (189.5 mg/dL) or TC ≥7.2 mmol/L (278.4 mg/dL)•CKD stages 3–4•High-normal BP + 3 risk factors•Grade 1 high BP + 2 risk factors•Grade 2–3 high BP + 1 risk factor•Moderate CVD risk + ≥2 of the 5 following risk factors:-Grade 2–3 high BP-Non-HDL-C ≥ 5.2 mmol/L (201.1 mg/dL)-HDL-C &lt;1.0 mmol/L (38.7 mg/dL)-BMI ≥28 kg/m<sup>2</sup>-Smoker2018 Dyslipidemia guidelines•carotid artery disease•abdominal aortic aneurysm•DM2018 Hypertension guidelines: ≥15% 10-year CVD•DM complicated by subclinical organ damage or CVD•CVD•CKDOR•Grade 1 hypertension with ≥3 major risk factorsOR•Grade 2 hypertension with 1–2 risk factorsIntermediate•≥7.5% to &lt;20% 10-year ASCVD risk•Use CAC score to guide decisionsNot categorizedNot applicableNot categorizedNot categorizedModerateNot categorized•SCORE is ≥1% and &lt;5% at 10 years. Many middle-aged subjects belong to this category.≥3 to &lt;20% 10-year CV riskSubjects with 5–9% 10-year ASCVD risk:•normal BP + hypercholesteremia + 2–3 risk factors•Grade 1 high BP + hypercholesteremia + 1 risk factor•Grade 2 high BP + normal cholesterol + 2 risk factors2018 Dyslipidemia guidelines•≥2 major risk factors2018 Hypertension guidelines: ≥10% to &lt;15% 10-year CVD•Grade 2 hypertension•Grade 1 hypertension with 1–2 risk factors•prehypertension with ≥3 major risk factorsLow-to-moderateNot categorized•&lt;7.5% (≥70 years)•&lt;5% (50–69 years)•&lt;2.5% (&lt;50 years)Not categorizedNot categorizedNot categorizedBorderline risk•5% to &lt;7.5% 10-year ASCVD risk•Use risk-enhancing factors, such as CAC score to guide decisionsNot categorizedNot applicableNot categorizedNot categorizedLow risk&lt;5% 10-year ASCVD risk<sup>†</sup>SCORE &lt;1%&lt;3% 10-year CV riskSubjects with &lt;5% 10-year ASCVD risk:•normal BP + normal cholesterol level + ≤3 risk factors•high BP + normal cholesterol + ≤1 risk factor•high BP + hypercholesterolemia + no other risk factor2018 Dyslipidemia guidelines•≤1 major risk factor2018 Hypertension guidelines: 5–&lt;10% 10-year CVD•Grade 1 hypertension•prehypertension with 1–2 risk factors*References: Dyslipidemia guidelines [31]; hypertension guidelines [32]. <sup>†</sup><a href=\"http://tools.acc.org/ascvd-risk-estimator-plus/\">ASCVD Risk Estimator Plus outcome</a>.ACS, acute coronary syndrome; AMI, acute myocardial infarction; ASCVD, atherosclerotic cardiovascular disease; BMI, body mass index; BP, blood pressure; CAC, coronary artery calcium; CAD, coronary artery disease; CKD, chronic kidney disease; CV, cardiovascular; CVD, cardiovascular disease; DM, diabetes mellitus; ESC, European Society of Cardiology; ESH, European Society of Hypertension; GFR, glomerular filtration rate; HDL-C, high-density lipoprotein-cholesterol; LDL-C, low-density lipoprotein-cholesterol; PAD, peripheral artery disease; SCORE, Systematic Coronary Risk Evaluation; TC, total cholesterol; TIA, transient ischemic attack."
+        },
+        {
+          "type": "paragraph",
+          "html": "According to the ASCVD Risk Assessment Process Flow Chart for Chinese Adult Population [25], patients with diabetes aged ≥40 years, with low-density lipoprotein-cholesterol (LDL-C) ≥4.9 mmol/L (189 mg/dL) or total cholesterol (TC) ≥7.2 mmol/L (278.4 mg/dL), or with chronic kidney disease (CKD) stage 3–4, have a high risk of ASCVD (defined as predicted 10-year CVD risk ≥10%). In other individuals, the 10-year ASCVD risk should be estimated by considering age, blood pressure, LDL-C or TC levels, high-density lipoprotein-cholesterol (HDL-C) level, smoking (yes/no), body mass index (BMI), and family history of CVD."
+        },
+        {
+          "type": "paragraph",
+          "html": "Since 2003, European guidelines on CVD prevention in clinical practice have recommended the SCORE system. At the population level, however, absolute event rates vary across different subgroups. Thus, the SCORE system has been adapted to suit populations in low-, high-, and very high-risk European countries, but not to address the different ethnic groups within those countries [29]. Similarly, performance of the PCE in diverse population subgroups from outside the USA is highly variable, reflecting the heterogeneous nature of the populations in terms of the prevalence of risk factors and inherent hazards for ASCVD. Thus, the PCE systematically underestimate risk in patients from some racial/ethnic groups, those with lower socioeconomic status, or with chronic inflammatory diseases, and over-predict risk in patients with higher socioeconomic status or those receiving preventive health care and follow-up [9]."
+        },
+        {
+          "type": "paragraph",
+          "html": "The under- or overestimation of risk illustrates two important aspects of CV risk prediction. Firstly, risk prediction equations developed in one population cannot be satisfactorily applied to other populations, or even used in the same country years after they were originally developed, because of changes in average risk factor levels and disease risks [34]. Secondly, factors other than the traditional CVD risk factors may significantly alter the risk of CVD development in subsets of patients."
+        },
+        {
+          "type": "paragraph",
+          "html": "The applicability of a risk prediction score can be improved by recalibration of the prediction model according to the average risk factor levels and disease risks of the target population. The Globorisk CVD risk score, for example, can be recalibrated and updated for use in different countries and years with routinely available information. This risk prediction equation can be used to predict 10-year risk of fatal and nonfatal CVD in 182 countries worldwide, with and without laboratory-based measurements [34,35], and allows for the variation in CV risk with sex and age [36]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Apart from the conventional major CV risk factors included in risk prediction charts, several other factors modify or enhance risk and can be relevant for assessing total CVD risk (Table 3). Assessment of additional risk factors is recommended to improve risk classification and, if feasible, is of value where an individual&#x27;s risk borders a risk category threshold [16,29,37].Table 3Risk-enhancing factors and risk modifiers that should be considered in the assessment of cardiovascular risk in the primary prevention population primary prevention guidelines in the USA, Europe, Italy, China, and South Korea.Table 3<strong>Risk-enhancing or -modifying factor</strong><strong>ACC/AHA 2019</strong><strong>ESC 2021</strong><strong>Italy</strong><strong>China</strong><strong>South Korea</strong>Socioeconomic status, social isolation, or lack or social support, domestic abuse/violence✓✓Family history of premature ASCVD✓✓✓✓✓Primary hypercholesterolemia✓ (LDL-C, 160–189 mg/dL [4.1–4.8 mmol/L]; non–HDL-C 190–219 mg/dL [4.9–5.6 mmol/L])✓Metabolic syndrome✓✓Changes in renal function/CKD✓✓✓✓Chronic inflammatory conditions✓✓✓History of premature menopause (before age 40 years)✓✓History of pregnancy-associated conditions that increase later ASCVD (e.g., preeclampsia)✓High-risk race/ethnicity✓✓Post-traumatic stress✓Lipids/biomarkers associated with increased ASCVD risk✓✓Persistent primary hypertriglyceridemia (≥175 mg/dL, nonfasting)✓✓✓Elevated hsCRP (≥2.0 mg/L)✓✓✓Elevated Lp(a) (≥50 mg/dL or ≥125 nmol/L)✓✓✓Elevated apoB (≥130 mg/dL)✓✓✓ABI &lt;0.9✓✓✓✓BNP/NT-pro-BNP✓BMI and central obesity✓✓✓CAC score✓✓✓✓✓Atherosclerotic plaque documented by carotid artery scanning✓✓✓✓Increased intima-media thickness of carotid arteries✓✓✓Nonobstructive coronary artery stenosis (&lt;50%)✓Left ventricular hypertrophy✓✓ABI, ankle–brachial index; ACC, American College of Cardiology; AHA, American Heart Association; apoB, apolipoprotein B; ASCVD, atherosclerotic cardiovascular disease; BMI, body mass index; BNP, B-type natriuretic peptide; CAC, coronary artery calcium; CKD, chronic kidney disease; ESC, European Society of Cardiology; ESH, European Society of Hypertension; hsCRP, high-sensitivity C-reactive protein; LP(a), lipoprotein a; NT-pro-BNP, N-terminal pro-B-type natriuretic peptide."
+        },
+        {
+          "type": "paragraph",
+          "html": "Use of the coronary artery calcium (CAC) score or other arterial imaging, including carotid ultrasound, has been proposed to help guide decisions about preventive interventions in selected patients. Several features of the CAC score underpin its potential value as a tool for ASCVD risk stratification. CAC detection by computed tomography (CT) is highly sensitive, pathognomonic of atherosclerotic plaque, and CAC burden correlates strongly with total coronary plaque. CAC scoring can be performed with any modern CT scanner, and is rapid, exposes the patient to only a low radiation dose, and allows simple semi-automated interpretation that, using standardized CT parameters, is consistent worldwide [38]. Importantly, CAC scoring may identify a distinct group of patients: those with advanced subclinical atherosclerosis whose place in the chronic coronary syndrome continuum may overlap the traditional boundaries of primary and secondary prevention [39]. For patients with type 2 diabetes mellitus (T2DM), the severity of CAC appears to be a stronger clinical prognostic indicator than conventional measures of disease severity, such as insulin use or glycemic control. The addition of CAC score to global risk assessment is associated with significantly improved risk classification in patients with T2DM and no known CVD; the absence of CAC is associated with low ASCVD and CHD risk, even in those with diabetes duration longer than a decade [39]. Thus, CAC testing appears to have considerable utility as a decision aid for CV risk reduction interventions. Notably, in patients younger than 70 and without overt CVD or high bleeding risk, modeling studies suggest that detection of CAC ≥100, and particularly CAC ≥400, could identify those likely to gain net benefit from low dose aspirin therapy [40]."
+        },
+        {
+          "type": "paragraph",
+          "html": "CAC score is identified as a risk modifier in most guidelines and its use to help guide decisions about statin or low dose aspirin treatment in patients with intermediate 10-year ASCVD risk (≥7.5% to &lt;20%) is recommended in two of the primary prevention guidelines reviewed here—the 2019 ACC/ AHA guideline and the 2021 ESC guidelines [8,16]—as well as the US Combined Societies’ 2018 guideline on the management of blood cholesterol [37] and the new US National Lipid Association (NLA) recommendations for primary prevention therapy according to CAC score, which include a moderate strength recommendation for the reasonable use of low dose aspirin in patients with CAC ≥100 and no bleeding-related contraindications for such therapy [41]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Ultrasound assessment of carotid plaque burden can also enhance ASCVD prediction using traditional risk factors in asymptomatic adults [42,43]. Carotid artery color Doppler ultrasound is a low-cost, non-invasive, simple procedure that is radiation-free and repeatable [44]. Globally, the burden of carotid atherosclerosis is substantial [45], and systematic analysis of stroke rates reported in observational cohort studies shows that the risk of stroke is highly correlated with the degree of asymptomatic carotid stenosis [46]. Of the guidelines reviewed here, only the European guidelines include recommendations for carotid artery plaque assessment using ultrasonography as a risk modifier in CV risk prediction. This may be considered in some cases when a CAC score is not feasible [8], and should be considered for asymptomatic patients with DM [47]. Interestingly, the use of ultrasound-based imaging of subclinical carotid atherosclerosis to inform primary care physicians and patients improves CV risk reduction through better adherence to primary prevention measures [48]."
+        }
+      ]
+    },
+    {
+      "title": "Other risk modifiers",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Numerous other factors have been identified as modifying or enhancing CV risk, but are not included in risk estimation models. The significance of CKD as a CV risk factor is well recognized in primary prevention guidelines [8,16,29]. The European guidelines recognize the importance of decreasing estimated glomerular filtration rate (eGFR) and, independently, increasing albuminuria as indicators of worsening renal impairment and increasing CVD risk, but note that the use of CAC score may be useful to stratify CV risk in patients with CKD [8]. The Italian Progetto Cuore similarly notes that changes in renal function may be integrated into the risk evaluation [30]. For patients with diabetes, the 2019 ESC guidelines recommend stratification of CKD according to both eGFR and albuminuria [47]. Individuals with CKD stages 3–4 are directly categorized as high-risk ASCVD patients by the Chinese guidelines [25]."
+        },
+        {
+          "type": "paragraph",
+          "html": "An increasing number and variety of other clinical, behavioral, and environmental factors are being recognized as affecting CV risk. Nonalcoholic fatty liver disease, for example, is associated with increased risk of CV events, regardless of traditional risk factors such as diabetes and dyslipidemia [49]."
+        }
+      ]
+    },
+    {
+      "title": "Are we underestimating the cardiovascular risk in patients with diabetes?",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Individuals with diabetes have accelerated atherosclerosis in different vascular territories [50], with higher atheroma volume, more atherosclerotic plaque, and much narrower coronary lumens than those without diabetes [51]. Thromboxane A<sub>2</sub>-dependent platelet activation has been shown to be at least as high in patients with preclinical and early diabetes as in those with T2DM [52]. The risk of negative CV outcomes in patients with T2DM after a decade, those with target organ damage, or those with 3 or more CV risk factors seems to be equivalent to patients with coronary artery disease (CAD). Based on this concept, patients with diabetes are classified into 3 categories: very high, high, and moderate CV risk. In a cross-sectional study of a primary care database in Catalonia, Spain (SIDIAP) that included 373,185 adults with a diagnosis of T2DM, a significant proportion (36.4%, 95% confidence interval [CI]: 36.1–36.7) exhibited very high CV risk that classified them as “CAD-equivalent” patients [53]. Risk of CVD is increased twofold in patients with diabetes in general [53] and is already increased in prediabetes [54]."
+        },
+        {
+          "type": "paragraph",
+          "html": "The current American Diabetes Association (ADA) Standards of Care in Diabetes recommend use of the ACC/AHA ASCVD Risk Estimator Plus for CV risk calculation in patients with T2DM but acknowledge that this does not account for the duration of diabetes or the presence of diabetes complications, such as albuminuria [55]. The 2019 ESC in collaboration with the European Association for the Study of Diabetes (EASD) guidelines do not recommend the use of risk scores developed for the general population in those with diabetes but provide specifically designed risk stratification, which excludes low-risk patients and, rather than the inclusion of traditional risk factors, focuses on duration of diabetes and target organ damage [47]. Better identification of early target organ damage would improve risk stratification of patients with prediabetes and T2DM, and allow measures to target T2DM-related factors and precursors of CV risk more aggressively."
+        },
+        {
+          "type": "paragraph",
+          "html": "The 2019 ACC/AHA guideline [16] provides a class IIa recommendation for initiating metformin as first-line pharmacotherapy at diagnosis of T2DM to reduce ASCVD risk in addition to improving glycemic control. For patients with T2DM and additional CV risk factors who require glucose-lowering therapy despite metformin (and lifestyle modifications), initiation of a sodium-glucose cotransporter 2 (SGLT-2) inhibitor or a glucagon-like peptide 1 receptor agonist (GLP-1RA) may be reasonable to improve glycemic control and reduce CVD risk. The use of low dose aspirin, which would not be expected to have reduced efficacy with concomitant use of these glucose-lowering agents, at the time of diagnosis of T2DM seems reasonable if there is no excess bleeding risk [56] but is not specified in these guidelines. In contrast, the ADA Standards of Care in Diabetes recommends the use of low dose aspirin for primary prevention in men and women aged ≥50 years with diabetes and at increased CV risk (at least one additional major risk factor) [55]. The 2021 ESC and 2019 ESC/EASD guidelines recommend that low dose aspirin be considered for primary prevention in patients with DM and at least high CV risk, which includes all except those with well-controlled DM of &lt;10 years duration without target organ damage or any other major CV risk factor. Noting that asymptomatic patients with DM can have a significant atherosclerotic burden, the ESC/EASD guidelines include a class IIb recommendation for CAC scoring by CT in such patients with at least moderate risk [47]. A joint position paper of the Italian Cardiology (SIC) and Italian Diabetes (SID) Societies on CV risk management in T2DM does not make any specific recommendation for or against the use of low dose aspirin in primary prevention [57]. The most recent Chinese T2DM guideline recommends that aspirin can be used for primary prevention in T2DM patients aged ≥50 years without high bleeding risk and with at least one of the following risk factors: family history of premature ASCVD, hypertension, dyslipidemia, smoking, or CKD/proteinuria [58]."
+        }
+      ]
+    },
+    {
+      "title": "Risk remains despite statin therapy or due to poor adherence to statin therapy",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The evidence supporting the use of low dose aspirin in primary prevention has been criticized as being mostly based on older clinical trials that included patients with higher smoking rates and lower use of antihypertensive agents and statins [59]. However, more than 80% of high-risk patients do not achieve recommended LDL-C targets, partly due to the use of insufficient starting doses of statins and the low adherence/high discontinuation rate of chronic statin treatment. Statin adherence rates of just 25% in primary prevention have been reported in the USA [60]. The Chinese consensus statement notes that patients who are unable to take other primary prevention measures (such as statins) may need low dose aspirin more often [61]. A cross-sectional, multicenter observational study to assess control of CV risk factors among Chinese adults with T2DM found that only 5054 of 25,454 patients (19.9%) were on statin treatment, and none of the 14,766 patients without dyslipidemia were taking any lipid-modulating drugs [62]. These treatment proportions are significantly lower than the 75.3% of patients with DM using statin therapy in the ASCEND trial [63]."
+        }
+      ]
+    },
+    {
+      "title": "Recommendations for the use of low dose aspirin in the primary prevention of cardiovascular disease in China, the USA, South Korea, Italy, and Europe",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Low dose aspirin is recommended or may be considered for use in primary prevention in selected populations in all the countries/regions included in this review. This includes Europe, for which the ESC guidance—previously a notable exception [29]—now notes that aspirin may be considered for patients without established ASCVD at high or very high CVD risk, in addition to formally recommending its use for the majority of patients with DM [8] (Tables 4 and 5). The US Preventive Services Task Force (USPSTF) has recently updated its recommendation for low dose aspirin use, now stating that the decision to initiate low dose aspirin for the primary prevention of CVD in adults aged 40–59 years who have a ≥ 10% 10-year CVD risk should be an individual one and recommending against initiating low dose aspirin use for the primary prevention of CVD in adults aged ≥60 years [64].Table 4Summary of recommendations for and against the use of low dose aspirin in the USA, Europe, Italy, China, and South Korea.Table 4<strong>Guideline (reference)</strong><strong>Recommendation(s) for low dose aspirin</strong><strong>Class/strength of recommendation</strong><strong>Level/ quality of evidence</strong>2019 ACC/AHA guideline on the primary prevention of CVD [16]Low dose aspirin (75–100 mg/d orally) might be considered among select adults 40 to 70 years of age who are at higher ASCVD risk but not at increased bleeding riskIIbALow dose aspirin (75–100 mg/d orally) should not be administered on a routine basis for the primary prevention of ASCVD among adults &gt;70 years of ageIIIB-RLow dose aspirin (75–100 mg/d orally) should not be administered for the primary prevention of ASCVD among adults of any age who are at increased risk of bleedingIIIC-LD2022 US Preventive Services Task Force Recommendation Statement: Aspirin Use to Prevent Cardiovascular Disease [64]The decision to initiate low dose aspirin use for the primary prevention of CVD in adults aged 50–59 years with a ≥ 10% 10-year CVD risk should be an individual oneCModerateDo not initiate aspirin for the primary prevention of CVD in adults ≥60 yearsDModerate2021 ESC guidelines on cardiovascular disease prevention in clinical practice [8]In selected patients without established ASCVD at high or very high CVD risk, the benefits of aspirin outweigh the risksNot providedNot provided2016 European guidelines on CVD prevention in clinical practice [29]Antiplatelet therapy is not recommended in individuals without CVD due to the increased risk of bleedingIIIBAntiplatelet therapy is not recommended for people with DM who do not have CVDIIIA2019 Chinese expert consensus statement on aspirin application in primary prevention of CVD [61]The following ASCVD high-risk groups may consider taking low dose aspirin (75–100 mg/day) for primary prevention: adults aged 40–69 years, if the 10-year expected risk of ASCVD is ≥10% for their initial risk assessment, and there are still ≥3 major risk factors that remain poorly controlled or difficult to change after active treatment intervention. The main risk factors include:•Hypertension, diabetes, dyslipidemia (TC ≥6.2 mmol/L [239.7 mg/dL], or LDL ≥4.1 mmol/L [158.5 mg/dL], or HDL &lt;1.0 mmol/L [38.7 mg/dL]), smoking, family history of early onset CVD, obesity, CAC score ≥100, or coronary artery stenosis &lt;50%IIbAThe following populations are not recommended to take aspirin for primary prevention of ASCVD:Population aged ≥70 years or &lt;40 yearsIIIBPopulation at high risk of bleedingIIICPatients whose risk of bleeding was assessed to be greater than the risk of thrombosisIIIC2018 Joint consensus document on CVD prevention in Italy [33]Recommended for subjects with a risk of major CV events ≥2/100 patient-years (equivalent to a SCORE risk of 7–10% at 10 years), especially if male and aged 50–60 years. Risk:benefit ratio for aspirin use in primary prevention•Yes to aspirin:∘Cancer risk: age, sex, smoking, family history, precancerous lesion, genetic syndromes and polymorphisms, dietary and lifestyle habits, exposure to radiation∘CV risk: age, male sex, hypertension, dyslipidemia, obesity, smoking, dietary and lifestyle habits, family history, menopause•No to aspirin:∘Bleeding risk: age, previous bleedings, liver or kidney failure, peptic ulcer and GI disorders, concomitant use of NSAID or anticoagulant therapy, previous stroke, severe comorbiditiesNot providedNot provided2017 Chinese CVD prevention guide [65]Low dose aspirin is recommended for• 10-year ASCVD risk ≥10%• Diabetic patients, age ≥50 years, with at least one major risk factor• Hypertensive patients with BP &lt;150/90 mmHg, accompanied by ≥3 major risk factors• Patients with CKD (eGFR 30–45 mL/min/1.73 m<sup>2</sup>)• Patients other than above with ≥4 risk factorsNot providedNot provided2020 Guideline for primary prevention of CVD in China [25]Low dose aspirin might be considered in adults aged 40–70 years who are at high ASCVD risk but not at increased bleeding risk, with at least one risk-enhancing factor (e.g., CAC &gt;100, carotid plaque)IIbA2018 Korean Society of Hypertension guidelines for the management of hypertension: Part II – diagnosis and treatment of hypertension [32]The role of aspirin for primary prevention remains a matter of debate, leaning towards the negative sideLow dose aspirin (100 mg) can be prescribed to patients in high-risk groups in order to reduce the risk of CVD, e.g., hypertensive patients with CKD [60]Antiplatelet agents should be administered after BP is controlled, and patients should be checked periodically for GI bleedingNot providedNot providedASCVD, atherosclerotic cardiovascular disease; BMI, body mass index; BP, blood pressure; CAC, coronary artery calcium; CKD, chronic kidney disease; CV, cardiovascular; CVD, cardiovascular disease; DM, diabetes mellitus; eGFR, estimated glomerular filtration rate; GI, gastrointestinal; HDL-C, high-density lipoprotein-cholesterol; LDL-C, low-density lipoprotein-cholesterol; MI, myocardial infarction; NSAID, nonsteroidal anti-inflammatory drug; SCORE, Systematic COronary Risk Evaluation; TC, total cholesterol.Table 5Summary of recommendations for and against the use of low dose aspirin in patients with diabetes mellitus in the USA, Europe, Italy, China, and South Korea.Table 5<strong>Guideline (reference)</strong><strong>Low dose aspirin recommendations</strong><strong>Class/strength of recommendation</strong><strong>Level/ quality of evidence</strong><strong>Evidence base for key recommendations (reference)</strong>2019 ESC guidelines on diabetes, prediabetes, and CVDs [47]Aspirin (75–100 mg/day) for primary prevention may be considered in patients with DM at very high/high risk in the absence of clear contraindications (GI bleeding, peptic ulceration within the previous 6 months, active hepatic disease, or history of aspirin allergy)IIbA3Aspirin for primary prevention is not recommended in patients with DM at moderate CV riskIIIBConcomitant use of a PPI is recommended in patients receiving aspirin monotherapy, DAPT, or oral anticoagulant monotherapy who are at high risk of GI bleedingIIaA105, 1062020 American Diabetes Association. 10. Cardiovascular Disease and Risk Management: Standards of Medical Care in Diabetes – 2020 [55]Aspirin therapy (75–162 mg/day) may be considered as a primary prevention strategy in those with diabetes who are at increased CV risk, after a comprehensive discussion with the patient on the benefits versus the comparable increased risk of bleedingA2016 European guidelines on CVD prevention in clinical practice [29]Antiplatelet therapy is not recommended for people with DM who do not have CVDIIIA1072021 ESC guidelines on cardiovascular disease prevention in clinical practice [8]In patients with DM at high or very high CVD risk, low dose aspirin may be considered for primary prevention in the absence of clear contraindicationsIIbA3, 43, 1082020 Società Italiane di Cardiologica e Società Italiane di Diabetologia joint document [57]•Antiplatelet therapy is not recommended for people with DM who do not have CVD•In diabetic patients with multiple risk factors for ASCVD, aspirin use in primary prevention must be evaluated on an individual basis after accurate clinical judgmentI IB C1, 43, 105, 109–115Guideline for prevention and treatment of type 2 diabetes in China (2020 edition) [58]Aspirin therapy as a primary prevention strategy can be recommended in diabetic patients with high CVD risk; that is, those aged ≥50 years with at least one additional major risk factor (family history of premature ASCVD, hypertension, dyslipidemia, smoking, or CKD/albuminuria) without high bleeding riskIIbNot provided3, 4, 5, 11, 43, 52, 58, 86, 1162019 Clinical practice guidelines for type 2 diabetes mellitus in Korea [66]Aspirin (100 mg daily) may be considered for primary prevention in patients with DM at high CV risk, if they do not have high bleeding riskIIbC52ASCVD, atherosclerotic cardiovascular disease; CKD, chronic kidney disease; CV, cardiovascular; CVD, cardiovascular disease; DAPT, dual antiplatelet therapy; DM, diabetes mellitus; GI, gastrointestinal; PPI, proton pump inhibitor."
+        },
+        {
+          "type": "paragraph",
+          "html": "It is important to note that most recommendations for the use of low dose aspirin in selected patients for primary prevention of CVD have a IIb level of evidence, reflecting the lack of high-quality randomized controlled trials in this area, with residual uncertainty. The specific guidance for aspirin use, and, if given, for concomitant proton pump inhibitor (PPI) use, varies and likely reflects the variation in the evidence selected for evaluation (Table 6). While the 2021 ESC guidelines [8] note that CAC scoring can help reclassify CV risk, for example, the ACC/AHA [16] guidelines provide specific CAC score values for CV risk reclassification and initiation of statin therapy.Table 6Publications cited as evidence for recommendations/guidance on the use of low dose aspirin for primary prevention of cardiovascular disease in the USA, Europe, Italy, China, and South Korea.Table 6<strong>Publication [reference number]</strong><strong>Acronym</strong><strong>Patients with DM</strong><strong>2019 ACC/AHA</strong><strong>USPSTF 2022</strong><strong>2021 ESC</strong><strong>Italian</strong><strong>Chinese</strong><strong>South Korean</strong><strong>Guidelines</strong>Arnett 2019 ACC/AHA Guidelines [16]ACC/AHA✓Piepoli MF, et al. Eur Heart J 2016;37:2315–81 [29]ESC✓✓Pearson TA, et al. Circulation 2002;106:388–91 [67]AHA✓✓✓Pignone M, et al. Circulation 2010;121:2694–701 [68]ADA✓✓Halvorsen S, et al. J Am Coll Cardiol 2014;64:319–27 [69]ESC✓✓✓Bibbins-Domingo K; US Preventive Services Task Force. Ann Intern Med 2016;164:83645 [70]USPSTF✓✓✓✓Rhee EJ, et al. Korean J Intern Med 2019;34:723–71 [31]✓Lee HY, et al. Clinical Hypertens 2019;25:20 [32]✓Kim MK, et al. Diabetes Metab J 2019;43:398–406 [66]✓Cosentino F, et al. Eur Heart J 2020;41:255–323 [47]ESC✓Visserin FLJ, et al. Eur Heart J 2021; 42:3227–337 [8]ESC✓<strong>Meta-analyses and reviews</strong>Antithrombotic Trialists’ Collaboration. Lancet 2009;373:1849–60 [71]ATC✓✓✓✓Guirguis-Blake JM, et al. Ann Intern Med 2016;164:804–13 [72]USPSTF✓Garcia Rodriguez LA, et al. PLoS ONE 2016;11:e0160046 [73]✓Capodanno D, Angiolillo DJ. Circulation 2016;134:1579–94 [74]✓Raju N, et al. Am J Med 2016;129:e35–6 [75]✓Whitlock EP, et al. Ann Intern Med 2016;164:826–35 [76]USPSTF✓Mora S, Manson JE. JAMA Intern Med 2016;176:1195–204 [77]✓✓Ridker PM. N Engl J Med 2018;379:1572–4 [78]✓Rothwell PM, et al. Lancet 2018;392:387–99 [79]✓✓De Berardis G, et al. BMJ 2009;339:b4531 [80]✓✓✓✓Lotrionte M, et al. Prog Cardiovasc Dis 2016;58:495–504 [81]✓Joint Task Force for Guideline on the Assessment and Management of Cardiovascular Risk in China 2019. Zhonghua Yu Fang Yi Xue Za Zhi 2019;53:13–35 [82]✓Geriatrics Branch of Chinese Medical Association 2017; Editorial Board of Chinese Journal of Internal Medicine; Editorial Board of Chinese Journal of Geriatrics. Zhonghua Nei Ke Za Zhi 2017;56:68–80 [83]✓Task Force on Chinese Guidelines for the Prevention of Cardiovascular Diseases (2017); Editorial Board of Chinese Journal of Cardiology. Zhonghua Xin Xue Guan Bing Za Zhi 2018;46:10–25 [65]✓✓Abdelaziz HK, et al. J Am Coll Cardiol 2019;73:2915–29 [84]✓Zheng SL, Roddick, AJ. JAMA 2019;321:277–87 [85]✓Mahmoud AN, et al. Eur Heart J 2019;40:607–17 [86]✓Berger JS, et al. JAMA 2006;295:306–31 [87]✓Yusuf S, et al. N Engl J Med 2021;384:216–28 [88]✓Seidu S, et al. Cardiovasc Diabetol 2019;18:70 [89]✓<strong>Contemporary RCTs*</strong>ASCEND Study Collaborative Group. N Engl J Med 2018;379:1529–39 [4]ASCEND✓✓✓✓Belch J, et al. BMJ 2008;337:a1840 [90]POPADAD✓✓✓Fowkes FGR, et al. JAMA 2010;303:841–8 [91]AAA✓ARRIVE Executive Committee, et al. Lancet 2018;392:1036–46 [5]ARRIVE✓✓✓Ikeda Y, et al. JAMA 2014;312:2510–20 [92]JPPP✓McNeil JJ, et al. N Engl J Med 2018;379:1509–18 [6]ASPREE✓✓✓✓Ogawa H, et al. JAMA 2008;300:2134–41 [93]JPAD✓✓✓Miedema MD, et al. Circ Cardiovasc Qual Outcomes 2014;7:453–60 [94]MESA✓Ridker PM, et al. N Engl J Med 2005;352:1293–304 [95]WHS<sup>†</sup>✓<strong>Historical RCTs</strong>*Roncaglioni MC; Collaborative Group of the Primary Prevention Project. Lancet 2001;357:89–95 [96]PPP<sup>†</sup>✓Peto R, et al. Br Med J (Clin Res Ed) 1988;296:313–16 [97]BMD<sup>†</sup>✓Steering Committee of the Physicians’ Health Study Research Group. N Engl J Med 1989;321:129–35 [98]PHS<sup>†</sup>✓✓The Medical Research Council&#x27;s General Practice Research Framework. Lancet 1998;351:233–41 [99]TPT<sup>†</sup>✓Hansson L, et al. Lancet 1998;351:1755–62 [100]HOT<sup>†</sup>✓ETDRS Investigators. JAMA 1992;268:1292–300 [101]EDTRS✓✓<strong>Modeling studies</strong>Dehmer SP, et al. Aspirin Use to Prevent Cardiovascular Disease and Colorectal Cancer: An Updated Decision Analysis for the US Preventive Services Task Force. 2022. AHRQ publication 21–05,283-EF-2 [102]✓Dehmer SP, et al. JAMA. 2022;327:1598–1607 [103]✓<sup>⁎</sup> “Historical” and “contemporary” classification based on enrollment into study before 2000, according to Ridker 2018 [78]. <sup>†</sup>Reference included as part of ATT 2009 meta-analysis [71].ACC, American College of Cardiology; AHA, American Heart Association; DM, diabetes mellitus; ESC, European Society of Cardiology; RCT, randomized controlled trial; USPSTF, US Preventive Services Task Force."
+        },
+        {
+          "type": "paragraph",
+          "html": "Many important risk modifiers are not included in risk calculators, and there are major differences in the prevalence of risk factors across countries. Updated in 2019, the WHO CVD risk prediction charts reveal substantial variation in the estimated 10-year predicted risk for a given age and risk factor combination across the 21 global regions [36]. Similarly, findings of the Prospective Urban Rural Epidemiology (PURE) study reveal that the impact of some risk factors, such as low education, poor diet, and household air pollution, vary by the economic level of countries and were largest in middle- or low-income countries [104]. Although metabolic risk factors are the predominant individual-level risk factors for CVD [104], large ethnic differences in, for example, plasma lipid levels exist [105]. In addition, CVD risk in a population can be markedly affected by environmental changes [106]. Data from China show a complex geographical profile of CVD risk, with substantial variation and clustering of risk factors in some regions related to regional environmental and socioeconomic characteristics [107]. A comparison of CV risk factors in China and the USA showed that although China has a lower prevalence of CV risk factors, the burden is higher for hypertension, with poor detection and treatment, which may be responsible for China&#x27;s high stroke prevalence [108]. Taken together, these and other data illustrate the difficulty in assessing the CV risk of an individual within an appropriate population risk level."
+        }
+      ]
+    },
+    {
+      "title": "Frequency of low dose aspirin use in clinical practice",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In the USA, data from the Behavioral Risk Factor Surveillance System found that the weighted prevalence of low dose aspirin use among adults without CVD was 18.6% (95% CI: 17.9%–19.3%) [109]. Use of low dose aspirin for primary prevention was more likely among males, patients aged ≥70 years, and patients who were overweight/obese despite low ASCVD risk burden, demonstrating suboptimal concordance between current recommendations and actual use patterns. Thus, there is evidence to suggest that low dose aspirin therapy is underused by those at high risk for CVD and overused by those at low risk for CVD [[110], [111], [112]], and, as highlighted by a recent transatlantic survey, most patients lack insight into their 10-year CV risk and do not know the risks, benefits and role of aspirin in CVD prevention [113]. In Europe, access to low dose aspirin for CVD prevention is not over the counter and requires input from a health care professional; in the USA, the low cost and over-the-counter availability of low dose aspirin facilitate self-medication [106]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Underuse of aspirin for the primary prevention of CVD has been estimated to occur in 31% to 84% of appropriate patients [114]. A recent survey reported that over half of patients with ≥10% CHD risk reported not using low dose aspirin despite treatment being indicated [110]. In the Multi-Ethnic Study of Atherosclerosis (MESA, years 2000–2002), regular low dose aspirin use was reported by 29% (CAC score 101–400) and 33% (CAC score &gt;400) of individuals for whom this preventive therapy was considered appropriate according to AHA guidelines [115]."
+        }
+      ]
+    },
+    {
+      "title": "Bleeding risk mitigation strategies in China, the USA, South Korea, Italy, and Europe",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "A meta-analysis of trials evaluating aspirin for primary prevention of CVD, including the ASCEND, ASPREE, and ARRIVE studies, found that the use of low dose aspirin reduced CV events by 11% (hazard ratio [HR]: 0.89 [95% CI: 0.84–0.94]), with a number needed to treat to prevent 1 event of 241 [85]. However, it also increased major bleeding, such as serious gastrointestinal (GI) bleed, intracranial bleed or bleed needing hospitalization or transfusion, by 43% (HR: 1.43 [95% CI: 1.30–1.56]), with a number needed to harm of 210."
+        },
+        {
+          "type": "paragraph",
+          "html": "As upper GI complications, including ulcer and bleeding, are not uncommon during antiplatelet treatment, concomitant PPI treatment is often prescribed. However, the concomitant use of PPIs is not mentioned in the current ACC/AHA [16] or Italian [33] cardiovascular prevention guidelines. The US Preventive Services Task Force recommendation statement [70] notes that PPI use may decrease the likelihood of hospitalization from a major bleeding event. The Chinese consensus statement goes further and identifies the consideration of PPI use and eradication of <em>Helicobacter pylori</em>, which is a common infection in that global region, as 1 of the 4 measures that have to be in place before the initiation of low dose aspirin treatment [61]. The ESC/EASD guidelines on diabetes, prediabetes, and CVDs provide a grade IIa recommendation for PPIs to be considered to prevent GI bleeding when low dose aspirin is used [47]. In South Korea, the Korean College of Helicobacter and Upper Gastrointestinal Research recommends PPI use and <em>H. pylori</em> eradication for patients with a history of peptic ulcer or bleeding starting long-term low dose aspirin therapy for secondary but not primary prevention [116]. The Helicobacter Eradication Aspirin Trial is currently testing the hypothesis that <em>H. pylori</em> eradication in patients using low dose aspirin will halve the incidence of subsequent adjudicated peptic ulcer bleeding that results in hospitalization [117]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Notably, although gastroprotection using a concomitant PPI can reduce the risks of upper GI ulcers (odds ratio [OR]: 0.16; 95% CI: 0.12–0.23) and bleeding (OR: 0.27; 95% CI: 0.16–0.43) compared with other treatments or placebo in patients taking low dose aspirin [118], none of the randomized controlled trials used in the development of primary prevention guidelines uses a structured approach to gastroprotection; for example, only 14% of patients were receiving PPIs at the start of the ASCEND study [63]. Physician awareness of and adherence to recommendations to prescribe PPIs regularly to people taking low dose aspirin (in secondary prevention) is low [119,120]: one study reported that more than 50% of the patients with an increased GI risk were not treated sufficiently with a concomitant PPI, increasing the risk of GI side effects [119]."
+        },
+        {
+          "type": "paragraph",
+          "html": "As the benefits of PPIs are not affected by concomitant low dose aspirin therapy, this suggests the potential for the use of PPIs in older patients, for whom low dose aspirin therapy is often contraindicated due to a high bleeding risk [121]."
+        },
+        {
+          "type": "paragraph",
+          "html": "However, several potential adverse effects of concern have been associated with long-term PPI therapy, including increased risk of fractures, pneumonia, CKD, and dementia, and more research is needed to clarify the mechanisms and clinical relevance of these potential PPI-related effects [122]. Therefore the issue of gastroprotection with PPIs remains a matter of debate."
+        }
+      ]
+    },
+    {
+      "title": "The risks vs. benefits of low dose aspirin",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The decision to initiate low dose aspirin for primary prevention of CVD requires formal structured consideration of both absolute benefits and harms of treatment. ASCVD events and bleeding episodes may not, however, have equal effects on long-term health [123]. The net benefit of low dose aspirin increases as the equivalence of severity of bleeding harms and CV benefits is altered—for example if 1 major CVD event were considered to be equivalent to 2 major bleeds [123]. A personalized treatment decision thus needs to take into account the attitudes to risk and benefit, as well as the preferences and circumstances, of the individual patient [124]. Unlike many heart attacks and strokes, GI bleeding associated with low dose aspirin is usually an acute non-fatal event, commonly followed by complete recovery [125]. Elwood et al. (2016) proposed that a more appropriate evaluation of the risk–benefit balance would be based on fatal adverse events, rather than on the incidence of bleeding. The distinction between GI bleeding and fatal bleeding is not trivial: spontaneous GI bleeds carry a higher risk of death than GI bleeds attributable to aspirin [125]. A meta-analysis of 11 randomized trials concluded that the majority of the adverse events caused by aspirin are GI bleeds, and there was no definitive evidence that the overall frequency of fatal GI bleeds is increased by low dose aspirin; the substantive risk for prophylactic low dose aspirin was identified as cerebral hemorrhage, with an estimated risk of 1 death and 1 disabling stroke for every 1,000 people taking aspirin for 10 years [125]."
+        }
+      ]
+    },
+    {
+      "title": "Conclusions",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Guidelines and prediction systems for the assessment of CV risk are important but, as reviewed here, differ widely in terms of the risk factors included in their respective prediction models, their output parameters, and the risk modifiers considered. There are also differences in the definitions of risk stratification, targets for major risk factors, and the use of CAC score to identify high-risk, asymptomatic patients. The risk-based approach to CVD prevention requires a personalized evaluation of the total CV risk and is dependent on clinician awareness of the relevant factors. In this respect, the use of a reliable, contemporary risk prediction chart or calculator appropriate to the relevant region, country, ethnicity, and culture, such as Globorisk, is essential as a starting point for further personalization of risk. Patients with no clinical manifestations of CVD, such as those with longstanding diabetes, early-onset diabetes, diabetes with target organ disease, or with advanced subclinical atherosclerosis, may be “CAD-equivalent” in terms of CV risk, but are not identified by assessment of traditional risk factors and the commonly used prediction models."
+        },
+        {
+          "type": "paragraph",
+          "html": "Recommendations regarding the use of low dose aspirin in patients at high risk of CVD vary between guidelines, and between the presence and absence of T2DM. In addition, the use of concomitant PPI treatment, which may reduce the GI bleeding risk and therefore allow more patients to be considered for low dose aspirin treatment, is variable. A more structured approach to gastroprotection should be used in patients being considered for primary prevention of CVD with low dose aspirin, although more research is needed on the long-term safety of concurrent PPI use."
+        },
+        {
+          "type": "paragraph",
+          "html": "Stronger primary care initiatives are needed to ensure that patients, particularly adults aged 40 years or older with one or more of the traditional risk factors and patients with T2DM, undergo regular assessment for ASCVD risk and that their use of primary prevention measures, including low dose aspirin therapy, is optimized. Patient education to better inform about the benefits and, where use is not medically indicated, risks of regular low dose aspirin is also needed."
+        },
+        {
+          "type": "paragraph",
+          "html": "A more unified, consistent, and global approach to primary prevention of CVD with appropriate identification and assessment of risk factors in individual patients could improve guideline applicability, patient understanding and acceptance of therapy, and outcomes. CVD prevention guidelines generally do not account for the extent to which risk factor control is influenced by lifestyle, patient compliance with pharmacological treatment, or socioeconomic factors. This is particularly relevant in low-income countries, where appropriate pharmacotherapy is less widely available. Because the relative CV risk reduction is a function of baseline risk, the relative contribution of an inexpensive drug such as low dose aspirin to risk reduction may be higher than currently appreciated based on clinical trial results, its use in higher income countries, or use without adequate assessment of high-risk asymptomatic individuals. Although the role of aspirin in the primary prevention of CVD is not as large as previously thought, with improved detection of subclinical atherosclerosis and more formal structured assessment of bleeding risk, there may still be a place for low dose aspirin, particularly in patients who need a more personalized treatment approach. (Fig. 1)Fig. 1<strong>Central illustration</strong> Heterogeneity of recommendations for initiation of low dose aspirin use for primary cardiovascular prevention across five major clinical management guidelines. This scenario depicts the recommendations from primary prevention guidelines (from top to bottom) for Italy, South Korea, the USA, China, and Europe for the same hypothetical patient with several CVD risk factors. These contribute to a current 10-year ASCVD estimated risk of 24.7% according to the ASCVD Risk Estimator Plus. The recommendations are based on the patient&#x27;s high risk of a CV event and the guidance, where given, regarding the benefit:risk balance of low dose aspirin. ASCVD, atherosclerotic cardiovascular disease; BMI, body mass index; CAC, coronary artery calcium; CVD, cardiovascular disease; DBP, diastolic blood pressure; GI, gastrointestinal; HDL-C, high-density lipoprotein cholesterol; LDL-C, low-density lipoprotein cholesterol; PPI, proton pump inhibitor; SBP, systolic blood pressure; T2DM, type 2 diabetes mellitus; TC, total cholesterol.Fig. 1Fig. 2<strong>Heterogeneity of recommendations for primary cardiovascular prevention across major clinical management guidelines.</strong> This scenario depicts the recommendations from primary prevention guidelines for the USA, Italy, Europe, China and South Korea for the same hypothetical patient with several CVD risk factors. The recommendations are based upon the patient&#x27;s high risk of a CV event and the guidance, where given, regarding the benefit:risk balance of low dose aspirin. ASCVD, atherosclerotic cardiovascular disease; BMI, body mass index; CAD, coronary artery disease; CVD, cardiovascular disease; DBP, diastolic blood pressure; GI, gastrointestinal; HDL-C, high-density lipoprotein cholesterol; LDL-C, low density lipoprotein cholesterol; PPI, proton pump inhibitor; SBP, systolic blood pressure; TC, total cholesterol.Fig. 2"
+        }
+      ]
+    },
+    {
+      "title": "Funding",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "No funding was provided for the development of this manuscript."
+        }
+      ]
+    },
+    {
+      "title": "Disclosures",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "ZS, FS, MB and SHN are part of a Bayer AG global advisory board that convene to discuss risk assessment and preventive pharmacotherapy in primary and secondary prevention. MB declares an investigator-initiated grant funding from Bayer AG. LL declares employment by Bayer AG. The remaining authors declare that they have no other conflicts of interest."
+        },
+        {
+          "type": "paragraph",
+          "html": "All authors report writing assistance was provided by Highfield Communication Consultancy Ltd which was sponsored by Bayer."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Xiao-Ying Li:</strong> Conceptualization, Data curation, Formal analysis, Writing – original draft, Writing – review &amp; editing. <strong>Li Li:</strong> Conceptualization, Data curation, Formal analysis, Writing – original draft, Writing – review &amp; editing. <strong>Sang-Hoon Na:</strong> Conceptualization, Data curation, Formal analysis, Writing – original draft, Writing – review &amp; editing. <strong>Francesca Santilli:</strong> Conceptualization, Data curation, Formal analysis, Writing – original draft, Writing – review &amp; editing. <strong>Zhongwei Shi:</strong> Conceptualization, Data curation, Formal analysis, Writing – original draft, Writing – review &amp; editing. <strong>Michael Blaha:</strong> Conceptualization, Data curation, Formal analysis, Writing – original draft, Writing – review &amp; editing."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of Competing Interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "AwtryE.H.AspirinLoscalzo J.Circulation101102000120612181071527010.1161/01.cir.101.10.1206"
+    },
+    {
+      "html": "MekajY.DaciF.MekajA.New insights into the mechanisms of action of aspirin and its use in the prevention and treatment of arterial and venous thromboembolismTher Clin Risk Manag1120151449145610.2147/TCRM.S9222226445544PMC4590672"
+    },
+    {
+      "html": "YusufS.Two decades of progress in preventing vascular diseaseLancet36093262002231211403110.1016/S0140-6736(02)09358-3"
+    },
+    {
+      "html": "ASCEND Study Collaborative Group; BowmanLMafhamM.WallendszusK.Effects of aspirin for primary prevention in persons with diabetes mellitusN Engl J Med379162018152915393014693110.1056/NEJMoa1804988"
+    },
+    {
+      "html": "ARRIVE Executive Committee; GazianoJ.M.BrotonsC.CoppolecchiaR.Use of aspirin to reduce risk of initial vascular events in patients at moderate risk of cardiovascular disease (ARRIVE): a randomised, double-blind, placebo-controlled trialLancet392101522018103610463015806910.1016/S0140-6736(18)31924-XPMC7255888"
+    },
+    {
+      "html": "McNeilJ.J.NelsonM.R.WoodsR.L.ASPREE Investigator Group. Effect of aspirin on all-cause mortality in the healthy elderlyN Engl J Med379162018151915283022159510.1056/NEJMoa1803955PMC6433466"
+    },
+    {
+      "html": "ViraniS.S.SmithS.C.StoneN.J.GrundyS.M.Secondary prevention for atherosclerotic cardiovascular diseaseCirculation141142020112111233225069410.1161/CIRCULATIONAHA.119.044282"
+    },
+    {
+      "html": "VisserenF.L.J.MachF.SmuldersY.M.ESC Guidelines on cardiovascular disease prevention in clinical practice: developed by the Task Force for cardiovascular disease prevention in clinical practice with representatives of the European Society of Cardiology and 12 medical societies with the special contribution of the European Association of Preventive Cardiology (EAPC)Eur Heart J4234202132273237"
+    },
+    {
+      "html": "Lloyd-JonesD.M.BraunL.T.NdumeleC.E.Use of risk assessment tools to guide decision-making in the primary prevention of atherosclerotic cardiovascular disease: a special report from the American Heart Association and American College of CardiologyJ Am Coll Cardiol73242019315331673042339210.1016/j.jacc.2018.11.005"
+    },
+    {
+      "html": "PengA.W.DardariZ.A.BlumenthalR.S.Very high coronary artery calcium (≥1000) and association with cardiovascular disease events, non-cardiovascular disease outcomes, and mortalityCirculation143162021157115833365043510.1161/CIRCULATIONAHA.120.050545PMC8058297"
+    },
+    {
+      "html": "DzayeO.RazaviA.C.MichosE.D.Coronary artery calcium scores indicating secondary prevention level risk: findings from the CAC Consortium and FOURIER trialAtherosclerosis347202270763519720210.1016/j.atherosclerosis.2022.02.006PMC9030020"
+    },
+    {
+      "html": "WilsonP.W.D&#x27;AgostinoR.B.LevyD.Prediction of coronary heart disease using risk factor categoriesCirculation9718199818371847960353910.1161/01.cir.97.18.1837"
+    },
+    {
+      "html": "DetectionExpert Panel onEvaluationandTreatment of High Blood Cholesterol in Adults. Executive summary of the third report of the National Cholesterol Education Program (NCEP) Expert Panel on Detection, Evaluation, and Treatment of High Blood Cholesterol in Adults (Adult Treatment Panel III)JAMA285192001248624971136870210.1001/jama.285.19.2486"
+    },
+    {
+      "html": "D&#x27;AgostinoR.B.VasanR.S.PencinaM.J.General cardiovascular risk profile for use in primary careCirculation117620087437531821228510.1161/CIRCULATIONAHA.107.699579"
+    },
+    {
+      "html": "GoffD.C.Lloyd-JonesD.M.BennettG.2013 ACC/AHA guideline on the assessment of cardiovascular riskCirculation12925 Suppl 22014S49S732422201810.1161/01.cir.0000437741.48606.98"
+    },
+    {
+      "html": "ArnettD.K.BlumenthalR.S.AlbertM.A.ACC/AHA guideline on the primary prevention of cardiovascular disease: a report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice GuidelinesJ Am Coll Cardiol742019e177e2323089431810.1016/j.jacc.2019.03.010PMC7685565"
+    },
+    {
+      "html": "ConroyR.Estimation of ten-year risk of fatal cardiovascular disease in Europe: the SCORE projectEur Heart J2411200398710031278829910.1016/s0195-668x(03)00114-3"
+    },
+    {
+      "html": "European Society of CardiologySCORE risk charts26 May 2022Available at:<a href=\"https://www.escardio.org/Education/Practice-Tools/CVD-prevention-toolbox/SCORE-Risk-Charts\">https://www.escardio.org/Education/Practice-Tools/CVD-prevention-toolbox/SCORE-Risk-Charts</a>[accessed]"
+    },
+    {
+      "html": "SCORE2 working group and ESC cardiovascular risk collaborationHagemanS.PennellsL.OjedaF.SCORE2 risk prediction algorithms: new models to estimate 10-year risk of cardiovascular disease in EuropeEur Heart J42252021243924543412017710.1093/eurheartj/ehab309PMC8248998"
+    },
+    {
+      "html": "SCORE2 working group and ESC cardiovascular risk collaborationDe VriesT.I.CooneyM.T.SelmerR.M.SCORE2-OP risk prediction algorithms: estimating incident cardiovascular event risk in older persons in four geographical risk regionsEur Heart J42252021245524673412018510.1093/eurheartj/ehab312PMC8248997"
+    },
+    {
+      "html": "TokgozogluL.Torp-PedersenC.Redefining cardiovascular risk prediction: is the crystal ball clearer now?Eur Heart J42252021246824713412016510.1093/eurheartj/ehab310"
+    },
+    {
+      "html": "PalmieriL.PanicoS.VanuzzoD.La valutazione del rischio cardiovascolare globale assoluto: il punteggio individuale del Progetto CUORE. [Evaluation of the global cardiovascular absolute risk: the Progetto CUORE individual score]Ann Ist Super Sanità40200439339915815105"
+    },
+    {
+      "html": "LiuJ.Predictive value for the Chinese population of the Framingham CHD Risk Assessment Tool compared with the Chinese Multi-provincial Cohort StudyJAMA29121200425911517315010.1001/jama.291.21.2591"
+    },
+    {
+      "html": "YangX.LiJ.HuD.Predicting the 10-year risks of atherosclerotic cardiovascular disease in Chinese population: the China-PAR Project (Prediction for ASCVD Risk in China)Circulation134192016143014402768288510.1161/CIRCULATIONAHA.116.022367"
+    },
+    {
+      "html": "Chinese Society of Cardiology of Chinese Medical Association; Cardiovascular Disease Prevention and Rehabilitation Committee of Chinese Association of Rehabilitation Medicine; Cardiovascular Disease Committee of Chinese Association of Gerontology and Geriatrics; Thrombosis Prevention and Treatment Committee of Chinese Medical Doctor Association. [Chinese guideline on the primary prevention of cardiovascular diseases]Zhonghua Xin Xue Guan Bing Za Zhi482020100010383335574710.3760/cma.j.cn112148-20201009-00796"
+    },
+    {
+      "html": "JeeS.H.JangY.OhD.J.A coronary heart disease prediction model: the Korean Heart StudyBMJ Open452014e00502510.1136/bmjopen-2014-005025PMC403982524848088"
+    },
+    {
+      "html": "JungK.J.JangY.OhD.J.The ACC/AHA 2013 pooled cohort equations compared to a Korean Risk Prediction Model for atherosclerotic cardiovascular diseaseAtherosclerosis242120153673752625568310.1016/j.atherosclerosis.2015.07.033"
+    },
+    {
+      "html": "BaeJ.H.MoonM.K.OhS.Validation of risk prediction models for atherosclerotic cardiovascular disease in a prospective Korean community-based cohortDiabetes Metab J4420204584693195076910.4093/dmj.2019.0061PMC7332332"
+    },
+    {
+      "html": "PiepoliM.F.HoesA.W.AgewallS.European guidelines on cardiovascular disease prevention in clinical practice: the Sixth Joint Task Force of the European Society of Cardiology and Other Societies on Cardiovascular Disease Prevention in Clinical Practice (constituted by representatives of 10 societies and by invited experts). Developed with the special contribution of the European Association for Cardiovascular Prevention &amp; Rehabilitation (EACPR)Eur Heart J37292016231523812722259110.1093/eurheartj/ehw106PMC4986030"
+    },
+    {
+      "html": "VolpeM.BattistoniA.GalloG.Executive Summary of the 2018 Joint Consensus Document on Cardiovascular Disease Prevention in ItalyHigh Blood Press Cardiovasc Prev25320183273413023276810.1007/s40292-018-0278-8"
+    },
+    {
+      "html": "RheeE.J.KimH.C.KimJ.H.Guidelines for the management of dyslipidemiaKorean J Intern Med34420197237713127214210.3904/kjim.2019.188PMC6610190"
+    },
+    {
+      "html": "LeeH.Y.ShinJ.KimG.H.2018 Korean Society of Hypertension Guidelines for the management of hypertension: part II – diagnosis and treatment of hypertensionClin Hypertens252019203138845310.1186/s40885-019-0124-xPMC6670135"
+    },
+    {
+      "html": "VolpeM.TocciG.AccetturaD.Documento di consenso e raccomandazioni per la prevenzione cardiovascolare in Italia 2018 [Consensus document and recommendations for the prevention of cardiovascular disease in Italy –2018]G Ital Cardiol1922018Suppl 1, 1S–95S10.1714/2874.2898829531376"
+    },
+    {
+      "html": "HajifathalianK.UedaP.LuY.A novel risk score to predict cardiovascular disease risk in national populations (Globorisk): a pooled analysis of prospective cohorts and health examination surveysLancet Diabetes Endocrinol320153393552581977810.1016/S2213-8587(15)00081-9PMC7615120"
+    },
+    {
+      "html": "UedaP.WoodwardM.LuY.Laboratory-based and office-based risk scores and charts to predict 10-year risk of cardiovascular disease in 182 countries: a pooled analysis of prospective cohorts and health surveysLancet Diabetes Endocrinol520171962132812646010.1016/S2213-8587(17)30015-3PMC5354360"
+    },
+    {
+      "html": "WHO CVD Risk Chart Working GroupWorld Health Organization cardiovascular disease risk charts: revised models to estimate risk in 21 global regionsLancet Glob Health72019e1332e13453148838710.1016/S2214-109X(19)30318-3PMC7025029"
+    },
+    {
+      "html": "GrundyS.M.StoneN.J.BaileyA.L.AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA guideline on the management of blood cholesterol: a report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice GuidelinesJ Am Coll Cardiol732019e285e3503042339310.1016/j.jacc.2018.11.003"
+    },
+    {
+      "html": "NasirK.Cainzos-AchiricaM.Role of coronary artery calcium score in the primary prevention of cardiovascular diseaseBMJ3732021n7763394765210.1136/bmj.n776"
+    },
+    {
+      "html": "MalikS.ZhaoY.BudoffM.Coronary artery calcium score for long-term risk classification in individuals with type 2 diabetes and metabolic syndrome from the Multi-Ethnic Study of AtherosclerosisJAMA Cardiol22017133213402911727310.1001/jamacardio.2017.4191PMC5814996"
+    },
+    {
+      "html": "Cainzos-AchiricaM.MiedemaM.D.McEvoyJ.W.Coronary artery calcium for personalized allocation of aspirin in primary prevention of cardiovascular disease in 2019: the MESA Study (Multi-Ethnic Study of Atherosclerosis)Circulation141192020154115533223366310.1161/CIRCULATIONAHA.119.045010PMC7217722"
+    },
+    {
+      "html": "OrringerC.E.BlahaM.J.BlanksteinR.The National Lipid Association scientific statement on coronary artery calcium scoring to guide preventive strategies for ASCVD risk reductionJ Clin Lipidol151202133603341971910.1016/j.jacl.2020.12.005"
+    },
+    {
+      "html": "BaberU.MehranR.SartoriS.Prevalence, impact, and predictive value of detecting subclinical coronary and carotid atherosclerosis in asymptomatic adults: the BioImage studyJ Am Coll Cardiol652015106510742579087610.1016/j.jacc.2015.01.017"
+    },
+    {
+      "html": "SillesenH.SartoriS.SandholtB.Carotid plaque thickness and carotid plaque burden predict future cardiovascular events in asymptomatic adult AmericansEur Heart J Cardiovasc Imaging192018104210502905929610.1093/ehjci/jex239"
+    },
+    {
+      "html": "JiaoY.QinY.ZhangZ.Early identification of carotid vulnerable plaque in asymptomatic patientsBMC Cardiovasc Disord2020204293300399710.1186/s12872-020-01709-5PMC7528473"
+    },
+    {
+      "html": "SongP.FangZ.WangH.Global and regional prevalence, burden, and risk factors for carotid atherosclerosis: a systematic review, meta-analysis, and modelling studyLancet Glob Health82020e721e7293235331910.1016/S2214-109X(20)30117-0"
+    },
+    {
+      "html": "HowardD.P.J.GazianoL.RothwellP.M.Risk of stroke in relation to degree of asymptomatic carotid stenosis: a population-based cohort study, systematic review, and meta-analysisLancet Neurol20320211932023360947710.1016/S1474-4422(20)30484-1PMC7889579"
+    },
+    {
+      "html": "CosentinoF.GrantP.J.AboyansV.ESC Guidelines on diabetes, pre-diabetes, and cardiovascular diseases developed in collaboration with the EASD: the Task Force for diabetes, pre-diabetes, and cardiovascular diseases of the European Society of Cardiology (ESC) and the European Association for the Study of Diabetes (EASD)Eur Heart J412201925532310.1093/eurheartj/ehz48631497854"
+    },
+    {
+      "html": "NäslundU.NgN.LundgrenA.Visualization of asymptomatic atherosclerotic disease for optimum cardiovascular prevention (VIPVIZA): a pragmatic, open-label, randomised controlled trialLancet3931016720191331423052291910.1016/S0140-6736(18)32818-6"
+    },
+    {
+      "html": "TargherG.ByrneC.D.TilgH.NAFLD and increased risk of cardiovascular disease: clinical associations, pathophysiological mechanisms and pharmacological implicationsGut692020169117053232185810.1136/gutjnl-2020-320622"
+    },
+    {
+      "html": "Low WangC.HessC.HiattW.GoldfineAClinical update: cardiovascular disease in diabetes mellitus: atherosclerotic cardiovascular disease and heart failure in type 2 diabetes mellitus – mechanisms, management, and clinical considerationsCirculation1332016245925022729734210.1161/CIRCULATIONAHA.116.022194PMC4910510"
+    },
+    {
+      "html": "KovarnikT.ChenZ.MintzG.S.Plaque volume and plaque risk profile in diabetic vs. non-diabetic patients undergoing lipid-lowering therapy: a study based on 3D intravascular ultrasound and virtual histologyCardiovasc Diabetol1620171562921254410.1186/s12933-017-0637-0PMC5719721"
+    },
+    {
+      "html": "SantilliF.ZaccardiF.LianiR.In vivo thromboxane-dependent platelet activation is persistently enhanced in subjects with impaired glucose toleranceDiabetes Metab Res Rev3622020e32323167123410.1002/dmrr.3232"
+    },
+    {
+      "html": "Cebrián-CuencaA.M.Mata-CasesM.Franch-NadalJ.Half of patients with type 2 diabetes mellitus are at very high cardiovascular risk according to the ESC/EASD: data from a large Mediterranean populationEur J Prev Cardiol28182020e32e3410.1093/eurjpc/zwaa07333733654"
+    },
+    {
+      "html": "HuangY.CaiX.MaiW.Association between prediabetes and risk of cardiovascular disease and all cause mortality: systematic review and meta-analysisBMJ3552016i59532788136310.1136/bmj.i5953PMC5121106"
+    },
+    {
+      "html": "American Diabetes Association. 10Cardiovascular disease and risk management: standards of medical care in diabetes—2020Diabetes Care43Suppl 12020S111S1343186275310.2337/dc20-S010"
+    },
+    {
+      "html": "DasS.R.EverettB.M.BirtcherK.K.Expert consensus decision pathway on novel therapies for cardiovascular risk reduction in patients with type 2 diabetes: a report of the American College of Cardiology Solution Set Oversight CommitteeJ Am Coll Cardiol7692020111711453277126310.1016/j.jacc.2020.05.037PMC7545583"
+    },
+    {
+      "html": "AvogaroA.BarillàF.CavalotF.Cardiovascular risk management in type 2 diabetes mellitus: a joint position paper of the Italian Cardiology (SIC) and Italian Diabetes (SID) SocietiesNutr Metab Cardiovasc Dis312021167116903399426310.1016/j.numecd.2021.02.029"
+    },
+    {
+      "html": "Chinese Diabetes SocietyGuidelines for the prevention and treatment of type 2 diabetes in China (2020 edition)Chinese J Diabetes Mellitus1342021315409"
+    },
+    {
+      "html": "ShahR.KhanB.LathamS.B.A meta-analysis of aspirin for the primary prevention of cardiovascular diseases in the context of contemporary preventive strategiesAm J Med1322019129513043115386610.1016/j.amjmed.2019.05.015"
+    },
+    {
+      "html": "AlonsoR.CuevasA.CafferataA.Diagnosis and management of statin intoleranceJ Atheroscler Thromb2620192072153066202010.5551/jat.RV17030PMC6402887"
+    },
+    {
+      "html": "LiX.Y.ShiZ.W.ZhaoD.YinD.W.Chinese expert consensus statement on aspirin application in primary prevention of cardiovascular diseaseChin Med J (Engl)133102020122112233243305410.1097/CM9.0000000000000762PMC7249706"
+    },
+    {
+      "html": "JiL.HuD.PanC.Primacy of the 3B approach to control risk factors for cardiovascular disease in type 2 diabetes patientsAm J Med126102013925.e911–2210.1016/j.amjmed.2013.02.03523810406"
+    },
+    {
+      "html": "ASCEND Study Collaborative GroupEffects of aspirin for primary prevention in persons with diabetes mellitusN Engl J Med3792018152915393014693110.1056/NEJMoa1804988"
+    },
+    {
+      "html": "US Preventive Services Task ForceAspirin Use to Prevent Cardiovascular Disease: US Preventive Services Task Force Recommendation StatementJAMA327162022157715843547150510.1001/jama.2022.4983"
+    },
+    {
+      "html": "Task Force on Chinese Guidelines for the Prevention of Cardiovascular Diseases (2017)Editorial Board of Chinese Journal of Cardiology. [Chinese guidelines for the prevention of cardiovascular diseases (2017)]Zhonghua Xin Xue Guan Bing Za Zhi461201810252937493310.3760/cma.j.issn.0253-3758.2018.01.004"
+    },
+    {
+      "html": "KimM.K.KoS.H.KimB.Y.2019 Clinical practice guidelines for type 2 diabetes mellitus in KoreaDiabetes Metab J43420193984063144124710.4093/dmj.2019.0137PMC6712226"
+    },
+    {
+      "html": "PearsonT.A.BlairS.N.DanielsS.AHA guidelines for primary prevention of cardiovascular disease and strokeCirculation10620023883911211925910.1161/01.cir.0000020190.45892.75"
+    },
+    {
+      "html": "PignoneM.AlbertsM.J.ColwellJ.A.Aspirin for primary prevention of cardiovascular events in people with diabetes: a position statement of the American Diabetes Association, a scientific statement of the American Heart Association, and an expert consensus document of the American College of Cardiology FoundationCirculation1212010269427012050817810.1161/CIR.0b013e3181e3b133"
+    },
+    {
+      "html": "HalvorsenS.AndreottiF.BergJ.M.Aspirin therapy in primary cardiovascular disease prevention: a position paper of the European Society of Cardiology working group on thrombosisJ Am Coll Cardiol6420143193272503407010.1016/j.jacc.2014.03.049"
+    },
+    {
+      "html": "Bibbins-DomingoK.Aspirin use for the primary prevention of cardiovascular disease and colorectal cancer: U.S. Preventive Services Task Force Recommendation StatementAnn Intern Med16420168368452706467710.7326/M16-0577"
+    },
+    {
+      "html": "Antithrombotic Trialists’ (ATT) CollaborationAspirin in the primary and secondary prevention of vascular disease: collaborative meta-analysis of individual participant data from randomised trialsLancet3732009184918601948221410.1016/S0140-6736(09)60503-1PMC2715005"
+    },
+    {
+      "html": "Guirguis-BlakeJ.M.EvansC.V.SengerC.A.Aspirin for the primary prevention of cardiovascular events: a systematic evidence review for the US Preventive Services Task ForceAnn Intern Med16420168048132706441010.7326/M15-2113"
+    },
+    {
+      "html": "Garcia RodriguezL.Martín-PérezM.HennekensC.Bleeding risk with long-term low-dose aspirin: a systematic review of observational studiesPLoS ONE112016e016004610.1371/journal.pone.0160046PMC497399727490468"
+    },
+    {
+      "html": "CapodannoD.AngiolilloD.J.Aspirin for primary cardiovascular risk prevention and beyond in diabetes mellitusCirculation1342016157915942772942110.1161/CIRCULATIONAHA.116.023164"
+    },
+    {
+      "html": "RajuN.Sobieraj-TeagueM.BoschJ.EikelboomJ.W.Updated meta-analysis of aspirin in primary prevention of cardiovascular diseaseAm J Med1292016e35e3610.1016/j.amjmed.2015.10.04627126466"
+    },
+    {
+      "html": "WhitlockE.P.BurdaB.U.WilliamsS.B.Bleeding risks with aspirin use for primary prevention in adults: a systematic review for the US Preventive Services Task ForceAnn Intern Med16420168268352706426110.7326/M15-2112"
+    },
+    {
+      "html": "MoraS.MansonJ.E.Aspirin for primary prevention of atherosclerotic cardiovascular disease: advances in diagnosis and treatmentJAMA Intern Med1762016119512042732259510.1001/jamainternmed.2016.2648"
+    },
+    {
+      "html": "RidkerP.M.Should aspirin be used for primary prevention in the post-statin era?N Engl J Med3792018157215743033257510.1056/NEJMe1812000"
+    },
+    {
+      "html": "RothwellP.M.CookN.R.GazianoJ.M.Effects of aspirin on risks of vascular events and cancer according to bodyweight and dose: analysis of individual patient data from randomised trialsLancet3921014520183873993001755210.1016/S0140-6736(18)31133-4PMC6083400"
+    },
+    {
+      "html": "De BerardisG.SaccoM.StrippoliG.Aspirin for primary prevention of cardiovascular events in people with diabetes: meta-analysis of randomised controlled trialsBMJ3392009b45311989766510.1136/bmj.b4531PMC2774388"
+    },
+    {
+      "html": "LotrionteM.BiasucciL.M.PeruzziM.Which aspirin dose and preparation is best for the long-term prevention of cardiovascular disease and cancer? Evidence from a systematic review and network meta-analysisProg Cardiovasc Dis58520164955042685156210.1016/j.pcad.2016.02.001"
+    },
+    {
+      "html": "Joint Task Force for Guideline on the Assessment and Management of Cardiovascular Risk in China. [Guideline on the assessment and management of cardiovascular risk in China]Zhonghua Yu Fang Yi Xue Za Zhi53201913353060596010.3760/cma.j.issn.0253-9624.2019.01.004"
+    },
+    {
+      "html": "Geriatrics Branch of Chinese Medical Association 2017Editorial Board of Chinese Journal of Internal Medicine; Editorial Board of Chinese Journal of Geriatrics. [Aspirin use in patients with atherosclerotic cardiovascular disease: the 2016 Chinese expert consensus statement]Zhonghua Nei Ke Za Zhi56201768802805633210.3760/cma.j.issn.0578-1426.2017.01.020"
+    },
+    {
+      "html": "AbdelazizH.K.SaadM.PothineniN.V.K.Aspirin for primary prevention of cardiovascular eventsJ Am Coll Cardiol73232019291529293119644710.1016/j.jacc.2019.03.501"
+    },
+    {
+      "html": "ZhengS.L.RoddickA.J.Association of aspirin use for primary prevention with cardiovascular events and bleeding events: a systematic review and meta-analysisJAMA32120192772873066750110.1001/jama.2018.20578PMC6439678"
+    },
+    {
+      "html": "MahmoudA.N.GadM.M.ElgendyA.Y.Efficacy and safety of aspirin for primary prevention of cardiovascular events: a meta-analysis and trial sequential analysis of randomized controlled trialsEur Heart J4020196076173056162010.1093/eurheartj/ehy813"
+    },
+    {
+      "html": "BergerJ.S.RoncaglioniM.C.AvanziniF.Aspirin for the primary prevention of cardiovascular events in women and men: a sex-specific meta-analysis of randomized controlled trialsJAMA29520063063131641846610.1001/jama.295.3.306"
+    },
+    {
+      "html": "YusufS.JosephP.DansA.International Polycap Study 3 Investigators. Polypill with or without aspirin in persons without cardiovascular diseaseN Engl J Med38420212162283318649210.1056/NEJMoa2028220PMC7116860"
+    },
+    {
+      "html": "SeiduS.KunutsorS.K.SessoH.D.Aspirin has potential benefits for primary prevention of cardiovascular outcomes in diabetes: updated literature-based and individual participant data meta-analyses of randomized controlled trialsCardiovasc Diabetol1812019703115980610.1186/s12933-019-0875-4PMC6547459"
+    },
+    {
+      "html": "BelchJ.MacCuishA.CampbellI.Prevention of Progression of Arterial Disease and Diabetes Study Group; Diabetes Registry Group; Royal College of Physicians Edinburgh. The prevention of progression of arterial disease and diabetes (POPADAD) trial: factorial randomised placebo controlled trial of aspirin and antioxidants in patients with diabetes and asymptomatic peripheral arterial diseaseBMJ3372008a18401892717310.1136/bmj.a1840PMC2658865"
+    },
+    {
+      "html": "FowkesF.G.R.PriceJ.F.StewartM.C.W.Aspirin for Asymptomatic Atherosclerosis Trialists. Aspirin for prevention of cardiovascular events in a general population screened for a low ankle brachial index: a randomized controlled trialJAMA30320108418482019753010.1001/jama.2010.221"
+    },
+    {
+      "html": "IkedaY.ShimadaK.TeramotoT.Low-dose aspirin for primary prevention of cardiovascular events in Japanese patients 60 years or older with atherosclerotic risk factors: a randomized clinical trialJAMA3122014251025202540132510.1001/jama.2014.15690"
+    },
+    {
+      "html": "OgawaH.NakayamaM.MorimotoT.Japanese Primary Prevention of Atherosclerosis With Aspirin for Diabetes (JPAD) Trial Investigators. Low-dose aspirin for primary prevention of atherosclerotic events in patients with type 2 diabetes: a randomized controlled trialJAMA3002008213421411899719810.1001/jama.2008.623"
+    },
+    {
+      "html": "MiedemaM.D.DuprezD.A.MisialekJ.Use of coronary artery calcium testing to guide aspirin utilization for primary prevention: estimates from the Multi-Ethnic Study of AtherosclerosisCirc Cardiovasc Qual Outcomes7320144534602480347210.1161/CIRCOUTCOMES.113.000690PMC4412344"
+    },
+    {
+      "html": "RidkerP.M.CookN.R.LeeI.M.A randomized trial of low-dose aspirin in the primary prevention of cardiovascular disease in womenN Engl J Med3522005129313041575311410.1056/NEJMoa050613"
+    },
+    {
+      "html": "RoncaglioniM.C.Collaborative Group of the Primary Prevention Project. Low-dose aspirin and vitamin E in people at cardiovascular risk: a randomised trial in general practiceLancet3579250200189951119744510.1016/s0140-6736(00)03539-x"
+    },
+    {
+      "html": "PetoR.GrayR.CollinsR.Randomised trial of prophylactic daily aspirin in British male doctorsBr Med J (Clin Res Ed)2966618198831331610.1136/bmj.296.6618.313PMC25448213125882"
+    },
+    {
+      "html": "Steering Committee of the Physicians’ Health Study Research Group. Final report on the aspirin component of the ongoing Physicians’ Health StudyN Engl J Med3211989129135266450910.1056/NEJM198907203210301"
+    },
+    {
+      "html": "The Medical Research Council&#x27;s General Practice Research FrameworkThrombosis prevention trial: randomised trial of low-intensity oral anticoagulation with warfarin and low-dose aspirin in the primary prevention of ischaemic heart disease in men at increased riskLancet351909819982332419457092"
+    },
+    {
+      "html": "HanssonL.ZanchettiA.CarruthersS.G.Effects of intensive blood-pressure lowering and low-dose aspirin in patients with hypertension: principal results of the Hypertension Optimal Treatment (HOT) randomised trialLancet3519118199817551762963594710.1016/s0140-6736(98)04311-6"
+    },
+    {
+      "html": "ETDRS InvestigatorsEarly treatment diabetic retinopathy study report 14JAMA268199212921300150737510.1001/jama.1992.03490100090033"
+    },
+    {
+      "html": "DehmerS.O&#x27;KeefeL.GrossmanE.MaciosekMAspirin use to prevent cardiovascular disease and colorectal cancer: an updated decision analysis for the US Preventive Services Task Force: AHRQ publication 21-05283-EF-2Agency Healthc Res Qual2022Available at:<a href=\"https://www.ncbi.nlm.nih.gov/books/NBK321651\">https://www.ncbi.nlm.nih.gov/books/NBK321651</a>[accessed May 26, 2022]35648884"
+    },
+    {
+      "html": "DehmerS.P.O&#x27;KeefeL.R.EvansC.V.Aspirin use to prevent cardiovascular disease and colorectal cancer: updated modeling study for the US Preventive Services Task ForceJAMA327162022159816073547150610.1001/jama.2022.3385"
+    },
+    {
+      "html": "YusufS.JosephP.RangarajanS.Modifiable risk factors, cardiovascular disease, and mortality in 155 722 individuals from 21 high-income, middle-income, and low-income countries (PURE): a prospective cohort studyLancet39520207958083149250310.1016/S0140-6736(19)32008-2PMC8006904"
+    },
+    {
+      "html": "GazzolaK.ReeskampL.BornB.JEthnicity, lipids and cardiovascular diseaseCurr Opin Lipidol2820172252302833852110.1097/MOL.0000000000000412"
+    },
+    {
+      "html": "BhatnagarA.Environmental determinants of cardiovascular diseaseCirc Res12201716218010.1161/CIRCRESAHA.117.306458PMC577759828684622"
+    },
+    {
+      "html": "LiX.WuC.LuJ.Cardiovascular risk factors in China: a nationwide population-based cohort studyLancet Public Health52020e672e6813327108010.1016/S2468-2667(20)30191-2"
+    },
+    {
+      "html": "LuY.WangP.ZhouT.Comparison of prevalence, awareness, treatment, and control of cardiovascular risk factors in China and the United StatesJ Am Heart Assoc72018e00746210.1161/JAHA.117.007462PMC585024729374046"
+    },
+    {
+      "html": "BoakyeE.Iftekhar UddinS.M.ObisesanO.H.Aspirin for cardiovascular disease prevention among adults in the United States: trends, prevalence, and participant characteristics associated with useAm J Prev Cardiol8202110025610.1016/j.ajpc.2021.100256PMC848824734632437"
+    },
+    {
+      "html": "LuepkerR.V.OldenburgN.C.MisialekJ.Aspirin use and misuse for the primary prevention of cardiovascular diseasesAm J Prev Med6020215135193354939110.1016/j.amepre.2020.10.025PMC8045673"
+    },
+    {
+      "html": "VanWormerJ.J.MillerA.W.RezkallaS.H.Aspirin overutilization for the primary prevention of cardiovascular diseaseClin Epidemiol620144334402550624510.2147/CLEP.S72032PMC4259866"
+    },
+    {
+      "html": "VanWormerJ.J.GreenleeR.T.McBrideP.E.Aspirin for primary prevention of CVD: are the right people using it?J Fam Pract61201252553223000660"
+    },
+    {
+      "html": "JacobsenA.P.LimZ.L.ChangB.Contextualizing national policies regulating access to low-dose aspirin in America and Europe using the full report of a transatlantic patient survey of aspirin in preventive cardiologyJ Am Heart Assoc1182022e02399510.1161/JAHA.121.023995PMC923845435411788"
+    },
+    {
+      "html": "Biondi-ZoccaiG.WuY.SerranoC.V.Aspirin underuse, non-compliance or cessation: definition, extent, impact and potential solutions in the primary and secondary prevention of cardiovascular diseaseInt J Cardiol18220151481542557775110.1016/j.ijcard.2014.12.091"
+    },
+    {
+      "html": "NasirK.McClellandR.L.BlumenthalR.S.Coronary artery calcium in relation to initiation and continuation of cardiovascular preventive medications: the Multi-Ethnic Study of Atherosclerosis (MESA)Circ Cardiovasc Qual Outcomes3320102282352037176010.1161/CIRCOUTCOMES.109.893396PMC4402976"
+    },
+    {
+      "html": "JooM.K.ParkC.H.KimJ.S.Korean College of Helicobacter and Upper Gastrointestinal Research. Clinical guidelines for drug-induced peptic ulcerKorean J Gastroenterol76320201081333296936010.4166/kjg.2020.76.3.108PMC12318811"
+    },
+    {
+      "html": "DumbletonJ.S.AveryA.J.CouplandC.The Helicobacter Eradication Aspirin Trial (HEAT): a large simple randomised controlled trial using novel methodology in primary careEBioMedicine22015120012042650111810.1016/j.ebiom.2015.07.012PMC4588401"
+    },
+    {
+      "html": "MoC.SunG.LuM.L.Proton pump inhibitors in prevention of low-dose aspirin-associated upper gastrointestinal injuriesWorld J Gastroenterol21172015538253922595411310.3748/wjg.v21.i17.5382PMC4419080"
+    },
+    {
+      "html": "De JongH.KorevaarJ.DijkL.Suboptimal prescribing of proton-pump inhibitors in low-dose aspirin users: a cohort study in primary careBMJ Open32013e00304410.1136/bmjopen-2013-003044PMC373171423883887"
+    },
+    {
+      "html": "ZhuL.L.XuL.C.ChenY.Poor awareness of preventing aspirin-induced gastrointestinal injury with combined protective medicationsWorld J Gastroenterol182012316731722279195310.3748/wjg.v18.i24.3167PMC3386331"
+    },
+    {
+      "html": "ScallyB.EmbersonJ.SpataE.Effects of gastroprotectant drugs for the prevention and treatment of peptic ulcer disease and its complications: a meta-analysis of randomised trialsLancet Gastroenterol Hepatol320182312412947580610.1016/S2468-1253(18)30037-2PMC5842491"
+    },
+    {
+      "html": "NehraA.K.AlexanderJ.A.LoftusC.G.NehraV.Proton pump inhibitors: review of emerging concernsMayo Clin Proc9320182402462940620110.1016/j.mayocp.2017.10.022"
+    },
+    {
+      "html": "SelakV.JacksonR.PoppeK.Personalized prediction of cardiovascular benefits and bleeding harms from aspirin for primary prevention: a benefit-harm analysisAnn Intern Med17120195295393152577510.7326/M19-1132"
+    },
+    {
+      "html": "SussmanJ.B.VijanS.ChoiH.HaywardR.A.Individual and population benefits of daily aspirin therapy: a proposal for personalizing national guidelinesCirc Cardiovasc Qual Outcomes420112682752148709110.1161/CIRCOUTCOMES.110.959239PMC4039386"
+    },
+    {
+      "html": "ElwoodP.C.MorganG.GalanteJ.Systematic review and meta-analysis of randomised trials to ascertain fatal gastrointestinal bleeding events attributable to preventive low-dose aspirin: no evidence of increased riskPLoS ONE11112016e016616610.1371/journal.pone.0166166PMC511302227846246"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

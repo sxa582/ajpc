@@ -1,0 +1,520 @@
+{
+  "pmcid": "PMC11757226",
+  "pmid": "39867488",
+  "doi": "10.1016/j.ajpc.2024.100927",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11757226/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Sodium-glucose cotransporter 2 inhibitors in patients with type 2 diabetes and myocardial infarction undergoing percutaneous coronary intervention: A systematic review and meta-analysis☆",
+  "articleType": "Research Article",
+  "published": "2024-12-31",
+  "year": "2024",
+  "volume": "21",
+  "issue": "",
+  "articleNumber": "100927",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2024",
+  "authors": [
+    {
+      "given": "Huzaifa Ul Haq",
+      "surname": "Ansari",
+      "display": "Huzaifa Ul Haq Ansari"
+    },
+    {
+      "given": "Muhammad Ammar",
+      "surname": "Samad",
+      "display": "Muhammad Ammar Samad"
+    },
+    {
+      "given": "Eman",
+      "surname": "Mahboob",
+      "display": "Eman Mahboob"
+    },
+    {
+      "given": "Eeshal",
+      "surname": "Zulfiqar",
+      "display": "Eeshal Zulfiqar"
+    },
+    {
+      "given": "Shurjeel Uddin",
+      "surname": "Qazi",
+      "display": "Shurjeel Uddin Qazi"
+    },
+    {
+      "given": "Areeba",
+      "surname": "Ahsan",
+      "display": "Areeba Ahsan"
+    },
+    {
+      "given": "Mushood",
+      "surname": "Ahmed",
+      "display": "Mushood Ahmed"
+    },
+    {
+      "given": "Faizan",
+      "surname": "Ahmed",
+      "display": "Faizan Ahmed"
+    },
+    {
+      "given": "Raheel",
+      "surname": "Ahmed",
+      "display": "Raheel Ahmed"
+    },
+    {
+      "given": "Shafaqat",
+      "surname": "Ali",
+      "display": "Shafaqat Ali"
+    },
+    {
+      "given": "Mahboob",
+      "surname": "Alam",
+      "display": "Mahboob Alam"
+    },
+    {
+      "given": "Jamal S.",
+      "surname": "Rana",
+      "display": "Jamal S. Rana"
+    },
+    {
+      "given": "Gregg C.",
+      "surname": "Fonarow",
+      "display": "Gregg C. Fonarow"
+    }
+  ],
+  "affiliations": [
+    "aDow University of Health Sciences, Karachi, Pakistan",
+    "bFoundation University Medical College, Islamabad, Pakistan",
+    "cRawalpindi Medical University, Rawalpindi, Pakistan",
+    "dDivision of Cardiology, Duke University Hospital, Durham, NC, USA",
+    "eDepartment of Cardiology, Royal Brompton Hospital, London, UK",
+    "fNational Heart and Lung Institute, Imperial College London, UK",
+    "gDepartment of Cardiology, Louisiana State University, Shreveport, USA",
+    "hDepartment of Cardiology, Baylor College of Medicine, Houston, TX, USA",
+    "iDivision of Cardiology, Kaiser Permanente Northern California, Oakland, CA, USA",
+    "jDivision of Research, Kaiser Permanente Northern California, Oakland, CA, USA",
+    "kAhmanson-UCLA Cardiomyopathy Center, Division of Cardiology, University of California Los Angeles, Los Angeles, CA, USA"
+  ],
+  "keywords": [
+    "Sodium-glucose co-transporter 2 inhibitors",
+    "Type 2 diabetes",
+    "Myocardial infarction",
+    "Percutaneous coronary intervention"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Background:</strong> Sodium-glucose cotransporter 2 inhibitors (SGLT2i) have shown benefits in improving cardiovascular (CV) outcomes in patients with heart failure (HF) and may mitigate symptom progression in myocardial infarction (MI). However, their effectiveness in patients with type 2 diabetes and MI undergoing percutaneous coronary intervention (PCI) is unclear."
+    },
+    {
+      "html": "<strong>Methods:</strong> To identify eligible studies, a comprehensive search of electronic databases, PubMed, Cochrane Library, Scopus and Embase, was conducted from inception until May 2024. Results were presented as risk ratios (RR) and their corresponding 95 % confidence intervals (CIs)."
+    },
+    {
+      "html": "<strong>Results:</strong> Our analysis included 8 observational studies comprising 24,229 patients. The results indicated that SGLT2i with PCI was associated with a significantly reduced risk of all-cause death (RR=0.61; 95 % CI=0.54 to 0.68), CV death (RR=0.46; 95 % CI=0.22 to 0.94), major adverse cardiovascular events (RR=0.80;95 % CI: 0.66 to 0.96), HF-related hospitalizations (RR=0.63; 95 % CI=0.44 to 0.90), stroke (RR=0.77; 95 % CI: 0.62 to 0.96) and acute kidney injury (RR=0.46; 95 % CI: 0.25 to 0.84) compared to PCI without SGLT2i use. However, the risk of revascularization remained comparable between the groups."
+    },
+    {
+      "html": "<strong>Conclusion:</strong> Our study demonstrates that SGLT2i with PCI in patients with type 2 diabetes and MI are associated with improved CV outcomes compared to PCI without SGLT2i use. Randomized controlled trials are required to confirm the improvement in outcomes with SGLT2i therapy combined with PCI in patients with MI and diabetes."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Acute myocardial infarction (AMI) is a major global cause of morbidity and mortality [1,2]. Percutaneous coronary intervention (PCI) is a commonly used, minimally invasive procedure in the treatment of AMI [3]. While effective, patients with AMI undergoing PCI are at a considerable risk of developing acute kidney injury (AKI), recurrent cardiovascular events, and heart failure [4,5]. Notably, contrast-induced acute kidney injury (CI-AKI) occurs in 1.3 to 33.3 % of people undergoing PCI and is significantly associated with in-hospital mortality [6]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Sodium-glucose cotransporter 2 inhibitors (SGLT2i) are oral hypoglycemic agents that reduce blood glucose levels through the inhibition of renal tubular reabsorption of glucose [7]. Other than their effects on glycemic control, recent research has also shown the benefits of SGLT2i in improving cardiovascular (CV) and renal outcomes in patients with heart failure [8,9]. These benefits are hypothesized to result from their kidney-mediated natriuretic effects, improved blood flow regulation, reduced endothelial dysfunction, as well as their role in reducing infarct size and improving left ventricular function post-AMI, thus preventing progression to HF [10,11]. Recent literature on the cardioprotective function of SGLT2i proposes that it may be due to the induction of autophagy. Specifically, empagliflozin (EMPA) has been shown to suppress autosis by inhibiting the Na+/<em>H</em>+ exchanger 1 (NHE1) in cardiomyocytes, optimizing autophagic flux and reducing myocardial ischemic injury. This leads to improvements in LV function post-AMI [12]. Moreover, SGLT2i have been observed to induce a cardiac metabolic shift toward ketone utilization, which increases circulating ketone levels. This shift is associated with improved myocardial efficiency and reduced oxygen consumption that is crucial for preserving cardiac function in ischemic conditions, particularly after PCI [13,14]."
+        },
+        {
+          "type": "paragraph",
+          "html": "However, there remains a lack of evidence specifically addressing their effectiveness in patients with type-2 diabetes and MI undergoing PCI, warranting a meta-analysis with enhanced statistical power. Therefore, we aim to evaluate whether SGLT2i combined with PCI improves clinical outcomes in compared to PCI alone."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The current systematic review and meta-analysis is reported according to Preferred reporting items for systematic review and meta-analyses (PRISMA) guidelines [15]."
+        }
+      ]
+    },
+    {
+      "title": "Data sources and search strategy",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "To retrieve all relevant articles, a literature search was conducted on PubMed, Cochrane Library, Scopus and Embase from the inception until May 2024 using the following keywords with their associated MeSH terms: “(Sodium-glucose co-transporter inhibitor-2 OR SGLT2 inhibitors OR empagliflozin OR dapagliflozin OR canagliflozin OR bexagliflozin) AND (myocardial infarction OR MI) AND (percutaneous coronary intervention OR PCI). The detailed search strategies are reported in <strong>Table S1</strong>. In addition, we thoroughly searched the reference lists of the retrieved articles, past review articles, and meta-analyses, to find any relevant studies that may have been missed in the search."
+        }
+      ]
+    },
+    {
+      "title": "Study selection and bias assessment",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The articles were selected for inclusion if they fulfilled the following eligibility requirements: [1] randomized Control Trials (RCTs) or observational cohorts, [2] the patients enrolled in the studies were ≥ than 18 years of age, and [3] compared outcomes of SGLT2i in patients with type-2 diabetes with MI undergoing PCI to the outcomes when no SGLT2i are used post-PCI. All case reports, review articles, observational studies, and studies on non-human subjects were excluded from our literature review."
+        },
+        {
+          "type": "paragraph",
+          "html": "The articles retrieved from the systematic search were exported to the EndNote Reference Library X7 software where duplicates were removed. The remaining articles were carefully assessed by two independent reviewers (Q.S.U and H.U.H.A), and only those trials that met the previously defined criteria were selected. All studies were initially short-listed based on title and abstract, after which the full article was reviewed to affirm relevance. All discrepancies were resolved by a third reviewer (A.S)."
+        },
+        {
+          "type": "paragraph",
+          "html": "The risk of bias assessment of the observational studies was performed using the Cochrane Risk of Bias in Nonrandomized Studies - of Interventions (ROBINS-I) tool [16]. The ROBINS-I tool uses seven domains to determine overall bias in each non-randomized clinical trial. Studies were classified as having low, moderate, serious, or critical risk of bias. Studies that had information missing in one or more domains were classified as NI (no information). Sensitivity analyses were conducted using the leave-one-out approach to investigate the impact of individual studies on the overall results."
+        }
+      ]
+    },
+    {
+      "title": "Data extraction and outcomes",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The extracted data included patient demographics as well as outcome information. The demographics of the patients included sample size, age of patients, body mass index, and history of smoking, dyslipidemia and hypertension."
+        },
+        {
+          "type": "paragraph",
+          "html": "The primary outcomes included all-cause death and cardiovascular death. The secondary outcomes included major adverse cardiovascular events (MACE), hospitalization due to heart failure (HHF), revascularization, acute kidney injury (AKI) and stroke. The criteria used for reporting MACE in each study is mentioned in <strong>Table S2</strong>."
+        }
+      ]
+    },
+    {
+      "title": "Statistical analysis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "All statistical analysis was performed on Review Manager (Version 5.4.1, Copenhagen: The Nordic Cochrane Centre, The Cochrane Collaboration, 2014). The risk ratios were calculated to present pooled effect sizes along with corresponding 95 % confidence intervals (CIs). Forest plots were generated for a graphical representation of results. The Higgins (I²) statistic was used to evaluate heterogeneity and a value of 25 %−50 % was considered mild, 50 %−75 % as moderate, and &gt;75 % as severe heterogeneity. A p-value of less than 0.05 was considered significant."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Search results",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "An initial search of the databases yielded 644 records. After removing duplicates, 427 unique records were subjected to title and abstract screening. This process identified 58 potentially eligible reports retrieved for full-text assessment based on the eligibility criteria. Eight studies met the predefined inclusion criteria and were included in the final analysis. The details of screening and the study selection process are provided in Fig. 1.Fig. 1PRISMA flowchart showing the screening and study selection process.Fig 1:"
+        }
+      ]
+    },
+    {
+      "title": "Study characteristics and risk of bias",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "A total of 8 studies were included; All of the studies were retrospective observational studies [[17], [18], [19], [20], [21], [22], [23], [24]] published from 2022 to 2024. A total of 24,229 patients were included in our meta-analysis. SGLT2i was administered in 10,777 patients while 13,452 patients received placebo. The median age of patients ranged from 55 to 72 years. Male patients constituted &gt;50 % of the participants in each trial. All studies had a follow-up duration ranging from 6 months to 2 years. The details of the baseline characteristics are provided in Table 1.Table 1Baseline characteristics of included studies and patients.Table 1:AuthorYearTiming of studyStudy designSample sizeFollow-upAge-median (IQR) or mean± SDMales-n (%)BMI-median (IQR) or mean± SDHypertension, n (%)Dyslipidaemia-n (%)Smoking-n (%)STEMI-n (%)<strong>SGLT2i</strong><strong>Control</strong><strong>SGLT2i</strong><strong>Control</strong><strong>SGLT2i</strong><strong>control</strong><strong>SGLT2i</strong><strong>Control</strong><strong>SGLT2i</strong><strong>Control</strong><strong>SGLT2i</strong><strong>Control</strong><strong>SGLT2i</strong><strong>Control</strong><strong>SGLT2i</strong><strong>Control</strong><strong>Paolisso</strong><strong>2022</strong>January 2018 and November 2021retrospective11153524 months66 [59–73]72 [62–80]90 (81.1)405 (75.7)27.1 [24.6–30]27.7 [25–31.4]98 (88.3)443 (82.8)90 (81.1)418 (78.1)67 (60.4)303 (56.6)52 (46.8)257 (48)<strong>Cai</strong><strong>2024</strong>January 2017 to August 2021retrospective27815612 years62 ± 13.265.1 ± 14.0212 (76.3 %)1146 (73.4 %)25.7 ± 3.824.2 ± 3.6216 (77.7 %)1035 (66.3 %)NRNR120 (43.2 %)739 (47.3 %)171 (61.5 %)982 (62.9 %)<strong>Kwon</strong><strong>2023</strong>January 2013 to August 2018retrospective93818762.1 years56.4 ± 11.357.6 ± 11.3769 (82.0)1482 (79.0)NRNR699 (74.5)1398 (74.5)591 (63.0)1182 (63.0)NRNR550 (58.6)1137 (60.6)<strong>Kültürsay</strong><strong>2024</strong>2021 and 2022retrospective130165–58.5 ± 9.661.4 ± 9.099 (76.1)103 (62.4)NRNR110 (84.6)99 (60)76 (58.5)61 (37)73 (56.2)97 (58.8)60 (46.2)35 (21.2)<strong>Chen</strong><strong>2024</strong>June 2020 and September 2023retrospective63633 months56 (54–59)56 (51–59)40 (64)34 (54)22.71 ± 1.9922.63 ± 1.6927 (42.86)25 (39.68)NRNRNRNR63 (100)63 (100)<strong>Kim</strong><strong>2024</strong>January 2014 and December 2019retrospective46104610–62.3 ± 10.5862.24 ± 10.943494 (75.79)3485 (75.6)26.58 ± 3.4726.48 ± 3.524021 (87.22)4010 (86.98)4454 (96.62)4424 (95.97)673 (24.42)699 (25.36)NRNR<strong>Lyu</strong><strong>2023</strong>January 2016 to June 2020retrospective53753212 months63.21 ± 11.1763.74 ± 11.33358 (66.7)388 (72.9)NRNR350 (65.1)344 (64.6)125 (23.3)133 (25.0)254 (47.2)283 (53.2)244 (45.5)241 (45.3)<strong>Lee</strong><strong>2023</strong>1 May 2016–31 December 2019retrospective411041101.7 years61.7 ± 11.362.3 ± 10.83236 (78.73 %)3265 (79.44 %)NRNR3201 (77.88 %)3198 (77.81 %)3402 (82.77 %)3416 (83.11 %)NRNRNRNRSGLT2i: Sodium-Glucose Transport Protein 2 Inhibitors, BMI: body mass index, STEMI: ST-segment elevation myocardial infarction, NR: not reported, n: number."
+        },
+        {
+          "type": "paragraph",
+          "html": "Of 8 observational studies, two [17,20] were judged to have some concerns due to confounding or deviations from intended interventions. The details are provided in <strong>Figure S1</strong>."
+        }
+      ]
+    },
+    {
+      "title": "Clinical outcomes",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "title": "All-cause death",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Seven studies reported data on all-cause mortality. SGLT2i plus PCI was associated with a significant decrease in the risk for all-cause death in comparison to the group receiving no SGLT2i post-PCI strategy (RR=0.61; 95 % CI=0.54, 0.68; <em>p</em> &lt; 0.01; I<sup>2</sup> =0 %, Fig. 2<strong>A</strong>).Fig. 2Forest plots for (A) All-cause death and (B) Cardiovascular death.Fig 2:"
+        }
+      ]
+    },
+    {
+      "title": "Cardiovascular death",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Two studies reporting data on death due to cardiovascular causes were analyzed. The pooled analysis highlighted a significant risk reduction associated with SGLT2i plus PCI procedure compared to no SGLT2i use (RR=0.46; 95 % CI=0.22, 0.94; <em>p</em> = 0.03; I<sup>2</sup> =0 %) (Fig. 2<strong>B</strong>)."
+        }
+      ]
+    },
+    {
+      "title": "Major adverse cardiovascular events (MACE)",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Five studies reported data on MACE. SGLT2i plus PCI was associated with a significant decrease in the risk for MACE compared to no SGLT2i use post-PCI (RR=0.80;95 % CI=0.66, 0.96; <em>p</em> = 0.01; I<sup>2</sup>=40 %, Fig. 3<strong>A</strong>).Fig. 3Forest plots for (A) MACE and (B) HHFMACE: major adverse cardiovascular events, HHF: hospitalizations due to heart failure.Fig 3:"
+        }
+      ]
+    },
+    {
+      "title": "Hospitalization due to heart failure",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Three studies reporting on the risk of HHF were analyzed. Pooled analysis showed a significant decrease in the risk of HHF associated with SGLT2i plus PCI compared to no SGLT2i use post-PCI (RR=0.63; 95 % CI=0.44, 0.90; <em>p</em> &lt; 0.01; I<sup>2</sup> =67, Fig. 3<strong>B</strong>). Owing to the high level of heterogeneity observed, a leave-one-out analysis was conducted, during which the study by Paolisso 2023 et al. was excluded. This exclusion substantially reduced the heterogeneity from 67 % to 56 %% and the results remained significant (RR= 0.71, 95 % CI: 0.54 to 0.93, <em>p</em> &lt; 0.01, I² =56 %) (Figure S2)"
+        }
+      ]
+    },
+    {
+      "title": "Revascularization",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Five studies reporting on the risk of revascularization were analyzed. Pooled analysis showed a non-significant risk association between the two groups (RR=1.26; 95 % CI=0.85, 1.87; <em>p</em> = 0.25; I<sup>2</sup> =86 %, Fig. 3<strong>C</strong>). Owing to the high level of heterogeneity observed, a leave-one-out analysis was conducted, during which the study by Kultursay 2023 was excluded. This exclusion reduced the heterogeneity from 86 % to 75 % and the results remained non-significant (RR = 0.98, 95 % CI: 0.73 to 1.31, <em>p</em> = 0.89, I² = 75 %) (Figure S3)"
+        }
+      ]
+    },
+    {
+      "title": "Acute kidney injury",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Five studies reported data for AKI. The pooled analysis demonstrated that the SGLT2i plus PCI was associated with a significant decrease in the risk for AKI compared to no SGLT2i use (RR=0.46; 95 % CI = [0.25, 0.84]; <em>p</em> &lt; 0.01; I<sup>2</sup> =79 %, Fig. 4<strong>A</strong>). Owing to the high level of heterogeneity observed, a leave-one-out analysis was conducted, during which the study by Kim 2024 et al. was excluded. This exclusion substantially reduced the heterogeneity from 79 % to 0 % and the results remained significant (RR = 0.64, 95 % CI: 0.50 to 0.82, <em>p</em> &lt; 0.01, I² = 0 %) (Figure S4).Fig. 4Forest plots for (A) AKI and (B) StrokeAKI: acute kidney injury.Fig 4:"
+        }
+      ]
+    },
+    {
+      "title": "Stroke",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Four studies reporting the risk of the incidence of stroke were evaluated. The SGLT2i plus PCI was associated with a significant decrease in the risk for stroke compared to no SGLT2i use (RR=0.77; 95 % CI=0.62, 0.96;<em>p</em> &lt; 0.01;I<sup>2</sup> =0 %, Fig. 4<strong>B</strong>)."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This comprehensive meta-analysis of 8 studies, incorporating a total of 24,229 type 2 diabetes patients with MI undergoing PCI, aimed to evaluate whether SGLT2i plus PCI was associated with improved clinical outcomes compared to PCI without SGLT2i use. In our investigation, we found that the use of SGLT2i was associated with a significant reduction in all-cause death, cardiovascular death, MACE and AKI. SGLT2i was also associated with a significantly reduced risk of HHF and stroke, compared to PCI without SGLT2i use. However, the risk of revascularization remained comparable across the two groups."
+        },
+        {
+          "type": "paragraph",
+          "html": "Our study complements existing research showing that while SGLT2i, primarily used to improve glycemic control in diabetic patients, also provides cardioprotective and nephroprotective effects [7,25,26]. Although the exact underlying mechanisms remain unclear, these effects may be associated with diuresis/natriuresis, enhanced kidney function, improved cardiac energy metabolism, induction of vasodilation, reduction in arterial blood pressure, reduced inflammation, reduced endothelial dysfunction and decreased arterial stiffness [10,[27], [28], [29]]. These effects were initially demonstrated in patients with heart failure (HF), which showed significant reductions in cardiovascular death, hospitalizations and renal events [9]. This prompted increased interest in exploring the potential benefits of SGLT2i in patients with AMI, with the EMMY trial being the first to investigate the efficacy and safety of an SGLT2i, empagliflozin, in patients with AMI undergoing PCI [30]. This trial reported a significantly decreased NT-proBNP concentration, a key predictor of cardiovascular events following MI, in the empagliflozin group, compared to placebo. Since then, various other trials and observational studies have investigated the impact of SGLT2i on clinical and echocardiographic outcomes, expanding upon these initial findings [[17], [18], [19], [20], [21], [22],31,32]."
+        },
+        {
+          "type": "paragraph",
+          "html": "We observed a significant reduction in AKI associated with the use of SGLT2i. Following PCI, approximately 7 % of patients experience AKI, largely due to the use of contrast agents, defined as contrast-induced AKI (CI-AKI) [4]. CI-AKI is the third leading cause of hospital-acquired AKI, which is closely linked to in-hospital mortality [33]. Independent risk factors for AKI during PCI include severe baseline chronic kidney disease (CKD), cardiogenic shock, and ST-segment elevation myocardial infarction (STEMI) presentation [4]. Menne et al. also reported in their meta-analysis, that SGLT2i were associated with a reduced risk of AKI [34]. The exact mechanisms by which SGLT2i prevent AKI are not fully understood, especially given their association with hypovolemia, a key factor in acute prerenal failure. However, experimental studies suggest they may reduce tubular injury by increasing vascular endothelial growth factor (VEGF) and erythropoietin production and decreased peritubular inflammation and fibrosis [35]. Additionally, an important concept in the reno-protective function of SGLT2i is reduced hyperfiltration by increasing distal sodium delivery which leads to the stimulation of tubuloglomerular feedback, thereby reducing intraglomerular pressure [36]. Given the significant burden of CI-AKI and the protective properties of SGLT2i, investigating their integration into routine clinical practice is essential. The reduction in AKI could lead to improved clinical outcomes, including reduced hospital stay durations and decreased long-term kidney-related complications. In order to optimize their advantages in high-risk populations, future research should concentrate on establishing the optimal dosage and patient selection criteria. Results may also be improved by combining SGLT2i with other preventive measures like adequate hydration and minimizing contrast volume."
+        },
+        {
+          "type": "paragraph",
+          "html": "Our findings on all-cause and cardiovascular death align with those reported by Li et al., assessing the use of SGLT2i in improving cardiovascular outcomes in patients with diabetes mellitus (DM) who experienced AMI [37]. Animal studies have also shown SGLT2i to reduce mortality rates following MI by raising antioxidant levels and modifying cardiac metabolomes [38]. Moreover, these inhibitors also have been observed to reduce the size of infarctions, improve left ventricular function, and lessen the frequency of arrhythmias [39]. Such reductions in infarct size and improvements in ventricular function likely contribute to the reduced mortality and lower incidence of post-MI complications observed with these treatments."
+        },
+        {
+          "type": "paragraph",
+          "html": "A prospective study by Gamaza-Chulián et al. also demonstrated a reduction in left ventricular mass and improved global longitudinal strain in patients treated with SGLT2i compared to controls, indicating favorable structural and functional cardiac changes [40]. This evidence of reverse remodeling supports the idea that SGLT2i may not only prevent further damage but actively contribute to the repair of the myocardium, especially in patients with left ventricular hypertrophy or dysfunction. Our findings also indicate a significantly reduced risk of HHF. Previous research, including the EMPA-REG OUTCOME trial, reported significant reductions in hospitalizations in the SGLT2i, empagliflozin group [8]. The EMPACT-MI trial included 31.7 % of patients with type-2 diabetes who received empagliflozin treatment after MI [41]. PCI was performed in many of these patients. A subgroup analysis of this trial will provide additional insights into the efficacy of SGLT2i therapy in patients with type-2 diabetes and MI following PCI. Zelniker et al. also reported SGLT2i to be associated with a 23 % reduced risk of CV death and HHF, further contributing to the growing evidence of the cardioprotective role of SGLT2i [25]. SGLT2i also play a role in ketogenesis, which provides an alternative energy source for the myocardial cells in ischemic stress [42,43]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Our analysis reported non-significant findings in the risk of revascularization between the two groups. These results emphasize the need for additional research to clarify the role of SGLT2i in reducing revascularization risk, especially given their proven benefits in other cardiovascular outcomes. Revascularization, commonly used as an indicator of disease progression in patients with CV disease, may not be directly influenced by the mechanisms through which SGLT2i exert their benefits. Differences in clinical protocols between the included studies, such as the timing of follow-up assessments and variations in sample size, may have contributed to the significant heterogeneity observed in this outcome. Additionally, patient baseline characteristics such as the severity of underlying cardiovascular disease, presence of comorbidities, and particularly the use of different medications may also be responsible."
+        },
+        {
+          "type": "paragraph",
+          "html": "This is the largest meta-analysis to date that directly evaluated the clinical outcomes with the use of SGLT2i in patients with MI undergoing PCI. However, it is important to acknowledge that our study has some limitations, including observational study designs and varying patient demographics in our pooled studies which may contribute to heterogeneity in the results. Moreover, most of the included studies had relatively short follow-up durations, studies with longer follow-ups are required to evaluate the sustained impact of SGLT2i. Another limitation is the imbalance in sex representation among the included studies, the predominance of males over female participants could introduce a potential bias and limit the generalizability of our findings. High heterogeneity was observed in the occurrence of hospitalization due to HF, revascularization, and AKI. This heterogeneity was largely driven by Kim et al., who compared the efficacy of SGLT2 inhibitors with an active comparator, a dipeptidyl peptidase-4 (DPP-4) inhibitor. Furthermore, Paolisso et al., stratified the groups according to the use of SGLT2 inhibitors and other oral antidiabetics (OAD). Although the outcomes remained significant after removing each study, the differences in the choice of comparators may explain the high heterogeneity. Furthermore, we were unable to categorize the most potent type of SGLT2 inhibitor across all outcomes due to the lack of studies reporting this information. Therefore, future studies are warranted to conduct head-to-head comparisons of different types of SGLT2 inhibitors and their efficacy compared to other OADs. Some observational studies included patients who were already on SGLT2i therapy before PCI and continued it afterward, while others included patients who started SGLT2i therapy only after undergoing PCI. This could have led to differences in observed clinical outcomes. We therefore recommend future randomized control studies to assess the long-term benefits of SGLT2i combined with PCI."
+        }
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In conclusion, this meta-analysis demonstrates that SGLT2i plus PCI in patients with MI and type 2 diabetes is associated with improved cardio-renal outcomes. Future large-scale randomized controlled trials are needed to better understand the long-term clinical benefits of SGLT2i in this patient population."
+        }
+      ]
+    },
+    {
+      "title": "Ethical approval",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "No ethical approval was required for the study."
+        }
+      ]
+    },
+    {
+      "title": "Consent",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "No consent was needed."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Huzaifa Ul Haq Ansari:</strong> Writing – original draft, Supervision, Methodology, Data curation, Conceptualization. <strong>Muhammad Ammar Samad:</strong> Writing – original draft, Project administration, Methodology, Data curation, Conceptualization. <strong>Eman Mahboob:</strong> Writing – original draft, Visualization, Validation, Supervision, Project administration. <strong>Eeshal Zulfiqar:</strong> Writing – original draft, Methodology. <strong>Shurjeel Uddin Qazi:</strong> Formal analysis, Data curation. <strong>Areeba Ahsan:</strong> Writing – original draft, Methodology, Data curation. <strong>Mushood Ahmed:</strong> Writing – review &amp; editing, Writing – original draft, Supervision. <strong>Faizan Ahmed:</strong> Writing – review &amp; editing. <strong>Raheel Ahmed:</strong> Writing – review &amp; editing, Supervision. <strong>Shafaqat Ali:</strong> Writing – review &amp; editing, Supervision. <strong>Mahboob Alam:</strong> Writing – review &amp; editing, Visualization, Validation. <strong>Jamal S. Rana:</strong> Writing – review &amp; editing, Visualization, Validation, Supervision, Conceptualization. <strong>Gregg C. Fonarow:</strong> Writing – review &amp; editing, Visualization, Validation, Supervision, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "ReedG.W.RossiJ.E.CannonC.P.Acute myocardial infarctionLancet389100652017197210Jan 142750207810.1016/S0140-6736(16)30677-8"
+    },
+    {
+      "html": "BenjaminE.J.ViraniS.S.CallawayC.W.ChamberlainA.M.ChangA.R.ChengS.Heart disease and stroke statistics-2018 update: a report from the american heart associationCirculation.137122018e67492Mar 202938620010.1161/CIR.0000000000000558"
+    },
+    {
+      "html": "ByrneR.A.RosselloX.CoughlanJ.J.BarbatoE.BerryC.ChieffoA.2023 ESC Guidelines for the management of acute coronary syndromesEur Heart J4438202337203826Oct 123762265410.1093/eurheartj/ehad191"
+    },
+    {
+      "html": "TsaiT.T.PatelU.D.ChangT.I.KennedyK.F.MasoudiF.A.MathenyM.E.Contemporary incidence, predictors, and outcomes of acute kidney injury in patients undergoing percutaneous coronary interventions: insights from the NCDR Cath-PCI registryJACC Cardiovasc Interv71201419Jan2445671510.1016/j.jcin.2013.06.016PMC4122507"
+    },
+    {
+      "html": "RitsingerV.NyströmT.SalehN.LagerqvistB.NorhammarA.Heart failure is a common complication after acute myocardial infarction in patients with diabetes: a nationwide study in the SWEDEHEART registryEur J Prev Cardiol2717202018901901Nov3201936510.1177/2047487319901063"
+    },
+    {
+      "html": "ChalikiasG.DrososI.TziakasD.N.Contrast-induced acute kidney injury: an updateCardiovasc Drugs Ther3022016215228Apr2678074810.1007/s10557-015-6635-0"
+    },
+    {
+      "html": "van BaarM.J.B.van RuitenC.C.MuskietM.H.A.van BloemendaalL.IJzermanR.G.van RaalteD.H.SGLT2 inhibitors in combination therapy: from mechanisms to clinical considerations in type 2 diabetes managementDiabetes Care.418201815431556Aug3003025610.2337/dc18-0588"
+    },
+    {
+      "html": "ZinmanB.WannerC.LachinJ.M.FitchettD.BluhmkiE.HantelS.Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetesN Engl J Med37322201521172128Nov 262637897810.1056/NEJMoa1504720"
+    },
+    {
+      "html": "ZannadF.FerreiraJ.P.PocockS.J.AnkerS.D.ButlerJ.FilippatosG.SGLT2 inhibitors in patients with heart failure with reduced ejection fraction: a meta-analysis of the EMPEROR-Reduced and DAPA-HF trialsLancet396102542020819829Sep 193287765210.1016/S0140-6736(20)31824-9"
+    },
+    {
+      "html": "LopaschukG.D.VermaS.Mechanisms of cardiovascular benefits of sodium glucose co-transporter 2 (SGLT2) inhibitors: a state-of-the-art reviewJACC Basic Transl Sci562020632644Jun3261314810.1016/j.jacbts.2020.02.004PMC7315190"
+    },
+    {
+      "html": "AndreadouI.BellR.M.BøtkerH.E.ZuurbierC.J.SGLT2 inhibitors reduce infarct size in reperfused ischemic heart and improve cardiac function during ischemic episodes in preclinical modelsBiochim Biophys Acta Mol Basis Dis186672020165770Jul 110.1016/j.bbadis.2020.16577032194159"
+    },
+    {
+      "html": "JiangK.XuY.WangD.ChenF.TuZ.QianJ.Cardioprotective mechanism of SGLT2 inhibitor against myocardial infarction is through reduction of autosisProtein Cell1352022336359May 13341713910.1007/s13238-020-00809-4PMC9008115"
+    },
+    {
+      "html": "NikolicM.ZivkovicV.JovicJ.J.SretenovicJ.DavidovicG.SimovicS.SGLT2 inhibitors: a focus on cardiac benefits and potential mechanismsHeart Fail Rev2732022935949May3353404010.1007/s10741-021-10079-9"
+    },
+    {
+      "html": "Determinants of the increase in ketone concentration during SGLT2 inhibition in NGT, IFG and T2DM patients - Al Jobori - 2017 - Diabetes, Obesity and Metabolism - Wiley Online Library [Internet]. [cited 2024 Dec 21]. Available from: <a href=\"https://dom-pubs.pericles-prod.literatumonline.com/doi/10.1111/dom.12881\">https://dom-pubs.pericles-prod.literatumonline.com/doi/10.1111/dom.12881</a>.10.1111/dom.1288128128510"
+    },
+    {
+      "html": "PageM.J.McKenzieJ.E.BossuytP.M.BoutronI.HoffmannT.C.MulrowC.D.The PRISMA 2020 statement: an updated guideline for reporting systematic reviewsBMJ3722021n71Mar 293378205710.1136/bmj.n71PMC8005924"
+    },
+    {
+      "html": "SterneJ.A.HernánM.A.ReevesB.C.SavovićJ.BerkmanN.D.ViswanathanM.ROBINS-I: a tool for assessing risk of bias in non-randomised studies of interventionsBMJ3552016i4919Oct 122773335410.1136/bmj.i4919PMC5062054"
+    },
+    {
+      "html": "PaolissoP.BergamaschiL.GragnanoF.GallinoroE.CesaroA.SarduC.Outcomes in diabetic patients treated with SGLT2-Inhibitors with acute myocardial infarction undergoing PCI: the SGLT2-I AMI PROTECT registryPharmacol Res1872023106597Jan10.1016/j.phrs.2022.106597PMC994677436470546"
+    },
+    {
+      "html": "CaiD.ChenQ.MaoL.XiaoT.WangY.GuQ.Association of SGLT2 inhibitor dapagliflozin with risks of acute kidney injury and all-cause mortality in acute myocardial infarction patientsEur J Clin Pharmacol8042024613620Apr3831934810.1007/s00228-024-03623-7PMC10937750"
+    },
+    {
+      "html": "KwonO.MyongJ.P.LeeY.ChoiY.J.YiJ.E.SeoS.M.Sodium-glucose cotransporter-2 inhibitors after acute myocardial infarction in patients with type 2 diabetes: a population-based investigationJ Am Heart Assoc12142023e027824Jul 1810.1161/JAHA.122.027824PMC1038209237421263"
+    },
+    {
+      "html": "KimJ.H.LyuY.S.KimB.KimM.K.KimS.Y.BaekK.H.Cardiorenal outcomes and mortality after sodium-glucose cotransporter-2 inhibitor initiation in type 2 diabetes patients with percutaneous coronary intervention historyDiabetes Obes Metab267202425672577Jul3864447710.1111/dom.15565"
+    },
+    {
+      "html": "LyuY.S.OhS.KimJ.H.KimS.Y.JeongM.H.Comparison of SGLT2 inhibitors with DPP-4 inhibitors combined with metformin in patients with acute myocardial infarction and diabetes mellitusCardiovasc Diabetol2212023185Jul 223748150910.1186/s12933-023-01914-4PMC10362625"
+    },
+    {
+      "html": "KültürsayB.YılmazC.GüvenB.MutluD.KaragözA.Potential renoprotective effect of SGLT2 inhibitors against contrast-induced AKI in diabetic STEMI patients undergoing primary PCIKardiol Pol821202429363823046110.33963/v.kp.98260"
+    },
+    {
+      "html": "ChenL.ZhouN.ZhangL.Efficacy and safety of Canagliflozin in STEMI patients with type 2 diabetes after PCI: a retrospective studyHeart Surg Forum2782024E898E906Aug 15"
+    },
+    {
+      "html": "LeeH.F.ChanY.H.ChuangC.LiP.R.YehY.H.HsiaoF.C.Cardiovascular, renal, and lower limb outcomes in patients with type 2 diabetes after percutaneous coronary intervention and treated with sodium–glucose cotransporter 2 inhibitors vs. dipeptidyl peptidase-4 inhibitorsEurop. Heart J. - Cardiovasc. Pharmacother.942023301310Jun 110.1093/ehjcvp/pvad00436639127"
+    },
+    {
+      "html": "ZelnikerT.A.WiviottS.D.RazI.ImK.GoodrichE.L.BonacaM.P.SGLT2 inhibitors for primary and secondary prevention of cardiovascular and renal outcomes in type 2 diabetes: a systematic review and meta-analysis of cardiovascular outcome trialsLancet3931016620193139Jan 53042489210.1016/S0140-6736(18)32590-X"
+    },
+    {
+      "html": "AhmedM.JainH.JavaidH.AhsanA.SzilagyiS.AhmadA.Efficacy of sodium-glucose cotransporter-2 inhibitors in patients with acute myocardial infarction: a meta-analysis of randomised controlled trialsEndocrinol Diabetes Metab752024e5143914540110.1002/edm2.514PMC11325160"
+    },
+    {
+      "html": "García-RoperoÁ.Santos-GallegoC.G.BadimonJ.JThe anti-inflammatory effects of SGLT inhibitorsAging1116201958665867Aug 253144949210.18632/aging.102175PMC6738418"
+    },
+    {
+      "html": "BatziasK.AntonopoulosA.S.OikonomouE.SiasosG.BletsaE.StampouloglouP.K.Effects of newer antidiabetic drugs on endothelial function and arterial stiffness: a systematic review and meta-analysisJ Diabetes Res20182018123258310.1155/2018/1232583PMC630490130622967"
+    },
+    {
+      "html": "VallonV.VermaS.Effects of SGLT2 inhibitors on kidney and cardiovascular functionAnnu Rev Physiol832021503528Feb 103319722410.1146/annurev-physiol-031620-095920PMC8017904"
+    },
+    {
+      "html": "von LewinskiD.KolesnikE.TripoltN.J.PferschyP.N.BenediktM.WallnerM.Empagliflozin in acute myocardial infarction: the EMMY trialEur Heart J4341202244214432Nov 13603674610.1093/eurheartj/ehac494PMC9622301"
+    },
+    {
+      "html": "AdelS.M.H.JorfiF.MombeiniH.RashidiH.FazeliS.Effect of a low dose of empagliflozin on short-term outcomes in type 2 diabetics with acute coronary syndrome after percutaneous coronary interventionSaudi Med J4352022458464May3553772010.15537/smj.2022.43.5.20220018PMC9280595"
+    },
+    {
+      "html": "HuaR.DingN.GuoH.WuY.YuanZ.LiT.Contrast-induced acute kidney injury in patients on SGLT2 inhibitors undergoing percutaneous coronary interventions: a propensity-matched analysisFront Cardiovasc Med9202291816710.3389/fcvm.2022.918167PMC925133435795364"
+    },
+    {
+      "html": "MamoulakisC.TsarouhasK.FragkiadoulakiI.HeretisI.WilksM.F.SpandidosD.A.Contrast-induced nephropathy: basic concepts, pathophysiological implications and prevention strategiesPharmacol Ther180201799112Dec2864211610.1016/j.pharmthera.2017.06.009"
+    },
+    {
+      "html": "MenneJ.DumannE.HallerH.SchmidtB.M.W.Acute kidney injury and adverse renal events in patients receiving SGLT2-inhibitors: a systematic review and meta-analysisPLoS Med16122019e1002983Dec10.1371/journal.pmed.1002983PMC690117931815931"
+    },
+    {
+      "html": "ItoM.TanakaT.The anticipated renoprotective effects of sodium-glucose cotransporter 2 inhibitorsIntern Med5715201821052114Aug 12949131810.2169/internalmedicine.9842-17PMC6120824"
+    },
+    {
+      "html": "CherneyD.Z.I.PerkinsB.A.SoleymanlouN.MaioneM.LaiV.LeeA.Renal hemodynamic effect of sodium-glucose cotransporter 2 inhibition in patients with type 1 diabetes mellitusCirculation12952014587597Feb 42433417510.1161/CIRCULATIONAHA.113.005081"
+    },
+    {
+      "html": "LiZ.LiA.SunD.ShuY.Effect of SGLT-2 inhibitors on prognosis in diabetic patients with acute myocardial infarction: a systematic review and meta-analysisRev Cardiovasc Med2552024154May3907646710.31083/j.rcm2505154PMC11267217"
+    },
+    {
+      "html": "OshimaH.MikiT.KunoA.MizunoM.SatoT.TannoM.Empagliflozin, an SGLT2 inhibitor, reduced the mortality rate after acute myocardial infarction with modification of cardiac metabolomes and antioxidants in diabetic ratsJ Pharmacol Exp Ther36832019524534Mar3055229210.1124/jpet.118.253666"
+    },
+    {
+      "html": "LahnwongC.PaleeS.ApaijaiN.SriwichaiinS.KerdphooS.JaiwongkamT.Acute dapagliflozin administration exerts cardioprotective effects in rats with cardiac ischemia/reperfusion injuryCardiovasc Diabetol191202091Jun 153253972410.1186/s12933-020-01066-9PMC7296726"
+    },
+    {
+      "html": "Gamaza-ChuliánS.Díaz-RetaminoE.González-TestónF.GaiteroJ.C.CastilloM.J.AlfaroR.Effect of sodium-glucose cotransporter 2 (SGLT2) inhibitors on left ventricular remodelling and longitudinal strain: a prospective observational studyBMC Cardiovasc Disord2112021456Sep 213454801110.1186/s12872-021-02250-9PMC8456580"
+    },
+    {
+      "html": "ButlerJ.JonesW.S.UdellJ.A.AnkerS.D.PetrieM.C.HarringtonJ.Empagliflozin after acute myocardial infarctionN Engl J Med2024Apr 6NEJMoa231405110.1056/NEJMoa231405138587237"
+    },
+    {
+      "html": "SattarN.McLarenJ.KristensenS.L.PreissD.McMurrayJ.J.SGLT2 Inhibition and cardiovascular events: why did EMPA-REG Outcomes surprise and what were the likely mechanisms?Diabetologia597201613331339Jul2711234010.1007/s00125-016-3956-xPMC4901113"
+    },
+    {
+      "html": "VermaS.McMurrayJ.J.V.SGLT2 inhibitors and mechanisms of cardiovascular benefit: a state-of-the-art reviewDiabetologia6110201821082117Oct3013203610.1007/s00125-018-4670-7"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

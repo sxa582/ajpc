@@ -1,0 +1,454 @@
+{
+  "pmcid": "PMC13329579",
+  "pmid": "42403447",
+  "doi": "10.1016/j.ajpc.2026.101505",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13329579/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Sex-specific associations of social determinants of health and genetic risk factors with atherosclerotic cardiovascular diseases incidence in the general population",
+  "articleType": "Research Article",
+  "published": "2026-02-25",
+  "year": "2026",
+  "volume": "29",
+  "issue": "",
+  "articleNumber": "101505",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2026",
+  "authors": [
+    {
+      "given": "Audrey",
+      "surname": "Paulin",
+      "display": "Audrey Paulin"
+    },
+    {
+      "given": "Louis-Jacques",
+      "surname": "Ruel",
+      "display": "Louis-Jacques Ruel"
+    },
+    {
+      "given": "Sébastien",
+      "surname": "Thériault",
+      "display": "Sébastien Thériault"
+    },
+    {
+      "given": "Benoit J.",
+      "surname": "Arsenault",
+      "display": "Benoit J. Arsenault"
+    }
+  ],
+  "affiliations": [
+    "aCentre de recherche de l’Institut universitaire de cardiologie et de pneumologie de Québec – Université Laval, Québec (QC), Canada",
+    "bDepartment of Molecular Biology, Medical Biochemistry and Pathology, Faculty of Medicine, Université Laval, Québec (QC), Canada",
+    "cDepartment of Medicine, Faculty of Medicine, Université Laval, Québec (QC), Canada"
+  ],
+  "keywords": [
+    "Social determinants of health",
+    "ASCVD",
+    "Risk factors",
+    "Genetic",
+    "Polysocial risk score"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Background and aims:</strong> The combined contribution of social determinants of health (SDOH) that includes socioeconomic status, psychosocial factors and living environment and genetic background on atherosclerotic cardiovascular disease (ASCVD) risk remains unknown. We investigated the contribution of a polysocial risk score (PSS) and polygenic risk scores (PRS) on ASCVD incidence."
+    },
+    {
+      "html": "<strong>Methods:</strong> We developed a PSS using latent class analysis based on socioeconomic factors, psychosocial factors and living environment in 321,016 UK Biobank participants free of ASCVD. Participants were divided into three PSS groups. The impact of the PSS on incident ASCVD was assessed using Cox proportional hazards. The impact of the PSS and coronary artery disease (CAD) PRS and ischemic stroke (IS) PRS on the incidence of CAD and IS, respectively, were also assessed."
+    },
+    {
+      "html": "<strong>Results:</strong> During a median follow-up of 12.5 years, 17,737 ASCVD events were recorded. Compared to participants with a low PSS, those with a high PSS had a higher risk of ASCVD (HR=1.78 [95% CI, 1.66–1.90], <em>p</em> &lt; 0.001). Risk associated with an elevated PSS was higher for females compared to males. Compared to participants with a low PSS in the bottom tertile of CAD PRS, those with a high PSS in the top tertile of CAD PSS were at higher CAD risk (HR=4.36 [95% CI, 3.99–4.77], <em>p</em> &lt; 0.001). Similar results were obtained for IS."
+    },
+    {
+      "html": "<strong>Conclusions:</strong> A PSS that takes into account individual and area-level SDOH was associated with incident ASCVD, particularly in females, and may exacerbate genetic susceptibility to both CAD and IS, suggesting that addressing polysocial risk factors is key to implementing preventive ASCVD strategies in the general population."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Atherosclerotic cardiovascular diseases (ASCVD) such as coronary artery disease (CAD) and ischemic stroke (IS) are amongst the leading causes of mortality worldwide [1,2]. Many studies have underscored the impact of lifestyle and cardiometabolic health on the incidence of ASCVD and how modification of these risk factors can decrease long-term risk of ASCVD [[3], [4], [5], [6], [7]]. In addition to traditional risk factors, genetic risk factors also play a critical role in the development of atherosclerosis and long-term ASCVD risk [8,9]. Combined, these factors may play an increasingly important role in the long-term risk of ASCVD."
+        },
+        {
+          "type": "paragraph",
+          "html": "In addition to clinical, lifestyle and genetic risk factors, social determinants of health (SDOH) have been linked with ASCVD incidence and are increasingly recognized as important contributors to global cardiovascular health [10]. There are multiple facets of SDOH that seem to influence ASCVD risk such as social and community, education, economic stability, neighborhoods and environment as well as healthcare access. Despite knowledge on the importance of including SDOH in cardiovascular research, most studies still define SDOH as the socioeconomic status alone instead of all aspects of SDOH. According to the Centers for Disease Control, the five SDOH domains include economic stability, education access and quality, health care access and quality, neighborhood and built environment, and social and community context [11]. These represent key societal factors that influence health outcomes across the lifespan such as ASCVD."
+        },
+        {
+          "type": "paragraph",
+          "html": "A recent American Heart Association statement underscored the importance of including SDOH in cardiovascular research, especially since these factors may lie upstream of lifestyle-related risk factors for ASCVD [12]. Recent finding indicates that SDOH may modulate genetic susceptibility to disease, reinforcing the necessity of integrating social factors in biomedical research [13]. However, there is limited and inconsistent evidence regarding sex-specific effects of SDOH and genetic risk factors on the incidence of ASCVD."
+        },
+        {
+          "type": "paragraph",
+          "html": "The aim of this study is to investigate the association between a large set of SDOH, lifestyle-related risk factors and the incidence of ASCVD in females and in males and to investigate the joint association of SDOH and genetic risk factors on CAD and IS risk in participants of the UK Biobank free of ASCVD at baseline."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Study population",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The UK Biobank is a large prospective cohort study including over 500,000 participants aged between 40 and 69 years old [14]. All participants were recruited between 2006 and 2010 and provided written consent at the baseline assessment at one of 22 assessment centers across the United Kingdom. This resource provides researchers information on lifestyle, health status and genetics through questionnaires, interviews, physical measures, and blood and urine samples. The UK Biobank received approval from the British National Health Service, Northwest-Haydock Research Ethics Committee (16/NW/0274). Data access permission for this study was granted under UK Biobank application 25,205. The study sample included 321,016 participants excluding participants with missing data on lifestyle and metabolic markers, a C-reactive protein (CRP) level ≥20 mg/L, as participants with CRP levels ≥20 mg/L might be more likely to have acute rather than systemic inflammation. Another analysis was performed in 318,022 participants with available genetic information. Participants who had a ASCVD event before recruitment were excluded from the study."
+        }
+      ]
+    },
+    {
+      "title": "Assessment of social determinants of health",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "To assess individual and area-level SDOH, we developed a polysocial risk score (PSS) based on socioeconomic factors, psychosocial factors and living environment as previously described [15,16]. A single PSS was derived to represent cumulative polysocial risk and was applied consistently across both ischemic stroke and coronary artery disease outcomes. This approach reflects our aim to capture upstream social exposures that influence cardiovascular health broadly rather than developing outcome-specific social risk models. The socioeconomic exposure included total household income before tax (data-field 738), education level (data-field 6138), an education score (England: data-field 26,414, Scotland: data-field 26,431 and Wales: data-field 26,421) and current employment status (data-field 6142). Psychosocial factors included the number of people in the household (data-field 709), social support (data-field 2110), number of social activities (data-field 6160), frequency of friends/family visits (data-field 1031), emotional distress (data-field 6145) and diagnosed psychiatric disorder (data-field 20,002, 20,544, 20,126, 20,480, 20,485). The living environment part of the PSS was defined using the Townsend deprivation index (data-field 189), a crime score (England: data-field 26,416, Scotland: data-field 26,434, Wales: data-field 26,425), a housing score (England: data-field 26,415, Scotland: data-field 26,432, Wales: data-field 26,423), type of accommodation (own or rent) (data-field 680), proximity of green space (data-field 24,500), the proximity of blue space (data-field 24,502) and the proximity of natural environment (data-field 24,506). Social determinants of health information were obtained from the Touchscreen questionnaire at baseline. Latent class analyses (LCA) were conducted using R package “poLCA” [17]. LCA is a statistical procedure used to identify subgroups in a population based on different variables as SDOH [18]. We tested different models with varying numbers of classes (2 to 6). The model with three classes was selected based on the BIC and the interpretability of the results. The covariates included in the model are age and sex. Participants were assigned to their most likely latent class based on posterior probabilities. LCA have been previously explored for the analysis of socioeconomic status [16]. To reflect the multidimensional nature of social disadvantage, the PSS incorporated both individual-level SDOH (e.g., education, income, employment) and area-level indicators (e.g., neighborhood deprivation and crime indices). These levels were considered complementary rather than redundant, as they capture distinct sources of social risk operating at personal and contextual scales. To minimize conceptual overlap, we selected variables representing different social domains and avoided inclusion of multiple highly collinear indicators of the same construct."
+        }
+      ]
+    },
+    {
+      "title": "Cardiovascular health score",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We developed a cardiovascular health score (CVHS) as previously described [19]. The CVHS is based on four lifestyle factors and six cardiometabolic risk factors. Lifestyle parameters used in the CVHS included smoking status, fruits and vegetables intake, physical activity level and sleep quality. The cardiometabolic risk factors included in the CVHS included systolic blood pressure (SBP), diastolic blood pressure (DBP), CRP levels, triglyceride levels, LDL-cholesterol levels, and glycated hemoglobin (HbA<sub>1C</sub>). Body mass index (BMI) was added to the score because of its inclusion in several risk scores, including the Life&#x27;s Essential 8 [6]. One point was assigned for each recommendation achieved, for a maximal score of 11 and a minimal score of 0. Participants were than categorized in four groups, 9–11 as healthy, 7–8 as moderately, 5–6 as moderately unhealthy and 0–4 as unhealthy."
+        }
+      ]
+    },
+    {
+      "title": "Coronary artery disease and ischemic polygenic risk scores",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We used CAD and IS polygenic risk scores (PRS) to evaluate the contribution of genetic factors on ASCVD incidence across PSS groups. For this study, we used the CAD-PRS and the IS-PRS provided by the UK Biobank [20,21]. We used these outcomes separately as no combined PRS is available in the UK Biobank."
+        }
+      ]
+    },
+    {
+      "title": "Study outcomes",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The study outcome was incident ASCVD defined as first occurrences or death with the International Classification of Diseases, 10th revision (ICD-10) codes for ischemic stroke (IS; I63) and myocardial infarction (MI; I21-I23). We also added to the ASCVD definition first surgical procedures with Office of Population, Censuses and Surveys: Classification of Interventions and Procedures, version 4 (OPCS-4) for coronary artery bypass grafting (K40.1–40.4, K41.1–41.4, K45.1–45.5), for coronary angioplasty, with or without stenting (K49.1–49.2, K49.8–49.9, K50.2, K75.1–75.4, K75.8–75.9). In genetic analyses, the CAD and IS component of ASCVD were studied separately. CAD includes MI, coronary artery bypass grafting and coronary angioplasty. Dates and causes of hospitalization or death were obtained from death registry, primary care information and hospital admission medical reports."
+        }
+      ]
+    },
+    {
+      "title": "Statistical analyses",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Multivariable Cox proportional hazard models were used to evaluate the impact of PSS on ASCVD incidence. We also used multivariable Cox proportional hazard models to establish the impact of a CAD-PRS on the incidence of CAD across PSS categories as well as the impact of an IS-PRS on the incidence of IS across PSS categories. The interaction between sex and PSS was formally assessed by including a multiplicative interaction term (PSS × sex) in the Cox proportional hazards models for each outcome. Total and sex-specific hazard ratios (HRs) with their 95 % confidence intervals (95 % CI) were obtained from those analyses. All analyses were adjusted for age, self-report ethnicity and sex (in analysis including females and males). Dates of recruitment were used as the starting time and participants with event before recruitment were excluded. The end of the follow-up was the date of occurrence of the first event (ASCVD), death or censoring. If participants had no event during the follow-up and were still alive, the end of the follow-up was the last day of October 2021. The median follow-up was 12.5 years (interquartile range: 11.7–13.2). Schoenfeld tests were performed as a prior to Cox regressions to verify proportionality assumption and Schoenfeld residuals were visually inspected. All analyses were performed for all participants, females and males separately. All statistical analyses were conducted using R (v4.1.3)."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Baseline characteristics of study participants",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The baseline characteristics of UK Biobank participants across PSS groups defined by LCA are presented in Table 1. The mean age was 56.5 and 44 % of participants were males. Of the 321,016 participants included in this study, 33.7 % had a low PSS, 46.5 % had an intermediate PSS and 19.8 % had a high PSS. Compared to participants in the low PSS group, participants in the high PSS group tend to be slightly older, have higher chances of being an active smoker, consume less fruits/vegetables and have lower physical activity levels. A higher proportion of participants in the high PSS used antihypertensive medications (26.8 %) and cholesterol-lowering medications (22.2 %) compared to participants in the low PSS group (15.8 % and 12.5 % respectively). The distribution of the individual PSS variables across the PSS categories in males and females separately is presented in Supplemental Table 1.Table 1Baseline characteristics of the UK Biobank participants selected for this study by polysocial risk score (PSS).Table 1 dummy alt textFactorTotalLow PSSIntermediate PSSHigh PSSN321,016108,147149,37063,499Male*141,116 (44.0 %)47,974 (44.4 %)66,201 (44.3 %)26,941 (42.4 %)Age, years, mean (SD)56.5 (8.1)54.9 (8.1)56.8 (7.9)58.4 (7.9)White British*306,469 (95.5 %)101,245 (93.6 %)146,774 (98.3 %)58,450 (92.0 %)BMI, kg/m², mean (SD)27.3 (4.7)26.9 (4.6)27.1 (4.4)28.5 (5.4)Current smoking*31,724 (9.9 %)9589 (8.9 %)10,406 (7.0 %)11,729 (18.5 %)Low fruit and vegetable intake*59,104 (18.4 %)18,665 (17.3 %)25,243 (16.9 %)15,196 (23.9 %)Low physical activity*138,785 (43.2 %)45,891 (42.4 %)62,163 (41.6 %)30,731 (48.4 %)Poor sleep quality*134,083 (41.8 %)42,556 (39.4 %)58,849 (39.4 %)32,678 (51.5 %)Systolic BP, mm Hg, mean (SD)139.9 (19.7)137.6 (19.3)140.7 (19.6)141.9 (20.1)Diastolic BP, mm Hg, mean (SD)82.4 (10.7)81.9 (10.7)82.6 (10.6)82.8 (10.8)Antihypertensive medication*61,225 (19.1 %)17,077 (15.8 %)27,116 (18.2 %)17,032 (26.8 %)CRP, mg/L, mean (SD)2.6 (4.3)2.3 (4)2.4 (4.1)3.4 (5.1)Triglycerides, mmol/L, mean (SD)1.7 (1.0)1.7 (1)1.7 (1)1.9 (1.1)LDL-C, mmol/L, mean (SD)3.6 (0.9)3.6 (0.8)3.6 (0.9)3.5 (0.9)HDL-C, mmol/L, mean (SD)1.5 (0.4)1.5 (0.4)1.5 (0.4)1.4 (0.4)Cholesterol lowering medication*48,366 (15.1 %)13,476 (12.5 %)20,763 (13.9 %)14,127 (22.2 %)HbA1c, mmol/mol, mean (SD)35.9 (6.5)35.4 (5.9)35.6 (5.9)37.5 (8.1)* n ( %)"
+        }
+      ]
+    },
+    {
+      "title": "Cross-sectional associations of social determinants of health and clinical and lifestyle-related risk factors",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "To investigate the association between SDOH and clinical and lifestyle-related risk factors at baseline, we investigated the distribution of the CVHS across the three PSS categories (Fig. 1). Among participants classified as having a healthy CVHS, 39 % had a low PSS, and only 12 % a high PSS. In contrast, in participants with an unhealthy CVHS, only 25 % were characterized by a low PSS, whereas 39 % with a high PSS. These results indicate that individuals with a high PSS are less likely to have optimal management of cardiometabolic risk factors and less likely to have a healthy lifestyle. For females and males, similar results were observed for participants with a healthy CVHS. (Fig. 1b and 1c). Among females with an unhealthy CVHS, 23 % reported a low PSS while 34 % and 44 % reported a moderate and a high PSS. Among males with an unhealthy CVHS, 27 % had a low PSS, 37 % had moderate PSS and 36 % were characterised by a high PSS.Fig. 1Distribution of UK Biobank participants in each polysocial risk score (PSS) categories across the cardiovascular health score (CVHS). Results are presented in: A) all participants, B) females and C) males.Fig 1 dummy alt text"
+        }
+      ]
+    },
+    {
+      "title": "Sex-specific impact of the polysocial risk score on ASCVD incidence",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "During the study follow-up, 17,737 study participants had a cardiovascular event (defined in methods). We investigated the impact of the PSS on the incidence of ASCVD before and after adjusting for clinical and lifestyle-related risk factors using multivariate Cox regression models (Fig. 2). The model 1 included the PSS, age, sex and ethnicity while the model 2 included the PSS, age, sex, ethnicity and components of the CVHS. For the model 1, compared to participants with a low PSS risk, those with an intermediate PSS risk had a slightly higher ASCVD risk (hazard ratio [HR] = 1.09 [95 % CI, 1.02–1.16], <em>p</em> = 0.009) while those with a high PSS risk had a 78 % increase ASCVD risk (HR = 1.78 [95 % CI, 1.66–1.90], <em>p</em> &lt; 0.001). For the model 2, compared to participants with a low PSS risk, those with an intermediate PSS risk had a nonsignificant slightly higher ASCVD risk (HR = 1.04 [95 % CI, 0.97–1.11], <em>p</em> = 0.24) while those with a high PSS risk still had a higher ASCVD risk (HR = 1.38 [95 % CI, 1.29–1.47], <em>p</em> &lt; 0.001). Although trends were similar in females versus males, the effect of the PSS on ASCVD incidence was more pronounced in females (HR=1.69 [95 % CI, 1.58–1.81], <em>p</em> &lt; 0.001 and HR=1.46 [95 % IC, 1.39–1.54], <em>p</em> &lt; 0.001, respectively, for females and males with a high PSS compared to participants with a low PSS within the same sex with an interaction p-value = 3.65e-07). Inclusion of participants treaded with statins may bias ASCVD risk estimates, as their risk may be substantially modified by treatment. We therefore performed sensitivity analyses. Results presented in Supplemental Figure 1 shows that the association between PSS and ASCVD remains largely similar. Altogether, these results suggest that individuals with a high PSS are at higher risk of ASCVD, that this association was stronger in females compared to males and that clinical and lifestyle-related risk factors had a modest effect on the association between higher PSS and ASCVD risk.Fig. 2Impact of a polysocial risk score (PSS) on the incidence of atherosclerotic cardiovascular diseases. Results are presented in: A) all participants, B) females and C) males. Model 1 is adjusted for age, sex, and ethnicity while model 2 is adjusted for age, sex, ethnicity, and components of a cardiovascular health score.Fig 2 dummy alt text"
+        }
+      ]
+    },
+    {
+      "title": "Sex-specific joint associations of the polysocial risk score and a coronary artery disease polygenic risk score on coronary artery disease incidence",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "During the study follow-up, 12,861 study participants developed coronary artery disease. Fig. 3 presents the impact of a polygenic risk score for coronary artery disease (CAD-PRS) on the incidence of CAD in each PSS categories. Overall, a graded increase in CAD risk was observed across CAD-PRS tertiles in each PSS categories. When compared to individuals with a low PSS in the bottom CAD-PRS tertile, the CAD risk in participants with a low PSS in the top CAD-PRS tertile (HR = 3.05 [95 % CI: 2.78–3.33], <em>p</em> &lt; 0.001) was higher than those with a high PSS in the bottom CAD-PRS tertile (HR = 1.64 [95 % CI: 1.47–1.82], <em>p</em> &lt; 0.001), suggesting a additive effect of both genetic and SDOH. Within each PSS groups, an increase CAD risk was observed with increasing CAD-PRS, with the highest risk noted in individuals in the top tertile of CAD-PRS and high PSS (HR = 4.36 [95 % CI: 3.99–4.77], <em>p</em> &lt; 0.001). Comparable results were observed in both females and males (Fig. 3b and 3c). Elevated genetic risk/PRS risk is often defined within higher percentile, so we separated study participants into PRS quintiles. In this analysis, the joint association of PSS and PRS on CAD was comparable what was reported when participants were separated into tertiles (Supplemental Figure 2). These results highlight that genetic risk factors for CAD predict risk independently of SDOH and that the highest risk of CAD is observed in patient with high polysocial and genetic risk.Fig. 3Joint contributions of a polysocial risk score (PSS) and a polygenic risk score for coronary artery disease (CAD-PRS) on the incidence of CAD. Results are presented in: A) all participants, B) females, and C) males. Cox regression analyses are adjusted for age, sex, and ethnicity.Fig 3 dummy alt text"
+        }
+      ]
+    },
+    {
+      "title": "Sex-specific joint associations of the polysocial risk score and an ischemic stroke polygenic risk score on ischemic stroke incidence",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "During the study follow-up, 5,104 study participants had an ischemic stroke event. Fig. 4 presents the impact of an IS-PRS on the incidence of IS in each PSS category. Within each PSS group, increasing IS-PRS tertiles were associated with a higher risk of IS. Participants with a high PSS in the lowest IS-PRS tertile (HR = 1.72 [95 % CI: 1.48–1.99], <em>p</em> &lt; 0.001) had a similar risk to those with a low PSS in the top IS-PRS tertile (HR = 1.92 [95 % CI: 1.67–2.20], <em>p</em> &lt; 0.001). Compared to participants with a low PSS in the bottom IS-PRS tertile, those with a higher PSS in the top tertile of IS-PRS had the highest IS risk (HR = 2.76 [95 % CI: 2.42–3.15], <em>p</em> &lt; 0.001). Comparable results were observed in both females and males (Fig. 4b and 4c). The joint association of PSS and PRS (when study participants were separated into PRS quintiles) on IS was also comparable to what was reported when participants were separated into PRS tertiles (Supplemental Figure 3). Altogether, these results suggest that SDOH may be as important as genetic factors to predict IS risk and that the combination of SDOH and genetic factors significantly increase IS risk.Fig. 4Joint contributions of a polysocial risk score (PSS) and a polygenic risk score for ischemic stroke (IS-PRS) on the incidence of IS. Results are presented in: A) all participants, B) females, and C) males. Cox regression analyses are adjusted for age, sex, and ethnicity.Fig 4 dummy alt text"
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "To better understand the role of multiple SDOH in the prediction of ASCVD, we developed a PSS that considered socioeconomic factors, psychosocial factors such as wellbeing and factors related to the living environment. We tested the impact of this PSS on ASCVD events in a large sample of participants of the UK Biobank. Our results suggest that individuals with a high PSS are three times less likely to have a healthy CVHS than those with a low polysocial risk. The PSS was associated with ASCVD incidence, even when lifestyle and metabolic health-related risk factors were considered. Females in the high PSS group had a higher risk of ASCVD compared to males of the same group. Finally, SDOH also modulate the impact of genetic susceptibility on ASCVD risk, the latter being especially relevant to IS as SDOH (PSS) appeared to have an effect on IS risk comparable to genetic risk factors (IS-PRS)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Our results underscore the importance of not only including SDOH when assessing individual risk of ASCVD but also addressing SDOH in primordial prevention of ASCVD to promote the adoption of healthier lifestyle habits and optimal management of ASCVD risk factors. These results support that SDOH have additional effect on traditional risk factors for the prevention of ASCVD. Different research groups focused on the effect of adding SDOH to existing scores such as the Framingham Risk Score. Results of those studies suggest that SDOH improved the stratification of high-risk individuals [[22], [23], [24], [25]]. Our results are also consistent with other studies showing that individuals living in a more favorable environment tend to have lower alcohol intake and smoking, and higher physical activity levels, sleep quality and diet quality [15,22,26,27]. Interventions targeting individual behaviors and metabolic risk factors, while essential, may be insufficient without broader structural efforts to mitigate risk associated with SDOH. Policies aimed at reducing income inequality, improving access to education, and ensuring stable housing can help address the foundational socioeconomic disparities that contribute to elevated ASCVD risk [10,22,28,29]. Psychosocial factors such as chronic stress, social isolation, and low perceived well-being also warrant targeted interventions, including community-based programs that promote social cohesion, mental health services, and workplace wellness initiatives. Environmental improvements, such as creating safe, walkable neighborhoods and increasing access to healthy food options, are equally critical."
+        },
+        {
+          "type": "paragraph",
+          "html": "Recent research has begun to examine the joint contributions of polysocial and polygenic risk to CAD risk. In a large UK Biobank analysis, comprehensive polysocial scores incorporating SDOH and lifestyle–psychological factors were independently associated with incident coronary heart disease (CHD), with effect sizes comparable to those of polygenic risk scores, and both scores contributed additively to risk prediction [30]. Similarly, work in a U.S. cohort found that a summary measure of social determinants and polygenic risk were independently associated with CHD and that higher social disadvantage was more prevalent among certain racial/ethnic groups and contributed to observed disparities in disease risk [31]. Unlike these prior studies, we assessed specific effects on multiple cardiovascular outcomes and analyzed CAD and IS separately. These studies broadly corroborate our findings that social and genetic risks independently shape cardiovascular outcomes, although differences in the composition of social risk measures, cohort characteristics, and analytic methods may contribute to variation in effect estimates. Future research should further elucidate how these joint risks operate across populations and disease-specific contexts."
+        },
+        {
+          "type": "paragraph",
+          "html": "In our study, females in the high PSS group had a higher risk of ASCVD than males in the high PSS group when compared to individuals in the low PSS group. These results are consistent with the work of Yang et al. In this study of 40,536 participants from the National Health and Nutrition Examination Survey (NHANES), females with the highest level of cumulative unfavorable SDOH had a sixfold increased risk of premature ASCVD compared to females without unfavorable SDOH. Men had a threefold increased risk of premature ASCVD for the same group comparation [32]. A meta-analysis of over 22 million individuals (not including participants of the UK Biobank) also reported similar results on sex difference when studying the association between socio-economic status and cardiovascular diseases [33]. The stronger association between SDOH and ASCVD among women observed in our study may reflect both biological and social mechanisms. Women are disproportionately affected by adverse social conditions such as lower income, single parenthood, and caregiving responsibilities, which can compound psychosocial stress and limit access to health-promoting resources [34,35]. Chronic stress and social adversity have been shown to impact cardiovascular health through neuroendocrine and inflammatory pathways, potentially interacting with hormonal and vascular differences unique to females [36]. Moreover, traditional cardiovascular risk models may underrepresent the cumulative burden of psychosocial stressors more common in women. Structural and gender-based inequities may also lead to delays in diagnosis and treatment, amplifying the effects of social disadvantage."
+        },
+        {
+          "type": "paragraph",
+          "html": "Finally, our findings also reveal that SDOH may modulate the impact of genetic susceptibility on ASCVD, particularly for IS. The observation that the effect of polysocial risk was comparable in magnitude to that of the IS-PRS suggests that unfavorable social conditions can amplify or potentially offset inherited genetic risk. This highlights the importance of considering both genetic and social risk factors in ASCVD prevention strategies. From a precision medicine perspective, integrating SDOH into risk stratification models may improve prediction and help identify individuals who would benefit most from early intervention, especially those with high genetic risk who are also socially disadvantaged. Moreover, our results support the growing recognition that genetic risk is not deterministic and can be influenced by modifiable environmental and social contexts [9,37]. These insights reinforce the need for multidisciplinary approaches that bridge genomics with public health and social policy."
+        },
+        {
+          "type": "paragraph",
+          "html": "Strengths of the current study include the large cohort of individuals aged between 40 and 69 years old. This cohort offers a large variety of SDOH allowing the inclusion of the five domains of SDOH [29]. The PSS integrated both individual- and area-level SDOH to reflect the multilevel nature of social risk. While these dimensions are modestly correlated, they capture distinct aspects of disadvantage, as individuals with similar socioeconomic profiles may experience very different neighborhood environments. Including both levels therefore strengthens the PSS as a holistic measure of cumulative social exposure. This study also has several limitations. For instance, although we intentionally integrated both individual- and area-level SDOH to capture the multilevel nature of social risk, we acknowledge that these measures may not fully disentangle personal and contextual effects, and future work could refine approaches to modeling their independent and joint contributions. Although CAD and IS differ in some biological mechanisms and may show sex-specific risk patterns, the PSS was designed to capture shared upstream social determinants that contribute to cardiovascular vulnerability across outcomes. Future work may explore whether weighting or modeling of polysocial risk differs by specific cardiovascular endpoints or by sex. The study population was predominantly White, slightly healthier than the general population and lived in less socioeconomically deprived areas [38]. In our study population, only 19.8 % participants had a high PSS. Also, we only investigated the impact of the PSS on the incidence of ASCVD. The PSS could also influence other chronic diseases such as type 2 diabetes incidence [15,39]. Finally, this prospective study was observational by design and causality cannot be inferred. Bias due to unmeasured confounders and reverse causality cannot be excluded."
+        },
+        {
+          "type": "paragraph",
+          "html": "In conclusion, results of the current investigation highlight the need for multifactorial and intersectoral approaches targeting SODH to improve the adoption of healthier lifestyles and management of clinical risk factors to reduce the burden of ASCVD in the general population. Addressing SDOH represents a promising, equity-oriented path toward reducing the burden of ASCVD particularly in women and in genetically susceptible individuals."
+        }
+      ]
+    },
+    {
+      "title": "Declarations",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Institutional review board approval",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "All participants provided written consent at the baseline assessment at one of 22 assessment centers across the United Kingdom. The UK Biobank received approval from the British National Health Service, Northwest-Haydock Research Ethics Committee (16/NW/0274)."
+        }
+      ]
+    },
+    {
+      "title": "Data availability",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Access to UK Biobank data can be granted via the Access Management System of the UK Biobank (<a href=\"https://www.ukbiobank.ac.uk/enable-your-research/apply-for-access\">https://www.ukbiobank.ac.uk/enable-your-research/apply-for-access</a>)."
+        }
+      ]
+    },
+    {
+      "title": "Code availability",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The code used to perform this analysis will be released on GitHub upon acceptance of the manuscript."
+        }
+      ]
+    },
+    {
+      "title": "Competing interests",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "BJA is a consultant for Novartis, Eli Lilly, and Silence Therapeutics and has received research contracts from Pfizer, Eli Lilly and Silence Therapeutics."
+        }
+      ]
+    },
+    {
+      "title": "Funding",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The UK Biobank was established by the Wellcome Trust medical charity, Medical Research Council, Department of Health, Scottish Government and the Northwest Regional Development Agency. It has also had funding from the Welsh Government, British Heart Foundation, Cancer Research UK and Diabetes UK. AP holds a doctoral research award from the Quebec Heart and Lung Institute. LJR is supported by a doctoral research award from the Canadian Institutes of Health Research. BJA holds a senior scholar award from the <em>Fonds de recherche du Québec</em>."
+        }
+      ]
+    },
+    {
+      "title": "Author agreement statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We confirm that the manuscript has been read and approved by all named authors."
+        }
+      ]
+    },
+    {
+      "title": "Central illustration",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Audrey Paulin:</strong> Writing – review &amp; editing, Writing – original draft, Visualization, Methodology, Formal analysis, Data curation, Conceptualization. <strong>Louis-Jacques Ruel:</strong> Writing – review &amp; editing. <strong>Sébastien Thériault:</strong> Writing – review &amp; editing. <strong>Benoit J. Arsenault:</strong> Writing – review &amp; editing, Writing – original draft, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "TsaoC.W.Heart Disease and Stroke statistics—2023 update: a report from the American Heart AssociationCirculation8202314710.1161/CIR.0000000000001123PMC1213501636695182"
+    },
+    {
+      "html": "VaduganathanM.The global burden of cardiovascular diseases and risk A compass for future healthJ. Am. Coll. Cardiol.80252022236123713636851110.1016/j.jacc.2022.11.005"
+    },
+    {
+      "html": "BenowitzN.L.LiakoniE.Tobacco use disorder and cardiovascular healthAddiction11742022112811383459037310.1111/add.15703"
+    },
+    {
+      "html": "FerenceB.A.Low-density lipoproteins cause atherosclerotic cardiovascular disease. 1. Evidence from genetic, epidemiologic, and clinical studies. A consensus statement from the European Atherosclerosis Society Consensus PanelEur. Heart. J.38322017245924722844429010.1093/eurheartj/ehx144PMC5837225"
+    },
+    {
+      "html": "KimD.Maintaining physical activity is associated with reduced major adverse cardiovascular events in people newly diagnosed with diabetesJ. Obes. Metab. Syndr.31220221871953561865810.7570/jomes22007PMC9284577"
+    },
+    {
+      "html": "Lloyd-JonesD.M.Life&#x27;s essential 8: updating and enhancing the American Heart Association&#x27;s Construct of Cardiovascular Health: a Presidential Advisory from the American Heart AssociationCirculation14652022e18e433576602710.1161/CIR.0000000000001078PMC10503546"
+    },
+    {
+      "html": "EstruchR.Primary prevention of cardiovascular disease with a Mediterranean diet supplemented with extra-Virgin olive oil or nutsEngland J. Med.25201837810.1056/NEJMoa180038929897866"
+    },
+    {
+      "html": "ManikpurageH.D.Polygenic risk score for coronary artery disease improves the prediction of early-onset myocardial infarction and mortality in menCirculation146202110.1161/CIRCGEN.121.00345234670400"
+    },
+    {
+      "html": "KheraA.V.Genetic risk, adherence to a healthy lifestyle, and coronary diseaseNew England J. Med.375242016234923582795971410.1056/NEJMoa1605086PMC5338864"
+    },
+    {
+      "html": "Powell-WileyT.M.Social determinants of cardiovascular diseaseCirc. Res.130520227827993523940410.1161/CIRCRESAHA.121.319811PMC8893132"
+    },
+    {
+      "html": "CarmichaelA.LennonN.QualtersJ.Analysis of social determinants of health and individual factors found in health equity frameworks: applications to injury researchJ. Safety. Res.8720235085183808172210.1016/j.jsr.2023.10.001PMC10775896"
+    },
+    {
+      "html": "SugliaS.F.Improving cardiovascular health through the consideration of social factors in genetics and genomics research: a scientific statement from the American heart associationCirc Cardiovasc Qual Outcomes1852025e0001384012349810.1161/HCQ.0000000000000138PMC13333083"
+    },
+    {
+      "html": "AlbertM.Cumulative psychological stress and cardiovascular disease risk in middle aged and older women: rationale, design, and baseline characteristicsAm. Heart. J.19220171122893895510.1016/j.ahj.2017.06.012PMC5748933"
+    },
+    {
+      "html": "SudlowC.UK Biobank: an open access resource for identifying the causes of a wide range of complex diseases of middle and old agePLoS. Med.123201510.1371/journal.pmed.1001779PMC438046525826379"
+    },
+    {
+      "html": "ZhaoY.Associations of polysocial risk score, lifestyle and genetic factors with incident type 2 diabetes: a prospective cohort studyDiabetologia65122022205620653585913410.1007/s00125-022-05761-y"
+    },
+    {
+      "html": "ZhangY.-B.Associations of healthy lifestyle and socioeconomic status with mortality and incident cardiovascular disease: two prospective cohort studiesBMJ2021n6043385382810.1136/bmj.n604PMC8044922"
+    },
+    {
+      "html": "LinzerD.LewisJ.poLCA: an R package for polytomous variable latent class analysisJ. Stat. Softw.42102011129"
+    },
+    {
+      "html": "WellerB.E.BowenN.K.FaubertS.J.Latent class analysis: a guide to best practiceJ. Black Psychol.4642020287311"
+    },
+    {
+      "html": "PaulinA.Sex-specific impact of body weight on atherosclerotic cardiovascular disease incidence in individuals with and without ideal cardiovascular healthJ. Am. Heart. Assoc.1320231210.1161/JAHA.122.028502PMC1035608537345817"
+    },
+    {
+      "html": "ThompsonD.J.UK Biobank release and systematic evaluation of optimised polygenic risk scores for 53 diseases and quantitative traitsmedRxiv.2022Srefm6. 16.22276246"
+    },
+    {
+      "html": "ThompsonD.A systematic evaluation of the performance and properties of the UK Biobank Polygenic Risk Score (PRS) ReleasePLoS. One199202410.1371/journal.pone.0307270PMC1141027239292644"
+    },
+    {
+      "html": "PalacioA.Social determinants of health score: does it help identify those at higher cardiovascular risk?Am. J. Managed Care26102020E312-+10.37765/ajmc.2020.8850433094943"
+    },
+    {
+      "html": "BrindleP.The accuracy of the Framingham risk-score in different socioeconomic groups: a prospective studyBritish J. General Practice555202005838845PMC157079216281999"
+    },
+    {
+      "html": "FiscellaK.TancrediD.FranksP.Adding socioeconomic status to Framingham scoring to reduce disparities in coronary risk assessmentAm. Heart. J.157620099889941946440810.1016/j.ahj.2009.03.019"
+    },
+    {
+      "html": "FranksP.Do changes in traditional coronary heart disease risk factors over time explain the association between socio-economic status and coronary heart disease?BMC. Cardiovasc. Disord.1112011282163990610.1186/1471-2261-11-28PMC3130693"
+    },
+    {
+      "html": "TangJ.Associations between healthy lifestyle and mortality across different social environments: a study among adults with frailty from the UK BiobankEur. J. Public Health34220242182243828850410.1093/eurpub/ckae003PMC10990525"
+    },
+    {
+      "html": "ReshetnyakE.Impact of multiple social determinants of health on incident strokeStroke5182020244524533267352110.1161/STROKEAHA.120.028530PMC9264323"
+    },
+    {
+      "html": "StringhiniS.Socioeconomic status and the 25 × 25 risk factors as determinants of premature mortality: a multicohort study and meta-analysis of 1·7 million men and womenThe Lancet3891007520171229123710.1016/S0140-6736(16)32380-7PMC536841528159391"
+    },
+    {
+      "html": "JilaniM.H.Social determinants of health and cardiovascular disease: current State and future directions towards healthcare equityCurr. Atheroscler. Rep.239202110.1007/s11883-021-00949-w34308497"
+    },
+    {
+      "html": "NaderianM.Development and evaluation of a comprehensive prediction model for incident coronary heart disease using genetic, social, and lifestyle-psychological factors: a prospective analysis of the UK BiobankAnn. Intern. Med.17812025p. 1-+10.7326/ANNALS-24-00716PMC1206373739652873"
+    },
+    {
+      "html": "NorlandK.Associations of self-reported race, social determinants of health, and polygenic risk with coronary heart diseaseJ. Am. Coll. Cardiol.84222024215721663956704410.1016/j.jacc.2024.06.052PMC11989931"
+    },
+    {
+      "html": "YangC.Association between social determinants of health and premature atherosclerotic cardiovascular disease and sex differences in US adults: a cross-sectional studyPrev. Med. Rep.20255010.1016/j.pmedr.2025.102967PMC1178689539897737"
+    },
+    {
+      "html": "BackholerK.Sex differences in the relationship between socioeconomic status and cardiovascular disease: a systematic review and meta-analysisJ. Epidemiol. Community Health71620175505572797444510.1136/jech-2016-207890"
+    },
+    {
+      "html": "HoltzmanJ.Sex differences in the management of atherosclerotic cardiovascular diseaseAtherosclerosis202338410.1016/j.atherosclerosis.2023.11726837723005"
+    },
+    {
+      "html": "van LennepJ.Women, lipids, and atherosclerotic cardiovascular disease: a call to action from the European Atherosclerosis SocietyEur. Heart. J.442023415741733761108910.1093/eurheartj/ehad472PMC10576616"
+    },
+    {
+      "html": "EbongI.The role of psychosocial stress on cardiovascular disease in women JACC State-of-the-art ReviewJ. Am. Coll. Cardiol.84320242983143898667210.1016/j.jacc.2024.05.016PMC11328148"
+    },
+    {
+      "html": "LiL.Integration of a polygenic score into guideline-recommended prediction of cardiovascular diseaseEur. Heart. J.45202024184318523855141110.1093/eurheartj/ehae048PMC11129792"
+    },
+    {
+      "html": "FryA.Comparison of sociodemographic and health-related characteristics of UK biobank participants with those of the general populationAm. J. Epidemiol.18692017102610342864137210.1093/aje/kwx246PMC5860371"
+    },
+    {
+      "html": "HowellC.Adding social determinants of health to the equation: development of a cardiometabolic disease staging model using clinical and social determinants of health to predict type 2 diabetesDiabetes Obes. Metabol.202510.1111/dom.16241PMC1196483239927418"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

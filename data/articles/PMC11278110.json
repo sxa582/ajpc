@@ -1,0 +1,356 @@
+{
+  "pmcid": "PMC11278110",
+  "pmid": "39070026",
+  "doi": "10.1016/j.ajpc.2024.100702",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11278110/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Ezetimibe use and mortality after myocardial infarction: A nationwide cohort study☆",
+  "articleType": "Research Article",
+  "published": "2024-06-23",
+  "year": "2024",
+  "volume": "19",
+  "issue": "",
+  "articleNumber": "100702",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2024",
+  "authors": [
+    {
+      "given": "Ville",
+      "surname": "Kytö",
+      "display": "Ville Kytö"
+    },
+    {
+      "given": "Aleksi",
+      "surname": "Tornio",
+      "display": "Aleksi Tornio"
+    }
+  ],
+  "affiliations": [
+    "aHeart Center Turku University Hospital and University of Turku, Turku, Finland",
+    "bTurku Clinical Research Center, Turku University Hospital, Turku, Finland",
+    "cIntegrative Physiology and Pharmacology, Institute of Biomedicine, University of Turku, Turku, Finland",
+    "dUnit of Clinical Pharmacology, Turku University Hospital, Turku, Finland"
+  ],
+  "keywords": [
+    "Myocardial infarction",
+    "Ezetimibe",
+    "Cholesterol",
+    "Outcome"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Background:</strong> The inhibition of intestinal cholesterol absorption by ezetimibe improves outcomes after myocardial infarction (MI), yet real-world data on ezetimibe is scarce. We studied the usage of ezetimibe and association with outcome after MI."
+    },
+    {
+      "html": "<strong>Methods:</strong> Consecutive MI patients in Finland (2010–2018) were retrospectively studied (<em>N</em> = 57,505; 65 % men; mean age 69 years). The study data were collected from national registries. The median follow-up was 4.5 (IQR 2.8–7.1) years. Between-group differences were adjusted for using multivariable regression. Ezetimibe use was studied with competing risk analyses."
+    },
+    {
+      "html": "<strong>Results:</strong> The cumulative incidence of ezetimibe use was 3.7 % at 90 days, 13.4 % at 5 years, and 19.8 % at 10 years. Younger age was one of the strongest predictors of ezetimibe use (adj.sHR 6.67; CI 5.88–7.69 for patients aged &lt;60 vs ≥80 years). Women were more likely to use ezetimibe during follow-up than men. The average proportion of patients using ezetimibe during follow-up was 6.8 %. (11.7 % at 10 years). Ezetimibe was discontinued by 43.6 % of patients during follow-up. Patients with early ezetimibe therapy after MI had lower all-cause mortality during follow-up (33.6% vs 45.1 %; adj.HR 0.77; CI 0.69–0.86; <em>P</em> &lt; 0.0001). Early ezetimibe use was associated with lower mortality irrespective of sex, age, atrial fibrillation, diabetes, heart failure, malignancy, revascularization, or statin use. Ongoing ezetimibe therapy during follow-up was associated with lower mortality in a time-dependent analysis (adj.HR 0.53; CI 0.48–0.59; <em>P</em> &lt; 0.0001)."
+    },
+    {
+      "html": "<strong>Conclusions:</strong> Ezetimibe is associated with a lower risk of death after MI, yet its therapeutic use is limited, and discontinuation is frequent."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Lowering low-density lipoprotein (LDL) cholesterol with effective pharmacotherapy plays a key role in secondary prevention after myocardial infarction (MI) [[1], [2], [3]]. Statins are the first-line mainstay therapy after ischemic events [1], yet their usage and intensity are commonly suboptimal [4]. Ezetimibe is readily available, non-statin drug that lowers LDL cholesterol levels by inhibition of intestinal cholesterol [5]. The Improved Reduction of Outcomes: Vytorin Efficacy International Trial (IMPROVE-IT) showed the benefit of ezetimibe in reducing cardiovascular events after acute coronary syndrome (ACS) when combined with statins [6]. Ezetimibe is well tolerated and has a safety profile comparable to placebo when added to statin [6]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Ezetimibe is recommended by lipid guidelines for secondary prevention after ACS when the LDL levels remain elevated with maximum tolerated statin therapy [1,2]. However, observational real-world data on ezetimibe after MI is limited. Thus, we studied the usage of ezetimibe and association with outcome after MI in a real-life nationwide setting."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Study population",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We studied consecutive patient with incident MI in Finland between Jan 1st, 2010 to Dec 31st, 2018. Patients surviving 90 days after MI discharge were retrospectively identified from the Care Register for Healthcare in Finland (CRHF), a nation-wide mandated-by-law database including data on all hospital admissions and major interventional procedures in Finland [7]. All hospitals treating patients with MI (<em>N</em> = 20, of which five have emergency cardiac surgery available) were included in the study. Patients with missing follow-up data (<em>N</em> = 352, 0.6 %) were excluded."
+        }
+      ]
+    },
+    {
+      "title": "Outcomes and definitions",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The outcomes of interest were ezetimibe use and all-cause death. Drug usage was defined by records of drug purchase from a pharmacy. In Finland, ezetimibe is only available from pharmacies with a prescription, and it is dispensed for a maximum of three-month usage at a time [8]. All purchases are recorded in the national database used in the study. Ezetimibe was detected using ATC codes C10AX09, C10BA02, C10BA05, and C10BA06. The MI index was identified with ICD-10 code I21 as the primary discharge diagnosis. Co-morbidities, MI type, and revascularization were detected using a combination of national registries as previously defined (Supplemental Methods) [9,10]. Early ezetimibe use was defined as use within 90 days after MI. Usage of cardiovascular medications and statin therapy intensity within 90 days after MI were also detected [11]. Ongoing ezetimibe use and discontinued use were studied (Supplemental Methods). In addition, associations of baseline characteristics of patients using early ezetimibe with 10-year mortality were studied. The follow-up was 10 years and continued up to Dec 31, 2020. The median follow-up period was 4.5 (IQR 2.8–7.1; max 10) years."
+        }
+      ]
+    },
+    {
+      "title": "Data sources and permissions",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The data were obtained from Findata and the National Institute for Health and Welfare of Finland (CRHF, Finnish cancer registry, medication purchases; permission THL/164/14.02.00/2021) and Statistics Finland (mortality; permission TK-53–484–20). The used registries are mandatory by law and offer full coverage of the Finnish population [12]. The requirement for informed consent was waived by law due to the study design. The participants were not contacted. The legal basis for the processing of personal data was public interest and scientific research (EU General Data Protection Regulation 2016/679 [GDPR], Article 6(1)(e) and Article 9(2)(j); Data Protection Act, Sections 4 and 6)."
+        }
+      ]
+    },
+    {
+      "title": "Statistical analysis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The outcomes were studied using the Kaplan-Meier estimator and Cox regression (death) or the cumulative incidence function and Fine-Gray regression accounting for the competing risk of death (ezetimibe use) [13]. Multivariable analyses were adjusted with the following patient characteristics: baseline age, sex, atrial fibrillation, chronic pulmonary disease, cerebrovascular disease, dementia, diabetes, heart failure, hypertension, liver disease, malignancy, peripheral vascular disease, prior myocardial infarction, psychotic disorder, rheumatic disease, renal failure, revascularization, MI type, intensity of initial statin dose, usage of ACEi/ARB, aldosterone antagonist, antiarrhythmic medication, beta-blocker, digoxin, oral anticoagulation, or P2Y12 inhibitor therapy. Subgroup analyses were performed in patients grouped by sex, age (18–59, 60–69, 70–79, and ≥ 80 years), atrial fibrillation, diabetes, heart failure, malignancy, revascularization, and statin therapy after MI using interaction analyses. The association of ongoing ezetimibe with the primary outcome was studied using time-dependent Cox regression [14]. Potential impact of residual confounding was estimated by the E-value [15]."
+        },
+        {
+          "type": "paragraph",
+          "html": "The results were given as the mean, median, percentage, hazard ratio (HR), or sub-distribution HR (sHR) with a 95 % confidence interval (CI), IQR, or ± standard deviation (SD). Statistical significance was inferred at <em>P</em> &lt; 0.05. SAS version 9.4 (SAS Institute Inc., Cary, NC, USA) was used for the analyses."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The study included 57,505 patients (mean age 69.3 years, SD 12.5; 65.1 % male), of whom 3.7 % used ezetimibe within 90 days after MI. Baseline features, treatments, co-morbidities, and other pharmacotherapies used early after MI are presented in Table 1. Patients with early ezetimibe use were younger, more frequently revascularized, had more commonly diabetes, hypertension, or established vascular disease, and used ACEi/ARBs, beta-blockers, or P2Y12 inhibitors more commonly than patients without ezetimibe (Table 1).Table 1Baseline features of patients by early usage of ezetimibe after myocardial infarction.Table 1VariableAll patients <em>N</em> = 57,507Early ezetimibe <em>n</em> = 2105No early ezetimibe <em>n</em> = 55,402Between group <em>P</em> valueAge, mean (SD) years69.3 (12.5)65.1 (11.0)69.5 (12.5)&lt;0.0001Female34.9 %31.9 %35.0 %0.003Medical history Atrial fibrillation15.5 %12.9 %15.6 %0.001 Cerebrovascular disease12.8 %15.0 %12.7 %0.002 Chronic pulmonary disease13.9 %14.4 %13.9 %&lt;0.0001 Dementia4.9 %1.4 %5.1 %&lt;0.0001 Depression10.5 %10.0 %10.6 %0.440 Diabetes26.7 %33.2 %26.5 %&lt;0.0001 Insulin dependent8.9 %11.5 %8.8 %&lt;0.0001 Non-insulin dependent17.8 %21.7 %17.7 %&lt;0.0001 Heart failure18.7 %15.3 %18.9 %&lt;0.0001 Hypertension53.2 %57.6 %53.1 %&lt;0.0001 Liver disease3.7 %3.9 %3.7 %0.686 Malignancy14.3 %12.0 %14.3 %0.003 Peripheral vascular disease8.5 %12.5 %8.3 %&lt;0.0001 Prior myocardial infarction13.9 %19.8 %13.7 %&lt;0.0001 Psychotic disorder3.2 %2.0 %3.3 %0.001 Rheumatic disease6.6 %6.8 %6.6 %0.678 Renal failure3.7 %4.5 %3.7 %0.053Revascularization66.2 %75.1 %65.9 %&lt;0.0001 PCI59.5 %68.5 %59.2 %&lt;0.0001 CABG7.5 %7.4 %7.5 %0.780ST-elevation MI36.8 %33.2 %37.0 %0.001Ezetimibe prior to MI1.2 %24.4 %0.3 %&lt;0.0001Statins after MI85.3 %86.0 %85.2 %&lt;0.0001Statin intensity&lt;0.0001 High38.4 %51.5 %37.9 % Moderate58.6 %44.1 %59.2 % Low3.0 %4.4 %2.9 %Other pharmacotherapy after MI ACEi or ARB70.8 %75.1 %70.6 %&lt;0.0001 Aldosterone antagonist4.2 %4.1 %4.2 %0.730 Antiarrhythmic1.2 %1.0 %1.2 %0.302 Beta-blocker83.1 %84.8 %83.1 %0.038 Digoxin2.0 %1.3 %2.0 %0.024 Oral anticoagulation15.6 %14.3 %15.6 %0.091 P2Y<sub>12</sub> inhibitor74.0 %84.9 %74.6 %&lt;0.0001 PCSK9 inhibitor0.003 %–0.004 %&lt;0.0001Abbreviations: PCI, percutaneous coronary intervention; CABG, coronary artery bypass grafting; MI, myocardial infarction."
+        }
+      ]
+    },
+    {
+      "title": "Ezetimibe usage",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The cumulative incidence of ezetimibe use was 6.8 % at 1 year, 13.4 % at 5 years, and 19.8 % at 10 years of follow-up (Fig. 1). Therapy initiation occurred most actively during the first year after MI (Fig. 2). Younger age was one of the strongest predictors of ezetimibe usage after MI in the unadjusted and adjusted analysis (Table 1). The cumulative incidence for ezetimibe therapy was 35.3 % in patients aged &lt; 60 years, 26.7 % in patients aged 60–69, 14.9 % in patients aged 70–69, and 3.5 % in patients aged ≥ 80 years (<em>P</em> &lt; 0.0001) at 10 years after MI (Fig. 2). The slope of the cumulative incidence was notably steeper in the younger MI patients, with increasing age difference during follow-up (Fig. 2).Fig. 1Cumulative incidence of ezetimibe usage after myocardial infarction in all patients (A) and by age (B). Competing risk analyses. Dashed lines represent 95 % confidence intervals. Please note the difference in the y-axis.Fig. 1Fig. 2Proportions of patients using ezetimibe (A) and patients not continuing ezetimibe (B) during follow-up after myocardial infarction.Fig. 2"
+        },
+        {
+          "type": "paragraph",
+          "html": "Women were more likely to initiate ezetimibe therapy after MI when accounting for age, comorbidities, and other co-variables (adj.sHR 1.23; CI 1.18–1.31; <em>P</em> &lt; 0.0001). Hypertension, peripheral vascular disease, and having a history of previous MI were associated with a higher likelihood of ezetimibe use in the multivariable analysis. Dementia, depression, diabetes, heart failure, and psychotic disorder were independently associated with a lower likelihood of ezetimibe use in the long term (Table 2). Revascularized patients were treated with ezetimibe more frequently (Table 2). Patients not using early statins were less likely to receive ezetimibe in the long term. High-intensity statin dosing early after MI was associated with ezetimibe use during follow-up (Table 2).Table 2Association of patient baseline features with ezetimibe usage after myocardial infarction in 10-Year Follow-up. Results of competing risk univariable and multivariable regression models.Table 2VariableUnivariableMultivariablesHR (95 %CI)<em>P</em> ValuesHR (95 %CI)<em>P</em> ValueAge (years)&lt;0.0001&lt;0.0001 ≥ 80ReferenceReferenceReferenceReference 70–794.04 (3.65–4.46)&lt;0.00013.24 (2.92–3.59)&lt;0.0001 60–696.76 (6.14–7.44)&lt;0.00015.10 (5.60–5.65)&lt;0.0001 18–599.08 (8.25–9.99)&lt;0.00016.67 (5.88–7.69)&lt;0.0001Female sex0.77 (0.73–0.80)&lt;0.00011.23 (1.17–1.29)&lt;0.0001Medical history Atrial fibrillation0.52 (0.49–0.56)&lt;0.00010.95 (0.88–1.02)0.157 Cerebrovascular disease0.66 (0.61–0.71)&lt;0.00011.02 (0.95–1.10)0.613 Chronic pulmonary disease0.85 (0.80–0.91)&lt;0.00011.04 (0.98–1.11)0.222 Dementia0.13 (0.11–0.17)&lt;0.00010.37 (0.30–0.47)&lt;0.0001 Depression0.83 (0.78–0.89)&lt;0.00010.92 (0.85–0.99)0.022 Diabetes0.88 (0.84–0.92)&lt;0.00010.97 (0.92–1.02)0.262 Heart failure0.44 (0.41–0.47)&lt;0.00010.72 (0.67–0.78)&lt;0.0001 Hypertension0.84 (0.81–0.88)&lt; 0.00011.15 (1.10–1.20)&lt;0.0001 Liver Disease0.81 (0.66–0.99)0.0351.25 (1.02–1.52)0.030 Malignancy0.61 (0.57–0.66)&lt;0.00010.94 (0.87–1.01)0.079 Peripheral vascular disease0.76 (0.70–0.82)&lt;0.00011.09 (1.00–1.19)0.053 Prior myocardial infarction0.88 (0.83–0.94)&lt;0.00011.19 (1.12–1.27)&lt;0.0001 Psychotic disorder0.58 (0.50–0.67)&lt;0.00010.63 (0.54–0.73)&lt;0.0001 Rheumatic disease0.58 (0.50–0.67)&lt;0.00010.97 (0.88–1.06)0.441 Renal failure0.61 (0.54–0.70)&lt;0.00010.96 (0.83–1.10)0.542Revascularization2.47 (2.35–2.60)&lt;0.00011.56 (1.47–1.66)&lt;0.0001ST-elevation MI1.22 (1.17–1.27)&lt;0.00010.88 (0.84–0.92)&lt;0.0001Early statin after MI&lt;0.0001&lt;0.0001 High-intensityReferenceReferenceReferenceReference Moderate-intensity0.53 (0.51–0.56)&lt;0.00010.66 (0.63–0.69)&lt;0.0001 Low-intensity0.42 (0.36–0.49)&lt;0.00010.91 (0.77–1.08)0.270 None0.29 (0.27–0.31)&lt;0.00010.60 (0.55–0.65)&lt;0.0001Abbreviations: MI, myocardial infarction; sHR = subdistribution hazard ratio; PCI, percutaneous coronary intervention; CABG, coronary artery bypass grafting."
+        },
+        {
+          "type": "paragraph",
+          "html": "The average proportion of patients using ezetimibe during follow-up was 6.8 %. Ezetimibe therapy was used by 5.8 % at 1 year, 7.7 % at 5 years, and 11.7 % at 10 years after MI (Fig. 2). The proportion of patients who had discontinued post-MI ezetimibe therapy increased from 25.4 % at 1 year to 41.1 % at 5 years and 43.6 % at 10 years (Fig. 2)."
+        }
+      ]
+    },
+    {
+      "title": "Ezetimibe and mortality",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "A total of 16,787 patients died during the follow-up period. In the total study cohort, the 10-year all-cause mortality was 33.6 % in the patients with early ezetimibe use and 45.1 % in the patients without early ezetimibe use after MI (Fig. 3). The patients with early ezetimibe use had lower all-cause mortality after MI in a non-adjusted analysis (HR 0.57; CI 0.50–0.62; <em>P</em> &lt; 0.0001) and after adjustment for age, sex, comorbidities, MI type, revascularization, statin usage and dose, and usage of other cardiovascular pharmacotherapies (adj.HR 0.77; CI 0.69–0.86; <em>P</em> &lt; 0.0001). The E-value was 1.92 (CI 1.60–2.26).Fig. 3All-cause mortality after myocardial infarction by early usage of ezetimibe. Non-adjusted curves of 90-day MI survivors. Dashed lines represent 95 % confidence intervals.Fig. 3"
+        },
+        {
+          "type": "paragraph",
+          "html": "Ezetimibe was associated with lower mortality in the subgroup analyses of men and women, different age-groups, patients with and without atrial fibrillation, diabetes, heart failure, or malignancy, revascularized and non-revascularized patients, and patients with and without early statin use after MI (Supplement Table 1). The association of early ezetimibe use with lower mortality was more pronounced in the patients not using statins (adj.HR 0.60; CI 0.48–0.76; <em>P</em> &lt; 0.0001) than in those using statins (adj.HR 0.82; 0.73–0.92; <em>P</em> = 0.001), interaction <em>P</em> = 0.019. Ongoing ezetimibe therapy during follow-up was associated with lower mortality in a time-dependent analysis (adj.HR 0.53; CI 0.48–0.59; <em>P</em> &lt; 0.0001)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Baseline cardiovascular comorbidities, increasing age, and lack of revascularization were associated with higher 10-year mortality in patients with early ezetimibe use after MI (Supplemental Table 2)."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This observational, nationwide cohort study investigated the use of ezetimibe and association with mortality after MI. Younger age was one of the strongest predictors of ezetimibe use. Ezetimibe was discontinued by 44 % of patients during the 10-year follow-up. Furthermore, ezetimibe use was independently associated with a lower risk of death after MI."
+        },
+        {
+          "type": "paragraph",
+          "html": "Ezetimibe acts by inhibiting the Niemann-Pick C1-Like 1 transporter protein, thereby reducing cholesterol absorption from the intestine. This results in the compensatory activation of HMG-CoA reductase and cholesterol synthesis, and thus a synergistic effect can be obtained when ezetimibe is used together with statin therapy. Ezetimibe lowers LDL levels by 19–23 % when added to statins [[16], [17], [18]]. Ezetimibe is indeed mainly used together with statins to attain lipid-lowering goals, but it is also indicated in situations where statins are not tolerated."
+        },
+        {
+          "type": "paragraph",
+          "html": "Data on ezetimibe use after MI is scarce. In the present study, we found that 6.8 % of patients initiated ezetimibe therapy by 1 year and 19.8 % by 10 years after MI. This compares to a previous US veteran study with a predominantly male study population that reported 5.7 % of patients receiving ezetimibe within 1 year after MI or elective revascularization during the same study period [19]. Notably, we found age to be one of the strongest predictors of ezetimibe use after MI, with patients aged &lt; 60 years being 6.7-fold more likely to receive ezetimibe during follow-up than patients aged ≥ 80 years. This age discrepancy increased during follow-up, indicating less frequent or absent follow-ups and less aggressive secondary prevention in older patients. Aggressive LDL reduction is nevertheless also efficient in older MI patients [20], and ezetimibe is effective after ACS regardless of the patient&#x27;s risk profile [21]. In line with a previous observation [22], we found women to be more likely to receive ezetimibe than men after MI when accounting for age and other covariables. Analyses were adjusted with initial statin intensity, which is found to be less intensive in women after MI [23]."
+        },
+        {
+          "type": "paragraph",
+          "html": "The continuity of ezetimibe was poor in our study, with 44 % of patients with MI discontinuing therapy during follow-up. Notably, discontinuation of ezetimibe was previously found to be as high as 78 % by 3 years in all dyslipidemia patients [24] showing poorer adherence in primary prevention. Curiously, adherence to ezetimibe is poorer than adherence to statins, as 24 % of patients had discontinued statins by 10 years after MI in a previous study that used the same databases as the current study [11]. However, discontinuation of high-intensity statins is more common compared to lower-dose statins [25]. The recent Randomized Comparison of Efficacy and Safety of Lipid‐Lowering With Statin Monotherapy Versus Statin/Ezetimibe Combination for High‐Risk Cardiovascular Diseases (RACING) trial found discontinuation or therapy de-intensification to be less common with a moderate-intensity statin-ezetimibe combination than with high-intensity statins [26] while combination therapy lowered LDL levels more [27]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Ezetimibe is generally very well tolerated. Mild gastrointestinal symptoms and myopathy are commonly reported, but the latter may mainly be due to concomitant statin therapy. However, a lack of adherence to and persistence with lipid-lowering therapy is a problem regardless of the type of therapy [24,28]. It is unlikely that, in our population of MI patients, the de-escalation of lipid-lowering therapy or serious adverse effects would explain the major proportion of ezetimibe discontinuation. Thus, the implementation of patient and physician educational programs, pharmacy-based programs, and routine monitoring may be effective ways to improve ezetimibe adherence [29,30]."
+        },
+        {
+          "type": "paragraph",
+          "html": "The IMPROVE-IT trial of 18,144 patients showed that the addition of ezetimibe to moderate-intensity statins reduced the combined end point of cardiovascular death, recurrent ACS, coronary revascularization, or stroke after ACS (HR 0.94; CI 0.89–0.99), but there was no difference in all-cause mortality [6]. A recent network meta-analysis of 7 randomized trials found that the addition of ezetimibe to statins reduced both major cardiovascular events (HR 0.83; CI 0.70–0.98) and all-cause death (OR 0.55; CI 0.34–0.89) in percutaneously treated patient with ACS [31]. However, real-world evidence on ezetimibe is scarce, with a recent observational study finding lower all-cause mortality in patients with early post-MI ezetimibe-statin combination therapy when compared to statin monotherapy [32]."
+        },
+        {
+          "type": "paragraph",
+          "html": "We found lower all-cause mortality after MI in the patients with ezetimibe therapy. Ezetimibe was associated with lower mortality in both early ezetimibe users and in patients using ezetimibe during follow-up. Adding ezetimibe to the pharmacotherapy plan early after MI was associated with a lower risk of death regardless of age, sex, atrial fibrillation, diabetes, heart failure, malignancy, revascularization, or statin use or dose. Our results underline the importance of intensive LDL lowering in all patients with MI [1]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Previous studies advocate aggressive LDL lowering rather than stepwise treatment intensification after MI [26,32,33]. Aggressive upfront LDL-lowering therapy is supported by the facts that lipid levels are unfrequently controlled [34,35] and the intensity of LDL-lowering therapy remains largely unaltered after MI [11,19,35]. The most recent ACS guideline from the European Society of Cardiology gives a class I recommendation for adding ezetimibe to the highest tolerated statin intensity if the patient&#x27;s LDL level is &lt;1.4 mmol/L (&lt;55 mg/dL) and a class IIb recommendation for initiating a ezetimibe-statin combination in statin-naïve patients and patients with low-intensity statins during MI admission [36]."
+        }
+      ]
+    },
+    {
+      "title": "Limitations",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The current study has limitations. The main limitations are related to the retrospective design and available data. We used an all-comer, nationwide observational study design with combined national registries. The number of covariables were studied and adjusted for, yet residual confounding by non-recognized factors is possible and may have caused bias and influenced the results. The major limitations and potential causes of bias are lack of data on LDL levels and clinical follow-ups after MI. Moreover, we did not have access to more detailed clinical information on the patients, including laboratory measures, angiographical data, smoking status, or other lifestyle factors. However, the benefits of ezetimibe are not dependent on baseline LDL levels [37]. The E-value indicates that the observed adjusted HR of 0.77 in the long-term mortality for early ezetimibe users vs non-users could be explained by an unmeasured confounding associated with both ezetimibe use and death at a risk ratio of ≥ 1.9-fold each; however, weaker confounding could not accomplish this [15]. In addition to the intention-to-treat analysis, a time-dependent on-treatment analysis showed an association of ongoing ezetimibe and a lower risk of death. However, on-treatment analysis does not control for reasons of treatment discontinuation [38] or for differences in patient follow-up, resulting to potential over-estimation of true association between ezetimibe and mortality."
+        },
+        {
+          "type": "paragraph",
+          "html": "In conclusion, ezetimibe use after MI was associated with lower mortality across the spectrum of patients with MI. However, ezetimibe initiation was limited and strongly inversely tied to patient age. Moreover, ezetimibe discontinuation was common. These results underline the benefit of ezetimibe after MI and the need for focusing on more aggressive treatment initiation as well as the prevention of treatment discontinuation."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Ville Kytö:</strong> Writing – review &amp; editing, Writing – original draft, Visualization, Validation, Supervision, Resources, Project administration, Methodology, Investigation, Funding acquisition, Formal analysis, Data curation, Conceptualization. <strong>Aleksi Tornio:</strong> Writing – review &amp; editing, Writing – original draft, Visualization, Supervision, Methodology, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "GrundyS.M.StoneN.J.BaileyA.L.BeamC.BirtcherK.K.BlumenthalR.S.BraunL.T.de FerrantiS.Faiella-TommasinoJ.FormanD.E.2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol: a report of the american college of cardiology/american heart association task force on clinical practice guidelinesCirculation1392019e1082e114310.1161/CIR.000000000000062530586774PMC7403606"
+    },
+    {
+      "html": "MachF.BaigentC.CatapanoA.L.KoskinasK.C.CasulaM.BadimonL.ChapmanM.J.De BackerG.G.DelgadoV.FerenceB.A.2019 ESC/EAS Guidelines for the management of dyslipidaemias: lipid modification to reduce cardiovascular riskEur Heart J41202011118810.1093/eurheartj/ehz45531504418"
+    },
+    {
+      "html": "MhaimeedO.BurneyZ.A.SchottS.L.KohliP.MarvelF.A.MartinS.S.The importance of LDL-C lowering in atherosclerotic cardiovascular disease prevention: lower for longer is betterAm J Prev Cardiol18202410064910.1016/j.ajpc.2024.100649PMC1099271138576462"
+    },
+    {
+      "html": "SchubertJ.LindahlB.MelhusH.RenlundH.LeosdottirM.YariA.UedaP.JamesS.ReadingS.R.DluzniewskiP.J.Low-density lipoprotein cholesterol reduction and statin intensity in myocardial infarction patients and major adverse outcomes: a Swedish nationwide cohort studyEur Heart J42202124325210.1093/eurheartj/ehaa101133367526PMC7954251"
+    },
+    {
+      "html": "SudhopT.LutjohannD.KodalA.IgelM.TribbleD.L.ShahS.PerevozskayaI.von BergmannK.Inhibition of intestinal cholesterol absorption by ezetimibe in humansCirculation10620021943194810.1161/01.cir.0000034044.95911.dc12370217"
+    },
+    {
+      "html": "CannonC.P.BlazingM.A.GiuglianoR.P.McCaggA.WhiteJ.A.TherouxP.DariusH.LewisB.S.OphuisT.O.JukemaJ.W.Ezetimibe Added to Statin Therapy after Acute Coronary SyndromesN Engl J Med37220152387239710.1056/NEJMoa141048926039521"
+    },
+    {
+      "html": "KytöV.SarasteA.TornioA.Early statin use and cardiovascular outcomes after myocardial infarction: a population-based case-control studyAtherosclerosis202210.1016/j.atherosclerosis.2022.06.101935803064"
+    },
+    {
+      "html": "PramiT.KhanfirH.DeleskogA.HasvoldP.KytoV.ReissellE.AiraksinenJ.Clinical factors associated with initiation of and persistence with ADP receptor-inhibiting oral antiplatelet treatment after acute coronary syndrome: a nationwide cohort study from FinlandBMJ Open62016e01260410.1136/bmjopen-2016-012604PMC512907627881527"
+    },
+    {
+      "html": "KerolaA.M.PalomakiA.RautavaP.KytoV.Less revascularization in young women but impaired long-term outcomes in young men after myocardial infarctionEur J Prev Cardiol202210.1093/eurjpc/zwac04935253860"
+    },
+    {
+      "html": "KerolaA.M.PalomakiA.RautavaP.NuotioM.KytoV.Sex differences in cardiovascular outcomes of older adults after myocardial infarctionJ Am Heart Assoc2021e02288310.1161/JAHA.121.022883PMC907537534743564"
+    },
+    {
+      "html": "KytoV.RautavaP.TornioA.Initial statin dose after myocardial infarction and long-term cardiovascular outcomesEur Heart J Cardiovasc Pharmacother9202315616410.1093/ehjcvp/pvac06436385668PMC9892868"
+    },
+    {
+      "html": "KytoV.SipilaJ.AhtelaE.RautavaP.GunnJ.Mechanical versus biologic prostheses for surgical aortic valve replacement in patients aged 50 to 70Ann Thorac Surg110202010211010.1016/j.athoracsur.2019.10.02731786289"
+    },
+    {
+      "html": "AustinP.C.LeeD.S.FineJ.P.Introduction to the analysis of survival data in the presence of competing risksCirculation133201660160910.1161/CIRCULATIONAHA.115.01771926858290PMC4741409"
+    },
+    {
+      "html": "AivoJ.RuuskanenJ.O.TornioA.RautavaP.KytoV.Lack of statin therapy and outcomes after ischemic stroke: a population-based studyStroke54202378179010.1161/STROKEAHA.122.04053636748465PMC10561684"
+    },
+    {
+      "html": "VanderWeeleT.J.DingP.Sensitivity Analysis in Observational Research: introducing the E-ValueAnn Intern Med167201726827410.7326/M16-260728693043"
+    },
+    {
+      "html": "ShayaF.T.SingK.MilamR.HusainF.Del AguilaM.A.PatelM.Y.Lipid-lowering efficacy of ezetimibe in patients with atherosclerotic cardiovascular disease: a systematic review and meta-analysesAm J Cardiovasc Drugs20202023924810.1007/s40256-019-00379-931724105PMC7266788"
+    },
+    {
+      "html": "MorroneD.WeintraubW.S.TothP.P.HansonM.E.LoweR.S.LinJ.ShahA.K.TershakovecA.M.Lipid-altering efficacy of ezetimibe plus statin and statin monotherapy and identification of factors associated with treatment response: a pooled analysis of over 21,000 subjects from 27 clinical trialsAtherosclerosis223201225126110.1016/j.atherosclerosis.2012.02.01622410123"
+    },
+    {
+      "html": "CatapanoA.TothP.P.TomassiniJ.E.TershakovecA.M.The efficacy and safety of ezetimibe coadministered with statin therapy in various patient groupsClin Lipidol82013134110.2217/clp.12.88"
+    },
+    {
+      "html": "ZheutlinA.R.DeringtonC.G.HerrickJ.S.RosensonR.S.PoudelB.SaffordM.M.BrownT.M.JacksonE.A.WoodwardM.ReadingS.Lipid-lowering therapy use and intensification among united states veterans following myocardial infarction or coronary revascularization between 2015 and 2019Circ Cardiovasc Qual Outcomes152022e00886110.1161/CIRCOUTCOMES.121.008861PMC1068002136252093"
+    },
+    {
+      "html": "GencerB.MarstonN.A.ImK.CannonC.P.SeverP.KeechA.BraunwaldE.GiuglianoR.P.SabatineM.S.Efficacy and safety of lowering LDL cholesterol in older patients: a systematic review and meta-analysis of randomised controlled trialsLancet39620201637164310.1016/S0140-6736(20)32332-133186535PMC8015314"
+    },
+    {
+      "html": "SharmaA.SunJ.L.LokhnyginaY.RoeM.T.AhmadT.DesaiN.R.BlazingM.A.Patient phenotypes, cardiovascular risk, and ezetimibe treatment in patients after acute coronary syndromes (from IMPROVE-IT)Am J Cardiol12320191193120110.1016/j.amjcard.2019.01.03430739657"
+    },
+    {
+      "html": "ColvinC.L.PoudelB.BressA.P.DeringtonC.G.KingJ.B.WenY.ChenL.BittnerV.BrownT.M.MondaK.L.Race/ethnic and sex differences in the initiation of non-statin lipid-lowering medication following myocardial infarctionJ Clin Lipidol15202166567310.1016/j.jacl.2021.08.00134452823"
+    },
+    {
+      "html": "PetersS.A.E.ColantonioL.D.ZhaoH.BittnerV.DaiY.FarkouhM.E.MondaK.L.SaffordM.M.MuntnerP.WoodwardM.Sex differences in high-intensity statin use following myocardial infarction in the United StatesJ Am Coll Cardiol7120181729173710.1016/j.jacc.2018.02.03229673463"
+    },
+    {
+      "html": "KoenigW.LorenzE.S.BeierL.Gouni-BertholdI.Retrospective real-world analysis of adherence and persistence to lipid-lowering therapy in GermanyClin Res Cardiol202310.1007/s00392-023-02257-6PMC1110892437603070"
+    },
+    {
+      "html": "NewmanC.B.PreissD.TobertJ.A.JacobsonT.A.PageR.L.2ndGoldsteinL.B.ChinC.TannockL.R.MillerM.RaghuveerG.Statin safety and associated adverse events: a scientific statement from the american heart associationArterioscler Thromb Vasc Biol392019e38e8110.1161/ATV.000000000000007330580575"
+    },
+    {
+      "html": "KimB.K.HongS.J.LeeY.J.HongS.J.YunK.H.HongB.K.HeoJ.H.RhaS.W.ChoY.H.LeeS.J.Long-term efficacy and safety of moderate-intensity statin with ezetimibe combination therapy versus high-intensity statin monotherapy in patients with atherosclerotic cardiovascular disease (RACING): a randomised, open-label, non-inferiority trialLancet400202238039010.1016/S0140-6736(22)00916-335863366"
+    },
+    {
+      "html": "LeeS.J.ChaJ.J.ChoiW.G.LeeW.S.JeongJ.O.ChoiS.ChoY.H.ParkW.YoonC.H.LeeY.J.Moderate-intensity statin with ezetimibe combination therapy vs high-intensity statin monotherapy in patients at very high risk of atherosclerotic cardiovascular disease: a post hoc analysis from the RACING randomized clinical trialJAMA Cardiol8202385385810.1001/jamacardio.2023.222237531130PMC10398545"
+    },
+    {
+      "html": "SantoleriF.RomagnoliA.CostantiniA.Adherence and persistence in the use of statins and ezetimibe over 8 years in a real-life studyCurr Med Res Opin3720212061206610.1080/03007995.2021.198077734515600"
+    },
+    {
+      "html": "DanielH.ChristianW.RobinH.LarsS.ThomasM.Statin treatment after acute coronary syndrome: adherence and reasons for non-adherence in a randomized controlled intervention trialSci Rep920191207910.1038/s41598-019-48540-331427637PMC6700346"
+    },
+    {
+      "html": "DesaiN.R.FarbaniecM.KaralisD.G.Nonadherence to lipid-lowering therapy and strategies to improve adherence in patients with atherosclerotic cardiovascular diseaseClin Cardiol462023132110.1002/clc.2393536267039PMC9849440"
+    },
+    {
+      "html": "DengC.J.YanJ.ZhengY.Y.WuT.T.PanY.HouX.G.WangS.F.SirajidinS.AimaitijiangM.XieX.Effectiveness of lipid-lowering therapy on mortality and major adverse cardiovascular event outcomes in patients undergoing percutaneous coronary intervention: a network meta-analysis of randomised controlled trialsBMJ Open132023e07082710.1136/bmjopen-2022-070827PMC1066097237967998"
+    },
+    {
+      "html": "LewekJ.NiedzielaJ.DesperakP.DyrbusK.OsadnikT.JankowskiP.WitkowskiA.Bielecka-DabrowaA.DudekD.GierlotkaM.Intensive statin therapy versus upfront combination therapy of statin and ezetimibe in patients with acute coronary syndrome: a propensity score matching analysis based on the PL-ACS DataJ Am Heart Assoc122023e03041410.1161/JAHA.123.030414PMC1054730537671618"
+    },
+    {
+      "html": "VisserenF.L.J.MachF.SmuldersY.M.CarballoD.KoskinasK.C.BackM.BenetosA.BiffiA.BoavidaJ.M.CapodannoD.2021 ESC Guidelines on cardiovascular disease prevention in clinical practiceEur J Prev Cardiol292022511510.1093/eurjpc/zwab15434558602"
+    },
+    {
+      "html": "LevintowS.N.ReadingS.R.NoshadS.MayerS.E.WienerC.EledathB.ExterJ.BrookhartM.A.Lipid testing trends before and after hospitalization for myocardial infarction among adults in the United States, 2008-2019Clin Epidemiol14202273774810.2147/CLEP.S36125835677476PMC9167839"
+    },
+    {
+      "html": "WangW.T.HellkampA.DollJ.A.ThomasL.NavarA.M.FonarowG.C.JulienH.M.PetersonE.D.WangT.Y.Lipid testing and statin dosing after acute myocardial infarctionJ Am Heart Assoc7201810.1161/JAHA.117.006460PMC585023029371200"
+    },
+    {
+      "html": "ByrneR.A.RosselloX.CoughlanJ.J.BarbatoE.BerryC.ChieffoA.ClaeysM.J.DanG.A.DweckM.R.GalbraithM.2023 ESC Guidelines for the management of acute coronary syndromesEur Heart J4420233720382610.1093/eurheartj/ehad19137622654"
+    },
+    {
+      "html": "OyamaK.GiuglianoR.P.BlazingM.A.ParkJ.G.TershakovecA.M.SabatineM.S.CannonC.P.BraunwaldE.Baseline low-density lipoprotein cholesterol and clinical outcomes of combining ezetimibe with statin therapy in IMPROVE-ITJ Am Coll Cardiol7820211499150710.1016/j.jacc.2021.08.01134620406"
+    },
+    {
+      "html": "YangF.WittesJ.PittB.Beware of on-treatment safety analysesClin Trials162019637010.1177/174077451881277430445833"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

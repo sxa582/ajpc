@@ -1,0 +1,564 @@
+{
+  "pmcid": "PMC12686656",
+  "pmid": "41378317",
+  "doi": "10.1016/j.ajpc.2025.101352",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12686656/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Clinical considerations for the treatment of patients with familial chylomicronemia syndrome using a hepatic-targeted APOC3 antisense oligonucleotide",
+  "articleType": "Review Article",
+  "published": "2025-11-16",
+  "year": "2025",
+  "volume": "24",
+  "issue": "",
+  "articleNumber": "101352",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2025",
+  "authors": [
+    {
+      "given": "Archna",
+      "surname": "Bajaj",
+      "display": "Archna Bajaj"
+    },
+    {
+      "given": "Elif A.",
+      "surname": "Oral",
+      "display": "Elif A. Oral"
+    },
+    {
+      "given": "Alan",
+      "surname": "Brown",
+      "display": "Alan Brown"
+    },
+    {
+      "given": "Daniel",
+      "surname": "Gaudet",
+      "display": "Daniel Gaudet"
+    },
+    {
+      "given": "Veronica J.",
+      "surname": "Alexander",
+      "display": "Veronica J. Alexander"
+    },
+    {
+      "given": "Ewa",
+      "surname": "Karwatowska-Prokopczuk",
+      "display": "Ewa Karwatowska-Prokopczuk"
+    },
+    {
+      "given": "Seth J.",
+      "surname": "Baum",
+      "display": "Seth J. Baum"
+    }
+  ],
+  "affiliations": [
+    "aDivision of Translational Medicine and Human Genetics, University of Pennsylvania, Philadelphia, PA 19104, USA",
+    "bDivision of Metabolism, Endocrinology and Diabetes (MEND), Department of Internal Medicine, Michigan Medicine, University of Michigan, Ann Arbor, MI 48109, USA",
+    "cDivision of Cardiology, Advocate Heart Institute at Advocate Lutheran General Hospital, Park Ridge, IL 60068, USA",
+    "dDepartment of Medicine, Université de Montréal and ECOGENE-21, Chicoutimi, QC, Canada",
+    "eIonis, Carlsbad, CA 92010, USA",
+    "fDepartment of Integrated Medical Sciences, Charles E. Schmidt College of Medicine, Florida Atlantic University, Boca Raton, FL 33431, USA; Flourish Research, Boca Raton, FL 33434, USA"
+  ],
+  "keywords": [
+    "Familial chylomicronemia syndrome",
+    "Hypertriglyceridemia",
+    "Olezarsen",
+    "Antisense oligonucleotide",
+    "Apolipoprotein C-III",
+    "Acute pancreatitis"
+  ],
+  "abstract": [
+    {
+      "html": "Familial chylomicronemia syndrome (FCS) is a rare, typically debilitating genetic disorder of extreme hypertriglyceridemia associated with high triglyceride levels and elevated risk for recurrent acute pancreatitis. Diagnosis of FCS is frequently delayed due to its rarity, and treatment options are limited. Patients often report history of acute pancreatitis or associated symptoms, including chronic or recurrent abdominal pain, weakness, and fatigue. The hallmark of chylomicronemia (extreme hypertriglyceridemia) syndromes, including FCS, is extremely high triglyceride levels ≥880 mg/dL (10 mmol/L) resistant to conventional triglyceride-lowering medications including statins, fibrates, and omega-3 fatty acids. Validated clinical scoring tools or genetic testing can support diagnosis. Patients must follow a strict FCS-specific diet &lt;15 to 20 g fat/day. Failure to adhere increases the possibility of recurrent acute and chronic pancreatitis and pancreatic dysfunction. Dietary adherence and long-term disease management are extremely challenging for patients. Multidisciplinary clinical teams can improve patient outcomes and quality of life. Therapies that reduce apolipoprotein C-III, a regulator of triglyceride metabolism, offer an FCS treatment option. Olezarsen, a hepatic-targeted <em>APOC3</em> antisense oligonucleotide, is the first US Food and Drug Administration–approved therapy specifically for FCS treatment, indicated as an adjunct to diet to reduce triglycerides in adult patients with FCS; olezarsen is also European Medicines Agency–approved. Combining olezarsen with the low-fat FCS diet may prevent acute pancreatitis and improve long-term patient outcomes. Plozasiran, a small interfering RNA therapy targeting <em>APOC3</em>, is in late-stage clinical development. This article describes the updated diagnosis and clinical management of FCS and practical considerations for <em>APOC3</em>-targeting treatment."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Familial chylomicronemia syndrome (FCS) is a rare genetic disorder of extreme hypertriglyceridemia (HTG) associated with persistent chylomicronemia and recurrent, potentially fatal acute pancreatitis episodes [[1], [2], [3], [4]]. The prevalence of FCS is thought to be up to 13 per 1,000,000 people in the US and up to 19 per 1,000,000 people globally [[5], [6], [7]] but is likely underestimated because FCS is rare and complex to identify [[8], [9], [10]]. The underlying pathogenic mechanism is inadequate lipoprotein lipase (LPL) activity impairing the clearance of chylomicrons (large, triglyceride [TG]-rich lipoproteins [TRLs] produced after a meal) from the plasma [4]. Chylomicronemia increases the risk for HTG-induced acute pancreatitis [1,11] that is more severe than non–HTG-induced acute pancreatitis [4,8]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Timely recognition is essential for effective FCS management and treatment. Two validated clinical scoring tools, along with genetic testing, are now available to diagnose FCS [4,10,12]. FCS management is evolving, but a low-fat FCS-specific diet (&lt;15–20 g fat/day) remains essential [3,13,14]. Multidisciplinary teams including specialist clinicians and registered dieticians are key in supporting patients’ dietary adherence and optimizing long-term disease management to prevent severe complications like acute pancreatitis [1,3,4]. Newly available FCS support programs and resources can further support physicians in helping patients manage dietary restrictions and symptoms."
+        },
+        {
+          "type": "paragraph",
+          "html": "Most patients with FCS do not respond to conventional TG-lowering therapies such as statins, fibrates, and omega-3 fatty acids. However, in recent clinical trials, <em>APOC3</em>-targeted oligonucleotide therapies reduce TG levels and appear to decrease acute pancreatitis incidence in patients with FCS [1,11,[15], [16], [17], [18]]. Volanesorsen, an antisense oligonucleotide (ASO) designed to target <em>APOC3</em> messenger RNA (mRNA) in patients with FCS [16,19,20], is approved in the EU, Great Britain, Brazil, and Chile, but not the US [17]. It is indicated as an adjunct to diet in patients with genetically identified FCS and at high risk for pancreatitis who have not responded adequately to diet and conventional TG-lowering therapy [[21], [22], [23], [24]]. Subsequent research enabled the development of olezarsen, a hepatocyte-targeted triantennary <em>N</em>-acetylgalactosamine (GalNAc)–conjugated ASO approved by the US Food and Drug Administration (FDA) in 2024 as an adjunct to diet to reduce TG levels in adult patients with FCS [17,25] and by the European Medicines Agency in 2025 as an adjunct to diet in adult patients for the treatment of genetically confirmed FCS [26]. Plozasiran, an <em>APOC3</em>-targeted small interfering RNA (siRNA) conjugated to triantennary GalNAc, is in late-stage clinical development for FCS treatment [18,27]."
+        },
+        {
+          "type": "paragraph",
+          "html": "This review provides updates on the identification, diagnosis, and management of patients with FCS in the era of <em>APOC3</em>-targeted therapies, emphasizing clinical considerations for olezarsen use."
+        }
+      ]
+    },
+    {
+      "title": "Identification of FCS",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Clinical presentation",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Patients with extreme HTG, including FCS, may develop eruptive xanthomas (small, yellowish dermatological papules with an erythematous base, 3–5 mm diameter; Fig. 1a). Lipemia retinalis (whitened retinal vessels without vision impairment) may be apparent during ophthalmologic examination (Fig. 1b) [1,28,29]. Blood sampling often reveals lactescent (milky) serum due to the presence of chylomicrons [13,28]. After overnight storage of serum at 4 °C, chylomicrons form a creamy supernatant layer (Fig. 1c) [28]. Patients with FCS may report generalized abdominal pain, bloating, physical weakness, indigestion, fatigue, and cognitive symptoms such as difficulty concentrating, impaired judgment, and brain fog [30]. Physical symptoms may present at any age from childhood to adulthood [4,31]. The majority of patients have a history of acute pancreatitis [32,33] that may have necessitated hospitalization and/or resulted in long-term complications [1]. Pancreatitis recurs in ∼50% of patients [33,34], and many patients report daily abdominal pain between episodes [35].Fig. 1Clinical manifestations of FCS. (A) Eruptive cutaneous xanthomas, (B) lipemia retinalis, and (C) plasma sample from an FCS patient compared with a control healthy individual after overnight storage at 4 °C [28]. Figure reprinted with permission from: Baass A, et al, Familial Chylomicronemia Syndrome: An Under-Recognized Cause of Severe Hypertriglyceridaemia. 2020;287(4):340-348. John Wiley &amp; Sons, Inc. Copyright © 1999–2025 John Wiley &amp; Sons, Inc. or related companies. All rights reserved, including rights for text and data mining and training of artificial intelligence technologies or similar technologies.FCS, familial chylomicronemia syndrome.Fig 1"
+        },
+        {
+          "type": "paragraph",
+          "html": "The laboratory hallmark of FCS is extremely high circulating TG levels ≥880 mg/dL (≥10 mmol/L) [11,31]. Other characteristics include TG/total cholesterol (TC) ratio &gt;8 (measured in mg/dL) and apolipoprotein B (apoB) levels &lt;100 mg/dL (1.0 g/L) [10,36]. ApoB can help distinguish FCS from other forms of persistent HTG like multifactorial chylomicronemia syndrome (MCS), in which apoB levels may overlap with the FCS range but are generally higher (≥75 mg/dL) [2,29,36]. Patients with FCS typically lack characteristics associated with secondary or multifactorial HTG, such as obesity, metabolic syndrome, high alcohol consumption, untreated hypothyroidism, chronic renal insufficiency, pregnancy, or uncontrolled type 2 diabetes [8,28,29,37]. Although these conditions when present do not exclude FCS as the cause of HTG, their absence raises suspicion for FCS. Another feature suggestive of FCS is a lack of response (TG levels decrease by &lt;20%) to conventional TG-lowering medications, including statins, fibrates, and omega-3 fatty acids [1,11,31,38]. A summary of 66 patients with genetically identified FCS from the Balance trial, a phase 3 study of olezarsen, provides a sample of characteristics found in adults with FCS (Table 1) [17].Table 1Patient demographics and baseline characteristics of 66 patients with genetically identified FCS in Balance, a phase 3, double-blind, placebo-controlled clinical trial of olezarsen [17].Table 1PlaceboOlezarsen 50 mgOlezarsen 80 mg(<em>n</em> = 23)(<em>n</em> = 21)(<em>n</em> = 22)Demographics Age, years, mean (SD)44.0 (14.7)43.2 (12.1)47.7 (13.3) Sex, n (%) Female12 (52.2)15 (71.4)11 (50.0) Male11 (47.8)6 (28.6)11 (50.0) Race/ethnicity, n (%) White22 (95.7)17 (81.0)17 (77.3) Hispanic or Latino3 (13.0)3 (14.3)1 (4.5) Asian03 (14.3)3 (13.6) Native Hawaiian or Pacific Islander01 (4.8)0 Other1 (4.3)02 (9.1)Medical history History of acute pancreatitis in prior 10 years, n (%)15 (65.2)15 (71.4)17 (77.3) Episodes per patient in prior 10 years, mean (SD)*6.6 (16.5)4.1 (4.4)4.8 (7.5) Hypertension, n (%)6 (26.1)3 (14.3)4 (18.2) Tobacco user, n (%)03 (14.3)2 (9.1) Type 1 or 2 diabetes mellitus, n (%)6 (26.1)3 (14.3)7 (31.8) Previous treatment with volanesorsen, n (%)10 (43.5)8 (38.1)8 (36.4) Baseline thrombocytopenia, n (%)<sup>†</sup>4 (17.4)4 (19.0)2 (9.1)Physical exam findings Weight, kg, mean (SD)67.8 (16.1)61.2 (11.6)68.4 (16.7) BMI, kg/m<sup>2</sup>, mean (SD)24.2 (4.1)22.4 (3.5)25.1 (6.0)Laboratory test results Triglycerides, mg/dL Mean (SD)2596 (1256)2684 (1235)2613 (1499) Median (range)2493 (334, 5436)2679 (779, 5965)2086 (683, 6898) ApoC-III, mg/dL, mean (SD)27.7 (11.7)27.7 (10.5)27.5 (11.6) Total cholesterol, mg/dL, mean (SD)286.0 (113.9)323.4 (100.5)277.4 (99.3) LDL cholesterol, mg/dL, mean (SD)16.7 (8.4)17.6 (8.5)22.8 (14.1) HDL cholesterol, mg/dL, mean (SD)14.7 (3.8)15.7 (4.0)14.5 (4.5) Total apoB, mg/dL, mean (SD)59.7 (18.9)65.2 (13.5)58.4 (17.2) ApoB-48, mg/dL, mean (SD)14.2 (14.2)18.5 (15.3)11.6 (8.1) Chylomicron triglyceride, mg/dL, mean (SD)2269 (1237)2302 (1265)<sup>‡</sup>2477 (2123) Chylomicron-<em>C</em> + VLDL cholesterol,<sup>§</sup> mg/dL, mean (SD)255.3 (114.4)293.2 (103.1)245.7 (110.9) Non-HDL cholesterol, mg/dL, mean (SD)271.3 (113.3)307.6 (101.8)262.9 (100.4) ALT, U/L, mean (SD)23.5 (16.6)19.3 (12.6)23.2 (16.9) AST, U/L, mean (SD)23.4 (6.8)21.4 (9.7)<sup>‡</sup>25.6 (12.2) eGFR, mL/min/1.73 m<sup>2</sup>, mean (SD)109.7 (19.4)111.3 (19.0)105.5 (18.9) Platelets 10<sup>9</sup>/L, mean (SD)214.8 (72.0)200.1 (61.88)188.2 (58.36) UACR, g/mol, mean (SD)2.68 (3.78)1.86 (3.03)7.11 (14.64) UPCR, g/mol, mean (SD)10.7 (7.11)11.0 (6.86)19.4 (36.82)Concomitant medications, n (%) Statin7 (30.4)4 (19.0)5 (22.7) Omega-3 fatty acid7 (30.4)6 (28.6)12 (54.5) Fibrate11 (47.8)8 (38.1)11 (50.0) Other lipid-lowering agent3 (13.0)03 (13.6) Antidiabetic6 (26.1)3 (14.3)8 (36.4) Antihypertensive7 (30.4)2 (9.5)7 (31.8) Oral anticoagulants9 (39.1)1 (4.8)3 (13.6) Tamoxifen, estrogen, or progestin06 (28.6)0From <em>New England Journal of Medicine</em>, Stroes ESG, et al., Olezarsen, Acute Pancreatitis, and Familial Chylomicronemia Syndrome, 390, 1781-1792, Copyright © 2024 Massachusetts Medical Society. Reprinted with permission from Massachusetts Medical Society.<sup>⁎</sup>Historical pancreatitis events were obtained from the medical record and not adjudicated if &gt;5 years old. One patient in the placebo group had a history of 79 acute pancreatitis events. Without this patient, the mean (SD) number of acute pancreatitis episodes in the prior 10 years in the placebo group is 3.3 (4.9).<sup>†</sup>Thrombocytopenia was defined as a platelet count lower than 140,000 per cubic millimeter.<sup>‡</sup><em>n</em> = 20.<sup>§</sup>This variable represents the cholesterol content in the density fraction of &lt;1.006 g per milliliter and represents the combined cholesterol content of the chylomicron and VLDL fractions.ALT, alanine aminotransferase; apoB, apolipoprotein B; apoB-48, apolipoprotein B-48; apoC-III, apolipoprotein C-III; AST, aspartate aminotransferase; BMI, body mass index; eGFR, estimated glomerular filtration rate; FCS, familial chylomicronemia syndrome; HDL, high-density lipoprotein; LDL, low-density lipoprotein; SD, standard deviation; UACR, urine albumin to creatinine ratio; UPCR, urine protein to creatinine ratio; VLDL, very-low-density lipoprotein."
+        }
+      ]
+    },
+    {
+      "title": "Diagnosis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "FCS has traditionally been diagnosed by genetic testing or clinical criteria [4,9,17]. Genetic identification is based on homozygosity, compound heterozygosity, or double heterozygosity for known pathogenic variants in causative genes (<em>LPL, APOC2, APOA5, GPIHBP1</em>, or <em>LMF1</em>) [9]. Genetic testing can confirm a clinical diagnosis or clarify an ambiguous clinical profile. Interpreting genetic testing results is complex. A result of “indeterminate,” a common finding [10], does not exclude FCS because while most patients with FCS have ≥2 documented loss-of-function variants in LPL machinery, not all possible pathogenic variants are characterized [2,10]. Therefore, clinicians may consider initial clinical testing with validated clinical scoring systems to differentiate FCS from other forms of extreme HTG [4,10]."
+        },
+        {
+          "type": "paragraph",
+          "html": "The European FCS Expert Panel developed a scoring system in 2018 to differentiate between FCS and MCS based on fasting plasma TG levels, secondary HTG factors, history of pancreatitis, presence of abdominal pain, history of familial combined hyperlipidemia, response to treatment for hyperlipidemia, and age of symptom onset (<strong>Table S1</strong>) [11]. A score of ≥10 indicates FCS is very likely, ≤9 means FCS is unlikely, and ≤8 means FCS is very unlikely [11]. This score was validated in a large, ethnically and genetically diverse cohort of patients with FCS or MCS in the UK [12]. Other clinical scoring systems are published but not validated [39,40]."
+        },
+        {
+          "type": "paragraph",
+          "html": "The North American FCS (NAFCS) score was recently developed by expert physicians to identify FCS [10]. Scoring criteria include age, age of HTG onset, body mass index (BMI), history of pancreatitis, presence of secondary factors, and laboratory values (TG &gt;880 mg/dL, TG/TC ratio &gt;8 [measured in mg/dL], and apoB &lt;100 mg/dL [&lt;1.0 g/L]; <strong>Table S2</strong>) [10]. This score was validated in a population of patients with FCS or MCS [10] and showed a strong concordance with positive genetic diagnosis in patients from the Balance study of olezarsen [41]. A score of ≥60 indicates “definite FCS,” 45 to 60 is consistent with “likely FCS,” and 30 to 44 should prompt further genetic testing [10]."
+        },
+        {
+          "type": "paragraph",
+          "html": "If FCS is suspected based on clinical criteria or genetic testing, clinicians should consider referring the patient to a lipidologist or other specialist with experience treating FCS [3]. Dieticians familiar with FCS are also critical for optimally reducing TG levels."
+        }
+      ]
+    },
+    {
+      "title": "Traditional management and treatment of FCS",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Diet",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Regardless of adjunct pharmacologic treatment, patients with FCS must adhere to a strict, very low-fat FCS diet (&lt;15–20 g fat/day) and restrict simple carbohydrates and alcohol, which can increase TG levels and trigger acute pancreatitis [3,4,14]. Fat-soluble vitamins (A, D, E, K) should be monitored and possibly supplemented in the FCS diet [14]. Purified medium-chain triglycerides (MCTs) do not promote chylomicron synthesis and may be a good source of fat [8,32]; while MCT oils are commercially available, they are potentially costly."
+        },
+        {
+          "type": "paragraph",
+          "html": "Standard “low-fat” recipes for patients with hypercholesterolemia or other cardiometabolic conditions may still be too high in fat for a true FCS diet, in which limiting fat intake to &lt;20 g/day is recommended. Resources with low-fat recipes are available to support adherence to the FCS diet (<strong>Table S3</strong>). Specialized dietary programs that are personalized for the patient and developed in collaboration with a registered dietician can help develop sustainable eating habits. The clinical team should counsel patients to be careful during special events, and meal planning in advance can facilitate dietary adherence [14]. Patients with FCS must follow a low-fat diet indefinitely, and clinical teams should reevaluate the dietary plan after starting medications to determine whether further restriction of fat intake is needed to achieve target TG levels."
+        },
+        {
+          "type": "paragraph",
+          "html": "Patients with FCS may develop type 3c diabetes due to insulin insufficiency resulting from acute pancreatitis [42]. They may also have concurrent type 2 diabetes, although this is not typical [17,42,43]. Many diabetes diets have unsuitably high fat content for patients with FCS. Diabetes educators and dieticians should be aware of FCS and the need for low dietary fat (&lt;15–20 g/day) to provide appropriate counseling."
+        }
+      ]
+    },
+    {
+      "title": "Medications and comorbid conditions",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Common TG-lowering medications (eg, statins, fibrates, and omega-3 fatty acids) are unlikely to help patients with FCS [1,4,14,38]. Omega-3 fatty acids also increase overall fat intake [14], but docosahexaenoic acid and eicosapentaenoic acid may be supplemented at very low doses because they cannot be synthesized in sufficient amounts by the human body. Some clinicians may choose to withhold omega-3 fatty acids in patients with TG levels exceeding 800 mg/dL until TG levels fall below 500 mg/dL through diet and/or medications. Medications that may increase TG levels (listed comprehensively in the NAFCS scoring system [10]) should be avoided. Comorbidities that raise TG levels, such as hypothyroidism and uncontrolled diabetes, should be investigated and treated [10,11]."
+        }
+      ]
+    },
+    {
+      "title": "Apolipoprotein C-III",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Recent therapeutic approaches to FCS focus on apolipoprotein C-III (apoC-III), a 79-amino acid glycoprotein encoded by the <em>APOC3</em> gene [4]. Initial studies on loss-of-function <em>APOC3</em> variants revealed a correlation between apoC-III and TG levels, highlighting <em>APOC3</em> as a promising therapeutic target for TG reduction [44,45]. The presumed primary mechanism by which apoC-III raises TG levels is inhibition of LPL-mediated lipolysis [46], implying that apoC-III reduction would be ineffective in patients with FCS and inadequate LPL activity [19]. However, evidence of an apoC-III–mediated pathway for LPL-independent hepatic clearance of TRLs [[47], [48], [49], [50]] prompted clinical studies demonstrating that apoC-III reduction via <em>APOC3</em> RNA-directed therapies (volanesorsen, olezarsen, and plozasiran) can indeed lower TG levels in patients with FCS [[16], [17], [18], [19]], although the effect may be stronger in clinically identified patients with residual LPL activity relative to those with genetically identified FCS [51]. These agents are not disease-modifying and do not address the cause of FCS; however, they improve lipid clearance, likely by enhancing LPL-independent hepatic uptake of TRLs (Fig. 2) [19,52]. As olezarsen is now available in the US, its development, clinical data, and practical considerations for use are summarized as follows.Fig. 2LPL-independent pathway in FCS and treatment with <em>APOC3</em> antisense therapy.<em>APOC3</em>, apolipoprotein C3; apoC-III, apolipoprotein C-III; FCS, familial chylomicronemia syndrome; LPL, lipoprotein lipase; TG, triglyceride; TRL, TG-rich lipoprotein; VLDL, very-low-density lipoprotein.Fig 2"
+        }
+      ]
+    },
+    {
+      "title": "Treatment with olezarsen",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Development of olezarsen",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Volanesorsen is an earlier ASO designed to reduce <em>APOC3</em> mRNA that was approved in the EU in 2019 as an adjunct to diet in adult patients with genetically identified FCS and at high risk for pancreatitis [21]. Volanesorsen treatment in 3 patients with FCS initially confirmed that apoC-III reduction could lower TG levels in patients with FCS who lack adequate LPL activity [19]; volanesorsen also appeared to reduce pancreatitis incidence in the subsequent APPROACH trial, a phase 3 placebo-controlled study in 66 patients with FCS [16,53]. Volanesorsen was not approved in the US due to concerns about thrombocytopenia [16,17]. Advancements in conjugating ASOs to highly tissue-specific ligands provided a potential mechanism for avoiding off-target reductions in platelet count observed with volanesorsen treatment. Olezarsen differs from volanesorsen by the inclusion of 3 GalNAc residues that bind to asialoglycoprotein receptors on hepatocytes, permitting ASO delivery to hepatocyte nuclei where <em>APOC3</em> mRNA is generated and allowing for greater potency and less systemic exposure [16,17,54]. Otherwise, olezarsen has the same nucleotide sequence, chemical composition, and mechanism of action as volanesorsen [17]. Olezarsen was approved in the US in December 2024 at a recommended dosage of 80 mg administered as a subcutaneous injection once monthly as an adjunct to diet to reduce TG levels in adults with FCS; the US indication does not require a genetic diagnosis [25]. In Europe, olezarsen was approved in September 2025 as an adjunct to diet in adults for the treatment of genetically confirmed FCS [26]."
+        }
+      ]
+    },
+    {
+      "title": "Clinical efficacy of olezarsen",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The phase 3 Balance trial assessed the efficacy and safety of olezarsen administered subcutaneously every 4 weeks for 53 weeks in 66 patients with genetically identified FCS (Table 1) [17]. The trial met the primary endpoint of reduction from baseline in TG levels following olezarsen 80 mg vs placebo after 6 months [17]; olezarsen 80 mg was also associated with apparent reductions from baseline in apoC-III (months 6 and 12), TG levels (month 12; Fig. 3) [17], and acute pancreatitis incidence (1 and 11 acute pancreatitis episodes among 22 and 23 patients receiving olezarsen 80 mg and placebo, respectively), although these were not statistically significant under the prespecified testing hierarchy [17]. Patients were counseled to maintain an FCS diet during the study [17].Fig. 3Reduction in fasting plasma levels of triglycerides (A) and apoC-III (B) with olezarsen and plozasiran [17,18].Fig 3*Endpoint calculated from an average of weeks 23, 25, and 27. <sup>†</sup>Endpoint calculated from an average of weeks 51 and 53. <sup>‡</sup>Endpoint calculated as the mean of months 10 and 12. apoC-III, apolipoprotein C-III; CI, confidence interval; LSM, least-squares mean."
+        }
+      ]
+    },
+    {
+      "title": "Clinical safety of olezarsen",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "It is unknown whether adverse reactions in clinical practice will reflect those observed in trials with olezarsen, as long-term real-world data are not yet available. Clinicians should monitor for adverse reactions described in the FDA-approved prescribing information that occurred in &gt;5% of olezarsen-treated patients (either dose) and at &gt;3% higher frequency than in placebo-treated patients in Balance, which included injection-site reactions (19% vs 9%), decreased platelet count (12% vs 4%), and arthralgia (9% vs 0%) [25]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Per the prescribing information, the most common reason for treatment discontinuation was hypersensitivity reactions, defined as symptoms of bronchospasm, diffuse erythema, facial swelling, urticaria, chills, or myalgia [25]. Notably, these treatment discontinuations were not attributed to hypersensitivity in the Balance study publication due to differing clinical and regulatory definitions. The adverse events (AEs) that led to discontinuation in 3 patients treated with olezarsen (2, olezarsen 80 mg; 1, olezarsen 50 mg) were reported as diarrhea, vomiting, chest discomfort, chills, myalgia, trismus, flushing, and 1 death (olezarsen 50 mg; considered unrelated to treatment) [17]. Since the FDA identified chills and myalgia as hypersensitivity reactions, some events captured as hypersensitivity reactions in the prescribing information were likely reported in Balance as influenza-like illness, defined as AEs of influenza-like illness, pyrexia, feeling hot, body temperature increased, chills, myalgia, or arthralgia, starting on the day of injection or the next day [17]. One patient in each olezarsen group and no placebo-treated patients experienced influenza-like illness [17]. More familiar hypersensitivity reactions such as urticaria were not associated with treatment discontinuation in Balance: no patients experienced an anaphylactic reaction according to the narrow FDA Medical Query [17], and no reported hypersensitivity AEs, defined by the narrow Standardized MedDRA Query as the preferred terms of dermatitis, eczema, and macular rash, led to treatment discontinuation [17]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Since patients may not recognize influenza-like symptoms as a hypersensitivity reaction, clinicians should advise patients to read the FDA-approved patient labeling, inform them about the signs and symptoms of hypersensitivity reactions to olezarsen, and instruct them to seek medical attention and discontinue olezarsen if such reactions occur [25]. If a patient experiences an influenza-like illness but wishes to continue treatment, subsequent steps should be informed by symptom severity and shared clinician-patient decision-making."
+        }
+      ]
+    },
+    {
+      "title": "Monitoring laboratory results during olezarsen treatment",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors recommend regular laboratory testing in patients prescribed olezarsen to monitor efficacy and safety (Table 2). The European FCS Expert Panel recommends TG testing at least 4 times/year following pancreatitis in patients with unstable TG levels and at least twice a year in those with stable TG levels and no history of HTG-induced pancreatitis. Clinicians may consider monitoring TG levels and lipids more frequently during olezarsen treatment. If TG levels remain unchanged or increase, the patient’s diet should be investigated, and the fat content further reduced if warranted.Table 2Monitoring laboratory results during olezarsen treatment [11,17,25,65].Table 2ConsiderationsAuthor recommendationsTriglycerides• A patient’s triglyceride level is expected to decrease during olezarsen treatment but may remain unchanged or even increase• To monitor the risk for pancreatitis, the European FCS Expert Panel recommends TG testing at least 4 times per year directly following pancreatitis in patients who have unstable TG levels and at least twice a year in patients who have stable TG levels without a history of HTG-induced pancreatitis• Clinicians may consider monitoring the patient’s TG and lipid panels more frequently during olezarsen treatment• Perform a lipid panel every 3 months for the first year of olezarsen treatment, then every 6 months thereafter• Investigate the patient’s diet and lower fat content if triglyceride levels remain elevated or respond minimally with olezarsen treatmentPlatelet count reduction• In the Balance trial, the mean platelet count in patients receiving olezarsen 80 mg was 188,000/mm<sup>3</sup> at baseline and decreased by 10% after a year of treatment• No patients reported a reduction in platelet count below 50,000/mm<sup>3</sup>• No major bleeding events were associated with low platelet counts• The proportion of patients who experienced any bleeding adverse event was similar across olezarsen and placebo groups• Perform a complete blood count every 6 months for the first year of olezarsen treatment, then every 12 months thereafterFasting glucose and HbA1c• In the Balance trial, small increases in fasting glucose (≤17 mg/dL) and HbA1c (&lt;0.2 percentage points) levels were observed in olezarsen-treated patients• Per the prescribing information, the incidence of hyperglycemia was higher in olezarsen-treated patients without a medical history of diabetes at baseline (52%) compared with those treated with placebo (35%)• Monitor fasting blood glucose every 12 months; for patients with diabetes, monitor HbA1c levels every 12 monthsIncreases in liver enzyme levels• In the Balance trial, increases in baseline liver enzyme levels in patients who received olezarsen were within the normal range, occurring throughout the first 3 months and stabilizing thereafter; liver enzyme levels returned towards baseline with discontinuation of olezarsen• No patient experienced hepatic failure; none of the olezarsen-treated patients had ALT levels ≥3 × ULN, only 1 olezarsen-treated patient had AST levels ≥3 × ULN, no patient had total bilirubin levels ≥2 × ULN, and none met the criteria for Hy’s Law• Perform a liver function test at months 1 and 3, then every 6 months thereafter• Increase testing frequency if elevations or abnormalities are observed• No dose adjustments are recommended for patients with mild hepatic impairment; olezarsen has not been studied in patients with moderate or severe hepatic impairment• In the Balance study, the stopping rules for liver chemistry elevations specified that olezarsen would be stopped if: ALT or AST &gt;8 × ULN (confirmed); ALT or AST &gt;5 × ULN (confirmed) that persisted for ≥2 weeks; ALT or AST &gt;3 × ULN (or the greater of 2 × baseline value or 3 × ULN if baseline was &gt;ULN; confirmed) and total bilirubin &gt;2 × ULN or INR &gt;1.5; ALT or AST &gt;3 × ULN (or the greater of 2 × baseline value or 3 × ULN if baseline was &gt;ULN; confirmed) and the new appearance (i.e., onset coincides with the changes in hepatic enzymes) of fatigue, nausea, vomiting, right upper quadrant pain or tenderness, fever, rash, and/or concomitant eosinophilia (&gt;ULN) [17]LDL-cholesterol and apoB• Olezarsen is expected to increase LDL cholesterol and apoB levels in patients with FCS, who characteristically have low levels of LDL cholesterol• In the Balance trial, mean LDL cholesterol and total apoB increased over 6 months in olezarsen-treated patients• The maximum LDL cholesterol value remained &lt;70 mg/dL for 74% of olezarsen-treated patients• Increases in LDL cholesterol were accompanied by a decrease in total non-HDL cholesterol• Perform a lipid panel every 3 months for the first year of olezarsen treatment, then every 6 months thereafter• The physician-authors recommend intensifying LDL–cholesterol-lowering therapies in patients who are at high ASCVD risk and whose LDL cholesterol level remains below targetPhysician-authors: A Bajaj, EAO, A Brown, DG, and SJB.ALT, alanine aminotransferase; apoB, apolipoprotein B; ASCVD, atherosclerotic cardiovascular disease; AST, aspartate aminotransferase; FCS, familial chylomicronemia syndrome; HbA1c, hemoglobin A1c; HDL, high-density lipoprotein; HTG, hypertriglyceridemia; INR, international normalized ratio; LDL, low-density lipoprotein; TG, triglyceride; ULN, upper limit of normal."
+        },
+        {
+          "type": "paragraph",
+          "html": "Olezarsen may lower platelet count [25]. In Balance, the mean baseline platelet count in patients receiving olezarsen 80 mg was 188,000/mm<sup>3</sup> and decreased by a mean of 10% after a year of treatment [25]. No patients reported platelet count reduction &lt;50,000/mm<sup>3</sup>, and there were no major bleeding events associated with low levels [25]. Fasting glucose and hemoglobin A1c (HbA1c) may increase with olezarsen. Small increases in fasting glucose (≤17 mg/dL) and HbA1c (&lt;0.2 percentage points) occurred in olezarsen-treated patients in Balance [17,25]. Liver enzyme levels may also increase. In Balance, baseline liver enzyme levels increased within normal range during the first 3 months of olezarsen treatment and stabilized thereafter [25]. Liver enzyme levels returned towards baseline with discontinuation of olezarsen [25]. Lastly, patients with FCS typically have low levels of low-density lipoprotein cholesterol (LDL-C), and apoC-III reduction can increase LDL-C and apoB levels from baseline in this population. In Balance, patients treated with olezarsen had increased LDL-C and total apoB levels compared with those receiving placebo; 74% of olezarsen-treated patients maintained maximum LDL-C levels &lt;70 mg/dL [25]."
+        }
+      ]
+    },
+    {
+      "title": "Olezarsen in special populations",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Clinicians may have special concerns for patients with FCS who become pregnant, are children, or are older patients receiving multiple medications. Pregnancy is relevant because rising TG levels during the third trimester may be severely elevated in FCS and increase the risk for acute pancreatitis [25]. Olezarsen is not approved for use in pregnancy, and there are currently no data on olezarsen in pregnant women or its presence in the breast milk of lactating women, its effects on the breastfed infant, or its impact on milk production [25]. Pediatric patients were excluded from Balance and are ineligible for olezarsen [17,25]. No differences in the safety or effectiveness of olezarsen were observed in patients ≥65 years old (38% of patients in trials to date; <em>n</em> = 111) compared with younger adults [25]. Dose adjustment is not necessary for older patients [25] and drug-drug interactions are not anticipated [25]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Dose adjustment is also not required for patients with mild to moderate renal impairment (estimated glomerular filtration rate ≥30 to &lt;90 mL/min) [25] or mild hepatic impairment [25]. Patients with more severe renal or hepatic impairment were excluded from Balance, limiting available information in these populations [25]."
+        }
+      ]
+    },
+    {
+      "title": "Olezarsen usage information",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Comprehensive patient information and usage instructions for olezarsen are available in the prescribing information (<strong>Fig. S1</strong>) [25]. Patients receiving olezarsen should remain on an FCS diet (&lt;20 g fat/day) to achieve expected treatment outcomes [25]. Alternating injection sites between administrations is recommended to reduce the possibility of injection-site reactions. Symptomatic interventions, such as icing the injection site prior to and after dosing, can be considered."
+        }
+      ]
+    },
+    {
+      "title": "Management of acute pancreatitis",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "An episode of acute pancreatitis necessitates hospitalization with aggressive intravenous hydration, initial bowel rest, pain control, and careful monitoring for organ failure [55,56]. Patients should receive intravenous fluids while refraining from oral intake for ≥48 h, with gradual attempts to introduce clear liquids orally; after clear liquids for an additional 48 h, patients can gradually advance to soft and whole foods as tolerated while maintaining a total fat intake of &lt;20 g/day. Although clinical guidelines recommend enteral tube feeding within 24 h over parenteral nutrition in patients experiencing acute pancreatitis [57,58], this may be more appropriate for non–HTG-induced pancreatitis and is not advised for patients with FCS."
+        },
+        {
+          "type": "paragraph",
+          "html": "Insulin infusions may stimulate LPL activity and lower TG levels in patients with insulin-deficient diabetes presenting with HTG due to insulin deficiency but are ineffective in those with complete LPL deficiency and can cause hypoglycemia [3,8,59,60]. Plasmapheresis, if available, can rapidly reduce TG levels and manage acute pancreatitis [59], but there is no convincing evidence to support lipoprotein (chylomicron) apheresis as an effective form of long-term treatment for extreme HTG [4,8]. Both intravenous insulin and plasmapheresis are not generally recommended for HTG-induced acute pancreatitis [60]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Patients with FCS presenting with acute pancreatitis may sometimes be misdiagnosed as HTG due to alcohol abuse or as drug-seeking behavior for reported chronic abdominal pain. Consultation with the patient’s FCS specialist at the time of presentation may be helpful for making the correct diagnosis."
+        }
+      ]
+    },
+    {
+      "title": "Future FCS therapies",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Plozasiran",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Plozasiran, an siRNA that reduces hepatic apoC-III production, is in late-stage clinical development for FCS treatment [4,18]. In the phase 3 PALISADE trial of 75 patients with genetically identified FCS or symptomatic persistent chylomicronemia, plozasiran 25 mg and 50 mg administered subcutaneously every 3 months met the primary endpoint of reduction from baseline in TG levels at 10 months vs placebo; plozasiran was associated with significantly reduced apoC-III levels and TG levels compared with placebo (Fig. 3) [18]. When data from the plozasiran 25 and 50 mg groups were pooled, the treatment was associated with decreased acute pancreatitis incidence compared with pooled placebo [18]. AE frequency was generally similar between patients receiving plozasiran vs placebo; severe and serious AEs were more common in placebo-treated patients [18]. There were no deaths or AEs involving hypersensitivity or anaphylaxis. Mild injection-site reactions occurred in 1 (4%), 4 (15%), and 1 (4%) patient in the plozasiran 50 mg, 25 mg, and placebo groups, respectively [18]. HbA1c increased in 3 patients in each plozasiran group and in no placebo-treated patients [18]. No patients experienced alanine aminotransferase or aspartate aminotransferase levels &gt;3 × the upper limit of normal, and platelet levels remained similar to baseline in all groups [18]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Olezarsen and plozasiran have not been directly compared in clinical trials. Comparisons between the two phase 3 trials are confounded by differences in the patient populations: Balance enrolled only patients with genetically identified FCS [17], while PALISADE enrolled patients with genetically identified FCS or symptomatic persistent chylomicronemia [18]. Additionally, the data in PALISADE and Balance were analyzed differently: the primary endpoint in Balance was the least-squares mean change in TG levels from baseline to month 6 [17], while the primary endpoint in PALISADE was the median change in TG levels from baseline to month 10 (Fig. 3) [18]. In January 2025, the FDA accepted the New Drug Application for plozasiran for the treatment of FCS, with a Prescription Drug User Fee Act action date in November 2025 [61]."
+        }
+      ]
+    },
+    {
+      "title": "Other APOC3-targeted therapies",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "RN0361 is a liver-directed, <em>APOC3</em>-targeted siRNA being investigated in a phase 1 study in healthy adult participants and a phase 2 study in adult patients with HTG (including patients with FCS; NCT06471543) [62]. CS-121 is an in vivo <em>APOC3</em> base-editing therapy delivered by lipid nanoparticles under investigation in a phase 1 study in adults with FCS (NCT07176923) [63]. Primary completion of the studies for both agents is anticipated in late 2026."
+        }
+      ]
+    },
+    {
+      "title": "Limitations",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<em>APOC3</em>-targeting therapies are approved [21,25,26] or under investigation [18,62,63] for only adult patients with FCS; therefore, there remains an unmet need for therapies for pediatric patients with FCS. There also remains a need for information on the use of these therapies during pregnancy; pregnancy tends to increase TG levels, and this increase may be severe in genetically susceptible patients [25,64]. Notably, the indications for both volanesorsen and olezarsen emphasize the use of these agents as adjuncts to diet [21,25,26], affirming that low-fat diet remains the mainstay of treatment for FCS regardless of the magnitude of TG lowering observed with <em>APOC3</em>-targeting therapies. The FDA prescribing information for plozasiran, anticipated in late 2025, will clarify whether the same dietary guidance will apply to the entire class—as with the Balance study [17], the PALISADE study required patients to maintain a low-fat diet [18]—and real-world evidence may provide some insight into the importance of consistent dietary adherence in combination with <em>APOC3</em>-targeting pharmacologic treatment over the long term. Additionally, the requirement for genetic testing differs between regulatory agencies; in the US, olezarsen may be prescribed to patients with FCS without genetic testing [25], while in Europe, a genetically confirmed diagnosis is required [26]. It remains to be seen whether these requirements will be consistently applied for plozasiran and what implications this may have regarding patient access."
+        }
+      ]
+    },
+    {
+      "title": "Conclusions",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Patients with FCS face persistent risk for acute pancreatitis and its complications despite a low-fat diet and conventional TG-lowering medications. Clinicians must be alerted to the signs and symptoms of FCS to ensure timely diagnosis and appropriate management. The recent approval of olezarsen in the US as an adjunct to diet in adult patients with FCS provides an opportunity to reduce TG levels and potentially lower the risk for acute pancreatitis."
+        }
+      ]
+    },
+    {
+      "title": "Funding",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This work was supported by Ionis Pharmaceuticals, Inc."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Archna Bajaj:</strong> Writing – review &amp; editing, Writing – original draft, Conceptualization. <strong>Elif A. Oral:</strong> Writing – review &amp; editing, Writing – original draft, Conceptualization. <strong>Alan Brown:</strong> Writing – review &amp; editing, Writing – original draft, Conceptualization. <strong>Daniel Gaudet:</strong> Writing – review &amp; editing, Writing – original draft, Conceptualization. <strong>Veronica J. Alexander:</strong> Writing – review &amp; editing, Writing – original draft, Conceptualization. <strong>Ewa Karwatowska-Prokopczuk:</strong> Writing – review &amp; editing, Writing – original draft, Conceptualization. <strong>Seth J. Baum:</strong> Writing – review &amp; editing, Writing – original draft, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare the following financial interests/personal relationships which may be considered as potential competing interests:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<strong>A.Ba.</strong> has received research support and/or consultation fees from Alexion Pharmaceuticals, Amgen, Arrowhead Pharmaceuticals, Chiesi, Eli Lilly, Ionis, Kaneka Corporation, NewAmsterdam Pharma, Novartis, and Regeneron Pharmaceuticals. <strong>E.A.O.</strong> has received clinical trial support, grant support, and/or consultation fees from Akcea Therapeutics/Ionis, Amryt Pharma (now part of Chiesi), Fractyl Health, Gemphire Therapeutics, GI Dynamics, Marea Therapeutics, Novo Nordisk, Regeneron Pharmaceuticals, and Rhythm Pharmaceuticals; served as an advisor to Akcea Therapeutics/Ionis, Amryt Pharma (now part of Chiesi), and Regeneron Pharmaceuticals; has an invention disclosure filed for novel mibavademab effects under review; has royalty rights from the use of metreleptin in lipodystrophy; and is a recipient of federal grants from the National Institute of Diabetes and Digestive and Kidney Diseases. <strong>A.Br.</strong> reports consultation fees from Amgen, Arrowhead Pharmaceuticals, Ionis, NewAmsterdam Pharma, Pfizer, and Regeneron Pharmaceuticals and received fees paid to their institution from Amgen, Arrowhead Pharmaceuticals, and Ionis. <strong>D.G.</strong> reports consultation fees, clinical trials fees, or research grants from Alnylam Pharmaceuticals, Amgen, Arrowhead Pharmaceuticals, AstraZeneca, Boehringer Ingelheim, Chiesi (Amryt Pharma), CRISPR Therapeutics, Dalcor Pharma, Eli Lilly, Esperion Therapeutics, Ionis, Kowa Pharmaceuticals, NewAmsterdam Pharma, Novartis, Novo Nordisk, Pfizer, Regeneron Pharmaceuticals, Sanofi, Ultragenyx, and Verve Therapeutics. <strong>V.J.A.</strong> is an employee of Ionis. <strong>E.K.P.</strong> was an employee of Ionis when this review was written. <strong>S.J.B.</strong> reports personal fees from Akcea Therapeutics/Ionis, Altimmune, Amgen, Axcella Health, AstraZeneca, Boehringer Ingelheim, Eli Lilly, Esperion Therapeutics, Madrigal Pharmaceuticals, Novartis, Regeneron Pharmaceuticals, and Sanofi."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "StroesE.MoulinP.ParhoferK.G.ReboursV.LohrJ.M.AvernaM.Diagnostic algorithm for familial chylomicronemia syndromeAtheroscler Suppl232017172799871510.1016/j.atherosclerosissup.2016.10.002"
+    },
+    {
+      "html": "LaroucheM.WattsG.F.BallantyneC.GaudetD.An overview of persistent chylomicronemia: much more than meets the eyeCurr Opin Endocrinol Diabetes Obes322202575883992741710.1097/MED.0000000000000903PMC11872273"
+    },
+    {
+      "html": "JavedF.HegeleR.A.GargA.PatniN.GaudetD.WilliamsL.Familial chylomicronemia syndrome: an expert opinion statement from the National Lipid AssociationJ Clin Lipidol1932025382403<a href=\"https://www.lipidjournal.com/article/S1933-2874(25)00066-2/fulltext\">https://www.lipidjournal.com/article/S1933-2874(25)00066-2/fulltext</a>4023411110.1016/j.jacl.2025.03.013"
+    },
+    {
+      "html": "SaadatagahS.LaroucheM.NaderianM.NambiV.BrissonD.KulloI.J.Recognition and management of persistent chylomicronemia: a Joint Expert Clinical Consensus by the National Lipid Association and the American Society for Preventive CardiologyJ Clin Lipidol1942025723736<a href=\"https://www.lipidjournal.com/article/S1933-2874(25)00065-0/fulltext\">https://www.lipidjournal.com/article/S1933-2874(25)00065-0/fulltext</a>4036037410.1016/j.jacl.2025.03.012PMC13227694"
+    },
+    {
+      "html": "NemethA.HarangiM.DaroczyB.JuhaszL.ParaghG.FulopP.Identifying patients with familial chylomicronemia syndrome using FCS score-based data mining methodsJ Clin Med1115202243113589340210.3390/jcm11154311PMC9331828"
+    },
+    {
+      "html": "PallazolaV.A.SajjaA.DerenbeckerR.OgunmorotiO.ParkJ.SathiyakumarV.Prevalence of familial chylomicronemia syndrome in a quaternary care centerEur J Prev Cardiol27192020227622783171826110.1177/2047487319888054"
+    },
+    {
+      "html": "SchererJ.SinghV.P.PitchumoniC.S.YadavD.Issues in hypertriglyceridemic pancreatitis: an updateJ Clin Gastroenterol48320141952032417217910.1097/01.mcg.0000436438.60145.5aPMC3939000"
+    },
+    {
+      "html": "BashirB.HoJ.H.DownieP.HamiltonP.FernsG.DattaD.Severe hypertriglyceridaemia and chylomicronaemia syndrome-causes, clinical presentation, and therapeutic optionsMetabolites13520236213723366210.3390/metabo13050621PMC10224445"
+    },
+    {
+      "html": "BrownE.E.SturmA.C.CuchelM.BraunL.T.DuellP.B.UnderbergJ.A.Genetic testing in dyslipidemia: a scientific statement from the National Lipid AssociationJ Clin Lipidol14420203984133250759210.1016/j.jacl.2020.04.011"
+    },
+    {
+      "html": "HegeleR.A.AhmadZ.AshrafA.BaldassarraA.BrownA.S.ChaitA.Development and validation of clinical criteria to identify familial chylomicronemia syndrome (FCS) in North AmericaJ Clin Lipidol19120248394<a href=\"https://www.sciencedirect.com/science/article/pii/S1933287424002514\">https://www.sciencedirect.com/science/article/pii/S1933287424002514</a>3953750310.1016/j.jacl.2024.09.008"
+    },
+    {
+      "html": "MoulinP.DufourR.AvernaM.ArcaM.CefaluA.B.NotoD.Identification and diagnosis of patients with familial chylomicronaemia syndrome (FCS): expert panel recommendations and proposal of an &quot;FCS score&quot;Atherosclerosis27520182652722998005410.1016/j.atherosclerosis.2018.06.814"
+    },
+    {
+      "html": "BashirB.KwokS.WierzbickiA.S.JonesA.DawsonC.DownieP.Validation of the familial chylomicronaemia syndrome (FCS) score in an ethnically diverse cohort from UK FCS registry: implications for diagnosis and differentiation from multifactorial chylomicronaemia syndrome (MCS)Atherosclerosis391202411747610.1016/j.atherosclerosis.2024.11747638447437"
+    },
+    {
+      "html": "BlomD.J.O’DeaL.DigenioA.AlexanderV.J.Karwatowska-ProkopczukE.WilliamsK.R.Characterizing familial chylomicronemia syndrome: baseline data of the APPROACH studyJ Clin Lipidol125201812341243e5<a href=\"https://www.lipidjournal.com/article/S1933-2874(18)30242-3/fulltext\">https://www.lipidjournal.com/article/S1933-2874(18)30242-3/fulltext</a>3031806610.1016/j.jacl.2018.05.013"
+    },
+    {
+      "html": "WilliamsL.RhodesK.S.KarmallyW.WelsteadL.A.AlexanderL.SuttonL.Familial chylomicronemia syndrome: bringing to life dietary recommendations throughout the life spanJ Clin Lipidol12420189089192980490910.1016/j.jacl.2018.04.010"
+    },
+    {
+      "html": "BerglundL.BrunzellJ.D.GoldbergA.C.GoldbergI.J.SacksF.MuradM.H.Evaluation and treatment of hypertriglyceridemia: an Endocrine Society clinical practice guidelineJ Clin Endocrinol Metab9792012296929892296267010.1210/jc.2011-3213PMC3431581"
+    },
+    {
+      "html": "WitztumJ.L.GaudetD.FreedmanS.D.AlexanderV.J.DigenioA.WilliamsK.R.Volanesorsen and triglyceride levels in familial chylomicronemia syndromeN Engl J Med381620195315423139050010.1056/NEJMoa1715944"
+    },
+    {
+      "html": "StroesE.S.G.AlexanderV.J.Karwatowska-ProkopczukE.HegeleR.A.ArcaM.BallantyneC.M.Olezarsen, acute pancreatitis, and familial chylomicronemia syndromeN Engl J Med390192024178117923858724710.1056/NEJMoa2400201"
+    },
+    {
+      "html": "WattsG.F.RosensonR.S.HegeleR.A.GoldbergI.J.GalloA.MertensA.Plozasiran for managing persistent chylomicronemia and pancreatitis riskN Engl J Med392220251271373922525910.1056/NEJMoa2409368"
+    },
+    {
+      "html": "GaudetD.BrissonD.TremblayK.AlexanderV.J.SingletonW.HughesS.G.Targeting APOC3 in the familial chylomicronemia syndromeN Engl J Med3712320142200220610.1056/NEJMoa140028425470695"
+    },
+    {
+      "html": "GaudetD.AlexanderV.J.BakerB.F.BrissonD.TremblayK.SingletonW.Antisense inhibition of apolipoprotein C-III in patients with hypertriglyceridemiaN Engl J Med3735201543844710.1056/NEJMoa140028326222559"
+    },
+    {
+      "html": "Almac Pharma Services Ireland Ltd. Waylivra summary of product characteristics. <a href=\"https://www.ema.europa.eu/en/documents/product-information/waylivra-epar-product-information_en.pdf\">https://www.ema.europa.eu/en/documents/product-information/waylivra-epar-product-information_en.pdf</a>, 2019 (accessed 18 December 2024)."
+    },
+    {
+      "html": "Business Wire. WAYLIVRA® (volanesorsen), the first and only therapy for FCS, an ultra-rare and life-threatening condition, to be available on the NHS in England. <a href=\"https://www.businesswire.com/news/home/20200918005029/en/\">https://www.businesswire.com/news/home/20200918005029/en/</a>, 2020 (accessed 18 December 2024)."
+    },
+    {
+      "html": "PTC Therapeutics. PTC Therapeutics announces Waylivra™ approval in Brazil as first treatment for familial chylomicronemia syndrome. <a href=\"https://ir.ptcbio.com/news-releases/news-release-details/ptc-therapeutics-announces-waylivratm-approval-brazil-first\">https://ir.ptcbio.com/news-releases/news-release-details/ptc-therapeutics-announces-waylivratm-approval-brazil-first</a>, 2021 (accessed 18 December 2024)."
+    },
+    {
+      "html": "PTC Therapeutics Chile S.P.A. Folleto de información al profesional Waylivra. <a href=\"https://www.ispch.gob.cl/wp-content/uploads/2023/09/F-27740.pdf\">https://www.ispch.gob.cl/wp-content/uploads/2023/09/F-27740.pdf</a>, 2022 (accessed 18 December 2024)."
+    },
+    {
+      "html": "Ionis Pharmaceuticals Inc. TRYNGOLZA (olezarsen) injection, for subcutaneous use. Highlights of prescribing information. <a href=\"https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/218614s000lbl.pdf\">https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/218614s000lbl.pdf</a>, 2024 (accessed 24 December 2024)."
+    },
+    {
+      "html": "Ionis Ireland Limited. Tryngolza summary of product characteristics. <a href=\"https://www.ema.europa.eu/en/medicines/human/EPAR/tryngolza#product-info\">https://www.ema.europa.eu/en/medicines/human/EPAR/tryngolza#product-info</a>, 2025 (accessed 17 October 2025)."
+    },
+    {
+      "html": "WattsG.F.Shooting the messenger to treat hypertriglyceridemiaN Engl J Med390192024181818233858724810.1056/NEJMe2402653"
+    },
+    {
+      "html": "BaassA.PaquetteM.BernardS.HegeleR.A.Familial chylomicronemia syndrome: an under-recognized cause of severe hypertriglyceridaemiaJ Intern Med287420203403483184087810.1111/joim.13016"
+    },
+    {
+      "html": "UedaM.Familial chylomicronemia syndrome: importance of diagnostic vigilanceTransl Pediatr11102022158815943634545110.21037/tp-22-488PMC9636463"
+    },
+    {
+      "html": "DavidsonM.StevensonM.HsiehA.AhmadZ.Roeters van LennepJ.CrowsonC.The burden of familial chylomicronemia syndrome: results from the global IN-FOCUS studyJ Clin Lipidol1242018898907e2<a href=\"https://www.lipidjournal.com/article/S1933-2874(18)30207-1/fulltext\">https://www.lipidjournal.com/article/S1933-2874(18)30207-1/fulltext</a>2978457210.1016/j.jacl.2018.04.009"
+    },
+    {
+      "html": "O&#x27;DeaL.S.L.MacDougallJ.AlexanderV.J.DigenioA.HubbardB.ArcaM.Differentiating familial chylomicronemia syndrome from multifactorial severe hypertriglyceridemia by clinical profilesJ Endocr Soc3122019239724103177776810.1210/js.2019-00214PMC6864364"
+    },
+    {
+      "html": "D&#x27;ErasmoL.Di CostanzoA.CassandraF.MinicocciI.PolitoL.MontaliA.Spectrum of mutations and long-term clinical outcomes in genetic chylomicronemia syndromesArterioscler Thromb Vasc Biol39122019253125413161905910.1161/ATVBAHA.119.313401"
+    },
+    {
+      "html": "GaudetD.BlomD.J.BruckertE.StroesE.KasteleinJ.J.P.JohnK.Acute pancreatitis is highly prevalent and complications can be fatal in patients with familial chylomicronemia: results from a survey of lipidologistJ Clin Lipidol1032016680681"
+    },
+    {
+      "html": "PaquetteM.BernardS.HegeleR.A.BaassA.Chylomicronemia: differences between familial chylomicronemia syndrome and multifactorial chylomicronemiaAtherosclerosis28320191371423065501910.1016/j.atherosclerosis.2018.12.019"
+    },
+    {
+      "html": "DavidsonD.SlotaC.Vera-LlonchM.BrownT.M.HsiehA.FehnelS.Development of a novel PRO instrument for use in familial chylomicronemia syndromeJ Patient Rep Outcomes5120217210.1186/s41687-021-00347-534382114PMC8357905"
+    },
+    {
+      "html": "SofferD.E.MarstonN.A.MakiK.C.JacobsonT.A.BittnerV.A.PenaJ.M.Role of apolipoprotein B in the clinical management of cardiovascular risk in adults: an expert clinical consensus from the National Lipid AssociationJ Clin Lipidol1852024e647e663<a href=\"https://www.lipidjournal.com/article/S1933-2874(24)00240-X/fulltext\">https://www.lipidjournal.com/article/S1933-2874(24)00240-X/fulltext</a>3925608710.1016/j.jacl.2024.08.013PMC11734832"
+    },
+    {
+      "html": "RygielK.Hypertriglyceridemia - common causes, prevention and treatment strategiesCurr Cardiol Rev14120186776<a href=\"https://www.eurekaselect.com/article/88157\">https://www.eurekaselect.com/article/88157</a>2936642510.2174/1573403X14666180123165542PMC5872265"
+    },
+    {
+      "html": "ChaudhryR.ViljoenA.WierzbickiA.S.Pharmacological treatment options for severe hypertriglyceridemia and familial chylomicronemia syndromeExpert Rev Clin Pharmacol11620185895982984281110.1080/17512433.2018.1480368"
+    },
+    {
+      "html": "BrissonD.TremblayK.GaudetD.A simple clinical diagnosis scoring system allowing to identify familial form of chylomicronemia syndromeAtheroscler Suppl3220185758"
+    },
+    {
+      "html": "BrissonD.LaroucheM.ChebliJ.KhouryE.GaudetD.Correlation between chylomicronemia diagnosis scores and post-heparin lipoprotein lipase activityClin Biochem114202367723678093410.1016/j.clinbiochem.2023.02.002"
+    },
+    {
+      "html": "BrownA.S.MoulinP.DibbleA.AlexanderV.J.LiL.GaudetD.Brief communication: strong concordance of the North American Familial Chylomicronemia Syndrome score with a positive genetic diagnosis in patients from the Balance studyJ Clin Lipidol2025<a href=\"https://www.sciencedirect.com/science/article/pii/S1933287425003496\">https://www.sciencedirect.com/science/article/pii/S1933287425003496</a>Online ahead of print10.1016/j.jacl.2025.07.00840841240"
+    },
+    {
+      "html": "HartP.A.BellinM.D.AndersenD.K.BradleyD.Cruz-MonserrateZ.ForsmarkC.E.Type 3c (pancreatogenic) diabetes mellitus secondary to chronic pancreatitis and pancreatic cancerLancet Gastroenterol Hepatol1320162262372840409510.1016/S2468-1253(16)30106-6PMC5495015"
+    },
+    {
+      "html": "SpagnuoloC.M.WangJ.McIntyreA.D.KennedyB.A.HegeleR.A.Comparison of patients with familial chylomicronemia syndrome and multifactorial chylomicronemia syndromeJ Clin Endocrinol Metab1104202411581165<a href=\"https://academic.oup.com/jcem/article/110/4/1158/7750066\">https://academic.oup.com/jcem/article/110/4/1158/7750066</a>10.1210/clinem/dgae613PMC1191309439238074"
+    },
+    {
+      "html": "PollinT.I.DamcottC.M.ShenH.OttS.H.SheltonJ.HorensteinR.B.A null mutation in human APOC3 confers a favorable plasma lipid profile and apparent cardioprotectionScience (1979)322590820081702170510.1126/science.1161524PMC267399319074352"
+    },
+    {
+      "html": "CrosbyJ.PelosoG.M.AuerP.L.CrosslinD.R.StitzielN.O.LangeL.A.Loss-of-function mutations in APOC3, triglycerides, and coronary diseaseN Engl J Med37112014223110.1056/NEJMoa130709524941081PMC4180269"
+    },
+    {
+      "html": "GinsbergH.N.GoldbergI.J.Broadening the scope of dyslipidemia therapy by targeting APOC3 (apolipoprotein C3) and ANGPTL3 (angiopoietin-like protein 3)Arterioscler Thromb Vasc Biol43320233883983657964910.1161/ATVBAHA.122.317966PMC9975058"
+    },
+    {
+      "html": "ShelburneF.HanksJ.MeyersW.QuarfordtS.Effect of apoproteins on hepatic uptake of triglyceride emulsions in the ratJ Clin Invest6531980652658<a href=\"https://www.jci.org/articles/view/109710\">https://www.jci.org/articles/view/109710</a>735413210.1172/JCI109710PMC371406"
+    },
+    {
+      "html": "WindlerE.ChaoY.HavelR.J.Regulation of the hepatic uptake of triglyceride-rich lipoproteins in the rat. Opposing effects of homologous apolipoprotein E and individual C apoproteinsJ Biol Chem255171980830383077410365"
+    },
+    {
+      "html": "QuarfordtS.H.MichalopoulosG.SchirmerB.The effect of human C apolipoproteins on the in vitro hepatic metabolism of triglyceride emulsions in the ratJ Biol Chem25724198214642146477174660"
+    },
+    {
+      "html": "WindlerE.HavelR.J.Inhibitory effects of C apolipoproteins from rats and humans on the uptake of triglyceride-rich lipoproteins and their remnants by the perfused rat liverJ Lipid Res26519855565654020294"
+    },
+    {
+      "html": "TsimikasS.GinsbergH.N.AlexanderV.J.Karwatowska-ProkopczukE.DibbleA.LiL.Differential effects of volanesorsen on apoC-III, triglycerides and pancreatitis in familial chylomicronemia syndrome diagnosed by genetic or nongenetic criteriaJ Clin Lipidol1932024422431<a href=\"https://www.lipidjournal.com/article/S1933-2874(24)00299-X/abstract\">https://www.lipidjournal.com/article/S1933-2874(24)00299-X/abstract</a>3984884210.1016/j.jacl.2024.12.018"
+    },
+    {
+      "html": "SpagnuoloC.M.HegeleR.A.Etiology and emerging treatments for familial chylomicronemia syndromeExpert Rev Endocrinol Metab19420242993063886670210.1080/17446651.2024.2365787"
+    },
+    {
+      "html": "AlexanderV.J.Karwatowska-ProkopczukE.ProhaskaT.A.LiL.GearyR.S.Gouni-BertholdI.Volanesorsen to prevent acute pancreatitis in hypertriglyceridemiaN Engl J Med390520244764773829498210.1056/NEJMc2306575"
+    },
+    {
+      "html": "PrakashT.P.GrahamM.J.YuJ.CartyR.LowA.ChappellA.Targeted delivery of antisense oligonucleotides to hepatocytes using triantennary N-acetyl galactosamine improves potency 10-fold in miceNucleic Acids Res42132014879688072499296010.1093/nar/gku531PMC4117763"
+    },
+    {
+      "html": "GargR.RustagiT.Management of hypertriglyceridemia induced acute pancreatitisBiomed Res Int201820184721357<a href=\"https://onlinelibrary.wiley.com/doi/10.1155/2018/4721357\">https://onlinelibrary.wiley.com/doi/10.1155/2018/4721357</a>10.1155/2018/4721357PMC608353730148167"
+    },
+    {
+      "html": "GargP.K.SinghV.P.Organ failure due to systemic injury in acute pancreatitisGastroenterology15672019200820233076898710.1053/j.gastro.2018.12.041PMC6486861"
+    },
+    {
+      "html": "CrockettS.D.WaniS.GardnerT.B.Falck-YtterY.BarkunA.N.American Gastroenterological Association Institute Clinical Guidelines Committee. American Gastroenterological Association Institute guideline on initial management of acute pancreatitisGastroenterology15442018109611012940976010.1053/j.gastro.2018.01.032"
+    },
+    {
+      "html": "Working Group IPA/APA Acute Pancreatitis GuidelinesIAP/APA evidence-based guidelines for the management of acute pancreatitisPancreatology134 Suppl 22013e115<a href=\"https://www.sciencedirect.com/science/article/pii/S1424390313005255\">https://www.sciencedirect.com/science/article/pii/S1424390313005255</a>2405487810.1016/j.pan.2013.07.063"
+    },
+    {
+      "html": "ParaghG.NemethA.HarangiM.BanachM.FulopP.Causes, clinical findings and therapeutic options in chylomicronemia syndrome, a special form of hypertriglyceridemiaLipids Health Dis211202221<a href=\"https://lipidworld.biomedcentral.com/articles/10.1186/s12944-022-01631-z\">https://lipidworld.biomedcentral.com/articles/10.1186/s12944-022-01631-z</a>3514464010.1186/s12944-022-01631-zPMC8832680"
+    },
+    {
+      "html": "Syed-AbdulM.M.TianL.HegeleR.A.LewisG.F.Futility of plasmapheresis, insulin in normoglycaemic individuals, or heparin in the treatment of hypertriglyceridaemia-induced acute pancreatitisLancet Diabetes Endocrinol13620255285364014746110.1016/S2213-8587(25)00028-2"
+    },
+    {
+      "html": "Arrowhead Pharmaceuticals. Arrowhead Pharmaceuticals announces acceptance of New Drug Application by U.S. FDA of plozasiran for the treatment of familial chylomicronemia syndrome. <a href=\"https://ir.arrowheadpharma.com/news-releases/news-release-details/arrowhead-pharmaceuticals-announces-acceptance-new-drug\">https://ir.arrowheadpharma.com/news-releases/news-release-details/arrowhead-pharmaceuticals-announces-acceptance-new-drug</a>, 2025 (accessed 13 October 2025)."
+    },
+    {
+      "html": "ClinicalTrials.gov. Study of RN0361in adult healthy subjects and adult hypertriglyceridemic subjects. <a href=\"https://clinicaltrials.gov/study/NCT06471543\">https://clinicaltrials.gov/study/NCT06471543</a>, 2025 (accessed 13 October 2025)."
+    },
+    {
+      "html": "ClinicalTrials.gov. CS-121 APOC3 base editing in FCS. <a href=\"https://clinicaltrials.gov/study/NCT07176923\">https://clinicaltrials.gov/study/NCT07176923</a>, 2025 (accessed 13 October 2025)."
+    },
+    {
+      "html": "MankutaD.Elami-SuzinM.ElhayaniA.VinkerS.Lipid profile in consecutive pregnanciesLipids Health Dis92010582052538710.1186/1476-511X-9-58PMC2904773"
+    },
+    {
+      "html": "Food and Drug Administration. Guidance for industry drug-induced liver injury: premarketing clinical evaluation. <a href=\"https://www.fda.gov/media/116737/download\">https://www.fda.gov/media/116737/download</a>, 2009 (accessed 30 December 2024)."
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

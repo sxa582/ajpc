@@ -1,0 +1,486 @@
+{
+  "pmcid": "PMC12848994",
+  "pmid": "41613343",
+  "doi": "10.1016/j.ajpc.2026.101408",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12848994/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Prediction of cardiovascular disease risk in women and individuals with polycystic ovary syndrome using the American Heart Association PREVENT model: A long-term population-based cohort study",
+  "articleType": "Research Article",
+  "published": "2026-01-03",
+  "year": "2026",
+  "volume": "25",
+  "issue": "",
+  "articleNumber": "101408",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2026",
+  "authors": [
+    {
+      "given": "Parham",
+      "surname": "Heidari",
+      "display": "Parham Heidari"
+    },
+    {
+      "given": "Ramin",
+      "surname": "Farrokhi",
+      "display": "Ramin Farrokhi"
+    },
+    {
+      "given": "Faegheh",
+      "surname": "Firouzi",
+      "display": "Faegheh Firouzi"
+    },
+    {
+      "given": "Yasamin",
+      "surname": "Zivari",
+      "display": "Yasamin Zivari"
+    },
+    {
+      "given": "Fereidoun",
+      "surname": "Azizi",
+      "display": "Fereidoun Azizi"
+    },
+    {
+      "given": "Fahimeh",
+      "surname": "Ramezani Tehrani",
+      "display": "Fahimeh Ramezani Tehrani"
+    },
+    {
+      "given": "Samira",
+      "surname": "Behboudi-Gandevani",
+      "display": "Samira Behboudi-Gandevani"
+    }
+  ],
+  "affiliations": [
+    "aReproductive Endocrinology Research Center, Research Institute for Endocrine Sciences, Shahid Beheshti University of Medical Sciences, Tehran, Iran",
+    "bDepartment of Epidemiology and Biostatistics, School of Public Health, Tehran University of Medical Sciences, Tehran, Iran",
+    "cEndocrine Research Center, Research Institute for Endocrine Sciences, Shahid Beheshti University of Medical Sciences, Tehran, Iran",
+    "dFaculty of Nursing and Health Sciences, Nord University, Bodø, Norway",
+    "eFoundation for Research & Education Excellence, Vestavia Hills, Al, USA"
+  ],
+  "keywords": [
+    "Cardiovascular disease",
+    "Polycystic ovary syndrome (PCOS)",
+    "Prediction",
+    "PREVENT risk model",
+    "Tehran lipid and glucose study (TLGS)"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Background:</strong> This study aimed to assess the performance of the PREVENT risk model, in terms of discrimination and calibration in the overall female sample representative of the Iranian general population, across age groups, and among women with PCOS."
+    },
+    {
+      "html": "<strong>Methods:</strong> In this population-based prospective study, we used data from phases 3–7 of the Tehran Lipid and Glucose Study (2006–2021). A total of 3983 women aged 30–79 years without baseline CVD and with complete data for the PREVENT risk score were included, of whom 2117 had known PCOS or isolated PCOS phenotypes status. The PREVENT risk model was applied to estimate 10-year CVD risk. The primary outcome was incident CVD, which was defined as a composite of fatal and nonfatal atherosclerotic cardiovascular disease (ASCVD) and heart failure (HF), identified follow-ups. Model discrimination was evaluated using Harrell’s C-statistics and time-dependent AUC, and calibration was assessed by comparing predicted and observed 10-year CVD risks in general female population, by age group, and by PCOS status."
+    },
+    {
+      "html": "<strong>Results:</strong> Among 3983 women (median follow-up 12.2 years; mean age 47.6 years; mean BMI 28.6 kg/m²), 911 had confirmed PCOS/Isolated-PCOS phenotypes. In the overall population, the PREVENT risk model demonstrated good discrimination (C-statistic 0.84, 95 % CI: 0.82–0.86; AUC 0.80) and satisfactory calibration in lower- and mid-risk deciles, with some underestimation at the highest risk deciles. Discrimination declined with increasing age, performing best in women aged 30–44 years (C-statistic 0.82, AUC 0.83). Stratified by PCOS status, the model maintained good discrimination in women with PCOS/isolated PCOS phenotypes (C-statistic 0.79, AUC 0.81) and non-PCOS/ non-isolated PCOS phenotypes controls (C-statistic 0.85, AUC 0.81), with calibration remaining satisfactory across subgroups, though high-risk quartiles in older women were slightly underestimated."
+    },
+    {
+      "html": "<strong>Conclusions:</strong> In this long-term, population-based cohort of Iranian women, the PREVENT risk model showed good discrimination and acceptable calibration for predicting 10-year CVD risk in both the general population and women with PCOS/Isolated-PCOS phenotypes. Performance was highest in women under 55 years, with some underestimation of risk in older or high-risk individuals."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Polycystic ovary syndrome (PCOS) is one of the most common endocrine disorders in reproductive-age women [1,2]. Beyond its role in reproductive dysfunction, PCOS is increasingly recognized as a systemic metabolic condition with significant implications for cardiometabolic health [3]. Several peer-reviewed studies confirm that PCOS is linked to an elevated risk of cardiovascular disease (CVD) through several pathophysiological mechanisms [4]. These mechanisms involve well-defined traditional CV risk factors, including insulin resistance (IR) and dyslipidemia [[5], [6], [7], [8]], alongside non-traditional risk factors such as hyperandrogenism and chronic inflammation [[9], [10], [11], [12]]. It is suggested that the synergistic effects of these traditional and non-traditional factors collectively contribute to the elevated cardiovascular risk observed in individuals with PCOS [4]. Additionally, emerging evidence suggests that renal dysfunction contributes significantly to the elevated CV risk observed in women with PCOS [13,14]. Studies have shown higher urinary albumin-to-creatinine ratio (UACR), IR, hypertension, metabolic comorbidities in this population, all of which are linked to impaired renal function and CVD [[15], [16], [17], [18]]."
+        },
+        {
+          "type": "paragraph",
+          "html": "However, CV risk assessment is necessary for effective CVD prevention intervention, especially in high-risk individuals, such as PCOS. Traditional models, such as the Framingham Risk Score (FRS), the Pooled Cohort Equations, and Systematic Coronary Risk Evaluation (SCORE) tools have been widely utilized to estimate CVD risk based on factors like age, gender, cholesterol levels, blood pressure, and smoking status [[19], [20], [21], [22]]. Nevertheless, these models may inadequately estimate CV risk in populations with complex metabolic conditions like PCOS, where non-traditional risk factors, such as hyperandrogenism, chronic inflammation, and renal dysfunction, play significant roles. Furthermore, these tools generally fail to comprehensively account for the distinctive disease processes, risk factor interactions, and higher baseline risks characteristic of individuals with chronic conditions [23,24]. For instance, the FRS has been shown to underpredicted cardiac events in patients with chronic kidney disease (CKD) and overestimates risk in populations with lower baseline cardiovascular event rates, whereas the SCORE tool tends to overestimate risk in older adults and underestimate it in high-risk ethnic groups [[25], [26], [27]]. The PREVENT model, recently developed by the American Heart Association, offers a more comprehensive approach by incorporating cardiovascular-kidney-metabolic (CKM) health metrics, including urinary albumin-to-creatinine ratio (UACR) and estimated glomerular filtration rate (eGFR), alongside traditional risk factors, such as body mass index (BMI) [28]. This model’s inclusion of these additional parameters makes it particularly relevant for assessing CVD risk in women with PCOS, where renal and metabolic dysfunctions are prevalent. Evaluating the PREVENT model’s performance in this population could enhance personalized risk stratification and inform targeted interventions to mitigate CVD morbidity and mortality. Although it has been shown that this prediction model demonstrates well discrimination and calibration in the general US population [29], little information is available regarding other populations with different ethnicities, and also including those with PCOS."
+        },
+        {
+          "type": "paragraph",
+          "html": "Given the limitations of traditional CV risk prediction models and the potential of the PREVENT equation to address these gaps, particularly in populations with specific risk profiles, therefore this study aimed to assess the performance of the PREVENT risk model, in terms of discrimination and calibration in the overall female sample representative of the Iranian general population, across age groups, and among women with PCOS."
+        }
+      ]
+    },
+    {
+      "title": "Method",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This study was conducted according to the guidelines of the Declaration of Helsinki, and all its procedures involving human subjects were approved by the ethics committee of the Research Institute for Endocrine Sciences, Shahid Beheshti University of Medical Sciences. Written informed consent was obtained from all subjects."
+        }
+      ]
+    },
+    {
+      "title": "Study cohort",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "For the purpose of the current study, we used data from Tehran Lipid and Glucose Study (TLGS), a large prospective population-based cohort study, initiated in 1998 to investigate risk factors for non-communicable diseases, mainly cardio-metabolic disorders. The details of this study have been published before [30,31]. In brief, participants aged ≥3 years old were selected through multistage cluster random sampling and have been evaluated at approximately 3-year intervals through seven data collection phases."
+        }
+      ]
+    },
+    {
+      "title": "Study population",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "For the current analysis, we utilized data from phases 3 (2006–2008) to 7 (2019- 2021) of the TLGS, which initially included 15,825 participants. Male participants (n = 6260), individuals lacking follow-up data (n = 1789) and those females who suffered from CVD at baseline (<em>n</em> = 105) were excluded from the study. Among the remaining participants, those with clinical parameters outside the validated input ranges for the PREVENT equations were also excluded, including individuals with age &lt;30 or &gt;80 years (n = 3204), total cholesterol &lt;130 or &gt;320 mg/dL (n = 121), systolic blood pressure (SBP) &lt;90 or &gt;200 mmHg (n = 163), body mass index (BMI) &lt;18.5 or &gt;39.9 kg/m² (n = 168), unknown diabetes status (n = 24), and missing data on smoking status or high-density lipoprotein (HDL) cholesterol (n = 8). Eligible women were stratified into four age groups: 30–44, 45–54, 55–64 and 65–79 years."
+        },
+        {
+          "type": "paragraph",
+          "html": "Secondary, among eligible participants, 2117 women had confirmed data on PCOS status and were further categorized into women with confirmed or isolated PCOS phenotypes (<em>n</em> = 911), and non-PCOS/Isolated PCOS phenotype controls (<em>n</em> = 1206). The PREVENT risk score equations were employed to estimate the risk of CVD among participants. A flowchart of the study population is presented in Fig. 1.Fig. 1Flowchart of study.TLGS: Tehran Lipid and Glucose Study; PCOS: Polycystic ovary syndrome; CVD: Cardiovascular disease; SBP: systolic blood pressure; BMI: Body mass index; HDL-C: high-density lipoprotein- Cholesterol.Fig. 1"
+        }
+      ]
+    },
+    {
+      "title": "Clinical, biochemical and hormonal assessments",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "All physical examinations, laboratory assessment and interviews, including Ferriman–Gallwey hirsutism scoring, were carried out by trained personnel based on TLGS protocol. Cardiovascular risk estimation was done using American Heart Association PREVENT™ risk calculator that uses traditional risk factors such as age, blood pressure, lipid profile, diabetes, smoking, BMI, and kidney function to predict the risk of 10- year ASCVD risk [28]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Following interviews, the subjects underwent physical examinations. Height was measured using a tape stadiometer while the subject stood barefooted, with heels, buttocks, and upper back against a vertical wall and arms in a neutral shoulder position. Body weight was recorded using a calibrated electronic digital scale with participants wearing minimal clothing, (Seca 707, Hanover, MD, USA) and values rounded to the nearest 100 g. Blood pressure was measured by trained personnel using a calibrated mercury sphygmomanometer on the participant&#x27;s right arm after the participant sat and relaxed for at least 15 min. The cuff size that best fitted the participant&#x27;s arm circumference was used. Two measurements 60 s apart were obtained, and the average of the two was used as the final blood pressure. Systolic blood pressure (SBP) was measured at the onset of the first Korotkoff sound (Phase I), and diastolic blood pressure (DBP) at the final Korotkoff sounds fade away (Phase V), as per standard protocol. Participants provided written informed consent."
+        },
+        {
+          "type": "paragraph",
+          "html": "Fasting venous blood samples were collected in the early follicular phase of spontaneous or progesrton induced menstrual cycles in the morning to perform biochemical and hormonal measurements. Triglyceride (TG) levels were measured using the glycerol phosphate oxidase method. Total cholesterol (TC) levels were measured enzymatically using cholesterol esterase and cholesterol oxidase in a colorimetric assay. High-density lipoprotein cholesterol (HDL-C) was assessed after precipitation of apolipoprotein B-containing lipoproteins using phosphotungstic acid. Low-density lipoprotein cholesterol (LDL-C) was calculated according to the Friedewald formula. Serum creatinine (Cr) levels were measured using the kinetic colorimetric Jaffe method, with an assay sensitivity of 0.2 mg/dL (range: 0.2–15 mg/dL or 18–1330 μmol/L). Commercial kits (Pars Azmoon Inc., Tehran, Iran) were used for biochemical assessment by Selectra 2 autoanalyser (Vital Scientific, Spankeren, The Netherlands). The intra- and inter-assay coefficients of variation for all these biochemical assays were maintained below 3.1 % throughout the study. Dehydroepiandrosterone sulfate (DHEAS), 17‑hydroxy- progesterone (17OH-P), Total testosterone (TT) and androstendion(A4) were assessed using enzyme immu- noassay (EIA), (Diagnostic biochem canada Co. Ontario, Canada). Sex Hormone Binding Globulin (SHBG) was measured using immunoenzymometric assay (IEMA), (Mercodia, Uppsala, Sweden). All ELISA tests were accomplished using the Sunrise ELISA reader (Tecan Co. Salz- burg, Austria). The free androgen index (FAI) was computed using the formula [TT (nmol/L) × 100/SHBG (nmol/L)]. Intra-and inter-assay coefficients of variation for TT were 3.6 % and 6.0 %; for DHEAS: 1.9 % and 3.2 %; for 17 OH-P: 5.1 % and 6.2 %; for SHBG: 1.1 % and 4.1 %; for A4 they were 2.2 % and 3.5 % [1]."
+        }
+      ]
+    },
+    {
+      "title": "Outcome of study",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The primary outcome of the present analysis was CVD events including atherosclerotic cardiovascular disease (ASCVD) and heart failure (HF) (26). Details of the collection of CVD events data have been published elsewhere [32]. In brief, participants underwent annual follow-ups conducted by trained nurses via phone calls to identify any CVD events within the past year. If any events occurred a trained physician collected the necessary data through home visits and/or by reviewing hospital records. Subsequently, the diagnosis was confirmed by the Cohort Outcome Panel of medical specialists including internist, endocrinologist, cardiologist, epidemiologist, and other experts evaluated the collected data to assign a specific outcome for every event. In the current study, all CVD events were defined as a composite measure of any cases of definite and probable myocardial infarction (MI), unstable angina, angiographic proven chronic heart disease (CHD), CHD death, definite or possible stroke, transient ischemic attack or cerebrovascular death. Hard CVD was defined as a composite of death from CVD, non-fatal myocardial infarction, or non-fatal stroke."
+        }
+      ]
+    },
+    {
+      "title": "Definition of terms",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "PCOS was defined based on the Rotterdam criteria. Details are presented in supplementary material 1. Isolated PCOS phenotypes were defined as the presence of only one of the diagnostic features of PCOS."
+        },
+        {
+          "type": "paragraph",
+          "html": "Body mass index (BMI) was calculated by dividing weight in kilograms by height in meters squared (kg/m²). Smoking status was classified as ever and never smoker. A positive family history of CVD was defined as a diagnosis of CVD in a first-degree female relative before the age of 65, or in a first-degree male relative before the age of 55. The estimated glomerular filtration rate (eGFR) was calculated using the abbreviated prediction equation developed by the Modification of Diet in Renal Disease (MDRD) study, as follows: eGFR (mL/min/1.73 m²) = 186 × (serum creatinine)<sup>−1.154</sup> × (age)<sup>−0.203</sup> × 0.742 [33]. The PREVENT risk score equations includes traditional risk factors of age, sex, SBP, TC, HDL-C, BMI, diabetes status, smoking status, and the use of antihypertensive or statin medications and eGFR [28]."
+        }
+      ]
+    },
+    {
+      "title": "Statistical analysis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We assessed the normality of continuous variables using the Kolmogorov-Smirnov test. For normally distributed data, we reported the mean (standard deviation), for non-normally distributed data, we presented the median and interquartile range. Categorical variables are expressed as frequencies and percentages and compared using the chi-square test. Model discrimination was assessed using Harrell&#x27;s C-statistics. Furthermore, time-dependent Area Under the Curve (AUC) was calculated to evaluate discrimination at various time points. Calibration was assessed by estimating observed 10-year CVD risk using Kaplan-Meier survival probabilities and comparing these with predicted risks. This comparison was graphically represented by plotting mean predicted risk with mean observed risk for each group. All eligible women were divided into deciles based on the PREVENT model&#x27;s predicted risks. Calibration was also assessed within age groups (30–44, 45–54, 55–64, and 65–79) and by PCOS status. Because these subgroup analyses had smaller sample sizes and fewer events, predicted risks were divided into quartiles rather than deciles to improve stability."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Table 1 presents baseline characteristics for all eligible women and subgroups stratified by PCOS status. The median follow-up time for 3983 eligible women was 12.23 years. The mean age and BMI of study population were 47.60 years and 28.57 kg/m², respectively. Women with PCOS/Isolated PCOS phenotype group had a significantly younger mean age (40.10 ± 6.48 vs. 42.33 ± 7.42 years, P-value &lt;0.001), lower TC levels (189.97 ± 34.31 vs. 193.40 ± 34.29 mg/dL, P-value: 0.023), and higher estimated glomerular filtration rate (eGFR) (76.00 ± 12.38 vs. 74.60 ± 12.50 mL/min/1.73m², P-value: 0.010) compared to Non-PCOS/non- Isolated PCOS phenotype women. No statistically significant differences were observed between the two groups in HDL-C, SBP, BMI, smoking status, T2DM prevalence, or medication use.Table 1Baseline characteristics of the study population in the general female population (<em>n</em> = 3983, biological replicates) and subgroups by age (30–44 years, <em>n</em> = 1797; 45–54 years, <em>n</em> = 1065; 55–64 years, <em>n</em> = 702; 65–79 years, <em>n</em> = 419, biological replicates) and PCOS/Isolated PCOS phenotype status (Non-PCOS/non-Isolated PCOS phenotype, <em>n</em> = 1206; PCOS/Isolated PCOS phenotype, <em>n</em> = 911, biological replicates). Data are presented as mean (SD) or median [IQR] for continuous variables and number ( %) for categorical variables. P-values were calculated using one-way ANOVA for continuous variables and chi-square test for categorical variables, with statistical significance set at <em>P</em> &lt; 0.05.Table 1VariableGeneral female population (<em>n</em> = 3983)Subgroups of ageP-valueSubgroups of PCOS/ Isolated PCOS phenotypeP-value30–44 years (<em>n</em> = 1797)45–54 years (<em>n</em> = 1065)55–64 years (<em>n</em> = 702)65–79 years (<em>n</em> = 419)Non-PCOS/non- Isolated PCOS phenotype (<em>n</em> = 1206)PCOS/Isolated PCOS phenotype (<em>n</em> = 911)Age (years), Mean (SD)47.60 (11.68)37.11 (4.26)49.23 (2.87)59.02 (2.82)69.37 (3.70)&lt;0.00142.33 (7.42)40.10 (6.48)&lt;0.001BMI (kg/m²), Median [IQR]28.57 [25.78, 31.99]27.48 [24.89, 30.76]29.37 [26.84, 32.44]29.94 [27.05, 32.89]28.83 [25.98, 31.99]&lt;0.00128.08 [25.32, 31.24]27.94 [25.40, 31.21]0.862Total-Cholesterol (mg/dL)199.81 (36.73)185.14 (31.64)205.47 (35.48)218.19 (36.63)217.55 (34.76)&lt;0.001193.40 (34.29)189.97 (34.31)0.023HDL-Cholesterol (mg/dL), Median [IQR]45.00 [38.00, 52.00]45.00 [38.00, 52.00]44.00 [38.00, 51.00]44.00 [37.00, 51.00]45.00 [39.00, 53.00]0.13945.00 [38.00, 51.00]44.00 [37.00, 52.00]0.129SBP (mmHg), Mean (SD)115.46 (17.72)107.09 (11.62)116.46 (15.82)124.85 (18.77)133.08 (20.48)&lt;0.001110.36 (14.69)108.94 (12.48)0.019eGFR (ml/min/1.73m²), Mean (SD)70.93 (13.56)78.00 (11.99)69.64 (11.21)63.26 (10.46)56.76 (10.48)&lt;0.00174.60 (12.50)76.00 (12.38)0.010Ever Smoker, yes ( %174 (4.4)58 (3.2)63 (5.9)34 (4.8)19 (4.5)0.00644 (3.6)35 (3.8)0.907Type2 Diabetes, yes ( %)556 (14.0)88 (4.9)160 (15.0)178 (25.4)130 (31.0)&lt;0.00196 (8.0)58 (6.4)0.189Medication Use, yes ( %)Antihypertensive medication264 (6.6)25 (1.4)61 (5.7)99 (14.1)79 (18.9)&lt;0.00136 (3.0)21 (2.3)0.411Lipid-Lowering medication271 (6.8)30 (1.7)61 (5.7)102 (14.5)78 (18.6)&lt;0.00139 (3.2)29 (3.2)0.990"
+        }
+      ]
+    },
+    {
+      "title": "Discrimination",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Table 2 presents number of events, incidence rate and the discrimination performance of the PREVENT risk model using Harrell’s C-statistics and AUC values with their 95 % confidence intervals and Fig. 2 (A and B) illustrates the 10-year ROC curves for all eligible female participants, stratified by age subgroups and PCOS status.Table 2Incidence rates of CVD events and discrimination performance of the risk prediction model by subgroups of age, as 30–44 years (<em>n</em> = 1797), 45–54 years (<em>n</em> = 1065), 55–64 years (<em>n</em> = 702), 65–79 years (<em>n</em> = 419) and PCOS status as Non-PCOS/non- Isolated PCOS phenotype (<em>n</em> = 1206) and PCOS/Isolated PCOS phenotype (<em>n</em> = 911); PCOS = polycystic ovary syndrome, AUC: Area Under the Curve. Incidence rates were calculated as the number of incident CVD events per 1000 person-years of follow-up. Harrell’s C-statistics and AUC (95 % CI) are reported for model discrimination. P-values were derived from DeLong’s test for comparing AUCs across subgroups, with statistical significance set at <em>P</em> &lt; 0.05.Table 2GroupNEvents, n ( %)Person-yearsIncidence rate (per 1000 Person-Year)Harrell’s C-statistics (95 % CI)AUC (95 % CI)All eligible female participants3983378 (9.5)44,047.58.580.84 (0.82–0.86)0.80 (0.77–0.83)Age subgroupsAge 30–44 years179724 (1.3)20,747.11.160.82 (0.75–0.89)0.83 (0.72–0.92)Age 45–54 years106580 (7.5)12,067.16.630.71 (0.65–0.77)0.64 (0.59–0.72)Age 55–64 years702127 (18)7441.117.070.67 (0.62–0.72)0.66 (0.61–0.71)Age 65–79 years419147 (35)3792.138.760.58 (0.53–0.63)0.56 (0.52–0.61)PCOS/ Isolated PCOS phenotype subgroupsPCOS/ Isolated PCOS phenotype91121 (2.3)11,128.01.890.79 (0.71–0.87)0.81 (0.74–0.94)Non-PCOS/non- Isolated PCOS phenotype120641 (3.4)14,520.32.820.85 (0.80–0.89)0.81 (0.75–0.87)PCOS: polycystic ovary syndrome; AUC: Area Under Curve.Fig. 2The 10-year ROC curves for (A) General female population and subgroup of PCOS/Isolated PCOS phenotype as Non-PCOS/non- Isolated PCOS phenotype (<em>n</em> = 1206) and PCOS/Isolated PCOS phenotype (<em>n</em> = 911)and (B) and by age subgroup as 30–44 years (<em>n</em> = 1797), 45–54 years (<em>n</em> = 1065), 55–64 years (<em>n</em> = 702), 65–79 years (<em>n</em> = 419) and PCOS status. P-values were calculated using DeLong’s test to compare AUCs across subgroups, with statistical significance set at <em>P</em> &lt; 0.05.Fig. 2:"
+        },
+        {
+          "type": "paragraph",
+          "html": "During 44,047.5 person-years of follow-up, 378 incident CVD events were observed among overall cohort of female participants, corresponding to an overall incidence rate of 8.58 per 1000 person-years. CVD incidence increased significantly with advancing age, from 1.16 per 1000 person-years in women aged 30–44 years to 6.63, 17.07, and 38.76 per 1000 person-years in the 45–54, 55–64, and 65–79 year age groups, respectively. By PCOS status, women with PCOS/isolated PCOS phenotype exhibited a lower CVD incidence rate (1.89 per 1000 person-years) compared with those without PCOS/isolated PCOS phenotype (2.82 per 1000 person-years)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Among women aged &lt;55 years, the incidence rate of ASCVD/CVD was 1.82 per 1000 person-years in those with PCOS/ Isolated PCOS phenotype and 2.55 per 1000 person-years in Non-PCOS/non- Isolated PCOS phenotype women, corresponding to an incidence rate ratio of 0.71 (95 % CI 0.41–1.23) (Supplementary Table 1)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Among all female participants, the model demonstrated good discrimination, with a Harrell’s C-statistic of 0.84 (95 % CI: 0.82–0.86) and an AUC of 0.80 (95 % CI: 0.77–0.83) (Table 2, Fig. 2-A). Discriminatory ability was similarly high among subgroup of women with and without PCOS/Isolated PCOS phenotype (C-statistic 0.79, 95 % CI: 0.71–0.87; AUC 0.81, 95 % CI: 0.74–0.94) and (C-statistic 0.85, 95 % CI: 0.80–0.89; AUC 0.81, 95 % CI: 0.75–0.87), respectively (Table 2, Fig. 2-A). Subgroup analysis by age showed that discrimination declined with increasing age (Table 2, Fig. 2-B). The model performed best in women aged 30–44 years (C-statistic 0.82, 95 % CI: 0.75–0.89; AUC 0.83, 95 % CI: 0.72–0.92), but performance progressively weakened in older groups."
+        }
+      ]
+    },
+    {
+      "title": "Calibration",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Fig. 3 displays calibration of the PREVENT model. Among general female population, predicted and observed risks were closely aligned in the lower and mid-risk deciles, indicating satisfactory calibration in these groups. However, in the highest deciles, the model consistently underestimated 10-year CVD risk, with the discrepancy most pronounced among women at the upper end of the predicted risk spectrum (Fig. 3-A). Age-stratified calibration analyses revealed accurate agreement between predicted and observed risks for women younger than 55 years in subgroups of &gt; 45 years and 45–54 years. The model underestimated observed CVD risk for women in the higher quartiles, those between the ages of 55–64 and 65–79, with the greatest miscalibration observed in women aged 65–79 years (Fig. 3-B). Calibration curves for women with PCOS or isolated PCOS phenotype and women without PCOS or isolated PCOS phenotype are displayed in (Fig. 3-C) and (Fig. 3-D), respectively. Due to variations caused by small sample sizes and few events, the model overestimates risk in some deciles while underestimating it in others. Overall, calibration remained satisfactory in both groups.Fig. 3Calibration of the PREVENT model. (A) General female population (<em>n</em> = 3983) (B) By age subgroups as 30–44 years (<em>n</em> = 1797), 45–54 years (<em>n</em> = 1065), 55–64 years (<em>n</em> = 702), 65–79 years (<em>n</em> = 419) (C) Females with PCOS or isolated PCOS phenotype (<em>n</em> = 911). (D) Females without PCOS or isolated PCOS phenotype (<em>n</em> = 1206). Numeric group labels represent quantiles of predicted 10-year CVD risk (quartiles or deciles, as applicable), ordered from lowest to highest risk. P-values were derived from the Hosmer-Lemeshow test to assess calibration goodness-of-fit, with statistical significance set at <em>P</em> &lt; 0.05.Fig. 3"
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In this large population-based cohort of Iranian women followed for over two decades, the American Heart Association PREVENT risk model demonstrated good overall discrimination and acceptable calibration for predicting 10-year CVD risk among both the general female population and women with PCOS/Isolated PCOS phenotypes. However, discriminatory ability declined progressively with increasing age, and calibration showed systematic underestimation of risk in higher-risk deciles, particularly among women aged 55 years and older."
+        },
+        {
+          "type": "paragraph",
+          "html": "Cardiovascular disease is the leading global cause of death, responsible for about 19.8 million deaths in 2022, and imposes a substantial economic burden on healthcare systems [34,35]. Clinical guidelines for preventing CVD often recommend the use of risk scores or prediction models that evaluate the combined effect of multiple measured risk factors [[36], [37], [38]]. These tools estimate an individual’s future risk of CVD and help identify those who are most likely to benefit from preventive measures [[36], [37], [38], [39]]. Today, several CV risk prediction models are available for clinical use, including Framingham Risk Score, Pooled Cohort Equations, Systematic Coronary Risk Evaluation (SCORE and SCORE2), WHO cardiovascular risk charts, PROCAM, PREDICT, and QRISK3 [[19], [20], [21], [22],40,41]. Despite their widespread application, these models exhibit important limitations. The FRS was derived from a predominantly white, middle-class community and lacks generalizability to more diverse populations. It estimates only CHD risk, excluding other major outcomes like stroke and heart failure [42]. Furthermore, the FRS also performs poorly in individuals with metabolic disorders, leading to risk underestimation of risk in Individual with diabetes or related conditions [43]. Additionally, both the FRS and PROCAM underestimate CHD risk in women and younger individuals, thereby compromising accuracy in sex- and age-specific prediction [44]. The PCE, while more broadly validated, is based on older cohorts, which may lead to overestimation of atherosclerotic CVD (AS-CVD) risk due to shifts in risk factor prevalence, such as smoking and cholesterol levels [45]. It also excludes non-ASCVD outcomes such as heart failure and may overstate risk in older adults [46]. SCORE and SCORE2, widely used in Europe, are primarily designed to predict fatal CVD events and may therefore underestimate the burden of non-fatal but clinically significant outcomes, limiting their utility for prevention in younger women [22]. Similarly, although QRISK3 and PREDICT include a broader range of risk factors and show improved calibration, their generalizability is limited, QRISK3 is largely UK-specific and may not perform well in other healthcare settings, while PREDICT is derived from New Zealand cohorts and lacks validation in external populations [47]. All still lack systematic validation in women with PCOS, a group at elevated risk for type 2 diabetes, hypertension, dyslipidemia, and CVD."
+        },
+        {
+          "type": "paragraph",
+          "html": "The newly developed PREVENT risk model by the American Heart Association was designed to address many of shortcomings of earlier tools by incorporating contemporary cohorts, diverse populations, sex-specific, race-independent estimates of 10- and 30-year total CVD risk, and a broader spectrum of outcomes, including AS-CVD, heart failure and atrial fibrillation among adults aged 30 to 79. Unlike prior models, PREVENT uniquely integrates kidney function, measured by estimated eGFR, and account for competing risks such as non-CVD mortality. The inclusion of key chronic kidney and metabolic markers improves predictive accuracy, aligning with growing evidence that kidney function is a strong determinant of CVD. PREVENT relies on routinely available clinical variables, including age, sex, SBP, total and HDL-C, BMI, smoking status, antihypertensive and statin therapy, T2DM status, and eGFR, making it particularly relevant for individuals with impaired cardio-renal-metabolic health. In addition, it uses age as the underlying time scale rather than calendar time, providing a more accurate representation of the natural progression of CVD [28,48,49]. However, its performance in high-risk subgroups such as women with PCOS has not been evaluated."
+        },
+        {
+          "type": "paragraph",
+          "html": "Women with PCOS have a well-documented excess burden of cardio-metabolic risk factors [[50], [51], [52], [53]]. However, despite the clear presence of multiple CV risk factors early in life among in women with PCOS, there is still uncertainty about whether this translates into a higher incidence of CVD later in life [50,51]. Additionally, studies examining the association between PCOS on the risk of developing CVD have yielded conflicting results, largely due to methodological limitations such as retrospective designs, inclusion of women beyond menopause without clear evidence of PCOS during the reproductive period, overrepresentation of more severe phenotypes and lack of adjustment for main potential confounders. Consequently, the long-term impact of PCOS on CVD risk, particularly in late reproductive and postmenopausal women is still unclear [52,54]. To date, no CV risk prediction model has been specifically developed or validated for this population. Our previous study demonstrated that the Framingham Risk Score is applicable to women with PCOS, showing a 38 % increase in CVD risk for each one-unit rise in the FRS [52]. Similarly, Meun et al. utilized the FRS in middle-aged women with PCOS and reported despite a moderately adverse cardiometabolic profile, these women did not exhibit higher 10-year CVD risk or greater atherosclerosis compared with age-matched controls [55]. However, we hypothesized that the PREVENT risk equations may be particularly well-suited for CVD assessment in women with PCOS, given the adverse impact of PCOS on renal function. By integrating these parameters, the model may enhance predictive accuracy and enable more personalized risk stratification."
+        },
+        {
+          "type": "paragraph",
+          "html": "In the present study, the risk prediction model demonstrated the highest calibration accuracy among individuals younger than 45 years, with performance declining progressively with age. This pattern may be attributed to the more homogeneous CV risk profiles and lower prevalence of confounding comorbidities in younger populations, which reduce model complexity and enhance predictive accuracy. In contrast, models exhibit less effectively in older groups, as restricting the age range reduces the variability in the most influential predictor, age itself [28,56]. The discrepancy observed between predicted and observed CV events in older participants may reflect contextual factors; specifically, the elderly individuals in this cohort lived during a period when routine CV screening and preventive or therapeutic interventions were uncommon in our country, whereas the models were developed and validated in populations with long-established, widely implemented screening programs. Consequently, the observed incidence CVD in older adults exceeded the model-based predictions."
+        },
+        {
+          "type": "paragraph",
+          "html": "This study has several notable strengths. To our knowledge, it is the first to evaluate the predictive performance of the PREVENT risk score for CVD specifically among women with PCOS. The prospective design and inclusion of an unselected population and extended follow-up exceeding twenty years enhance the robustness and generalizability of our findings within this cohort. Nonetheless, some limitations should be considered. The overall number of CVD events observed was relatively low; however, the statistical power remained adequate to yield precise risk estimates for the general population. In contrast, the PCOS subgroup experienced a limited number of events, which constrained the reliability of the model&#x27;s performance evaluation within this subgroup. Consequently, the findings related to women with PCOS should be interpreted with caution due to this limited event count. As in many epidemiological studies, eGFR was defined based on single creatinine measurements, which are subject to daily variability and were not confirmed by repeat assessments over three months, potentially affecting the accuracy of measurement. Additionally, the sample size was insufficient to evaluate CVD risk across distinct clinical phenotypes of PCOS. Finally, as this study exclusively involved Iranian women, caution is warranted when generalizing the findings to populations with differing demographic and clinical characteristics."
+        }
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In conclusion, in this long-term, population-based cohort of Iranian women, the PREVENT risk model demonstrated good discrimination and acceptable calibration for predicting 10-year CVD risk in both the general female population and women with PCOS. The model performed best in younger women (&lt;55 years), while discrimination and calibration declined in older age groups, with systematic underestimation of risk in higher-risk deciles, particularly among those aged 55 years and above. These findings support the utility of the PREVENT model for CVD risk assessment in women, including those with PCOS, while the need for caution when interpreting predictions in older or high-risk individuals."
+        }
+      ]
+    },
+    {
+      "title": "Data statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Data was obtained from the Tehran lipid and glucose study. TLGS data will be shared on reasonable requests to the corresponding author agreement."
+        }
+      ]
+    },
+    {
+      "title": "Sources of funding",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This study funded by the 10.13039/501100007427Research Institute for Endocrine Sciences, Shahid Beheshti University of Medical Sciences, Tehran, Iran (Grant number: 4-43017510). Nord University covered the article processing charge for the publication."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Parham Heidari:</strong> Writing – original draft, Data curation, Conceptualization. <strong>Ramin Farrokhi:</strong> Writing – review &amp; editing, Methodology, Formal analysis. <strong>Faegheh Firouzi:</strong> Writing – original draft, Investigation, Data curation. <strong>Yasamin Zivari:</strong> Writing – review &amp; editing, Investigation. <strong>Fereidoun Azizi:</strong> Writing – review &amp; editing, Data curation. <strong>Fahimeh Ramezani Tehrani:</strong> Writing – review &amp; editing, Methodology, Formal analysis, Data curation, Conceptualization. <strong>Samira Behboudi-Gandevani:</strong> Writing – original draft, Supervision, Investigation, Funding acquisition, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare the following financial interests/personal relationships which may be considered as potential competing interests:"
+        },
+        {
+          "type": "paragraph",
+          "html": "Samira Behboudi-Gandevani reports article publishing charges was provided by Nord University. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "Farhadi-AzarM.The prevalence of polycystic ovary syndrome, its phenotypes and cardio-metabolic features in a community sample of Iranian population: Tehran lipid and glucose studyFront Endocrinol (Lausanne)13202282552810.3389/fendo.2022.825528PMC892097435299965"
+    },
+    {
+      "html": "DeswalR.The prevalence of polycystic ovary syndrome: a brief systematic reviewJ Hum Reprod Sci13420202612713362797410.4103/jhrs.JHRS_95_18PMC7879843"
+    },
+    {
+      "html": "GlintborgD.Cardiovascular disease in a nationwide population of Danish women with polycystic ovary syndromeCardiovasc Diabetol1712018372951924910.1186/s12933-018-0680-5PMC5844097"
+    },
+    {
+      "html": "ManiH.Diabetes and cardiovascular events in women with polycystic ovary syndrome: a 20-year retrospective cohort studyClin Endocrinol (Oxf)78620139269342304607810.1111/cen.12068"
+    },
+    {
+      "html": "DokrasA.Cardiovascular disease risk factors in polycystic ovary syndromeSemin Reprod Med261200839441818108110.1055/s-2007-992923"
+    },
+    {
+      "html": "ReavenG.M.Insulin resistance: the link between obesity and cardiovascular diseaseMed Clin North Am95520118758922185569710.1016/j.mcna.2011.06.002"
+    },
+    {
+      "html": "PapaetisG.S.Insulin resistance, hyperinsulinemia and atherosclerosis: insights into pathophysiological aspects and future therapeutic prospectsCurr Cardiol Rev2112025e1573403X31403510.2174/011573403X314035241006185109PMC1206093239415589"
+    },
+    {
+      "html": "Behboudi-GandevaniS.Insulin resistance in obesity and polycystic ovary syndrome: systematic review and meta-analysis of observational studiesGynecol Endocrinol32520163433532705249210.3109/09513590.2015.1117069"
+    },
+    {
+      "html": "TchernofA.DesprésJ.P.Pathophysiology of human visceral obesity: an updatePhysiol Rev93120133594042330391310.1152/physrev.00033.2011"
+    },
+    {
+      "html": "BaldaniD.P.SkrgaticL.OugouagR.Polycystic ovary syndrome: important underrecognised cardiometabolic risk factor in reproductive-age womenInt J Endocrinol2015201578636210.1155/2015/786362PMC446639526124830"
+    },
+    {
+      "html": "GonzálezF.Inflammation in polycystic ovary syndrome: underpinning of insulin resistance and ovarian dysfunctionSteroids77420123003052217878710.1016/j.steroids.2011.12.003PMC3309040"
+    },
+    {
+      "html": "MohanA.Vitamin D and polycystic ovary syndrome (PCOS): a reviewAnn Med Surg (L)85720233506351110.1097/MS9.0000000000000879PMC1032870937427232"
+    },
+    {
+      "html": "BaysH.E.Ten things to know about ten cardiovascular disease risk factors - 2022Am J Prev Cardiol10202210034210.1016/j.ajpc.2022.100342PMC906163435517870"
+    },
+    {
+      "html": "LiuJ.Prevalence and long-term outcomes of NAFLD and cardiovascular-kidney-metabolic health in the United StatesAm J Prev Cardiol23202510104910.1016/j.ajpc.2025.101049PMC1224246640642596"
+    },
+    {
+      "html": "Behboudi-GandevaniS.The risk of chronic kidney disease among women with polycystic ovary syndrome: a long-term population-based cohort studyClin Endocrinol (Oxf)93520205905973265416610.1111/cen.14284"
+    },
+    {
+      "html": "DuY.Causal relationship between polycystic ovary syndrome and chronic kidney disease: a mendelian randomization studyFront Endocrinol (Lausanne)142023112011910.3389/fendo.2023.1120119PMC1005075037008943"
+    },
+    {
+      "html": "SongY.Serum testosterone acts as a prognostic indicator in polycystic ovary syndrome-associated kidney injuryPhysiol Rep7162019e1421910.14814/phy2.14219PMC670941931448581"
+    },
+    {
+      "html": "ParvanovaA.I.Insulin resistance and microalbuminuria: a cross-sectional, case-control study of 158 patients with type 2 diabetes and different degrees of urinary albumin excretionDiabetes5552006145614621664470510.2337/db05-1484"
+    },
+    {
+      "html": "BadawyM.Evaluation of cardiovascular diseases risk calculators for CVDs prevention and management: scoping review222022BMC Public Health174210.1186/s12889-022-13944-wPMC947102536104666"
+    },
+    {
+      "html": "JahangiryL.FarhangiM.A.RezaeiF.Framingham risk score for estimation of 10-years of cardiovascular diseases risk in patients with metabolic syndromeJ Health Popul Nutr3612017362913243810.1186/s41043-017-0114-0PMC5682637"
+    },
+    {
+      "html": "KheraR.Performance of the pooled cohort equations to estimate atherosclerotic cardiovascular disease risk by body mass indexJAMA Netw Open3102020e202324210.1001/jamanetworkopen.2020.23242PMC759657933119108"
+    },
+    {
+      "html": "SCORE2 Risk prediction algorithms: new models to estimate 10-year risk of cardiovascular disease in Europe. Eur Heart J, 2021. 42(25): p. 2439–2454.10.1093/eurheartj/ehab309PMC824899834120177"
+    },
+    {
+      "html": "RedonJ.Global cardiovascular risk assessment: strengths and limitations232016High Blood Press Cardiovasc Prev879010.1007/s40292-016-0139-226993498"
+    },
+    {
+      "html": "TalhaI.ElkhoudriN.HilaliA.Major limitations of cardiovascular risk scoresCardiovasc Ther20242024413336510.1155/2024/4133365PMC1091747738449908"
+    },
+    {
+      "html": "WeinerD.E.The Framingham predictive instrument in chronic kidney diseaseJ Am Coll Cardiol50320072172241763121310.1016/j.jacc.2007.03.037"
+    },
+    {
+      "html": "van TrierT.J.Validation of systematic coronary risk evaluation 2 (SCORE2) and SCORE2-older persons in the EPIC-Norfolk prospective population cohortEur J Prev Cardiol31220241821893779309810.1093/eurjpc/zwad318PMC10809184"
+    },
+    {
+      "html": "KoD.T.Calibration and discrimination of the Framingham risk score and the pooled cohort equationsCmaj192172020E442e4493239249110.1503/cmaj.190848PMC7207198"
+    },
+    {
+      "html": "KhanS.S.Development and validation of the American Heart Association&#x27;s PREVENT equationsCirculation149620244304493794708510.1161/CIRCULATIONAHA.123.067626PMC10910659"
+    },
+    {
+      "html": "ScheuermannB.External validation of the American Heart Association PREVENT cardiovascular disease risk equationsJAMA Netw Open7102024e243831110.1001/jamanetworkopen.2024.38311PMC1147038539392632"
+    },
+    {
+      "html": "Ramezani TehraniF.Reproductive assessment: findings from 20 years of the Tehran lipid and glucose studyInt J Endocrinol Metab164 Suppl2018e8478610.5812/ijem.84786PMC628931830584446"
+    },
+    {
+      "html": "AziziF.TakyarM.Zadeh-VakiliA.Contributions and implications of the Tehran lipid and glucose studyInt J Endocrinol Metab164 Suppl2018e8479210.5812/ijem.84792PMC628931930584448"
+    },
+    {
+      "html": "HadaeghF.Association of total cholesterol versus other serum lipid parameters with the short-term prediction of cardiovascular outcomes: Tehran lipid and glucose studyEur J Cardiovasc Prev Rehabil13420065715771687414710.1097/01.hjr.0000216552.81882.ca"
+    },
+    {
+      "html": "K/DOQI Clinical practice guidelines for chronic kidney disease: evaluation, classification, and stratification. Am J Kidney Dis, 2002. 39(2 Suppl 1): p. S1–266.11904577"
+    },
+    {
+      "html": "YusufS.Modifiable risk factors, cardiovascular disease, and mortality in 155 722 individuals from 21 high-income, middle-income, and low-income countries (PURE): a prospective cohort studyLancet3951022620207958083149250310.1016/S0140-6736(19)32008-2PMC8006904"
+    },
+    {
+      "html": "MensahG.A.Global burden of cardiovascular diseases and risks, 1990-2022J Am Coll Cardiol82252023235024733809250910.1016/j.jacc.2023.11.007PMC7615984"
+    },
+    {
+      "html": "van DaalenK.R.Risk estimation for the primary prevention of cardiovascular disease: considerations for appropriate risk prediction model selectionLancet Glob Health1282024e1343e13583903006410.1016/S2214-109X(24)00210-9PMC11283887"
+    },
+    {
+      "html": "JingC.Y.Recommendations for prediction models in clinical practice guidelines for cardiovascular diseases are over-optimistic: a global survey utilizing a systematic literature searchFront Cardiovasc Med112024144905810.3389/fcvm.2024.1449058PMC1152485839484015"
+    },
+    {
+      "html": "PanattoniG.Cardiovascular risk assessment in daily clinical practice: when and how to use a risk scoreEur Heart J Suppl27Suppl 12025i16i213998078410.1093/eurheartjsupp/suae100PMC11836693"
+    },
+    {
+      "html": "WallischC.External validation of two Framingham cardiovascular risk equations and the Pooled Cohort equations: a nationwide registry analysisInt J Cardiol28320191651703042908210.1016/j.ijcard.2018.11.001"
+    },
+    {
+      "html": "Ananda Selva DasP.WHO non-lab-based CVD risk assessment: a reliable measure in a North Indian populationGlob Heart1712022643619956510.5334/gh.1148PMC9438460"
+    },
+    {
+      "html": "MuX.Assessment of QRISK3 as a predictor of cardiovascular disease events in type 2 diabetes mellitusFront Endocrinol (Lausanne)132022107763210.3389/fendo.2022.1077632PMC974241536518244"
+    },
+    {
+      "html": "KhanS.S.Novel prediction equations for absolute risk assessment of total cardiovascular disease incorporating cardiovascular-kidney-metabolic health: a scientific statement from the American Heart AssociationCirculation148242023198220043794709410.1161/CIR.0000000000001191"
+    },
+    {
+      "html": "MorganC.L.Estimating the prevalence of diagnosed diabetes in a health district of Wales: the importance of using primary and secondary care sources of ascertainment with adjustment for death and migrationDiabet Med17220001411451074648510.1046/j.1464-5491.2000.00221.x"
+    },
+    {
+      "html": "AkosahK.O.Preventing myocardial infarction in the young adult in the first place: how do the National Cholesterol Education Panel III guidelines perform?J Am Coll Cardiol4192003147514791274228410.1016/s0735-1097(03)00187-6"
+    },
+    {
+      "html": "YadlowskyS.Clinical implications of revised pooled cohort equations for estimating atherosclerotic cardiovascular disease riskAnn Intern Med1691201820292986885010.7326/M17-3011"
+    },
+    {
+      "html": "Lopez-LopezJ.P.External validation and comparison of six cardiovascular risk prediction models in the prospective urban rural epidemiology (PURE)-Colombia studyEur J Prev Cardiol32720255645723904136610.1093/eurjpc/zwae242PMC12066169"
+    },
+    {
+      "html": "Hippisley-CoxJ.CouplandC.BrindleP.Development and validation of QRISK3 risk prediction algorithms to estimate future risk of cardiovascular disease: prospective cohort studyBmj3572017j20992853610410.1136/bmj.j2099PMC5441081"
+    },
+    {
+      "html": "van OsH.J.A.Cardiovascular risk prediction in men and women aged under 50 years using routine care dataJ Am Heart Assoc1272023e02701110.1161/JAHA.122.027011PMC1012288936942627"
+    },
+    {
+      "html": "MirzohrehS.T.Risk of cardiovascular and cerebrovascular events in polycystic ovarian syndrome women: an updated meta-analysis of cohort studiesTurk J Obs Gynecol222202517018510.4274/tjod.galenos.2025.04680PMC1213611940462474"
+    },
+    {
+      "html": "Behboudi-GandevaniS.The risk of metabolic syndrome in polycystic ovary syndrome: a systematic review and meta-analysisClin Endocrinol (Oxf)88220181691842893037810.1111/cen.13477"
+    },
+    {
+      "html": "Kazemi JalisehH.Polycystic ovary syndrome is a risk factor for diabetes and prediabetes in middle-aged but not elderly women: a long-term population-based follow-up studyFertil Steril10862017107810842920296010.1016/j.fertnstert.2017.09.004"
+    },
+    {
+      "html": "AmiriM.Cardiovascular disease risk prediction by Framingham risk score in women with polycystic ovary syndromeReprod Biol Endocrinol2312025193990549610.1186/s12958-025-01346-7PMC11792350"
+    },
+    {
+      "html": "AmiriM.Risk of hypertension in women with polycystic ovary syndrome: a systematic review, meta-analysis and meta-regressionReprod Biol Endocrinol1812020233218382010.1186/s12958-020-00576-1PMC7076940"
+    },
+    {
+      "html": "OsibogunO.OgunmorotiO.MichosE.D.Polycystic ovary syndrome and cardiometabolic risk: opportunities for cardiovascular disease preventionTrends Cardiovasc Med30720203994043151940310.1016/j.tcm.2019.08.010"
+    },
+    {
+      "html": "MeunC.The cardiovascular risk profile of middle-aged women with polycystic ovary syndromeClin Endocrinol (Oxf)92220201501583163827310.1111/cen.14117PMC7003818"
+    },
+    {
+      "html": "OllilaM.M.Women with PCOS have an increased risk for cardiovascular disease regardless of diagnostic criteria-a prospective population-based cohort studyEur J Endocrinol18912023961053743693410.1093/ejendo/lvad077"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

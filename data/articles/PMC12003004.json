@@ -1,0 +1,410 @@
+{
+  "pmcid": "PMC12003004",
+  "pmid": "40242362",
+  "doi": "10.1016/j.ajpc.2025.100981",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12003004/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Life's Essential 8 cardiovascular health status of 18–69-year-old individuals in France",
+  "articleType": "Research Article",
+  "published": "2025-03-30",
+  "year": "2025",
+  "volume": "22",
+  "issue": "",
+  "articleNumber": "100981",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2025",
+  "authors": [
+    {
+      "given": "Omar",
+      "surname": "Deraz",
+      "display": "Omar Deraz"
+    },
+    {
+      "given": "Sofiane",
+      "surname": "Kab",
+      "display": "Sofiane Kab"
+    },
+    {
+      "given": "Mathilde",
+      "surname": "Touvier",
+      "display": "Mathilde Touvier"
+    },
+    {
+      "given": "Xavier",
+      "surname": "Jouven",
+      "display": "Xavier Jouven"
+    },
+    {
+      "given": "Marcel",
+      "surname": "Goldberg",
+      "display": "Marcel Goldberg"
+    },
+    {
+      "given": "Marie",
+      "surname": "Zins",
+      "display": "Marie Zins"
+    },
+    {
+      "given": "Jean-Philippe",
+      "surname": "Empana",
+      "display": "Jean-Philippe Empana"
+    }
+  ],
+  "affiliations": [
+    "aUniversité Paris Cité, INSERM, PARCC (Paris Cardiovascular Research Center), Integrative Epidemiology of Cardiovascular Disease (Team 4), Paris, France",
+    "bUniversité Paris Cité, Paris Saclay University, Université de Versailles Saint-Quentin-en-Yvelines, Institut National de la Santé et de la Recherche Médicale (INSERM), UMS 011 Population-based Cohorts Unit, France",
+    "cNutritional Epidemiology Research Team (EREN), Sorbonne Paris Nord University, Inserm U1153, Inrae U1125, Cnam, Epidemiology, and Statistics Research Center - University of Paris (CRESS), Bobigny, France"
+  ],
+  "keywords": [
+    "Cardiovascular health",
+    "Preventive medicine",
+    "Epidemiology",
+    "Population health",
+    "Health disparities"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Background:</strong> In 2022, the previously American Heart Association (AHA) life&#x27;s simple 7 score (range 0 to 14) measuring cardiovascular health (CVH) has been updated by adding sleep health and providing more granularity to the score (range 0 to 100) to measure the so-called Life&#x27;s Essential 8 (LE8) score. However, the distribution of the LE8 score in nationwide representative US and non-US populations is scarce. The present study quantifies LE8 score distribution and identifies determinants of high CVH (80–100 points) in French adults."
+    },
+    {
+      "html": "<strong>Methods:</strong> CONSTANCES is a nationwide French cohort study that randomly recruited participants aged 18 to 69 years in 24 participating health examination centers in 21 French “<em>départements</em>” in different regions of France between 2012 and 2019. Design weights for age class, sex, socio economic status, and examination center/region were applied to represent the source population. LE8 score was quantified using inclusion data on eight CVH metrics. The prevalence estimates were age-standardized directly using the 2022 EU 28 population. Mixed effects multivariable linear and logistic regression models identified key LE8 score determinants."
+    },
+    {
+      "html": "<strong>Results:</strong> The study included 191,335 participants free of prior cardiovascular disease, with an average age of 46.48 years (SD 13.41) and 54 % women, representing 45.17 million individuals aged 18–69 in France. The overall mean LE8 score was 66.11 (68.92 in women vs. 62.79 in men, <em>p</em> = 6.875e<sup>−7</sup>), 13.21 %, 76.81 %, and 9.43 % achieved high (≥ 80 points), moderate (50–79 points), and poor (&lt; 50 points) LE8 levels, respectively. Diet had the lowest mean score (41.50), while blood glycemia had the highest mean score (95.50). Mixed effects multivariable regression models identified younger age, womanhood, high educational attainment, self-employment, or managerial positions, not living with a partner, fewer depressive symptoms, lower alcohol consumption, rural residence, less socioeconomic deprivation, and absence of CVD family history as predictors of higher LE8 scores."
+    },
+    {
+      "html": "<strong>Conclusions:</strong> Only 13.21 % of adults in France achieved a high LE8 score (≥ 80 points), and disparities related to individual and contextual socio-demographic factors and mental health were identified. The findings further underscore the importance of timely implementation of effective and personalized primordial prevention strategies."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Despite demonstrated benefits of primary prevention strategy and public health decisions such as smoking ban to reduce the incidence of cardiovascular disease (CVD) over decades in high income countries [1] the burden of CVD remains substantial worldwide. CVD represent one-third of annual mortality in 2019 [2] is the first cause of Disability-Adjusted Life Years (DALY) in individuals over 50 old individuals and the second cause of DALYs in all ages [3] Economically, CVD healthcare management cost €282 billion in the EU 27, representing 10.6 % of total expenditure in 2021 [4] only around 3 % of which is allocated to primary care."
+        },
+        {
+          "type": "paragraph",
+          "html": "In this context, additional preventative strategies of CVD are urgently needed. Primordial prevention presents as a complementary prevention strategy that aims to prevent the onset of risk factors in the first place to promote and preserve a so-called ideal/optimal cardiovascular health (CVH) in the population [5] To this end, the American Heart Association (AHA) developed CVH scores, enabling population CVH monitoring [6] The Life&#x27;s Essential 8 (LE8) CVH score ranges from 0 to 100 points. It includes sleep health as an eighth metric and consolidates the CVH metric criteria of the precedent Life&#x27;s Simple 7 (LS7) score [7]"
+        },
+        {
+          "type": "paragraph",
+          "html": "Higher CVH scores are associated with reduced CVD incidence, all-cause and CVD mortality outcomes [8,9] as well as non-CVD outcomes [10,11] Similarly, CVH improvement has been related to lower CVD risk or CVD mortality [12,13] and non-CVD outcomes [14,15] even for those starting with poor CVH level. Despite such evidence, the prevalence of ideal LS7 scores, i.e., 5 or 6 to 7 ideal LS7 metrics, remains below 20 % at best in adults [16] Furthermore, nationwide LE8 score prevalence estimates only derive from one single study conducted in the US population using the National Health and Nutrition Examination Survey (NHANES) [17] Also, the knowledge of LE8 score determinants are key to inform on primordial prevention implementation, but such data are currently lacking. Thus, the study&#x27;s objectives were to evaluate CVH status and identify LE8 score determinants in a non-US nationwide study population involving 18 to 75-year-old individuals in France."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The CONSTANCES study is a population-representative epidemiological cohort study investigating chronic disease outcomes, healthy aging, and their occupational and social determinants [18,19] From 2012 to 2020, the cohort recruited randomly selected individuals 18 years and older from the French National Social Security database. Design weights accounting for age group, sex, socioeconomic status (SES), and region were applied to represent the source population [18,19] The participants attended 1 of the 26 participating health examination centers in 21 “<em>départements</em>” distributed over the French European territory, where they underwent physical examination and laboratory tests [18] After detailing all procedures and study objectives, all participants gave informed consent. The CONSTANCES Cohort was authorized by the National Data Protection Authority (Commission Nationale de l&#x27;Informatique et des Libertés, CNIL), n°910,486/n°1881,675), and has received favorable opinions from the National Council for Statistical Information (Conseil National de l&#x27;Information Statistique, CNIS), the National Medical Council (Conseil National de l&#x27;Ordre des Médecins, CNOM), and 0the Institutional Review Board of the French National Institute of Health and Medical Research (Institut National de la Santé et de la Recherche Médicale, INSERM)."
+        }
+      ]
+    },
+    {
+      "title": "LE8 score definition and measurements",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The LE8 score computation was guided by the AHA-set criteria [7] The LE8 score included 8 components measuring diet, physical activity, nicotine exposure, Body Mass Index (BMI), sleep health, blood pressure, blood lipids, and blood glucose. The score for each of the eight component metrics ranges from 0 to 100. The overall LE8 was the average of all component scores, ranging from 0 to 100. The LE8 score was categorized as low (0–49), moderate (50–79), or high (80–100) [7,17] For participants on anti-hypertensive or anti-hyperlipidemic medications, 20 points were subtracted from their BP or blood lipid scores, respectively. Supplemental Methods Table M1 shows LE8 metric cut-offs."
+        },
+        {
+          "type": "paragraph",
+          "html": "Data collected in Constances included a food frequency questionnaire obtained weekly intakes of fruits/vegetables, soda and sweetened beverages, fish, whole grains, low-fat dairy products, and red meat. Physical activity was self-reported by a structured 6-point scale questionnaire on off-work physical activity from 0 (physically inactive/sedentary) to 6 (highly active) [20] and weekly duration of regular sports practicing (excluding trips, do-it-yourself projects, gardening, and housework) over the past 12 months. Current tobacco smoking status or period since quitting if former smoker were self-reported at inclusion. BMI was calculated as weight in kilograms divided by height in meters squared (kg/m2). Weight and height were measured in health examination centers by a trained nurse. Weight was measured using a nonautomatic weighing instrument based on the International Organization of Legal Metrology guidelines (OIML R 76–1, Edition 2006). Standing height was measured with a fixed stadiometer to the nearest 0.1 cm. Sleep health was computed from a self-reported sleep duration questionnaire in hours per night. BP was measured using an automated oscillometric sphygmomanometer (OMRON 705 CP-II/ OMRON 705IT) after a 5-minute rest in a supine position. A measurement was made for each arm, and a third was made for the reference arm with the higher systolic and diastolic BP values. The average value was used for systolic or diastolic BP. Total and high-density lipoprotein cholesterol, triglycerides, and fasting blood glucose were measured by standardized tests (COBAS Integra 400 Plus). Hemoglobin A1c was self-reported."
+        }
+      ]
+    },
+    {
+      "title": "Covariates and stratification variables",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Age groups were based on harmonized French National Institute of Statistics and Economic Studies (INSEE) and EUROSTAT 12 age categories ranging from 18 to 75 years. Sex was self-reported at inclusion as female or male. Residence type was classified into rural or urban according to the 2012 French census at the commune level. Socio-professional status was coded as 1) employee/manual worker, 2) self-employed/managerial, and 3) other to indicate employment status. Educational attainment was coded as 1) less than high school, 2) ≤ 2 years after high school, and 3) &gt;2 years after high school. Cohabitation status was determined from responses to the question, “In the home where you live more often, do you live as a couple?” “yes/no”. Depressive symptomatology was assessed using the 20-item Center for Epidemiological Studies Depression score (CES-D). The Alcohol Use Disorders Identification Test (AUDIT) score assessed alcohol use modality with a cut-off ≥ 8, indicating detrimental alcohol use. The EPICES score (Evaluation of Deprivation and Inequalities in Health Examination Centres) estimates individuals’ material and psychosocial deprivation based on an 11-item score, varying from 0 to 100, with higher values indicating greater deprivation [21] CVD Family history was defined by reported known CVD in first-degree family members (e.g., parents or siblings). Geographic site was self-allocated “Where are you from? (1) Metropolitan France, (2) Overseas France, (3) Europe, (4) North Africa, (5) Sub-Saharan Africa, (6) Asia, (7) Other.”"
+        }
+      ]
+    },
+    {
+      "title": "Statistical analyses",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The prevalence estimates were stratified by age group and sex. LE8 prevalence estimates were directly age-standardized using the EU 28 population as a reference population as of January 1st, 2022. Refer to Supplementary Methods for further methodological details and tabulated age-specific LE8 score prevalences (Supplemental Methods Table M2 and Supplemental Figure S2). Mixed-effects multivariable linear or logistic regression models were used to estimate the associations between demographic and socioeconomic health determinants and LE8 score outcomes. Random intercepts were included for geographic site and examination center. For logistic regression, odds ratio of having low or intermediate LE8 score (&lt; 80 points) was the reference, and high LE8 score (≥ 80 points) was the outcome. The models were adjusted for age group, sex, educational attainment, employment type, cohabitation status, AUDIT-C score, CES-D score, residence type, EPICES score, and CVD family history. Missing CVH metrics (from 3745 (2.21 %) for the BMI metric to 23,435 (29.87 %) for the diet metric) and missing covariates (from 6 (0.004 %) for residence type to 46,116 (27.22 %) for employment status) were handled by multiple imputations by chained equations from 50 imputation datasets, using Rubin&#x27;s rule. The preventive population fractions (PPF) were calculated using published hazard ratio estimates for CVD events associated with moderate or high LE8 levels compared to low level and applied to LE8 scores prevalence in the current study [22] assuming comparability of CVD incidence rates in the two populations."
+        }
+      ]
+    },
+    {
+      "title": "Sensitivity analyses",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The LE8 score level prevalences were estimated using sample design weights and complete case analysis. To assess LE8 and LS7 score levels qualitative agreements, their corresponding levels were cross-evaluated. All tests were two-sided, with a confidence interval level of 95 % and an alpha threshold of 0.05. The analyses were conducted using R version 4.1.2 and Stata version 17. (Stata Corp LLC Texas, US)."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The study sample includes 191,335 participants without prevalent CVD, mean age 46.48 years (SD 13.41), 54 % women (Supplemental Figure 1), representing 45.17 million 18–69 old individuals in France. The overall LE8 score mean was 66.11, higher in women than in men (68.92 vs. 62.79, Fig. 1). Table 1 reports the main study sample demographic and socioeconomic characteristics according to low, moderate, and high LE8 score levels. As reported in Fig. 2, the unweighted prevalence of high (≥ 80 points), moderate (50–79 points), and low (&lt; 50 points) LE8 score levels was 13.21 %,76.81 %, and 9.98 %, while the corresponding age-standardized estimates for the EU 28 population were 12.40 %, 78.16 %, and 9.43 %. The age-specific prevalence estimates by age group are reported in Supplemental Methods Table M2 and Supplemental Figure S2. Fig. 3 shows mean scores in women or men for each LE8 metric, which ranges from 41.50 [41.38; 41.61] for diet to 95.50 [95.42; 95.58] for glycemia. The overall mean sleep health score was 61.59, be it 62.42 in women, and 60.62 in men. Health factors such as diet, BMI, blood lipids, and blood pressure scores were lower in men than women; the ranking of the metric also differed by sex, i.e., BP score is the 2nd lowest in men, while sleep health score was the 2nd lowest in women.Fig. 1Life&#x27;s Essential 8 score distribution in French adults.Fig. 1Table 1Sample characteristics by Life&#x27;s Essential 8 (LE8) score levels in the CONSTANCES Study.Table 1Low LE8 (0-49)Moderate LE8 (50-79)High LE8 (80-100)Mean LE8 (SD)P for trendMean <strong>Age</strong> (SD)50.18 [50.01; 50.34] (11.84)46.96 [46.89; 47.02] (13.51)40.95 [40.80; 41.11] (12.30)-&lt; 0.05<strong>Men</strong> (n=87,782, 45.88%)14.39% [14.16; 14.63]78.41% [78.13; 78.68]7.20% [7.03; 73.75]62.79 [62.71; 62.87] (11.98)&lt; 0.05<strong>Women</strong> (n=103,553, 54.12%)6.24% [6.10; 6.39]75.46% [75.20; 75.72]18.30% [18.06; 18.54]68.92 [68.85; 68.99] (11.79)<strong>Rural</strong> (n=39,671, 20.73%)12.20% [11.88; 12.52]77.14% [76.73; 77.55]10.66% [10.36; 10.97]64.55 [64.43; 64.67] (12.33)&lt; 0.05<strong>Urban</strong> (n=151,664, 79.27%)9.40% [9.26; 9.55]76.72% [76.51; 76.94]13.87% [13.70; 14.05]66.52 [66.46; 66.58] (12.22)<strong>Manual worker/employee</strong> (n=143,436, 74.97%)9.78% [9.62; 9.93]76.46% [76.24; 76.68]13.76% [13.58; 13.94]66.32 [66.26; 66.39] (12.30)&lt; 0.05<strong>Self-employed/managerial</strong> (n=39,854, 20.83%)10.19% [9.90; 10.50]78.66% [78.25; 79.06]11.15% [10.84; 11.46]65.50 [65.38; 65.62] (11.93)Other (n=8,045, 4.20%)12.55% [11.85; 13.30]73.91% [72.94; 74.86]13.54% [12.81; 14.30]65.29 [65.00; 65.57] (13.07)<strong>Less than High Schoo</strong>l (n=44,347, 23.18%)18.07% [17.71; 18.43]77.11% [76.72; 77.50]4.82% [4.63; 5.02]60.87 [60.75; 60.98] (12.00)&lt; 0.05<strong>&lt; Two Years After High School</strong> (n=34,293, 17.92%)11.87% [11.53; 12.21]79.02% [78.59; 79.45]9.11% [8.81; 9.42]64.25 [64.13; 64.38] (11.82)<strong>≥ Two Years After High School</strong> (n=112,695, 58.90%)6.23% [6.09; 6.37]76.02% [75.77; 76.27]17.75% [17.53; 17.98]68.73 [68.67; 68.80] (11.73)<strong>Cohabitation</strong> (n= 140,350, 73.35%)9.68% [9.52; 9.83]77.31% [77.09; 77.53]13.01% [12.84; 13.19]66.14 [66.08; 66.20] (12.15)&lt; 0.05<strong>No cohabitation</strong> (n= 50,985, 26.65%)10.82% [10.55; 11.09]75.44% [75.06; 75.81]13.75% [13.45; 14.05]66.03 [65.92; 66.13] (12.58)Mean <strong>CES-D score</strong>, range 0-60, (SD)13.84 [13.70; 13.99] (10.28)10.79 [10.74;10.83] (8.53)9.11 [9.02; 9.20] (7.54)-&lt; 0.05Mean <strong>AUDIT-C score</strong>, range 0-40, (SD)6.62 [6.55; 6.68] (4.48)5.67 [5.65; 5.69] (3.37)4.96 [4.92; 4.99] (2.62)-&lt; 0.05Mean <strong>EPICES score</strong>, range 0 least deprived-100 most deprived, (SD)36.08 [35.80; 36.36] (19.82)26.30 [26.22; 26.38] (15.37)21.98 [21.84; 22.12] (11.42)-&lt; 0.05Life&#x27;s Essential 8 score (LE8) ranges from 0 to 100 and is composed of eight cardiovascular health metrics: diet, physical activity, nicotine exposure, Body Mass Index, sleep health, blood glycemia, blood pressure, and blood lipids. Values prevalence and 95 % confidence intervals. Age Groups were classified according to the INSEE categories. Residence Type: Rural or urban designation from the 2012 census at the commune level. EPICES Score: 11-item score assessing material and psychosocial deprivation, range (0–100), with higher scores indicating greater deprivation. Households under 60 % of the national median income were considered below poverty. Depressive symptoms were assessed using the 20-item Center for Epidemiological Studies Depression Scale (CES-D) score, and depressive symptomatology was defined as ≥ 20 for women and ≥16 for men. The Alcohol Use Disorders Identification Test (AUDIT) score assessed alcohol use modality with a cutoff of ≥ 8, indicating detrimental alcohol use. Family History of CVD was declared in first-degree relatives. P-values are for Jonckheere-Terpstra test for numerical variables and Cochran-Armitage test for categorical variables.Fig. 2Age-standardized Life&#x27;s Essential 8 score in EU 28 countries.Plot showing expected high CVH score prevalence (left panel) and distribution of low, moderate and high CVH scores in EU 28 (right panel). Life&#x27;s Essential 8 score (LE8) ranges from 0 to 100 and is composed of eight cardiovascular health metrics: diet, physical activity, nicotine exposure, Body Mass Index, sleep health, blood glycemia, blood pressure, and blood lipids. LE8 CVH levels: Low LE8 (0–49 points), intermediate (50–79 points), and high (80–100 points). Age-standardized LE8 level prevalences and the expected number of individuals by CVH level were estimated using the EU 28 population as of January 1st, 2022.Fig. 2Fig. 3Life&#x27;s Essential 8 (LE8) health factor score ranking overall, in women and in men.Each of the eight component metric scores ranged from 0 (lowest) to 100 (highest).Fig. 3"
+        },
+        {
+          "type": "paragraph",
+          "html": "Mixed-effects multivariable linear regression model (Fig. 4) identified younger age, womanhood, high educational attainment, self- or managerial employment, non-cohabitation, less depressive symptoms, less excessive alcohol consumption, rurality, lower socioeconomic deprivation, and absence of CVD family history to be associated with a higher LE8 score. Consistent findings were obtained in logistic regression analysis for high CVH (≥ 80 points) (Supplemental Figure S3).Fig. 4Determinants of Life&#x27;s Essential 8 cardiovascular health score.Regression coefficients and their 95 % confidence intervals were estimated by mixed linear regression analysis with random intercepts on geographic site and examination center. Outcome Life&#x27;s Essential 8 score (0–100 points). Values prevalence and 95 % confidence intervals. Age groups were classified according to the INSEE categories. Depressive symptoms were assessed using the 20-item Center for Epidemiological Studies Depression Scale (CES-D) score, and depressive symptomatology ranging from 0 to 60. The Alcohol Use Disorders Identification Test (AUDIT) score assessed alcohol use modality, ranging from (0–40). Residence Type: Rural or urban designation from the 2012 census at the commune level. EPICES Score: 11-item score assessing material and psychosocial deprivation, range (0–100), with higher scores indicating greater deprivation. CVD Family History was reported in first-degree relatives.Fig. 4"
+        },
+        {
+          "type": "paragraph",
+          "html": "As shown in Supplemental Table S2, 81 % of CVD events could be avoided if all the participants would achieve a high LE8 score, 68 % for a shift from moderate to high LE8 score, and 14 % for a shift from currently 13 % to 20 % with a high LE8 score, respectively."
+        }
+      ]
+    },
+    {
+      "title": "Sensitivity analyses/robustness checks",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The sample-design-weighted mean LE8 score was 64.66 [64.54; 64.78]. Compared to the unweighted analysis (Supplemental Table S1), the weighted prevalence of low LE8 was higher (12.57 % vs. 9.98 %) while the weighted prevalence of high LE8 was lower (11.35 % vs. 13.21 %). Furthermore, the prevalence of high LE8 was higher in complete case analysis than in the main unweighted analysis (16.65 % vs. 13.21 %)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Cross-examination of LE8 and LS7 score levels is reported in Supplemental Figure S4. The strongest concordance was observed for the low level of CVH score (97.48 % [97.24; 97.69]). Instead, moderate and high LE8 score corresponded to 45.16 % of poor and 56 % of moderate LS7 score, respectively."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The National Health and Nutrition Examination Survey (NHANES) is the sole prior nationwide representative study evaluating the prevalence of LE8 and this was conducted in the US population. To our best knowledge, this is the first non-US nationwide study evaluating the LE8 score prevalence in French adults. The present study also extends the results of the NHANES by providing the individual and contextual determinants of the LE8 score. While the overall mean LE8 score was consistent between the two studies (66.11 in the NHANES vs. 64.70 in the current study), the unweighted prevalence of high LE8 score was lower in the current study (13.21 % vs. 19.60 %) [17] Furthermore, compared to the NHANES, physical activity, BMI, and blood glycemia scores were higher whereas nicotine exposure, sleep health, blood pressure, and blood lipid scores were lower in the present study, the greatest difference being for the sleep health score (61.59 vs 84.70). Diet scores did not differ between the two studies. Other estimates of the LE8 score distribution derive from non-representative samples. The selected samples of the UK Biobank (27 % of the initial sample size) and the Swedish CArdioPulmonary bioImage (SCAPIS) studies, recorded high CVH prevalences of 18.9 % and 23.9 %, respectively [22] <sup>[</sup>23] Mean LE8 scores were 70.0 in the China-PAR cohort and 64.6 in the Kailuan Study, with high LE8 prevalences of 23.30 % and 8.00 %, respectively [24]"
+        },
+        {
+          "type": "paragraph",
+          "html": "Regarding LE8 score sex disparities, high LE8 score was almost three time higher in women compared to men (18.30 % vs. 7.20 %) aligning with previous findings on LS7 and LE8 score distributions [25,26] Nonetheless, adopting an intersectional analysis framework, despite its complexity, may more accurately reflect the intricate interplay of biological, socioeconomic, occupational factors [27] and preventive healthcare access and utilization as CVH determinants [28] For both men and women, diet was the lowest metric score, while blood pressure (BP) was the second lowest for men and sleep health was the second lowest for women. Furthermore, CVH disparities by sexual minority status (SM), especially in SM women [29] and rural SM men, were reported [30] suggesting that CVH determinants include sexual orientation and sexual minority status. Therefore sex and gender-inclusive CVD prevention strategies would serve to better identify and address potentially underreported or unobserved CVH disparities by sex and/or gender [31]"
+        },
+        {
+          "type": "paragraph",
+          "html": "Individuals with higher CES-D scores indicating higher likelihood of having depression had lower LE8 score, a consistent finding with previous literature [32] This is coherent with the fact that individuals with more frequent depressive symptoms or with depression diagnosis have poorer lifestyle [32] poor adherence to pharmacological treatments [33] and are less likely to healthcare access [34]"
+        },
+        {
+          "type": "paragraph",
+          "html": "Urban regions were associated with lower CVH scores than rural ones. Systematic evidence on rural/urban CVH disparities is scarce [35] Increasing population density and reduced walkability index in urban living environments have been deemed obesogenic and diabetogenic, which may be explained by reduced physical activity and increased consumption of processed and unhealthy food [[36], [37], [38]] National and city-level urban health policies aim to address environmental CVH determinants [39] and include efforts to reduce air, light, and noise pollution [40] ensure water and food security, plan for sustainability, enhance extreme weather resilience, and improve access to green and blue spaces [39] Furthermore, a smart connected city infrastructure may enable personalized CVH real-time personalized CVH monitoring through wearable sensors, and Internet of Things (IoT) to provide sustainable citizen-engaged data-driven CVD prevention."
+        },
+        {
+          "type": "paragraph",
+          "html": "Diet recorded the lowest average scores, underscoring the need for interventions to promote healthy eating and combat food insecurity [41] Establishing dietary guidelines and policies to ensure access to affordable fresh and healthy food are some of the obstacles to achieving higher CVH [42] Consequently, more research is needed to quantify the impact of non-nutritional dietary factors [43] front-of-package labeling [44] and commercial determinants of LE8 diet metric [45,46]"
+        },
+        {
+          "type": "paragraph",
+          "html": "Data on primordial prevention implementation are currently lacking in France, whereas our simulation analysis underlines its potential for strong public health impact on CVD. Indeed, when emulating a realistic scenario envisaging a shift from currently 13 % to 20 % of the population with a high CVH score ≈14 % of CVD events could be prevented. Furthermore, CVH scores declined progressively from 18–20 to 55 years, plateauing thereafter, as previously reported [17,47] Such findings support lifelong primordial prevention implementation with interventions adapted to age, location, accessibility and life transition periods [48] For instance, schooling has been suggested as an advantageous early primordial prevention implementation period [49,50]"
+        },
+        {
+          "type": "paragraph",
+          "html": "Despite a sufficiently powered sample size, a nationwide design, and availability of the eight CVH metrics data, the CONSTANCES study has several limitations. The LE8 diet metric was incomplete since information on sodium or dietary fiber was unavailable. HbA1c level relied on self-reported data since HbA1C was only measured in 1 % of the participants. Still, self-reported HbA1c has been validated in previous epidemiological studies [51,52] Despite the use of standardized operating procedures, health behaviors were self-reported so that classification biases cannot be excluded. It is also safer to assume that if selection effect exist, it may have favored participants with healthier behaviors, thus the weighted LE8 prevalence estimates may be closer to that of the target population. Data for individuals in overseas territories were unavailable, preventing the evaluation of CVH in those departments. The current study was conducted in a high-income country with universal health care insurance, precluding generalizing the findings to resource-limited public health settings."
+        }
+      ]
+    },
+    {
+      "title": "Conclusions",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Despite having a free access to health care nationwide, only 13 % of the adult population is currently achieving an optimal cardiovascular health as defined by the LE8 score. The study therefore identified missed opportunities for better cardiovascular health and advocates for shifting from a mainly care model to a more balanced care and preventive model in France. The findings highlight the need for effective and timely implementation of primordial prevention strategies. Such interventions should account for individual and contextual factors and, require transdisciplinary expertise in addition to the population concerned."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Omar Deraz:</strong> Writing – review &amp; editing, Writing – original draft, Visualization, Validation, Software, Methodology, Funding acquisition, Formal analysis. <strong>Sofiane Kab:</strong> Data curation. <strong>Mathilde Touvier:</strong> Resources. <strong>Xavier Jouven:</strong> Resources. <strong>Marcel Goldberg:</strong> Writing – original draft, Methodology, Data curation, Conceptualization. <strong>Marie Zins:</strong> Resources. <strong>Jean-Philippe Empana:</strong> Writing – original draft, Supervision, Funding acquisition, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The funders had no role in the study conceptualization, data analyses, manuscript drafting, or the decision to publish the study and publisher choice. No further disclosures are made."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "RothG.A.MensahG.A.COJohnsonAddoloratoG.AmmiratiE.BaddourL.M.Global burden of cardiovascular diseases and Risk Factors, 1990–2019: update from the GBD 2019 studyJ Am Coll Cardiol7620202982302110.1016/j.jacc.2020.11.01033309175PMC7755038"
+    },
+    {
+      "html": "GBD ResultsInstitute for Health Metrics and Evaluation n.d2023<a href=\"https://vizhub.healthdata.org/gbd-results\">https://vizhub.healthdata.org/gbd-results</a>(accessed October 2,)"
+    },
+    {
+      "html": "MurrayC.J.L.VosT.LozanoR.NaghaviM.FlaxmanA.D.MichaudC.Disability-adjusted life years (DALYs) for 291 diseases and injuries in 21 regions, 1990–2010: a systematic analysis for the Global Burden of Disease Study 2010Lancet North Am Ed38020122197222310.1016/S0140-6736(12)61689-423245608"
+    },
+    {
+      "html": "Luengo-FernandezR.Walli-AttaeiM.GrayA.TorbicaA.MaggioniA.P.HuculeciR.Economic burden of cardiovascular diseases in the European Union: a population-based cost studyEur Heart J2023ehad58310.1093/eurheartj/ehad583PMC1069119537632363"
+    },
+    {
+      "html": "Lloyd-JonesD.M.AlbertM.A.ElkindM.The american heart association&#x27;s focus on primordial preventionCirculation1442021e233e23510.1161/CIRCULATIONAHA.121.05712534633862"
+    },
+    {
+      "html": "Lloyd-JonesD.M.HongY.LabartheD.MozaffarianD.AppelL.J.Van HornL.Defining and setting national goals for cardiovascular health promotion and disease reductionCirculation121201058661310.1161/CIRCULATIONAHA.109.19270320089546"
+    },
+    {
+      "html": "Lloyd-JonesD.M.AllenN.B.AndersonC.A.M.BlackT.BrewerL.C.ForakerR.E.Life’s essential 8: updating and enhancing the American heart association’s construct of cardiovascular health: a presidential advisory from the American heart associationCirculation202210.1161/CIR.0000000000001078PMC1050354635766027"
+    },
+    {
+      "html": "GayeB.CanonicoM.PerierM.-C.SamieriC.BerrC.DartiguesJ.-F.Ideal cardiovascular health, mortality, and vascular events in elderly subjects: the three-City studyJ Am Coll Cardiol6920173015302610.1016/j.jacc.2017.05.01128641790"
+    },
+    {
+      "html": "te HoonteF.SpronkM.SunQ.WuK.FanS.WangZ.Ideal cardiovascular health and cardiovascular-related events: a systematic review and meta-analysisEur J Prev Cardiol31202496698510.1093/eurjpc/zwad40538149986"
+    },
+    {
+      "html": "SamieriC.PerierM.-C.GayeB.Proust-LimaC.HelmerC.DartiguesJ.-F.Association of cardiovascular health level in older age with cognitive decline and incident dementiaJAMA320201865766410.1001/jama.2018.1149930140876PMC6142948"
+    },
+    {
+      "html": "WangX.MaH.LiX.HeianzaY.MansonJ.E.FrancoO.H.Association of cardiovascular health with Life expectancy free of cardiovascular disease, diabetes, cancer, and dementia in UK adultsJAMA Intern. Med.183202334010.1001/jamainternmed.2023.001536848126PMC9972243"
+    },
+    {
+      "html": "van SlotenT.T.TaffletM.PérierM.-C.DugravotA.ClimieR.E.D.Singh-ManouxA.Association of change in cardiovascular risk factors with incident cardiovascular eventsJAMA32020181793180410.1001/jama.2018.1697530398604PMC6248104"
+    },
+    {
+      "html": "GayeB.TajeuG.S.VasanR.S.LassaleC.AllenN.B.Singh-ManouxA.Association of changes in cardiovascular health metrics and risk of subsequent cardiovascular disease and mortalityJ Am Heart Assoc92020e01745810.1161/JAHA.120.017458PMC779236732985301"
+    },
+    {
+      "html": "PruggerC.PerierM.-C.SabiaS.FayosseA.van SlotenT.JouvenX.Association between changes in cardiovascular health and the risk of multimorbidity: community-based cohort studies in the UK and Finland. The Lancet Regional HealthEurope42202410092210.1016/j.lanepe.2024.100922PMC1109895038764806"
+    },
+    {
+      "html": "van SlotenT.T.ValentinE.ClimieR.E.JouvenX.LemogneC.GoldbergM.Association of cardiovascular health with risk of clinically relevant depressive symptomsJAMA Psychiatry80202334234910.1001/jamapsychiatry.2022.505636790776PMC9932942"
+    },
+    {
+      "html": "YounusA.AneniE.C.SpatzE.S.OsonduC.U.RobersonL.OgunmorotiO.A systematic review of the prevalence and outcomes of ideal cardiovascular health in US and Non-US populationsMayo Clin Proc91201664967010.1016/j.mayocp.2016.01.01927040086"
+    },
+    {
+      "html": "Lloyd-JonesD.M.NingH.LabartheD.BrewerL.SharmaG.RosamondW.Status of cardiovascular health in US adults and children using the American Heart Association’s new “life’s essential 8” metrics: prevalence estimates from the National Health and Nutrition Examination Survey (NHANES), 2013-2018Circulation202210.1161/CIRCULATIONAHA.122.06091135766033"
+    },
+    {
+      "html": "ZinsM.GoldbergM.The French CONSTANCES population-based cohort: design, inclusion and follow-upEur J Epidemiol3020151317132810.1007/s10654-015-0096-426520638PMC4690834"
+    },
+    {
+      "html": "HennyJ.NadifR.GotS.L.LemonnierS.OzgulerA.RuizF.The CONSTANCES Cohort Biobank: an open tool for research in Epidemiology and prevention of diseasesFront Public Health202010.3389/fpubh.2020.6051330PMC775820833363097"
+    },
+    {
+      "html": "WagnerA.SimonC.EvansA.FerrièresJ.MontayeM.DucimetièreP.Physical activity and coronary event incidence in Northern Ireland and FranceCirculation10520022247225210.1161/01.CIR.0000016345.58696.4F12010905"
+    },
+    {
+      "html": "LabbeE.BlanquetM.GerbaudL.PoirierG.SassC.VendittelliF.A new reliable index to measure individual deprivation: the EPICES scoreEur J Public Health25201560460910.1093/eurpub/cku23125624273"
+    },
+    {
+      "html": "LiX.MaH.WangX.FengH.QiL.Life&#x27;s essential 8, genetic susceptibility, and incident cardiovascular disease: a prospective studyArterioscler Thromb Vasc Biol4320231324133310.1161/ATVBAHA.123.31929037199161PMC10330462"
+    },
+    {
+      "html": "HebibL.Herraiz-AdilloÁ.Higueras-FresnilloS.BerglindD.DakaB.WennbergP.Life&#x27;s Essential 8 is inversely associated with high-sensitivity C-reactive proteinSci Rep1420241502410.1038/s41598-024-65977-3PMC1121737738951604"
+    },
+    {
+      "html": "JinC.LiJ.LiuF.LiX.HuiY.ChenS.Life&#x27;s essential 8 and 10-year and lifetime risk of atherosclerotic cardiovascular disease in ChinaAm J Prev Med64202392793510.1016/j.amepre.2023.01.00936813641"
+    },
+    {
+      "html": "SimonM.BoutouyrieP.NarayananK.GayeB.TaffletM.ThomasF.Sex disparities in ideal cardiovascular healthHeart10320171595160110.1136/heartjnl-2017-31131128754808"
+    },
+    {
+      "html": "WilliamsA.NolanT.S.LuthyJ.BrewerL.C.OrtizR.VenkateshK.K.Association of Socioeconomic Status with Life&#x27;s Essential 8 in the National Health and Nutrition Examination Survey: effect modification by sexJ Am Heart Assoc132024e03080510.1161/JAHA.123.030805PMC1101008238348807"
+    },
+    {
+      "html": "ReichelK.PriggeM.LatzaU.KurthT.BackéE.-M.Association of occupational sitting with cardiovascular outcomes and cardiometabolic risk factors: a systematic review with a sex-sensitive/gender-sensitive perspectiveBMJ Open122022e04801710.1136/bmjopen-2020-048017PMC883024135135760"
+    },
+    {
+      "html": "ZhaoM.WoodwardM.VaartjesI.MillettE.R.C.Klipstein-GrobuschK.HyunK.Sex differences in cardiovascular medication prescription in primary care: a systematic review and meta-analysisJ Am Heart Assoc92020e01474210.1161/JAHA.119.014742PMC742900332431190"
+    },
+    {
+      "html": "McKettaS.HoatsonT.HughesL.D.EverettB.G.HaneuseS.AustinS.B.Disparities in mortality by sexual orientation in a large, prospective cohort of female nursesJAMA33120241638164510.1001/jama.2024.445938662342PMC11046401"
+    },
+    {
+      "html": "DerazO.CaceresB.StreedC.G.BeachL.B.JouvenX.TouvierM.Sexual minority status disparities in life&#x27;s essential 8 and life&#x27;s simple 7 cardiovascular health scores: a French nationwide population-based studyJ Am Heart Assoc122023e02842910.1161/JAHA.122.028429PMC1038200237195318"
+    },
+    {
+      "html": "BosomworthJ.KhanZ.Analysis of gender-based inequality in cardiovascular health: an umbrella reviewCureus152023e4348210.7759/cureus.43482PMC1049946537711935"
+    },
+    {
+      "html": "OgunmorotiO.OsibogunO.SpatzE.S.OkunrintemiV.MathewsL.NdumeleC.E.A systematic review of the bidirectional relationship between depressive symptoms and cardiovascular healthPrev Med154202210689110.1016/j.ypmed.2021.10689134800472"
+    },
+    {
+      "html": "Roseane Halkjaer LassenW.GMedication non-adherence in depression: a systematic review and metanalysisMedication Non-Adherence in Depression: A Systematic Review and Metanalysis0202410.47626/2237-6089-2023-06800–0PMC1290891938194498"
+    },
+    {
+      "html": "KempJ.M.TaylorV.H.KanagasabaiT.Access to healthcare and depression severity in vulnerable groups the US: NHANES 2013–2018J Affect Disord352202447347810.1016/j.jad.2024.02.08138401808"
+    },
+    {
+      "html": "NotaraV.KokkouS.BindakosE.SakellariE.SkanavisC.Differences between urban and rural environments on Cardiovascular health: a systematic reviewJ Environ Pathol Toxicol Oncol422023879410.1615/JEnvironPatholToxicolOncol.202304764937522569"
+    },
+    {
+      "html": "CreatoreM.I.GlazierR.H.MoineddinR.FazliG.S.JohnsA.GozdyraP.Association of neighborhood walkability with change in overweight, obesity, and diabetesJAMA31520162211222010.1001/jama.2016.589827218630"
+    },
+    {
+      "html": "ChandraboseM.RacheleJ.N.GunnL.KavanaghA.OwenN.TurrellG.Built environment and cardio-metabolic health: systematic review and meta-analysis of longitudinal studiesObes Rev202019415410.1111/obr.1275930253075"
+    },
+    {
+      "html": "den BraverN.R.LakerveldJ.RuttersF.SchoonmadeL.J.BrugJ.BeulensJ.W.J.Built environmental characteristics and diabetes: a systematic review and meta-analysisBMC Med1620181210.1186/s12916-017-0997-z29382337PMC5791730"
+    },
+    {
+      "html": "RajagopalanS.RamaswamiA.BhatnagarA.BrookR.D.FentonM.GardnerC.Toward Heart-healthy and sustainable Cities: a policy statement from the American Heart AssociationCirculation1492024e1067e108910.1161/CIR.000000000000121738436070PMC12160618"
+    },
+    {
+      "html": "Botero-ValenciaJ.S.Barrantes-ToroC.Marquez-ViloriaD.PearceJ.M.Low-cost air, noise, and light pollution measuring station with wireless communication and tinyMLHardwareX162023e0047710.1016/j.ohx.2023.e00477PMC1056291237822753"
+    },
+    {
+      "html": "LeungC.W.WolfsonJ.A.BrandtE.J.RimmE.B.Disparities in cardiovascular health by food Security status and Supplemental Nutrition Assistance program participation using life&#x27;s essential 8 metricsJAMA Netw Open62023e232137510.1001/jamanetworkopen.2023.21375PMC1031429937389879"
+    },
+    {
+      "html": "The European scientists and health professionals supporting Nutri-Score. (2023, November 24). Nutri-score report EU. nutriscore europe. <a href=\"https://nutriscore-europe.com/\">https://nutriscore-europe.com/</a> wp-content/uploads/2023/01/NS_rapport-EU-V10_230202.pdf n.d."
+    },
+    {
+      "html": "Palomar-CrosA.AndreevaV.A.FezeuL.K.JuliaC.BellichaA.Kesse-GuyotE.Dietary circadian rhythms and cardiovascular disease risk in the prospective NutriNet-Santé cohortNat Commun142023789910.1038/s41467-023-43444-338097547PMC10721609"
+    },
+    {
+      "html": "PettigrewS.JongenelisM.I.JonesA.HercbergS.JuliaC.An 18-country analysis of the effectiveness of five front-of-pack nutrition labelsFood Qual Prefer104202310469110.1016/j.foodqual.2022.104691"
+    },
+    {
+      "html": "PetticrewM.GloverR.E.VolminkJ.BlanchardL.CottÉ.KnaiC.The Commercial Determinants of Health and Evidence Synthesis (CODES): methodological guidance for systematic reviews and other evidence synthesesSyst Rev12202316510.1186/s13643-023-02323-037710334PMC10503085"
+    },
+    {
+      "html": "WoodB.Lacy-NicholsJ.SacksG.Taking on the corporate determinants of ill-health and health inequity: a scoping review of actions to address excessive corporate power to protect and promote the public&#x27;s healthInt J Health Policy Manag122023730410.34172/ijhpm.2023.730438618808PMC10590241"
+    },
+    {
+      "html": "BucholzE.M.ButalaN.M.AllenN.B.MoranA.E.de FerrantiS.D.Age, sex, race/ethnicity, and income patterns in ideal cardiovascular health among adolescents and adults in the U.SAm J Prev Med62202258659510.1016/j.amepre.2021.11.01035012831PMC9279114"
+    },
+    {
+      "html": "HaymanL.L.Martyn-NemethP.A new metric for promoting cardiovascular health: life&#x27;s essential 8J Cardiovasc Nurs37202250910.1097/JCN.000000000000094636037296PMC9665048"
+    },
+    {
+      "html": "Santos-BeneitG.Fernández-JiménezR.de Cos-GandoyA.RodríguezC.CarralV.BodegaP.Lessons learned from 10 years of preschool intervention for health promotion: JACC State-of-the-art reviewJ Am Coll Cardiol79202228329810.1016/j.jacc.2021.10.04635057915"
+    },
+    {
+      "html": "PeñalvoJ.L.Santos-BeneitG.Sotos-PrietoM.BodegaP.OlivaB.OrritX.The SI! Program for Cardiovascular Health Promotion in Early ChildhoodJ Am Coll Cardiol6620151525153410.1016/j.jacc.2015.08.01426429075"
+    },
+    {
+      "html": "WuZ.Rabasa-LhoretR.MessierV.ShohoudiA.DasguptaK.PelletierJ.Self-reported haemoglobin A1c highly agrees with laboratory-measured haemoglobin A1c among adults living with type 1 diabetes: a BETTER registry studyDiabetes Metab48202210127710.1016/j.diabet.2021.10127734509633"
+    },
+    {
+      "html": "SchneiderA.L.C.PankowJ.S.HeissG.SelvinE.Validity and reliability of self-reported diabetes in the atherosclerosis risk in communities studyAm J Epidemiol176201273874310.1093/aje/kws15623013620PMC3571247"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

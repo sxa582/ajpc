@@ -1,0 +1,508 @@
+{
+  "pmcid": "PMC12849021",
+  "pmid": "41613349",
+  "doi": "10.1016/j.ajpc.2025.101391",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12849021/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Low-intensity versus moderate- to high-intensity lipid-lowering therapy after myocardial infarction in patients aged 80 years and older: A retrospective cohort study",
+  "articleType": "Research Article",
+  "published": "2025-12-21",
+  "year": "2025",
+  "volume": "25",
+  "issue": "",
+  "articleNumber": "101391",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2025",
+  "authors": [
+    {
+      "given": "Shichen",
+      "surname": "Jiang",
+      "display": "Shichen Jiang"
+    },
+    {
+      "given": "Linjie",
+      "surname": "Li",
+      "display": "Linjie Li"
+    },
+    {
+      "given": "Yuyang",
+      "surname": "Miao",
+      "display": "Yuyang Miao"
+    },
+    {
+      "given": "Geru",
+      "surname": "Aa",
+      "display": "Geru Aa"
+    },
+    {
+      "given": "Hangkuan",
+      "surname": "Liu",
+      "display": "Hangkuan Liu"
+    },
+    {
+      "given": "Xiaozhi",
+      "surname": "Chen",
+      "display": "Xiaozhi Chen"
+    },
+    {
+      "given": "Haonan",
+      "surname": "Sun",
+      "display": "Haonan Sun"
+    },
+    {
+      "given": "Yiwen",
+      "surname": "Fang",
+      "display": "Yiwen Fang"
+    },
+    {
+      "given": "Pengfei",
+      "surname": "Sun",
+      "display": "Pengfei Sun"
+    },
+    {
+      "given": "Xin",
+      "surname": "Zhou",
+      "display": "Xin Zhou"
+    },
+    {
+      "given": "Qiang",
+      "surname": "Zhang",
+      "display": "Qiang Zhang"
+    }
+  ],
+  "affiliations": [
+    "aDepartment of Cardiology, Tianjin Medical University General Hospital, 154 Anshan Road, Heping District, Tianjin 300052, China",
+    "bDepartment of Geriatrics, Tianjin Medical University General Hospital, Key Laboratory of Post-Neuro injury and Regeneration in Central Nervous System, Ministry of Education, State Key Laboratory of Experimental Hematology, Tianjin Key Laboratory of Elderly Health, Tianjin Geriatrics Institute, Tianjin, China"
+  ],
+  "keywords": [
+    "Elderly",
+    "Myocardial infarction",
+    "Lipid-lowering therapy",
+    "Mortality"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Background:</strong> Current evidence regarding the optimal intensity of lipid-lowering therapy (LLT) for post-myocardial infarction (MI) patients aged over 80 years remains insufficient."
+    },
+    {
+      "html": "<strong>Methods:</strong> This analysis was performed in patients aged over 80 years following MI, using data from the Tianjin Health and Medical Data Platform. The exposure was intensity of LLT (low-intensity versus moderate- to high-intensity). The primary outcome was all-cause mortality, with secondary outcomes including cardiovascular mortality, recurrent MI and stroke. Multivariable-adjusted Cox model was used to calculated hazard ratio (HR) and 95 % confidence interval (CI). Charlson Comorbidity Index (CCI) score was used to stratify the cohort."
+    },
+    {
+      "html": "<strong>Results:</strong> Among the 11,585 patients, 3559 received low-intensity LLT, and 8026 received moderate- to high-intensity LLT, with mortality rates of 29.1 % and 21.4 % respectively during a median follow-up of 3 years. Compared with low-intensity LLT group, moderate- to high-intensity LLT was associated with a statistically significant reduction in all-cause mortality (HR, 0.81 [95 % CI: 0.75–0.88]) and cardiovascular mortality (HR, 0.77 [95 % CI: 0.70–0.86]). The multivariable fractional polynomial interaction analysis revealed that only patients with CCI scores ≤ 4 derived significantly both all-cause mortality and cardiovascular mortality reduction from moderate-to-high-intensity LLT (HR, 0.79 [95 % CI: 0.72–0.87]; HR, 0.74 [95 % CI: 0.65–0.84], respectively)."
+    },
+    {
+      "html": "<strong>Conclusion:</strong> Among MI patients aged over 80 years, moderate-to-high-intensity LLT significantly reduced mortality risk during 3-year follow-up compared to low-intensity LLT only in patients with CCI scores ≤ 4. Further investigation is required to optimize personalized lipid management through rigorous assessment of LLT benefits versus adverse effects."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Atherosclerotic cardiovascular diseases are the leading causes of mortality worldwide and impose a substantial health burden, particularly in aging populations [1]. Low-density lipoprotein cholesterol (LDL-C) is a well-established risk factor for atherosclerotic cardiovascular diseases [2], and lipid-lowering therapies (LLT), primarily statins, have demonstrated significant efficacy in reducing fatal and nonfatal cardiovascular events across diverse patient populations after myocardial infarction (MI) [[3], [4], [5], [6], [7]]. However, current randomized controlled trials have not specifically focused on truly elderly patients (i.e., aged over 80 years) with MI, consequently there remains a paucity of robust evidence regarding whether this vulnerable population could derive clinical benefits from moderate- to high-intensity LLT. Despite the focus on the advantages of LLT in older adults, the PROSPER trial and the meta-analysis by Gencer B et al. included participants 70 to 82 years of age (mean age, 75 years) and those 75 years of age or older (mean age, 79 years), respectively [[8], [9], [10]]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Meanwhile, the prevalence of multimorbidity, defined as the occurrence of two or more chronic conditions, is rising throughout the globe, especially among the elderly [11,12]. Decision making in LLT is complicated by multiple factors including time to benefit, limited life expectancy, competing risks of mortality, concerns regarding adverse effects, drug-drug interactions, and common geriatric syndromes such as frailty and cognitive impairment [[13], [14], [15]]. As a result, personalized LLT is imperative for older adults with MI. However, current randomized trials or guideline remains insufficient to guide comorbidity-stratified treatment in this high-risk, understudied population [[16], [17], [18]]."
+        },
+        {
+          "type": "paragraph",
+          "html": "To address current research gaps, this study aims to evaluate, based on real-world data in patients over 80 years old with MI: 1) the association between different intensities of LLT and long-term clinical outcomes; 2) the impact of comorbidity burden on the effectiveness of LLT."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Data sources",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The data for this study were obtained from an integrated repository encompassing comprehensive healthcare records from multiple medical centres in China (details in <strong>Supplement Material</strong> or our published research[[19], [20], [21]]). This investigation received formal authorization from local health commission and was granted ethical approval by the institutional review board of authors’ affiliation (IRB2024-YX-131–01). The requirement for informed consent was waived pursuant to the retrospective observational design. This study followed the Strengthening the Reporting of Observational Studies in Epidemiology reporting guideline."
+        }
+      ]
+    },
+    {
+      "title": "Study population",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This study included patients hospitalized with MI aged over 80 years from January 1, 2013, to December 31, 2022. MI was identified using discharge diagnosis codes I21 and I22."
+        },
+        {
+          "type": "paragraph",
+          "html": "The exclusion criteria included the following: patients with missing hospitalization information and without LLT during hospitalization. Considering that early mortality in MI patients is strongly associated with the initial event, and clinicians tend to prescribe more intensive LLT for “more healthy” patients [22], we excluded patients who died within 30 days of admission to reduce selection bias."
+        }
+      ]
+    },
+    {
+      "title": "LLT intensity and outcomes",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "LLT was defined as the use of statins, ezetimibe, or proprotein convertase subtilisin/kexin type 9 (PCSK9) inhibitor during hospitalization. Low-intensity LLT was defined as 5 mg rosuvastatin, 10 mg and 15 mg atorvastatin, or any other statins every day. Moderate- to high-intensity LLT was defined as 10 mg or more rosuvastatin, 20 mg or more atorvastatin, PCSK9 inhibitor, or any combination of ezetimibe, PCSK9 inhibitor and statins [[23], [24], [25]]. The participants were grouped based on the last prescription during hospitalization."
+        },
+        {
+          "type": "paragraph",
+          "html": "The primary outcome was all-cause mortality within three years from admission. The secondary outcomes included cardiovascular mortality, recurrent MI, and stroke. The information was obtained from death registry in community healthcare centres. These mortality data were regularly updated and further validated through review of inpatient and outpatient medical records. The ICD codes used to identify these events are provided in <strong>Supplemental Table 1</strong>."
+        }
+      ]
+    },
+    {
+      "title": "Covariates",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The study variables included demographics (age, sex, marital status), type of MI [ST-elevation myocardial infarction (STEMI), non-ST-elevation myocardial infarction], medical history [old MI, history of percutaneous coronary intervention (PCI), diabetes mellitus, hypertension, heart failure, atrial fibrillation, chronic kidney diseases, ischaemic stroke, haemorrhagic stroke, chronic obstructive pulmonary disease, cancer and peripheral vascular disease], laboratory tests [serum levels of total cholesterol, LDL-C, high density lipoprotein cholesterol (HDL-C), triglycerides, estimated glomerular filtration rate (eGFR), haemoglobin and platelet], pre-hospital medications in the past 6 months [antiplatelet drugs (aspirin or P2Y12 inhibitors), statins, oral anticoagulants, <em>β</em>-blockers, angiotensin converting enzyme inhibitors (ACEI)/angiotensin receptor blockers (ARB), calcium channel blockers, diuretic and antidiabetic drug], and in-hospital treatments [dual antiplatelet therapy (DAPT) (aspirin and P2Y12 inhibitors), anticoagulation therapy, ACEI/ARB, <em>β</em>-blockers, calcium channel blockers, diuretic, antidiabetic drug, proton pump inhibitor and PCI]. The definitions of the above study variables are shown in the <strong>Supplemental Table 2</strong>."
+        },
+        {
+          "type": "paragraph",
+          "html": "According to patient diagnostic information, we calculated a comorbidity score for each patient using the Charlson Comorbidity Index (CCI) [26]. The CCI scoring system comprises 19 disease conditions, including MI, congestive heart failure, peripheral vascular disease, cerebrovascular disease, dementia, chronic pulmonary disease, rheumatic disease, peptic ulcer disease, mild liver disease, diabetes without chronic complications, moderate to severe renal disease, diabetes with chronic complications, hemiplegia or paraplegia, nonmetastatic solid tumor, moderate to severe liver disease, leukemia, lymphoma, metastatic solid tumour, and acquired immune deficiency syndrome."
+        }
+      ]
+    },
+    {
+      "title": "Statistical analyses",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Continuous variables were reported as medians (25th-75th percentile). Categorical variables were presented as percentages. Groups were compared by Kruskal-Wallis test for continuous variables and chi-square or Fisher exact tests for discrete variables. The missing baseline variables were imputed by <em>MissForest</em>, a random forest imputation algorithm for missing data implemented in R. The proportion of missing baseline variables before imputing was listed in <strong>Supplemental Table 3</strong>."
+        },
+        {
+          "type": "paragraph",
+          "html": "To evaluate the effects of LLT, we calculated LDL-C concentrations for both treatment cohorts from 30 days to 3 years post-admission. These measurements were stratified into four distinct temporal intervals: 30–90 days, 91–180 days, 181–365 days, and &gt;365 days. Cumulative mortality risk, stratified by the intensity of LLT, was constructed using the Kaplan-Meier method. Cox regression models were used to calculate hazard ratios (HR) and 95 % confidence intervals (CI). The study utilized multivariable adjusted Cox model and covariates were as described earlier. In addition, the study also utilized propensity-score matching (PSM) analyses with a maximum 1-to-1 matching to evaluate the association between intensity of LLT and mortality. PSM was conducted using the &quot;calipmath&quot; command in Stata, applying a greedy matching algorithm without replacement. A caliper width of 0.2 times the standard deviation of the log-transformed propensity score was used for all matches."
+        },
+        {
+          "type": "paragraph",
+          "html": "We conducted subgroup analyses and interaction tests to evaluate the effects of LLT on long-term mortality, including the following variables: age, sex, type of MI, heart failure, atrial fibrillation, LDL-C levels at baseline (&lt; 100 or ≥ 100 mg/dL), eGFR at baseline (&lt; 60 or ≥ 60 mL/min/1.73 m<sup>2</sup>), pre-hospital statins in the past 6 months and in-hospital therapy (DAPT, ACEI/ARB, <em>β</em>-blockers and PCI). We compared characteristics within subgroups that exhibited significant effect differences in the subgroup analysis."
+        },
+        {
+          "type": "paragraph",
+          "html": "To identify the appropriate population for moderate- to high-intensity LLT, we calculated each patient’s comorbidity score using the CCI, [26] and applied the multivariable fractional polynomial interaction (MFPI) to explore potential interactions between comorbidity score and the intensity of LLT concerning outcomes. Kaplan-Meier curves were constructed for the low-intensity LLT and moderate- to high-intensity LLT groups, stratified by different CCI scores, and compared using the log-rank test. Cox regression models were used to calculate HR and 95 % CI."
+        },
+        {
+          "type": "paragraph",
+          "html": "In the aforementioned exclusion criteria, we excluded patients with missing baseline LDL-C, a key variable. To validate the robustness of our findings, we retained these patients and repeated the primary analysis in sensitivity analyses: 1) after imputing missing baseline LDL-C values by <em>MissForest</em>, and 2) without adjusting for baseline LDL-C. In addition, given the competing risk, we validated the results using the Fine-Gray proportional subdistribution hazards model. Specifically, for the outcome of cardiovascular mortality, we accounted for competing risk of non-cardiovascular mortality; for recurrent MI and stroke, all-cause mortality was defined as the competing event."
+        },
+        {
+          "type": "paragraph",
+          "html": "The Stata (version16.0, StataCorp, College Station, TX, USA) and R (version 4.1.3) was used to perform analysis. A two tailed <em>P</em> &lt; 0.05 was considered to indicate statistical significance."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Patients characteristics",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "A total of 23,478 patients aged over 80 years who experienced MI were identified. Among them, 7592 were excluded due to missing data: 6872 had missing baseline serum LDL-C, 974 had unreasonably recorded statin dosage, and 7 lacked information of time of death. Additionally, 2556 patients had no recorded use of LLT during their hospital stay, and 1438 patients who died within 30 days of admission were also excluded. Ultimately, the study included 11,892 patients, of whom 3725 received low-intensity LLT, and 8167 received moderate- to high-intensity LLT <strong>(Supplemental Figure 1</strong> and <strong>Supplemental Table 4)</strong>."
+        },
+        {
+          "type": "paragraph",
+          "html": "Table 1 details the baseline characteristics of the included patients. Compared with those receiving low-intensity LLT, patients on moderate- to high-intensity LLT were slightly younger, had a higher proportion of males, fewer complications such as heart failure, chronic kidney diseases, and atrial fibrillation, and were more likely to have a prior statin prescription within six months before admission. And those on moderate- to high-intensity LLT had higher in-hospital usage rates of DAPT, ACEI/ARB, and <em>β</em>-blockers, as well as a higher proportion undergoing PCI.Table 1Baseline characteristics according to lipid-lowering therapy.Table 1VariablesTotal cohort<em>n</em> = 11,892Low-intensity<em>n</em> = 3725Moderate- to High-intensity<em>n</em> = 8167<em>P</em> valueAge (year)83.0 (81.0, 86.0)84.0 (81.0, 87.0)83.0 (81.0, 86.0)&lt;0.001Male, n ( %)5840 (49.1)1745 (46.8)4095 (50.1)&lt;0.001Married, n ( %)8261 (69.5)2566 (68.9)5695 (69.7)0.35Year of Admission2018 (2016, 2020)2017 (2015, 2019)2018 (2016, 2020)&lt;0.001STEMI, n ( %)4554 (38.3)1196 (32.1)3358 (41.1)&lt;0.001Previous history, n ( %) Myocardial infarction1605 (13.5)526 (14.1)1079 (13.2)0.18 PCI1088 (9.1)248 (6.7)840 (10.3)&lt;0.001 Diabetes mellitus3507 (29.5)1016 (27.3)2491 (30.5)&lt;0.001 Hypertension8209 (69.0)2535 (68.1)5674 (69.5)0.12 Heart failure6318 (53.1)2203 (59.1)4115 (50.4)&lt;0.001 Chronic kidney disease1799 (15.1)615 (16.5)1184 (14.5)0.004 Atrial fibrillation2436 (20.5)833 (22.4)1603 (19.6)&lt;0.001 Stroke1070 (9.0)353 (9.5)717 (8.8)0.22 Chronic obstructive pulmonary disease1507 (12.7)574 (15.4)933 (11.4)&lt;0.001 Cancer297 (2.5)95 (2.6)202 (2.5)0.80 Peripheral arterial disease1818 (15.3)487 (13.1)1331 (16.3)&lt;0.001CCI score2 (0, 5)2 (0, 4)2 (0, 5)&lt;0.001Laboratory testTotal cholesterol, mg/dL168.0 (141.1, 198.0)168.2 (141.5, 197.2)167.8 (140.8, 198.4)0.61LDL-C, mg/dL106.0 (83.5, 131.1)104.4 (82.8, 128.4)106.3 (83.9, 132.3)0.002HDL-C, mg/dL42.2 (35.2, 50.3)42.9 (35.6, 51.8)41.8 (35.2, 49.5)&lt;0.001Triglycerides, mg/dL100.1 (74.4, 134.6)97.4 (71.7, 130.2)101.0 (76.2, 137.3)&lt;0.001eGFR, mL/min/1.73m<sup>2</sup>59.4 (43.1, 76.3)57.6 (41.3, 74.3)60.2 (44.0, 76.9)&lt;0.001Haemoglobin, g/L120.0 (107.0, 132.0)119.0 (106.0, 131.3)120.0 (107.0, 132.0)0.098Platelet, 10<sup>9</sup>/L203.0 (168.0, 243.1)203.0 (167.0, 244.0)203.0 (169.0, 243.0)0.96Pre-hospital medication in the past 6 months, n ( %) Antiplatelet2988 (25.1)828 (22.2)2160 (26.4)&lt;0.001 Statin2400 (20.2)693 (18.6)1707 (20.9)0.004 <em>β</em>-blocker1519 (12.8)432 (11.6)1087 (13.3)0.009 ACEI/ARB1908 (16.0)569 (15.3)1339 (16.4)0.12 Calcium channel blockers1919 (16.1)532 (14.3)1387 (17.0)&lt;0.001 Diuretic2320 (19.5)757 (20.3)1563 (19.1)0.13 Antidiabetic drug1999 (16.8)606 (16.3)1393 (17.1)0.29In-hospital treatment, n ( %) DAPT8907 (74.9)2396 (64.3)6511 (79.7)&lt;0.001 Anticoagulation therapy9758 (82.1)2776 (74.5)6982 (85.5)&lt;0.001 ACEI/ARB7533 (63.3)2179 (58.5)5354 (65.6)&lt;0.001 <em>β</em>-blockers7752 (65.2)2216 (59.5)5536 (67.8)&lt;0.001 Calcium channel blockers3276 (27.5)1055 (28.3)2221 (27.2)0.20 Diuretic9375 (78.8)3112 (83.5)6263 (76.7)&lt;0.001 Antidiabetic drug6114 (51.4)2031 (54.5)4083 (50.0)&lt;0.001 PPI10,862 (91.3)3240 (87.0)7622 (93.3)&lt;0.001 PCI3516 (29.6)659 (17.7)2857 (35.0)&lt;0.001<strong>Abbreviation:</strong> ACEI, angiotensin-converting enzyme inhibitor; ARB, angiotensin II receptor blocker; CCI, Charlson Comorbidity Index; DAPT, dual antiplatelet therapy; eGFR, estimated glomerular filtration rate; HDL-C, high-density lipoprotein cholesterol; LDL-C, low-density lipoprotein cholesterol; PCI, percutaneous coronary intervention; PPI, proton pump inhibitor; STEMI, ST-elevation myocardial infarction."
+        }
+      ]
+    },
+    {
+      "title": "Management and following-up LDL-C level",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The baseline levels and changes in LDL-C across four time periods for both groups are illustrated in <strong>Supplemental Figure 2</strong>. The median baseline LDL-C levels for low-intensity and moderate- to high-intensity LLT groups were 104.4 mg/dL and 106.3 mg/dL, respectively. By 30–90 days after admission, LDL-C levels decreased to 87.4 mg/dL in the low-intensity group and 76.6 mg/dL in the moderate- to high-intensity group. Overall, the reduction in LDL-C levels was more pronounced in the moderate- to high-intensity LLT group."
+        }
+      ]
+    },
+    {
+      "title": "Long-term primary and secondary outcomes",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "During a median follow-up of 3 years, all-cause mortality rates were 29.1 % for patients receiving low-intensity LLT and 21.4 % for those receiving moderate- to high-intensity LLT. Compared with low-intensity LLT group, moderate- to high-intensity LLT was associated with a statistically significant reduction in all-cause mortality at 3-year follow-up (HR, 0.81 [95 % CI: 0.75–0.88]; <em>P</em> &lt; 0.001) (Fig. 1<strong>A</strong>). Similar results were observed in the Cox regression analysis after PSM (HR, 0.80 [95 % CI: 0.73–0.88]; <em>P</em> = 0.001) (<strong>Supplemental Figure 3</strong>). The variables in the PSM cohort were well balanced between the two groups (<strong>Supplemental Table 5</strong> and <strong>Supplemental Figure 4</strong>).Fig. 1Cumulative incidence of the mortality risk and effects of lipid-lowering therapy on outcomes among patients over 80 years old with myocardial infarction.Panel A: Cumulative all-cause mortality curves over a 3-year follow-up; Panel B: Cumulative cardiovascular mortality curves over a 3-year follow-up; Panel C: Effects of lipid-lowering therapy on primary and secondary outcomes. Red and blue lines represent low-intensity lipid-lowering therapy and moderate- to high-intensity lipid-lowering therapy, respectively. The HR and 95 % CI are visually represented by point estimates and horizontal lines, indicating outcomes favor low-intensity lipid-lowering therapy or moderate- to high-intensity lipid-lowering therapy, with statistical significance noted by <em>P</em> values. Statistical significance was tested with multivariable adjusted Cox model and noted by <em>P</em> values.Abbreviation: CI, confidence intervals; HR, hazard ratios; MI, myocardial infarction.Fig. 1"
+        },
+        {
+          "type": "paragraph",
+          "html": "Compared to low-intensity LLT, moderate- to high-intensity LLT also demonstrated a reduced three-year incidence of cardiovascular mortality (HR, 0.77 [95 % CI: 0.70–0.86]; <em>P</em> &lt; 0.001) (Fig. 1<strong>B</strong>) in the Cox regression analysis. However, during 3 years of follow-up, after the first MI, higher LLT was not associated with the reduction of recurrent MI (HR, 0.93 [95 % CI: 0.83–1.03]; <em>P</em> = 0.170) or stroke (HR, 0.92 [95 % CI: 0.81–1.04]; <em>P</em> = 0.169) (Fig. 1<strong>C</strong>)."
+        }
+      ]
+    },
+    {
+      "title": "Subgroup analysis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In subgroup analyses, female patients appeared to benefit more from higher intensity LLT (HR, 0.75 [95 % CI: 0.67–0.85]) than male patients (HR, 0.88 [95 % CI: 0.79–0.99]), with a statistically significant interaction (<em>P<sub>int</sub></em> = 0.040). The interaction <em>P</em> values were non-significant in other prespecified subgroup analyses (Fig. 2).Fig. 2Subgroup analysis of 3-year all-cause mortality in patients over 80 years old with myocardial infarction.The HR and 95 % CI are visually represented by point estimates and horizontal lines, indicating outcomes favor low-intensity lipid-lowering therapy or moderate- to high-intensity lipid-lowering therapy, with statistical significance noted by P values.Abbreviation: ACEI, angiotensin converting enzyme inhibitors; ARB, angiotensin receptor blockers; CI, confidence intervals; DAPT, dual antiplatelet therapy; eGFR, estimated glomerular filtration rate; HR, hazard ratios; LDL-C, low-density lipoprotein cholesterol; MI, myocardial infarction; NSTEMI, non-ST-elevation myocardial infarction; PCI, percutaneous coronary intervention; STEMI, ST-elevation myocardial infarction.Fig. 2"
+        }
+      ]
+    },
+    {
+      "title": "Interactions between CCI and LLT intensity on mortality",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The MFPI analysis revealed a significant interaction between the CCI and the intensity of LLT on all-cause mortality (interaction <em>P</em> = 0.017). As the CCI increased, the mortality risk reduction associated with moderate- to high-intensity LLT, compared to low-intensity LLT, progressively diminished. (Fig. 3<strong>A</strong>) Patients with CCI scores ≤ 4 demonstrated the greatest reduction in both all-cause mortality and cardiovascular mortality when treated with moderate- to high-intensity LLT (HR, 0.79 [95 % CI: 0.72–0.87], <em>P</em> &lt; 0.001; HR, 0.74 [95 % CI: 0.65–0.84], <em>P</em> &lt; 0.001, respectively). In contrast, no significant reduction in all-cause mortality or cardiovascular mortality was observed with moderate- to high-intensity LLT in patients with CCI scores &gt; 4 (HR, 0.89 [95 % CI: 0.77–1.04], <em>P</em> = 0.146; HR, 0.89 [95 % CI: 0.73–1.10], <em>P</em> = 0.288, respectively).(Fig. 4). Fig. 3<strong>B</strong> and <strong>Supplemental Figure 5</strong> demonstrates the cumulative incidence of all-cause mortality and cardiovascular mortality for the cohort, stratified into four groups based on CCI scores (≤ 4 vs. &gt;4) and LLT intensity (low vs. moderate- to high-), respectively.Fig. 3Interactions between Charlson Comorbidity Index and lipid-lowering therapy intensity on all-cause mortalityPanel A: MFPI analysis of the effect of LLT intensity on mortality across different levels of CCI. Panel B: Cumulative all-cause mortality risk stratified by the intensity of LLT stratified into four groups based on CCI scores (≤ 4 vs. &gt; 4) and LLT intensity (low vs. moderate- to high-).Abbreviation: CCI, Charlson Comorbidity Index.Fig. 3Fig. 4Effects of lipid-lowering therapy on primary and secondary outcomes stratified by CCI scoresThe HR and 95 % CI are visually represented by point estimates and horizontal lines, indicating outcomes favor low-intensity lipid-lowering therapy or moderate- to high-intensity lipid-lowering therapy. Statistical significance was tested with multivariable adjusted Cox model.Abbreviation: CCI, Charlson Comorbidity Index; CI, confidence intervals; HR, hazard ratios; MI, myocardial infarction.Fig. 4"
+        },
+        {
+          "type": "paragraph",
+          "html": "Meanwhile, stratified analyses revealed that moderate-to-high-intensity LLT significantly reduced recurrent MI risk compared to low-intensity LLT in patients with CCI scores ≤ 4 (HR, 0.85 [95 % CI: 0.75–0.97], <em>P</em> = 0.018), whereas no benefit was observed in those with CCI &gt; 5 (HR, 1.15 [95 % CI: 0.92–1.43], <em>P</em> = 0.222). Notably, stroke incidence remained comparable across LLT intensity groups regardless of CCI stratification (CCI ≤ 4: HR, 0.89 [95 % CI: 0.77–1.04], <em>P</em> = 0.139; CCI &gt; 5: HR, 1.02 [95 % CI: 0.82–1.28], <em>P</em> = 0.854) (Fig. 4)."
+        },
+        {
+          "type": "paragraph",
+          "html": "In sensitivity analyses, we retained 3637 patients with missing baseline LDL-C and 15,529 MI patients aged over 80 years were ultimately included among a total of 23,478 patients. The results remained consistent in showing that only patients with a CCI score ≤ 4 derived benefit from moderate-to-high intensity LLT compared to low-intensity LLT. <strong>(Supplemental Figure 6)</strong> Furthermore, the sensitivity analyses accounting for competing risk confirmed the robustness of our study findings as well. <strong>(Supplemental Figure 7)</strong>"
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In this retrospective cohort study based on province-wide electronic health records involving over 10,000 patients, we found that among MI patients aged over 80, moderate- to high-intensity LLT was significantly associated with reduced 3-year all-cause and cardiovascular mortality. Moreover, the CCI score demonstrated a modifying effect on this association, with patients who had lower CCI scores deriving greater benefit from more intensive LLT. These findings complement the current limited evidence on intensive lipid-lowering strategies in very elderly MI patients and provide empirical support and clinical guidance for developing individualized LLT regimens based on comorbidity burden in this high-risk population."
+        },
+        {
+          "type": "paragraph",
+          "html": "Statin-based LLT is a critical approach to controlling plasma LDL-C levels and reducing adverse cardiovascular events in post-MI patients [[3], [4], [5], [6], [7]]. However, there is limited evidence regarding the optimal intensity of LLT for elderly patients following MI [27,28]. A study by Choudhry and coworkers conducted from 1997 to 2004 [25], which employed a similar grouping method, concluded that elderly patients did not benefit from higher intensity LLT after MI. Nevertheless, with the development and diversification of treatment strategies, the prognosis for this patient population has significantly improved, making our findings unsurprising [29]. In addition, a prior cohort study by Fayol and colleagues in France [28], involving 2258 MI patients aged over 80, demonstrated that high-intensity LLT significantly reduced 5-year mortality risk. Unlike this study conducted in a French population (with an average life expectancy of 82.5 years), our research was carried out in China, a developing country with a shorter average life expectancy (77.4 years)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Notably, the prevalence of multimorbidity increased substantially with age, [30] and prior studies have proved that comorbidities are often associated with worsened short-term clinical outcomes in patients following MI [[31], [32], [33]]. The optimal intensity of LLT in patients with different comorbidity burden remains contentious due to limited evidence from prior studies, particularly given the time-dependent nature of atherosclerotic risk reduction that requires survival horizons exceeding therapeutic latency periods [34,35]. Moreover, concomitant polypharmacy in patients with high comorbidity burden elevates the risk of drug-drug interactions and adverse drug reactions during LLT [36,37]. These factors necessitate personalized LLT regimens tailored to residual lifespan projections and geriatric risk profiles in elderly patients post MI."
+        },
+        {
+          "type": "paragraph",
+          "html": "Consequently, we calculated a comorbidity score for each patient using CCI, and stratified the cohort according to the scores, revealing that patients with CCI scores ≤ 4 derived significantly both all-cause mortality and cardiovascular mortality reduction from moderate-to-high-intensity LLT, whereas no statistically meaningful benefit was observed in patients with CCI scores &gt; 4. There are several possible explanations for this finding. First, the observed mortality reduction with moderate-to-high-intensity LLT in patients with CCI scores ≤ 4 is likely attributable to their relatively stable conditions, better tolerance to LLT, and fewer complications, making the benefits of LLT more evident [27]. In contrast, patients with severe comorbidities often have complex underlying conditions and multiple complications, such as advanced renal impairment and severe liver disease, which may limit the efficacy of LLT. Patients with multiple comorbidities are more likely to experience adverse events and intolerance to moderate-to-high-intensity LLT, [38] and have competing risks of non-cardiovascular death that limit the benefits of moderate- to high-intensity LLT [39]. This interaction likely explains why moderate-to-high-intensity lipid-lowering therapy reduced recurrent MI risk only in patients with CCI scores ≤ 4, whereas no benefit was observed in unstratified analyses or those with CCI &gt; 4. Therefore, the management of patients with multimorbidity necessitates a holistic evaluation of global health status, projected life expectancy, and susceptibility to treatment-related adverse events to inform personalized therapeutic regimens."
+        },
+        {
+          "type": "paragraph",
+          "html": "Besides, among MI patients aged over 80, the risk-benefit assessment of LLT requires particularly careful consideration as well. Current evidences and guidelines advocate intensive LLT for secondary prevention to reduce future cardiovascular events [40]. However, while such therapy decrease non-fatal MI, it appears not to reduce all-cause mortality [41], and may potentially increase risks of diabetes mellitus and bleeding complications [42,43]. Furthermore, the critical question remains whether these elderly patients have sufficient life expectancy to derive meaningful clinical benefit from intensive treatment [34,43]. Additional concerns specific to geriatric populations include statin-associated myalgia, myopathy and potential drug-drug interactions [13]. To address these complexities, we employed CCI stratification to identify patient subgroups likely to derive net benefit from moderate-to-high intensity LLT. Additionally, although our cohort contained a limited proportion of patients receiving combination therapy of ezetimibe, PCSK9 inhibitor and statins, published evidence confirms that such medication regimens confer greater therapeutic efficacy and reduced adverse events compared to high-dose statin monotherapy [44,45]. These findings indicate that combination therapy could represent a better option for elderly patients presenting with MI. Further research is warranted to delineate optimized LLT strategies in this population, with the dual objectives of improving treatment efficacy while minimizing adverse effects."
+        },
+        {
+          "type": "paragraph",
+          "html": "Our study has several limitations. First, it is a retrospective observational study. Although we applied rigorous statistical methods and assessed for residual confounding factors, the potential impact of unmeasured confounding may still exist. There is also clinical decision bias in medication use, as physicians make treatment decisions based on patient-specific conditions [46]. Second, we only recorded in-hospital prescriptions, but in reality, the lipid-lowering medications and dosages for many patients were not constant over time. Adherence to medication regimens is unclear, which could introduce bias into the long-term outcomes. Third, the proportion of patients receiving combination therapy was relatively low in our cohort. Future research is needed to further evaluate the efficacy of combination LLT in elderly patients with MI. Fourth, although our analysis demonstrated benefit in patients with CCI scores ≤ 4, we were unable to incorporate data on myalgia, myopathy, new-onset diabetes, or bleeding events due to challenges in obtaining accurate real-world data on these outcomes. Additionally, this study included only patients from China, so caution is needed when generalizing the results. Further studies in broader populations are necessary to validate our findings."
+        }
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In this observational study of MI patients aged 80 years and older, moderate-to-high-intensity LLT significantly reduced all-cause and cardiovascular mortality during 3-year follow-up compared to low-intensity LLT in patients with CCI scores ≤ 4, whereas no mortality difference was observed between LLT intensity groups in those with CCI &gt; 4. The results underscore that an individualized approach to lipid management based on comorbidity status may help optimize cardiovascular protection in very elderly MI patients. Further investigation is required to optimize personalized lipid management through rigorous assessment of LLT benefits versus risks, including adverse effects, diabetes progression, and bleeding events."
+        }
+      ]
+    },
+    {
+      "title": "Ethics approval and consent to participate",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This study was approved by the Ethics Committee of the Tianjin Medical University General Hospital (IRB2024-YX-131–01). Informed consent was waived due to the retrospective nature of the study."
+        }
+      ]
+    },
+    {
+      "title": "Consent for publication",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "All contributing authors have reviewed and consented to the submission of this manuscript."
+        }
+      ]
+    },
+    {
+      "title": "Funding",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "National Key Research and Development Program of China (No. 2023YFC3605200 and No. 2025YFE0126700) and National Natural Science Foundation of China (82321001, 72274133 and 72304205)."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Shichen Jiang:</strong> Writing – original draft, Visualization, Formal analysis, Data curation. <strong>Linjie Li:</strong> Writing – original draft, Visualization, Formal analysis, Data curation. <strong>Yuyang Miao:</strong> Writing – original draft, Visualization, Formal analysis, Data curation. <strong>Geru Aa:</strong> Writing – review &amp; editing. <strong>Hangkuan Liu:</strong> Writing – review &amp; editing. <strong>Xiaozhi Chen:</strong> Writing – review &amp; editing. <strong>Haonan Sun:</strong> Writing – review &amp; editing. <strong>Yiwen Fang:</strong> Writing – review &amp; editing. <strong>Pengfei Sun:</strong> Supervision, Funding acquisition, Conceptualization. <strong>Xin Zhou:</strong> Supervision, Funding acquisition, Conceptualization. <strong>Qiang Zhang:</strong> Supervision, Funding acquisition, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "AidoudA.GanaW.PoitauF.DebacqC.LeroyV.NkodoJ.A.High prevalence of geriatric conditions among older adults with cardiovascular diseaseJ Am Heart Assoc122023e02685010.1161/JAHA.122.026850PMC993905736628962"
+    },
+    {
+      "html": "StamlerJ.NeatonJ.D.The multiple risk factor intervention trial (mrfit)–importance then and nowJAMA3002008134313451879944710.1001/jama.300.11.1343"
+    },
+    {
+      "html": "MiettinenT.A.PyoralaK.OlssonA.G.MuslinerT.A.CookT.J.FaergemanO.Cholesterol-lowering therapy in women and elderly patients with myocardial infarction or angina pectoris: findings from the scandinavian simvastatin survival study (4s)Circulation96199742114218941688410.1161/01.cir.96.12.4211"
+    },
+    {
+      "html": "SacksF.M.MoyeL.A.DavisB.R.ColeT.G.RouleauJ.L.NashD.T.Relationship between plasma ldl concentrations during treatment with pravastatin and recurrent coronary events in the cholesterol and recurrent events trialCirculation97199814461452957642410.1161/01.cir.97.15.1446"
+    },
+    {
+      "html": "SchwartzG.G.OlssonA.G.EzekowitzM.D.GanzP.OliverM.F.WatersD.Effects of atorvastatin on early recurrent ischemic events in acute coronary syndromes: the miracl study: a randomized controlled trialJAMA2852001171117181127782510.1001/jama.285.13.1711"
+    },
+    {
+      "html": "CannonC.P.BraunwaldE.McCabeC.H.RaderD.J.RouleauJ.L.BelderR.Intensive versus moderate lipid lowering with statins after acute coronary syndromesN Engl J Med3502004149515041500711010.1056/NEJMoa040583"
+    },
+    {
+      "html": "Lin WuF.L.WangJ.HoW.ChouC.H.WuY.J.ChooD.W.Effectiveness of a combination of ezetimibe and statins in patients with acute coronary syndrome and multiple comorbidities: a 6-year population-based cohort studyInt J Cardiol233201743512819061510.1016/j.ijcard.2017.02.006"
+    },
+    {
+      "html": "ShepherdJ.BlauwG.J.MurphyM.B.BollenE.L.BuckleyB.M.CobbeS.M.Pravastatin in elderly individuals at risk of vascular disease (prosper): a randomised controlled trialLancet3602002162316301245778410.1016/s0140-6736(02)11600-x"
+    },
+    {
+      "html": "BachR.G.CannonC.P.GiuglianoR.P.WhiteJ.A.LokhnyginaY.BohulaE.A.Effect of simvastatin-ezetimibe compared with simvastatin monotherapy after acute coronary syndrome among patients 75 years or older: a secondary analysis of a randomized clinical trialJAMA Cardiol420198468543131405010.1001/jamacardio.2019.2306PMC6647004"
+    },
+    {
+      "html": "GencerB.MarstonN.A.ImK.CannonC.P.SeverP.KeechA.Efficacy and safety of lowering ldl cholesterol in older patients: a systematic review and meta-analysis of randomised controlled trialsLancet3962020163716433318653510.1016/S0140-6736(20)32332-1PMC8015314"
+    },
+    {
+      "html": "SkouS.T.MairF.S.FortinM.GuthrieB.NunesB.P.MirandaJ.J.MultimorbidityNat Rev Dis Primers82022483583575810.1038/s41572-022-00376-4PMC7613517"
+    },
+    {
+      "html": "Basto-AbreuA.Barrientos-GutierrezT.WadeA.N.Oliveira de MeloD.Semeao de SouzaA.S.NunesB.P.Multimorbidity matters in low and middle-income countriesJ Multimorb Comorb1220222633556522110607410.1177/26335565221106074PMC920804535734547"
+    },
+    {
+      "html": "MortensenM.B.FalkE.Primary prevention with statins in the elderlyJ Am Coll Cardiol71201885942930163110.1016/j.jacc.2017.10.080"
+    },
+    {
+      "html": "OddenM.C.PletcherM.J.CoxsonP.G.ThekkethalaD.GuzmanD.HellerD.Cost-effectiveness and population impact of statins for primary prevention in adults aged 75 years or older in the united statesAnn Intern Med16220155335412589402310.7326/M14-1430PMC4476404"
+    },
+    {
+      "html": "CournotM.CambouJ.P.QuentzelS.DanchinN.Key factors associated with the under-prescription of statins in elderly coronary heart disease patients: results from the eliage and elicoeur surveysInt J Cardiol111200612181604601110.1016/j.ijcard.2005.06.039"
+    },
+    {
+      "html": "GrundyS.M.StoneN.J.BaileyA.L.BeamC.BirtcherK.K.BlumenthalR.S.2018 aha/acc/aacvpr/aapa/abc/acpm/ada/ags/apha/aspc/nla/pcna guideline on the management of blood cholesterol: a report of the american college of cardiology/american heart association task force on clinical practice guidelinesCirculation1392019e1082e11433058677410.1161/CIR.0000000000000625PMC7403606"
+    },
+    {
+      "html": "MachF.BaigentC.CatapanoA.L.KoskinasK.C.CasulaM.BadimonL.2019 esc/eas guidelines for the management of dyslipidaemias: lipid modification to reduce cardiovascular riskEur Heart J4120201111883150441810.1093/eurheartj/ehz455"
+    },
+    {
+      "html": "Joint Committee on the Chinese Guidelines for Lipid M[chinese guidelines for lipid management (2023)]Zhonghua Xin Xue Guan Bing Za Zhi5120232212553692513510.3760/cma.j.cn112148-20230119-00038"
+    },
+    {
+      "html": "SunP.LiuW.N.QianX.ZhangZ.LiuH.GeruA.Age-specific prognosis of acute and steady minor elevations in cardiac troponin among non-acute myocardial infarction inpatients: a large real-world cohort studyHeart11120255135213981961210.1136/heartjnl-2024-325079"
+    },
+    {
+      "html": "LiL.GeruA.GuoY.LiuH.LiJ.JiangS.Early beta-blocker use and clinical outcomes in acute myocardial injury: a retrospective cohort studyAm J Med2025;138:1090-1098 e109610.1016/j.amjmed.2025.02.02940057220"
+    },
+    {
+      "html": "ChenX.LiuH.LiL.AG.SunP.TanD.S.Atorvastatin versus rosuvastatin in acute myocardial infarction with elevated liver enzymes: a target trial emulation studyClin Res Cardiol11420257968084020830110.1007/s00392-025-02645-0"
+    },
+    {
+      "html": "LiJ.J.DouK.F.ZhouZ.G.ZhaoD.YeP.ChenH.Chinese expert consensus on the clinical diagnosis and management of statin intoleranceClin Pharmacol Ther11520249549643845942510.1002/cpt.3213"
+    },
+    {
+      "html": "LawM.R.WaldN.J.RudnickaA.R.Quantifying effect of statins on low density lipoprotein cholesterol, ischaemic heart disease, and stroke: systematic review and meta-analysisBMJ326200314231282955410.1136/bmj.326.7404.1423PMC162260"
+    },
+    {
+      "html": "GrundyS.M.CleemanJ.I.MerzC.N.BrewerH.B.Jr.ClarkL.T.HunninghakeD.B.Implications of recent clinical trials for the national cholesterol education program adult treatment panel iii guidelinesCirculation11020042272391524951610.1161/01.CIR.0000133317.49796.0E"
+    },
+    {
+      "html": "ChoudhryN.K.LevinR.WinkelmayerW.C.Statins in elderly patients with acute coronary syndrome: an analysis of dose and class effects in typical practiceHeart9320079459511734433410.1136/hrt.2006.110197PMC1994395"
+    },
+    {
+      "html": "GlasheenW.P.CordierT.GumpinaR.HaughG.DavisJ.RendaA.Charlson comorbidity index: icd-9 update and icd-10 translationAm Health Drug Benefits12201918819731428236PMC6684052"
+    },
+    {
+      "html": "RuscicaM.MacchiC.PavanelloC.CorsiniA.SahebkarA.SirtoriC.R.Appropriateness of statin prescription in the elderlyEur J Intern Med50201833402931099610.1016/j.ejim.2017.12.011"
+    },
+    {
+      "html": "FayolA.SchieleF.FerrieresJ.PuymiratE.BatailleV.TeaV.Association of use and dose of lipid-lowering therapy post acute myocardial infarction with 5-year survival in older adultsCirc Cardiovasc Qual Outcomes172024e01068510.1161/CIRCOUTCOMES.123.01068538682335"
+    },
+    {
+      "html": "WangY.LeifheitE.C.KrumholzH.M.Trends in 10-year outcomes among medicare beneficiaries who survived an acute myocardial infarctionJAMA Cardiol720226136223550733010.1001/jamacardio.2022.0662PMC9069341"
+    },
+    {
+      "html": "BarnettK.MercerS.W.NorburyM.WattG.WykeS.GuthrieB.Epidemiology of multimorbidity and implications for health care, research, and medical education: a cross-sectional studyLancet380201237432257904310.1016/S0140-6736(12)60240-2"
+    },
+    {
+      "html": "NguyenH.L.NguyenQ.N.HaD.A.PhanD.T.NguyenN.H.GoldbergR.J.Prevalence of comorbidities and their impact on hospital management and short-term outcomes in vietnamese patients hospitalized with a first acute myocardial infarctionPLoS One92014e10899810.1371/journal.pone.0108998PMC418481225279964"
+    },
+    {
+      "html": "ChenH.Y.SaczynskiJ.S.McManusD.D.LessardD.YarzebskiJ.LapaneK.L.The impact of cardiac and noncardiac comorbidities on the short-term outcomes of patients hospitalized with acute myocardial infarction: a population-based perspectiveClin Epidemiol520134394482423584710.2147/CLEP.S49485PMC3825685"
+    },
+    {
+      "html": "McManusD.D.NguyenH.L.SaczynskiJ.S.TisminetzkyM.BourellP.GoldbergR.J.Multiple cardiovascular comorbidities and acute myocardial infarction: temporal trends (1990-2007) and impact on death rates at 30 days and 1 yearClin Epidemiol420121151232270109110.2147/CLEP.S30883PMC3372969"
+    },
+    {
+      "html": "Cholesterol Treatment Trialists CBaigentC.BlackwellL.EmbersonJ.HollandL.E.ReithC.Efficacy and safety of more intensive lowering of ldl cholesterol: a meta-analysis of data from 170,000 participants in 26 randomised trialsLancet3762010167016812106780410.1016/S0140-6736(10)61350-5PMC2988224"
+    },
+    {
+      "html": "LiL.HuangC.LiuW.LiJ.GeruA.ChenX.Time to benefit of intensive lipid lowering therapy in individuals with cardiovascular diseaseJ Clin Lipidol19202451593953750910.1016/j.jacl.2024.09.014"
+    },
+    {
+      "html": "Cobos-PalaciosL.Sanz-CanovasJ.Munoz-UbedaM.Lopez-CarmonaM.D.Perez-BelmonteL.M.Lopez-SampaloA.Statin therapy in very old patients: lights and shadowsFront Cardiovasc Med8202177904410.3389/fcvm.2021.779044PMC866726934912868"
+    },
+    {
+      "html": "JamilY.A.CohenR.AlameddineD.K.DeoS.V.KumarM.OrkabyA.R.Cholesterol lowering in older adults: should we wait for further evidence?Curr Atheroscler Rep2620245215363895892410.1007/s11883-024-01224-4"
+    },
+    {
+      "html": "TranV.T.HarringtonM.MontoriV.M.BarnesC.WicksP.RavaudP.Adaptation and validation of the treatment burden questionnaire (tbq) in english using an internet platformBMC Med1220141092498998810.1186/1741-7015-12-109PMC4098922"
+    },
+    {
+      "html": "RidkerP.M.LonnE.PaynterN.P.GlynnR.YusufS.Primary prevention with statin therapy in the elderly: new meta-analyses from the contemporary jupiter and hope-3 randomized trialsCirculation1352017197919812838594910.1161/CIRCULATIONAHA.117.028271"
+    },
+    {
+      "html": "MachF.KoskinasK.C.Roeters van LennepJ.E.TokgozogluL.BadimonL.BaigentC.2025 focused update of the 2019 esc/eas guidelines for the management of dyslipidaemiasEur Heart J46202543594378"
+    },
+    {
+      "html": "LiL.SunH.JinZ.LiJ.FangY.ZuoL.Positive outcome trials driven by reduction in nonfatal myocardial infarction: a systematic review and relevant guideline recommendationsAm Heart J288202515254025409610.1016/j.ahj.2025.04.021"
+    },
+    {
+      "html": "YangQ.SunD.PeiC.ZengY.WangZ.LiZ.Ldl cholesterol levels and in-hospital bleeding in patients on high-intensity antithrombotic therapy: findings from the ccc-acs projectEur Heart J422021317531863434785910.1093/eurheartj/ehab418"
+    },
+    {
+      "html": "MansiI.A.ChansardM.LingvayI.ZhangS.HalmE.A.AlvarezC.A.Association of statin therapy initiation with diabetes progression: a retrospective matched-cohort studyJAMA Intern Med1812021156215743460584910.1001/jamainternmed.2021.5714PMC8491130"
+    },
+    {
+      "html": "KimB.K.HongS.J.LeeY.J.HongS.J.YunK.H.HongB.K.Long-term efficacy and safety of moderate-intensity statin with ezetimibe combination therapy versus high-intensity statin monotherapy in patients with atherosclerotic cardiovascular disease (racing): a randomised, open-label, non-inferiority trialLancet40020223803903586336610.1016/S0140-6736(22)00916-3"
+    },
+    {
+      "html": "HongS.J.LeeY.J.LeeS.J.HongB.K.KangW.C.LeeJ.Y.Treat-to-target or high-intensity statin in patients with coronary artery disease: a randomized clinical trialJAMA3292023107810873687780710.1001/jama.2023.2487PMC9989958"
+    },
+    {
+      "html": "GullifordM.RavindrarajahR.HamadaS.JacksonS.CharltonJ.Inception and deprescribing of statins in people aged over 80 years: cohort studyAge Ageing462017100110052908836410.1093/ageing/afx100PMC5669477"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

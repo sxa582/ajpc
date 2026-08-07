@@ -1,0 +1,390 @@
+{
+  "pmcid": "PMC11525111",
+  "pmid": "39483246",
+  "doi": "10.1016/j.ajpc.2024.100884",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11525111/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Genetic risk score for coronary artery calcification and its predictive ability for coronary artery disease",
+  "articleType": "Research Article",
+  "published": "2024-10-10",
+  "year": "2024",
+  "volume": "20",
+  "issue": "",
+  "articleNumber": "100884",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2024",
+  "authors": [
+    {
+      "given": "Pashupati P.",
+      "surname": "Mishra",
+      "display": "Pashupati P. Mishra"
+    },
+    {
+      "given": "Binisha H.",
+      "surname": "Mishra",
+      "display": "Binisha H. Mishra"
+    },
+    {
+      "given": "Leo-Pekka",
+      "surname": "Lyytikäinen",
+      "display": "Leo-Pekka Lyytikäinen"
+    },
+    {
+      "given": "Sirkka",
+      "surname": "Goebeler",
+      "display": "Sirkka Goebeler"
+    },
+    {
+      "given": "Mika",
+      "surname": "Martiskainen",
+      "display": "Mika Martiskainen"
+    },
+    {
+      "given": "Emma",
+      "surname": "Hakamaa",
+      "display": "Emma Hakamaa"
+    },
+    {
+      "given": "Marcus E.",
+      "surname": "Kleber",
+      "display": "Marcus E. Kleber"
+    },
+    {
+      "given": "Graciela E.",
+      "surname": "Delgado",
+      "display": "Graciela E. Delgado"
+    },
+    {
+      "given": "Winfried",
+      "surname": "März",
+      "display": "Winfried März"
+    },
+    {
+      "given": "Mika",
+      "surname": "Kähönen",
+      "display": "Mika Kähönen"
+    },
+    {
+      "given": "Pekka J.",
+      "surname": "Karhunen",
+      "display": "Pekka J. Karhunen"
+    },
+    {
+      "given": "Terho",
+      "surname": "Lehtimäki",
+      "display": "Terho Lehtimäki"
+    }
+  ],
+  "affiliations": [
+    "aDepartment of Clinical Chemistry, Faculty of Medicine and Health Technology, Tampere University, Tampere, Finland",
+    "bFinnish Cardiovascular Research Center Tampere, Faculty of Medicine and Health Technology, Tampere University, Tampere, Finland",
+    "cDepartment of Clinical Chemistry, Fimlab Laboratories, Tampere, Finland",
+    "dForensic Medicine, Finnish Institute for Health and Welfare, Helsinki, Finland",
+    "eFaculty of Medicine and Health Technology, Tampere University and Fimlab Laboratories, Tampere, Finland",
+    "fVth Department of Medicine, University Medicine Mannheim, Medical Faculty Mannheim of the University of Heidelberg, Mannheim, Germany",
+    "gSYNLAB MVZ Humangenetik Mannheim, Mannheim, Germany",
+    "hSynlab Academy, SYNLAB Holding Deutschland GmbH, Mannheim and Augsburg, Germany",
+    "iDepartment of Clinical Physiology, Tampere University Hospital, Tampere Finland"
+  ],
+  "keywords": [
+    "Genetic risk score",
+    "Coronary artery calcification",
+    "Coronary artery disease",
+    "Prediction"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Aim:</strong> The modest added predictive value of the existing genetic risk scores (GRSs) for coronary artery disease (CAD) could be partly due to missing genetic components, hidden in the genetic architecture of intermediate phenotypes such as coronary artery calcification (CAC). In this study, we investigated the predictive ability of CAC GRS for CAD."
+    },
+    {
+      "html": "<strong>Materials and methods:</strong> We investigated the association of CAC GRSs with CAD and coronary calcification among the participants in the Ludwigshafen Risk and Cardiovascular Health study (LURIC) (<em>n</em> = 2742), the Tampere Vascular Study (TVS) (<em>n</em> = 133), and the Tampere Sudden Death Study (TSDS) (<em>n</em> = 660) using summary data from the largest multi-ancestry GWAS meta-analysis of CAC to date. Added predictive value of the CAC GRS over the traditional CVD risk factors as well as metaGRS, a GRS for CAD constructed with 1.7 million genetic variants, was tested with standard train–test machine learning approach using the LURIC data, which had the largest sample size."
+    },
+    {
+      "html": "<strong>Results:</strong> CAC GRS was significantly associated with CAD in LURIC (OR=1.41, 95 % CI [1.28–1.55]), TVS (OR=1.79, 95 % CI [1.05–3.21]) as well as in TSDS (OR=4.20, 95 % CI [1.74–10.52]). CAC GRS showed strong association with calcification areas in left (OR=1.78, 95 % CI [1.16–2.74]) and right (OR=1.71, 95 % CI [1.98–2.67]) coronary arteries. There was statistically significant added predictive value of the CAC GRS for CAD over the used traditional CVD risk factors (AUC 0.734 vs 0.717, p-value = 0.02). Furthermore, CAC GRS improved the prediction accuracy for CAD when combined with metaGRS."
+    },
+    {
+      "html": "<strong>Conclusions:</strong> This study showed that CAC GRS is a new risk marker for CAD in three European cohorts, with added predictive value over the traditional CVD risk factors."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Background",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Cardiovascular diseases (CVDs) are a key global public health issue with major economic as well as human costs globally [1]. A major focus on prevention of CVDs is crucial to achieve the United Nations member states’ commitment to a 25 % reduction in premature CVD mortality by 2025 [2]. Atherosclerosis, the underlying pathology behind most CVDs, begins decades before the clinical manifestations and silently reaches a stage where it can only be slowed down but not be reversed [3]. Identifying individuals at an early stage of the cardiovascular (CV) cascade who do not yet have symptoms (subclinical atherosclerosis) is of high importance in preventive cardiology."
+        },
+        {
+          "type": "paragraph",
+          "html": "Genetic risk score (GRS) is a system-level approach that combines single-nucleotide polymorphisms (SNPs) to enhance the predictive ability for a polygenic disease [4]. GRS is an attractive target as a potential predictor because these genetic variants remain stable across the lifespan and can thus provide information on an individual&#x27;s disease predisposition from birth and early age to old age. Several genome-wide association studies (GWASs) have characterized the genetic makeup of CVDs, including atherosclerosis-related [5] and coronary artery disease (CAD)-related SNPs [6]. A GRS calculated with all validated CVD-related SNPs may also predict CVDs in the early stages. However, the SNPs identified so far with traditional GWASs explain only a small fraction (10–20 %) of CVD heritability [[6], [7], [8]]. The identification of SNPs explaining the missing heritability is important for a robust GRS and, therefore, constitutes a crucial step forward for the early prediction of CVD. The utility of GRS in CVD risk prediction models is still in the early phase. The modest added predictive value shown by recent studies such as by [9] could partly be due to the missing genetic components hidden within the genetic architecture of intermediate phenotypes of CVD, such as coronary artery calcification (CAC), that are involved in the pathogenesis of CVD. Indeed, although there is shared etiology between CVD and CAC, a recent comprehensive GWAS study of CAC found several new CAC associated genes that have so far not been reported to be associated with CVD [10]. CAC score, a measure of the amount of calcified plaque in coronary arteries, is a highly reliable indicator of cardiovascular disease beyond the established CVD risk variables [11,12]. According to the American College of Cardiology (ACC)/ American Heart Association (AHA) guidelines, CAC scores are useful in directing treatment for those with intermediate risk of cardiovascular events [13]. However, CAC increases with age and therefore CAC test is not recommended for younger individuals as detectable calcification of the lipid rich plaques takes time. Genetic variants identified with GWAS of CAC might help in developing GRS with CAC equivalent predictive ability for CVD. The ability to predict CVD utilizing CAC GRS can have important ramifications for optimizing lifestyle practices in primary prevention."
+        },
+        {
+          "type": "paragraph",
+          "html": "The main objective of the current study was to investigate whether GRS for CAC (CAC GRS), calculated using GWAS summary statistics of independent lead SNPs from 11 different loci associated with CAC from the most recent GWAS [10], is associated with angiographically or morphometrically verified CAD in three European cohorts. We aimed to confirm the link between CAC associated SNPs and calcification by studying the association of CAC GRS with calcification areas measured in autopsy coronary arteries. In addition to the association study of the CAC GRS with CAD, we also assessed its added predictive value for CAD over the traditional CVD risk factors (age, sex, total cholesterol, HDL cholesterol, systolic blood pressure, treatment for hypertension and smoking habit) that are included in the Framingham risk score (FRS) [14]. Furthermore, we assessed added predictive value of CAC GRS, a simple GRS for an intermediate phenotype constructed with only 11 SNPs, over metaGRS, a relatively more complex GRS for CAD constructed with 1.7 million SNPs [15]. We believe that findings from such an assessment may help in confirming the assumption that GRS of an intermediate phenotype such as CAC may help in improving GRS for CAD, due to their direct association with the clinical outcome as compared to a GRS of a broader disease end point such as CAD [16]."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Study participants",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This study was based on three European cohorts – the Ludwigshafen Risk and Cardiovascular Health (LURIC) study, the Tampere Vascular Study (TVS) and the Tampere Sudden Death Study (TSDS). The LURIC study comprises of 3316 European patients referred to the Cardiac Center Ludwigshafen (Germany) for invasive coronary angiography between July 1997 and January 2000 [17]. Clinical indications for angiography were chest pain or a positive non-invasive stress test suggestive of myocardial ischemia. To limit clinical heterogeneity, individuals suffering from acute illnesses other than acute coronary syndrome (ACS), chronic non-cardiac diseases and a history of malignancy within the five past years were excluded. The study protocol was approved by the ethics committee of the ‘Landesärztekammer Rheinland-Pfalz’ [#837.255.97(1394)]. The present study is based on 2742 patients (women: 29 %), aged 17–92 years, who had genotype data as well as CAD and traditional CVD risk factors data used in this study. The patients with 50 % or more stenosis in one of the major coronary arteries were defined as CAD cases."
+        },
+        {
+          "type": "paragraph",
+          "html": "Tampere Vascular Study (TVS) constitutes individuals at high risk of cardiovascular diseases, events and deaths who have undergone an exercise stress test at Tampere University Hospital [18]. This study was based on genotype data from a subpopulation of 133 individuals with 98 angiographically verified cases of CAD followed-up during 2008. The patients with at least 50 % stenosis in either left main coronary artery, left anterior descending (LAD) coronary artery or right coronary artery were defined as CAD cases. The participants were 38–80 years old and 29 % of them were women. The study has been approved by the Ethics Committee of Tampere Hospital District. All studies were conducted according to the declaration of Helsinki, with the informed consent from individual patient involved."
+        },
+        {
+          "type": "paragraph",
+          "html": "The Tampere Sudden Death Study (TSDS) consists of cross-sectional population autopsy samples of deaths occurring out of hospital for any reason. This study involved 660 cases who had both genetic data and coronary measurements available. Computer-assisted morphometry (Olympus Cell-D software) was used to measure the percentage area of calcified lesions from the five centimeters long piece of the proximal part of the LAD and right coronary arteries (RCA). The stenosis percentage was measured from microscopic sections of the coronary arteries. TSDS cases with 50 % or more stenosis in either LAD coronary artery including left main part of the artery or RCA were defined as CAD cases. The participants were aged 18–94 years and 28 % of them were women. The CVD risk factor data such as smoking and hypertension were collected by interviewing a spouse, a relative, or a close friend of the deceased. The permission to collect the data was obtained from the ethical committee of Tampere University hospital (Permission number R09097) and from the National Supervisory Authority for Welfare and Health."
+        }
+      ]
+    },
+    {
+      "title": "Traditional CVD risk factor measurements",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Traditional risk factors for CVD included in this study were age, sex, total cholesterol, high density lipoprotein (HDL) cholesterol, smoking habit, systolic blood pressure and hypertension treatment. The assay methods have been reported in detail previously for the LURIC participants [17] and for the TVS participants [18]. The selection of the risk factors was based on the six coronary risk factors used in the Framingham risk score [14]. Only age, sex, and body mass index (BMI) were available CVD risk factors in the TSDS, whereas data on smoking habit and hypertension were gathered via postal questionnaire from spouses or close relatives and were available for 228 (34.5 %) out of the 660 participants."
+        }
+      ]
+    },
+    {
+      "title": "Genotyping, quality control and genotype imputation",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Genomic DNA for the LURIC study participants was prepared from EDTA anticoagulated peripheral blood by means of a common salting-out procedure. The Affymetrix Genome-Wide Human SNP Array 6.0 was used for genotyping. Genomic DNA for the TVS was extracted from peripheral blood leukocytes using QIAamp DNA Blood Minikit and automated biorobot M48 extraction (Qiagen, Hilden, Germany). Genotyping was done using the Illumina HumanHap660W-Quad BeadChip according to the manufacturer&#x27;s recommendation. In TSDS, DNA was extracted from postmortem blood using a Qiagen DNA extraction kit. Illumina HumanCoreExome-12 were used as genotyping platform and genotypes were called with Illumina GenCall algorithm. The quality control filters applied to the LURIC genotype data included: sample call rate &lt; 0.95, SNP call rate &lt; 0.98, Hardy-Weinberg equilibrium test p-value &lt; 1 × 10<sup>−04</sup>, and minor allele frequency &lt; 0.01. Genotype imputation was completed with the Haplotype Reference Consortium (HRC) imputation panel as a reference. The quality control filters applied for the TVS and TSDS included: sample and SNP call rate &lt;0.95, Hardy-Weinberg equilibrium test p-value&lt;10<sup>−6</sup>, and minor allele frequency &lt; 5 %. Genotype imputation in both TVS and TSDS was performed using SNPTEST v2.3.0 and 1000 Genomes phase 1 version 3 haplotypes as reference. All the 11 independent SNPs used in the construction of CAC GRS in all the three cohorts had a squared correlation &gt; 0.30 between imputed and true genotypes."
+        }
+      ]
+    },
+    {
+      "title": "Biostatistical analysis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "All biostatistical analyses and data processing were performed using the statistical package R version 4.1.0 [19]. The CAC GRSs in all the three cohorts (LURIC, TVS and TSDS) were calculated using GWAS summary statistics of independent lead SNPs from 11 different loci associated with CAC [10] as sum of effect allele dosages or counts of the 11 SNPs weighted by their corresponding effect sizes [Table S1-S2]. The CAC GRS was standardized to have zero mean and unit standard deviation. Association of the CAC GRS with CAD in the LURIC, TVS and TSDS participants was tested using three logistic regression models, i) adjusted for age, sex and BMI (model 1), ii) adjusted for traditional coronary risk factors used in the FRS, namely age, sex, smoking status, HDL cholesterol, total cholesterol, systolic blood pressure and treatment for hypertension [14] (model 2), and iii) model 2 adjusted additionally for metaGRS (model 3). MetaGRS is a GRS for CAD based on 1745,179 genetic variants associated with CAD and its construction is described in detail elsewhere [15]. We matched the 1745,179 genetic variants in the genetic data from the three cohorts in this study. The summary statistics of the genetic variants was downloaded from the polygenic score (PGS) catalog [<a href=\"https://www.pgscatalog.org/score/PGS000018/\">https://www.pgscatalog.org/score/PGS000018/</a>] and metaGRSs for the three cohorts were then calculated using the same method used to calculate CAC GRS [Supplementary Section S2]. Additionally, the models 2 and 3 in LURIC and TVS were also adjusted for the first five principal components of the genetic data to adjust for potential bias due to population structure and statin usage. Model 2 in TSDS was adjusted for age, sex, BMI, smoking, hypertension and the first five principal components of the genetic data. Measurement data on clinical lipids, blood pressure and statin usage were not available among the TSDS participants. Association of CAC GRS with calcified plaque percentage in LAD as well as RCA of the TSDS participants was tested using beta regression models using <em>betareg</em> R package [20]. The analyses were adjusted for age, sex, BMI, smoking, hypertension and the first five principal components of the genetic data. All the association analyses were also conducted by dividing the CAC GRS and metaGRS into five quantiles, with the 0–0.25 quantile as reference. Furthermore, sex- and age-stratified association analysis between CAC GRS and CAD was also conducted, however, using only LURIC data as it has the largest sample size among the three cohorts."
+        },
+        {
+          "type": "paragraph",
+          "html": "Added predictive ability of the CAC GRS over the traditional CVD risk factors and metaGRS was assessed using the LURIC data. A reference prediction model for CAD including only the traditional CVD risk factors as predictors was built. Then, the added predictive value of the CAC GRS for CAD was accessed by comparing logistic regression-based prediction model including the traditional CVD risk factors and CAC GRS (test prediction model 1) with the reference prediction model as described elsewhere [21]. For comparison, we also accessed the added predictive value of the metaGRS by comparing prediction model including the traditional CVD risk factors and metaGRS (test prediction model 2) with the reference prediction model. Then, we accessed the improvement in added predictive value obtained by combining CAC GRS and metaGRS by comparing prediction model including the traditional CVD risk factors, CAC GRS and metaGRS (test prediction model 3) with the reference prediction model. Assessment of the predictive values was performed using a standard train-test split machine learning approach, i) fitting models to training data (70 % data), ii) testing the models on test data (30 % data), and iii) calculating the area under the receiver operating curve (AUC) for assessment of the predictive model. The variance of AUC was estimated by repeating the model fitting and validation for 1000 bootstraps of the original data. Added predictive values of the CAC GRS, metaGRS and CAC GRS–metaGRS combined, over the traditional CVD risk factors was tested by taking differences between AUCs (ΔAUC) obtained from the reference and test prediction models over 1000 bootstraps of the original data. The statistical significance of the difference (p-value) was estimated by counting the proportion of ΔAUC less than zero. Potential bias in results due to higher number of cases as compared to controls in LURIC was investigated by repeating the analysis with a version of LURIC data with balanced number of cases and controls, generated by implementing under sampling technique implemented in <em>unbalanced</em> R package [22]."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Study population characteristics",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Clinical characteristics of the study participants from the LURIC, TVS and TSDS cohorts are presented in Table 1. A total of 2742 individuals had complete data on genetics, angiographically verified CAD and traditional CVD risk factors in LURIC. In TVS, 133 participants had complete data on genetics, angiographically verified CAD and traditional CVD risk factors. In case of TSDS, there were 622 participants with complete data on genetics, morphometrically verified CAD, calcified plaque area percentage in the LAD and RCA, age, sex and BMI. Data on smoking habit and medication for hypertension was available for 228 out of the 622 TSDS participants. Data from all the three cohorts, stratified by case–control, is presented in Table 1.Table 1Clinical characteristics of the study cohorts.Table 1LURICTVSTSDSVariablesCAD CasesControlsP-valueCAD CasesControlsP-valueCAD CasesControlsP-valueNumber of subjects (%)1912 (70)830 (30)–98 (74)35 (26)–327 (53)295 (47)–Female (%)425 (22)367 (44)–28 (29)10 (29)–79 (24)74 (25)–Age, years64 (29–92)60 (17–88)8.8 × 10<sup>−16</sup>60 (39–80)56 (38–72)0.0169 (24–95)58 (17–95)&lt;2.2 × 10<sup>−16</sup>Body mass index (kg/m<sup>2</sup>)27.4(16.3–46.2)27.6(16.7–46.1)0.327.8(18.9–41.3)27.5(18.7–36.9)0.828.7(16.4–54.1)28.9(14.6–64.9)0.7Systolic blood pressure (mmHg)142.3(76.7–230)138.6(73.7–228.3)7.2 × 10<sup>−05</sup>134.9(86–192)135.1(104–176)0.97–––Total cholesterol (mg/dL)205.2(100–442)215.2(79–453)2.4 × 10<sup>−08</sup>94.1(55.8–135)100(72.0–151.2)0.2–––HDL cholesterol (mg/dL)37.1(2–104)41.5(15–91)&lt;2.2 × 10<sup>−16</sup>25.4(12.2–55.6)26.6(13.9–38.9)0.4–––LDL cholesterol (mg/dL)114.4(20–329)120.9(21–361)4.7 × 10<sup>−06</sup>56.8(19.8–95.4)62.0(36–99)0.09–––Smoking (%)1337 (70)423 (51)&lt;2.2 × 10<sup>−16</sup>61 (62)21 (60)0.9768/130 (52)56/98 (57)0.64Medication for hypertension1185 (62)431 (52)1.1 × 10<sup>−06</sup>93 (95)28 (80)0.0288/130 (68)52/98 (53)0.008Statin usage1138 (60)176 (21)&lt;2.2 × 10<sup>−16</sup>81 (83)11 (31)6 × 10<sup>−08</sup>–––Stenosis in LAD (%)––––––61.5(5–100)24.7(0–49.3)&lt;2.2 × 10<sup>−16</sup>Stenosis in RCA (%)––––––52.5(0–100)18.4(0 – 49.2)&lt;2.2 × 10<sup>−16</sup>Calcium in LAD (%)––––––28.9(0–100)6.3(0 −79.1)&lt;2.2 × 10<sup>−16</sup>Calcium in RCA (%)––––––25.7(0 - 100)4.3(0–88.8)&lt;2.2 × 10<sup>−16</sup><em>Definitions:</em> Patients with 50 % or more stenosis in one of the major coronary arteries were defined as CAD cases in both LURIC and TVS cohorts. Autopsy cases with 50 % or more stenosis in either left anteriot descending (LAD) coronary artery including left main part of the artery or right coronary artery (RCA) were defined as CAD cases in the TSDS cohort.<em>Abbreviations:</em> LURIC, the Ludwigshafen Risk and Cardiovascular Health Study; TVS, the Tampere Vascular Study; TSDS, the Tampere Sudden Death Study; CAD, Coronary Artery Disease."
+        }
+      ]
+    },
+    {
+      "title": "Association of CAC GRS with CAD in LURIC, TVS and TSDS cohorts",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The CAC GRSs were associated with CAD in all the three cohorts [Supplementary Figures S1-S3]. In LURIC, CAC GRS was associated with angiographically verified CAD in both model 1 (OR of 1.45, 95 % CI [1.33–1.59]) and model 2 (OR=1.41, 95 % CI [1.28–1.55]) [Table 2]. Among the traditional CVD risk factors, age, sex, HDL cholesterol, smoking habit and medication for hypertension were associated with CAD with statistical significance of p-value &lt; 0.05. In TVS, CAC GRS was associated with angiographically verified CAD in both model 1 (OR=1.64, 95 % CI [1.08–2.56]) and model 2 (OR=1.79, 95 % CI [1.05–3.21]). Besides the CAC GRS, age, sex, total cholesterol, smoking habit and medication for hypertension were associated with CAD with statistical significance of p-value &lt; 0.05. Similarly, in TSDS, CAC GRS was associated with CAD in both model 1 (OR=2.96, 95 % CI [1.79–4.97]) and model 2 (OR=4.20, 95 % CI [1.74–10.52]). Among the traditional risk factors included in the models, only age was associated with CAD with statistical significance (p-value=1.2 × 10<sup>−05</sup>). The association between CAC GRS and CAD remained statistically significant even after adjusting for metaGRS in model 3 in LURIC (OR=1.17, 95 % CI [1.06–1.30]) and TSDS (OR=3.31, 95 % CI [1.29–8.76]), but not in TVS (OR=1.36, 95 % CI [0.73–2.64]). The association analyses were repeated for male and female participants separately among LURIC participants. While the association between CAC GRS and CAD among males remained similar to the one obtained from the whole population, there was no statistically significant association between CAC GRS and CAD in model 3 among females [Supplementary Tables S3-S4]. Similarly, the analyses were also repeated for LURIC participants aged 40 years and above. The results obtained from this age group were also similar to that obtained from the whole LURIC participants [Supplementary Tables S5]. However, there were only 74 LURIC participants aged below 40 years and there was no statistically significant association between CAC GRS and CAD in this group.Table 2Association of the genetic risk score for coronary artery calcification (CAC GRS) and clinical cardiovascular disease (CVD) risk factors with coronary artery disease (CAD) in the Ludwigshafen Risk and Cardiovascular Health (LURIC) study, Tampere Vascular Study (TVS) and Tampere Sudden Death Study (TSDS) participants.Table 2Model 1Model 2Model 3Risk factorsOR (95 % CI)P-valueOR (95 % CI)P-valueOR (95 % CI)P-value<strong>The Ludwigshafen Risk and Cardiovascular Health (LURIC) study</strong>Age1.05 (1.04–1.05)&lt; 2 × 10<sup>−16</sup>1.05 (1.04 –1.06)&lt; 2 × 10<sup>−16</sup>1.06 (1.05–1.07)&lt; 2 × 10<sup>−16</sup>Sex (male)3.49 (2.90–4.21)&lt; 2 × 10<sup>−16</sup>2.70 (2.16 – 3.39)&lt; 2 × 10<sup>−16</sup>3.13 (2.47–3.97)&lt; 2 × 10<sup>−16</sup>Body mass index (BMI)0.99 (0.97–1.01)0.26––––Systolic blood pressure––1.00 (1.00 – 1.01)0.191.00 (0.99–1.00)0.14Total cholesterol––1.00 (0.99 – 1.00)0.321.00 (0.99–1.00)0.44HDL cholesterol––0.98 (0.97 – 0.99)5.9 × 10<sup>−07</sup>0.98 (0.97–0.99)4.6 × 10<sup>−06</sup>Smoking habit (yes)––1.83 (1.48 – 2.26)1.7 × 10<sup>−08</sup>1.74 (1.39–2.17)8.6 × 10<sup>−07</sup>Hypertension medication (yes)––1.32 (1.07 – 1.63)0.0081.23 (0.99–1.53)0.07CAC GRS1.45 (1.33–1.59)&lt; 2 × 10<sup>−16</sup>1.41 (1.28 – 1.55)3.6 × 10<sup>−12</sup>1.17 (1.06–1.30)0.002metaGRS––––2.11 (1.89–2.37)&lt; 2 × 10<sup>−16</sup><strong>The Tampere Sudden Death Study (TSDS)</strong>Age1.05 (1.04–1.07)3.9 × 10<sup>−16</sup>1.06 (1.03–1.08)1.2 × 10<sup>−5</sup>1.06 (1.03–1.09)5.9 × 10<sup>−6</sup>Sex (male)1.52 (1.01–2.28)0.041.29 (0.65–2.57)0.51.30 (0.66–2.59)0.5Body mass index (BMI)1.01 (0.98–1.04)0.51.02 (0.97–1.07)0.51.02 (0.97–1.07)0.5Systolic blood pressure––––––Total cholesterol––––––HDL cholesterol––––––Smoking habit (yes)––1.87 (0.97–3.71)0.061.83 (0.95–3.64)0.08Hypertension medication (yes)––1.29 (0.67–2.47)0.41.25 (0.65–2.39)0.5CAC GRS2.96 (1.79–4.97)3.1 × 10<sup>−05</sup>4.20 (1.74–10.52)0.0023.31 (1.29–8.76)0.01metaGRS––––1.66 (0.82–3.41)0.16<strong>The Tampere Vascular Study (TVS)</strong>Age1.06 (1.01–1.11)0.021.07 (1.01–1.15)0.041.10 (1.05–1.19)0.01Sex (male)0.86 (0.34–2.10)0.754.94 (1.26–23.62)0.031.19 (0.75–1.75)0.13Body mass index (BMI)1.03 (0.94–1.13)0.59––––Systolic blood pressure––1.01 (0.98–1.04)0.511.00 (0.97–1.04)0.91Total cholesterol––0.48 (0.25–0.85)0.020.45 (0.21–0.84)0.02HDL cholesterol––0.84 (0.16–4.57)0.831.11 (0.20–7.16)0.91Smoking habit (yes)––3.46 (1.07–12.24)0.042.98 (0.80–1.20)0.11Hypertension medication (yes)––6.79 (1.26–41.1)0.036.42 (0.76–5.68)0.08CAC GRS1.64 (1.08–2.56)0.021.79 (1.05–3.21)0.041.36 (0.73–2.64)0.34metaGRS––––4.31 (1.86–12.5)0.002<em>Abbreviations:</em> OR, odd ratio; CI, confidence interval."
+        },
+        {
+          "type": "paragraph",
+          "html": "The association analysis was also conducted by dividing the CAC GRS and metaGRS into five quantiles, with the 0–0.25 quantile as reference. As expected, we observed a gradient of CAD risk across the four quantile intervals, with the highest number of CAD cases in the [0.75–1] interval for both CAC GRS and metaGRS in all the three studies cohorts [Fig. 1]. In LURIC, the risk of CAD in the highest quantile interval [0.75–1] was 1.48-fold higher as compared to the control population (OR=1.48, 95 % CI [1.10–1.98]) after adjusting for metaGRS and the traditional risk factors in model 3. Similarly, in TSDS, the risk of CAD in the highest quantile interval [0.75–1] was 2.79-fold higher as compared to the control population (OR=2.79, 95 % CI [1.15–6.95]). However, there was no statistically significant association between CAC GRS quantiles and CAD in TVS in model 3.Fig. 1Distribution of the coronary artery disease (CAD) cases across the four quantile intervals of genetic risk score for coronary artery calcification (CAC GRS) (upper panel) and metaGRS (lower panel) in the three studied cohorts. <em>Abbreviations:</em> LURIC, the Ludwigshafen Risk and Cardiovascular Health Study; TVS, the Tampere Vascular Study; TSDS, the Tampere Sudden Death Study; CAD, Coronary Artery Disease.Fig 1"
+        }
+      ]
+    },
+    {
+      "title": "Association of CAC GRS with calcified plaque area percentage in TSDS participants",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We assessed association of the CAC GRS with calcified plaque area percentage in the LAD and RCA of the TSDS participants. There was statistically significant association between the CAC GRC and calcified plaque area in both LAD (OR=1.78, 95 % CI [1.16–2.74]) and RCA (OR=1.71, 95 % CI [1.09–2.67]) after adjusting for age, sex, BMI, smoking habit, hypertension and the first five principal components of the genetic data [Table 3]. An increasing gradient in calcified plaque area as well as stenosis percentage in both LAD and RCA was observed across the four quantile intervals of CAC GRS and metaGRS [Fig. 2]. These results, therefore, suggest that CAC GRS is a significant predictor of coronary calcification along with age, sex and hypertension.Table 3Association of the genetic risk score for coronary artery calcification (CAC GRS) with calcified plaque area percentage in the left anterior descending (LAD) and right coronary arteries (RCA).Table 3Calcified plaque area percentage in the LADCalcified plaque area percentage in the RCARisk factorsOR (95 % CI)P-valueOR (95 % CI)P-valueAge1.03 (1.02–1.04)4.7 × 10<sup>−9</sup>1.02 (1.01–1.04)1.6 × 10<sup>−5</sup>Sex (male)1.53 (1.09–2.13)0.011.35 (0.96–1.90)0.08Body mass index (BMI)0.99 (0.97–1.01)0.41.00 (0.98–1.03)0.7Smoking habit (yes)1.06 (0.77–1.46)0.71.09 (0.79–1.52)0.6Hypertension (yes)1.62 (1.17–2.24)0.0041.53 (1.10–2.15)0.01CAC GRS1.78 (1.16–2.74)0.0091.71 (1.09–2.67)0.02<em>Abbreviations:</em> OR, odd ratio; CI, confidence interval.Fig. 2Boxplots showing calcified plaque area percentage in the left anterior descending (LAD) and right coronary arteries (RCA) and stenosis percentage across the four quantile intervals of genetic risk score for coronary artery calcification (CAC GRS) (upper panel) and metaGRS (lower panel) in the Tampere Sudden Death Study (TSDS).Fig 2"
+        }
+      ]
+    },
+    {
+      "title": "Assessment of added predictive value of CAC GRS over traditional CVD risk factors",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "There was statistically significant added predictive value of the CAC GRS over the traditional CVD risk factors (AUC 0.734 vs 0.717, p-value = 0.02) used in this study [Fig. 3]. Similarly, there was statistically significant added predictive value of the metaGRS over the traditional CVD risk factors (AUC 0.784 vs 0.717, p-value = 0.001). Combination of CAC GRS and metaGRS resulted into mildly improved added predictive value over the traditional risk factors (AUC 0.787 vs 0.717, p-value = 0.001). Results from the same analysis repeated with the version of LURIC data with balanced number of cases and controls were similar. There was statistically significant added predictive value of both the CAC GRS (AUC 0.739 vs 0.721, p-value = 0.04), and metaGRS (AUC 0.788 vs 0.721, p-value = 0.001). Also, combination of CAC GRS and metaGRS improved the added predictive value for CAD over the traditional risk factors (AUC 0.791 vs 0.721, p-value = 0.001).Fig. 3<strong>A.</strong> Density plot illustrating distributions of the area under the receiver operating curve (AUC) obtained from predictive model for coronary artery disease (CAD) diagnosed in the Ludwigshafen Risk and Cardiovascular Health (LURIC) study participants using traditional CVD risk factors without (reference model) and with the addition of genetic risk scores for coronary artery calcification (CAC GRS) (test model) over 1000 bootstraps. <strong>B.</strong> Distribution of differences in the area under the receiver operating curve (∆AUC) obtained from predictive model for coronary artery disease (CAD) diagnosed in the Ludwigshafen Risk and Cardiovascular Health (LURIC) study participants using traditional CVD risk factors without and with the addition of genetic risk scores for coronary artery calcification (CAC GRS) over 1000 bootstraps. (Test model: <em>CAD ∼ CAC GRS + age + sex + systolic blood pressure + total cholesterol + HDL cholesterol + smoking habit + medication for hypertension.</em> Reference model: <em>CAD ∼ age + sex + systolic blood pressure + total cholesterol + HDL cholesterol + smoking habit + medication for hypertension.</em>).Fig 3"
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We found statistically significant associations of CAC GRS with CAD in all the three European cohorts studied in this study. We also demonstrated that CAC GRS has statistically significant added predictive value for CAD over the traditionally used CVD risk factors and that combination of CAC GRS with metaGRS might improve prediction accuracy for CAD. These findings suggest that the genetic variants regulating coronary artery calcification may be used as a tool for CVD risk prediction. Moreover, we found that CAC GRS is significantly associated with morphometrically measured coronary calcification areas, which confirms the earlier findings on the association between CAC related genes and coronary calcification measured with computed tomography at the vessel wall level [10]."
+        },
+        {
+          "type": "paragraph",
+          "html": "There is consistent evidence suggesting that a predictive value of GRS for CVDs may have clinical utility [23]. Efforts to develop or improve existing GRS for CVD risk prediction is important because a robust GRS with high predictability has a potential to shift the paradigm in prevention approaches of CVD. Optimization of the GRS for CVD prediction is crucial to achieve the aimed progress in primordial prevention of CVD [24]."
+        },
+        {
+          "type": "paragraph",
+          "html": "The underlying hypothesis of this study was that a part of the missing heritability of CVD might be explained by SNPs associated with intermediate phenotypes of CVD such as CAC [25]. CAC is a highly predictive CVD risk marker in asymptomatic individuals that can provide additional predictive value over the traditional CVD risk factors [11,12]. Investigation of the genetic architecture of CAC may reveal SNPs that are critical to understanding the genetic basis of CVD. A recent study showed that the progression of CAC is associated with GRS for both CAD and CAC [26]. The CAC GRS in that study was based on only three SNPs associated with CAC. To our knowledge, there has been no other studies investigating association of CAC GRS with CAD and calcified plaque area."
+        },
+        {
+          "type": "paragraph",
+          "html": "In this study, we explored whether SNPs associated with CAC, when aggregated as a CAC GRS, are associated with CAD. The findings of this study suggest that CAC GRS might be a useful CVD risk marker with statistically significant added predictive value over the traditionally used risk factors and coronary calcified plaque area. An important benefit of CAC GRS over CAC is that the former is stable throughout the lifespan and therefore can play impactful role in primary prevention of CVD by lifestyle modification, in decision making for early statin therapy or in prioritizing patients for CAC scan [[27], [28], [29], [30]]. Our results suggest that CAC GRS has added benefit in predicting CAD beyond traditional risk factors. Importantly, CAC GRS appears to improve prediction accuracy of metaGRS, albeit mildly, despite being constructed with only 11 independent SNPs, in contrast to 1.7 million SNPs used to construct metaGRS. Such significant association of CAC GRS with CAD supports the assumption that GRS of an intermediate phenotype have direct association with the clinical outcome as compared to a GRS constructed with SNPs associated with broader disease end point such as CAD [16]. Furthermore, these findings shed light upon common etiologies of CAD and CAC."
+        },
+        {
+          "type": "paragraph",
+          "html": "This study has some limitations. Some of the traditional CVD risk factors such as systolic blood pressure, HDL cholesterol, total cholesterol and information about statin usage were not available for the autopsy based TSDS participants. Furthermore, due to missing response rate characteristic of postal surveys, data on smoking habit and medication for hypertension was available for only one-third-of the participants. Therefore, considering the intriguing results in this study, studies with larger sample size is warranted. Also, while both TVS and LURIC study include participants with high risk of cardiovascular disease, TSDS consists of cross-sectional population autopsy samples of deaths occurring out of hospital for any reason. Therefore, as our findings may not be representative for otherwise asymptomatic community, population-based studies on this topic are warranted. Furthermore, all the three cohorts included in this study are of European origin, and therefore, studies with populations of different ethnicities are needed."
+        },
+        {
+          "type": "paragraph",
+          "html": "Based on the results from three different European cohorts, this study showed that CAC GRS is a new risk marker for CAD. The CAC GRS had statistically significant added predictive value over the traditional CVD risk factors, improves prediction accuracy of the state-of-the-art GRS for CAD and, therefore, can play a crucial role in primary prevention of CVD."
+        }
+      ]
+    },
+    {
+      "title": "Financial support",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This study was supported by the Academy of Finland (Grant number: 349708 for P.P.M and 322098 for T.L). Competitive State Research Financing of the Expert Responsibility area of Tampere University Hospital (grants X51001 and X51401); Juho Vainio Foundation; Finnish Foundation for Cardiovascular Research; Tampere Tuberculosis Foundation; Emil Aaltonen Foundation; Yrjö Jahnsson Foundation; Signe and Ane Gyllenberg Foundation; Diabetes Research Foundation of Finnish Diabetes Association; EU Horizon 2020 (grant 755320 for TAXINOMISIS and grant 848146 for To Aition); Tampere University Hospital Supporting Foundation, Finnish Society of Clinical Chemistry and Jane and Aatos Erkko Foundation. LURIC was supported by the 7th Framework Programs Atheroremo (Grant Agreement number 201668) and RiskyCAD (grant agreement number 305739) of the European Union and by the H2020 Programs TO_AITION (grant agreement number 848146) and TIMELY (grant agreement number 101017424) of the European Union."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Pashupati P. Mishra:</strong> Writing – original draft, Methodology, Investigation, Funding acquisition, Formal analysis, Conceptualization. <strong>Binisha H. Mishra:</strong> Writing – review &amp; editing, Investigation, Formal analysis. <strong>Leo-Pekka Lyytikäinen:</strong> Writing – review &amp; editing, Formal analysis. <strong>Sirkka Goebeler:</strong> Resources. <strong>Mika Martiskainen:</strong> Resources. <strong>Emma Hakamaa:</strong> Writing – review &amp; editing, Investigation. <strong>Marcus E. Kleber:</strong> Writing – review &amp; editing, Formal analysis. <strong>Graciela E. Delgado:</strong> Writing – review &amp; editing. <strong>Winfried März:</strong> Writing – review &amp; editing, Resources. <strong>Mika Kähönen:</strong> Writing – review &amp; editing, Resources. <strong>Pekka J. Karhunen:</strong> Writing – review &amp; editing, Resources. <strong>Terho Lehtimäki:</strong> Writing – review &amp; editing, Resources."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "WilkinsE.WilsonL.WickramasingheK.BhatnagarP.European cardiovascular disease statistics 2017Eur Heart Netw201794100Retrieved from<a href=\"http://www.ehnheart.org\">www.ehnheart.org</a>"
+    },
+    {
+      "html": "RothG.A.NguyenG.ForouzanfarM.H.MokdadA.H.NaghaviM.MurrayC.J.L.Estimates of global and regional premature cardiovascular mortality in 2025Circulation1321320151270127110.1161/CIRCULATIONAHA.115.01602126408271"
+    },
+    {
+      "html": "HanssonG.K.Inflammation, atherosclerosis, and coronary artery diseaseN Engl J Med3521620051685169510.1056/nejmra04343015843671"
+    },
+    {
+      "html": "KnowlesJ.W.AshleyE.A.Cardiovascular disease: the rise of the genetic risk scorePLoS Med153201810.1371/journal.pmed.1002546PMC587782929601582"
+    },
+    {
+      "html": "FranceschiniN.GiambartolomeiC.de VriesP.S.FinanC.BisJ.C.HuntleyR.P.O&#x27;DonnellC.J.GWAS and colocalization analyses implicate carotid intima-media thickness and carotid plaque loci in cardiovascular outcomesNat Commun91201810.1038/s41467-018-07340-5PMC627741830510157"
+    },
+    {
+      "html": "NelsonC.P.GoelA.ButterworthA.S.KanoniS.WebbT.R.MarouliE.DeloukasP.Association analyses based on false discovery rate implicate new loci for coronary artery diseaseNat Genet49920171385139110.1038/ng.391328714975"
+    },
+    {
+      "html": "NikpayM.GoelA.WonH.H.HallL.M.WillenborgC.KanoniS.FarrallM.A comprehensive 1000 genomes-based genome-wide association meta-analysis of coronary artery diseaseNat Genet471020151121113010.1038/ng.339626343387PMC4589895"
+    },
+    {
+      "html": "ForgoB.MeddaE.HernyesA.SzalontaiL.TarnokiD.L.TarnokiA.D.Carotid artery atherosclerosis: a review on heritability and genetics. Twin research and human geneticsOctober 12018Cambridge University Press10.1017/thg.2018.4529976271"
+    },
+    {
+      "html": "ElliottJ.BodinierB.BondT.A.Chadeau-HyamM.EvangelouE.MoonsK.G.M.TzoulakiI.Predictive accuracy of a polygenic risk score-enhanced prediction model vs a clinical risk score for coronary artery diseaseJAMA - J Am Med Assoc3237202063664510.1001/jama.2019.22241PMC704285332068818"
+    },
+    {
+      "html": "KavousiM.BosM.M.BarnesH.J.Lino CardenasC.L.WongD.LuH.MillerC.LMulti-ancestry genome-wide study identifies effector genes and druggable pathways for coronary artery calcificationNat Genet551020231651166410.1038/s41588-023-01518-437770635PMC10601987"
+    },
+    {
+      "html": "DetranoR.GuerciA.D.CarrJ.J.BildD.E.BurkeG.FolsomA.R.KronmalR.A.Coronary calcium as a predictor of coronary events in four racial or ethnic groupsN Engl J Med3581320081336134510.1056/nejmoa07210018367736"
+    },
+    {
+      "html": "GreenlandP.BlahaM.J.BudoffM.J.ErbelR.WatsonK.E.Coronary calcium score and cardiovascular riskJ Am Coll Cardiol201810.1016/j.jacc.2018.05.027Elsevier USAPMC605602330025580"
+    },
+    {
+      "html": "ArnettD.K.BlumenthalR.S.AlbertM.A.BurokerA.B.GoldbergerZ.D.HahnE.J.ZiaeianB.2019 ACC/AHA guideline on the primary prevention of cardiovascular disease: executive summary: a report of the American College of Cardiology/American Heart Association Task Force on clinical practice guidelinesCirculation201910.1161/CIR.0000000000000677NLM (Medline)PMC835175530879339"
+    },
+    {
+      "html": "D&#x27;AgostinoR.B.VasanR.S.PencinaM.J.WolfP.A.CobainM.MassaroJ.M.KannelW.B.General cardiovascular risk profile for use in primary careCirculation1176200874375310.1161/circulationaha.107.69957918212285"
+    },
+    {
+      "html": "InouyeM.AbrahamG.NelsonC.P.WoodA.M.SweetingM.J.DudbridgeF.SamaniN.J.Genomic risk prediction of coronary artery disease in 480,000 adults: implications for primary preventionJ Am Coll Cardiol721620181883189310.1016/j.jacc.2018.07.07930309464PMC6176870"
+    },
+    {
+      "html": "RipattiP.RämöJ.T.MarsN.J.FuY.LinJ.SöderlundS.RipattiS.Polygenic hyperlipidemias and coronary artery disease riskCircul: Genom Precis Med1342020E00272510.1161/CIRCGEN.119.002725PMC717633832154731"
+    },
+    {
+      "html": "WinkelmannB.R.MärzW.BoehmB.O.ZotzR.HagerJ.HellsternP.SengesJ.Rationale and design of the LURIC study - a resource for functional genomics, pharmacogenomics and long-term prognosis of cardiovascular diseasePharmacogenomics21200110.1517/14622416.2.1.s11 SUPPL.11258203"
+    },
+    {
+      "html": "NieminenT.LehtinenR.ViikJ.LehtimäkiT.NiemeläK.NikusK.KähönenM.The Finnish Cardiovascular Study (FINCAVAS): characterising patients with high risk of cardiovascular morbidity and mortalityBMC Cardiovasc Disord6200610.1186/1471-2261-6-9PMC141355516515696"
+    },
+    {
+      "html": "Team, R.C. (2021). R: a language and environment for statistical computing. R foundation for statistical computing. Retrieved from <a href=\"http://www.r-project.org/\">http://www.r-project.org/</a>."
+    },
+    {
+      "html": "Cribari-NetoF.ZeileisA.Beta regression in RJ Stat Softw342201012410.18637/jss.v034.i02"
+    },
+    {
+      "html": "MishraP.P.MishraB.H.LyytikäinenL.P.HilvoM.JuonalaM.KähönenM.LehtimäkiT.Assessment of plasma ceramides as predictor for subclinical atherosclerosisAtheroscler Plus452021253110.1016/j.athplu.2021.09.00536643994PMC9833256"
+    },
+    {
+      "html": "Dal PozzoloA.CaelenO.WaterschootS.BontempiG.Racing for unbalanced methods selectionLecture notes in computer science (including subseries lecture notes in artificial intelligence and lecture notes in bioinformatics)82062013LNCS243110.1007/978-3-642-41278-3_4"
+    },
+    {
+      "html": "O&#x27;SullivanJack WAshleyEuan AElliottPerry MPolygenic risk scores for the prediction of cardiometabolic diseaseEur Heart J4427 January 2023899910.1093/eurheartj/ehac64836478054"
+    },
+    {
+      "html": "Lloyd-JonesD.AdamsR.J.BrownT.M.CarnethonM.DaiS.De SimoneG.Wylie-RosettJ.Executive summary: heart disease and stroke statistics-2010 update: a report from the american heart associationCirculation201010.1161/CIRCULATIONAHA.109.19266720177011"
+    },
+    {
+      "html": "Blanco-GómezA.Castillo-LluvaS.del Mar Sáez-FreireM.Hontecillas-PrietoL.MaoJ.H.Castellanos-MartínA.Pérez-LosadaJ.Missing heritability of complex diseases: enlightenment by genetic variants from intermediate phenotypesBioessays387201666467310.1002/bies.20160008427241833PMC5064854"
+    },
+    {
+      "html": "PechlivanisS.MoebusS.LehmannN.ErbelR.MahabadiA.A.HoffmannP.BachmannH.S.Genetic risk scores for coronary artery disease and its traditional risk factors: their role in the progression of coronary artery calcification—results of the Heinz Nixdorf recall studyPLoS One155202010.1371/journal.pone.0232735PMC720530132379805"
+    },
+    {
+      "html": "MuseE.D.ChenS.F.LiuS.FernandezB.SchraderB.MolpariaB.TorkamaniA.Impact of polygenic risk communication: an observational mobile application-based coronary artery disease studyNPJ Digit Med51202210.1038/s41746-022-00578-wPMC891712035277577"
+    },
+    {
+      "html": "KlarinD.NatarajanP.Clinical utility of polygenic risk scores for coronary artery diseaseNat Rev Cardiol202210.1038/s41569-021-00638-wNature ResearchPMC1015033434811547"
+    },
+    {
+      "html": "KiflenM.LeA.MaoS.LaliR.NarulaS.XieF.ParéG.Cost-effectiveness of polygenic risk scores to guide statin therapy for cardiovascular disease preventionCircul: Genom Precis Med155202238639510.1161/CIRCGEN.121.00342335904973"
+    },
+    {
+      "html": "SeveranceL.M.ContijochF.J.CarterH.FanC.C.SeibertT.M.DaleA.M.McVeighE.R.Using a genetic risk score to calculate the optimal age for an individual to undergo coronary artery calcium screeningJ Cardiovasc Comput Tomogr134201920321010.1016/j.jcct.2019.05.00531104941PMC6801022"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

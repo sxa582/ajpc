@@ -1,0 +1,465 @@
+{
+  "pmcid": "PMC12242466",
+  "pmid": "40642596",
+  "doi": "10.1016/j.ajpc.2025.101049",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12242466/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Prevalence and long-term outcomes of NAFLD and cardiovascular-kidney-metabolic health in the United States",
+  "articleType": "Research Article",
+  "published": "2025-06-18",
+  "year": "2025",
+  "volume": "23",
+  "issue": "",
+  "articleNumber": "101049",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2025",
+  "authors": [
+    {
+      "given": "Jian",
+      "surname": "Liu",
+      "display": "Jian Liu"
+    },
+    {
+      "given": "Lei",
+      "surname": "Gao",
+      "display": "Lei Gao"
+    },
+    {
+      "given": "Junlong",
+      "surname": "Chen",
+      "display": "Junlong Chen"
+    },
+    {
+      "given": "Zhenghao",
+      "surname": "Li",
+      "display": "Zhenghao Li"
+    },
+    {
+      "given": "Wenhang",
+      "surname": "Zhao",
+      "display": "Wenhang Zhao"
+    },
+    {
+      "given": "Shiwei",
+      "surname": "Qin",
+      "display": "Shiwei Qin"
+    },
+    {
+      "given": "Xuesong",
+      "surname": "Wen",
+      "display": "Xuesong Wen"
+    },
+    {
+      "given": "Dongying",
+      "surname": "Zhang",
+      "display": "Dongying Zhang"
+    }
+  ],
+  "affiliations": [
+    "aDepartment of Cardiology, Chongqing Emergency Medical Center, Chongqing University Central Hospital, School of Medicine, Chongqing University, Chongqing, PR China",
+    "bThe First College of Clinical Medicine, Chongqing Medical University, Chongqing, PR China",
+    "cDepartment of Cardiology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, PR China",
+    "dDepartment of Cardiothoracic Surgery, The First Affiliated Hospital of Chongqing Medical University, Chongqing, PR China"
+  ],
+  "keywords": [
+    "CKM syndrome",
+    "NAFLD",
+    "Mortality",
+    "Comorbidity",
+    "NHANES III"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Background and aims:</strong> To explore non-alcoholic fatty liver disease (NAFLD)’s role within the novel cardiovascular-kidney-metabolic (CKM) syndrome framework, given their overlapping pathophysiological mechanisms."
+    },
+    {
+      "html": "<strong>Methods:</strong> We analyzed 10,985 U.S. adults from the National Health and Nutrition Examination Survey III (1988–1994), with mortality follow-up until 2019. NAFLD was assessed via ultrasonography, and liver fibrosis was determined by the NAFLD fibrosis score and Fibrosis-4 index. CKM stages and predicted cardiovascular (CVD) event risk were assessed per American Heart Association guidelines."
+    },
+    {
+      "html": "<strong>Results:</strong> Age-standardized prevalence of NAFLD progressively increased across CKM stages, from 21.8 % at stage 0, 24.1 % at stage 1, 40.0 % at stage 2, and 40.2 % at advanced CKM. NAFLD was significantly associated with CKM progression (odds ratio = 2.01; 95 % confidence interval: 1.84–2.20) in ordinal logistic regression. During a median follow-up of 27.9 years, 3,772 deaths occurred. NAFLD was associated with a 26 % increased risk of all-cause mortality in multivariable Cox models; however, the association became non-significant after adjustment for specific components of CKM. Among participants with NAFLD, mortality risk increased stepwise with advancing CKM. Predicted CVD event risk demonstrated superior prognostic value than NAFLD fibrosis score and Fibrosis-4 score (area under the curve = 0.88). CKM stage significantly mediated the association between NAFLD and mortality, with a mediation proportion of 35.4 %."
+    },
+    {
+      "html": "<strong>Conclusions:</strong> NAFLD exhibits high comorbidity with CKM syndrome, and the high prevalence of NAFLD at CKM 0 highlights early metabolic risk. NAFLD is not an independent mortality predictor but accelerates CKM progression to increased mortality."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Glossary",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "CKDChronic kidney diseaseCKMcardiovascular-kidney-metabolic syndrome;CVDcardiovascular diseaseFIB-4Fibrosis-4 scoreHEIHealthy Eating IndexHOMA-IRHomeostasis model assessment of insulin resistanceMAFLDMetabolic-associated fatty liver diseaseMASLDMetabolic dysfunction–associated steatotic liver diseaseMetSMetabolic syndromeNAFLDNon-alcoholic fatty liver diseaseNFSNAFLD fibrosis scoreNHANESNational Health and Nutrition Examination SurveyPIRPoverty income ratioPREVENTPredicting Risk of cardiovascular disease EVENTsSLDSteatosis liver disease"
+        }
+      ]
+    },
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The cardiovascular-renal-metabolic (CKM) syndrome is a newly defined health disorder, as outlined in the 2023 consensus statement from the American Heart Association [1]. This syndrome is characterized by the pathophysiological interactions among obesity, diabetes, chronic kidney disease (CKD), and cardiovascular disease (CVD), and imposes profound impacts on morbidity and mortality [2]. Recent studies have highlighted the high prevalence of CKM syndrome among American adults, with nearly 90 % meeting the criteria for stage 1 or higher between 2011 and 2020. Notably, 15 % of American adults were classified as having advanced CKM stages (stage 3-4) [3]. Given its systemic nature, CKM is associated with a substantial increase in the risk of CVD events, kidney function decline, and all-cause mortality [4,5]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Non-alcoholic fatty liver disease (NAFLD), recently redefined as metabolic dysfunction–associated steatotic liver disease (MASLD), is one of the most common metabolic disorders worldwide [6,7]. NAFLD is closely linked to insulin resistance, oxidative stress, vascular dysfunction, and chronic inflammation, all of which are critical contributors to CKM syndrome [[2], [7], [8]]. Previous studies have shown that NAFLD is closely associated with an increased risk of CVD and CKD, but its precise role within the CKM framework remains poorly defined. It is unclear whether NAFLD primarily serves as an initiator of CKM progression or acts synergistically with other metabolic disorders to exacerbate multi-organ dysfunction. Currently, NAFLD risk stratification is primarily based on coexisting metabolic risk factors, non-invasive liver fibrosis assessment tools such as the fibrosis-4 (FIB-4) index and the NAFLD fibrosis score (NFS), or liver stiffness measurement via vibration-controlled transient elastography [9], whether the CKM framework offers a more comprehensive and effective approach for NAFLD risk stratification remains unclear. Despite the growing recognition of the interconnections between NAFLD, type 2 diabetes, CVD, and CKD, most existing studies have focused on the outcomes of single diseases [10,11], without considering their coexistence and mutual influence. This reductionist approach may underestimate the broader impact of NAFLD on systemic metabolic health. Addressing these knowledge gaps is crucial to refining NAFLD risk stratification and improving targeted intervention strategies. Given the high prevalence of hepatic steatosis in non-obese individuals and those without overt metabolic dysfunction, who may nonetheless experience adverse outcomes, we adopted the term NAFLD in this study to avoid excluding such at-risk populations [12,13]. Although the newer terms MASLD offer stronger alignment with metabolic dysfunction and adverse cardiometabolic profiles, relying solely on these definitions may inadvertently miss individuals with metabolically “silent” steatosis who are at earlier stages of disease but may still carry significant long-term risk. This choice ensures a more inclusive assessment of hepatic steatosis and its broader relevance within the CKM framework."
+        },
+        {
+          "type": "paragraph",
+          "html": "In this study, we used a nationally representative sample of U.S. adults to investigate the association between NAFLD and CKM progression, as well as its impact on all-cause and cardiovascular mortality, offering new insights into the role of NAFLD within the CKM framework."
+        }
+      ]
+    },
+    {
+      "title": "Materials and methods",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Study population",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This study utilized data from the National Health and Nutrition Examination Survey III (NHANES III, 1988–1994), a nationally representative survey designed to assess the health and nutritional status of non-institutionalized US civilians [12]. All participants, or their guardians, provided written informed consent prior to data collection. This secondary analysis of de-identified data was exempt from review and adhered to the Strengthening the Reporting of Observational Studies in Epidemiology [STROBE] guidelines for observational studies."
+        }
+      ]
+    },
+    {
+      "title": "Data collection",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The demographic data of the participants, along with their physical examinations, laboratory tests, lifestyle and dietary habits, medical conditions, electrocardiogram, and hepatic and gallbladder ultrasound data, were meticulously collected. Demographic information encompassed age, gender, race and ethnicity, education level, and poverty income ratio (PIR). The income levels were categorized into low (PIR &lt; 1.3), medium (PIR 1.3 - 3.5), and high (PIR &gt; 3.5) [13]. The physical examination included body mass index (BMI), waist circumference, and blood pressure (average of three measurements). Laboratory test results comprised triglycerides, total cholesterol, high-density lipoprotein cholesterol (HDL-C), fasting blood glucose, glycated hemoglobin A1c (HbA1c), insulin, estimated glomerular filtration rate (eGFR), urinary albumin to creatinine ratio (UACR), C-reactive protein (CRP), platelet count, albumin, alanine aminotransferase (ALT), and aspartate aminotransferase (AST). Insulin resistance was determined as the homeostasis model assessment of insulin resistance (HOMA-IR) score ≥ 2.5. Given the lack of universally accepted cutoff values for defining insulin resistance using HOMA-IR, we applied alternative thresholds of HOMA-IR ≥ 2.0 and ≥ 1.0 to represent varying degrees of insulin resistance. Lifestyle and dietary data included smoking status, alcohol consumption, and the Healthy Eating Index (HEI). The HEI-2010 (0-100) was calculated from two 24-hour dietary recalls using the simple HEI scoring algorithm developed by the National Institutes of Health (NIH), with healthy eating defined as an HEI score of ≥ 69.3 [14]. Detailed measurement procedures for all variables are publicly accessible on the website (www.cdc.gov/nchs/nhanes/)."
+        }
+      ]
+    },
+    {
+      "title": "Definition of NAFLD and advanced fibrosis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Hepatic ultrasound examinations were originally performed on NHANES III participants aged 20 to 74 years using Toshiba Sonolayer SSA-90A scanners. Between 2009 and 2010, archived gallbladder ultrasound videotapes were re-evaluated to assess hepatic steatosis. Three trained ultrasound reviewers, under the supervision of a board-certified radiologist specialized in hepatic imaging, conducted the assessments using a standardized algorithm based on five imaging features: (1) parenchymal brightness, (2) liver-to-kidney contrast, (3) deep beam attenuation, (4) bright vessel walls, and (5) gallbladder wall definition. The liver was graded as having normal, mild, moderate, or severe steatosis based on the combined presence of these features. For further details on methodology and quality control, please refer to other chapters [15]. Here, we use the term NAFLD to remain consistent with the NHANES III dataset and its historical definitions, which predate the adoption of the MASLD terminology. The diagnosis of NAFLD encompasses two sets of criteria: mild-to-severe or moderate-to-severe hepatic steatosis, in the absence of other chronic liver diseases or excessive alcohol consumption (&lt; 20 g/day for males and &lt; 10 g/day for females) [16,17]. Moderate-to-severe hepatic steatosis was used as the main analysis in the subsequent analysis. Regarding liver fibrosis, we calculated the NFS and FIB-4 scores based on published equations [18,19]. NFS = -1.675 + 0.037 × age (years) + 0.094 × BMI (kg/m2) + 1.13 × impaired fasting glucose/diabetes (yes = 1, no = 0) + 0.99 × AST/ALT ratio - 0.013 × platelet (×10<sup>9</sup>/L) - 0.66 × albumin (g/dL). FIB-4 score = (Age [year] × AST [U/L]) / (platelets [10<sup>9</sup>/L] × (ALT [U/L])<sup>1/2</sup>). Advanced liver fibrosis was defined as NFS &gt; 0.676 or FIB-4 score &gt; 2.67."
+        }
+      ]
+    },
+    {
+      "title": "Definition of CKM syndrome",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Participants were classified into CKM stages according to the AHA’s 2023 framework. Stage 0 represents the absence of CKM risk factors (i.e., no excess/dysfunctional adiposity, metabolic abnormalities, or CKD). Stage 1 indicates the presence of excessive or dysfunctional adiposity, operationalized as overweight or obesity (BMI ≥25 kg/m²), abdominal obesity (waist circumference ≥102 cm in men or ≥88 cm in women), or glycemic dysregulation (fasting glucose 100–124 mg/dL or HbA1c 5.7–6.4 %) without other CKM abnormalities. Stage 2 includes individuals with established metabolic risk factors (e.g., hypertension, diabetes, dyslipidemia) or moderate-to-high risk CKD. Stage 3 reflects subclinical CVD, defined using AHA-recommended risk equivalents due to the lack of imaging or biomarker data in NHANES III. Specifically, subclinical CVD was defined as either very high-risk CKD or a predicted 10-year CVD risk ≥20 % based on the PREVENT equation (full model via the preventr R package) [20]. Stage 4 denotes established clinical CVD, including self-reported history of coronary heart disease, myocardial infarction, heart failure, or stroke. CKD classification follows the Kidney Disease Improving Global Outcomes (KDIGO) guidelines, and eGFR was calculated using the 2021 CKD-EPI creatinine equation without race adjustment [21]. More detailed staging criteria are provided in Supplementary Table S1–S2."
+        }
+      ]
+    },
+    {
+      "title": "Ascertainment of mortality",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Mortality status was determined via probabilistic record linkage with the National Death Index. Survival time was calculated from the completion date of the NHANES III survey to the date of death or December 31, 2019 (the censoring date), whichever occurred first. All-cause mortality was defined as death from any cause, and cardiovascular mortality was defined as death attributable to diseases of the heart and cerebrovascular diseases."
+        }
+      ]
+    },
+    {
+      "title": "Statistical analysis",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Following the sampling design employed in NHANES III, we utilized the appropriate sampling weights to analyze the data, ensuring that it accurately represents the national population of the entire United States. To address missing data, multiple imputation was performed to generate five imputed datasets, with one randomly selected dataset used for the primary analysis. Baseline differences between subjects with missing data and those with complete data were presented in Supplementary Table S3. Baseline characteristics were compared by CKM and NAFLD status. Continuous variables were presented as weighted means with standard errors (SE), while categorical variables were expressed as unweighted frequencies with weighted percentages. Group comparisons were conducted using the design-based Kruskal-Wallis test and Rao-Scott chi-square test as appropriate. Due to limitations in NHANES III, including the absence of peripheral artery disease and atrial fibrillation diagnoses for clinical CVD staging, and the use of risk equivalents to define subclinical CVD, stages 3 and 4 may be subject to misclassification. Therefore, we combined them into an “advanced CKM” group in the main analyses [22,23]. Age-standardized prevalence and mortality were calculated using the direct method based on the 2000 U.S. Census data for the age groups 20–39, 40–59, and 60–74."
+        },
+        {
+          "type": "paragraph",
+          "html": "Ordinal logistic regression was used to examine the association between NAFLD and CKM stage or CKD risk progression. Binary logistic regression was performed to evaluate the relationship between CKM stage progression and advanced liver fibrosis. To validate the role of the CKM framework in NAFLD risk stratification, Cox proportional hazard models were employed to assess the association between CKM status and mortality in NAFLD patients, with hazard ratios (HRs) and 95 % confidence intervals (CIs) reported. We assessed the proportional hazards assumption using the Kaplan-Meier curve and Schoenfeld residuals and found that it was satisfied for the CKM stage and all other covariates. Receiver operating characteristic curve (ROC) analysis was performed to compare the predictive performance of NFS, FIB-4, and Predicted 10-year CVD risk for mortality in NAFLD patients. Then multivariable Cox proportional model was used to investigate the independent association of NAFLD with mortality after consideration for potential demographic and clinical confounders. Regression-based mediation analyses were conducted to quantify the total effect, natural indirect effects, and natural direct effects of CKM status in the association between NAFLD and all-cause mortality."
+        },
+        {
+          "type": "paragraph",
+          "html": "To ensure the robustness of the findings, sensitivity analyses were conducted. First, subgroup analyses were performed, with interaction terms included in the models to assess potential effect modification. Interaction p-values were calculated using likelihood ratio tests. Second, Fine and Gray&#x27;s subdistribution hazards regression was applied to assess the association between CKM status and cardiovascular mortality, considering non-cardiovascular death as a competing event. Third, complete-case analysis was conducted using the dataset without imputation. Fourth, the analysis was repeated using two alternative NAFLD definitions: one including mild-to-severe hepatic steatosis and another restricted to moderate-to-severe hepatic steatosis as the primary analysis."
+        },
+        {
+          "type": "paragraph",
+          "html": "All statistical analyses were conducted using R (version 4.3.1). Survey-adjusted analyses were performed using the survey package. Multiple imputation, mediation analyses, and competing risk analyses were conducted using the mice, CMAverse, and cmprsk packages, respectively, without applying NHANES survey weights due to software limitations. A two-tailed P &lt; 0.05 was considered statistically significant."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Out of 13856 adults who underwent hepatic and gallbladder ultrasonography at mobile examination centers, 1415 individuals were excluded due to incomplete mortality status, missing alcohol consumption, or positive viral hepatitis serology. 1318 participants were excluded for missing values required for CKM staging. In addition, 112 cases had missing data for non-invasive liver fibrosis assessment, and 64 individuals with missing insulin or CRP measurements were excluded, leading to the final sample of 10985 participants (Supplementary Fig. S1). Supplementary Table S4 presents a comparison between included and excluded individuals, revealing modest differences in demographic and lifestyle factors."
+        }
+      ]
+    },
+    {
+      "title": "Demographic and clinical characteristics by CKM and NAFLD status",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Among the 10985 eligible participants, the mean age was 43.8 years, 47.7 % were male, 75.0 % were White, 8.4 % were Black, and 7.8 % were Mexican-American. A total of 7.8 % of the participants met the criteria for CKM Stage 0, 7.5 % for Stage 1, 66.4 % for Stage 2, 4.5 % for Stage 3, and 13.8 % for Stage 4 (Table 1). Compared to participants with CKM Stages 0–2, those with advanced CKM (Stages 3–4) were older, more likely to be male, and had lower education and income levels. Additionally, they exhibited significantly higher CRP levels (0.07 mg/dL vs. 0.01–0.04 mg/dL, P &lt; 0.001), and were more likely to be insulin resistance. The prevalence of NAFLD and liver fibrosis also increased progressively across CKM stages. Among participants with advanced CKM, 30.8 % had NAFLD and 11.5 % had advanced liver fibrosis (Table 1). Fig. 1 illustrated age-standardized prevalence patterns of NAFLD and advanced liver fibrosis across CKM stages. NAFLD prevalence increased steeply in early CKM progression, rising from 8.4 % (Stage 0) to 26.8 % (Stage 2), but plateaued in advanced CKM (Stage 2: 26.8 % vs. advanced CKM: 28.1 %). In contrast, advanced liver fibrosis followed a different trajectory, with a low prevalence in CKM Stages 0 and 1 (1.8 % and 1.7 %, respectively), a modest increase in Stage 2 (3.0 %), and a marked rise in advanced CKM (6.0 %).Table 1Baseline characteristics of the study population, stratified by Cardiovascular-Kidney-Metabolic health status.Table 1CharacteristicCardiovascular-Kidney-Metabolic syndrome stageStage 0N = 1751 (7.8)Stage 1N = 1740 (7.5)Stage 2N = 5860 (66.4)Stage 3N = 455 (4.5)Stage 4N = 1176 (13.8)P-valueAdvanced CKMN = 1613 (18.3)P-valueAge, years32.95 (0.35)37.28 (0.47)43.98 (0.37)66.90 (0.55)58.15 (0.52)&lt;0.00160.14 (0.45)&lt;0.001Age group ( %)&lt;0.001&lt;0.001 20-391423 (76.4)1159 (62.9)2419 (42.1)9 (1.43)46 (3.82)55 (3.3) 40-59275 (21.0)469 (31.2)2140 (40.2)43 (12.0)436 (44.9)479 (37.4) 60-7456 (2.57)112.0 (5.87)1,301 (17.7)403 (86.5)694 (51.3)1097 (59.3)Male ( %)641 (34.9)707 (45.1)2,869 (52.4)260 (53.7)615 (52.1)&lt;0.001875 (52.4)&lt;0.001Race/ethnicity ( %)&lt;0.001&lt;0.001 Mexican-American506 (4.6)558 (6.7)1885 (5.8)93 (2.6)288 (3.6)381 (3.4) Non-Hispanic black419 (7.3)583 (13.6)1532 (9.5)154 (14.8)297 (9.9)451 (11.1) Non-Hispanic white741 (79.8)525 (71.4)2206 (76.8)194 (74.7)545 (79.1)739 (78.1) Other88 (8.1)74 (8.3)237 (7.8)14 (7.8)46 (7.3)60 (7.4)Smoking status ( %)&lt;0.001&lt;0.001 Never1021 (52.3)969 (48.9)2843 (44.5)173 (32.6)404 (29.4)577 (30.1) Former238 (17.2)316 (22.7)1,477 (27.6)143 (34.8)443 (40.5)586 (39.2) Current495 (30.5)455 (28.4)1,540 (27.9)139 (32.6)329 (30.2)468 (30.7)Less than high school ( %)427 (14.7)557 (18.2)2,219 (23.0)254 (41.0)600 (36.4)&lt;0.001854 (37.4)&lt;0.001Married ( %)878 (56.6)987 (63.3)3750 (67.9)289 (63.0)774 (69.3)&lt;0.0011063 (67.9)&lt;0.001Low income ( %)515 (16.7)584 (17.4)1877 (17.2)145 (22.8)385 (20.6)0.093530 (21.1)0.081Healthy eating ( %)552 (34.0)479 (29.1)1942 (35.1)182 (42.1)423 (38.3)&lt;0.001605 (39.2)&lt;0.001C-reactive protein, mg/dL0.27 (0.01)0.34 (0.01)0.40 (0.01)0.63 (0.04)0.60 (0.04)&lt;0.0010.61 (0.03)&lt;0.001Insulin resistance ( %) HOMA-IR≥2.5113 (4.10)540 (22.9)2825 (40.0)323 (74.4)660 (48.4)&lt;0.001983 (54.3)&lt;0.001 HOMA-IR≥2.0251 (10.5)814 (39.0)3,663 (55.6)366 (82.1)806 (61.2)&lt;0.0011172 (65.9)&lt;0.001 HOMA-IR≥1.01308 (71.8)1620 (91.3)5532 (92.9)444 (98.0)1108 (92.6)&lt;0.0011552 (93.8)&lt;0.001NAFLD (Mild-Severe SLD, %)388 (21.9)408 (20.9)2346 (36.7)208 (48.3)540 (43.6)&lt;0.001748 (44.7)&lt;0.001NAFLD (Moderate-Severe SLD, %)146 (7.3)207 (9.6)1573 (24.3)146 (33.3)374 (29.9)&lt;0.001520 (30.6)&lt;0.001Advanced liver fibrosis ( %)11 (0.5)16 (0.9)204 (2.6)93 (17.9)137 (9.7)&lt;0.001230 (11.5)&lt;0.001All-cause death ( %)182 (8.9)256 (14.7)2033 (30.7)422 (94.5)879 (71.3)&lt;0.0011301 (76.6)&lt;0.001Cardiovascular death ( %)33 (1.3)52 (2.8)628 (8.6)169 (41.4)367 (27.9)&lt;0.001536 (40.0)&lt;0.001Abbreviation: CKD, chronic kidney disease; NAFLD, Nonalcoholic fatty liver disease; SLD, steatosis liver disease; CKM, Cardiovascular-Kidney-Metabolic syndrome. Continuous variables are presented as weighted means with standard errors, while categorical variables are presented as unweighted frequencies with weighted percentages.Fig. 1Age-Standardized Prevalence of NAFLD and Advanced Liver Fibrosis Across Cardiovascular-Kidney-Metabolic (CKM) Syndrome Stages.Abbreviation: NAFLD, Nonalcoholic fatty liver disease; SLD, steatosis liver disease.Fig 1"
+        },
+        {
+          "type": "paragraph",
+          "html": "Compared to those without NAFLD, individuals with NAFLD (mild-to-severe SLD) were older, more likely to be Mexican-American, and had lower levels of education. They also exhibited a greater prevalence of metabolic abnormalities, including elevated C-reactive protein (0.44 vs. 0.36 mg/dL, P &lt; 0.001), insulin resistance (HOMA-IR &gt;2.5: 51.6 % vs. 22.3 %, P &lt; 0.001), and multiple components of CKM syndrome, such as obesity, central obesity, hypertension, diabetes, and metabolic syndrome (Table 2). Additionally, NAFLD was associated with a higher CKD risk category (P &lt; 0.001) and an increased prevalence of advanced CKM (16.0 % vs. 9.4 %, P &lt; 0.001). These associations were even more pronounced among individuals with NAFLD (moderate-to-severe SLD) or advanced liver fibrosis, who demonstrated greater metabolic dysregulation, systemic inflammation, and CKM burden (Table 2). Multivariable ordinal logistic regression demonstrated that NAFLD was independently associated with CKM stage progression (odds ratio [OR] = 2.01, 95 % CI: 1.84–2.20, P &lt; 0.001) and higher CKD risk classification (OR = 1.29, 95 % CI: 1.09–1.52, P = 0.002) (Table 3). Sensitivity analyses using the mild-to-severe SLD definition of NAFLD produced consistent findings (Supplementary Table S5). Additionally, binary logistic regression showed that advanced CKM stages (vs. Stage 0) were associated with a nearly 3-fold increased risk of advanced liver fibrosis (OR = 2.96, 95 % CI: 1.23–7.13, P = 0.017), independent of socioeconomic factors (Supplementary Table S6).Table 2Baseline characteristics of the study population, stratified by NAFLD status.Table 2CharacteristicNAFLD (Mild-Severe SLD)NAFLD (Moderate-Severe SLD)Advanced liver fibrosisNoN = 7095YesN = 3890P-valueNoN = 8539YesN = 2446P-valueNoN = 10524Yes N = 461P-valueAge, years41.26 (0.44)45.34 (0.41)&lt;0.00141.44 (0.43)47.27 (0.55)&lt;0.00141.99 (0.39)61.85 (0.69)&lt;0.001Age group ( %)&lt;0.001&lt;0.001&lt;0.001 20-393583 (51.7)1473 (39.5)4244 (51.1)812 (33.9)5028 (49.1)28 (5.1) 40-592022 (32.7)1341 (38.6)2471 (33.1)892 (40.6)3271 (34.8)92 (26.8) 60-741490 (15.6)1076 (21.8)1824 (15.7)742 (25.4)2225 (16.1)341 (68.1)Male ( %)3215 (46.0)1877 (51.3)0.0043853 (46.3)1239 (53.6)&lt;0.0014885 (47.7)207 (47.8)0.99Race/ethnicity ( %)&lt;0.0010.0040.006 Mexican-American1867 (4.7)1463 (7.1)2354 (4.9)976 (7.8)3232 (5.5)98 (3.6) Non-Hispanic black2102 (10.4)883 (8.9)2483 (10.3)502 (8.4)2827 (9.7)158 (15.7) Non-Hispanic white2822 (77.6)1389 (74.9)3337 (77.1)874 (75.0)4021 (76.8)190 (73.9) Other304 (7.3)155 (9.2)365 (7.7)94 (8.8)444 (8.0)15 (6.8)Smoking status ( %)&lt;0.001&lt;0.001&lt;0.001 Never3515 (45.6)1895 (44.0)4250 (46.0)1160 (41.5)5205 (45.2)205 (42.7) Former1543 (23.7)1074 (31.0)1883 (24.0)734 (34.7)2456 (25.7)161 (38.4) Current2037 (30.6)921 (25.0)2406 (30.1)552 (23.7)2863 (29.1)95 (18.9)Less than high school ( %)2334 (19.6)1723 (27.9)&lt;0.0012907 (20.3)1150 (30.4)&lt;0.0013809 (21.8)248 (37.7)&lt;0.001Married ( %)4209 (63.8)2469 (67.2)0.0245065 (63.5)1613 (70.5)&lt;0.0016410 (64.9)268 (65.5)0.87Low income ( %)2178 (17.1)1328 (18.6)0.32654 (17.1)852 (19.8)0.0523337 (17.5)169 (20.8)0.2Healthy eating ( %)2272 (34.0)1306 (35.3)0.302760 (33.9)818 (36.5)0.153384 (34.1)194 (44.5)0.003C-reactive protein, mg/dL0.36 (0.01)0.44 (0.01)&lt;0.0010.37 (0.01)0.49 (0.02)&lt;0.0010.38 (0.01)0.58 (0.06)&lt;0.001Overweight / obeisty ( %)3843 (48.2)2925 (72.2)&lt;0.0014753 (49.8)2015 (81.7)&lt;0.0016414 (55.3)354 (77.1)&lt;0.001Central obesity ( %)2371 (28.0)2315 (56.4)&lt;0.0013048 (29.7)1638 (68.0)&lt;0.0014377 (36.3)309 (65.4)&lt;0.001Insulin resistance( %) HOMA-IR≥2.52136 (22.3)2325 (51.6)&lt;0.0012779 (23.9)1682 (64.3)&lt;0.0014171 (30.9)290 (57.6)&lt;0.001 HOMA-IR≥2.03124 (35.5)2776 (65.0)&lt;0.0013953 (37.3)1947 (77.2)&lt;0.0015575 (44.4)325 (65.3)&lt;0.001 HOMA-IR≥1.06312 (85.8)3700 (93.9)&lt;0.0017635 (86.3)2377 (97.4)&lt;0.0019584 (88.3)428 (92.4)0.04Prediabetes ( %)1926 (21.9)1294 (30.9)&lt;0.0012374 (22.9)846 (32.7)&lt;0.0013103 (24.8)117 (23.16)0.65Diabetes ( %)484 (4.32)732 (13.8)&lt;0.001650 (4.82)566 (18.0)&lt;0.001995 (6.31)221 (42.6)&lt;0.001Hypertension ( %)3068 (39.5)2256 (54.6)&lt;0.0013754 (40.1)1570 (62.0)&lt;0.0014973 (43.4)351 (74.9)&lt;0.001High triglycerides ( %)2126 (28.9)2085 (54.1)&lt;0.0012731 (30.4)1480 (64.5)&lt;0.0013984 (36.7)227 (47.6)0.003MetS ( %)1528 (18.1)1940 (47.4)&lt;0.0012012 (19.7)1456 (60.4)&lt;0.0013210 (26.7)258 (56.1)&lt;0.001CKD ( %)1094 (12.7)793 (18.1)&lt;0.0011351 (13.0)536 (20.1)&lt;0.0011681 (13.5)206 (45.5)&lt;0.001CKD risk ( %)&lt;0.001&lt;0.001&lt;0.001 Low risk5902 (86.6)3035 (81.0)7068 (86.2)1869 (78.8)8724 (85.9)213 (49.1) Moderately increased risk910 (11.0)656 (15.4)1129 (11.3)437 (16.8)1421 (11.7)145 (34.5) High risk184 (1.7)137 (2.7)222 (1.7)99 (3.3)260 (1.7)61 (11.0) Very high risk99 (0.7)62 (1.0)120 (0.7)41 (1.0)119 (0.6)42 (5.3)CKM stage&lt;0.001&lt;0.001&lt;0.001 Stage 01366 (23.6)388 (14.0)1608 (23.5)146 (7.8)1,743 (21.0)11 (3.3) Stage 11332 (17.7)408 (9.8)1,533 (17.0)207 (7.5)1724 (15.5)16 (4.4) Stage 23514 (49.3)2346 (60.1)4287 (49.5)1573 (66.4)5656 (53.0)204 (46.6) Advanced CKM883 (9.4)748.0 (16.0)1111 (9.9)520 (18.3)1401 (10.5)230 (45.7)Abbreviation: NAFLD, Nonalcoholic fatty liver disease; SLD, steatosis liver disease; CKD, chronic kidney disease; CKM, Cardiovascular-Kidney-Metabolic syndrome; CKD, chronic kidney disease; Continuous variables are presented as weighted means with standard errors, while categorical variables are presented as unweighted frequencies with weighted percentages.Table 3Ordered logistic regression of NAFLD association with progression of CKM and CKD risk.Table 3CharacteristicCKM stageCKD riskOR(95 %CI)P-valueOR(95 %CI)P-valueNAFLD Norefref Yes2.01(1.84, 2.20)&lt;0.0011.29(1.09, 1.52)0.002Age, years1.08(1.08, 1.09)&lt;0.0011.08(1.07, 1.09)&lt;0.001Sex Femalerefref Male1.86(1.66, 2.09)&lt;0.0010.57(0.49, 0.67)&lt;0.001Race/ethnicity&lt;0.001 Mexican-Americanrefref Non-Hispanic black1.14(1.00, 1.30)0.0042.76(2.34, 3.26)&lt;0.001 Non-Hispanic white0.82(0.71, 0.95)0.011.24(1.00, 1.54)0.052 Other0.91(0.71, 1.18)0.4921.29(0.85, 1.95)0.19Married Norefref Yes0.95(0.84, 1.07)0.4130.95(0.79, 1.14)0.56Education level Less than high schoolrefref High school graduate or higher0.86(0.74, 1.01)0.0580.89(0.76, 1.04)0.156Smoking status Neverrefref Former1.08(0.93, 1.25)0.3041.12(0.90, 1.39)0.328 Current1.29(1.12, 1.48)&lt;0.0010.98(0.76, 1.26)0.864Poverty income rate0.91(0.88, 0.95)&lt;0.0010.97(0.93, 1.02)0.209Healthy eating index1.00(0.99, 1.00)0.111.00(0.99, 1.00)0.337Abbreviation: NAFLD, Nonalcoholic fatty liver disease; CKM, Cardiovascular-Kidney-Metabolic syndrome; CKD, chronic kidney disease; CKD risk categories are defined by the Kidney Disease Improving Global Outcomes (KDIGO) classification; OR, odds ratio; CI, confidence interval."
+        }
+      ]
+    },
+    {
+      "title": "Association of NAFLD or liver fibrosis status with mortality",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "During a median follow-up of 27.9 years (95 % CI: 27.8–28.0), 3,772 all-cause deaths occurred, including 1,249 cardiovascular deaths. Age-standardized cumulative mortality rates varied significantly across NAFLD and CKM subgroups (Supplementary Table S7). NAFLD patients exhibited higher age-standardized all-cause mortality than non-NAFLD individuals (35.1 % vs. 29.4 %, P&lt;0.001), with a pronounced gradient in advanced liver fibrosis (50.4 % vs. 30.1 %, P&lt;0.001). Table 4 summarizes the relationship between NAFLD and all-cause as well as cardiovascular mortality. In both the univariate model (HR 1.78; 95 % CI: 1.59 - 1.99) and multivariate model 1 (HR 1.26; 95 % CI: 1.14 - 1.40), patients with NAFLD exhibited higher all-cause mortality compared to those without NAFLD. However, after adjusting for specific components of the CKM, the association between NAFLD and all-cause mortality was no longer significant. In contrast, the relationship between advanced liver fibrosis and all-cause mortality remained significant (HR 1.26; 95 % CI: 1.07 - 1.48).Table 4Association between NAFLD or liver fibrosis status and long-term mortality.Table 4Deaths, nUnivariable modelMultivariable model 1Multivariable model 2HR (95 % CI)P-valueHR (95 % CI)P-valueHR (95 % CI)P-value<strong>All-cause mortality</strong>NAFLD (Mild-Severe SLD)No (n=7059)2188refrefrefYes (n=3890)15841.55 (1.44, 1.67)&lt;0.0011.23 (1.13, 1.33)&lt;0.0011.08 (0.98, 1.18)0.10NAFLD (Moderate-Severe SLD)No (n=8539)2673refrefrefYes (n=2449)10991.78 (1.59, 1.99)&lt;0.0011.26 (1.14, 1.40)&lt;0.0011.07 (0.95, 1.20)0.27Advanced liver fibrosisNo (n=10524)3389refrefrefYes (n=461)3835.28 (4.41, 6.31)&lt;0.0011.49 (1.29, 1.71)&lt;0.0011.26 (1.07, 1.48)0.01<strong>Cardiovascular mortality</strong>NAFLD (Mild-Severe SLD)No (n=7059)728refrefrefYes (n=3890)5211.52 (1.29, 1.78)&lt;0.0011.15 (0.97, 1.35)0.100.87 (0.73, 1.02)0.09NAFLD (Moderate-Severe SLD)No (n=8539)888refrefrefYes (n=2449)3611.75 (1.44, 2.13)&lt;0.0011.17 (0.97, 1.39)0.090.84 (0.68, 1.03)0.09Advanced liver fibrosisNo (n=10524)1111refrefrefYes (n=461)1386.24 (4.86, 8.02)&lt;0.0011.47 (1.16, 1.85)0.0011.10 (0.84, 1.44)0.48Multivariate model 1 was adjusted for age, sex, race, education level, marital status, smoking status, poverty income rate, and Healthy eating index.Multivariate model 2 was adjusted for BMI, hypertension, diabetes, CKD risk, fasting triglycerides, HDL-C, and CRP in addition to model 1.Abbreviation: NAFLD, non-alcoholic fatty liver disease; SLD, steatosis liver disease; HR, hazard ratio; CI, confidence interval; BMI, body mass index; CKD, chronic kidney disease; HDL-C, high-density lipoprotein cholesterol; CRP, C-reactive protein."
+        }
+      ]
+    },
+    {
+      "title": "Comparison of mortality according to CKM status among subjects with NAFLD",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Among individuals with NAFLD, age-standardized all-cause mortality increased progressively with CKM severity, ranging from 23.0 % in Stage 0 to 34.1 % in Stage 2, peaking at 58.6 % in advanced CKM. A similar pattern was observed for cardiovascular mortality, with advanced CKM patients exhibiting a 3.8-fold higher risk compared to those in Stage 0 (20.6 % vs. 5.4 %, P &lt; 0.001) (Supplementary Table S7). Kaplan-Meier curves revealed significant survival disparities across CKM stages (log-rank P &lt; 0.001, Fig. 2A). After adjustment for socioeconomic factors, advanced CKM was associated with a 4.15-fold increased risk of all-cause mortality (HR = 4.15, 95 % CI: 1.76–9.79, P-value = 0.001) (Fig. 2C). Predicted 10-year CVD risk further stratified outcomes, with a ≥20 % risk linked to 4.49-fold higher mortality (HR = 4.49, 95 % CI: 1.60–12.6, P-value = 0.004) (Fig. 2D). These findings remained consistent in complete-case analyses, which further reinforced the robustness and internal validity of our results (Supplementary Fig. S2). Additionally, we performed a sensitivity analysis without merging CKM stages 3 and 4. The results showed a progressive increase in all-cause mortality risk across CKM stages, supporting the robustness of our main findings (Supplementary Table S8). For cardiovascular mortality, competing risk analyses accounting for non-CVD deaths revealed similar patterns. Cumulative incidence curves demonstrated clear and progressive stratification of cardiovascular mortality among individuals with NAFLD, both by CKM stage and predicted 10-year CVD risk categories, These findings underscore the prognostic utility of CKM staging and CVD risk estimation in this population (Gray’s test P &lt; 0.001, Supplementary Fig. S3). Multivariable Fine-Gray models further confirmed the robustness of these associations (Supplementary Table S9-S10). Additionally, ROC analysis demonstrated that the PREVENT equation predicted 10-year CVD risk had superior prognostic value compared to the noninvasive fibrosis scores. As shown in Fig. 3, predicted 10-year CVD risk exhibited significantly higher predictive accuracy for all-cause and cardiovascular mortality (DeLong test, P &lt; 0.001), with AUCs of 0.88 and 0.84, respectively.Fig. 2Survival analysis of the association between CKM and mortality among NAFLD subjects.Fig. legend: Kaplan-Meier survival curves for all-cause mortality in NAFLD patients stratified by CKM stage (<strong>A</strong>) and predicted 10-year CVD risk (<strong>B</strong>). Multivariable Cox regression analysis for the association of CKM stage (<strong>C</strong>) and predicted 10-year CVD risk (<strong>D</strong>) with all-cause mortality in NAFLD patients. The multivariable Cox regression models were adjusted for age, sex, race, income, marital status, education level, smoking status, poverty income rate, and healthy eating index. Abbreviation: CKM, Cardiovascular-Kidney-Metabolic syndrome; CVD, cardiovascular disease; HR, hazard ratio; CI, confidence interval; NAFLD, Nonalcoholic fatty liver disease.Fig 2Fig. 3ROC curves of NFS, FIB-4, and predicted 10-year CVD risk in predicting mortality.Fig. legend: Predicted 10-year CVD risk was calculated by the full PREVENT equation model. Abbreviation: AUC, area under the curve; NFS, NAFLD fibrosis score; FIB-4, fibrosis-4 index; CVD, cardiovascular disease; ROC, receiver operating characteristic curve.Fig 3"
+        }
+      ]
+    },
+    {
+      "title": "Subgroup and mediation analysis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Supplementary Fig. S4 presents subgroup analysis of NAFLD with all-cause and cardiovascular mortality across different strata of age, sex, race, CKD risk, and CKM stage. No significant interaction effects were observed across these subgroups. Notably, the association between NAFLD and all-cause mortality weakened with increasing age, with a significant risk observed in younger adults (HR = 1.69, 95 % CI: 1.36–2.10 for ages 20–39) but diminishing in older age groups. Within the CKM subgroup, NAFLD was only significantly related to all-cause mortality in CKM Stage 2 (HR = 1.25, 95 % CI: 1.08–1.45), and no significant associations were observed in other CKM stages. For cardiovascular mortality, NAFLD was not significant in any subgroup."
+        },
+        {
+          "type": "paragraph",
+          "html": "Mediation analysis showed that the CKM stage significantly mediated the association between NAFLD and all-cause mortality. The total effect of NAFLD on all-cause mortality was 1.20 (95 % CI: 1.12–1.29, p &lt; 0.001), with an indirect effect of 1.06 (95 % CI: 1.05–1.09, p &lt; 0.001), accounting for 35.4 % of the total effect. Among the main CKM components, the mediation proportions were 30.5 % for predicted 10-year CVD risk, 13.0 % for HOMA-IR, and 17.0 % for CKD risk, respectively (Fig. 4). We also verified the mediating role of systemic inflammation, as indicated by CRP, mediating 5.8 % of the effect (Supplementary Table S11).Fig. 4Mediation analysis of the association between NAFLD and all-cause mortality.Fig. legend: Models were adjusted for age, sex, race, income, marital status, education level, smoking status, poverty income rate, and healthy eating index. Abbreviation: NAFLD, Nonalcoholic fatty liver disease; CKM, Cardiovascular-Kidney-Metabolic syndrome; CVD, cardiovascular disease; HOMA-IR, homeostasis model assessment of insulin resistance; CKD, chronic kidney disease; CI, confidence interval.Fig 4"
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "By leveraging a large, nationally representative cohort of U.S. adults from NHANES III with extended mortality follow-up, this study is the first to systematically integrate NAFLD into the CKM syndrome framework. We comprehensively evaluated the relationship between NAFLD and CKM progression, as well as their associations with long-term all-cause and cardiovascular mortality. Importantly, we also delineated the prevalence patterns of NAFLD and advanced liver fibrosis across different CKM stages, providing new insights into the early hepatic involvement in the CKM continuum."
+        },
+        {
+          "type": "paragraph",
+          "html": "Previous research linking NAFLD, CKM syndrome, and mortality risk has largely focused on isolated components, such as MetS, type 2 diabetes, CKD, or CVD, without examining CKM as an integrated entity [[10], [13], [24]]. Our study addresses this critical gap by evaluating the role of NAFLD across the newly conceptualized CKM continuum and its association with long-term mortality. Notably, even among individuals classified as Stage 0, NAFLD remains prevalent, with an age-standardized prevalence of 8.4 % for NAFLD (moderate-to-severe SLD) and 21.8 % for NAFLD (mild-to-severe SLD). This observation suggests that NAFLD may act as an early driver of CKM progression rather than merely a downstream consequence of overt metabolic dysfunction. Emerging evidence supports this hypothesis, indicating that hepatic steatosis may precede systemic metabolic derangements, possibly mediated by subclinical insulin resistance or early adipose tissue dysfunction [25]. Genetic predispositions (e.g., PNPLA3 variants), high-calorie diets, physical inactivity, visceral fat accumulation, and gut dysbiosis may contribute to the development of ‘metabolically healthy or lean NAFLD’ [[26], [27], [28]]. As CKM advances, the prevalence of NAFLD rises markedly from 24.1 % at Stage 1 to 40.0 % at Stage 2, then stabilizes at 40.2 % in advanced CKM. In contrast, the prevalence of advanced liver fibrosis increases sharply in the advanced CKM stage, suggesting a shift from isolated metabolic dysfunction to multi-organ damage involving the heart, liver, and kidneys [29]. The evolving shift from NAFLD to MASLD introduces important implications for future research. Different diagnostic frameworks may identify distinct subtypes of steatotic liver disease, each with unique cardiometabolic risk profiles and prognostic trajectories within the CKM framework. Future studies are needed to clarify how these classification systems impact population-level estimates, risk stratification, and clinical decision-making across the spectrum of liver–cardiovascular–metabolic interactions."
+        },
+        {
+          "type": "paragraph",
+          "html": "Findings from previous cohort studies, including those based on NHANES III, have shown that while MAFLD remains independently associated with all-cause mortality after multivariable adjustment, NAFLD is not independently predictive of mortality [30,31]. Our results are consistent with these observations but extend them by using a longer follow-up and mediation analyses to explore underlying mechanisms. Our study demonstrates that NAFLD is associated with a 1.26-fold increase in all-cause mortality risk. However, after adjusting for specific CKM components, this association is no longer significant. Subgroup analyses further support this finding, showing that NAFLD is not independently associated with all-cause mortality when the CKM stage is accounted for. In the mediation analysis, CKM progression, CKD risk advancement, HOMA-IR, and CRP were all significant mediators of the association between NAFLD and all-cause mortality. These findings suggest that the increased mortality risk associated with NAFLD is primarily driven by CKM progression. Furthermore, our study underscores the utility of the CKM framework in refining NAFLD risk stratification beyond conventional approaches that rely on coexisting metabolic risk factors, noninvasive liver fibrosis scores (e.g., FIB-4, NFS), or liver stiffness measurements via vibration-controlled transient elastography [9]. Given that NAFLD significantly increases the risk of CKD, CVD, and type 2 diabetes, with cardiovascular death as the leading cause of mortality [32,33], a classification system based solely on liver fibrosis severity or metabolic dysfunction remains incomplete. Our findings demonstrate that CKM framework effectively stratifies overall mortality risk in NAFLD patients [20]. Notably, the PREVENT 10-year CVD risk score outperformed both the NFS and FIB-4 in predicting all-cause mortality among individuals with NAFLD. This finding highlights the dominant role of cardiovascular risk in shaping long-term prognosis in this population and supports the utility of cardiometabolic risk models in NAFLD/MASLD. However, it is important to note that NHANES III does not provide liver-specific mortality outcomes, and the relative performance of these scores in predicting liver-related deaths remains to be determined. Future research should evaluate and compare the predictive performance of these indicators and explore the development of an integrated risk assessment framework incorporating metabolic, cardiovascular, renal, and hepatic factors."
+        },
+        {
+          "type": "paragraph",
+          "html": "CKM syndrome is a complex, multisystem disorder driven by insulin resistance, dysfunctional adiposity, inflammation, and oxidative stress [2]. However, the current CKM framework seems insufficient to account for the liver’s central role in metabolic homeostasis and its intricate interactions with the cardiovascular and renal systems. As a key metabolic organ, the liver regulates lipid and glucose metabolism while actively contributing to CKM progression through hepatic insulin resistance, lipotoxicity, and systemic inflammation [29]. Hepatic insulin resistance, a hallmark of NAFLD, disrupts systemic metabolic balance by impairing glucose uptake and promoting hepatic gluconeogenesis, thereby exacerbating hyperglycemia and insulin demand, which accelerates the onset of diabetes and cardiovascular complications [34]. In parallel, the liver in NAFLD exhibits profound lipotoxicity and inflammation, releasing pro-inflammatory cytokines such as TNF-α and IL-6 and excess free fatty acids. These mediators amplify systemic inflammation and oxidative stress, creating a pro-atherogenic environment that fosters endothelial dysfunction, vascular remodeling, and an increased risk of cardiovascular events [35]. Furthermore, the liver and kidneys engage in bidirectional crosstalk, where hepatic dysfunction promotes renal injury through systemic inflammation and neurohormonal activation, while CKD exacerbates hepatic damage via uremic toxin accumulation and oxidative stress [24]. Additionally, the close interplay between the liver and heart creates a vicious cycle, where NAFLD-associated metabolic dysfunction and fluid overload worsen cardiac function, while heart failure leads to hepatic congestion and fibrosis, compounding disease progression. Given these interconnected pathophysiological mechanisms, future research and clinical strategies should move toward a more integrated model that recognizes NAFLD as a key determinant in CKM syndrome. Understanding the liver’s role as both a metabolic regulator and a mediator of systemic inflammation highlights the potential for targeted interventions in NAFLD to break the cycle of multi-organ dysfunction and improve clinical outcomes in CKM patients."
+        },
+        {
+          "type": "paragraph",
+          "html": "This study has several limitations. First, the use of NHANES III (1988–1994) limits the generalizability of our findings to contemporary populations. Over the past decades, the burden of metabolic abnormalities, such as NAFLD/MASLD, type 2 diabetes, obesity, and their cardiovascular consequences has continued to rise globally [36,37]. As a result, the burden of NAFLD/MASLD may be even greater in today&#x27;s clinical and public health landscape. Future studies based on more recent cohorts with contemporary diagnostic approaches are needed to validate our findings and further explore the evolving relationship between steatotic liver disease and CKM health. Second, hepatic steatosis was assessed by ultrasound, while practical for large-scale surveys, but has limited sensitivity for detecting mild steatosis and may underestimate the true prevalence of NAFLD [38]. Third, NHANES III lacks documentation of several clinical cardiovascular conditions, such as atrial fibrillation and peripheral artery disease, which may have led to underestimation of clinical CVD (CKM stage 4) prevalence. Finally, the observed associations between NAFLD and CKM stages were derived from cross-sectional analysis, time series and causality could not be determined, and residual confounding may persist despite adjustments for various potential confounders."
+        }
+      ]
+    },
+    {
+      "title": "Conclusions",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This study highlights that CKM syndrome exhibits high comorbidity with NAFLD and serves as an effective framework for risk stratification in individuals with NAFLD. NAFLD is not an independent predictor of mortality but serves as a key driver to accelerate CKM progression to increase mortality. The high prevalence of hepatic steatosis in CKM Stage 0 emphasizes the existence of metabolically “silent” steatosis and underscores the importance of capturing early liver involvement before overt systemic dysfunction emerges."
+        }
+      ]
+    },
+    {
+      "title": "Consent for publication",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Not applicable."
+        }
+      ]
+    },
+    {
+      "title": "Ethics approval and consent to participate",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The study was considered exempt and approved by the institutional review board."
+        }
+      ]
+    },
+    {
+      "title": "Data availability",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The National Health and Nutrition Examination Survey dataset are publicly available on the website (www.cdc.gov/nchs/nhanes/)."
+        }
+      ]
+    },
+    {
+      "title": "Author agreement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We hereby confirm that this manuscript, titled &quot;Prevalence and Long-Term Outcomes of NAFLD and Cardiovascular-Kidney-Metabolic Health in the United States&quot;, has not been published previously in any form, nor is it currently under consideration for publication elsewhere. All authors have thoroughly reviewed and approved the final version of the manuscript, and affirm that no conflicts of interest—financial, professional, or personal—exist that could influence the interpretation or reporting of this work."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Jian Liu:</strong> Writing – review &amp; editing, Writing – original draft, Software, Methodology, Formal analysis, Conceptualization. <strong>Lei Gao:</strong> Writing – review &amp; editing, Methodology, Funding acquisition. <strong>Junlong Chen:</strong> Validation, Methodology, Data curation. <strong>Zhenghao Li:</strong> Visualization, Validation, Methodology. <strong>Wenhang Zhao:</strong> Methodology, Investigation. <strong>Shiwei Qin:</strong> Validation, Methodology. <strong>Xuesong Wen:</strong> Writing – review &amp; editing, Validation, Methodology. <strong>Dongying Zhang:</strong> Writing – review &amp; editing, Supervision, Funding acquisition, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "NdumeleC.E.RangaswamiJ.ChowS.L.NeelandI.J.TuttleK.R.KhanS.S.Cardiovascular-kidney-metabolic health: a presidential advisory from the American heart associationCirculation1482023160616353780792410.1161/CIR.0000000000001184"
+    },
+    {
+      "html": "NdumeleC.E.NeelandI.J.TuttleK.R.ChowS.L.MathewR.O.KhanS.S.A synopsis of the evidence for the science and clinical management of cardiovascular-kidney-metabolic (CKM) syndrome: a scientific statement from the American heart associationCirculation1482023163616643780792010.1161/CIR.0000000000001186"
+    },
+    {
+      "html": "AggarwalR.OstrominskiJ.W.VaduganathanM.Prevalence of cardiovascular-kidney-metabolic syndrome stages in US adults, 2011-2020Jama3312024185818603871774710.1001/jama.2024.6892PMC11079779"
+    },
+    {
+      "html": "LiN.LiY.CuiL.ShuR.SongH.WangJ.Association between different stages of cardiovascular-kidney-metabolic syndrome and the risk of all-cause mortalityAtherosclerosis397202411858510.1016/j.atherosclerosis.2024.11858539255681"
+    },
+    {
+      "html": "KimJ.E.JooJ.KukuK.O.DownieC.HashemianM.Powell-WileyT.M.Prevalence, disparities, and mortality of cardiovascular-kidney-metabolic syndrome in US adults, 2011-2018Am J Med202510.1016/j.amjmed.2025.01.031PMC1209219839909293"
+    },
+    {
+      "html": "EslamM.NewsomeP.N.SarinS.K.AnsteeQ.M.TargherG.Romero-GomezM.A new definition for metabolic dysfunction-associated fatty liver disease: an international expert consensus statementJ Hepatol7320202022093227800410.1016/j.jhep.2020.03.039"
+    },
+    {
+      "html": "RinellaM.E.LazarusJ.V.RatziuV.FrancqueS.M.SanyalA.J.KanwalF.A multisociety Delphi consensus statement on new fatty liver disease nomenclatureJ Hepatol792023154215563736479010.1016/j.jhep.2023.06.003"
+    },
+    {
+      "html": "NeelandI.J.RossR.DesprésJ.P.MatsuzawaY.YamashitaS.ShaiI.Visceral and ectopic fat, atherosclerosis, and cardiometabolic disease: a position statementLancet Diabetes Endocrinol720197157253130198310.1016/S2213-8587(19)30084-1"
+    },
+    {
+      "html": "KanwalF.ShubrookJ.H.AdamsL.A.PfotenhauerK.Wai-Sun WongV.WrightE.Clinical care pathway for the risk stratification and management of patients with nonalcoholic fatty liver diseaseGastroenterology1612021165716693460225110.1053/j.gastro.2021.07.049PMC8819923"
+    },
+    {
+      "html": "KimK.S.HongS.HanK.ParkCY.Association of non-alcoholic fatty liver disease with cardiovascular disease and all cause death in patients with type 2 diabetes mellitus: nationwide population based studyBmj3842024e07638810.1136/bmj-2023-076388PMC1086214038350680"
+    },
+    {
+      "html": "WangT.Y.WangR.F.BuZ.Y.TargherG.ByrneC.D.SunD.Q.Association of metabolic dysfunction-associated fatty liver disease with kidney diseaseNat Rev Nephrol1820222592683501359610.1038/s41581-021-00519-y"
+    },
+    {
+      "html": "National Center for Health Statistics (NCHS). Analytic and reporting guidelines: the third national health and nutrition examination survey, NHANES III (1988-94). NHANES III Analytic and Reporting Guidelines; October 1996 (accessed November 16, 2024)."
+    },
+    {
+      "html": "GolabiP.PaikJ.M.KumarA.Al ShabeebR.EberlyK.E.CusiK.Nonalcoholic fatty liver disease (NAFLD) and associated mortality in individuals with type 2 diabetes, pre-diabetes, metabolically unhealthy, and metabolically healthy individuals in the United StatesMetabolism146202315564210.1016/j.metabol.2023.15564237380016"
+    },
+    {
+      "html": "HanL.YouD.MaW.Astell-BurtT.FengX.DuanS.National trends in American heart association revised life&#x27;s simple 7 metrics associated with risk of mortality among US adultsJAMA Netw Open22019e191313110.1001/jamanetworkopen.2019.13131PMC680402131603489"
+    },
+    {
+      "html": "NHANES III gallbladder ultrasonography procedure manual1988"
+    },
+    {
+      "html": "YounossiZ.M.PaikJ.M.Al ShabeebR.GolabiP.YounossiI.HenryL.Are there outcome differences between NAFLD and metabolic-associated fatty liver disease?Hepatology762022142314373536390810.1002/hep.32499"
+    },
+    {
+      "html": "PaikJ.M.DeshpandeR.GolabiP.YounossiI.HenryL.YounossiZM.The impact of modifiable risk factors on the long-term outcomes of non-alcoholic fatty liver diseaseAliment Pharmacol Ther5120202913043178254310.1111/apt.15580"
+    },
+    {
+      "html": "AnguloP.HuiJ.M.MarchesiniG.BugianesiE.GeorgeJ.FarrellG.C.The NAFLD fibrosis score: a noninvasive system that identifies liver fibrosis in patients with NAFLDHepatology4520078468541739350910.1002/hep.21496"
+    },
+    {
+      "html": "ShahA.G.LydeckerA.MurrayK.TetriB.N.ContosM.J.SanyalAJ.Comparison of noninvasive markers of fibrosis in patients with nonalcoholic fatty liver diseaseClin Gastroenterol Hepatol72009110411121952353510.1016/j.cgh.2009.05.033PMC3079239"
+    },
+    {
+      "html": "KhanS.S.MatsushitaK.SangY.BallewS.H.GramsM.E.SurapaneniA.Development and validation of the American Heart Association&#x27;s PREVENT equationsCirculation14920244304493794708510.1161/CIRCULATIONAHA.123.067626PMC10910659"
+    },
+    {
+      "html": "InkerL.A.EneanyaN.D.CoreshJ.TighiouartH.WangD.SangY.New creatinine- and cystatin C-based equations to estimate GFR without raceN Engl J Med3852021173717493455465810.1056/NEJMoa2102953PMC8822996"
+    },
+    {
+      "html": "ZengX.ZengQ.ZhouL.ZhuH.LuoJ.Prevalence of chronic kidney disease among US adults with hypertension, 1999 to 2018Hypertension802023214921583749763510.1161/HYPERTENSIONAHA.123.21482"
+    },
+    {
+      "html": "ChenY.WuS.LiuH.ZhongZ.BucciT.WangY.Role of oxidative balance score in staging and mortality risk of cardiovascular-kidney-metabolic syndrome: insights from traditional and machine learning approachesRedox Biol81202510358810.1016/j.redox.2025.103588PMC1195099940073760"
+    },
+    {
+      "html": "ZoccaliC.MallamaciF.The interplay of nonalcoholic fatty liver disease and chronic kidney disease: a call for integrated managementAm J Nephrol20241410.1159/00054188939500290"
+    },
+    {
+      "html": "YounossiZ.AnsteeQ.M.MariettiM.HardyT.HenryL.EslamM.Global burden of NAFLD and NASH: trends, predictions, risk factors and preventionNat Rev Gastroenterol Hepatol15201811202893029510.1038/nrgastro.2017.109"
+    },
+    {
+      "html": "ChahalD.SharmaD.KeshavarziS.ArisarF.A.Q.PatelK.XuW.Distinctive clinical and genetic features of lean vs overweight fatty liver disease using the UK BiobankHepatol Int1620223253363517866310.1007/s12072-022-10304-z"
+    },
+    {
+      "html": "TangA.NgC.H.PhangP.H.ChanK.E.ChinY.H.FuC.E.Comparative burden of metabolic dysfunction in lean NAFLD vs non-lean NAFLD - A systematic review and meta-analysisClin Gastroenterol Hepatol2120231750-60.e1210.1016/j.cgh.2022.06.02935863685"
+    },
+    {
+      "html": "LuC.W.ChouT.J.WuT.Y.LeeY.H.YangH.J.HuangKC.PNPLA3 and SAMM50 variants are associated with lean nonalcoholic fatty liver disease in Asian populationAnn Hepatol30202410176110.1016/j.aohep.2024.10176139638042"
+    },
+    {
+      "html": "TheodorakisN.NikolaouM.From cardiovascular-kidney-metabolic syndrome to cardiovascular-renal-hepatic-metabolic syndrome: proposing an expanded frameworkBiomolecules20251510.3390/biom15020213PMC1185343140001516"
+    },
+    {
+      "html": "MoonJ.H.KimW.KooB.K.ChoNH.Metabolic dysfunction-associated fatty liver disease predicts long-term mortality and cardiovascular diseaseGut Liver1620224334423463562610.5009/gnl210167PMC9099391"
+    },
+    {
+      "html": "KimD.KonynP.SandhuK.K.DennisB.B.CheungA.C.AhmedA.Metabolic dysfunction-associated fatty liver disease is associated with increased all-cause mortality in the United StatesJ Hepatol752021128412913438005710.1016/j.jhep.2021.07.035"
+    },
+    {
+      "html": "DuellP.B.WeltyF.K.MillerM.ChaitA.HammondG.AhmadZ.Nonalcoholic fatty liver disease and cardiovascular risk: a scientific statement from the American Heart AssociationArterioscler Thromb Vasc Biol422022e168ee853541824010.1161/ATV.0000000000000153"
+    },
+    {
+      "html": "MantovaniA.PetraccaG.BeatriceG.CsermelyA.LonardoA.SchattenbergJ.M.Non-alcoholic fatty liver disease and risk of incident chronic kidney disease: an updated meta-analysisGut7120221561623330356410.1136/gutjnl-2020-323082"
+    },
+    {
+      "html": "BoT.GaoL.YaoZ.ShaoS.WangX.ProudC.G.Hepatic selective insulin resistance at the intersection of insulin signaling and metabolic dysfunction-associated steatotic liver diseaseCell Metab3620249479683871875710.1016/j.cmet.2024.04.006"
+    },
+    {
+      "html": "ByrneC.D.ArmandiA.PellegrinelliV.Vidal-PuigA.BugianesiE.Μetabolic dysfunction-associated steatotic liver disease: a condition of heterogeneous metabolic risk factors, mechanisms and comorbidities requiring holistic treatmentNat Rev Gastroenterol Hepatol202510.1038/s41575-025-01045-z39962331"
+    },
+    {
+      "html": "QuekJ.ChanK.E.WongZ.Y.TanC.TanB.LimW.H.Global prevalence of non-alcoholic fatty liver disease and non-alcoholic steatohepatitis in the overweight and obese population: a systematic review and meta-analysisLancet Gastroenterol Hepatol8202320303640009710.1016/S2468-1253(22)00317-X"
+    },
+    {
+      "html": "Global, regional, and national prevalence of adult overweight and obesity1990-2021, with forecasts to 2050: a forecasting study for the Global Burden of Disease Study 2021Lancet40520258138384004918610.1016/S0140-6736(25)00355-1PMC11920007"
+    },
+    {
+      "html": "BrilF.Ortiz-LopezC.LomonacoR.OrsakB.FreckletonM.ChintapalliK.Clinical value of liver ultrasound for the diagnosis of nonalcoholic fatty liver disease in overweight and obese patientsLiver Int352015213921462584773010.1111/liv.12840"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

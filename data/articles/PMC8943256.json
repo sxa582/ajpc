@@ -1,0 +1,1574 @@
+{
+  "pmcid": "PMC8943256",
+  "pmid": "35342890",
+  "doi": "10.1016/j.ajpc.2022.100335",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8943256/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Atherosclerotic cardiovascular disease risk assessment: An American Society for Preventive Cardiology clinical practice statement",
+  "articleType": "Research Article",
+  "published": "2022-03-15",
+  "year": "2022",
+  "volume": "10",
+  "issue": "",
+  "articleNumber": "100335",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2022",
+  "authors": [
+    {
+      "given": "Nathan D.",
+      "surname": "Wong",
+      "display": "Nathan D. Wong"
+    },
+    {
+      "given": "Matthew J.",
+      "surname": "Budoff",
+      "display": "Matthew J. Budoff"
+    },
+    {
+      "given": "Keith",
+      "surname": "Ferdinand",
+      "display": "Keith Ferdinand"
+    },
+    {
+      "given": "Ian M.",
+      "surname": "Graham",
+      "display": "Ian M. Graham"
+    },
+    {
+      "given": "Erin D.",
+      "surname": "Michos",
+      "display": "Erin D. Michos"
+    },
+    {
+      "given": "Tina",
+      "surname": "Reddy",
+      "display": "Tina Reddy"
+    },
+    {
+      "given": "Michael D.",
+      "surname": "Shapiro",
+      "display": "Michael D. Shapiro"
+    },
+    {
+      "given": "Peter P.",
+      "surname": "Toth",
+      "display": "Peter P. Toth"
+    }
+  ],
+  "affiliations": [
+    "aHeart Disease Prevention Program, Division of Cardiology, University of California, Irvine, CA, United States",
+    "bDivision of Cardiology, Harbor-UCLA Medical Center, Torrance, CA, United States",
+    "cTulane University Heart and Vascular Institute, Tulane University School of Medicine, New Orleans, LA United States",
+    "dDepartment of Cardiology, Trinity College, Dublin, Ireland",
+    "eCiccarone Center for the Prevention of Cardiovascular Disease, Johns Hopkins University School of Medicine, Baltimore, MD, United States",
+    "fDivision of Cardiology, Wake Forest University, NC, United States",
+    "gCGH Medical Center, Sterling, IL, United States"
+  ],
+  "keywords": [
+    "Cardiovascular disease",
+    "Risk assessment",
+    "Risk factors inflammation",
+    "Sex",
+    "Ethnicity",
+    "Subclinical atherosclerosis",
+    "Primary prevention",
+    "Secondary prevention",
+    "ASCVD, atherosclerotic cardiovascular disease",
+    "ACC, American College of Cardiology",
+    "AHA, American Heart Association",
+    "ASPC, American Society for Preventive Cardiology",
+    "BMI, body mass index",
+    "CAC, coronary artery calcium, CCTA, coronary computed tomography angiography, CHD, coronary heart disease",
+    "CKD, chronic kidney disease",
+    "CRP, C-reactive protein",
+    "CVD, cardiovascular disease",
+    "DM, diabetes mellitus",
+    "EAS, European Atherosclerosis Society",
+    "ESC, European Society of Cardiology",
+    "FH, familial hypercholesterolemia",
+    "GDM, gestational diabetes mellitus",
+    "IMT, intima media thickness",
+    "LDL, low density lipoprotein",
+    "MMP, matrix metalloproteinase",
+    "NHB, non-Hispanic Black",
+    "NHW, non-Hispanic White",
+    "PAD, peripheral arterial disease",
+    "PCOS, polycystic ovary syndrome",
+    "POI, premature ovarian insufficiency",
+    "PCE, pooled cohort equation",
+    "SDOH, social determinants of health",
+    "VTE, venous thrombotic event"
+  ],
+  "abstract": [
+    {
+      "html": "Risk for atherosclerotic cardiovascular disease (ASCVD) shows considerable heterogeneity both in generally healthy persons and in those with known ASCVD. The foundation of preventive cardiology begins with assessing baseline ASCVD risk using global risk scores based on standard office-based measures. Persons at low risk are generally recommended for lifestyle management only and those at highest risk are recommended for both lifestyle and pharmacologic therapy. Additional “risk enhancing” factors, including both traditional risk factors and novel biomarkers and inflammatory factors can be used to further assess ASCVD risk, especially in those at borderline or intermediate risk. There are also female-specific risk enhancers, social determinants of health, and considerations for high-risk ethnic groups. Screening for subclinical atherosclerosis, especially with the use of coronary calcium screening, can further inform the treatment decision if uncertain based on the above strategies. Persons with pre-existing ASCVD also have variable risk, affected by the number of major ASCVD events, whether recurrent events have occurred recently, and the presence of other major risk factors or high-risk conditions. Current guidelines define high to very high risk ASCVD accordingly. Accurate ASCVD risk assessment is crucial for the appropriate targeting of preventive therapies to reduce ASCVD risk. Finally, the clinician-patient risk discussion focusing on lifestyle management and the risks and benefits of evidence-based pharmacologic therapies to best lower ASCVD risk is central to this process. This clinical practice statement provides the preventive cardiology specialist with guidance and tools for assessment of ASCVD risk with the goal of appropriately targeting treatment approaches for prevention of ASCVD events."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The initial framework for atherosclerotic cardiovascular disease (ASCVD) risk assessment began with the Framingham Heart Study, the longest running study of cardiovascular disease in the world, and one with many “first” discoveries about the etiology of ASCVD. Former Framingham director Dr. William B. Kannel in 1961 coined the term “risk factors”, widely regarded as beginning the field of preventive cardiology. In his article “Factors of Risk in the Development of Coronary Heart Disease: Six Year Follow-up Experience: The Framingham Study” (1), it was described how elevated cholesterol, elevated blood pressure, and left ventricular hypertrophy predicted the subsequent development of coronary heart disease (CHD) events. Importantly, the burden of risk factors was directly related to the risk of CHD, probably the first demonstration of the concept we now call “global risk”. Framingham developed the first multivariable risk assessment equations utilizing logistic regression (2), with Dr. Kannel as early as 1976 noting that risk functions provide an “economic and efficient method of identifying persons at high cardiovascular risk who need preventive treatment” (3), laying the foundation for individualized risk assessment. The American College of Cardiology (ACC) Bethesda Conference 20 years later noted the intensity of treatment should match a person&#x27;s risk (4). Since a clinician&#x27;s estimate (without doing formal risk assessment) is most often inaccurate and underestimates risk (5), using global risk scores can improve the use of guideline-based therapy (6)."
+        },
+        {
+          "type": "paragraph",
+          "html": "The objective of this American Society for Preventive Cardiology (ASPC) Clinical Practice Statement is to provide the preventive cardiology specialist with guidance and the tools for assessment of ASCVD risk. This includes global risk estimation from use of risk scoring (and where it may overestimate risk), use of traditional risk factors and novel biomarkers and inflammatory factors as risk enhancing factors, considerations for female-specific factors, race/ethnicity, and social determinants of health, the role of screening for subclinical atherosclerosis, as well as risk assessment for those with pre-existing ASCVD. Guidance is provided in relation to and to supplement existing guidelines on risk assessment. Nutritional factors, physical activity and cardiorespiratory fitness levels also have important roles in assessment of ASCVD risk and are discussed in other ASPC Clinical Practice Statements."
+        }
+      ]
+    },
+    {
+      "title": "Cardiovascular risk scores and incorporation into cardiovascular prevention guidelines",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Origin of global risk assessment",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The first cardiovascular disease (CVD) risk scores were championed by the Framingham Heart Study for the prediction of CHD risk over 10 years (7) which assigned points in separate scales for men and women corresponding to different levels of age, total and high-density lipoprotein (HDL)-cholesterol, blood pressure, smoking and diabetes status from which the points were summed to a total that corresponded to a 10-year risk estimate for CHD. The Third Adult Treatment Panel of the National Cholesterol Education Program in 2001 (8) was the first clinical application of these risk equations for stratification of persons into low (&lt;10%), intermediate (10-&lt;20%), or high (&gt;=20% or with known CHD or other CHD risk equivalents) 10-year risk of CHD for which specific treatment initiation and target levels of low-density lipoprotein (LDL)-cholesterol were recommended. Framingham also developed scores for individual cardiovascular events such as stroke or heart failure, as well as for total CVD, reflecting the composite of both fatal and non-fatal cardiovascular events, including scores with and without the use of laboratory measures (9). It is crucial for the user to understand risk scores can differ by endpoint predicted – such as whether revascularization or other soft endpoints are included, if only fatal CVD is predicted, 10-year vs. 30-year or lifetime risk predicted, or whether they are designed for prediction of primary (most scores) or secondary events. For instance, if the user is most interested in evaluating risk of total fatal and non-fatal CVD events the 2008 Framingham risk score equations for primary care published by D&#x27;Agostino and colleagues may be most appropriate; these scores predict total CVD and include versions with both total and HDL-cholesterol and without, in which case body mass index is used instead (10)."
+        }
+      ]
+    },
+    {
+      "title": "Other risk score approaches",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Given that Framingham risk scores were developed based on a primarily White middle-aged cohort from a small town outside of Boston, Massachusetts, generalizability to other populations has always been a significant concern, and thus other risk scores have been developed globally over the past few decades. Most notably, the European CVD risk scores were originally created for both high and low risk countries in Europe, and in fact have been calibrated for use in most individual countries in Europe (11). This risk score has served as the foundation for risk estimation in the European Society of Cardiology (ESC) Cardiovascular Disease Prevention guidelines (12). They provide cut-points for defining low to very high-risk categories based on age, smoking and levels of blood pressure or LDL-C, from which risk factor goals and treatment approaches are recommended. While the original European Systematic COronary Risk Evaluation (SCORE) algorithm focused on prediction of CVD mortality only, the most recent SCORE2 (13) algorithm now also includes non-fatal CVD events and identifies countries as low, intermediate, high, and very high risk for more precise risk estimation than the prior version of SCORE. As in the original version, diabetes is not included as one of the factors in the algorithm, instead treating diabetes as a high-risk equivalent. More recently, in an attempt to produce a single scoring system that can be used globally, World Health Organization (WHO) risk charts were published to permit risk estimation in 21 global regions (14). These charts may have some limitations as considerable data estimation and modelling were required for many less well-developed regions."
+        }
+      ]
+    },
+    {
+      "title": "Current US risk score recommendations",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Both the 2018 Multi-society Cholesterol Management Guidelines (15) as well as the 2019 ACC/American Heart Association (AHA) Primary Prevention of Cardiovascular Disease Guideline (16) recommend the Pooled Cohort Risk Estimator Plus (<strong>tools.acc.org/ascvd-risk-estimator-plus</strong>) (also known as the Pooled Cohort Equations [PCE]) (Fig. 1) for initial CVD risk assessment for those free of known CVD or familial hypercholesterolemia (e.g., those with LDL-C ≥190 mg/dl are assumed to be at high or very high risk). These guidelines note the importance of risk scoring as the initial step in ASCVD risk. Moreover, such risk scoring helps identify higher risk persons where the net clinical benefit is greatest and number needed to treat lowest for preventive treatments such as statin and antihypertensive therapy (17). This scoring algorithm was developed from four major US cohorts consisting of more than 30,000 individuals with at least 10-years of follow-up for CVD events and predicts both 10-year (for those aged 40-79 years) and lifetime (for those 20-59 years of age) risk of ASCVD consisting of fatal and nonfatal CHD and stroke only. Those identified with a 10-year ASCVD risk of ≥20% are given a definite recommendation for statin therapy, whereas those in the 5-&lt;20% range are given consideration for statin therapy depending on the consideration of risk enhancing factors and coronary calcium if needed (discussed further in this document). Moreover, the 2017 ACC/AHA hypertension guideline (18) recommends use of the PCE to guide the use of pharmacologic therapy, which is recommended if the 10-year ASCVD risk is &gt;=10% for those with stage 1 hypertension (130-139 mmHg systolic or 80-89 mmHg diastolic blood pressure) in the absence of diabetes or cardiovascular disease. Estimation of lifetime risk can be very useful, particularly as a motivator to patients to adhere better to lifestyle or pharmacologic therapy, given the fact that many persons at low or intermediate shorter-term risk are at high lifetime risk of ASCVD. Important to note in the PCE and other risk scores focusing on the prediction of hard ASCVD events is the fact that other outcomes such as peripheral arterial disease or heart failure are not included in the estimated risk, thus estimates of total ASCVD events would likely be higher. Moreover, like many other risk scores, it relies on a limited set of risk factors, namely, age, sex, systolic blood pressure, antihypertensive treatment, total and HDL-cholesterol, diabetes, and cigarette smoking, but does provide input to specify Black ethnicity. The 10-year risk of future ASCVD is categorized into those at low (&lt;5%), borderline (5-&lt;7.5%), intermediate (7.5-&lt;20%), and high (≥20%) risk. Importantly, the tool also allows one to set the absence of, or lower levels of a given risk factor to estimate the hypothetical “effect” of reducing or eliminating the risk factor, such as lowering cholesterol levels or stopping smoking. While diabetes mellitus (DM) is included in the PCE, it is treated as a binary factor (as is the case in other risk scores where it is included) and factors such as duration of diabetes and glycated hemoglobin levels are not included. DM is not necessarily a CHD risk equivalent (19,20) warranting the consideration of DM-specific risk scores.Fig. 1<strong>ASCVD Risk Estimator Plus (Pooled Cohort Equation Risk Score)</strong> tools.acc.org/ascvd-risk-estimator-plus. Provides 10-year ASCVD risk estimates for those aged 40-79 and lifetime ASCVD risk estimates for those aged 20-59.Fig. 1"
+        }
+      ]
+    },
+    {
+      "title": "Risk scoring in diabetes",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "While diabetes risk scores such as those from the United Kingdom Prospective Diabetes Study (UKPDS) (21) have been developed, there is yet no pooled cohort risk score of DM yet developed based on US cohorts. Other risk scores for CVD risk assessment in DM have also been published (22). The ACC/AHA/Multi-society guideline recommends the use of a moderate intensity statin in patients ≥40 years with DM, regardless of 10-year risk estimation. However, the guideline further recommends the use of global risk assessment in those with DM to further risk stratify, with those at higher risk given consideration for high intensity statin therapy (with ezetimibe if needed) to lower LDL-C at least 50%. Various risk enhancing factors, discussed later in this document, such as duration of diabetes or the presence of microvascular complications are considered for informing the treatment decision, particularly in younger persons with DM. While CAC scoring was not recommended by the 2018 guideline for risk stratification in those with DM, its potential role is discussed later in this document in the section on subclinical atherosclerosis."
+        }
+      ]
+    },
+    {
+      "title": "Other considerations for risk scoring",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Current risk scoring approaches focus only on traditional risk factors, which only provide modest discrimination for ASCVD events. Risk scores can underestimate risk in patients from certain racial/ethnic groups, as well as those of lower socioeconomic status or with chronic inflammatory diseases, and overestimate risk in those of greater socioeconomic status or who often utilize preventive healthcare services (17)."
+        },
+        {
+          "type": "paragraph",
+          "html": "There has been consideration for risk scores that incorporate inflammatory measures, social determinants of health, as well as genetic factors. The Reynolds Risk Score was an effort to examine how the additional of the inflammatory measure high sensitivity C-reactive protein (hs-CRP) would add to traditional risk assessment, and found inclusion of hs-CRP was a useful addition to the risk score for women, but not for men (23). Of great interest recently has been the advent of polygenic risk scoring developed from DNA sequencing polymorphisms, which has been shown to strongly predict incident CHD and identify persons with high vs. low genetic risk, also demonstrating a healthy lifestyle to be associated with attenuation of such risk (24). Such scores strongly relate to pre-existing CHD and may also help identify additional persons in primary prevention who could benefit from preventive therapy, such as statins (25). Finally, the consideration of adding social determinants of health (SDOH) was recently demonstrated, where inclusion of 7 SDOH provided excellent discrimination and calibration for identifying prevalent ASCVD (26) However, at present, there are no official recommendations by any major society to incorporate either inflammatory, SDOH, or polygenic risk scoring in clinical practice, but instead these may be considered further for risk assessment (e.g., as risk enhancing factors)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Global risk assessment / scoring therefore forms the foundation for cardiovascular risk assessment, after which the presence of other risk enhancing factors, sex/ethnic-specific considerations and social determinants of health, and screening for subclinical atherosclerosis can further refine risk estimation. This information is integrated to the clinical-patient risk discussion which focuses on a dialogue between the clinician and patient about potential for atherosclerotic cardiovascular disease risk reduction benefits, adverse effects, drug-drug interactions, and patient preferences (27) before the considering initiating or intensifying preventive therapies (<strong>Central Illustration</strong>)."
+        }
+      ]
+    },
+    {
+      "title": "General risk enhancing factors",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In the setting of primary prevention, global cardiovascular risk assessment informs therapeutic decisions regarding initiation or intensification of medical therapies to reduce the risk of ASCVD. Although quantitative risk scoring tools such as the PCE work well at the population level, their performance at the individual level is modest and is often associated with over- or underestimation of ASCVD risk. With that in mind, several risk-enhancing factors were highlighted in the 2018 Guideline on the Management of Blood Cholesterol (15) to refine risk assessment and facilitate shared decision-making. The risk enhancing factors discussed in this section encompass clinical factors and biomarkers."
+        },
+        {
+          "type": "paragraph",
+          "html": "After quantitative risk assessment is performed using the PCE, the 2018 AHA/ACC cholesterol guideline categorizes individuals into four groups: low risk (&lt;5%), borderline risk (5-&lt;7.5%), intermediate risk (7.5−&lt;20%), and high-risk (≥20%). For all risk groups, a heart healthy lifestyle is recommended. In those considered at low risk, the emphasis is on therapeutic lifestyle changes. On the other hand, in individuals who fall into the high-risk category, initiation of high-intensity statin therapy is recommended in addition to a heart healthy lifestyle (Class I recommendation). Among those at borderline or intermediate risk, evaluation of risk enhancing factors should be pursued to guide decisions regarding statin therapy (Class IIb and I recommendation), respectively. If further guidance on the treatment decision is needed, coronary calcium scoring can be used (discussed further in section below on subclinical atherosclerosis) (Fig. 2). Risk enhancing factors highlighted in the 2018 AHA/ACC cholesterol guideline (15) are detailed in Table 1.Fig. 2<strong>Refining Risk Estimates for Individual Patients: ASCVD Risk Categories, Risk Enhancing Factors, and Coronary Calcium Scoring.</strong> From Grundy et al. (15).Fig. 2Table 1Risk Enhancing Factors for the Clinician-Patient Discussion.Table 1Adapted from Arnett et a., 2019 (16).<strong>Family history of premature ASCVD</strong>; (males, age &lt;55 y; females, age &lt;65 y)<strong>Primary hypercholesterolemia</strong> (LDL-C, 160-189 mg/dL [4.1- 4.8 mmol/L]; non-HDL-C 190-219 mg/dL [4.9-5.6 mmol/L])*<strong>Metabolic syndrome</strong> (increased waist circumference, elevated triglycerides [&gt;175 mg/dL], elevated blood pressure, elevated glucose, and low HDL-C [&lt;40 mg/dL in men; &lt;50 in women mg/dL] are factors; tally of 3 makes the diagnosis)<strong>Chronic kidney disease</strong> (eGFR 15-59 mL/min/1.73 m<sup>2</sup> with or without albuminuria, not treated with dialysis or kidney transplantation)<strong>Chronic inflammatory conditions</strong> such as psoriasis, RA, or HIV/AIDS<strong>History of premature menopause (before age 40 y) and history of pregnancy-associated conditions that increase later ASCVD risk such as pre-eclampsia</strong><strong>High-risk race/ethnicities</strong> (e.g. South Asian ancestry)<strong>Lipid/biomarkers</strong>: Associated with increased ASCVD risk-Persistently elevated, primary hypertriglyceridemia (≥175mg/dL);-If measured:<strong>Elevated high-sensitivity C-reactive protein</strong> (≥2.0 mg/L<strong>Elevated Lp(a)</strong> A relative indication for its measurement is family history of premature ASCVD. An Lp(a) ≥ 50 mg/dL or ≥125 nmol/L constitutes a risk enhancing factor especially at higher levels of Lp(a)<strong>Elevated apoB</strong> ≥130 mg/dL - A relative indication for its measurement would be triglyceride ≥ 200 mg/dL. A level ≥ 130 mg/dL corresponds to an LDL-C &gt;160 mg/dL and constitutes a risk enhancing factor<strong>ABI (ABI)</strong> &lt;0.9"
+        }
+      ]
+    },
+    {
+      "title": "Clinical factors",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Clinical factors associated with increased ASCVD risk include family history of premature ASCVD, primary hypercholesterolemia, metabolic syndrome, sex-specific risk enhancing factors, chronic inflammatory conditions, chronic kidney disease, and high-risk ethnicities. Sex-specific risk enhancing factors and high-risk ethnicities will be discussed in detail in their own sections."
+        }
+      ]
+    },
+    {
+      "title": "Family history of premature ASCVD",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Cardiovascular disease risk assessment has traditionally involved an assessment of family history, particularly of premature ASCVD. Family history provides insight into genetic and environmental exposures. In the 2018 AHA/ACC Cholesterol guideline, a family history of premature ASCVD is defined as a male first degree relative with ASCVD diagnosed before the age of 55 years or a female first degree relative with ASCVD diagnosed before the age of 65 years. A significant proportion of the general population, estimated to be approximately 10-40%, carries a family history of premature ASCVD (28,29). Family history of premature ASCVD is associated with a 1.5-2- fold increased risk of cardiovascular events, but this estimate can vary widely based on the age of the individual at the time of risk assessment, the age of the family member who sustained the ASCVD event, and the number and relatedness of family members (28). It is important to keep in mind that the risk associated with family history is multifactorial, including genetic (increased risk factor burden) and non-genetic influences (adverse lifestyle habits). The importance of a detailed medical history of the number of and which specific first-degree family members are affected with premature CVD (including age and specific CVD sequelae experienced) cannot be overemphasized."
+        }
+      ]
+    },
+    {
+      "title": "Primary hypercholesterolemia",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In the context of the 2018 AHA/ACC Cholesterol guideline, primary hypercholesterolemia is defined as an LDL-cholesterol (LDL-C) of 160–189 mg/dL or a non–HDL-cholesterol (non-HDL-C) of 190–219 mg/dL. The causal relationship between LDL-C and ASCVD is well established based on epidemiologic, experimental, genetic, and randomized placebo-controlled clinical trials (30). Nonetheless, definitions of hypercholesterolemia and treatment thresholds have evolved given results of clinical trials that tested more potent LDL-C lowering therapies. The results of cardiovascular outcome trials with the proprotein convertase subtilisin-kexin type 9 (PCSK9) inhibitors did not identify an LDL-C level below which further LDL-C lowering did not further reduce ASCVD risk (31) While the focus of the 2018 AHA/ACC Cholesterol guideline recommendation has shifted away from absolute LDL-C level at baseline to include more emphasis on statin intensity with a focus on LDL-C reduction within the context of an individual&#x27;s overall CVD risk, an absolute LDL-C ≥160 mg/dL (and non-HDL-C ≥190 mg/dL) is recognized as a risk enhancing factor given its consistent relationship with ASCVD risk. It should be noted that in those with LDL-C ≥190 mg/dL, global risk scoring is not recommended, and a high intensity statin is indicated in addition to further evaluation for familial hypercholesterolemia (FH)."
+        }
+      ]
+    },
+    {
+      "title": "Metabolic syndrome",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The metabolic syndrome is a multifactorial disorder characterized by central obesity, insulin resistance, hypertension, and atherogenic dyslipidemia (particularly high triglycerides and low HDL-C) (32). Given the burgeoning epidemic of obesity, the incidence of metabolic syndrome is on the rise. Current estimates suggest that the prevalence of the metabolic syndrome is 34% among adults under 60 years old and 54% for older adults in the United States (U.S.) (33). The metabolic syndrome includes risk factors that, either individually or collectively, and even in the absence of diabetes, are predictive of poor outcomes and is associated with significant cardiovascular morbidity and mortality (34). Thus, given its relationship to ASCVD, the identification of metabolic syndrome is an important step in risk assessment and ASCVD risk mitigation. Since metabolic syndrome factors such as triglycerides, waist circumference, and glucose levels are not part of most global risk assessment scores such as the PCE, identification of persons with metabolic syndrome is considered a risk enhancer beyond the global risk estimate for further informing the treatment decision. Moreover, the presence of one of its components should prompt a search for the others."
+        }
+      ]
+    },
+    {
+      "title": "Chronic inflammatory conditions",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "While the relationship of atherogenic lipoproteins with ASCVD is widely accepted, the contribution of inflammation to atherosclerosis is less commonly appreciated. The 2018 AHA/ACC Cholesterol guideline recognized the increased ASCVD risk among individuals with inflammatory conditions, including rheumatoid arthritis (RA), systemic lupus erythematosus (SLE), psoriasis, and human immunodeficiency virus (HIV) infection. RA is a common inflammatory disease and is associated with a 1.5-2 fold increased risk of ASCVD (35). A meta-analysis including 24 studies and over 111,000 patients found a significant 50% increased risk of cardiovascular mortality among patients with RA (36). SLE is an autoimmune disorder associated with multisystem inflammation. It is associated with a a 2-3 fold higher risk of myocardial infarction (MI) compared to the general population and more profound prematuirty of ASCVD (37). Moreover, the leading cause of mortality amongst those with SLE is CVD (38). Psoriasis is another inflammatory condition, most prominently of the skin. A large meta-analysis including data from over 218,000 patients with psoriasis demonstrated that severe psoriasis was associated with a 70% increased risk of MI, 56% increased risk of stroke, and 39% increased risk of cardiovascular mortality. Mild psoriasis was also associated with significant morbidity — a 29% increased risk of MI and 12% increased risk of stroke (39). Finally, HIV disease, another chronic inflammatory disease, is associated with signifcantly increased risk of CVD. HIV infected individuals have a 2-fold increase risk of CVD when compared to non-infected individuals, even when adjusting for cardiovascular risk factors (40)."
+        }
+      ]
+    },
+    {
+      "title": "Chronic kidney disease",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "CVD accounts for most of the morbidity and mortality in patients with chronic kidney disease (CKD) (41). CKD increases the risk of CVD-related mortality even after controlling for traditional cardiovascular risk factors such as hypertension and diabetes mellitus. Non-traditional risk factors related to CKD such as anemia and hyperphosphatemia appear to also contribute to CVD risk (42,43). CKD causes CVD through a complex interplay of metabolic alterations, inflammation, oxidative stress, and uremia. Management of the increased risk of CVD in CKD currently focuses on the control of comorbid conditions such as dyslipidemia, hypertension, and diabetes."
+        }
+      ]
+    },
+    {
+      "title": "Biomarkers",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The 2018 AHA/ACC Cholesterol guideline specifically emphasizes a variety of lipid measurements/biomarkers that may be used to refine ASCVD risk estimation. These risk enhancing factors include persistently elevated triglycerides, elevated lipoprotein(a) [Lp(a)], elevated apolipoprotein B (ApoB), elevated high-sensitivity C-reactive protein (hsCRP) (discussed in the next section), and low ankle-brachial index (while classified by this guideline as a risk enhancing factor, it is considered a measure of subclinical disease in other guidelines and discussed in that section of this manuscript). It is important to point out that the guideline does not specifically recommend measuring these biomarkers. However, if these measurements are available and exceed guideline thresholds (see below), they are considered risk enhancing factors."
+        }
+      ]
+    },
+    {
+      "title": "Triglycerides",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The ACC/AHA/Multi-society guideline defines as a risk enhancing factor primary hypertriglyceridemia as persistently (optimally three determinations) elevated triglycerides (≥175 mg/dL). Over the last decade, there has been a renewed interest in the association between elevated triglycerides and ASCVD as randomized controlled trials with HDL-C–raising therapies have failed and genetic studies suggest that triglycerides, not HDL, are causal in the atherosclerotic pathway (44). Moreover, the recent large randomized controlled trial REDUCE-IT demonstrated a significant improvement in cardiovascular outcomes with the use of high dose icosapent ethyl, a potent triglyceride lowering agent, vs. placebo on a background of optimal medical therapy, including statins, in those with known ASCVD or diabetes and multiple risk factors with triglycerides of 135-499 mg/dL (45). This effect was largely independent of the triglyceride-lowering effect, and may be due to other factors such as antioxidant, anti-inflammatory, and cell membrane stabilizing benefits of icosapent ethyl. Several practice guidelines have since recommended the use of this therapy in such patients."
+        }
+      ]
+    },
+    {
+      "title": "Lipoprotein(a) [Lp(a)]",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Lp(a) is an atherogenic particle consisting of a molecule of apolipoprotein(a) (apo(a)) covalently bound to ApoB on the LDL particle (46). The epidemiologic and genetic data consistently demonstrate a significant association between Lp(a) and ASCVD (47,48). The theoretical basis for its atherogenicity relates to both its LDL and apo(a) moieties and to its enriched concentration of oxidized phospholipids. Moreover, given its homology to plasminogen, Lp(a) may interfere with fibrinolysis and thus promote atherothrombosis (49). With regard to ASCVD risk assessment, the measurement of Lp(a) in intermediate risk patients leads to reclassification of 39.6% of individuals into either lower or higher risk categories (50). Thus, the guideline stipulates that a Lp(a) ≥50 mg/dL (or ≥125 nmol/L) constitutes a risk-enhancing factor, especially at higher levels of Lp(a). Clinical trials of investigational therapies for lowering Lp(a) are planned or ongoing to determine their role in ASCVD risk reduction."
+        }
+      ]
+    },
+    {
+      "title": "Apolipoprotein B [ApoB]",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "ApoB is a large protein found on the surface of atherogenic lipoproteins and serves as a structural scaffold for lipidation as well as a ligand for the LDL receptor, which facilitates its clearance from the plasma. Since one ApoB is found on each of the hepatically derived atherogenic lipoproteins – very low-density lipoprotein (VLDL), intermediate-density lipoprotein (IDL), LDL and Lp(a), it is an excellent proxy of total atherogenic lipoprotein particle concentration. ApoB performs better than LDL-C when assessing risk of ASCVD (51). The 2018 ACC/AHA cholesterol guideline mentions that ApoB levels may be useful in identifying whether hypertriglyceridemia is associated with increased atherosclerotic risk. There is considerable evidence that ASCVD risk is higher in those with hypertriglyceridemia and high apoB versus those with hypertriglyceridemia and normal apoB levels (52). Thus, when triglycerides are elevated, ApoB can be used as a risk-enhancing factor to determine if a statin should be recommended."
+        }
+      ]
+    },
+    {
+      "title": "NT-pro-BNP and hs-Cardiac Troponin",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "These factors were not included as risk enhancing factors in the 2018 AHA/ACC Guideline, however, studies from more than a decade ago showed B-type natriuetic peptide (BNP) levels to strongly predict CVD outcomes. Wang et al. (53) showed in the Framingham Heart Study plasma BNP levels to be associated with first major CVD events, incident heart failure, atrial fibrillation, stroke or transient ischemic attack and death. Moreover, a meta-analysis of 40 long-term prospective studies involving more than 87,000 patients showed the highest versus lowest tertile of BNP levels to be associated with a 2.8-fold greater risk of CVD events, with results similar in the general population compared to those with stable CVD; however, there were only modest improvements in risk discrimination (54). The 2010 ACCF/AHA guideline for assessment of cardiovascular risk in asymptomatic adults, however, did not recommend measurement of natriuretic peptides for CHD risk assessment in asymptomatic adults (55). However, given the strong evidence for naturietic peptides in prognosis in heart failure (56) BNP/NT-proBNP is in the 2017 ACC/AHA Heart Failure guideline for risk stratification in a pre-clinical population to identify those at risk for HF “Stage A/B” for prevention (COR IIa) (before the onset of clinical HF), besides being a measure to guide prognosis and further risk stratification in those with HF (57). It is also in the 2020 ACC/AHA Valvular guidelines for aortic stenosis to guide risk stratification for the timing for intervention (58)"
+        },
+        {
+          "type": "paragraph",
+          "html": "Cardiac troponin levels are well-established in risk assessment for acute coronary syndrome; in particular, the 0-hour/1-hour (0-/1-h) algorithm with high-sensitivity cardiac troponin (hs-cTn) has been recommended for early risk stratification of acute myocardial infarction (class A and evidence level B) (59), besides being recommended to guide prognosis and further risk stratification in those with heart failure, given the many studies showing cardiac troponin to predict prognosis in heart failure (57). Only recently have high-sensitivity methods allowed the accurate detection of cardiac troponin levels in healthy adults and several studies over recent years have shown cardiovascular risk to progressively increase in the general population with hs-troponin levels well below the 99<sup>th</sup> percentile used in the detection of myocardial injury and/or diagnosis of MI (60). The role of cardiac troponins in cardiovascular risk assessment among asymptomatic populations continues to be an important issue of discussion among many experts (61)"
+        }
+      ]
+    },
+    {
+      "title": "Inflammation",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Inflammation is the primary driver of a broad spectrum of disease, including atherosclerosis, diabetes, neurodegenerative disorders, cancer, and autoimmune disorders, to name but a few (62). Virchow identified atherosclerotic disease as a primary manifestation of inflammation over 150 years ago (63). In the modern era of medicine, atherosclerotic disease has become firmly established as an inflammatory disorder on both observational and experimental grounds ([64], [65]). Inflammation is a highly evolved and conserved set of histologic and biochemical responses designed to protect eukaryotes from infection, promote wound healing and eliminate apoptotic/necrotic debris, and provide immunosurveillance to protect against the proliferation of malignant cell lines (66). Chronic inflammation provides the foundation for atherosclerosis by establishing foci along arterial walls characterized by: 1) endothelial dysfunction, 2) increased transmigration of inflammatory white cells into the subendothelial space, 3) a pro-oxidative environment within which apoB-containing lipoproteins can be oxidized and scavenged by activated macrophages, 4) an increase in local prothrombotic tendency, and 5) increased local production of a wide variety of interleukins and cytokines that potentiate cell migration and clonal expansion of different histologic components of the media and adventitia ([67], [68], [69])."
+        }
+      ]
+    },
+    {
+      "title": "C-reactive protein",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "During atherogenesis, the levels of specific inflammatory mediators rise. This offers investigators the opportunity to test whether or not they can provide incremental information that can help accurately reclassify risk over and above traditional risk factors such as hypertension, hyperlipidemia, and cigarette smoking. Over the last three decades, hsCRP (a pentraxin and component of the acute phase response) has been the most intensely investigated and validated inflammatory biomarker ([70], [71]) and has been shown to meaningfully reclassify cardiovascular risk estimation ([72], [73]). Elevations in hsCRP are associated with a level of risk on par with elevations in LDL-C. In the Women&#x27;s Health Study, women with both a high hsCRP and high LDL-C experienced the greatest risk for acute cardiovascular events over 8 years of follow-up, while those with the lowest hsCRP and LDL-C had the lowest risk for cardiovascular events (74). Women with either high LDL-C and low hsCRP or low LDL-C and high hsCRP had risk that was between these two extremes. A number of <em>post hoc</em> analyses of secondary prevention statin trials demonstrated that this concept of “dual targets” (which considers residual risk due to inadequate LDL-C reduction and residual inflammatory risk with specific cut points for LDL-C and hsCRP) was reproducible and significant. In the Pravastatin or Atorvastatin Evaluation and Infection Therapy trial (PROVE-IT)(75), Aggrastat to Zocor trial (A–Z) (76), and IMProved Reduction of Outcomes: Vytorin Efficacy International Trial (IMPROVE-IT)(77) the patients with the lowest on-trial rates of CVD events were those with the lowest LDL-C and hsCRP; those with the highest rates had the highest levels of these two biomarkers. Similarly, in the Air Force/Texas Coronary Atherosclerosis Prevention Study (AFCAPS/TexCAPS) and Justification for the Use of Statins in Prevention: An Intervention Trial Evaluating Rosuvastatin (JUPITER)(78) both primary prevention trials, the validity of dual targets was confirmed. The therapeutic reduction of a biomarker reflecting systemic inflammatory status with a statin provides incremental cardiovascular risk reduction over and above LDL-C lowering. Hence, residual risk is partly comprised of risk directly attributable to inflammation."
+        }
+      ]
+    },
+    {
+      "title": "Other inflammatory biomarkers",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Several biomarkers have been of interest to many investigators; however, do not have any current recommendations for their routine measurement or clinical use. While not included as risk enhancing factors in the 2018 ACC/AHA/Multisociety guidelines, they may be helpful to the clinician in identifying those at increased ASCVD risk warranting greater efforts for risk reduction using existing therapies."
+        },
+        {
+          "type": "paragraph",
+          "html": "<em>Lipoprotein-associated phospholipase A2 (Lp-PLA<sub>2</sub>)</em> is an enzyme that associates with serum lipoproteins. Lp-PLA<sub>2</sub> hydrolyzes phospholipids and produces bioactive, pro-inflammatory lipids ([79], [80], [81]) and is an inflammatory marker specific to atherosclerotic disease. Its validity as an independent risk factor for ASCVD has been demonstrated from multiple longitudinal studies ([82], [83]). However, a major clinical trial of daraplabib failed to show lowering Lp-PLA2 to reduce risk of CVD events (84)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<em>Myeloperoxidase (MPO)</em> is a heme peroxidase secreted by neutrophils, monocytes, and macrophages (85). MPO chemically modifies HDL particles, thereby rendering them dysfunctional and no longer capable of engaging in reverse cholesterol transport (86). Serum myeloperoxidase levels correlate with risk for ASCVD related events ([87], [88])"
+        },
+        {
+          "type": "paragraph",
+          "html": "<em>Myeloid-Related protein 8/14</em> is a heterodimeric protein complex and is a member of the alarmin family that activates a variety of inflammasomes (89), vascular inflammation, leukocyte activation and migration, thrombosis, stimulates tissue factor (a procoagulant) production, and is increased in acute MI ([90], [91])and within atherosclerotic plaques (92). The risk of a recurrent cardiovascular events is increased with increasing quartiles of MRP-8/14 ([93], [94])."
+        },
+        {
+          "type": "paragraph",
+          "html": "<em>Matrix Metalloproteinases (MMPs, also known as matrixins)</em> comprise a large family of serine endopeptidases and can be injurious and pro-inflammatory, thining and weakening the fibrous cap making it more prone to rupture ([95], [96], [97], [98])."
+        },
+        {
+          "type": "paragraph",
+          "html": "<em>Lectin-Like Oxidized Low-Density Lipoprotein Receptor-1 (LOX-1)</em> is highly expressed by endothelial cells, smooth muscle cells, and platelets (99). LOX-1 is an oxidized LDL receptor and induces endothelial dysfunction, oxidized LDL scavenging, apoptosis, smooth muscle migration, as well as platelet activation/aggregation (100). Serum levels of LOX-1 increase as a function of plaque severity, the number of coronary arteries affected, levels of tumor necrosis factor-α (101) and also correlate with the number of complex coronary lesions (102)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<em>Growth Differentiation Factor-15 (GDF-15; aka macrophage inhibitory factor-1)</em> is highly expressed in the settings of heightened inflammation and myocardial ischemia (103), is a regulatory switch for inflammation, cellular apoptosis, and angiogenesis (104), and predicts all-cause mortality and CVD (105)."
+        }
+      ]
+    },
+    {
+      "title": "Recent clinical trials testing the inflammation hypothesis",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "More recent clinical trials confirm the importance of reducing the intensity of inflammation in patients with ASCVD. The Canakinumab Anti-inflammatory Thrombosis Outcome Study (CANTOS) randomized 10,060 patients with a prior history of MI and an hsCRP ≥2.0 mg/L to either canakinumab (a monoclonal antibody directed against interleukin-1β (IL-1β)) or placebo (106). IL-1β is produced via activation of the NLRP3 inflammasome and is a potent trigger of inflammation ([107], [108]). The 150 mg dose of canakinumab reduced the primary (nonfatal MI, any nonfatal stroke, or cardiovascular death in a time to-event analysis) and secondary (included the components of the primary end point as well as hospitalization for unstable angina that led to urgent revascularization) end points in a statistically significant manner by 15% and 17%, respectively. Benefit was independent of changes in lipids (lipid levels did not change). Serum levels of hsCRP decreased with canakinumab therapy. A subgroup analysis of the CANTOS trial showed that for patients with hsCRP &lt;2.0 mg/L treated with canakinumab, cardiovascular mortality and all-cause mortality were both reduced by 31% compared to the group whose hsCRP ≥2.0 mg/L. Colchicine exerts anti-inflammatory effects and is used to treat gout and pericarditis. The Colchicine Cardiovascular Outcomes Trial (COLCOT) randomized 4745 patients who had sustained an MI within 30 days to treatment with either low-dose colchicine or placebo (109). Median follow-up was 22.6 months. The primary (CV mortality, resuscitated cardiac arrest, MI, stroke, or urgent hospitalization for angina leading to coronary revascularization) and secondary (CV mortality, all-cause mortality, MI, stroke, and resuscitated cardiac arrest) end points were significantly reduced by 23% and 15%. The CANTOS and COLCOT trials provide proof of concept that attenuating inflammation reduces risk for acute cardiovascular events. There are, however, no current national or international recommendations for the use of either canakinumab or colchicine for the targeting of inflammation for reduction of ASCVD risk."
+        }
+      ]
+    },
+    {
+      "title": "Female-specific risk enhancing factors and risk stratification considerations in women",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Epidemiology of CVD risk in women",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "CVD is the leading cause of death of women in the U.S. and worldwide (110). Approximately 44% of U.S. women age ≥20 years (n=60,800,000) are living with prevalent CVD. Despite initial declines in CVD mortality in women after the year 1999 following the launch of the first women-specific prevention guidelines (111), more recent data have shown a stagnation in this progress, with even a slight uptick in CVD mortality since 2015 (110). In fact, heart disease mortality rates have been accelerating the fastest among middle aged women ([112], [113]). Therefore, it is of upmost importance that we improve upon CVD risk assessment and implementation of lifestyle and pharmacologic preventive strategies. Unfortunately, a recent AHA survey has indicated that awareness of heart disease being the leading cause of death in women has declined over time (114). This reduced awareness was particularly noted among younger women, who might benefit the most from primordial and primary prevention, and also among racially/ethnically underrepresented women who shoulder an increased burden of social and health inequities (115)."
+        }
+      ]
+    },
+    {
+      "title": "Pooled cohort equations and other risk estimation tools in women",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Global risk tools such as the PCE are race- and sex-specific and predict hard ASCVD including CHD and stroke. However, studies have found that the PCE (or other similar risk estimation equations) both overestimate risk, such as in populations at higher socioeconomic status (116), or underestimate risk, such as in populations with more social deprivation (117) or among individuals with risk factors not captured in the PCE such HIV, auto-immune disease, CKD, or family history of premature CHD ([118], [119], [120]). Moreover, in a meta-analysis examining the performance of the PCE and other risk equations for predicting 10-year risk of ASCVD in women compared to men found that the “observed to expected” ratio for the PCE was 0.76 [95% CI: 0.65, 0.88). In other words, the number of observed events were fewer than that predicted by the equations (i.e., the PCE tends to over-estimate risk in women) (121)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<em>Sex differences in traditional risk factors.</em> There can be disparity in risk conferred by even traditional CVD risk factors. Certain traditional risk factors, such as smoking and diabetes, confer relatively greater risks of CVD in women compared to men ([122], [123]). One systematic review, including 64 cohort studies, found that diabetes in women conferred a 40% greater risk of incident CHD compared to diabetes in men (123)."
+        }
+      ]
+    },
+    {
+      "title": "Risk enhancing factors in women",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "title": "Auto-immune disease",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Auto-immune diseases affect approximately 8% of the population and are more prevalent in women (∼80%) (124). As discussed above, autoimmune diseases, such as RA and SLE, are associated with increased CVD risk beyond the burden of traditional CV risk factors ([125], [126], [127], [128], [129]) and increased prevalence of premature atherosclerosis ([130], [131]). As such, they are considered “risk-enhancing” factors in the 2019 ACC/AHA Primary Prevention Guideline (16). In addition to the disparity conferred by traditional risk factors and the excess female burden of autoimmune disease, women also experience unique risk factors throughout their lifetime related to pregnancy, hormones, and menopause that men do not experience ([132], [133])."
+        }
+      ]
+    },
+    {
+      "title": "Menarche",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Early menarche (i.e., the onset of menses) before age 10-11 years has been associated with a ∼10-25% increased risk of CVD across population studies ([134], [135], [136]). Late menarche after the age of 17 has been also associated with increased CVD risk. Although a history of early menarche is associated with a worse cardiometabolic profile, including a higher body mass index (BMI) at middle-age, the association of early menarche and future CVD risk remained significant even after adjusting for adiposity (136)."
+        }
+      ]
+    },
+    {
+      "title": "Polycystic ovary syndrome (PCOS)",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "PCOS, particularly the hyperandrogenism subtype, is associated with an adverse cardiometabolic profile in women, hallmarked by elevated BMI, dyslipidemia, and elevated blood pressure, compared to similarly aged women without PCOS (137). Insulin resistance is a central feature of PCOS. PCOS has been associated with a 2-fold increased risk of future CVD (138), and while the greater prevalence of CVD risk factors may explain this risk in part, the excess risk does not appear to be entirely explained by the elevated BMI (139)."
+        }
+      ]
+    },
+    {
+      "title": "Oral contraceptives",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Oral contraceptive use with estrogens, alone or combined, has been associated with increased risk of stroke; in contrast, this is not the case with progestin-only contraceptives (135). Oral contraceptive use combined with smoking synergistically increases a woman&#x27;s risk for CVD and venous thromboembolism (VTE) ([140], [141])."
+        }
+      ]
+    },
+    {
+      "title": "Infertility",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "There have been conflicting reports whether infertility is an independent CVD risk factor in women or not. The Study of Women&#x27;s Health Across the Nations (SWAN) did not find infertility to be an independent risk factor for CVD events (142), although other studies have. The discrepancy may be due to the underlying causes of infertility, whether there was use of assisted reproductive technology, or whether studies followed women for a sufficiently long enough time for CVD events to accrue. CVD risks associated with infertility may be associated with the underlying risk conditions of PCOS and premature ovarian insufficiency (POI). Fertility treatments may be associated with increased risks of gestational hypertension (143) and stroke (144), and the CVD risks appear to be greatest among women with unsuccessful (failed) fertility treatment, suggesting these women should be monitored long-term for CVD risk (145)."
+        }
+      ]
+    },
+    {
+      "title": "Parity and breast feeding",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Several studies have linked grand multiparity (≥4 or 5 live births) with increased risk of CVD ([146], [147], [148]), whereas breastfeeding is associated with lower risk (146). The mechanisms are not entirely clear in women with multiple live births but may be mediated through weight gain, dysregulation of adipokines, and increased inflammation ([149], [150])."
+        }
+      ]
+    },
+    {
+      "title": "Adverse pregnancy outcomes (APOs)",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Maternal mortality is on the rise in the U.S. and the leading cause of maternal morbidity and mortality is from CVD, which disproportionately affects Black women (151). Black women are about 50% more likely to develop pre-eclampsia compared to White women (152)."
+        }
+      ]
+    },
+    {
+      "title": "Preeclampsia",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Preeclampsia is associated with increased risk of acute CV complications around the time of delivery, including peripartum cardiomyopathy (152). But even beyond the acute period post-delivery, there has been increasing recognition that APOs such as hypertensive disorders of pregnancy including pre-eclampsia, gestational diabetes, preterm delivery, and having a small for gestational age infant are independently associated with long-term maternal CVD risk, with events sometimes occurring more than a decade after the index pregnancy ([153], [154]). Systematic reviews have found that preeclampsia was associated with a 2-fold increased risk of future CHD, stroke, or CV death and a 4-fold increased risk of heart failure, even after adjustment for potential confounding factors (135,155). Gestational hypertension also appears to be associated with elevated CVD risk (135). <em>Preterm delivery</em>, which often accompanies preeclampsia, was also associated with be associated with a 2-fold increased risk of CVD (155,156)."
+        }
+      ]
+    },
+    {
+      "title": "Gestational diabetes mellitus (GDM)",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "GDM is strongly associated with the development of type 2 diabetes (T2D) within 10 years of index pregnancy (157), and thus women should be followed closely for their glucose status. Further, GDM is associated with an approximately 2-fold increased risk of CVD risk (135,138,158,159); some of that risk is due to the development of T2D, but women with a history of GDM who do not develop T2D still seem to have a 50% increased risk of CVD compared to women without GDM (159)."
+        }
+      ]
+    },
+    {
+      "title": "Early menopause",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The average age of natural menopause of U.S. women is around age 52 years. Early menopause (both natural and surgical) before the age of 45 has been shown to be associated with increased risk of incident CVD by about 30-50%, even after accounting for other traditional risk factors (134,135,160,161)."
+        }
+      ]
+    },
+    {
+      "title": "Premature ovarian insufficiency (POI)",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "POI, a more extreme form of early menopause, is a loss of normal function of the ovaries before the age of 40 and occurs in 1% of women (162). POI has also been similarly shown to be associated with an 60-70% increased risk of future CHD and CVD (135,162), as well as an increased risk for mortality (163)."
+        }
+      ]
+    },
+    {
+      "title": "Menopause",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "At time of menopause, women experience unique changes in CV risk profile related to the cessation of endogenous estradiol production including a rise in total cholesterol and LDL-C and increased deposition of visceral adipose tissue (134). The post-menopausal ovary continues to secrete testosterone. Women with a more androgenic (“male-like”) sex hormone pattern after menopause are shown to have increased risks for coronary artery calcification (CAC), CVD, and heart failure (164,165)."
+        }
+      ]
+    },
+    {
+      "title": "Vasomotor symptoms (VMS)",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "VMS (i.e., “hot flashes”) are known for their adverse effects on quality of life for women in the peri-menopausal and immediate post-menopausal period; yet emerging evidence suggests menopausal symptoms may also be a risk factor for CVD (135). Women with more frequent VMS or who experience VMS for longer period of times after the final menstrual period also have increased risk for incident CVD compared to women who do not (166), suggesting that frequent and persistent VMS may be a novel risk factor for CVD."
+        }
+      ]
+    },
+    {
+      "title": "Considerations for lifetime risk assessment in women",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "An important issue for risk assessment in women is that women are often to be estimated to be at low or borderline risk in the short-term over the next 10-years but have high risk over their lifetime. Statistics, including from the US and Europe often show age-specific CVD risks to be lower in women compared to men; however, risks in women lag men by approximately 10 years. Data from the National Health and Nutrition Examination Survey (NHANES) from 2003 to 2006, estimated that 61% (n=47,400,000) of U.S. women have low short-term but high lifetime predicted risk (167). However, prevention efforts are more effective when implemented at a young age. The presence of a single major risk factor by middle age is associated with increased CVD risk and reduced longevity. For example, at index age of 45 years, women with all risk factors optimal lived up to 14 years longer free of total CVD than women with at least 2 risk factors (168). Therefore, a focus on only short-term 10-year risk may lead to failure to implement preventive strategies in women."
+        },
+        {
+          "type": "paragraph",
+          "html": "The incidence of stroke in young women aged 25 to 44 years is higher than in similar aged men (169), which may be due to sex-specific factors related to pregnancy, preeclampsia, oral contraceptive use, and conditions such as migraines (170) and auto-immune disease. Again, this age range is predominantly outside of the range that the PCE is applied to, and these factors are not included in the PCE."
+        }
+      ]
+    },
+    {
+      "title": "Incorporating sex-specific factors into risk assessment",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Although preeclampsia has been shown to be independently associated with CVD risk, studies that have attempted to include APOs into risk scoring equations that include traditional CVD risk factors only found that approach led to small improvements in discrimination and net reclassification (171). This may be because these studies used population-based cohorts that primarily included women beyond their reproductive years, and future studies should include study samples that are closer to the target population of women intended for CVD screening and preventive interventions following an adverse pregnancy outcome (133)."
+        }
+      ]
+    },
+    {
+      "title": "Subclinical atherosclerosis in women",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "CAC, indicative of calcified coronary plaque and a surrogate marker of total coronary atherosclerotic burden, has emerged as a superior predictor of risk in women, above age and other traditional risk factors (172,173). The presence of CAC (score &gt;0) provides incremental risk prediction even among women considered to be a low risk by traditional risk scores such as the PCE (174,175). Although at a given age, women are less likely to have prevalent CAC compared to their men counterparts, when CAC is present, it confers a greater relative risk of CVD and mortality in women compared to men (176,177)."
+        }
+      ]
+    },
+    {
+      "title": "Racial/ethnic specific risk enhancing factors and social determinants of health",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Although ASCVD risk assessment is used to guide pharmacotherapy and shared decision making, especially in middle aged and older adults, there may be inaccuracies when applied across diverse racial/ethnic populations. Based on self-identified status, contemporary race/ethnic categories should use these terms as adjectives (e.g., Black people, White people, etc.) instead of nouns (e.g., <em>Blacks, Whites</em>, etc.) (178,179). However, race/ethnicity are probably social constructs rather than reflecting true biologic or genetic differences and a higher ASCVD risk burden is usually driven by multiple social determinants of health (SDOH), impacting the probability of future MI, ischemic stroke, and cardiovascular death."
+        }
+      ]
+    },
+    {
+      "title": "Race/ethnicity considerations in ASCVD risk score algorithms",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The ASCVD Risk Estimator or PCE is the most widely used U.S. It includes age, race, sex, systolic blood pressure, treatment for hypertension, total cholesterol level, HDL-C level, DM status, and smoking status ([15], [16]). Non-Hispanic Black (NHB) or African American individuals have increased ASCVD risk compared to non-Hispanic White (NHW) individuals, and higher morbidity and mortality, including CHD and stroke. Overall, NHB adults are two to three times more likely to die from CVD than NHW adults, leading to reduced life expectancy and unacceptable health inequities (180,181). Optimally, risk assessment should include Hispanic/Latinx adults and various categories of Asian American and Pacific Islander adults, including Native Hawaiian, and American Indian/Alaska Native (AI/AN) individuals."
+        },
+        {
+          "type": "paragraph",
+          "html": "The earliest ASCVD risk models were developed based on Framingham Heart Study data, including the Original, Offspring and Third Generation cohorts, who were predominantly of European descent (182,183). The FHS cohort has been supplemented to include racial/ethnic minority groups reflecting evolving demographic characteristics in the greater Framingham area. Omni-1 and Omni-2 cohorts include individuals of African American, Hispanic/Latinx, Asian, Indian, Native American and Pacific Islander descent (184,185). The degree to which ASCVD risk prediction varies versus actual ASCVD events remains difficult to verify, but the link in recent years between measured lipids and CVD events presently may be less accurate, impacted to some extent by the widespread use of statins (186)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Subsequently, the Jackson Heart Study noted that the 2013 PCE was acceptable as a clinical tool to predict ASCVD in Black patients (187). But the PCE may not accurately estimate risk in Hispanic/Latinx adults, Asian American, including South Asian adults and AI/AN adults, indicating the need for improved models (188). Hispanic/Latinx individuals do not have increased risk in the current PCE, but this subpopulation is very heterogeneous and future consideration of ASCVD risk should disaggregate Hispanic/Latinx groups (188). Furthermore, one study showed risk overestimation of 30-40% in Hispanic/Latinx populations when the non-Hispanic White PCE was tested in Hispanic/Latinx participants (189)."
+        },
+        {
+          "type": "paragraph",
+          "html": "A significant limitation of the present 2018 ACC/AHA Cholesterol guideline (including both the PCE as well as treatment-related considerations) is the lack of recognition of disadvantaged socioeconomic status (SES), which has been consistently associated with higher ASCVD risk and also utilized in British ASCVD risk estimates ([190], [191], [192], [193]). The current PCE also does not include the potent ASCVD risk factor, Lp(a), which appears to provide additional risk assessment, especially in NHB and South Asian adults (4, 194), although it is used in the 2018 guideline as a risk enhancing factor. This addition of Lp(a) to risk assessment for South Asians is in addition to the other factors that determine SA ancestry as a “ASCVD risk enhancer”, including visceral adiposity and insulin resistance, despite comparatively low BMI (195). Among 12,149 ARIC (Atherosclerosis Risk In Communities) participants, 23% of whom were NHB adults, family history (FHx) and elevated Lp(a) were independently associated with ASCVD and may be useful concurrently for guiding primary prevention therapy decisions (194)."
+        }
+      ]
+    },
+    {
+      "title": "Other ASCVD risk scores for use in diverse populations",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Beyond the original Framingham Risk score and the present AHA/ACC risk calculator, although not based on American cohorts, United Kingdom (UK) risk calculators may be informative of racial/ethnic populations, including African descent and South Asian individuals (16, 196,197). These include the UK QRISK2 (197) which estimates the 10-year risk of MI or stroke and includes South Asian ethnicity as an additional risk factor as well as the ETHRISK score (198) which is a recalibration of Framingham risk score in seven British Black and minority racial/ethnic groups. Additionally, the Multi-Ethnic Study of Atherosclerosis (MESA) (N=6814) includes racial/ethnic diversity: 38% White, 28% Black, 23% Hispanic, and 11% Chinese, including 50% women. The MESA CHD Risk Score was first to consider CAC in risk estimation. Moreover, MESA demonstrated how risk factors led to subclinical disease and associated events (199)."
+        }
+      ]
+    },
+    {
+      "title": "Race/ethnicity considerations in ASCVD risk assessment",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In non-Hispanic Black (NHB) adults, hypertension has a more substantial impact in NHB adults, but DM demonstrates a less significant effect on ASCVD risk among NHB adults compared to NHW and Hispanic/Latinx men. Although not a component of the present ASCVD risk calculator, left ventricular hypertrophy (LVH), especially in NHB adults, may reflect markedly higher ASCVD risk and is tied to hypertension, older age, and obesity. Nevertheless, ECG LVH may not add significantly to risk based on traditional cardiovascular risk factors (200). Future research is needed to determine whether modern tools including echocardiography and magnetic resonance imaging will add to the LVH risk assessment value in NHB and others (201). In addition, CAC in multiple racial/ethnic groups appears useful in reclassifying risk, especially with intermediate risk ([202], [203])."
+        },
+        {
+          "type": "paragraph",
+          "html": "Asian American subgroups are quite heterogenous and effort should be taken to recognize differences within this population, specifically, various persons of Asian descent, including Asian Indian, Filipino, Japanese, and Vietnamese populations (204,205). Although, in general, Asian American adults are listed to have lower ASCVD risk than NHW adults there is a higher prevalence of LDL-C among Asian Indian, Filipino, Japanese, and Vietnamese populations than among NHW adults (196). Moreover, ASCVD risk in South Asians may be underestimated with the present tool (196)."
+        },
+        {
+          "type": "paragraph",
+          "html": "There are limited ASCVD risk data for indigenous U.S populations, including American Indian (AI)/Alaska Native (AN) individuals. However, AI/AN have high rates of ASCVD risk factors compared to NHW people, including obesity and diabetes with an average life expectancy reduced by 5.2 years compared to the general U.S. population (206,207). Risk in AI/AN also are affected by higher prevalence of non-lipid risk factors (hypertension, diabetes, physical inactivity and low SES) (31)."
+        }
+      ]
+    },
+    {
+      "title": "Social Determinants of Health (SDOH)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Not well-integrated into most prevention guidelines, SDOH can have important further implications in modifying a person&#x27;s ASCVD risk. They include but are not limited to factors such as unemployment, lack of health insurance or inability to pay medical bills, low income and other measures of economic stability, psychological distress, delayed care due to lack of transport, food insecurity, downward social mobility and educational attainment. A polysocial risk score, such as developed by Javed et al. can help to further inform a person&#x27;s “social risk” (26). Information on SDOH should always be considered in a clinician&#x27;s further assessment of one&#x27;s risk of ASCVD and other health conditions and in assessing a patient&#x27;s possible access and adherence to lifestyle and medical therapies."
+        }
+      ]
+    },
+    {
+      "title": "Role of subclinical atherosclerosis in cardiovascular risk assessment",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Rationale and criteria for measuring subclinical atherosclerosis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "While global risk scoring is recommended by most guidelines as the first step in CVD risk assessment, it is well-established that persons experiencing CVD events may have few traditional risk factors (208), and thus risk scoring has significant limitations in identifying those who will actually sustain an ASCVD event. Moreover, while the consideration of risk enhancing factors can further individualize risk assessment, many experts support assessing atherosclerotic burden to best predict future ASCVD events. Such tests for measuring atherosclerosis should fit key criteria including: 1) detecting the disease of interest with adequate sensitivity and specificity, 2) being sufficiently reproducible, 3) detecting those where early intervention can be beneficial, 4) providing predictive value over office-based risk assessment (209), 5) having equitable access, and 6) demonstrating cost-effectiveness. It should be understood that imaging strategies to detect subclinical ASCVD are diagnostic tests, not risk factors as such, but techniques by which detecting the presence of atherosclerosis in an asymptomatic person indicates increased risk– in the continuum of risk, it may be thought of as bridge between the conventional concepts of primary and secondary prevention."
+        }
+      ]
+    },
+    {
+      "title": "Major tests for measuring subclinical atherosclerosis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Multiple tests have been proposed and used in clinical practice and long-term observational studies to determine the ability to measure subclinical atherosclerosis and prediction of ASCVD risk. The parameters most often evaluated to determine the robustness of these tests are net reclassification improvement (NRI), c-statistic from the receiver operator curve, calibration and discrimination."
+        }
+      ]
+    },
+    {
+      "title": "Ankle-Brachial Index (ABI)",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Ankle-Brachial Index (ABI) is a test that is easy, non-invasive, can be done in any office setting without additional equipment by ascertaining the blood pressure of both arms and both legs. The ABI is the ratio of the systolic blood pressure at the ankle (measuring the pressure just proximal to the dorsalis pedis or posterior tibial artery) and compared to the systolic blood pressure at the brachial artery (standard arm assessment) in both arms and legs. A value less than 0.9 is indicative of peripheral artery disease (PAD) (210). A ratio is obtained, normally &gt;1.0, as there is normal potentiation of the blood pressure as it transmits down the aorta. Used primarily for diagnosis of PAD, it has also been studied as a marker of ASCVD risk and atherosclerosis in the peripheral arteries. Several large epidemiologic studies failed to demonstrate robust prediction of abnormal ABI for ASCVD. Multiple cohort studies revealed that traditional risk factors were equally applicable as predictors of incidence of PAD, and ABI was not an independent predictor of CHD ([211], [212]). The Ankle-Brachial Index Collaboration reported a meta-analysis of 16 studies in 2008. While the FRS shows modest discrimination, with a C-statistic for CVD events of 0.646 (95% CI, 0.643–0.657) in men and 0.605 (0.590–0.619) in women (213), several studies show slight improvement of the C-statistic for ABI and very modest reclassification (214). In MESA, ABI had very modest effects and only CAC had robust reclassification and improvement in the c-statistic (215). However, it has been recommended in the 2018 AHA/ACC Guideline on Management of Blood Cholesterol for additional risk assessment in patients with borderline or intermediate risk. However, upon further review by the US Preventive Services Task Force (USPSTF), they concluded that the current evidence is insufficient to assess the balance of benefits and harms of adding the ABI in asymptomatic persons for purposes of screening. The USPSTF found adequate evidence that adding the ABI, hsCRP, and CAC score to existing CVD risk assessment models (i.e., FRS or PCE) may improve calibration, discrimination, and reclassification, however The USPSTF found inadequate evidence to assess whether treatment decisions guided by ABI, hsCRP, or CAC score test results, in addition to existing CVD risk assessment models, lead to reduced ASCVD events or mortality. It remains most often used in clinical practice as a predictor of obstructive PAD in patients with possible claudication and may thus be most useful in older persons with multiple risk factors who have a greater likelihood of PAD. For asymptomatic persons, an ABI &lt;0.9 is considered to indicate increased risk of CVD events (as a risk enhancing factor in the ACC/AHA 2018 guideline), thereby warranting initiation or intensification of risk factor management."
+        }
+      ]
+    },
+    {
+      "title": "Carotid IMT/Plaque assessment",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Because atherosclerosis is generally widespread in those afflected, it is logical to examine whether detecting asymptomatic vascular disease detected by ultrasound scanning of the carotid arteries may refine risk estimation. Carotid ultrasound can provide information on both intimal-media thickness (IMT) and carotid plaque imaging. In general, damage is defined as the presence of IMT &gt;0.9 mm or established plaque. IMT can be non-invasively determined from ultrasound of the carotid arteries and has been used for decades in clinical trials and risk assessment. IMT is a combination of intimal (atherosclerosis) and medial (vascular hypertrophy) changes of the various vascular territories. Multiple trials have used serial IMT for assessment of changes of carotid wall thickness, with reduction deemed to be a positive change (toward normal blood vessel), and increases representing worsening hypertrophy and/or atherosclerosis."
+        },
+        {
+          "type": "paragraph",
+          "html": "However, lack of standardization and poor reproducibility of ultrasound imaging techniques outside of research laboratories became a major challenge and led to less clinical use and reduced enthusiasm for this tool to help risk stratify asymptomatic persons. Lack of consensus over specific methods to evaluate IMT (far wall vs near wall of carotid, internal vs common carotid, full segment versus predetermined length) has resulted in poor standardization of assessment methods between laboratories or studies. Given these and other conditions, the ACCF/AHA guidelines (216) deemed this measure Class III (no benefit), largely due to suboptimal performance measures on reclassification and risk prediction, along with strong concerns related to reproducibility of the measurement outside the clinical research laboratory. The recommendation stated “CIMT is not recommended for routine measurement in clinical practice for risk assessment for a first ASCVD event”."
+        },
+        {
+          "type": "paragraph",
+          "html": "Carotid plaque imaging, also available on the same ultrasound probe gave rise to more enthusiasm, as a visible plaque in the carotid artery was seen as direct evidence of atherosclerosis, with stronger data on risk outcomes and reclassification. In MESA, CAC proved improved prediction of CVD and CHD more than carotid plaque (217). Mean IMT≥75th percentile (for age, sex, and race) did not predict events in this cohort. CAC and carotid ultrasound plaque imaging performed similarly for stroke/transient ischemic attack event prediction in the MESA cohort. However, the combination of CIMT with plaque does appear to significantly improve the c-statistic or NRI (218) and guidelines from the ESC in 2021 do provide a Class II LOE B recommendation for carotid plaque assessment as an alternative when CAC scoring is not available (219). There has also been greater interest in combined imaging of plaque both the femoral and carotid arteries, which may offer further improvement in assessment of ASCVD risk (220)."
+        }
+      ]
+    },
+    {
+      "title": "Endothelial function",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Assessment of endothelial function is another approach that has not been widely adopted in clinical practice or guidelines for assessment of ASCVD risk. There are many methods used, including brachial artery reactivity, large vessel (aorta) or small vessel assessment of vascular health that have been validated as measures of arterial compliance and have been used clinically. Reproducibility generally is considered good. Many studies demonstrate that these non-invasive methods, such as digital thermal monitoring, strongly correlates with the presence and extent of coronary artery disease (221). However, these modalities have less influence on net reclassification, and less predictive power in large epidemiologic studies than other tests (217). Given the non-invasive nature, the small footprint and amenability to office-based testing, these tests deserve further study to define their independent role, if any, in risk estimation."
+        }
+      ]
+    },
+    {
+      "title": "Coronary artery calcium testing",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "CAC is widely available, extensively studied, and a highly specific measure of subclinical atherosclerosis (222). It is an excellent predictor of ASCVD and predicts both stroke and CHD (223). CAC testing facilitates the enhancing or de-risking of asymptomatic patients and provides a model for initiating or intensifying preventative therapies, including blood pressure and cholesterol treatment as well as aspirin initiation. Currently the most robust method to detect subclinical atherosclerosis, with the strongest outcome data (NRI and improvement in c-statistic) is CAC testing (Fig. 3) (215). This test has shown powerful risk assessment, independent and incremental to traditional risk factors in dozens of large studies. It has been embraced by numerous guidelines and scientific statements, and recently incorporated into the ACCF/AHA Cholesterol Guidelines and Preventive Guidelines to improve risk prediction and guide treatment for high blood pressure, statin use, counseling on healthful diet and physical activity (15). In the guideline it is noted that unless the patient has diabetes, strong premature family history of ASCVD, or is a heavy cigarette smoker that a 0 calcium score can warrant withholding or delaying statin therapy, whereas a positive calcium score under 100 or below the 75<sup>th</sup> percentile for age, sex, and race can be an indication to consider a statin, and a calcium score of ≥100 or &gt;75<sup>th</sup> percentile is a definite indication for statin use (Fig. 2). Further support for not withholding statin use in those with diabetes or cigarette smoking derives from more recent follow-up data from MESA indicating many (but not all) such persons with 0 CAC to have 10-year ASCVD risk above the 7.5% net clinical benefit threshold (224). In addition, while the USPSTF has recently downgraded their recommendations for the use of low-dose aspirin use in primary prevention due to minimal net clinical benefit (225), the 2019 ACC/AHA primary prevention guideline notes that CAC screening may identify those at higher risk where aspirin use may be favorable for adults at low risk of bleeding (16). Observational data support the use of low dose aspirin in persons with CAC &gt; 100 (226). Uniting CAC risk stratification with lipid lowering and aspirin treatment individualizes primary ASCVD prevention and shared clinician-patient decision making (227). CAC testing also further improves risk prediction in persons with diabetes beyond traditional risk factors (228); such information may be useful in decisions to consider further intensification of preventive therapy (e.g., statins).Fig. 3<strong>Comparison of Novel Risk Markers for Improvement in Cardiovascular Risk Assessment in Intermediate Risk Individuals.</strong> From Yeboah et al. (210). Intermediate Risk MESA Subjects (n=1330) C-statistics: FRS alone 0.623; FRS+CAC 0.784 (p&lt;0.001); FRS+CIMT 0.652 (p=0.01); FRS+FMD 0.639 (p=0.06); FRS+CRP 0.640 (p=0.03); FRS+FamHx 0.675 (p=0.001); FRS+ABI 0.650 (p=0.01)Fig. 3"
+        }
+      ]
+    },
+    {
+      "title": "Cardiac Computed Tomography angiography (CCTA)",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "CCTA, as a standard of care for diagnosis of obstructive CAD in symptomatic persons, is emerging as an alternative in selected cases for screening/assessment of asymptomatic persons (229). The ability to visualize non-calcified plaque, stenosis and cardiac abnormalities (shunts, clots, tumors, anomalous vessels and congenital heart disease), in addition to underlying atherosclerosis, makes this an attractive test to fully visualize the heart health of an asymptomatic person at risk of ASCVD. The radiation doses continue to drop and now are approaching that of a calcium scan (&lt;1 mSev) in many cases. However, the increased cost, requirement for contrast and processing/reading times still preclude it from becoming a standard test for risk assessment in asymptomatic persons. Thus, while a CCTA might be useful for patients with relevant cardiovascular risk factors, no prognostic data are available in this population and thus no clear recommendation can be made. Ongoing studies will help answer this question and may provide needed information to selectively use CCTA for risk assessment. The recently published ASPC clinical practice statement on CCTA provides further information on the role of CCTA in preventive cardiology (230)"
+        }
+      ]
+    },
+    {
+      "title": "Risk assessment methods in secondary prevention",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The term &#x27;secondary prevention&#x27; has traditionally been used to describe preventive measures in those with known coronary heart or other ASCVD. The distinction between secondary and primary prevention in those without known disease has become blurred because imaging techniques may reveal atherosclerosis in asymptomatic persons. For the purposes of this paper, the term &#x27;secondary prevention&#x27; will be applied to any person with unequivocal evidence of ASCVD whether symptomatic or not. This section focuses on cardiovascular risk assessment in secondary prevention."
+        },
+        {
+          "type": "paragraph",
+          "html": "Since the middle of the last century when cardiovascular mortality peaked in many developed countries, multiple environmental, lifestyle and treatment factors have contributed to reduced age-standardized coronary heart disease mortality and improved survival after an acute coronary syndrome event (231). However, many persons still suffer from recurrent cardiovascular events due to suboptimal risk factor management, a concept called &#x27;residual risk&#x27;. Intensive risk factor and other treatment approaches, some novel and emerging, are focused on addressing this residual risk."
+        }
+      ]
+    },
+    {
+      "title": "Definitions of risk in secondary prevention",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Most guidelines describe those with ASCVD as at very high risk, but current U.S. and European guidelines differ slightly in their definitions. The 2018 U.S. cholesterol guidelines (15) define &#x27;very high risk&#x27; as a history of multiple major ASCVD events or 1 major ASCVD event and multiple high-risk conditions. Thus, they are confined to subjects with clinically manifest ASCVD (Table 2).Table 2<strong>Criteria for Very High Risk Status. Adapted from Grundy et al. (</strong><strong>15</strong><strong>)</strong> Very high-risk status is defined as two or more major ASCVD events or one major ASCVD event and multiple high risk conditions.Table 2<strong>Major ASCVD Events</strong>- Recent ACS (within the past 12 mo)- History of MI (other than recent ACS event listed above)- History of ischemic stroke- Symptomatic peripheral arterial disease<strong>High-Risk Conditions</strong>-Age ≥65 y- Heterozygous familial hypercholesterolemia- History of prior coronary artery bypass surgery or percutaneous coronary intervention outside of the major ASCVD event(s)- Diabetes mellitus- Hypertension- CKD (eGFR 15-59 mL/min/1.73 m<sup>2</sup>)- Current smoking- Persistently elevated LDL-C (LDL-C ≥100 mg/dL [≥2.6 mmol/L]) despite maximally tolerated statin therapy and ezetimibe- History of congestive HF"
+        },
+        {
+          "type": "paragraph",
+          "html": "Those with ASCVD who otherwise do not fit one of these criteria are deemed to be “not at very high risk”. Recently published data provide a rationale for this distinction where those defined to be at very high risk have a 3-fold or greater risk of subsequent events as compared those not at very high risk; and the subset of those with a history of two or more major ASCVD events have a 5-fold greater risk (232). Those defined to be at very high risk also have been shown to be among those who benefitted more (greater absolute risk reduction) from PCSK9 therapy (233)."
+        },
+        {
+          "type": "paragraph",
+          "html": "The 2016 ESC Joint Guidelines on the prevention of CVD in clinical practice are quite explicit in defining those with established CVD as being at very high risk and deserving immediate attention to all risk factors (234). For convenience, these risk categories may be simplified:a)<strong><em>Very high risk</em></strong><em>:</em> Documented CVD, diabetes with end organ damage or a major risk factor, severe CKD or a SCORE risk of 10% or more.b)<strong><em>High risk</em></strong><em>:</em> A very high single risk factor, most others with diabetes, moderate CKD or a SCORE risk of 5-9%.c)<strong><em>Moderate risk</em></strong><em>:</em> A SCORE risk of 1-4%; many middle-aged subjects will fall into this category.d)<strong><em>Low risk</em></strong><em>:</em> A SCORE risk of &lt;1%."
+        },
+        {
+          "type": "paragraph",
+          "html": "The 2019 ESC/European Atherosclerosis Society (EAS) Guidelines for the management of dyslipidemias (235) use the same categories of risk. The LDL-C goal for very high-risk individuals is a reduction of 50% or more and an LDL-C level of &lt; 1.4 mg/dL. In addition, they recommend that a more aggressive LDL-C goal of &lt; 40 mg/dL &quot;may be considered&quot; for those subjects with ASCVD who experience a second vascular event within two years since such patients have declared themselves to be at very high residual risk."
+        },
+        {
+          "type": "paragraph",
+          "html": "Both the European 2016 prevention (234) and the 2019 lipid guidelines (235) recommend immediate and intensive risk factor management and do not require further risk stratification. As pointed out by Virani and colleagues (236) the European definition of very high risk is wider than the American one, including asymptomatic subjects with objective evidence of ASCVD and other very high-risk individuals. This may expand the number of patients who are candidates for non-statin add-on therapy."
+        }
+      ]
+    },
+    {
+      "title": "Should further risk assessment be undertaken in those with ASCVD?",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "While past guidelines have often treated all persons with ASCVD in the same “bucket” with the same therapeutic recommendations, we know risk can vary widely depending on the number and severity of ASCVD events and other high risk conditions (232), justifying the importance of further risk stratification. Moreover, audits such as EUROASPIRE (237) and SURF (238) have reported that risk factor control is inadequate even in subjects with established CHD, and response to therapy may vary widely (239). De Bacquer and colleagues (240) argue that, since risk may vary between patients, there is a need to identify those in whom an even more intensive prevention strategy should be considered. Based on data from a prospective study of 12,484 patients from 27 countries, they derived and externally validated factors associated with adverse outcomes as increasing age, previous hospitalization with stroke, heart failure or percutaneous coronary intervention (PCI), PAD, self-reported diabetes and its glycemic control, higher non-HDL-C, reduced kidney function, symptoms of depression and anxiety and living in a higher risk country and derived a risk calculator based on these findings (240). Whether its use will be associated with improved outcomes remains to be defined. The SMART secondary prevention risk score (241) can also be used to estimate residual risk. It is derived from a low-risk Dutch cohort and may underestimate risk in higher risk countries, an issue that may be addressed by re-calibration."
+        },
+        {
+          "type": "paragraph",
+          "html": "In 2012, the REACH (REduction of Atherothrombosis for Continued Health) investigators derived a risk model to predict secondary cardiovascular events based on almost 33,419 high-risk subjects from the Americas, Europe, the Middle-East, Asia and Australia (242). An internal validation was performed on 16,270 subjects. Traditional risk factors, burden of disease, lack of treatment, and geographic location were related to an increased risk of subsequent cardiovascular morbidity and cardiovascular mortality. As in EUROASPIRE and SURF, risk factor control was generally poor in all regions. The extent to which this important international study has influenced clinical practice is uncertain."
+        }
+      ]
+    },
+    {
+      "title": "Clinical recommendations",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "1Assessing a patient&#x27;s risk for ASCVD is the foundation of preventive cardiology and the initial step for determining the appropriateness and intensity of preventive treatment.2In primary prevention, global risk scoring is the initial stage for ASCVD risk assessment, providing a calculation of ASCVD risk from a set of standard office-based risk factors for a specified duration (e.g., 10 years) of time, from which a clinician-patient risk discussion is used to discuss the best ways to reduce CVD risk.3The presence, quantity, and/or extent of one or more risk enhancing factors, including premature family history, persistently elevated LDL-C, or CKD, as well as severity of certain inflammatory factors such as hsCRP and laboratory measures such as lp(a), can further inform the treatment decision.4In women, it is important to take a comprehensive reproductive history from menarche to menopause, including preeclampsia, premature menopause, and autoimmune disease as “risk-enhancing” factors.5Race/ethnicity may have a significant impact on the validity of current risk assessment tools and certain higher risk race/ethnic groups may further inform the use of preventive therapy.6Social determinants of health may exert independent effects beyond race/ethnicity and need also to be part of the clinician-patient discussion when discussing the most appropriate ways to optimize ASCVD risk.7Among subclinical atherosclerotic disease screening tests, CAC is probably the most useful, providing substantial improvement of risk reclassification over global risk scoring in most primary prevention groups, including diabetes. In addition to the consideration of risk enhancing factors (discussed earlier), CAC testing can be used to further inform treatment decisions for preventive therapy, including statin and aspirin use in particular.8The use of ABI for assessment of PAD is also valuable and can improve risk reclassification beyond global risk scoring.9Carotid ultrasound imaging, if accompanied by carotid plaque assessment may also be useful for risk assessment, especially as an option when CAC scoring is not available.10In patients with pre-existing ASCVD, stratification into those at highest risk (e.g., very high risk ASCVD status) for more aggressive treatment is based on the history of multiple major ASCVD events or one major event and multiple high-risk conditions. Moreover, those with recurrent ASCVD events in the short-term define an extreme risk condition warranting even more aggressive risk factor management."
+        }
+      ]
+    },
+    {
+      "title": "Conclusions",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Cardiovascular risk assessment is the foundation of preventive cardiology for determining the appropriateness or intensification of preventive therapy. Global risk assessment / scoring is the first step in cardiovascular risk assessment, after which the presence of other risk enhancing factors, inflammatory and other biomarkers, sex, ethnic, and social determinants of health, and screening for subclinical atherosclerosis can further refine risk estimation. Moreover, nutritional factors and physical activity and fitness levels (addressed in other ASPC clinical practice statements) should be considered. In secondary prevention those at very high risk can be identified on the basis of the presence of multiple major ASCVD events and/or high-risk conditions where more intensive treatment may be warranted. Ultimately, ASCVD risk assessment remains an inexact science and while it can be useful for assessing risk in populations of subjects, application to the individual patient is still limited; however, novel emerging methods to incorporate sociodemographic, genetic, clinical, and lifestyle measures will hopefully improve precision for risk prediction for the individual patient."
+        }
+      ]
+    },
+    {
+      "title": "Authorship Contributions",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "All authors contributed to the writing of the manuscript and provided critical revision and review and approval of submission."
+        }
+      ]
+    },
+    {
+      "title": "Funding",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "No funding was received for the preparation of this manuscript."
+        }
+      ]
+    },
+    {
+      "title": "Author Disclosures",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Dr. Michos reports advisory board participation for Astra Zeneca, Amarin, Bayer, Boehringer Ingelheim, Esperion, Novo Nordisk, and Novartis, Dr Shapiro reports advisory board participation for Amgen, Novartis, and Novo Nordisk, and consulting for Novartis and Regeneron, and Dr. Wong reports research funding through his institution from Novartis and Gilead, consultant for Novartis, and advisory board for Amgen. Dr. Amit Khera served as guest editor for this manuscript and Drs. Wong and Michos had no role in the review or decision process."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of Competing Interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "None"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "KannelWBDawberTRKaganARevotskieNStrokes J 3rd. Factors of risk in the development of coronary heart disease–six year follow-up experience. The Framingham StudyAnn Intern Med55196133501375119310.7326/0003-4819-55-1-33"
+    },
+    {
+      "html": "TruettJCornfieldJKannelWB.A multivariate analysis of the risk of coronary heart disease in FraminghamJ Chronic Dis201967511524602827010.1016/0021-9681(67)90082-3"
+    },
+    {
+      "html": "KannelWBMcGeeDGordonT.A general cardiovascular risk profile: the Framingham StudyAm J Cardiol381976465113286210.1016/0002-9149(76)90061-8"
+    },
+    {
+      "html": "CaliffRMArmstrongPWCarverJRD&#x27;AgostinoRBStraussWE.27th Bethesda Conference: matching the intensity of risk factor management with the hazard for coronary disease events. Task Force 5. Stratification of patients into high, medium and low risk subgroups for purposes of risk factor managementJ Am Coll Cardiol27199610071019860931610.1016/0735-1097(96)87733-3"
+    },
+    {
+      "html": "PignoneMPhillipsCJElasyTAFernandezA.Physicians&#x27; ability to predict the risk of coronary heart diseaseBMC Health Serv Res32003131285735610.1186/1472-6963-3-13PMC183837"
+    },
+    {
+      "html": "SheridanSLCrespoE.Does the routine use of global coronary heart disease risk scores translate into clinical benefits or harms? A systematic review of the literatureBMC Health Serv Res82008601836671110.1186/1472-6963-8-60PMC2294118"
+    },
+    {
+      "html": "AndersonKMWilsonPWOdellPMKannelWB.An updated coronary risk profile. A statement for health professionalsCirculation831991356362198489510.1161/01.cir.83.1.356"
+    },
+    {
+      "html": "DetectionExpert Panel onEvaluationandTreatment of High Blood Cholesterol in Adults. Executive Summary of The Third Report of The National Cholesterol Education Program (NCEP) Expert Panel on Detection, Evaluation, And Treatment of High Blood Cholesterol In Adults (Adult Treatment Panel III)JAMA285192001248624971136870210.1001/jama.285.19.2486"
+    },
+    {
+      "html": "SrD&#x27;Agostino RBPencinaMJMassaroJMCoadyS.Cardiovascular Disease Risk Assessment: Insights from FraminghamGlob Heart81201311232375033510.1016/j.gheart.2013.01.001PMC3673738"
+    },
+    {
+      "html": "SrD&#x27;Agostino RBVasanRSPencinaMJGeneral cardiovascular risk profile for use in primary care: the Framingham Heart StudyCirculation117620087437531821228510.1161/CIRCULATIONAHA.107.699579"
+    },
+    {
+      "html": "ConroyRMPyöräläKFitzgeraldAPEstimation of ten-year risk of fatal cardiovascular disease in Europe: the SCORE projectEur Heart J2411200398710031278829910.1016/s0195-668x(03)00114-3"
+    },
+    {
+      "html": "SCORE2 working group and ESC Cardiovascular risk collaboration. SCORE2 risk prediction algorithms: new models to estimate 10-year risk of cardiovascular disease in EuropeEur Heart J422021243924523412017710.1093/eurheartj/ehab309PMC8248998"
+    },
+    {
+      "html": "MachFBaigentCCatapanoALESC Scientific Document Group, 2019 ESC/EAS Guidelines for the management of dyslipidaemias: <em>lipid modification to reduce cardiovascular risk</em>: The Task Force for the management of dyslipidaemias of the European Society of Cardiology (ESC) and European Atherosclerosis Society (EAS)Eur Heart J4120201111883150441810.1093/eurheartj/ehz455"
+    },
+    {
+      "html": "WHO CVD Risk Chart Working GroupWorld Health Organization cardiovascular disease risk charts: revised models to estimate risk in 21 global regionsLancet Glob Health7102019 Octe1332e13453148838710.1016/S2214-109X(19)30318-3PMC7025029"
+    },
+    {
+      "html": "GrundySMStoneNJBaileyAL2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice GuidelinesJ Am Coll Cardiol73242019e285e3503042339310.1016/j.jacc.2018.11.003"
+    },
+    {
+      "html": "ArnettDKBlumenthalRSAlbertMA2019 ACC/AHA Guideline on the Primary Prevention of Cardiovascular Disease: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice GuidelinesAm Coll Cardiol741020191376141410.1016/j.jacc.2019.03.009PMC834437330894319"
+    },
+    {
+      "html": "Lloyd-JonesDMBraunLTNdumeleCEJrSmith SCSperlingLSViraniSSBlumenthalRSUse of Risk Assessment Tools to Guide Decision-Making in the Primary Prevention of Atherosclerotic Cardiovascular Disease: A Special Report From the American Heart Association and American College of CardiologyJ Am Coll Cardiol73242019315331673042339210.1016/j.jacc.2018.11.005"
+    },
+    {
+      "html": "WheltonPKCareyRMAronowWS2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice GuidelinesJ Am Coll Cardiol71192018e127e2482914653510.1016/j.jacc.2017.11.006"
+    },
+    {
+      "html": "BulugahapitiyaUSiyambalapitiyaSSitholeJIdrisI.Is diabetes a coronary risk equivalent? Systematic review and meta-analysisDiabet Med2622009 Feb1421481923661610.1111/j.1464-5491.2008.02640.x"
+    },
+    {
+      "html": "WongNDGlovaciDWongKMalikSFranklinSSWygantGIloejeU.Global cardiovascular disease risk assessment in United States adults with diabetesDiab Vasc Dis Res9220121461522237748510.1177/1479164112436403"
+    },
+    {
+      "html": "United Kingdom Prospective Diabetes Study risk engine <a href=\"http://www.dtu.ox.ac.uk/riskengine\">http://www.dtu.ox.ac.uk/riskengine</a>."
+    },
+    {
+      "html": "YeboahJErbelRDelaneyJCDevelopment of a new diabetes risk prediction tool for incident coronary heart disease events: the Multi-Ethnic Study of Atherosclerosis and the Heinz Nixdorf Recall StudyAtherosclerosis.236220144114172515093910.1016/j.atherosclerosis.2014.07.035PMC4170005"
+    },
+    {
+      "html": "RidkerPMBuringJERifaiNCookNR.Development and validation of improved algorithms for the assessment of global cardiovascular risk in women: the Reynolds Risk ScoreJAMA297620076116191729919610.1001/jama.297.6.611"
+    },
+    {
+      "html": "KheraAVEmdinCADrakeIGenetic Risk, Adherence to a Healthy Lifestyle, and Coronary DiseaseN Engl J Med375242016234923582795971410.1056/NEJMoa1605086PMC5338864"
+    },
+    {
+      "html": "AragamKGDobbynAJudyRLimitations of Contemporary Guidelines for Managing Patients at High Genetic Risk of Coronary Artery DiseaseJ Am Coll Cardiol75222020276927803249880410.1016/j.jacc.2020.04.027PMC7346975"
+    },
+    {
+      "html": "JavedZValero-ElizondoJDudumRKhanSUDubeyPHyderAAXuJBilalUKashBACainzos-AchiricaMNasirK.Development and validation of a polysocial risk score for atherosclerotic cardiovascular diseaseAm J Prev Cardiol8202110025110.1016/j.ajpc.2021.100251PMC844115234553187"
+    },
+    {
+      "html": "MartinSSSperlingLSBlahaMJWilsonPWFGluckmanTJBlumenthalRSStoneNJ.Clinician-patient risk discussion for atherosclerotic cardiovascular disease prevention: importance to implementation of the 2013 ACC/AHA GuidelinesJ Am Coll Cardiol65132015 Apr 7136113682583544810.1016/j.jacc.2015.01.043PMC4760944"
+    },
+    {
+      "html": "Lloyd-JonesDMNamBHD&#x27;AgostinoRBParental Cardiovascular Disease as a Risk Factor for Cardiovascular Disease in Middle-aged Adults: A Prospective Study of Parents and OffspringJ Am Med Assoc29120042204221110.1001/jama.291.18.220415138242"
+    },
+    {
+      "html": "MoonesingheRYangQZhangZKhouryMJ.Prevalence and Cardiovascular Health Impact of Family History of Premature Heart Disease in the United States: Analysis of the National Health and Nutrition Examination Survey, 2007–2014J Am Heart Assoc82019e01236410.1161/JAHA.119.012364PMC666213031303097"
+    },
+    {
+      "html": "FerenceBAGinsbergHNGrahamILow-density lipoproteins cause atherosclerotic cardiovascular disease. 1. Evidence from genetic, epidemiologic, and clinical studies. A consensus statement from the European Atherosclerosis Society Consensus PanelEur Heart J38322017245924722844429010.1093/eurheartj/ehx144PMC5837225"
+    },
+    {
+      "html": "GiuglianoRPPedersenTRParkJGClinical efficacy and safety of achieving very low LDL-cholesterol concentrations with the PCSK9 inhibitor evolocumab: a prespecified secondary analysis of the FOURIER trialLancet3902017196219712885994710.1016/S0140-6736(17)32290-0"
+    },
+    {
+      "html": "AlbertiKGEckelRHGrundySMHarmonizing the metabolic syndrome: a joint interim statement of the International Diabetes Federation Task Force on Epidemiology and Prevention; National Heart, Lung, and Blood Institute; American Heart Association; World Heart Federation; International Atherosclerosis Society; and International Association for the Study of ObesityCirculation1202009164016451980565410.1161/CIRCULATIONAHA.109.192644"
+    },
+    {
+      "html": "ShinDKongpakpaisarnKBohraC.Trends in the prevalence of metabolic syndrome and its components in the United States 2007-2014Int J Cardiol25920182162192947202610.1016/j.ijcard.2018.01.139"
+    },
+    {
+      "html": "LaheyRKhanSS.Trends in obesity and risk of cardiovascular diseaseCurrent Epidemiology Reports5320182432513070580210.1007/s40471-018-0160-1PMC6349392"
+    },
+    {
+      "html": "HansildaarRVedderDBaniaamamMTauscheAKGerritsenMNurmohamedMT.Cardiovascular risk in inflammatory arthritis: rheumatoid arthritis and goutLancet Rheumatol12021e58e7010.1016/S2665-9913(20)30221-6PMC746262832904897"
+    },
+    {
+      "html": "Avina-ZubietaJAChoiHKSadatsafaviMEtminanMEsdaileJMLacailleD.Risk of cardiovascular mortality in patients with rheumatoid arthritis: a meta-analysis of observational studiesArthritis Rheum592008169016971903541910.1002/art.24092"
+    },
+    {
+      "html": "AsanumaYOeserAShintaniAKPremature coronary-artery atherosclerosis in systemic lupus erythematosusN Engl J Med3492003240724151468150610.1056/NEJMoa035611"
+    },
+    {
+      "html": "NossentJCikesNKissECurrent causes of death in systemic lupus erythematosus in Europe, 2000–2004: relation to disease activity and damage accrualLupus1620073093171757673110.1177/0961203307077987"
+    },
+    {
+      "html": "ArmstrongEJHarskampCTArmstrongAW.Psoriasis and major adverse cardiovascular events: a systematic review and meta-analysis of observational studiesJ Am Heart Assoc22013e00006210.1161/JAHA.113.000062PMC364727823557749"
+    },
+    {
+      "html": "KearnsAGordonJBurdoTHQinXHIV-1-Associated Atherosclerosis: Unraveling the Missing LinkJ Am Coll Cardiol692017308430982864179810.1016/j.jacc.2017.05.012PMC5512584"
+    },
+    {
+      "html": "SaranRRobinsonBAbbottKCUS Renal Data System 2018 Annual Data Report: Epidemiology of Kidney Disease in the United StatesAJKD733 Suppl 12019A7A83079879110.1053/j.ajkd.2019.01.001PMC6620109"
+    },
+    {
+      "html": "BabittJLLinHY.Mechanisms of anemia in CKDJ Am Soc Nephrol23102012163116342293548310.1681/ASN.2011111078PMC3458456"
+    },
+    {
+      "html": "ToussaintNDPedagogosELioufasNMA Randomized Trial on the Effect of Phosphate Reduction on Vascular End Points in CKD (IMPROVE-CKD)JASN312020265326663291778410.1681/ASN.2020040411PMC7608977"
+    },
+    {
+      "html": "BodenWEProbstfieldJLAndersonTNiacin in patients with low HDL cholesterol levels receiving intensive statin therapyN Engl J Med3652011225522672208534310.1056/NEJMoa1107579"
+    },
+    {
+      "html": "BhattDLStegGMillerMCardiovascular Risk Reduction with Icosapent Ethyl forHypertriglyceridemia N Engl J Med380201911223041562810.1056/NEJMoa1812792"
+    },
+    {
+      "html": "AlbersJJKennedyHMarcovinaSM.Evidence that Lp[a] contains one molecule of apo[a] and one molecule of apoB: evaluation of amino acid analysis dataJ Lipid Res3719961921968820114"
+    },
+    {
+      "html": "DaneshJCollinsRPetoR.Lipoprotein(a) and coronary heart disease. Meta-analysis of prospective studiesCirculation1022000108210851097383410.1161/01.cir.102.10.1082"
+    },
+    {
+      "html": "KamstrupPRTybjaerg-HansenASteffensenRNordestgaardBG.Genetically elevated lipoprotein(a) and increased risk of myocardial infarctionJAMA3012009233123391950938010.1001/jama.2009.801"
+    },
+    {
+      "html": "EatonDLFlessGMKohrWJPartial amino acid sequence of apolipoprotein(a) shows that it is homologous to plasminogenProc Natl Acad Sci U S A84198732243228347220610.1073/pnas.84.10.3224PMC304841"
+    },
+    {
+      "html": "WilleitPKiechlF.KronenbergFDiscrimination and net reclassification of cardiovascular risk with lipoprotein(a): prospective 15-year outcomes in the Bruneck StudyJ Am Coll Cardiol6420148518602516916710.1016/j.jacc.2014.03.061"
+    },
+    {
+      "html": "SnidermanADWilliamsKContoisJHA meta-analysis of low-density lipoprotein cholesterol, non-high-density lipoprotein cholesterol, and apolipoprotein B as markers of cardiovascular riskCirc Cardiovasc Qual Outcomes42011337–42148709010.1161/CIRCOUTCOMES.110.959247"
+    },
+    {
+      "html": "SnidermanADTremblayADe GraafJPhenotypes of hypertriglyceridemia caused by excess very-low-density lipoproteinJ Clin Lipidol620124274332300977810.1016/j.jacl.2012.04.081"
+    },
+    {
+      "html": "WangTJGonaPLarsonMGMultiple biomarkers for the prediction of first major cardiovascular events and deathN Engl J Med355252006263126391718298810.1056/NEJMoa055373"
+    },
+    {
+      "html": "Di AngelantonioEChowdhuryRSarwarNB-type natriuretic peptides and cardiovascular risk: systematic review and meta-analysis of 40 prospective studiesCirculation120222009217721871991788310.1161/CIRCULATIONAHA.109.884866"
+    },
+    {
+      "html": "GreenlandPAlpertJSBellerGAAmerican College of Cardiology Foundation/American Heart Association Task Force on Practice Guidelines. 2010 ACCF/AHA guideline for assessment of cardiovascular risk in asymptomatic adults: a report of the American College of Cardiology Foundation/American Heart Association Task Force on Practice GuidelinesCirculation122252010 Dec 21e584e6362109842810.1161/CIR.0b013e3182051b4c"
+    },
+    {
+      "html": "BuchanTAChingCForoutanFPrognostic value of natriuretic peptides in heart failure: systematic review and meta-analysisHeart Fail Rev2021Epub ahead of print10.1007/s10741-021-10136-334227029"
+    },
+    {
+      "html": "YancyCWJessupMBozkurtB2017 ACC/AHA/HFSA Focused Update of the 2013 ACCF/AHA Guideline for the Management of Heart Failure: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines and the Heart Failure Society of AmericaJ Am Coll Cardiol70620177768032846100710.1016/j.jacc.2017.04.025"
+    },
+    {
+      "html": "OttoCMNishimuraRABonowRO2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice GuidelinesJ Am Coll Cardiol7742021e25e1973334258610.1016/j.jacc.2020.11.018"
+    },
+    {
+      "html": "RoffiMPatronoCColletJPESC Scientific Document Group. 2015 ESC Guidelines for the management of acute coronary syndromes in patients presenting without persistent ST-segment elevation: Task Force for the Management of Acute Coronary Syndromes in Patients Presenting without Persistent ST-Segment Elevation of the European Society of Cardiology (ESC)Eur Heart J37320162673152632011010.1093/eurheartj/ehv320"
+    },
+    {
+      "html": "PassinoCAimoAMasottiSCardiac troponins as biomarkers for cardiac diseaseBiomark Med13520193253303094208210.2217/bmm-2019-0039"
+    },
+    {
+      "html": "LamCSPCastilloRHoDTHigh-sensitivity troponin I for cardiovascular risk stratification in the general asymptomatic population: Perspectives from Asia-PacificInt J Cardiol282201993983074525410.1016/j.ijcard.2019.01.107"
+    },
+    {
+      "html": "FurmanDCampisiJVerdinEChronic inflammation in the etiology of disease across the life spanNat Med252019182218323180690510.1038/s41591-019-0675-0PMC7147972"
+    },
+    {
+      "html": "LibbyP.Inflammation in atherosclerosisArterioscler Thromb Vasc Biol322012204520512289566510.1161/ATVBAHA.108.179705PMC3422754"
+    },
+    {
+      "html": "LibbyPRidkerPMHanssonGK.Inflammation in atherosclerosis: from pathophysiology to practiceJ Am Coll Cardiol542009212921381994208410.1016/j.jacc.2009.09.009PMC2834169"
+    },
+    {
+      "html": "RossR.Atherosclerosis–an inflammatory diseaseN Engl J Med3401999115126988716410.1056/NEJM199901143400207"
+    },
+    {
+      "html": "ChenLDengHCuiHInflammatory responses and inflammation-associated diseases in organsOncotarget92018720472182946796210.18632/oncotarget.23208PMC5805548"
+    },
+    {
+      "html": "LibbyP.Act local, act global: inflammation and the multiplicity of &quot;vulnerable&quot; coronary plaquesJ Am Coll Cardiol452005160016021589317310.1016/j.jacc.2005.02.058"
+    },
+    {
+      "html": "CampbellKALipinskiMJDoranACSkaflenMDFusterVMcNamaraCA.Lymphocytes and the adventitial immune response in atherosclerosisCirc Res11020128899002242732610.1161/CIRCRESAHA.111.263186PMC3373006"
+    },
+    {
+      "html": "BujoHSaitoY.Modulation of smooth muscle cell migration by members of the low-density lipoprotein receptor familyArterioscler Thromb Vasc Biol262006124612521657488910.1161/01.ATV.0000219692.78477.17"
+    },
+    {
+      "html": "SprostonNRAshworthJJ.Role of C-Reactive Protein at Sites of Inflammation and InfectionFront Immunol9201810.3389/fimmu.2018.00754PMC590890129706967"
+    },
+    {
+      "html": "RidkerPMC-Reactive ProteinCirculation1082003e81e851450425310.1161/01.CIR.0000093381.57779.67"
+    },
+    {
+      "html": "WilsonPWPencinaMJacquesPSelhubJD&#x27;AgostinoRSr.O&#x27;DonnellCJC-reactive protein and reclassification of cardiovascular risk in the Framingham Heart StudyCirc Cardiovasc Qual Outcomes1200892972003179510.1161/CIRCOUTCOMES.108.831198PMC3033831"
+    },
+    {
+      "html": "RidkerPMPaynterNPRifaiNGazianoJMCook NR. C-reactive protein and parental history improve global cardiovascular risk prediction: the Reynolds Risk Score for menCirculation1182008224322514p following 22511899719410.1161/CIRCULATIONAHA.108.814251PMC2752381"
+    },
+    {
+      "html": "RidkerPMRifaiNRoseLBuringJECookNR.Comparison of C-reactive protein and low-density lipoprotein cholesterol levels in the prediction of first cardiovascular eventsN Engl J Med3472002155715651243204210.1056/NEJMoa021993"
+    },
+    {
+      "html": "RidkerPMCannonCPMorrowDC-reactive protein levels and outcomes after statin therapyN Engl J Med352200520281563510910.1056/NEJMoa042378"
+    },
+    {
+      "html": "MorrowDAde LemosJASabatineMSClinical relevance of C-reactive protein during follow-up of patients with acute coronary syndromes in the Aggrastat-to-Zocor TrialCirculation11420062812881684715010.1161/CIRCULATIONAHA.106.628909"
+    },
+    {
+      "html": "BohulaEAGiuglianoRPCannonCPAchievement of dual low-density lipoprotein cholesterol and high-sensitivity C-reactive protein targets more frequent with the addition of ezetimibe to simvastatin and associated with better outcomes in IMPROVE-ITCirculation1322015122412332633041210.1161/CIRCULATIONAHA.115.018381"
+    },
+    {
+      "html": "RidkerPMRifaiNClearfieldMMeasurement of C-reactive protein for the targeting of statin therapy in the primary prevention of acute coronary eventsN Engl J Med3442001195919651143032410.1056/NEJM200106283442601"
+    },
+    {
+      "html": "GonçalvesIEdsfeldtAKoNYEvidence supporting a key role of Lp-PLA2-generated lysophosphatidylcholine in human atherosclerotic plaque inflammationArterioscler Thromb Vasc Biol322012150515122249999310.1161/ATVBAHA.112.249854"
+    },
+    {
+      "html": "KolodgieFDBurkeAPSkorijaKSLipoprotein-associated phospholipase A2 protein expression in the natural progression of human coronary atherosclerosisArterioscler Thromb Vasc Biol262006252325291696010510.1161/01.ATV.0000244681.72738.bc"
+    },
+    {
+      "html": "SilvaITMelloAPDamascenoNR.Antioxidant and inflammatory aspects of lipoprotein-associated phospholipase A₂ (Lp-PLA₂): a reviewLipids Health Dis1020111702195566710.1186/1476-511X-10-170PMC3204246"
+    },
+    {
+      "html": "GarzaCAMontoriVMMcConnellJPSomersVKKulloIJLopez-JimenezF.Association between lipoprotein-associated phospholipase A2 and cardiovascular disease: a systematic reviewMayo Clin Proc8220071591651729072110.4065/82.2.159"
+    },
+    {
+      "html": "BallantyneCMHoogeveenRCBangHLipoprotein-associated phospholipase A2, high-sensitivity C-reactive protein, and risk for incident coronary heart disease in middle-aged men and women in the Atherosclerosis Risk in Communities (ARIC) studyCirculation10920048378421475768610.1161/01.CIR.0000116763.91992.F1"
+    },
+    {
+      "html": "WhiteHDHeldCStewartRDarapladib for preventing ischemic events in stable coronary heart diseaseN Engl J Med370182014170217112467895510.1056/NEJMoa1315878"
+    },
+    {
+      "html": "ArataniY.Myeloperoxidase: Its role for host defense, inflammation, and neutrophil functionArch Biochem Biophys640201847522933694010.1016/j.abb.2018.01.004"
+    },
+    {
+      "html": "ShaoBOdaMNOramJFHeineckeJW.Myeloperoxidase: an oxidative pathway for generating dysfunctional high-density lipoproteinChem Res Toxicol2320104474542004364710.1021/tx9003775PMC2838938"
+    },
+    {
+      "html": "BrennanMLPennMSVan LenteFPrognostic value of myeloperoxidase in patients with chest painN Engl J Med3492003159516041457373110.1056/NEJMoa035003"
+    },
+    {
+      "html": "BaldusSHeeschenCMeinertzTMyeloperoxidase serum levels predict risk in patients with acute coronary syndromesCirculation1082003144014451295283510.1161/01.CIR.0000090690.67322.51"
+    },
+    {
+      "html": "YangDHanZOppenheimJJ.Alarmins and immunityImmunol Rev280201741562902722210.1111/imr.12577PMC5699517"
+    },
+    {
+      "html": "SakumaMTanakaAKotookaNMyeloid-related protein-8/14 in acute coronary syndromeInt J Cardiol249201725312898605710.1016/j.ijcard.2017.09.020"
+    },
+    {
+      "html": "CroceKGaoHWangYMyeloid-Related Protein-8/14 Is Critical for the Biological Response to Vascular InjuryCirculation12020094274361962050510.1161/CIRCULATIONAHA.108.814582PMC3070397"
+    },
+    {
+      "html": "MaiseyeuABadgeleyMAKampfrathTIn vivo targeting of inflammation-associated myeloid-related protein 8/14 via gadolinium immunonanoparticlesArterioscler Thromb Vasc Biol3220129629702230804310.1161/ATVBAHA.111.244509PMC3348503"
+    },
+    {
+      "html": "MorrowDAWangYCroceKMyeloid-related protein 8/14 and the risk of cardiovascular death or myocardial infarction after an acute coronary syndrome in the Pravastatin or Atorvastatin Evaluation and Infection Therapy: Thrombolysis in Myocardial Infarction (PROVE IT-TIMI 22) trialAm Heart J155200849551808248810.1016/j.ahj.2007.08.018PMC2645040"
+    },
+    {
+      "html": "PengWHJianWXLiHLIncreased serum myeloid-related protein 8/14 level is associated with atherosclerosis in type 2 diabetic patientsCardiovascular Diabetology102011412159235310.1186/1475-2840-10-41PMC3120649"
+    },
+    {
+      "html": "VisseRNagaseH.Matrix Metalloproteinases and Tissue Inhibitors of MetalloproteinasesCirc Res9220038278391273012810.1161/01.RES.0000070112.80711.3D"
+    },
+    {
+      "html": "VolkovAMMurashovISPolonskayaYV[Changes of Content of Matrix Metalloproteinases and Their Tissue Expression in Various Types of Atherosclerotic Plaques]Kardiologiia2018121830359212"
+    },
+    {
+      "html": "EzhovMSafarovaMAfanasievaOMitroshkinMMatchinYPokrovskyS.Matrix Metalloproteinase 9 as a Predictor of Coronary Atherosclerotic Plaque Instability in Stable Coronary Heart Disease Patients with Elevated Lipoprotein(a) LevelsBiomolecules9201910.3390/biom9040129PMC652315030934954"
+    },
+    {
+      "html": "LengletSMachFMontecuccoF.Role of matrix metalloproteinase-8 in atherosclerosisMediators Inflamm2013201365928210.1155/2013/659282PMC355686623365489"
+    },
+    {
+      "html": "LeopoldJALoscalzoJ.Oxidative enzymopathies and vascular diseaseArterioscler Thromb Vasc Biol252005133213401579092810.1161/01.ATV.0000163846.51473.09"
+    },
+    {
+      "html": "BarretoJKarathanasisSKRemaleyASpositoAC.Role of LOX-1 (Lectin-Like Oxidized Low-Density Lipoprotein Receptor 1) as a Cardiovascular Risk Predictor: Mechanistic Insight and Potential Clinical UseArterioscler Thromb Vasc Biol4120211531663317644910.1161/ATVBAHA.120.315421PMC9186447"
+    },
+    {
+      "html": "LubranoVDel TurcoSNicoliniGDi CeccoPBastaG.Circulating Levels of Lectin-Like Oxidized Low-Density Lipoprotein Receptor-1 are Associated with Inflammatory MarkersLipids4320089459501878135210.1007/s11745-008-3227-9"
+    },
+    {
+      "html": "ZhaoZWZhuXLLuoYKLinCGChenLL.Circulating soluble lectin-like oxidized low-density lipoprotein receptor-1 levels are associated with angiographic coronary lesion complexity in patients with coronary artery diseaseClin Cardiol3420111721772140054410.1002/clc.20847PMC6652421"
+    },
+    {
+      "html": "WischhusenJMeleroIFridmanWH.Growth/Differentiation Factor-15 (GDF-15): From Biomarker to Novel Targetable Immune CheckpointFront Immunol11202010.3389/fimmu.2020.00951PMC724835532508832"
+    },
+    {
+      "html": "WangJWeiLYangXZhongJ.Roles of Growth Differentiation Factor 15 in Atherosclerosis and Coronary Artery DiseaseJ Am Heart Assoc82019e01282610.1161/JAHA.119.012826PMC675584031432727"
+    },
+    {
+      "html": "WollertKCKempfTWallentinL.Growth Differentiation Factor 15 as a Biomarker in Cardiovascular DiseaseClin Chem6320171401512806261710.1373/clinchem.2016.255174"
+    },
+    {
+      "html": "RidkerPMEverettBMThurenTCANTOS Trial Group. Antiinflammatory Therapy with Canakinumab for Atherosclerotic DiseaseN Engl J Med377122017111911312884575110.1056/NEJMoa1707914"
+    },
+    {
+      "html": "GabayCLamacchiaCPalmerG.IL-1 pathways in inflammation and human diseasesNature Reviews Rheumatology620102322412017739810.1038/nrrheum.2010.4"
+    },
+    {
+      "html": "GuoHCallawayJBTingJP.Inflammasomes: mechanism of action, role in disease, and therapeuticsNat Med2120156776872612119710.1038/nm.3893PMC4519035"
+    },
+    {
+      "html": "TardifJCKouzSWatersDDEfficacy and Safety of Low-Dose Colchicine after Myocardial InfarctionN Engl J Med381262019249725053173314010.1056/NEJMoa1912388"
+    },
+    {
+      "html": "ViraniSSAlonsoAAparicioHJHeart Disease and Stroke Statistics-2021 Update: A Report From theAmerican Heart Association. Circulation.14382021e254e7433350184810.1161/CIR.0000000000000950PMC13036842"
+    },
+    {
+      "html": "MoscaLGrundySMJudelsonDGuide to Preventive Cardiology for Women.AHA/ACC Scientific Statement Consensus panel statementCirculation99181999248024841031867410.1161/01.cir.99.18.2480"
+    },
+    {
+      "html": "CurtinSC.Trends in Cancer and Heart Disease Death Rates Among Adults Aged 45-64: United States, 1999-2017Natl Vital Stat Rep68520191932501204"
+    },
+    {
+      "html": "KhanSUYedlapatiSHLoneANA comparative analysis of premature heart disease- and cancer-related mortality in women in the USA, 1999-2018Eur Heart J Qual Care Clin Outcomes2021 Feb 810.1093/ehjqcco/qcaa09933555018"
+    },
+    {
+      "html": "CushmanMShayCMHowardVJTen-Year Differences in Women&#x27;s Awareness Related to Coronary Heart Disease: Results of the 2019 American Heart Association National Survey: A Special Report From the American Heart AssociationCirculation.14372021e239e2483295479610.1161/CIR.0000000000000907PMC11181805"
+    },
+    {
+      "html": "MannohIHussienMCommodore-MensahYImpact of social determinants of health on cardiovascular disease preventionCurr Opin Cardiol36520215725793439746410.1097/HCO.0000000000000893"
+    },
+    {
+      "html": "DeFilippisAPYoungRMcEvoyJWRisk score overestimation: the impact of individual cardiovascular risk factors and preventive therapies on the performance of the American Heart Association-American College of Cardiology-Atherosclerotic Cardiovascular Disease risk score in a modern multi-ethnic cohortEur Heart J38820175986082743686510.1093/eurheartj/ehw301PMC5837662"
+    },
+    {
+      "html": "BrindlePMMcConnachieAUptonMNThe accuracy of the Framingham risk-score in different socioeconomic groups: a prospective studyBr J Gen Pract55520200583884516281999PMC1570792"
+    },
+    {
+      "html": "AminNPMartinSSBlahaMJHeaded in the right direction but at risk for miscalculation: a critical appraisal of the 2013 ACC/AHA risk assessment guidelinesJ Am Coll Cardiol6325 Pt A2014278927942481448710.1016/j.jacc.2014.04.010PMC4280905"
+    },
+    {
+      "html": "MichosEDNasirKBraunsteinJBFramingham risk equation underestimates subclinical atherosclerosis risk in asymptomatic womenAtherosclerosis184120062012061590785610.1016/j.atherosclerosis.2005.04.004"
+    },
+    {
+      "html": "MichosEDVasamreddyCRBeckerDMWomen with a low Framingham risk score and a family history of premature coronary heart disease have a high prevalence of subclinical coronary atherosclerosisAm Heart J15062005127612811633827110.1016/j.ahj.2005.02.037"
+    },
+    {
+      "html": "DamenJAPajouheshniaRHeusPPerformance of the Framingham risk models and pooled cohort equations for predicting 10-year risk of cardiovascular disease: a systematic review and meta-analysisBMC Med17120191093118946210.1186/s12916-019-1340-7PMC6563379"
+    },
+    {
+      "html": "GrundtvigMHagenTPGermanMSex-based differences in premature first myocardial infarction caused by smoking: twice as many years lost by women as by menEur J Cardiovasc Prev Rehabil16220091741791924718410.1097/HJR.0b013e328325d7f0"
+    },
+    {
+      "html": "PetersSAHuxleyRRWoodwardM.Diabetes as risk factor for incident coronary heart disease in women compared with men: a systematic review and meta-analysis of 64 cohorts including 858,507 individuals and 28,203 coronary eventsDiabetologia5782014154215512485943510.1007/s00125-014-3260-6"
+    },
+    {
+      "html": "FairweatherDRoseNR.Women and autoimmune diseasesEmerg Infect Dis10112004200520111555021510.3201/eid1011.040367PMC3328995"
+    },
+    {
+      "html": "del RinconIDWilliamsKSternMPHigh incidence of cardiovascular events in a rheumatoid arthritis cohort not explained by traditional cardiac risk factorsArthritis Rheum44122001273727451176293310.1002/1529-0131(200112)44:12&lt;2737::AID-ART460&gt;3.0.CO;2-%23"
+    },
+    {
+      "html": "Avina-ZubietaJAChoiHKSadatsafaviMRisk of cardiovascular mortality in patients with rheumatoid arthritis: a meta-analysis of observational studiesArthritis Rheum59122008169016971903541910.1002/art.24092"
+    },
+    {
+      "html": "HansildaarRVedderDBaniaamamMCardiovascular risk in inflammatory arthritis: rheumatoid arthritis and goutLancet Rheumatol312021e58e703290489710.1016/S2665-9913(20)30221-6PMC7462628"
+    },
+    {
+      "html": "Avina-ZubietaJAToFVostretsovaKRisk of Myocardial Infarction and Stroke in Newly Diagnosed Systemic Lupus Erythematosus: A General Population-Based StudyArthritis Care Res (Hoboken)69620178498562812947510.1002/acr.23018"
+    },
+    {
+      "html": "GiannelouMMavraganiCP.Cardiovascular disease in systemic lupus erythematosus: A comprehensive updateJ Autoimmun8220171122860674910.1016/j.jaut.2017.05.008"
+    },
+    {
+      "html": "AsanumaYOeserAShintaniAKPremature coronary-artery atherosclerosis in systemic lupus erythematosusN Engl J Med349252003240724151468150610.1056/NEJMoa035611"
+    },
+    {
+      "html": "ChungCPOeserARaggiPIncreased coronary-artery atherosclerosis in rheumatoid arthritis: relationship to disease duration and cardiovascular risk factorsArthritis Rheum52102005304530531620060910.1002/art.21288"
+    },
+    {
+      "html": "AgarwalaAMichosEDSamadZThe Use of Sex-Specific Factors in the Assessment of Women&#x27;s Cardiovascular RiskCirculation141720205925993206577210.1161/CIRCULATIONAHA.119.043429PMC7032610"
+    },
+    {
+      "html": "ElderPSharmaGGulatiMIdentification of female-specific risk enhancers throughout the lifespan of women to improve cardiovascular disease preventionAm J Prev Cardiol220201000282020/06/01/10.1016/j.ajpc.2020.100028PMC831540634327455"
+    },
+    {
+      "html": "PetersSAWoodwardM.Women&#x27;s reproductive factors and incident cardiovascular disease in the UK BiobankHeart104132018106910752933525310.1136/heartjnl-2017-312289"
+    },
+    {
+      "html": "OkothKChandanJSMarshallTAssociation between the reproductive health of young women and cardiovascular disease in later life: umbrella reviewBMJ3712020m35023302860610.1136/bmj.m3502PMC7537472"
+    },
+    {
+      "html": "LakshmanRForouhiNGSharpSJEarly age at menarche associated with cardiovascular disease and mortalityJ Clin Endocrinol Metab94122009495349601988078510.1210/jc.2009-1789"
+    },
+    {
+      "html": "OsibogunOOgunmorotiOMichosED.Polycystic ovary syndrome and cardiometabolic risk: Opportunities for cardiovascular disease preventionTrends Cardiovasc Med30720203994043151940310.1016/j.tcm.2019.08.010"
+    },
+    {
+      "html": "GoueslardKCottenetJMarietASEarly cardiovascular events in women with a history of gestational diabetes mellitusCardiovasc Diabetol152016152681769110.1186/s12933-016-0338-0PMC4728938"
+    },
+    {
+      "html": "de GrootPCDekkersOMRomijnJAPCOS, coronary heart disease, stroke and the influence of obesity: a systematic review and meta-analysisHum Reprod Update17420114955002133535910.1093/humupd/dmr001"
+    },
+    {
+      "html": "PompERRosendaalFRDoggenCJ.Smoking increases the risk of venous thrombosis and acts synergistically with oral contraceptive useAm J Hematol8322008971021772668410.1002/ajh.21059"
+    },
+    {
+      "html": "LidegaardO.Smoking and use of oral contraceptives: impact on thrombotic diseasesAm J Obstet Gynecol1806 Pt 21999S357S3631036852110.1016/s0002-9378(99)70696-4"
+    },
+    {
+      "html": "CairncrossZFAhmedSBDumanskiSMInfertility and the Risk of Cardiovascular Disease: Findings From the Study of Women&#x27;s Health Across the Nation (SWAN)CJC Open3420214004083402734210.1016/j.cjco.2020.11.011PMC8129433"
+    },
+    {
+      "html": "WesterlundEBrandtLHovattaOIncidence of hypertension, stroke, coronary heart disease, and diabetes in women who have delivered after in vitro fertilization: a population-based cohort study from SwedenFertil Steril10242014109611022506440710.1016/j.fertnstert.2014.06.024"
+    },
+    {
+      "html": "DayanNFilionKBOkanoMCardiovascular Risk Following Fertility Therapy: Systematic Review and Meta-AnalysisJ Am Coll Cardiol70102017120312132885978210.1016/j.jacc.2017.07.753"
+    },
+    {
+      "html": "UdellJALuHRedelmeierDA.Failure of fertility therapy and subsequent adverse cardiovascular eventsCMAJ189102017E391E3972838581910.1503/cmaj.160744PMC5359104"
+    },
+    {
+      "html": "PetersSAvan der SchouwYTWoodAMParity, breastfeeding and risk of coronary heart disease: A pan-European case-cohort studyEur J Prev Cardiol23162016175517652737876610.1177/2047487316658571PMC6217919"
+    },
+    {
+      "html": "Oliver-WilliamsCVladutiuCJLoehrLRThe Association Between Parity and Subsequent Cardiovascular Disease in Women: The Atherosclerosis Risk in Communities StudyJ Women&#x27;s Health (2002)285201972172710.1089/jwh.2018.7161PMC653711330481103"
+    },
+    {
+      "html": "NessRBHarrisTCobbJNumber of pregnancies and the subsequent risk of cardiovascular diseaseN Engl J Med32821199315281533826770410.1056/NEJM199305273282104"
+    },
+    {
+      "html": "Mazaki-ToviSVaisbuchEDIRomeroR.Adipokines and pathophysiology of pregnancy complications - the role of leptin and adiponectinFetal Maternal Med Rev2442013232259"
+    },
+    {
+      "html": "RodriguezCPOgunmorotiOQuispeRAbstract 13525: The Association Between Multiparity and Adipokine Levels: The Multi-Ethnic Study of Atherosclerosis (MESA)Circulation142Suppl_32020A13525-A1352510.1089/jwh.2021.0091PMC913397234747649"
+    },
+    {
+      "html": "BondRMGaitherKNasserSAWorking Agenda for Black Mothers: A Position Paper From the Association of Black Cardiologists on Solutions to Improving Black Maternal HealthCirc Cardiovasc Qual Outcomes1422021e00764310.1161/CIRCOUTCOMES.120.007643PMC788709733563007"
+    },
+    {
+      "html": "MinhasASOgunwoleSMVaughtAJRacial Disparities in Cardiovascular Complications With Pregnancy-Induced Hypertension in the United StatesHypertension (Dallas, Tex: 1979)782202148048810.1161/HYPERTENSIONAHA.121.17104PMC826672634098730"
+    },
+    {
+      "html": "HauspurgAYingWHubelCAAdverse pregnancy outcomes and future maternal cardiovascular diseaseClin Cardiol41220182392462944683610.1002/clc.22887PMC6490154"
+    },
+    {
+      "html": "YingWCatovJMOuyangP.Hypertensive Disorders of Pregnancy and Future Maternal Cardiovascular RiskJ Am Heart Assoc7172018e00938210.1161/JAHA.118.009382PMC620143030371154"
+    },
+    {
+      "html": "WuPHaththotuwaRKwokCSPreeclampsia and Future Cardiovascular Health: A Systematic Review and Meta-AnalysisCirc Cardiovasc Qual Outcomes102201710.1161/CIRCOUTCOMES.116.00349728228456"
+    },
+    {
+      "html": "HeidaKYVelthuisBKOudijkMACardiovascular disease risk in women with a history of spontaneous preterm delivery: A systematic review and meta-analysisEur J Prev Cardiol23320162532632566580810.1177/2047487314566758"
+    },
+    {
+      "html": "DammPHoushmand-OeregaardAKelstrupLGestational diabetes mellitus and long-term consequences for mother and offspring: a view from DenmarkDiabetologia5972016139613992717436810.1007/s00125-016-3985-5"
+    },
+    {
+      "html": "FadlHMagnusonAOstlundIGestational diabetes mellitus and later cardiovascular disease: a Swedish population based case-control studyBJOG121122014153015362476219410.1111/1471-0528.12754PMC4232923"
+    },
+    {
+      "html": "KramerCKCampbellSRetnakaranR.Gestational diabetes and the risk of cardiovascular disease in women: a systematic review and meta-analysisDiabetologia62620199059143084310210.1007/s00125-019-4840-2"
+    },
+    {
+      "html": "HonigbergMCZekavatSMAragamKAssociation of Premature Natural and Surgical Menopause With Incident Cardiovascular DiseaseJAMA322242019241124213173881810.1001/jama.2019.19191PMC7231649"
+    },
+    {
+      "html": "MukaTOliver-WilliamsCKunutsorSAssociation of Age at Onset of Menopause and Time Since Onset of Menopause With Cardiovascular Outcomes, Intermediate Vascular Traits, and All-Cause Mortality: A Systematic Review and Meta-analysisJAMA Cardiol1720167677762762719010.1001/jamacardio.2016.2415"
+    },
+    {
+      "html": "Roeters van LennepJEHeidaKYBotsMLCardiovascular disease risk in women with premature ovarian insufficiency: A systematic review and meta-analysisEur J Prev Cardiol23220161781862533120710.1177/2047487314556004"
+    },
+    {
+      "html": "TaoXYZuoAZWangJQEffect of primary ovarian insufficiency and early natural menopause on mortality: a meta-analysisClimacteric191201627362657601210.3109/13697137.2015.1094784"
+    },
+    {
+      "html": "SubramanyaVZhaoDOuyangPAssociation of endogenous sex hormone levels with coronary artery calcium progression among post-menopausal women in the Multi-Ethnic Study of Atherosclerosis (MESA)J Cardiovasc Comput Tomogr1312019414710.1016/j.jcct.2018.09.010PMC635994230297127"
+    },
+    {
+      "html": "ZhaoDGuallarEBallantyneCMSex Hormones and Incident Heart Failure in Men and Postmenopausal Women: The Atherosclerosis Risk in Communities StudyJ Clin Endocrinol Metab105102020e3798e380710.1210/clinem/dgaa500PMC745530632770207"
+    },
+    {
+      "html": "ThurstonRCAslanidou VlachosHEDerbyCAMenopausal Vasomotor Symptoms and Risk of Incident Cardiovascular Disease Events in SWANJ Am Heart Assoc1032021e01741610.1161/JAHA.120.017416PMC795544833470142"
+    },
+    {
+      "html": "MarmaAKBerryJDNingHDistribution of 10-year and lifetime predicted risks for cardiovascular disease in US adults: findings from the National Health and Nutrition Examination Survey 2003 to 2006Circ Cardiovasc Qual Outcomes3120108142012366610.1161/CIRCOUTCOMES.109.869727PMC3058791"
+    },
+    {
+      "html": "WilkinsJTNingHBerryJLifetime risk and years lived free of total cardiovascular diseaseJAMA308172012179518012311778010.1001/jama.2012.14312PMC3748966"
+    },
+    {
+      "html": "LeppertMHHoPMBurkeJYoung Women Had More Strokes Than Young Men in a Large, United States Claims SampleStroke51112020335233553294296610.1161/STROKEAHA.120.030803PMC7606353"
+    },
+    {
+      "html": "ElgendyIYNadeauSEBairey MerzCNMigraine Headache: An Under-Appreciated Risk Factor for Cardiovascular Disease in WomenJ Am Heart Assoc8222019e01454610.1161/JAHA.119.014546PMC691530131707945"
+    },
+    {
+      "html": "MarkovitzARStuartJJHornJDoes pregnancy complication history improve cardiovascular disease risk prediction? findings from the HUNT study in NorwayEur Heart J40142019111311203059698710.1093/eurheartj/ehy863PMC6451770"
+    },
+    {
+      "html": "MichosEDBlahaMJBlumenthalRS.Use of the coronary artery calcium score in discussion of initiation of statin therapy in primary preventionMayo Clin Proc92122017183118412910884010.1016/j.mayocp.2017.10.001"
+    },
+    {
+      "html": "BudoffMJYoungRBurkeGTen-year association of coronary artery calcium with atherosclerotic cardiovascular disease (ASCVD) events: the multi-ethnic study of atherosclerosis (MESA)Eur Heart J39252018240124082968829710.1093/eurheartj/ehy217PMC6030975"
+    },
+    {
+      "html": "KavousiMDesaiCSAyersCPrevalence and Prognostic Implications of Coronary Artery Calcification in Low-Risk Women: A Meta-analysisJAMA316202016212621342784664110.1001/jama.2016.17020"
+    },
+    {
+      "html": "LakoskiSGGreenlandPWongNDCoronary artery calcium scores and risk for cardiovascular events in women classified as &quot;low risk&quot; based on Framingham risk score: the multi-ethnic study of atherosclerosis (MESA)Arch Intern Med167222007243724421807116510.1001/archinte.167.22.2437"
+    },
+    {
+      "html": "ShawLJMinJKNasirKSex differences in calcified plaque and long-term cardiovascular mortality: observations from the CAC ConsortiumEur Heart J39412018372737353021285710.1093/eurheartj/ehy534PMC6209852"
+    },
+    {
+      "html": "WongNDCordola HsuARRozanskiASex Differences in Coronary Artery Calcium and Mortality From Coronary Heart Disease, Cardiovascular Disease, and All Causes in Adults With Diabetes: The Coronary Calcium ConsortiumDiabetes Care43102020259726063281699610.2337/dc20-0166PMC8051260"
+    },
+    {
+      "html": "Standards for Maintaining, Collecting, and Presenting Federal Data on Race and Ethnicity |March 31, 2021U.S. Department of the Interior (doi.gov)Accessed"
+    },
+    {
+      "html": "FlanaginAFreyTChristiansenSLBauchnerH.The Reporting of Race and Ethnicity in Medical and Science Journals: Comments InvitedJAMA325112021104910523361660410.1001/jama.2021.2104"
+    },
+    {
+      "html": "KochanekKDNational Vital Statistic Report689201932501199"
+    },
+    {
+      "html": "ViraniSSAlonsoAAparicioHJAmerican heart association council on epidemiology and prevention statistics committee and stroke statistics subcommittee. heart disease and stroke statistics-2021 update: a report From theAm Heart Assoc Circul14382021 Feb 23e254e74310.1161/CIR.0000000000000950PMC1303684233501848"
+    },
+    {
+      "html": "AndersonKMOdellPMWilsonPWFKannelWB.Cardiovascular disease risk profilesAm Heart J1211991293298198538510.1016/0002-8703(91)90861-b"
+    },
+    {
+      "html": "WilsonPWFCastelliWPKannelWB.Coronary risk prediction in adults (The Framingham Heart Study)Am J Cardiol5914198710.1016/0002-9149(87)90165-23591674"
+    },
+    {
+      "html": "D&#x27;AgostinoRBSr.GrundySSullivanLMWilsonPValidation of the Framingham coronary heart disease prediction scores: Results of a multiple ethnic groups investigationJAMA286220011801871144828110.1001/jama.286.2.180"
+    },
+    {
+      "html": "AnderssonCNayorMTsaoCWLevyDVasanRS.Framingham Heart StudyJ Am Coll Cardiol77212021268026923404502610.1016/j.jacc.2021.01.059"
+    },
+    {
+      "html": "ColantonioLDBittnerVReynoldsKAssociation of Serum Lipids and Coronary Heart Disease in Contemporary Observational StudiesCirculation133320162562642665994810.1161/CIRCULATIONAHA.115.011646PMC4718875"
+    },
+    {
+      "html": "FoxERSamdarshiTEMusaniSKDevelopment and Validation of Risk Prediction Models for Cardiovascular Events in Black Adults: The Jackson Heart Study CohortJAMA Cardiol11201615252743764910.1001/jamacardio.2015.0300PMC5115626"
+    },
+    {
+      "html": "RodriguezFChungSBlumMRCouletABasuSPalaniappanLP.Atherosclerotic Cardiovascular Disease Risk Prediction in Disaggregated Asian and Hispanic Subgroups Using Electronic Health RecordsJ Am Heart Assoc8142019e01187410.1161/JAHA.118.011874PMC666214131291803"
+    },
+    {
+      "html": "Flores RosarioKMehtaAAyersCPerformance of the Pooled Cohort Equations in Hispanic Individuals Across the United States: Insights From the Multi-Ethnic Study of Atherosclerosis and the Dallas Heart StudyJ Am Heart Assoc109202110.1161/JAHA.120.018410PMC820075033870702"
+    },
+    {
+      "html": "VirtanenMNybergSTBattyGDPerceived job insecurity as a risk factor for incident coronary heart disease: systematic review and meta-analysisBMJ3472013f47462392989410.1136/bmj.f4746PMC3738256"
+    },
+    {
+      "html": "KivimakiMNybergSTBattyGDJob strain as a risk factor for coronary heart disease: a collaborative meta-analysis of individual participant dataLancet38098522012149114972298190310.1016/S0140-6736(12)60994-5PMC3486012"
+    },
+    {
+      "html": "KivimakiMJokelaMNybergSTLong working hours and risk of coronary heart disease and stroke: a systematic review and meta-analysis of published and unpublished data for 603,838 individualsLancet386100052015173917462629882210.1016/S0140-6736(15)60295-1"
+    },
+    {
+      "html": "Hippisley-CoxJCouplandCRobsonJBrindleP.QRISK2 validation by ethnic groupHeart100520144362440277010.1136/heartjnl-2013-305355"
+    },
+    {
+      "html": "MehtaAViraniSSAyersCRLipoprotein(a) and Family History Predict Cardiovascular Disease RiskJ Am Coll Cardiol76720207817933279207510.1016/j.jacc.2020.06.040"
+    },
+    {
+      "html": "MakshoodMJoshiPHKanayaAMLipoprotein (a) and aortic valve calcium in South Asians compared to other race/ethnic groupsAtherosclerosis313202014193300275010.1016/j.atherosclerosis.2020.09.010PMC8247632"
+    },
+    {
+      "html": "VolgmanASPalaniappanLSAggarwalNTAtherosclerotic Cardiovascular Disease in South Asians in the United States: Epidemiology, Risk Factors, and Treatments: A Scientific Statement From theAmerican Heart Association. Circulation.1381201810.1161/CIR.000000000000058029794080"
+    },
+    {
+      "html": "QRISK2-2017July 5, 2021<a href=\"https://qrisk.org/2017/\">https://qrisk.org/2017/</a>Accessed"
+    },
+    {
+      "html": "BrindlePMayMGillPPrimary prevention of cardiovascular disease: a web-based risk score for seven British black and minority ethnic groupsHeartNovember 2006<a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1861244/\">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1861244/</a>PublishedAccessed July 5, 202110.1136/hrt.2006.092346PMC186124416762981"
+    },
+    {
+      "html": "BlahaMJDeFilippisAP.Multi-Ethnic Study of Atherosclerosis (MESA)J Am Coll Cardiol77252021319532163416764510.1016/S0735-1097(21)04550-2PMC8091185"
+    },
+    {
+      "html": "OkwuosaTMSolimanEZLopezFWilliamsKAAlonsoAFerdinandKC.Left ventricular hypertrophy and cardiovascular disease risk prediction and reclassification in blacks and whites: The Atherosclerosis Risk in Communities StudyAm Heart J1691201510.1016/j.ahj.2014.09.013PMC426925525497261"
+    },
+    {
+      "html": "FerdinandKCMarabotoC.Is Electrocardiography-Left Ventricular Hypertrophy an Obsolete Marker for Determining Heart Failure Risk With Hypertension?J Am Heart Assoc88201910.1161/JAHA.119.012457PMC650721030943801"
+    },
+    {
+      "html": "NasirKShawLJLiuSTEthnic differences in the prognostic value of coronary artery calcification for all-cause mortalityJ Am Coll Cardiol501020079539601776512210.1016/j.jacc.2007.03.066"
+    },
+    {
+      "html": "DetranoRGuerciADCarrJJCoronary calcium as a predictor of coronary events in four racial or ethnic groupsN Engl J Med358132008133613451836773610.1056/NEJMoa072100"
+    },
+    {
+      "html": "FrankATZhaoBJosePOAzarKMFortmannSPPalaniappanLP.Racial/ethnic differences in dyslipidemia patternsCirculation12920145705792419280110.1161/CIRCULATIONAHA.113.005757PMC4212818"
+    },
+    {
+      "html": "ManjunathLChungSLiJShahHPalaniappanLYongCM.Heterogeneity of Treatment and Outcomes Among Asians With Coronary Artery Disease in the United StatesJ Am Heart Assoc910202010.1161/JAHA.119.014362PMC766086932390539"
+    },
+    {
+      "html": "Centers for Disease Control and Prevention. Minority HealthAmerican Indian and Alaska Native PopulationsApril 4, 2021Available at:<a href=\"http://www.cdc.gov/minorityhealth/populations/REMP/aian.html\">www.cdc.gov/minorityhealth/populations/REMP/aian.html</a>Accessed"
+    },
+    {
+      "html": "Products - Data Briefs - Number 372- August 2020August 6, 2020Centers for Disease Control and Prevention<a href=\"https://www.cdc.gov/nchs/products/databriefs/db372.htm\">https://www.cdc.gov/nchs/products/databriefs/db372.htm</a> Published Accessed April 22, 2021"
+    },
+    {
+      "html": "KhotUNKhotMBBajzerCTPrevalence of conventional risk factors in patients with coronary heart diseaseJAMA290720038989041292846610.1001/jama.290.7.898"
+    },
+    {
+      "html": "RedbergRFVogelRACriquiMHHerringtonDMLimaJARomanMJ.34th Bethesda Conference: Task force #3–What is the spectrum of current and emerging techniques for the noninvasive measurement of atherosclerosis?J Am Coll Cardiol41112003188618981279855510.1016/s0735-1097(03)00360-7"
+    },
+    {
+      "html": "HiattWR.Medical treatment of peripheral arterial disease and claudicationN Engl J Med344212001160816211137201410.1056/NEJM200105243442108"
+    },
+    {
+      "html": "WeatherleyBDNelsonJJHeissGChamblessLESharrettARNietoFJThe association of the ankle-brachial index with incident coronary heart disease: the Atherosclerosis Risk In Communities (ARIC) study, 1987–2001BMC Cardiovasc Disord7200731722758610.1186/1471-2261-7-3PMC1784111"
+    },
+    {
+      "html": "NewmanABSiscovickDSManolioTAPolakJFriedLPBorhaniNOAnkle-arm index as a marker of atherosclerosis in the Cardiovascular Health StudyCirculation881993837845835391310.1161/01.cir.88.3.837"
+    },
+    {
+      "html": "MoyerVAU.S. Preventive Services Task ForceScreening for peripheral artery disease and cardiovascular disease risk assessment with the ankle-brachial index in adults: U.S. Preventive Services Task Force recommendation statementAnn Intern Med15920133423482402632010.7326/0003-4819-159-5-201309030-00008"
+    },
+    {
+      "html": "FowkesFGMurrayGDButcherIAnkle Brachial Index Collaboration. Ankle brachial index combined with Framingham Risk Score to predict cardiovascular events and mortality: a meta-analysisJAMA300220081972081861211710.1001/jama.300.2.197PMC2932628"
+    },
+    {
+      "html": "YeboahJMcClellandRMPolonskyTSComparison of Novel Risk Markers for Improvement in Cardiovascular Risk Assessment in Intermediate-Risk IndividualsJAMA308820127887952291075610.1001/jama.2012.9624PMC4141475"
+    },
+    {
+      "html": "GoffDCJrLloyd-JonesDMBennettG2013 ACC/AHA guideline on the assessment of cardiovascular risk: a report of the American College of Cardiology/American Heart Association Task Force on Practice GuidelinesJ Am Coll Cardiol6325 Pt B2014293529592423992110.1016/j.jacc.2013.11.005PMC4700825"
+    },
+    {
+      "html": "GepnerADYoungRDelaneyJAComparison of coronary artery calcium presence, carotid plaque presence, and carotid intima-media thickness for cardiovascular disease prediction in the multi-ethnic study of atherosclerosisCirc Cardiovasc Imaging81201510.1161/CIRCIMAGING.114.002262PMC429991625596139"
+    },
+    {
+      "html": "NambiVChamblessLFolsomARCarotid intima-media thickness and presence or absence of plaque improves prediction of coronary heart disease risk: the ARIC (Atherosclerosis Risk In Communities) studyJ Am Coll Cardiol55152010160016072037807810.1016/j.jacc.2009.11.075PMC2862308"
+    },
+    {
+      "html": "VisserenFLJMachFSmuldersYMESC Scientific Document Group; ESC National Cardiac Societies. 2021 ESC Guidelines on cardiovascular disease prevention in clinical practiceEur Heart J42342021322733373445890510.1093/eurheartj/ehab484"
+    },
+    {
+      "html": "PostleyJELuoYWongNDGardinJM.Identification by ultrasound evaluation of the carotid and femoral arteries of high-risk subjects missed by three validated cardiovascular disease risk algorithmsAm J Cardiol116102015161716232643451110.1016/j.amjcard.2015.08.031"
+    },
+    {
+      "html": "AhmadiNNabaviVNuguriVLow fingertip temperature rebound measured by digital thermal monitoring strongly correlates with the presence and extent of coronary artery disease diagnosed by 64-slice multi-detector computed tomographyInt J Cardiovasc Imaging25720097257381963400110.1007/s10554-009-9476-8PMC2729419"
+    },
+    {
+      "html": "GreenlandPBlahaMJBudoffMJErbelRWatsonKE.Coronary Calcium Score and Cardiovascular RiskJ Am Coll Cardiol72420184344473002558010.1016/j.jacc.2018.05.027PMC6056023"
+    },
+    {
+      "html": "GolubILakshmananSDahalSBudoffMJ.Utilizing coronary artery calcium to guide statin useAtherosclerosis326202117243400056510.1016/j.atherosclerosis.2021.04.011"
+    },
+    {
+      "html": "Al RifaiMBlahaMJNambiVDeterminants of Incident Atherosclerotic Cardiovascular Disease Events Among Those With Absent Coronary Artery Calcium: Multi-Ethnic Study of AtherosclerosisCirculation145420222592673487921810.1161/CIRCULATIONAHA.121.056705PMC8792296"
+    },
+    {
+      "html": "MahaseE.US taskforce advises against low dose aspirin for primary prevention of cardiovascular diseaseBMJ3752021n25213464991810.1136/bmj.n2521"
+    },
+    {
+      "html": "MiedemaMDDuprezDAMisialekJRUse of Coronary Artery Calcium Testing to Guide Aspirin Utilization for Primary Prevention: Estimates From the Multi-Ethnic Study of AtherosclerosisCirc Cardiovasc Qual Outcomes7320144534602480347210.1161/CIRCOUTCOMES.113.000690PMC4412344"
+    },
+    {
+      "html": "MichosEDBlahaMJBlumenthalRS.Use of the Coronary Artery Calcium Score in Discussion of Initiation of Statin Therapy in Primary PreventionMayo Clin Proc92122017183118412910884010.1016/j.mayocp.2017.10.001"
+    },
+    {
+      "html": "MalikSBudoffMJKatzRImpact of subclinical atherosclerosis on cardiovascular disease events in individuals with metabolic syndrome and diabetes: the multi-ethnic study of atherosclerosisDiabetes Care34102011228522902184428910.2337/dc11-0816PMC3177707"
+    },
+    {
+      "html": "MortensenMBBlahaMJ.Is There a Role of Coronary CTA in Primary Prevention? Current State and Future DirectionsCurr Atheroscler Rep2382021443414616010.1007/s11883-021-00943-2"
+    },
+    {
+      "html": "BudoffMJLakshmananSTothPPCardiac CT angiography in current practice: An American society for preventive cardiology clinical practice statementAm J Prev Cardiol9202210031810.1016/j.ajpc.2022.100318PMC880283835146468"
+    },
+    {
+      "html": "MulcahyRHickeyNGrahamIMcKenzieGFactors influencing long-term prognosis in male patients surviving a first coronary attackBr Heart J37197415816510.1136/hrt.37.2.158PMC4840961122271"
+    },
+    {
+      "html": "ColantonioLDShannonEDOrrothKKIschemic Event Rates in Very-High-Risk AdultsJ Am Coll Cardiol74202019249625073172728810.1016/j.jacc.2019.09.025"
+    },
+    {
+      "html": "Vallejo-VazAJRayKKGinsbergHNAssociations between lower levels of low-density lipoprotein cholesterol and cardiovascular events in very high-risk patients: Pooled analysis of nine ODYSSEY trials of alirocumab versus controlAtherosclerosis288201985933134908610.1016/j.atherosclerosis.2019.07.008"
+    },
+    {
+      "html": "PiepoliMFHoesAWAgewallS2016 European Guidelines on cardiovascular disease prevention in clinical practice: The Sixth Joint Task Force of the European Society of Cardiology and Other Societies on Cardiovascular Disease Prevention in Clinical PracticeEur Heart J372016231523812722259110.1093/eurheartj/ehw106PMC4986030"
+    },
+    {
+      "html": "MachFBaigentCCatapanoALKoskinasKCCasulaMBadimonL2019 ESC/EAS Guidelines for the management of dyslipidaemias: lipid modification to reduce cardiovascular risk. The Task Force for the management of dyslipidaemias of the European Society of Cardiology (ESC) and European Atherosclerosis Society (EAS)Eur Heart J4120201111883150441810.1093/eurheartj/ehz455"
+    },
+    {
+      "html": "ViraniSSSmithSCStoneNJGrundySMSecondary Prevention for Atherosclerotic Cardiovascular Disease. Comparing Recent US and European Guidelines on DyslipidemiaCirculation1412020112111233225069410.1161/CIRCULATIONAHA.119.044282"
+    },
+    {
+      "html": "KotsevaKDe BackerGDe BacquerDon behalf of the EUROASPIRE Investigators. Lifestyle and impact on cardiovascular risk factor control in coronary patients across 27 countries: results from the European Society of Cardiology ESC-EORP EUROASPIRE V registryEur J Prev Cardiol2620198248353073950810.1177/2047487318825350"
+    },
+    {
+      "html": "ZhaoMMarie CooneyMTKlipstein-GrobuschKSimplifying the audit of risk factor recording and control: A report from an international study in 11 countriesEur J Prev Cardiol232016120212102711836210.1177/2047487316647827"
+    },
+    {
+      "html": "KarlsonBWWiklundOPalmerMKNichollsSJLundmanPBarterPJ.Variability of low-density lipoprotein cholesterol response with different doses of atorvastatin, rosuvastatin, and simvastatin: results from VOYAGEREur Heart J Cardiovasc Pharmacother220162122172753394710.1093/ehjcvp/pvw006"
+    },
+    {
+      "html": "De BacquerDUedaPReinerZfor the EUROASPIRE IV and V National Coordinators. Prediction of recurrent event in patients with coronary heart disease: the EUROASPIRE Risk Model- Results from a prospective study in 27 countries in the WHO European region - The EURObservational Research Programme (EORP) of the European Society of Cardiology (ESC)Eur J Prev Cardiol322020"
+    },
+    {
+      "html": "DorresteijnJANVisserenFLJWassinkAMJon behalf of the SMART Study Group. Development and validation of a prediction rule for recurrent vascular events based on a cohort study of patients with arterial disease: the SMART risk scoreHeart9920138668722357497110.1136/heartjnl-2013-303640"
+    },
+    {
+      "html": "WilsonPWFD&#x27;AgostinoRBhattDLRegistryREACHAn international model to predict recurrent cardio- vascular diseaseAm J Med12520126957032272723710.1016/j.amjmed.2012.01.014"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

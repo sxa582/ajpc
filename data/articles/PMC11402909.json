@@ -1,0 +1,485 @@
+{
+  "pmcid": "PMC11402909",
+  "pmid": "39286651",
+  "doi": "10.1016/j.ajpc.2024.100726",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11402909/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Real-world impact of transitioning from one lipoprotein(a) assay to another in a clinical setting",
+  "articleType": "Research Article",
+  "published": "2024-08-25",
+  "year": "2024",
+  "volume": "19",
+  "issue": "",
+  "articleNumber": "100726",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2024",
+  "authors": [
+    {
+      "given": "Janeni",
+      "surname": "Jeevanathan",
+      "display": "Janeni Jeevanathan"
+    },
+    {
+      "given": "Sigrid M.",
+      "surname": "Blom",
+      "display": "Sigrid M. Blom"
+    },
+    {
+      "given": "Thomas",
+      "surname": "Olsen",
+      "display": "Thomas Olsen"
+    },
+    {
+      "given": "Kirsten B.",
+      "surname": "Holven",
+      "display": "Kirsten B. Holven"
+    },
+    {
+      "given": "Erik K.",
+      "surname": "Arnesen",
+      "display": "Erik K. Arnesen"
+    },
+    {
+      "given": "Torleif",
+      "surname": "Trydal",
+      "display": "Torleif Trydal"
+    },
+    {
+      "given": "Børge G.",
+      "surname": "Nordestgaard",
+      "display": "Børge G. Nordestgaard"
+    },
+    {
+      "given": "Michael",
+      "surname": "Sovershaev",
+      "display": "Michael Sovershaev"
+    },
+    {
+      "given": "Ying",
+      "surname": "Chen",
+      "display": "Ying Chen"
+    },
+    {
+      "given": "Kjetil",
+      "surname": "Retterstøl",
+      "display": "Kjetil Retterstøl"
+    },
+    {
+      "given": "Jacob J.",
+      "surname": "Christensen",
+      "display": "Jacob J. Christensen"
+    }
+  ],
+  "affiliations": [
+    "aDepartment of Nutrition, Institute of Basic Medical Sciences, University of Oslo, P.O. Box 1046 Blindern, 0317, Oslo, Norway",
+    "bNovartis Norway AS, Nydalen alle 37, 0484, Oslo, Norway",
+    "cNorwegian National Advisory Unit on Familial Hypercholesterolemia, Department of Endocrinology, Morbid Obesity and Preventive Medicine, Oslo University Hospital Aker, P.O. Box 4959 Nydalen, 0424, Oslo, Norway",
+    "dDepartment of Clinical Research, Sørlandet Hospital, SSHF, P.O. Box 416 Lundsiden, 4604, Kristiansand, Norway",
+    "eThe Department of Clinical Biochemistry, Herlev and Gentofte Hospital, Copenhagen University Hospital, Borgmester Ib Juuls Vej 73, opgang 7, 2730, Herlev, Denmark",
+    "fDepartment of Clinical Medicine, Faculty of Health and Medical Sciences, University of Copenhagen, Blegdamsvej 3B, 2200 Copenhagen N, Denmark",
+    "gFürst Medical Laboratory, P. O. Box 158 Alnabru, 0614, Oslo, Norway",
+    "hOslo Metropolitan University, P. O. Box 4, Norway",
+    "iThe Lipid Clinic, Department of Endocrinology, Morbid Obesity and Preventive Medicine, Oslo University Hospital Aker, P. O. Box 4959 Nydalen, 0424, Oslo, Norway"
+  ],
+  "keywords": [
+    "Lipids",
+    "Lipoprotein(a)",
+    "Lipoprotein(a) assay"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Background and aims:</strong> Different lipoprotein(a) [Lp(a)] assays may affect risk stratification of individuals and thus clinical decision-making. We aimed to investigate how transitioning between Lp(a) assays at a large central laboratory affected the proportion of individuals with Lp(a) result above clinical thresholds."
+    },
+    {
+      "html": "<strong>Methods:</strong> We studied nationwide clinical laboratory data including 185,493 unique individuals (47.7 % women) aged 18-50 years with 272,463 Lp(a) measurements using Roche (2000-2009) and Siemens Lp(a) assay (2009-2019)."
+    },
+    {
+      "html": "<strong>Results:</strong> While the majority of individuals (66-75 %) had low levels of Lp(a) (&lt;30 mg/dL) independent of the assay used, the Roche assay detected 20 % more individuals with Lp(a) &gt;50 mg/dL, 40 % more individuals with Lp(a) &gt;100 mg/dL and 80 % more individuals with Lp(a) &gt; 180 mg/dL than the currently used Siemens assay, likely due to calibration differences."
+    },
+    {
+      "html": "<strong>Conclusion:</strong> Transitioning from one Lp(a) immunoassay to another had significant impact on Lp(a) results, particularly in individuals approaching clinically relevant Lp(a) thresholds."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Lipoprotein(a) [Lp(a)] is an apoB-containing low-density lipoprotein (LDL) particle with the glycoprotein apolipoprotein(a) [apo(a)] attached by a disulfide bond [1]. There is strong evidence for the role of high levels of Lp(a) as an independent and causal risk factor for atherosclerotic cardiovascular diseases (ASCVD) [2]."
+        },
+        {
+          "type": "paragraph",
+          "html": "The genetic polymorphism which determines the composition of apo(a) makes it difficult to accurately measure Lp(a) levels [3]. Different assays have been used to analyze Lp(a) over time, and a secondary reference material was developed to assist in standardization of commercial Lp(a) assays, but this is unfortunately no longer available [3,4]. Despite these efforts, there is no gold standard immunoassay for measuring Lp(a) as of today. A few studies have evaluated the performance characteristics of Lp(a) assays and observed significant differences across assays [5,6]. Such findings might be due to the high degree of heterogeneity in size and composition of Lp(a), causing isoform-dependent bias and inaccurate calibrators [7]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Measuring Lp(a) is recommended by numerous clinical guidelines [8,9] and a consensus statement from the European Atherosclerosis Society states that “Lp(a) should be measured at least once in adults to identify those with high cardiovascular risk” [2]. However, there is a lack of studies on the clinical consequences of the use of different assays for measuring Lp(a)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Given that Lp(a) levels are determined mainly by genetics, it has been commonly believed that measuring Lp(a) once in a lifetime is sufficient; implicitly, even if conducted using a different assay many years ago. The initial measurement of an individual might have been conducted using an assay which is no longer commercially available. Nevertheless, it is likely that clinicians would consider historic Lp(a) measurements in risk prediction and therapeutic decision-making, and they are thus still clinically relevant."
+        },
+        {
+          "type": "paragraph",
+          "html": "Emerging new medications to lower Lp(a), along with the growing understanding of the risks associated with high Lp(a) levels, will likely lead to a substantial increase in Lp(a) measurements. Consequently, real-world data on the variability between major commercially used methods is important for evaluating whether an individual may benefit clinically from lowering Lp(a)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Using the coefficient of variation (CV) to express uncertainty poses significant challenges when measured values vary by more than 100-fold from the lowest to the highest. Additionally, a major proportion of the population (75 %) has low Lp(a) values [[10], [11], [12]] where even large measurement uncertainties have no clinical consequence. However, for individuals with high Lp(a) values, the opposite is true. The outdated perspective that Lp(a) values are simply low or high overlooks the crucial differences in risk associated with varying levels of elevated Lp(a)."
+        },
+        {
+          "type": "paragraph",
+          "html": "In the high range of Lp(a) values, there is a significant disparity in risk between those with moderately elevated levels, which increase risk by 25 %, and those with significantly elevated levels, which can increase risk by two-fold or more [2]. In this high range, it is likely that specific cut-off values will be established based on cost-benefit analyses and the willingness to pay for new selective Lp(a)-reducing drugs. Hence, it is important to evaluate the variation both within new measurement methods and to explore the variation that occur when transitioning from an old method to a new one in a real-world situation."
+        },
+        {
+          "type": "paragraph",
+          "html": "Therefore, in the present study, using 272,463 Lp(a) measurements between 2000-2019 from the largest medical laboratory in Norway, we aimed to assess the real-world impact of transitioning between two different Lp(a) immunoassays. By focusing on the real-world impact, we sought to provide a nuanced understanding of how changes in assay methodology influence Lp(a) measurements and consequently patient management, notably in large cohorts in a clinical setting."
+        }
+      ]
+    },
+    {
+      "title": "Materials and methods",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Study population",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The data was retrieved from the clinical laboratory database at Fürst Medical Laboratory (Fürst), the largest medical laboratory in Norway, covering most of the country with a preponderance of the south-eastern part. Fürst analyzes serum samples that are mainly ordered by general practitioners from the primary healthcare. The costs of Lp(a) measurements are covered by the health system financed by public service reimbursement, meaning that there is no financial bias regarding whether or not an individual receives Lp(a) measurement. For the present study, we included 185,493 unique individuals with 272,463 Lp(a) measurements between 2000 and 2019. Over 95 % of the serum Lp(a) measurements were analyzed within 24 h after sample collection, and the rest were analyzed within 3 days, aimed at keeping the specimens at 2-8 <sup>°</sup>C. Because some lipid-lowering drugs can modestly alter plasma Lp(a) [13], the data material was restricted to individuals ≤50 years of age where fewer than 5 % use lipid-lowering drugs according to the Norwegian Prescription Database (Figure S1). Also, at this age cardiovascular disease and early death are unlikely to have prevented those with very high Lp(a) levels in getting a measurement."
+        },
+        {
+          "type": "paragraph",
+          "html": "The measurement is mainly carried out as part of a general health examination or on clinical indication. Therefore, it was important to assess whether this introduced significant bias in the clinical laboratory database at Fürst Medical Laboratory compared to the general population. There are no national data on the level of serum lipids in Norway; however, we compared the mean total cholesterol levels of the individuals within the study database with age and sex-adjusted participants from two large Norwegian population-based studies, the Trøndelag Health Study (HUNT) and Tromsø study, covering the same time period and geographical area as the Fürst database. Total cholesterol levels were slightly higher in the study database compared to HUNT, but were similar to the Tromsø study when considering the confidence intervals (5.0 mmol/L in the Tromsø study and 5.3 mmol/L (95 % confidence interval (CI): 4.8-5.8) in the study database in Northern Norway in women, and 5.4 and 5.8 mmol/L (95 % CI: 5.2-6.3) in men, respectively (Table S1). This implies that the study database is not much biased towards high cardiovascular risk individuals. With a distribution of Lp(a) resembling that in the Copenhagen General Population Study and the UK Biobank [12,14], our database seems to be representative for the general population with respect to Lp(a)."
+        }
+      ]
+    },
+    {
+      "title": "Measurement of Lp(a) and other biochemical variables",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Lp(a) was analyzed by two differently calibrated assays throughout the period. From January 2000 to September 2009, the analyses were done by particle-enhanced immunoturbidimetric assay Lipoprotein(a) (Tina-quant) as provided by Roche Diagnostics (generation 1) (Mannheim, Germany) traceable to a highly purified Lp(a), the in-house master calibrator, on Modular P analyzer. From September 2009 to June 2018, the analyses were done by particle-enhanced immunoturbidimetric assay Lipoprotein(a) (LPA) as provided by Siemens Healthineers (Forchheim, Germany) traceable to an internal standard, on Advia 2400 Chemistry instrument. From June 2018 to December 2019 the Siemens assay were run on Advia Chemistry XPT instrument. The Siemens Lp(a) reagent was a Randox reagent traceable to the reference material WHO/IFCC SRM 2B. The method evaluation by the laboratory September 2009 found that the Siemens LPA assay had 50.6 % and 62.9 % lower values compared to the Roche assay at the levels of respectively 20 mg/dL and 80 mg/dL measured in 30 patient samples."
+        },
+        {
+          "type": "paragraph",
+          "html": "During the period, adjustments of the measurement intervals were performed. Measuring interval in 2000-2009 was 6.0-354 mg/dL. Measuring intervals in 2009-2016, 2016-2018 and 2018-2019 were 2.5-90 mg/dL, 10-85 mg/dL and 10-340 mg/dL, respectively. External quality assessment (EQA) from Labquality Helsinki, Finland, was performed throughout the period."
+        },
+        {
+          "type": "paragraph",
+          "html": "Other clinical chemistries included in Table 1 were measured simultaneously with the measurement of Lp(a) at Fürst Medical Laboratory in some of the individuals. The laboratory was accredited according to NS-EN ISO 15189 using published clinical chemistry methods. Some clinical chemistry methods were first introduced during the period of the study (2000-2019). Estimated Glomerular Filtration Rate (eGFR) was calculated from the 2009 CKD-EPI equation [15] using the isotope dilution mass spectrometry (IDMS)-traceable methods for the creatinine measurements, initially with the compensated Jaffe and later with an enzymatic assay.Table 1Patient characteristics of the study cohort based on biochemical variables measured in serum samples.Table 1:Lipoprotein(a) decileNPatient Characteristics≤70th, N = 132,09270th - 80th, N = 18,40080th - 90th, N = 17,872≥90th, N = 16,566Lipoprotein(a) mg/dL184,93010 (6, 15)39 (34, 44)62 (56, 69)90 (85, 112)Sex184,930 Men69,910 (53 %)9,102 (49 %)9,348 (52 %)8,495 (51 %) Women62,182 (47 %)9,298 (51 %)8,524 (48 %)8,071 (49 %)Age, years184,93039 (31, 45)39 (31, 45)39 (31, 45)40 (32, 45)Triglycerides mmol/L111,4171.21 (0.84, 1.85)1.17 (0.83, 1.75)1.20 (0.84, 1.78)1.23 (0.88, 1.82)Cholesterol mmol/L173,5805.10 (4.40, 5.90)5.20 (4.50, 6.00)5.30 (4.60, 6.00)5.60 (4.90, 6.40)LDL-C mmol/L163,2753.18 (2.55, 3.90)3.27 (2.64, 3.99)3.36 (2.74, 4.05)3.61 (2.96, 4.32)LDL-C-corr mmol/L163,2753.09 (2.46, 3.81)2.98 (2.36, 3.70)2.89 (2.29, 3.60)2.83 (2.19, 3.55)HDL-C mmol/L173,3831.31 (1.09, 1.59)1.31 (1.09, 1.60)1.32 (1.10, 1.60)1.34 (1.13, 1.61)Apolipoprotein A1 g/L33,7591.50 (1.35, 1.67)1.50 (1.35, 1.68)1.50 (1.35, 1.69)1.54 (1.39, 1.71)Apolipoprotein B g/L33,8781.00 (0.83, 1.19)1.03 (0.87, 1.23)1.08 (0.91, 1.27)1.18 (1.00, 1.37)HbA1c %52,8995.30 (5.10, 5.60)5.30 (5.10, 5.60)5.30 (5.10, 5.60)5.35 (5.10, 5.60)Glucose mmol/L54,4755.00 (4.60, 5.40)4.90 (4.60, 5.30)4.90 (4.60, 5.30)5.00 (4.60, 5.40)Creatinine µmol/L141,02975 (65, 85)75 (65, 86)76 (66, 86)76 (66, 87)eGFR mL/min/1.73m<sup>2</sup>141,02978 (61, 93)74 (60, 92)78 (61, 93)76 (61, 93)TSH mU/L136,2061.47 (1.04, 2.04)1.46 (1.03, 2.05)1.48 (1.06, 2.04)1.47 (1.06, 2.05)Aspartate aminotransferase U/L97,73722 (18, 28)22 (18, 28)22 (18, 28)23 (18, 28)Alanine aminotransferase U/L132,77025 (18, 37)24 (18, 36)25 (18, 36)25 (18, 36)Gamma-glutamyl transferase U/L95,70121 (14, 35)20 (14, 34)21 (14, 34)22 (15, 36)Vitamin D nmol/L57,65962 (44, 80)58 (40, 77)61 (44, 81)62 (45, 80)Vitamin B12 pmol/L108,926304 (247, 380)307 (248, 386)306 (248, 382)309 (250, 383)Folate nmol/L80,91914 (10, 20)14 (10, 20)14 (10, 20)14 (10, 20)Homocysteine µmol/L43,18610.4 (8.4, 12.9)10.2 (8.2, 12.6)10.3 (8.3, 12.7)10.3 (8.3, 12.8)Methylmalonic acid µmol/L21,5440.15 (0.12, 0.18)0.14 (0.11, 0.18)0.14 (0.12, 0.18)0.15 (0.12, 0.19)C-reactive protein high sensitivity mg/L31,1721.0 (1.0, 3.0)1.0 (1.0, 3.0)1.0 (1.0, 3.0)1.0 (1.0, 3.0)Sedimentation rate mm6,4614 (2, 8)4 (2, 10)5 (2, 10)4 (1, 10)Carbohydrate deficient transferrin %4,9020.80 (0.60, 1.20)0.80 (0.70, 1.50)0.80 (0.60, 1.30)0.90 (0.70, 1.60)Phosphatidylethanol µmol/L2320.11 (0.02, 0.40)0.09 (0.00, 0.20)0.24 (0.02, 0.41)0.18 (0.02, 0.75)Median (IQR); n (%).Phosphatidylethanol, HbA1c and sedimentation rate was measured in whole blood, and homocysteine was measured in plasma. The first Lp(a) measurement in each individual between 2000-2019 was included. Creatinine measurements were traceable to isotope dilution mass spectrometry (IDMS). eGFR was calculated from the 2009 CKD-EPI equation. Glucose was tested while fasting. LDL-C = low-density lipoprotein cholesterol; LDL-C-corr = low-density lipoprotein cholesterol corrected; HDL-C = high-density lipoprotein cholesterol; HbA1c = haemoglobin A1c; eGFR = estimated glomerular filtration rate; TSH = thyroid stimulating hormone; IQR = interquartile range."
+        }
+      ]
+    },
+    {
+      "title": "Study design and inclusion criteria",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Due to changes in assays and measurement interval in reported Lp(a)-values, analyses here are presented in two periods separately. Different time periods of the Siemens assay (2009–2019) were included for the different analyses. The periods 2000-2009 and 2018-2019 were compared to analyze the proportions of individuals with Lp(a) laboratory results above clinical decision-making thresholds (50 mg/dL, 100 mg/dL and 180 mg/dL). These time periods were included due to similar measurement intervals. Sensitivity analyses were performed in individuals with measurements analyzed by both assays in 2000–2009 and 2009–2019, analyzing the proportion of individuals with Lp(a) levels above the thresholds of 50 mg/dL and 85 mg/dL. Data from 2009–2019 (Siemens assay) was used to study the distribution of Lp(a) in the study population."
+        },
+        {
+          "type": "paragraph",
+          "html": "In individuals with multiple Lp(a) measurements between 2000–2019, the first measurement analyzed with each assay was included in the analysis."
+        }
+      ]
+    },
+    {
+      "title": "Statistical analyses",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We performed all data analyses in R version 4.2.3 [16] using RStudio (Boston, MA, USA, www.rstudio.com) and the tidyverse framework, including data cleaning, data manipulation, data modeling, and data visualization [17]. The ratio between the performance of the Roche and Siemens assay was calculated as %individuals&gt;Lp(a)thresholdin2000−2009%individuals&gt;Lp(a)thresholdin2018−2019."
+        }
+      ]
+    },
+    {
+      "title": "Ethics and data protection",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The project was approved by the Regional Committees for Medical and Health Research Ethics (REK) in Norway (ref. 2016/1693). The patient data was de-identified by Fürst Medical Laboratory in advance to transferring it to Service for sensitive data (TSD) at University of Oslo. In accordance with the EU General Data Protection Regulation, a data protection impact assessment (DPIA) was conducted and approved by the internal privacy protection deputy at the University of Oslo."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Patient characteristics of this study cohort with median age of 38.8 years (inter quartile range (IQR): 31.1-45.0) are shown in Table 1."
+        }
+      ]
+    },
+    {
+      "title": "Lp(a) levels in 2000 – 2019",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Percentiles of Lp(a) levels are shown in Fig. 1. The change of assay in analyzing Lp(a) and measuring interval in reporting Lp(a) levels, as described in the methods section, resulted in shift of all percentiles of Lp(a) levels. The Roche Tina-quant assay (generation 1) (2000-2009) and Siemens LPA assay (2009-2019) had median Lp(a) levels of 16.8 [IQR: 7.2-44.1] and 11.3 [IQR: 8.2-30.1] mg/dL, respectively. The 50<sup>th</sup>, 60<sup>th</sup>, 70<sup>th</sup>, 80<sup>th</sup> and 90<sup>th</sup> percentile of Lp(a) in each assay, and the difference in mg/dL and % between the Roche and Siemens assay in each percentile is shown in Table S2.Fig. 1Percentiles of Lp(a) levels in serum samples between 2000 – 2019. Date of Lp(a) measurement was cut into breaks of 30 days. Rolling average of 10<sup>th</sup>, 20<sup>th</sup>, 30<sup>th</sup>, 40<sup>th</sup>, 50<sup>th</sup> (median), 60<sup>th</sup>, 70<sup>th</sup>, 80<sup>th</sup> and 90<sup>th</sup> percentile of Lp(a) on log scale in each break was calculated. X-axis is date on continuous scale but breaks per year is shown here. Lp(a) values are on log scale, and the Y-axis has been back-transformed. Red arrows indicate the most important changes in the methods of analyzing Lp(a). Measuring interval in 2000-2009 was 6.0-354 mg/d, analyzed by the Roche Tina-quant assay. Measuring interval in 2009-2016, 2016-2018 and 2018-2019, analyzed by the Siemens Lipoprotein(a) assay, was 2.5-90 mg/dL, 10-85 mg/dL and 10-340 mg/dL, respectively. Lp(a) = lipoprotein(a).Fig 1:"
+        }
+      ]
+    },
+    {
+      "title": "Distribution of Lp(a) in a Norwegian cohort",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "74,989 individuals measured Lp(a) between 2000-2009 and 123,435 individuals measured Lp(a) between 2009-2019. In total, 22.3 % of the individuals measured between 2000-2009 and 16.2 % of the individuals measured between 2009-2019 had high levels of Lp(a) (Fig. 2), defined as &gt;50 mg/dL [11]. Women exhibited a slightly higher percentage of individuals with Lp(a) levels exceeding 50 mg/dL compared to men, with 22.6 % (N = 8,207) versus 22.1 % (N = 8,540) in the 2000-2009 period and 16.3 % (N = 9,451) versus 16.1 % (N = 10,556) in the 2009-19 period (results not shown).Fig. 2Distribution of Lp(a) in this Norwegian study cohort using common thresholds, where 50 mg/dL was determined as the 80<sup>th</sup> percentile in Caucasians (1). The graph is based on serum samples from 74,989 individuals between 2000-September 2009 and 123,435 individuals between September 2009-2019 from Fürst Medical Laboratory. Lp(a) = lipoprotein(a).Fig 2:"
+        }
+      ]
+    },
+    {
+      "title": "Impact of change in Lp(a) immunoassay on laboratory result",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The proportion of individuals with Lp(a) laboratory result above specific thresholds is shown in Table 2. The Roche assay detected 20-80 % more individuals with Lp(a) levels above the suggested clinical decision values 50 mg/dL, 100 mg/dL and 180 mg/dL, respectively, compared to the Siemens assay. The difference between the performance of the Roche and Siemens assay increased with higher Lp(a) levels. When repeating the analysis with data from 2000-2009 and 2009-2019 only for individuals that had measurements analyzed by both assays, the Roche assay detected 40 % more individuals with Lp(a) &gt;50 mg/dL than the Siemens assay (25 %, N = 3,373 vs. 18 %, N = 2,475) and 70 % more individuals with Lp(a) &gt;85 mg/dL than the Siemens assay (11 %, N = 1,478 vs. 7 %, N = 881) (Table S3).Table 2Proportion and number of individuals with Lp(a) laboratory result ≤ 50 mg/dL, &gt;50 mg/dL, &gt;100 mg/dL and &gt;180 mg/dL, and median (IQR) of Lp(a) in mg/dL.Table 2:Roche assaySiemens assayLp(a) threshold (mg/dL)% (N)Lp(a) (IQR)a% (N)Lp(a) (IQR)aRatiob≤ 5078 (58,242)11.9 (6-22.1)82 (15,931)10 (10-17)1.0&gt;5022 (16,747)79.1 (63.6-106.8)18 (3,590)77.2 (62.2-102.2)1.2&gt;1006.6 (4,932)128.3 (111.9-152.7)4.9 (965)120.8 (108.3-140.9)1.3&gt;1800.72 (543)204.8 (188.8-231.1)0.40 (78)199.6 (190.3-221.4)1.8Values in the respective groups in 2000-2009 (Roche assay, N = 74,989 individuals) and 2018 – 2019 (Siemens assay, N = 19,521) analyzed in serum samples.Lp(a) = lipoprotein(a). IQR = inter quartile range.aMedian (IQR) Lp(a) in mg/dL.bRatio calculated by % individuals below or above Lp(a) thresholds in measurements analyzed by the Roche assay, divided by % individuals below or above Lp(a) thresholds in measurements analyzed by the Siemens assay."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Differences in Lp(a) laboratory results between two immunoassays",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In this large real-world study, a main finding was that the change from one Lp(a) immunoassay to another, substantially influenced the number of individuals exceeding important clinical decision-making thresholds, with the highest difference at the very highest levels. The observed variations are probably due to differences in how the assays were calibrated [18]. Two studies comparing several commercially available Lp(a) immunoassays found large differences between the assays, also likely due to how the different assays are calibrated [5,6]. There is currently no gold standard material and method for immunoassays measuring Lp(a). Nevertheless, our findings shed light on how a change from one Lp(a) immunoassay to another can affect the laboratory results of an individual in a real-life setting, especially in those with Lp(a) levels close to a clinical decision-making threshold."
+        },
+        {
+          "type": "paragraph",
+          "html": "The challenges around developing Lp(a) assays that are reliable, precise and accurate have been extensively reviewed elsewhere [19]. Due to the remarkable size polymorphism of apo(a) and the high homology between the different KIV repeats, it is difficult to develop antibodies that recognizes only one epitope per Lp(a) particle. Since each individual carries two different isoforms with numerous possible combinations, the isoform composition in the blood sample often differs from the isoform composition in the standard curve, further complicating the accuracy of the assays [7]. The apo(a) size variability may cause an overestimation of Lp(a) concentration in individuals with large apo(a) isoforms associated with lower Lp(a) levels, and underestimation of Lp(a) concentration in individuals with small apo(a) isoforms associated with higher Lp(a) levels, and consequently a possible misclassification of cardiovascular risk [18,20]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Therefore, the 2022 EAS Consensus panel recommended that measurement of Lp(a) should be in molar units (nmol/L) if available [2]. Expressing Lp(a) concentration in mass units, ignores a potential mass difference between Lp(a) particles with varying KIV-2 repeats, post-translational modifications of apo(a) and apo B, and Lp(a) lipid content [21]. To ensure comparability between results obtained by different methods and laboratories, it is crucial to establish metrological traceability, and there are ongoing efforts to achieve this. A working group from the International Federation of Clinical Chemistry and Laboratory Medicine (IFCC) is developing a mass spectrometry-based Lp(a) reference measurement system (RMS), which is the first step towards metrological traceability. Mass spectrometry enables molecular characterization and accurate quantitation of apo(a) molar units, unaffected by apo(a) size polymorphism. Thereby, it has potential as a higher order measurement procedure, especially in reference laboratories [21]. This could provide the basis for in-vitro immunoassay manufacturers to transition from inaccurate mass units measurements to the development of commutable calibrators in molar units, independent of the provider [22]."
+        },
+        {
+          "type": "paragraph",
+          "html": "From a clinical point of view, there are noteworthy implications of being above or below a certain threshold. These thresholds are commonly employed in risk assessment, guiding decisions on initiating preventive treatments, and may influence the future introduction and coverage of Lp(a)-lowering treatments for patients surpassing specific thresholds."
+        },
+        {
+          "type": "paragraph",
+          "html": "Due to the strong genetic influence and stable nature of Lp(a) [2,3], most individuals likely undergo this measurement only once. In light of our findings, we suggest that clinicians consider re-measuring Lp(a) in patients with values close to clinically relevant thresholds if the last measurement was taken many years ago and using an older assay."
+        },
+        {
+          "type": "paragraph",
+          "html": "A provisional solution for the lack of standardization of Lp(a) assays today and the notable variations observed across different immunoassays, could involve establishing decision thresholds in clinical laboratories based on percentiles of their specific Lp(a) assay. Consensus statements by Nordestgaard et al. from 2016 and Kronenberg et al. from 2022 recommend that assay-specific thresholds should be defined and should represent ≥80<sup>th</sup> percentile of the specific Lp(a) assay [2,23]. Given the observed linear correlation between the rising concentration of Lp(a) and the estimated lifetime risk of major cardiovascular events, relying solely on one threshold, the 80th percentile estimate, appears imprecise. A value near the 80th percentile suggests an approximate 25 % heightened risk, whereas a value at the 99th percentile indicates a substantial 250 % increased estimated lifetime risk of major cardiovascular events [2]. Consequently, it is crucial to communicate risk assessments along an ordinal scale, not only dividing in low or high Lp(a) as commonly used in a historical view, applying greater precision of risk estimation with increasing elevated Lp(a) levels."
+        }
+      ]
+    },
+    {
+      "title": "Study strengths and limitations",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "An important strength of our study is the large sample-size of our cohort of 185,493 relatively young individuals, where 75,221 and 123,824 Lp(a) measurements were analyzed by the Roche and Siemens assays, respectively."
+        },
+        {
+          "type": "paragraph",
+          "html": "Another strength is that all Lp(a) measurements were analyzed in fresh serum samples. The majority of the measurements (95 %) were analyzed within 24 hours, and the remaining 5 % analyzed in less than 3 days. In 1996, Kronenberg et al., showed that measurement of Lp(a) in several-year-old frozen samples is likely to result in decay and underestimated Lp(a) concentrations. The decrease became larger with a decreasing number of kringle IV repeats of apo(a), having a larger effect on individuals with high Lp(a) levels [24]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Limitations include that the data material was retrieved from patients seeking health care for unknown reasons. This could include screening for lipid disorders, patients with known health conditions or general screening, and could result in confounding by indication in our database, compared to the general population. However, the distribution of Lp(a) in this Norwegian cohort, is similar to the distribution of Lp(a) in a random and representative sample of the Danish general population [12]. Additionally, the lipid profile in our database was similar to the data in a large Norwegian population-based study from the same period of time (Table S1). Therefore, Fürst Medical Laboratory&#x27;s large coverage of Lp(a) measurements in Norway and the sample-size of our cohort probably makes the present study reasonably representative for the Norwegian population."
+        },
+        {
+          "type": "paragraph",
+          "html": "Another limitation is that both assays used in this study expressed Lp(a) test results in mass units (mg/dL), rather than the recommended molar units (nmol/L) [2]. However, given that Lp(a) is more commonly measured in mass units than in molar units worldwide [25], our study aligns with the current clinical practices for Lp(a) measurement. It is also worth to mention that the Roche assay (Gen. 1) used in this study is no longer commercially available. Thus, we cannot determine whether the difference between the currently available assays is smaller or larger than the difference we observed between the two assays we studied."
+        },
+        {
+          "type": "paragraph",
+          "html": "A further limitation is the dynamic nature of the cohort considered in this study, which could introduce variability and potential bias into the data. However, due to the large number of persons examined, and that the laboratory mainly received samples from the primary health care, it is not likely that a dynamic change of the cohort influenced the Lp(a) levels by time. Additionally, when analyses were repeated using data solely from individuals that had measurements analyzed by both Roche and Siemens assays, the results were consistent (Table S3). Although such a change could not be ruled out, the distribution of Lp(a) concentrations observed, reflects what clinicians meet when assessing the person&#x27;s risk profile or make the decision to retest with an improved assay."
+        }
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In this real-world study involving 185,493 individuals, we observed that transitioning from one Lp(a) immunoassay to another affected the proportion of individuals with Lp(a) levels above clinical thresholds. The choice of assay can therefore impact an individual&#x27;s laboratory results, carrying potential clinical significance, particularly for those with Lp(a) levels nearing a clinical threshold. Thus, in individuals close to relevant Lp(a) thresholds, clinicians may consider to re-measure Lp(a) particularly if the latest measurement is many years old. Our results also highlight the need of developing a reference measurement system to ensure comparability between results obtained by different methods."
+        }
+      ]
+    },
+    {
+      "title": "Author agreement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "All authors have participated in the research reported, agreed to be an author, and read and approved submission of the manuscript. The manuscript has not been published elsewhere, nor is it under consideration elsewhere, either in part or in whole."
+        }
+      ]
+    },
+    {
+      "title": "Disclaimers",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Torleif Trydal was previously employed and is currently receiving compensation for overseeing chemical pathology reports at Fürst Medical Laboratory."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of generative AI in scientific writing",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "During the preparation of this work, the authors used GPT UiO in order to improve readability and language. After using this service, the authors reviewed and edited the content as needed and take full responsibility for the content of the publication."
+        }
+      ]
+    },
+    {
+      "title": "Funding sources",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This work was funded by the Research Council of Norway (Oslo, Norway) (project nr. 271555/F20), and the Medical Student Research Program (MSRP) at University of Oslo (Oslo, Norway)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Novartis Pharma AG had no role in funding of this study."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Janeni Jeevanathan:</strong> Writing – review &amp; editing, Writing – original draft, Visualization, Methodology, Funding acquisition, Formal analysis, Data curation, Conceptualization. <strong>Sigrid M. Blom:</strong> Writing – review &amp; editing, Supervision, Methodology, Conceptualization. <strong>Thomas Olsen:</strong> Writing – review &amp; editing, Formal analysis. <strong>Kirsten B. Holven:</strong> Writing – review &amp; editing. <strong>Erik K. Arnesen:</strong> Writing – review &amp; editing, Data curation. <strong>Torleif Trydal:</strong> Writing – review &amp; editing, Methodology, Data curation. <strong>Børge G. Nordestgaard:</strong> Writing – review &amp; editing, Methodology. <strong>Michael Sovershaev:</strong> Writing – review &amp; editing. <strong>Ying Chen:</strong> Writing – review &amp; editing. <strong>Kjetil Retterstøl:</strong> Writing – review &amp; editing, Supervision, Methodology, Funding acquisition, Conceptualization. <strong>Jacob J. Christensen:</strong> Writing – review &amp; editing, Visualization, Supervision, Methodology, Formal analysis, Data curation, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Jeevanathan has received consultancy fees from Novartis, and had a part time student internship at Novartis organized by the Faculty of Medicine at University of Oslo and the Student Association for Medical Innovation prior to this study."
+        },
+        {
+          "type": "paragraph",
+          "html": "Dr. Blom is an employee of Novartis Norway AS."
+        },
+        {
+          "type": "paragraph",
+          "html": "Dr. Nordestgaard has had consultancies or talks sponsored by Abbott, Akcea, Amarin, Amgen, AstraZeneca, Denka, Esperion, Kowa, Lilly, Mankind, Novartis, Novo Nordisk, Regeneron, Sanofi, Silence Therapeutics, Ultragenyx, and USV."
+        },
+        {
+          "type": "paragraph",
+          "html": "Dr. Retterstøl has received personal fees from Amgen, Mills AS, The Norwegian Medical Association, The Norwegian Directorate of Health, Sanofi, Novo Nordisk, none of which are related to the content of this manuscript."
+        },
+        {
+          "type": "paragraph",
+          "html": "The other authors have no financial relationships relevant to disclose."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "BergK.Lp(a) lipoprotein: An overviewChem Phys Lipids67–68199491610.1016/0009-3084(94)90119-88187248"
+    },
+    {
+      "html": "KronenbergF.MoraS.StroesE.S.G.FerenceB.A.ArsenaultB.J.BerglundL.Lipoprotein(a) in atherosclerotic cardiovascular disease and aortic stenosis: a European Atherosclerosis Society consensus statementEur Heart J4320223925394610.1093/eurheartj/ehac36136036785PMC9639807"
+    },
+    {
+      "html": "KronenbergF.Lipoprotein(a) measurement issues: Are we making a mountain out of a molehill?Atherosclerosis349202212313510.1016/j.atherosclerosis.2022.04.00835606072"
+    },
+    {
+      "html": "DatiF.TateJ.RMarcovinaS.M.SteinmetzA.International federation of clinical chemistry and laboratory medicine, IFCC Working Group for Lipoprotein(a) Assay Standardization. First WHO/IFCC international reference reagent for lipoprotein(a) for immunoassay–Lp(a) SRM 2BClin Chem Lab Med42200467067610.1515/CCLM.2004.11415259385"
+    },
+    {
+      "html": "ScharnaglH.StojakovicT.DieplingerB.DieplingerH.ErhartG.KostnerG.M.Comparison of lipoprotein serum concentrations measured by six commercially available immunoassaysAtherosclerosis289201920621310.1016/j.atherosclerosis.2019.08.01531493849"
+    },
+    {
+      "html": "WynessS.P.GenzenJ.R.Performance evaluation of five lipoprotein(a) immunoassays on the Roche cobas c501 chemistry analyzerPract Lab Med252021e0021810.1016/j.plabm.2021.e0021833898688PMC8056269"
+    },
+    {
+      "html": "MarcovinaS.M.AlbersJ.J.Lipoprotein (a) measurements for clinical applicationJ Lipid Res57201652653710.1194/jlr.R06164826637278PMC4808779"
+    },
+    {
+      "html": "GrundyS.M.StoneN.J.BaileyA.L.BeamC.BirtcherK.K.BlumenthalR.S.2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA guideline on the management of blood cholesterol: a report of the American College of Cardiology/American Heart Association Task Force on clinical practice guidelinesCirculation1392019e1082e114310.1161/CIR.000000000000062530586774PMC7403606"
+    },
+    {
+      "html": "MachF.BaigentC.CatapanoA.L.KoskinasK.C.CasulaM.BadimonL.2019 ESC/EAS Guidelines for the management of dyslipidaemias: lipid modification to reduce cardiovascular risk: The Task Force for the management of dyslipidaemias of the European Society of Cardiology (ESC) and European Atherosclerosis Society (EAS)Eur Heart J41202011118810.1093/eurheartj/ehz45531504418"
+    },
+    {
+      "html": "KamstrupP.R.Tybjærg-HansenA.SteffensenR.NordestgaardB.G.Genetically elevated lipoprotein(a) and increased risk of myocardial infarctionJAMA30120092331233910.1001/jama.2009.80119509380"
+    },
+    {
+      "html": "NordestgaardB.G.ChapmanM.J.RayK.BorénJ.AndreottiF.WattsG.F.Lipoprotein(a) as a cardiovascular risk factor: current statusEur Heart J3120102844285310.1093/eurheartj/ehq38620965889PMC3295201"
+    },
+    {
+      "html": "NordestgaardB.G.LangstedA.Lipoprotein (a) as a cause of cardiovascular disease: insights from epidemiology, genetics, and biologyJ Lipid Res5720161953197510.1194/jlr.R07123327677946PMC5087876"
+    },
+    {
+      "html": "TsimikasS.A test in context: Lipoprotein(a): diagnosis, prognosis, controversies, and emerging therapiesJ Am Coll Cardiol69201769271110.1016/j.jacc.2016.11.04228183512"
+    },
+    {
+      "html": "PatelA.P.Wang (汪敏先)M.PirruccelloJ.P.EllinorP.T.NgK.KathiresanS.Lp(a) (lipoprotein[a]) concentrations and incident atherosclerotic cardiovascular disease: new insights from a large national biobankArterioscler Thromb Vasc Biol41202146547410.1161/ATVBAHA.120.31529133115266PMC7769893"
+    },
+    {
+      "html": "LeveyA.S.StevensL.A.SchmidC.H.Zhang (Lucy)Y.CastroA.F.FeldmanH.I.A new equation to estimate glomerular filtration rateAnn Intern Med150200960461210.7326/0003-4819-150-9-200905050-0000619414839PMC2763564"
+    },
+    {
+      "html": "R Core TeamR: The R project for statistical computing2023<a href=\"https://www.r-project.org/\">https://www.r-project.org/</a>accessed March 5, 2024"
+    },
+    {
+      "html": "WickhamH.AverickM.BryanJ.ChangW.McGowanL.D.FrançoisR.Welcome to the tidyverseJ Open Source Softw42019168610.21105/joss.01686"
+    },
+    {
+      "html": "CeglaJ.FranceM.MarcovinaS.M.NeelyR.D.G.Lp(a): When and how to measure itAnn Clin Biochem582021162110.1177/000456322096847333040574PMC7791270"
+    },
+    {
+      "html": "Clouet-Foraison N., Vaisar T., Marcovina S.M. Standardization of analytical methods for the measurement of lipoprotein(a): bridging past and future initiatives. In: Kostner K., Kostner G.M., Toth P.P., editors. Lipoprotein(a), Cham: Springer International Publishing; 2023, p. 297–323. 10.1007/978-3-031-24575-6_19."
+    },
+    {
+      "html": "MarcovinaS.M.AlbersJ.J.GabelB.KoschinskyM.L.GaurV.P.Effect of the number of apolipoprotein(a) kringle 4 domains on immunochemical measurements of lipoprotein(a)Clin Chem4119952462557533064"
+    },
+    {
+      "html": "RuhaakL.R.CobbaertC.M.Quantifying apolipoprotein(a) in the era of proteoforms and precision medicineClin Chim Acta511202026026810.1016/j.cca.2020.10.01033058841"
+    },
+    {
+      "html": "DiederiksN.M.RuhaakL.R.RomijnF.PieterseM.M.SmitN.P.M.CobbaertC.M.An LC–MS-based designated comparison method with similar performance to the Lp(a) reference measurement procedure to guide molar Lp(a) standardizationClin Proteomics212024510.1186/s12014-023-09446-538267848PMC10809433"
+    },
+    {
+      "html": "NordestgaardB.G.LangstedA.MoraS.KolovouG.BaumH.BruckertE.Fasting is not routinely required for determination of a lipid profile: clinical and laboratory implications including flagging at desirable concentration cut-points—a joint consensus statement from the European Atherosclerosis Society and European Federation of Clinical Chemistry and Laboratory MedicineEur Heart J3720161944195810.1093/eurheartj/ehw15227122601PMC4929379"
+    },
+    {
+      "html": "KronenbergF.TrenkwalderE.DieplingerH.UtermannG.Lipoprotein(a) in stored plasma samples and the ravages of timeArterioscler Thromb Vasc Biol199610.1161/01.atv.16.12.15688977463"
+    },
+    {
+      "html": "NissenS.E.WolskiK.ChoL.NichollsS.J.KasteleinJ.LeitersdorfE.Lipoprotein(a) levels in a global population with established atherosclerotic cardiovascular diseaseOpen Heart92022e00206010.1136/openhrt-2022-002060PMC957792536252994"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

@@ -1,0 +1,361 @@
+{
+  "pmcid": "PMC12205488",
+  "pmid": "40585336",
+  "doi": "10.1016/j.ajpc.2025.101021",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12205488/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Severe housing cost burden and premature cardiovascular mortality",
+  "articleType": "Brief Report",
+  "published": "2025-06-02",
+  "year": "2025",
+  "volume": "23",
+  "issue": "",
+  "articleNumber": "101021",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "The Authors",
+  "authors": [
+    {
+      "given": "Nishad S.",
+      "surname": "Kosaraju",
+      "display": "Nishad S. Kosaraju"
+    },
+    {
+      "given": "Tanisha",
+      "surname": "Choudhury",
+      "display": "Tanisha Choudhury"
+    },
+    {
+      "given": "Lee",
+      "surname": "Stoner",
+      "display": "Lee Stoner"
+    },
+    {
+      "given": "Aleah L.",
+      "surname": "Thomas",
+      "display": "Aleah L. Thomas"
+    },
+    {
+      "given": "Kaitlin E.",
+      "surname": "White",
+      "display": "Kaitlin E. White"
+    },
+    {
+      "given": "Marcus R.",
+      "surname": "Andrews",
+      "display": "Marcus R. Andrews"
+    },
+    {
+      "given": "Briana I.",
+      "surname": "Lawrence",
+      "display": "Briana I. Lawrence"
+    },
+    {
+      "given": "Cameron K",
+      "surname": "Ormiston",
+      "display": "Cameron K Ormiston"
+    },
+    {
+      "given": "Lee",
+      "surname": "Mason",
+      "display": "Lee Mason"
+    },
+    {
+      "given": "Meredith S.",
+      "surname": "Shiels",
+      "display": "Meredith S. Shiels"
+    },
+    {
+      "given": "Aldenise P.",
+      "surname": "Ewing",
+      "display": "Aldenise P. Ewing"
+    },
+    {
+      "given": "Yingxi",
+      "surname": "Chen",
+      "display": "Yingxi Chen"
+    },
+    {
+      "given": "Jennifer K.",
+      "surname": "McGee-Avila",
+      "display": "Jennifer K. McGee-Avila"
+    },
+    {
+      "given": "Wayne R.",
+      "surname": "Lawrence",
+      "display": "Wayne R. Lawrence"
+    }
+  ],
+  "affiliations": [
+    "aEdward Via College of Osteopathic Medicine – Carolinas Campus, Spartanburg, SC, USA",
+    "bDivision of Cancer Epidemiology and Genetics, National Cancer Institute, National Institutes of Health, Rockville, MD, USA",
+    "cCollege of Arts and Sciences, University of North Carolina Chapel Hill, Chapel Hill, NC, USA",
+    "dDepartment of Exercise and Sport Science, University of North Carolina at Chapel Hill, Chapel Hill, NC, USA",
+    "eDepartment of Epidemiology, The Gillings School of Global Public Health, University of North Carolina at Chapel Hill, Chapel Hill, NC, USA",
+    "fCenter for Health Promotion and Disease Prevention, University of North Carolina at Chapel Hill, Chapel Hill, NC, USA",
+    "gWeill Cornell Medicine, New York, NY, USA",
+    "hSocial Determinants of Obesity and Cardiovascular Risk Laboratory, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD, USA",
+    "iSchool of Medicine, Tufts University, Boston, MA, USA",
+    "jDepartment of Medical Education, Icahn School of Medicine at Mount Sinai, New York, NY, USA",
+    "kDivision of Epidemiology, College of Public Health, The Ohio State University, Columbus, OH, USA"
+  ],
+  "keywords": [
+    "Housing",
+    "Medicaid",
+    "Cardiovascular mortality",
+    "Premature death",
+    "Cardiovascular Disease"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Background:</strong> The proportion of people living in unaffordable housing in the U.S. has grown, and studies have documented a relationship between housing cost burden and poor cardiovascular health. We investigated the association between severe housing cost burden (SHCB) and premature mortality due to cardiovascular disease (CVD) and its subtypes overall and by sex. We further evaluated whether Medicaid expansion status moderated the association between SHCB and premature CVD mortality."
+    },
+    {
+      "html": "<strong>Methods:</strong> We linked county-level SHCB data from the 2016–2020 American Community Survey with mortality data ascertained from national death certificate data. SHCB was measured as the percentage of households that spend ≥50 % of their income on housing and was categorized into distribution-based quintiles (1=lowest and 5=highest). States were classified based on Medicaid expansion status (expanded, late expanded, non-expanded). Multilevel-linear mixed models, adjusting for confounders, were used to estimate the adjusted rate ratios (aRR) for the association between SHCB and premature CVD mortality."
+    },
+    {
+      "html": "<strong>Results:</strong> The highest SHCB quintile, compared to the lowest, had a 15 % higher premature CVD mortality rate (aRR=1.15; 95 %CI 1.06–1.24). Among men, the highest quintile of SHCB had a higher premature mortality rate due to ischemic heart disease (aRR=1.09; 95 %CI 1.01–1.17) and stroke (aRR=1.19; 95 %CI 1.06–1.32) compared with the lowest quintile. Compared to Medicaid expanded states, non-Medicaid expanded states had higher rates of premature CVD mortality for each SHCB quintile (Quintile 5: aRR=1.19; 95 %CI 1.02–1.36)."
+    },
+    {
+      "html": "<strong>Conclusion:</strong> Our findings suggest counties with greater SHCB, especially if situated within a non-Medicaid expansion state, have higher rates of premature CVD mortality."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Unaffordable housing in the United States (U.S.) has increased substantially, disproportionately affecting low-income families [1]. Severe housing cost burden (SHCB), defined as households that spend at least 50 % or more of their income on housing, has increased in recent years [2]. In 2021, &gt;8 million households in the U.S. were experiencing SHCB [2]. The financial strain of unaffordable housing forces a detrimental trade-off, where individuals forgo necessary medical care to meet basic living expenses, resulting in poorer health outcomes [3,4]. An emerging body of research has suggested a relationship between housing unaffordability and poor cardiovascular health [[5], [6], [7]]. Therefore, among individuals with cardiovascular disease (CVD), housing unaffordability and related barrier to care may contribute to increased risk of premature death from CVD [5,6]."
+        },
+        {
+          "type": "paragraph",
+          "html": "The Patient Protection and Affordable Care Act provided states with the ability to expand Medicaid coverage to additional low-income individuals, including childless adults, most of whom were previously excluded [8]. Expansion of Medicaid has been shown to reduce healthcare-related financial burdens, and associated with a reduction in the rate of home evictions [9,10]. Studies have reported that Medicaid expansion reduces out-of-hospital deaths related to CVD, and &gt;10 % of Medicaid-insured adults &lt;64 years of age have a history of heart disease [11]. Previous research has suggested that Medicaid expansion resulted in higher rates of provision of cardiovascular medications and greater utilization of cardiovascular-related preventive care [12,13]. However, the combined influence of Medicaid expansion and SHCB on premature mortality from CVD remains poorly understood."
+        },
+        {
+          "type": "paragraph",
+          "html": "In this ecological study, we investigated the association between SHCB and rates of premature mortality from CVD. We further evaluated whether the association was moderated by state Medicaid expansion status."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Demographic characteristics and CVD mortality rates overall and by leading subtypes (ischemic heart disease, heart failure, hypertension, stroke) were ascertained from the National Center for Health Statistics from January 2016 to December 2020. The International Statistical Classification of Diseases and Related Health Problems, 10th Revision codes for each outcome are presented in <strong>Supplemental Table 1</strong>. To focus on premature CVD mortality, our analysis was restricted to people aged 25–64 years, aligning with prior studies [14,15]. The National Institutes of Health Institutional Review Board waived approval and informed consent because the study used publicly available deidentified data. This study followed the Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) reporting guidelines."
+        }
+      ]
+    },
+    {
+      "title": "Severe housing cost burden",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "County-level SHCB data was obtained from the 2016–2020 American Community Survey. SHCB was defined as the percentage of households whose housing expenses accounted for ≥50 % of their total household income [16]. SHCB was categorized into distribution-based quintiles, where higher quintiles represented counties where a greater percentage of the population experienced SHCB."
+        }
+      ]
+    },
+    {
+      "title": "Covariates",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The county-level percentages of population below 150 % of the poverty line, uninsured adults, and non-Hispanic White alone race were obtained from the 2020 American Community Survey [16]. The county percentage of population below 150 % of the poverty line was based on the ratio of income to poverty-level in the past twelve months [16]. County-level education was measured using the education index, which is the percentage of people ages ≥25 years that have less than high school graduate (did not graduate), high school graduate only, and more than high school graduate [16,17]. Rurality of counties was based on the Rural-Urban Continuum Codes developed by the U.S. Department of Agriculture [18]."
+        }
+      ]
+    },
+    {
+      "title": "Medicaid expansion status",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We categorized states according to their Medicaid expansion status as 1) Medicaid expanded (implemented the Patient Protection and Affordable Care Act Medicaid expansion on or before January 1, 2014 [<em>N</em> = 25]); 2) late expansion states (implemented Medicaid expansion between January 2, 2014 and December 31, 2019 [<em>N</em> = 12]); and 3) non-Medicaid expanded states (<em>N</em> = 14) (<strong>Supplemental Table 2</strong>)."
+        }
+      ]
+    },
+    {
+      "title": "Statistical analyses",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Age-adjusted premature CVD death rates by SHCB overall and by Medicaid expansion status, and sex were calculated using direct standardization. All rates were age-standardized in five-year age groups to the 2000 U.S. population. To compare CVD death rates overall and by subtype and sex, we used age-standardized death rates from 2016–2020. Additionally, we calculated overall and by subtype and sex the adjusted mortality rate ratios (aRRs) and 95 % confidence intervals (95 %CI) of each quintile group compared with the first quintile group (reference), with multilevel linear mixed models weighted by county population, clustered at the state-level, and adjusted for metropolitan status, proportion of the population 150 % below poverty level, proportion of the population with non-Hispanic White alone race, proportion of uninsured adults, and education index. We further calculated aRRs comparing non-Medicaid expanded states to Medicaid expanded (referent) by quintile of SHCB. <em>P</em> for trends were calculated by modeling quintiles of SHCB as a continuous variable. All analyses were conducted using SAS version 9.4 (SAS Institute Inc, Cary, NC)."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The study included 3123 counties. Counties with greater SHCB were clustered in more metropolitan counties, and premature CVD mortality was greater in the southern region (Fig. 1). Overall, the age-adjusted premature CVD mortality rates per 100,000 population were higher for the lowest quintile of SHCB compared with the highest (Quintile 1 = 82.5 vs Quintile 5 = 74.6 per 100,000; P<sub>trend</sub> &lt;0.001) (<strong>Supplemental Figures 1</strong>). The age-adjusted premature CVD death rates were greater among men than women across quintiles of SHCB (Quintile 5 Men=104.9 vs Women=46.0 per 100,000). Similar results were observed when examined by CVD mortality subtype (<strong>Supplemental Figure 2</strong>).Fig. 1Severe housing cost burden and premature mortality due to major cardiovascular disease in the US, 2015–2020. (A) Counties by severe housing cost burden in quintile, and (B) by age-adjusted premature mortality rates due to cardiovascular disease by quintile.Fig 1"
+        },
+        {
+          "type": "paragraph",
+          "html": "After adjusting, counties in the highest quintile had a 15 % higher premature CVD mortality rate compared with counties in the lowest quintile (aRR=1.15; 95 %CI 1.06–1.24; P<sub>trend</sub>&lt;0.001) (Fig. 2). Similar findings were observed by CVD mortality subtype for ischemic heart disease (aRR=1.09; 95 %CI 1.01–1.17; P<sub>trend</sub>&lt;0.001), and stroke (aRR=1.20; 95 %CI 1.08–1.32; P<sub>trend</sub>&lt;0.001). The premature CVD mortality aRRs was similar between men and women in counties in the highest quintile of SHCB compared with their counterparts in the lowest (Men: aRR=1.15; 95 %CI 1.07–1.24 and Women: aRR=1.15; 95 %CI 1.04–1.26). In analysis by CVD mortality subtype, men in the highest quintile of SHCB had a 9 % higher ischemic heart disease and 19 % higher stroke premature CVD mortality rates compared with the lowest quintile (ischemic heart disease: aRR=1.09; 95 %CI 1.01–1.17; P<sub>trend</sub>&lt;0.001 and Stroke: aRR=1.19; 95 %CI 1.06–1.32; P<sub>trend</sub>&lt;0.001) (<strong>Supplemental Figure 3</strong>). No associations were observed by CVD subtype among women (<strong>Supplemental Figure 4</strong>).Fig. 2Adjusted premature cardiovascular mortality rate ratios by quintile of severe housing cost burden in U.S. counties, 2016–2020Adjusted for metropolitan status, proportion 150 % below poverty level, proportion of the population with non-Hispanic White alone race, proportion of uninsured adults, and education index (percent with less than high school graduate, high school only and more than high school among ages ≥25 years).Note: The first quintile was used as the reference groupAs quintiles increase the larger the percentage of county households with severe housing cost burden.Fig 2"
+        },
+        {
+          "type": "paragraph",
+          "html": "Overall, compared with counties in Medicaid expanded states, non-Medicaid expanded states had higher rates of premature CVD mortality across higher quintiles of SHCB (Quintile 5: aRR=1.19; 95 %CI 1.02–1.36) (Fig. 3). Similar findings were observed for the highest quintile of SHCB for heart failure (aRR=1.61; 95 %CI 1.18–2.04) and stroke (aRR=1.29; 95 %CI 1.08–1.50).Fig. 3Adjusted premature cardiovascular mortality rate ratios by quintile of severe housing cost burden and state medicaid expansion status in U.S. counties, 2016–2020Adjusted for metropolitan status, proportion 150 % below poverty level, proportion of the population with non-Hispanic White alone race, and education index (percent with less than high school graduate, high school only and more than high school among ages ≥25 years).Note: Medicaid expanded states were used as the reference group. Late Medicaid expanded states were excluded.As quintiles increase the larger the percentage of county households with severe housing cost burden.Fig 3"
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In this study, counties in the highest quintile of SHCB had higher premature CVD mortality, and the associated aRRs were largely greater among men and in non-Medicaid expanded states. Furthermore, most CVD subtypes showed significant incremental increases in association between greater county SHCB and higher premature mortality."
+        },
+        {
+          "type": "paragraph",
+          "html": "Interestingly, the age-adjusted premature CVD mortality rates were slightly greater in the lowest quintile of SHCB compared with the highest quintile. However, after adjusting for county-level characteristics, we observed a significantly higher rate among the highest quintile compared with the lowest quintile. These findings suggest that county-level characteristics have a large effect on the relationship between SHCB and premature CVD mortality. One potential mechanism for our findings is that individuals experiencing unaffordable housing are more likely to ration or postpone seeking preventative medical care because of housing-related financial obligations [1,3]. Also, prior research has linked housing instability to poor cardiovascular health, where the financial strain of SHCB may elevate risk of premature CVD mortality [5,6]. Additionally, the association between SHCB and premature CVD mortality was observed among both men and women, though patterns differed by sex. Overall, men and women had similar increased premature CVD mortality rates as quintiles of SHCB increased. However, for ischemic heart disease and stroke, men experienced greater increases in mortality rates as quintiles of SHCB increased. Prior studies have suggested social- and behavioral-related cardiovascular risk factors are contributors to greater risk of CVD at younger ages among men than women, potentially explaining current findings [19,20]. Previous research has reported that the relationship between economic strain and adverse health, including cardiovascular event, was more pronounced among men [21,22]. Further research is needed to investigate whether men are more vulnerable than women to the adverse impact of financial strain (i.e., SHCB) and related stressors on cardiovascular health."
+        },
+        {
+          "type": "paragraph",
+          "html": "We observed that Medicaid expansion may play a role in reducing premature CVD mortality among counties with a greater proportion of households experiencing SHCB. These findings may reflect the significant barriers to care uninsured or underinsured individuals in non-Medicaid expanded states encounter, including greater out-of-pocket medical costs and reduced preventive care access and utilization [[23], [24], [25]]. Additionally, prior research has reported increasing hospital closures in states that did not adopt Medicaid expansion, resulting in reduced access to emergency care [26]. Previous studies have demonstrated that Medicaid expanded states had lower cardiovascular mortality rates and fewer uninsured cardiovascular disease-related hospitalizations compared to non-expanded states, especially among the uninsured [27,28]. This can be attributed to individuals in Medicaid expanded states having better access to health care across the cardiovascular disease care continuum [27]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Several limitations must be noted. First, this study cannot determine causality or the direction of association due to the study design. Second, the measure used to assess SHCB does not consider socioenvironmental contextual factors. Third, we were unable to account for individual-level CVD risk factors (e.g., physical activity, cigarette smoking). Finally, this ecological study design does not allow for casual inferences at the individual level."
+        }
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The results of this study suggest that greater SHCB is associated with increased premature mortality due to CVD and its subtypes. Premature CVD deaths were higher in non-Medicaid expanded states compared with Medicaid expanded states among counties in the highest quintiles of SHCB. Our findings highlight the need for place-based interventions that will alleviate financial strain and expand healthcare access to patients across the cardiovascular disease care continuum."
+        }
+      ]
+    },
+    {
+      "title": "Funding/Support",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This work was supported by the National Institutes of Health Intramural Research Program of the National Cancer Institute."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Nishad S. Kosaraju:</strong> Writing – review &amp; editing, Writing – original draft, Methodology, Investigation, Formal analysis, Conceptualization. <strong>Tanisha Choudhury:</strong> Writing – review &amp; editing, Writing – original draft, Investigation, Conceptualization. <strong>Lee Stoner:</strong> Writing – review &amp; editing, Validation, Methodology, Investigation. <strong>Aleah L. Thomas:</strong> Writing – review &amp; editing, Investigation, Conceptualization. <strong>Kaitlin E. White:</strong> Writing – original draft, Methodology, Conceptualization. <strong>Marcus R. Andrews:</strong> Writing – original draft, Methodology, Investigation. <strong>Briana I. Lawrence:</strong> Writing – original draft, Investigation, Conceptualization. <strong>Cameron K Ormiston:</strong> Writing – review &amp; editing, Investigation, Conceptualization. <strong>Lee Mason:</strong> Writing – review &amp; editing, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. <strong>Meredith S. Shiels:</strong> Writing – review &amp; editing, Resources, Project administration, Methodology, Investigation, Funding acquisition, Formal analysis, Data curation, Conceptualization. <strong>Aldenise P. Ewing:</strong> Writing – review &amp; editing, Methodology, Investigation. <strong>Yingxi Chen:</strong> Writing – review &amp; editing, Methodology, Formal analysis. <strong>Jennifer K. McGee-Avila:</strong> Writing – review &amp; editing, Methodology, Investigation, Conceptualization. <strong>Wayne R. Lawrence:</strong> Writing – review &amp; editing, Writing – original draft, Visualization, Validation, Supervision, Project administration, Methodology, Investigation, Formal analysis, Data curation, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "SwopeC.B.HernándezD.Housing as a determinant of health equity: a conceptual modelSoc Sci Med243201911257110.1016/j.socscimed.2019.112571PMC714608331675514"
+    },
+    {
+      "html": "Joint Center for Housing Studies of Harvard University, The State of the Nation’s housing 2023, Cambridge, 2023. <a href=\"https://www.jchs.harvard.edu/state-nations-housing-2023\">https://www.jchs.harvard.edu/state-nations-housing-2023</a> (accessed March 23, 2025)."
+    },
+    {
+      "html": "AllenH.L.EliasonE.ZewdeN.GrossT.Can Medicaid expansion prevent housing evictions?Health Aff3820191451145710.1377/hlthaff.2018.0507131479379"
+    },
+    {
+      "html": "LawrenceW.R.FreedmanN.D.McGee-AvilaJ.K.MasonL.ChenY.EwingA.P.ShielsM.S.Severe housing cost burden and premature mortality from cancerJNCI Cancer Spectr202410.1093/jncics/pkae011PMC1107111438372706"
+    },
+    {
+      "html": "RodgersJ.BriesacherB.A.WallaceR.B.KawachiI.BaumC.F.KimD.County-level housing affordability in relation to risk factors for cardiovascular disease among middle-aged adults: the National Longitudinal Survey of Youths 1979Health Place59201910219410.1016/j.healthplace.2019.10219431518890"
+    },
+    {
+      "html": "GuK.D.FaulknerK.C.ThorndikeA.N.Housing instability and cardiometabolic health in the United States: a narrative review of the literatureBMC Public Health23202393110.1186/s12889-023-15875-637221492PMC10203673"
+    },
+    {
+      "html": "SimsM.KershawK.N.BreathettK.JacksonE.A.LewisL.M.MujahidM.S.SugliaS.F.Importance of housing and cardiovascular health and well-being: a scientific statement from the American heart associationCirc Cardiovasc Qual Outcomes13202010.1161/HCQ.0000000000000089PMC744262032673512"
+    },
+    {
+      "html": "ObamaB.United States health care reformJAMA316201652510.1001/jama.2016.979727400401PMC5069435"
+    },
+    {
+      "html": "KluenderR.MahoneyN.WongF.YinW.Medical debt in the US, 2009-2020JAMA326202125010.1001/jama.2021.869434283184PMC8293024"
+    },
+    {
+      "html": "ZewdeN.EliasonE.AllenH.GrossT.The effects of the ACA Medicaid expansion on nationwide home evictions and eviction-court initiations: united States, 2000–2016Am J Public Health10920191379138310.2105/AJPH.2019.30523031415189PMC6727289"
+    },
+    {
+      "html": "ChapelJ.M.RitcheyM.D.ZhangD.WangG.Prevalence and medical costs of chronic diseases among adult Medicaid beneficiariesAm J Prev Med532017S143S15410.1016/j.amepre.2017.07.01929153115PMC5798200"
+    },
+    {
+      "html": "ColeM.B.GalárragaO.WilsonI.B.WrightB.TrivediA.N.At federally funded health centers, medicaid expansion was associated with improved quality of careHealth Aff362017404810.1377/hlthaff.2016.080428069845"
+    },
+    {
+      "html": "WarnerJ.J.BenjaminI.J.ChurchwellK.FirestoneG.GardnerT.J.JohnsonJ.C.Ng-OsorioJ.RodriguezC.J.TodmanL.YaffeK.YancyC.W.HarringtonR.A.Advancing healthcare reform: the American heart association’s 2020 statement of principles for adequate, accessible, and affordable health care: a presidential advisory from the American Heart AssociationCirculation141202010.1161/CIR.000000000000075932008369"
+    },
+    {
+      "html": "ThomasA.L.KulcharR.J.StephensE.S.MasonL.JacksonS.S.HarrisA.R.EwingA.P.ShielsM.S.PichardoC.M.McGee-AvilaJ.K.LawrenceW.R.County socioeconomic status and premature mortality from cancer in the United StatesCancer Epidemiol95202510274710.1016/j.canep.2025.102747PMC1189093139827619"
+    },
+    {
+      "html": "ShielsM.S.Berrington de GonzálezA.BestA.F.ChenY.ChernyavskiyP.HartgeP.KhanS.Q.Pérez-StableE.J.RodriquezE.J.SpillaneS.ThomasD.A.WithrowD.FreedmanN.D.Premature mortality from all causes and drug poisonings in the USA according to socioeconomic status and rurality: an analysis of death certificate data by county from 2000 to 15Lancet Public Health42019e97e10610.1016/S2468-2667(18)30208-130655229PMC6392082"
+    },
+    {
+      "html": "American Community Survey, 2016–2020 American Community Survey 5-year estimates, Census Bureau (2022)."
+    },
+    {
+      "html": "LiuL.DeapenD.BernsteinL.Socioeconomic status and cancers of the female breast and reproductive organs: a comparison across racial/ethnic populations in Los Angeles County, California (United States)Cancer Causes Control9199836938010.1023/a:10088114324369794168"
+    },
+    {
+      "html": "United States Department of Agriculture, Rural-urban continuum codes, <a href=\"https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/\">https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/</a> (n.d.)."
+    },
+    {
+      "html": "ShahN.S.NingH.PetitoL.C.KershawK.N.BancksM.P.ReisJ.P.RanaJ.S.SidneyS.JacobsD.R.KiefeC.I.CarnethonM.R.Lloyd-JonesD.M.AllenN.B.KhanS.S.Associations of clinical and social risk factors with racial differences in premature cardiovascular diseaseCirculation146202220121010.1161/CIRCULATIONAHA.121.05831135607988PMC9308688"
+    },
+    {
+      "html": "KhanS.U.JavedZ.LoneA.N.DaniS.S.AminZ.Al-KindiS.G.ViraniS.S.SharmaG.BlanksteinR.BlahaM.J.Cainzos-AchiricaM.NasirK.Social vulnerability and premature cardiovascular mortality among US counties, 2014 to 2018Circulation14420211272127910.1161/CIRCULATIONAHA.121.05451634662161"
+    },
+    {
+      "html": "CarlssonA.C.StarrinB.GiganteB.LeanderK.HelleniusM.-L.de FaireU.Financial stress in late adulthood and diverse risks of incident cardiovascular disease and all-cause mortality in women and menBMC Public Health1420141710.1186/1471-2458-14-1724406139PMC3931669"
+    },
+    {
+      "html": "WilliamsD.R.The health of men: structured inequalities and opportunitiesAm J Public Health982008S150S15710.2105/AJPH.98.Supplement_1.S15018687602PMC2518607"
+    },
+    {
+      "html": "SumarsonoA.LalaniH.SegarM.W.RaoS.VaduganathanM.WadheraR.K.DasS.R.NavarA.M.FonarowG.C.PandeyA.Association of Medicaid expansion with rates of utilization of cardiovascular therapies among Medicaid beneficiaries between 2011 and 2018Circ Cardiovasc Qual Outcomes14202110.1161/CIRCOUTCOMES.120.007492PMC826185533161766"
+    },
+    {
+      "html": "InoueK.AtheyS.BaickerK.TsugawaY.Heterogeneous effects of Medicaid coverage on cardiovascular risk factors: secondary analysis of randomized controlled trialBMJ2024e07937710.1136/bmj-2024-079377PMC1141766339313257"
+    },
+    {
+      "html": "SommersB.D.MayloneB.BlendonR.J.OravE.J.EpsteinA.M.Three-year impacts of the affordable care act: improved medical care and health among low-income adultsHealth Aff3620171119112810.1377/hlthaff.2017.029328515140"
+    },
+    {
+      "html": "WallaceD.J.DonohueJ.M.AngusD.C.SabikL.M.DavisB.YabesJ.KahnJ.M.Association between state Medicaid expansion and emergency access to acute care hospitals in the United StatesJAMA Netw Open32020e202581510.1001/jamanetworkopen.2020.25815PMC767031633196808"
+    },
+    {
+      "html": "JiangG.Y.UrwinJ.W.WasfyJ.H.Medicaid expansion under the affordable care act and association with cardiac care: a systematic reviewCirc Cardiovasc Qual Outcomes16202310.1161/CIRCOUTCOMES.122.00975337339189"
+    },
+    {
+      "html": "KhatanaS.A.M.BhatlaA.NathanA.S.GiriJ.ShenC.KaziD.S.YehR.W.GroeneveldP.W.Association of Medicaid expansion with cardiovascular mortalityJAMA Cardiol4201967110.1001/jamacardio.2019.165131166575PMC6552110"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

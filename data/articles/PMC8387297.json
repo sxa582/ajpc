@@ -1,0 +1,383 @@
+{
+  "pmcid": "PMC8387297",
+  "pmid": "34611644",
+  "doi": "10.1016/j.ajpc.2021.100212",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8387297/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Pooled Cohort Equations and the competing risk of cardiovascular disease versus cancer: Multi-Ethnic study of atherosclerosis",
+  "articleType": "Research Article",
+  "published": "2021-06-14",
+  "year": "2021",
+  "volume": "7",
+  "issue": "",
+  "articleNumber": "100212",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2021",
+  "authors": [
+    {
+      "given": "Seamus P.",
+      "surname": "Whelton",
+      "display": "Seamus P. Whelton"
+    },
+    {
+      "given": "Catherine Handy",
+      "surname": "Marshall",
+      "display": "Catherine Handy Marshall"
+    },
+    {
+      "given": "Miguel",
+      "surname": "Cainzos-Achirica",
+      "display": "Miguel Cainzos-Achirica"
+    },
+    {
+      "given": "Omar",
+      "surname": "Dzaye",
+      "display": "Omar Dzaye"
+    },
+    {
+      "given": "Roger S.",
+      "surname": "Blumenthal",
+      "display": "Roger S. Blumenthal"
+    },
+    {
+      "given": "Khurram",
+      "surname": "Nasir",
+      "display": "Khurram Nasir"
+    },
+    {
+      "given": "Robyn L.",
+      "surname": "McClelland",
+      "display": "Robyn L. McClelland"
+    },
+    {
+      "given": "Michael J.",
+      "surname": "Blaha",
+      "display": "Michael J. Blaha"
+    }
+  ],
+  "affiliations": [
+    "aJohns Hopkins Ciccarone Center for Prevention of Cardiovascular Disease, 600 North Wolfe Street, Blalock 524A, Baltimore, MD 21287, United States",
+    "bSidney Kimmel Comprehensive Cancer Center, Baltimore, MD, United States",
+    "cDivision of Cardiovascular Prevention and Wellness, Department of Cardiology, Houston Methodist DeBakey Heart and Vascular Center, Houston, TX, United States",
+    "dDepartment of Biostatistics, University of Washington, United States"
+  ],
+  "keywords": [
+    "Cardiovascular disease",
+    "Cancer",
+    "Risk prediction",
+    "Competing risks",
+    "Screening"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Background:</strong> many of the modifiable variables in the Pooled Cohort Equations (PCE) are shared risk factors for cardiovascular disease (CVD) and cancer, which are the two leading causes of death in the United States. We sought to determine the utility of the PCE risk for the synergistic risk prediction of CVD and cancer."
+    },
+    {
+      "html": "<strong>Methods:</strong> we identified 5,773 participants (61.5 years and 53% women) without baseline CVD or cancer from the Multi-Ethnic study of atherosclerosis. The primary outcome was time to first event of either incident CVD or incident cancer. We calculated competing risk and cause-specific hazard models to examine the association of the PCE groups (&lt;7.5%, 7.5–&lt;20%, ≥20%) with the competing risk of CVD and cancer."
+    },
+    {
+      "html": "<strong>Results:</strong> the rate of incident CVD and cancer was higher with higher PCE risk, but the absolute event rate was low for both CVD and cancer when the PCE risk was &lt;7.5%. Participants with a PCE &lt;7.5% had a higher rate of cancer (4.8) compared to CVD (3.3) per 1000 person-years, while the rate of CVD (11.5) was higher than cancer (8.6) for PCE between 7.5 and &lt;20%. The ratio of CVD to cancer increased in a logarithmic manner and at a PCE risk of approximately 7.2% the risk for CVD and cancer was equal. In adjusted competing risk modeling, a PCE risk of ≥20% compared to &lt;7.5% was associated with a greater risk of both CVD [7.18 (95% CI 5.77–8.94)] and cancer [3.59 (95% CI 2.91–4.43)]."
+    },
+    {
+      "html": "<strong>Conclusions:</strong> these findings highlight the importance of age and modifiable risk factors for CVD and cancer prevention. In addition, it suggests that the PCE can provide important information for both CVD and cancer risk stratification, which may guide a synergistic approach to screening and preventive therapies for the two leading causes of death in the United States."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The overall rate of cardiovascular disease (CVD) mortality has declined dramatically over the last four decades, while the rate of non-CVD mortality such as cancer has remained relatively constant [1]. Accordingly, the rate of CVD and cancer mortality in the United States are currently very similar [2]. In fact, cancer is already the leading cause of death in 22 of the United States along with 9 European countries and it has been predicted that cancer may become the overall leading cause of death [1,[3], [4], [5]]. With this decline in CVD, there is an increase in competing risks and this has important implications for individual risk prediction [6,7]."
+        },
+        {
+          "type": "paragraph",
+          "html": "The 2018 American Heart Association (AHA) / American College of Cardiology (ACC) Cholesterol Treatment Guidelines and the 2019 ACC/AHA Primary Prevention of CVD Guidelines are based upon the Pooled Cohort Equations (PCE) individual 10-year atherosclerotic cardiovascular disease (ASCVD) risk estimate. Many of the modifiable variables in the PCE such as hypertension, cholesterol, smoking, and diabetes are shared risk factors for CVD and cancer [[8], [9], [10], [11], [12], [13], [14], [15], [16]]. Indeed, Pursnani et al have demonstrated that individuals in the ACC/AHA statin eligibility groups have an increased risk of both incident CVD and cancer mortality [17]. However, CVD and cancer are typically treated as separate disease processes and a better understanding the shared epidemiology to facilitate risk prediction and screening has been identified as a key area of future research [18]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Despite the many shared modifiable risk factors, the risk of incident CVD and cancer as a function of the PCE has not previously been described and there is currently no information on: (1) the proportion of individuals expected to develop an incident cancer event over the next 10 years within low, intermediate, and high risk PCE groups, (2) how the incident cancer rate changes as a function of the PCE-derived risk, and (3) the PCE risk at which an individual is more likely to first experience incident CVD versus incident cancer. A better understanding of how the risk for incident CVD versus incident cancer changes as a function of the PCE risk may provide clinically meaningful insight into the utility of the PCE for the synergistic approach to screening and prevention strategies for CVD and cancer."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Study population",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The Multi-Ethnic study of atherosclerosis (MESA) is a community-based cohort comprised of adult participants age 45–84 years old free of CVD at baseline that has previously been described in detail [19]. Participants were excluded from this analysis if they had known cancer at baseline (based on self-report) (<em>n</em> = 543), or other diseases suggestive of possible underlying undiagnosed cancer including emphysema (<em>n</em> = 90), liver disease (<em>n</em> = 210), prior blood clots (<em>n</em> = 119). We also excluded participants with an unknown or un-adjudicated cause of death (<em>n</em> = 31) or if they were missing information to calculate their PCE risk (<em>n</em> = 48), which resulted in a total of 5,773 participants. The study protocol was approved by the institutional review boards at each of the six MESA field centers."
+        }
+      ]
+    },
+    {
+      "title": "Outcome ascertainment",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The primary outcomes for this analysis were the time to first event of either (1) incident CVD (incident or fatal coronary heart disease (myocardial infarction, resuscitated cardiac arrest, fatal coronary heart disease, and coronary revascularization only if the participant also had prior or concurrent adjudicated angina), incident or fatal stroke, and other incident and or fatal ASCVD) and (2) incident cancer. Participants were removed from the dataset after the diagnosis of either incident CVD or incident cancer. Therefore, the results should be interpreted as the risk for developing CVD (or cancer) before a diagnosis of cancer (or CVD). Participants or their family were contacted by telephone on every 9 to 12 months and asked about any new hospitalizations, new outpatient diagnoses, procedures, or death that had occurred since the last telephone interview. All reported CVD events were adjudicated by two physicians according to pre-defined criteria using hospital records and medical records [20]. The diagnosis of incident cancer was made based on review of all available inpatient hospital records and the presence of an associated ICD-9 code between 140 and 209 [21]. If a diagnosis of incident CVD and incident cancer were reported during the same telephone interview for 16 participants. In these instances we coded the incident CVD event as the primary (first) outcome of interest."
+        }
+      ]
+    },
+    {
+      "title": "Risk factors",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The participants’ PCE risk was calculated using the 2013 ACC/AHA PCE and the scores were categorized as low/borderline &lt;7.5%, intermediate 7.5-&lt;20%, and high ≥20% based on the 2018 ACC/AHA Cholesterol Guidelines [8,22]. Diabetes was defined as the use of a blood glucose lowering medication or a fasting blood glucose ≥126 mg/dL. Smoking was defined as the current use of cigarettes. Socioeconomic status was estimated based on the highest obtained education and annual household income."
+        }
+      ]
+    },
+    {
+      "title": "Statistical analysis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We calculated incident CVD and cancer event rates per 1000 person-years of follow-up stratified by PCE-defined risk categories. We then calculated the ratio of incident CVD events per 1000 person-years to incident cancer events per 1000 person-years as a function of PCE risk deciles and fitted these results using a logarithmic function. Cox proportional hazard models overestimate the risk relationship when there are competing risks [7,[23], [24], [25]]. Therefore, we calculated the cumulative incident function (CIF), which accounts for competing risk, unlike Kaplan-Meier survival analysis, for incident CVD and cancer stratified by PCE risk group with the results displayed as a survival curve (1-CIF) [26]. We also calculated Cox Proportional cause-specific hazards models, which also take into account competing risks [27]. In order to use the most appropriate the follow-up time for our outcomes of interest: (1) we used the Fine and Gray approach for calculating follow-up time for the incident event rates and CIF, because it best for estimating the number or proportion of events that have occurred, and (2) a Cox Proportional Hazards cause-specific approach for calculating follow-up time for the relative association between the PCE and incident CVD versus cancer."
+        },
+        {
+          "type": "paragraph",
+          "html": "We first report unadjusted models, because the PCE risk already incorporates age, sex, and traditional CVD risk factors. We also report the results of an adjusted model that includes other CVD risk modifiers not incorporated into the PCE risk including lipid-lowering medication use, body mass index, and socioeconomic status. In addition, we calculated cause-specific hazards models stratified by age &lt;65 and ≥65 years, because age is one of the predominant contributors to an individual&#x27;s estimated PCE risk, especially among individuals ≥65 years old [28]. We also performed sex-stratified analyses and a sensitivity analysis excluding participants who were prescribed lipid lowering medications (<em>n</em> = 918). In addition, we performed race/ethnicity specific analyses. We evaluated discrimination using Harrell&#x27;s C-statistic and the calibration slope (linear regression of observed versus predicted events) was used to evaluate calibration."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The mean age was 61.5 years, 53% of participants were women, and 36% were Caucasian (Table 1). Over the mean follow-up time of 11.3 (SD 3.7) years there were 715 incident CVD events and 613 incident diagnoses of cancer. 113 participants developed both CVD and cancer and of those 68 (60%) developed CVD before cancer. The prevalence of traditional CVD risk factors except for LDL-C and total cholesterol increased with an increasing PCE risk (Table 1). The mean PCE risk was 12.8% and 78% of participants had a PCE risk of &lt;20%. The most common types of incident cancer were genitourinary, digestive organs, respiratory, and breast (Supplemental Fig. 1).Table 1Participant characteristics.Table 1Total cohort(<em>n</em> = 5,773)PCE &lt;7.5%(<em>n</em> = 2,601)PCE 7.5-&lt;20% (1,887)PCE ≥20%(<em>n</em> = 1,285)<em>p</em> for trendAge (years)61.5 (10.1)53.9 (6.3)64.3 (7.4)72.8 (6.6)&lt;0.001Male47.333.956.061.5&lt;0.001Race/Ethnicity&lt;0.001 Caucasian36.040.532.631.9&lt;0.001 Black28.622.236.130.7&lt;0.001 Hispanic23.224.320.325.40.01 Chinese12.113.110.912.10.09Systolic Blood Pressure (mmHg)126.3 (21.3)115.4 (15.6)129.3 (18.8)143.9 (21.4)&lt;0.001Diastolic Blood Pressure (mmHg)72.1 (10.2)69.9 (9.5)73.5 (10.2)74.7 (10.6)&lt;0.001Anti-hypertensive therapy36.217.943.063.3&lt;0.001LDL-C (mg/dL)118.2 (31.6)117.6 (30.5)119.2 (32.5)117.8 (32.6)0.90HDL-C (mg/dL)50.8 (14.8)52.9 (15.0)49.7 (14.5)48.3 (14.2)&lt;0.001Total Cholesterol (mg/dL)195.1 (34.8)195.0 (34.4)195.7 (35.9)194.1 (38.3)0.19Lipid lowering therapy15.910.119.035.6&lt;0.001Diabetes12.63.512.326.8&lt;0.001Current Smoking12.89.915.614.7&lt;0.001Family History heart disease41.939.943.444.0&lt;0.001Body Mass Index (kg/m<sup>2</sup>)28.3 (5.4)28.1 (5.7)28.7 (5.3)28.2 (5.0)0.007ASCVD Score (%)12.9 (12.8)3.4 (2.0)12.8 (2.2)32.4 (11.9)&lt;0.001Value reported as mean (SD) or percent unless otherwise noted.*ASCVD: Atherosclerotic cardiovascular disease."
+        },
+        {
+          "type": "paragraph",
+          "html": "Among individuals with a PCE risk &lt;7.5% there was a higher proportion who developed incident cancer (6.2%) versus incident CVD (4.3%). The proportion of individuals with incident CVD versus incident cancer was higher when the PCE risk was between 7.5-&lt;20% (CVD 13.6%, cancer 10.4%) and when it was ≥20% (CVD 23.3%, cancer 14.8%). Both the CVD and cancer event rate also increased with increasing PCE risk and the absolute event rate was low for both CVD and cancer when the PCE risk was &lt;7.5% (Central illustration). For individuals with a PCE risk score &lt;7.5% the cumulative survival free from CVD was greater than that of cancer, but for individuals with a PCE risk of ≥7.5% the cumulative survival free from cancer was greater than CVD (Fig. 1). Among individuals with PCE risk &lt;7.5% there was a higher proportion who developed incident cancer (6.9%) versus incident CVD (4.7%), but when the PCE risk was between 7.5-&lt;20% there was a higher proportion of individuals with incident CVD (17.2%) versus incident cancer (13.6%). Individuals with a &lt;7.5% PCE risk had a higher rate of incident cancer (4.8) versus incident CVD (3.3) per 1,000 person-years follow-up and the incidence rate of CVD overtook cancer in the PCE risk ≥7.5% group (Supplemental Table 1). The ratio of incident CVD to cancer events increased logarithmically and the ratio was higher for CVD after a PCE risk of approximately 7.2% (Fig. 2).Fig. 1Cumulative survival free from incident cardiovascular disease or cancer stratified by 10-year atherosclerotic cardiovascular disease risk group.Fig 1Fig. 2Ratio of incident cardiovascular disease event rate to incident cancer event rate per 1,000 person-years follow-up as a function of atherosclerotic cardiovascular disease risk.Fig 2"
+        },
+        {
+          "type": "paragraph",
+          "html": "Compared to individuals with a PCE risk &lt;7.5%, there was a significantly increased risk of incident CVD cause-specific hazard (3.56, 95% CI 2.86–4.43) and of incident cancer (2.10, 95% CI 1.71–2.57) for individuals with a PCE risk of 7.5-&lt;20%. Individuals with a PCE risk ≥20% had a greater than sevenfold increased risk for CVD and greater than threefold increased risk for cancer (Table 2). For individuals &lt;65 years of age with a PCE risk ≥20% there was a significantly increased risk of incident CVD cause-specific hazard 6.97 (95% CI 4.69–10.37) and incident cancer with a cause-specific hazard of 2.17 (95% CI 1.29–3.67) compared to those with a PCE risk &lt;7.5% (Supplemental Table 2). For individuals ≥65 years of age with a PCE risk ≥20% there was a significantly and similarly increased risk of both incident CVD cause-specific hazard 3.35 (95%2.08–5.40) and incident cancer cause-specific hazard 2.94 (95% CI1.74–4.98) compared to those with a PCE risk &lt;7.5%. The results were similar for women compared to men, when participants prescribed lipid lowering medications were excluded from the analysis, and across the four race/ethnicities included in MESA. The PCE had a C- statistic of 0.73 CVD and 0.65 cancer. The calibration of the PCE for both CVD and cancer was good in the risk ranges normally encountered in clinical practice (Supplemental Fig. 2).Table 2Cause-specific hazard for the competing risk of CVD and cancer by ASCVD group.Table 2Pooled Cohort Equation&lt;7.5%7.5-&lt;20%≥20%Cardiovascular Events113257300 UnadjustedReference3.72 (2.99-4.62)7.60 (6.14-9.40) Model 1Reference3.56 (2.86-4.43)7.18 (5.77-8.94)Cancer Events161197186 UnadjustedReference2.09 (1.71–2.56)3.49 (2.85–4.28) Model 1Reference2.10 (1.71–2.57)3.59 (2.91–4.43)Model 1 – Lipid-lowering medication use, body mass index, income, education."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "These results demonstrate a higher risk for incident cancer when the PCE risk was &lt;7.2% and above this score the risk of incident CVD overtook the risk for cancer. However, the cumulative incidence of both incident CVD and incident cancer was higher with higher PCE risk. Most importantly, these findings demonstrate the clinical utility of the PCE as a synergistic tool for not only CVD, but also cancer risk stratification."
+        },
+        {
+          "type": "paragraph",
+          "html": "CVD and cancer are the two leading causes of death in the United States and Europe, but despite the many shared modifiable risk factors current approaches to screening and prevention are separate and generally performed in isolation by primary care providers, cardiologists, and oncologists [2,18,29]. While a synergistic approach to CVD and cancer prevention has been proposed, to date there is no single harmonized risk prediction algorithm [16]. Our results build upon the knowledge that statin eligible individuals have an increased risk of cancer by describing (1) how the rate of CVD and cancer change as a function of PCE risk and (2) the approximate PCE risk at which incident CVD becomes more likely than cancer (e.g. 7.2%), the latter of which may be helpful to providers and patients who may wish to know whether they are more likely to develop incident CVD versus incident cancer along with epidemiologists interested in modeling the risk of CVD versus cancer [17]. These findings suggest that a more focused approach to CVD and cancer prevention strategies could be considered when the PCE risk is very low or very high. However, while incident CVD overtakes cancer at a PCE risk of approximately 7.2%, the cumulative incidence of cancer continues to increase beyond a PCE risk of 7.2%. For instance, among individuals with a PCE risk ≥20% the 10-year cumulative incidence of cancer was 12% versus 18% for CVD. Therefore, even though individuals with a PCE risk ≥20% are at a higher risk for incident CVD than cancer, age appropriate cancer screening should still be strongly recommended based on their concomitantly elevated absolute risk for cancer."
+        },
+        {
+          "type": "paragraph",
+          "html": "Calculation of the PCE is already guideline recommended for CVD risk stratification [8]. It is routinely used in clinical practice by both cardiologists and primary care providers and providing a PCE-based cancer estimate requires no additional burden to the clinician or patient. While cancer screening strategies largely use an age-based rather than risk-based approach to screening, the recommended ages for the screening of common cancers corresponds to the age group in which PCE risk calculation is recommended for CVD risk stratification [[30], [31], [32], [33]]. Providing a PCE-based cancer risk estimate may be especially pragmatic among individuals without recent age-appropriate cancer screening (approximately 30% of US adults for breast cancer and 40% for colorectal cancer) as the knowledge of an elevated PCE-based cancer risk may be especially informative in their cancer screening decision-making process [34]. Accordingly, interpretation of the PCE risk for only CVD risk stratification represents an incomplete utilization of the data already at hand."
+        },
+        {
+          "type": "paragraph",
+          "html": "Aspirin is currently the only medication with guideline-based recommendation for dual CVD and cancer prevention. This shared indication from the 2016 United States Preventive Services Task Force Preventive Services is specifically for the prevention of CVD and colorectal cancer among persons 50 to 59 years old with low bleeding risk and PCE risk ≥10% [35]. However, the 2019 ACC/AHA Guideline on the Primary Prevention of CVD provides only a IIb recommendation for aspirin and primary prevention of ASCVD among persons with higher PCE risk [36]. Aspirin has also been shown to reduce the incidence and/or mortality associated with breast, lung, and other gastrointestinal cancers [[37], [38], [39], [40]]. There is also growing evidence demonstrating that several other CVD medications can reduce the risk of cancer. Canakinumab reduced both recurrent CVD events along with total cancer mortality (particularly lung cancer) in the Canakinumab Anti-inflammatory Thrombosis Outcome Study (CANTOS) trial and is under investigation for the treatment for lung cancer [41,42]. Most relevant to calculation of the PCE, statin use is associated with a significant reduction in the incidence and/or mortality of hepatocellular, breast, prostate, kidney, colorectal, and lung cancers [[43], [44], [45], [46], [47], [48], [49], [50]]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Age is a very strong contributor to an individual&#x27;s PCE risk, especially among older individuals as nearly all individuals ≥65 years of age have a PCE risk ≥7.5%, regardless of their presence or absence of other CVD risk factors [51]. In our subgroup analysis we found that the PCE had a much lower relative hazard for CVD in older compared to younger individuals. However, in older individuals with an intermediate PCE risk, the relative hazard for cancer was higher than CVD, the latter of which showed a statistically non-significant association, HR 1.58 (95% CI 0.97–2.59). Accordingly, our results suggest that among older patients at intermediate PCE risk, an especially strong emphasis should be placed upon age appropriate cancer screening in addition to the appropriate CVD preventive therapies. Coronary artery calcium (CAC) scoring, which is recommended by the 2018 ACC/AHA Cholesterol Treatment Guidelines when there is uncertainty among intermediate risk individuals can also be considered in this group as we have previously demonstrated that CAC can refine the risk of CVD versus cancer mortality [15,52]. Further research is necessary to better understand these observed differences in the competing risk of CVD and cancer by age and how they may impact primary prevention strategies."
+        },
+        {
+          "type": "paragraph",
+          "html": "Limitations of this analysis include that unlike CVD, incident cancer events were not adjudicated in MESA. While some participants likely had undetected or undiagnosed cancer, a diagnosis of cancer is not typically made in clinical practice without tissue pathology and it is unlikely that there were many, if any false positive diagnoses. However, participants diagnosed with cancer who did not have any subsequent hospitalizations would have been classified as without a cancer event in this study, although cancers not requiring hospitalization for treatment are less likely to be associated with significant adverse clinical outcomes. A general limitation of the PCE is that older individuals are much more likely to be classified as high-risk and although we explored the effect of age in a subgroup analysis future more detailed analyses examining the impact of age and sex are needed. Additionally, the categorical cutpoints of &lt;7.5%, 7.5–19%, and ≥20% for the PCE are based on risk benefit data for statin use and not optimized for cancer screening. Additional research is needed to determine the optimal ASCVD risk cutpoints for consideration of CVD versus cancer in clinical medicine. Strengths include that MESA is a well-defined, multiethnic cohort of individuals in an age group for which the use of the PCE is guideline and cancer screening is recommended."
+        }
+      ]
+    },
+    {
+      "title": "Conclusions",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "At low PCE risk there was a higher incidence of cancer versus CVD incident rate with CVD overtaking cancer at a PCE of approximately 7.2%. However, the absolute event rate was low for both CVD and cancer when the PCE risk was &lt;7.5%. While CVD and cancer have typically been treated as separate disease processes, these results highlight the importance of modifiable risk factors for CVD and cancer prevention. They also demonstrate the clinical utility of the PCE for the synergistic risk stratification of both CVD and cancer, which are the two leading causes of death in developed countries. Further research is needed to understand how the treatment of shared modifiable risk factors via currently available and novel CVD therapies may reduce the morbidity and mortality from both CVD and cancer."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of Competing Interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors of this manuscript do not have any relevant conflicts of interest."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "BhaskaranK.dos-Santos-SilvaI.LeonD.A.DouglasI.J.SmeethL.Association of BMI with overall and cause-specific mortality: a population-based cohort study of 3.6 million adults in the UKLancet Diabetes Endo6201894495310.1016/S2213-8587(18)30288-2PMC624999130389323"
+    },
+    {
+      "html": "AuneD.SenA.PrasadM.BMI and all cause mortality: systematic review and non-linear dose-response meta-analysis of 230 cohort studies with 3.74 million deaths among 30.3 million participantsBMJ Brit Med J353201611710.1136/bmj.i2156PMC485685427146380"
+    },
+    {
+      "html": "FlegalK.M.KitB.K.OrpanaH.GraubardBI.Association of all-cause mortality with overweight and obesity using standard body mass index categories a systematic review and meta-analysisJAMA J Am Med Assoc3092013718210.1001/jama.2012.113905PMC485551423280227"
+    },
+    {
+      "html": "McAuleyP.A.KeteyianS.J.BrawnerC.A.Exercise capacity and the obesity paradox in heart failure: the FIT (Henry Ford Exercise Testing) projectMayo Clin Proc9320187017082973117810.1016/j.mayocp.2018.01.026"
+    },
+    {
+      "html": "TownsendN.WilsonL.BhatnagarP.WickramasingheK.RaynerM.NicholsM.Cardiovascular disease in Europe: epidemiological update 2016 (vol 37, pp. 3232, 2017)Eur Heart J4020191891892752347710.1093/eurheartj/ehw334"
+    },
+    {
+      "html": "KleinJP.Modeling competing risks in cancer studiesStat Med252006101510341643533910.1002/sim.2246"
+    },
+    {
+      "html": "AustinP.C.LeeD.S.FineJP.Introduction to the analysis of survival data in the presence of competing risksCirculation13320166016092685829010.1161/CIRCULATIONAHA.115.017719PMC4741409"
+    },
+    {
+      "html": "StoneN.J.RobinsonJ.G.LichtensteinA.H.2013 ACC/AHA guideline on the treatment of blood cholesterol to reduce atherosclerotic cardiovascular risk in adults a report of the American College of Cardiology/American heart association task force on practice guidelinesJ Am Coll Cardiol632014288929342423992310.1016/j.jacc.2013.11.002"
+    },
+    {
+      "html": "EyreH.KahnR.RobertsonR.M.Preventing cancer, cardiovascular disease, and diabetes - a common agenda for the American Cancer Society, the American Diabetes Association, and the American Heart AssociationCirculation1092004324432551519894610.1161/01.CIR.0000133321.00456.00"
+    },
+    {
+      "html": "CarterB.D.FreedmanN.D.JacobsEJ.Smoking and mortality - beyond established causesNew Engl J Med37220152170-217010.1056/NEJMc150367526017836"
+    },
+    {
+      "html": "CalleE.E.RodriguezC.Walker-ThurmondK.ThunMJ.Overweight, obesity, and mortality from cancer in a prospectively studied cohort of US adultsNew Engl J Med3482003162516381271173710.1056/NEJMoa021423"
+    },
+    {
+      "html": "GiovannucciE.HarlanD.M.ArcherM.C.Diabetes and cancer a consensus reportDiabetes Care332010167416852058772810.2337/dc10-0666PMC2890380"
+    },
+    {
+      "html": "SchmidD.LeitzmannMF.Television viewing and time spent sedentary in relation to cancer risk: a meta-analysisJNCI J Natl Cancer I106201411910.1093/jnci/dju09824935969"
+    },
+    {
+      "html": "BrittonK.A.MassaroJ.M.MurabitoJ.M.KregerB.E.HoffmannU.FoxCS.Body fat distribution, incident cardiovascular disease, cancer, and all-cause mortalityJ Am Coll Cardiol6220139219252385092210.1016/j.jacc.2013.06.027PMC4142485"
+    },
+    {
+      "html": "WheltonS.P.Al RifaiM.DardariZ.Coronary artery calcium and the competing long-term risk of cardiovascular vs. cancer mortality: the CAC ConsortiumEur Heart J Cardiovasc Imaging2042019 Apr 13893953059049810.1093/ehjci/jey176"
+    },
+    {
+      "html": "HandyC.E.QuispeR.PintoX.Synergistic opportunities in the interplay between cancer screening and cardiovascular disease risk assessment: together we are strongerCirculation13820187277343035913110.1161/CIRCULATIONAHA.118.035516"
+    },
+    {
+      "html": "PursnaniA.MassaroJ.M.D&#x27;AgostinoR.B.O&#x27;DonnellC.J.HoffmannU.Guideline-based statin eligibility, cancer events, and noncardiovascular mortality in the Framingham Heart studyJ Clin Oncol Off J Am Soc Clin Oncol3520172927293310.1200/JCO.2016.71.3594PMC557838928700275"
+    },
+    {
+      "html": "Narayan VT.E.DemisseiB.HoJ.E.JanuzziJ.L.KyB.Mechanistic biomarkers informative of both cancer and cardiovascular diseaseJournal of the American College of Cardiology752020272627373246688910.1016/j.jacc.2020.03.067PMC7261288"
+    },
+    {
+      "html": "BildD.E.BluemkeD.A.BurkeG.L.Multi-ethnic study of atherosclerosis: objectives and designAm J Epidemiol15620028718811239700610.1093/aje/kwf113"
+    },
+    {
+      "html": "LakoskiS.G.GreenlandP.WongN.D.Coronary artery calcium scores and risk for cardiovascular events in women classified as &quot;low risk&quot; based on Framingham risk scoreArch Intern Med1672007243724421807116510.1001/archinte.167.22.2437"
+    },
+    {
+      "html": "WhitlockM.C.YeboahJ.BurkeG.L.ChenH.Y.KlepinH.D.HundleyWG.Cancer and its association with the development of coronary artery calcification: an assessment from the multi-ethnic study of atherosclerosis. J Am Heart Assoc420151910.1161/JAHA.115.002533PMC484524226553214"
+    },
+    {
+      "html": "GrundyS.M.StoneN.J.BaileyA.L.2018 AHA/ACC/AACVPR/AAPA/ABC/ ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA guideline on the management of blood cholesterol: a report of the American college of cardiology/American heart association task force on clinical practice guidelinesCirculation1392018e1082e11433058677410.1161/CIR.0000000000000625PMC7403606"
+    },
+    {
+      "html": "GooleyT.A.LeisenringW.CrowleyJ.StorerBE.Estimation of failure probabilities in the presence of competing risks: new representations of old estimatorsStat Med1819996957061020419810.1002/(sici)1097-0258(19990330)18:6&lt;695::aid-sim60&gt;3.0.co;2-o"
+    },
+    {
+      "html": "KimHT.Cumulative incidence in competing risks data and competing risks regression analysisClin Cancer Res1320075595651725527810.1158/1078-0432.CCR-06-1210"
+    },
+    {
+      "html": "LauB.ColeS.R.GangeSJ.Competing risk regression models for epidemiologic dataAm J Epidemiol17020092442561949424210.1093/aje/kwp107PMC2732996"
+    },
+    {
+      "html": "KleinJ.P.AndersenPK.Regression modeling of competing risks data based on pseudovalues of the cumulative incidence functionBiometrics6120052232291573709710.1111/j.0006-341X.2005.031209.x"
+    },
+    {
+      "html": "FineJ.P.GrayRJ.A proportional hazards model for the sub distribution of a competing riskJ Am Stat Assoc941999496509"
+    },
+    {
+      "html": "ClevelandWS.Robust locally weighted regression and smoothing scatterplotsJ Am Stat Assoc741979829836"
+    },
+    {
+      "html": "GibbonsR.J.BaladyG.J.BrickerJ.T.ACC/AHA 2002 guideline update for exercise testing: summary article: a report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines (Committee to Update the 1997 Exercise Testing Guidelines)Circulation1062002188318921235664610.1161/01.cir.0000034670.06526.15"
+    },
+    {
+      "html": "WenderR.FonthamE.T.H.BarreraE.American cancer society lung cancer screening guidelinesCA Cancer J Clin6320131071172331595410.3322/caac.21172PMC3632634"
+    },
+    {
+      "html": "WolfA.M.D.FonthamE.T.H.ChurchT.R.Colorectal Cancer screening for average-risk adults: 2018 guideline update from the American Cancer societyCA Cancer J Clin6820182502812984694710.3322/caac.21457"
+    },
+    {
+      "html": "SaslowD.SolomonD.LawsonH.W.American cancer society, American Society for Colposcopy and Cervical Pathology, and American Society for Clinical Pathology screening guidelines for the prevention and early detection of cervical cancerCA Cancer J Clin6220121471722242263110.3322/caac.21139PMC3801360"
+    },
+    {
+      "html": "OeffingerK.C.FonthamE.T.H.EtzioniR.Breast Cancer screening for women at average risk 2015 guideline update from the American Cancer societyJAMA J Am Med Assoc31420151599161410.1001/jama.2015.12783PMC483158226501536"
+    },
+    {
+      "html": "HallI.J.TangkaF.K.L.SabatinoS.A.ThompsonT.D.GraubardB.I.BreenN.Patterns and trends in cancer screening in the United StatesPrev Chronic Dis15201811310.5888/pcd15.170465PMC609326530048233"
+    },
+    {
+      "html": "Bibbins-DomingoK.ForceU.Aspirin use for the primary prevention of cardiovascular disease and colorectal cancer: US preventive services task force recommendation statementAnn Intern Med1642016836-U1032706467710.7326/M16-0577"
+    },
+    {
+      "html": "ArnettD.K.BlumenthalR.S.AlbertM.A.2019 ACC/AHA Guideline on the primary prevention of cardiovascular disease: a report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice GuidelinesCirculation1402019E596E6463087935510.1161/CIR.0000000000000678PMC7734661"
+    },
+    {
+      "html": "HolmesM.D.ChenW.Y.LiL.HertzmarkE.SpiegelmanD.HankinsonSE.Aspirin intake and survival after breast cancerJ Clin Oncol282010146714722015982510.1200/JCO.2009.22.7918PMC2849768"
+    },
+    {
+      "html": "TsoiK.K.F.HoJ.M.W.ChanF.C.H.SungJJY.Long-term use of low-dose aspirin for cancer prevention: a 10-year population cohort study in Hong KongInt J Cancer14520192672733057594910.1002/ijc.32083"
+    },
+    {
+      "html": "YeS.LeeM.LeeD.HaE.H.ChunEM.Association of long-term use of low-dose aspirin as chemoprevention with risk of lung cancer (vol 2, e190185, 2019)JAMA Netw Open2201911310.1001/jamanetworkopen.2019.0185PMC648466730821825"
+    },
+    {
+      "html": "PiepoliM.F.HoesA.W.AgewallS.2016 European Guidelines on cardiovascular disease prevention in clinical practice: The Sixth Joint Task Force of the European Society of Cardiology and Other Societies on Cardiovascular Disease Prevention in Clinical Practice (constituted by representatives of 10 societies and by invited experts)Developed with the special contribution of the European Association for Cardiovascular Prevention &amp; Rehabilitation (EACPR)Eur Heart J372016231523812722259110.1093/eurheartj/ehw106PMC4986030"
+    },
+    {
+      "html": "RidkerP.M.MacFadyenJ.G.ThurenT.Effect of interleukin-1beta inhibition with canakinumab on incident lung cancer in patients with atherosclerosis: exploratory results from a randomized, double-blind, placebo-controlled trialLancet3902017183318422885507710.1016/S0140-6736(17)32247-X"
+    },
+    {
+      "html": "RidkerP.M.EverettB.M.ThurenT.Antiinflammatory therapy with canakinumab for atherosclerotic diseaseN Engl J Med3772017111911312884575110.1056/NEJMoa1707914"
+    },
+    {
+      "html": "BeckwittC.H.BrufskyA.OltvaiZ.N.WellsA.Statin drugs to reduce breast cancer recurrence and mortalityBreast Cancer Res2020181443045885610.1186/s13058-018-1066-zPMC6247616"
+    },
+    {
+      "html": "ZaleskaM.MozenskaO.BilJ.Statins use and cancer: an updateFuture Oncol142018149715092972227410.2217/fon-2017-0543"
+    },
+    {
+      "html": "SinghS.SinghP.P.SinghA.G.MuradM.H.SanchezW.Statins are associated with a reduced risk of hepatocellular cancer: a systematic review and meta-analysisGastroenterology14420133233322306397110.1053/j.gastro.2012.10.005"
+    },
+    {
+      "html": "KimR.G.LoombaR.ProkopL.J.SinghS.Statin use and risk of cirrhosis and related complications in patients with chronic liver diseases: a systematic review and meta-analysisClin Gastroenterol H1520171521-+10.1016/j.cgh.2017.04.039PMC560539728479502"
+    },
+    {
+      "html": "VoorneveldP.W.ReimersM.S.BastiaannetE.Statin use after diagnosis of colon cancer and patient survivalGastroenterology1532017470-+2851202110.1053/j.gastro.2017.05.011"
+    },
+    {
+      "html": "NayanM.PunjaniN.JuurlinkD.N.Statin use and kidney cancer survival outcomes: a systematic review and meta-analysisCancer Treat Rev5220171051162799284310.1016/j.ctrv.2016.11.009"
+    },
+    {
+      "html": "MondulA.M.JoshuC.E.BarberJ.R.Longer-term Lipid-lowering drug use and risk of incident and fatal prostate cancer in black and white men in the ARIC studyCancer Prev Res11201877978710.1158/1940-6207.CAPR-17-0396PMC628979930327368"
+    },
+    {
+      "html": "KhuranaV.BejjankiH.R.CalditoG.OwensMW.Statins reduce the risk of lung cancer in humans* - a large case-control study of US veteransChest1312007128212881749477910.1378/chest.06-0931"
+    },
+    {
+      "html": "DeFilippisA.P.YoungR.McEvoyJ.W.Risk score overestimation: the impact of individual cardiovascular risk factors and preventive therapies on the performance of the American Heart Association-American College of Cardiology-Atherosclerotic Cardiovascular Disease risk score in a modern multi-ethnic cohortEur Heart J3820175986082743686510.1093/eurheartj/ehw301PMC5837662"
+    },
+    {
+      "html": "GrundyS.M.StoneN.J.BaileyA.L.2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the management of blood cholesterol: a report of the American College of Cardiology/American Heart Association task force on Clinical Practice GuidelinesCirculation1392019e1082e11433058677410.1161/CIR.0000000000000625PMC7403606"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

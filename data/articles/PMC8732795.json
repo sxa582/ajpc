@@ -1,0 +1,395 @@
+{
+  "pmcid": "PMC8732795",
+  "pmid": "35024678",
+  "doi": "10.1016/j.ajpc.2021.100312",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8732795/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Cardiovascular risk profile of Middle Eastern immigrants living in the United States-the National Health Interview Survey",
+  "articleType": "Research Article",
+  "published": "2021-12-27",
+  "year": "2021",
+  "volume": "9",
+  "issue": "",
+  "articleNumber": "100312",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2021",
+  "authors": [
+    {
+      "given": "Tamer",
+      "surname": "Yahya",
+      "display": "Tamer Yahya"
+    },
+    {
+      "given": "Isaac",
+      "surname": "Acquah",
+      "display": "Isaac Acquah"
+    },
+    {
+      "given": "Mohamad B",
+      "surname": "Taha",
+      "display": "Mohamad B Taha"
+    },
+    {
+      "given": "Javier",
+      "surname": "Valero-Elizondo",
+      "display": "Javier Valero-Elizondo"
+    },
+    {
+      "given": "Mouaz H.",
+      "surname": "Al-Mallah",
+      "display": "Mouaz H. Al-Mallah"
+    },
+    {
+      "given": "Mohammed A.",
+      "surname": "Chamsi-Pasha",
+      "display": "Mohammed A. Chamsi-Pasha"
+    },
+    {
+      "given": "William A.",
+      "surname": "Zoghbi",
+      "display": "William A. Zoghbi"
+    },
+    {
+      "given": "Ahmed",
+      "surname": "Soliman",
+      "display": "Ahmed Soliman"
+    },
+    {
+      "given": "Nadeen",
+      "surname": "Faza",
+      "display": "Nadeen Faza"
+    },
+    {
+      "given": "Miguel",
+      "surname": "Cainzos-Achirica",
+      "display": "Miguel Cainzos-Achirica"
+    },
+    {
+      "given": "Khurram",
+      "surname": "Nasir",
+      "display": "Khurram Nasir"
+    }
+  ],
+  "affiliations": [
+    "aDivision of Cardiovascular Prevention and Wellness, Department of Cardiology, Houston Methodist DeBakey Heart and Vascular Center, 6550 Fannin St Suite 1801, Houston TX 77030, USA",
+    "bCenter for Outcomes Research, Houston Methodist, Houston TX, USA"
+  ],
+  "keywords": [
+    "Cardiovascular disease",
+    "Epidemiology",
+    "Middle Eastern",
+    "Risk factors",
+    "ASCVD, atherosclerotic cardiovascular disease events",
+    "CI, confidence interval",
+    "CRF, cardiovascular risk factors",
+    "CVD, cardiovascular disease",
+    "ME, Middle Eastern",
+    "NHIS, National Health Interview Survey",
+    "NHW, non-Hispanic White"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Background:</strong> Middle Eastern (ME) immigrants are one of the fastest-growing groups in the US. Although ME countries have a high burden of atherosclerotic cardiovascular disease (ASCVD), the cardiovascular health status among ME immigrants in the US has not been studied in detail. This study aims to characterize the cardiovascular health status (CVD risk factors and ASCVD burden) among ME immigrants in the US."
+    },
+    {
+      "html": "<strong>Methods:</strong> We used 2012–2018 data from the National Health Interview Survey, a US nationally representative survey. ME origin, CVD risk factors, and ASCVD status were self-reported. We compared these to US-born non-Hispanic white (NHW) individuals in the US."
+    },
+    {
+      "html": "<strong>Results:</strong> Among 139,778 adults included, 886 (representing 1.3 million individuals, mean age 46.8) were of ME origin, and 138,892 were US-born NHWs (representing 150 million US adults, mean age 49.3). ME participants were more likely to have higher education, lower income and be uninsured. The age-adjusted prevalence of hypertension (22.4% vs 27.4%) and obesity (21.4% vs 31.4%) were significantly lower in ME vs NHW participants, respectively. There were no significant differences between the groups in the age-adjusted prevalence of ASCVD, diabetes, hyperlipidemia, and smoking. Only insufficient physical activity was higher among ME individuals. ME immigrants living in the US for 10 years or more reported higher age-adjusted prevalence of hypertension, hyperlipidemia, and ASCVD."
+    },
+    {
+      "html": "<strong>Conclusions:</strong> ME immigrants in the US have lower odds of hypertension and obesity, and of having a suboptimal CRF profile compared to US-born NHWs. Further studies are needed to determine whether these findings are related to lower risk, selection of a healthier ME subgroup in NHIS, or possible under-detection of cardiovascular risk factors in ME immigrants living in the US."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The Middle East refers to a large geographical area comprised of numerous countries in West Asia, Southeast Europe, the Arab peninsula, and a part of North Africa [1]. ME immigrants are a rapidly growing population in the US, accounting for approximately 3% of all immigrants [2]. The size of the ME immigrant population in the US has been estimated to be between 1.2–3.7 million [1,3], however, an accurate census is lacking due to the racialization of ME immigrants as “White” by the US census [1]."
+        },
+        {
+          "type": "paragraph",
+          "html": "While the burden and risk of cardiovascular disease (CVD) in certain minority groups in the US has been well-described [4,5], it remains scarcely studied in others, including ME immigrants. Current literature on the cardiovascular health of ME immigrants in the US is limited and often combined with other immigrant groups [2,6]. Studies until 2016 have suggested that the prevalence of hypertension, obesity, and diabetes among ME immigrants in the US was unexceptional compared to other immigrant groups in the country [2]. However, ME immigrants have been noted to increasingly report a poor health status over the past two decades [3], and have low use of health care services [1]. Moreover, studies in ME countries have noted a high burden of CVD and its risk factors that is still rising [7,8]. These factors bring into question whether available prevalence estimates in US ME immigrants are truly representative of their cardiovascular risk profile and stress the need for updated analyses."
+        },
+        {
+          "type": "paragraph",
+          "html": "In this study, we used data from a nationally representative sample of the US to characterize the cardiovascular risk profile and the burden of atherosclerotic CVD (ASCVD) among ME immigrants, and explore the effects of social determinants and length of stay in the US on their cardiovascular health."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Setting and study design",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This was a cross-sectional analysis using data from the 2012–2018 National Health Interview Survey (NHIS). We pooled data from years 2012–2018 to garner enough power in order to describe the attributes related to the ME population. Annually, the National Center for Health Statistics administers the survey to a nationally representative sample of civilian non‐institutionalized US individuals [9]. Out of the five core components of NHIS (the household file, the family file, the person, the sample adult file and the sample child file), we used the sample adult file combined with additional variables from other components [10]. The household file describes the characteristics of each household, while the family file describes the characteristics of the families living in those households. The person file variables are derived from the sections making up the family core of the NHIS which is then collected for household members. The sample adult and child sections cover many of the subject areas included in the family core with more specific and detailed information [10]. NHIS data is publicly available and de-identified data, therefore our study was exempt from the Institutional Review Board of Houston Methodist Hospital [11]."
+        }
+      ]
+    },
+    {
+      "title": "Study population and exposures",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Our study population was restricted to NHIS participants ≥18 years of age. Two groups were included: participants who self-reported being born in the Middle East (“ME immigrants”, including naturalized citizens, legal permanent residents, refugees, undocumented immigrants, and individuals on visas, including students or guest workers [12], and people who self‐identified as non-Hispanic White (NHW) and self-reported being born in the US (“US-born NHWs”, which served as reference population for this analysis). The NHIS uses the CIA on-line <em>World Factbook</em> to place countries into regional categories [13], in which the middle east is defined by the following countries: Armenia, Azerbaijan, Bahrain, Georgia, Iran, Iraq, Jordan, Kuwait, Lebanon, Oman, Qatar, Palestine (Gaza Strip and West Bank), Saudi Arabia, Syria, Turkey, United Arab Emirates, and Yemen [14]."
+        }
+      ]
+    },
+    {
+      "title": "Cardiovascular risk factors and ASCVD",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The risk factors assessed in this analysis were all self-reported and included: hypertension, diabetes, high cholesterol, obesity (calculated body mass index ≥ 30 kg/m<sup>2</sup>), current smoker, or insufficient physical activity (based on not participating in &gt; 150 min per week of moderate-intensity aerobic physical activity, &gt; 75 min per week of vigorous-intensity aerobic physical activity, or a total combination of ≥ 150 min per week of moderate/vigorous-intensity aerobic physical activity). Based on the presence of these individual risk factors, individuals were also categorized as having an “optimal” (0–1 risk factors) or “suboptimal” (≥ 2 risk factors) cardiovascular risk factor (CRF) profile (Supplementary Table 1.)."
+        },
+        {
+          "type": "paragraph",
+          "html": "In a similar fashion, ASCVD status was self-reported. Individuals were deemed to have ASCVD if they answered “yes’ to any of the following questions in NHIS: “<em>Have you ever been told by a doctor or other health professional that you had… Angina, also called angina pectoris? …Coronary heart disease? …A stroke? …A heart attack, also called myocardial infarction?”.</em>"
+        }
+      ]
+    },
+    {
+      "title": "Covariates",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Other relevant variables in this study included age, sex, education, insurance status, family income, usual source of care, length of stay in the US, and English language proficiency. Categorical variables were classified as follows: age (18–44, 45–64 and ≥ 65), sex (male and female), education (some college or higher or high school or lower), insurance type (insured, and uninsured) family income (based on the percent of family income to the federal poverty limit from the Census Bureau: middle/high-income [≥ 200], low-income [&lt; 200%]); English proficiency (speaks english well, and doesn&#x27;t speak english well), and source of care (has a usual source of care, and doesn&#x27;t have a usual source of care)."
+        }
+      ]
+    },
+    {
+      "title": "Statistical analyses",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We used survey-specific descriptive statistics to obtain national estimates of cardiovascular risk factors in the study participants by study group (ME vs US-born NHW). The continuous age variable was reported as mean and standard deviation, and categorical variables were reported using counts and weighted percentages. We used chi-squared tests to compare frequencies between the two groups for categorical variables."
+        },
+        {
+          "type": "paragraph",
+          "html": "The NHIS is a multistage, complex probability sample which after reaching a given number of observations, can produce nation-level estimates. To achieve this, sampling weights, provided by NHIS, are used to calculate national (weighted) estimates from the unweighted observations using statistical software. We used the “svy” command to obtain weighted national estimates for the prevalence of ASCVD and risk factors by the region of birth (ME vs US-Born NHW) in addition to estimates in ME immigrants by the length of stay in the US. Similarly, we obtained weighted prevalence estimates for suboptimal CRF profile across socio-demographic characteristics. Age-adjusted estimates were obtained using the US Census Population 2010 Data [15]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Multivariable logistic regression models were used to analyze the association between ME origin (compared to US-born NHWs) and each individual cardiovascular risk factor, suboptimal CRF, and suboptimal CRF in those without ASCVD. Logistic regression models were progressively of adjusted for potential confounders as follows: Model 1 was unadjusted, Model 2 adjusted for age and sex, and Model 3 was further adjusted for income, insurance, education, and having a usual source of care."
+        },
+        {
+          "type": "paragraph",
+          "html": "Similarly, logistic regression models were used to estimate the associations between socio-demographic factors and suboptimal CRF profile in ME immigrants. Model 1 was unadjusted, and Model 2 was adjusted for all other socio-demographic characteristics."
+        },
+        {
+          "type": "paragraph",
+          "html": "We obtained variance estimations for the entire pooled cohort from the Integrated Public Use Microdata Series (<a href=\"http://www.ipums.org\">http://www.ipums.org</a>) [16]. The person-level NHIS sample weights (representing the inverse probability of a person being selected and household response adjustment) were divided by the number of years in the pooled datasets to accurately reflect the total population, as per NHIS standards [16]. For all statistical analyses, a two-tailed alpha level of 0.05 was considered statistically significant, and to account for the complex sampling design of the NHIS to estimate annual nationally representative data, we utilized the -svy- family of commands in Stata. All analyses were performed using Stata version 16 (StataCorp, College Station, TX)."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Study population",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Our final study sample included 139,778 participants, representing approximately 151.7 million US adults annually. Of this number, 886 identified as ME immigrants (representing 1.31 million), and 138,892 (representing approximately 150.4 million) identified as NHW born in the US."
+        }
+      ]
+    },
+    {
+      "title": "Sociodemographic characteristics",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Compared to US-born NHW, ME immigrants were younger (mean age 49.3 vs 46.8), and more likely to be male (48.5% vs. 55%). ME immigrants were also more likely to have higher education, lower income, and were more frequently uninsured. They were also less likely to have a usual source of care (Table 1).Table 1Characteristics of the study population by region of birth, NHIS 2012–2018.Table 1VariablesMiddle Eastern bornUS-born Non-Hispanic WhiteP-ValueSample size (unweighted)886138,892–Sample size (weighted)1309,955150,351,487Age, mean (SD)46.8 (14.7)49.3 (18.3)0.016Age Category, n (%)0.001618–44443 (47.4)50,330 (41.1)45–64283 (36)48,734 (36)65 &amp; above160 (16.3)39,828 (22.9)Sex, n (%)&lt;0.001Male505 (55)63,781 (48.5)Female381 (45)75,111 (51.5)Education, n (%)&lt;0.001High school or less230 (28.7)46,908 (33.4)Some College or higher649 (71.3)91,629 (66.6)Income, n (%)&lt;0.001Middle/High Income466 (60.5)91,825 (76.6)Low-Income355 (39.5)36,086 (23.4)Insurance, n (%)0.001Insured758 (87.5)125,889 (91.8)Uninsured113 (12.5)11,397 (8.2)Years in the US, n (%)–Less than 10 years318 (33.9)–More than 10 years566 (66.1)–Has Usual Source of Care, n (%)705 (81.4)122,238 (88.6)&lt;0.001Abbreviations: NHIS, National Health Interview Survey; SD, standard deviation; US, United States."
+        }
+      ]
+    },
+    {
+      "title": "Age-adjusted burden of cardiovascular risk factors and ASCVD",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The age-adjusted prevalence of cardiovascular risk factors by study group is presented in Fig. 1. Compared to US-born NHW, ME immigrants had lower age-adjusted prevalence of self-reported hypertension (22.4% vs 27.4%, <em>p</em> &lt; 0.001) and of obesity (21.4% vs 31.4%, <em>p</em> &lt; 0.001). There was no significant difference in the age-adjusted prevalence of diabetes, hyperlipidemia, smoking, and ASCVD, between the 2 groups. The age-adjusted prevalence of insufficient physical activity was however higher among ME immigrants compared with US-born NHW (53.6% vs 44.3%, <em>p</em> &lt; 0.001) (Fig 1 Panel A).Fig. 1Age-adjusted prevalence of cardiovascular risk factors Panel A: prevalence in total population. Panel B: prevalence in men. Panel C: prevalence in women. Abbreviations: ASCVD, atherosclerotic cardiovascular disease.Fig. 1"
+        },
+        {
+          "type": "paragraph",
+          "html": "When stratified by sex, there was a lower prevalence of hypertension and obesity among ME immigrants for both genders compared with US-born NHW. Additionally, among men, the prevalence of ASCVD was lower among ME immigrants compared to US-born NHW. However, the prevalence of smoking was slightly higher among ME men compared to US-born NHW men. In contast, ME women had lower prevalence of smoking than US-born NHW women (Fig. 1 Panels B &amp; C)."
+        }
+      ]
+    },
+    {
+      "title": "Associations between me origin, cardiovascular risk factors, and ASCVD",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In univariable regression analyses, ME immigrants had lower odds of reporting ASCVD and most cardiovascular risk factors than US-born NHWs, although these odds ratios (ORs) were only statistically significant for hypertension (OR 0.72, 95% CI [0.58, 0.89]); and obesity (OR 0.64, 95% CI [0.54, 0.75]). ME immigrants had higher odds of insufficient physical activity (OR 1.29, 95% CI [1.12, 1.49]) compared to US-born NHW. Additionally, MEs had lower odds of having a suboptimal CRF profile (OR 0.73, 95% CI [0.64, 0.82]); with this association remaining unchanged even among participants without ASCVD when compared to US-born NHWs (Table 2).Table 2Logistic regression for cardiovascular risk factors in ME individuals compared to US-born NHW.Table 2Model 1*Model 2†Model 3‡OR (95% CI)p-valueOR (95% CI)p-valueOR (95% CI)p-valueHypertension0.72 (0.58, 0.89)0.0030.79 (0.68, 0.91)0.0010.71 (0.61, 0.83)&lt;0.001Diabetes mellitus0.87 (0.66, 1.14)0.3161.00 (0.81, 1.24)0.9730.86 (0.69, 1.06)0.158Hyperlipidemia0.95 (0.78, 1.16)0.6041.09 (0.96, 1.25)0.191.07 (0.94, 1.21)0.301Obesity0.64 (0.54, 0.75)&lt;0.0010.64 (0.55, 0.76)&lt;0.0010.61 (0.52, 0.72)&lt;0.001Smoking0.81 (0.61, 1.08)0.1490.78 (0.59, 1.01)0.0620.61 (0.46, 0.80)&lt;0.001Insufficient physical activity1.29 (1.12, 1.49)0.0011.40 (1.21, 1.63)&lt;0.0011.30 (1.11, 1.53)0.002ASCVD0.71 (0.50, 1.01)0.0570.84 (0.58, 1.20)0.320.69 (0.45, 1.08)0.103Sub-Optimal CRF Profile§0.73 (0.64, 0.82)&lt;0.0010.79 (0.66, 0.94)0.0070.71 (0.60, 0.84)&lt;0.001Sub-Optimal CRF Profile among those without ASCVD0.74 (0.67, 0.83)&lt;0.0010.79 (0.68, 0.93)0.0040.73 (0.61, 0.86)&lt;0.001⁎Unadjusted model.†Model adjusted for age &amp; sex.‡Model 3: Model 2 + income, insurance, education &amp; having a usual place of care.§Having 2 or more risk factorsAbbreviations: ME, Middle Eastern; US, United States; NHW, non-Hispanic white; OR, Odds Ratios; CI, confidence interval; ASCVD, atherosclerotic cardiovascular disease; CRF, Cardiovascular risk factor profile."
+        },
+        {
+          "type": "paragraph",
+          "html": "After progressive adjustment for potential confounders (age and sex in model 2, in addition to sociodemographic factors in model 3) all associations remained largely unchanged in both direction and magnitude."
+        }
+      ]
+    },
+    {
+      "title": "Role of length of stay and other social determinants of health among me immigrants",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The crude and age-adjusted prevalence of cardiovascular risk factors by the length of stay in the US among MEs is presented in Fig. 2. ME immigrants who stayed in the US for 10 years or more had a higher age-adjusted prevalence of ASCVD, hypertension, and hyperlipidemia, and lower prevalence of diabetes, obesity, and insufficient physical activity compared with those who lived in the US for less than 10 years (Fig. 2 Panel B).Fig. 2Prevalence of CRF by length of stay in the US Panel A: crude prevalence. Panel B: age-adjusted prevalence. Abbreviations: CRF, cardiovascular risk factors.Fig. 2"
+        },
+        {
+          "type": "paragraph",
+          "html": "The crude prevalence of a suboptimal CRF in ME immigrants was higher within certain subgroups. When comparing the prevalence of suboptimal CRF profile by sociodemographic characteristics among ME immigrants, those with insurance, higher education, have a usual source of care, from low-income households, and with low English language proficiency reported a higher prevalence of a suboptimal CRF (Fig. 3). The sociodemographic factors most strongly associated with reporting a suboptimal CRF included male sex, lower education attainment, and low income (Table 3). Not having a usual source of care was associated with lower odds of reporting a suboptimal CRF. Although low English proficiency was a driver of having a suboptimal CRF, in multivariable analysis, it was associated with lower odds of a suboptimal CRF profile.Fig. 3Prevalence of suboptimal CRF by sociodemographic factors in ME immigrants.Fig. 3Table 3Odds ratios of having a suboptimal CRF in ME immigrants by sociodemographic factors.Table 3Model 1*Model 2†AgeOR (95% CI)P-valueOR (95% CI)P-value18–44ReferenceReference45–642.65 (1.90, 3.69)&lt;0.0013.22 (3.05, 3.41)&lt;0.00165 and older12.47 (9.04, 16.92)&lt;0.0016.10 (5.69, 6.55)&lt;0.001SexFemaleReferenceReferenceMale1.66 (1.27, 2.15)&lt;0.0011.11 (1.08, 1.14)&lt;0.001EducationSome College or HigherReferenceReferenceHigh school or Less2.40 (1.84, 3.12)&lt;0.0011.82 (1.74, 1.94)&lt;0.001IncomeMiddle/High-IncomeReferenceReferenceLow-Income1.76 (1.27, 2.45)0.0011.74 (1.69, 1.78)&lt;0.001InsuranceHas insuranceReferenceReferenceNo insurance0.74 (0.48, 1.11)0.1481.14 (1.07, 1.21)&lt;0.001Usual source of careYesReferenceReferenceNo0.39 (0.27, 0.58)&lt;0.0010.68 (0.65, 0.72)&lt;0.001English ProficiencySpeaks wellReferenceReferenceDoes not speak well2.40 (1.78, 3.23)&lt;0.0010.76 (0.71, 0.81)&lt;0.001⁎Unadjusted model.†Model adjusted for all other sociodemographic factors in the table."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In a study using 2012–2018 data from NHIS, we found that ME immigrants in the US seem to have lower prevalence and odds of hypertension and obesity, and of having a suboptimal CRF profilecompared to US-born NHWs. Our results show that ME individuals had a significantly lower prevalence of hypertension and obesity, and lower odds of having a suboptimal CRF compared to US-born NHWs. Despite a lower prevalence of a suboptimal CRF in ME immigrants than in US-born NHWs, we did not find a significant association for ASCVD, although our study may have been underpowered to detect such differences. Of note, ME immigrants staying in the US for 10 years or more had a higher age-adjusted prevalence of hypertension and hyperlipidemia and lower for diabetes, obesity, and insufficient physical activity. Finally, the factors independently associated with higher odds of suboptimal CRF among ME immigrants were male sex, low household income, low English proficiency, and low educational attainment. Not having a usual source of care was associated with lower odds of having a suboptimal CRF in ME immigrants."
+        },
+        {
+          "type": "paragraph",
+          "html": "Our findings build on the prior published literature in several ways. A previous NHIS analysis using data up to 2016 showed similar prevalence of hypertension and diabetes in ME immigrants in comparison to other immigrant groups in the US [2]. The current manuscript adds to the literature by providing results from more recent years, and examining other relevant cardiovascular risk factors including hyperlipidemia, insufficient physical activity, and smoking; as well as ASCVD."
+        },
+        {
+          "type": "paragraph",
+          "html": "Our findings, which suggest that ME in the US are a relatively cardiovascular-healthy population, could be explained by several mechanisms. A healthier diet could play a role i.e. Mediterranean diet [17], although the adherence of said diet has not been studied in ME countries or ME immigrants in the US [18]. A second potential mechanism could involve the selection of healthy individuals immigrating into the US, a mechanism that has been described in other groups and limits generalizability of findings from immigrant studies to the countries of origin. Third, oversampling of more educated ME immigrants, and under-detection and/or under-reporting of cardiovascular risk factors in ME immigrants living in the US are also possibilities. The latter has also been proposed for other immigrant populations whose burden of risk factors and ASCVD in NHIS was remarkably lower compared to non-survey studies in the US, such as South Asians [19]. This is important in light of the lower proportion of ME being insured or having a usual source of care observed in our analysis, which is likely to have affected access to healthcare and potentially result in an under-detection of some prevalent risk factors. Studies using objective measures of risk factors in a sample representative of the whole ME population in the US would likely address these potential issues."
+        },
+        {
+          "type": "paragraph",
+          "html": "Still, important risk factors among ME immigrants in the US noted in our study included insufficient physical activity, hyperlipidemia, and diabetes among men. The burden of insufficient physical activity was particularly high in ME immigrants (53.6% in our analysis); a comparable prevalence (49.2%) was noted in a 2020 meta-analysis of 125 studies conducted in 20 different ME countries [20]. The study identified several barriers to insufficient physical activity including physical environment factors (lack of parks, neighborhood aesthetics, hot arid climate), psychological and social factors (unperceived benefits of physical activity, absence of social support from friends and peers), and conservative social norms particularly relevant for women [20]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Another important finding in our study is that not having a usual source of care was associated with lower odds or reporting a suboptimal CRF profile. This finding is consistent with a study by Samari et al. demonstrating that ME immigrants had significantly lower odds of accessing and utilizing healthcare services compared to US-born NHWs [1]. This, in turn, supports the notion that cardiovascular risk factors may be under-detected in ME immigrants. Further supporting this hypothesis, local studies in the Middle East have noted a high burden of coronary heart disease and its risk factors, however, well-designed population-based studies are lacking in the region."
+        },
+        {
+          "type": "paragraph",
+          "html": "We also noted the effects of length of stay in the US on ME immigrants. Those who have been living in the US for 10 years or more reported higher age-adjusted prevalence of hypertension, hyperlipidemia, and ASCVD. This finding compiles to a study from the NHIS in 2007 that immigrants in the US (not limited to ME) who stayed in the US for 15 years or more had higher odds of obesity, smoking, and hyperlipidemia, and no increased odds of diabetes or hypertension when compared to those staying less than 10 years [6]. While our findings for hypertension and hyperlipidemia could be explained by better access to screening over time once in the US, this is unlikely to explain the results for ASCVD."
+        },
+        {
+          "type": "paragraph",
+          "html": "The implications of our study include adding recent, nation-level information about the CRF profile of ME immigrants; the rapidly growing ME immigrant population in the US may benefit from being highlighted in future research. A better understanding of their cardiovascular health may inform health policies to improving their and immigrant health in general. Further, assistance and awareness programs may be directed to especially vulnerable individuals with adverse sociodemographic factors who remain with undiagnosed conditions."
+        }
+      ]
+    },
+    {
+      "title": "Study limitations",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The results of our study need to be viewed considering a few limitations. First, NHIS data can only identify ME participants that were born in the Middle East by virtue of the question about country of birth. Currently, the NHIS does not have a way to identify individuals of ME origin who were born in the US or other regions, therefore ME immigrants in the US may be under-detected in our sampleIn addition, NHIS only provides the region of birth for participants without information on the specific countries of birth. Therefore, there is no way to identify which specific ME countries are more represented, and if our results are skewed to certain countries of origin. Second, NHIS is based on self-report, which has the potential of introducing information bias, especially in the setting of language barriers. However, the use of highly trained field personnel and where appropriate, interpreters in situations of low English proficiency, ensures the collection of high-quality consistent data. The NHIS is a reliable source of national health statistics in the US and has been used to study other immigrant populations in the US. [2] However, our group has previously highlighted important potential limitations of a survey like NHIS in immigrant populations [19]. Third, although we compiled several years as possible of NHIS data, our sample of ME participants was relatively small, and some of the comparisons may have been underpowered to detect statistically significant differences between the study groups (e.g., diabetes among men, ASCVD overall). Fourth, the cross-sectional nature of the study does not establish causality. Finally, even after adjusting for confounders (due to nature of the study), residual confounding is still a possibility."
+        }
+      ]
+    },
+    {
+      "title": "Conclusions",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "ME immigrants in the US seem to exert overall lower odds of hypertension, obesity, and of having a suboptimal CRF profile compared to US-born NHWs. Still, our analysis identified very high levels of insufficient physical activity in this group, as well as a significant burden of hyperlipidemia and diabetes. These findings could be used to inform culturally targeted interventions to help optimize their cardiovascular risk. More studies are needed to better characterize the cardiovascular risk of ME immigrants living in the US, as well as the health effects of length of stay in the country."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of Competing Interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Dr. Nasir is on the advisory board of Amgen, Novartis, Medicine Company, and his research is partly supported by the Jerold B. Katz Academy of Translational Research. No other conflicts of interest relevant to the content of this manuscript were reported by the authors."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "SamariG.SharifM.Z.Racial and citizenship disparities in health care among Middle Eastern AmericansMed Care581120209749803294751210.1097/MLR.0000000000001423PMC7572888"
+    },
+    {
+      "html": "Commodore-MensahY.SelvinE.AboagyeJ.Turkson-OcranR.A.LiX.HimmelfarbC.D.Hypertension, overweight/obesity, and diabetes among immigrants in the United States: an analysis of the 2010–2016 National Health Interview SurveyBMC Public Health181201811010.1186/s12889-018-5683-3PMC601135729925352"
+    },
+    {
+      "html": "AlbqoorM.A.ChenJ.WeissS.WatersC.ChoiJ.Self-rated health of middle eastern immigrants in the US: a national studyPublic Health180202064733185562110.1016/j.puhe.2019.10.019"
+    },
+    {
+      "html": "BalfourP.C.RuizJ.M.TalaveraG.A.AllisonM.A.RodriguezC.JCardiovascular disease in Hispanics/Latinos in the United StatesJ Lat Psychol422016982742986610.1037/lat0000056PMC4943843"
+    },
+    {
+      "html": "KurianA.K.CardarelliK.M.Racial and ethnic differences in cardiovascular disease risk factors: a systematic reviewEthn Dis171200714317274224"
+    },
+    {
+      "html": "KoyaD.L.EgedeL.E.Association between length of residence and cardiovascular disease risk factors among an ethnically diverse group of United States immigrantsJ Gen Intern Med22620078418461750311010.1007/s11606-007-0163-yPMC2219871"
+    },
+    {
+      "html": "RamahiT.M.Cardiovascular disease in the Asia Middle East region: global trends and local implicationsAsia Pac J Public Health223201083S_suppl-9S2056653810.1177/1010539510373034"
+    },
+    {
+      "html": "GehaniA.A.Al-HinaiA.T.ZubaidM.AlmahmeedW.HasaniM.M.YusufaliA.H.Association of risk factors with acute myocardial infarction in Middle Eastern countries: the INTERHEART Middle East studyEur J Prev Cardiol21420144004102312540210.1177/2047487312465525"
+    },
+    {
+      "html": "CDC. About NHIS 2021 [Available from: <a href=\"https://www.cdc.gov/nchs/nhis/about_nhis.htm\">https://www.cdc.gov/nchs/nhis/about_nhis.htm</a>."
+    },
+    {
+      "html": "CDC. NHIS Data, questionnaires and related documentation. 2021 [Available from: <a href=\"https://www.cdc.gov/nchs/nhis/data-questionnaires-documentation.htm\">https://www.cdc.gov/nchs/nhis/data-questionnaires-documentation.htm</a>."
+    },
+    {
+      "html": "IRB Exemption [Available from: <a href=\"https://www.hhs.gov/ohrp/regulations-and-policy/decision-charts/index.html%0Ahttps://www.hhs.gov/ohrp/regulations-and-policy/decision-charts/index.html#c1%0Ahttps://www.hhs.gov/ohrp/regulations-and-policy/decision-charts/index.html#c8\">https://www.hhs.gov/ohrp/regulations-and-policy/decision-charts/index.html%0Ahttps://www.hhs.gov/ohrp/regulations-and-policy/decision-charts/index.html#c1%0Ahttps://www.hhs.gov/ohrp/regulations-and-policy/decision-charts/index.html#c8</a>."
+    },
+    {
+      "html": "Turkson-OcranR.A.N.NmeziN.A.BotchwayM.O.SzantonS.L.GoldenS.H.CooperL.A.Comparison of cardiovascular disease risk factors among African immigrants and African Americans: an analysis of the 2010 to 2016 National Health Interview SurveysJ Am Heart Assoc952020e01322010.1161/JAHA.119.013220PMC733553932070204"
+    },
+    {
+      "html": "Surveys I.H. NHIS: global region of birth definition [Available from: <a href=\"https://nhis.ipums.org/nhis-action/variables/REGIONBR#description_section\">https://nhis.ipums.org/nhis-action/variables/REGIONBR#description_section</a>."
+    },
+    {
+      "html": "CIA. The world factbook - Middle East 2021 [Available from: <a href=\"https://www.cia.gov/the-world-factbook/middle-east/\">https://www.cia.gov/the-world-factbook/middle-east/</a>."
+    },
+    {
+      "html": "LiC.FordE.S.ZhaoG.WenX.J.GotwayC.A.Age adjustment of diabetes prevalence: use of 2010 U.S. Census dataJ Diabetes6520144514612439351810.1111/1753-0407.12122PMC11287713"
+    },
+    {
+      "html": "Blewett L.R.DJ., Griffin R., King M., Williams K. IPUMS Health Surveys: National Health Interview Survey V 6. 2. [Available from: <a href=\"https://www.ipums.org\">https://www.ipums.org</a>."
+    },
+    {
+      "html": "RosatoV.TempleN.J.La VecchiaC.CastellanG.TavaniA.GuercioVMediterranean diet and cardiovascular disease: a systematic review and meta-analysis of observational studiesEur J Nutr58120191731912917756710.1007/s00394-017-1582-0"
+    },
+    {
+      "html": "NajaF.HwallaN.ItaniL.BaalbakiS.SibaiA.NasreddineL.A novel Mediterranean diet index from Lebanon: comparison with EuropeEur J Nutr5482015122912432541074910.1007/s00394-014-0801-1PMC4655003"
+    },
+    {
+      "html": "SatishP.SadafM.I.Valero-ElizondoJ.GrandhiG.R.YahyaT.ZawahirH.Heterogeneity in cardio-metabolic risk factors and atherosclerotic cardiovascular disease among Asian Groups in the United StatesAm J Prev Cardiol202110021910.1016/j.ajpc.2021.100219PMC838729034611645"
+    },
+    {
+      "html": "ChaabaneS.ChaabnaK.AbrahamA.MamtaniR.CheemaS.Physical activity and sedentary behaviour in the Middle East and North Africa: an overview of systematic reviews and meta-analysisSci Rep101202093633251825410.1038/s41598-020-66163-xPMC7283267"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

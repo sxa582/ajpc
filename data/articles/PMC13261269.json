@@ -1,0 +1,409 @@
+{
+  "pmcid": "PMC13261269",
+  "pmid": "42291025",
+  "doi": "10.1016/j.ajpc.2026.101502",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13261269/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Systematic examination of the PREVENT equations for cardiovascular disease risk",
+  "articleType": "Research Article",
+  "published": "2026-03-13",
+  "year": "2026",
+  "volume": "27",
+  "issue": "",
+  "articleNumber": "101502",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2026",
+  "authors": [
+    {
+      "given": "Vaishnavi",
+      "surname": "Krishnan",
+      "display": "Vaishnavi Krishnan"
+    },
+    {
+      "given": "Xiaoning",
+      "surname": "Huang",
+      "display": "Xiaoning Huang"
+    },
+    {
+      "given": "Chiadi E.",
+      "surname": "Ndumele",
+      "display": "Chiadi E. Ndumele"
+    },
+    {
+      "given": "Janani",
+      "surname": "Rangaswami",
+      "display": "Janani Rangaswami"
+    },
+    {
+      "given": "Josef",
+      "surname": "Coresh",
+      "display": "Josef Coresh"
+    },
+    {
+      "given": "Amanda M.",
+      "surname": "Perak",
+      "display": "Amanda M. Perak"
+    },
+    {
+      "given": "Nilay S.",
+      "surname": "Shah",
+      "display": "Nilay S. Shah"
+    },
+    {
+      "given": "Donald M.",
+      "surname": "Lloyd-Jones",
+      "display": "Donald M. Lloyd-Jones"
+    },
+    {
+      "given": "Sadiya S.",
+      "surname": "Khan",
+      "display": "Sadiya S. Khan"
+    }
+  ],
+  "affiliations": [
+    "aDivision of Cardiology, Department of Medicine, Northwestern University Feinberg School of Medicine, Chicago, IL, USA",
+    "bSection of Preventive Medicine & Epidemiology, Department of Medicine, Boston University Chobanian & Avedisian School of Medicine, Boston, MA, USA",
+    "cDivision of Cardiology, Johns Hopkins University School of Medicine, Baltimore, MD, USA",
+    "dWashington DC VA Medical Center and George Washington University School of Medicine, WA D.C, USA",
+    "eDepartment of Population Health, New York University Grossman School of Medicine, NY, NY, USA",
+    "fDepartment of Preventive Medicine, Northwestern University, Chicago, IL, USA",
+    "gDepartment of Pediatrics, Northwestern University, Chicago, IL, USA"
+  ],
+  "keywords": [
+    "Cardiovascular disease risk",
+    "CKM health",
+    "Risk communication"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Background:</strong> The Predicting Risk of cardiovascular disease (CVD) EVENTs (PREVENT) equations accurately estimate CVD risk, but how different combinations of ages and risk factors translate into risk estimates, including combinations required to meet clinically meaningful risk thresholds, is not intuitive."
+    },
+    {
+      "html": "<strong>Methods:</strong> We calculated sex-specific estimatesion of 10-year risk of total CVD (composite of atherosclerotic CVD and heart failure) for a hypothetical person between the ages of 30–79 years with the PREVENT-CVD base equations and varied individual or multiple risk factors simultaneously, with all other risk factor levels set at sex-specific, population-based average values. Next, we examined how specific age and risk factor combinations would exceed clinically-meaningful thresholds. Secondary analyses included the PREVENT-CVD equations with add-on predictors and the 30-year PREVENT-CVD equations."
+    },
+    {
+      "html": "<strong>Results:</strong> Ten-year risk estimates for a hypothetical person with average risk factor levels ranged from 0.3 %-17.4 % for a female and 0.7 %-22.8 % for a male with the PREVENT-CVD base equations, exceeding the clinically-relevant risk threshold of ≥7.5 % at age 68 years if female and at age 63 years if male. Additionally, a hypothetical person with Stage 3 CKD and diabetes would exceed the 10-year risk threshold of ≥7.5 % with the PREVENT-CVD equations at age 43 years if female and at age 36 years if male. Similar patterns were observed with add-on predictor equations. With average risk factor levels, 30-year PREVENT-CVD risk estimates ranged from 2.5 %-20.5 % for a female and 4.8 %-26.5 % for a male."
+    },
+    {
+      "html": "<strong>Conclusions:</strong> These results can support clinicians and patients in the interpretability of the PREVENT equations and can inform clinician-patient discussions on preventive efforts."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Risk assessment is broadly recommended to support clinician-patient discussions for the primary prevention of cardiovascular disease (CVD) and guide preventive strategies, such as initiation of lipid-lowering and anti-hypertensive therapies [1]. Specifically, clinical practice guidelines in the US and across the world (e.g., Europe, Australia) recommend the use of multivariable equations to quantitatively estimate absolute risk of CVD [[1], [2], [3]]. This well-established paradigm of risk-based prevention, where the intensity of the prevention effort is matched with absolute predicted risk, has been the cornerstone of preventive cardiology for more than three decades. Over this time, risk prediction equations have evolved to provide accurate and contemporary estimates by accounting for shifts in secular trends of CVD, incorporating the growing evidence base for predictors, and enabling broader outcome ascertainment. The American Heart Association Predicting Risk of CVD EVENTs (PREVENT™) equations were developed in 2023 to account for the growing burden of cardiovascular-kidney-metabolic (CKM) syndrome, included new predictors of kidney, metabolic, and social risk, and defined a broader outcome for total CVD (a composite of atherosclerotic CVD [ASCVD] and heart failure [HF]) [[4], [5], [6], [7]]."
+        },
+        {
+          "type": "paragraph",
+          "html": "While these updates resulted in a more comprehensive, accurate, and precise approach to risk assessment, these changes also added a new complexity for interpretation of how an individual’s risk factor burden translates into their CVD risk estimate. For example, the PREVENT-CVD base equations have 19 coefficients that account for risk factors, treatment status, and age-risk factor interaction terms. The novel optional predictors in the expanded equations add up to three more coefficients for urine albumin-creatinine ratio (UACR), hemoglobin A1c (HbA1c), and social deprivation index (SDI) [4]. Consequently, risk estimates derived from these equations may not be intuitive for clinicians or patients. Examining how different combinations of clinical risk factor levels translate into CVD risk estimates can support communication among clinicians and patients, as previously conducted for prior risk models [[8], [9], [10]]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Therefore, we conducted a systematic analysis across the eligible range for each risk factor to demonstrate the intrinsic properties of the PREVENT-CVD equations and define what combinations of risk factor levels would result in clinically meaningful risk thresholds (e.g., PREVENT-CVD≥7.5 % or ≥20 %)."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "The PREVENT equations",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The PREVENT equations represent a suite of models, which include total CVD (PREVENT-CVD; a composite of ASCVD and HF) and each individual CVD subtype (PREVENT-ASCVD, PREVENT-HF) [4,5]. These sex-specific equations enable prediction of 10-year risk among individuals aged 30–79 years of age and 30-year risk among individuals aged 30–59 years of age [4]. Input predictors in the PREVENT-CVD base equations include age, high-density lipoprotein cholesterol (HDL-C), total cholesterol (TC), systolic blood pressure (SBP), estimated glomerular filtration rate (eGFR), diabetes status, current smoking status, and treatment with anti-hypertensive or statin medication. Input predictors that are additionally included in the PREVENT-CVD expanded equations include urine albumin-creatinine ratio (UACR), hemoglobin A1c (HbA1c), and Social Deprivation Index (SDI). PREVENT-ASCVD includes the same input predictors as PREVENT-CVD, while PREVENT-HF additionally includes body mass index but does not include cholesterol-related variables."
+        },
+        {
+          "type": "paragraph",
+          "html": "We used the “AHAprevent” package to calculate the sex-specific CVD risk estimates across different combinations of ages and risk factor levels with the 10-year and 30-year PREVENT equations [11]. We selected the following variables to vary: age, HDL-C, TC, SBP, eGFR, diabetes, and anti-hypertensive or statin treatment status for the base equations; and UACR, HbA1c, and SDI for the expanded equations. Next, we calculated the ages at which clinically meaningful risk thresholds would be met, including when 10-year PREVENT-CVD risk estimates would exceed 7.5 % (recommended in the AHA/ACC 2025 High Blood Pressure Guidelines) and 20 % (defined as the risk equivalent for Stage 3 CKM Syndrome) [6,7,12]. Secondary analyses were conducted with the expanded PREVENT-CVD equations including the optional predictors (UACR, HbA1c, and SDI). All analyses were performed in R statistical software version 4.2.3 (R Foundation for Statistical Computing; Vienna, Austria)."
+        }
+      ]
+    },
+    {
+      "title": "Risk calculation varying a single predictor",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "First, we varied age in single year intervals from 30–79 years for 10-year CVD risk estimates and 30–59 years for 30-year CVD risk estimates for a hypothetical female or male with average risk factor levels based on overall population estimates from the National Health and Nutrition Examination Survey (NHANES) 2011-March 2020 data (<strong>Supplemental Table 1</strong>) [13]. For secondary analyses with the expanded equations, UACR was defined as the sex-specific mean values from the PREVENT derivation cohorts and SDI was defined as the 50th percentile (e.g., 5th decile) to reflect the median population estimate [4]. For categorical predictors, we selected no diabetes, non-smoking, and no anti-hypertensive or statin treatment to represent optimal and the normative values in the population. We varied individual risk factor levels across clinically meaningful ranges as selected in the development of the PREVENT-CVD equations for TC (130–320 mg/dL), HDL-C (20–100 mg/dL), SBP (90–200 mmHg), eGFR (15–120 ml/min/1.73m<sup>2</sup>), UACR (0.1–1000 mg/g), HbA1c (6.5–15 % in an individual with diabetes), and SDI deciles (1–10) [4]. We also compared predicted risk with and without anti-hypertensive or statin treatment while varying respective risk factor levels (SBP or TC)."
+        }
+      ]
+    },
+    {
+      "title": "Risk calculation varying multiple predictors",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "To examine how different combinations of risk factors influence absolute CVD risk estimates, we varied multiple risk factor levels simultaneously (e.g., with or without diabetes, or less or more advanced chronic kidney disease [CKD]) at a single age of 50 years for a hypothetical female or male. Specifically, we compared predicted risks with or without diabetes with either Stage 2 CKD (eGFR 75 mL/min/1.73m<sup>2</sup>) or Stage 3 CKD (eGFR 45 mL/min/1.73m<sup>2</sup>) using the base PREVENT equations. We selected these definitions of CKD as clinically meaningful as they represent the midpoint eGFR of these CKD stages based on the KDIGO 2024 clinical practice guidelines [6,14]. For the expanded PREVENT equations with optional predictors, we varied UACR across different CKD stages with or without diabetes. Based on KDIGO 2024 clinical practice guidelines, we examined UACR values of 15 mg/g (“normal to mildly increased”), 150 mg/g (“moderately increased”), and 500 mg/g (“severely increased”) with Stage 2 CKD (eGFR 75 mL/min/1.73m<sup>2</sup>), Stage 3 CKD (eGFR 45 mL/min/1.73m<sup>2</sup>), or Stage 4 CKD (eGFR 23 mL/min/1.73m<sup>2</sup>) in a hypothetical individual with or without diabetes [6,14]. All other risk factors were held at average population levels in these analyses."
+        }
+      ]
+    },
+    {
+      "title": "Comparisons to prior risk assessment tools",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Lastly, we compared 10-year sex-specific risk estimates with the PREVENT base equations to prior risk assessment tools developed in the United States using average risk factor levels from age 30 to 79 years. We compared PREVENT-ASCVD risk estimates with the Pooled Cohort Equations (PCEs), and PREVENT-HF risk estimates with the Pooled Cohort Equations to Prevent Heart Failure (PCP-HF) [15,16]."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Ten-year risk estimates with the PREVENT base equations",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The sex-specific 10-year risk estimates from the PREVENT-CVD base equations from age 30 to 79 years for a hypothetical female or male with average population-based risk factor levels are shown in Fig. 1<strong>.</strong> Predicted risk of CVD was higher with older age, and higher than the risks for individual CVD subtypes (ASCVD, HF) at any given age. For females, 10-year CVD risk ranged from 0.3 % at age 30 years to 17.4 % at age 79 years, and for males from 0.7 % at age 30 years to 22.8 % at age 79 years. The ages at which different levels of CVD risk would be met with average risk factor levels are presented in Table 1. For example, the 7.5 % threshold (recommended for the initiation of medication therapy in the 2025 High Blood Pressure Guidelines) would be met with average risk factor levels at age 68 years for a hypothetical female and at age 63 years for a hypothetical male (<strong>Central Illustration</strong>). The ages at which different levels of 10-year ASCVD or HF risks would be met with average risk factor levels are shown in <strong>Supplemental Table 2</strong>. When compared with prior risk assessment tools, differences in 10-year predicted risk widened with older age for PREVENT-ASCVD versus the PCEs (<strong>Supplemental Figure 1</strong>), and PREVENT-HF versus the PCP-HF (<strong>Supplemental Figure 2</strong>).Fig. 1<strong>Ten-year cardiovascular disease risk estimates with the American Heart Association PREVENT™ base equations varying age.</strong> Ten-year risk estimates for total CVD, atherosclerotic CVD [ASCVD], and heart failure [HF] with the PREVENT base equations in a hypothetical female (<strong>A</strong>) or male (<strong>B</strong>) from 30 to 79 years of age with average population-based values, no diabetes or smoking, and no anti-hypertensive or statin medication.Fig. 1: dummy alt textTable 1Ages at which predicted 10-year risk with PREVENT-CVD would exceed clinically meaningful thresholds.Table 1: dummy alt textPREVENT-CVD 10-Year RiskFemaleMale0.5 %35 years&lt;30 years1 %43 years36 years3 %57 years50 years5 %63 years57 years7.5 %68 years63 years10 %72 years67 years15 %77 years73 years20 %&gt;79 years77 yearsValues represent the approximate age that a hypothetical female or male with risk factors at average population levels (<strong>Supplemental Table 1</strong>), no diabetes or smoking, and no anti-hypertensive or statin medication would reach each risk threshold based on 10-year total CVD risk with the PREVENT base equations."
+        }
+      ]
+    },
+    {
+      "title": "Ten-year risk estimates with the PREVENT-CVD base equations, varying single predictors",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Predicted 10-year PREVENT-CVD risk varied significantly across the range of TC, HDL-C, SBP, and eGFR values for females (Fig. 2) and males (Fig. 3). There were modest changes for risk based on TC and more pronounced linear variation for risk with SBP levels higher than 110 mmHg. There was a curvilinear pattern with varying eGFR levels. With all other risk factors held constant at average levels, predicted risk for a hypothetical 50-year-old female across the full range of risk factor levels ranged from 1.6 % to 2.2 % for TC (130–320 mg/dL), 0.9 % to 3.4 % for HDL-C (20–100 mg/dL), 1.4 % to 8.2 % for SBP (90–200 mmHg), and 1.7 % to 13.8 % for eGFR (15–120 ml/min/1.73m<sup>2</sup>). Similar patterns were observed for a hypothetical 50-year-old male but with higher levels of predicted risk (2.6 % to 4.1 % for TC, 1.7 % to 4.1 % for HDL-C, 2.3 % to 11.9 % for SBP, and 3.0 % to 17.1 % for eGFR). The impact of anti-hypertensive treatment or statin treatment across the range of SBP or TC values, respectively, is shown in <strong>Supplemental Figure 3.</strong>Fig. 2<strong>Ten-year cardiovascular disease risk estimates with the American Heart Association PREVENT™ base equations varying individual risk factor levels, females.</strong> Ten-year risk estimates for total CVD in a hypothetical female for untreated total cholesterol [TC] (<strong>A</strong>), untreated high density lipoprotein cholesterol [HDL-C] (<strong>B</strong>), untreated systolic blood pressure [SBP] (<strong>C</strong>), and estimated glomerular filtration rate [eGFR] (<strong>D</strong>) across a range of clinically meaningful values at selected ages. All other risk factors held at average overall population-based values with no diabetes or smoking. Abbreviations as in Supplemental Table 1.Fig. 2: dummy alt textFig. 3<strong>Ten-year cardiovascular disease risk estimates with the American Heart Association PREVENT™ base equations varying individual risk factor levels, males.</strong> Ten-year risk estimates for total CVD in a hypothetical male for untreated TC (<strong>A</strong>), untreated HDL-C (<strong>B</strong>), untreated SBP (<strong>C</strong>), and eGFR (<strong>D</strong>) across a range of clinically meaningful values at selected ages. All other risk factors held at average overall population-based values with no diabetes or smoking. Abbreviations as in Fig. 2.Fig. 3: dummy alt text"
+        }
+      ]
+    },
+    {
+      "title": "Ten-year risk estimates with the PREVENT-CVD base equations, varying multiple predictors",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Both diabetes and CKD were associated with higher CVD risk estimates (Fig. 4). In a hypothetical female with all other risk factors at average levels, the age at which predicted risk would exceed the 7.5 % risk threshold was 67 years if Stage 2 CKD was present without diabetes, 61 years if Stage 3 CKD was present without diabetes, 58 years if Stage 2 CKD was present with diabetes, and 43 years if Stage 3 CKD was present with diabetes, with similar patterns but at younger ages for a hypothetical male (Stage 2 CKD without diabetes: 63 years; Stage 3 CKD without diabetes: 55 years; Stage 2 CKD with diabetes: 51 years; Stage 3 CKD with diabetes: 36 years). In a hypothetical individual with Stage 3 CKD with all other risk factors at average levels, predicted risk would exceed the 20 % threshold (which defines Stage 3 CKM syndrome) for a female at 77 years without diabetes and 71 years with diabetes, and for a male at 73 years without diabetes and at 64 years with diabetes.Fig. 4<strong>Ten-year cardiovascular disease risk estimates with the American Heart Association PREVENT™ base equations varying diabetes and chronic kidney disease status.</strong> Ten-year risk estimates for total CVD in a hypothetical female (top panels) or male (bottom panels) from 30 to 79 years of age with Stage 2 chronic kidney disease [CKD] (<strong>A, C</strong>) or Stage 3 CKD (<strong>B, D</strong>) while varying diabetes status. All other risk factors held at average overall population-based values with no smoking and no anti-hypertensive or statin medication.Fig. 4: dummy alt text"
+        }
+      ]
+    },
+    {
+      "title": "Ten-year risk estimates with the PREVENT-CVD expanded equations, varying single predictors",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Fig. 5 displays predicted 10-year CVD risks with the PREVENT expanded equations when varying the optional predictors of UACR, HbA1c, and SDI with all other risk factors held at average population-based levels. There was a curvilinear pattern with varying UACR and HbA1c levels, and linear variation with higher SDI. At age 50 years and with all other risk factors held constant at average levels, predicted CVD risk for a hypothetical female across the full range of risk factor levels ranged from 0.9 % to 4.0 % for UACR (0–1000 mg/g), 3.6 % to 10.2 % for HbA1c in diabetes (6.5–15 %), and 1.6 % to 2.0 % for SDI (deciles 1–10), with similar patterns for a hypothetical male but with higher levels of predicted risk (1.3 % to 6.2 % for UACR, 5.0 % to 12.5 % for HbA1c in diabetes, and 2.5 % to 3.3 % for SDI).Fig. 5<strong>Ten-year cardiovascular disease risk estimates with the American Heart Association PREVENT™ expanded equations varying individual risk factor levels.</strong> Ten-year risk estimates for total CVD in a hypothetical female (<strong>A-C</strong>) or male (<strong>D-F</strong>) for urine albumin-creatinine ratio [UACR] (<strong>A, D</strong>), hemoglobin A1c [HbA1c] in diabetes (<strong>B, E</strong>), and Social Deprivation Index [SDI] (<strong>C, F</strong>) across a range of clinically meaningful values at selected ages. All other risk factors held at average overall population-based values with no anti-hypertensive or statin medication, and no smoking or diabetes (unless otherwise indicated). UACR is presented on a logarithmic scale.Fig. 5: dummy alt text"
+        }
+      ]
+    },
+    {
+      "title": "Ten-Year Risk Estimates with the PREVENT-CVD Expanded Equations, Varying Multiple Predictors",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Given both eGFR and UACR are independent predictors of CVD risk and are used in combination for assessment of kidney health, we varied eGFR with UACR simultaneously at age 50 years with all other risk factors held at average population levels (Fig. 6). For example, in a hypothetical 50-year-old female with no diabetes and otherwise average risk factor levels, predicted CVD risk ranged depending on the UACR level from 2.2 % to 3.8 % with Stage 2 CKD, from 3.9 % to 6.8 % with Stage 3 CKD, and from 8.4 % to 14.0 % with Stage 4 CKD. If diabetes was present in this hypothetical female, predicted CVD risk ranged depending on the UACR level from 3.9 % to 6.8 % with Stage 2 CKD, from 6.9 % to 11.7 % with Stage 3 CKD, and from 14.4 % to 23.0 % with Stage 4 CKD.Fig. 6<strong>Ten-year cardiovascular disease risk estimates with the American Heart Association PREVENT™ expanded equations varying measures of kidney health and diabetes status.</strong> Ten-year risk estimates for total CVD in a hypothetical 50-year-old female (<strong>A-B</strong>) or male (<strong>C-D</strong>) with or without diabetes for selected UACR values (15, 50, or 500 mg/g) and eGFR values (23, 45, or 75 mL/min/1.73m<sup>2</sup>). All other risk factors held at average overall population-based values with no diabetes or smoking, and no anti-hypertensive or statin medication. Abbreviations as in Fig. 2, Fig. 5.Fig. 6: dummy alt text"
+        }
+      ]
+    },
+    {
+      "title": "Thirty-year risk estimates with the PREVENT equations",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Similar patterns for risk estimates were observed with the 30-year PREVENT equations across all risk factor variations, but with higher absolute risk estimates for 30-year risk when compared with corresponding 10-year risk (<strong>Supplemental Figures 4–10</strong>). With average population-based risk factor levels, 30-year risk estimates from the PREVENT-CVD base equations from age 30 to 59 years ranged from 2.5 % to 20.5 % for a hypothetical female and from 4.8 % to 26.5 % for a hypothetical male, and the ages at which 30-year risk estimates would exceed various risk thresholds are shown in <strong>Supplemental Tables 3–4</strong>."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In this systematic examination of the PREVENT equations, we demonstrate several important findings. First, even at younger ages, there is substantial heterogeneity in CVD risk estimates, particularly based on predictors relevant to CKM health (eGFR, UACR, HbA1c, SDI) or when considering a longer time horizon (e.g., using 30-year risk estimates). This provides clinicians with the tools to discuss and initiate risk-based prevention strategies earlier in the life course as displayed in the <strong>Central Illustration</strong>. Second, the expanded outcome of total CVD enables a more comprehensive risk estimate of CVD that is higher than that estimated for ASCVD or HF alone. Third, we highlight age and risk factor combinations that exceed the clinically relevant threshold recommended in the 2025 AHA/ACC High BP Guideline (10-year PREVENT-CVD ≥7.5 %) and that define Stage 3 CKM Syndrome (10-year PREVENT-CVD ≥20 %) to support implementation and interpretation among clinicians and patients."
+        },
+        {
+          "type": "paragraph",
+          "html": "The PREVENT equations newly provide risk estimates for individuals beginning at age 30 years and incorporate predictors of kidney function that refine risk estimates. For example, 10-year PREVENT-CVD risk estimates for a hypothetical male with diabetes and Stage 3 CKD would already exceed the 7.5 % threshold before 40 years of age [12]. This distinction was not present in prior risk models as they did not include eGFR or account for risk associated with kidney disease [8]. Moreover, the inclusion of optional predictors with UACR and HbA1c demonstrates how the confluence of adverse kidney and metabolic health led to substantial heterogeneity in predicted risk. The inclusion of these optional predictors offers several benefits beyond personalizing risk, including nudging clinicians to screen for these markers when indicated and optimize treatment. Given the substantial under-utilization of evidence-based screening with UACR, even when indicated, and the emergence of evidence-based therapies with kidney protective benefits (e.g., sodium-glucose cotransporter-2 inhibitors, glucagon-like peptide 1 receptor agonists, and non-steroidal mineralocorticoid receptor antagonists), the PREVENT equations may support the promotion of CKM health through the identification and treatment of high-risk individuals (i.e., Stage 3 CKM) [6,7,17]. Future research is needed to evaluate the cost-effectiveness of these novel CKM therapies based on the 20 % threshold for 10-year PREVENT-CVD risk that corresponds to Stage 3 CKM."
+        },
+        {
+          "type": "paragraph",
+          "html": "The integration of zip code-level SDI represents a first step at integrating social exposures in risk prediction. The present analysis demonstrated that estimated risk varied for a hypothetical individual with the same risk factor levels across deciles of SDI. This underscores the importance of assessing and addressing social needs or non-medical factors that contribute to the risk of CVD. The value of incorporating social determinants of health (SDoH) has also been demonstrated in several risk prediction algorithms like the United Kingdom’s QRISK score for CVD [18], the Australian CVD risk calculator [19], and when added to the Pooled Cohort Equations [20]. Given the upstream impacts of SDoH on CVD risk and outcomes, SDI is a valuable metric in PREVENT risk calculations, and can prompt clinicians to consider SDoH in CVD risk assessment [5,21]. However, SDI only accounts for area-level exposures at the zip-code level and does not address individual-level social risk and resilience. There may also be significant heterogeneity in social adversity within one zip code. Therefore, the role of individual-level social factors, and whether accounting for such factors enhances risk prediction, should be evaluated in future iterations of risk models."
+        },
+        {
+          "type": "paragraph",
+          "html": "As in prior risk prediction tools, age is a dominant driver of absolute risk estimates with PREVENT, both due to the main coefficient for age and age-specific risk factor level coefficients [8]. However, even among those with optimal risk factor levels, or lower absolute risk due to younger age, prior studies have shown that many individuals in the United States who are at low short-term risk are at high long-term risk for CVD [[22], [23], [24]]. Therefore, 30-year risk estimates offer the opportunity to target prevention efforts with lifestyle or pharmacotherapy earlier in the life course. This is especially critical for younger adults, given the growing burden of risk factors such as diabetes, obesity, and hypertension among this age group [25]. Importantly, our findings highlight that 30-year risk is not simply rescaled 10-year risk given the influence of age- and risk factor-specific coefficients in each model, as demonstrated when comparing 10-year and 30-year risks across clinical risk factor profiles."
+        },
+        {
+          "type": "paragraph",
+          "html": "Some of the predicted risk outputs also highlight some observations that may appear paradoxical and are among the most frequently asked questions by clinicians and patients. First, anti-hypertensive treatment was associated with a higher risk estimate for the same BP level, and is consistent with what was observed with prior risk scores [[8], [9], [10]]. This reflects the greater underlying risk in someone on anti-hypertensive treatment due to a longer burden and/or severity of the risk factor compared to a different individual with the same risk factor levels but not receiving any treatment [26,27]. This also highlights that the PREVENT equations cannot be used to inform change in predicted risk after initiating treatment within a given individual, which requires inputs from randomized clinical trials to estimate dynamic risk with initiation of preventive strategies, as was implemented in the development of the Million Hearts Model [26]. Second, lower levels of total cholesterol (treated or untreated) were associated with a higher total CVD risk estimate after 70 years of age, which may be due to survival bias or reverse causation. Third, SBP lower than 110 mm Hg was associated with a higher risk of CVD, which is also an example of reverse causation. Whereas these risk factor levels may represent optimal health among younger adults, a low cholesterol or SBP value at an elder age may indicate underlying multimorbidity, physical frailty, or deteriorating nutritional status [[28], [29], [30]]."
+        }
+      ]
+    },
+    {
+      "title": "Limitations",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "A few limitations of these analyses should be noted. First, these are hypothetical scenarios and many risk factors are often correlated and cluster together. Therefore, some proposed combinations may be unlikely to be observed in clinical practice. Second, values outside the range defined in PREVENT development were not examined, although they may be encountered in clinical practice. To mitigate these concerns and support the generalizability of the findings, we used average risk factor levels based on data from a nationally representative sample (NHANES). Third, risk factors are also impacted by aging (including SBP and eGFR), and we used fixed averages across the age range examined in these hypothetical scenarios. Fourth, while long-term risk estimation may be valuable for targeted prevention at earlier ages, risk thresholds for 30-year risk estimates have not yet been established, and the interpretation of these estimates is challenging and may be supported by alternate approaches (e.g., percentiles) [31]. Finally, while open source software code for implementing the PREVENT equations is available through the AHA, integration into electronic medical records nationally for the automatic calculation of PREVENT risk estimates can further support clinical implementation [11]."
+        }
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The PREVENT equations offer clinicians and patients a set of outcome-specific risk estimates (PREVENT-CVD, PREVENT-ASCVD, and PREVENT-HF) for 10-year and 30-year time horizons. Optional predictors with UACR, HbA1c, and SDI enable more personalized risk assessment for kidney, metabolic, and social risk. This systematic examination supports communication of predicted risks for a variety of clinical scenarios and identifies the ages at which clinically meaningful risk thresholds may be met. These findings can also guide help risk communication strategies and optimize prevention for patients across the life course."
+        }
+      ]
+    },
+    {
+      "title": "Disclosures and funding",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Donald M. Lloyd-Jones reports employment with American Heart Association. Josef Coresh reports a relationship with Healthy.io Ltd that includes consulting or advisory, and equity or stocks. All other authors have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    },
+    {
+      "title": "Author agreement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "All authors have agreed to this manuscript, have participated in the preparation of the manuscript, and meet criteria for authorship. The manuscript represents original research and is not under consideration for publication elsewhere nor published elsewhere in whole or in part."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Vaishnavi Krishnan:</strong> Writing – original draft, Visualization, Investigation, Formal analysis, Conceptualization. <strong>Xiaoning Huang:</strong> Writing – review &amp; editing, Software, Methodology, Formal analysis. <strong>Chiadi E. Ndumele:</strong> Writing – review &amp; editing, Conceptualization. <strong>Janani Rangaswami:</strong> Writing – review &amp; editing, Conceptualization. <strong>Josef Coresh:</strong> Writing – review &amp; editing, Conceptualization. <strong>Amanda M. Perak:</strong> Writing – review &amp; editing, Methodology, Conceptualization. <strong>Nilay S. Shah:</strong> Writing – review &amp; editing, Supervision. <strong>Donald M. Lloyd-Jones:</strong> Writing – review &amp; editing, Supervision, Methodology, Conceptualization. <strong>Sadiya S. Khan:</strong> Writing – review &amp; editing, Supervision, Project administration, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare the following financial interests/personal relationships which may be considered as potential competing interests: Donald M. Lloyd-Jones reports a relationship with American Heart Association Inc that includes: employment. Josef Coresh reports a relationship with Healthy.io Ltd that includes: consulting or advisory and equity or stocks. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "ArnettD.K.BlumenthalR.S.AlbertM.A.BurokerA.B.GoldbergerZ.D.HahnE.J.HimmelfarbC.D.KheraA.Lloyd-JonesD.McEvoyJ.W.2019 ACC/AHA Guideline on the primary prevention of Cardiovascular Disease: a report of the American College of Cardiology/American Heart Association Task Force on clinical Practice GuidelinesCirculation1402019e596e64610.1161/CIR.000000000000067830879355PMC7734661"
+    },
+    {
+      "html": "VisserenF.L.J.MachF.SmuldersY.M.CarballoD.KoskinasK.C.BackM.BenetosA.BiffiA.BoavidaJ.M.CapodannoD.2021 ESC guidelines on cardiovascular disease prevention in clinical practiceEur Heart J4220213227333710.1093/eurheartj/ehab48434458905"
+    },
+    {
+      "html": "NelsonM.R.BanksE.BrownA.ChowC.K.PeirisD.P.StocksN.P.Davies AoR.RaffoulN.KalmanL.BradburnE.2023 Australian guideline for assessing and managing cardiovascular disease riskMed J Aust220202448249010.5694/mja2.5228038623719"
+    },
+    {
+      "html": "KhanS.S.MatsushitaK.SangY.BallewS.H.GramsM.E.SurapaneniA.BlahaM.J.CarsonA.P.ChangA.R.CieminsE.Development and validation of the American Heart Association&#x27;s PREVENT equationsCirculation149202443044910.1161/CIRCULATIONAHA.123.06762637947085PMC10910659"
+    },
+    {
+      "html": "KhanS.S.CoreshJ.PencinaM.J.NdumeleC.E.RangaswamiJ.ChowS.L.PalaniappanL.P.SperlingL.S.ViraniS.S.HoJ.E.Novel prediction equations for absolute risk assessment of total cardiovascular disease incorporating cardiovascular-kidney-metabolic health: a scientific statement from the American Heart AssociationCirculation14820231982200410.1161/CIR.000000000000119137947094"
+    },
+    {
+      "html": "NdumeleC.E.RangaswamiJ.ChowS.L.NeelandI.J.TuttleK.R.KhanS.S.CoreshJ.MathewR.O.Baker-SmithC.M.CarnethonM.R.Cardiovascular-kidney-metabolic Health: a Presidential advisory from the American Heart AssociationCirculation14820231606163510.1161/CIR.000000000000118437807924"
+    },
+    {
+      "html": "NdumeleC.E.NeelandI.J.TuttleK.R.ChowS.L.MathewR.O.KhanS.S.CoreshJ.Baker-SmithC.M.CarnethonM.R.DespresJ.P.A synopsis of the evidence for the science and clinical management of cardiovascular-kidney-metabolic (CKM) syndrome: a scientific statement from the American Heart AssociationCirculation14820231636166410.1161/CIR.000000000000118637807920"
+    },
+    {
+      "html": "KarmaliK.N.GoffD.C.Jr.NingH.Lloyd-JonesD.MA systematic examination of the 2013 ACC/AHA pooled cohort risk assessment tool for atherosclerotic cardiovascular diseaseJ Am Coll Cardiol64201495996810.1016/j.jacc.2014.06.118625190228"
+    },
+    {
+      "html": "MarmaA.K.DMLloyd-JonesSystematic examination of the updated Framingham heart study general cardiovascular risk profileCirculation120200938439010.1161/CIRCULATIONAHA.108.83547019620502"
+    },
+    {
+      "html": "Cavanaugh-HusseyM.W.BerryJ.D.Lloyd-JonesD.M.Who exceeds ATP-III risk thresholds? Systematic examination of the effect of varying age and risk factor levels in the ATP-III risk assessment toolPrev Med47200861962310.1016/j.ypmed.2008.07.01218718484PMC2630457"
+    },
+    {
+      "html": "American Heart Association. PREVENT™ online calculator. Available from: <a href=\"https://professional.heart.org/en/guidelines-and-statements/prevent-risk-calculator\">https://professional.heart.org/en/guidelines-and-statements/prevent-risk-calculator</a>. Accessed 2026."
+    },
+    {
+      "html": "JonesD.W.FerdinandK.C.TalerS.J.JohnsonH.M.ShimboD.AbdallaM.AltieriM.M.BansalN.BelloN.A.BressA.P.2025 AHA/ACC/AANP/AAPA/ABC/ACCP/ACPM/AGS/AMA/ASPC/NMA/PCNA/SGIM Guideline for the prevention, detection, evaluation and management of high blood pressure in adults: a report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice GuidelinesCirculation202510.1161/CIR.00000000000013560"
+    },
+    {
+      "html": "National Center for Health Statistics. National Health and Nutrition Examination Survey (NHANES). Available from: <a href=\"https://wwwn.cdc.gov/nchs/nhanes/Default.aspx\">https://wwwn.cdc.gov/nchs/nhanes/Default.aspx</a>. Accessed 2025."
+    },
+    {
+      "html": "Kidney disease: improving global outcomes CKDWG. KDIGO 2024 clinical practice guideline for the evaluation and management of chronic Kidney diseaseKidney Int1052024S117S31410.1016/j.kint.2023.10.01838490803"
+    },
+    {
+      "html": "GoffD.C.Jr.Lloyd-JonesD.M.BennettG.CoadyS.D&#x27;AgostinoR.B.GibbonsR.GreenlandP.LacklandD.T.LevyD.O&#x27;DonnellC.J.2013 ACC/AHA guideline on the assessment of cardiovascular risk: a report of the American College of Cardiology/American Heart Association Task Force on Practice GuidelinesCirculation1292014S49S7310.1161/01.cir.0000437741.48606.9824222018"
+    },
+    {
+      "html": "KhanS.S.NingH.ShahS.J.YancyC.W.CarnethonM.BerryJ.D.MentzR.J.O&#x27;BrienE.CorreaA.SuthaharN.10-Year risk equations for incident heart failure in the general populationJ Am Coll Cardiol7320192388239710.1016/j.jacc.2019.02.05731097157PMC6527121"
+    },
+    {
+      "html": "ChuC.D.XiaF.DuY.SinghR.TuotD.S.Lamprea-MontealegreJ.A.GualtieriR.LiaoN.KongS.X.WilliamsonT.Estimated prevalence and testing for albuminuria in US adults at risk for chronic kidney diseaseJAMA Netw Open62023e232623010.1001/jamanetworkopen.2023.26230PMC1037530837498594"
+    },
+    {
+      "html": "Hippisley-CoxJ.CouplandC.VinogradovaY.RobsonJ.MayM.BrindleP.Derivation and validation of QRISK, a new cardiovascular disease risk score for the United Kingdom: prospective open cohort studyBMJ335200713610.1136/bmj.39261.471806.5517615182PMC1925200"
+    },
+    {
+      "html": "Australian Chronic Disease Prevention Alliance. AusCVDRisk calculator. Available from: <a href=\"https://www.cvdcheck.org.au/calculator\">https://www.cvdcheck.org.au/calculator</a>. Accessed 2025."
+    },
+    {
+      "html": "XiaM.AnJ.SaffordM.M.ColantonioL.D.SimsM.ReynoldsK.MoranA.E.ZhangY.Cardiovascular risk associated with social determinants of health at individual and area levelsJAMA Netw Open72024e24858410.1001/jamanetworkopen.2024.8584PMC1105338038669015"
+    },
+    {
+      "html": "HavranekE.P.MujahidM.S.BarrD.A.BlairI.V.CohenM.S.Cruz-FloresS.Davey-SmithG.Dennison-HimmelfarbC.R.LauerM.S.LockwoodD.W.Social Determinants of risk and outcomes for cardiovascular disease: a scientific statement from the American Heart AssociationCirculation132201587389810.1161/CIR.000000000000022826240271"
+    },
+    {
+      "html": "KrishnanV.HuangX.PerakA.M.CoreshJ.NdumeleC.E.GreenlandP.Lloyd-JonesD.M.KhanS.SDiscordance of 10- and 30-year predicted risk for cardiovascular disease in US adultsJAMA33320251828183110.1001/jama.2025.286840163044PMC11959475"
+    },
+    {
+      "html": "MarmaA.K.BerryJ.D.NingH.PersellS.D.DMLloyd-JonesDistribution of 10-year and lifetime predicted risks for cardiovascular disease in US adults: findings from the National Health and Nutrition Examination Survey 2003 to 2006Circ Cardiovasc Qual Outcomes3201081410.1161/CIRCOUTCOMES.109.86972720123666PMC3058791"
+    },
+    {
+      "html": "WilkinsJ.T.NingH.BerryJ.ZhaoL.DyerA.R.DMLloyd-JonesLifetime risk and years lived free of total cardiovascular diseaseJAMA30820121795180110.1001/jama.2012.1431223117780PMC3748966"
+    },
+    {
+      "html": "AllenN.WilkinsJ.T.The urgent need to refocus cardiovascular disease prevention efforts on young adultsJAMA329202388688710.1001/jama.2023.230836871231"
+    },
+    {
+      "html": "Lloyd-JonesD.M.HuffmanM.D.KarmaliK.N.SanghaviD.M.WrightJ.S.PelserC.GulatiM.MasoudiF.A.GoffD.C.Jr.Estimating longitudinal risks and benefits from cardiovascular preventive therapies among Medicare patients: the million hearts longitudinal ASCVD risk assessment tool: a special report from the American Heart Association and American College of CardiologyJ Am Coll Cardiol.6920171617163610.1016/j.jacc.2016.10.01827825770PMC5370170"
+    },
+    {
+      "html": "LiuK.ColangeloL.A.DaviglusM.L.GoffD.C.PletcherM.SchreinerP.J.SibleyC.T.BurkeG.L.PostW.S.MichosE.D.Can antihypertensive treatment restore the risk of cardiovascular disease to ideal levels?: the coronary artery risk development in young adults (CARDIA) study and the multi-ethnic study of atherosclerosis (MESA)J Am Heart Assoc42015e00227510.1161/JAHA.115.002275PMC459950926391135"
+    },
+    {
+      "html": "NguyenX.T.HoY.L.LiY.SongR.J.LeungK.H.RahmanS.U.OrkabyA.R.VassyJ.L.GagnonD.R.ChoK.Serum cholesterol and impact of age on coronary heart disease death in more than 4 million veteransJ Am Heart Assoc122023e03049610.1161/JAHA.123.030496PMC1072741037889207"
+    },
+    {
+      "html": "SattarN.PreissD.Reverse causality in cardiovascular epidemiological research: more common than imagined?Circulation13520172369237210.1161/CIRCULATIONAHA.117.02830728606949"
+    },
+    {
+      "html": "JacobsD.BlackburnH.HigginsM.ReedD.IsoH.McMillanG.NeatonJ.NelsonJ.PotterJ.RifkindB.Report of the Conference on Low Blood Cholesterol: mortality associationsCirculation8619921046106010.1161/01.cir.86.3.10461355411"
+    },
+    {
+      "html": "KrishnanV.HuangX.ZhangS.ShahN.S.NavarA.M.CoreshJ.RangaswamiJ.HoJ.E.KheraA.BlumenthalR.S.Age and sex-specific percentiles of 30-year cardiovascular disease risk based on the PREVENT equationsJ Am Coll Cardiol862025201720274126075610.1016/j.jacc.2025.09.1509"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

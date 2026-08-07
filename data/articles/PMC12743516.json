@@ -1,0 +1,451 @@
+{
+  "pmcid": "PMC12743516",
+  "pmid": "41457992",
+  "doi": "10.1016/j.ajpc.2025.101362",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12743516/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Impact of patient phenotype on the relationship between accelerometer-derived physical activity and cardiovascular events in atrial fibrillation",
+  "articleType": "Research Article",
+  "published": "2025-12-05",
+  "year": "2025",
+  "volume": "25",
+  "issue": "",
+  "articleNumber": "101362",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2025",
+  "authors": [
+    {
+      "given": "Maxime",
+      "surname": "Boidin",
+      "display": "Maxime Boidin"
+    },
+    {
+      "given": "Benjamin JR",
+      "surname": "Buckley",
+      "display": "Benjamin JR Buckley"
+    },
+    {
+      "given": "Gregory YH",
+      "surname": "Lip",
+      "display": "Gregory YH Lip"
+    },
+    {
+      "given": "Dick HJ",
+      "surname": "Thijssen",
+      "display": "Dick HJ Thijssen"
+    }
+  ],
+  "affiliations": [
+    "aDepartment of Sport and Exercise Sciences, Institute of Sport, Manchester Metropolitan University, Manchester, United Kingdom",
+    "bCardiovascular Health Sciences Research Group, Research Institute for Sport and Exercise Sciences, Liverpool John Moores University, Liverpool, United Kingdom",
+    "cLiverpool Centre for Cardiovascular Science at University of Liverpool, Liverpool John Moores University and Liverpool Heart & Chest Hospital, Liverpool, United Kingdom",
+    "dDanish Center for Health Services Research, Department of Clinical Medicine, Aalborg University, Aalborg, Denmark",
+    "eDepartment of Medical BioSciences, Cardiovascular Physiology, Radboud university medical centre, Nijmegen, the Netherlands"
+  ],
+  "keywords": [
+    "Atrial fibrillation",
+    "Physical activity",
+    "Major adverse cardiovascular events",
+    "Af-related complications",
+    "Accelerometer",
+    "Phenotype-specific management"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Aims:</strong> Atrial fibrillation (AF) is a heterogeneous condition with varying comorbidity profiles, yet current physical activity guidelines do not differentiate between AF phenotypes. We examined the association between objectively measured moderate-to-vigorous physical activity (MVPA) and major adverse cardiovascular events (MACE) across different AF phenotypes."
+    },
+    {
+      "html": "<strong>Methods:</strong> In a prospective cohort of 4858 adults with AF (mean age 63, 37 % female) from the UK Biobank, wrist-worn accelerometry quantified MVPA. Hierarchical clustering classified individuals into &#x27;high&#x27; and &#x27;low&#x27; risk clusters based on comorbidities. Activity patterns were also described by rhythm control treatment status. Cox-proportional hazards models assessed the association between MVPA and MACE across clusters, while Poisson regression identified notable MVPA thresholds."
+    },
+    {
+      "html": "<strong>Results:</strong> The &#x27;high-risk&#x27; cluster (<em>n</em> = 2583) experienced more MACE (HR: 3.81, 95 %CI: 3.19–4.55, <em>p</em> &lt; 0.001) than the &#x27;low-risk&#x27; cluster (<em>n</em> = 2275). Greater MVPA was associated with lower MACE incidence in both clusters. In the &#x27;low risk&#x27; cluster, those with median MVPA of 187 min/week had lower MACE incidence (HR 0.39, 95 %CI 0.22–0.70, <em>p</em> = 0.001) than the reference group (median 56 min/week). In the &#x27;high risk&#x27; cluster, those with median MVPA of 167 min/week had lower MACE incidence (HR 0.57, 95 %CI 0.44–0.74, <em>p</em> &lt; 0.001) than their reference group (median 42 min/week). Poisson models identified 35 and 103 min/week as notable thresholds (IRRs: 0.35 and 0.31, respectively; both <em>p</em> &lt; 0.001). Among patients undergoing rhythm control (<em>n</em> = 1354), higher MVPA was associated with lower MACE incidence (HR 0.42, 95 %CI 0.26–0.66, <em>p</em> &lt; 0.001)."
+    },
+    {
+      "html": "<strong>Conclusion:</strong> In this AF cohort, higher MVPA was associated with lower MACE incidence across different risk phenotypes and treatment statuses."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Atrial fibrillation (AF) is the most common clinically significant arrhythmia, affecting &gt;33 million individuals worldwide [1]. The presence of AF leads to cardiac remodelling, and is strongly related to stroke [2]. heart failure (HF) and death [3]. Higher physical activity levels are associated with lower risks of incident AF (i.e., primary prevention) [4]. For example, moderate-vigorous intensity physical activity (MVPA) of at least 150 min/week was associated with 16 % lower risk in incident AF [5]. Similarly, previous work also revealed a protective role of regular MVPA in the secondary prevention of AF-related complications (e.g., stroke, HF, death, myocardial infarction [MI]) [6]. Moreover, a 2024 Cochrane review further supported the potential health benefits, as exercise-based cardiac rehabilitation resulted in significant improvements in AF burden, recurrence, and quality of life, although no effects were observed for all-cause mortality and serious adverse events [7]. Additionally, a UK Biobank study found that exceeding current MVPA guidelines (&gt;150 min/week) was associated with lower risks of all-cause mortality and HF in individuals with AF [8]."
+        },
+        {
+          "type": "paragraph",
+          "html": "However, a key limitation of previous research is the assumption that AF is a homogenous condition. In reality, AF encompasses a highly heterogeneous population, with individuals presenting varying degrees of cardiovascular risk, comorbidities, and disease progression. This heterogeneity is critical in clinical decision-making, as patients with different AF phenotypes may respond differently to interventions [9], including exercise. For example, previous work suggested the presence of cardiovascular risk and/or disease alters the relationship between MVPA and the risk for developing MACE [10,11]. Other works suggested that the risk of MACE might depend on sex and the presence of AF [12,13]. This raises an important clinical question: do the benefits of physical activity differ across AF phenotypes? Therefore, the primary aim of this study was to describe the association between MVPA and major adverse cardiovascular events (MACE) across different cardiovascular risk profiles for individuals with AF. For this purpose, we used phenotype classification based on a clustering process to identify a &#x27;high risk&#x27; and &#x27;low risk&#x27; phenotype within the UK Biobank dataset. An important advantage of the UK Biobank is that MVPA was measured using objective accelerometry, which provides more accurate data than the frequently used self-reported questionnaire data [14]. This allows for the characterization of the relationship between device-measured MVPA and major adverse cardiovascular events (MACE: cardiac arrest, strokes, HF, chronic heart disease, MI) between clusters, and the identification of notable MVPA thresholds. Another relevant AF phenotype relates to those undergoing rhythm control procedure. Therefore, as a secondary aim, we described the MVPA patterns and MACE incidence in individuals with AF who underwent a rhythm control procedure (i.e., cardioversion or catheter ablation). We sought to characterize the relationship between different levels of MVPA and MACE incidence in individuals with AF across different risk phenotypes and treatment approaches."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This study is reported as per the Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) guideline (Supplemental Material). Further information are detailed in Supplemental Material."
+        }
+      ]
+    },
+    {
+      "title": "Study participants",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The UK Biobank is a prospective cohort that enrolled 502,369 individuals between 2006 and 2010 [15]. A total of 9.2 million individuals aged 40–69 years living within 25 miles radius of 22 assessment centres in the UK were invited, and 5.4 % participated in the baseline assessment. For the primary aim, all individuals with AF with objective assessment of physical activity were included. For the secondary aim, only individuals with AF who underwent a rhythm control procedure (i.e., catheter ablation or cardioversion) with device-measured physical activity were included. This subgroup reflects patients exposed to rhythm control procedures, but not necessarily those who achieved or maintained long-term rhythm control. Individuals diagnosed with AF or flutter (as previously undertaken [5]) were included. Physical activity data were collected over 7-days and clinical outcomes through national health-related dataset linkage. Written informed consent was obtained from all participants. The UK Biobank (ID 92,337) was approved by the UK Biobank Research Ethical Committee (reference number 11/NW/0382)."
+        }
+      ]
+    },
+    {
+      "title": "Clustering process",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "A hierarchical clustering process was undertaken using the Ward minimum variance method. The squared Euclidean distance was used as a measure of distance or dissimilarity, since only dichotomous variables were selected. The aim of this analysis was to identify the optimal number of clusters that were homogenous and indicative of a clinically relevant phenotypic subgroup of individuals with AF without a priori knowledge of the outcomes (see Supplemental Material for more details). Thirty one variables were used for the clustering process: age, sex, body mass index (BMI), ethnicity, alcohol and smoking habits, estimated glomerular filtration rate (eGFR), liver function, cardioversion history, catheter ablation of AF, LBBB, left ventricular hypertrophy, history of chronic obstructive pulmonary disease (COPD), chronic kidney disease (CKD), HF, sleep apnoea, malignancy, peripheral artery disease (PAD), dementia, strokes, heart disease, type 2 diabetes (T2D), hypertension, percutaneous coronary intervention (PCI), coronary artery bypass graft surgery (CABG), pacemaker, gastrointestinal (GI) bleeding, renal replacement therapy (RRT)/kidney transplantation, hypothyroidism, hyperthyroidism, and anaemia. Continuous variables were dichotomized according to usual clinical practice, to make all variables categorical, as age &lt;60 and ≥60 years, BMI &lt;25 kg/m<sup>2</sup> (normal BMI) and ≥25 kg/m<sup>2</sup> (overweight/obese), eGFR &lt;90 (abnormal) and ≥90 (normal), anaemia characterised by haematocrit (threshold of 37 and 40 % for female and male, respectively), and liver function characterised by gamma-glutamyl transferase (≤40 U/L as normal). Missing values (<em>n</em> = 1344) were imputed, and include BMI, alcohol and smoking habits, cardioversion ad catheter ablation history, history of PCI, CABG, pacemaker, RTT/kidney transplantation, anemi, eGFR, dyslipidaemia, and liver function. A dendogram was used to display the clusters according to the Euclidean distance. After the display of the dendrogram, an appropriate number of clusters was determined by the decision whether the final number of clusters represented a homogenous group with relatively similar characters [9]. The clustering algorithm starts with each individual as an individual cluster and subsequently combines the most similar clusters together until only one cluster remains. This process is shown in a dendrogram, where the height of the lines indicates dissimilarity between clusters."
+        }
+      ]
+    },
+    {
+      "title": "Clinical characteristics",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Age, sex, and anthropometric measures were attained during initial study visits. Smoking status, alcohol intake, and use of medication were evaluated by self-reported touch-screen questionnaires where help was available. Clinical comorbidities were recorded across hospital inpatient records."
+        }
+      ]
+    },
+    {
+      "title": "Clinical outcomes",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The primary outcome was the first occurrence of MACE, which included cardiac arrest, strokes, HF, MI, and ischemic heart disease that occurred after both the diagnosis of AF and the accelerometry assessment, and up to a maximum of 6-years follow-up from index (defined as the later of AF diagnosis (primary analysis) or accelerometry (Figure S1), or AF procedure (subgroup analysis). We excluded all outcomes that occurred on the day of diagnosis of AF. Refer to Supplemental Table S3 for clinical codes."
+        }
+      ]
+    },
+    {
+      "title": "Accelerometer-derived physical activity",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Physical activity data extraction, calibration and cleaning has been detailed previously [16]. From May 2013 to December 2015, 28,476 individuals with AF were mailed and asked to wear an Axivity AX3 accelerometer (Newcastle upon Tyne, UK) on their dominant wrist for 24-h/day for seven days. The AX3 accelerometers were initialized to collect data with a sampling frequency of 100 Hz and a dynamic range of ±8 g. Participants returned the devices by mail and the data were calibrated and non-wear identified according to standard procedures [17] As described previously, acceleration signals were calibrated to gravity [18]. Data were combined into 5 s epochs representing an average vector magnitude. Non-wear time was identified as consecutive stationary episodes ≥60 min in which all three axes had standard deviation &lt;13 mg [19]. MVPA was quantified by summing the number of 5-second epochs where the mean acceleration exceeded a threshold of &gt;100 mg [20,21]. Individuals with &lt;3 days of wear time or those that did not pass the data quality criteria were excluded [16,18]."
+        }
+      ]
+    },
+    {
+      "title": "Statistical analyses",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "For the cluster analysis for the first research question, the sample was stratified into two clusters (see above for details on the procedures). Then, each cluster was stratified into four quartiles of MVPA where the less physically active ‘Quartile 1′ was used as reference group. Quartiles of MVPA were also used for answering the second research question pertaining to individuals with AF undergoing a rhythm control procedure. For both aims, analysis was repeated with MVPA as a continuous variable in dose-response analyses."
+        },
+        {
+          "type": "paragraph",
+          "html": "Baseline characteristics were reported as median [interquartile range, IQR]. An independent <em>t</em>-test was used to compare differences between two groups. For comparisons among the four groups, a one-way analysis of variance (ANOVA) was conducted. In the case of a significant one-way interaction, post hoc independent <em>t</em>-tests were used to determine differences. To answer both research questions, we assess associations between accelerometer-derived MVPA and MACE, for each cluster, using Cox proportional hazards models, which were fitted with MACE as outcome and Quartiles of MVPA as exposure. MACE outcomes were censored with follow-up as 6-years or the first event following AF diagnosis (primary analysis) or AF procedure (subgroup analysis). Subsequently, unadjusted and adjusted multivariate survival analyses were undertaken. Adjusted models included age, sex, sedentary time, and cardiovascular risk factors for AF (HF, heart disease, T2D, BMI, smoking history, and hypertension) [22]. The same analysis was performed for the sensitivity analysis in a subgroup of patients who did not undergo AF procedure. To answer research question 1, we compared the 95 % Confidence Intervals (CI) for the (adjusted) Hazard Ratios between the ‘high risk’ and ‘low risk’ clusters. Linearity was assessed using the Wald- test and subsequent dose-response curves were produced using Poisson regression models with a restricted cubic spline fitted including knots at 10, 50, 90 percentiles. This was performed to better fit non-linear relationships (as expected with MVPA data) across the MVPA range of 0 to 300 min. From the Poisson-dose response curves, the minimal (first significant value versus the first minimal MVPA dose) and optimal MVPA dose (first non-significant value versus the previous 10 %, i.e.<em>,</em> 30 min as maximum benefit for least effort) to provide statistical representation of changes in the dose-response curve [23]. The risk of MACE for both minimum and optimum dose was then investigated compared to the reference value via Poisson regression producing incidence rate ratios (IRR). All statistical analyses and figures were performed and created in R version 4.3.1 (PBC, Boston, MA, USA) [24]. Statistical analyses were performed using the following packages: survival [25] and survminer [26]. Figures were created using the package ggplot2 [27]. Dose-response relationships analyses was performed using RiskRegression [28] and Splines2 [29] packages. P-values &lt;0.05 were considered statistically significant."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "From the UK Biobank, 36,320 individuals with a diagnosis of AF were identified. Subsequently, the majority of the individuals (<em>n</em> = 30,650) were excluded due to insufficient accelerometer wear time (&lt;3 days), insufficient data quality, or no accelerometery data. Then, we excluded <em>n</em> = 812 individuals for unavailability for the 30 variables, resulting in 4858 individuals with AF and validated accelerometer derived MVPA data (Figure S2). Median age was 63 [58–66] years and 37 % were female (Table S1). Median accelerometer wear time was 6.9 days [6.7–7.0]."
+        }
+      ]
+    },
+    {
+      "title": "Dose-response MVPA and MACE: impact of cardiovascular risk profile",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "title": "Cluster analysis",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Two clusters were identified as phenotypically distinct and appropriately sized for the analysis (Figure S3). Individuals in Cluster 1 (<em>n</em> = 2275; ‘low risk’) were younger adults with a high proportion of females, cardiovascular risk factors, and comorbidities compared to those in the Cluster 2 (<em>n</em> = 2583, ‘high risk’, Table S1). In total, 764 MACEs occurred within the 6-year follow-up. In the ‘low risk’ Cluster, a total of 156 MACEs (7 %) occurred over a median follow-up of 72 months, including 22 strokes, 63 HF, 31 MI, 69 heart diseases, and 16 cardiac arrests. Among them, 31 individuals experienced more than one MACE. In the ‘high risk’ Cluster, a total of 608 MACEs (24 %) occurred, including 122 stroke, 263 HF, 128 MI, 201 heart diseases, and 28 cardiac arrests. Among them, 115 individuals experienced more than one MACE. Cox models demonstrated a significantly higher risk of MACE in the ‘high risk’ Cluster compared to the ‘low risk’ Cluster as a reference (HR 3.81, 95 %CI 3.19–4.55, <em>p</em> &lt; 0.001, Figure S4)."
+        }
+      ]
+    },
+    {
+      "title": "MVPA and MACE within clusters",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In the &#x27;low risk&#x27; Cluster, the less physically active group &#x27;Quartile 1′ had a median MVPA of 56 [46, 69] min/week (Table 1). The more physically active group (&#x27;Quartile 4′: median MVPA 187 [157, 199] min/week) showed lower MACE incidence compared to the reference group &#x27;Quartile 1′ (HR 0.37, 95 %CI 0.22–0.61, <em>p</em> &lt; 0.001; Fig. 1A). After adjusting for potential confounders, this relationship remained, with higher activity levels showing 61 % lower MACE incidence compared to &#x27;Quartile 1′ (HR 0.39, 95 % CI 0.22–0.70, <em>p</em> = 0.001; Fig. 1B).Table 1Characteristics of the individuals with atrial fibrillation in ‘low risk’ cluster 1 according to their physical activity volume.Table 1Quartile 1 (<em>n</em> = 569)Quartile 2 (<em>n</em> = 569)Quartile 3 (<em>n</em> = 569)Quartile 4 (<em>n</em> = 568)P-values<strong>Characteristics</strong>MACE, n ( %)53 (9)45 (8)38 (7)20 (4)<strong>&lt;0.001</strong>Age, years61 [58, 66]<sup>a,b,c</sup>60 [56, 65]<sup>b,c</sup>59 [54, 64]<sup>c</sup>58 [53, 63]<strong>&lt;0.001</strong>Female sex, n ( %)200 (35)184 (32)177 (31)215 (38)0.08White background, n ( %)559 (98)559 (98)559 (98)559 (98)&gt;0.99BMI, kg/m<sup>2</sup>29.5 [25.4, 32.2]<sup>a,b,c</sup>28.2 [24.9, 30.7]<sup>b,c</sup>26.9 [24.2, 29]<sup>c</sup>26 [23.3, 28]<strong>&lt;0.001</strong>DBP, mmHg84 [77, 91]<sup>b,c</sup>83 [76, 90]<sup>c</sup>82 [75, 89]81 [74, 89]<strong>&lt;0.001</strong>SBP, mmHg144 [130, 156]<sup>b,c</sup>142 [130, 153]<sup>c</sup>141 [127, 154]138 [125, 150]<strong>&lt;0.001</strong>eGFR, mL/min/1.73m<sup>2</sup>96.3 [90.9, 102.6]<sup>a,b,c</sup>99.8 [95.7, 106]101.5 [97.5, 107.5]99.8 [96.8, 106.3]0.08Cystatin C, mg/L1.0 [0.9, 1.0]<sup>a,b,c</sup>0.9 [0.8, 1.0]<sup>c</sup>0.9 [0.8, 1.0]<sup>c</sup>0.9 [0.8, 1.0]<strong>&lt;0.001</strong>Haematocrit, %42.1 [39.9, 44.5]<sup>c</sup>42.3 [40.3, 44.5]<sup>a,b,c,d,e,f</sup>42.2 [40, 44.3]41.7 [39.6, 43.8]<strong>0.02</strong>Gamma-glutamyl transferase, U/L48.2 [22.4, 53.5]<sup>b,c</sup>45.6 [21.7, 50]<sup>c</sup>42 [20.8, 47.7]38.1 [18.6, 43.9]<strong>0.002</strong>HDL, mmol/L1.3 [1, 1.5]<sup>c</sup>1.3 [1.1, 1.5]<sup>c</sup>1.3 [1.1, 1.5]<sup>c</sup>1.4 [1.1, 1.6]<strong>0.02</strong>LDL, mmol/L1.6 [1.3, 1.9]1.6 [1.3, 1.9]1.7 [1.4, 2]1.7 [1.4, 1.9]0.43Alcohol - daily use, n ( %)227 (40)197 (35)215 (38)204 (36)0.48TobaccoCurrent, n ( %)55 (10)<sup>b,c</sup>39 (7)32 (6)32 (6)<strong>0.03</strong>Previous, n ( %)243 (43)225 (40)254 (45)248 (44)0.59Never, n ( %)271 (48)302 (53)282 (50)285 (50)0.63<strong>Medication</strong>Anti-hypertensive medication use, n ( %)198 (35)<sup>a,b,c</sup>153 (27)<sup>b,c</sup>122 (21)100 (18)<strong>&lt;0.001</strong>Cholesterol lowering medication use, n ( %)170 (30)<sup>a,b,c</sup>150 (26)<sup>b,c</sup>110 (19)98 (17)<strong>&lt;0.001</strong>Insulin use, n ( %)4 (0.7)4 (0.7)2 (0.4)1 (0.2)0.48Warfarin use, n ( %)53 (9)53 (9)44 (8)38 (7)0.33<strong>Cardiovascular risk factors</strong>Heart failure, n ( %)16 (3)15 (3)12 (2)10 (2)0.63Type 2 diabetes, n ( %)39 (7)<sup>a,b,c</sup>31 (5)<sup>b,c</sup>15 (3)6 (1)<strong>&lt;0.001</strong>Hypertension, n ( %)1 (0.2)1 (0.2)0 (0)0 (0)0.57<strong>Comorbidities</strong>History of ischemic heart disease, n ( %)90 (16)<sup>b,c</sup>71 (12)63 (11)52 (9)<strong>0.01</strong>History of peripheral artery disease, n ( %)1 (0.2)2 (0.4)0 (0)0 (0)0.30History of hypothyroidism, n ( %)29 (5)16 (3)18 (3)22 (4)0.20History of hyperthyroidism, n ( %)15 (3)9 (2)9 (2)6 (1)0.22GI bleeding history, n ( %)27 (5)24 (4)19 (3)23 (4)0.70History of stroke, n ( %)19 (3)28 (5)21 (4)20 (4)0.52Intraventricular conduction: LBBB, n ( %)11 (2)16 (3)<sup>c</sup>15 (3)<sup>c</sup>4 (0.7)0.05Electrocardiographic evidence of LVH, n ( %)12 (2)10 (2)5 (0.9)13 (2)0.28Dementia, n ( %)8 (1)<sup>b</sup>5 (0.9)1 (0.2)0 (0)<strong>0.008</strong>History of CABG, n ( %)5 (0.9)2 (0.4)2 (0.4)4 (0.7)0.56History of PCI, n ( %)0 (0)2 (0.4)3 (0.5)2 (0.4)0.44Cardioversion, n ( %)149 (26)130 (23)132 (23)131 (23)0.61Catheter ablation, n ( %)100 (18)<sup>c</sup>109 (19)123 (22)134 (24)0.12Pacemaker, n ( %)0 (0)0 (0)1 (0.2)0 (0)0.39Renal replacement therapy/kidney transplantation, n ( %)0 (0)0 (0)0 (0)0 (0)–Anaemia, n ( %)569 (100)569 (100)569 (100)568 (100)&gt;0.99Malignancy, n ( %)139 (24)143 (25)130 (23)120 (21)0.50Sleep apnoea, n ( %)47 (8)27 (5)16 (3)20 (4)<strong>&lt;0.001</strong>COPD, n ( %)25 (4)21 (4)9 (2)10 (2)<strong>0.008</strong>CKD, n ( %)33 (6)15 (3)12 (2)17 (3)<strong>0.003</strong><strong>Physical activity</strong>MVPA, min/week56 [46, 69]<sup>a,b,c</sup>90 [82, 98]<sup>b,c</sup>124 [115, 132]<sup>c</sup>187 [157, 199]<strong>&lt;0.001</strong>LPA, min/week262 [220, 300]<sup>a,b,c</sup>293 [252, 328]<sup>b,c</sup>303 [264, 338]<sup>c</sup>350 [282, 377]<strong>&lt;0.001</strong>Sedentary, min/week1175 [1106, 1204]<sup>a,b,c</sup>1120 [1047, 1135]<sup>b,c</sup>1067 [1005, 1093]<sup>c</sup>1107 [952, 1097]<strong>&lt;0.001</strong>Continuous variables are expressed as median [IQR]; dichotomous variables are expressed as number and percentage.MACE : major adverse cardiovascular events; BMI: body mass index; DBP: diastolic blood pressure; SBP: systolic blood pressure; eGFR: estimated glomerular filtration rate; HDL: high-density lipoprotein; LDL: low-density lipoprotein; GI bleeding: gastro-intestinal bleeding; LBBB: left Bundle branch block; LVH: left ventricular hypertrophy; CABG: coronary artery bypass graft; PCI: percutaneous coronary intervention; COPD: chronic obstructive pulmonary disease; CKD: chronic kidney disease; MVPA: moderate-vigorous physical activity; LPA: light physical activity.<sup>a</sup>: vs Quartile 2, <em>p</em> &lt; 0.05; <sup>b</sup>: vs Quartile 3, <em>p</em> &lt; 0.05 ; <sup>c</sup>: vs Quartile 4, <em>p</em> &lt; 0.05.Fig. 1Survival analyses from major adverse cardiovascular events risks in individuals with atrial fibrillation of the ‘low risk’ cluster 1 (A-B, <em>n</em> = 2275) and the ‘high risk’ cluster 2 (C-D, <em>n</em> = 2583) according to physical activity volume (details). Unadjusted analyses were presented under A and C, whilst the adjusted analysis (B and D) was corrected for age, sex, ethnicity sedentarity, body mass index, alcohol and tobacco use, and cardiovascular risk factors for atrial fibrillation. MACE: major adverse cardiovascular events. P-values refer to the comparison to the reference group (i.e., Quartile 1’).Fig. 1"
+        },
+        {
+          "type": "paragraph",
+          "html": "In the &#x27;high risk&#x27; Cluster, the less physically active group &#x27;Quartile 1′ had a median MVPA of 42 [32, 54] min/week (Table 2). Higher activity levels in &#x27;Quartile 2′ (median MVPA 167 [137, 183] min/week), &#x27;Quartile 3′ (median MVPA 167 [137, 183] min/week), and &#x27;Quartile 4′ (median MVPA 167 [137, 183] min/week) were associated with lower MACE incidence compared to the reference group &#x27;Quartile 1′ (&#x27;Quartile 2′: HR 0.75, 95 %CI 0.60–0.92, <em>p</em> = 0.007; &#x27;Quartile 3′: HR 0.57, 95 %CI 0.46–0.72, <em>p</em> &lt; 0.001; and &#x27;Quartile 4′: HR 0.68, 95 %CI 0.55–0.85, <em>p</em> &lt; 0.001, respectively; Fig. 1C). These relationships between MVPA and MACE incidence in the &#x27;high risk&#x27; Cluster persisted in the adjusted analysis (Fig. 1D)."
+        }
+      ]
+    },
+    {
+      "title": "Dose-response analysis",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "A non-linear relationship (Wald test, <em>p</em> &lt; 0.001) between MVPA levels and MACE incidence (Fig. 2) was observed for individuals with AF. Using Poisson regression, a notable threshold was identified at 35 min/week of MVPA. Compared to the lowest MVPA levels (&#x27;reference dose&#x27;), this threshold corresponded to 65 % lower MACE incidence (IRR 0.35, 95 % CI 0.31–0.39, <em>p</em> &lt; 0.001). A second notable threshold was identified at 103 min/week, which corresponded to 69 % lower MACE incidence compared to the reference levels (IRR 0.31, 95 % CI 0.22–0.45, <em>p</em> &lt; 0.001).Fig. 2Poisson regression dose-response analysis between MVPA (min/week) and total count of MACE in all individuals with atrial fibrillation. Restricted cubic spline (fitted with three knots to account for non-linear relationship). MVPA: Moderate-to-vigorous physical activity, MACE; Major adverse cardiovascular events.Fig. 2Table 2Characteristics of the individuals with atrial fibrillation in ‘high risk’ cluster 2 according to their physical activity volume.Table 2Quartile 1 (<em>n</em> = 646)Quartile 2 (<em>n</em> = 646)Quartile 3 (<em>n</em> = 646)Quartile 4 (<em>n</em> = 645)P-values<strong>Characteristics</strong>MACE, n ( %)196 (30)<sup>a,b,c</sup>153 (24)<sup>b</sup>120 (19)139 (22)<strong>&lt;0.001</strong>Age, years64 [62, 68]<sup>b,c</sup>64 [61, 67]<sup>b,c</sup>63 [61, 66]<sup>c</sup>62 [60, 66]<strong>&lt;0.001</strong>Female sex, n ( %)235 (36)<sup>c</sup>230 (36)<sup>c</sup>264 (41)283 (44)<strong>0.006</strong>White background, n ( %)638 (99)633 (98)633 (98)628 (97)0.994BMI, kg/m<sup>2</sup>30.4 [26.4, 33.3]<sup>a,b,c</sup>28.7 [25.1, 31.2]<sup>b,c</sup>27.7 [24.7, 30.2]<sup>c</sup>26.8 [24, 29.2]<strong>&lt;0.001</strong>DBP, mmHg83 [76, 90]82 [75, 89]82 [75, 88]82 [74, 89]0.684SBP, mmHg148 [132, 162]<sup>a,b,c</sup>146 [132, 158]144 [132, 157]144 [130, 156]<strong>0.005</strong>eGFR, mL/min/1.73m<sup>2</sup>92.7 [89, 99.6]<sup>c</sup>93.7 [91.3, 100.8]<sup>c</sup>94.8 [92.4, 100.5]96.1 [92.7, 102.9]0.19Cystatin C, mg/L1.1 [0.9, 1.1]<sup>a,b,c</sup>1 [0.9, 1.1]<sup>b,c</sup>1 [0.9, 1]<sup>c</sup>0.9 [0.8, 1]<strong>&lt;0.001</strong>Haematocrit, %41.6 [39.4, 44.2]41.9 [39.6, 44.2]<sup>c</sup>41.7 [39.3, 44]41.4 [39.3, 43.7]0.06Gamma-glutamyl transferase, U/L44.8 [22.4, 49.6]<sup>b,c</sup>43.2 [20.8, 46.6]<sup>c</sup>38.7 [20.3, 42]35 [19.6, 38.6]<strong>&lt;0.001</strong>HDL, mmol/L1.2 [1.0, 1.4]1.2 [1.0, 1.4]1.3 [1.0, 1.4]1.3 [1.0, 1.4]0.30LDL, mmol/L1.5 [1.2, 1.8]<sup>c</sup>1.6 [1.3, 1.9]1.6 [1.3, 1.9]1.7 [1.4, 1.9]0.15Alcohol - daily use, n ( %)88 (14)79 (12)94 (15)<sup>c</sup>68 (11)0.20TobaccoCurrent, n ( %)47 (7)<sup>b,c</sup>35 (5)20 (3)21 (3)<strong>0.001</strong>Previous, n ( %)340 (53)<sup>b,c</sup>315 (49)<sup>c</sup>297 (46)273 (42)<strong>&lt;0.05</strong>Never, n ( %)256 (40)<sup>a,b,c</sup>292 (45)<sup>c</sup>329 (51)348 (54)<strong>&lt;0.001</strong><strong>Medication</strong>Anti-hypertensive medication use, n ( %)311 (48)<sup>a,b,c</sup>261 (40)<sup>b,c</sup>251 (39)<sup>c</sup>171 (27)<strong>&lt;0.001</strong>Cholesterol lowering medication use, n ( %)274 (42)<sup>a,b,c</sup>233 (36)<sup>b,c</sup>204 (32)<sup>c</sup>157 (24)<strong>&lt;0.001</strong>Insulin use, n ( %)17 (3)<sup>b,c</sup>13 (2)6 (0.9)4 (0.6)<strong>0.01</strong>Warfarin use, n ( %)72 (11)68 (11)62 (10)51 (8)0.27<strong>Cardiovascular risk factors</strong>Heart failure, n ( %)118 (18)<sup>a,b,c</sup>60 (9)67 (10)57 (9)<strong>&lt;0.001</strong>Type 2 diabetes, n ( %)152 (24)<sup>a,b,c</sup>86 (13)<sup>b,c</sup>48 (7)35 (5)<strong>&lt;0.001</strong>Hypertension, n ( %)0 (0)2 (0.3)2 (0.3)1 (0.2)0.53<strong>Comorbidities</strong>History of ischemic heart disease, n ( %)355 (55)<sup>a,b,c</sup>299 (46)<sup>b,c</sup>257 (40)241 (37)<strong>&lt;0.001</strong>History of peripheral artery disease, n ( %)74 (11)<sup>a,b,c</sup>48 (7)<sup>b,c</sup>28 (4)25 (4)<strong>&lt;0.001</strong>History of hypothyroidism, n ( %)104 (16)<sup>c</sup>97 (15)85 (13)76 (12)0.16History of hyperthyroidism, n ( %)23 (4)<sup>c</sup>21 (3)<sup>c</sup>13 (2)9 (1)<strong>&lt;0.05</strong>GI bleeding history, n ( %)69 (11)<sup>a,b,c</sup>46 (7)31 (5)29 (4)<strong>&lt;0.001</strong>History of stroke, n ( %)211 (33)<sup>a,b,c</sup>135 (21)<sup>c</sup>124 (19)99 (15)<strong>&lt;0.001</strong>Intraventricular conduction: LBBB, n ( %)56 (9)<sup>b,c</sup>38 (6)33 (5)27 (4)<strong>0.007</strong>Electrocardiographic evidence of LVH, n ( %)43 (7)35 (5)30 (5)45 (7)0.28Dementia, n ( %)27 (4)<sup>a</sup>10 (2)14 (2)14 (2)<strong>0.02</strong>History of CABG, n ( %)79 (12)<sup>b,c</sup>73 (11)<sup>c</sup>54 (8)50 (8)<strong>0.02</strong>History of PCI, n ( %)31 (5) <sup>a,c</sup>15 (2)23 (4)16 (2)0.05Cardioversion, n ( %)93 (14)90 (14)91 (14)85 (13)0.94Catheter ablation, n ( %)57 (9)43 (7)<sup>b,c</sup>69 (11)73 (11)<strong>0.03</strong>Pacemaker, n ( %)4 (0.6)3 (0.5)11 (2)3 (0.5)<strong>0.04</strong>Renal replacement therapy/kidney transplantation, n ( %)9 (1)2 (0.3)2 (0.3)4 (0.6)0.05Anaemia, n ( %)646 (100)646 (100)646 (100)645 (100)&gt;0.99Malignancy, n ( %)143 (22)132 (20)114 (18)101 (16)<strong>0.04</strong>Sleep apnoea, n ( %)51 (8)28 (4)14 (2)15 (2)<strong>&lt;0.001</strong>COPD, n ( %)122 (19)72 (11)61 (9)60 (9)<strong>&lt;0.001</strong>CKD, n ( %)188 (29)<sup>c</sup>111 (17)<sup>c</sup>98 (15)79 (12)<strong>&lt;0.001</strong><strong>Physical activity</strong>MVPA, min/week42 [32, 54]<sup>a,b,c</sup>77 [70, 84]<sup>b,c</sup>107 [99, 114]<sup>c</sup>167 [137, 183]<strong>&lt;0.001</strong>LPA, min/week250 [207, 290]<sup>a,b,c</sup>287 [245, 324]<sup>b,c</sup>307 [262, 342]<sup>c</sup>344 [290, 376]<strong>&lt;0.001</strong>Sedentary, min/week119 [1128, 1237]<sup>a,b,c</sup>1130 [1065, 1157]<sup>b,c</sup>1095 [1022, 1115]<sup>c</sup>1091 [959, 1104]<strong>&lt;0.001</strong>Continuous variables are expressed as median [IQR]; dichotomous variables are expressed as number and percentage.MACE : major adverse cardiovascular events; BMI: body mass index; DBP: diastolic blood pressure; SBP: systolic blood pressure; eGFR: estimated glomerular filtration rate; HDL: high-density lipoprotein; LDL: low-density lipoprotein; GI bleeding: gastro-intestinal bleeding; LBBB: left Bundle branch block; LVH: left ventricular hypertrophy; CABG: coronary artery bypass graft; PCI: percutaneous coronary intervention; COPD: chronic obstructive pulmonary disease; CKD: chronic kidney disease; MVPA: moderate-vigorous physical activity; LPA: light physical activity.<sup>a</sup>: vs Quartile 2, <em>p</em> &lt; 0.05; <sup>b</sup>: vs Quartile 3, <em>p</em> &lt; 0.05 ; <sup>c</sup>: vs Quartile 4, <em>p</em> &lt; 0.05."
+        }
+      ]
+    },
+    {
+      "title": "Dose-response MVPA and MACE: impact of rhythm control procedure",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Among the individuals with AF, 1354 (28 %) received a rhythm control procedure (Table 3). When stratified by quartiles of MVPA, MACE incidence varied across activity levels, with events occurring in 80 (24 %), 64 (19 %), 59 (17 %), and 35 (10 %) participants in &#x27;Quartile 1′, &#x27;Quartile 2′, &#x27;Quartile 3′, and &#x27;Quartile 4′, respectively. Compared to the reference &#x27;Quartile 1′ group (median MVPA 54 [41, 64] min/week), those with higher physical activity levels (&#x27;Quartile 4′, median MVPA 168 [151, 194] min/week) showed lower MACE incidence (HR 0.42, 95 %CI 0.28–0.62, <em>p</em> &lt; 0.001, Fig. 3A). This relationship persisted in the adjusted analysis (HR 0.42, 95 %CI 0.26–0.66, <em>p</em> &lt; 0.001, Fig. 3B).Table 3Characteristics of the individuals with atrial fibrillation undergoing rhythm control procedure according to their physical activity volume.Table 3Overall (<em>n</em> = 1354)Quartile 1 (<em>n</em> = 339)Quartile 2 (<em>n</em> = 339)Quartile 3 (<em>n</em> = 338)Quartile 4 (<em>n</em> = 338)P-values<strong>Characteristics</strong>MACE, n ( %)238 (18)80 (24)<sup>a,b,c</sup>64 (19)<sup>c</sup>59 (17)<sup>c</sup>35 (10)<strong>&lt;0.001</strong>Age, years60 [57, 65]62 [59, 66]<sup>a,b,c</sup>61 [58, 65]<sup>b,c</sup>59 [55, 64]58 [54, 63]<strong>&lt;0.001</strong>Female sex, n ( %)390 (29)91 (27)103 (30)93 (28)103 (30)0.62White background, n ( %)1328 (98)332 (98)335 (99)328 (97)333 (99)0.99BMI, kg/m<sup>2</sup>27.9 [24.6, 30.4]30.1 [26.3, 33.2]<sup>a,b,c</sup>28.2 [24.6, 30.9]<sup>b,c</sup>27.3 [24.5, 29.6]<sup>c</sup>26.2 [23.6, 28.1]<strong>&lt;0.001</strong>DBP, mmHg83 [76, 90]84 [76, 90]84 [76, 90]83 [75, 90]82 [74, 90]0.46SBP, mmHg143 [128, 155]145 [130, 156]<sup>c</sup>142 [128, 153]142 [129, 155]140 [125, 153]0.06eGFR, mL/min/1.73m<sup>2</sup>97.5 [94.3, 103.6]96.2 [90.9, 101.4]96.3 [93.4, 103.3]99.6 [96.5, 105.9]97.8 [95.9, 104.4]0.96Cystatin C, mg/L1.0 [0.9, 1.0]1.0 [0.9, 1.1]<sup>a,b,c</sup>1 0.0[0.9, 1.0]<sup>c</sup>0.9 [0.9, 1.0]0.9 [0.8, 1]<strong>&lt;0.001</strong>Haematocrit, %42.3 [40.2, 44.6]42.2 [40, 44.7]42.4 [40, 44.7]42.4 [40.3, 44.7]42 [40.1, 44.4]0.36Gamma-glutamyl transferase, U/L43.1 [21.3, 47.6]50.6 [22.9, 55.8]<sup>a,b,c</sup>41.8 [22.1, 48.7]40 [21.3, 44.3]40.4 [19.3, 42.7]<strong>0.009</strong>HDL, mmol/L1.3 [1, 1.4]1.2 [1, 1.4]<sup>c</sup>1.2 [1, 1.4]<sup>c</sup>1.3 [1, 1.4]1.3 [1.1, 1.5]<strong>0.04</strong>LDL, mmol/L1.6 [1.3, 1.9]1.6 [1.3, 1.8]1.6 [1.3, 1.8]1.6 [1.5, 1.8]1.7 [1.4, 1.9]0.37Alcohol - daily use, n ( %)359 (27)80 (24)<sup>c</sup>83 (24)<sup>c</sup>88 (26)108 (32)0.15TobaccoCurrent, n ( %)82 (6)25 (7)21 (6)18 (5)18 (5)0.66Previous, n ( %)609 (45)169 (50)<sup>b</sup>149 (44)138 (41)153 (45)0.36Never, n ( %)661 (49)144 (42)<sup>b</sup>169 (50)181 (54)167 (49)0.23<strong>Medication</strong>Anti-hypertensive medication use, n ( %)413 (31)139 (41)<sup>a,b,c</sup>105 (31)<sup>c</sup>100 (30)<sup>c</sup>69 (20)<strong>&lt;0.001</strong>Cholesterol lowering medication use, n ( %)352 (26)128 (38)<sup>a,b,c</sup>91 (27)<sup>c</sup>73 (22)60 (18)<strong>&lt;0.001</strong>Insulin use, n ( %)10 (0.7)7 (2)2 (0.6)0 (0)1 (0.3)<strong>0.009</strong>Warfarin use, n ( %)201 (15)69 (20)<sup>b,c</sup>52 (15)<sup>c</sup>47 (14)33 (10)<strong>0.004</strong><strong>Cardiovascular risk factors</strong>Heart failure, n ( %)104 (8)45 (13)<sup>a,b,c</sup>20 (6)19 (6)20 (6)<strong>&lt;0.001</strong>Type 2 diabetes, n ( %)89 (7)44 (13)<sup>a,b,c</sup>22 (6)<sup>c</sup>15 (4)8 (2)<strong>&lt;0.001</strong>Hypertension, n ( %)4 (0.3)1 (0.3)3 (0.9)0 (0)0 (0)0.11<strong>Comorbidities</strong>History of ischemic heart disease, n ( %)407 (30)143 (42)<sup>a,b,c</sup>100 (29)<sup>c</sup>99 (29)<sup>c</sup>65 (19)<strong>&lt;0.001</strong>History of peripheral artery disease, n ( %)46 (3)24 (7)<sup>a,b,c</sup>12 (4)<sup>c</sup>7 (2)3 (0.9)<strong>&lt;0.001</strong>History of hypothyroidism, n ( %)98 (7)29 (9)20 (6)30 (9)19 (6)0.25History of hyperthyroidism, n ( %)33 (2)14 (4)<sup>b</sup>8 (2)4 (1)7 (2)0.09GI bleeding history, n ( %)69 (5)29 (9)<sup>a</sup>11 (3)16 (5)13 (4)<strong>0.01</strong>History of stroke, n ( %)166 (12)63 (19)<sup>a,b,c</sup>42 (12)31 (9)30 (9)<strong>&lt;0.001</strong>Intraventricular conduction: LBBB, n ( %)60 (4 %)25 (7)<sup>b,c</sup>14 (4)12 (4)9 (3)<strong>0.02</strong>Electrocardiographic evidence of LVH, n ( %)89 (7 %)31 (9)18 (5)19 (6)21 (6)0.19Dementia, n ( %)14 (1 %)6 (2)5 (1)0 (0)3 (0.9)0.11History of CABG, n ( %)49 (4 %)21 (6)<sup>c</sup>12 (4)12 (4)4 (1)<strong>0.008</strong>History of PCI, n ( %)15 (1 %)3 (0.9)2 (0.6)7 (2)3 (0.9)0.27Cardioversion, n ( %)901 (67 %)247 (73)<sup>b,c</sup>233 (69)<sup>c</sup>220 (65)201 (59)0.17Catheter ablation, n ( %)708 (52 %)157 (46)<sup>b,c</sup>158 (47)<sup>b,c</sup>192 (57)201 (59)<strong>0.03</strong>Pacemaker, n ( %)5 (0.4 %)2 (0.6)1 (0.3)2 (0.6)0 (0)0.53Renal replacement therapy/kidney transplantation, n ( %)2 (0.1 %)1 (0.3)0 (0)0 (0)1 (0.3)0.57Anaemia, n ( %)1354 (100 %)339 (100)339 (100)338 (100)338 (100)&gt;0.99Malignancy, n ( %)74 (22 %)74 (22)68 (20)55 (16)60 (18)0.35Sleep apnoea, n ( %)69 (5 %)26 (8)<sup>a,b,c</sup>25 (7)<sup>b,c</sup>9 (3)9 (3)<strong>0.001</strong>COPD, n ( %)89 (7 %)31 (9) <sup>b,c</sup>28 (8)14 (4)16 (5)<strong>0.02</strong>CKD, n ( %)123 (9 %)49 (14)<sup>a,b,c</sup>26 (8)26 (8)22 (7)<strong>0.002</strong><strong>Physical activity</strong>MVPA, min/week103 [71, 137]54 [41, 64]<sup>a,b,c</sup>86 [79, 94]<sup>b,c</sup>119 [111, 129]<sup>c</sup>168 [151, 194]<strong>&lt;0.001</strong>LPA, min/week285 [247, 329]252 [211, 288]<sup>a,b,c</sup>279 [248, 320]<sup>b,c</sup>298 [262, 337]<sup>c</sup>315 [269, 364]<strong>&lt;0.001</strong>Sedentary, min/week1088 [1027, 1159]1161 [1116, 1221]<sup>a,b,c</sup>1098 [1060, 1141]<sup>b,c</sup>1053 [1005, 1095]<sup>c</sup>1021 [959, 1093]<strong>&lt;0.001</strong>Continuous variables are expressed as median [IQR]; dichotomous variables are expressed as number and percentage.MACE : major adverse cardiovascular events; BMI: body mass index; DBP: diastolic blood pressure; SBP: systolic blood pressure; eGFR: estimated glomerular filtration rate; HDL: high-density lipoprotein; LDL: low-density lipoprotein; GI bleeding: gastro-intestinal bleeding; LBBB: left Bundle branch block; LVH: left ventricular hypertrophy; CABG: coronary artery bypass graft; PCI: percutaneous coronary intervention; COPD: chronic obstructive pulmonary disease; CKD: chronic kidney disease; MVPA: moderate-vigorous physical activity; LPA: light physical activity.<sup>a</sup>: vs Quartile 2, <em>p</em> &lt; 0.05; <sup>b</sup>: vs Quartile 3, <em>p</em> &lt; 0.05 ; <sup>c</sup>: vs Quartile 4, <em>p</em> &lt; 0.05.Fig. 3Survival analyses from major adverse cardiovascular events risks in individuals with atrial fibrillation undergoing rhythm control procedures according to physical activity volume. Unadjusted (A) and adjusted (B) for age, sex, ethnicity sedentarity, body mass index, alcohol and tobacco use, and cardiovascular risk factors for atrial fibrillation. MACE: major adverse cardiovascular events. P-values refer to the comparison to the reference group (i.e., ‘Quartile 1′).Fig. 3"
+        }
+      ]
+    },
+    {
+      "title": "Senssitive analysis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "As a sensitivity analysis, the primary analysis was repeated in a cohort of individuals with AF which excluded those who underwent a rhythm control procedure (<em>n</em> = 3504). Results remained largely consistent with the primary analysis. Compared to the reference ‘Quartile 1′ group (median MVPA 49 [36, 59] min/week), being more physically active were associated with lower risks of MACEs (vs ‘Quartile 2′, median MVPA 82 [75, 89] min/week, HR 0.60, 95 % CI 0.47–0.75, <em>p</em> &lt; 0.001; vs ‘Quartile 3′, median MVPA 112 [104, 122] min/week, HR 0.51, 95 % CI 0.40–0.65, <em>p</em> &lt; 0.001; vs ‘Quartile 4’, median MVPA 162 [144, 191] min/week, HR 0.49, 95 % CI 0.38–0.62, <em>p</em> &lt; 0.001). In adjusted analysis, these effects remained significant (Table S2, Figure S5)."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The aim of this study was to describe the relationship between MVPA and occurrence of major adverse cardiovascular events (MACE) for individuals with AF and to characterize these patterns across risk phenotypes and among those undergoing rhythm control procedures. We performed a hierarchical cluster analysis to identify a &#x27;low risk&#x27; Cluster and a &#x27;high risk&#x27; Cluster, with the high risk cluster showing a 3.81-fold higher MACE incidence compared to the low risk cluster. Both clusters exhibited a non-linear relationship between MVPA levels and MACE incidence, with individuals engaging in 187 min/week (&#x27;low risk&#x27; Cluster) and 167 min/week (&#x27;high risk&#x27; Cluster) of MVPA having 61 % and 43 % lower MACE incidence over 6-year follow-up, respectively, compared to those with lower activity levels. Our analysis identified notable MVPA thresholds at 35 min/week and 103 min/week, which were associated with 65 % and 69 % lower MACE incidence, respectively, across all participants with AF. Among those who underwent rhythm control procedures, individuals with higher activity levels (&gt;168 min/week of MVPA) showed 58 % lower MACE incidence. Collectively, this study documents that the relationship between MVPA levels and MACE incidence follows similar patterns across different AF phenotypes, including those based on cardiovascular risk profiles and rhythm control treatment status. These findings provide objective documentation of physical activity patterns and their association with cardiovascular outcomes in people with AF."
+        },
+        {
+          "type": "paragraph",
+          "html": "Two recent prospective cohort studies demonstrated in individuals with AF, either using self-reported (∼1000 participants) [6] or objectively assessed physical activity data (∼2000 participants) [30], that higher physical activity levels were associated with lower long-term risk of cardiovascular disease and all-cause mortality. The results of the present study document a curvilinear relationship between MVPA levels and MACE incidence in individuals with AF. More importantly, we found that these associations follow similar patterns across different cardiovascular risk profiles, with both the &#x27;low&#x27; and &#x27;high risk&#x27; clusters showing lower MACE incidence with higher activity levels. Specifically, despite a 3.81-fold higher MACE incidence in the &#x27;high risk&#x27; cluster, comparable patterns of association between MVPA and cardiovascular outcomes were observed in both clusters. This observation is relevant, as some studies have suggested that the relationship between physical activity and cardiovascular outcomes may differ in populations with established cardiovascular disease [10,31]. Taken together, our data indicate that the association between regular MVPA and MACE incidence in subjects with AF follows similar patterns across different cardiovascular risk profiles."
+        },
+        {
+          "type": "paragraph",
+          "html": "The use of rigorous accelerometer data also enabled the determination of specific MVPA thresholds that associate with better clinical outcomes. For the first time, we identify notable MVPA thresholds (35 min/week and 103 min/week) that could inform clinical guidelines and support individuals with AF in changing physical activity behavior patterns. Although our analytical approach to determine these thresholds has been used previously [23]<sup>.</sup> a consistent method does not exist across studies [32]. It is important to note that the curvilinear relationship in our study indicates that the strongest association between physical activity and reduced MACE incidence occurs at the lower end of the physical activity spectrum (Fig. 3). In other words, the data suggest that for inactive individuals with AF, MVPA levels between 35 and 103 min/week show particularly strong associations with improved outcomes. These observations align with the non-linear relationships documented in general populations[33] and highlight that relatively modest activity levels show meaningful associations with cardiovascular outcomes for participants with AF."
+        },
+        {
+          "type": "paragraph",
+          "html": "We also sought to better understand whether the role of physical activity differed for participants who underwent rhythm control procedures. This seems especially relevant since studies support the clinical relevance of rhythm control interventions, including catheter ablation [34,35]. Although ablation and cardioversion may reduce the risk for adverse cardiovascular events, risk for MACE remains high [36,37]. It is therefore clinically relevant that our study revealed that engagement in MVPA also seems beneficial for individuals with AF who underwent a rhythm control procedure. Specifically, MACE incidence was 58 % lower in individuals who performed &gt;168 min/week of MVPA compared to those who performed &lt;54 min/week. Thus, while rhythm control procedures are associated with reduced MACE incidence, our data show that among patients receiving these procedures, those with higher MVPA levels demonstrated lower cardiovascular event rates."
+        },
+        {
+          "type": "paragraph",
+          "html": "The beneficial associations of higher physical activity and lower MACE in the present study raises questions on the potential mechanisms. First, AF is associated with many modifiable cardiovascular risk factors (e.g., BMI, blood pressure, inflammation, cholesterol), and overt cardiovascular conditions [38,39]. which may be altered following regular MVPA and subsequently contributing to the lower risk for MACE. Furthermore, it has been hypothesised that physical activity improves atrial health (e.g.<em>,</em> atrial size, fibrosis, inflammation) and vascular structure and function (e.g.<em>,</em> vessel diameter, wall thickness, endothelial function), which may translate to improved outcomes for mortality and morbidity [13,40,41]. Nonetheless, future studies are warranted to better understand the mechanisms explaining the beneficial impacts of physical activity on clinical outcomes for people with AF."
+        },
+        {
+          "type": "paragraph",
+          "html": "These findings have direct relevance for clinical practice. They demonstrate that MVPA is associated with reduced cardiovascular event risk in individuals with AF, regardless of comorbidity burden or phenotype. This suggests that clinicians can confidently recommend physical activity—even at modest levels (≥35 min/week)—to all AF patients, including those with complex health profiles. The clustering analysis reinforces that MVPA is beneficial across diverse AF presentations, simplifying clinical messaging and supporting guideline-based activity targets as both achievable and impactful in routine care."
+        },
+        {
+          "type": "paragraph",
+          "html": "<em>Strengths and limitations.</em> Strengths of our study include device-based physical activity monitoring, inclusion of a large cohort of individuals with AF, adopting rigorous hierarchical cluster analyses, and a 6-year follow-up. Some limitations should be considered. Despite the strong effects on MACE, our study provides no insight into patient reported outcomes such as AF severity and burden, quality of life, and mental wellbeing, however, these are well documented in a recent Cochrane review [7]. This cohort is UK-based, which could limit the generalisation to other populations including low-to-middle income countries. Physical activity was measured at baseline only, and we cannot rule out changes in physical activity that have occurred across time and how this may have affected our results. In addition, the UK Biobank cohort is a relatively healthy cohort, demonstrating a ‘healthy volunteer bias’ [42]. In the same way, the UK Biobank also had a very low response rate (∼5.5 %), and participants in our sample were subject to additional selection criteria due to accelerometer participation (∼45 %) and the requirement for complete covariate data. These factors should be considered when interpreting our findings. However, prior evidence indicates that such unrepresentativeness does not materially bias associations between lifestyle risk factors (including physical activity) and mortality [43]. Moreover, recent studiy that provides consistent support for our findings, helping contextualize plausibility [30]. To further contextualize generalisability, we have added a supplementary table comparing baseline characteristics of included versus excluded AF participants. Moreover, the clustering approach and MVPA threshold identification are sample-specific, which may limit reproducibility in other datasets. That is, machine-learning-based methods may provide more procise estimates and further research should leverage these updated metrics [44]. Finally, our secondary analysis defined the “rhythm control” subgroup by exposure to a procedure (catheter ablation or cardioversion), which does not necessarily reflect achievement or maintenance of durable rhythm control. Nevertheless, the consistency of associations in this subgroup supports the overall robustness of our findings regarding the benefits of MVPA."
+        }
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Our main finding is that a non-linear relationship exists between moderate-to-vigorous physical activity levels and MACE incidence in people with AF across a 6-year follow-up. These patterns appear similar across different risk phenotypes and among patients undergoing rhythm control procedures. Specifically, engagement in &gt;187 and 167-min/week of MVPA was associated with 61 % and 43 % lower MACE incidence in the &#x27;low risk&#x27; and &#x27;high risk&#x27; clusters, respectively. Moreover, due to the curvilinear relationship between MVPA and MACE, a notable threshold of MVPA associated with lower MACE incidence was identified at 35 min/week. Collectively, these findings document physical activity patterns and their association with cardiovascular outcomes in people with AF, and may inform future physical activity recommendations for this population."
+        }
+      ]
+    },
+    {
+      "title": "Data availability",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The UK Biobank data that support the findings of this study can be accessed by researchers on application (<a href=\"https://www.ukbiobank.ac.uk/register-apply/\">https://www.ukbiobank.ac.uk/register-apply/</a>)."
+        }
+      ]
+    },
+    {
+      "title": "Funding",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "No funding"
+        },
+        {
+          "type": "paragraph",
+          "html": "Central illustration"
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Maxime Boidin:</strong> Writing – review &amp; editing, Writing – original draft, Validation, Software, Methodology, Formal analysis, Conceptualization. <strong>Benjamin JR Buckley:</strong> Writing – review &amp; editing, Writing – original draft, Validation, Software, Methodology, Formal analysis, Conceptualization. <strong>Gregory YH Lip:</strong> Writing – review &amp; editing, Writing – original draft, Validation, Supervision, Methodology, Formal analysis, Conceptualization. <strong>Dick HJ Thijssen:</strong> Writing – review &amp; editing, Writing – original draft, Validation, Supervision, Methodology, Formal analysis, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "GorenekB.PellicciaA.BenjaminE.J.European Heart Rhythm Association (EHRA)/European Association of Cardiovascular Prevention and Rehabilitation (EACPR) position paper on how to prevent atrial fibrillation endorsed by the Heart Rhythm Society (HRS) and Asia Pacific Heart Rhythm Society (APHRS)Europace19201719022510.1093/europace/euw24228175283PMC6279109"
+    },
+    {
+      "html": "WolfP.A.AbbottR.D.KannelW.B.Atrial fibrillation as an independent risk factor for stroke: the Framingham StudyStroke22199198398810.1161/01.str.22.8.9831866765"
+    },
+    {
+      "html": "WangT.J.LarsonM.G.LevyD.Temporal relations of atrial fibrillation and congestive heart failure and their joint influence on mortality: the Framingham Heart StudyCirculation10720032920292510.1161/01.Cir.0000072767.89944.6e12771006"
+    },
+    {
+      "html": "ElliottA.D.LinzD.MishimaR.Association between physical activity and risk of incident arrhythmias in 402 406 individuals: evidence from the UK Biobank cohortEur Heart J4120201479148610.1093/eurheartj/ehz89731951255"
+    },
+    {
+      "html": "KhurshidS.WengL.C.Al-AlusiM.A.Accelerometer-derived physical activity and risk of atrial fibrillationEur Heart J4220212472248310.1093/eurheartj/ehab25034037209PMC8291334"
+    },
+    {
+      "html": "GarnvikL.E.MalmoV.JanszkyI.Physical activity, cardiorespiratory fitness, and cardiovascular outcomes in individuals with atrial fibrillation: the HUNT studyEur Heart J4120201467147510.1093/eurheartj/ehaa03232047884PMC7320825"
+    },
+    {
+      "html": "BuckleyB.J.LongL.RisomS.S.Exercise-based cardiac rehabilitation for adults with atrial fibrillationCochrane Database Syst Rev92024Cd01119710.1002/14651858.CD011197.pub3"
+    },
+    {
+      "html": "AhnH.J.ChoiE.K.RheeT.M.Accelerometer-derived physical activity and the risk of death, heart failure, and stroke in patients with atrial fibrillation: a prospective study from UK BiobankBr J Sports Med58202442743410.1136/bjsports-2023-10686238418213"
+    },
+    {
+      "html": "BissonA.MFA.RomitiG.F.Phenotypes and outcomes in non-anticoagulated patients with atrial fibrillation: an unsupervised cluster analysisArch Cardiovasc Dis116202334235110.1016/j.acvd.2023.06.00137422421"
+    },
+    {
+      "html": "PandeyA.GargS.KhungerM.Dose-response relationship between physical activity and risk of heart failure: a meta-analysisCirculation13220151786179410.1161/circulationaha.115.01585326438781"
+    },
+    {
+      "html": "BakkerE.A.LeeD.C.HopmanM.T.E.Dose-response association between moderate to vigorous physical activity and incident morbidity and mortality for individuals with a different cardiovascular health status: a cohort study among 142,493 adults from the NetherlandsPLoS Med182021e100384510.1371/journal.pmed.1003845"
+    },
+    {
+      "html": "BuckleyB.J.R.van HoutL.FitzhughC.Exercise-based cardiac rehabilitation for patients with atrial fibrillation: a narrative reviewEur Heart J Open52025oeaf02510.1093/ehjopen/oeaf02540161304PMC11953005"
+    },
+    {
+      "html": "BuckleyB.J.R.LipG.Y.H.ThijssenD.H.J.The counterintuitive role of exercise in the prevention and cause of atrial fibrillationAm J Physiol Heart Circ Physiol3192020H1051H105810.1152/ajpheart.00509.202032946289"
+    },
+    {
+      "html": "OldsT.S.GomersallS.R.OldsS.T.RidleyK.A source of systematic bias in self-reported physical activity: the cutpoint bias hypothesisJ Sci Med Sport22201992492810.1016/j.jsams.2019.03.00630956062"
+    },
+    {
+      "html": "LittlejohnsT.J.SudlowC.AllenN.E.CollinsR.UK Biobank: opportunities for cardiovascular researchEur Heart J4020191158116610.1093/eurheartj/ehx25428531320PMC6451771"
+    },
+    {
+      "html": "RamakrishnanR.DohertyA.Smith-ByrneK.Accelerometer measured physical activity and the incidence of cardiovascular disease: evidence from the UK Biobank cohort studyPLoS Med182021e100348710.1371/journal.pmed.1003487"
+    },
+    {
+      "html": "SiposM.PacesP.RohacJ.NovacekP.Analyses of triaxial accelerometer calibration algorithmsIEEE Sens J1220111157116510.1109/JSEN.2011.2167319"
+    },
+    {
+      "html": "DohertyA.JacksonD.HammerlaN.Large scale population assessment of physical activity using wrist worn accelerometers: the UK biobank studyPLoS One122017e016964910.1371/journal.pone.0169649"
+    },
+    {
+      "html": "van HeesV.T.RenströmF.WrightA.Estimation of daily energy expenditure in pregnant and non-pregnant women using a wrist-worn tri-axial accelerometerPLoS One62011e2292210.1371/journal.pone.0022922"
+    },
+    {
+      "html": "PaveyT.G.GilsonN.D.GomersallS.R.ClarkB.TrostS.G.Field evaluation of a random forest activity classifier for wrist-worn accelerometer dataJ Sci Med Sport202017758010.1016/j.jsams.2016.06.00327372275"
+    },
+    {
+      "html": "AinsworthB.E.HaskellW.L.HerrmannS.D.Compendium of physical activities: a second update of codes and MET valuesMedicine &amp; Science in Sports &amp; Exercise4320111575158110.1249/MSS.0b013e31821ece1221681120"
+    },
+    {
+      "html": "BuckleyB.J.R.HarrisonS.L.Fazio-EynullayevaE.Exercise-based cardiac rehabilitation and all-cause mortality among patients with atrial fibrillationJ Am Heart Assoc102021e02080410.1161/jaha.121.020804"
+    },
+    {
+      "html": "StensN.A.BakkerE.A.MañasA.Relationship of daily step counts to all-cause mortality and cardiovascular eventsJ Am Coll Cardiol8220231483149410.1016/j.jacc.2023.07.02937676198"
+    },
+    {
+      "html": "R Core Team. R: a language and environment for statistical computing. In. Vienna, austria: r foundation for statistical computing; 2023."
+    },
+    {
+      "html": "TherneauT.M.A package for survival analysis in R<a href=\"https://CRAN.R-project.org/package=survival\">https://CRAN.R-project.org/package=survival</a>2022"
+    },
+    {
+      "html": "AlboukadelK.MarcinK.PrzemyslawB.ScheiplF.survminer: drawing survival curves using &#x27;ggplot2′<a href=\"https://rpkgs.datanovia.com/survminer/index.html\">https://rpkgs.datanovia.com/survminer/index.html</a>2023"
+    },
+    {
+      "html": "WickhamH.ChangW.HenryL.ggplot2: elegant graphics for Data analysis<a href=\"https://ggplot2.tidyverse.org\">https://ggplot2.tidyverse.org</a>2023"
+    },
+    {
+      "html": "GerdsT.OhlendorffJ.OzenneB.riskRegression: risk regression models and prediction scores for survival analysis with competing risks<a href=\"https://CRAN.R-project.org/package=riskRegression\">https://CRAN.R-project.org/package=riskRegression</a>2023"
+    },
+    {
+      "html": "WangW.YanJ.splines2: regression spline functions and classes<a href=\"https://CRAN.R-project.org/package=splines2\">https://CRAN.R-project.org/package=splines2</a>2023"
+    },
+    {
+      "html": "AhnH.-J.ChoiE.-K.RheeT.-M.Accelerometer-derived physical activity and the risk of death, heart failure, and stroke in patients with atrial fibrillation: a prospective study from UK BiobankBr J Sports Med58202442743410.1136/bjsports-2023-10686238418213"
+    },
+    {
+      "html": "AndersenK.MariosaD.AdamiH.O.Dose-response relationship of total and leisure time physical activity to risk of heart failure: a prospective cohort studyCirc Heart Fail7201470170810.1161/circheartfailure.113.00101025185250"
+    },
+    {
+      "html": "AhmadiM.N.ClareP.J.KatzmarzykP.T.Vigorous physical activity, incident heart disease, and cancer: how little is enough?Eur. Heart J.2022ehac57210.1093/eurheartj/ehac572"
+    },
+    {
+      "html": "AremH.MooreS.C.PatelA.Leisure time physical activity and mortality: a detailed pooled analysis of the dose-response relationshipJAMA Intern Med175201595996710.1001/jamainternmed.2015.053325844730PMC4451435"
+    },
+    {
+      "html": "SandhuR.K.AlbertC.M.First-line catheter ablation for paroxysmal atrial fibrillation — Have we reached the tipping point?New England Journal of Medicine388202317717810.1056/NEJMe221442536630626"
+    },
+    {
+      "html": "AndradeJ.G.WellsG.A.DeyellM.W.Cryoablation or drug therapy for initial treatment of atrial fibrillationN Engl J Med384202130531510.1056/NEJMoa202998033197159"
+    },
+    {
+      "html": "WilberD.J.PapponeC.NeuzilP.Comparison of antiarrhythmic drug therapy and radiofrequency catheter ablation in patients with paroxysmal atrial fibrillation: a randomized controlled trialJAMA303201033334010.1001/jama.2009.202920103757"
+    },
+    {
+      "html": "FetschT.BauerP.EngberdingR.Prevention of atrial fibrillation after cardioversion: results of the PAFAC trialEur Heart J2520041385139410.1016/j.ehj.2004.04.01515302102"
+    },
+    {
+      "html": "ElliottA.D.MiddeldorpM.E.Van GelderI.C.AlbertC.M.SandersP.Epidemiology and modifiable risk factors for atrial fibrillationNature Reviews Cardiology202310.1038/s41569-022-00820-8"
+    },
+    {
+      "html": "QinS.BoidinM.BuckleyB.J.R.LipG.Y.H.ThijssenD.H.J.Endothelial dysfunction and vascular maladaptation in atrial fibrillationEur J Clin Invest512021e1347710.1111/eci.13477"
+    },
+    {
+      "html": "BuckleyB.J.R.RisomS.S.BoidinM.LipG.Y.H.ThijssenD.H.J.Atrial fibrillation specific exercise rehabilitation: are we there yet?J Pers Med12202210.3390/jpm12040610"
+    },
+    {
+      "html": "AbedH.S.WittertG.A.LeongD.P.Effect of weight reduction and cardiometabolic risk factor management on symptom burden and severity in patients with atrial fibrillation: a randomized clinical trialJAMA31020132050206010.1001/jama.2013.28052124240932"
+    },
+    {
+      "html": "FryA.LittlejohnsT.J.SudlowC.Comparison of sociodemographic and health-related characteristics of UK biobank participants with those of the general populationAm J Epidemiol18620171026103410.1093/aje/kwx24628641372PMC5860371"
+    },
+    {
+      "html": "StamatakisE.OwenK.B.ShepherdL.Is cohort representativeness passé? Poststratified associations of lifestyle risk factors with mortality in the UK BiobankEpidemiology (Fairfax)32202117918810.1097/ede.0000000000001316"
+    },
+    {
+      "html": "WalmsleyR.ChanS.Smith-ByrneK.Reallocation of time between device-measured movement behaviours and risk of incident cardiovascular diseaseBr J Sports Med5620211008101710.1136/bjsports-2021-10405034489241PMC9484395"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

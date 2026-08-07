@@ -1,0 +1,925 @@
+{
+  "pmcid": "PMC12621484",
+  "pmid": "41256039",
+  "doi": "10.1016/j.ajpc.2025.101335",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12621484/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Sex differences in macro- and microvascular reactivity – a systematic review and meta-analysis",
+  "articleType": "Review Article",
+  "published": "2025-10-25",
+  "year": "2025",
+  "volume": "24",
+  "issue": "",
+  "articleNumber": "101335",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2025",
+  "authors": [
+    {
+      "given": "Ádám",
+      "surname": "Fekete",
+      "display": "Ádám Fekete"
+    },
+    {
+      "given": "Dániel",
+      "surname": "Horváth",
+      "display": "Dániel Horváth"
+    },
+    {
+      "given": "Patrik",
+      "surname": "Kreuter",
+      "display": "Patrik Kreuter"
+    },
+    {
+      "given": "Petrana",
+      "surname": "Martinekova",
+      "display": "Petrana Martinekova"
+    },
+    {
+      "given": "Eszter Ágnes",
+      "surname": "Szalai",
+      "display": "Eszter Ágnes Szalai"
+    },
+    {
+      "given": "Gergely",
+      "surname": "Agócs",
+      "display": "Gergely Agócs"
+    },
+    {
+      "given": "Péter",
+      "surname": "Sótonyi",
+      "display": "Péter Sótonyi"
+    },
+    {
+      "given": "Gábor",
+      "surname": "Varga",
+      "display": "Gábor Varga"
+    },
+    {
+      "given": "Péter",
+      "surname": "Hegyi",
+      "display": "Péter Hegyi"
+    },
+    {
+      "given": "Beáta",
+      "surname": "Kerémi",
+      "display": "Beáta Kerémi"
+    },
+    {
+      "given": "János",
+      "surname": "Vág",
+      "display": "János Vág"
+    }
+  ],
+  "affiliations": [
+    "aCentre for Translational Medicine, Semmelweis University, Baross u 22, 1085, Budapest, Hungary",
+    "bDepartment of Restorative Dentistry and Endodontics, Semmelweis University, Szentkirályi u. 47, Budapest 1088, Hungary",
+    "cDepartment of Oral Diagnostics, Semmelweis University, Szentkirályi u. 47, Budapest 1088, Hungary",
+    "dDepartment of Paediatric Dentistry and Orthodontics, Semmelweis University, Szentkirályi u. 47, Budapest 1088, Hungary",
+    "eInstitute for Clinical and Experimental Medicine, Vídeňská 1958, Prague 140 21, Czechia",
+    "fDepartment of Biophysics and Radiation Biology, Semmelweis University, Tűzoltó u. 37-47., Budapest 1094, Hungary",
+    "gDepartment of Vascular and Endovascular Surgery, Semmelweis University, Városmajor u. 68, Budapest 1122, Hungary",
+    "hDepartment of Oral Biology, Semmelweis University, Nagyvárad tér 4, Budapest 1089, Hungary",
+    "iInstitute of Pancreatic Diseases, Semmelweis University, Tömő utca 25-29, Budapest 1083, Hungary",
+    "jInstitute for Translational Medicine, Medical School, University of Pécs, Pécs Szigeti utca 12, Hungary"
+  ],
+  "keywords": [
+    "Gender",
+    "Dilatator",
+    "Vascular health",
+    "Shear stress",
+    "Flow mediated",
+    "Shear mediated"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Introduction:</strong> Sex differences in cardiovascular disease are well recognized, but underlying vascular mechanisms remain unclear. This meta-analysis investigates whether young adult healthy males and females differ in macro- and microvascular reactivity, via flow-mediated dilation (FMD) and post-occlusive reactive hyperemia (PORH)."
+    },
+    {
+      "html": "<strong>Methods:</strong> A systematic search of MEDLINE, Embase, and Central identified eligible studies meeting the criteria: FMD or PORH test assessment; Ultrasound or Laser Doppler was used on the brachial artery or the skin; including both sexes under the mean age of &lt;40 years and a mean BMI of &lt;30. We performed a quantitative analysis for baseline artery diameter (BAD), FMD, wall shear rate (WSR), relative change in blood flow on the brachial artery (ΔBF) and microcirculation (microΔBF), and time-to-peak (TTP). Random-effects model was used for synthesis with sex as a predictor and age and BMI as moderators."
+    },
+    {
+      "html": "<strong>Results:</strong> A total of 51 eligible articles comprising 2426 subjects were included. Without adjustment for age and BMI (studies: 48), females had smaller BAD and TTP but higher FMD and WSR compared with males. No significant differences were found for ΔBF or microΔBF. After adjustment for age and BMI and inclusion of studies using forearm occlusion (studies: 23), FMD differences between sexes were no longer significant."
+    },
+    {
+      "html": "<strong>Conclusion:</strong> While WSR was consistently higher in young females than in males, there was no clear evidence that females exhibit higher FMD after forearm occlusion. Likewise, greater vascular reactivity in microcirculation could not be statistically confirmed."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Cardiovascular diseases (CVD) are the leading cause of death globally, accounting for 20.5 million deaths in 2021 and placing a major burden on health systems worldwide [1]. The reactive hyperemia test shows promise as a predictive tool for CVDs [2,3]. However, the role of sex in influencing its outcomes remains unclear [4], with studies variably suggesting higher reactivity in males [5,6], in females [7], no difference at all [8], or attributing differences to baseline vascular characteristics [9]. Younger women have a lower age-adjusted prevalence of CVD compared to men [[10], [11], [12], [13]]. Understanding how sex affects vascular reactivity is crucial for accurate assessment and prediction."
+        },
+        {
+          "type": "paragraph",
+          "html": "CVD mortality rates for women under 55 are increasing, in contrast to the decreasing trend observed in men [[10], [11], [12], [13]]. The difference in age-adjusted disease prevalence disappears after menopause, suggesting the influence of sex hormones. It is thought that 17β-estradiol and its receptors have a protective effect on cardiovascular physiology and pathophysiology [[14], [15], [16]]. Endothelial cells are targets for 17β-estradiol, as 17β-estradiol receptors are also present on endothelial cells [17,18]. They mediate nitric oxide and prostanoid production [19,20], increase angiogenesis and repair [17], and protect endothelial cells from shock conditions and reactive oxygen species [21,22]. As a result, the endothelium plays a crucial role in regulating macrovascular and microvascular blood flow. Consequently, endothelial dysfunction may trigger the onset of CVDs [23,24]. Additionally, endothelial dysfunction is associated with hematologic, renal, and rheumatologic diseases, erectile dysfunction, and diabetes mellitus [[25], [26], [27]]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Celermajer et al. [28] developed the Flow Mediated Dilation (FMD) technique to evaluate macrovascular endothelial function in the brachial artery by ultrasound Doppler measurement. Briefly, the release of cuff occlusion results in an increase in blood flow in the brachial artery, which increases the wall shear rate on the endothelium, leading to the release of vasodilator substances and, consequently, vessel dilation. Since then, efforts have been made to standardize the methodology across studies, supported by guidelines [29] and a recent expert consensus [30]. While flow-mediated dilation (FMD) was initially developed using Doppler ultrasound techniques, advancements have led to the development of oscillometric methods, such as enclosed-zone FMD (ezFMD) [31], which offer comparable [32] or even superior performance in certain aspects [31,32]. However, Doppler ultrasound remains the gold standard for assessing endothelial function due to its established reliability and widespread clinical acceptance [33]."
+        },
+        {
+          "type": "paragraph",
+          "html": "The similar technique, Post Occlusive Reactive Hyperemia (PORH), can assess skin microvascular function using laser Doppler methods [34], as it is easily accessible for non-invasive measurements and has been proven to be a reliable model of disease progression [35]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Celermajer et al. [36] also demonstrated a steep decrease in FMD after the age of 41 years in men and 53 years in women. This decrease in females is progressing through the stages of menopause [37], resulting in a faster decline than in males [38]. The transition to menopause is associated with an increased risk of developing diseases, such as diabetes mellitus [39], obesity [40], chronic kidney disease [41], Alzheimer’s [42], osteoporosis [43], and accelerated vascular aging that increases the risk of CVD [44,45]. Endothelial dysfunction is present in all of these diseases, which may explain why young, premenopausal women are “protected” against such diseases and why they are underrepresented in disease trials [46]."
+        },
+        {
+          "type": "paragraph",
+          "html": "This systematic review and meta-analysis aimed to compare baseline artery diameter (BAD), FMD, wall shear rate (WSR), relative changes in blood flow in the brachial artery (ΔBF) and skin (microΔBF), and time-to-peak artery diameter (TTP) between young, healthy adult females and males. We tested the null hypothesis that no significant sex differences exist in these measures, independent of age, and that any observed effects persist after adjusting for BMI."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This systematic review and meta-analysis was based on the PRISMA 2020 guideline [47] (see Supplementary Table 1) and followed the Cochrane Handbook [48]. The study protocol was registered with PROSPERO (CRD42023479261)."
+        }
+      ]
+    },
+    {
+      "title": "Eligibility criteria",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The following population met our inclusion criteria: (a) including both sexes with the mean age of 40 and less, (b) generally considered healthy by the authors, c) non-smokers, and non-obese (Body mass index: (BMI)18–30). Articles were excluded if they included only postmenopausal women or elderly subjects, subjects with systemic disease without controls, subjects regularly taking any medication other than oral contraceptives, obese (BMI&gt;30), or had a history of smoking."
+        },
+        {
+          "type": "paragraph",
+          "html": "The studies were considered eligible if (a) FMD or PORH test; (b) was carried out on the brachial artery or the skin; (c) the test was evaluated with Ultrasound Doppler or Laser Doppler; and (d) if the study was two-armed, including both sexes. Language was not restricted to English. Reviews, meta-analyses, commentaries, letters to the editor, and conference abstracts were excluded."
+        }
+      ]
+    },
+    {
+      "title": "Information sources",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Multiple electronic databases (MEDLINE, Embase, and Central) were searched for initial identification of relevant studies from inception until November 30, 2023. The search strategy can be found in Supplementary Document S1."
+        }
+      ]
+    },
+    {
+      "title": "Selection process",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "After pilot screening and discussion, independent reviewers assessed the eligibility of all studies. Two reviewers (ÁF, DH) conducted initial title and abstract screening separately. Disagreements between the two reviewers were resolved by consultation with a third investigator (PM). The full-text selection was conducted by three reviewers separately (ÁF, DH, PK). As in the previous step, disagreements were resolved by consultation with a fourth investigator (PM). The same method was used during reference checking."
+        }
+      ]
+    },
+    {
+      "title": "Data collection process and data items",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Data from each study were extracted in pairs by the co-authors (ÁF, DH, PK) into a predefined Excel sheet."
+        },
+        {
+          "type": "paragraph",
+          "html": "Participant characteristics included sample size, age, hormonal status, BMI, and smoking status. The length and location of the FMD or PORH test were also collected. Extracted outcome measures included BAD, peak brachial artery diameter, absolute and relative diameter change (considered as FMD, the primary outcome), baseline and peak brachial blood flow, and ΔBF. When available, WSR and TTP values were also extracted."
+        },
+        {
+          "type": "paragraph",
+          "html": "For Laser Doppler Flowmetry studies on the skin, microΔBF was extracted following cuff release."
+        }
+      ]
+    },
+    {
+      "title": "Study risk of bias assessment",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The Joanna Briggs Institute (JBI) Critical Appraisal Checklist for Analytical Cross-sectional Studies [49] was used to evaluate the risk of bias in the identified studies, and the assessment outcomes were visually represented. The risk of bias was assessed independently by three researchers (ÁF, DH, and PK); any disagreements were resolved through consensus. The eight questions on the checklist were answered in accordance with predefined key points. See Document S2."
+        }
+      ]
+    },
+    {
+      "title": "Synthesis methods",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We conducted a comprehensive meta-analysis to evaluate the relationship between outcomes and potential moderators of vascular responses across several hemodynamic parameters. Macrocirculatory outcome parameters were: BAD in mm, FMD in %, ΔBF in %, WSR as area under the curve (AUC), and TTP in seconds. There was also a microcirculatory outcome parameter: microΔBF in %. All these outcomes are continuous variables. Moderators included sex (our primary moderator of interest), cuff position (forearm or upper arm), age (only studies with a mean age below 40 years were included), and BMI. Entries including smokers or patients with unknown/undeclared smoking status were excluded from the meta-analysis. Distribution of both moderators and outcomes was checked using bar plots or histograms."
+        },
+        {
+          "type": "paragraph",
+          "html": "All extracted data entries were screened for completeness. Each outcome variable was assessed in both long format (with the effect size measure being the mean) and wide format (male–female comparison with the effect size measure being the mean difference). For explorative purposes, overview meta-analyses and forest plots were prepared for each outcome in both formats; sex was used for subgrouping (i.e., as a categorical moderator) in the long format."
+        },
+        {
+          "type": "paragraph",
+          "html": "Effect sizes were pooled using random-effects models with restricted maximum likelihood estimation and Hartung–Knapp adjustment to account for between-study heterogeneity and to provide more robust confidence intervals. Between-study variance (τ²) and heterogeneity (I²) were estimated and reported for each model."
+        },
+        {
+          "type": "paragraph",
+          "html": "To explore potential moderators, we fitted multilevel meta-regression models using the metafor::rma.mv() function, with a random intercept for each study. Moderators to be included were selected and ranked based on their clinical significance and prior knowledge. Random effects were specified using a nested structure; for the long format, it was study/entry pair/entry; for the wide format, it was study/entry pair (entry pair representing a male–female pair). Continuous moderators generally showed a certain amount of spread, the mean values were used as representative values."
+        },
+        {
+          "type": "paragraph",
+          "html": "Assessment of publication bias was performed by visual inspection of funnel plots, complemented by formal statistical tests. Egger’s regression test was conducted when ≥10 studies were available, and additionally, Begg’s rank correlation test was applied to assess funnel plot asymmetry. To further evaluate the robustness of findings against potential small-study effects, we conducted trim-and-fill analysis, which we interpreted in two ways: (1) as a sensitivity analysis adjusting pooled estimates, and (2) as an estimation of the number of potentially missing studies with negative results."
+        },
+        {
+          "type": "paragraph",
+          "html": "Predicted values and confidence intervals from the meta-regression models were visualized using scatter plots stratified by sex and plotted against either age or BMI (non-plotted continuous predictors were fixed at the mean value across all included entries)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Analysis was performed using R (version 4.4.3) using the metafor (version 4.8.0) [50], meta (version 8.0.2) [51], and dmetar (version 0.1.0) [52] packages."
+        },
+        {
+          "type": "paragraph",
+          "html": "Fig. 1 Fig. 1Central illustration.Fig 1"
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Search and selection",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The initial search yielded 18,409 articles. As a result, 1841 articles remained for full-text review. During the full-text selection, 64 articles were found eligible for inclusion. At this stage, citation-chasing was conducted, and 28 more articles were found eligible. Of the 92 eligible full-text articles, we decided not to include 41 articles for the following reasons: 23 articles failed to mention smoking status, 9 articles had a wide age range (using adolescents or probably post-menopausal women and age-matched men), 7 included non-poolable outcome measures, and 2 had missing data. For the list of these articles, see Table S3. Fifty-one were included in the meta-analysis (Fig. 2).Fig. 2PRISMA 2020 flowchart representing the study selection process.Fig 2"
+        }
+      ]
+    },
+    {
+      "title": "Basic characteristics of included studies",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Baseline characteristics of the enrolled studies are detailed in Tables S4A and S4B. The included studies were cross-sectional, prospective cohort, and crossover studies. They originated from North and South America, Europe, and Asia. All individuals in the meta-analysis were healthy non-smokers, with the mean age and BMI of the participants ranging from 19.5 to 38 years and 19 kg/m<sup>2</sup> to 30 kg/m<sup>2</sup>. The overall mean age and BMI were 27.5 years and 23.8 kg/m<sup>2</sup>. (Table S4–5)"
+        },
+        {
+          "type": "paragraph",
+          "html": "Both univariate and multivariate analyses were performed for the different outcomes. Although a larger number of studies were eligible for the univariate analyses, these models yielded less precise estimates. In contrast, the multivariate analyses provided more robust predictions and are therefore reported in detail below."
+        }
+      ]
+    },
+    {
+      "title": "Baseline artery diameter (BAD)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The univariate analysis of BAD (Fig. 3, S1) was conducted on 2020 subjects from 33 articles. The mean BAD for females was 3.17 mm, and 3.99 mm for the males. The pooled mean BAD across sexes was 3.57 mm (Fig. S1). The male BAD was significantly, 0.81 mm larger than that of the female (Fig. 3).Fig. 3<strong>Forest plot of the Mean difference in BAD between sexes.</strong> Vertical lines represent the pooled point estimate, horizontal lines represent the 95 % CI, and squares represent the weight for each study. Diamond represents the pooled mean difference in BAD between sexes. (BMI: body mass index, n: count, SD: standard deviation, BAD: baseline artery diameter, 95 % CI: 95 % confidence interval).Fig 3"
+        },
+        {
+          "type": "paragraph",
+          "html": "In the multivariate linear regression analysis, 1049 subjects were analyzed (39 % female) (Table 1, Fig. S2). The regression model included sex, mean age, and mean BMI. The model indicated that male has significantly larger BAD, but age and BMI were not significant predictors of BAD.Table 1Multivariate linear regression analysis of mean FMD, mean BAD, mean ΔBF, mean WSR, and mean TTP. Significant values are highlighted in bold. (FMD: flow-mediated dilation, BAD: baseline artery diameter, ΔBF: relative change in blood flow, WSR: wall shear rate, TTP: time-to-pek, BMI*: body mass index, CI†: confidence interval).Table 1Measured outcomeDemographySexAgeBMISexNβ (male-female)[95 % CI]p-valueAge (SD)β[95 % CI]p-valueBMI (SD)β [95 % CI]p-valueFMDfemale479−0.009[−0.019 ‒ 0.020]0.11025.3 (4.0)<strong>0.003</strong><strong>[0.001–0.005]</strong><strong>0.002</strong>22.59 (1.74)<strong>−0.008</strong><strong>[−0.012 ‒ −0.004]</strong><strong>&lt;0.001</strong>male69825.2 (3.4)23.59 (1.38)BADfemale410<strong>0.795</strong><strong>[0.667 ‒ 0.922]</strong><strong>&lt;0.000</strong>24.5 (3.6)0.003[−0.034 ‒ 0.028]0.86622.44 (1.72)0.000[−0.054 ‒ 0.054]0.999male63925.1 (3.4)23.68 (1.43)ΔBFfemale720.803[−0.341 ‒ 1.946]0.16926.2 (2.9)<strong>−0.635</strong><strong>[−1.057 ‒ 0.213]</strong><strong>0.003</strong>21.28 (1.63)<strong>−0.482</strong><strong>[−0.956 ‒ 0.008]</strong><strong>0.046</strong>male7526.4 (2.7)23.44 (1.53)WSRfemale281<strong>−3661.539</strong><strong>[−6196.760 ‒ −1126.318]</strong><strong>0.005</strong>23.1 (3.5)41.750[−1029.460 ‒ 1112.960]0.93923.14 (1.27)−326.228[−2627.239 ‒ 1974.784]0.781male51723.9 (2.6)23.5 (1.05)TTPfemale245<strong>6.909</strong><strong>[2.632 ‒ 11.186]</strong><strong>0.002</strong>21.9 (2.3)0.853[0.166 ‒ 1.871]0.10123.18 (1.36)−1.855[−3.883 ‒ 0.173]0.073male48022.7 (1.7)23.82 (1.64)"
+        }
+      ]
+    },
+    {
+      "title": "Flow-mediated dilation (FMD)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The univariate analysis of FMD (Fig. 4, S5) was conducted on 2348 subjects from 48 articles. The mean FMD was 10.4 % for females and 8.3 % for males. The pooled mean FMD of healthy individuals across sexes was 9.3 % (Fig. S5). Male participants exhibited a significantly lower FMD compared with females, corresponding to a mean absolute difference of about two percentage points. (Fig. 4).Fig. 4<strong>Forest plot of the mean difference in FMD between sexes.</strong> Vertical lines represent the pooled point estimate, horizontal lines represent the 95 % CI, and squares represent the weight for each study. Diamond represents the pooled mean difference in FMD between sexes. FMD values are expressed as relative changes. (BMI: body mass index, BAD: baseline artery diameter, n: count, SD: standard deviation, FMD: flow-mediated dilation, 95 % CI: 95 % confidence interval).Fig 4"
+        },
+        {
+          "type": "paragraph",
+          "html": "In the multivariate linear regression, data from 1205 subjects (41 % female) were analyzed (Table 1, Fig. S6). The model, which included sex, mean age, and mean BMI, indicated that sex had no significant effect on FMD, whereas age and BMI were significant predictors"
+        }
+      ]
+    },
+    {
+      "title": "Relative change in blood flow on the brachial artery (ΔBF)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The univariate analysis of ΔBF (Fig. 5, S9) was conducted on 308 subjects from 9 articles. The mean ΔBF for females was 546.4 %, and 530.3 % for males. The pooled total value of the mean ΔBF was 536.7 % (Fig. S9). There was a non-significant 40.8 % difference, indicating a tendency toward higher hyperemia in females (Fig. 6).Fig. 5<strong>Forest plot of the mean difference in ΔBF between sexes.</strong> Vertical lines represent the pooled point estimate across sexes, horizontal lines represent the 95 % CI, and squares represent the weight for each study. Diamond represents the pooled mean difference in ΔBF between sexes. (BMI: body mass index, BAD: baseline artery diameter, n: count, SD: standard deviation, ΔBF: relative change in blood flow on the brachial artery, 95 % CI: 95 % confidence interval).Fig 5Fig. 6<strong>Forest plot of the mean difference in WSR between sexes.</strong> Vertical lines represent the point estimate, horizontal lines represent the 95 % CI, and squares represent the weight for each study. Diamond represents the pooled mean difference in WSR between sexes. (BMI: body mass index, BAD: baseline artery diameter, n: count, SD: standard deviation, WSR AUC: wall shear rate area under the curve, 95 % CI: 95 % confidence interval).Fig 6"
+        },
+        {
+          "type": "paragraph",
+          "html": "In the multivariate linear regression, data from 147 subjects (49 % female) were analyzed (Table 1, Fig. S10). The model, which included sex, mean age, and mean BMI, showed that sex had no significant effect on ΔBF, while both age and BMI were significant predictors."
+        }
+      ]
+    },
+    {
+      "title": "Wall shear rate (WSR)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The univariate analysis of WSR (Fig. 6, S13) was conducted on 853 subjects from 13 studies. The total mean WSR was 37,093 for females and 28,956 for males. The pooled total mean WSR was 33,079 (Fig. S13). The mean WSR was significantly lower in males compared to females, with a difference of 3421 units (Fig. 7).Fig. 7<strong>Forest plot of the mean difference in TTP between sexes.</strong> Vertical lines represent the point estimate, horizontal lines represent the 95 % CI, and squares represent the weight for each study. Diamond represents the pooled mean difference in TTP between sexes. (BMI: body mass index, BAD: baseline artery diameter, n: count, SD: standard deviation, TTP: time-to-peak, 95 % CI: 95 % confidence interval).Fig 7"
+        },
+        {
+          "type": "paragraph",
+          "html": "In the multivariate linear regression analysis, 798 (35 % female) subjects were analyzed (Table 1, Fig. S14). The model included sex, mean age, and mean BMI, indicating that only sex was a significant predictor of wall shear rate."
+        }
+      ]
+    },
+    {
+      "title": "Time-to-peak (TTP)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The univariate analysis of TTP (Fig. 7, S17) was conducted on 725 subjects from 9 articles. The mean TTP for females was 48.1 s and 54.9 s for males. The total mean TTP was 50.9 s (Fig. S17). There was a significant 6.2-second difference between sexes, meaning males needed, on average, 6.2 more seconds to reach peak dilation (Fig. 8).Fig. 8<strong>Forest plot of the mean difference in microΔBF between sexes.</strong> Vertical lines represent the point estimate, horizontal lines represent the 95 % CI, and squares represent the weight for each study. Diamond represents the pooled mean difference in microΔBF. (BMI: body mass index, n: count, SD: standard deviation, microΔBF: relative change in blood flow in microcirculation, 95 % CI: 95 % confidence interval).Fig 8"
+        },
+        {
+          "type": "paragraph",
+          "html": "In the multivariate linear regression, data from 725 subjects (34 % female) were analyzed (Table 1, Fig. S18). The model, which included sex, mean age, and mean BMI, identified sex as the only significant predictor of TTP."
+        }
+      ]
+    },
+    {
+      "title": "Relative change in blood flow in microcirculation (microΔBF)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "A univariate analysis of mean microΔBF (Fig. 8, S20) was performed on data from 78 subjects (52 % female) across three studies. When stratified by sex, the mean microΔBF was 598.4 % in females and 507.5 % in males, with no statistically significant difference between the groups. The pooled mean microΔBF was 557.5 %. Due to the limited number of available studies, multivariate linear regression analysis was not performed."
+        }
+      ]
+    },
+    {
+      "title": "Risk of bias assessment",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The overall risk of bias score was 6.29 (Table S6). The most significant source of bias was question 5 of the tool, which failed to identify our confounding factors (menopausal status, BMI, and the use of contraception)."
+        }
+      ]
+    },
+    {
+      "title": "Publication bias and heterogeneity",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "After performing a visual evaluation and Egger’s test, and Begg’s test, evidence of possible publication bias for mean BAD, mean FMD, and mean WSR was found. However, when mean differences were assessed, only WSR AUC showed a potential publication bias. For detailed information, see Supplementary Figs. S3–4, S7–8, and S15–16."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The study presented here revealed sex differences in multiple macro- and microvascular markers of vascular reactivity across various countries in a generally healthy, young, non-smoking population."
+        },
+        {
+          "type": "paragraph",
+          "html": "In the univariate analysis, our results showed that there is a 2 % difference in FMD between healthy females and males under the mean age of 40. However, in the multivariate analysis, when we analyzed the sex-age and sex-BMI interactions’ effect on FMD, we found the disappearance of this significant difference, as only a non-significant female tendency remained for greater flow-mediated dilation. The model suggests that a 1-unit increase in age or BMI completely obscures the effect of sex on FMD before the age of 40, or the onset of obesity. The non-significant difference of 0.9 percentage points, corresponding to a ∼9 % relative difference, however, may be clinically relevant. This suggests that females below the mean age of 40 may exhibit enhanced endothelial function and better vascular health compared to their age-matched male counterparts. As a reduction of 1 % in FMD is associated with an 8 % to 13 % increased CVD risk [30], the results are in alignment with the fact that young women are protected from CVD, and develop disease a decade later than men [53], after menopause [[15], [16], [17], [54]], when their FMD begins to decline and at a faster rate than that observed in men [36]."
+        },
+        {
+          "type": "paragraph",
+          "html": "The articles included used different cuff placement locations. Previous studies have shown that upper arm occlusion causes a significantly greater flow-mediated dilation than forearm or wrist occlusion [55,56]. The nitric oxide synthase inhibitor L-NNMA blocked the FMD response almost completely in lower arm occlusion, but only partially after upper arm occlusion [55,57]. Thus, nitric oxide mediates FMD in lower arm occlusion to a large extent, but additional physiological signaling pathways are also involved in FMD after upper arm occlusion. In the multivariate linear regression, data from 1177 subjects (41 % female) were analyzed (Table 1, Fig. S6). As only one study with upper-arm occlusion provided separate data for the male and female age and BMI, only the forearm studies were included in the multivariate analysis. The model, which included sex, mean age, and mean BMI, indicated that sex had no significant effect on FMD, whereas age and BMI were significant predictors. Although limited to a few articles, their inclusion in the univariate analysis could explain the FMD difference between our outcome and a previous meta-analysis with only forearm occlusion (6.3 % ± 2.2 % for females vs. 6.1 % ± 1.8 % for males) [58]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Several authors have noted that the disparity in FMD between sexes is due to their differences in baseline diameter [9,[59], [60], [61], [62]]. The difference in baseline artery diameter was ∼0.8 mm, or approximately 20 %, greater for males than for females in the articles included (Fig. 3, Table 1). Some studies used BAD as a covariate for assessment of FMD [58,60]. However, including BAD as a continuous variable would be mathematically redundant, as BAD is the denominator in FMD [9], and statistically redundant, as “sex” already contains BAD as a categorical predictor."
+        },
+        {
+          "type": "paragraph",
+          "html": "Allometric scaling and shear rate normalization of FMD are also proposed methods to address anatomical differences [9]. The statistical model utilizes the logarithmically transformed change in artery diameter as the outcome variable and logarithmically transformed baseline diameter as a covariate [63]. In the study of Tremblay et al. [64], native FMD was 5.39 ± 2 % vs 6.58 ± 1.62 %, allometrically scaled FMD was 6.5 ± 2.1 % vs 5.7 ± 2.1 %, and the shear AUC corrected FMD was 5.6 ± 2.1 % vs 6.2 ± 2.1 % for males vs females, respectively. Interestingly, allometric scaling suggests that males have higher FMD, while corrected quantities reduced the significant difference. On the contrary, Akins et al. [7] found that black women maintained significantly higher FMD than black males, even after allometric scaling or shear adjustment. Harris et al. [65] showed that the shear rate of women was greater in the menstrual cycle, and normalization of FMD for shear rate showed that female FMD remained greater in the follicular phase than the FMD of their male counterparts. These findings underscore the complexity of interpreting normalized FMD results in relation to sex differences."
+        },
+        {
+          "type": "paragraph",
+          "html": "Similarly to FMD, there was no significant difference in ΔBF between males and females; however, both age and BMI proved to be significant predictors. Interestingly, the uni- and multivariate analyses showed inverse tendencies between the sexes (Fig. 5, Table 1). The studies reported similar BMI for males and females; however, the differences in body size, composition, and fitness were not taken into account. Nishiyama et al. [66] found that after muscle mass was normalized, there was no longer a significant difference in reactive hyperemia between males and females, as female participants had significantly less muscle mass. The oxidative ability of the investigated tissue is also an important factor [2] as females have faster oxygen transfer dynamics compared to males. Alomari et al. [67] demonstrated that short-term handgrip exercise training enhanced the reactive hyperemic response, even in the absence of significant changes in muscle mass, indicating adaptation to local metabolites. However, reactive hyperemia varies across individuals as a function of oxygen desaturation [68]. Therefore, when the ΔBF between sexes is compared, individual differences should be considered; however, these data were not available for the meta-analysis."
+        },
+        {
+          "type": "paragraph",
+          "html": "Wall Shear Rate (an adequate surrogate measure of shear stress) is a hemodynamic stimulus for FMD [69]. In univariate analysis, a significant difference was found between sexes in WSR until maximum dilation. After the inclusion of covariates for sex, age, and BMI revealed that sex remains a significant predictor, and females had a ∼10 % higher WSR."
+        },
+        {
+          "type": "paragraph",
+          "html": "However, the traditional Doppler ultrasound method has some uncertainty in WSR measurement [70]. WSR was estimated from flow velocity in the studies included [7,[64], [65], [66],[71], [72], [73], [74], [75], [76], [77], [78], [79]]. Furthermore, regardless of whether the shear rate is calculated or measured using more advanced Doppler methods, WSR explains only 14 - 31 % of the variance in the FMD [70,80]. WSR is also dependent on BAD, as smaller arteries generate more shear [[30], [73], [81]]. This aligns well with our findings, as the female group showed a higher WSR in the regression analysis model. Women may be more dilated in response to stress due to higher estrogen levels [74], which may contribute to a lower incidence of CVD. Other factors, such as dietary habits [65,75,78] and fitness level [74] or pre-training [71] also mediate the shear response and FMD. However, these factors were not investigated due to the lack of individual-level data."
+        },
+        {
+          "type": "paragraph",
+          "html": "While shear rate is a key driver of the dilation response, the timing of vasodilation is equally essential. Occlusion leads to the accumulation of oxygen debt in the tissue, which is repaid by increased blood flow after cuff release [82], yet the rate of de- and reoxygenation can vary even within a homogeneous population [83]. Unfortunately, none of the included studies reported this parameter. Therefore, TTP was used to indirectly measure oxygen debt. It was shown that peak WSR is reached faster than peak dilation [70], and that NO production lags behind the elevation in WSR [84]. In this meta-analysis, females reached peak vasodilation significantly faster than males, independent of age or BMI. Aizawa et al. [70] showed that peak shear rate occurs well before peak vasodilation, highlighting a delayed vascular response to elevated shear. Beyond time-to-peak (TTP), the recovery time, or the total hyperemic time, which reflects the duration of elevated blood flow, is also a relevant marker [85]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Due to the distinct differences in the regulation of blood flow between the large arteries and microcirculation, we also investigated the effect of occlusion release on microΔBF of the skin. The microΔBF was measured using Laser Doppler analysis, a well-established method for assessing microvascular health [86]. Univariate analysis revealed no significant difference between sexes in skin reactive hyperemia as a percentage increase; however, females tended to have higher hyperemia."
+        },
+        {
+          "type": "paragraph",
+          "html": "PORH also has a prognostic value for future cardiovascular events. The involved mechanisms include myogenic, nervous, and metabolic pathways, apart from the endothelium-dependent pathway [34]. To date, the mechanism remains poorly understood, and there is currently no consensus on the relative contributions of endothelium-dependent and -independent pathways [87]. PORH assessment on the skin is a sensitive method. It has been demonstrated that, in addition to estrogen and sex-related differences in regulatory pathways [[88], [89], [90], [91], [92], [93]], which may lead to differences between females and males, other modifying factors also influence the hyperemic response, contributing to both population and interindividual variability. These factors include the location and posture of the skin being investigated [92,94], skin thickness and pigmentation [92], ambient temperature [95], and age of subjects [94]. Moreover, cardiac, myogenic, neurogenic, and respiratory effects also influence laser Doppler flowmetry signals [96]. Interestingly, when Fujii et al. [89] compared the reactive hyperemia response between young and old subjects, age was only a significant predictor for TTP, but not for other PORH parameters. The TTP of cutaneous reactive hyperemia has been linked to Ca²⁺-activated K⁺ channels [97], which are also modulated by estrogen. Therefore, a TTP analysis comparing sexes would be of particular interest; however, this could not be performed at the microvascular level in our study."
+        },
+        {
+          "type": "paragraph",
+          "html": "There are anatomical and functional differences in the cardiovascular system between men and women that may influence FMD and PORH parameters. Autonomic support for arterial blood pressure [98], venous compliance [99], and arterial stiffness [100] is lower in women, and the heart is smaller [101]. In contrast, heart rate and ventricular contractility are higher [102] in women to compensate for differences in cardiac output. Blood viscosity in males is generally higher compared to females, which may be attributed to hormonal influences, as well as other factors such as BMI and triglyceride levels [103]. Differences in blood viscosity at any age can affect blood flow, shear rate, and, consequently, FMD [104]. The difference increases with age [105]."
+        },
+        {
+          "type": "paragraph",
+          "html": "In addition to anatomical differences, hormonal differences exist between sexes: females generally have higher estrogen and lower testosterone levels than males [[106], [107], [108]]. However, hormonal levels change with age, and these differences are attenuated, particularly after 40–45 years [[106], [107], [108]]. FMD declines with age in both sexes, but the onset and rate of decrease differ: in men, the reduction begins around 41 years, whereas in women it starts later, around 53 years [36]. In females, this age-related decline accelerates during menopause [37], leading to a faster reduction compared to males [38]. In females, menopausal symptoms typically occur between 40 and 50 years of age, with estrogen levels decreasing by 67 % by the first two years and by an additional 18 % by the first 6 years of menopause [109], whereas in males, testosterone levels decline by about 1 % per year [110]. Although hormonal differences persist throughout life, they become smaller with age. Suppose higher FMD in young females contributes to reduced CVD risk due to higher estrogen [111]. In that case, it is plausible that the convergence of hormonal levels with age partly explains the more similar CVD risk between older females and males [112]."
+        }
+      ]
+    },
+    {
+      "title": "Strengths and limitations",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This meta-analysis included 51 two-arm studies with over 2000 participants from multiple countries. All studies applied a rigorous methodology. FMD protocols were comparable across studies, and the site of vascular occlusion was consistently controlled, enhancing methodological consistency. Due to our strict criteria for eligibility for multivariate analyses, although we could only include a portion of all studies, this increases their accuracy and power."
+        },
+        {
+          "type": "paragraph",
+          "html": "The primary limitation of our analysis is that we relied on the means and standard deviations of studies, rather than individual-level data for age and BMI, which may have reduced the precision of our predictive models."
+        },
+        {
+          "type": "paragraph",
+          "html": "All subjects included in the meta-analyses were non-smokers and were deemed healthy by the original authors; however, exact laboratory parameters were not always provided, thus we could not control their effect. Menopausal transition has a dramatic effect on female FMD [37]. We targeted pre-menopausal women in our study, and we collected articles that either stated that female participants were pre-menopausal or used a female population with a mean age of 40 or less. While hormonal levels were not measured in the included studies, most of them timed their FMD tests during the early follicular phase of the female cycle, similar to a recent FMD guideline [30]. However, a new meta-analysis found that the menstrual cycle has only a small effect on macrovascular endothelial function during the late follicular phase, but essentially has no effect in the luteal phase [113], thus those articles that did not provide the cycle stage of females should not make our findings less valuable."
+        },
+        {
+          "type": "paragraph",
+          "html": "The included studies differed in the site of occlusion, with some performing forearm and others upper-arm occlusion. We could not include enough studies with upper arm occlusion in the multivariate analysis for FMD; thus, we could not conclude its effect on the extent of FMD. There were also insufficient studies to perform a comparison or subgroup analysis for dBF, WSR, and TTP, which further limits our confidence in conclusions regarding the effect of occlusion site for these parameters."
+        },
+        {
+          "type": "paragraph",
+          "html": "The small number of studies prevented conducting multivariate regression analysis for skin reactive hyperemia (i.e., microcirculation). Still, the population in the articles included had a narrow age and BMI range."
+        },
+        {
+          "type": "paragraph",
+          "html": "Another limitation is the lack of racial or ethnic data, which - despite the inclusion of studies from diverse countries - could not be reliably inferred from study location and likely contributed to the observed variability."
+        }
+      ]
+    },
+    {
+      "title": "Implications for practice and research",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This meta-analysis has translational value [114,115], which underscores the importance of accounting for sex differences in both research and clinical settings. In clinical practice, our findings emphasize the importance of sex-specific vascular responses, particularly in conditions that affect endothelial function."
+        },
+        {
+          "type": "paragraph",
+          "html": "Despite long-standing recommendations, women remain underrepresented in cardiovascular research, comprising &lt;38.2 % of participants in 740 trials reviewed between 2010 and 2017 [116], largely due to concerns about hormonal variability and childbearing potential [[117], [118], [119], [120]]. In research, we strongly recommend that trials ensure balanced sex representation to improve relevance and applicability."
+        },
+        {
+          "type": "paragraph",
+          "html": "For vascular reactivity studies, we encourage adherence to established methodological guidelines, such as those by Celermajer et al. [28] and subsequent consensus statements [30,96], which help ensure consistency in FMD and laser Doppler flowmetry protocols. We also advise researchers to report BAD, absolute and relative change in diameter, and ΔBF, and avoid including both “sex” and “BAD” in the same regression model, as BAD is a sex-dependent parameter."
+        }
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This meta-analysis demonstrates that healthy females below the mean age of 40 exhibit significantly greater flow-mediated dilation (FMD) and faster vasodilation responses than their male counterparts, suggesting superior endothelial function and vascular health. However, when adjusting for age and BMI, the effect of sex is completely obscured, supporting the notion of inherent physiological disparities in vascular reactivity. While unadjusted differences in baseline artery diameter partially explain FMD variation, normalization techniques yield inconsistent results, underscoring the complexity of interpreting sex effects. No significant sex differences were found in reactive hyperemia (ΔBF) or microvascular PORH, though trends favored higher responses in females. A faster time-to-peak dilation in females may reflect estrogen-driven modulation of vascular tone. Wall shear rate (WSR) was slightly higher in females when covariates were considered, providing a further nuance to the observed FMD associations. These findings, however, should not be extrapolated to the general population across all age groups, as we have not studied children, adolescents, and populations above the mean age of forty. Despite methodological heterogeneity, findings were robust across diverse populations and occlusion protocols. Future studies should ensure balanced sex representation, report relevant hemodynamic parameters, and adopt standardized vascular assessment protocols to clarify mechanisms underlying sex-specific cardiovascular risk."
+        }
+      ]
+    },
+    {
+      "title": "Author declaration",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We wish to confirm that there are no known conflicts of interest associated with this publication and there has been no significant financial support for this work that could have influenced its outcome."
+        },
+        {
+          "type": "paragraph",
+          "html": "We confirm that the manuscript has been read and approved by all named authors and that there are no other persons who satisfied the criteria for authorship but are not listed. We further confirm that the order of authors listed in the manuscript has been approved by all of us."
+        },
+        {
+          "type": "paragraph",
+          "html": "We confirm that we have given due consideration to the protection of intellectual property associated with this work and that there are no impediments to publication, including the timing of publication, with respect to intellectual property. In so doing we confirm that we have followed the regulations of our institutions concerning intellectual property."
+        },
+        {
+          "type": "paragraph",
+          "html": "We understand that the Corresponding Author is the sole contact for the Editorial process (including Editorial Manager and direct communications with the office). He/she is responsible for communicating with the other authors about progress, submissions of revisions and final approval of proofs. We confirm that we have provided a current, correct email address which is accessible by the Corresponding Author."
+        }
+      ]
+    },
+    {
+      "title": "Ethical approval",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "No ethical approval was required for this systematic review with meta-analysis, as all data were already published in peer-reviewed journals. No patients were involved in the design, conduct, or interpretation of our study."
+        },
+        {
+          "type": "paragraph",
+          "html": "The datasets used in this study can be found in the full-text articles included in the systematic review and meta-analysis."
+        }
+      ]
+    },
+    {
+      "title": "Funding",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Sponsors had no role in the design, data collection, analysis, interpretation, and manuscript preparation."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Ádám Fekete:</strong> Writing – original draft, Project administration, Methodology, Formal analysis, Conceptualization. <strong>Dániel Horváth:</strong> Writing – review &amp; editing, Validation, Investigation, Data curation. <strong>Patrik Kreuter:</strong> Writing – review &amp; editing, Validation, Investigation, Data curation. <strong>Petrana Martinekova:</strong> Writing – review &amp; editing, Methodology, Conceptualization. <strong>Eszter Ágnes Szalai:</strong> Writing – review &amp; editing, Methodology, Conceptualization. <strong>Gergely Agócs:</strong> Writing – review &amp; editing, Formal analysis, Data curation, Conceptualization. <strong>Péter Sótonyi:</strong> Writing – review &amp; editing. <strong>Gábor Varga:</strong> Writing – review &amp; editing, Conceptualization. <strong>Péter Hegyi:</strong> Writing – review &amp; editing, Conceptualization. <strong>Beáta Kerémi:</strong> Writing – review &amp; editing, Supervision, Conceptualization. <strong>János Vág:</strong> Writing – review &amp; editing, Supervision, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "LindstromM.DeCleeneN.DorseyH.FusterV.COJohnsonLeGrandK.E.Global burden of cardiovascular diseases and risks collaboration, 1990-2021J Am Coll Cardiol802022237224253651711610.1016/j.jacc.2022.11.001"
+    },
+    {
+      "html": "RosenberryR.NelsonM.D.Reactive hyperemia: a review of methods, mechanisms, and considerationsAm J Physiol Regul Integr Comp Physiol3182020R605r6183202258010.1152/ajpregu.00339.2019"
+    },
+    {
+      "html": "InabaY.ChenJ.A.BergmannS.R.Prediction of future cardiovascular outcomes by flow-mediated vasodilatation of brachial artery: a meta-analysisInt J Cardiovasc Imaging2620106316402033992010.1007/s10554-010-9616-1"
+    },
+    {
+      "html": "ZócaloY.BiaD.Age- and sex-related profiles for macro, macro/micro and microvascular reactivity indexes: association between indexes and normative data from 2609 healthy subjects (3-85 years)PLoS One162021e025486910.1371/journal.pone.0254869PMC828911134280235"
+    },
+    {
+      "html": "FazekasR.MolnárE.LohinaiZ.DinyaE.TóthZ.WindischP.Functional characterization of collaterals in the human gingiva by laser speckle contrast imagingMicrocirculation252018e1244610.1111/micc.1244629457306"
+    },
+    {
+      "html": "VágJ.NagyT.L.MikecsB.Sex-related differences in endothelium-dependent vasodilation of human gingivaBMC Oral Health2220221773556272910.1186/s12903-022-02186-2PMC9107103"
+    },
+    {
+      "html": "AkinsJ.D.MartinZ.T.PatikJ.C.CurtisB.M.CampbellJ.C.OlveraG.Young, non-hispanic black men and women exhibit divergent peripheral and cerebral vascular reactivityExp Physiol10720224504613534424110.1113/EP090168PMC9058228"
+    },
+    {
+      "html": "ShenoudaN.SkellyL.E.GibalaM.J.MacDonaldM.J.Brachial artery endothelial function is unchanged after acute sprint interval exercise in sedentary men and womenExp Physiol10320189689752972607710.1113/EP086677"
+    },
+    {
+      "html": "AtkinsonG.BatterhamA.M.The percentage flow-mediated dilation index: a large-sample investigation of its appropriateness, potential for bias and causal nexus in vascular medicineVasc Med1820133543652417222810.1177/1358863X13508446"
+    },
+    {
+      "html": "LevitR.D.ReynoldsH.R.HochmanJ.S.Cardiovascular disease in young women: a population at riskCardiol Rev19201160652128566410.1097/CRD.0b013e31820987b5"
+    },
+    {
+      "html": "MinissianM.B.MehtaP.K.HayesS.N.ParkK.WeiJ.Bairey MerzC.N.Ischemic heart disease in young women: jacc review topic of the weekJ Am Coll Cardiol802022101410223604979910.1016/j.jacc.2022.01.057PMC9847245"
+    },
+    {
+      "html": "VogelB.AcevedoM.AppelmanY.Bairey MerzC.N.ChieffoA.FigtreeG.A.The &lt;em&gt;lancet&lt;/em&gt;women and cardiovascular disease commission: reducing the global burden by 2030Lancet3972021238524383401061310.1016/S0140-6736(21)00684-X"
+    },
+    {
+      "html": "BenjaminE.J.ViraniS.S.CallawayC.W.ChamberlainA.M.ChangA.R.ChengS.Heart disease and stroke statistics-2018 update: a report from the american heart associationCirculation1372018e67e4922938620010.1161/CIR.0000000000000558"
+    },
+    {
+      "html": "den RuijterH.M.KararigasG.Estrogen and cardiovascular healthFront Cardiovasc Med2022910.3389/fcvm.2022.886592PMC900584335433883"
+    },
+    {
+      "html": "IorgaA.CunninghamC.M.MoazeniS.RuffenachG.UmarS.EghbaliM.The protective role of estrogen and estrogen receptors in cardiovascular disease and the controversial use of estrogen therapyBiol Sex Differ82017332906592710.1186/s13293-017-0152-8PMC5655818"
+    },
+    {
+      "html": "XiangD.LiuY.ZhouS.ZhouE.WangY.Protective effects of estrogen on cardiovascular disease mediated by oxidative stressOxid Med Cell Longev20212021552351610.1155/2021/5523516PMC826031934257804"
+    },
+    {
+      "html": "ArnalJ.-F.FontaineC.Billon-GalésA.FavreJ.LaurellH.LenfantF.Estrogen receptors and endotheliumArterioscler Thromb Vasc Biol302010150615122063135010.1161/ATVBAHA.109.191221"
+    },
+    {
+      "html": "ColburnP.BuonassisiV.Estrogen-binding sites in endothelial cell culturesScience201197881781968440810.1126/science.684408"
+    },
+    {
+      "html": "NevzatiE.ShafighiM.BakhtianK.D.TreiberH.FandinoJ.FathiA.R.Estrogen induces nitric oxide production via nitric oxide synthase activation in endothelial cellsActa Neurochir Suppl12020151411452536661410.1007/978-3-319-04981-6_24"
+    },
+    {
+      "html": "MarcantoniE.Di FrancescoL.TotaniL.PiccoliA.EvangelistaV.TacconelliS.Effects of estrogen on endothelial prostanoid production and cyclooxygenase-2 and heme oxygenase-1 expressionProstaglandins Other Lipid Mediat9820121221282233085910.1016/j.prostaglandins.2012.01.006"
+    },
+    {
+      "html": "DiebelL.N.WheatonM.LiberatiD.M.The protective role of estrogen on endothelial and glycocalyx barriers after shock conditions: a microfluidic studySurgery16920216786853298861910.1016/j.surg.2020.08.006"
+    },
+    {
+      "html": "AbdullahS.PackerJ.Cotton-BetteridgeA.SlaughterK.ShaheenF.JCeaDuchesneEstrogen prevents reactive oxygen species (ros) mediated damage of the endothelial glycocalyx in hemorrhagic shock and resuscitationJ Am Coll of Surgeons2332021e204"
+    },
+    {
+      "html": "LeeB.FrancisK.Coronary endothelial dysfunction: from pathogenesis to clinical implicationsOpen Heart92022e00220010.1136/openhrt-2022-002200PMC974339936600608"
+    },
+    {
+      "html": "SunH.-J.HouB.WangX.ZhuX.-X.LiK.-X.QiuL-Y.Endothelial dysfunction and cardiometabolic diseases: role of long non-coding rnasLife Sci16720166112783821010.1016/j.lfs.2016.11.005"
+    },
+    {
+      "html": "TsuneyoshiI.Garcia-FerrerJ.M.LiuH.P.BoyleW.A.Vascular reactivityEversA.S.KharaschE.D.MazeM.Anesth. pharmacol. basic princ. clin. pract.2011Cambridge University PressCambridge277292"
+    },
+    {
+      "html": "LittleP.J.AskewC.D.XuS.KamatoD.Endothelial dysfunction and cardiovascular disease: history and analysis of the clinical utility of the relationshipBiomedicines2021910.3390/biomedicines9060699PMC823400134203043"
+    },
+    {
+      "html": "WidmerR.J.LermanA.Endothelial dysfunction and cardiovascular diseaseGlob Cardiol Sci Pract201420142913082578078610.5339/gcsp.2014.43PMC4352682"
+    },
+    {
+      "html": "CelermajerD.S.SorensenK.E.GoochV.M.SpiegelhalterD.J.MillerO.I.SullivanI.D.Non-invasive detection of endothelial dysfunction in children and adults at risk of atherosclerosisLancet340199211111115135920910.1016/0140-6736(92)93147-f"
+    },
+    {
+      "html": "CorrettiM.C.AndersonT.J.BenjaminE.J.CelermajerD.CharbonneauF.CreagerM.A.Guidelines for the ultrasound assessment of endothelial-dependent flow-mediated vasodilation of the brachial artery: a report of the international brachial artery reactivity task forceJ Am Coll Cardiol3920022572651178821710.1016/s0735-1097(01)01746-6"
+    },
+    {
+      "html": "ThijssenD.H.J.BrunoR.M.van MilA.C.C.M.HolderS.M.FaitaF.GreylingA.Expert consensus and evidence-based recommendations for the assessment of flow-mediated dilation in humansEur Heart J402019253425473121136110.1093/eurheartj/ehz350"
+    },
+    {
+      "html": "TanakaH.MitoA.HiranoH.SohZ.NakamuraR.SaekiN.Estimation of arterial viscosity based on an oscillometric method and its application in evaluating the vascular endothelial functionSci Rep9201926093079623910.1038/s41598-019-38776-4PMC6384877"
+    },
+    {
+      "html": "UkawaT.TakayanagiT.MorimotoH.HigashiY.IdeiN.YoshizumiM.Novel non-invasive method of measurement of endothelial function: enclosed-zone flow-mediated dilatation (ezfmd)Med Biol Eng Comput502012123912472305437610.1007/s11517-012-0955-z"
+    },
+    {
+      "html": "SenaC.M.GonçalvesL.SeiçaR.Methods to evaluate vascular function: a crucial approach towards predictive, preventive, and personalised medicineEpma j1320222092353561134010.1007/s13167-022-00280-7PMC9120812"
+    },
+    {
+      "html": "CracowskiJ.L.MinsonC.T.Salvat-MelisM.HalliwillJ.R.Methodological issues in the assessment of skin microvascular endothelial function in humansTrends Pharmacol Sci2720065035081687688110.1016/j.tips.2006.07.008"
+    },
+    {
+      "html": "SilvaH.FerreiraH.BujanM.J.RodriguesL.M.Regarding the quantification of peripheral microcirculation–comparing responses evoked in the in vivo human lower limb by postural changes, suprasystolic occlusion and oxygen breathingMicrovasc Res9920151101172587202110.1016/j.mvr.2015.04.001"
+    },
+    {
+      "html": "CelermajerD.S.SorensenK.E.SpiegelhalterD.J.GeorgakopoulosD.RobinsonJ.DeanfieldJ.E.Aging is associated with endothelial dysfunction in healthy men years before the age-related decline in womenJ Am Coll Cardiol241994471476803488510.1016/0735-1097(94)90305-0"
+    },
+    {
+      "html": "MoreauK.L.HildrethK.L.KlawitterJ.BlatchfordP.KohrtW.M.Decline in endothelial function across the menopause transition in healthy women is related to decreased estradiol and increased oxidative stressGeroscience422020169917143277038410.1007/s11357-020-00236-7PMC7732894"
+    },
+    {
+      "html": "HolderS.M.BrunoR.M.ShkredovaD.A.DawsonE.A.JonesH.HopkinsN.D.Reference intervals for brachial artery flow-mediated dilation and the relation with cardiovascular risk factorsHypertension772021146914803374529710.1161/HYPERTENSIONAHA.120.15754"
+    },
+    {
+      "html": "Cerdas PérezS.Menopause and diabetesClimacteric2620232162213701166610.1080/13697137.2023.2184252"
+    },
+    {
+      "html": "OpokuA.A.AbushamaM.KonjeJ.C.Obesity and menopauseBest Pract Res Clin Obstet Gynaecol88202310234810.1016/j.bpobgyn.2023.10234837244787"
+    },
+    {
+      "html": "VellankiK.HouS.Menopause in ckdAm J Kidney Dis7120187107192953050910.1053/j.ajkd.2017.12.019"
+    },
+    {
+      "html": "ScheyerO.RahmanA.HristovH.BerkowitzC.IsaacsonR.S.Diaz BrintonR.Female sex and alzheimer’s risk: the menopause connectionJ Prev Alzheimers Dis520182252303029818010.14283/jpad.2018.34PMC6198681"
+    },
+    {
+      "html": "KanisJ.A.CooperC.RizzoliR.ReginsterJ.Y.Executive summary of the european guidance for the diagnosis and management of osteoporosis in postmenopausal womenCalcif Tissue Int10420192352383079649010.1007/s00223-018-00512-xPMC6422308"
+    },
+    {
+      "html": "El KhoudaryS.R.AggarwalB.BeckieT.M.HodisH.N.JohnsonA.E.LangerR.D.Menopause transition and cardiovascular disease risk: implications for timing of early prevention: a scientific statement from the american heart associationCirculation1422020e506e5323325182810.1161/CIR.0000000000000912"
+    },
+    {
+      "html": "UngvariA.GulejR.PataiR.PappZ.TothA.SzabóA.Sex-specific mechanisms in vascular aging: exploring cellular and molecular pathways in the pathogenesis of age-related cardiovascular and cerebrovascular diseasesGeroscience20253013373975401010.1007/s11357-024-01489-2PMC11872871"
+    },
+    {
+      "html": "TsangW.AlterD.A.WijeysunderaH.C.ZhangT.KoD.T.The impact of cardiovascular disease prevalence on women’s enrollment in landmark randomized cardiovascular trials: a systematic reviewJ Gen Intern Med27201293982171354310.1007/s11606-011-1768-8PMC3250532"
+    },
+    {
+      "html": "PageM.J.McKenzieJ.E.BossuytP.M.BoutronI.HoffmannT.C.MulrowC.D.The prisma 2020 statement: an updated guideline for reporting systematic reviewsBMJ3722021n713378205710.1136/bmj.n71PMC8005924"
+    },
+    {
+      "html": "HigginsJPT TJChandlerJ.CumpstonM.LiT.PageM.J.Welch VA Cochrane Handbook System. Rev. Intervent. Vers 652024"
+    },
+    {
+      "html": "MoolaS.M.ZTufanaruC.AromatarisE.SearsK.SfetcuR.CurrieM.QureshiR.MattisP.LisyK.MuP.-F.JBI Manual for Evidence Synthesis20207"
+    },
+    {
+      "html": "ViechtbauerW.Conducting meta-analyses in r with the metafor packageJ Stat Softw2010148"
+    },
+    {
+      "html": "BalduzziS.RückerG.SchwarzerG.How to perform a meta-analysis with r: a practical tutorialEvid Based Ment Health2220191531603156386510.1136/ebmental-2019-300117PMC10231495"
+    },
+    {
+      "html": "HarrerM.CuijpersP.FurukawaT.EbertD.D.Dmetar: Companion R Package for the Guide ‘Doing Meta-Analysis in R2019"
+    },
+    {
+      "html": "MaasA.H.AppelmanY.E.Gender differences in coronary heart diseaseNeth Heart J1820105986022130162210.1007/s12471-010-0841-yPMC3018605"
+    },
+    {
+      "html": "den RuijterH.M.KararigasG.Estrogen and cardiovascular healthFront Cardiovasc Med9202288659210.3389/fcvm.2022.886592PMC900584335433883"
+    },
+    {
+      "html": "DoshiS.N.NakaK.K.PayneN.JonesC.J.AshtonM.LewisM.J.Flow-mediated dilatation following wrist and upper arm occlusion in humans: the contribution of nitric oxideClin Sci (Lond)101200162963511724650"
+    },
+    {
+      "html": "VogelR.A.CorrettiM.C.PlotnickG.D.A comparison of brachial artery flow-mediated vasodilation using upper and lower arm arterial occlusion in subjects with and without coronary risk factorsClin Cardiol2320005715751094154110.1002/clc.4960230805PMC6654947"
+    },
+    {
+      "html": "GreenD.J.DawsonE.A.GroenewoudH.M.JonesH.ThijssenD.H.Is flow-mediated dilation nitric oxide mediated?: a meta-analysisHypertension6320143763822427776510.1161/HYPERTENSIONAHA.113.02044"
+    },
+    {
+      "html": "HeissC.Rodriguez-MateosA.BapirM.SkeneS.S.SiesH.KelmM.Flow-mediated dilation reference values for evaluation of endothelial function and cardiovascular healthCardiovasc Res11920232832933570932610.1093/cvr/cvac095"
+    },
+    {
+      "html": "SkaugE.A.AspenesS.T.OldervollL.MørkedalB.VattenL.WisløffU.Age and gender differences of endothelial function in 4739 healthy adults: the hunt3 fitness studyEur J Prev Cardiol2020135315402245669210.1177/2047487312444234"
+    },
+    {
+      "html": "HerringtonD.M.FanL.DrumM.RileyW.A.PusserB.E.CrouseJ.R.Brachial flow-mediated vasodilator responses in population-based research: methods, reproducibility and effects of age, gender and baseline diameterJ Cardiovasc Risk820013193281170203910.1177/174182670100800512"
+    },
+    {
+      "html": "DengelD.R.JacobsD.R.SteinbergerJ.MoranA.M.SinaikoA.R.Gender differences in vascular function and insulin sensitivity in young adultsClin Sci (Lond)12020111531602081581010.1042/CS20100223PMC5785277"
+    },
+    {
+      "html": "JazuliF.PykeK.E.The impact of baseline artery diameter on flow-mediated vasodilation: a comparison of brachial and radial artery responses to matched levels of shear stressAm J Physiol Heart Circ Physiol3012011H1667H16772178498810.1152/ajpheart.00487.2011"
+    },
+    {
+      "html": "McLayK.M.NederveenJ.P.KovalJ.J.PatersonD.H.MuriasJ.M.Allometric scaling of flow-mediated dilation: is it always helpful?Clin Physiol Funct Imaging3820186636692880495110.1111/cpf.12465"
+    },
+    {
+      "html": "TremblayJ.C.GrewalA.S.PykeK.E.Examining the acute effects of retrograde versus low mean shear rate on flow-mediated dilationJ Appl Physiol12619852019133513423084433510.1152/japplphysiol.01065.2018PMC6589808"
+    },
+    {
+      "html": "HarrisR.A.TedjasaputraV.ZhaoJ.RichardsonR.S.Premenopausal women exhibit an inherent protection of endothelial function following a high-fat mealReprod Sci1920122212282238376010.1177/1933719111418125PMC3343134"
+    },
+    {
+      "html": "NishiyamaS.K.WrayD.W.RichardsonR.S.Sex and limb-specific ischemic reperfusion and vascular reactivityAm J Physiol Heart Circ Physiol2952008H1100h11081862185710.1152/ajpheart.00318.2008PMC2544480"
+    },
+    {
+      "html": "AlomariM.A.WelschM.A.Regional changes in reactive hyperemic blood flow during exercise training: time-course adaptationsDyn Med6200711722234210.1186/1476-5918-6-1PMC1779772"
+    },
+    {
+      "html": "RosenberryR.TrojacekD.ChungS.CipherD.J.NelsonM.D.Interindividual differences in the ischemic stimulus and other technical considerations when assessing reactive hyperemiaAm J Physiol Regul Integr Comp Physiol3172019R530R5383131454510.1152/ajpregu.00157.2019"
+    },
+    {
+      "html": "PykeK.E.TschakovskyM.E.The relationship between shear stress and flow-mediated dilatation: implications for the assessment of endothelial functionJ Physiol56820053573691605163010.1113/jphysiol.2005.089755PMC1474741"
+    },
+    {
+      "html": "AizawaK.SbragiS.RamalliA.TortoliP.CasanovaF.MorizzoC.Brachial artery vasodilatory response and wall shear rate determined by multigate doppler in a healthy young cohortJ Appl Physiol124198520181501592893582310.1152/japplphysiol.00310.2017PMC5866444"
+    },
+    {
+      "html": "BadrovM.B.FreemanS.R.ZokvicM.A.MillarP.J.McGowanC.L.Isometric exercise training lowers resting blood pressure and improves local brachial artery flow-mediated dilation equally in men and womenEur J Appl Physiol1162016128912962713795010.1007/s00421-016-3366-2"
+    },
+    {
+      "html": "BlackM.A.CableN.T.ThijssenD.H.GreenD.J.Impact of age, sex, and exercise on brachial artery flow-mediated dilatationAm J Physiol Heart Circ Physiol2972009H1109H11161963320810.1152/ajpheart.00226.2009PMC2755978"
+    },
+    {
+      "html": "GentilinA.MoghettiP.CeveseA.SchenaF.TarperiC.Sympathetic-mediated blunting of forearm vasodilation is similar between young men and womenBiol Sex Differ132022333575287010.1186/s13293-022-00444-0PMC9233837"
+    },
+    {
+      "html": "HolderS.M.BrislaneÁ.DawsonE.A.HopkinsN.D.HopmanM.T.E.CableN.T.Relationship between endothelial function and the eliciting shear stress stimulus in women: changes across the lifespan differ to menJ Am Heart Assoc82019e01099410.1161/JAHA.118.010994PMC640568430764688"
+    },
+    {
+      "html": "Lennon-EdwardsS.RamickM.G.MatthewsE.L.BrianM.S.FarquharW.B.EdwardsD.G.Salt loading has a more deleterious effect on flow-mediated dilation in salt-resistant men than womenNutr Metab Cardiovasc Dis2420149909952498970210.1016/j.numecd.2014.05.004PMC4195435"
+    },
+    {
+      "html": "MorishimaT.PadillaJ.TsuchiyaY.OchiE.Maintenance of endothelial function following acute resistance exercise in females is associated with a tempered blood pressure responseJ Appl Physiol129198520207927993279059810.1152/japplphysiol.00378.2020"
+    },
+    {
+      "html": "RatchfordS.M.StickfordJ.L.ProvinceV.M.StuteN.AugenreichM.A.KoontzL.K.Vascular alterations among young adults with sars-cov-2Am J Physiol Heart Circ Physiol3202021H404h4103330645010.1152/ajpheart.00897.2020PMC8083172"
+    },
+    {
+      "html": "SmiljanecK.MbakweA.U.Ramos-GonzalezM.PohligR.T.LennonS.L.Antioxidant cocktail following a high-sodium meal does not affect vascular function in young, healthy adult humans: a randomized controlled crossover trialNutr Res79202013223261025410.1016/j.nutres.2020.05.011PMC7396284"
+    },
+    {
+      "html": "TremblayJ.C.StimpsonT.V.PykeK.E.Evidence of sex differences in the acute impact of oscillatory shear stress on endothelial functionJ Appl Physiol126198520193143213038280510.1152/japplphysiol.00729.2018PMC6397415"
+    },
+    {
+      "html": "ThijssenD.H.BullensL.M.van BemmelM.M.DawsonE.A.HopkinsN.TinkenT.M.Does arterial shear explain the magnitude of flow-mediated dilation?: a comparison between young and older humansAm J Physiol Heart Circ Physiol2962009H57H641902879510.1152/ajpheart.00980.2008PMC2637778"
+    },
+    {
+      "html": "Jensen-UrstadK.RosforsS.A methodological study of arterial wall function using ultrasound techniqueClin Physiol171997557567941364310.1046/j.1365-2281.1997.00063.x"
+    },
+    {
+      "html": "ChienJ.S.MohammedM.EldikH.IbrahimM.M.MartinezJ.NicholsS.P.Injectable phosphorescence-based oxygen biosensors identify post ischemic reactive hyperoxiaSci Rep7201782552881156610.1038/s41598-017-08490-0PMC5558004"
+    },
+    {
+      "html": "DurbinW.KirbyB.CreceliusA.Skeletal muscle reactive hyperemia is dependent on the deoxygenation stimulus in young healthy humansPhysiol3820235734868"
+    },
+    {
+      "html": "KanaiA.J.StraussH.C.TruskeyG.A.CrewsA.L.GrunfeldS.MalinskiT.Shear stress induces atp-independent transient nitric oxide release from vascular endothelial cells, measured directly with a porphyrinic microsensorCirc Res771995284293761471510.1161/01.res.77.2.284"
+    },
+    {
+      "html": "BeltrameT.VillarR.HughsonR.L.Sex differences in the oxygen delivery, extraction, and uptake during moderate-walking exercise transitionAppl Physiol Nutr Metab42201799410002857084010.1139/apnm-2017-0097"
+    },
+    {
+      "html": "GoriT.Di StolfoG.SicuroS.DragoniS.LisiM.ParkerJ.D.Correlation analysis between different parameters of conduit artery and microvascular vasodilationClin Hemorheol Microcirc35200650951517148850"
+    },
+    {
+      "html": "LantingS.M.BarwickA.L.TwiggS.M.JohnsonN.A.BakerM.K.ChiuS.K.Post-occlusive reactive hyperaemia of skin microvasculature and foot complications in type 2 diabetesJ Diabetes Complications312017130513102854589410.1016/j.jdiacomp.2017.05.005"
+    },
+    {
+      "html": "BungumL.KverneboK.OianP.MaltauJ.M.Laser doppler-recorded reactive hyperaemia in the forearm skin during the menstrual cycleBr J Obstet Gynaecol10319967075860810110.1111/j.1471-0528.1996.tb09517.x"
+    },
+    {
+      "html": "FujiiN.McGarrG.W.AmanoT.BoulayP.NishiyasuT.KennyG.P.Does aging alter skin vascular function in humans when spatial variation is considered?Microcirculation292022e1274310.1111/micc.1274334874589"
+    },
+    {
+      "html": "RenataS.TomaszD.AndrzejK.SławomirT.Impact of 10 sessions of whole body cryostimulation on cutaneous microcirculation measured by laser doppler flowmetryJ Hum Kinet30201175832348700710.2478/v10078-011-0075-0PMC3588644"
+    },
+    {
+      "html": "StupinA.StupinM.BaricL.MaticA.KolarL.DrenjancevicI.Sex-related differences in forearm skin microvascular reactivity of young healthy subjectsClin Hemorheol Microcirc7220193393513100667010.3233/CH-180483"
+    },
+    {
+      "html": "GBYvonne-TeeRasoolA.H.HalimA.S.WongA.R.RahmanA.R.Method optimization on the use of postocclusive hyperemia model to assess microvascular functionClin Hemorheol Microcirc38200811913318198413"
+    },
+    {
+      "html": "de JonghR.T.IjzermanR.G.SernéE.H.van WeissenbruchM.M.VoordouwJ.J.Delemarre-van de WaalH.A.Urinary cortisol is inversely associated with capillary recruitment in women: a potential explanation for the cortisol-blood pressure relationshipClin Sci (Lond)113200783911729561010.1042/CS20060357"
+    },
+    {
+      "html": "RodriguesL.M.PintoP.C.LealA.Transcutaneous flow related variables measured in vivo: the effects of genderBMC Dermatol1200141158087110.1186/1471-5945-1-4PMC57006"
+    },
+    {
+      "html": "GryglewskaB.NȩckiM.CwynarM.BaronT.GrodzickiT.Effect of gender on skin forearm microcirculation among middle age subjects with newly diagnosed hypertensionNadcisnienie Tetnicze132009376387"
+    },
+    {
+      "html": "KraljL.LenasiH.Wavelet analysis of laser doppler microcirculatory signals: current applications and limitationsFront Physiol132022107644510.3389/fphys.2022.1076445PMC989510336741808"
+    },
+    {
+      "html": "FujiiN.McGarrG.W.IchinoseM.NishiyasuT.KennyG.P.Tetraethylammonium, glibenclamide, and 4-aminopyridine modulate post-occlusive reactive hyperemia in non-glabrous human skin with no roles of nos and coxMicrocirculation272020e1258610.1111/micc.1258631435995"
+    },
+    {
+      "html": "ChristouD.D.JonesP.P.JordanJ.DiedrichA.RobertsonD.SealsD.R.Women have lower tonic autonomic support of arterial blood pressure and less effective baroreflex buffering than menCirculation11120054944981568713910.1161/01.CIR.0000153864.24034.A6"
+    },
+    {
+      "html": "WinerN.SowersJ.R.WeberM.A.Gender differences in vascular compliance in young, healthy subjects assessed by pulse contour analysisJ Clin Hypertens (Greenwich)320011451521141669910.1111/j.1524-6175.2001.00704.xPMC8101885"
+    },
+    {
+      "html": "MengZ.ChengL.LiuW.YuY.LiuH.YaoG.Women are prone to age-related aortic stiffnessmedRxiv20232023.2005.2025.23290560"
+    },
+    {
+      "html": "St PierreS.R.PeirlinckM.KuhlE.Sex matters: a comprehensive comparison of female and male heartsFront Physiol13202283117910.3389/fphys.2022.831179PMC898048135392369"
+    },
+    {
+      "html": "ZaidM.SalaL.DespinsL.HeiseD.PopescuM.SkubicM.Cardiovascular sex-differences: insights via physiology-based modeling and potential for noninvasive sensing via ballistocardiographyFront Cardiovasc Med20231010.3389/fcvm.2023.1215958PMC1058741537868782"
+    },
+    {
+      "html": "LamarreY.Lalanne-MistrihM.L.RomanaM.LemonneN.MougenelD.WaltzX.Male gender, increased blood viscosity, body mass index and triglyceride levels are independently associated with systemic relative hypertension in sickle cell anemiaPLoS One82013e6600410.1371/journal.pone.0066004PMC368193723785465"
+    },
+    {
+      "html": "OnegliaA.ZamaniS.BartlettM.F.Shear stress-induced flow-mediated dilatation: is it up to haemoglobin?J Physiol5982020560956103296567810.1113/JP280649"
+    },
+    {
+      "html": "de SimoneG.DevereuxR.B.RomanM.J.GanauA.ChienS.AldermanM.H.Gender differences in left ventricular anatomy, blood viscosity and volume regulatory hormones in normal adultsAm J Cardiol68199117041708183610310.1016/0002-9149(91)90333-g"
+    },
+    {
+      "html": "Rivera-WollL.M.PapaliaM.DavisS.R.BurgerH.G.Androgen insufficiency in women: diagnostic and therapeutic implicationsHum. Reprod. Update1020044214321529743510.1093/humupd/dmh037"
+    },
+    {
+      "html": "Naamneh ElzenatyR.du ToitT.FlückC.EBasics of androgen synthesis and actionBest Pract Res Clin Endocrinol Metabolism36202210166510.1016/j.beem.2022.10166535595638"
+    },
+    {
+      "html": "SimpsonE.RubinG.ClyneC.RobertsonK.O’DonnellL.JonesM.The role of local estrogen biosynthesis in males and femalesTrends Endocrinol Metabolism11200018418810.1016/s1043-2760(00)00254-x10856920"
+    },
+    {
+      "html": "SowersM.R.ZhengH.McConnellD.NanB.HarlowS.D.RandolphJ.F.JrEstradiol rates of change in relation to the final menstrual period in a population-based cohort of womenJ Clin Endocrinol Metab932008384738521864780310.1210/jc.2008-1056PMC2579642"
+    },
+    {
+      "html": "ChodickG.EpsteinS.ShalevV.Secular trends in testosterone- findings from a large state-mandate care providerReprod Biol Endocrinol182020193215125910.1186/s12958-020-00575-2PMC7063751"
+    },
+    {
+      "html": "MachucaJ.N.Rosales-AlvarezC.P.Cardiovascular disease in women and the role of hormone replacement therapyCureus162024e6975210.7759/cureus.69752PMC1149031039429315"
+    },
+    {
+      "html": "GaoZ.ChenZ.SunA.DengX.Gender differences in cardiovascular diseaseMed Novel Technol Devices42019100025"
+    },
+    {
+      "html": "WilliamsJ.S.DunfordE.C.MacDonaldM.J.Impact of the menstrual cycle on peripheral vascular function in premenopausal women: systematic review and meta-analysisAm J Physiol Heart Circ Physiol3192020H1327h13373306455310.1152/ajpheart.00341.2020"
+    },
+    {
+      "html": "HegyiP.ErőssB.IzbékiF.PárniczkyA.SzentesiA.Accelerating the translational medicine cycle: the academia europaea pilotNat Med272021131713193431255710.1038/s41591-021-01458-8"
+    },
+    {
+      "html": "HegyiP.PetersenO.H.HolgateS.ErőssB.GaramiA.SzakácsZ.Academia europaea position paper on translational medicine: the cycle model for translating scientific results into community benefitsJ Clin Med2020910.3390/jcm9051532PMC729038032438747"
+    },
+    {
+      "html": "JinX.ChandramouliC.AlloccoB.GongE.LamC.S.P.YanL.L.Women’s participation in cardiovascular clinical trials from 2010 to 2017Circulation14120205405483206576310.1161/CIRCULATIONAHA.119.043594"
+    },
+    {
+      "html": "du Fay de LavallazJ.SticherlingC.Chapter 83 - obstacles for enrollment of women in clinical trialseditorMalikM.Chapter 83 - obstacles for enrollment of women in clinical trials<em>Sex Card Electrophysiol</em> Academic Press2020903914"
+    },
+    {
+      "html": "PlevkovaJ.BrozmanovaM.HarsanyiovaJ.SteruskyM.HonetschlagerJ.BudayT.Various aspects of sex and gender bias in biomedical researchPhysiol Res692020S367s3783346492010.33549/physiolres.934593PMC8603716"
+    },
+    {
+      "html": "DaitchV.TurjemanA.PoranI.TauN.Ayalon-DangurI.NashashibiJ.Underrepresentation of women in randomized controlled trials: a systematic review and meta-analysisTrials23202210383653981410.1186/s13063-022-07004-2PMC9768985"
+    },
+    {
+      "html": "JainN.CottinghamM.D.FisherJ.A.Disadvantaged, outnumbered, and discouraged: women’s experiences as healthy volunteers in u.S. Phase i trialsCrit Public Health30202014115210.1080/09581596.2018.1529861PMC705091932123487"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

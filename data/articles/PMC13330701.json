@@ -5,59 +5,666 @@
   "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13330701/",
   "journal": "American Journal of Preventive Cardiology",
   "title": "Cardiovascular event rate modifies response to pharmacologic LDL-C lowering in primary prevention: implications of a systematic review and meta-analysis for clinical practice",
-  "articleType": "Systematic Review and Meta-Analysis",
+  "articleType": "Research Article",
   "published": "2026-05-25",
   "year": "2026",
   "volume": "28",
+  "issue": "",
   "articleNumber": "101655",
   "license": "CC BY 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-  "copyright": "The Authors",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2026",
   "authors": [
-    {"given": "Irene", "surname": "Karungi", "display": "Irene Karungi"},
-    {"given": "Christophe A. T.", "surname": "Stevens", "display": "Christophe A. T. Stevens"},
-    {"given": "Julia", "surname": "Brandts", "display": "Julia Brandts"},
-    {"given": "Kausik K.", "surname": "Ray", "display": "Kausik K. Ray"}
+    {
+      "given": "Irene",
+      "surname": "Karungi",
+      "display": "Irene Karungi"
+    },
+    {
+      "given": "Christophe A.T.",
+      "surname": "Stevens",
+      "display": "Christophe A.T. Stevens"
+    },
+    {
+      "given": "Julia",
+      "surname": "Brandts",
+      "display": "Julia Brandts"
+    },
+    {
+      "given": "Kausik K",
+      "surname": "Ray",
+      "display": "Kausik K Ray"
+    }
   ],
-  "keywords": ["LDL cholesterol", "primary prevention", "cardiovascular risk", "meta-analysis"],
-  "notice": "This bundled record demonstrates the native AJPC reader using verified article metadata and a concise summary. Run the included PMC synchronization script to replace it with the complete JATS-derived article body, figures, tables, and references.",
+  "affiliations": [
+    "aDepartment of Primary Care and Public Health, School of Public Health, Imperial College London, London, United Kingdom",
+    "bDepartment of Medicine I, RWTH University Hospital Aachen, Aachen, Germany"
+  ],
+  "keywords": [
+    "Primary prevention",
+    "Lipid-lowering therapy",
+    "Major adverse cardiovascular event (mace)",
+    "Low-density lipoprotein cholesterol (ldl-c)"
+  ],
   "abstract": [
     {
-      "text": "Across 17 randomized trials and 105,879 participants, lower-risk primary-prevention populations derived greater relative cardiovascular benefit per unit of LDL-C reduction, supporting earlier, risk-informed treatment."
+      "html": "<strong>Background:</strong> LDL-C lowering is often delayed in lower-risk primary-prevention settings as absolute benefits appear modest. Trial evidence for greater relative benefits from pharmacologic LDL-C lowering in lower-risk individuals, supporting genetic studies, could strengthen the rationale for initiating LDL-C-lowering therapies at lower-risk levels."
+    },
+    {
+      "html": "<strong>Objectives:</strong> To quantify i) how RRR for 3P-MACE per 1mmol/L LDL-C-lowering varies by baseline risk, ii) the absolute LDL-C reduction required to achieve 25 % RRR at varying risk thresholds."
+    },
+    {
+      "html": "<strong>Methods:</strong> Systematic review and meta-analysis using EMBASE, MEDLINE, and CENTRAL searches for randomized, placebo-controlled lipid-lowering trials in populations with no or low (&lt;20 %) prior atherosclerotic cardiovascular disease prevalence, reporting 3P-MACE (cardiovascular death, non-fatal myocardial infarction, non-fatal stroke). Effect modification of placebo event rate on RRR/1mmol/L was assessed using mixed-effects meta-regression. A second meta-regression plotted the absolute LDL-C reduction associated with 25 % RRR across event-rates."
+    },
+    {
+      "html": "<strong>Results:</strong> 17 trials (105,879 participants) reporting 6076 3P-MACE were included (12 statins only, 5 non-statins); mean age 63.0y, median follow-up 4.4y. LDL-C reduction ranged from 0.38–1.95 mmol/L and placebo event-rate ranged from 0.52 %/year-3.78 %/year. RRR per 1mmol/L LDL-C reduction attenuated from 36 % at 1 %/year event-rate to 13 % at 3 %/year (<em>p</em> &lt; 0.0001). Absolute LDL-C reductions required to achieve 25 % RRR increased with baseline-risk, ranging from 0.36 mmol/L at 1 %/year-risk to 3.09 mmol/L at 3 %/year-risk (<em>p</em> = 0.0001)."
+    },
+    {
+      "html": "<strong>Conclusion:</strong> Lower-risk primary prevention populations derive significantly greater relative benefits per 1mmol/L LDL-C lowering. Conversely, higher-risk populations derive less benefit per 1mmol/L LDL-C lowering and hence require greater absolute LDL-C reductions to achieve comparable relative treatment benefits. PROSPERO (CRD420251155320)"
     }
   ],
   "sections": [
     {
-      "title": "Native full-text reader",
+      "title": "Introduction",
+      "level": 1,
       "blocks": [
         {
           "type": "paragraph",
-          "text": "This page is rendered entirely on the AJPC website. After the article synchronization script is run, the same layout displays the complete PMC JATS record without sending readers to ScienceDirect or PMC."
+          "html": "Atherosclerotic cardiovascular disease (ASCVD) is the leading global cause of morbidity and mortality, affecting nearly half a billion individuals and contributing to &gt;19 million deaths annually [1,2]. Its clinical manifestation, most notably as myocardial infarction or stroke, represents the end-stage of a largely silent, decades-long disease process that often begins in childhood. Although the fatty streak, the hallmark of early atherosclerosis [3], begins with the retention of cholesterol-containing particles in the artery wall, mostly from the cholesterol contained in low-density lipoproteins (LDL-C) [4,5], cardiovascular disease is multifactorial and has a polygenic aetiology [6,7]. Risk factors for ASCVD such as hypertension, diabetes, and smoking result in arterial wall injury, resulting in greater retention of cholesterol-containing lipoproteins at lower circulating plasma lipid levels [8,9]. Hence, the relative risk reduction (RRR) per 1mmol/L absolute lowering is relatively constant irrespective of the drivers of risk, whether that be diabetes, hypertension, smoking, low HDL-C or high LDL-C [10]. However, the absolute benefit from per 1mmol/L LDL-C lowering varies by baseline risk and is greater when baseline risk is higher [10]."
         },
         {
           "type": "paragraph",
-          "text": "The importer preserves article sections, paragraphs, lists, figures, tables, references, DOI and PMCID provenance, and the Creative Commons attribution statement."
+          "html": "Unlike cancer management, where the focus is on detection and management of cancer-risk early [11], current prevention strategies for ASCVD adopt a risk-based approach, prioritizing more intensive therapy for those with the highest baseline-risk [12]. While pragmatic for cost-effectiveness, populations targeted by these approaches are more likely to have a greater atherosclerotic plaque burden [13] and more advanced atherosclerotic disease [14]. These plaques are less susceptible to stabilization or regression [15] from single first-line therapies such as statins alone [16,17] resulting in the need for adjunctive lipid-lowering therapies [[18], [19], [20]]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Current recommendations are informed by randomized controlled trials (RCTs), which, despite demonstrating a ∼25 % risk reduction in primary prevention [21,22], typically span only 3–5 years and, in low-risk populations, provide little impetus for the consideration of the potential longer-term health gains which might be afforded by initiating preventive therapies at lower-risk [5], potentially delaying the need for initiation of add-on lipid-lowering-therapies. By contrast, Mendelian randomization captures long-term exposure and has shown a 50–60 % proportional reduction in risk of cardiovascular events per 1mmol/L LDL-C difference [5]. However, its non-interventional design cannot replace RCTs [23]. Moreover, whether the benefits observed in human genetic studies are derived solely from cumulative exposure to lower LDL-C or from plausibly the benefits of LDL-C lowering initiated against an absence of pre-existing atherosclerosis from birth or both cannot be distinguished [5,23]. This limits its direct applicability to guideline recommendations. Trial data have shown that LDL-C lowering is beneficial even at annualized risk of 0.3 % per year [24] and both major global guidelines recommend that LDL-C lowering should be considered even among those with a 10-year risk in the 2–3 % range [12,25]. That said, modest short-term absolute benefits in lower-risk individuals may, for some, not justify the potential longer-term benefits from treatment initiation at lower-risk levels [26]."
+        },
+        {
+          "type": "paragraph",
+          "html": "If randomized controlled trial (RCT) evidence demonstrated that a given unit of LDL-C lowering provided a greater proportional risk reduction at lower event rates [27], it could provide a rationale for physicians and patients to consider initiation of LLTs in lower-risk primary prevention settings. Our study aimed to conduct a systematic review and analysis of available RCT data to i) evaluate how RRR for major adverse cardiovascular events per mmol/L LDL-C lowering varies by placebo event rate among populations with no or low prevalence of established ASCVD and ii) estimate the magnitude of LDL-C reduction required to achieve a 25 % RRR at varying risk thresholds."
         }
       ]
     },
     {
-      "title": "Publication summary",
+      "title": "Methods",
+      "level": 1,
       "blocks": [
         {
           "type": "paragraph",
-          "text": "The analysis evaluated randomized trials of pharmacologic LDL-C lowering in primary prevention and examined whether baseline cardiovascular event rates modified the relative benefit associated with LDL-C reduction."
+          "html": "This systematic review, prospectively registered on PROSPERO (CRD420251155320) and reported according to the Preferred Reporting Items for Systematic Reviews (<strong>Supplemental Table 1</strong>) guidelines [28,29], identified, evaluated, and synthesized evidence on the cardiovascular risk-reduction effects of statin and non-statin therapies in populations with low or no prevalence of established ASCVD, across varying baseline cardiovascular risk. Relative risk reductions per 1mmol/L across a range of event rates from the Cholesterol Treatment Trialists’ Collaboration 2012 (CTT-2012) were used to contextualize findings. A trial-level meta-analytic framework pooled randomized evidence and assessed effect modification of LDL-C–associated risk reduction by baseline cardiovascular risk (proxied by placebo event rates)."
+        }
+      ]
+    },
+    {
+      "title": "Eligibility criteria",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Studies were selected based on predefined inclusion and exclusion criteria (<strong>Supplemental Table 2</strong>). Eligible studies were completed RCTs (and one ongoing RCT for exploratory analyses only) that enrolled participants with low or no prevalence of clinically manifest ASCVD, where ASCVD was defined as coronary artery disease (including myocardial infarction or coronary revascularization), cerebral vascular disease (including stroke or transient ischaemic attack), or other atherosclerotic complications. Trials that enrolled mixed populations (participants with or without established ASCVD) were included only if the primary prevention subgroup was reported separately, or if participants with ASCVD comprised ≤20 % of the study population [22]. Only RCTs that evaluated lipid-lowering therapy (LLT) compared with placebo or usual care were included. Additionally, eligible trials were required to report either 3-point major adverse cardiovascular events (3P-MACE), defined as the composite of non-fatal myocardial infarction, non-fatal stroke, and cardiovascular death, or its individual components. Trials were excluded if they enrolled fewer than 1000 participants, had a median follow-up of &lt;1 year, or were still ongoing without published baseline characteristics as of March 2026."
+        }
+      ]
+    },
+    {
+      "title": "Data sources and search strategy",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "A comprehensive systematic search was conducted in Embase (Ovid), Medline (Ovid), and the Cochrane Central Register of Controlled Trials (CENTRAL) via the Cochrane Library. Structured search strategies were developed and conducted for each database from inception to March 30, 2026. To ensure comprehensive retrieval, controlled vocabulary terms (Medical Subject Headings and Emtree terms) were combined with free-text keywords, as detailed in <strong>Supplemental Tables 3a, 3b, and 3c</strong>."
+        }
+      ]
+    },
+    {
+      "title": "Data extraction",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Two reviewers (CATS and IK) independently screened titles and abstracts using Covidence. Full-text articles were assessed by three reviewers (JB, CATS, IK) against predefined criteria, with discrepancies resolved by consensus and an additional reviewer (KKR, JB, CATS, IK). Data were extracted independently by two reviewers (CATS and IK) using a standardized extraction form capturing study, participant, intervention, and study outcome characteristics (<strong>Supplemental Table 4</strong>)."
+        }
+      ]
+    },
+    {
+      "title": "Quality assessment",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Two reviewers (CATS and IK) independently assessed risk of bias using the Cochrane Risk of Bias tool 2.0 [30], resolving discrepancies through discussions."
+        }
+      ]
+    },
+    {
+      "title": "Study outcomes",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The primary outcome was 3P-MACE, defined as the composite of non-fatal myocardial infarction, non-fatal stroke, and cardiovascular death. For trials that did not directly report 3P-MACE, the composite was estimated using inverse-variance weighting of the individual 3P-MACE components."
+        }
+      ]
+    },
+    {
+      "title": "Data analysis",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "title": "Trial-level characteristics and derived variables",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "For each completed trial, the mean absolute LDL-C reduction from the intervention was calculated as the average of the between-group LDL-C change from baseline at one year and at study completion. The annualized placebo event rate was calculated by dividing the 3P-MACE rate for the control arm of each trial by the median follow-up duration; when 3P-MACE was not reported directly, the annualized placebo event rate was approximated as the sum of the annualized rates of the individual 3P-MACE components. Relative risk reduction per mmol/L LDL-C lowering was used to characterize proportional treatment effects across trial populations. Although absolute risk reduction and number needed to treat are central to clinical decision-making, these measures scale directly with baseline event rates and were therefore not the primary focus of this analysis."
+        }
+      ]
+    },
+    {
+      "title": "Relationship between baseline risk and RRR using CTT-2012 estimates",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "To contextualize the relationship between baseline cardiovascular risk and LDL-C–associated risk reduction, published summary data from the CTT-2012 meta-analysis for participants without established cardiovascular disease were plotted [21] (assuming a log-linear relationship between RRR and absolute LDL-C lowering). Linear regression was used to generate best-fit regression lines for the relative risk reduction (RRR) per 1 mmol/L LDL-C lowering across annual placebo event rates, which represented 5-year baseline risk strata in CTT-2012. In CTT-2012, observed events were major vascular events defined as major coronary events (ie, non-fatal myocardial infarction or coronary death), strokes, or coronary revascularizations. From the fitted regression equation, the LDL-C reduction required to achieve a 25 % RRR was estimated for each placebo event rate category in CTT-2012."
         },
         {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "17 randomized trials",
-            "105,879 participants",
-            "Earlier treatment in lower-risk populations was associated with greater relative benefit per unit of LDL-C reduction"
-          ]
+          "type": "paragraph",
+          "html": "Trials not included in CTT-2012 were plotted using their observed RRR and 95 % CI and observed LDL-C difference against the slopes of the CTT-2012 estimates to assess whether these trials followed a similar pattern. Two trials [31,32] were plotted using a CTT endpoint (as this was reported), whereas the remaining trials were plotted using their 3P-MACE endpoints."
+        }
+      ]
+    },
+    {
+      "title": "Relationship between baseline risk and RRR using effect modification meta-analysis",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Trial-level data of all available RCTs were included in a mixed-effects meta-regression to assess whether the annualized placebo event rate modified the RRR for 3P-MACE. To enable comparison across trials with differing magnitudes of LDL-C lowering, treatment effects were standardized by expressing the 3P-MACE hazard ratio (HR) per 1 mmol/L reduction in LDL-C. For each trial, the reported HR for 3P-MACE was log-transformed and divided by the trial’s mean absolute LDL-C reduction between treatment groups. Then the exponent of the resulting coefficient was used to obtain the standardized HR per 1 mmol/L LDL-C reduction. The corresponding RRR was obtained as 1-standardized HR."
+        },
+        {
+          "type": "paragraph",
+          "html": "For each trial, the number needed to treat (NNT) to prevent one 3P-MACE event over 5 years per 1 mmol/L reduction in LDL-C was estimated as the reciprocal of the standardized 5-year absolute risk reduction. The relationship between NNT and baseline cardiovascular risk was assessed using weighted meta-regression."
+        },
+        {
+          "type": "paragraph",
+          "html": "To assess whether RRR per 1 mmol/L LDL-C reduction differed between trials independently of baseline risk, a mixed effects meta-regression model was conducted by drug class while adjusting for placebo event rate."
+        },
+        {
+          "type": "paragraph",
+          "html": "Sensitivity analyses were conducted for trials enrolling participants with 0 % ASCVD prevalence and for individual components of 3P-MACE (non-fatal myocardial infarction, non-fatal stroke, and cardiovascular death). For each component, treatment effects were standardized per 1 mmol/L LDL-C reduction and analyzed using the same meta-regression framework to assess effect modification by baseline risk. Further details for subgroup analyses are provided in the supplementary methods."
+        }
+      ]
+    },
+    {
+      "title": "Estimation of LDL-C reduction required for a 25 % risk reduction",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The target RRR of 25 % was selected a priori based on the aggregate treatment effect observed in the population without established ASCVD of the CTT-2012 meta-analysis, reflecting the cumulative cardiovascular benefit per mmol/L LDL-C lowering [21]. We estimated the LDL-C reduction corresponding to a 25 % RRR in 3P-MACE by dividing each trial’s mean absolute LDL-C reduction by its observed 3P-MACE RRR and multiplying by 25. These trial-level estimates were plotted against the placebo event rate, and a best-fit line was obtained using linear regression."
+        }
+      ]
+    },
+    {
+      "title": "Ethical considerations",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This study was based on secondary analysis of publicly available data from published studies; hence, separate ethical approval was not required."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Systematic database searches identified 2183 records (Embase: 1162, MEDLINE: 611, and CENTRAL: 410); after duplicate removal, 1711 were screened, of which 68 underwent full-text evaluation. Eighteen RCTs met inclusion criteria (<strong>Supplemental Figure 1</strong>) [24,[31], [32], [33], [34], [35], [36], [37], [38], [39], [40], [41], [42], [43], [44], [45], [46], [47]], of which 17 were completed [24,[31], [32], [33], [34], [35], [36], [37], [38], [39], [40], [41], [42], [43], [44], [45], [46]], while one remains ongoing with available baseline participant data [47]."
+        }
+      ]
+    },
+    {
+      "title": "Characteristics and outcomes of completed RCTs",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The 17 completed trials enrolled 105,879 participants (median follow-up duration of 4.4 years), reporting 6076 3P-MACE events. Twelve trials evaluated statin therapy [24,[33], [34], [35], [36], [37], [38], [39], [40],[43], [44], [45]], two trials evaluated statins in combination with ezetimibe [41,42], and three evaluated non-statin therapies: ezetimibe [46], bempedoic acid [31], and a Proprotein Convertase Subtilisin/Kexin Type 9 (PCSK9) inhibitor [32]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Trial populations were diverse, encompassing individuals with hypertension [36], diabetes [32,37,39], chronic kidney disease [42], Human Immunodeficiency Virus [24] and rheumatoid arthritis [45]. Age distributions extended to elderly individuals [35,46], with the highest mean age of 80.6 years [46]. Gender representation was also notably diverse, with the proportion of male participants ranging from 25 % [46] to 100 % [33]. Although most trials enrolled individuals without clinically manifest ASCVD [24,31,32,34,35,[37], [38], [39], [40], [41],[43], [44], [45]], four studies had a small proportion of patients with established ASCVD, reaching up to approximately 15 % [33,36,42,46]. Use of background LLT was low (&lt;30 %) across trials, with one notable exception where &gt;90 % of participants were on LLT at baseline and during follow-up [32]. Further details on trial characteristics are provided in Tables 1 <strong>and Supplemental Table 5.</strong>Table 1Design, features, and population characteristics of completed statin and non-statin trials included in this study.Table 1: dummy alt textTrialTotal NPopulationFollow-up (years)aAge (years)bFemale, n ( %)Baseline LDL-C (mmol/L)cBMI (kg/m²)dSBP (mmHg)eHypertension, n ( %)DM, n ( %)Current smoker, n ( %)fPrior ASCVD, n ( %)<strong>TRIALS REPORTED IN CTT-2012 META-ANALYSIS</strong>WOSCOPS [33]659545–64-year-old men, LDL-<em>C</em> ≥ 4.0 mmol/L4.955.2 ± 5.50(0.0)4.9726.0 ± 3.2135.5 ± 17.51037 (15.7)76(1.2)2905 (44.0)531 (8.1)AFCAPS/TeXCAPS [34]6605Adults, LDL-C 3.4–7.9mmol/L, HDL&lt;1.2mmol/L5.258.0 ± 7.0997 (15.1)3.8926.8 ± 3.4138.0 ± 17.01448 (21.9)155 (2.3)818(12.4)0 (0.0)PROSPERg<sup>,</sup>h [35]3239Elderly, 70–82 years with high ASCVD risk3.875.1 ± 3.31894 (58.5)3.8026.9 ± 4.3156.8 ± 21.51621 (50.0)397 (12.3)1081 (33.4)0 (0.0)ASCOT-LLA [36]10,305Hypertensive (40–79 years) TC ≤6·5 mmol/L3.363.1 ± 8.51942 (18.8)3.4428.6 ± 4.7164.2 ± 17.810,305 (100.0)2532 (24.6)3374 (32.7)1514 (14.7)CARDS [37]2838Type 2 DM (40–75 years), LDL-<em>C</em> ≤ 4·1 mmol/L3.961.6 ± 8.2909 (32.0)3.0428.7 ± 3.6144.0 ± 16.02377 (83.8)2838 (100.0)631(22.2)0 (0.0)MEGA [38]783240–70 years, TC 5·69–6·98 mmol/L5.358.3 ± 7.25356 (68.4)4.0523.8 ± 3.0132.2 ± 16.83277 (41.8)1632 (20.8)1614 (20.6)0 (0.0)ASPENg [39]1905Type 2 DM (40–75 years), LDL-<em>C</em> ≤ 4.1 mmol/L460.5 ± 8.3718 (37.7)2.9528.9 ± 3.7133.0 ± 16.8540 (28.3)1905 (100.0)251 (13.2)0 (0.0)JUPITER [40]17,802Adults, LDL-<em>C</em> ≤ 3.4 mmol/L hs-CRP ≥ 2.0mg/L1.966.0 (60.0–71.0)6801 (38.2)2.7928.4(25.3–32.0)134.0(124.0–145.0)NRNR2820 (15.8)0 (0.0)<strong>TRIALS NOT REPORTED IN CTT-2012 META-ANALYSIS</strong>SEAS [41]1873Asymptomatic mild-moderate AS (≥ 65 years)4.467.6 ± 9.5723 (38.6)3.6226.9 ± 4.3144.8 ± 20.2965 (51.5)NR360 (19.2)0 (0.0)SHARP [42]9270Patients aged 40 years and older with CKD4.962.0 ± 12.03470 (37.4)2.7727.1 ± 5.7139.0 ± 22.0NR2094 (22.6)1234 (13.3)1393 (15.0)HOPE-3 [43]12,705Men ≥ 55 years or women ≥ 65 years at ASCVD risk5.665.8 ± 6.43435 (27.0)3.3127.1 ± 4.8138.0 ± 14.84814 (37.9)731 (5.8)3524 (27.7)0 (0.0)ALLHAT-LLTg [44]2867Individuals ≥65 years with stage 1 or 2 hypertension5.671.3 ± 5.21415 (49.4)3.8229.5 ± 5.8147.5 ± 15.42867 (100.0)1463 (51.0)641 (22.4)0 (0.0)TRACE-RA [45]3002Rheumatoid arthritis in &gt;50 years old individuals2.561.0 ± 8.42227 (74.2)3.2026.6(23.9–30.1)NR667 (22.2)NR469 (15.6)0 (0.0)EWTOPIA 75 [46]3411Individuals ≥75 years, with LDL-<em>C</em> ≥ 3.6 mmol/L4.180.6 ± 4.72539 (74.4)4.1923.6 ± 3.6136.4 ± 15.93029 (88.8)867 (25.4)171 (5.0)344 (10.1)REPRIEVE [24]7769Patients aged 40–75 years with HIV5.150.0(45.0–55.0)2419 (31.1)2.7925.8(22.8–29.4)NR2774 (35.7)37(0.5)1934 (24.9)0 (0.0)CLEAR Outcomesg [31]420618–85-year-old individuals, LDL-<em>C</em> ≥ 2.6mmol/L3.368.0 ± 6.82481 (59.0)3.6930.3 ± 5.4135.8 ± 13.73707 (88.1)2781 (66.1)NR0 (0.0)VESALIUS-CVg [32]3655Men ≥ 50–79 or women ≥ 55–79, LDL-<em>C</em> ≥ 2.3 mmol/L4.865.0(60.0–70.0)5214 (42.5)3.1331.4(28.0–35.5)NR3299 (88.3)3650 (99.9)1009 (27.6)0 (0.0)<strong>Overall</strong> (<strong>weighted</strong>)i<strong>105,879</strong><strong>4.4</strong><strong>63.0</strong><strong>±</strong><strong>10.0</strong><strong>39,392</strong> (<strong>37.2</strong>)<strong>3.40</strong><strong>27.4</strong><strong>±</strong><strong>4.9</strong><strong>140.7</strong><strong>±</strong><strong>19.7</strong><strong>42,657</strong> (<strong>54.1</strong>)<strong>21,158</strong> (<strong>25.4</strong>)<strong>22,836</strong> (<strong>22.5</strong>)<strong>3782</strong> (<strong>3.6</strong>)aAge reported as median (Q25-Q75) in JUPITER, REPRIEVE, and VESALIUS-CV; otherwise, all other ages are mean ± SD.bFollow-up duration reported as mean in WOSCOPS, AFCAPS/TeXCAPS, PROSPER, and MEGA; otherwise, median in all other trials.cBaseline LDL-C reported as median in JUPITER, TRACE-RA, REPRIEVE, and VESALIUS-CV. To convert LDL-C from mmol/L to mg/dL, multiply by 38.67.dBMI reported as median in JUPITER, TRACE-RA, REPRIEVE, and VESALIUS-CV; otherwise mean in all other trials.eSBP reported as median in JUPITER and mean in all other trials.fSmoking status reported as “current smoker” in all trials except in MEGA, where it is reported as “current/former smoker..”gPrimary prevention cohort results (ASCVD prevalence 0 %) from mixed population trials (PROSPER, ASPEN, ALLHAT-LLT, CLEAR Outcomes and VESALIUS-CV) were included in this analysis.hAll Baseline characteristics for PROSPER, except for LDL-C, were calculated from counts reported by Ian Ford et al. [48]. The baseline LDL-C for PROSPER was reported by Chris J Packard et al. [49].IDenominator based on trials reporting the given variable.AFCAPS/TeXCAPS; Air Force/Texas Coronary Atherosclerosis Prevention Study, ALLHAT-LLT; Antihypertensive and Lipid-Lowering Treatment to Prevent Heart Attack Trial-Lipid Lowering Trial, ASCOT-LLA; Anglo-Scandinavian Cardiac Outcomes Trial-Lipid Lowering Arm, ASCVD; atherosclerotic cardiovascular disease, ASPEN; Atorvastatin Study for Prevention of Coronary Heart Disease Endpoints in Non-Insulin-Dependent Diabetes Mellitus, CARDS; Collaborative Atorvastatin Diabetes Study, CHD; coronary heart disease, CLEAR Outcomes; Cholesterol Lowering via Bempedoic Acid, an ACL-Inhibiting Regimen Outcomes, CVD; cardiovascular disease, DM; diabetes mellitus, EWTOPIA 75; Ezetimibe Lipid-Lowering Trial On Prevention of Atherosclerosis in 75 or Older; HIV; human immunodeficiency virus, HOPE-3; Heart Outcomes Prevention Evaluation-3, hs-CRP; high sensitivity C-reactive protein, JUPITER; Justification for the Use of Statins in Prevention: an Intervention Trial Evaluating Rosuvastatin, LDL-C; low density lipoprotein cholesterol, MEGA; Management of Elevated Cholesterol in the Primary Prevention Group of Adult Japanese, MI; myocardial infarction, NCEP; national cholesterol education program, PP; Primary prevention, PROSPER; PROspective Study of Pravastatin in the Elderly at Risk, REPRIEVE; Randomized Trial to Prevent Vascular Events in HIV, SEAS; Simvastatin and Ezetimibe in Aortic Stenosis, SHARP; Study of Heart and Renal Protection, TRACE-RA; Trial of Atorvastatin for the Primary Prevention of Cardiovascular Events in Patients with Rheumatoid Arthritis, VESALIUS-CV; The Effect of Evolocumab in Patients at High Cardiovascular Risk without Prior Myocardial Infarction or Stroke, WOSCOPS; West of Scotland Coronary Prevention Study."
+        },
+        {
+          "type": "paragraph",
+          "html": "Key outcomes, including changes in LDL-C, cardiovascular outcomes for 3P-MACE, and annualized placebo event rates for the eligible trials, are shown in Table 2. The mean absolute LDL-C reduction between treatment groups across the trials ranged from 0.38 mmol/L [31,38] to 1.95 mmol/L [41]. Baseline risk, approximated by the annualized placebo event rate for 3P-MACE, varied across trials. The lowest annualized placebo event rates (&lt;1 %/year) were observed in three trials (0.52 %, 0.54 %, and 0.65 %), which enrolled slightly younger populations, with a median age below 60 years [24,34,38]. On the other hand, the highest placebo event rates that exceeded 3 %/year were observed in two trials involving elderly patients [35] or those with significant renal impairment [42]. Irrespective of age, trials with a placebo event rate greater than 1 % had more male participants, current smokers, and a higher prevalence of hypertension and diabetes, as shown in <strong>Supplemental Table 6.</strong>Table 2Key outcomes of completed statin and non-statin primary prevention trials included in the current analysis.Table 2: dummy alt textTrialLipid OutcomesCardiovascular outcomesLDL-C at 1 year, mmol/LLDL-C at study completion in intervention arm, mmol/LAbsolute LDL-C change between arms at 1 year, mmol/LAbsolute LDL-C change between arms at study completion, mmol/LMean absolute LDL-C reduction, mmol/LStudy armParticipants (n)Non-fatal MINon-fatal strokeCV deathTotal event countHR (95 % CI) for 3P-MACEa (unstandardised)HR (95 % CI) for 3P-MACE (standardised)bAnnual placebo event rate ( %)<strong>TRIALS REPORTED IN CTT-2012 META-ANALYSIS</strong>WOSCOPS [33]3.854.111.120.860.99Placebo329324647733660.74(0.63–0.87)0.74(0.63, 0.87)2.27Pravastatin (40 mg)33021824050272AFCAPS/TeXCAPSc [34]2.96NR0.92NR0.92Placebo33019517251370.63(0.47–0.85)0.61(0.44, 0.84)0.65Lovastatin (20–40 mg)330457141788PROSPER [35] d<sup>,</sup>f<sup>,</sup>gNR2.50NR1.301.30Placebo1654NRNRNR2000.94(0.77–1.16)0.96(0.82, 1.12)3.78Pravastatin (40 mg)1585NRNRNR181ASCOT-LLA [36] c2.252.321.201.951.08Placebo5137154121823570.68(0.57–0.82)0.70(0.59, 0.83)1.62Atorvastatin (10 mg)51681008974263CARDS [37]1.862.111.241.011.13Placebo14104130291000.63(0.46–0.87)0.67(0.50, 0.88)1.82Atorvastatin (10 mg)142825201964MEGA [38]3.303.170.670.500.59NCEP step 1 diet39663062181100.72(0.54–0.96)0.57(0.35, 0.93)0.52NCEP step 1 diet + Pravastatin (10–20 mg)386616501177ASPEN [39] c<sup>,</sup>fNR2.05NR0.900.90Placebo946342919820.95(0.70–1.29)0.85(0.57, 1.27)1.66Atorvastatin (10 mg)95928272479JUPITER [40]1.421.421.421.391.41Placebo89016258371570.53(0.41–0.69)0.64(0.53, 0.77)0.93Rosuvastatin (20 mg)890122303183<strong>TRIALS NOT REPORTED IN CTT-2012 META-ANALYSIS</strong>SEAS [41]NR1.67NR1.951.95Placebo9292629561110.86(0.66–1.13)0.93(0.80, 1.06)2.72Simvastatin (40 mg) + ezetimibe (10 mg)94417334797SHARP [42]1.691.931.090.770.93Placebo46201591333886800.88 (0.79–0.98)0.87(0.78, 0.98)3.00Simvastatin (20 mg) + ezetimibe (10 mg)4650134108361603HOPE-3 [43] e2.292.251.020.760.89Placebo634469991713390.76(0.64–0.91)0.73(0.60, 0.90)0.86Rosuvastatin (10 mg)63614570154269ALLHAT-LLT [44] f<sup>,</sup>g2.912.820.620.510.57Usual care + NCEP step 1 diet14007852872170.93(0.77–1.13)0.88(0.63, 1.23)2.77NCEP step 1 diet + Pravastatin (40 mg)14675853101212TRACE-RA [45]NR2.21NR0.770.77Placebo149820126380.60(0.36–1.01)0.52(0.26, 1.02)1.01Atorvastatin (40 mg)1504116623EWTOPIA 75 [46]3.263.110.470.290.38Dietary counseling16951654451150.72(0.55–0.96)0.61(0.40, 0.93)1.65Dietary counseling + ezetimibe (10 mg)17168472984REPRIEVE [24]1.992.070.800.600.70Placebo38814744161070.63(0.46–0.85)0.51(0.33 0.79)0.54Pitavastatin (4 mg)388826291267CLEAR Outcomes [31] e<sup>,</sup>f<sup>,</sup>h2.922.870.600.320.60Placebo21064433651420.64(0.48–0.84)0.48 (0.30, 0.76)1.93Bempedoic acid (180 mg)210028263791VESALIUS-CV [32] e<sup>,</sup>f1.341.141.531.581.56Placebo18065340631560.68(0.52–0.88)0.78 (0.66, 0.92)1.58Evolocumab (140 mg)1846372844109a3P-MACE endpoint for this study was defined as non-fatal MI, non-fatal stroke, and cardiovascular death.b3P-MACE standardized per 1 mmol/L LDL-C reduction obtained by dividing the log-transformed unstandardized HR by the average absolute LDL-C reduction achieved in each trial and transforming it back to the original HR format by exponentiation.cCounts for MI and stroke were reported as combined counts for fatal and non-fatal events in AFCAPS/TeXCAPS, ASCOT-LLA, and ASPEN. For these trials, the 3P-MACE endpoint and the annual placebo event rate were calculated from counts of fatal and non-fatal events, excluding CV death.dThe composite total event count and HR reported in PROSPER comprised non-fatal MI, fatal/non-fatal stroke, and CHD death.eThe Composite total event count and HR for 3P-MACE reported in HOPE-3, CLEAR Outcomes, and VESALIUS-CV were used in all analyses, not those derived from summing individual components.fPrimary prevention cohort results (ASCVD prevalence 0 %) from mixed population trials (PROSPER, ASPEN, ALLHAT-LLT, CLEAR Outcomes and VESALIUS-CV) were included in this analysis.gLDL-C change from baseline for PROSPER (at 3 months) was reported by Chris J Packard et al. [49]. The earliest LDL-C change from baseline reported in ALLHAT-LLT is at 2 years.hFor CLEAR Outcomes, LDL-C absolute change between-groups at 1 year was reported by Lincoff et al. [51]. Time-averaged between-group change in LDL-C, over study follow-up, used as reported by Nissen et al. [31]. Nonfatal MI and nonfatal stroke counts are from data on file, reported by Nissen et al. [50]To convert mmol/L to mg/dL, multiply by 38.67AFCAPS/TeXCAPS; Air Force/Texas Coronary Atherosclerosis Prevention Study, ALLHAT-LLT; Antihypertensive and Lipid-Lowering Treatment to Prevent Heart Attack Trial-Lipid Lowering Trial, ASCOT-LLA; Anglo-Scandinavian Cardiac Outcomes Trial-Lipid Lowering Arm, ASPEN; Atorvastatin Study for Prevention of Coronary Heart Disease Endpoints in Non-Insulin-Dependent Diabetes Mellitus, CARDS; Collaborative Atorvastatin Diabetes Study, CLEAR Outcomes; Cholesterol Lowering via Bempedoic Acid, an ACL-Inhibiting Regimen Outcomes, CV; cardiovascular, EWTOPIA 75; Ezetimibe Lipid-Lowering Trial On Prevention of Atherosclerosis in 75 or Older; HOPE-3; Heart Outcomes Prevention Evaluation-3, HR; hazard ratio, JUPITER; Justification for the Use of Statins in Prevention: an Intervention Trial Evaluating Rosuvastatin, LDL-C; low density lipoprotein cholesterol, MEGA; Management of Elevated Cholesterol in the Primary Prevention Group of Adult Japanese, MI; myocardial infarction, NA; not available, PROSPER; PROspective Study of Pravastatin in the Elderly at Risk, REPRIEVE; Randomized Trial to Prevent Vascular Events in HIV, RRR; relative risk reduction, SEAS; Simvastatin and Ezetimibe in Aortic Stenosis, SHARP; Study of Heart and Renal Protection, TRACE-RA; Trial of Atorvastatin for the Primary Prevention of Cardiovascular Events in Patients with Rheumatoid Arthritis, VESALIUS-CV; The Effect of Evolocumab in Patients at High Cardiovascular Risk without Prior Myocardial Infarction or Stroke, WOSCOPS; West of Scotland Coronary Prevention Study, 3P-MACE; 3-point major adverse cardiovascular event."
+        }
+      ]
+    },
+    {
+      "title": "Analyses using estimates from the cholesterol treatment trialists’ collaboration (CTT-2012)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We used risk-stratified effect estimates from the CTT-2012 primary-prevention subgroup to contextualize our analyses. Eight [[33], [34], [35], [36], [37], [38], [39], [40]] of the 17 completed trials in our study contributed data to the CTT-2012 primary prevention population, and the remaining 9 trials [24,31,32,[41], [42], [43], [44], [45], [46]] were not included in CTT-2012. Overall, among primary prevention participants in CTT-2012, each mmol/L reduction in LDL-C from statin therapy decreased the risk of a MACE by 25 % [21]. The event rate categories and their corresponding RRR, as reported by CTT-2012 and utilized in the present study, are detailed in <strong>Supplemental Table 7.</strong> The relative risk reduction in cardiovascular events varied across the CTT-2012 risk strata. In individuals with an annual placebo event rate &lt;1 %/year, the relative risk of an event was reduced by 39 %, which further decreased to 34 % in those with a placebo event rate of 1-&lt;2 %/year. By contrast, as placebo event rates exceeded 6 %/year, the relative risk reduction per 1 mmol/L LDL-C lowering fell to around 17 % (Fig. 1<strong>A</strong>).Fig. 1RRR by risk threshold (event rates) using CTT-2012 estimates for major cardiovascular events (<strong>1A</strong>) and alongside the CTT 2012 framework with trials not included in the CTT-2012 report (<strong>1B</strong>). <strong>1A:</strong> RRR per 1 mmol/L LDL-C lowering across annual placebo event rates in CTT-2012 (using between group LDL-C differences at 1year). <strong>1B:</strong> RRR for trials not included in CTT-2012 plotted using the mean (during the overall trial) between-group differences in the absolute LDL-C reductions for each treatment group within each trial. Regression lines represent the RRR per 1 mmol/L LDL-C lowering across annualized placebo event rates, corresponding to 5-year baseline cardiovascular risk categories among primary prevention participants in the CTT-2012. Colors indicate placebo event rate categories. Squares represent individual trials, with size proportional to study weight. RRR attenuates with increasing annual placebo event rates in CTT-2012 meta-analysis and in trials not included in CTT-2012. *Upper CI for LDL-C corresponding to placebo event rate ≥6 is undefined as the HR (99 % CI) for this stratum crossed the null. *CLEAR Outcomes and VESALIUS-CV estimates correspond to the unstandardized CTT-2012 endpoint reported by Lincoff et al [51] and Marston [32], respectively. Estimates for all other trials are for unstandardized 3P-MACE. ALLHAT-LLT; antihypertensive and lipid-lowering treatment to prevent heart attack trial–lipid-lowering trial, CLEAR Outcomes; cholesterol lowering via bempedoic acid, an ACL-inhibiting regimen, EWTOPIA 75; ezetimibe lipid-lowering trial on prevention of atherosclerotic cardiovascular disease in 75 or older, HOPE-3; heart outcomes prevention evaluation-3 trial, REPRIEVE; randomized trial to prevent vascular events in HIV, RRR; relative risk reduction; SEAS; simvastatin and ezetimibe in aortic stenosis, SHARP; study of heart and renal protection, TRACE-RA; Trial of Atorvastatin for the Primary Prevention of Cardiovascular Events in Patients with Rheumatoid Arthritis. VESALIUS-CV; The Effect of Evolocumab in Patients at High Cardiovascular Risk without Prior Myocardial Infarction or Stroke.Fig 1: dummy alt text"
+        },
+        {
+          "type": "paragraph",
+          "html": "Additionally, the absolute LDL-C required to achieve a 25 % RRR increased with higher baseline risk thresholds. In the lower baseline risk categories (placebo event rates &lt;1 % and ≥1-&lt;2 %/year), a 25 % RRR was achieved with small LDL-C reductions of approximately 0.66 and 0.74 mmol/L, respectively. By contrast, the higher baseline risk categories (placebo event rates ≥2-&lt;6 % and ≥6 %/year) required greater LDL-C reductions of approximately 1.39 mmol/L and 1.47 mmol/L, respectively, to attain the same 25 % RRR (Fig. 1<strong>A</strong>)<strong>.</strong>"
+        },
+        {
+          "type": "paragraph",
+          "html": "The 9 trials not included in the CTT-2012 publication evaluated both statin and non-statin therapies, and only a minority (<em>N</em> = 2) enrolled populations with a low prevalence of clinically evident ASCVD [42,46]. The majority of the trials were closely aligned with the CTT estimates, with their confidence intervals crossing the CTT-2012 regression lines, which corresponded to the respective annualized placebo event rate for a given trial (Fig. 1<strong>B</strong>). This pattern was consistent when the trial estimates were standardized to a per-1 mmol/L LDL-C reduction (<strong>Supplemental Figure 2</strong>) and when analyses were restricted to trials with no (0 %) clinically evident ASCVD (<strong>Supplemental Figure 3</strong>)<strong>.</strong> A similar trend for the 9 trials not included in CTT-2012 was noted, with the RRR attenuating as risk increased, consistent with the CTT-2012 data. The trials with the highest annualized event rates (2.72 %, 2.77 %, and 3.00 %) had the lowest per mmol/L standardized RRRs (7–13 %) [41,42,44], whereas the trial with the lowest event rate (0.54 %) was among those with high standardized per mmol/L RRR (49 %) [24]. One trial (VESALIUS-CV) showed a modest deviation from this pattern; notably, it had ∼90 % background mostly statin LLT use [32]."
+        }
+      ]
+    },
+    {
+      "title": "Analyses of all available trials",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "To further explore these findings, we conducted a meta-regression analysis using trial-level data from all 17 trials of statins and non-statins [24,[31], [32], [33], [34], [35], [36], [37], [38], [39], [40], [41], [42], [43], [44], [45], [46]]. This confirmed that RRR diminished with increasing baseline risk and demonstrated significant effect modification of the 1mmol/L standardized 3P RRR by annualized placebo event rate (p-value: &lt;0.0001), Fig. 2<strong>A.</strong> The meta-regression showed that, for a 1 mmol/L LDL-C reduction, lower-risk populations with an annualized placebo event rate of 1 % derived nearly threefold greater relative benefits (36 % RRR) than those with a placebo event rate of 3 % (13 % RRR). This trend for attenuated benefits at increasing risk thresholds was consistent in sensitivity analyses when restricted to trials enrolling participants with 0 % prevalence of clinically evident ASCVD (<strong>Supplemental Figure 4A</strong>)<strong>,</strong> trials reporting only between-arm LDL-C difference at 1-year (<strong>Supplemental Figure 5</strong>), trials stratified by median duration of follow-up and baseline LDL-C (<strong>Supplemental Figure 6A and 6B</strong>), and with prior observations in CTT-2012 (<strong>Supplemental Table 7 and 8</strong>). Additional sensitivity analyses excluding TRACE-RA (<em>p</em> &lt; 0.0001) or SEAS (<em>p</em> &lt; 0.0001) showed consistent patterns. Across the 17 trials, when RRR was standardized per 1mmol/L LDL-C lowering, the HR was 0.72 (CI 0.68–0.76), I<sup>2</sup> 0 %, <em>p</em> = 0.311. (<strong>Supplemental Figure 7</strong>)<strong>.</strong> Notably, the number needed to treat over 5 years for each mmol/L LDL-C lowering did not differ significantly by baseline risk (<em>P</em> = 0.361) (Fig. 2<strong>B</strong>)<strong>.</strong>Fig. 2Meta-regression of RRR (y axis) in 3PMACE (<strong>2A</strong>) standardized per 1 mmol/L LDL-C lowering as a function of annualized placebo event rate (x axis); NNT to prevent one 3PMACE over 5 years for each 1 mmol/L LDL-C lowering across the range of annualized placebo event rates (<strong>2B</strong>); absolute LDL-C required to achieve a 25 % RRR (<strong>2C</strong>) across increasing annualized placebo event rate. Squares represent individual trials, with size proportional to study weight. Colors indicate placebo event rate categories. The solid line shows the fitted regression line, and dashed lines indicate the 95 % confidence intervals. RRR per 1mmol/L LDL-C lowering diminished with increasing event rate, whereas 5-year NNT remained constant across increasing event rates; the LDL-C reduction required to achieve a 25 % RRR increased as the placebo event rate increased. 3P-MACE: 3-point major adverse cardiovascular event, AFCAPS/TeXCAPS; Air Force/Texas Coronary Atherosclerosis Prevention Study, ALLHAT-LLT; Antihypertensive and Lipid-Lowering Treatment to Prevent Heart Attack Trial-Lipid Lowering Trial, ASCOT-LLA; Anglo-Scandinavian Cardiac Outcomes Trial-Lipid Lowering Arm, ASPEN; Atorvastatin Study for Prevention of Coronary Heart Disease Endpoints in Non-Insulin-Dependent Diabetes Mellitus, CARDS; Collaborative Atorvastatin Diabetes Study, CLEAR Outcomes; Cholesterol Lowering via Bempedoic Acid, an ACL-Inhibiting Regimen Outcomes, EWTOPIA 75; Ezetimibe Lipid-Lowering Trial On Prevention of Atherosclerosis in 75 or Older; HOPE-3; Heart Outcomes Prevention Evaluation-3, JUPITER; Justification for the Use of Statins in Prevention: an Intervention Trial Evaluating Rosuvastatin, MEGA; Management of Elevated Cholesterol in the Primary Prevention Group of Adult Japanese, NNT; Number needed to treat, PROSPER; PROspective Study of Pravastatin in the Elderly at Risk, REPRIEVE; Randomized Trial to Prevent Vascular Events in HIV, SEAS; Simvastatin and Ezetimibe in Aortic Stenosis, SHARP; Study of Heart and Renal Protection, TRACE-RA; Trial of Atorvastatin for the Primary Prevention of Cardiovascular Events in Patients with Rheumatoid Arthritis, VESALIUS-CV; The Effect of Evolocumab in Patients at High Cardiovascular Risk without Prior Myocardial Infarction or Stroke, WOSCOPS; West of Scotland Coronary Prevention Study.Fig 2: dummy alt text"
+        },
+        {
+          "type": "paragraph",
+          "html": "Similar to the observations using CTT-2012 data (8 trials), the totality of the evidence (17 trials) suggested that the absolute LDL-C required to achieve a 25 % RRR needed to increase at higher baseline risk thresholds in both the main and sensitivity analyses (Fig. 2<strong>C and Supplemental Figure 4B</strong>). At a low annualized placebo event rates of 1 %, a modest LDL-C absolute reduction of 0.36 mmol/L was required to achieve a 25 % RRR in 3P-MACE. By contrast, as annualized placebo event rates increased to 2 % and 3 %, the LDL-C reduction required to achieve a 25 % RRR in 3P-MACE similarly rose to 1.72 and 3.09 mmol/L, respectively. This trend was similar in the sensitivity analyses restricted to trials enrolling participants without clinically evident ASCVD. The observed relationship between baseline risk and standardized relative risk reduction was consistent when analyses were restricted to non-fatal myocardial infarction and non-fatal stroke, respectively, but not for cardiovascular death (Fig. 3).Fig. 3Meta-regression showing standardized RRR per 1 mmol/L LDL-C reduction (y axis) plotted against placebo annualized event rate for individual components of 3P-MACE: Nonfatal MI, Nonfatal stroke, and cardiovascular death. Squares represent individual trials, with size proportional to study weight. Colors indicate placebo event rate categories. The solid line shows the fitted regression line, and dashed lines indicate the 95 % confidence intervals. Trials not reporting a given individual 3P-MACE component were excluded from the corresponding component-specific plot (PROSPER: nonfatal MI, nonfatal stroke and cardiovascular death). Trials with a negative RRR for an individual component were included in the analysis but not displayed in the respective plot (SEAS: nonfatal stroke, ASPEN and ALLHAT-LLT: cardiovascular death). AFCAPS/TeXCAPS; Air Force/Texas Coronary Atherosclerosis Prevention Study, ALLHAT-LLT; Antihypertensive and Lipid-Lowering Treatment to Prevent Heart Attack Trial-Lipid Lowering Trial, ASCOT-LLA; Anglo-Scandinavian Cardiac Outcomes Trial-Lipid Lowering Arm, ASPEN; Atorvastatin Study for Prevention of Coronary Heart Disease Endpoints in Non-Insulin-Dependent Diabetes Mellitus, CARDS; Collaborative Atorvastatin Diabetes Study, CLEAR Outcomes; Cholesterol Lowering via Bempedoic Acid, an ACL-Inhibiting Regimen Outcomes, EWTOPIA 75; Ezetimibe Lipid-Lowering Trial On Prevention of Atherosclerosis in 75 or Older; HOPE-3; Heart Outcomes Prevention Evaluation-3, JUPITER; Justification for the Use of Statins in Prevention: an Intervention Trial Evaluating Rosuvastatin, MEGA; Management of Elevated Cholesterol in the Primary Prevention Group of Adult Japanese, PROSPER; PROspective Study of Pravastatin in the Elderly at Risk, REPRIEVE; Randomized Trial to Prevent Vascular Events in HIV, SEAS; Simvastatin and Ezetimibe in Aortic Stenosis, SHARP; Study of Heart and Renal Protection, TRACE-RA; Trial of Atorvastatin for the Primary Prevention of Cardiovascular Events in Patients with Rheumatoid Arthritis, VESALIUS-CV; The Effect of Evolocumab in Patients at High Cardiovascular Risk without Prior Myocardial Infarction or Stroke, WOSCOPS; West of Scotland Coronary Prevention Study.Fig 3: dummy alt text"
+        }
+      ]
+    },
+    {
+      "title": "Risk of bias",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Risk of bias assessments are summarized in <strong>Supplemental Figure 8</strong>. All trials had a low overall risk of bias across all domains, and the certainty of evidence for the 3P-MACE outcome was determined as high overall."
+        }
+      ]
+    },
+    {
+      "title": "Characteristics and predicted outcomes of the ongoing RCT",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "One ongoing trial met the eligibility criteria for this study [47]. This trial is evaluating statin therapy in healthy older adults aged 70 years and above (trial characteristics are provided in <strong>Supplemental Table 9A</strong>)<strong>.</strong> The estimated LDL-C reduction for this trial is 1.31 mmol/L, based on an assumed 40 % LDL-C reduction [52] and the starting baseline LDL-C. The predicted RRR for this trial, for the CTT outcome if event rates were high (&gt;6 % per year) would be ∼22 % and conversely would be predicted to increase to ∼48 % if event rates were very-low (&lt; 1 %) (<strong>Supplemental Table 9B</strong>). Visual predictions of RRR under different scenarios vs CTT-2012 are shown in <strong>Supplemental Figure 9A,</strong> together with completed trials, <strong>Supplemental Figure 9B,</strong> and <strong>Supplemental Figure 10</strong>"
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This systematic review and meta-analysis combined evidence from 17 completed lipid-lowering clinical trials involving 105,879 participants, in populations with no or low prevalence of clinically evident ASCVD. Three key findings emerged (<strong>Central Illustration</strong>). Firstly, trial populations with a lower placebo event rate of 1 %/year derived almost three times the relative benefits as those with event rates exceeding 3 %/year for each 1 mmol/L LDL-C lowering. Secondly, trial populations with lower annualized placebo event rates achieved a 25 % reduction in cardiovascular events with a reduction in LDL-C of &lt;1 mmol/L (approximately 0.4 mmol/L). By comparison, those at higher risk required a six-fold greater reduction in LDL-C (approximately 3 mmol/L) to attain a similar relative benefit. Thirdly, the individual participant data from the 8 trials used in the CTT-2012 meta-analysis showed similar patterns, and while populations varied across trials, the aggregated data from the 9 trials not previously reported in the CTT-2012 were consistent with the CTT-2012 estimates when plotted against their corresponding annual event rates [21]."
+        },
+        {
+          "type": "paragraph",
+          "html": "The findings of the present meta-regression of 17 trials can be contextualized within the established CTT framework. The CTT-2012 meta-analysis demonstrated broadly consistent proportional benefits per 1 mmol/L LDL-C reduction across risk strata in individuals with established ASCVD, in whom plaque burden is likely substantial. However, among individuals without prior cardiovascular events, CTT-2012 reported attenuating proportional benefits as 5-year baseline risk increased [21]. A recent meta-analysis by Kalra et al. included trial data since the CTT-2012 from a total of 14 trials and reported a 30 % RRR per 1mmol/L lowering of LDL-C for a composite 4P-MACE, concluding that this RRR was greater than published benefits in secondary prevention. However, this recent meta-analysis did not quantify how RRR varies continuously across the risk spectrum per unit change in LDL-C, nor estimate the magnitude of LDL-C reduction required to achieve a specific magnitude of relative benefit at different risk thresholds using the harder 3P-MACE endpoint [22]. Our trial-level meta-regression showed the same trend of smaller relative clinical benefits in higher-risk groups, compared to lower-risk groups. This pattern was consistent across therapies and after excluding trials with a low prevalence of ASCVD. Analyses of individual 3P-MACE components followed the same trend, with myocardial infarction and stroke being statistically significant and likely driving the overall composite pattern. A higher RRR in selected primary prevention populations, particularly those with inflammatory conditions [24,40,45], may indicate that populations with heightened inflammation (as manifest by elevated hsCRP), have greater disease modifiability in response to LLTs. However, in trials such as HOPE-3 and ASCOT-LLA, analyses of RRR by tertiles of baseline hsCRP did not show effect modification [43,53]. Alternative explanations for potential trial-level greater RRR could include early trial cessation (JUPITER) [40], which may have inflated the RRR, as well as differences in types of events contributing to the 3P-MACE outcome. The modest deviation observed in VESALIUS-CV might be partially explained by the background LLT use exceeding 90 %, the highest of any included trial, which could attenuate observed placebo event rates for patients already receiving chronic statin therapy versus the untreated state observed in other trials, thereby attenuating the apparent proportional treatment effect from adjunctive LLT."
+        },
+        {
+          "type": "paragraph",
+          "html": "Imaging studies provide a mechanistic rationale for the observations in the present study. For instance, LLTs reduce cardiovascular events by promoting plaque stabilization and slowing plaque progression [16,17,[54], [55], [56], [57]], yet the extent of plaque modification with LDL-C lowering in a given time window depends on the stage of atherosclerotic disease [58]. In early atherogenesis, first-line LLT, particularly statins, can prevent or stabilize nascent lesions [16,17]. In more advanced disease, however, even high-intensity statins, which reduce LDL-C to 1.6–2.0 mmol/L and arrest plaque progression, are unlikely to substantially regress mature plaques [[55], [56], [57]]. Plaque regression requires more intensive LDL-C reduction to on-treatment levels of ∼0.6–0.9 mmol/L, achievable with, for instance, when adjunctive PCSK9-targeting treatments are added [[18], [19], [20]]. These stage-dependent effects suggest that the proportional clinical benefit of a given LDL-C reduction may vary with the timing of intervention and hence with baseline cardiovascular risk, which, in part, may reflect the underlying plaque burden and/or maturity [14,58]. An alternative explanation for the attenuation of relative benefit at higher baseline risk is competing risks. In higher-risk populations, the probability of dying from non-cardiovascular causes, or from non-atherosclerotic cardiovascular causes, may reduce the observable benefit from LDL-C lowering on atherosclerotic events (3P MACE) [59]. This is particularly relevant at the upper end of the event-rate spectrum included in this analysis, where comorbidity burden was likely greater. Disentangling plaque-stage effects from competing risks would require individual-level data with cause-specific mortality adjustment."
+        },
+        {
+          "type": "paragraph",
+          "html": "Our observations of LDL-C reduction through diverse pharmacological pathways align with Mendelian randomization evidence showing that cardiovascular benefit is determined by the magnitude of LDL-C lowering rather than the specific therapeutic pathway [5]. For instance, genetic instruments mimicking statins, ezetimibe, and PCSK9 inhibitors demonstrate broadly consistent relative cardiovascular risk reductions of 19–24 % per 1 mmol/L LDL-C lowering [5], consistent with pharmacological comparisons when matched for treatment duration [60,51]. As such, pleotropic effects of these agents minimally contribute to their cardiovascular benefit [5,60,51]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Current guidelines recommend risk-based initiation of lipid-lowering therapy, with more intensive treatment recommended for those with higher absolute risk [61]. This is supported by health-economic reasoning; as these patients derive greater absolute cardiovascular risk reduction and thus have a smaller number needed to treat, assuming constant relative benefits across risk groups [[62], [63], [64]]. First-line treatment is typically statins, which are cost-effective and are now generic [63]. After an index ASCVD event, the risk of further events remains high, and non-statin add-on therapies such as ezetimibe or PCSK9 inhibitors provide additional RRR of <sub>∼</sub>7 %−15 % [[65], [66], [67]]. PCSK9 inhibitors, although historically limited by cost, have shown cost-effectiveness in high-risk subgroups such as patients with diabetes, peripheral arterial disease, or elevated lipoprotein (a) [64,68]. Our findings, however, offer a nuanced perspective on the assumption of the cost-effectiveness advantage of targeting higher-risk primary prevention populations. Given that the relative benefit attenuated with increasing baseline risk, the expected absolute risk reduction was partially offset, such that the number needed to treat to prevent an event per 5 years for each mmol/L reduction in LDL-C was broadly similar across trial risk strata. While this does not negate the role of absolute risk assessment in shared decision-making, it suggests that withholding LDL-C lowering in lower-risk settings may not be financially justified [69], consistent with evidence that even at borderline risk (5–7.4 % 10-year risk), LDL-C lowering can be cost-saving [62]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Our findings further support the life-course strategy whereby modest LDL-C reductions, even when event rates are low, yield clinically relevant proportional cardiovascular benefits. Anchoring on the CTT-2012 benchmark of a ∼25 % proportional reduction in major vascular events per 1 mmol/L LDL-C lowering [21], our trial-level analyses showed that achieving the 25 % risk reduction in higher-risk populations required reductions of 2 mmol/L or more, levels that are often difficult to attain in routine care and often necessitate combination therapy [[65], [66], [67]]. The 2026 ACC/AHA/Multisociety Dyslipidemia guidelines are evolving towards adopting a life-course approach, recommended strong consideration of statin use in persons at least age 30 who have persistent LDL-C values of &gt;4.2 mmol/l (160 mg/dL), a strong family history of premature ASCVD, or an elevated 30-year risk [25]. Our findings dovetail nicely with these recommendations. If this results in an increase in LLT use in the overall primary prevention population, then based on our data, we would expect a much larger RRR of approximately one-third rather than the average 25 % RRR observed overall in primary prevention populations. It is feasible, therefore, if the present guidelines are better implemented, then in decades to come we may see a significant reduction in incident cardiovascular disease at the population level. Beyond the benefits in the short term, maintaining lower LDL-C levels for longer offers cumulative benefits as recommended in recent guidance [25,70]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Expanding pharmacotherapy to lower-risk populations raises challenges around long-term adherence, which is often suboptimal when perceived short-term benefit is modest, and would require careful risk communication and shared decision-making [71]. In this context, 30-year cardiovascular risk estimates derived from the PREVENT equations may improve targeting by identifying individuals whose short-term risk appears low but who carry a substantially elevated long-term risk profile and stand to derive the greatest cumulative benefit from sustained LDL-C lowering [72]. Better visualization of lifetime benefits, graphically as survival curves or as bar groups, may help to motivate patients instead of the qualitative recommendations, which tend to be the norm. Lipid-lowering therapies, particularly statins, have well-established safety profiles supported by large-scale trials and meta-analyses [21], with serious adverse events uncommon; although modest muscle symptoms and a small excess risk of incident diabetes are observed primarily in those with predisposing risk factors [73]. Non-statin therapies have likewise demonstrated favorable safety and tolerability in clinical trials [74]. Nonetheless, in lower-risk populations where absolute benefit is smaller, long-term adherence and patient preferences become increasingly relevant, underscoring the importance of careful risk communication and shared decision-making when initiating therapy in this group."
+        },
+        {
+          "type": "paragraph",
+          "html": "Although no lifetime RCTs of LDL-C lowering exist, Mendelian randomization studies have shown that lifelong genetically lower LDL-C concentrations yield much larger benefits (∼50 %) than short-term treatment initiated later in life for each mmol/L drop in LDL-C [5]. However, because Mendelian randomization evidence is observational and reflects lifelong genetic differences from an un-diseased state (birth), RCT evidence remains the most reliable basis for pharmacological recommendations in guidelines [23]. In this context, our study provides trial-level evidence that pharmacological LDL-C lowering initiated in lower-risk populations results in a greater proportional reduction in events, supporting the case of starting simple, low-cost generic monotherapies ideally before the fifth decade, when vascular damage may remain largely modifiable [75]."
+        }
+      ]
+    },
+    {
+      "title": "Strengths and limitations",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "A key strength of this study was the comprehensive systematic identification of RCTs enrolling populations with low or no ASCVD prevalence. To address heterogeneity in trial design and follow-up, we standardized the 3P-MACE placebo event rate to an annualized rate and all 3P-MACE outcomes to per 1 mmol/L LDL-C reduction, enabling meaningful comparisons across diverse populations. We also compared trial-level findings against the established CTT estimates to enhance the interpretability and generalizability of findings."
+        },
+        {
+          "type": "paragraph",
+          "html": "However, there are limitations that merit discussion. CTT uses major vascular events and 1 year between group LDL-C difference. By contrast, we used 3P-MACE and a more conservative estimate of LDL-C difference as we averaged the difference at 1 year and at the end of study. LDL-C levels tend to drift up with discontinuation and adherence in both randomized groups in trials; however, where LDL-C differences attenuate due to a differential drop, as in CLEAR OUTCOMES and EWTOPIA 75, this can artificially inflate the treatment difference per 1mmol/L, if medication drop occurred after a censored primary endpoint, making it appear that the treatment effect was larger than average. That said, using 1-year LDL-C differences did not change our findings."
+        },
+        {
+          "type": "paragraph",
+          "html": "Where trials did not report 3P-MACE, we derived estimates from individual MACE components, and these approximations may differ slightly from direct reporting. As this analysis operates at the trial level, all findings reflect patterns observed across trial populations rather than within individual patients. This approach is appropriate for assessing whether differences in baseline risk between trials are associated with differences in observed treatment effects, but it cannot establish patient-level effect modification. Additionally, using placebo event rate as a trial-level proxy for baseline risk may not accurately reflect individual true baseline risk across heterogenous populations using aggregate data. It should also be noted that the included trials enrolled middle-aged and older adults; thus, our findings relate to LDL-C lowering at lower levels of absolute risk in this age range, rather than to truly early intervention by age. We also excluded one trial that enrolled exclusively renal transplant patients, as cardiovascular events in these patients may be driven by non-atherosclerotic mechanisms [76]. Despite these limitations, the consistency of findings across different scenarios supports their validity, pending prospective confirmation."
+        },
+        {
+          "type": "paragraph",
+          "html": "Most importantly, even though we published our hypothesis a priori using the PROSPERO framework, prospective validation of our findings in ongoing trials or specifically designing trials based upon our findings are needed. For instance, projections from this review for an ongoing statin trial estimate an LDL-C reduction of 1.31 mmol/L, and predicted relative risk reduction of between 22 % to 48 % for the CTT endpoint based upon the benefits per 1mmol/L for differing placebo event-rates [47]. Ongoing non-statin RCTs include those evaluating an oral PCSK9 inhibitor (enlicitide) and PCSK9 inhibition via small interfering RNA(Inclisiran) could also be used to validate these findings [77,78]. The definition of primary prevention merits discussion briefly. In this study we included VESALIUS-CV patients without known atherosclerosis on imaging [32]. The group of patients with known atherosclerosis (even without prior MI and stroke) [79] behaved more like secondary prevention patients with a lower RRR from evolocumab vs the diabetes no atherosclerosis cohort [32]. This was similar to the greater RRR observed in the primary prevention cohort of CLEAR Outcomes [31]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Our findings have implications for the direction of future research questions, including the need to evaluate whether trial-level patterns of greater proportional benefit at lower baseline risk are confirmed in pooled individual-participant data analyses. If intervention in lower-risk individuals yields compounded long-term benefits in RCTs, in support of Mendelian randomization studies, which already support lifelong low LDL-C [[8], [80], [81]], then long-term trials of one-off interventions, such as PCSK9 gene editing, when started in low-risk cohorts and which reduce LDL-C by approximately 50 %, may be sufficient for many, avoiding the need for combinations of multiple therapies in higher-risk individuals later in life with more atherosclerosis who require 65–85 % LDL-C lowering. Furthermore, outcome trials of 15,000 patients with gene-editing approaches are not viable. However, our observations of greater treatment effects when LDL-C lowering is started in lower-risk populations make it feasible to consider smaller outcome studies with sufficiently long follow-up (10 years) with gene editing approaches beyond simply demonstrating their long-term safety and durability of effect or considering low risk primary prevention trials where large treatment differences from a few hundred events may yield robust findings rather than the several thousands of events required in more advanced disease. Finally, as the field advances, integrating AI-driven risk models, genetic scores, and advanced imaging into clinical decision systems which predict lifetime risk trajectories could help improve our understanding of the magnitude of LDL-C lowering required on a case-by-case basis, moving the field towards truly personalized primary prevention."
+        }
+      ]
+    },
+    {
+      "title": "Conclusions",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Evidence from this systematic review and meta-analysis demonstrates that LLT initiated in populations with lower risk yields substantially greater relative reductions in cardiovascular events, even with modest LDL-C lowering. By contrast, in high-risk individuals who likely have advanced atherosclerotic cardiovascular disease, greater LDL-C lowering is required to obtain comparable relative benefits. These findings support the evolving evidence base towards initiation of LLT at lower cardiovascular risk as a primary strategy for ASCVD prevention."
+        }
+      ]
+    },
+    {
+      "title": "Author agreement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We, the undersigned authors, confirm that this manuscript represents original work that has not been previously published and is not currently under consideration for publication elsewhere. The results of this manuscript have been submitted for consideration for the late-breaker session at the European Atherosclerosis Society Congress in May 2026."
+        },
+        {
+          "type": "paragraph",
+          "html": "All authors have made substantial contributions to the conception, design, data acquisition, analysis, and interpretation of the work, and have participated in drafting or critically revising the manuscript."
+        },
+        {
+          "type": "paragraph",
+          "html": "All authors have read and approved the final version of the manuscript submitted for publication. Conflicts of interest and funding sources are declared on the title page."
+        }
+      ]
+    },
+    {
+      "title": "Funding",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This study received no external funding"
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Irene Karungi:</strong> Conceptualization, Data curation, Formal analysis, Methodology, Writing – original draft, Writing – review &amp; editing. <strong>Christophe A.T. Stevens:</strong> Conceptualization, Data curation, Formal analysis, Methodology, Writing – review &amp; editing. <strong>Julia Brandts:</strong> Conceptualization, Data curation, Formal analysis, Methodology, Writing – review &amp; editing, Supervision. <strong>Kausik K Ray:</strong> Conceptualization, Data curation, Formal analysis, Methodology, Supervision, Writing – review &amp; editing."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "IK has participated in a research grant to Imperial from Ultragenyx. CATS has participated in research grants to Imperial from Amgen, Sanofi, Regeneron, Pfizer, Novartis, Merck Sharp &amp; Dohme, Daiichi Sankyo, and Ultragenyx. JB has received research grants from Amgen, AstraZeneca, and Sanofi and speaker honoraria from Amgen, Berlin Chemie, Daiichi Sankyo, Menarini, Novartis, Novo Nordisk, and Sanofi. KKR reports unrestricted research grants (last 3 years) to Imperial College London, Amgen, Sanofi, Regeneron, Daiichi Sankyo, and Ultragenix; Consulting fees from Novartis, Daiichi Sankyo, Kowa, Esperion, Novo Nordisk, MSD, Lilly, Silence Therapeutics, AZ, New Amsterdam Pharma, CLEERLY, EMENDOBIO, SCRIBE, Amarin, Regeneron, Ultragenix. Lecture fees from Novartis, BI, AZ, Novo Nordisk, Viatris, Amarin, Sanofi, Amgen, Esperion, Daiichi Sankyo, USV Pharma, Torrent Pharma, for CME and non-CME symposia at international meetings and stock options from New Amsterdam Pharma, SCRIBE Therapeutic, MONOCYTE Health and PEMI31."
         }
       ]
     }
   ],
-  "references": []
+  "references": [
+    {
+      "html": "RothG.A.MensahG.A.JohnsonC.O.Global burden of cardiovascular diseases and Risk factors, 1990-2019: update from the GBD 2019 studyJ Am Coll Cardiol76252020298230213330917510.1016/j.jacc.2020.11.010PMC7755038"
+    },
+    {
+      "html": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990-2019: a systematic analysis for the Global Burden of Disease Study 2019Lancet396102582020120412223306932610.1016/S0140-6736(20)30925-9PMC7567026"
+    },
+    {
+      "html": "BerensonG.S.SrinivasanS.R.BaoW.Association between multiple cardiovascular risk factors and atherosclerosis in children and young adultsN Engl J Med33823199816501656961425510.1056/NEJM199806043382302"
+    },
+    {
+      "html": "BerensonG.S.WattigneyW.A.TracyR.E.Atherosclerosis of the aorta and coronary arteries and cardiovascular risk factors in persons aged 6 to 30 years and studied at necropsy (The Bogalusa Heart Study)Am J Cardiol7091992851858152993610.1016/0002-9149(92)90726-f"
+    },
+    {
+      "html": "FerenceB.A.GinsbergH.N.GrahamI.Low-density lipoproteins cause atherosclerotic cardiovascular disease. 1. Evidence from genetic, epidemiologic, and clinical studies. A consensus statement from the European Atherosclerosis Society Consensus PanelEur Heart J38322017245924722844429010.1093/eurheartj/ehx144PMC5837225"
+    },
+    {
+      "html": "SchunkertH.NatarajanP.SamaniN.J.The inherited basis of coronary artery diseaseN Engl J Med394620265765874187045410.1056/NEJMra2405153"
+    },
+    {
+      "html": "KheraA.V.EmdinC.A.DrakeI.Genetic risk, adherence to a healthy lifestyle, and coronary diseaseN Engl J Med375242016234923582795971410.1056/NEJMoa1605086PMC5338864"
+    },
+    {
+      "html": "FerenceB.A.BraunwaldE.CatapanoA.L.The LDL cumulative exposure hypothesis: evidence and practical applicationsNat Rev Cardiol211020247017163896974910.1038/s41569-024-01039-5"
+    },
+    {
+      "html": "LibbyP.The changing landscape of atherosclerosisNature592785520215245333388372810.1038/s41586-021-03392-8"
+    },
+    {
+      "html": "BaigentC.KeechA.KearneyP.M.Efficacy and safety of cholesterol-lowering treatment: prospective meta-analysis of data from 90,056 participants in 14 randomised trials of statinsLancet36694932005126712781621459710.1016/S0140-6736(05)67394-1"
+    },
+    {
+      "html": "WilliamsK.J.Eradicating atherosclerotic events by targeting early subclinical disease: it is time to retire the therapeutic paradigm of too much, too lateArterioscler Thromb Vasc Biol441202448643797071610.1161/ATVBAHA.123.320065"
+    },
+    {
+      "html": "MachF.KoskinasK.C.Roeters van LennepJ.E.2025 Focused update of the 2019 ESC/EAS Guidelines for the management of dyslipidaemias: developed by the task force for the management of dyslipidaemias of the European Society of Cardiology (ESC) and the European Atherosclerosis Society (EAS)Eur Heart J46422025435943784087828910.1093/eurheartj/ehaf190"
+    },
+    {
+      "html": "DzayeO.RazaviA.C.BlahaM.J.Evaluation of coronary stenosis versus plaque burden for atherosclerotic cardiovascular disease risk assessment and managementCurr Opin Cardiol36620217697753462079210.1097/HCO.0000000000000911PMC8547346"
+    },
+    {
+      "html": "HanD.BermanD.S.MillerR.J.H.Association of cardiovascular disease risk factor burden with progression of coronary atherosclerosis assessed by serial coronary computed tomographic angiographyJAMA Netw Open372020e201144410.1001/jamanetworkopen.2020.11444PMC738200132706382"
+    },
+    {
+      "html": "Dawson LukeP.LumM.NerlekerN.Coronary atherosclerotic plaque regressionJACC791202266823499179110.1016/j.jacc.2021.10.035"
+    },
+    {
+      "html": "CrouseJ.R.RaichlenJ.S.RileyW.A.Effect of Rosuvastatin on progression of carotid intima-Media thickness in low-risk individuals with subclinical AtherosclerosisThe METEOR trialJAMA297122007134413531738443410.1001/jama.297.12.1344"
+    },
+    {
+      "html": "IkedaK.TakahashiT.YamadaH.Effect of intensive statin therapy on regression of carotid intima-media thickness in patients with subclinical carotid atherosclerosis (a prospective, randomized trial: PEACE (Pitavastatin Evaluation of Atherosclerosis Regression by Intensive Cholesterol-lowering Therapy) study)Eur J Prev Cardiol2062013106910792268941610.1177/2047487312451539"
+    },
+    {
+      "html": "RäberL.UekiY.OtsukaT.Effect of Alirocumab added to high-intensity statin therapy on coronary atherosclerosis in patients with acute myocardial infarction: the PACMAN-AMI randomized clinical trialJAMA327182022177117813536805810.1001/jama.2022.5218PMC8978048"
+    },
+    {
+      "html": "NichollsS.J.PuriR.AndersonT.Effect of Evolocumab on progression of coronary disease in statin-treated patients: the GLAGOV randomized clinical trialJAMA316222016237323842784634410.1001/jama.2016.16951"
+    },
+    {
+      "html": "NichollsS.J.KataokaY.NissenS.E.Effect of Evolocumab on coronary plaque phenotype and burden in statin-treated patients following myocardial infarctionJACC: Cardiovasc Imaging1572022130813213543117210.1016/j.jcmg.2022.03.002"
+    },
+    {
+      "html": "Cholesterol Treatment Trialists CThe effects of lowering LDL cholesterol with statin therapy in people at low risk of vascular disease: meta-analysis of individual data from 27 randomised trialsThe Lancet3809841201258159010.1016/S0140-6736(12)60367-5PMC343797222607822"
+    },
+    {
+      "html": "KalraD.K.RayK.K.BajajA.Low-density lipoprotein cholesterol lowering and risk of major adverse cardiovascular events in primary prevention trials: a meta-analysisJ Clin Lipidol202610.1016/j.jacl.2026.02.00641775617"
+    },
+    {
+      "html": "NitschD.MolokhiaM.SmeethL.Limits to causal inference based on mendelian randomization: a comparison with randomized controlled trialsAm J Epidemiol163520063974031641034710.1093/aje/kwj062"
+    },
+    {
+      "html": "GrinspoonS.K.FitchK.V.ZanniM.V.Pitavastatin to prevent cardiovascular disease in HIV infectionN Engl J Med389820236876993748677510.1056/NEJMoa2304146PMC10564556"
+    },
+    {
+      "html": "Writing Committee MembersBlumenthalR.S.MorrisP.B.2026 ACC/AHA/AACVPR/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Dyslipidemia: a report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice GuidelinesCirculation153172026e1154e12764182455210.1161/CIR.0000000000001423"
+    },
+    {
+      "html": "ByrneP.DemasiM.JonesM.Evaluating the association between low-density lipoprotein cholesterol reduction and relative and absolute effects of Statin treatment: a systematic review and meta-analysisJAMA Intern Med182520224744813528585010.1001/jamainternmed.2022.0134PMC8922205"
+    },
+    {
+      "html": "MuradM.H.ChuH.WangZ.Hierarchical models that address measurement error are needed to evaluate the correlation between treatment effect and control group event rateJ Clin Epidemiol170202411132710.1016/j.jclinepi.2024.11132738508503"
+    },
+    {
+      "html": "PageM.J.JeM.BossuytP.MBoutronI.HoffmannT.C.MulrowC.D.ShamseerL.TetzlaffJ.M.AklE.A.BrennanS.E.The PriSMa 2020 statement: an updated guideline for reporting systematic reviewsBMJ3722021n713378205710.1136/bmj.n71PMC8005924"
+    },
+    {
+      "html": "PageM.J.MoherD.BossuytP.M.PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviewsBMJ202137210.1136/bmj.n160PMC800592533781993"
+    },
+    {
+      "html": "SterneJ.A.C.SavovićJ.PageM.J.RoB 2: a revised tool for assessing risk of bias in randomised trialsBMJ3662019l489810.1136/bmj.l489831462531"
+    },
+    {
+      "html": "NissenS.E.MenonV.NichollsS.J.Bempedoic acid for primary prevention of cardiovascular events in statin-intolerant patientsJAMA330220231311403735454610.1001/jama.2023.9696PMC10336623"
+    },
+    {
+      "html": "MarstonN.A.BohulaE.A.BhatiaA.K.Evolocumab to reduce first major cardiovascular events in patients without known significant atherosclerosis and with diabetes: results from the VESALIUS-CV trialJAMA351620261400140710.1001/jama.2026.3277PMC1303317141903215"
+    },
+    {
+      "html": "ShepherdJ.CobbeS.M.FordI.Prevention of coronary heart disease with pravastatin in men with hypercholesterolemiaN Engl J Med33320199513011308756602010.1056/NEJM199511163332001"
+    },
+    {
+      "html": "DownsJ.R.ClearfieldM.WeisS.Primary prevention of acute coronary events with lovastatin in men and women with average cholesterol LevelsResults of AFCAPS/TexCAPSJAMA27920199816151622961391010.1001/jama.279.20.1615"
+    },
+    {
+      "html": "ShepherdJ.BlauwG.J.MurphyM.B.Pravastatin in elderly individuals at risk of vascular disease (PROSPER): a randomised controlled trialThe Lancet360934620021623163010.1016/s0140-6736(02)11600-x12457784"
+    },
+    {
+      "html": "SeverP.S.DahlöfB.PoulterN.R.Prevention of coronary and stroke events with atorvastatin in hypertensive patients who have average or lower-than-average cholesterol concentrations, in the Anglo-Scandinavian Cardiac Outcomes Trial–Lipid Lowering Arm (ASCOT-LLA): a multicentre randomised controlled trialDrugs64Suppl 2200443601576589010.2165/00003495-200464002-00005"
+    },
+    {
+      "html": "ColhounH.M.BetteridgeD.J.DurringtonP.N.Primary prevention of cardiovascular disease with atorvastatin in type 2 diabetes in the Collaborative Atorvastatin Diabetes Study (CARDS): multicentre randomised placebo-controlled trialThe Lancet3649435200468569610.1016/S0140-6736(04)16895-515325833"
+    },
+    {
+      "html": "NakamuraH.ArakawaK.ItakuraH.Primary prevention of cardiovascular disease with pravastatin in Japan (MEGA Study): a prospective randomised controlled trialThe Lancet368954220061155116310.1016/S0140-6736(06)69472-517011942"
+    },
+    {
+      "html": "KnoppR.H.d’EmdenM.SmildeJ.G.Efficacy and safety of atorvastatin in the prevention of cardiovascular end points in subjects with type 2 diabetes: the atorvastatin study for prevention of coronary heart disease endpoints in non-insulin-dependent diabetes mellitus (ASPEN)Diabetes Care2972006147814851680156510.2337/dc05-2415"
+    },
+    {
+      "html": "RidkerP.M.DanielsonE.FonsecaF.A.H.Rosuvastatin to prevent vascular events in men and women with elevated C-reactive proteinN Engl J Med359212008219522071899719610.1056/NEJMoa0807646"
+    },
+    {
+      "html": "RossebøA.B.PedersenT.R.BomanK.Intensive lipid lowering with simvastatin and ezetimibe in aortic stenosisN Engl J Med359132008134313561876543310.1056/NEJMoa0804602"
+    },
+    {
+      "html": "BaigentC.LandrayM.J.ReithC.The effects of lowering LDL cholesterol with simvastatin plus ezetimibe in patients with chronic kidney disease (Study of Heart and Renal Protection): a randomised placebo-controlled trialThe Lancet377978420112181219210.1016/S0140-6736(11)60739-3PMC314507321663949"
+    },
+    {
+      "html": "YusufS.BoschJ.DagenaisG.Cholesterol lowering in intermediate-risk persons without cardiovascular diseaseJ Vasc Surg643201682710.1056/NEJMoa160017627040132"
+    },
+    {
+      "html": "HanB.H.SutinD.WilliamsonJ.D.Effect of Statin treatment vs usual care on primary cardiovascular prevention among older adults: the ALLHAT-LLT randomized clinical trialJAMA Intern Med177720179559652853124110.1001/jamainternmed.2017.1442PMC5543335"
+    },
+    {
+      "html": "KitasG.D.NightingaleP.ArmitageJ.A multicenter, randomized, placebo-controlled trial of Atorvastatin for the primary prevention of cardiovascular events in patients with rheumatoid arthritisArthritis Rheumatol7192019143714493098316610.1002/art.40892PMC6771601"
+    },
+    {
+      "html": "OuchiY.SasakiJ.AraiH.Ezetimibe lipid-lowering trial on prevention of atherosclerotic cardiovascular disease in 75 or older (EWTOPIA 75): a randomized, controlled trialCirculation14012201999210033143450710.1161/CIRCULATIONAHA.118.039415"
+    },
+    {
+      "html": "ZoungasS.MoranC.CurtisA.J.Baseline characteristics of participants in STAREE: a randomized trial for primary prevention of cardiovascular disease events and prolongation of disability-free survival in older peopleJ Am Heart Assoc13222024e03635710.1161/JAHA.124.036357PMC1168140539548016"
+    },
+    {
+      "html": "FordI.BlauwG.J.MurphyM.B.A prospective study of pravastatin in the elderly at risk (PROSPER): screening experience and baseline characteristicsCurr Control Trials Cardiovasc Med31200281209714810.1186/1468-6708-3-8PMC134480"
+    },
+    {
+      "html": "PackardC.J.FordI.RobertsonM.Plasma lipoproteins and apolipoproteins as predictors of cardiovascular risk and treatment benefit in the PROspective study of pravastatin in the elderly at risk (PROSPER)Circulation112202005305830651627587110.1161/CIRCULATIONAHA.104.526848"
+    },
+    {
+      "html": "Nissen S.E. Data-on-file 1002-043 MACE-4, MACE-and MACE components for primary prevention patients (Full Analysis Set). Unpublished data; 2024."
+    },
+    {
+      "html": "LincoffA.M.Ray KausikK.Sasiela WilliamJ.Comparative cardiovascular benefits of Bempedoic acid and Statin drugsJACC84220241521623896050810.1016/j.jacc.2024.04.048"
+    },
+    {
+      "html": "KarlsonB.W.PalmerM.K.NichollsS.J.Attainment of the anticipated &amp;gt;=50% reduction in LDL-C in the four ACC/AHA guidelines statin benefit groups: a voyager meta-analysisAtherosclerosis23522014e11e12"
+    },
+    {
+      "html": "SeverP.S.PoulterN.R.ChangC.L.Evaluation of C-reactive protein prior to and on-treatment as a predictor of benefit from atorvastatin: observations from the Anglo-Scandinavian Cardiac Outcomes TrialEur Heart J33420124864942179889110.1093/eurheartj/ehr262PMC3279312"
+    },
+    {
+      "html": "NichollsS.J.HsuA.WolskiK.Intravascular ultrasound-derived measures of coronary atherosclerotic plaque burden and clinical outcomeJ Am Coll Cardiol55212010239924072048831310.1016/j.jacc.2010.02.026"
+    },
+    {
+      "html": "NissenS.E.TuzcuE.M.SchoenhagenP.Effect of intensive compared with moderate lipid-lowering therapy on progression of coronary AtherosclerosisA randomized controlled trialJAMA29192004107110801499677610.1001/jama.291.9.1071"
+    },
+    {
+      "html": "NissenS.E.NichollsS.J.SipahiI.Effect of very high-intensity statin therapy on regression of coronary AtherosclerosisThe ASTEROID trialJAMA295132006155615651653393910.1001/jama.295.13.jpc60002"
+    },
+    {
+      "html": "NichollsS.J.BallantyneC.M.BarterP.J.Effect of two intensive statin regimens on progression of coronary diseaseN Engl J Med365222011207820872208531610.1056/NEJMoa1110874"
+    },
+    {
+      "html": "CesaroA.AcerboV.IndolfiC.The clinical relevance of the reversal of coronary atherosclerotic plaqueEur J Intern Med129202416243916415610.1016/j.ejim.2024.08.010"
+    },
+    {
+      "html": "Fanaroff A.C., Roe M.T., Clare R.M., et al. Competing risks of cardiovascular versus noncardiovascular death during long-term follow-up after acute coronary syndromes. J Am Heart Assoc. 6(9):e005840.10.1161/JAHA.117.005840PMC563425728923989"
+    },
+    {
+      "html": "FerenceB.A.CannonC.P.LandmesserU.Reduction of low density lipoprotein-cholesterol and cardiovascular events with proprotein convertase subtilisin-kexin type 9 (PCSK9) inhibitors and statins: an analysis of FOURIER, SPIRE, and the Cholesterol Treatment Trialists CollaborationEur Heart J39272018254025452902041110.1093/eurheartj/ehx450PMC6047439"
+    },
+    {
+      "html": "MachF.BaigentC.CatapanoA.L.2019 ESC/EAS Guidelines for the management of dyslipidaemias: lipid modification to reduce cardiovascular risk: the Task Force for the management of dyslipidaemias of the European Society of Cardiology (ESC) and European Atherosclerosis Society (EAS)Eur Heart J411201911118810.1093/eurheartj/ehz45531504418"
+    },
+    {
+      "html": "Kohli-LynchC.N.BellowsB.K.ThanassoulisG.Cost-effectiveness of low-density lipoprotein cholesterol level-guided statin treatment in patients with borderline cardiovascular riskJAMA Cardiol41020199699773146112110.1001/jamacardio.2019.2851PMC6714024"
+    },
+    {
+      "html": "MihaylovaB.WuR.ZhouJ.Assessing long-term effectiveness and cost-effectiveness of statin therapy in the UK: a modelling study using individual participant data setsHealth Technol Assess28792024113410.3310/KDAP7034PMC1164755639644281"
+    },
+    {
+      "html": "AnnemansL.PackardC.J.BriggsA.Highest risk-highest benefit&#x27; strategy: a pragmatic, cost-effective approach to targeting use of PCSK9 inhibitor therapiesEur Heart J39272018254625502923697610.1093/eurheartj/ehx710PMC6047410"
+    },
+    {
+      "html": "SchwartzG.G.StegP.G.SzarekM.Alirocumab and cardiovascular outcomes after acute coronary syndromeN Engl J Med379222018209721073040357410.1056/NEJMoa1801174"
+    },
+    {
+      "html": "SabatineM.S.GiuglianoR.P.KeechA.C.Evolocumab and clinical outcomes in patients with cardiovascular diseaseN Engl J Med376182017171317222830422410.1056/NEJMoa1615664"
+    },
+    {
+      "html": "CannonC.P.BlazingM.A.GiuglianoR.P.Ezetimibe added to Statin therapy after acute coronary syndromesN Engl J Med372252015238723972603952110.1056/NEJMoa1410489"
+    },
+    {
+      "html": "MichaeliD.T.MichaeliJ.C.BochT.Cost-effectiveness of cholesterol-lowering drugs for secondary cardiovascular prevention in the UK: ezetimibe, evolocumab, and alirocumabEur Heart J43Supplement 22022ehac544.2367"
+    },
+    {
+      "html": "SteinhauerR.XuJ.Y.H.BlumenthalR.S.Early atheroma prevention: a cost-effective approach to healthy cardiovascular ageingThe Lancet202610.1016/S0140-6736(26)00419-841856158"
+    },
+    {
+      "html": "Domanski MichaelJ.TianX.Wu ColinO.Time course of LDL cholesterol exposure and cardiovascular disease event riskJACC76132020150715163297252610.1016/j.jacc.2020.07.059"
+    },
+    {
+      "html": "RosenbergJ.LampridouS.MooresA.A systematic review uncovering modifiable influences on Statin adherencePatient Prefer Adherence19202529483978093810.2147/PPA.S502645PMC11708203"
+    },
+    {
+      "html": "KrishnanV.HuangX.ZhangS.Age and sex-specific percentiles of 30-year cardiovascular disease risk based on the PREVENT equationsJACC86212025201720274126075610.1016/j.jacc.2025.09.1509"
+    },
+    {
+      "html": "Effects of statin therapy on diagnoses of new-onset diabetes and worsening glycaemia in large-scale randomised blinded statin trials: an individual participant data meta-analysisLancet Diabetes Endocrinol12520243063193855471310.1016/S2213-8587(24)00040-8PMC7615958"
+    },
+    {
+      "html": "IannuzzoG.KambojG.BarmanP.Efficacy and safety of lipid-lowering therapies in combination with or without statin to reduce the cardiovascular risk: a systematic review of randomised controlled trialsAtheroscler Plus58202424373951267810.1016/j.athplu.2024.10.001PMC11541451"
+    },
+    {
+      "html": "RayK.K.FerenceB.A.SéverinT.World Heart Federation cholesterol Roadmap 2022Glob Heart1712022753638215910.5334/gh.1154PMC9562775"
+    },
+    {
+      "html": "HoldaasH.FellströmB.JardineA.G.Effect of fluvastatin on cardiac outcomes in renal transplant recipients: a multicentre, randomised, placebo-controlled trialThe Lancet361937420032024203110.1016/S0140-6736(03)13638-012814712"
+    },
+    {
+      "html": "AggarwalR.BhattD.L.BonacaM.P.Generalizability of VICTORION-1 PREVENT enrollment criteria to the United States populationAm J Prev Cardiol22202510095710.1016/j.ajpc.2025.100957PMC1199510540230889"
+    },
+    {
+      "html": "Merck Sharp &amp; Dohme LLC. Enlicitide Decanoate (MK-0616 Oral PCSK9 Inhibitor) Cardiovascular Outcomes Study (MK-0616-015) CORALreef Outcomes. ClinicalTrials.gov identifier: NCT06008756. Updated December 13, 2025. Accessed April 29, 2026. <a href=\"https://clinicaltrials.gov/study/NCT06008756\">https://clinicaltrials.gov/study/NCT06008756</a>."
+    },
+    {
+      "html": "BohulaE.A.MarstonN.A.BhatiaA.K.Evolocumab in patients without a previous myocardial infarction or strokeN Engl J Med394220261171274121192510.1056/NEJMoa2514428"
+    },
+    {
+      "html": "FerenceB.A.BhattD.L.CatapanoA.L.Association of genetic variants related to combined exposure to lower low-density lipoproteins and lower systolic blood pressure with lifetime risk of cardiovascular diseaseJAMA322142019138113913147572610.1001/jama.2019.14120PMC6724415"
+    },
+    {
+      "html": "FerenceB.A.YooW.AleshI.Effect of long-term exposure to lower low-density lipoprotein cholesterol beginning early in life on the risk of coronary heart disease: a mendelian randomization analysisJ Am Coll Cardiol60252012263126392308378910.1016/j.jacc.2012.09.017"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
 }

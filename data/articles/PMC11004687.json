@@ -1,0 +1,418 @@
+{
+  "pmcid": "PMC11004687",
+  "pmid": "38601895",
+  "doi": "10.1016/j.ajpc.2024.100661",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11004687/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Polygenic risk and incident coronary heart disease in a large multiethnic cohort",
+  "articleType": "Research Article",
+  "published": "2024-03-28",
+  "year": "2024",
+  "volume": "18",
+  "issue": "",
+  "articleNumber": "100661",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2024",
+  "authors": [
+    {
+      "given": "Carlos",
+      "surname": "Iribarren",
+      "display": "Carlos Iribarren"
+    },
+    {
+      "given": "Meng",
+      "surname": "Lu",
+      "display": "Meng Lu"
+    },
+    {
+      "given": "Roberto",
+      "surname": "Elosua",
+      "display": "Roberto Elosua"
+    },
+    {
+      "given": "Martha",
+      "surname": "Gulati",
+      "display": "Martha Gulati"
+    },
+    {
+      "given": "Nathan D.",
+      "surname": "Wong",
+      "display": "Nathan D. Wong"
+    },
+    {
+      "given": "Roger S.",
+      "surname": "Blumenthal",
+      "display": "Roger S. Blumenthal"
+    },
+    {
+      "given": "Steven",
+      "surname": "Nissen",
+      "display": "Steven Nissen"
+    },
+    {
+      "given": "Jamal S.",
+      "surname": "Rana",
+      "display": "Jamal S. Rana"
+    }
+  ],
+  "affiliations": [
+    "aKaiser Permanente Northern California Division of Research, Oakland, CA, USA",
+    "bCardiovascular Epidemiology and Genetics, Institut Hospital del Mar d'Investigacions Mèdiques (IMIM), Spain and CIBER Cardiovascular Diseases (CIBERCV), Barcelona, Spain",
+    "cFaculty of Medicine, University of Vic-Central University of Catalonia (UVic-UCC), Vic, Spain",
+    "dBarbra Streisand Women's Heart Center, Smidt Heart Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+    "eHeart Disease Prevention Program, Division of Cardiology, Department of Medicine, University of California Irvine, Irvine, CA, USA",
+    "fCiccarone Center for the Prevention of Cardiovascular Disease, Johns Hopkins School of Medicine, Baltimore, MD, USA",
+    "gCardiovascular Medicine, Cleveland Clinic, Cleveland, OH, USA",
+    "hDepartment of Cardiology, The Permanente Medical Group, Kaiser Permanente Oakland Medical Center, Oakland, CA, USA"
+  ],
+  "keywords": [
+    "Polygenic risk score",
+    "Coronary heart disease",
+    "Clinical utility",
+    "Primary prevention"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Objective:</strong> Many studies support the notion that polygenic risk scores (PRS) improve risk prediction for coronary heart disease (CHD) beyond conventional risk factors. However, PRS are not yet considered risk-enhancing factor in guidelines. Our objective was to determine the predictive performance of a commercially available PRS (CARDIO inCode-Score®) compared with the Pooled Cohorts Equations (PCE) in a contemporary, multi-ethnic cohort."
+    },
+    {
+      "html": "<strong>Methods:</strong> Participants (<em>n</em> = 63,070; 67 % female; 18 % non-European) without prior CHD were followed from 2007 through 12/31/2022. The association between the PRS and incident CHD was assessed using Cox regression adjusting for genetic ancestry and risk factors. Event rates were estimated by categories of PCE and by low/intermediate/high genetic risk within PCE categories; risk discrimination and net reclassification improvement (NRI) were also assessed."
+    },
+    {
+      "html": "<strong>Results:</strong> There were 3,289 incident CHD events during 14 years of follow-up. Adjusted hazard ratio (aHR) for incident CHD per 1 SD increase in PRS was 1.18 (95 % CI:1.14–1.22), and the aHR for the upper vs lower quintile of the PRS was 1.66 (95 % CI:1.49–1.86). The association was consistent in both sexes, in European participants compared with all minority groups combined and was strongest in the first 5 years of follow-up. The increase in the C-statistic was 0.004 (0.747 vs. 0.751; <em>p</em> &lt; 0.0001); the NRI was 2.4 (0.9–3.8) for the entire cohort and 9.7 (7.5–12.0) for intermediate PCE risk individuals. After incorporating high genetic risk, a further 10 percent of participants at borderline/intermediate PCE risk would be candidates for statin therapy."
+    },
+    {
+      "html": "<strong>Conclusion:</strong> Inclusion of polygenic risk improved identification of primary prevention individuals who may benefit from more intensive risk factor modification."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Addressing modifiable risk factors can reduce the incidence of cardiovascular disease (CVD) [1]. However, the prevalence of risky lifestyle behaviors and subsequent cardiometabolic disease is increasing among US young adults [2]. Improving risk assessment and intervention for primordial or primary prevention of CVD remains a challenge. The existing paradigm of clinical care to guide lipid-lowering treatment decisions recommends using the pooled cohort equations (PCEs) to estimate 10-year atherosclerotic cardiovascular disease (ASCVD) risk and is mostly limited to adults 40 to 75 years of age [3]."
+        },
+        {
+          "type": "paragraph",
+          "html": "An increasing body of evidence suggests that polygenic risk scores (PRS) may improve risk prediction for CVD beyond conventional risk factors and may have the advantage of risk assessment at an earlier age [4], [5], [6], [7], [8], [9], [10], [11]. Previously, we reported findings from the Genetic Epidemiology Resource in Adult Health and Aging (GERA) cohort providing evidence that a PRS comprising 12 single nucleotide polymorphisms (SNPs) had comparable predictive performance for incident coronary heart disease (CHD) as compared with PRS based on 36 or 51 SNPs [12,13]. In the current study, we further evaluate longer-term CHD risk associated with this 12-SNP PRS across diverse ethnicities including European, African-American, Latino and Asian using updated follow-up data from the GERA cohort through December 31, 2022."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Study cohort",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This study made use of genome-wide genetic data obtained from the GERA cohort, comprising 110,266 adult male and female members of Kaiser Permanente of Northern California (KPNC). Detailed information about the cohort has been previously published [14]. The GERA cohort consisted of participants from the larger Research Program on Genes, Environment, and Health (RPGEH) cohort who provided a saliva sample (19 % of the total). The study received approval from the Kaiser Foundation Research Institute Institutional Review Board, and all subjects provided informed consent."
+        },
+        {
+          "type": "paragraph",
+          "html": "In 2007–8, all RPGEH participants completed a self-administered questionnaire, which included data on medical history, ancestry, health behaviors (smoking, diet, physical activity, and reproductive history), family history of heart attack (in either parent at any age) as well as current weight and height. Out of the 110,266 subjects, 97,973 had complete genetic data necessary for estimating the PRS. Sequential exclusions were applied to this subgroup: 8416 individuals were excluded for ages younger than 30 or older than 74; 2610 individuals were excluded for a prior diagnosis of coronary heart disease (CHD); and 23,877 individuals were excluded for missing data for one or more components of the Pooled Cohorts Equations (PCE). This resulted in a final analytical cohort comprising 63,070 individuals (see consort diagram in <strong>Supplemental Figure 1</strong>)."
+        }
+      ]
+    },
+    {
+      "title": "Outcomes of interest",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The primary outcome of interest was the occurrence of incident CHD from the baseline period (2007–09) through December 31, 2022. The primary study endpoint did not include ischemic stroke because the 12-SNP PRS was originally developed to predict CHD and not ischemic stroke [15]. Incident CHD was ascertained using a hospital primary discharge diagnosis of myocardial infarction, angina or coronary atherosclerosis, coronary revascularization procedures (coronary bypass or percutaneous intervention), or death due to CHD. The International Classification of Diseases, Ninth and Tenth Revisions (ICD-9 and ICD-10) codes were used for event ascertainment (Table 1 <strong>of Supplemental Methods)</strong>. The validity of these codes has been demonstrated in prior studies conducted within the KPNC population [16,17]. For angina or coronary atherosclerosis events occurring after 2014 and coded using ICD-10, evidence of significant coronary stenosis &gt;50 % on angiography was required. In the case of myocardial infarction diagnosis, elevated peak troponin levels (&gt;0.40 ng/L) were also required during review of electronic medical records by one of the MD investigators (C.I.)Table 1Baseline Characteristics of the GERA Cohort (<em>n</em> = 63,070).Table 1CharacteristicsMean ± SD or (%)Age, years (mean ± SD) and n (%)58.7 ± 9.4 30 – 5419,869 (31.5 %) 55 – 6423,600 (37.4 %) 65 – 7419,601 (31.1 %)Sex, n (%) Male20,569 (32.6 %) Female42,501 (67.4 %)Self-reported Race/Ethnicity, n (%) European51,839 (82.2 %) African-American2084 (3.3 %) Latino4347 (6.9 %) Asian4800 (7.6 %)Education level, n (%) Less than college8594 (13.6 %) College or higher50,776 (80.5 %) Missing3700 (5.9 %)Smoking status, n (%) Never37,291 (59.1 %) Former22,680 (36.0 %) Current3099 (4.9 %)Body mass index, kg/m<sup>2</sup> (mean ± SD) and n (%)27.1 ± 5.7 &lt;18401 (0.6 %) 18–24.924,197 (38.4 %) 25–29.921,571 (34.2 %) ≥3014,746 (23.4 %) Missing2155 (3.4 %)Diabetes mellitus, n (%)8597 (13.6 %)Hypertension, n (%)30,678 (48.6 %)Total Cholesterol, mg/dL (mean ± SD)197 ± 36HDL-C, mg/dL (mean ± SD)56 ± 16Total cholesterol/HDL ratio (mean ±SD)3.7 ± 1.05Cholesterol lowering drugs, n (%)21,094 (33.4 %)Pooled Cohort Equations Risk, n (%) Low (&lt; 5 %)30,213 (47.9 %) Borderline (5 - &lt; 7.5 %)7742 (12.3 %) Intermediate (7.5 - &lt;20 %)18,888 (29.9 %) High (≥ 20 %)6227 (9.9 %)Family history of heart attack, n (%) Yes18,486 (29.3 %) No42,866 (68.0 %) Missing1718 (2.7 %)"
+        }
+      ]
+    },
+    {
+      "title": "Genotyping and PRS definition",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Genotyping was performed at the Institute for Human Genetics, University of California San Francisco, using custom-designed Affymetrix Axiom arrays as previously published [12,13,17,19]. The genome-wide arrays yielded high-quality genotypes, with an average genotype call rate of 99.7 % and SNP reproducibility of 99.9 % [18]. Details regarding SNP selection and the calculation of the polygenic risk score (CARDIO inCode-Score® CHD PRS, GENinCode US Inc.) based on 12 SNPs can be found in Table 2 <strong>and Equation 1 in Supplemental Methods.</strong>Table 2Association Between a 12-SNP Polygenic Risk Score and Incident CHD Among GERA Subjects.Table 2PRS_12Number of subjectsNumber of eventsAge-adjusted rate per 10,000 person-yearsAge- and 10 PC of ancestry-adjusted hazard ratio (95 % CI)Fully-adjusted* hazard ratio (95 % CI)Per 1 SD63,0703289NA1.18 (1.14 - 1.22)1.18 (1.14 - 1.22)Quintile 112,80352926.31.001.00Quintile 212,88260630.61.14 (1.02 - 1.29)1.17 (1.04 - 1.31)Quintile 313,53070533.51.27 (1.13 - 1.42)1.29 (1.15 - 1.44)Quintile 412,51268735.91.34 (1.20 - 1.50)1.38 (1.23 - 1.55)Quintile 511,34376243.61.65 (1.47 - 1.84)1.66 (1.49 - 1.86)PC: principal components.*age, 10 principal components of genetic ancestry, sex, education level, smoking status, BMI, diabetes, hypertension, TC/HDL ratio, cholesterol lowering drugs."
+        },
+        {
+          "type": "paragraph",
+          "html": "The SNPs included in the CARDIO inCode-Score® CHD PRS were selected through a rigorous process that included multiple studies over more than 10 years [12,13,15,19,20], starting with genome-wide panels of SNPs identified by the CARDIoGRAMplusC4D (Coronary Artery Disease Genome Wide Replication And Meta-Analysis Plus the Coronary Artery Disease [C4D] Genetics) Consortium and eventually settling on a 12 SNP panel (see Fig. 1). Importantly, all 12 SNPs are associated with CHD and are independent of classic risk factors (i.e., low-density lipoprotein cholesterol, high-density lipoprotein cholesterol, blood pressure, smoking and diabetes mellitus), which is not the case for most of the SNPs included in genome-wide PRSs. The CARDIO inCode-Score® CHD PRS has been developed by GENinCode Plc for clinical use in a primary preventive setting and is commercially available in Europe. It has been shown to improve risk reclassification in a multi-ethnic population particularly at intermediate ASCVD risk, when including the PRS in the Framingham risk function [12,13]. In the secondary preventive setting, it has been associated with a higher risk of recurrence in patients with a first myocardial infarction [19,20]. CARDIO inCode-Score® is a ‘first in class’ PRS and has recently been granted <em>De Novo</em> status by the FDA and is currently progressing through to regulatory approval.Fig. 1CARDIO inCode-Score® CHD PRS development.Fig 1"
+        }
+      ]
+    },
+    {
+      "title": "Pooled cohort equations risk estimation",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The 10-year risk of atherosclerotic CVD (non-fatal myocardial infarction, CHD death and ischemic stroke) was determined using the Pooled Cohorts Equations (PCE) [21]. Relevant demographic and clinical information, including age, sex, race/ethnicity, smoking status, body mass index (BMI), and family history of heart disease, were obtained from the RPGEH survey (education level, BMI and family history of heart disease are not used in the PCE). Systolic and diastolic blood pressure measurements were collected from primary care outpatient visits closest to the survey date, and lipid panels (taken closest to the survey date) were acquired from the health plan laboratory database. Diabetes status was determined by cross-referencing with the KPNC diabetes registry [22]. Information regarding hypertension and hypercholesterolemia treatment was ascertained using the Pharmacy Information Management System (PIMS), which relied on prescription dispensing records of drugs belonging to the corresponding therapeutic class, obtained either at the time of the RPGEH survey or up to two years prior."
+        }
+      ]
+    },
+    {
+      "title": "Statistical analyses",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We utilized standard parametric and non-parametric methods to compare the characteristics of cohort members across quintiles of the polygenic risk score (PRS). Subsequently, we used Kaplan-Meier plots depicting the absolute rate of CHD over time in three groups: low genetic risk (quintile 1), intermediate genetic risk (quintiles 2–4), and high genetic risk (quintile 5). Details of the selection of cutoff values are given in Supplemental Methods. Log-rank tests were performed to compare the survival trends across PRS groups. We assessed the association between the PRS (both as a continuous variable in standard deviation units and as quintiles with the lowest quintile as the reference group) and incident CHD using the Cox proportional hazards model [23]. Further analysis of CHD events was censored after the first occurrence of incident CHD, death, or disenrollment from the health plan."
+        },
+        {
+          "type": "paragraph",
+          "html": "The first model was adjusted for age and 10 principal components of genetic ancestry [24]. The fully-adjusted model included additional covariates for education level, smoking status, BMI, diabetes, hypertension, total cholesterol/high-density lipoprotein cholesterol (TC/HDL-C) ratio, and use of lipid-lowering drugs. To evaluate the proportionality of hazards assumption, we examined Schoenfeld residuals plotted against time and tested the interaction between the PRS and follow-up time. There was visual evidence of downward departure from zero slope at the tail end of follow-up (<strong>Supplemental Figure 2</strong>) and the interaction between PRS and follow-up time was statistically significant (<em>p</em> &lt; 0.001), indicating that the PRS–CHD association varied with time. Accordingly, we performed separated modeling considering time up to 5 years, up to 10 years, up to 15 years, and up to 20.6 years."
+        },
+        {
+          "type": "paragraph",
+          "html": "The analysis was repeated separately in men and women and within each race/ethnic group. We also evaluated the incremental risk stratification based on genetic background by estimating the absolute rates of CHD in PCE groups and, within those groups, based on low/intermediate/high genetic burden. To assess the clinical utility of the PRS as a risk-enhancing factor in the context of the current ASCVD risk assessment standard of care and to compare with findings by Aragam et al., we estimated the percentage of individuals in the PCE borderline /intermediate risk groups that had a PRS in the 5th quintile and were not on statin treatment [4]. To assess the incremental utility of the PRS beyond the PCE, we calculated for the entire cohort, and sex and race/ethnic subgroups, Harrell&#x27;s C-statistic [25], the integrated discrimination improvement (IDI) index [26], and the category-based (with 4 categories as shown in Table 1) and category-free net reclassification improvement (NRI) [27]."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "At baseline, the cohort had a mean (SD) age of 59 [9] years, and 67 % of the participants were female (Table 1). The preponderance of females reflects their greater participation in the RPGEH survey. The majority of the cohort, approximately 82 %, was identified as of European, while 3 % self-identified as African-American, 7 % as Latino, and 8 % as Asian. More than 80 % of the study participants had obtained a college education or higher. About 5 % reported being current smokers, while 36 % were former smokers. The prevalence of diabetes was 14 %, and 23 % had a BMI within the obesity range. Approximately 49 % of the participants had hypertension, and approximately one third were using lipid-lowering agents. In terms of the PCE risk, 48 % of the cohort had a low risk, 12 % had a borderline risk, 30 % had an intermediate risk, and 10 % had a high risk. Additionally, 29 % of the participants reported a family history of heart attack."
+        },
+        {
+          "type": "paragraph",
+          "html": "The baseline characteristics of the cohort according to quintiles of the PRS are shown in <strong>Supplemental Table 1</strong>. The only notable differences that emerged were greater representation of individuals of European ancestry in quintile 5 (90 %) compared with quintile 1 (79 %), and greater family history of heart attack in quintile 5 (32 %) compared with quintile 1 (27 %). Statistically significant differences were observed for BMI and use of cholesterol lowering drugs across quintiles of PRS. There was no significant association of the PRS with the PCE risk (Chi-square <em>p</em> = 0.27)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Box-plots of PRS values by ethnicity are shown in <strong>Supplemental Figure 3.</strong> The median PRS was higher in Europeans, lower in African-Americans, and intermediate in Latinos and Asians (<em>p</em> &lt; 0.0001). The distributions of the PRS among subjects who subsequently developed incident CHD (“cases”) and subjects who remained free of CHD (“controls”) are shown in <strong>Supplemental Figure 4</strong>. The PRS was higher in cases compared with controls, a difference (SD; p) of 0.04 (0.21; <em>p</em> &lt; 0.001)."
+        },
+        {
+          "type": "paragraph",
+          "html": "After a mean (SD, maximum) follow-up time of 13.8 (3.8, 20.6) years, 3289 incident CHD events were documented. As shown in Fig. 2, there were statistically significant (all <em>p</em> &lt; 0.004) separations of absolute rates of CHD over time by genetic risk groups in the entire cohort (panel A), male (panel B), female (panel C), Europeans (panel D), Latinos (panel F) and all minority groups combined (panel H). In Latinos and Asians, because of much smaller sample size, the lines for intermediate and low genetic risk did not diverge from each other, and in African-Americans the high genetic risk group did not diverge from the intermediate risk group. There was a positive linear association between age-adjusted rates of CHD and quintiles of the PRS (Table 2).Fig. 2Cumulative absolute risk of CHD over time overall and by sex and race/ethnicity.Fig 2"
+        },
+        {
+          "type": "paragraph",
+          "html": "In the age-adjusted model, each SD increment in the PRS was associated with 1.18 increased hazard of incident CHD. Adjustment for 10 principal components of genetic ancestry, education level, smoking, BMI, diabetes, hypertension, TC/HDL ratio and use of cholesterol lowering drugs did not materially alter the strength of association. When the PRS was modeled as quintiles, quintile 5 (vs. quintile 1) was associated with hazard ratios (95 % CI) of 1.65 (95 % CI, 1.47–1.84) in the age-adjusted model and with 1.66 (95 % CI, 1.49–1.86) in the fully-adjusted model."
+        },
+        {
+          "type": "paragraph",
+          "html": "In analyses stratifying by sex (<strong>Supplemental Table 2a</strong>), the aHRs (95 % CI) were 1.64 (95 % CI, 1.42 - 1.90) in males and 1.69 (95 % CI, 1.42 - 2.00) in females."
+        },
+        {
+          "type": "paragraph",
+          "html": "In analysis stratifying by self-reported ethnicity (<strong>Supplemental Table 2b)</strong>, the aHRs were 1.66 (95 % CI, 1.47–1.88) in Europeans, 1.50 (95 % CI, 0.71–3.14) in African Americans, 2.07 (95 % CI, 1.32–3.24) in Latinos and 1.36 (95 % CI, 0.78–2.37) in Asians. For all minority groups combined, the aHR (95 % CI) was 1.68 (95 % CI, 1.24–2.29). When the analysis was performed segmenting follow-up time into 5-year increments, we observed a stronger association of the PRS with incident CHD during the first 5 years (Q5 vs Q1 aHR=1.91; 95 % CI, 1.63–2.24) which slightly diminished in strength when considering up to 10 years (Q5 vs Q1 aHR=1.81; 95 % CI, 1.59–2.06), up to 15 years (Q5 vs Q1 aHR=1.70; 95 % CI, 1.51–1.90) and the entire follow- up to 20.6 years (Q5 vs Q1 aHR=1.66; 95 % CI, 1.49–1.86) (<strong>Supplemental Table 2c</strong>)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Fig. 3 shows the absolute CHD rate according for each category of PCE risk and genetic status. Within each PCE group there was incremental risk stratification by genetic risk, more evident in borderline and intermediate risk categories. Of note, those at borderline PCE risk with high genetic risk had a higher event rate than those at intermediate PCE risk but low genetic risk (6.6 vs. 5.8 %). In addition, event rates for those at intermediate PCE risk with high genetic risk approximated the rate of those at high PCE risk but low genetic risk (10.4 vs. 12.4 %).Fig. 3Absolute CHD risk (%) by joint categories of PCE risk and polygenic risk.Fig 3"
+        },
+        {
+          "type": "paragraph",
+          "html": "To assess the potential additive value of CHD genetic risk status, we segregated those in quintile 5 of the PRS (the ‘high genetic risk group’) into PCE groups. Within these PCE categories, we assessed whether these individuals were receiving stain treatment or not (Table 3) to determine whether borderline/intermediate risk individuals might benefit from statin treatment on the basis of a high genetic risk. In the entire cohort, 42.2 % of individuals were at borderline/intermediate PCE risk and this proportion was very similar (42.3 %) among those classified as being in the high genetic risk group. Among borderline/intermediate PCE risk subjects with high genetic risk (<em>n</em> = 4799), 2658 of 26,630 (10 %) were not taking statins. Corresponding proportions were 10.7 % (2436/22,649) in the European, 4.2 % (45/1075) in the African-American, 7.7 % (107/1383) in the Latino and 4.8 % (70/1523) in the Asian cohorts, respectively (<strong>Supplemental Table 3</strong>).Table 3PCE Risk Groups in the High Polygenic Risk Group (Quintile 5 of the PRS) by Statin Use in the GERA Cohort (<em>n</em> = 63,070).Table 3Quintile 5 of the PRSPCE Risk GroupsStatin UseAllEntire CohortNoYesLow (&lt; 5 %)4420 (59.3 %)1021 (26.2 %)5441 (48.0 %)30,213 (47.9 %)Borderline (5 to &lt; 7.5 %)832 (11.2 %)517 (13.3 %)1349 (11.9 %)7742 (12.3 %)Intermediate (7.5 to &lt; 20 %)1826 (24.5 %)1624 (41.7 %)3450 (30.4 %)18,888 (29.9 %)High (&gt;= 20 %)371 (5.0 %)732 (18.8 %)1103 (9.7 %)6227 (9.9 %)All7449 (100.0 %)3894 (100.0 %)11,343 (100.0 %)63,070 (100.0 %)"
+        },
+        {
+          "type": "paragraph",
+          "html": "In the entire cohort, the Harrell C statistic after the addition of the PRS to a model already containing the PCE increased only marginally (0.747 vs. 0.751; difference in C statistic=+0.004; <em>p</em> &lt; 0.0001). The IDI was 0.27 (0.17–0.39) in the entire cohort and 0.32 (0.17–0.49) in individuals at intermediate PCE risk. The category-based NRI was 2.4 (0.9–3.8) in the entire cohort and 9.7 (7.5–12.0) in individuals at intermediate PCE risk. The category-free NRI was 16.2 (12.7–19.9) in the entire cohort and 16.7 (12.0–21.8) in intermediate PCE risk individuals. The corresponding results in sex and race/ethnic subgroups are provided in <strong>Supplemental Table 4</strong>. Results were similar in males and females. However, reclassification parameters were lower and less precise in minority groups."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The PRS used in the current study evaluated 12 SNPs (CARDIO inCode-Score®) in a wide range of racial and ethnic groups and uses the PCE rather than the Framingham risk score used in prior studies [12,13]. This PRS was independently associated with CHD incidence, with an adjusted hazard ratio of 1.66 for the highest quintile relative to the lowest quintile. This association was consistent between sexes and race/ethnic groups (European and all minorities combined). However, we observed some heterogeneity across the ethnic groups, with a weaker association in Asians and African-Americans and a stronger association in Latinos."
+        },
+        {
+          "type": "paragraph",
+          "html": "The PRS–CHD association appeared to be time-dependent with the strongest predictive value in the first 5 and 10 years compared to longer follow-up at 15 or 20 years. These findings suggest that the genetic influence on risk of CHD may be more evident in the shorter term compared with the distant future, perhaps related to the role of genetic determinants in premature CHD. Consistent with this argument, the age at CHD presentation tended to be younger with shorter follow-up time (<strong>Supplemental Table 2 (c)</strong>). This is also consistent with the findings of another study that suggested that the predictive ability of a PRS was greater in younger individuals and optimally used to identify patients with borderline and intermediate clinical risk who should initiate statin therapy and intensify their lifestyle modification efforts [9]."
+        },
+        {
+          "type": "paragraph",
+          "html": "In the current analyses, the PRS derived genetic risk provided additional risk stratification within PCE risk categories. Individuals with intermediate risk by PCE (7.5 to &lt; 20 %) but with high genetic risk had an absolute risk similar to those with high PCE risk but low genetic risk. Accordingly, these results show potentially useful reclassification with an IDI of 0.32 and a category-based NRI of 9.7 in the intermediate PCE group. We observed lower reclassification indices in minority groups, particularly African-Americans, which may be attributable to much smaller sample sizes. The current data indicates that an additional 10 % of patients at borderline/intermediate PCE risk may benefit from greater use of statin therapy and more aggressive lifestyle modifications because of a high genetic risk. The increase in the AUC after adding the PRS to a Cox model containing the PCE was modest (0.004) but statistically significant."
+        },
+        {
+          "type": "paragraph",
+          "html": "The PCE is applicable to ages 40 and above and based on presence or absence of clinical risk factors at any specific time point. By contrast, the PRS provides incremental predictive insights in younger patients, does not change over time, and therefore provides a lifetime risk assessment."
+        },
+        {
+          "type": "paragraph",
+          "html": "Our results are in general agreement with several major studies published in the last 5 years that have analyzed the association between various PRS&#x27;s and CHD endpoints [[4], [5], [6], [7], [8], [9], [10], [11],28]. Six of these studies relied on data from the UK Biobank [5,6,[8], [9], [10], [11]], which is a predominantly European cohort. The number of SNPs varied from 241 in the Marston et al. study [9] to over 6.6 million in the Khera et al. [8] study. In these UK Biobank studies, the reported adjusted standardized HRs were higher than ours (1.18) and ranged between 1.71 in the Inouye et al. study [6] and 1.73 in the Patel et al. study [10]. The lower predictive value of our PRS may reflect the lower number of SNPs. Elliot et al. [5]. and Riveros-McKay et al. [11]. studies reported overall net reclassification improvements of 4 and 5.9, respectively, which is higher than overall net reclassification in the current study (2.4). Marston et al. [9] reported a net reclassification improvement index for patients of borderline to intermediate risk of 0.16 (95 % CI, 0.15–0.17) [9]. Wang et al. validated a South-Asian-specific 6.6 million DNA variants PRS in the BRAVE (Bangladesh Risk of Acute Vascular Events) study [28]. In this study, the OR per SD of the PRS was 1.60 (<em>p</em> &lt; 0.001), but it was only adjusted for age, sex and genetic ancestry. Of note, none of these studies reported the NRI in the intermediate PCE risk group (9.7 in our cohort), which is the subgroup in whom risk enhancing factors are recommended to inform treatment decisions."
+        },
+        {
+          "type": "paragraph",
+          "html": "Only 2 studies were based on US populations, the Aragam et al. study [4] across 3 health care systems and the Khan et al. study [7] based on the MESA and Rotterdam cohorts. The Aragam et al. study concluded that an additional 4.1 % of primary prevention patients (and 11 % of those in PCE borderline/intermediate risk groups) may be recommended for statin therapy if high CAD PRS were considered a risk-enhancing factor. Corresponding estimates in our GERA cohort are similar: 4.2 % of the primary prevention population and 10 % of the borderline/intermediate PCE risk individuals. The Khan et al. study concluded that coronary artery calcium (CAC) screening had much better predictive performance and reclassification properties than a 6.6 million SNPs PRS in the MESA cohort with a mean age of 60. However, the comparison of CAC and PRS for CAD prediction is applicable only when coronary calcium has potentially developed (typically over age 45). CAC score signifies late-stage calcified coronary plaque, whereas PRS does not change over time, provides risk assessment from birth, and can be applied for younger adults before CAC is present. Other considerations are access to CT scanning and modest radiation exposure."
+        },
+        {
+          "type": "paragraph",
+          "html": "The ACC/AHA Guideline on the Primary Prevention of CVD advises consideration of a statin treatment to lower LDL-C by 50 % in high-risk individuals (i.e., 10-year ASCVD risk ≥ 20 %), and initiating a risk discussion in individuals with borderline (10-year ASCVD risk 5 - &lt; 7.5 %) and intermediate (10-year ASCVD risk 7.5 – &lt; 20 %) risk, favoring moderate-intensity statin treatment if risk enhancers are present [29]. This risk assessment is based on clinical and risk enhancing factors that include family history of premature ASCVD. However, our findings suggest that incorporating the PRS may enhance prediction of risk. The PCE is limited to 10-year risk estimation and its applicable for ages 40 and above. A recent study has shown a substantial gradient in risk of future CAC and CHD events according to PRS for CHD assessed in young adulthood, and provided evidence for utility of PRS among individuals with no detectable CAC in middle age [30]."
+        },
+        {
+          "type": "paragraph",
+          "html": "A recent scientific statement from the AHA concludes that the CAD PRS can provide additional prognostic information that may have utility in guiding pharmacological management, particularly for LDL-C lowering [31]. Moreover, CAD PRSs can identify younger individuals who may benefit the most from more aggressive lifestyle modification [32,33]. Accordingly, knowledge of the PRS can motivate individuals to make extensive lifestyle changes, similar to that seen in CAC scoring [34]. A recent study suggest that using CAD-PRS as a risk-enhancing factor may reduce the mean cost per individual, improve quality-adjusted life-years, and potentially avert future events of CAD and ischemic stroke when compared with PCE alone [35]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Our study has several strengths, including the availability of a large, U.S. based ethnically diverse cohort, with more than half females, followed for an average of 14 years. Rather than a health maintenance organization (HMO, claims data), KPNC is an integrated health care delivery system where utilization comes from the systems own hospitals, outpatient clinics, central laboratory and pharmacies. As long as members remain in the plan, ascertainment of inpatient services is essentially complete. Among persons in the GERA cohort, over 97 % have at least 5 years of continuous membership, and over 83 % have at least 10 years of continuous membership with an average duration of membership of 23.5 years [14]. Compared to previous studies, we believe our findings are unique because of the practicality of a 12-SNP PRS that can be undertaken on saliva or blood and its commercial availability. This 12-SNP PRS test is manageable in daily clinical practice, both from the laboratory and the prescriber point of view, as it is a relatively simple technology with a short turnaround time and is commercially available."
+        },
+        {
+          "type": "paragraph",
+          "html": "We recognize some limitations in our study. First, our cohort participants were all members of KPNC, therefore findings may not fully generalize to uninsured or other populations. Moreover, the GERA cohort has a high representation of the upper end of the educational spectrum, which could limit its generalizability to populations with lower educational levels. Second, no attempt was made to recalibrate the PCE since it may overestimate risk in contemporary populations or samples of non-European ethnicities [36,37]. Third, the 12-SNP PRS was developed and validated using European-based genetic panels and thus is not fully optimized for African-American or Asian subjects, which may explain its reduced predictive performance in these groups in our study. Fourth, we did not have measures of Lp(a), so we were unable to examine the additional contribution of this biomarker to polygenic risk prediction of coronary artery disease as recently shown [38]."
+        },
+        {
+          "type": "paragraph",
+          "html": "In summary, this PRS provided additional predictive performance and improved risk reclassification for incident CHD. Our results support consideration of polygenic risk in predictive algorithms for primary prevention to encourage optimization of lifestyle and provide more precision-based therapy recommendations. Moreover, our results support strong consideration for high polygenic risk to be designated as a risk enhancing factor."
+        },
+        {
+          "type": "paragraph",
+          "html": "This study was funded by a grant to Dr. Iribarren by GENinCode, Pls."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Carlos Iribarren:</strong> Writing – original draft, Visualization, Validation, Supervision, Resources, Project administration, Methodology, Investigation, Funding acquisition, Data curation, Conceptualization. <strong>Meng Lu:</strong> Writing – review &amp; editing, Visualization, Validation, Methodology, Formal analysis, Data curation. <strong>Roberto Elosua:</strong> Writing – review &amp; editing, Conceptualization. <strong>Martha Gulati:</strong> Writing – review &amp; editing. <strong>Nathan D. Wong:</strong> Writing – review &amp; editing. <strong>Roger S. Blumenthal:</strong> Writing – review &amp; editing. <strong>Steven Nissen:</strong> Writing – review &amp; editing. <strong>Jamal S. Rana:</strong> Writing – review &amp; editing."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare the following financial interests/personal relationships which may be considered as potential competing interests:"
+        },
+        {
+          "type": "paragraph",
+          "html": "Carlos Iribarren reports financial support was provided by GENinCode, Plc. Roberto Elosua is a member of the scientific advisory board of GENinCode, Plc, and inventor in a patent application based on the CARDIOinCODE-Score® CHD PRS whose applicant is GENinCode, Plc. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "Global Cardiovascular RiskC.MagnussenC.OjedaF.M.Global effect of modifiable risk factors on cardiovascular disease and mortalityN Engl J Med202310.1056/NEJMoa2206916PMC1058946237632466"
+    },
+    {
+      "html": "ShiS.HuangH.HuangY.ZhongV.W.FengN.Lifestyle behaviors and cardiometabolic diseases by race and ethnicity and social risk factors among us young adults, 2011 to 2018J Am Heart Assoc122023e02892610.1161/JAHA.122.028926PMC1054732937608770"
+    },
+    {
+      "html": "Lloyd-JonesD.M.BraunL.T.NdumeleC.E.Use of risk assessment tools to guide decision-making in the primary prevention of atherosclerotic cardiovascular disease: a special report from the american heart association and American college of cardiologyCirculation1392019e1162e11773058676610.1161/CIR.0000000000000638"
+    },
+    {
+      "html": "AragamK.G.DobbynA.JudyR.Limitations of contemporary guidelines for managing patients at high genetic risk of coronary artery diseaseJ Am Coll Cardiol752020276927803249880410.1016/j.jacc.2020.04.027PMC7346975"
+    },
+    {
+      "html": "ElliottJ.BodinierB.BondT.A.Predictive accuracy of a polygenic risk score-enhanced prediction model vs a clinical risk score for coronary artery diseaseJAMA32320206366453206881810.1001/jama.2019.22241PMC7042853"
+    },
+    {
+      "html": "InouyeM.AbrahamG.NelsonC.P.Genomic risk prediction of coronary artery disease in 480,000 adults: implications for primary preventionJ Am Coll Cardiol722018188318933030946410.1016/j.jacc.2018.07.079PMC6176870"
+    },
+    {
+      "html": "KhanS.S.PostW.S.GuoX.Coronary artery calcium score and polygenic risk score for the prediction of coronary heart disease eventsJAMA3292023176817773721955210.1001/jama.2023.7575PMC10208141"
+    },
+    {
+      "html": "KheraA.V.ChaffinM.AragamK.G.Genome-wide polygenic scores for common diseases identify individuals with risk equivalent to monogenic mutationsNat Genet502018121912243010476210.1038/s41588-018-0183-zPMC6128408"
+    },
+    {
+      "html": "MarstonN.A.PirruccelloJ.P.MelloniG.E.M.Predictive utility of a coronary artery disease polygenic risk score in primary preventionJAMA Cardiol820231301373657681110.1001/jamacardio.2022.4466PMC9857431"
+    },
+    {
+      "html": "PatelA.P.WangM.RuanY.A multi-ancestry polygenic risk score improves risk prediction for coronary artery diseaseNat Med292023179318033741490010.1038/s41591-023-02429-xPMC10353935"
+    },
+    {
+      "html": "Riveros-MckayF.WealeM.E.MooreR.Integrated polygenic tool substantially enhances coronary artery disease predictionCirc Genom Precis Med142021e00330410.1161/CIRCGEN.120.003304PMC828438833651632"
+    },
+    {
+      "html": "IribarrenC.LuM.JorgensonE.Clinical Utility of multimarker genetic risk scores for prediction of incident coronary heart disease: a cohort study among over 51 thousand individuals of European ancestryCirc Cardiovasc Genet920165315402778084610.1161/CIRCGENETICS.116.001522"
+    },
+    {
+      "html": "IribarrenC.LuM.JorgensonE.Weighted Multi-marker Genetic Risk Scores for Incident Coronary Heart Disease among Individuals of AfricanLatino and East-Asian Ancestry. Sci Rep8201868532971716110.1038/s41598-018-25128-xPMC5931622"
+    },
+    {
+      "html": "BandaY.KvaleM.N.HoffmannT.J.Characterizing Race/Ethnicity and Genetic Ancestry for 100,000 Subjects in the genetic epidemiology research on adult health and aging (GERA) CohortGenetics2002015128512952609271610.1534/genetics.115.178616PMC4574246"
+    },
+    {
+      "html": "Lluis-GanellaC.SubiranaI.LucasG.Assessment of the value of a genetic risk score in improving the estimation of coronary riskAtherosclerosis22220124564632252190110.1016/j.atherosclerosis.2012.03.024PMC3697002"
+    },
+    {
+      "html": "IribarrenC.ChandraM.LeeC.Breast arterial calcification: a novel cardiovascular risk enhancer among postmenopausal womenCirc Cardiovasc Imaging152022e01352610.1161/CIRCIMAGING.121.013526PMC893185835290077"
+    },
+    {
+      "html": "SelbyJ.V.FiremanB.H.LundstromR.J.Variation among hospitals in coronary-angiography practices and outcomes after myocardial infarction in a large health maintenance organizationN Engl J Med335199618881896894856510.1056/NEJM199612193352506"
+    },
+    {
+      "html": "HoffmannT.J.KvaleM.N.HesselsonS.E.Next generation genome-wide association tool: design and coverage of a high-throughput European-optimized SNP arrayGenomics98201179892156526410.1016/j.ygeno.2011.04.005PMC3146553"
+    },
+    {
+      "html": "RinconL.M.SanmartinM.AlonsoG.L.A genetic risk score predicts recurrent events after myocardial infarction in young adultsRev Esp Cardiol (Engl Ed)7320206236313162969110.1016/j.rec.2019.08.006"
+    },
+    {
+      "html": "RinconL.M.SubiranaI.Perez Del VillarC.Predictive capacity of a genetic risk score for coronary artery disease in assessing recurrences and cardiovascular mortality among patients with myocardial infarctionFront Cardiovasc Med102023125406610.3389/fcvm.2023.1254066PMC1053793737781316"
+    },
+    {
+      "html": "GoffD.C.Jr.Lloyd-JonesD.M.BennettG.2013 ACC/AHA guideline on the assessment of cardiovascular risk: a report of the American College of Cardiology/American Heart Association Task Force on Practice GuidelinesCirculation1292014S49S732422201810.1161/01.cir.0000437741.48606.98"
+    },
+    {
+      "html": "SelbyJ.V.KarterA.J.AckersonL.M.FerraraA.LiuJ.Developing a prediction rule from automated clinical databases to identify high-risk patients in a large population with diabetesDiabetes Care242001154715551152269710.2337/diacare.24.9.1547"
+    },
+    {
+      "html": "CoxD.R.Regression models and life-tablesJ R Stat Soc [B]1972"
+    },
+    {
+      "html": "JinJ.CeriseJ.E.KangS.J.Principal components ancestry adjustment for genetic analysis workshop 17 dataBMC Proc592011S66Suppl2237345710.1186/1753-6561-5-S9-S66PMC3287905"
+    },
+    {
+      "html": "HarrellF.E.Jr.CaliffR.M.PryorD.B.LeeK.L.RosatiR.AEvaluating the yield of medical testsJAMA2471982254325467069920"
+    },
+    {
+      "html": "KerrK.F.McClellandR.L.BrownE.R.LumleyT.Evaluating the incremental value of new biomarkers with integrated discrimination improvementAm J Epidemiol17420113643742167312410.1093/aje/kwr086PMC3202159"
+    },
+    {
+      "html": "PencinaM.J.D&#x27;AgostinoR.B.Sr.SteyerbergE.WExtensions of net reclassification improvement calculations to measure usefulness of new biomarkersStat Med30201111212120412010.1002/sim.4085PMC3341973"
+    },
+    {
+      "html": "WangM.MenonR.MishraS.Validation of a Genome-wide polygenic score for coronary artery disease in South AsiansJ Am Coll Cardiol7620207037143276290510.1016/j.jacc.2020.06.024PMC7592606"
+    },
+    {
+      "html": "ArnettD.K.BlumenthalR.S.AlbertM.A.2019 ACC/AHA guideline on the primary prevention of cardiovascular disease: a report of the american college of cardiology/American heart association task force on clinical practice guidelinesCirculation1402019e596e6463087935510.1161/CIR.0000000000000678PMC7734661"
+    },
+    {
+      "html": "EmdinC.A.XiaR.AgrawalS.Polygenic Score Assessed in Young Adulthood and Onset of subclinical atherosclerosis and coronary heart diseaseJ Am Coll Cardiol8020222802823583550010.1016/j.jacc.2022.05.013PMC10278962"
+    },
+    {
+      "html": "O&#x27;SullivanJ.W.RaghavanS.Marquez-LunaC.Polygenic risk scores for cardiovascular disease: a scientific statement from the American heart associationCirculation1462022e93e1183586213210.1161/CIR.0000000000001077PMC9847481"
+    },
+    {
+      "html": "KheraA.V.EmdinC.A.DrakeI.Genetic risk, adherence to a healthy lifestyle, and coronary diseaseN Engl J Med3752016234923582795971410.1056/NEJMoa1605086PMC5338864"
+    },
+    {
+      "html": "IribarrenC.L.MElosuaR.RanaJ.SUtility of a polygenic risk score for incident CHD: interplay with lifestyle in a multi-ethnic cohort of more than 60,000 individualsEur Heart J Suppl442023"
+    },
+    {
+      "html": "GuptaA.LauE.VarshneyR.The identification of calcified coronary plaque is associated with initiation and continuation of pharmacological and lifestyle preventive therapies: a systematic review and meta-analysisJACC Cardiovasc Imaging1020178338422879740210.1016/j.jcmg.2017.01.030PMC5761651"
+    },
+    {
+      "html": "MujwaraD.HennoG.VernonS.T.Integrating a polygenic risk score for coronary artery disease as a risk-enhancing factor in the pooled cohort equation: a cost-effectiveness analysis studyJ Am Heart Assoc112022e02523610.1161/JAHA.121.025236PMC923864235699184"
+    },
+    {
+      "html": "DeFilippisA.P.YoungR.BlahaM.J.Calibration and discrimination among multiple cardiovascular risk scores in a modern multiethnic cohortAnn Intern Med1632015686910.7326/L15-5105-226148287"
+    },
+    {
+      "html": "MuntnerP.ColantonioL.D.CushmanM.Validation of the atherosclerotic cardiovascular disease Pooled Cohort risk equationsJAMA3112014140614152468225210.1001/jama.2014.2630PMC4189930"
+    },
+    {
+      "html": "ManikpurageH.D.PaulinA.GirardA.Contribution of Lipoprotein(a) to Polygenic Risk Prediction of Coronary Artery Disease: a Prospective UK Biobank AnalysisCirc Genom Precis Med2023e00413710.1161/CIRCGEN.123.00413737753708"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

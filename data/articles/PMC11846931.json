@@ -1,0 +1,328 @@
+{
+  "pmcid": "PMC11846931",
+  "pmid": "39990934",
+  "doi": "10.1016/j.ajpc.2025.100939",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11846931/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Composite cardiovascular risk factor control in US adults with diabetes and relation to social determinants of health: The All of Us research program",
+  "articleType": "Research Article",
+  "published": "2025-01-30",
+  "year": "2025",
+  "volume": "21",
+  "issue": "",
+  "articleNumber": "100939",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2025",
+  "authors": [
+    {
+      "given": "Frances",
+      "surname": "Golden",
+      "display": "Frances Golden"
+    },
+    {
+      "given": "Johnathan",
+      "surname": "Tran",
+      "display": "Johnathan Tran"
+    },
+    {
+      "given": "Nathan D.",
+      "surname": "Wong",
+      "display": "Nathan D. Wong"
+    }
+  ],
+  "affiliations": [
+    "Heart Disease Prevention Program, Division of Cardiology, University of California, C240 Medical Sciences, Irvine, CA 92697, United States"
+  ],
+  "keywords": [
+    "Diabetes",
+    "Cardiovascular disease",
+    "Risk factors",
+    "Social determinants of health"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Background:</strong> Data are limited on composite cardiovascular risk factor control in patients with type 2 diabetes mellitus (T2DM). This study aims to identify disparities in cardiovascular risk factor control based on most recent recommendations and relationships to social determinants of health in a large-scale real-world cohort of US adults."
+    },
+    {
+      "html": "<strong>Methods:</strong> We analyzed data from 88,416 participants with T2DM in the NIH Precision Medicine Initiative <em>All of Us</em> Research Program 2018–2022. We investigated the management of five key cardiovascular risk factors—glycated hemoglobin (HbA1c), LDL cholesterol (LDL-C), body mass index (BMI), blood pressure (BP), and smoking status. Statistical methods included Chi-square tests for categorical comparisons, <em>t</em>-tests for mean differences, and multiple logistic regression to assess the impact of demographic and socioeconomic factors on risk factor control."
+    },
+    {
+      "html": "<strong>Results:</strong> The study revealed low risk factor control with only 27.7 % of participants achieving recommended levels for three or more risk factors (RFs) and 4.9 % for four or more RFs. Overall, while 81.0% were at target for HbA1c, only 37.9% were at target for BP and 10.4% for LDL-C. Notably, only 1.9 % and 6.9 % were at target for HbA1c, LDL-C, and BP together, based on current and prior recommendations, respectively. Significant disparities were observed across race/ethnicity, sex, and socioeconomic lines with 43.1 % of Asian participants at control for ≥3 RFs compared to 21.1 % of non-Hispanic black participants. In logistic regression analysis, factors such as higher income, higher educational attainment, and health insurance were associated with better RF control, while higher polysocial risk scores linked to poorer control."
+    },
+    {
+      "html": "<strong>Conclusions:</strong> Despite some progress in managing individual CVD risk factors in T2DM, overall composite risk factor control remains poor, especially among underrepresented and socioeconomically disadvantaged groups. The findings highlight the necessity for integrated healthcare strategies that address both medical and social needs to improve control of CVD risk factors and outcomes in T2DM."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Cardiovascular disease (CVD) is a leading cause of morbidity and mortality in patients with type 2 diabetes mellitus (T2DM), accounting for about 50 % of deaths [1,2]. However, due to lack of current data, T2DM is often underestimated as a risk factor for CVD, underscoring the need for more discussion on this relationship [3]. Healthcare efforts focus on modifiable risks including glycated hemoglobin (HbA1c), blood pressure (BP), and LDL cholesterol (LDL-C), but comprehensive control is low, with prior reports showing only one in five T2DM patients managing these three factors well [[4], [5], [6]]. Research also links social determinants of health (SDOH), such as socioeconomic status, physical environment, food security, and access to healthcare with diabetes outcomes, suggesting that addressing these could significantly lower CVD risk [7,8]."
+        },
+        {
+          "type": "paragraph",
+          "html": "In response to the current disparity in risk factor (RF) management, this study seeks to establish more efficient strategies through understanding CVD risk factor control within the context of singular and overlapping determinants of health. Moreover, there are a lack of data on composite risk factor control based on most recent recommended targets. Utilizing the NIH Precision Medicine Initiative <em>All of Us</em> Research Program, we examined the status of CVD risk factor control based on contemporary recommendations in a large sample of US adults with T2DM."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The <em>All of Us</em> Research Program, launched by the National Institutes of Health&#x27;s Precision Medicine Initiative, aims to enroll one million participants across the USA. This large-scale biomedical research project focuses on individualized prevention, treatment, and care through an extensive understanding of biological, environmental, and behavioral health determinants. It collects diverse data types such as electronic health records (EHRs), biospecimens (blood, urine, saliva), physical measurements, and wearable device data. As of 2024, the program has recruited over 768,000 participants from &gt;870 sites nationwide, with 80 % from historically underrepresented communities, underlining its commitment to inclusivity [9,10]. Participant consent was obtained either onsite or remotely via the eConsent platform accessible through the program&#x27;s website or mobile app, with approvals from all participating site institutional review boards [11]."
+        },
+        {
+          "type": "paragraph",
+          "html": "We cleaned and analyzed data using the <em>All of Us</em> Researcher Workbench and the built-in application Jupyter Notebook. The data includes electronic health records (EHR), physical measurements (PMs), and surveys completed by participants. EHR data available includes diagnoses, medication history, procedures, and laboratory results. PMs include blood pressure, heart rate, height, weight, and body mass index (BMI). Survey data includes sociodemographic information, overall health, personal and family medical history, lifestyle, substance use, healthcare access and utilization, and other social determinants of health (SDOH) [10]. All participants completed three basic surveys (“The Basics,” “Lifestyle,” “Overall Health”) with the option to complete further surveys on SDOH and COVID-19. Participants were able to opt out of specific questions or additional surveys. The data are pooled from participants of different race/ethnicity, age, sex, and geographic area with the intent to create a dataset that reflects the diversity of the United States [9]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Our study cohort consisted of 88,416 participants aged ≥18 years with type 2 diabetes mellitus (T2DM) mellitus enrolled in the NIH Precision Medicine Initiative All of Us Research Program. We used the data from v7 Curated Data Repository (CDR) released in 2023 containing data collected between 2017 and 2022. Prior to publication of the database, <em>All of Us</em> uses the Observational Medical Outcomes Partnership Common Data Model (OMOP CDM) to standardize EHR data from participating sites and ensure participant privacy. T2DM was defined as meeting any of the following criteria: medical history of T2DM (<em>n</em> = 49,471), use of diabetes medication or insulin (<em>n</em> = 65,540), HbA1c ≥ 6.5 %, non-fasting glucose ≥ 200 mg/dL, or fasting glucose ≥ 126 mg/dL) (<em>n</em> = 44,610). Patients with medical history of type 1 diabetes mellitus (<em>n</em> = 6347) were excluded from the cohort. Race/ethnicity was collected from survey data and included the categories non-Hispanic White, non-Hispanic Black, Hispanic or Latino, and Asian. We further categorized participants as having a history of atherosclerotic cardiovascular disease (ASCVD) or having no history of ASCVD."
+        }
+      ]
+    },
+    {
+      "title": "Definition and measurements",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We included data on age, race/ethnicity, sex, ASCVD history, and hypertension along with measurements/laboratory values including BMI, blood pressure, HbA1c, LDL-C, HDL-C, and triglycerides. Survey data included smoking status, health insurance, income, employment status, education level, healthcare access, psychological distress, and food insecurity. History of ASCVD was defined as having a diagnosis of myocardial infarction, coronary artery disease, peripheral artery disease, or cerebrovascular disease, excluding hemorrhagic stroke."
+        },
+        {
+          "type": "paragraph",
+          "html": "Our primary measures of interest included BMI, blood pressure, LDL-C, HbA1c, and smoking status—factors shown to reduce cardiovascular disease risk when maintained at target levels [12,13]. We defined targets for five key risk factors as: (1) HbA1c &lt; 7 % in those without ASCVD or &lt; 8 % in those with ASCVD, (2) LDL-C &lt; 55 mg/dL in those with ASCVD or &lt; 70 mg/dL in those without ASCVD, (3) blood pressure &lt; 130/80 mm Hg, (4) BMI &lt; 25 kg/m<sup>2</sup>, and (5) smoking status as current, never, or former smoker based on recommendations from the American Diabetes Association (ADA) and/or American Heart Association (AHA) [14,15]. Notably, for BMI the target level was chosen to be &lt; 25 kg/m<sup>2</sup> based on the cutpoint above where the ADA recommends intervention, either lifestyle or pharmacotherapy."
+        },
+        {
+          "type": "paragraph",
+          "html": "We adopted a validated polysocial risk score (PsRS) developed by Javed et al. for atherosclerotic disease, based on seven key social determinants: (1) unemployment, (2) inability to pay medical bills, (3) low income, (4) psychological distress, (5) delayed care due to lack of transport, (6) education level less than high school, and (7) food insecurity [16]. This model, refined from 38 potential factors to the most impactful seven, assigns scores from 0 to 20, with a score of 20 indicating most disadvantaged. Previous findings by Javed et al. indicated that individuals in the highest PsRS quintile had a nearly fourfold increase in ASCVD prevalence compared to the lowest quintile [16]. The All of Us survey questions aligned with those used by Javed et al., substituting psychological distress assessment with the Cohen Perceived Stress Scale, where a score of 14 or more signifies distress [17]. A subset of 14,456 participants had complete information for calculating PsRS resulting in a smaller sample size for this analysis."
+        },
+        {
+          "type": "paragraph",
+          "html": "The R statistical software available on the <em>All of Us</em> Research Program Researcher Workbench was utilized for our analysis. We used the Chi-square test of proportions to compare the percent at target level for all five RFs, at target level for the combination of HbA1c, BP, and LDL-C, and at target for 3 and 4 risk factors by history of ASCVD, sex, race/ethnicity, employment, income, education, insurance, and calculated PsRS. We used the Student&#x27;s <em>t</em>-test to compare the mean number of RFs at target across these groups. Multiple logistic regression was used to examine the impact of race/ethnicity, sex, socioeconomic status, insurance, and PsRS, adjusted for age, on the control of three or more RFs."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "A total of 88,416 participants with T2DM were identified of which 29,818 (33.7 %) had a history of ASCVD. Our sample was 58.9 % female with a mean age of 63.8 years and a racial/ethnic breakdown of 53.7 % non-Hispanic White, 21.8 % non-Hispanic Black, 16.8 % Hispanic or Latino, and 1.8 % Asian persons. A majority (95.5 %) had health insurance, with 22.7 % on Medicaid. Socioeconomically, 11.7 % had less than a high school education, 67.8 % were not employed for wages or self-employed, and 17.7 % earned under $10k annually (Table 1).Table 1Demographic characteristics of participants with T2DM.Table 1:VariableTotal (<em>N</em> = 88,416)Age (years) (mean ± SD)63.8 (14.0)Sex Male35,407 (41.1 %) Female50,639 (58.9 %)Race/Ethnicity Non-Hispanic White47,480 (53.7 %) Non-Hispanic Black19,286 (21.8 %) Hispanic or Latino14,872 (16.8 %) Asian1623 (1.8 %) Other race/ethnicity1515 (1.7 %)Has health insurance81,876 (95.5 %)Has Medicaid16,568 (22.7 %)Income &lt;10k12,012 (17.7 %) 10k-25k12,452 (18.4 %) 25k-50k13,431 (19.8 %) 50k-75k8981 (13.2 %) 75k-100k6436 (9.5 %) 100k-150k7304 (10.8 %) Over 150k7170 (10.6 %)Education Less than high school degree or equivalent10,010 (11.7 %) Grade Twelve or GED18,441 (21.5 %) Some college24,468 (28.6 %) College graduate or advanced degree32,660 (38.2 %)Employed for wages27,534 (67.8 %)History of ASCVD29,818 (33.7 %)History of hypertension53,740 (62.1 %)BMI, kg/m² &lt; 18.5725 (0.9 %) 18.5 - 24.913,510 (16.1 %) 25 - 29.923,666 (28.1 %) ≥ 3046,234 (55.0 %)Smoking status Never smoked46,715 (54.6 %) Former smoker25,638 (29.9 %) Current smoker13,261 (15.5 %)HbA1c &lt; 7 %47,202 (77.0 %) 7 % -&lt; 8 %6410 (10.5 %) &gt;= 8 %7717 (12.6 %)Systolic blood pressure (mmHg) (mean ± SD)130.8 (19.1)Diastolic blood pressure (mmHg) (mean ± SD)78.7 (12.0)LDL-C (mg/dL) (mean ± SD)101.3 (31.8)HDL-C (mg/dL) (mean ± SD)49.9 (15.4)<strong>Abbreviations:</strong> SD = standard deviation, BMI = body mass index, HbA1c = glycated hemoglobin, LDL-C = low-density lipoprotein cholesterol, HDL-C = high-density lipoprotein cholesterol."
+        },
+        {
+          "type": "paragraph",
+          "html": "There were significant differences in percent of participants at target for risk factors by history of ASCVD, sex, and race/ethnicity, illustrated in Table 2. Overall, only 27.7 % of the study sample were at target for ≥ 3 risk factors. Moreover, control of HbA1c, BP, and LDL-C in combination was low with only 1.9 % of the sample at target (6.9 % based on prior recommendations for LDL-C (&lt; 70 mg/dL in those with ASCVD or &lt; 100 mg/dL in those without ASCVD). Participants with a history of ASCVD had a higher percentage (31.9 %) at target for ≥ 3 risk factors than those without ASCVD (25.5 %, <em>p</em> &lt; 0.001). Compared to females, males had a lower proportion (<em>p</em> &lt; 0.001) at target for BP (34.5 % vs 40.2 %), HbA1c (80.1 % vs 81.7 %), and smoking status (82.3 % vs 86.2 %) but a higher proportion at target for LDL-C (13.6 % vs 8.2 %, <em>p</em> &lt; 0.001) and composite control of HbA1c, BP, and LDL-C together (2.4 % vs 1.6 %, <em>p</em> &lt; 0.001). Among race/ethnicity, Asian participants had the highest proportion at target for 3 or more RF (43.1 %) and non-Hispanic Black participants had the lowest (21.1 %, <em>p</em> &lt; 0.001) as shown in Fig. 1. Asian participants also had the highest proportion at composite control of HbA1c, BP, and LDL-C (3.2 %).Table 2Cardiovascular risk factor control by history of ASCVD, sex, and race/ethnicity.Table 2Hx of ASCVDSexRace/EthnicityProportion (%)Total (<em>N</em> = 88,416)Yes (<em>N</em> = 29,818)No (<em>N</em> = 58,598)Male(<em>N</em> = 35,407)Female(<em>N</em> = 50,639)Non-Hispanic White(<em>N</em> = 47,480)Non-Hispanic Black(<em>N</em> = 19,286)Hispanic/ Latino(<em>N</em> = 14,872)Asian (<em>N</em> = 1623)Other race/ ethnicity(<em>N</em> = 1515)Individual risk factors BMI at target16.4 %17.1 %†16.1 %16.7 %16.2 %17.5 %†14.9 %12.2 %37.0 %17.5 % BP at target37.9 %37.7 %37.9 %34.5 %†40.2 %39.5 %†31.5 %40.1 %40.7 %41.8 % HbA1c at target81.0 %87.4 %†77.1 %80.1 %†81.7 %86.9 %†76.2 %69.1 %83.5 %84.4 % LDL-C at target10.4 %8.4 %†11.7 %13.6 %†8.2 %9.6 %†11.5 %11.2 %11.5 %10.7 % Smoking status at target84.5 %84.3 %84.6 %82.3 %†86.2 %88.6 %†71.2 %87.6 %94.6 %83.3 %HbA1c, BP, &amp; LDL-C at target1.9 %2.0 %1.9 %2.4 %†1.6 %2.0 %†1.7 %1.9 %3.2 %1.7 %≥ 3 risk factors at target27.7 %31.9 %†25.5 %26.4 %†28.6 %30.4 %†21.1 %25.5 %43.1 %30.7 %≥ 4 risk factors at target4.9 %5.6 %†4.6 %4.7 %*5.1 %5.7 %†2.9 %4.2 %12.6 %5.4 %Risk factors at target (mean ± SD)1.98 (0.94)2.10 (0.91) †1.91 (0.94)1.94 (0.94) †2.00 (0.93)2.06 (0.92) †1.76 (0.95)1.93 (0.98)2.38 (0.98)2.04 (0.94)<strong>Abbreviations:</strong> ASCVD = asthersclerotic cardiovascular disease, BMI = body mass index, BP = blood pressure, HbA1c = glycated hemoglobin, LDL-C = low-density lipoprotein cholesterol, SD = standard deviation.⁎<em>p</em> value &lt; 0.05.†<em>p</em> value &lt; 0.001 compared to no history of ASCVD, female, and across race/ethnicity categories.Fig. 1<strong>Composite cardiovascular risk factor control by race/ethnicity and sex.</strong> Risk factors assessed include body-mass index, blood pressure, glycated hemoglobin, low-density lipoprotein cholesterol, and smoking status. P-values represent comparisons between race/ethnicity groups and between males and females. <em>*p</em> &lt; 0.05 †<em>p</em> &lt; 0.001.Fig 1"
+        },
+        {
+          "type": "paragraph",
+          "html": "Table 3 shows risk factor control by employment, education, income, and insurance. Employed individuals had the highest control rates (<em>p</em> &lt; 0.001) for blood pressure (BP) (38.7 %) and smoking status (89.5 %), but not for BMI (14.5 %) and LDL-C (8.5 %). College graduates or those with higher degrees were most often at target for all risk factors, except LDL-C, and significantly more likely to meet ≥ 3 risk factor targets (35.0 %) compared to those with less than a high school diploma (21.4 %, <em>p</em> &lt; 0.001). Income correlates with risk factor (RF) control; those earning over $150k had best control of BMI, BP, HbA1c, smoking status, ≥ 3 RFs, and ≥ 4 RFs. Thos earning under $10k were least likely to have BP, HbA1c, smoking status, ≥ 3 RFs, and ≥ 4 RFs controlled. Insured individuals showed significantly better control for ≥ 3 RFs and ≥ 4 RFs (28.2 % and 5.1 %, respectively) than uninsured individuals (18.2 % and 2.6 %, <em>p</em> &lt; 0.001). Composite risk factor control by demographic, social determinants of health, and polysocial risk score is summarized in the Central Illustration.Table 3Cardiovascular risk factor control by employment, education, income, and insurance.Table 3Individual risk factors at target (%)BMIBP at targetHbA1c at targetLDL-C at targetSmoking status at target≥ 3 RFs at target (%)≥ 4 RF at target (%)RFs at target (mean ± SD)EmploymentEmployed (<em>N</em> = 27,534)14.5 %†38.7 %†80.7 %8.5 %†89.5 %†28.1 %†5.0 %2.00 (0.92)†Unemployed (<em>N</em> = 57,861)17.3 %37.5 %81.4 %11.3 %82.4 %27.6 %4.9 %1.97 (0.94)EducationLess than high school degree (<em>N</em> = 10,010)15.5 %†36.3 %†67.4 %†12.6 %†72.9 %†21.4 %†3.3 %†1.77 (0.95)†Grade 12 or GED (<em>N</em> = 18,441)15.0 %36.0 %76.2 %12.1 %74.9 %22.8 %3.4 %1.81 (0.95)Some college (<em>N</em> = 24,468)13.2 %36.3 %80.8 %10.3 %83.2 %24.5 %3.9 %1.91 (0.91)College grad or advanced degree (<em>N</em> = 32,660)19.9 %40.7 %88.5 %9.0 %94.9 %35.0 %7.1 %2.19 (0.91)Income&lt; 10k (<em>N</em> = 12,012)17.3 %†35.6 %†73.8 %†12.8 %†63.1 %†20.9 %†3.0 %†1.71 (0.98)†10k ∼ 25k (<em>N</em> = 12,452)13.8 %37.1 %78.3 %11.6 %76.8 %24.2 %4.0 %1.87 (0.94)25k ∼ 50k (<em>N</em> = 13,431)12.8 %36.7 %81.1 %9.9 %87.3 %26.2 %4.0 %1.95 (0.91)50k ∼ 75k (<em>N</em> = 8981)13.6 %38.0 %85.1 %9.2 %92.5 %28.5 %4.8 %2.04 (0.88)75k ∼ 100k (<em>N</em> = 6436)16.1 %39.1 %87.4 %9.3 %94.2 %31.9 %5.9 %2.12 (0.89)100k ∼ 150k (<em>N</em> = 7304)18.0 %39.2 %89.6 %8.5 %96.3 %33.0 %6.2 %2.15 (0.88)&gt; 150k (<em>N</em> = 7170)23.8 %41.6 %92.9 %8.0 %97.5 %38.7 %9.0 %2.28 (0.90)Insurance StatusInsured (<em>N</em> = 81,876)16.4 %38.0 %†82.1 %†10.3 %†85.3 %†28.2 %†5.1 %†1.99 (0.93)†Not insured (<em>N</em> = 3840)16.3 %35.2 %60.6 %12.0 %70.9 %18.3 %2.6 %1.69 (0.93)Insurance TypeMedicaid (<em>N</em> = 16,568)15.6 %*38.1 %73.8 %†12.6 %†69.8 %†22.6 %†3.5 %†1.78 (0.98)†Other (<em>N</em> = 56,321)16.6 %38.0 %84.4 %10.0 %89.8 %29.5 %5.4 %2.05 (0.91)<strong>Abbreviations:</strong> BMI = body mass index, BP = blood pressure, HbA1c = glycated hemoglobin, LDL-C = low-density lipoprotein cholesterol, RF = risk factor, SD = standard deviation.⁎<em>p</em> value &lt; 0.05.†p value &lt; 0.001 compared to unemployed, not insured, “other” insurance type, and across education and income categories."
+        },
+        {
+          "type": "paragraph",
+          "html": "There were significant (<em>p</em> &lt; 0.001) differences in control of BMI, HbA1c, and smoking status across quintile of polysocial risk score, with the 5th quintile associated with greatest SDOH burden where the lowest proportion of patients were at target (Table 4). Fig. 2 shows composite cardiovascular risk factor control across risk score quintiles. The 5th quintile group had only 26.5 % at target for ≥ 3 RFs and 4.4 % at target for ≥ 4 RFs compared to 33.2 % (≥ 3 RFs) and 6.5 % (≥ 4 RFs) in the 1st quintile group (<em>p</em> &lt; 0.001).Fig. 2<strong>Composite cardiovascular risk factor control by polysocial risk score (PsRS) quintile</strong>. Risk factors assessed include body-mass index, blood pressure, glycated hemoglobin, low-density lipoprotein cholesterol, and smoking status. PsRS scores range from 0 to 20, with 20 correlating with larger polysocial burden and PsRS: 5th Quintile representing highest PsRS scores. P-values represent comparisons across polysocial risk score quintile groups. <em>*p</em> &lt; 0.05 †<em>p</em> &lt; 0.001.Fig 2Table 4Cardiovascular risk factor control by quintiles of polysocial risk score (PsRS).Table 4Proportion (%)Total (<em>N</em> = 14,456)1stQuintile (<em>N</em> = 2130)2nd Quintile (<em>N</em> = 1920)3rd Quintile(<em>N</em> = 4317)4thQuintile(<em>N</em> = 3595)5thQuintile(<em>N</em> = 2494)Individual risk factors BMI at target16.2 %17.7 %†15.3 %19.3 %15.4 %11.2 % Blood pressure at target39.2 %39.3 %40.7 %37.7 %40.6 %38.4 % HbA1c at target88.1 %90.5 %†86.6 %91.4 %87.7 %81.9 % LDL-C at target8.7 %6.5 %†7.1 %9.3 %9.3 %9.9 % Smoking status at target92.7 %96.0 %†92.9 %96.0 %91.7 %85.1 %≥ 3 risk factors at target31.8 %33.2 %†32.1 %33.9 %32.1 %26.5 %≥ 4 risk factors at target6.1 %6.5 %†5.2 %7.2 %6.0 %4.4 %Risk factors at target (mean ± SD)2.12 (0.90)2.17 (0.87)†2.10 (0.90)2.19 (0.88)2.11 (0.91)1.95 (0.92)<strong>Abbreviations:</strong> BMI = body mass index, HbA1c = glycated hemoglobin, LDL-C = low-density lipoprotein cholesterol, SD = standard deviation.†<em>p</em> value &lt; 0.001 for all factors except blood pressure across quintiles of PsRS."
+        },
+        {
+          "type": "paragraph",
+          "html": "From multiple logistic regression analyses (Tables 5, 6), male participants (OR = 0.77 [0.74, 0.80]) and non-Hispanic Black participants (OR = 0.81 [0.77, 0.85]) were less likely to be at target level for ≥ 3 RFs. In addition, history of ASCVD (OR = 1.43 [1.37, 1.48]), having health insurance (OR = 1.45 [1.29, 1.41]), income of over 150k (OR = 1.66 [1.52, 1.80]), and college or advanced degree (OR = 1.58 [1.45, 1.71]) were associated with a greater likelihood of composite RF control. With a reference group of the 1st quintile, participants in the 5th quintile for PsRS scores were least likely to be at target for ≥ 3 RFs (OR = 0.73 [0.64, 0.83]). In contrast, when examining the odds of being at target for HbA1c, LDL-C, and BP together, non-Hispanic Black participants had highest odds among race/ethnic groups (OR = 1.20 [1.01, 1.44]), while males were less likely to be at target level (OR = 0.68 [0.60, 0.77]) as were unemployed participants (OR = 0.72 [0.61, 0.84]).Table 5Multiple logistic regression of indicators for ≥ 3 risk factors at target.Table 5:VariableOdds Ratio [95 % CI] (<em>N</em> = 64,105)Age1.00 [1.00, 1.00]Sex: male0.77 [0.74, 0.80]Non-Hispanic Black0.81 [0.77, 0.85]Hispanic or Latino1.02 [0.95, 1.08]Asian1.58 [1.40, 1.79]Other race/ethnicity1.32 [0.99, 1.29]History of ASCVD1.43 [1.37, 1.48]Has health insurance1.45 [1.29, 1.63]Unemployed1.09 [1.04, 1.14]Income: 10k-25k1.07 [1.01, 1.42]Income: 25k- 50k1.12 [1.04, 1.20]Income: 50k - 75k1.15 [1.07, 1.24]Income: 75k - 100k1.29 [1.19, 1.41]Income: 100k - 150k1.33[1.23, 1.44]Income: &gt; 150k1.66 [1.52, 1.80]Education: Grade Twelve/GED1.07 [0.99, 1.16]Education: Some college1.09 [1.00, 1.18]Education: College grad or advanced degree1.58 [1.45, 1.71]<strong>Reference groups</strong>: Sex – female, race/ethnicity – Non-Hispanic White, history of ASCVD – no history of ASCVD, health insurance – uninsured, income – &lt;10k, employment – employed for wages, education – less than high school degree or equivalent.Table 6Multiple logistic regression of indicators using polysocial risk score (PsRS) for ≥ 3 risk factors at target.Table 6VariableOdds Ratio [95 % CI] (<em>N</em> = 14,276)Age1.00 [1.00, 1.01]Sex: male0.76 [0.71, 0.83]Non-Hispanic Black0.71 [0.62, 0.81]Hispanic or Latino0.91 [0.77, 1.06]Asian1.98 [1.51, 2.60]Other race/ethnicity0.96 [0.71, 1.28History of ASCVD1.46 [1.35, 1.58]PsRS: 2nd Quintile0.97 [0.85, 1.11]PsRS: 3rd Quintile0.96 [0.86, 1.08]PsRS: 4th Quintile0.92 [0.82, 1.03]PsRS: 5th Quintile0.73 [0.64, 0.83]<strong>Reference groups</strong>: Sex – female, race/ethnicity – Non-Hispanic White, history of ASCVD – no history of ASCVD, PSRS – 1st Quintile."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In a real-world cohort of US adults with T2DM from the NIH Precision Medicine Initiative All of Us research program which was highly diverse (nearly 60 % female and over 45 % non-White), we demonstrate continuing suboptimal control of multiple cardiovascular risk factors, with important disparities according to key demographic and SDOH factors. Despite modest control of individual risk factors, overall management remains poor, with less than a third having 3 or more risk factors and only 5 % with ≥4 risk factors controlled to recommended levels, respectively. Control of three key risk factors (HbA1c, BP, and LDL-C) is exceedingly low at 1.9 % overall. Those who are male, Asian, or with prior history of ASCVD had significantly better individual and composite risk factor control. Examination of specific social determinants of health including employment, education, income, as well as a validated polysocial risk score (PsRS) indicated a connection between lower socioeconomic burden (high income, higher degree of education, insurance status, lower PsRS) with better composite risk factor control."
+        },
+        {
+          "type": "paragraph",
+          "html": "With cardiovascular disease (CVD) as a leading cause of mortality and morbidity in patients with T2DM, focus on modifiable cardiovascular disease risk factors has been a pillar of diabetes management. The importance of control of multiple CVD risk factors on CVD outcomes has been previously demonstrated in other cohort studies. Our prior analysis of the Multi-Ethnic Study of Atherosclerosis (MESA), and Jackson Heart Study (JHS), and Atherosclerosis Risk in Communities (ARIC) study demonstrated control of BP, LDL-C, and HbA1c was linked to respective decreases in CVD risk of 17 %, 33 %, and 37 % with 60 % or more lower risks for incident CHD and CVD events when all 3 are controlled [12]. In the BARI 2D trial of 2265 patients with T2DM, Bittner et al. looked at composite CVD risk factor control of 6 key risk factors and the related this to the risk of death finding that patients with 0 to 2 risk factors in control during follow-up had a risk of death 2-fold higher than those with all 6 CVD risk factors of interest at target level [18]. In a 2018 study using the Swedish National Diabetes Register, Rashwani et al. found that patients with diabetes who had 5 modifiable CVD risk factors in control were at similar risk of risk of death, stroke, or myocardial infarction compared to the general population [19]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Despite the focus on modifying risk factors in diabetes management, our study indicates adequate control is poor across with HbA1c and smoking status best controlled overall (81.0 % and 84.5 %, respectively) and BMI and LDL-C least controlled (16.4 % and 10.4 %, respectively). This study builds on findings from our prior report on patients with DM from the National Health and Nutrition Examination Surveys 2013–2016 [6]. In the NHANES cohort, 17.3 % of participants met target levels for HbA1c, BP, and LDL-C. In the All of Us cohort, only 1.9 % achieved target levels for HbA1c, BP, and LDL-C, significantly lower than in NHANES. In both studies, patients with ASCVD history had better HbA1c control but worse LDL-C control compared to those without ASCVD. The discrepancy may reflect the stricter 2023 American Diabetes Association guidelines for LDL-C, which lowered targets from 70 mg/dL and 100 mg/dL in T2DM patients with and without ASCVD to 55 mg/dL and 70 mg/dL, respectively [4]. Notably, our cohort had 81.0 % at target for HbA1c compared to 55.8 % in the NHANES cohort, which may reflect wider availability and use of glucose lowering drugs in the past decade [20,21]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Significant disparities in risk factor control by race/ethnicity and sex exist in our cohort. Asian participants exhibited equal or superior control of all five risk factors compared to non-Hispanic Black participants. Females were more likely to have composite risk factor control. Research highlights an association between race/ethnicity and sex with the prevalence of both T2DM and CVD. Minority groups were disproportionately affected, with non-Hispanic Black persons experiencing nearly double the prevalence of diabetes compared to non-Hispanic White persons [7,22]. Similarly, the prevalence of CVD is higher in non-Hispanic Black persons (46.8 %) compared to non-Hispanic white (36.4 %), Hispanic (31.15 %), and non-Hispanic Asian (29 %) persons [22]. The MESA study found that Black participants had a 34 % higher mortality hazard and Chinese participants a 21 % lower mortality hazard compared to White participants [23]. Racial/ethnic gaps in use of pharmacotherapies targeting modifiable RFs may play a role in these disparate outcomes [24,25]. Addressing modifiable risk factors in these patients may help close the racial and ethnic gaps that exist in CVD prevalence and mortality among patients with diabetes."
+        },
+        {
+          "type": "paragraph",
+          "html": "Beyond race/ethnicity and sex, our investigation of SDOH found that higher socioeconomic burden is significantly linked to worse composite risk factor control. Those that were insured, had more years of education, and higher income had better cardiovascular risk factor control. Prior research has linked lower socioeconomic status (SES) to increased risks and worse outcomes for both cardiovascular disease (CVD) and type 2 diabetes mellitus (T2DM). A systematic review and meta-analysis by Agardh et al. showed that people with low SES have a higher risk of T2DM, with relative risks of 1.41 for education level, 1.31 for occupation, and 1.40 for income. This trend holds true globally, regardless of a country&#x27;s income level [26]. An analysis of the National Health Interview Survey by Saydah et al. found that participants with less than a high school education or a family income below the poverty level had double the mortality rate from diabetes compared to those with higher SES [27]. Furthermore, these socioeconomic disparities extend to cardiovascular outcomes, indicating that the impact of SES on health goes beyond diabetes [28]. Acquah et al. also found that greater social disadvantages were linked to higher prevalence of key cardiovascular risk factors, such as hypertension and diabetes, highlighting the significant impact of SES on overall health [29]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Recognizing that the impact of SDOH are not based on solitary factors, but rather a diverse array of interlinking risk factors that affect health, we utilized a validated polysocial risk score (PsRS) that aggregates key determinants for CVD. SDOH have been omitted in traditional cardiovascular risk assessment scores, but when added to these scores improves risk assessment and reduces bias [30,31]. In our cohort, participants in the 5th quintile of the PsRS, indicative of greatest social disadvantage, showed poorer control of BMI, BP, HbA1c, and smoking status compared to those in the 1st quintile. In a multiple logistic regression of indicators for ≥ 3 risk factors at target adjusted for age and race/ethnicity, the 5th quintile had an odds ratio of 0.73 [0.64, 0.83], illustrating the significant impact of compounded social disadvantages on health."
+        },
+        {
+          "type": "paragraph",
+          "html": "The translational implications of these findings emphasize the need for diabetes and cardiovascular medicine to go beyond traditional interventions to include social determinants of health. The strong association between income, education, and insurance status with composite cardiovascular risk factor control in this study indicate a need to address upstream determinants of health. Clinically, incorporation of validated assessments of social determinants of health into routine preventative care could help identify patients at higher risk for poor cardiovascular outcomes. These high-risk groups may require a more targeted approach from multidisciplinary care teams and community-based programs to promote lifestyle changes, improve medication adherence, and address barriers to care."
+        },
+        {
+          "type": "paragraph",
+          "html": "Our study has several strengths and limitations. The <em>All of Us</em> Research Program dataset is a large, diverse patient population that includes minority groups often overlooked in research. Our sample included nearly 60 % female and nearly 50 % non-White participants, as well as significant proportions of lower income and less well educated individuals. Additionally, we align our analysis with the 2023 updated Standards of Care in Diabetes, incorporating the new LDL-C targets. However, our cross-sectional design in the present study did not allow for the analysis of disease progression or incident CVD or other outcomes. Moreover, while <em>All of Us</em> captures a comprehensive sample of US adults, as a research study, it is still subject to participation baises that may limit its generalizability to the entire US population. The findings from our study are most generalizable to diverse populations that mirror the demographic composition of the <em>All of Us</em> Research Program cohort, which intentionally oversamples groups underrepresented in biomedical research."
+        },
+        {
+          "type": "paragraph",
+          "html": "In summary, our study of a diverse U.S. cohort with diabetes demonstrates that, despite heightened awareness and management efforts, control of cardiovascular risk factors remains inadequate, influenced by disparities across sex, race/ethnicity, and ASCVD history. Crucially, poorer control is associated with social determinants such as low income, less education attainment, and being uninsured. This underscores the need to better understand the social obstacles preventing effective management of diabetes. Addressing these barriers through targeted individual and community interventions could significantly improve cardiovascular and other health outcomes for this expanding patient population."
+        }
+      ]
+    },
+    {
+      "title": "Disclosures",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Dr. Wong has received research funding through his institution from Novo Nordisk, Lilly, Amgen, Novartis, and Regeneron and is a consultant/advisor for Amgen, Novartis, and Heart Lung."
+        }
+      ]
+    },
+    {
+      "title": "Funding",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "No funding was received for this project or preparation of this manuscript."
+        }
+      ]
+    },
+    {
+      "title": "Author agreement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Frances Golden, Johnathan Tran and Nathan D. Wong have agreed to the submission of this MS."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Frances Golden:</strong> Writing – review &amp; editing, Writing – original draft, Methodology, Formal analysis. <strong>Johnathan Tran:</strong> Methodology, Formal analysis. <strong>Nathan D. Wong:</strong> Writing – review &amp; editing, Supervision, Project administration, Methodology, Data curation, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Dr. Wong reports research funding through his institution from Amgen, Novo Nordisk, Novartis, and Regeneron separate from this project and is a consultant/advisory board member for Amgen, Novartis, Ionis and HeartLung. The other authors declare there are no conflicts of interested related to the content of this manscript."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "EinarsonT.R.AcsA.LudwigC.PantonU.H.Prevalence of cardiovascular disease in type 2 diabetes: a systematic literature review of scientific evidence from across the world in 2007-2017Cardiovasc Diabetol1712018832988419110.1186/s12933-018-0728-6PMC5994068"
+    },
+    {
+      "html": "GlovaciD.FanW.WongN.DEpidemiology of diabetes mellitus and cardiovascular diseaseCurr Cardiol Rep2142019213082874610.1007/s11886-019-1107-y"
+    },
+    {
+      "html": "ChaudharyR.S.TurnerM.B.MehtaL.S.Al-RoubN.M.SmithS.C.JrKaziD.SLow awareness of diabetes as a major risk factor for cardiovascular disease in middle- and high-income countriesDiabetes Care47320243793833809147710.2337/dc23-1731PMC13066450"
+    },
+    {
+      "html": "ElSayedN.A.AleppoG.ArodaV.R.10. Cardiovascular disease and risk management: standards of care in diabetes-2023 [published correction appears in Diabetes Care. 2023 Jan 26;:]Diabetes Care46Suppl 12023S158S1903650763210.2337/dc23-S010PMC9810475"
+    },
+    {
+      "html": "FoxC.S.GoldenS.H.AndersonC.Update on prevention of cardiovascular disease in adults with type 2 diabetes mellitus in light of recent evidence: a scientific statement from the American Heart Association and the American Diabetes AssociationDiabetes Care3892015177718032624645910.2337/dci15-0012PMC4876675"
+    },
+    {
+      "html": "AndaryR.FanW.WongN.DControl of cardiovascular risk factors among US adults with type 2 diabetes with and without cardiovascular diseaseAm J Cardiol124420195225273123907210.1016/j.amjcard.2019.05.035"
+    },
+    {
+      "html": "Hill-BriggsF.AdlerN.E.BerkowitzS.A.Social determinants of health and diabetes: a scientific reviewDiabetes Care4412020258279Nov 23313940710.2337/dci20-0053PMC7783927"
+    },
+    {
+      "html": "TeshaleA.B.HtunH.L.OwenA.The role of social determinants of health in cardiovascular diseases: an umbrella reviewJ Am Heart Assoc12132023e02976510.1161/JAHA.123.029765PMC1035609437345825"
+    },
+    {
+      "html": "All of us Research Program. Data snapshots. All of us research hub. Published 2024. Accessed February 21, 2024. <a href=\"https://www.researchallofus.org/data-tools/data-snapshots/\">https://www.researchallofus.org/data-tools/data-snapshots/</a>."
+    },
+    {
+      "html": "All of Us Research Program InvestigatorsDennyJ.C.RutterJ.L.The &quot;All of Us&quot; research programN Engl J Med3817201966867610.1056/NEJMsr180993731412182PMC8291101"
+    },
+    {
+      "html": "All of Us Research Program. All of us research program protocol. All of us research hub. Published 2021. Accessed February 21, 2024. <a href=\"https://allofus.nih.gov/about/all-us-research-program-protocol\">https://allofus.nih.gov/about/all-us-research-program-protocol</a>."
+    },
+    {
+      "html": "WongN.D.ZhaoY.PatelR.Cardiovascular risk factor targets and cardiovascular disease event risk in diabetes: a pooling project of the atherosclerosis risk in communities study, multi-ethnic study of atherosclerosis, and Jackson Heart StudyDiabetes Care39520166686762720837410.2337/dc15-2439PMC4839178"
+    },
+    {
+      "html": "WongN.D.SattarN.Cardiovascular risk in diabetes mellitus: epidemiology, assessment and preventionNat Rev Cardiol201020236856953719385610.1038/s41569-023-00877-z"
+    },
+    {
+      "html": "ElSayedN.A.AleppoG.ArodaV.R.6. Glycemic targets: standards of care in diabetes-2023Diabetes Care46Suppl 12023S97S1103650764610.2337/dc23-S006PMC9810469"
+    },
+    {
+      "html": "JosephJ.J.DeedwaniaP.AcharyaT.Comprehensive management of cardiovascular risk factors for adults with type 2 diabetes: a scientific statement from the American Heart AssociationCirculation14592022e722e7593500040410.1161/CIR.0000000000001040"
+    },
+    {
+      "html": "JavedZ.Valero-ElizondoJ.DudumR.Development and validation of a polysocial risk score for atherosclerotic cardiovascular diseaseAm J Prev Cardiol8202110025110.1016/j.ajpc.2021.100251PMC844115234553187"
+    },
+    {
+      "html": "CohenS.KamarckT.MermelsteinR.A global measure of perceived stressJ Health Soc Behav24419833853966668417"
+    },
+    {
+      "html": "BittnerV.BertoletM.Barraza FelixR.Comprehensive cardiovascular risk factor control improves survival: the BARI 2D trialJ Am Coll Cardiol66720157657732627105710.1016/j.jacc.2015.06.019PMC4550809"
+    },
+    {
+      "html": "RawshaniA.RawshaniA.FranzénS.Risk factors, mortality, and cardiovascular outcomes in patients with type 2 diabetesN Engl J Med379720186336443011058310.1056/NEJMoa1800256"
+    },
+    {
+      "html": "PottegårdA.AndersenJ.H.SøndergaardJ.ThomsenR.W.VilsbøllT.Changes in the use of glucose-lowering drugs: a Danish nationwide studyDiabetes Obes Metab2542023100210103651485610.1111/dom.14947"
+    },
+    {
+      "html": "ShinH.SchneeweissS.GlynnR.J.PatornoE.Trends in first-line glucose-lowering drug use in adults with type 2 diabetes in light of emerging evidence for SGLT-2i and GLP-1RADiabetes Care4482021177417823438534510.2337/dc20-2926PMC8385465"
+    },
+    {
+      "html": "BenjaminE.J.ViraniS.S.CallawayC.W.ChamberlainA.M.ChangA.R.ChengS.Heart disease and stroke statistics-2018 update: a report from the American Heart AssociationCirculation137122018e67e4922938620010.1161/CIR.0000000000000558"
+    },
+    {
+      "html": "PostW.S.WatsonK.E.HansenS.Racial and ethnic differences in all-cause and cardiovascular disease mortality: the MESA studyCirculation146320222292393586176310.1161/CIRCULATIONAHA.122.059174PMC9937428"
+    },
+    {
+      "html": "LiP.ZhangP.GuanD.Changes in racial and ethnic disparities in glucose-lowering drug utilization and glycated haemoglobin A1c in US adults with diabetes: 2005-2018Diabetes Obes Metab25220235165253625117310.1111/dom.14894PMC9812896"
+    },
+    {
+      "html": "AkbarpourM.DevineniD.GongY.WongN.D.Dyslipidemia treatment and lipid control in US adults with diabetes by sociodemographic and cardiovascular risk groups in the NIH precision medicine initiative <em>all of us</em> research program[published correction appears inJ Clin Med13420241155Feb 193683620310.3390/jcm12041668PMC9966763"
+    },
+    {
+      "html": "AgardhE.AllebeckP.HallqvistJ.MoradiT.SidorchukA.Type 2 diabetes incidence and socio-economic position: a systematic review and meta-analysisInt J Epidemiol40320118048182133561410.1093/ije/dyr029"
+    },
+    {
+      "html": "SaydahS.LochnerK.Socioeconomic status and risk of diabetes-related mortality in the U.SPublic Health Rep125320103773882043303210.1177/003335491012500306PMC2848262"
+    },
+    {
+      "html": "SchultzW.M.KelliH.M.LiskoJ.C.Socioeconomic status and cardiovascular outcomes: challenges and interventionsCirculation137202018216621782976022710.1161/CIRCULATIONAHA.117.029652PMC5958918"
+    },
+    {
+      "html": "AcquahI.HaganK.JavedZ.Social determinants of cardiovascular risk, subclinical cardiovascular disease, and cardiovascular eventsJ Am Heart Assoc1262023e02558110.1161/JAHA.122.025581PMC1011154236926956"
+    },
+    {
+      "html": "FiscellaK.TancrediD.FranksP.Adding socioeconomic status to Framingham scoring to reduce disparities in coronary risk assessmentAm Heart J157620099889941946440810.1016/j.ahj.2009.03.019"
+    },
+    {
+      "html": "JavedZ.KundiH.ChangR.TitusA.ArshadH.Polysocial risk scores: implications for cardiovascular disease risk assessment and managementCurr Atheroscler Rep25122023105910683804800810.1007/s11883-023-01173-4"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

@@ -1,0 +1,602 @@
+{
+  "pmcid": "PMC13329531",
+  "pmid": "42403453",
+  "doi": "10.1016/j.ajpc.2026.101574",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13329531/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Association of systemic inflammation with major adverse cardiovascular events in patients with acute myocardial infarction",
+  "articleType": "Research Article",
+  "published": "2026-03-24",
+  "year": "2026",
+  "volume": "29",
+  "issue": "",
+  "articleNumber": "101574",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2026",
+  "authors": [
+    {
+      "given": "Chi",
+      "surname": "Nguyen",
+      "display": "Chi Nguyen"
+    },
+    {
+      "given": "Amanda M.",
+      "surname": "Ackermann",
+      "display": "Amanda M. Ackermann"
+    },
+    {
+      "given": "Erica",
+      "surname": "Marieb",
+      "display": "Erica Marieb"
+    },
+    {
+      "given": "Jeffrey R.",
+      "surname": "Skaar",
+      "display": "Jeffrey R. Skaar"
+    },
+    {
+      "given": "Wing",
+      "surname": "Chow",
+      "display": "Wing Chow"
+    },
+    {
+      "given": "Radha",
+      "surname": "Ryali",
+      "display": "Radha Ryali"
+    },
+    {
+      "given": "Lyuba",
+      "surname": "Popadic",
+      "display": "Lyuba Popadic"
+    },
+    {
+      "given": "Xiyuan",
+      "surname": "Wu",
+      "display": "Xiyuan Wu"
+    },
+    {
+      "given": "Xinshuo",
+      "surname": "Ma",
+      "display": "Xinshuo Ma"
+    },
+    {
+      "given": "Kathleen",
+      "surname": "E․ Kearney",
+      "display": "Kathleen E․ Kearney"
+    }
+  ],
+  "affiliations": [
+    "aNovo Nordisk Inc, Plainsboro, NJ, USA",
+    "bKomodo Health, New York, NY, USA",
+    "cUniversity of Washington School of Medicine, Seattle, WA, USA"
+  ],
+  "keywords": [
+    "Systemic inflammation",
+    "Acute myocardial infarction",
+    "Cardiovascular disease",
+    "Real-world evidence",
+    "Cohort study",
+    "Adults"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Objective:</strong> Assess the association of systemic inflammation (SI) with major adverse cardiovascular events (MACE) and heart failure (HF) in patients with acute myocardial infarction (AMI)."
+    },
+    {
+      "html": "<strong>Methods:</strong> This retrospective cohort study included adults hospitalized for type 1 AMI from July 2016 through December 2023 in the Komodo Healthcare Map database. High-sensitivity C-reactive protein (hsCRP) test results 1 year before or after admission determined SI status (with SI, ≥1 test 2–10 mg/L; without SI, all tests &lt;2 mg/L). hsCRP tests within 30 days post-AMI or hospitalization, associated with antimicrobial or corticosteroid use, or with values &gt;10 mg/L were excluded. Incidence of revised 3-point MACE (nonfatal MI, nonfatal stroke, or all-cause mortality), revised 4-point MACE (nonfatal MI, nonfatal stroke, urgent revascularization, or all-cause mortality), and HF were estimated per 1000 person-years (PY). Cox regression models assessed the adjusted association between SI and the outcomes."
+    },
+    {
+      "html": "<strong>Results:</strong> Among 3149 eligible patients (mean age, 61 years), 46.4% had SI. Compared with patients without SI, patients with SI were more likely to be female and have more comorbidities. Patients with SI had a higher incidence of revised 3-point (45.4 vs. 27.3/1,000PY) and 4-point MACE (52.1 vs. 35.1/1,000PY). SI was associated with increased risk of revised 3-point and 4-point MACE (HR=1.39 [95% CI, 1.08–1.78] and 1.26 [1.01–1.58], respectively). Among patients without prior HF (<em>n</em> = 1988), SI was associated with increased risk of HF hospitalization (HR=2.04 [1.26–3.30])."
+    },
+    {
+      "html": "<strong>Conclusions:</strong> Patients with AMI and SI have an increased risk of MACE and incident HF hospitalization compared with patients with AMI without SI."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Background and Methods",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Acute myocardial infarction (AMI) is a leading cause of morbidity and mortality in the United States. &gt;800,000 AMIs occur annually, of which 200,000 are recurrent [1]. While advances in treatment have improved AMI survival, substantial morbidity and mortality remain, with the potential for recurrent major adverse cardiovascular events (MACE), leading to hospitalization or death [[2], [3], [4], [5]]. Among patients who have experienced an AMI, 5%–9% will experience a subsequent AMI, and 14% will die within 1 year; the 5-year risk of subsequent MACE (nonfatal MI, nonfatal stroke, and CV-related death) is 33.4% [3,6]. Due to structural and functional damage that occurs after infarction, patients with AMI are also at a higher risk of developing heart failure (HF). Research indicates that 20%–30% of patients will develop HF within a year [7,8]. The frequency of MACE and HF after AMI underscores the need to identify modifiable risk factors that contribute to these outcomes."
+        },
+        {
+          "type": "paragraph",
+          "html": "Systemic inflammation (SI) plays a role in the initiation and progression of atherosclerotic plaques and is a risk factor that may be associated with AMI and subsequent cardiovascular events [9,10]. In patients who have experienced an AMI, the acute inflammatory response is a critical component of myocardial healing as it facilitates the clearance of necrotic tissue and initiates cardiac remodeling [11]. After the acute phase following an AMI, the inflammatory response typically declines gradually and stabilizes within 2–4 weeks [12]. However, some patients have chronically elevated SI, which has been implicated in pathogenic post-infarction tissue remodeling (e.g., infarct expansion, myocardial thinning, left-ventricular dilatation, systolic or diastolic dysfunction) and may contribute to subsequent cardiovascular events [[13], [14], [15], [16], [17]]. In the clinical setting, SI is typically identified by C-reactive protein (CRP), which is produced by the liver in response to circulating pro-inflammatory cytokines, especially interleukin-6 (IL-6) [18]. For the assessment of cardiovascular inflammation, CRP is usually measured in the clinical setting by high-sensitivity CRP (hsCRP) testing [[19], [20], [21]]. Elevated IL-6 levels are associated with increased risk of cardiovascular events, cardiovascular mortality, and all-cause mortality in patients with acute coronary syndrome [22,23]. Elevated hsCRP levels have also been shown to predict the occurrence of MACE in patients with atherosclerotic cardiovascular disease (ASCVD), independent of low-density lipoprotein cholesterol (LDL-C) [[24], [25], [26]]. Therefore, the association between systemic inflammation and cardiovascular outcomes among patients with AMI may be important for clinical decision-making and treatment planning to reduce the risk of these events."
+        },
+        {
+          "type": "paragraph",
+          "html": "Cardiovascular inflammation is recognized as a therapeutic target for reducing the risk of future events in at-risk patients [27]. The CANTOS (Canakinumab Anti-inflammatory Thrombosis Outcome Study), COLCOT (Colchicine Cardiovascular Outcomes Trial), and LoDoCo2 (Low-dose Colchicine 2) trials demonstrated that anti-inflammatory therapies can effectively reduce the risk of cardiac events among at-risk patients [[28], [29], [30]]. However, the prevalence and association of SI with recurrent cardiovascular events have been primarily studied in the context of randomized trials and have not been well characterized in broader populations. Therefore, there is a need for large, population-based epidemiological studies to clarify the association between SI and subsequent cardiovascular events in patients who have experienced an AMI. Such studies are particularly relevant concerning type 1 AMI, a major contributor to overall AMI incidence and for which SI may be pivotal, given its involvement in the rupture of atherosclerotic plaques."
+        },
+        {
+          "type": "paragraph",
+          "html": "The primary objective of this study was to assess the association between SI, as indicated by hsCRP levels, and the risk of MACE among patients with type 1 AMI. The secondary objective was to assess the association between SI and the risk of incident HF among patients with type 1 AMI without a history of HF."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This retrospective, longitudinal, observational study used the Komodo Healthcare Map [31], which includes deidentified administrative medical and pharmacy claims linked with clinical and laboratory measurements for a nationally representative US population, from January 1, 2016, through December 31, 2023. Mortality data are sourced from multiple databases, including the Death Master File provided by the Social Security Administration, inpatient discharge status, and third-party obituary data. This study used deidentified data and was exempted from institutional review board review. The research team accessed a limited dataset without patient-identifiable information, and only summary statistics were reported. This work was conducted in accordance with the Declaration of Helsinki and complied with all relevant provisions of the US Health Insurance Portability and Accountability Act (HIPAA). Komodo Health approved the use of the dataset for this study."
+        },
+        {
+          "type": "paragraph",
+          "html": "This study included patients with ≥1 inpatient admission with an International Classification of Diseases, Tenth Revision, Clinical Modification (ICD-10-CM) diagnosis code for type 1 AMI in the primary position (I21.0, I21.1, I21.2, I21.3, I21.4, or I21.9). ICD-10-CM codes were also used to further identify patients by AMI subtype, including ST-segment elevation myocardial infarction (STEMI; codes I21.0, I21.01, I21.21, I21.29, I21.09, 410.81, I21.11, I21.19, I21.3, I21.02, I21.1, or I21.2 in the primary position) and non–ST-segment elevation myocardial infarction (NSTEMI; code I21.4 in the primary position). The index date was the first occurrence of AMI during the patient identification period (July 1, 2016, to December 31, 2023). Eligible patients were aged ≥18 years on the index date and had continuous health plan enrollment ≥6 months before and ≥1 day after the index date (<strong>Supplemental Figure 1</strong>). SI status was determined based on hsCRP results during 1 year before or after the AMI index date (without SI: all hsCRP tests &lt;2 mg/L; with SI: ≥1 hsCRP test 2–10 mg/L) [28,32]. Prior studies show that single elevated hsCRP tests are associated with cardiovascular outcomes; based on this literature, a single eligible hsCRP value was considered for classification of SI in this study [33,34]. hsCRP tests &gt;10 mg/L or taken within 30 days after an AMI event, inpatient visit, or emergency department (ED) visit were excluded due to potential association with acute inflammation [24,35,36]. Additionally, hsCRP tests were excluded if there was evidence of antibiotic, antiviral, or antimycotic medication use within 2 weeks before or 1 week after the test date or evidence of corticosteroid use within 1 month before the test date. Patients were excluded if they had coronary artery bypass grafting during the index hospitalization or any of the following conditions during 1 year before or after the index date: end-stage renal disease, severe hepatic disease (hepatic encephalopathy, ascites, or hepatic cirrhosis), evidence of chronic infectious disease (hepatitis, HIV, tuberculosis), or cancer (except skin cancer). For the incidence HF analysis, patients with prior HF were excluded based on diagnosis codes for HF and HF-related conditions, such as rheumatic heart disease, hypertensive heart disease with heart failure, hypertensive heart and chronic kidney disease with heart failure, and cardiomyopathy."
+        },
+        {
+          "type": "paragraph",
+          "html": "Patient demographic and clinical characteristics, including relevant comorbidities, procedures, and medications, were evaluated during the baseline period (6 months preindex to the index date). Demographic characteristics included age in years, sex, race, ethnicity, insurance type (commercial, Medicaid, Medicare), and geographic region (Northeast, Midwest, South, West, Other). Clinical characteristics included the Quan-Charlson Comorbidity Index (QCI) [37]; comorbidities related to AMI (e.g., hypertension, dyslipidemia, type 2 diabetes, obesity, prior MI, chronic obstructive pulmonary disease, peripheral vascular disease, chronic kidney disease [CKD], and autoimmune diseases) were identified from medical claims using ICD-10-CM codes. Medication use, ascertained from pharmacy claims using the national drug codes, included cardiovascular medications, immunosuppressive medications, and nonsteroidal anti-inflammatory drugs (see <strong>Supplemental Table 1</strong> for a list of medications)."
+        },
+        {
+          "type": "paragraph",
+          "html": "The primary study outcomes were the occurrence of revised 3-point MACE (nonfatal MI hospitalization, nonfatal stroke hospitalization, or all-cause mortality) and revised 4-point MACE (nonfatal MI hospitalization, nonfatal stroke hospitalization, urgent revascularization, or all-cause mortality). Revascularization was identified using ICD-10 procedure codes (ICD-10-PCS), current procedural terminology (CPT), or Healthcare Common Procedure System (HCPCS) for percutaneous coronary intervention or coronary artery bypass grafting. Urgent or unplanned procedures were defined as claims originating in the emergency department or emergency department that later admitted to hospital."
+        },
+        {
+          "type": "paragraph",
+          "html": "Subgroup analyses were conducted by AMI subtype (STEMI and NSTEMI). Additionally, individual MACE components (nonfatal MI, nonfatal stroke, all-cause mortality, and urgent revascularization) were reported. The secondary study outcome, assessed only among patients without HF prior to or during the index AMI hospitalization, included assessment of incident HF, defined as either hospitalization or outpatient visit during follow-up with an ICD-10-CM diagnosis code for HF (I50x) in any position."
+        },
+        {
+          "type": "paragraph",
+          "html": "Descriptive statistics (mean and standard deviation for continuous variables and counts and percentages for categorical variables) were reported for patient demographic and clinical characteristics at baseline. Incidence rates were calculated as the number of patients who experienced a new event during follow-up divided by the total time at risk for all patients. Incidence rates with 95% confidence intervals (CI) were reported per 1000 person-years (PY). For each outcome, hazard ratios (HRs) comparing patients with SI versus patients without SI (reference group) were estimated using Cox proportional hazards models, adjusting for baseline covariates, including patient demographic characteristics, comorbidities, QCI, and medication use. HRs were reported with corresponding 95% CIs. In the subgroup analysis of STEMI versus NSTEMI, we used Cox proportional hazards models with an interaction term (SI × subgroup) to test for effect modification and calculate hazard ratios for each subgroup. A p-value &lt;0.05 was considered statistically significant. Analyses were conducted in R 4.3.3 with the “survival” package 3.7–0."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Cohort baseline characteristics",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Among 3149 eligible patients, 46.4% (<em>n</em> = 1461) had SI (Table 1; <strong>Supplemental Table 2; Supplemental Figure 1</strong>). Of the 3149 patients, most patients (60.8%) had hsCRP measured after an AMI, 31.5% had hsCRP measured before an AMI, and 242 patients (7.7%) had eligible hsCRP tests both before and after an AMI . In the overall sample, the median (interquartile range) hsCRP was 3.40 (2.30, 5.60) mg/L in the SI group and 0.80 (0.40, 1.20) mg/L in the non-SI group. Patients with and without SI were similar in age (mean age: 61 vs. 60 years, respectively). Compared with patients without SI, patients with SI were more likely to be female (34% vs. 26%) and to have more comorbidities, including CKD (12% vs. 8%), hypertension (59% vs. 48%), dyslipidemia (58% vs. 51%), and type 2 diabetes (34% vs. 22%) (all <em>p</em> &lt; 0.01). There was no significant difference in autoimmune disease between the two cohorts (4.4% vs. 3.8%; <em>p</em> = 0.4) (Table 1), but patients with SI were more likely to use immunosuppressive medication (25% vs. 20%; <em>p</em> &lt; 0.01). Patients with SI were also more likely to use cardiovascular medications, including antihypertensives (60% vs. 51%; <em>p</em> &lt; 0.01), antiplatelets (15% vs. 11%; <em>p</em> &lt; 0.01), and anticoagulants (9.4% vs. 7.5%; <em>p</em> = 0.045). The average follow-up time between patients with and without SI was similar (31 vs. 32 months, respectively).Table 1Cohort demographic and clinical characteristics at baseline, overall. and by systemic inflammation status.Table 1 dummy alt textPatients with AMI1<sup>,</sup>2Patients with AMI without prior HFCharacteristicAll eligible patients with AMI(<em>N</em> = 3149)AMIwithout SI(<em>n</em> = 1688)AMIwith SI (<em>n</em> = 1461)p-valueAll eligible patientswith AMI (<em>n</em> = 1988)AMIwithout SI (<em>n</em> = 1120)AMIwith SI (<em>n</em> = 868)p-value<strong>Age, mean (SD)</strong>61 (11)60 (11)61 (11)0.07259 (11)59 (10)59 (11)&gt;0.9<strong>Age group</strong>3<strong>, n (%)</strong>0.164250.5 18–44223 (7.1)121 (7.2)102 (7.0)162 (8.1)91 (8.1)71 (8.2) 45–54634 (20.1)339 (20.1)295 (20.1)435 (21.8)236 (21.0)199 (22.9) 55–641302 (41.3)726 (43.0)576 (39.4)879 (44.2)513 (45.8)366 (42.1) 65–74588 (18.7)305 (18.1)283 (19.4)332 (16.7)182 (16.2)150 (17.3) 75+402 (12.8)197 (11.7)205 (14.0)180 (9.1)98 (8.8)82 (9.4)<strong>Gender, n (%)</strong>&lt;0.0010.002 Male2184 (69.4)1231 (72.9)953 (65.2)1412 (71.0)829 (74.0)583 (67.2) Female932 (29.6)438 (25.9)494 (33.8)560 (28.1)281 (25.0)279 (32.1) Unknown/missing33 (1.0)19 (1.1)14 (1.0)16 (0.8)10 (0.9)6 (0.7)<strong>Race, n (%)</strong>0.0060.033 White/Caucasian1879 (59.6)983 (58.2)896 (61.3)1175 (59.1)651 (58.1)524 (60.4) Black/African American242 (7.7)113 (6.7)129 (8.8)128 (6.4)59 (5.3)69 (7.9) American Indian, Alaska Native, or Asian197 (6.3)121 (7.2)76 (5.2)123 (6.2)78 (7.0)45 (5.2) Other245 (7.8)134 (7.9)111 (7.6)163 (8.2)93 (8.3)70 (8.1) Unknown/missing586 (18.6)337 (20.0)249 (17.0)399 (20.1)239 (21.3)160 (18.4)<strong>Ethnicity, n (%)</strong>&lt;0.0010.006 Hispanic410 (13.0)195 (11.6)215 (14.7)242 (12.1)118 (10.5)124 (14.3) Non-Hispanic2195 (69.7)1158 (68.6)1037 (70.9)1389 (69.8)781 (69.7)608 (70.0) Unknown/missing544 (17.3)335 (19.8)209 (14.3)357 (17.9)221 (19.7)136 (15.7)<strong>Insurance type, n (%)</strong>&lt;0.0010.016 Commercial health insurance1948 (61.9)1122 (66.4)826 (56.5)1370 (68.9)800 (71.4)570 (65.7) Medicare (Advantage and FFS)871 (27.7)418 (24.7)453 (31.0)429 (21.5)227 (20.2)202 (23.3) Medicaid330 (10.5)148 (8.8)182 (12.4)189 (9.5)93 (8.3)96 (11.1)<strong>Geographic region, n (%)</strong>0.020.4 Northeast687 (21.8)334 (19.7)353 (24.1)428 (21.5)231 (20.6)197 (22.7) Midwest379 (12.0)210 (12.4)169 (11.5)241 (12.1)144 (12.8)97 (11.2) South1244 (39.5)672 (39.8)572 (39.1)793 (39.8)441 (39.3)352 (40.6) West839 (26.6)472 (27.9)367 (25.1)526 (26.4)304 (27.1)222 (25.6)<strong>Quan-Charlson Comorbidity Index (QCI)</strong> Mean (SD)0.62 (1.13)0.51 (1.02)0.75 (1.24)&lt;0.0010.32 (0.69)0.28 (0.66)0.38 (0.73)&lt;0.001 0, n (%)2143 (68.1)1238 (73.3)905 (61.9)&lt;0.0011544 (77.6)904 (80.7)640 (73.7)0.003 1, n (%)469 (14.9)203 (12.0)266 (18.2)293 (14.7)140 (12.5)153 (17.6) 2, n (%)308 (9.8)151 (8.9)157 (10.7)116 (5.8)59 (5.3)57 (6.6) 3+, n (%)229 (7.3)96 (5.7)133 (9.1)35 (1.8)17 (1.5)18 (2.1)<strong>Other comorbid conditions,</strong>4<strong>n (%)</strong> CKD299 (9.5)129 (7.6)170 (11.6)&lt;0.001118 (5.9)62 (5.5)56 (6.5)0.4 Dyslipidemia1701 (54.0)858 (50.8)843 (57.7)&lt;0.0011003 (50.4)538 (48.0)465 (53.6)0.014 Hypertension1686 (53.5)818 (48.5)868 (59.4)&lt;0.001963 (48.4)502 (44.8)461 (53.1)&lt;0.001 Heart failure205 (6.5)89 (5.3)116 (7.9)0.002 Atrial fibrillation183 (5.8)95 (5.6)88 (6.0)0.666 (3.3)36 (3.2)30 (3.5)0.8 Selected autoimmune disease5128 (4.1)64 (3.8)64 (4.4)0.480 (4.0)41 (3.7)39 (4.5)0.3 Obesity647 (20.5)256 (15.1)391 (26.7)&lt;0.001358 (18.0)144 (12.9)214 (24.7)&lt;0.001 Smoking428 (13.6)193 (11.4)235 (16.0)&lt;0.001237 (11.9)112 (10.0)125 (14.4)0.003 Substance use292 (9.3)127 (7.5)165 (11.2)&lt;0.001171 (8.6)81 (7.2)90 (10.4)0.013 Type 1 diabetes78 (2.5)33 (2.0)45 (3.1)0.04334 (1.7)20 (1.8)14 (1.6)0.8 Type 2 diabetes864 (27.4)371 (21.9)493 (33.7)&lt;0.001439 (22.0)208 (18.6)231 (26.6)&lt;0.001 Prior PCI during the 6-month baseline273 (2.3)40 (2.4)33 (2.3)0.847 (2.4)28 (2.5)19 (2.2)0.7 Prior PCI during the entire time period before the index date187 (5.9)97 (5.7)90 (6.2)0.688 (4.4)54 (4.8)34 (3.9)0.3 Prior CABG during the 6-month baseline215 (0.5)6 (0.4)9 (0.6)0.37 (0.4)4 (0.4)3 (0.3)&gt;0.9 Prior CABG during the entire time period before the index date34 (1.1)14 (0.8)20 (1.4)0.1414 (0.7)8 (0.7)6 (0.7)&gt;0.9 Prior MI during the 6-month baseline6442 (14.0)216 (12.7)226 (15.4)0.031248 (12.4)128 (11.4)120 (13.8)0.11 Prior MI during the entire time period before the index date662 (21.0)327 (19.4)335 (22.9)0.015327 (16.4)168 (15.0)159 (18.3)0.048<strong>hsCRP, mean (SD), median (IQR)</strong>2.37 (2.29), 1.50 (0.70, 3.10)0.85 (0.47), 0.80 (0.40, 1.20)4.13 (2.29), 3.40 (2.30, 5.60)&lt;0.0012.25 (2.22), 1.40 (0.70, 3.00)0.84 (0.47), 0.80 (0.40, 1.20)4.08 (2.26), 3.40 (2.20, 5.50)&lt;0.001<strong>CV medication use, n (%)</strong> Antihypertensives1741 (55.3)860 (50.9)881 (60.3)&lt;0.0011014 (51.0)530 (47)484 (55.8)&lt;0.001 Antihyperglycemics with CV benefits0 (0.0)0 (0.0)0 (0.0)0 (0.0)0 (0.0)0 (0.0) Statins1254 (39.8)666 (39.4)588 (40.2)0.7708 (35.6)407 (36.3)301 (34.7)0.4 Other lipid-lowering medications319 (10.1)143 (8.5)176 (12.0)&lt;0.001178 (9.0)78 (7.0)100 (11.5)&lt;0.001 Colchicine31 (1.0)18 (1.1)13 (0.9)0.617 (0.9)9 (0.8)8 (0.9)0.8 Antiplatelet agents405 (12.9)185 (10.9)220 (15.1)&lt;0.001172 (8.7)84 (7.5)88 (10.1)0.038 CVD medications443 (14)206 (12.2)237 (16.2)0.001205 (10.3)107 (9.6)98 (113)0.2 Thrombolytic agents5 (0.2)&lt;3 (&lt;0.5)3 (0.2)0.7&lt;3 (&lt;0.5)&lt;3 (&lt;0.5)0 (0.0)&gt;0.9 Vasodilating agents250 (7.9)122 (7.2)128 (8.8)0.11115 (5.8)64 (5.7)51 (5.9)0.9 Anticoagulants264 (8.4)126 (7.5)138 (9.4)0.045120 (6.0)61 (5.4)59 (6.8)0.2 Other CVD medications&lt;3 (&lt;0.1)&lt;3 (&lt;0.1)0 (0.0)&gt;0.90 (0.0)0 (0.0)0 (0.0)<strong>Immunosuppressive medication, n (%)</strong> Any immune suppressants691 (21.9)333 (19.7)358 (24.5)0.001401 (20.1)204 (18.2)197 (22.7)0.014 NSAIDs651 (20.7)322 (19.1)329 (22.5)0385 (19.3)198 (17.7)187 (21.5)0.0311Among the total sample (<em>N</em> = 3149), 1239 had STEMI (39.4%) and 1910 had NSTEMI (60.6%).2Cells in the table with values fewer than 3 patients were masked and or presented as &quot;&lt;3″ for compliance purposes related to patient identification.3Participants whose age group was unknown or missing (&lt;0.5% of the sample) were included in the age group 55–64 years.4Comorbidities were identified by ICD-10-CM codes.5Selected auto-immune diseases included the following conditions (ICD-10-CM codes): rheumatoid arthritis (M05%, M06%), psoriasis (L40%), systemic lupus erythematosus (M32%), ankylosing spondylitis (M45%), ulcerative colitis (K51%), or Crohn&#x27;s disease (K50%).6The baseline period was defined as 182 days before the index date, which was the first occurrence of AMI during the patient identification period.Abbreviations: AMI, acute myocardial infarction (type 1); CABG, coronary artery bypass grafting; CKD, chronic kidney disease; CV, cardiovascular; CVD, cardiovascular disease; FFS, fee-for-service; NSAIDs, non-steroidal anti-inflammatory drugs; PCI, percutaneous coronary intervention."
+        }
+      ]
+    },
+    {
+      "title": "Revised 3-point MACE and individual MACE components",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Patients with SI had a higher incidence rate of revised 3-point MACE (45.4 vs. 27.3 per 1000 PY) versus patients without SI (Table 2; Fig. 1A). In Cox regression models adjusted for patient baseline characteristics, SI was associated with significantly increased risk of revised 3-point MACE (HR: 1.39 [1.08–1.78]), corresponding to a 39% increase in risk during the follow-up period. Covariates associated with increased risk of revised 3-point were Medicaid payer group, hypertension, history of smoking, use of antiplatelet agents, and use of cardiovascular medications (all <em>p</em> &lt; 0.05). Dyslipidemia was associated with lower risk of revised 3-point MACE (<em>p</em> &lt; 0.05).Table 2Association of systemic inflammation with the occurrence of outcomes during follow-up (Table footnote1 is cited in Table body part).Table 2 dummy alt textImage, table 2 dummy alt text1Revised 3-point MACE, revised 4-point MACE, and individual MACE components were assessed in the full analytic sample (<em>N</em> = 3149). HF outcomes were assessed only among the subsample of patients without prior HF (<em>n</em> = 1988). HF outcomes were assessed as the time to the first HF event (whether a hospitalization or outpatient visit). HRs were obtained from the Cox proportional hazard models, controlling for patient demographics, clinical characteristics, and baseline medication use.Abbreviations: AMI, acute myocardial infarction (type 1); HF, heart failure; HR, hazard ratio; MACE, major adverse cardiovascular events; MI, myocardial infarction; SI, systemic inflammation; PY, person-years.Fig. 1AKaplan-Meier curve for revised 3-point MACE.Abbreviations: AMI, acute myocardial infarction; MACE, major adverse cardiovascular events; SI, systemic inflammation.Fig. 1A dummy alt text"
+        },
+        {
+          "type": "paragraph",
+          "html": "Analysis of the individual components of revised 3-point MACE showed that patients with SI had a higher incidence rate of all-cause mortality (14.9 vs. 7.5 per 1000 PY), nonfatal MI (24.5 vs. 17.9 per 1000 PY), and nonfatal stroke (6.0 vs. 3.7 per 1000 PY) versus patients without SI (Table 2). In the Cox regression models, SI was associated with significantly increased risk of all-cause mortality (HR: 1.37 [1.07–1.75] (Fig. 1C). SI was not statistically associated with either nonfatal MI (HR: 1.16 [0.84–1.59]) or nonfatal stroke (HR: 1.42 [0.72–2.79]) (Table 2).Fig. 1CKaplan-Meier curve for all-cause mortality.Abbreviations: AMI, acute myocardial infarction; SI, systemic inflammation.Fig. 1C dummy alt text"
+        },
+        {
+          "type": "paragraph",
+          "html": "In the subgroup of patients with NSTEMI-type index AMI (<em>n</em> = 1910; 60.6%), SI was associated with increased risk of revised 3-point MACE (<em>n</em> = 1910; HR: 1.36 [1.00–1.86], <em>p</em> = 0.049). No significant association was observed among the subgroup of patients with STEMI-type index AMI (<em>n</em> = 1239 [39.4%]; HR: 1.44 [0.96–2.18], <em>p</em> = 0.08)."
+        }
+      ]
+    },
+    {
+      "title": "Revised 4-point MACE and urgent revascularization",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Patients with SI had a higher incidence rate of revised 4-point MACE (52.1 vs. 35.1 per 1000 PY) versus patients without SI (Table 2; Fig. 1B). In the Cox regression model adjusted for patient baseline characteristics, SI was associated with significantly increased risk of revised 4-point MACE (HR: 1.26 [1.01–1.58]). Covariates associated with increased risk of revised 4-point MACE were Medicaid payer group, hypertension, history of smoking, and use of antiplatelet agents (all <em>p</em> &lt; 0.05). Dyslipidemia was associated with lower risk of revised 4-point MACE (<em>p</em> &lt; 0.05).Fig. 1BKaplan-Meier curve for revised 4-point MACE.Abbreviations: AMI, acute myocardial infarction; MACE, major adverse cardiovascular events; SI, systemic inflammation.Fig. 1B dummy alt text"
+        },
+        {
+          "type": "paragraph",
+          "html": "Patients with SI had a slightly lower incidence of urgent revascularization (15.7 vs. 16.2 per 1000 PY) versus patients without SI. However, SI was not statistically associated with urgent revascularization (HR: 0.90 [0.63–1.30]) (Table 2) during the follow-up period."
+        }
+      ]
+    },
+    {
+      "title": "Heart failure",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Among the subsample of patients without prior HF (<em>n</em> = 1988), the incidence rate of an HF composite outcome, identified by either HF hospitalization or HF outpatient visit, was numerically higher among patients with versus without SI (72.8 vs. 51.6 per 1000 PY). SI was not statistically associated with the incidence of the HF composite (HR: 1.26 [0.99–1.60]; <em>p</em> = 0.06) (Table 2; Fig. 2A). Medicare Advantage payer group (OR, 1.95; <em>p</em> &lt; 0.01) and greater comorbidity burden (QCI 1: OR, 1.71, <em>p</em> &lt; 0.01; QCI 2+: OR, 1.68; <em>p</em> = 0.01) were associated with increased risk of the HF composite.Fig. 2AKaplan-Meier curve for HF composite.Abbreviations: AMI, acute myocardial infarction; HF, heart failure; SI, systemic inflammation.Fig. 2A dummy alt text"
+        },
+        {
+          "type": "paragraph",
+          "html": "Patients with SI had a higher incidence rate of HF hospitalization (21.2 vs. 9.5 per 1000 PY) versus patients without SI (Table 2; Fig. 2B). SI was significantly associated with HF hospitalization (HR: 2.04 [1.26–3.30]; <em>p</em> &lt; 0.01), corresponding to a 104% increase in the risk. Covariates associated with HF hospitalization were Medicare Advantage payer group, QCI score of 2+, and use of antiplatelet agents or CVD medications. The incidence rate of HF outpatient visits was higher among patients with SI (71.0 vs. 49.6 per 1000 PY), but SI was not statistically associated with increased risk of HF outpatient visits (HR: 1.26 [0.99–1.61]; <em>p</em> = 0.06) (Table 2; Fig. 2C).Fig. 2BKaplan-Meier curve for HF hospitalization.Abbreviations: AMI, acute myocardial infarction; HF, heart failure; SI, systemic inflammation.Fig. 2B dummy alt textFig. 2CKaplan-Meier curve for HF outpatient.Abbreviations: AMI, acute myocardial infarction; HF, heart failure; SI, systemic inflammation.Fig. 2C dummy alt text"
+        }
+      ]
+    },
+    {
+      "title": "Study and source population",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Among patients with AMI, the study and source populations were both characterized overall by a broad, heterogeneous mix of patients. The study sample (<em>N</em> = 3149) was similar to the source population (<em>N</em> = 715,962) in most demographic characteristics, including mean age (61 vs. 63 years), gender (69% vs. 63% male), race (60% vs. 58% White), and ethnicity (70% vs. 65% Non-Hispanic) (<strong>Supplemental Table 1</strong>). There were some variations between the study and source population in the distribution of patients by insurance type (e.g., 62% vs. 42% with commercial insurance, respectively) and geographic region. Regarding comorbidity burden, the study and source populations had similar proportions of patients with QCI scores of 1 (15% each) or 2 (10% vs. 12%, respectively), with larger variations in the distribution of patients with QCI scores of 0 (68% vs. 53%) or 3 (7% vs. 20%). Similar patterns were observed when stratifying the source population by hsCRP testing status (tested: <em>n</em> = 60,050; not tested: <em>n</em> = 655,912)."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This real-world, population-based cohort study was conducted to examine the association of SI, based on hsCRP, with cardiovascular events in a diverse population of patients with a history of AMI in the United States. SI was common among patients with a prior AMI, and patients who were female, over age 65 years, and who had more comorbidities were more likely to have SI at baseline. Over a median 3 years of follow-up, the presence of SI was associated with increased risk of all-cause mortality, revised 3-point MACE, revised 4-point MACE, and incident HF hospitalization. This study was conducted with a patient population that is demographically similar to the general population of patients with AMI in the United States [38]—average age in the 60–70-year range, a predominance of male patients, and comparable racial and ethnic distributions—and suggests that SI contributes to subsequent, unfavorable cardiovascular outcomes in patients who have experienced a type 1 AMI."
+        },
+        {
+          "type": "paragraph",
+          "html": "In our study, SI at baseline was associated with a significant increase in the risk of revised 3-point MACE, revised 4-point MACE, and all-cause mortality. Similar findings have been reported in other epidemiological studies despite variations in setting, study design, and population A retrospective cohort study of patients in Stockholm County, Sweden, who underwent hsCRP testing &gt;30 days after MI, found that those with hsCRP levels ≥2 mg/L had approximately 1.28 times higher risk of MACE (nonfatal MI, nonfatal ischemic stroke, or cardiovascular death) and 1.42 times higher risk of death over a median follow-up period of 3.2 years [33]. Likewise, a retrospective analysis of 10,160 participants in the Atherosclerosis Risk in Communities (ARIC) cohort in the US revealed that participants with elevated hsCRP levels (≥3 mg/L over 2 study visits 6 years apart) had increased risk of coronary heart disease (CHD; HR: 1.51), ischemic stroke (HR: 1.70), and death (HR: 1.52) compared with patients with sustained low/moderate hsCRP over 15 years. The risk of these outcomes persisted in subanalyses with a 2 mg/L cutpoint (CHD: HR, 1.36; ischemic stroke: HR, 1.65; death: HR, 1.40) and in subanalyses excluding hsCRP levels &gt;10 mg/L (CHD: HR, 1.46; ischemic stroke: HR, 1.59; death: HR, 1.42) [39]. Furthermore, a recent exploratory real-world study in the US indicated that patients with recent AMI and evidence of SI (determined by an hsCRP or CRP test value between 2 and 10 mg/L) had higher risk of mortality within 90 days after index discharge, compared with patients without SI (43.4% vs. 37.1%, respectively; <em>p</em> &lt; 0.001) [40]. In our study, although SI at baseline (as indicated by ≥1 hsCRP test 2–10 mg/L) was not associated with a significant increase in the risk of nonfatal MI and nonfatal stroke, the risk for these outcomes was directionally positive. Differences in the magnitude of risks observed in our study and prior studies may reflect demographic or clinical heterogeneity (e.g., racial/ethnic and age distributions, the types of AMI included) as well as methodological heterogeneity (e.g., endpoint definitions, follow-up duration). Nonetheless, despite variations in settings, populations, and study designs, our findings and prior evidence consistently associate cardiovascular inflammation, defined by elevated hsCRP, with increased risk of adverse cardiovascular outcomes. Unlike prior studies conducted at single institutions or in regional databases outside the US, our study contributes additional evidence from a diverse population-based cohort representative of US clinical practice."
+        },
+        {
+          "type": "paragraph",
+          "html": "Building on these findings, subgroup analyses by AMI subtype in the present study revealed that SI was significantly associated with increased risk of revised 3-point MACE in patients with NSTEMI-type index AMI but not in patients with STEMI-type index AMI. Prior research assessing the relationship between hsCRP levels and prognosis among patients with STEMI has produced conflicting results, which have been attributed to between-study heterogeneity as well as inherent differences in pathophysiology between STEMI and NSTEMI [41,42]. Some studies show that patients with STEMI exhibit higher CRP levels than patients with NSTEMI [[43], [44], [45]], reflecting the abrupt plaque rupture, acute occlusion, and early inflammatory response that characterizes STEMI. However, patients with STEMI may conversely have lower overall long-term risk for recurrent events after the acute episode is managed than patients with NSTEMI [[46], [47], [48]]. Differences in pathophysiology, patient risk factors, and treatment strategies for STEMI versus NSTEMI [[48], [49], [50]], along with evidence of higher post-discharge cardiac and all-cause mortality for patients with NSTEMI [41,42], underscore the importance of characterizing the role of SI by type of AMI and subsequent cardiovascular outcomes. The potential for differences in inflammatory risk profiles by AMI subtype warrants further investigation to clarify these associations and their clinical implications."
+        },
+        {
+          "type": "paragraph",
+          "html": "We also assessed the association between SI and newly diagnosed HF after AMI and found a two-fold increased risk of HF hospitalization. Cardiovascular inflammation after AMI contributes to infarct size and ischemia-reperfusion damage, leading to left ventricular dysfunction and remodeling, which can contribute to the development of HF [10,51,52]. Prior observational studies have also shown that elevated hsCRP levels are associated with increased risk of HF. A single-center study of 4504 patients with a history of AMI in China found that patients with hsCRP levels in the third or fourth quartile had increased risks of in-hospital HF (OR: 1.36 and 1.41, respectively), postdischarge rehospitalization (HR: 1.33 and 1.80, respectively), and all-cause mortality (HR: 1.74 and 2.42, respectively), compared with patients with hsCRP levels in the first quartile [16]. The previously mentioned study of the ARIC cohort also found that hsCRP levels ≥2 mg/L and ≥3 mg/L were associated with increased risk of HF (HR: 1.37 and 1.60, respectively) over 15 years of follow-up [39]. Collectively, these findings indicate that elevated hsCRP levels may predict multiple adverse HF outcomes following an AMI, highlighting the need for ongoing strategies to mitigate these risks."
+        },
+        {
+          "type": "paragraph",
+          "html": "Therapeutic advances have reduced cardiovascular morbidity and mortality after AMI, largely through medical and surgical treatments (e.g., percutaneous coronary intervention and coronary artery bypass grafting) that have advanced the standard of care [[53], [54], [55], [56]]. Our cohort, comprising patients identified from 2016 to 2023 and followed through the end of 2023, reflects patients treated under the current standard of care for AMI and also shows that patients with SI are more likely than patients without SI to be treated with cardiovascular medications. Nonetheless, our findings indicate that unaddressed cardiovascular inflammation contributes to unmet clinical need in this patient population, indicating that current therapies may not fully control inflammation, which can persist for years after an AMI [57], contributing to unfavorable cardiovascular outcomes [53,55]. Awareness of the role of inflammation in cardiovascular outcomes is increasing. A 2025 American College of Cardiology Scientific Statement addressing inflammation and cardiovascular disease risk includes a call to action to screen patients for hsCRP, in combination with LDL-C, and provide anti-inflammatory interventions for patients with established ASCVD and evidence of residual inflammatory risk [58]. Elevated LDL-C has long been a target of clinical trials to reduce the risk of cardiovascular events [59,60]. However, observational studies have reported an inverse association between LDL-C and cardiovascular outcomes, known as the “lipid paradox” [[61], [62], [63]]. Our study is consistent with the literature, showing that patients with dyslipidemia at baseline had a lower risk of 3-point MACE."
+        },
+        {
+          "type": "paragraph",
+          "html": "The persistent risk associated with elevated hsCRP levels in our study suggests a need for anti-inflammatory therapies aimed at mitigating SI. Low-dose colchicine is currently the only approved medication to address cardiovascular inflammation, and it is intended to be used as an adjunct to lipid-lowering medications [64,65]. Two meta-analyses of randomized controlled trials of colchicine versus placebo showed that colchicine substantially reduces the risk of MACE and individual cardiovascular endpoints but can cause gastrointestinal events [66,67]. However, colchicine use may be limited by concerns about potential adverse effects at high doses and acute kidney injury, particularly in patients with CKD [68]. Additionally, the recently published Colchicine and Spironolactone in Patients with Myocardial Infarction/Synergy Stent Registry (CLEAR SYNERGY) trial produced mixed findings on the use of colchicine in clinical practice with patients who have experienced an AMI [69]. However, CLEAR SYNERGY was conducted during the COVID-19 pandemic, which impacted cardiovascular hospitalizations with potential underreporting of nonfatal cardiovascular events during that period [70]. Analyses of CLEAR SYNERGY data collected during the prepandemic period indicated a 22% reduction in the incidence of the primary endpoint, which was attenuated during the pandemic, with evidence of an interaction between pandemic phase and treatment effect [65]. In the Cholesterol Lowering via Bempedoic Acid, an ACL-Inhibiting Regimen Outcomes (CLEAR Outcomes) trial with patients with risk factors or history of cardiovascular events who were unable or unwilling to take statin therapy, elevated baseline hsCRP level (median measurement at trial entry: 2.30 mg/L) was associated with increased risk of MACE (HR: 1.43), cardiovascular death (HR: 2.00), and all-cause death (HR: 2.21) over 41 months [71] Randomized trials of new therapeutic monoclonal antibodies that target IL-6, such as tocilizumab, ziltivekimab, pacibekitug, and clazakizumab [32,[72], [73], [74], [75], [76]], are being conducted in diverse patient populations. Continued safety, efficacy, and effectiveness research of anti-inflammatory therapies is needed to optimize treatment for patients with unaddressed cardiovascular inflammation after AMI, potentially improving long-term cardiovascular outcomes in this population."
+        },
+        {
+          "type": "paragraph",
+          "html": "This study had some limitations. Our study was based on a sample of patients who had undergone hsCRP testing, which could impart the possibility of selection bias. The cause of death was not available, prohibiting the assessment of CV death. All-cause mortality data may be subject to underreporting, but there was no evidence to suggest that such potential underestimation was systematically different between the two cohorts. It is possible that the specific type and severity of MI were not accurately classified in the database. Left ventricular ejection fraction (LVEF) data are not available for HF phenotype. These limitations are inherent to the observational study design and the use of administrative claims data, which do not allow for the establishment of causality. In addition, the study period overlapped with the COVID-19 pandemic, which could have influenced hsCRP testing frequency, the prevalence of inflammation, and AMI presentation patterns. Future studies exploring potential effects of these pandemic-related factors on the association between SI and the risk of cardiovascular events could further enhance understanding of the impact of COVID-19 on cardiovascular health."
+        }
+      ]
+    },
+    {
+      "title": "Conclusions",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This large population-based study identified a substantially increased risk of revised 3-point MACE, revised 4-point MACE, incident HF hospitalization, and all-cause mortality over average follow-up period of 3 years among patients with type 1 AMI and SI. The findings suggest that hsCRP levels could be a prognostic marker of these outcomes among patients experiencing a type 1 AMI and who are treated under the current standard of care. The findings underscore substantial unmet clinical need in patients with type 1 AMI and highlight the importance of continuing to improve treatment for this patient population."
+        }
+      ]
+    },
+    {
+      "title": "Ethical review statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This nonexperimental, retrospective, observational study was exempt from institutional review board review/approval. The research team accessed a limited dataset without individual identifiers, and only summary statistics were reported. This work complied with all relevant provisions of the US Health Insurance Portability and Accountability Act (HIPAA). Komodo Health approved the use of the dataset for this study."
+        }
+      ]
+    },
+    {
+      "title": "Prior presentation",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Part of this work was presented at the Annual Society of Preventive Cardiology Congress, August 1–3, 2025, in Boston, MA."
+        }
+      ]
+    },
+    {
+      "title": "Data availability",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "All data supporting the conclusions of these analyses are presented in the manuscript or the supporting information. Details of additional data can be obtained from the corresponding author upon reasonable request. Komodo datasets are available for purchase from Komodo Health®."
+        }
+      ]
+    },
+    {
+      "title": "Funding",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This work was funded by Novo Nordisk Inc., Plainsboro, NJ."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Chi Nguyen:</strong> Writing – review &amp; editing, Writing – original draft, Supervision, Investigation, Conceptualization. <strong>Amanda M. Ackermann:</strong> Writing – review &amp; editing, Writing – original draft, Investigation, Conceptualization. <strong>Erica Marieb:</strong> Writing – review &amp; editing, Writing – original draft, Methodology, Investigation, Conceptualization. <strong>Jeffrey R. Skaar:</strong> Writing – review &amp; editing, Writing – original draft, Methodology, Investigation, Conceptualization. <strong>Wing Chow:</strong> Writing – review &amp; editing, Writing – original draft, Investigation, Conceptualization. <strong>Radha Ryali:</strong> Writing – review &amp; editing, Writing – original draft, Methodology, Investigation, Conceptualization. <strong>Lyuba Popadic:</strong> Visualization, Formal analysis, Data curation. <strong>Xiyuan Wu:</strong> Visualization, Formal analysis, Data curation. <strong>Xinshuo Ma:</strong> Visualization, Formal analysis, Data curation. <strong>Kathleen E․ Kearney:</strong> Writing – review &amp; editing, Writing – original draft."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare the following financial interests/personal relationships which may be considered as potential competing interests:"
+        },
+        {
+          "type": "paragraph",
+          "html": "Xiyuan Wu reports financial support was provided by Novo Nordisk Inc. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        },
+        {
+          "type": "paragraph",
+          "html": "Xinshuo Ma reports financial support was provided by Novo Nordisk Inc. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        },
+        {
+          "type": "paragraph",
+          "html": "Wing Chow reports a relationship with Novo Nordisk Inc that includes: employment and equity or stocks. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        },
+        {
+          "type": "paragraph",
+          "html": "Radha Ryali reports financial support was provided by Novo Nordisk Inc. Radha madhavi Ryali reports a relationship with Novo Nordisk Inc that includes: employment. Co-author was employed by the company during when the study was conducted If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        },
+        {
+          "type": "paragraph",
+          "html": "Lyuba Popadic reports financial support was provided by Novo Nordisk Inc. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        },
+        {
+          "type": "paragraph",
+          "html": "Kathleen Kearney reports a relationship with Novo Nordisk Inc that includes: consulting or advisory. Kathleen Kearney reports a relationship with Abbott that includes: consulting or advisory and speaking and lecture fees. Kathleen Kearney reports a relationship with Boston Scientific (Institutional) that includes: consulting or advisory and speaking and lecture fees. Kathleen Kearney reports a relationship with Medtronic Inc that includes: consulting or advisory and speaking and lecture fees. Kathleen Kearney reports a relationship with Asahi that includes: consulting or advisory and speaking and lecture fees. Kathleen Kearney reports a relationship with Teleflex that includes: consulting or advisory and speaking and lecture fees. Kathleen Kearney reports a relationship with Johnson and Johnson Medtech (Shockwave and Abiomed previously) that includes: consulting or advisory and speaking and lecture fees. Kathleen Kearney reports a relationship with Fastwave (an intravascular lithotripsy company, I have not executed these but have the ability to do so) that includes: equity or stocks. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        },
+        {
+          "type": "paragraph",
+          "html": "Jeffrey Skaar reports a relationship with Novo Nordisk Inc that includes: employment and equity or stocks. Jeffrey Skaar reports a relationship with Trinity Life Sciences that includes: equity or stocks. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        },
+        {
+          "type": "paragraph",
+          "html": "Erica Marieb reports a relationship with Novo Nordisk Inc that includes: employment and equity or stocks. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        },
+        {
+          "type": "paragraph",
+          "html": "Chi Nguyen reports a relationship with Novo Nordisk Inc that includes: employment and equity or stocks. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        },
+        {
+          "type": "paragraph",
+          "html": "Amanda Ackermann reports a relationship with Novo Nordisk Inc that includes: employment and equity or stocks. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "MartinS.S.AdayA.W.AllenN.B.AlmarzooqZ.I.AndersonC.A.M.AroraP.2025 heart disease and stroke statistics: a report of US and global data from the American Heart AssociationCirculation15182025e41e66010.1161/CIR.000000000000130339866113PMC12256702"
+    },
+    {
+      "html": "FoxK.A.DabbousO.H.GoldbergR.J.PieperK.S.EagleK.A.Van de WerfF.Prediction of risk of death and myocardial infarction in the six months after presentation with acute coronary syndrome: prospective multinational observational study (GRACE)BMJ33375782006109110.1136/bmj.38985.646481.55PMID: 1703269117032691PMC1661748"
+    },
+    {
+      "html": "PilgrimT.VranckxP.ValgimigliM.StefaniniG.G.PiccoloR.RatJ.Risk and timing of recurrent ischemic events among patients with stable ischemic heart disease, non-ST-segment elevation acute coronary syndrome, and ST-segment elevation myocardial infarctionAm Heart J1752016566510.1016/j.ahj.2016.01.021PMID: 2717972427179724"
+    },
+    {
+      "html": "DaniS.S.LoneA.N.JavedZ.KhanM.S.Zia KhanM.KaluskiE.Trends in premature mortality from acute myocardial infarction in the United States, 1999 to 2019J Am Heart Assoc1112022e02168210.1161/jaha.121.021682PMID: 34935456PMC907520534935456"
+    },
+    {
+      "html": "JohanssonS.RosengrenA.YoungK.JenningsE.Mortality and morbidity trends after the first year in survivors of acute myocardial infarction: a systematic reviewBMC Cardiovasc Disord17120175310.1186/s12872-017-0482-9PMID: 2817375028173750PMC5297173"
+    },
+    {
+      "html": "SzummerK.WallentinL.LindhagenL.AlfredssonJ.ErlingeD.HeldC.Improved outcomes in patients with ST-elevation myocardial infarction during the last 20 years are related to implementation of evidence-based treatments: experiences from the SWEDEHEART registry 1995-2014Eur Heart J384120173056306510.1093/eurheartj/ehx515PMID: 2902031429020314PMC5837507"
+    },
+    {
+      "html": "JenM.StehlikJ.StanK.JKautznerJ.Heart failure after myocardial infarction: incidence and predictorsESC Heart Fail81202122223710.1002/ehf2.1314433319509PMC7835562"
+    },
+    {
+      "html": "HungJ.TengT.H.FinnJ.KnuimanM.BriffaT.StewartS.Trends from 1996 to 2007 in incidence and mortality outcomes of heart failure after acute myocardial infarction: a population-based study of 20,812 patients with first acute myocardial infarction in western AustraliaJ Am Heart Assoc252013e00017210.1161/jaha.113.000172PMID: 24103569PMC383521824103569"
+    },
+    {
+      "html": "LawlerP.R.BhattD.L.GodoyL.C.LüscherT.F.BonowR.O.VermaS.Targeting cardiovascular inflammation: next steps in clinical translationEur Heart J421202111313110.1093/eurheartj/ehaa099PMID: 3217677832176778"
+    },
+    {
+      "html": "GuptaL.ThomasJ.RavichandranR.SinghM.NagA.PanjiyarBK.Inflammation in cardiovascular disease: a comprehensive review of biomarkers and therapeutic targetsCureus1592023e4548310.7759/cureus.45483PMID: 37859889PMC1058427237859889"
+    },
+    {
+      "html": "MatterM.A.PaneniF.LibbyP.FrantzS.StähliB.E.TemplinC.Inflammation in acute myocardial infarction: the good, the bad and the uglyEur Heart J45220238910310.1093/eurheartj/ehad486PMC1077137837587550"
+    },
+    {
+      "html": "VanhaverbekeM.VeltmanD.PattynN.De CremN.GillijnsH.CornelissenV.C-reactive protein during and after myocardial infarction in relation to cardiac injury and left ventricular function at follow-upClin Cardiol41920181201120610.1002/clc.23017PMID: 2995201529952015PMC6221028"
+    },
+    {
+      "html": "WestmanP.C.LipinskiM.J.LugerD.WaksmanR.BonowR.O.WuE.Inflammation as a driver of adverse left ventricular remodeling after acute myocardial infarctionJ Am Coll Cardiol671720162050206010.1016/j.jacc.2016.01.07327126533"
+    },
+    {
+      "html": "BerezinA.E.BerezinAA.Adverse cardiac remodelling after acute myocardial infarction: old and new biomarkersDis Markers20202020121580210.1155/2020/1215802PMID: 32626540PMC730609832626540"
+    },
+    {
+      "html": "FrangogiannisNG.The inflammatory response in myocardial injury, repair, and remodellingNat Rev Cardiol115201425526510.1038/nrcardio.2014.28PMID: 2466309124663091PMC4407144"
+    },
+    {
+      "html": "ZhangX.WangS.FangS.YuB.Prognostic role of high sensitivity c-reactive protein in patients with acute myocardial infarctionFront Cardiovasc Med8202165944610.3389/fcvm.2021.659446PMID: 34109224PMC818175534109224"
+    },
+    {
+      "html": "TøllefsenI.M.SheteligC.SeljeflotI.EritslandJ.HoffmannP.AndersenG.High levels of interleukin-6 are associated with final infarct size and adverse clinical events in patients with STEMIOpen Heart82202110.1136/openhrt-2021-001869PMID: 34933964PMC869316634933964"
+    },
+    {
+      "html": "AlfaddaghA.MartinS.S.LeuckerT.M.MichosE.D.BlahaM.J.LowensteinC.J.Inflammation and cardiovascular disease: from mechanisms to therapeuticsAm J Prev Cardiol4202010013010.1016/j.ajpc.2020.100130PMID: 34327481PMC831562834327481"
+    },
+    {
+      "html": "RidkerPM.High-sensitivity c-reactive proteinCirculation1031320011813181810.1161/01.CIR.103.13.181311282915"
+    },
+    {
+      "html": "RidkerPM.Anticytokine agentsCirc Res1243201943745010.1161/CIRCRESAHA.118.31312930702995PMC6386195"
+    },
+    {
+      "html": "RidkerPM.A test in context: high-sensitivity c-reactive proteinJ Am Coll Cardiol676201671272310.1016/j.jacc.2015.11.03726868696"
+    },
+    {
+      "html": "LiH.CenK.SunW.FengB.Predictive value of blood interleukin-6 level in patients with acute coronary syndrome: a meta-analysisImmunol Invest508202196497610.1080/08820139.2020.1795876PMID: 3281124132811241"
+    },
+    {
+      "html": "PokharelY.SharmaP.P.QintarM.LuY.TangY.JonesP.High-sensitivity C-reactive protein levels and health status outcomes after myocardial infarctionAtherosclerosis2662017162310.1016/j.atherosclerosis.2017.09.019PMID: 2894603628946036PMC5671892"
+    },
+    {
+      "html": "BayB.TannerR.GaoM.OlivaA.SartoriS.VogelB.Residual cholesterol and inflammatory risk in statin-treated patients undergoing percutaneous coronary interventionEur Heart J202510.1093/eurheartj/ehaf19640208236"
+    },
+    {
+      "html": "SampsonU.K.FazioS.LintonMF.Residual cardiovascular risk despite optimal LDL cholesterol reduction with statins: the evidence, etiology, and therapeutic challengesCurr Atheroscler Rep141201211010.1007/s11883-011-0219-7PMID: 2210206222102062PMC3697085"
+    },
+    {
+      "html": "ZubiránR.NeufeldE.B.DasseuxA.RemaleyA.T.SorokinAV.Recent advances in targeted management of inflammation in atherosclerosis: a narrative reviewCardiol Ther133202446549110.1007/s40119-024-00376-3PMID: 3903130239031302PMC11333429"
+    },
+    {
+      "html": "RidkerP.M.LüscherTF.Anti-inflammatory therapies for cardiovascular diseaseEur Heart J352720141782179110.1093/eurheartj/ehu203PMID: 2486407924864079PMC4155455"
+    },
+    {
+      "html": "RidkerP.M.EverettB.M.ThurenT.MacFadyenJ.G.ChangW.H.BallantyneC.Antiinflammatory therapy with canakinumab for atherosclerotic diseaseN Engl J Med3771220171119113110.1056/NEJMoa1707914PMID: 2884575128845751"
+    },
+    {
+      "html": "TardifJ-CKouzS.WatersD.D.BertrandO.F.DiazR.MaggioniA.P.Efficacy and safety of low-dose colchicine after myocardial infarctionN Engl J Med3812620192497250510.1056/NEJMoa191238831733140"
+    },
+    {
+      "html": "NidorfS.M.FioletA.T.L.MosterdA.EikelboomJ.W.SchutA.OpstalT.S.J.Colchicine in patients with chronic coronary diseaseN Engl J Med3831920201838184710.1056/NEJMoa2021372PMID: 3286538032865380"
+    },
+    {
+      "html": "Komodo Health Inc. Healthcare map. 2025."
+    },
+    {
+      "html": "RidkerP.M.DevalarajaM.BaeresF.M.M.EngelmannM.D.M.HovinghG.K.IvkovicM.IL-6 inhibition with ziltivekimab in patients at high atherosclerotic risk (RESCUE): a double-blind, randomised, placebo-controlled, phase 2 trialLancet3971028920212060206910.1016/S0140-6736(21)00520-1PMID: 3401534234015342"
+    },
+    {
+      "html": "CarreroJ.J.Andersson FrankoM.ObergfellA.GabrielsenA.JernbergT.HsCRP level and the risk of death or recurrent cardiovascular events in patients with myocardial infarction: a healthcare-based studyJ Am Heart Assoc8112019e01263810.1161/JAHA.119.012638PMC658535731140334"
+    },
+    {
+      "html": "NordestgaardA.T.MoorthyM.V.CookN.R.RifaiN.LeeI.M.BuringJ.E.High-sensitivity C-reactive protein, LDL cholesterol, lipoprotein(a) and 30-year risk of stroke in healthy women: a prospective, longitudinal cohort studyLancet Neurol2411202592093010.1016/s1474-4422(25)00306-0PMID: 4110923341109233PMC12707017"
+    },
+    {
+      "html": "PearsonT.A.MensahG.A.AlexanderR.W.AndersonJ.L.CannonR.O.CriquiM.Markers of inflammation and cardiovascular diseaseCirculation1073200349951110.1161/01.CIR.0000052939.59093.4512551878"
+    },
+    {
+      "html": "RidkerP.M.CookN.Clinical usefulness of very high and very low levels of c-reactive protein across the full range of Framingham risk scoresCirculation1091620041955195910.1161/01.CIR.0000125690.80303.A815051634"
+    },
+    {
+      "html": "QuanH.LiB.CourisC.M.FushimiK.GrahamP.HiderP.Updating and validating the Charlson Comorbidity Index and score for risk adjustment in hospital discharge abstracts using data from 6 countriesAm J Epidemiol1736201167668210.1093/aje/kwq433PMID: 2133033921330339"
+    },
+    {
+      "html": "YehR.W.SidneyS.ChandraM.SorelM.SelbyJ.V.GoA.S.Population trends in the incidence and outcomes of acute myocardial infarctionN Engl J Med3622320102155216510.1056/NEJMoa090861020558366"
+    },
+    {
+      "html": "ParrinelloC.M.LutseyP.L.BallantyneC.M.FolsomA.R.PankowJ.S.SelvinE.Six-year change in high-sensitivity C-reactive protein and risk of diabetes, cardiovascular disease, and mortalityAm Heart J1702201538038910.1016/j.ahj.2015.04.017PMID: 2629923726299237PMC4548857"
+    },
+    {
+      "html": "LvL.SkaarJ.R.RobarC.IkpeS.KrishnaswamiS.CaoZ.Clinical, economic, and health care resource utilization burden of acute myocardial infarction and the role of systemic inflammation in US hospitals: a real-world studyAm J Prev Cardiol24202510132010.1016/j.ajpc.2025.101320PMC1254795041141612"
+    },
+    {
+      "html": "KimY.H.HerA.Y.RhaS.W.ChoiC.U.ChoiB.G.ParkS.Comparison of outcomes between ST-segment elevation and non-ST-segment elevation myocardial infarctions based on left ventricular ejection fractionJ Clin Med13222024674410.3390/jcm13226744PMID: 3959788839597888PMC11595183"
+    },
+    {
+      "html": "HanX.BaiL.JeongM.H.AhnJ.H.HyunD.Y.ChoK.H.Higher long-term mortality in patients with non-ST-elevation myocardial infarction than ST-elevation myocardial infarction after dischargeYonsei Med J625202140040810.3349/ymj.2021.62.5.400PMID: 3390821033908210PMC8084695"
+    },
+    {
+      "html": "Di StefanoR.Di BelloV.BarsottiM.C.GrigoratosC.ArmaniC.Dell&#x27;OmodarmeM.Inflammatory markers and cardiac function in acute coronary syndrome: difference in ST-segment elevation myocardial infarction (STEMI) and in non-STEMI modelsBiomed Pharmacother6310200977378010.1016/j.biopha.2009.06.00419906505"
+    },
+    {
+      "html": "SciricaB.M.MorrowD.A.CannonC.P.de LemosJ.A.MurphyS.SabatineM.S.Clinical application of c-reactive protein across the spectrum of acute coronary syndromesClin Chem531020071800180710.1373/clinchem.2007.08795717717132"
+    },
+    {
+      "html": "NadeemA.SiddiqueM.M.U.JavedB.SiddiqueHMMFUsmanA.IshaqueA.C-reactive protein and its role in diagnosis, myocardial damage, and angiographic findings in patients with acute coronary syndromeJ Popul Ther Clin Pharmacol323202550150710.53555/fjh5m477"
+    },
+    {
+      "html": "KuchB.von ScheidtW.KlingB.HeierM.HoermannA.MeisingerC.Differential impact of admission C-reactive protein levels on 28-day mortality risk in patients with ST-elevation versus non-ST-elevation myocardial infarction (from the Monitoring trends and determinants on cardiovascular diseases [MONICA]/cooperative health research in the region of Augsburg [KORA] Augsburg myocardial infarction registry)Am J Cardiol102920081125113010.1016/j.amjcard.2008.06.034PMID: 1894027718940277"
+    },
+    {
+      "html": "NairR.M.AbdallahM.S.HudedC.JohnsonM.J.KravitzK.RajeswaranJ.Recurrent myocardial infarction after STEMI vs. NSTEMIJ Am Coll Cardiol7511_Supplement_1202022810.1016/S0735-1097(20)30855-X-228"
+    },
+    {
+      "html": "VoraA.N.WangT.Y.HellkampA.S.ThomasL.HenryT.D.GoyalA.Differences in short- and long-term outcomes among older patients with ST-elevation versus non-ST-elevation myocardial infarction with angiographically proven coronary artery diseaseCirc Cardiovasc Qual Outcomes95201651352210.1161/CIRCOUTCOMES.115.00231227601458"
+    },
+    {
+      "html": "BhattD.L.LopesR.D.HarringtonRA.Diagnosis and treatment of acute coronary syndromes: a reviewJAMA3277202266267510.1001/jama.2022.035835166796"
+    },
+    {
+      "html": "ThygesenK.AlpertJ.S.JaffeA.S.ChaitmanB.R.BaxJ.J.MorrowD.A.Fourth universal definition of myocardial infarction (2018)Circulation138202018e618e65110.1161/cir.0000000000000617PMID: 3057151130571511"
+    },
+    {
+      "html": "ŚwiątkiewiczI.MagielskiP.KubicaJ.ZadourianA.DeMariaA.N.TaubPR.Enhanced inflammation is a marker for risk of post-infarct ventricular dysfunction and heart failureInt J Mol Sci213202080710.3390/ijms21030807PMID: 3199190331991903PMC7037521"
+    },
+    {
+      "html": "SwiatkiewiczI.KozinskiM.MagielskiP.FabiszakT.SukiennikA.NavareseE.P.Value of C-reactive protein in predicting left ventricular remodelling in patients with a first ST-segment elevation myocardial infarctionMediat Inflamm2012201225086710.1155/2012/250867PMID: 22973074PMC343880122973074"
+    },
+    {
+      "html": "ArnettD.K.BlumenthalR.S.AlbertM.A.BurokerA.B.GoldbergerZ.D.HahnE.J.2019 ACC/AHA guideline on the primary prevention of cardiovascular disease: a report of the American College of Cardiology/American Heart Association Task Force on clinical practice guidelinesCirculation140112019e596e64610.1161/cir.0000000000000678PMID: 3087935530879355PMC7734661"
+    },
+    {
+      "html": "BursiF.WestonS.A.KillianJ.M.GabrielS.E.JacobsenS.J.RogerVL.C-reactive protein and heart failure after myocardial infarction in the communityAm J Med1207200761662210.1016/j.amjmed.2006.07.039PMID: 1760293617602936"
+    },
+    {
+      "html": "DzauV.J.AntmanE.M.BlackH.R.HayesD.L.MansonJ.E.PlutzkyJ.The cardiovascular disease continuum validated: clinical evidence of improved patient outcomesCirculation1142520062850287010.1161/CIRCULATIONAHA.106.65568817179034"
+    },
+    {
+      "html": "ViraniS.S.SmithS.C.StoneN.J.GrundySM.Secondary prevention for atherosclerotic cardiovascular diseaseCirculation1411420201121112310.1161/CIRCULATIONAHA.119.04428232250694"
+    },
+    {
+      "html": "PagidipatiN.J.HellkampA.S.SharmaP.P.WangT.Y.FonarowG.C.PencinaM.High-sensitivity C-reactive protein elevation in patients with prior myocardial infarction in the United StatesAm Heart J204201815115510.1016/j.ahj.2018.07.014PMID: 3012101630121016PMC9792413"
+    },
+    {
+      "html": "MensahG.A.ArnoldN.PrabhuS.D.RidkerP.M.WeltyF.K.Inflammation and cardiovascular disease: 2025 ACC scientific statement: a report of the American College of cardiologyJ Am Coll CardiolS0735-109725202507555-210.1016/j.jacc.2025.08.04741020749"
+    },
+    {
+      "html": "ByrneP.DemasiM.JonesM.SmithS.M.O&#x27;BrienK.K.DuBroffR.Evaluating the association between low-density lipoprotein cholesterol reduction and relative and absolute effects of statin treatment: a systematic review and meta-analysisJAMA Intern Med1825202247448110.1001/jamainternmed.2022.0134PMID: 3528585035285850PMC8922205"
+    },
+    {
+      "html": "LeeM.ChengC.Y.WuY.L.LeeJ.D.HsuC.Y.OvbiageleB.Association between intensity of low-density lipoprotein cholesterol reduction with statin-based therapies and secondary stroke prevention: a meta-analysis of randomized clinical trialsJAMA Neurol794202234935810.1001/jamaneurol.2021.5578PMID: 3518894935188949PMC8861901"
+    },
+    {
+      "html": "SchubertJ.LindahlB.MelhusH.RenlundH.LeosdottirM.YariA.Elevated low-density lipoprotein cholesterol: an inverse marker of morbidity and mortality in patients with myocardial infarctionJ Intern Med2945202361662710.1111/joim.13656PMID: 3725488637254886"
+    },
+    {
+      "html": "ReddyV.S.BuiQ.T.JacobsJ.R.BegelmanS.M.MillerD.P.FrenchWJ.Relationship between serum low-density lipoprotein cholesterol and in-hospital mortality following acute myocardial infarction (the lipid paradox)Am J Cardiol1155201555756210.1016/j.amjcard.2014.12.006PMID: 2572707925727079"
+    },
+    {
+      "html": "ZengG.ZhangC.SongY.ZhangZ.XuJ.LiuZ.The potential impact of inflammation on the lipid paradox in patients with acute myocardial infarction: a multicenter studyBMC Med221202459910.1186/s12916-024-03823-z39710711PMC11664818"
+    },
+    {
+      "html": "FioletA.T.L.OpstalT.S.J.MosterdA.EikelboomJ.W.JollyS.S.KeechA.C.Efficacy and safety of low-dose colchicine in patients with coronary disease: a systematic review and meta-analysis of randomized trialsEur Heart J422820212765277510.1093/eurheartj/ehab115PMID: 3376951533769515"
+    },
+    {
+      "html": "SamuelM.TardifJ.C.BouabdallaouiN.KhairyP.DubéM.P.BlondeauL.Colchicine for secondary prevention of cardiovascular disease: a systematic review and meta-analysis of randomized controlled trialsCan J Cardiol375202177678510.1016/j.cjca.2020.10.006PMID: 3307545533075455"
+    },
+    {
+      "html": "SamuelM.BerryC.DubéM-PKoenigW.López-SendónJ.MaggioniA.P.Long-term trials of colchicine for secondary prevention of vascular events: a meta-analysisEur Heart J462620252552256310.1093/eurheartj/ehaf17440314333PMC12233006"
+    },
+    {
+      "html": "d’EntremontM-APoorthuisM.H.F.FioletA.T.L.AmarencoP.BoczarK.E.BuysschaertI.Colchicine for secondary prevention of vascular events: a meta-analysis of trialsEur Heart J462620252564257510.1093/eurheartj/ehaf21040314334"
+    },
+    {
+      "html": "NelsonK.FusterV.RidkerPM.Low-dose colchicine for secondary prevention of coronary artery diseaseJ Am Coll Cardiol827202364866010.1016/j.jacc.2023.05.05537558377"
+    },
+    {
+      "html": "JollyS.S.d’EntremontM-ALeeS.F.MianR.TyrwhittJ.KedevS.Colchicine in acute myocardial infarctionN Engl J Med3927202563364210.1056/NEJMoa240592239555823"
+    },
+    {
+      "html": "BhattA.S.MosconeA.McElrathE.E.VarshneyA.S.ClaggettB.L.BhattD.L.Fewer hospitalizations for acute cardiovascular conditions during the COVID-19 pandemicJ Am Coll Cardiol763202028028810.1016/j.jacc.2020.05.038PMID: 3247051632470516PMC7250561"
+    },
+    {
+      "html": "RidkerP.M.LeiL.LouieM.J.HaddadT.NichollsS.J.LincoffA.M.Inflammation and cholesterol as predictors of cardiovascular events among 13 970 contemporary high-risk patients with statin intoleranceCirculation14912024283510.1161/circulationaha.123.066213PMID: 3792960237929602PMC10752259"
+    },
+    {
+      "html": "KanbayM.CopurS.YilmazZ.Y.MallamaciF.ZoccaliC.Ziltivekimab for anemia and atherosclerosis in chronic kidney disease: a new hope?J Nephrol382202540341410.1007/s40620-024-02117-0PMID: 3945360439453604"
+    },
+    {
+      "html": "PergolaP.E.DavidsonM.JensenC.Mohseni ZonooziA.A.RajD.S.Andreas SchytzP.Effect of ziltivekimab on determinants of hemoglobin in patients with CKD stage 3-5: an analysis of a randomized trial (RESCUE)J Am Soc Nephrol3512024748410.1681/asn.0000000000000245PMID: 3808855838088558PMC10786611"
+    },
+    {
+      "html": "BrochK.AnstensrudA.K.WoxholtS.SharmaK.TøllefsenI.M.BendzB.Randomized trial of interleukin-6 receptor inhibition in patients with acute ST-segment elevation myocardial infarctionJ Am Coll Cardiol771520211845185510.1016/j.jacc.2021.02.04933858620"
+    },
+    {
+      "html": "KanbayM.MizrakB.CopurS.AlperE.N.AkgulS.OrtizA.Targeting IL-6 in antibody-mediated kidney transplant rejectionClin Kidney J1852025sfaf10810.1093/ckj/sfaf108PMID: 40357502PMC1206706040357502"
+    },
+    {
+      "html": "PergolaP.deGomaE.HemaniF.WalshJ.ZayedH.RidkerP.A multicenter, randomized, double-blind, placebo-controlled phase 2 trial of pacibekitug subcutaneous quarterly or monthly in patients with elevated hs-CRP and chronic kidney disease: tranquility 90-day results2025European Society of CardiologyMadrid, Spain"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

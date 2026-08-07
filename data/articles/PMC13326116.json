@@ -1,0 +1,413 @@
+{
+  "pmcid": "PMC13326116",
+  "pmid": "42395100",
+  "doi": "10.1016/j.ajpc.2026.101666",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13326116/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Neighborhood green space visits and coronary heart disease: Evidence from mobility data across nine U.S. metropolitan cities",
+  "articleType": "Research Article",
+  "published": "2026-05-14",
+  "year": "2026",
+  "volume": "28",
+  "issue": "",
+  "articleNumber": "101666",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2026",
+  "authors": [
+    {
+      "given": "Sarayu",
+      "surname": "Chandra Mouli",
+      "display": "Sarayu Chandra Mouli"
+    },
+    {
+      "given": "Tong",
+      "surname": "Zhang",
+      "display": "Tong Zhang"
+    },
+    {
+      "given": "Jad",
+      "surname": "Ardakani",
+      "display": "Jad Ardakani"
+    },
+    {
+      "given": "Zhuo",
+      "surname": "Chen",
+      "display": "Zhuo Chen"
+    },
+    {
+      "given": "Sanjay",
+      "surname": "Rajagoaplan",
+      "display": "Sanjay Rajagoaplan"
+    },
+    {
+      "given": "Jay",
+      "surname": "Maddock",
+      "display": "Jay Maddock"
+    },
+    {
+      "given": "Khurram",
+      "surname": "Nasir",
+      "display": "Khurram Nasir"
+    },
+    {
+      "given": "Weichuan",
+      "surname": "Dong",
+      "display": "Weichuan Dong"
+    },
+    {
+      "given": "Sadeer",
+      "surname": "Al-Kindi",
+      "display": "Sadeer Al-Kindi"
+    }
+  ],
+  "affiliations": [
+    "aCenter for Health & Nature, Houston, TX, United States",
+    "bSchool of Medicine, Case Western Reserve University, Cleveland, OH, United States",
+    "cDepartment of Cardiology, Houston Methodist, Houston, TX, United States"
+  ],
+  "keywords": [
+    "Nature",
+    "Greenspace visits",
+    "Mobility",
+    "Cardiovascular health",
+    "Spatial heterogeneity"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Background:</strong> Coronary heart disease (CHD) is the leading cause of mortality and morbidity globally and it is shaped by genetics, behaviors and the environment. While emerging evidence suggests that greenspaces can reduce cardiovascular morbidity, most studies rely on static vegetation indices (e.g., NDVI) that do not account for greenspace engagement. This study bridges that gap to examine how greenspace engagement relates to CHD, accounting for metabolic and social factors."
+    },
+    {
+      "html": "<strong>Methods:</strong> Green space visits per person was derived from Advan Research data (2021) at the census tract-level across the nine largest U.S. metropolitan areas (MSAs) and linked with CHD prevalence and risk factors from CDC PLACES (2023). Ordinary least-squares (OLS) models assessed metro-specific associations between greenspace visits (10 visits) and CHD, adjusting for demographics, social vulnerability, Normalized Differential Vegetation Index (NDVI), and metabolic factors. Geographically weighted regression (GWR) assessed within-metro spatial variation."
+    },
+    {
+      "html": "<strong>Results:</strong> Across the nine MSAs, higher greenspace visitation was associated with lower CHD prevalence. Each additional 10 greenspace visits per person corresponded to a 1.6 % lower CHD prevalence in Houston, 1.6 % in Atlanta, 1.5 % in Chicago, 1.5 % in Dallas, and 1.1 % in Phoenix (all <em>p</em> &lt; 0.01). Los Angeles (+0.4 %) and Philadelphia (+0.9 %) demonstrated small positive relationship with CHD. GWR revealed variations in these associations within each Metro area, with suburban areas showing strongest negative relationship between green space visits and CHD prevalence."
+    },
+    {
+      "html": "<strong>Conclusions:</strong> Greenspace engagement was broadly associated with lower CHD prevalence, with notable variations among cities and across neighborhoods within each city. Strong inverse associations were noted in suburban areas and neighborhoods with elevated metabolic risk, whereas urban cores showed weaker patterns."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Coronary heart disease (CHD) remains the leading cause of mortality in the United States and worldwide, accounting for nearly one in every five deaths [1]. Despite major advances in prevention and treatment, CHD continues to reflect deep social, behavioral, and environmental inequities [2,3]. Individual risk factors such as smoking, hypertension, diabetes, and obesity are well established, yet these determinants are shaped by the broader environments in which people live, work, and engage in daily activity [[4], [5], [6], [7]]. Recognizing this, a growing body of evidence increasingly links CHD outcomes to nature and the environment."
+        },
+        {
+          "type": "paragraph",
+          "html": "Greenspaces like parks, trails, gardens, and tree-covered areas have been associated with numerous health benefits, including improved mental health, increased physical activity, reduced stress, and lower all-cause mortality [8]. Epidemiologic studies have linked residential greenness to lower cardiovascular mortality, hypertension, and stroke [9]. Proposed mechanisms include increased physical activity, lower air and noise pollution, mitigation of urban heat, and restoration of psychological and physiological stress responses through parasympathetic activation [7,10,11]. Although the relationship between greenspace and coronary outcomes is documented, findings remain inconsistent across geographic contexts. Some studies report favorable associations, while others find weaker relationships, suggesting residual confounding or contextual modification [12,13], likely due to inconsistent measures of greenspace. Most existing research relies on static satellite-derived vegetation indices (e.g., Normalized Difference Vegetation Index, NDVI) as a proxy for “exposure” to nature. Such measures, while capturing the presence and coverage of greenery, leave out actual usage; a distinction increasingly recognized as critical to translate environmental exposures to tangible health benefits [14]. Recent evidence suggests that the cardioprotective potential of greenspace depends on patterns of use and behavior and may operate through cardiometabolic and behavioral pathways rather than direct physiological effects alone [10,[15], [16], [17]]."
+        },
+        {
+          "type": "paragraph",
+          "html": "New mobility technologies now allow for the measurement of greenspace use through anonymized mobility data. Such metrics offer a behavioral complement to traditional metrics by capturing real-world engagement and can reveal variations in behavioral engagement across cities and neighborhoods. Integrating mobility-based measures with health surveillance data provides an opportunity to refine our understanding of how environmental engagement relates to chronic disease outcomes like CHD."
+        },
+        {
+          "type": "paragraph",
+          "html": "To address these gaps, the present study expands on prior research by focusing on behavioral greenspace engagement, rather than green coverage alone, and by evaluating how contexts shape their associations with CHD prevalence at the neighborhood level. We further examine how these associations differ across and within major U.S. metropolitan areas, accounting for variations in demographic composition, social and cultural vulnerabilities, and greenspace coverage (NDVI)."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This ecological, cross-sectional study examined the association between greenspace visitation and CHD prevalence across the largest nine major U.S. metropolitan statistical areas (MSAs): Atlanta, Chicago, Dallas, Houston, Los Angeles, New York City, Philadelphia, Phoenix, and Washington, DC. MSAs were defined using the U.S. Census Bureau’s 2020 delineation of metropolitan and micropolitan areas. We did not include Miami, the 10th largest MSA, due to the absence of census tract-level health estimates in CDC PLACES. For each metro, county Federal Information Processing Standards (FIPS) codes were obtained from the Census Bureau, and all constituent census tracts were selected. The number of counties per metro ranged from two (Phoenix, Los Angeles) to twenty-two (New York City), yielding 13,152 census tracts across the nine study metros (Table 1). All data were de-identified and aggregated at the tract level; therefore, institutional review board (IRB) approval and informed consent were not required. All analyses were conducted in R (v4.3.1).Table 1Metropolitan coverage by census tracts.Table 1: dummy alt textMSA / CountiesCDC PlacesMobilityDemographicsSVINDVICoverage (%)Atlanta (29)94894888294894893Chicago (13)2167216721192167214797.8DC (23)1264126412091264125495.6Dallas (11)1309130912231309130993.4Houston (10)1071107110041071105693.7Los Angeles (2)2904290428932903289299.6NYC (22)4138413840974138413899Philadelphia (11)1464146414341464146498Phoenix (2)98498493698498495.1Values represent the number of census tracts within each metropolitan statistical area with available data from each source. “Tracts with Complete Data (%)” indicates the proportion of census tracts with non-missing data across all datasets used in the analysis (CDC PLACES, greenspace visits from Advan Research, NDVI, SVI, and ACS demographics)."
+        }
+      ]
+    },
+    {
+      "title": "Data sources and variables of interest",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Tract-level estimates of CHD and cardiometabolic risk factors were obtained from the CDC PLACES Project (2023). PLACES provides modeled small area estimates of chronic disease outcomes and risk factors derived from the Behavioral Risk Factor Surveillance System (BRFSS) and U.S. Census data. The outcome variable was CHD prevalence, while obesity (%), diabetes (%), and hypertension (%) were included as covariates along with social vulnerabilities (SVI) from CDC, demographics from ACS (2021), and NDVI. These cardiometabolic variables were included as neighborhood-level indicators of underlying health risk."
+        },
+        {
+          "type": "paragraph",
+          "html": "Greenspace engagement was quantified using 2021 mobility data from Advan Research (formerly SafeGraph), which aggregates anonymized smartphone location data across the United States. Greenspace points of interest (POIs) were defined using the U.S. Park Serve and OpenStreetMap land-use databases, restricted to public-access parks and recreational areas. To improve interpretability, Greenspace visits were calculated per person, and then scaled such that one unit represents ten visits per person:Greenspacevisitsperperson(per10visits)=TotalGreenspaceVisitsNumberofResidentDevices/10"
+        }
+      ]
+    },
+    {
+      "title": "Environmental and social covariates",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Environmental greenness was represented using the Normalized Difference Vegetation Index (NDVI, 2021), derived from Landsat 8 imagery [18]. Twelve monthly raster files (8th day of each month in 2021) were downloaded from NASA EarthData, stacked, and averaged to create a yearly composite. Mean NDVI values were extracted at the tract level using 2010 TIGER/Line shapefiles and zonal statistics. Values below zero (representing water or impervious surfaces) were set to zero. Neighborhood-level social and economic context was measured using the CDC/ATSDR Social Vulnerability Index (SVI, 2020 release). The index incorporates 15 Census variables grouped into four themes: socioeconomic status, household composition, minority status and language, and housing/transportation [19]. We included each of the four theme-specific indices with each theme score ranging from 0 to 1 (least to most vulnerable). The four SVI themes collectively incorporate multiple indicators related to socioeconomic status, education, employment, housing burden, disability, minority status, and transportation vulnerability. Demographic variables were obtained from the American Community Survey (ACS, 2021 5-year estimates), including percent female, percent non-Hispanic Black population, and median age. All datasets were harmonized to 2010 US census tract boundaries and merged using FIPS GEOID identifiers (Table 2).Table 2Data sources overview &amp; variables of interest.Table 2: dummy alt textDataset and SourcesYear of releaseVariables UsedGreenspace visits (Advan Research/SafeGraph)2021Greenspace Visits, Number of Resident DevicesCHD and Metabolic Data (CDC Places)2023Coronary Heart Disease, Obesity, Hypertension, DiabetesSocial Vulnerabilities (CDC/ATSDR)2020Socioeconomic Status, Household Composition, Minority Status &amp; Language, Housing &amp; TransportationDemographics (American Community Survey)2021 5-Year Estimates% Female, % Black, Median AgeEnvironmental Greenness (NDVI) (NASA EarthData)2021Annual Mean NDVICDC: Centers for Disease Control and Prevention (CDC), RWJF: Robert Wood Johnson Foundation (RWJF); ATSDR: Agency for Toxic Substances and Disease Registry; ACS: American Community Survey (conducted by the U.S. Census Bureau); NASA EarthData: NASA’s Earth Science Data Systems open access archive for earth science data."
+        }
+      ]
+    },
+    {
+      "title": "Statistical analysis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "All analyses were conducted at the census-tract level within each of the nine metropolitan statistical areas (MSAs), with MSAs defined by the Office of Management and Budget (OMB) [20]. After integrating variables from multiple data sources and excluding census tracts with missing data, our final analytic sample retained over 95 % of all tracts across the nine MSAs."
+        },
+        {
+          "type": "paragraph",
+          "html": "For each MSA, ordinary least squares (OLS) regression estimated the association between CHD prevalence and greenspace visits per person (per 10 visits), adjusting for demographics (percent female, percent non-Hispanic Black, median age), the four SVI 2020 themes, NDVI 2021, and metabolic factors (obesity, diabetes, and hypertension prevalence). Coefficients represent the change in CHD prevalence corresponding to a 10-visit-per-person increase in greenspace visit. In addition to metro-specific OLS models, a pooled regression framework was estimated to compare baseline CHD prevalence across metros. Model A provided an unpooled estimate of the overall association between greenspace visits and CHD, while Model B introduced fixed effects for metro areas to quantify between-city differences after adjusting for all covariates."
+        },
+        {
+          "type": "paragraph",
+          "html": "To evaluate spatial heterogeneity, we applied geographically weighted regression (GWR) to the fully adjusted model within each metro. GWR extends conventional regression by allowing associations between greenspace visitation and CHD prevalence to vary spatially rather than assuming a single metropolitan wide effect. The model fits a local regression at each census tract, weighting nearby tracts more heavily, which enables the estimation of location-specific coefficients that reflect neighborhood-level variation in the strength and direction of the association. Resulting outputs showed the local coefficients and R² values to identify variations in strength and direction of the associations."
+        },
+        {
+          "type": "paragraph",
+          "html": "In a secondary, exploratory analysis, we implemented a mediation analysis to assess whether neighborhood-level obesity, diabetes, and hypertension statistically accounted for variation in the association between greenspace visitation and CHD prevalence. This analysis used a regression-based mediation framework consistent with standard approaches for examining indirect statistical associations in observational data. Given the cross-sectional study design and the absence of temporal ordering between exposure, cardiometabolic factors, and outcome, these analyses were interpreted descriptively and were not intended to estimate or establish causal mediation. These analyses were conducted using sequential modeling approaches to examine whether inclusion of cardiometabolic variables altered the association between greenspace visitation and CHD. All analyses were performed in R Studio 2025.05. GWR models were estimated using R packages like spgwr and census tract–level spatial processing and visualization handled through sf, Tigris, and tmap."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The analytic sample included 13,152 census tracts (96.13 % of total) across nine major U.S. metropolitan areas, representing approximately 72 million residents. CHD prevalence varied substantially across cities, with median (IQR) values ranging from 3.9 % (3.1–4.6 %) in Washington, DC to 5.4 % (4.6–6.1 %) in Philadelphia (Fig. 1). Greenspace visitation also differed across metros, with higher engagement in Phoenix, DC, and Atlanta and lower levels in New York City and Los Angeles. The considerable variation in both CHD prevalence and greenspace visitation across and within metros motivated the use of metro-specific regression models and spatial analyses to better capture patterns in local associations.Fig. 1Distribution of Coronary Heart Disease Prevalence and Greenspace Visitation Across Nine U.S. Metropolitan Areas.Boxplots summarize census tract–level distributions, showing medians, interquartile ranges, and outliers. Coronary heart disease (CHD) prevalence is derived from CDC PLACES and represents the modeled % of adults who report ever being told by a health professional that they had angina or coronary heart disease. Greenspace visits per person are calculated using Advan Research mobility data normalized by resident device counts.Fig 1: dummy alt text"
+        }
+      ]
+    },
+    {
+      "title": "Linear regression",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Table 3 summarizes the fully adjusted linear regression models examining the association between 10 greenspace visits and CHD prevalence, adjusting for demographics, SVI, NDVI, and metabolic factors. Negative coefficients (Fig. 2) indicate a favorable association, meaning higher greenspace visitation corresponds with lower CHD prevalence, whereas positive coefficients indicate the opposite pattern. Across the nine metropolitan areas, greater greenspace visitation was associated with lower CHD prevalence in six cities. In Houston, each additional 10 visits per person was associated with a 1.65 % lower CHD prevalence (β = −0.082, <em>p</em> = 0.002). Similar patterns were observed in Atlanta (−1.64 %, β = −0.075, <em>p</em> &lt; 0.001) and Dallas (−1.45 %, β = −0.068, <em>p</em> &lt; 0.001), Chicago (−1.50 %, β = −0.075, <em>p</em> &lt; 0.001) and Phoenix (−1.09 %, β = −0.058, <em>p</em> = 0.004). Associations were not significant in New York City (0.14 %, β = 0.007, <em>p</em> = 0.38) and Washington, DC (−0.25 %, β = −0.010, <em>p</em> = 0.06), whereas the opposite pattern emerged in Los Angeles (0.39 %, β = 0.017, <em>p</em> = 0.006; 0.39 %) and Philadelphia (0.86 %, β = +0.047, <em>p</em> &lt; 0.001).Table 3Regression results: green space visits - coronary heart disease prevalence by metropolitan area.Table 3 dummy alt textMetroβ (per 10 visits/person)95 % CIp-valueAdj. R²Atlanta−0.075(−0.1058, −0.0451)&lt;0.0010.682Chicago−0.075(−0.0934, −0.0606)&lt;0.0010.707Dallas−0.068(−0.0958, −0.0373)&lt;0.0010.693Houston−0.082(−0.1328, −0.0306)0.0020.713Phoenix−0.058(−0.0960, −0.0200)0.0040.645NYC+0.007(−0.0088, 0.0231)0.3810.661LA+0.017(+0.0049, 0.0285)0.0060.649Philadelphia+0.047(+0.0361, 0.0572)&lt;0.0010.687DC−0.010(−0.0206, 0.0003)0.06290.642Values shown represent the regression coefficient (β) for greenspace visits from multivariable ordinary least squares models. All models are adjusted for normalized difference vegetation index (NDVI), four Social Vulnerability Index (SVI) theme scores, and demographic covariates (percentage female, percentage Black, and median age). Confidence intervals and p-values correspond to the greenspace visits coefficient only.Fig. 2Results from adjusted and unadjusted linear associations between greenspace visitation and coronary heart disease prevalence across census tracts in nine major U.S. metropolitan are.Each point represents a census tract. Red lines indicate fitted ordinary least squares (OLS) regression lines adjusted for vegetation (NDVI), social vulnerability (SVI themes), and demographic covariates. Negative slopes indicate lower coronary heart disease prevalence with higher greenspace engagement.Fig 2: dummy alt text"
+        },
+        {
+          "type": "paragraph",
+          "html": "To complement metro-specific models, we also conducted a pooled OLS analysis to estimate between-city differences in adjusted baseline CHD prevalence. In Model A (unpooled), each additional 10 greenspace visits per person were associated with a miniscule increase in CHD prevalence (β = 0.0091, 95 % CI = 0.0022 to 0.016, <em>p</em> = 0.010) (Supplementary Figure S1-S2). When metro-level fixed effects were added (Model B), the association modestly strengthened (β = 0.0133, 95 % CI = 0.0069 to 0.0197, <em>p</em> &lt; 0.001), improving model fit and highlighting substantial between-city variation. Relative to Atlanta (reference), the largest differentials occurred in Phoenix (+0.99 pp), Philadelphia (+0.82 pp), Chicago (+0.73 pp), and New York City (+0.66 pp), each significantly higher (<em>p</em> &lt; 0.001). Houston (+0.19 pp), Dallas (+0.17 pp), and Los Angeles (+0.09 pp) were moderately higher, while Washington DC (+0.03 pp) was statistically indistinguishable from Atlanta (<em>p</em> = 0.13). Overall, all metros except DC exhibited significantly higher adjusted baseline CHD burden than Atlanta, with the largest residual risks observed in Phoenix and Philadelphia (Supplementary Table S1)."
+        },
+        {
+          "type": "paragraph",
+          "html": "The pooled models capture both within-city and between-city variation in CHD prevalence and greenspace visits and therefore primarily reflect differences across metropolitan contexts. As such, their direction should not be interpreted as representative of within-city associations. In contrast, the metro-specific models isolate within-city variation and more directly reflect how differences in greenspace visitation relate to CHD prevalence within individual metropolitan areas."
+        }
+      ]
+    },
+    {
+      "title": "Spatial variations and patterns",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "While the linear models quantified overall metro-level associations by treating each system as spatially uniform, urban health dynamics are rarely homogenous. Therefore, we conducted GWR models to assess how the magnitude and direction of the greenspace–CHD association varied across tracts within each city."
+        },
+        {
+          "type": "paragraph",
+          "html": "GWR revealed marked within-metro variation in both effect size and model fit, underscoring the localized nature of the greenspace-CHD relationship (Fig. 3, Fig. 4). Across metros, inverse association gradients were spatially concentrated and context dependent. The strongest association between higher green space visitation and lower CHD prevalence was observed in Houston, Atlanta, and Chicago, with strongest associations particularly in southern Harris County, southern Fulton/DeKalb Counties, and southwestern suburban Chicago (Kendall, Grundy, Will) displayed coefficients between −0.38 and −0.10. Dallas exhibited a weaker but favorable pattern, with coefficients mostly between −0.19 and 0.00. Slightly stronger associations emerged near Fort Worth and Arlington, while northern suburban tracts around Plano and Greenville showed neutral or mildly positive slopes. In New York, both the urban core (5 boroughs) and coastal New Jersey counties (Monmouth, Ocean) demonstrated beneficial gradients, whereas outer suburban tracts in Morris, Hunterdon, and Nassau Counties were weakly positive.Fig. 3Spatial variation in the association between greenspace visitation and coronary heart disease (CHD) prevalence across census tracts in nine major U.S. metropolitan areas, estimated using geographically weighted regression (GWR). Values represent local regression coefficients (β).Maps display local GWR coefficients estimating the association between greenspace visits and coronary heart disease prevalence at the census tract level. Negative coefficients (red shades) indicate areas where higher greenspace engagement is associated with lower prevalence of CHD, whereas positive coefficients (green shades) indicate weaker or adverse associations.Fig 3: dummy alt textFig. 4Spatial variation in model explanatory power (R²) from geographically weighted regression assessing the association between greenspace visitation and coronary heart disease prevalence.Local R² values represent the proportion of variance in CHD prevalence explained by the GWR model at each census tract. Darker shades indicate stronger local model performance, highlighting areas where greenspace engagement and covariates better capture neighborhood-level variation.Fig 4: dummy alt text"
+        },
+        {
+          "type": "paragraph",
+          "html": "By contrast, Philadelphia displayed a mixed to unfavorable pattern, with southern New Jersey showing positive coefficients and only isolated pockets in central Philadelphia and northern New Castle County. Washington, DC, Los Angeles, and Phoenix were largely null, with coefficients near zero across nearly all tracts. DC and Phoenix were uniformly light yellow, while LA exhibited small positive clusters near Long Beach and Torrance."
+        },
+        {
+          "type": "paragraph",
+          "html": "Model fit was high overall (0.7–1.0), peaking in areas where coefficients were strongest like central Harris County in Houston, southern Fulton/DeKalb in Atlanta, and the New Jersey coastal corridor (Fig. 4). These findings indicate that while greenspace engagement generally aligns with lower CHD prevalence, its strength and direction vary sharply by geography."
+        },
+        {
+          "type": "paragraph",
+          "html": "Secondary analyses suggested that differences in neighborhood cardiometabolic risk help explain part of the observed association between greenspace visitation and CHD prevalence, while the primary adjusted associations remained similar in direction (Supplementary Table S2)."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This study provides one of the first multi-city, tract-level analyses linking greenspace engagement to CHD prevalence across major U.S. metropolitan areas. While prior research has largely relied on vegetation indices such as NDVI to characterize greenspace exposure, our findings show that actual usage patterns offer complementary behavioral insights. Consistent with previous ecological and cohort studies that have found associations between neighborhood greenness and lower cardiovascular mortality, hypertension, and ischemic heart disease [9,21,22], our results reinforce that higher greenspace visits were generally associated with lower CHD prevalence, though the magnitude and sometimes direction of these associations varied geographically [9,21,22]."
+        },
+        {
+          "type": "paragraph",
+          "html": "City-level OLS models revealed inverse and favorable associations in most metros, particularly Houston, Atlanta, and Chicago. While the metro-specific models demonstrated inverse associations between greenspace visitation and CHD prevalence, the pooled model yielded a modest positive association. This divergence between the two sets of estimates highlights the importance of distinguishing between within-city and between-city effects in ecological analyses. In the pooled fixed-effects model, several metropolitan areas demonstrated substantially higher adjusted baseline CHD prevalence relative to Atlanta (reference), particularly Phoenix (+0.99 pp), Philadelphia (+0.82), Chicago (+0.73), and New York City (+0.66). These findings suggest that the pooled association is influenced by structural differences across metropolitan areas and therefore should not be interpreted as representative of within-city relationships."
+        },
+        {
+          "type": "paragraph",
+          "html": "Supplementary single mediation analyses indicated that adjustment for hypertension and diabetes attenuated the association between greenspace visitation and CHD prevalence, suggesting that cardiometabolic risk may account for part of the observed relationship. This aligns with evidence from prior mechanistic studies showing that nature exposure is linked to lowering stress, supporting physical activity, and regulating autonomic and inflammatory pathways that precede metabolic dysfunction [6,23]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Spatial analyses further highlighted that these associations are not uniform within cities. GWR revealed highly localized favorable gradients especially in areas with greater social vulnerability or cardiometabolic burden underscoring the context dependence of environmental health benefits. In metros like Houston, Atlanta, and Chicago, neighborhoods with both high CHD prevalence and greater greenspace use demonstrated the strongest inverse relationships, suggesting that access, engagement and other contextual factors such as park quality, walkability, and safety are jointly correlated to improving CHD outcomes."
+        },
+        {
+          "type": "paragraph",
+          "html": "The absence of strong inverse associations in some metropolitan areas, such as Los Angeles and Philadelphia, may reflect unmeasured contextual factors. Environmental conditions including extreme heat, limited greenspace accessibility, or differences in built-environment infrastructure may influence how residents engage with outdoor spaces and, in turn, shape observed associations. In addition, patterns of time-use substitution may play a role. In settings characterized by extreme heat or seasonal discomfort, individuals may preferentially engage in indoor or structured physical activities (e.g., gyms, recreational centers, or home-based exercise), which may also confer cardiometabolic benefits. Such behavioral shifts could reduce reliance on outdoor greenspace use, contributing to weaker or inconsistent associations between greenspace visitation and CHD prevalence at the neighborhood level. Because these factors were not directly measured in the present study, these explanations should be viewed as hypotheses for future research rather than definitive interpretations of our findings."
+        },
+        {
+          "type": "paragraph",
+          "html": "Moreover, cities characterized by warmer or more humid climate regimes (e.g., Houston, Atlanta, Phoenix) displayed narrower visitation ranges, whereas cities with stronger seasonal patterns (e.g., New York, Chicago, Los Angeles) showed a wider spread of greenspace engagement. These patterns may suggest that local environmental conditions including climate, greenspace availability, and seasonal comfort could influence how frequently residents use greenspaces, contributing in part to the heterogeneity observed across cities. These interpretations should be considered hypothesis-generating and warrant further investigation, as these factors were not directly measured in the present analysis."
+        },
+        {
+          "type": "paragraph",
+          "html": "Together, these findings suggest that behavioral engagement with greenspaces is associated with neighborhood CHD prevalence, with substantial heterogeneity across metropolitan and neighborhood contexts. The observed associations should be understood within the broader landscape of behavioral and cardiometabolic risk."
+        }
+      ]
+    },
+    {
+      "title": "Strengths and limitations",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "A major strength of this study is its integration of multiple high-resolution datasets. Including Advan mobility traces, CDC PLACES health estimates, NDVI, SVI, and demographics across nine of the largest U.S. metropolitan areas, our study leverages a large sample (∼13,000 tracts; ∼72 million residents) and multi-scalar design allow for both metro-level inference and neighborhood-scale spatial exploration. In particular, the use of mobility-based greenspace visitation represents a novel behavioral metric, addressing a key limitation of prior studies that rely solely on static vegetation measures and do not capture actual engagement with greenspaces."
+        },
+        {
+          "type": "paragraph",
+          "html": "Our study has a few limitations that merit consideration. First, the ecological and cross-sectional design precludes causal inference and may mask individual-level behavioral heterogeneity. Second, CHD estimates are modeled at the tract level and may not capture diagnostic or reporting variability. Third, while the mobility data provide relative visitation intensity, they cannot distinguish activity or greenspace type, duration, or purpose. Additionally, some areas with meaningful local greenspace such as large private yards, vegetated buffers, informal trails, or small community green areas may not be designated as POIs or classified as greenspace in our data sources, potentially underestimating true neighborhood access or usage. Fourth, potential unmeasured confounders including healthcare access, aspects of urban form, pollution, diet, and other unmeasured outdoor or indoor activities may contribute to residual bias."
+        },
+        {
+          "type": "paragraph",
+          "html": "Because this study is cross-sectional and based on prevalent CHD, reverse causation and health selection cannot be ruled out. Individuals with better underlying health or greater functional capacity may be more likely to engage in greenspace visitation, which could contribute to the observed inverse associations. Accordingly, these findings should be interpreted as associational patterns rather than evidence of a causal effect."
+        }
+      ]
+    },
+    {
+      "title": "Future scope",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Future research should extend these findings by integrating longitudinal and individual-level designs to clarify the causal pathways linking greenspace engagement to cardiovascular health. Prospective cohorts or wearable-sensor studies could disentangle whether increases in park use preceded improvements in blood pressure, glycemic control, or lipid profiles, or whether healthier individuals are more likely to engage with nature. Combining mobility data with clinical outcomes (e.g., EHR-based CHD incidence, biomarker data, or medication use) would strengthen causal inference and reveal dose-response relationships. At the population level, integrating greenspace quality, accessibility, and safety metrics with behavioral visitation patterns could help explain the spatial heterogeneity observed across cities. Future studies should also consider seasonal climate effects such as heat exposure in arid metros like Phoenix and Los Angeles and their influence on outdoor behavior and cardiovascular stress."
+        },
+        {
+          "type": "paragraph",
+          "html": "Finally, translating these insights into practice requires aligning urban design, public health, and health preventive strategies. Interventions that promote equitable greenspace use through active transportation networks, park-based physical activity programs, and targeted outreach to high-risk communities could help position greenspace as an active component of cardiovascular prevention strategies."
+        }
+      ]
+    },
+    {
+      "title": "Data availability statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The datasets used in this study were obtained under a paid license from Advan Research (formerly SafeGraph) and are not publicly available. CDC PLACES, Social Vulnerability Index, ACS demographics, and NDVI data are publicly available from their respective repositories. Access to mobility data requires a commercial agreement with Advan Research."
+        }
+      ]
+    },
+    {
+      "title": "Disclosures",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "None."
+        }
+      ]
+    },
+    {
+      "title": "Statement of funding",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "No funding was acquired for this study."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Sarayu Chandra Mouli:</strong> Writing – review &amp; editing, Writing – original draft, Validation, Project administration, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. <strong>Tong Zhang:</strong> Writing – review &amp; editing, Writing – original draft, Methodology. <strong>Jad Ardakani:</strong> Writing – review &amp; editing, Writing – original draft, Methodology. <strong>Zhuo Chen:</strong> Writing – review &amp; editing, Writing – original draft, Methodology. <strong>Sanjay Rajagoaplan:</strong> Writing – review &amp; editing, Writing – original draft, Methodology. <strong>Jay Maddock:</strong> Writing – review &amp; editing, Writing – original draft, Methodology. <strong>Khurram Nasir:</strong> Writing – review &amp; editing, Writing – original draft, Validation, Methodology. <strong>Weichuan Dong:</strong> Writing – review &amp; editing, Writing – original draft, Validation, Supervision, Resources, Project administration, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. <strong>Sadeer Al-Kindi:</strong> Writing – review &amp; editing, Writing – original draft, Validation, Supervision, Resources, Project administration, Methodology, Investigation, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "html": "BrownJ.C.GerhardtT.E.KwonE.Risk factors for coronary artery diseaseStatPearls [Internet]2023StatPearls Publishing32119297"
+    },
+    {
+      "html": "ThammanR.Exposing inequality: environmental injustice and cardiovascular health disparitiesJACC Adv47202510187510.1016/j.jacadv.2025.101875PMC1222163640543462"
+    },
+    {
+      "html": "MotairekI.Historical neighborhood redlining and contemporary environmental racismLocal Env28420235185283758813810.1080/13549839.2022.2155942PMC10427113"
+    },
+    {
+      "html": "Powell-WileyT.M.Social determinants of cardiovascular diseaseCirc Res130520227827993523940410.1161/CIRCRESAHA.121.319811PMC8893132"
+    },
+    {
+      "html": "BazoukisG.Impact of social determinants of health on cardiovascular diseaseJ Am Heart Assoc1452025e03903110.1161/JAHA.124.039031PMC1213266040035388"
+    },
+    {
+      "html": "SilvermanM.N.DeusterP.A.Biological mechanisms underlying the role of physical fitness in health and resilienceInterface Focus4520142014004010.1098/rsfs.2014.0040PMC414201825285199"
+    },
+    {
+      "html": "LiuT.Association of neighborhood greenness exposure with cardiovascular diseases and biomarkersInt J Hyg Env Health234202111373810.1016/j.ijheh.2021.11373833752171"
+    },
+    {
+      "html": "NguyenP.Y.Effect of nature prescriptions on cardiometabolic and mental health, and physical activity: a systematic reviewLancet Planet Health742023e313e3283701957210.1016/S2542-5196(23)00025-6"
+    },
+    {
+      "html": "KeithR.J.HartJ.L.BhatnagarA.Greenspaces and cardiovascular healthCirc Res13492024117911963866286810.1161/CIRCRESAHA.124.323583PMC12208525"
+    },
+    {
+      "html": "WangH.TassinaryL.G.Association between greenspace morphology and prevalence of non-communicable diseases mediated by air pollution and physical activityLandsc Urban Plan242202410493410.1016/j.landurbplan.2023.104990PMC1270506141404354"
+    },
+    {
+      "html": "LuY.Wearable data link urban green space to physical activityNat Health2025111"
+    },
+    {
+      "html": "GaileyS.Moving to greener pastures: health selection into neighborhood greenspace among a highly mobile and diverse population in CaliforniaSoc Sci Med315202211541110.1016/j.socscimed.2022.115411PMC1022476336399985"
+    },
+    {
+      "html": "SharifiY.Association of greenspaces exposure with cardiometabolic risk factors: a systematic review and meta-analysisBMC Cardiovasc Disord24120241703850948710.1186/s12872-024-03830-1PMC10953288"
+    },
+    {
+      "html": "ShanahanD.F.The health benefits of urban nature: how much do we need?BioScience6552015476485"
+    },
+    {
+      "html": "SugiyamaT.Advantages of public green spaces in enhancing population healthLandsc Urban Plan17820181217"
+    },
+    {
+      "html": "NwanaN.Green streets, healthy hearts: exploring the roles of urban nature and walkability in cardiovascular healthMethodist Debakey Cardiovasc J20202437463952538510.14797/mdcvj.1455PMC11546338"
+    },
+    {
+      "html": "BelcherR.N.Socioeconomic deprivation modifies green space and mental health associations: a within person studyEnv Int192202410903610.1016/j.envint.2024.10903639357260"
+    },
+    {
+      "html": "KshetriT.Ndvi, ndbi &amp; ndwi calculation using landsat 7, 8GeoWorld220183234"
+    },
+    {
+      "html": "RegistryC.f.D.C.a.P.A.f.T.S.a.D.CDC/ATSDR social vulnerability index (SVI) 2020 database, united states2020U.S. Department of Health and Human ServicesAtlanta, GA"
+    },
+    {
+      "html": "Statistics, U.S.B.o.L.LaborU.S.D.o.Confidential information protection and statistical efficiency act (CIPSEA) report2025U.S. Bureau of Labor StatisticsWashington, DCEditor"
+    },
+    {
+      "html": "LiuX.-X.Green space and cardiovascular disease: a systematic review with meta-analysisEnviron Pollut301202211899010.1016/j.envpol.2022.11899035181451"
+    },
+    {
+      "html": "GullónP.Who benefits from green spaces? Surrounding greenness and incidence of cardiovascular disease in a population-based electronic medical records cohort in MadridInt J Hyg Env Health252202311422110.1016/j.ijheh.2023.11422137421937"
+    },
+    {
+      "html": "ChenH.Residential greenness and cardiovascular disease incidence, readmission, and mortalityEnv Health Perspect1288202008700510.1289/EHP6161PMC744677232840393"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}
