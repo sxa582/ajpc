@@ -273,7 +273,7 @@
           "type": "figure",
           "label": "Fig. 1",
           "caption": "Associations between plasma proteins and risk of HF in MASLD. HRs represent hazard ratios per 1-SD increase in normalized protein expression (NPX), Models were adjusted for age (years, continuous), sex (female, male), TDI (continuous), BMI (kg/m<sup>2</sup>, continuous), smoking status (never, previous, current), SBP (mmHg, continuous), eGFR (mL/min/1.73 m<sup>2</sup>, continuous), UACR (mg/g, continuous), HbA1c (mmol/mol, continuous), antihypertensive medication (yes, no), history of diabetes (yes, no). The proteins lying above the dotted line were <em>P</em> value &lt;0.05/2911 (Bonferroni-correction). Red/blue dots were proteins further selected by LASSO regression in the training set (n = 12,819).",
-          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13326080/bin/gr1.jpg",
+          "src": "assets/pmc/PMC13326080/gr1.jpg",
           "alt": "Fig. 1 Associations between plasma proteins and risk of HF in MASLD. HRs represent hazard ratios per 1-SD increase in normalized protein expression (NPX), Models were adjusted for age (years, continuous), sex (female, male), TDI (continuous), BMI (kg/m2, continuous), smoking status (never, previous, current), SBP (mmHg, continuous), eGFR (mL/min/1.73 m2, continuous), UACR (mg/g, continuous), HbA1c (mmol/mol, continuous), antihypertensive medication (yes, no), history of diabetes (yes, no). The proteins lying above the dotted line were P value <0.05/2911 (Bonferroni-correction). Red/blue dots were proteins further selected by LASSO regression in the training set (n = 12,819)."
         },
         {
@@ -296,7 +296,7 @@
           "type": "figure",
           "label": "Fig. 2",
           "caption": "Predictive performance and functional pathway analysis of the proteomic models for incident HF in MASLD. A Receiver operating characteristic (ROC) curves for the PREVENT, Protein panel, and Combined model in the MASLD cohort. B Decision curve analysis (DCA) evaluating the clinical utility of the three models at a median follow-up of 13.56 years. The net benefit of each model is assessed against the reference strategies of intervening in all or no patients. C Functional enrichment analysis of proteins associated with HF pathogenesis. The horizontal dashed line denotes the Bonferroni corrected statistical significance threshold (<em>P</em> &lt; 0.05/184; where 184 represents the total enriched pathways counts); all entries above the line are defined as significantly enriched. The number labeled on top of each bar indicates the count of proteins enriched in the corresponding pathway/functional term.",
-          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13326080/bin/gr2.jpg",
+          "src": "assets/pmc/PMC13326080/gr2.jpg",
           "alt": "Fig. 2 Predictive performance and functional pathway analysis of the proteomic models for incident HF in MASLD. A Receiver operating characteristic (ROC) curves for the PREVENT, Protein panel, and Combined model in the MASLD cohort. B Decision curve analysis (DCA) evaluating the clinical utility of the three models at a median follow-up of 13.56 years. The net benefit of each model is assessed against the reference strategies of intervening in all or no patients. C Functional enrichment analysis of proteins associated with HF pathogenesis. The horizontal dashed line denotes the Bonferroni corrected statistical significance threshold (P < 0.05/184; where 184 represents the total enriched pathways counts); all entries above the line are defined as significantly enriched. The number labeled on top of each bar indicates the count of proteins enriched in the corresponding pathway/functional term."
         },
         {
@@ -327,7 +327,7 @@
           "type": "figure",
           "label": "Fig. 3",
           "caption": "Harrell’s C-index and incremental discrimination of protein-based risk prediction models in the validation set. Left panel shows the C-index (with 95%CIs) for the baseline PREVENT model, top 5 proteins [NT-proBNP, WFDC2, LTBP2, BCAN, HAVCR1], protein panel, and combined model. Right panel shows the ΔC-index vs. the PREVENT model (with 95%CIs). Error bars represent 95%CIs. Abbreviations: CI, confidence interval; PREVENT, predicting risk of cardiovascular disease events.",
-          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13326080/bin/gr3.jpg",
+          "src": "assets/pmc/PMC13326080/gr3.jpg",
           "alt": "Fig. 3 Harrell’s C-index and incremental discrimination of protein-based risk prediction models in the validation set. Left panel shows the C-index (with 95%CIs) for the baseline PREVENT model, top 5 proteins [NT-proBNP, WFDC2, LTBP2, BCAN, HAVCR1], protein panel, and combined model. Right panel shows the ΔC-index vs. the PREVENT model (with 95%CIs). Error bars represent 95%CIs. Abbreviations: CI, confidence interval; PREVENT, predicting risk of cardiovascular disease events."
         }
       ]
