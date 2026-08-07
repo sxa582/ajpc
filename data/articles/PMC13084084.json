@@ -78,6 +78,52 @@
   "abstract": [],
   "sections": [
     {
+      "title": "Article",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Comprehensive assessment of risk is beneficial in primary prevention of atherosclerotic cardiovascular diseases (ASCVDs), and the current clinical guidelines recommend 10-year-risk estimation in middle-aged individuals [1]. During the last decade polygenic risk scores (PRS) have been shown to improve prediction over conventional risk factors [2,3]. PRSs for coronary heart disease (CHD) can recognize at-risk individuals who may have low risk based on their conventional risk factors alone [4], and there is a growing interest in translating them to clinical practice [5]."
+        },
+        {
+          "type": "paragraph",
+          "html": "While interventions providing polygenic risk information to individuals have been useful in encouraging some individuals for beneficial risk lowering actions, the proportion of high-risk individuals taking these actions is typically small [6,7]. For example, in our GeneRISK study we communicated 10-year-ASCVD-risk, including polygenic risk for CHD and individuals at high risk were encouraged to discuss the results with a physician. However, only 20 % of high-risk individuals had contacted a physician during the 18-month follow-up period."
+        },
+        {
+          "type": "paragraph",
+          "html": "In this matched cohort study, we investigated if communicating clinical and polygenic 10-year-CHD-risk through mobile devices, combined with a chat-based digital clinic, a messaging tool for contacting a physician would increase preventive actions compared to communication without such a consultation opportunity. To evaluate the effectiveness of the mobile health intervention, we used a matched control group from the GeneRISK study in which individuals received personalized risk information through a separate web-portal without chat-based access to healthcare professionals."
+        },
+        {
+          "type": "paragraph",
+          "html": "The digital clinic sample consisted of <em>N</em> = 804 newly recruited individuals (mean age 52.5 years, 60.4 % women) of whom 61.1 % (<em>N</em> = 491) attended the follow-up at six months. Controls (N = 2,288) were matched for age, sex, body-mass-index, systolic blood pressure, current smoking, diagnosis of diabetes, medication use and CHD-PRS. Detailed explanation on study procedures, including cohort characteristics is provided in supplementary material. Based on the individual 10-year-CHD-risk estimates, 50.7 % were at low risk (&lt;2.0 %), 41.8 % at average (2.0–7.5 %), and 7.5 % at high risk (&gt;7.5 %). Without having the CHD-PRS as an additional risk factor in the model, these proportions would have been 56.8 %, 39.2 % and 4.0 %, for low, average and high-risk groups, respectively. Majority of participants considered the risk information easy to understand (93.5 %; Yes vs. Neutral or No) and useful (90.8 %; Agree or Partly Agree vs. rest) when communicated through a mobile device."
+        },
+        {
+          "type": "paragraph",
+          "html": "After the six-month follow-up period, 12.8 % (<em>N</em> = 58/452) had lost at least 5 % of their baseline body weight, and 20.2 % (<em>N</em> = 17/84) of smokers had quit smoking. The overall physician contact rate was 20.0 % (<em>N</em> = 98/491), and of these contacts 76.5 % were chat-based consultations and 23.5 % traditional in-person appointments. Compared to the matched controls, individuals in the digital clinic group were more likely to contact a physician following digital risk communication (relative risk RR=1.8; 95 %CI 1.4–2.3; <em>P</em> = 4.8 × 10<sup>–7</sup>; adjusted for age, sex and 10-year-CHD-risk). The difference in contact rate was largest in the high-CHD-risk group (36.4 % vs. 18.0 %; RR=2.0; 95 %CI 1.2–3.4; <em>P</em> = 0.008), but having the digital clinic available increased contacts significantly also in the average (21.5 % vs. 11.3 %; RR 1.7; 95 %CI 1.2–2.5; <em>P</em> = 0.001) and the low risk groups (16.7 % vs. 8.4 %; RR=2.0; 95 %CI 1.2–3.2; <em>P</em> = 0.006; Fig. 1).Fig. 1Study protocol and objectives for comparing two digital atherosclerotic cardiovascular disease prevention programs among middle-aged Finnish individuals.a. Study protocol and objectives. b. Probability ratios for contacting a physician during follow-up, with higher likelihood for detected in the digital clinic group. Adjusted RRs were derived from binary regression models fitted separately in each risk group. All models were adjusted for age, sex and 10-year-CHD-risk. c. Proportions contacting a physician during follow-up in each risk group. **<em>P</em> &lt; 0.01.Fig 1 dummy alt text"
+        },
+        {
+          "type": "paragraph",
+          "html": "In the follow-up questionnaire, participants were asked to report the outcome of the chat-based consultation if they had one. Based on these answers (<em>N</em> = 25), 48.0 % were given guidance on how to manage their lifestyle risk factors, 40.0 % were referred to an online body weight management and nutritional coaching program and 12.0 % were prescribed medications (antihypertensives, lipid-lowering medications or both) through the digital clinic."
+        },
+        {
+          "type": "paragraph",
+          "html": "Our result show that mobile-optimised CHD-risk communication followed by an easy access to a chat-based physician consultation considerably elevates the likelihood of contacting a physician compared to only communicating the individual’s risk. A great majority of participants found the communicated risk information easy to understand and useful."
+        },
+        {
+          "type": "paragraph",
+          "html": "Previously only few studies have evaluated the effectiveness of communicating composite cardiovascular disease risk estimates through mobile applications [[7], [8], [9]]. In a randomized controlled trial with <em>N</em> = 934 individuals [9], an application with multiple motivational features, including personalized risk estimates, did not increase adherence to preventive medications compared to usual care. Around 40 % of participants had existing cardiovascular disease whereas our study focused on the primary prevention in healthy population. A smaller pilot study showed promising results when incorporating risk scoring in a mobile application aimed at preventing stroke [8], and larger trials on the effectiveness of the Stroke Riskometer App are ongoing [10]. Muse et al. [7] communicated polygenic risk information alongside clinical risk scores (myGeneRank App), and individuals at high relative to low genomic risk were more likely to initiate lipid-lowering medications. Our results implicate that a simple messaging tool that is integrated with mobile risk communication could increase preventive medication and lifestyle interventions by facilitating discussions between physicians and individuals at high-risk of CHD."
+        },
+        {
+          "type": "paragraph",
+          "html": "There are some limitations in our study. First, the study contains middle-aged Finnish individuals, being of European ancestry and therefore limiting the generalizability of our findings to diverse ancestries or other age groups. Second, we used a quasi-experimental design to evaluate intervention effects with potential for confounding. To minimize the risk of potential confounding, we matched the control group for baseline risk factors using propensity scores and used multivariable binary regression models to calculate covariate-adjusted effect estimates. The possibility of secular trends cannot be ruled out in our study. Finally, the groups were followed for different times: the digital clinic cohort was followed for six-months compared to 18-months in the control group study and therefore we may underestimate the effect of the chat-based digital clinic."
+        },
+        {
+          "type": "paragraph",
+          "html": "In summary, our study shows the benefit of using an integrated risk tool to communicate coronary heart disease risk and allowing individuals for an immediate chat-based contact with a physician to discuss risk-lowering actions. Further research is needed to target healthcare resources optimally in this mobile setting to individuals most in need for risk lowering actions."
+        }
+      ]
+    },
+    {
       "title": "CRediT authorship contribution statement",
       "level": 1,
       "blocks": [

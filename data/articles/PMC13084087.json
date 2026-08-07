@@ -83,6 +83,60 @@
   "abstract": [],
   "sections": [
     {
+      "title": "Article",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Cardiovascular disease remains a leading cause of morbidity and mortality in the United States [1]. Timely identification and management of risk factors such as hypertension, hyperlipidemia, and diabetes are critical to improving outcomes [1]. Recent data suggest rising hypertension unawareness, particularly among younger adults and women [2]. However, racial disparities in awareness of these risk factors remain poorly characterized. We aimed to examine temporal trends in awareness among non-Hispanic Black, non-Hispanic White, and Hispanic adults using nationally representative data."
+        },
+        {
+          "type": "paragraph",
+          "html": "We analyzed data from the National Health and Nutrition Examination Survey (NHANES), a nationally representative survey that combines interviews, physical examinations, and laboratory testing to assess health status in the U.S. population. This study did not require ethical board approval given the use of publicly available, anonymous data, in accordance with the Common Rule."
+        },
+        {
+          "type": "paragraph",
+          "html": "Adults aged ≥18 years with at least one cardiovascular risk factor, hypertension, hyperlipidemia, or diabetes, were included. Diabetes was defined as fasting glucose ≥126 mg/dL or hemoglobin A1c ≥6.5 %; hypertension as systolic BP ≥140 mmHg or diastolic BP ≥90 mmHg (averaged over three readings), or antihypertensive use; and hyperlipidemia as total cholesterol ≥240 mg/dL [3]. Participants were considered “unaware” if they met objective criteria but reported never being told they had the condition by a healthcare professional on survey questionnaires. We applied a uniform definition of hypertension across all NHANES cycles. Although guideline thresholds were lowered in 2017, we intentionally did not adopt the newer criteria in later cycles, as doing so would have introduced artificial shifts in prevalence and awareness unrelated to true changes in detection or clinical recognition. This approach is consistent with prior NHANES trend analyses and allows observed changes in unawareness to more accurately reflect secular trends rather than definitional artifacts."
+        },
+        {
+          "type": "paragraph",
+          "html": "Temporal trends in percentages of unawareness from 2013 to 2023 were assessed using survey-weighted linear regression models. This was repeatedly done for non-Hispanic Black, non-Hispanic White, and Hispanic adults within each of the three cardiovascular disease risk factors. All analyses applied NHANES sampling weights to ensure national representativeness. R software (v 4.3.2, R Foundation for Statistical Computing) was used for statistical analysis."
+        },
+        {
+          "type": "paragraph",
+          "html": "A total of 25,467 adults with at least one cardiovascular risk factor were included; 53 % were female, and the median age was 51 years (IQR 34–66). The cohort comprised 6119 non-Hispanic Black adults, 12,559 non-Hispanic White adults, and 6789 Hispanic adults."
+        },
+        {
+          "type": "paragraph",
+          "html": "Among non-Hispanic Black adults, hypertension unawareness declined slightly from 16.09 % (95 % CI, 13.68–18.51) in 2013–2014 to 13.71 % (95 % CI, 10.86–16.57) in 2021–2023, with no significant linear temporal trend observed (p-trend=0.7; Fig. 1A). Diabetes unawareness remained largely stable, from 27.78 % (95 % CI, 18.89–36.66) in 2013–2014 to 25.44 % (95 % CI, 18.39–32.49) in 2021–2023 (p-trend=0.3; Fig. 1B). Hyperlipidemia unawareness increased from 45.45 % (95 % CI, 36.44–54.45) in 2013–2014 to 54.10 % (95 % CI, 32.24–75.96) in 2021–2023, though this trend was not statistically significant (p-trend=0.4; Fig. 1C).Fig. 1Line plots showing changes in percentages of unawareness according to race for (A) hypertension, (B) diabetes, and (C) high cholesterol across the survey cycles.Fig 1: dummy alt text"
+        },
+        {
+          "type": "paragraph",
+          "html": "Among non-Hispanic White adults, hypertension unawareness remained stable from 15.94 % (95 % CI, 12.96–18.92) in 2013–2014 to 15.84 % (95 % CI, 13.70–17.98) in 2021–2023, with no evidence of a significant temporal trend (p-trend=0.4). Diabetes unawareness also remained stable, from 21.57 % (95 % CI, 15.33–27.81) in 2013–2014 to 22.08 % (95 % CI, 18.94–25.21) in 2021–2023 (p-trend&gt;0.9). Hyperlipidemia unawareness was unchanged, from 44.08 % (95 % CI, 38.81–49.34) in 2013–2014 to 44.10 % (95 % CI, 37.38–50.82) in 2021–2023 (p-trend=0.7)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Among Hispanic adults, hypertension unawareness declined from 20.84 % (95 % CI, 18.44–23.24) in 2013–2014 to 16.71 % (95 % CI, 11.76–21.65) in 2021–2023, although the overall temporal trend was not statistically significant (p-trend=0.14). Diabetes unawareness increased modestly from 23.93 % (95 % CI, 19.93–27.92) in 2013–2014 to 25.79 % (95 % CI, 19.55–32.03) in 2021–2023 (p-trend=0.6). Hyperlipidemia unawareness decreased from 52.26 % (95 % CI, 43.78–60.74) in 2013–2014 to 49.24 % (95 % CI, 39.74–58.75) in 2021–2023, with no significant linear trend over time (p-trend=0.5)."
+        },
+        {
+          "type": "paragraph",
+          "html": "In this nationally representative analysis, we found that hypertension unawareness remained largely stable from 2013 to 2023, with heterogeneity across racial and ethnic groups. Descriptively, hypertension unawareness remained stable among non-Hispanic White adults and declined modestly among non-Hispanic Black and Hispanic adults; however, no statistically significant overall temporal trends were observed based on survey-weighted regression analyses. Similarly, unawareness of diabetes and hyperlipidemia was generally stable over time across racial and ethnic groups, although persistently high levels of unawareness were observed across populations."
+        },
+        {
+          "type": "paragraph",
+          "html": "Our findings should be interpreted in the context of prior NHANES-based analyses, particularly the study by Fan et al., which reported substantial improvements in hypertension awareness from 1999 through 2013–2014, followed by a decline by 2017–2018 [4]. Fan et al. identified a post-2013 inflection point, with awareness peaking in 2013–2014 and subsequently decreasing across multiple demographic subgroups, including non-Hispanic White and non-Hispanic Black adults. While our results do not demonstrate a consistent worsening of hypertension unawareness in the most recent decade, they extend the NHANES evidence base into 2021–2023 and suggest that earlier gains in hypertension detection may have plateaued rather than continued to improve. Differences in outcome framing (awareness vs unawareness), analytic windows, and modeling approaches likely contribute to variation across studies, and indicate that progress in hypertension recognition may be uneven and vulnerable to disruption across population subgroups."
+        },
+        {
+          "type": "paragraph",
+          "html": "Hypertension affects nearly half of U.S. adults [5], and persistent unawareness remains a critical public health concern given the importance of early diagnosis and treatment [1]. Although temporal changes in diabetes and hyperlipidemia unawareness were not pronounced in our analysis, rates remained substantial, often exceeding 20 %, highlighting ongoing gaps in cardiovascular risk factor recognition. The observed differences in unawareness patterns across conditions likely reflect distinct screening pathways. Hypertension is frequently asymptomatic and often identified opportunistically during routine clinical encounters, whereas diabetes screening has become increasingly standardized and laboratory-driven, supported by hemoglobin A1c testing and integration into preventive care and chronic disease management programs. In contrast, recognition of hyperlipidemia depends heavily on access to routine laboratory testing and longitudinal follow-up, which may contribute to persistently high levels of unawareness in some populations."
+        },
+        {
+          "type": "paragraph",
+          "html": "Limitations of this study include declining NHANES response rates over time and potential recall bias from self-reported awareness. Additionally, limited sample sizes precluded stable trend analyses in some racial and ethnic groups beyond those included in this study. Nonetheless, these nationally representative data highlight persistent gaps in cardiovascular risk factor recognition and highlight the need for sustained, population-level strategies to improve screening, awareness, and engagement in preventive care across diverse populations."
+        }
+      ]
+    },
+    {
       "title": "Author agreement form",
       "level": 1,
       "blocks": [
