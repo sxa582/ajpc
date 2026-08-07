@@ -235,7 +235,14 @@
       "blocks": [
         {
           "type": "paragraph",
-          "html": "According to the predefined search strategy, 954 records were identified. After removing 196 duplicates, 758 unique records remained for title and abstract screening, and 66 articles were retained for full-text assessment. During screening, 7 additional reports derived from overlapping NHANES databases were identified and excluded to prevent duplication of study populations [9,[24], [25], [26], [27], [28], [29]]. Based on the predefined inclusion and exclusion criteria, 9 unique cohort studies were finally included in the quantitative synthesis (Fig. 1) [11,[30], [31], [32], [33], [34], [35], [36], [37]].Fig. 1PRISMA Flow Diagram of Study Selection.Fig 1"
+          "html": "According to the predefined search strategy, 954 records were identified. After removing 196 duplicates, 758 unique records remained for title and abstract screening, and 66 articles were retained for full-text assessment. During screening, 7 additional reports derived from overlapping NHANES databases were identified and excluded to prevent duplication of study populations [9,[24], [25], [26], [27], [28], [29]]. Based on the predefined inclusion and exclusion criteria, 9 unique cohort studies were finally included in the quantitative synthesis (Fig. 1) [11,[30], [31], [32], [33], [34], [35], [36], [37]]."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 1",
+          "caption": "PRISMA Flow Diagram of Study Selection.",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12811431/bin/gr1.jpg",
+          "alt": "Fig. 1 PRISMA Flow Diagram of Study Selection."
         },
         {
           "type": "paragraph",
@@ -257,11 +264,25 @@
       "blocks": [
         {
           "type": "paragraph",
-          "html": "A total of 7 studies, comprising 2424,390 participants, investigated the association between CKM stages and the risk of all-cause mortality. Overall, the random-effects meta-analysis demonstrated a progressive increase in all-cause mortality risk with advancing CKM stages. Compared with Stage 0, significantly higher risks of all-cause mortality were observed in Stage 2 (HR = 1.40, 95 % CI: 1.15–1.70), Stage 3 (HR = 2.91, 95 % CI: 1.74–4.89), and Stage 4 (HR = 3.82, 95 % CI: 2.24–6.52) (Fig. 2). Overall heterogeneity was substantial (I² &gt; 90 %). Prediction intervals displayed in Fig. 2 illustrate the expected range of effects across future populations. Subgroup analyses by sex showed that females consistently exhibited slightly higher risks of all-cause mortality across CKM stages than males (Figure S1).Fig. 2Forest Plot of Pooled Hazard Ratios for All-Cause Mortality Across CKM Stages.Fig 2"
+          "html": "A total of 7 studies, comprising 2424,390 participants, investigated the association between CKM stages and the risk of all-cause mortality. Overall, the random-effects meta-analysis demonstrated a progressive increase in all-cause mortality risk with advancing CKM stages. Compared with Stage 0, significantly higher risks of all-cause mortality were observed in Stage 2 (HR = 1.40, 95 % CI: 1.15–1.70), Stage 3 (HR = 2.91, 95 % CI: 1.74–4.89), and Stage 4 (HR = 3.82, 95 % CI: 2.24–6.52) (Fig. 2). Overall heterogeneity was substantial (I² &gt; 90 %). Prediction intervals displayed in Fig. 2 illustrate the expected range of effects across future populations. Subgroup analyses by sex showed that females consistently exhibited slightly higher risks of all-cause mortality across CKM stages than males (Figure S1)."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 2",
+          "caption": "Forest Plot of Pooled Hazard Ratios for All-Cause Mortality Across CKM Stages.",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12811431/bin/gr2.jpg",
+          "alt": "Fig. 2 Forest Plot of Pooled Hazard Ratios for All-Cause Mortality Across CKM Stages."
         },
         {
           "type": "paragraph",
-          "html": "To explore potential sources of heterogeneity, meta-regression analyses were conducted. None of the examined study-level covariates-including mean age, sex distribution (proportion of females and males), sample size, mean BMI, prevalence of physical inactivity, smoking, drinking, or calendar period—significantly explained the between-study variability (<em>P</em> &gt; 0.05; Table S3). In contrast, the proportion of participants with education below high school emerged as a significant moderator (β = 0.0083 per 10 % increase, <em>P</em> = 0.047; Table S4, Fig. 3). Inclusion of this covariate reduced between-study variance (τ²) by approximately 24.5 %, indicating that educational attainment partially accounted for the observed heterogeneity.Fig. 3Bubble Plots of Significant Study-Level Moderators Identified by Meta-Regression Analyses.Fig 3"
+          "html": "To explore potential sources of heterogeneity, meta-regression analyses were conducted. None of the examined study-level covariates-including mean age, sex distribution (proportion of females and males), sample size, mean BMI, prevalence of physical inactivity, smoking, drinking, or calendar period—significantly explained the between-study variability (<em>P</em> &gt; 0.05; Table S3). In contrast, the proportion of participants with education below high school emerged as a significant moderator (β = 0.0083 per 10 % increase, <em>P</em> = 0.047; Table S4, Fig. 3). Inclusion of this covariate reduced between-study variance (τ²) by approximately 24.5 %, indicating that educational attainment partially accounted for the observed heterogeneity."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 3",
+          "caption": "Bubble Plots of Significant Study-Level Moderators Identified by Meta-Regression Analyses.",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12811431/bin/gr3.jpg",
+          "alt": "Fig. 3 Bubble Plots of Significant Study-Level Moderators Identified by Meta-Regression Analyses."
         },
         {
           "type": "paragraph",
@@ -275,7 +296,14 @@
       "blocks": [
         {
           "type": "paragraph",
-          "html": "Four studies involving 673,214 participants examined the association between CKM stages and CVD mortality. Using random-effects meta-analysis, significantly higher risks were observed compared with Stage 0 for Stage 1 (HR = 1.15, 95 % CI: 1.01–1.31), Stage 2 (HR = 2.13, 95 % CI: 1.54–2.94), Stage 3 (HR = 4.05, 95 % CI: 2.87–5.72), and Stage 4 (HR = 6.38, 95 % CI: 5.22–7.80), demonstrating a clear dose–response pattern (Fig. 4). Overall heterogeneity was moderate (I² &lt; 75 %). Prediction intervals displayed in Fig. 4 showed consistent directional trends across stages, supporting the robustness of the pooled estimates. Sex-stratified subgroup analyses revealed stage-specific differences (Figure S2), with females exhibiting higher risk at Stage 2, males at Stage 3, and both sexes reaching the highest risk at Stage 4.Fig. 4Forest Plot of Pooled Hazard Ratios for Cardiovascular Mortality Across CKM Stages.Fig 4"
+          "html": "Four studies involving 673,214 participants examined the association between CKM stages and CVD mortality. Using random-effects meta-analysis, significantly higher risks were observed compared with Stage 0 for Stage 1 (HR = 1.15, 95 % CI: 1.01–1.31), Stage 2 (HR = 2.13, 95 % CI: 1.54–2.94), Stage 3 (HR = 4.05, 95 % CI: 2.87–5.72), and Stage 4 (HR = 6.38, 95 % CI: 5.22–7.80), demonstrating a clear dose–response pattern (Fig. 4). Overall heterogeneity was moderate (I² &lt; 75 %). Prediction intervals displayed in Fig. 4 showed consistent directional trends across stages, supporting the robustness of the pooled estimates. Sex-stratified subgroup analyses revealed stage-specific differences (Figure S2), with females exhibiting higher risk at Stage 2, males at Stage 3, and both sexes reaching the highest risk at Stage 4."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 4",
+          "caption": "Forest Plot of Pooled Hazard Ratios for Cardiovascular Mortality Across CKM Stages.",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12811431/bin/gr4.jpg",
+          "alt": "Fig. 4 Forest Plot of Pooled Hazard Ratios for Cardiovascular Mortality Across CKM Stages."
         },
         {
           "type": "paragraph",
@@ -307,7 +335,14 @@
       "blocks": [
         {
           "type": "paragraph",
-          "html": "LOO sensitivity analyses (Table S7) and Baujat plots (Table S8, Figure S5) consistently confirmed the stability of the pooled estimates for all-cause, CVD, CHD, and stroke mortality outcomes. Exclusion of any single study did not materially alter the direction or significance of the summary HRs, indicating that no individual study exerted undue influence on the overall effect estimates. Egger’s regression tests detected no evidence of small-study effects or publication bias (<em>P</em> &gt; 0.05), and funnel plots appeared symmetrical, supporting the reliability and robustness of the pooled findings (Fig. 5).Fig. 5Funnel Plots for Assessing Publication Bias Across Mortality Outcomes.Fig 5"
+          "html": "LOO sensitivity analyses (Table S7) and Baujat plots (Table S8, Figure S5) consistently confirmed the stability of the pooled estimates for all-cause, CVD, CHD, and stroke mortality outcomes. Exclusion of any single study did not materially alter the direction or significance of the summary HRs, indicating that no individual study exerted undue influence on the overall effect estimates. Egger’s regression tests detected no evidence of small-study effects or publication bias (<em>P</em> &gt; 0.05), and funnel plots appeared symmetrical, supporting the reliability and robustness of the pooled findings (Fig. 5)."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 5",
+          "caption": "Funnel Plots for Assessing Publication Bias Across Mortality Outcomes.",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12811431/bin/gr5.jpg",
+          "alt": "Fig. 5 Funnel Plots for Assessing Publication Bias Across Mortality Outcomes."
         }
       ]
     },
@@ -430,7 +465,14 @@
       "blocks": [
         {
           "type": "paragraph",
-          "html": "CKM: Cardiovascular–Kidney–Metabolic, CKM stages: Stages 0–4 of the Cardiovascular–Kidney–Metabolic framework, AHA: American Heart Association, BMI: Body Mass Index, CHD: Coronary Heart Disease, CI: Confidence Interval, CKD: Chronic Kidney Disease, CVD: Cardiovascular Disease, HR: Hazard Ratio, JBI: Joanna Briggs Institute, LOO: Leave-One-Out, MetS: Metabolic Syndrome, MOOSE: Meta-analysis of Observational Studies in Epidemiology, NHANES: National Health and Nutrition Examination Survey, PRISMA: Preferred Reporting Items for Systematic Reviews and Meta-Analyses, PROSPERO: International Prospective Register of Systematic Reviews.Central illustration.Unlabelled image"
+          "html": "CKM: Cardiovascular–Kidney–Metabolic, CKM stages: Stages 0–4 of the Cardiovascular–Kidney–Metabolic framework, AHA: American Heart Association, BMI: Body Mass Index, CHD: Coronary Heart Disease, CI: Confidence Interval, CKD: Chronic Kidney Disease, CVD: Cardiovascular Disease, HR: Hazard Ratio, JBI: Joanna Briggs Institute, LOO: Leave-One-Out, MetS: Metabolic Syndrome, MOOSE: Meta-analysis of Observational Studies in Epidemiology, NHANES: National Health and Nutrition Examination Survey, PRISMA: Preferred Reporting Items for Systematic Reviews and Meta-Analyses, PROSPERO: International Prospective Register of Systematic Reviews."
+        },
+        {
+          "type": "figure",
+          "label": "",
+          "caption": "Central illustration.",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12811431/bin/gr6.jpg",
+          "alt": "Central illustration."
         }
       ]
     },

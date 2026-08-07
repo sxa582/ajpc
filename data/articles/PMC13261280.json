@@ -114,8 +114,11 @@
       "level": 1,
       "blocks": [
         {
-          "type": "paragraph",
-          "html": "Central Illustration.Unlabelled image dummy alt text"
+          "type": "figure",
+          "label": "",
+          "caption": "Central Illustration.",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13261280/bin/gr5.jpg",
+          "alt": "Central Illustration."
         }
       ]
     },
@@ -224,7 +227,35 @@
       "blocks": [
         {
           "type": "paragraph",
-          "html": "The MESA includes 6809 participants with a mean age of 62.2 ± 10.2 years, including 53 % women. The cohort represents four self-identified major racial/ethnic groups: White (39 %), Black (28 %), Hispanic (22 %), and Chinese (12 %). Between 2000 and 2014, MESA recorded and reviewed 15,905 clinical events, of which, 4075 were identified as potential cardiovascular events that met the criteria for physician adjudication (Fig. 1). Among these 4075 events, 333 (8.2 %) were previously adjudicated as an MI by the Binary Classification (Fig. 2). Using the Etiological Classification, myocardial injury was identified in 651 (15.9 %) of the 4075 events, including 406 MI and 198 acute non-ischemic myocardial injury events (Fig. 2, Fig. 3, Fig. 4). Chronic myocardial injury was present in 47 events. Among the 406 MI identified with the Etiological Classification, 202 (50 %) were type 1 MI, 182 (45 %) were type 2 MI, and 22 (5 %) were other MI types (Fig. 2).Fig. 1Event selection for different physician adjudication methodologies in the Multi-Ethnic Study of Atherosclerosis.Fig 1: dummy alt textFig. 2Etiological Classification and Binary Classification of clinical events in the Multi-Ethnic Study of Atherosclerosis (MESA) (A. Column percentages and B. Row percentages).Fig 2: dummy alt text*Total 15,905 clinical events between 2000–2014 in MESA. Among these, 4075 potential cardiovascular events that met the MESA criteria for physician adjudication. Column Percentages: Each cell shows the % of events within the Binary Classification category that fall into the corresponding Etiological Classification category. Row Percentages: Each cell shows the % of events within the Etiological Classification category that fall into the corresponding Binary Classification category. <sup>†</sup> Bundled events are recurrences of myocardial injury event occurring within 28 days of discharge from a previous event. For analysis, these are considered a continuation of previous myocardial injury events and are classified as no myocardial injury. Myocardial Infarction (MI); Multi-Ethnic Study of Atherosclerosis (MESA).Fig. 3Sankey plot showing the distribution of cases adjudicated as a myocardial injury event by the Etiological Classification system. Binary Classification of MI on left (with combined Definite and Probable class) and Etiological Classification of myocardial injury on right.Fig 3: dummy alt textMulti-Ethnic Study of Atherosclerosis (MESA); Myocardial Infarction (MI); Universal Definition of Myocardial Infarction (UDMI).Fig. 4Sankey plot showing the distribution of cases adjudicated as a myocardial injury event by the Etiological Classification system. Binary Classification of MI on left and Etiological Classification of myocardial injury on right.Fig 4: dummy alt textNote: All concordant No MI/ No Injury events (<em>N</em> = 3396) are removed. Multi-Ethnic Study of Atherosclerosis (MESA); Myocardial Infarction (MI)."
+          "html": "The MESA includes 6809 participants with a mean age of 62.2 ± 10.2 years, including 53 % women. The cohort represents four self-identified major racial/ethnic groups: White (39 %), Black (28 %), Hispanic (22 %), and Chinese (12 %). Between 2000 and 2014, MESA recorded and reviewed 15,905 clinical events, of which, 4075 were identified as potential cardiovascular events that met the criteria for physician adjudication (Fig. 1). Among these 4075 events, 333 (8.2 %) were previously adjudicated as an MI by the Binary Classification (Fig. 2). Using the Etiological Classification, myocardial injury was identified in 651 (15.9 %) of the 4075 events, including 406 MI and 198 acute non-ischemic myocardial injury events (Fig. 2, Fig. 3, Fig. 4). Chronic myocardial injury was present in 47 events. Among the 406 MI identified with the Etiological Classification, 202 (50 %) were type 1 MI, 182 (45 %) were type 2 MI, and 22 (5 %) were other MI types (Fig. 2)."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 1",
+          "caption": "Event selection for different physician adjudication methodologies in the Multi-Ethnic Study of Atherosclerosis.",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13261280/bin/gr1.jpg",
+          "alt": "Fig. 1 Event selection for different physician adjudication methodologies in the Multi-Ethnic Study of Atherosclerosis."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 2",
+          "caption": "Etiological Classification and Binary Classification of clinical events in the Multi-Ethnic Study of Atherosclerosis (MESA) (A. Column percentages and B. Row percentages).",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13261280/bin/gr2.jpg",
+          "alt": "Fig. 2 Etiological Classification and Binary Classification of clinical events in the Multi-Ethnic Study of Atherosclerosis (MESA) (A. Column percentages and B. Row percentages)."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 3",
+          "caption": "Sankey plot showing the distribution of cases adjudicated as a myocardial injury event by the Etiological Classification system. Binary Classification of MI on left (with combined Definite and Probable class) and Etiological Classification of myocardial injury on right.",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13261280/bin/gr3.jpg",
+          "alt": "Fig. 3 Sankey plot showing the distribution of cases adjudicated as a myocardial injury event by the Etiological Classification system. Binary Classification of MI on left (with combined Definite and Probable class) and Etiological Classification of myocardial injury on right."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 4",
+          "caption": "Sankey plot showing the distribution of cases adjudicated as a myocardial injury event by the Etiological Classification system. Binary Classification of MI on left and Etiological Classification of myocardial injury on right.",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13261280/bin/gr4.jpg",
+          "alt": "Fig. 4 Sankey plot showing the distribution of cases adjudicated as a myocardial injury event by the Etiological Classification system. Binary Classification of MI on left and Etiological Classification of myocardial injury on right."
         },
         {
           "type": "paragraph",

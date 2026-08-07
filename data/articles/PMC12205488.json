@@ -127,8 +127,11 @@
       "level": 1,
       "blocks": [
         {
-          "type": "paragraph",
-          "html": "Central Illustration.Unlabelled image"
+          "type": "figure",
+          "label": "",
+          "caption": "Central Illustration.",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12205488/bin/fx1.jpg",
+          "alt": "Central Illustration."
         }
       ]
     },
@@ -206,15 +209,36 @@
       "blocks": [
         {
           "type": "paragraph",
-          "html": "The study included 3123 counties. Counties with greater SHCB were clustered in more metropolitan counties, and premature CVD mortality was greater in the southern region (Fig. 1). Overall, the age-adjusted premature CVD mortality rates per 100,000 population were higher for the lowest quintile of SHCB compared with the highest (Quintile 1 = 82.5 vs Quintile 5 = 74.6 per 100,000; P<sub>trend</sub> &lt;0.001) (<strong>Supplemental Figures 1</strong>). The age-adjusted premature CVD death rates were greater among men than women across quintiles of SHCB (Quintile 5 Men=104.9 vs Women=46.0 per 100,000). Similar results were observed when examined by CVD mortality subtype (<strong>Supplemental Figure 2</strong>).Fig. 1Severe housing cost burden and premature mortality due to major cardiovascular disease in the US, 2015–2020. (A) Counties by severe housing cost burden in quintile, and (B) by age-adjusted premature mortality rates due to cardiovascular disease by quintile.Fig 1"
+          "html": "The study included 3123 counties. Counties with greater SHCB were clustered in more metropolitan counties, and premature CVD mortality was greater in the southern region (Fig. 1). Overall, the age-adjusted premature CVD mortality rates per 100,000 population were higher for the lowest quintile of SHCB compared with the highest (Quintile 1 = 82.5 vs Quintile 5 = 74.6 per 100,000; P<sub>trend</sub> &lt;0.001) (<strong>Supplemental Figures 1</strong>). The age-adjusted premature CVD death rates were greater among men than women across quintiles of SHCB (Quintile 5 Men=104.9 vs Women=46.0 per 100,000). Similar results were observed when examined by CVD mortality subtype (<strong>Supplemental Figure 2</strong>)."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 1",
+          "caption": "Severe housing cost burden and premature mortality due to major cardiovascular disease in the US, 2015–2020. (A) Counties by severe housing cost burden in quintile, and (B) by age-adjusted premature mortality rates due to cardiovascular disease by quintile.",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12205488/bin/gr1.jpg",
+          "alt": "Fig. 1 Severe housing cost burden and premature mortality due to major cardiovascular disease in the US, 2015–2020. (A) Counties by severe housing cost burden in quintile, and (B) by age-adjusted premature mortality rates due to cardiovascular disease by quintile."
         },
         {
           "type": "paragraph",
-          "html": "After adjusting, counties in the highest quintile had a 15 % higher premature CVD mortality rate compared with counties in the lowest quintile (aRR=1.15; 95 %CI 1.06–1.24; P<sub>trend</sub>&lt;0.001) (Fig. 2). Similar findings were observed by CVD mortality subtype for ischemic heart disease (aRR=1.09; 95 %CI 1.01–1.17; P<sub>trend</sub>&lt;0.001), and stroke (aRR=1.20; 95 %CI 1.08–1.32; P<sub>trend</sub>&lt;0.001). The premature CVD mortality aRRs was similar between men and women in counties in the highest quintile of SHCB compared with their counterparts in the lowest (Men: aRR=1.15; 95 %CI 1.07–1.24 and Women: aRR=1.15; 95 %CI 1.04–1.26). In analysis by CVD mortality subtype, men in the highest quintile of SHCB had a 9 % higher ischemic heart disease and 19 % higher stroke premature CVD mortality rates compared with the lowest quintile (ischemic heart disease: aRR=1.09; 95 %CI 1.01–1.17; P<sub>trend</sub>&lt;0.001 and Stroke: aRR=1.19; 95 %CI 1.06–1.32; P<sub>trend</sub>&lt;0.001) (<strong>Supplemental Figure 3</strong>). No associations were observed by CVD subtype among women (<strong>Supplemental Figure 4</strong>).Fig. 2Adjusted premature cardiovascular mortality rate ratios by quintile of severe housing cost burden in U.S. counties, 2016–2020Adjusted for metropolitan status, proportion 150 % below poverty level, proportion of the population with non-Hispanic White alone race, proportion of uninsured adults, and education index (percent with less than high school graduate, high school only and more than high school among ages ≥25 years).Note: The first quintile was used as the reference groupAs quintiles increase the larger the percentage of county households with severe housing cost burden.Fig 2"
+          "html": "After adjusting, counties in the highest quintile had a 15 % higher premature CVD mortality rate compared with counties in the lowest quintile (aRR=1.15; 95 %CI 1.06–1.24; P<sub>trend</sub>&lt;0.001) (Fig. 2). Similar findings were observed by CVD mortality subtype for ischemic heart disease (aRR=1.09; 95 %CI 1.01–1.17; P<sub>trend</sub>&lt;0.001), and stroke (aRR=1.20; 95 %CI 1.08–1.32; P<sub>trend</sub>&lt;0.001). The premature CVD mortality aRRs was similar between men and women in counties in the highest quintile of SHCB compared with their counterparts in the lowest (Men: aRR=1.15; 95 %CI 1.07–1.24 and Women: aRR=1.15; 95 %CI 1.04–1.26). In analysis by CVD mortality subtype, men in the highest quintile of SHCB had a 9 % higher ischemic heart disease and 19 % higher stroke premature CVD mortality rates compared with the lowest quintile (ischemic heart disease: aRR=1.09; 95 %CI 1.01–1.17; P<sub>trend</sub>&lt;0.001 and Stroke: aRR=1.19; 95 %CI 1.06–1.32; P<sub>trend</sub>&lt;0.001) (<strong>Supplemental Figure 3</strong>). No associations were observed by CVD subtype among women (<strong>Supplemental Figure 4</strong>)."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 2",
+          "caption": "Adjusted premature cardiovascular mortality rate ratios by quintile of severe housing cost burden in U.S. counties, 2016–2020 Adjusted for metropolitan status, proportion 150 % below poverty level, proportion of the population with non-Hispanic White alone race, proportion of uninsured adults, and education index (percent with less than high school graduate, high school only and more than high school among ages ≥25 years). Note: The first quintile was used as the reference group As quintiles increase the larger the percentage of county households with severe housing cost burden.",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12205488/bin/gr2.jpg",
+          "alt": "Fig. 2 Adjusted premature cardiovascular mortality rate ratios by quintile of severe housing cost burden in U.S. counties, 2016–2020Adjusted for metropolitan status, proportion 150 % below poverty level, proportion of the population with non-Hispanic White alone race, proportion of uninsured adults, and education index (percent with less than high school graduate, high school only and more than high school among ages ≥25 years).Note: The first quintile was used as the reference groupAs quintiles increase the larger the percentage of county households with severe housing cost burden."
         },
         {
           "type": "paragraph",
-          "html": "Overall, compared with counties in Medicaid expanded states, non-Medicaid expanded states had higher rates of premature CVD mortality across higher quintiles of SHCB (Quintile 5: aRR=1.19; 95 %CI 1.02–1.36) (Fig. 3). Similar findings were observed for the highest quintile of SHCB for heart failure (aRR=1.61; 95 %CI 1.18–2.04) and stroke (aRR=1.29; 95 %CI 1.08–1.50).Fig. 3Adjusted premature cardiovascular mortality rate ratios by quintile of severe housing cost burden and state medicaid expansion status in U.S. counties, 2016–2020Adjusted for metropolitan status, proportion 150 % below poverty level, proportion of the population with non-Hispanic White alone race, and education index (percent with less than high school graduate, high school only and more than high school among ages ≥25 years).Note: Medicaid expanded states were used as the reference group. Late Medicaid expanded states were excluded.As quintiles increase the larger the percentage of county households with severe housing cost burden.Fig 3"
+          "html": "Overall, compared with counties in Medicaid expanded states, non-Medicaid expanded states had higher rates of premature CVD mortality across higher quintiles of SHCB (Quintile 5: aRR=1.19; 95 %CI 1.02–1.36) (Fig. 3). Similar findings were observed for the highest quintile of SHCB for heart failure (aRR=1.61; 95 %CI 1.18–2.04) and stroke (aRR=1.29; 95 %CI 1.08–1.50)."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 3",
+          "caption": "Adjusted premature cardiovascular mortality rate ratios by quintile of severe housing cost burden and state medicaid expansion status in U.S. counties, 2016–2020 Adjusted for metropolitan status, proportion 150 % below poverty level, proportion of the population with non-Hispanic White alone race, and education index (percent with less than high school graduate, high school only and more than high school among ages ≥25 years). Note: Medicaid expanded states were used as the reference group. Late Medicaid expanded states were excluded. As quintiles increase the larger the percentage of county households with severe housing cost burden.",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12205488/bin/gr3.jpg",
+          "alt": "Fig. 3 Adjusted premature cardiovascular mortality rate ratios by quintile of severe housing cost burden and state medicaid expansion status in U.S. counties, 2016–2020Adjusted for metropolitan status, proportion 150 % below poverty level, proportion of the population with non-Hispanic White alone race, and education index (percent with less than high school graduate, high school only and more than high school among ages ≥25 years).Note: Medicaid expanded states were used as the reference group. Late Medicaid expanded states were excluded.As quintiles increase the larger the percentage of county households with severe housing cost burden."
         }
       ]
     },

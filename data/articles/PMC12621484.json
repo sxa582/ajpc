@@ -257,7 +257,14 @@
         },
         {
           "type": "paragraph",
-          "html": "Fig. 1 Fig. 1Central illustration.Fig 1"
+          "html": "Fig. 1"
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 1",
+          "caption": "Central illustration.",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12621484/bin/gr1.jpg",
+          "alt": "Fig. 1 Central illustration."
         }
       ]
     },
@@ -272,7 +279,14 @@
       "blocks": [
         {
           "type": "paragraph",
-          "html": "The initial search yielded 18,409 articles. As a result, 1841 articles remained for full-text review. During the full-text selection, 64 articles were found eligible for inclusion. At this stage, citation-chasing was conducted, and 28 more articles were found eligible. Of the 92 eligible full-text articles, we decided not to include 41 articles for the following reasons: 23 articles failed to mention smoking status, 9 articles had a wide age range (using adolescents or probably post-menopausal women and age-matched men), 7 included non-poolable outcome measures, and 2 had missing data. For the list of these articles, see Table S3. Fifty-one were included in the meta-analysis (Fig. 2).Fig. 2PRISMA 2020 flowchart representing the study selection process.Fig 2"
+          "html": "The initial search yielded 18,409 articles. As a result, 1841 articles remained for full-text review. During the full-text selection, 64 articles were found eligible for inclusion. At this stage, citation-chasing was conducted, and 28 more articles were found eligible. Of the 92 eligible full-text articles, we decided not to include 41 articles for the following reasons: 23 articles failed to mention smoking status, 9 articles had a wide age range (using adolescents or probably post-menopausal women and age-matched men), 7 included non-poolable outcome measures, and 2 had missing data. For the list of these articles, see Table S3. Fifty-one were included in the meta-analysis (Fig. 2)."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 2",
+          "caption": "PRISMA 2020 flowchart representing the study selection process.",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12621484/bin/gr2.jpg",
+          "alt": "Fig. 2 PRISMA 2020 flowchart representing the study selection process."
         }
       ]
     },
@@ -296,11 +310,24 @@
       "blocks": [
         {
           "type": "paragraph",
-          "html": "The univariate analysis of BAD (Fig. 3, S1) was conducted on 2020 subjects from 33 articles. The mean BAD for females was 3.17 mm, and 3.99 mm for the males. The pooled mean BAD across sexes was 3.57 mm (Fig. S1). The male BAD was significantly, 0.81 mm larger than that of the female (Fig. 3).Fig. 3<strong>Forest plot of the Mean difference in BAD between sexes.</strong> Vertical lines represent the pooled point estimate, horizontal lines represent the 95 % CI, and squares represent the weight for each study. Diamond represents the pooled mean difference in BAD between sexes. (BMI: body mass index, n: count, SD: standard deviation, BAD: baseline artery diameter, 95 % CI: 95 % confidence interval).Fig 3"
+          "html": "The univariate analysis of BAD (Fig. 3, S1) was conducted on 2020 subjects from 33 articles. The mean BAD for females was 3.17 mm, and 3.99 mm for the males. The pooled mean BAD across sexes was 3.57 mm (Fig. S1). The male BAD was significantly, 0.81 mm larger than that of the female (Fig. 3)."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 3",
+          "caption": "<strong>Forest plot of the Mean difference in BAD between sexes.</strong> Vertical lines represent the pooled point estimate, horizontal lines represent the 95 % CI, and squares represent the weight for each study. Diamond represents the pooled mean difference in BAD between sexes. (BMI: body mass index, n: count, SD: standard deviation, BAD: baseline artery diameter, 95 % CI: 95 % confidence interval).",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12621484/bin/gr3.jpg",
+          "alt": "Fig. 3 Forest plot of the Mean difference in BAD between sexes. Vertical lines represent the pooled point estimate, horizontal lines represent the 95 % CI, and squares represent the weight for each study. Diamond represents the pooled mean difference in BAD between sexes. (BMI: body mass index, n: count, SD: standard deviation, BAD: baseline artery diameter, 95 % CI: 95 % confidence interval)."
         },
         {
           "type": "paragraph",
-          "html": "In the multivariate linear regression analysis, 1049 subjects were analyzed (39 % female) (Table 1, Fig. S2). The regression model included sex, mean age, and mean BMI. The model indicated that male has significantly larger BAD, but age and BMI were not significant predictors of BAD.Table 1Multivariate linear regression analysis of mean FMD, mean BAD, mean ΔBF, mean WSR, and mean TTP. Significant values are highlighted in bold. (FMD: flow-mediated dilation, BAD: baseline artery diameter, ΔBF: relative change in blood flow, WSR: wall shear rate, TTP: time-to-pek, BMI*: body mass index, CI†: confidence interval).Table 1Measured outcomeDemographySexAgeBMISexNβ (male-female)[95 % CI]p-valueAge (SD)β[95 % CI]p-valueBMI (SD)β [95 % CI]p-valueFMDfemale479−0.009[−0.019 ‒ 0.020]0.11025.3 (4.0)<strong>0.003</strong><strong>[0.001–0.005]</strong><strong>0.002</strong>22.59 (1.74)<strong>−0.008</strong><strong>[−0.012 ‒ −0.004]</strong><strong>&lt;0.001</strong>male69825.2 (3.4)23.59 (1.38)BADfemale410<strong>0.795</strong><strong>[0.667 ‒ 0.922]</strong><strong>&lt;0.000</strong>24.5 (3.6)0.003[−0.034 ‒ 0.028]0.86622.44 (1.72)0.000[−0.054 ‒ 0.054]0.999male63925.1 (3.4)23.68 (1.43)ΔBFfemale720.803[−0.341 ‒ 1.946]0.16926.2 (2.9)<strong>−0.635</strong><strong>[−1.057 ‒ 0.213]</strong><strong>0.003</strong>21.28 (1.63)<strong>−0.482</strong><strong>[−0.956 ‒ 0.008]</strong><strong>0.046</strong>male7526.4 (2.7)23.44 (1.53)WSRfemale281<strong>−3661.539</strong><strong>[−6196.760 ‒ −1126.318]</strong><strong>0.005</strong>23.1 (3.5)41.750[−1029.460 ‒ 1112.960]0.93923.14 (1.27)−326.228[−2627.239 ‒ 1974.784]0.781male51723.9 (2.6)23.5 (1.05)TTPfemale245<strong>6.909</strong><strong>[2.632 ‒ 11.186]</strong><strong>0.002</strong>21.9 (2.3)0.853[0.166 ‒ 1.871]0.10123.18 (1.36)−1.855[−3.883 ‒ 0.173]0.073male48022.7 (1.7)23.82 (1.64)"
+          "html": "In the multivariate linear regression analysis, 1049 subjects were analyzed (39 % female) (Table 1, Fig. S2). The regression model included sex, mean age, and mean BMI. The model indicated that male has significantly larger BAD, but age and BMI were not significant predictors of BAD."
+        },
+        {
+          "type": "table",
+          "label": "Table 1",
+          "caption": "Multivariate linear regression analysis of mean FMD, mean BAD, mean ΔBF, mean WSR, and mean TTP. Significant values are highlighted in bold. (FMD: flow-mediated dilation, BAD: baseline artery diameter, ΔBF: relative change in blood flow, WSR: wall shear rate, TTP: time-to-pek, BMI*: body mass index, CI†: confidence interval).",
+          "html": "<table><tr><th colspan=\"1\" rowspan=\"2\">Measured outcome</th><th colspan=\"2\" rowspan=\"1\">Demography</th><th colspan=\"2\" rowspan=\"1\">Sex</th><th colspan=\"3\" rowspan=\"1\">Age</th><th colspan=\"3\" rowspan=\"1\">BMI</th></tr><tr><th colspan=\"1\" rowspan=\"1\">Sex</th><th colspan=\"1\" rowspan=\"1\">N</th><th colspan=\"1\" rowspan=\"1\">β (male-female)[95 % CI]</th><th colspan=\"1\" rowspan=\"1\">p-value</th><th colspan=\"1\" rowspan=\"1\">Age (SD)</th><th colspan=\"1\" rowspan=\"1\">β[95 % CI]</th><th colspan=\"1\" rowspan=\"1\">p-value</th><th colspan=\"1\" rowspan=\"1\">BMI (SD)</th><th colspan=\"1\" rowspan=\"1\">β [95 % CI]</th><th colspan=\"1\" rowspan=\"1\">p-value</th></tr><tr><td colspan=\"1\" rowspan=\"2\">FMD</td><td colspan=\"1\" rowspan=\"1\">female</td><td colspan=\"1\" rowspan=\"1\">479</td><td colspan=\"1\" rowspan=\"2\">−0.009[−0.019 ‒ 0.020]</td><td colspan=\"1\" rowspan=\"2\">0.110</td><td colspan=\"1\" rowspan=\"1\">25.3 (4.0)</td><td colspan=\"1\" rowspan=\"2\"><strong>0.003</strong><strong>[0.001–0.005]</strong></td><td colspan=\"1\" rowspan=\"2\"><strong>0.002</strong></td><td colspan=\"1\" rowspan=\"1\">22.59 (1.74)</td><td colspan=\"1\" rowspan=\"2\"><strong>−0.008</strong><strong>[−0.012 ‒ −0.004]</strong></td><td colspan=\"1\" rowspan=\"2\"><strong>&lt;0.001</strong></td></tr><tr><td colspan=\"1\" rowspan=\"1\">male</td><td colspan=\"1\" rowspan=\"1\">698</td><td colspan=\"1\" rowspan=\"1\">25.2 (3.4)</td><td colspan=\"1\" rowspan=\"1\">23.59 (1.38)</td></tr><tr><td colspan=\"1\" rowspan=\"2\">BAD</td><td colspan=\"1\" rowspan=\"1\">female</td><td colspan=\"1\" rowspan=\"1\">410</td><td colspan=\"1\" rowspan=\"2\"><strong>0.795</strong><strong>[0.667 ‒ 0.922]</strong></td><td colspan=\"1\" rowspan=\"2\"><strong>&lt;0.000</strong></td><td colspan=\"1\" rowspan=\"1\">24.5 (3.6)</td><td colspan=\"1\" rowspan=\"2\">0.003[−0.034 ‒ 0.028]</td><td colspan=\"1\" rowspan=\"2\">0.866</td><td colspan=\"1\" rowspan=\"1\">22.44 (1.72)</td><td colspan=\"1\" rowspan=\"2\">0.000[−0.054 ‒ 0.054]</td><td colspan=\"1\" rowspan=\"2\">0.999</td></tr><tr><td colspan=\"1\" rowspan=\"1\">male</td><td colspan=\"1\" rowspan=\"1\">639</td><td colspan=\"1\" rowspan=\"1\">25.1 (3.4)</td><td colspan=\"1\" rowspan=\"1\">23.68 (1.43)</td></tr><tr><td colspan=\"1\" rowspan=\"2\">ΔBF</td><td colspan=\"1\" rowspan=\"1\">female</td><td colspan=\"1\" rowspan=\"1\">72</td><td colspan=\"1\" rowspan=\"2\">0.803[−0.341 ‒ 1.946]</td><td colspan=\"1\" rowspan=\"2\">0.169</td><td colspan=\"1\" rowspan=\"1\">26.2 (2.9)</td><td colspan=\"1\" rowspan=\"2\"><strong>−0.635</strong><strong>[−1.057 ‒ 0.213]</strong></td><td colspan=\"1\" rowspan=\"2\"><strong>0.003</strong></td><td colspan=\"1\" rowspan=\"1\">21.28 (1.63)</td><td colspan=\"1\" rowspan=\"2\"><strong>−0.482</strong><strong>[−0.956 ‒ 0.008]</strong></td><td colspan=\"1\" rowspan=\"2\"><strong>0.046</strong></td></tr><tr><td colspan=\"1\" rowspan=\"1\">male</td><td colspan=\"1\" rowspan=\"1\">75</td><td colspan=\"1\" rowspan=\"1\">26.4 (2.7)</td><td colspan=\"1\" rowspan=\"1\">23.44 (1.53)</td></tr><tr><td colspan=\"1\" rowspan=\"2\">WSR</td><td colspan=\"1\" rowspan=\"1\">female</td><td colspan=\"1\" rowspan=\"1\">281</td><td colspan=\"1\" rowspan=\"2\"><strong>−3661.539</strong><strong>[−6196.760 ‒ −1126.318]</strong></td><td colspan=\"1\" rowspan=\"2\"><strong>0.005</strong></td><td colspan=\"1\" rowspan=\"1\">23.1 (3.5)</td><td colspan=\"1\" rowspan=\"2\">41.750[−1029.460 ‒ 1112.960]</td><td colspan=\"1\" rowspan=\"2\">0.939</td><td colspan=\"1\" rowspan=\"1\">23.14 (1.27)</td><td colspan=\"1\" rowspan=\"2\">−326.228[−2627.239 ‒ 1974.784]</td><td colspan=\"1\" rowspan=\"2\">0.781</td></tr><tr><td colspan=\"1\" rowspan=\"1\">male</td><td colspan=\"1\" rowspan=\"1\">517</td><td colspan=\"1\" rowspan=\"1\">23.9 (2.6)</td><td colspan=\"1\" rowspan=\"1\">23.5 (1.05)</td></tr><tr><td colspan=\"1\" rowspan=\"2\">TTP</td><td colspan=\"1\" rowspan=\"1\">female</td><td colspan=\"1\" rowspan=\"1\">245</td><td colspan=\"1\" rowspan=\"2\"><strong>6.909</strong><strong>[2.632 ‒ 11.186]</strong></td><td colspan=\"1\" rowspan=\"2\"><strong>0.002</strong></td><td colspan=\"1\" rowspan=\"1\">21.9 (2.3)</td><td colspan=\"1\" rowspan=\"2\">0.853[0.166 ‒ 1.871]</td><td colspan=\"1\" rowspan=\"2\">0.101</td><td colspan=\"1\" rowspan=\"1\">23.18 (1.36)</td><td colspan=\"1\" rowspan=\"2\">−1.855[−3.883 ‒ 0.173]</td><td colspan=\"1\" rowspan=\"2\">0.073</td></tr><tr><td colspan=\"1\" rowspan=\"1\">male</td><td colspan=\"1\" rowspan=\"1\">480</td><td colspan=\"1\" rowspan=\"1\">22.7 (1.7)</td><td colspan=\"1\" rowspan=\"1\">23.82 (1.64)</td></tr></table>"
         }
       ]
     },
@@ -310,7 +337,14 @@
       "blocks": [
         {
           "type": "paragraph",
-          "html": "The univariate analysis of FMD (Fig. 4, S5) was conducted on 2348 subjects from 48 articles. The mean FMD was 10.4 % for females and 8.3 % for males. The pooled mean FMD of healthy individuals across sexes was 9.3 % (Fig. S5). Male participants exhibited a significantly lower FMD compared with females, corresponding to a mean absolute difference of about two percentage points. (Fig. 4).Fig. 4<strong>Forest plot of the mean difference in FMD between sexes.</strong> Vertical lines represent the pooled point estimate, horizontal lines represent the 95 % CI, and squares represent the weight for each study. Diamond represents the pooled mean difference in FMD between sexes. FMD values are expressed as relative changes. (BMI: body mass index, BAD: baseline artery diameter, n: count, SD: standard deviation, FMD: flow-mediated dilation, 95 % CI: 95 % confidence interval).Fig 4"
+          "html": "The univariate analysis of FMD (Fig. 4, S5) was conducted on 2348 subjects from 48 articles. The mean FMD was 10.4 % for females and 8.3 % for males. The pooled mean FMD of healthy individuals across sexes was 9.3 % (Fig. S5). Male participants exhibited a significantly lower FMD compared with females, corresponding to a mean absolute difference of about two percentage points. (Fig. 4)."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 4",
+          "caption": "<strong>Forest plot of the mean difference in FMD between sexes.</strong> Vertical lines represent the pooled point estimate, horizontal lines represent the 95 % CI, and squares represent the weight for each study. Diamond represents the pooled mean difference in FMD between sexes. FMD values are expressed as relative changes. (BMI: body mass index, BAD: baseline artery diameter, n: count, SD: standard deviation, FMD: flow-mediated dilation, 95 % CI: 95 % confidence interval).",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12621484/bin/gr4.jpg",
+          "alt": "Fig. 4 Forest plot of the mean difference in FMD between sexes. Vertical lines represent the pooled point estimate, horizontal lines represent the 95 % CI, and squares represent the weight for each study. Diamond represents the pooled mean difference in FMD between sexes. FMD values are expressed as relative changes. (BMI: body mass index, BAD: baseline artery diameter, n: count, SD: standard deviation, FMD: flow-mediated dilation, 95 % CI: 95 % confidence interval)."
         },
         {
           "type": "paragraph",
@@ -324,7 +358,21 @@
       "blocks": [
         {
           "type": "paragraph",
-          "html": "The univariate analysis of ΔBF (Fig. 5, S9) was conducted on 308 subjects from 9 articles. The mean ΔBF for females was 546.4 %, and 530.3 % for males. The pooled total value of the mean ΔBF was 536.7 % (Fig. S9). There was a non-significant 40.8 % difference, indicating a tendency toward higher hyperemia in females (Fig. 6).Fig. 5<strong>Forest plot of the mean difference in ΔBF between sexes.</strong> Vertical lines represent the pooled point estimate across sexes, horizontal lines represent the 95 % CI, and squares represent the weight for each study. Diamond represents the pooled mean difference in ΔBF between sexes. (BMI: body mass index, BAD: baseline artery diameter, n: count, SD: standard deviation, ΔBF: relative change in blood flow on the brachial artery, 95 % CI: 95 % confidence interval).Fig 5Fig. 6<strong>Forest plot of the mean difference in WSR between sexes.</strong> Vertical lines represent the point estimate, horizontal lines represent the 95 % CI, and squares represent the weight for each study. Diamond represents the pooled mean difference in WSR between sexes. (BMI: body mass index, BAD: baseline artery diameter, n: count, SD: standard deviation, WSR AUC: wall shear rate area under the curve, 95 % CI: 95 % confidence interval).Fig 6"
+          "html": "The univariate analysis of ΔBF (Fig. 5, S9) was conducted on 308 subjects from 9 articles. The mean ΔBF for females was 546.4 %, and 530.3 % for males. The pooled total value of the mean ΔBF was 536.7 % (Fig. S9). There was a non-significant 40.8 % difference, indicating a tendency toward higher hyperemia in females (Fig. 6)."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 5",
+          "caption": "<strong>Forest plot of the mean difference in ΔBF between sexes.</strong> Vertical lines represent the pooled point estimate across sexes, horizontal lines represent the 95 % CI, and squares represent the weight for each study. Diamond represents the pooled mean difference in ΔBF between sexes. (BMI: body mass index, BAD: baseline artery diameter, n: count, SD: standard deviation, ΔBF: relative change in blood flow on the brachial artery, 95 % CI: 95 % confidence interval).",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12621484/bin/gr5.jpg",
+          "alt": "Fig. 5 Forest plot of the mean difference in ΔBF between sexes. Vertical lines represent the pooled point estimate across sexes, horizontal lines represent the 95 % CI, and squares represent the weight for each study. Diamond represents the pooled mean difference in ΔBF between sexes. (BMI: body mass index, BAD: baseline artery diameter, n: count, SD: standard deviation, ΔBF: relative change in blood flow on the brachial artery, 95 % CI: 95 % confidence interval)."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 6",
+          "caption": "<strong>Forest plot of the mean difference in WSR between sexes.</strong> Vertical lines represent the point estimate, horizontal lines represent the 95 % CI, and squares represent the weight for each study. Diamond represents the pooled mean difference in WSR between sexes. (BMI: body mass index, BAD: baseline artery diameter, n: count, SD: standard deviation, WSR AUC: wall shear rate area under the curve, 95 % CI: 95 % confidence interval).",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12621484/bin/gr6.jpg",
+          "alt": "Fig. 6 Forest plot of the mean difference in WSR between sexes. Vertical lines represent the point estimate, horizontal lines represent the 95 % CI, and squares represent the weight for each study. Diamond represents the pooled mean difference in WSR between sexes. (BMI: body mass index, BAD: baseline artery diameter, n: count, SD: standard deviation, WSR AUC: wall shear rate area under the curve, 95 % CI: 95 % confidence interval)."
         },
         {
           "type": "paragraph",
@@ -338,7 +386,14 @@
       "blocks": [
         {
           "type": "paragraph",
-          "html": "The univariate analysis of WSR (Fig. 6, S13) was conducted on 853 subjects from 13 studies. The total mean WSR was 37,093 for females and 28,956 for males. The pooled total mean WSR was 33,079 (Fig. S13). The mean WSR was significantly lower in males compared to females, with a difference of 3421 units (Fig. 7).Fig. 7<strong>Forest plot of the mean difference in TTP between sexes.</strong> Vertical lines represent the point estimate, horizontal lines represent the 95 % CI, and squares represent the weight for each study. Diamond represents the pooled mean difference in TTP between sexes. (BMI: body mass index, BAD: baseline artery diameter, n: count, SD: standard deviation, TTP: time-to-peak, 95 % CI: 95 % confidence interval).Fig 7"
+          "html": "The univariate analysis of WSR (Fig. 6, S13) was conducted on 853 subjects from 13 studies. The total mean WSR was 37,093 for females and 28,956 for males. The pooled total mean WSR was 33,079 (Fig. S13). The mean WSR was significantly lower in males compared to females, with a difference of 3421 units (Fig. 7)."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 7",
+          "caption": "<strong>Forest plot of the mean difference in TTP between sexes.</strong> Vertical lines represent the point estimate, horizontal lines represent the 95 % CI, and squares represent the weight for each study. Diamond represents the pooled mean difference in TTP between sexes. (BMI: body mass index, BAD: baseline artery diameter, n: count, SD: standard deviation, TTP: time-to-peak, 95 % CI: 95 % confidence interval).",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12621484/bin/gr7.jpg",
+          "alt": "Fig. 7 Forest plot of the mean difference in TTP between sexes. Vertical lines represent the point estimate, horizontal lines represent the 95 % CI, and squares represent the weight for each study. Diamond represents the pooled mean difference in TTP between sexes. (BMI: body mass index, BAD: baseline artery diameter, n: count, SD: standard deviation, TTP: time-to-peak, 95 % CI: 95 % confidence interval)."
         },
         {
           "type": "paragraph",
@@ -352,7 +407,14 @@
       "blocks": [
         {
           "type": "paragraph",
-          "html": "The univariate analysis of TTP (Fig. 7, S17) was conducted on 725 subjects from 9 articles. The mean TTP for females was 48.1 s and 54.9 s for males. The total mean TTP was 50.9 s (Fig. S17). There was a significant 6.2-second difference between sexes, meaning males needed, on average, 6.2 more seconds to reach peak dilation (Fig. 8).Fig. 8<strong>Forest plot of the mean difference in microΔBF between sexes.</strong> Vertical lines represent the point estimate, horizontal lines represent the 95 % CI, and squares represent the weight for each study. Diamond represents the pooled mean difference in microΔBF. (BMI: body mass index, n: count, SD: standard deviation, microΔBF: relative change in blood flow in microcirculation, 95 % CI: 95 % confidence interval).Fig 8"
+          "html": "The univariate analysis of TTP (Fig. 7, S17) was conducted on 725 subjects from 9 articles. The mean TTP for females was 48.1 s and 54.9 s for males. The total mean TTP was 50.9 s (Fig. S17). There was a significant 6.2-second difference between sexes, meaning males needed, on average, 6.2 more seconds to reach peak dilation (Fig. 8)."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 8",
+          "caption": "<strong>Forest plot of the mean difference in microΔBF between sexes.</strong> Vertical lines represent the point estimate, horizontal lines represent the 95 % CI, and squares represent the weight for each study. Diamond represents the pooled mean difference in microΔBF. (BMI: body mass index, n: count, SD: standard deviation, microΔBF: relative change in blood flow in microcirculation, 95 % CI: 95 % confidence interval).",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12621484/bin/gr8.jpg",
+          "alt": "Fig. 8 Forest plot of the mean difference in microΔBF between sexes. Vertical lines represent the point estimate, horizontal lines represent the 95 % CI, and squares represent the weight for each study. Diamond represents the pooled mean difference in microΔBF. (BMI: body mass index, n: count, SD: standard deviation, microΔBF: relative change in blood flow in microcirculation, 95 % CI: 95 % confidence interval)."
         },
         {
           "type": "paragraph",

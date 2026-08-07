@@ -112,11 +112,23 @@
       "blocks": [
         {
           "type": "paragraph",
-          "html": "The analytic cohort included 4066,153 patients. RA was the most prevalent rheumatologic condition (1.4 million patients), with additional rheumatologic conditions, and relevant clinical and demographic characteristics listed (Table 1). The average social vulnerability index was near the projected US median of 50% across all diagnoses, reflecting relative vulnerability to geographic and socioeconomic obstacles. A score of 0 reflects the least amount of vulnerability while 100% is the most vulnerable.Table 1Demographic characteristics of analytic cohort, by rheumatologic diagnosis.Table 1 dummy alt textRheumatologic DiagnosisFemale (%)Age &lt;40 at Time of Enrollment in COSMOS (%)Self-Reported Race = White (%)Current Tobacco Use (%)Average Social Vulnerability Index* (%)Rheumatoid Arthritis (n = 1376,104)75.9%9.9%71.3%13.2%47.0%Psoriasis (n = 1304,624)55.5%27.0%74.2%15.4%43.0%Psoriatic Arthritis (n = 373,681)59.6%17.3%80.8%13.0%42.0%Systemic Lupus Erythematosus (n = 369,014)89.3%29.4%59.2%12.4%50.0%Sjögren’s Syndrome (n = 259,128)91.5%14.9%72.2%7.1%43.0%Sarcoidosis (n = 257,563)58.3%10.7%55.6%9.2%47.0%Polymyalgia Rheumatica (n = 249,671)60.4%1.1%82.9%6.3%39.0%Ankylosing Spondylitis (n = 160,997)49.6%26.2%77.1%12.6%42.0%Antiphospholipid Syndrome (n = 137,279)72.8%32.0%72.2%12.3%44.0%Scleroderma (n = 94,536)85.9%13.0%72.2%8.9%44.0%Giant Cell Arteritis (n = 93,117)69.4%2.1%75.4%9.2%44.0%Total (All Diagnoses) (n = 4066,153)67.3%18.0%72.5%12.7%45.0%*The Social Vulnerability Index (SVI) overall estimated percentage for the patient&#x27;s most recent census tract of residence, compared to the US. This value is derived from census tract data provided by the US Centers for Disease Control and Prevention (CDC). For SVI, 100 represents the most vulnerable and 0 represents the least."
+          "html": "The analytic cohort included 4066,153 patients. RA was the most prevalent rheumatologic condition (1.4 million patients), with additional rheumatologic conditions, and relevant clinical and demographic characteristics listed (Table 1). The average social vulnerability index was near the projected US median of 50% across all diagnoses, reflecting relative vulnerability to geographic and socioeconomic obstacles. A score of 0 reflects the least amount of vulnerability while 100% is the most vulnerable."
+        },
+        {
+          "type": "table",
+          "label": "Table 1",
+          "caption": "Demographic characteristics of analytic cohort, by rheumatologic diagnosis.",
+          "html": "<table><tr><th colspan=\"1\" rowspan=\"1\">Rheumatologic Diagnosis</th><th colspan=\"1\" rowspan=\"1\">Female (%)</th><th colspan=\"1\" rowspan=\"1\">Age &lt;40 at Time of Enrollment in COSMOS (%)</th><th colspan=\"1\" rowspan=\"1\">Self-Reported Race = White (%)</th><th colspan=\"1\" rowspan=\"1\">Current Tobacco Use (%)</th><th colspan=\"1\" rowspan=\"1\">Average Social Vulnerability Index* (%)</th></tr><tr><td colspan=\"1\" rowspan=\"1\">Rheumatoid Arthritis (n = 1376,104)</td><td colspan=\"1\" rowspan=\"1\">75.9%</td><td colspan=\"1\" rowspan=\"1\">9.9%</td><td colspan=\"1\" rowspan=\"1\">71.3%</td><td colspan=\"1\" rowspan=\"1\">13.2%</td><td colspan=\"1\" rowspan=\"1\">47.0%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Psoriasis (n = 1304,624)</td><td colspan=\"1\" rowspan=\"1\">55.5%</td><td colspan=\"1\" rowspan=\"1\">27.0%</td><td colspan=\"1\" rowspan=\"1\">74.2%</td><td colspan=\"1\" rowspan=\"1\">15.4%</td><td colspan=\"1\" rowspan=\"1\">43.0%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Psoriatic Arthritis (n = 373,681)</td><td colspan=\"1\" rowspan=\"1\">59.6%</td><td colspan=\"1\" rowspan=\"1\">17.3%</td><td colspan=\"1\" rowspan=\"1\">80.8%</td><td colspan=\"1\" rowspan=\"1\">13.0%</td><td colspan=\"1\" rowspan=\"1\">42.0%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Systemic Lupus Erythematosus (n = 369,014)</td><td colspan=\"1\" rowspan=\"1\">89.3%</td><td colspan=\"1\" rowspan=\"1\">29.4%</td><td colspan=\"1\" rowspan=\"1\">59.2%</td><td colspan=\"1\" rowspan=\"1\">12.4%</td><td colspan=\"1\" rowspan=\"1\">50.0%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Sjögren’s Syndrome (n = 259,128)</td><td colspan=\"1\" rowspan=\"1\">91.5%</td><td colspan=\"1\" rowspan=\"1\">14.9%</td><td colspan=\"1\" rowspan=\"1\">72.2%</td><td colspan=\"1\" rowspan=\"1\">7.1%</td><td colspan=\"1\" rowspan=\"1\">43.0%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Sarcoidosis (n = 257,563)</td><td colspan=\"1\" rowspan=\"1\">58.3%</td><td colspan=\"1\" rowspan=\"1\">10.7%</td><td colspan=\"1\" rowspan=\"1\">55.6%</td><td colspan=\"1\" rowspan=\"1\">9.2%</td><td colspan=\"1\" rowspan=\"1\">47.0%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Polymyalgia Rheumatica (n = 249,671)</td><td colspan=\"1\" rowspan=\"1\">60.4%</td><td colspan=\"1\" rowspan=\"1\">1.1%</td><td colspan=\"1\" rowspan=\"1\">82.9%</td><td colspan=\"1\" rowspan=\"1\">6.3%</td><td colspan=\"1\" rowspan=\"1\">39.0%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Ankylosing Spondylitis (n = 160,997)</td><td colspan=\"1\" rowspan=\"1\">49.6%</td><td colspan=\"1\" rowspan=\"1\">26.2%</td><td colspan=\"1\" rowspan=\"1\">77.1%</td><td colspan=\"1\" rowspan=\"1\">12.6%</td><td colspan=\"1\" rowspan=\"1\">42.0%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Antiphospholipid Syndrome (n = 137,279)</td><td colspan=\"1\" rowspan=\"1\">72.8%</td><td colspan=\"1\" rowspan=\"1\">32.0%</td><td colspan=\"1\" rowspan=\"1\">72.2%</td><td colspan=\"1\" rowspan=\"1\">12.3%</td><td colspan=\"1\" rowspan=\"1\">44.0%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Scleroderma (n = 94,536)</td><td colspan=\"1\" rowspan=\"1\">85.9%</td><td colspan=\"1\" rowspan=\"1\">13.0%</td><td colspan=\"1\" rowspan=\"1\">72.2%</td><td colspan=\"1\" rowspan=\"1\">8.9%</td><td colspan=\"1\" rowspan=\"1\">44.0%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Giant Cell Arteritis (n = 93,117)</td><td colspan=\"1\" rowspan=\"1\">69.4%</td><td colspan=\"1\" rowspan=\"1\">2.1%</td><td colspan=\"1\" rowspan=\"1\">75.4%</td><td colspan=\"1\" rowspan=\"1\">9.2%</td><td colspan=\"1\" rowspan=\"1\">44.0%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Total (All Diagnoses) (n = 4066,153)</td><td colspan=\"1\" rowspan=\"1\">67.3%</td><td colspan=\"1\" rowspan=\"1\">18.0%</td><td colspan=\"1\" rowspan=\"1\">72.5%</td><td colspan=\"1\" rowspan=\"1\">12.7%</td><td colspan=\"1\" rowspan=\"1\">45.0%</td></tr></table>"
         },
         {
           "type": "paragraph",
-          "html": "Cardiometabolic comorbidities were highly prevalent (Table 2). 41.9% of patients had a Cardiology and 36.4% a Rheumatology encounter during the study period.Table 2Prevalence of cardiometabolic comorbidities by rheumatologic diagnosis.Table 2 dummy alt textRheumatologic DiagnosisHypertension (%)Hyperlipidemia (%)Diabetes Mellitus - (Type 1 or Type 2) (%)Rheumatoid Arthritis (n = 1376,104)56.0%53.1%20.6%Psoriasis (n = 1304,624)47.0%51.2%19.3%Psoriatic Arthritis (n = 373,681)51.0%52.9%20.9%Systemic Lupus Erythematosus (n = 369,014)50.6%40.1%15.5%Sjögren’s Syndrome (n = 259,128)48.2%49.0%14.1%Sarcoidosis (n = 257,563)57.4%53.2%25.8%Polymyalgia Rheumatica (n = 249,671)70.1%70.6%24.5%Ankylosing Spondylitis (n = 160,997)46.1%47.2%17.1%Antiphospholipid Syndrome (n = 137,279)51.0%46.8%18.2%Scleroderma (n = 94,536)48.5%45.9%12.7%Giant Cell Arteritis (n = 93,117)69.1%66.7%29.0%Total (All Diagnoses) (n = 4066,153)52.1%51.4%19.6%"
+          "html": "Cardiometabolic comorbidities were highly prevalent (Table 2). 41.9% of patients had a Cardiology and 36.4% a Rheumatology encounter during the study period."
+        },
+        {
+          "type": "table",
+          "label": "Table 2",
+          "caption": "Prevalence of cardiometabolic comorbidities by rheumatologic diagnosis.",
+          "html": "<table><tr><th colspan=\"1\" rowspan=\"1\">Rheumatologic Diagnosis</th><th colspan=\"1\" rowspan=\"1\">Hypertension (%)</th><th colspan=\"1\" rowspan=\"1\">Hyperlipidemia (%)</th><th colspan=\"1\" rowspan=\"1\">Diabetes Mellitus - (Type 1 or Type 2) (%)</th></tr><tr><td colspan=\"1\" rowspan=\"1\">Rheumatoid Arthritis (n = 1376,104)</td><td colspan=\"1\" rowspan=\"1\">56.0%</td><td colspan=\"1\" rowspan=\"1\">53.1%</td><td colspan=\"1\" rowspan=\"1\">20.6%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Psoriasis (n = 1304,624)</td><td colspan=\"1\" rowspan=\"1\">47.0%</td><td colspan=\"1\" rowspan=\"1\">51.2%</td><td colspan=\"1\" rowspan=\"1\">19.3%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Psoriatic Arthritis (n = 373,681)</td><td colspan=\"1\" rowspan=\"1\">51.0%</td><td colspan=\"1\" rowspan=\"1\">52.9%</td><td colspan=\"1\" rowspan=\"1\">20.9%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Systemic Lupus Erythematosus (n = 369,014)</td><td colspan=\"1\" rowspan=\"1\">50.6%</td><td colspan=\"1\" rowspan=\"1\">40.1%</td><td colspan=\"1\" rowspan=\"1\">15.5%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Sjögren’s Syndrome (n = 259,128)</td><td colspan=\"1\" rowspan=\"1\">48.2%</td><td colspan=\"1\" rowspan=\"1\">49.0%</td><td colspan=\"1\" rowspan=\"1\">14.1%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Sarcoidosis (n = 257,563)</td><td colspan=\"1\" rowspan=\"1\">57.4%</td><td colspan=\"1\" rowspan=\"1\">53.2%</td><td colspan=\"1\" rowspan=\"1\">25.8%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Polymyalgia Rheumatica (n = 249,671)</td><td colspan=\"1\" rowspan=\"1\">70.1%</td><td colspan=\"1\" rowspan=\"1\">70.6%</td><td colspan=\"1\" rowspan=\"1\">24.5%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Ankylosing Spondylitis (n = 160,997)</td><td colspan=\"1\" rowspan=\"1\">46.1%</td><td colspan=\"1\" rowspan=\"1\">47.2%</td><td colspan=\"1\" rowspan=\"1\">17.1%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Antiphospholipid Syndrome (n = 137,279)</td><td colspan=\"1\" rowspan=\"1\">51.0%</td><td colspan=\"1\" rowspan=\"1\">46.8%</td><td colspan=\"1\" rowspan=\"1\">18.2%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Scleroderma (n = 94,536)</td><td colspan=\"1\" rowspan=\"1\">48.5%</td><td colspan=\"1\" rowspan=\"1\">45.9%</td><td colspan=\"1\" rowspan=\"1\">12.7%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Giant Cell Arteritis (n = 93,117)</td><td colspan=\"1\" rowspan=\"1\">69.1%</td><td colspan=\"1\" rowspan=\"1\">66.7%</td><td colspan=\"1\" rowspan=\"1\">29.0%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Total (All Diagnoses) (n = 4066,153)</td><td colspan=\"1\" rowspan=\"1\">52.1%</td><td colspan=\"1\" rowspan=\"1\">51.4%</td><td colspan=\"1\" rowspan=\"1\">19.6%</td></tr></table>"
         },
         {
           "type": "paragraph",
@@ -124,23 +136,86 @@
         },
         {
           "type": "paragraph",
-          "html": "For ASCVD risk analysis, 1.4 million patients were excluded given age &lt;40 or &gt;75 years or prior MACE. Of the remaining 2.7 million patients across all diagnoses, 43.0% of patients had a 10-year ASCVD risk &lt;7.5%. 47.5% of patients met criteria for elevated ASCVD risk (≥7.5%). Average ASCVD 10-year risk scores varied across rheumatologic diagnoses, ranging from 8.2% (SLE) to 18.4% (PMR) (Fig. 1).Fig. 1Average 10-year ASCVD Risk score, stratified by diagnosis. Major adverse cardiac events (MACE) and Age &lt;40 or &gt;75 excluded. MACE was defined as myocardial infarction or cerebrovascular disease (TIA/stroke).Fig 1 dummy alt text"
+          "html": "For ASCVD risk analysis, 1.4 million patients were excluded given age &lt;40 or &gt;75 years or prior MACE. Of the remaining 2.7 million patients across all diagnoses, 43.0% of patients had a 10-year ASCVD risk &lt;7.5%. 47.5% of patients met criteria for elevated ASCVD risk (≥7.5%). Average ASCVD 10-year risk scores varied across rheumatologic diagnoses, ranging from 8.2% (SLE) to 18.4% (PMR) (Fig. 1)."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 1",
+          "caption": "Average 10-year ASCVD Risk score, stratified by diagnosis. Major adverse cardiac events (MACE) and Age &lt;40 or &gt;75 excluded. MACE was defined as myocardial infarction or cerebrovascular disease (TIA/stroke).",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13326079/bin/gr1.jpg",
+          "alt": "Fig. 1 Average 10-year ASCVD Risk score, stratified by diagnosis. Major adverse cardiac events (MACE) and Age <40 or >75 excluded. MACE was defined as myocardial infarction or cerebrovascular disease (TIA/stroke)."
         },
         {
           "type": "paragraph",
-          "html": "Lipid-lowering prescription rates improved with higher ASCVD risk strata yet remained suboptimal. 22.7% of patients with dyslipidemia were not on lipid-lowering therapy. Among those with ASCVD risk 7.5–20%, 28.5% were not on lipid-lowering therapy. For ASCVD risk &gt;20%, 19.4% were not on lipid-lowering therapy. Lipid lowering prescription patterns are outlined (Fig. 2).Fig. 2Lipid-lowering prescription patterns in primary prevention patients, stratified by ASCVD 10-year risk score and rheumatologic diagnosis.Fig 2 dummy alt text"
+          "html": "Lipid-lowering prescription rates improved with higher ASCVD risk strata yet remained suboptimal. 22.7% of patients with dyslipidemia were not on lipid-lowering therapy. Among those with ASCVD risk 7.5–20%, 28.5% were not on lipid-lowering therapy. For ASCVD risk &gt;20%, 19.4% were not on lipid-lowering therapy. Lipid lowering prescription patterns are outlined (Fig. 2)."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 2",
+          "caption": "Lipid-lowering prescription patterns in primary prevention patients, stratified by ASCVD 10-year risk score and rheumatologic diagnosis.",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13326079/bin/gr2.jpg",
+          "alt": "Fig. 2 Lipid-lowering prescription patterns in primary prevention patients, stratified by ASCVD 10-year risk score and rheumatologic diagnosis."
         },
         {
           "type": "paragraph",
-          "html": "When stratified by diabetes status, lower prescription rates of lipid-lowering therapy were noted in patients with and without diabetes under the age of 40 (Fig. 3). Further, the percentage of patients with a documented LDL-C &lt; 70 mg/dL in the group with ASCVD 10-year risk &gt;20% was only 43.5% of patients with diabetes over age 40 (Fig. 4). When considering a more lenient LDL-C goal of &lt;100mg/dL, only 47.1% of patients without diabetes and ASCVD 10-year risk 7.5–20% achieved this at any time during the study period (Fig. 5 and Fig. 6).Fig. 3Lipid-lowering prescription patterns stratified by diabetes status and ASCVD 10-year risk score. All ages and MACE status included.Fig 3 dummy alt textFig. 4Percentage of patients achieving optimal serum LDL-C levels, by ASCVD 10-year risk score and diabetes status. All ages and MACE status included.Fig 4 dummy alt textFig. 5Percentage of primary prevention patients without diabetes achieving LDL-C levels &lt;100mg/dL at any time during the study period, by ASCVD 10-year risk score. Major adverse cardiac events (MACE) and Age &lt;40 or &gt;75 excluded. MACE was defined as myocardial infarction or cerebrovascular disease.Fig 5 dummy alt textFig. 6Percentage of primary prevention patients with diabetes achieving LDL-C levels &lt;100mg/dL at any time during the study period, by ASCVD 10-year risk score. Major adverse cardiac events (MACE) and Age &lt;40 or &gt;75 excluded. MACE was defined as myocardial infarction or cerebrovascular disease.Fig 6 dummy alt text"
+          "html": "When stratified by diabetes status, lower prescription rates of lipid-lowering therapy were noted in patients with and without diabetes under the age of 40 (Fig. 3). Further, the percentage of patients with a documented LDL-C &lt; 70 mg/dL in the group with ASCVD 10-year risk &gt;20% was only 43.5% of patients with diabetes over age 40 (Fig. 4). When considering a more lenient LDL-C goal of &lt;100mg/dL, only 47.1% of patients without diabetes and ASCVD 10-year risk 7.5–20% achieved this at any time during the study period (Fig. 5 and Fig. 6)."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 3",
+          "caption": "Lipid-lowering prescription patterns stratified by diabetes status and ASCVD 10-year risk score. All ages and MACE status included.",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13326079/bin/gr3.jpg",
+          "alt": "Fig. 3 Lipid-lowering prescription patterns stratified by diabetes status and ASCVD 10-year risk score. All ages and MACE status included."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 4",
+          "caption": "Percentage of patients achieving optimal serum LDL-C levels, by ASCVD 10-year risk score and diabetes status. All ages and MACE status included.",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13326079/bin/gr4.jpg",
+          "alt": "Fig. 4 Percentage of patients achieving optimal serum LDL-C levels, by ASCVD 10-year risk score and diabetes status. All ages and MACE status included."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 5",
+          "caption": "Percentage of primary prevention patients without diabetes achieving LDL-C levels &lt;100mg/dL at any time during the study period, by ASCVD 10-year risk score. Major adverse cardiac events (MACE) and Age &lt;40 or &gt;75 excluded. MACE was defined as myocardial infarction or cerebrovascular disease.",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13326079/bin/gr5.jpg",
+          "alt": "Fig. 5 Percentage of primary prevention patients without diabetes achieving LDL-C levels <100mg/dL at any time during the study period, by ASCVD 10-year risk score. Major adverse cardiac events (MACE) and Age <40 or >75 excluded. MACE was defined as myocardial infarction or cerebrovascular disease."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 6",
+          "caption": "Percentage of primary prevention patients with diabetes achieving LDL-C levels &lt;100mg/dL at any time during the study period, by ASCVD 10-year risk score. Major adverse cardiac events (MACE) and Age &lt;40 or &gt;75 excluded. MACE was defined as myocardial infarction or cerebrovascular disease.",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13326079/bin/gr6.jpg",
+          "alt": "Fig. 6 Percentage of primary prevention patients with diabetes achieving LDL-C levels <100mg/dL at any time during the study period, by ASCVD 10-year risk score. Major adverse cardiac events (MACE) and Age <40 or >75 excluded. MACE was defined as myocardial infarction or cerebrovascular disease."
         },
         {
           "type": "paragraph",
-          "html": "Myalgias were commonly documented across all ASCVD risk strata and rheumatologic diagnoses (Figs. 7&amp; 8). However, severe muscle-related events were rare (incidence of rhabdomyolysis or a specifically coded adverse reaction to lipid-lowering agent was low across all risk categories, with highest prevalence observed in the ASCVD risk &gt;20% group [1.44%]). Although the dataset did not permit differentiation between inflammatory disease–related musculoskeletal symptoms and statin-associated myalgias, &gt;80% within each ASCVD risk stratum had no documented myalgias, myopathy, rhabdomyolysis, or adverse lipid-lowering reaction during the study period.Fig. 7Prevalence of myalgias and intolerance to lipid-lowering therapy, stratified by ASCVD 10-year risk score and musculoskeletal diagnosis. Lipid-lowering intolerance included rhabdomyolysis, adverse effects of or poisoning related to lipid-lowering medication, and myopathy.Fig 7 dummy alt textFig. 8Prevalence of myalgias and intolerance to lipid-lowering therapy, stratified by ASCVD 10-year risk score. Lipid-lowering intolerance included rhabdomyolysis, adverse effects of or poisoning related to lipid-lowering medication, and myopathy.Fig 8 dummy alt text"
+          "html": "Myalgias were commonly documented across all ASCVD risk strata and rheumatologic diagnoses (Figs. 7&amp; 8). However, severe muscle-related events were rare (incidence of rhabdomyolysis or a specifically coded adverse reaction to lipid-lowering agent was low across all risk categories, with highest prevalence observed in the ASCVD risk &gt;20% group [1.44%]). Although the dataset did not permit differentiation between inflammatory disease–related musculoskeletal symptoms and statin-associated myalgias, &gt;80% within each ASCVD risk stratum had no documented myalgias, myopathy, rhabdomyolysis, or adverse lipid-lowering reaction during the study period."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 7",
+          "caption": "Prevalence of myalgias and intolerance to lipid-lowering therapy, stratified by ASCVD 10-year risk score and musculoskeletal diagnosis. Lipid-lowering intolerance included rhabdomyolysis, adverse effects of or poisoning related to lipid-lowering medication, and myopathy.",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13326079/bin/gr7.jpg",
+          "alt": "Fig. 7 Prevalence of myalgias and intolerance to lipid-lowering therapy, stratified by ASCVD 10-year risk score and musculoskeletal diagnosis. Lipid-lowering intolerance included rhabdomyolysis, adverse effects of or poisoning related to lipid-lowering medication, and myopathy."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 8",
+          "caption": "Prevalence of myalgias and intolerance to lipid-lowering therapy, stratified by ASCVD 10-year risk score. Lipid-lowering intolerance included rhabdomyolysis, adverse effects of or poisoning related to lipid-lowering medication, and myopathy.",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13326079/bin/gr8.jpg",
+          "alt": "Fig. 8 Prevalence of myalgias and intolerance to lipid-lowering therapy, stratified by ASCVD 10-year risk score. Lipid-lowering intolerance included rhabdomyolysis, adverse effects of or poisoning related to lipid-lowering medication, and myopathy."
         },
         {
           "type": "paragraph",
-          "html": "Cardiovascular events were prevalent in the study population, with 8.4% of patients having a diagnosis of myocardial infarction and 13.0% of patients carrying a diagnosis of cerebrovascular disease (Fig. 9).Fig. 9Percent of Cardio-Rheumatologic Cohort with MACE (major adverse cardiac events) defined as myocardial infarction or cerebrovascular disease.Fig 9 dummy alt text"
+          "html": "Cardiovascular events were prevalent in the study population, with 8.4% of patients having a diagnosis of myocardial infarction and 13.0% of patients carrying a diagnosis of cerebrovascular disease (Fig. 9)."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 9",
+          "caption": "Percent of Cardio-Rheumatologic Cohort with MACE (major adverse cardiac events) defined as myocardial infarction or cerebrovascular disease.",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13326079/bin/gr9.jpg",
+          "alt": "Fig. 9 Percent of Cardio-Rheumatologic Cohort with MACE (major adverse cardiac events) defined as myocardial infarction or cerebrovascular disease."
         }
       ]
     },
@@ -198,7 +273,14 @@
         },
         {
           "type": "paragraph",
-          "html": "Future studies should explore interventions that enhance provider awareness of CVD risk in autoimmune diseases, promote interdisciplinary collaboration between rheumatologists and cardiologists, and develop targeted prevention strategies tailored to the unique inflammatory burden in this population.<strong>Central Illustration</strong>.Unlabelled image dummy alt text"
+          "html": "Future studies should explore interventions that enhance provider awareness of CVD risk in autoimmune diseases, promote interdisciplinary collaboration between rheumatologists and cardiologists, and develop targeted prevention strategies tailored to the unique inflammatory burden in this population."
+        },
+        {
+          "type": "figure",
+          "label": "",
+          "caption": "<strong>Central Illustration</strong>.",
+          "src": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13326079/bin/gr10.jpg",
+          "alt": "Central Illustration."
         }
       ]
     },
