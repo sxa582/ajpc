@@ -94,5 +94,20 @@ class ParseSectionsTests(unittest.TestCase):
         self.assertIn("<table>", blocks[2]["html"])
 
 
+class PmcImageUrlTests(unittest.TestCase):
+    def test_extracts_current_cdn_url_by_filename(self):
+        page_html = (
+            '<img src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/de70/13330701/'
+            '7b2903ef7d87/gr4.jpg" />'
+        )
+
+        urls = import_pmc.extract_pmc_image_urls(page_html)
+
+        self.assertEqual(
+            urls["gr4.jpg"],
+            "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/de70/13330701/7b2903ef7d87/gr4.jpg",
+        )
+
+
 if __name__ == "__main__":
     unittest.main()

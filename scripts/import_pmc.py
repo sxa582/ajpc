@@ -472,26 +472,59 @@ def parse_article(xml_bytes: bytes, requested_pmcid: str) -> dict[str, Any]:
     }
 
 
+def extract_pmc_image_urls(page_html: str) -> dict[str, str]:
+    urls: dict[str, str] = {}
+    decoded = html.unescape(page_html)
+    for match in re.finditer(
+        r"https://cdn\.ncbi\.nlm\.nih\.gov/pmc/blobs/[^\"'<>\s]+",
+        decoded,
+        flags=re.I,
+    ):
+        url = match.group(0)
+        filename = Path(urllib.parse.urlparse(url).path).name
+        if filename:
+            urls.setdefault(filename, url)
+    return urls
+
+
 def download_assets(article: dict[str, Any], project_root: Path, email: str) -> int:
     target_dir = project_root / "assets" / "pmc" / article["pmcid"]
     target_dir.mkdir(parents=True, exist_ok=True)
     downloaded = 0
-    for section in article.get("sections", []):
-        for block in section.get("blocks", []):
-            if block.get("type") != "figure" or not block.get("src", "").startswith("https://"):
-                continue
-            source = block["src"]
-            filename = Path(urllib.parse.urlparse(source).path).name or f"figure-{downloaded + 1}.jpg"
-            filename = re.sub(r"[^A-Za-z0-9._-]", "_", filename)
-            destination = target_dir / filename
-            request = urllib.request.Request(source, headers={"User-Agent": f"AJPCNativeReader/1.0 ({email})"})
-            try:
-                with urllib.request.urlopen(request, timeout=45) as response:
-                    destination.write_bytes(response.read())
-                block["src"] = f"assets/pmc/{article['pmcid']}/{filename}"
-                downloaded += 1
-            except (urllib.error.URLError, urllib.error.HTTPError) as exc:
-                print(f"Warning: could not download {source}: {exc}", file=sys.stderr)
+    figures = [
+        block
+        for section in article.get("sections", [])
+        for block in section.get("blocks", [])
+        if block.get("type") == "figure" and block.get("src", "").startswith("https://")
+    ]
+    if not figures:
+        return 0
+
+    image_urls: dict[str, str] = {}
+    page_request = urllib.request.Request(
+        article["pmcUrl"],
+        headers={"User-Agent": f"AJPCNativeReader/1.0 ({email})"},
+    )
+    try:
+        with urllib.request.urlopen(page_request, timeout=45) as response:
+            image_urls = extract_pmc_image_urls(response.read().decode("utf-8", errors="replace"))
+    except (urllib.error.URLError, urllib.error.HTTPError) as exc:
+        print(f"Warning: could not resolve PMC image URLs for {article['pmcid']}: {exc}", file=sys.stderr)
+
+    for block in figures:
+        original_source = block["src"]
+        filename = Path(urllib.parse.urlparse(original_source).path).name or f"figure-{downloaded + 1}.jpg"
+        filename = re.sub(r"[^A-Za-z0-9._-]", "_", filename)
+        source = image_urls.get(filename, original_source)
+        destination = target_dir / filename
+        request = urllib.request.Request(source, headers={"User-Agent": f"AJPCNativeReader/1.0 ({email})"})
+        try:
+            with urllib.request.urlopen(request, timeout=45) as response:
+                destination.write_bytes(response.read())
+            block["src"] = f"assets/pmc/{article['pmcid']}/{filename}"
+            downloaded += 1
+        except (urllib.error.URLError, urllib.error.HTTPError) as exc:
+            print(f"Warning: could not download {source}: {exc}", file=sys.stderr)
     return downloaded
 
 
