@@ -775,7 +775,7 @@
   margin-bottom: 18px;
 }
 .article-body .abstract-box h2 { margin-top: 0; }
-.article-section { scroll-margin-top: 78px; margin: 0; }
+.article-section { scroll-margin-top: 78px; margin: 0; padding: 0; }
 .article-section + .article-section { margin-top: .7rem; }
 .article-section > :last-child { margin-bottom: 0; }
 .article-section h2 { margin: 0 0 8px; font: 700 1.3rem/1.22 var(--serif); letter-spacing: -.012em; }
