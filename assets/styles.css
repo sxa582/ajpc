@@ -731,13 +731,13 @@
 }
 .reader-tools button:hover,
 .reader-tools a:hover { border-color: var(--accent); color: var(--accent); }
-.article-hero { padding: 52px 0 42px; background: var(--soft-warm); border-bottom: 1px solid var(--line); }
+.article-hero { padding: 34px 0 28px; background: var(--soft-warm); border-bottom: 1px solid var(--line); }
 .article-type { color: var(--accent); font-size: .73rem; font-weight: 900; letter-spacing: .12em; text-transform: uppercase; }
 .article-hero h1 {
   max-width: 1040px;
-  margin: 11px 0 17px;
-  font: 700 clamp(1.9rem, 3.5vw, 3.25rem)/1.08 var(--serif);
-  letter-spacing: -.032em;
+  margin: 9px 0 14px;
+  font: 700 clamp(1.55rem, 2.5vw, 2.35rem)/1.14 var(--serif);
+  letter-spacing: -.022em;
 }
 .article-authors { max-width: 980px; font: 700 1rem/1.6 var(--serif); }
 .article-citation-row { margin-top: 18px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: .76rem; }
@@ -756,7 +756,7 @@
   grid-template-columns: 220px minmax(0, 760px) 230px;
   gap: 44px;
   align-items: start;
-  padding-top: 34px;
+  padding-top: 24px;
 }
 .reader-toc,
 .reader-aside { position: sticky; top: 72px; }
@@ -772,15 +772,15 @@
   background: var(--soft);
   border-top: 4px solid var(--ink);
   padding: 28px;
-  margin-bottom: 26px;
+  margin-bottom: 18px;
 }
 .article-body .abstract-box h2 { margin-top: 0; }
-.article-section { scroll-margin-top: 78px; margin: 0 0 24px; }
-.article-section h2 { margin: 0 0 12px; font: 700 1.55rem/1.18 var(--serif); letter-spacing: -.018em; }
-.article-section h3 { margin: 21px 0 8px; font: 700 1.2rem/1.25 var(--serif); }
+.article-section { scroll-margin-top: 78px; margin: 0 0 12px; }
+.article-section h2 { margin: 0 0 8px; font: 700 1.3rem/1.22 var(--serif); letter-spacing: -.012em; }
+.article-section h3 { margin: 16px 0 6px; font: 700 1.1rem/1.28 var(--serif); }
 .article-section p,
-.article-section li { font: 400 1rem/1.65 var(--serif); color: #303236; }
-.article-section p { margin: 0 0 13px; }
+.article-section li { font: 400 .98rem/1.55 var(--serif); color: #303236; }
+.article-section p { margin: 0 0 9px; }
 .article-section ul,
 .article-section ol { padding-left: 23px; }
 .article-figure { margin: 28px 0; border-top: 1px solid var(--line-dark); border-bottom: 1px solid var(--line-dark); padding: 18px 0; }
