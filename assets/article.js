@@ -115,7 +115,6 @@
             <span>${escapeHTML(article.pmcid || '')}</span>
           </div>
           <div class="article-license"><strong>${escapeHTML(article.license || 'CC BY 4.0')}.</strong> © ${escapeHTML(article.copyright || 'The Authors')}. This article may be shared and adapted with appropriate attribution. <a href="${escapeHTML(licenseURL)}" target="_blank" rel="noopener noreferrer"><u>View license</u></a>. The article has been reformatted for display on the AJPC website; scientific content is not intentionally altered.</div>
-          ${podcastCard}
           ${notice}
         </div>
       </section>
@@ -131,6 +130,7 @@
         </article>
         <aside class="reader-aside">
           <div class="aside-card"><h2>Article information</h2><p><strong>DOI</strong><br>${escapeHTML(article.doi || 'Not supplied')}</p><p><strong>PMCID</strong><br>${escapeHTML(article.pmcid || 'Not supplied')}</p><p><strong>License</strong><br>${escapeHTML(article.license || 'Open access')}</p></div>
+          ${podcastCard}
           <div class="aside-card"><h2>Keywords</h2><p>${(article.keywords || []).map(escapeHTML).join(' · ') || 'Not supplied'}</p></div>
           <div class="aside-card"><h2>Original source</h2><p>This reading page is generated from the article’s structured PMC/JATS record. Use the source links for provenance and version checking.</p><p><a id="pmcSource" class="text-link" href="${escapeHTML(article.pmcUrl || '#')}" target="_blank" rel="noopener noreferrer">View PMC record →</a></p></div>
         </aside>
