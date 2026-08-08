@@ -27,6 +27,27 @@
   }
 
   let articleIndex = [];
+  let podcastIndex = {};
+
+  const podcastId = (article, context) => `${context}-podcast-${String(article.pmcid || article.doi || article.title).replace(/[^a-z0-9_-]/gi, '-')}`;
+  const podcastButton = (article, context) => {
+    const podcast = podcastIndex[article.pmcid];
+    if (!podcast) return '';
+    const playerId = podcastId(article, context);
+    return `<button class="podcast-trigger" type="button" data-podcast-target="${escapeHTML(playerId)}" aria-expanded="false" aria-controls="${escapeHTML(playerId)}" aria-label="Play ${escapeHTML(podcast.title || 'AJPC Briefing')}" title="Listen to ${escapeHTML(podcast.title || 'AJPC Briefing')}">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12a7 7 0 0 1 14 0v5a2 2 0 0 1-2 2h-2v-6h3v-1a6 6 0 0 0-12 0v1h3v6H7a2 2 0 0 1-2-2v-5Z"/></svg>
+    </button>`;
+  };
+  const podcastPlayer = (article, context) => {
+    const podcast = podcastIndex[article.pmcid];
+    if (!podcast) return '';
+    const playerId = podcastId(article, context);
+    return `<div class="podcast-player" id="${escapeHTML(playerId)}" hidden>
+      <div class="podcast-player-label"><strong>${escapeHTML(podcast.title || 'AJPC Briefing')}</strong><span>${escapeHTML(podcast.duration || '')}</span></div>
+      <audio controls preload="none" src="${escapeHTML(podcast.audio)}">Your browser does not support audio playback.</audio>
+      <a href="${escapeHTML(podcast.audio)}" download>Download MP3</a>
+    </div>`;
+  };
 
   function renderFeatured(article) {
     const featured = document.getElementById('featuredArticle');
@@ -70,7 +91,7 @@
           const panelId = abstractId(article, 'issue');
           return `
           <article class="theme-paper">
-            <h4 class="paper-title"><button class="article-title-toggle" type="button" data-abstract-target="${escapeHTML(panelId)}" aria-expanded="false" aria-controls="${escapeHTML(panelId)}">${escapeHTML(article.title)}</button></h4>
+            <div class="paper-title-row"><h4 class="paper-title"><button class="article-title-toggle" type="button" data-abstract-target="${escapeHTML(panelId)}" aria-expanded="false" aria-controls="${escapeHTML(panelId)}">${escapeHTML(article.title)}</button></h4>${podcastButton(article, 'issue')}</div>
             <div class="paper-byline"><strong>${escapeHTML(article.authorsShort || '')}</strong>${escapeHTML(dateLabel(article.published))}</div>
             <span class="paper-arrow" aria-hidden="true">+</span>
             <div class="abstract-preview paper-abstract" id="${escapeHTML(panelId)}" hidden>
@@ -78,6 +99,7 @@
               <p>${escapeHTML(abstractText(article))}</p>
               <a class="library-link" href="${articleURL(article)}">Open full text on AJPC →</a>
             </div>
+            ${podcastPlayer(article, 'issue')}
           </article>`;
         }).join('')}</div>
       </section>`;
@@ -101,7 +123,7 @@
       return `
       <article class="library-card">
         <div class="kicker">${escapeHTML(article.theme || article.articleType || 'Article')}</div>
-        <h3><button class="article-title-toggle" type="button" data-abstract-target="${escapeHTML(panelId)}" aria-expanded="false" aria-controls="${escapeHTML(panelId)}">${escapeHTML(article.title)}</button></h3>
+        <div class="library-title-row"><h3><button class="article-title-toggle" type="button" data-abstract-target="${escapeHTML(panelId)}" aria-expanded="false" aria-controls="${escapeHTML(panelId)}">${escapeHTML(article.title)}</button></h3>${podcastButton(article, 'library')}</div>
         <div class="library-meta">${escapeHTML(article.authorsShort || '')}<br>${escapeHTML(dateLabel(article.published))} · ${escapeHTML(article.license || 'Open access')}</div>
         <div class="abstract-preview library-abstract" id="${escapeHTML(panelId)}" hidden>
           <div class="kicker">Abstract</div>
@@ -111,11 +133,23 @@
           <button class="abstract-toggle-link" type="button" data-abstract-target="${escapeHTML(panelId)}" aria-expanded="false" aria-controls="${escapeHTML(panelId)}">Show abstract</button>
           <a class="library-link" href="${articleURL(article)}">Open full text on AJPC →</a>
         </div>
+        ${podcastPlayer(article, 'library')}
       </article>`;
     }).join('') : '<div class="empty-state">No articles match this search.</div>';
   }
 
   document.addEventListener('click', event => {
+    const podcastToggle = event.target.closest('[data-podcast-target]');
+    if (podcastToggle) {
+      const player = document.getElementById(podcastToggle.dataset.podcastTarget || '');
+      if (!player) return;
+      const expanded = player.hidden;
+      player.hidden = !expanded;
+      podcastToggle.setAttribute('aria-expanded', String(expanded));
+      podcastToggle.classList.toggle('playing', expanded);
+      if (!expanded) player.querySelector('audio')?.pause();
+      return;
+    }
     const toggle = event.target.closest('[data-abstract-target]');
     if (!toggle) return;
     const panelId = toggle.dataset.abstractTarget;
@@ -162,12 +196,15 @@
     document.getElementById('library')?.scrollIntoView({ behavior: 'smooth' });
   });
 
-  fetch('data/articles.json', { cache: 'no-store' })
-    .then(response => {
+  Promise.all([
+    fetch('data/articles.json', { cache: 'no-store' }).then(response => {
       if (!response.ok) throw new Error(`Article index returned ${response.status}`);
       return response.json();
-    })
-    .then(data => {
+    }),
+    fetch('data/podcasts.json', { cache: 'no-store' }).then(response => response.ok ? response.json() : {}).catch(() => ({}))
+  ])
+    .then(([data, podcasts]) => {
+      podcastIndex = podcasts || {};
       articleIndex = Array.isArray(data.articles) ? data.articles : [];
       renderFeatured(articleIndex.find(a => a.featured) || articleIndex[0]);
       renderCurrentIssue(data);

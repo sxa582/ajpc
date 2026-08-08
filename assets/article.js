@@ -82,7 +82,7 @@
     return `${authors}. ${article.title}. ${journalBits}. doi:${article.doi || ''}`.replace(/\s+/g, ' ').trim();
   }
 
-  function render(article) {
+  function render(article, podcast) {
     document.title = `${article.title} | AJPC`;
     const sections = Array.isArray(article.sections) ? article.sections : [];
     const toc = [
@@ -95,6 +95,12 @@
     const notice = article.notice ? `<div class="article-license" style="border-left-color:var(--accent);background:#fff1f4;color:#6f2232"><strong>Prototype note:</strong> ${escapeHTML(article.notice)}</div>` : '';
     const licenseURL = article.licenseUrl || 'https://creativecommons.org/licenses/by/4.0/';
     const authors = (article.authors || []).map(author => escapeHTML(author.display || [author.given, author.surname].filter(Boolean).join(' '))).join(', ');
+    const podcastCard = podcast ? `<div class="article-podcast-card">
+      <div class="article-podcast-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12a7 7 0 0 1 14 0v5a2 2 0 0 1-2 2h-2v-6h3v-1a6 6 0 0 0-12 0v1h3v6H7a2 2 0 0 1-2-2v-5Z"/></svg></div>
+      <div class="article-podcast-copy"><strong>${escapeHTML(podcast.title || 'AJPC Briefing')}</strong><span>${escapeHTML(podcast.description || 'Listen to a concise audio briefing for this article.')} ${escapeHTML(podcast.duration || '')}</span></div>
+      <audio controls preload="metadata" src="${escapeHTML(podcast.audio)}">Your browser does not support audio playback.</audio>
+      <a href="${escapeHTML(podcast.audio)}" download>Download MP3</a>
+    </div>` : '';
 
     root.innerHTML = `
       <section class="article-hero">
@@ -109,6 +115,7 @@
             <span>${escapeHTML(article.pmcid || '')}</span>
           </div>
           <div class="article-license"><strong>${escapeHTML(article.license || 'CC BY 4.0')}.</strong> © ${escapeHTML(article.copyright || 'The Authors')}. This article may be shared and adapted with appropriate attribution. <a href="${escapeHTML(licenseURL)}" target="_blank" rel="noopener noreferrer"><u>View license</u></a>. The article has been reformatted for display on the AJPC website; scientific content is not intentionally altered.</div>
+          ${podcastCard}
           ${notice}
         </div>
       </section>
@@ -162,12 +169,14 @@
     return;
   }
 
-  fetch(`data/articles/${encodeURIComponent(pmcid)}.json`, { cache: 'no-store' })
-    .then(response => {
+  Promise.all([
+    fetch(`data/articles/${encodeURIComponent(pmcid)}.json`, { cache: 'no-store' }).then(response => {
       if (!response.ok) throw new Error(`Article file returned ${response.status}`);
       return response.json();
-    })
-    .then(render)
+    }),
+    fetch('data/podcasts.json', { cache: 'no-store' }).then(response => response.ok ? response.json() : {}).catch(() => ({}))
+  ])
+    .then(([article, podcasts]) => render(article, podcasts[pmcid]))
     .catch(error => {
       console.error(error);
       root.innerHTML = `<div class="container loading-reader"><div class="error-reader"><strong>This article has not been imported yet.</strong><br>Run <code>python scripts/sync_ajpc.py</code> to retrieve eligible CC BY full text from PMC, then reload this page.</div></div>`;
