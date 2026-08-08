@@ -130,7 +130,8 @@
       padding: 16px 0 14px;
       border-bottom: 3px solid transparent;
     }
-    .nav-inner a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+    .nav-inner a:hover,
+    .nav-inner a[aria-current="page"] { color: var(--accent); border-bottom-color: var(--accent); }
     .menu-btn { display: none; }
     .search-panel {
       display: none;
@@ -580,6 +581,13 @@
       .brand-actions .btn { display: none; }
       .nav-inner { justify-content: flex-end; min-height: 44px; }
       .nav-inner a { display: none; }
+      .reader-primary-nav {
+        justify-content: flex-start;
+        gap: 24px;
+        overflow-x: auto;
+        scrollbar-width: thin;
+      }
+      .reader-primary-nav a { display: block; flex: 0 0 auto; }
       .menu-btn { display: grid; }
       main section { padding: 58px 0; }
       .section-heading { align-items: flex-start; flex-direction: column; gap: 10px; }
