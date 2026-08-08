@@ -84,6 +84,8 @@
       line-height: 1.55;
     }
     .volume-label strong { display: block; color: var(--ink); }
+    .header-society-logo { display: block; width: 145px; justify-self: start; }
+    .header-society-logo img { display: block; width: 100%; height: auto; }
     .brand {
       justify-self: center;
       width: min(100%, 720px);
@@ -594,7 +596,7 @@
     @media (max-width: 760px) {
       .container { width: min(calc(100% - 26px), var(--max)); }
       .brand-row { min-height: 92px; grid-template-columns: 1fr auto; }
-      .volume-label { display: none; }
+      .volume-label, .header-society-logo { display: none; }
       .brand { justify-self: start; }
       .brand-actions .btn { display: none; }
       .nav-inner { justify-content: flex-end; min-height: 44px; }
