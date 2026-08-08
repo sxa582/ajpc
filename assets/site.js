@@ -134,6 +134,7 @@
   function populateTopics() {
     const select = document.getElementById('topicFilter');
     if (!select) return;
+    select.value = '';
     const topics = [...new Set(articleIndex.map(a => a.theme).filter(Boolean))].sort();
     topics.forEach(topic => {
       const option = document.createElement('option');
@@ -141,6 +142,7 @@
       option.textContent = topic;
       select.appendChild(option);
     });
+    select.value = '';
   }
 
   document.getElementById('librarySearch')?.addEventListener('input', renderLibrary);
