@@ -224,8 +224,8 @@
     .lead-actions { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 25px; }
 
     .latest-section { background: var(--soft-warm); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-    .theme-groups { display: grid; gap: 26px; }
-    .theme-group { padding: 0; }
+    .theme-groups { display: grid; gap: 18px; }
+    .theme-section { padding: 0; }
     .theme-heading {
       display: flex;
       align-items: baseline;
