@@ -11,19 +11,26 @@
   function parseBoard(source) {
     const start = source.indexOf('Editor-in-Chief');
     const end = source.indexOf('All members of the Editorial Board');
-    const excerpt = source.slice(start, end > start ? end : undefined);
-    const blocks = excerpt.split(/\r?\n\s*\r?\n/).map(item => item.replace(/\s+/g, ' ').trim()).filter(Boolean);
+    const excerpt = source.slice(start, end > start ? end : undefined)
+      .replace(/^(Editor-in-Chief|Executive Editors|Associate Editors|Editorial Board Members)\r?$/gm, heading => `\n\n${heading}\n\n`);
+    const blocks = excerpt.split(/\r?\n[ \t]*\r?\n/).map(item => item.trim()).filter(Boolean);
     const parsed = [];
     let role = '';
     for (let index = 0; index < blocks.length;) {
       const block = blocks[index];
       if (roles.has(block)) { role = block; index += 1; continue; }
-      if (!role || !looksLikeName(block)) { index += 1; continue; }
-      const affiliation = blocks[index + 1] && !roles.has(blocks[index + 1]) ? blocks[index + 1] : '';
-      const possibleExpertise = blocks[index + 2] || '';
-      const hasExpertise = possibleExpertise && !roles.has(possibleExpertise) && !looksLikeName(possibleExpertise);
-      parsed.push({ role, name: block, affiliation, expertise: hasExpertise ? possibleExpertise : '' });
-      index += hasExpertise ? 3 : 2;
+      const lines = block.split(/\r?\n/).map(line => line.trim()).filter(Boolean);
+      if (!role || !looksLikeName(lines[0] || '')) { index += 1; continue; }
+      const possibleExpertise = blocks[index + 1] || '';
+      const nextFirstLine = possibleExpertise.split(/\r?\n/)[0].trim();
+      const hasExpertise = possibleExpertise && !roles.has(possibleExpertise) && !looksLikeName(nextFirstLine);
+      parsed.push({
+        role,
+        name: lines[0],
+        affiliation: lines.slice(1).join(' '),
+        expertise: hasExpertise ? possibleExpertise.replace(/\s+/g, ' ') : ''
+      });
+      index += hasExpertise ? 2 : 1;
     }
     return parsed;
   }
