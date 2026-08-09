@@ -18,7 +18,7 @@ from pathlib import Path
 from typing import Any
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from import_pmc import fetch_xml, normalize_pmcid, parse_article, write_article, download_assets  # noqa: E402
+from import_pmc import fetch_xml, normalize_pmcid, parse_article, write_article, download_assets, enrich_reference_authors  # noqa: E402
 
 ESEARCH_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
 JOURNAL_QUERY = '"American Journal of Preventive Cardiology"[journal] AND open access[filter]'
@@ -164,6 +164,7 @@ def main() -> int:
         try:
             xml_bytes = fetch_xml(pmcid, args.email, args.api_key)
             article = parse_article(xml_bytes, pmcid)
+            enrich_reference_authors(article, args.email, args.api_key)
             if args.download_assets:
                 count = download_assets(article, args.project_root, args.email)
                 print(f"  downloaded {count} figures")

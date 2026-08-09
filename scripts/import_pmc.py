@@ -22,6 +22,7 @@ from typing import Any, Iterable
 
 XLINK = "{http://www.w3.org/1999/xlink}href"
 EFETCH_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
+PUBMED_EFETCH_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
 ALLOWED_INLINE = {
     "bold": "strong",
     "italic": "em",
@@ -398,7 +399,7 @@ def extract_abstract(article: ET.Element) -> list[dict[str, str]]:
     return items
 
 
-def extract_references(article: ET.Element) -> list[dict[str, str]]:
+def extract_references(article: ET.Element) -> list[dict[str, Any]]:
     def citation_text(citation: ET.Element) -> str:
         """Format structured JATS citations with readable field separators."""
         names: list[str] = []
@@ -452,9 +453,9 @@ def extract_references(article: ET.Element) -> list[dict[str, str]]:
 
         title_text = title.rstrip(".") + "." if title else ""
         structured = clean_space(" ".join(part for part in [authors, title_text, publication, ". ".join(identifiers)] if part))
-        return structured or plain_text(citation)
+        return structured or plain_text(citation), names, person_group is not None and person_group.find("./{*}etal") is not None
 
-    references: list[dict[str, str]] = []
+    references: list[dict[str, Any]] = []
     for ref in all_nodes(article, "ref"):
         citation = ref.find("./{*}mixed-citation")
         if citation is None:
@@ -463,10 +464,89 @@ def extract_references(article: ET.Element) -> list[dict[str, str]]:
             citation = ref.find("./{*}nlm-citation")
         if citation is None:
             citation = ref
-        value = citation_text(citation)
+        value, names, has_etal = citation_text(citation)
         if value:
-            references.append({"text": value})
+            pmid_node = citation.find("./{*}pub-id[@pub-id-type='pmid']")
+            references.append({
+                "text": value,
+                "pmid": plain_text(pmid_node),
+                "authors": names,
+                "hasEtAl": has_etal,
+            })
     return references
+
+
+def enrich_reference_authors(article: dict[str, Any], email: str, api_key: str | None = None) -> None:
+    """Replace first-author-plus-et-al JATS references with full PubMed author lists."""
+    references = article.get("references") or []
+    for ref in references:
+        if not ref.get("pmid"):
+            match = re.search(r"\bPMID:\s*(\d+)", ref.get("text", ""), re.I)
+            if match:
+                ref["pmid"] = match.group(1)
+    pmids = list(dict.fromkeys(ref.get("pmid", "") for ref in references if ref.get("pmid")))
+    if not pmids:
+        return
+    params = {
+        "db": "pubmed",
+        "id": ",".join(pmids),
+        "retmode": "xml",
+        "tool": "ajpc-native-reader",
+        "email": email,
+    }
+    if api_key:
+        params["api_key"] = api_key
+    request = urllib.request.Request(
+        f"{PUBMED_EFETCH_URL}?{urllib.parse.urlencode(params)}",
+        headers={"User-Agent": f"AJPCNativeReader/1.0 ({email})", "Accept": "application/xml,text/xml"},
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=45) as response:
+            root = ET.fromstring(response.read())
+    except (urllib.error.URLError, urllib.error.HTTPError, ET.ParseError) as exc:
+        print(f"Warning: could not enrich reference authors for {article.get('pmcid', '')}: {exc}", file=sys.stderr)
+        return
+
+    pubmed_records: dict[str, dict[str, Any]] = {}
+    for record in root.findall(".//PubmedArticle"):
+        pmid = plain_text(record.find("./MedlineCitation/PMID"))
+        values: list[str] = []
+        for author_node in record.findall("./MedlineCitation/Article/AuthorList/Author"):
+            collective = plain_text(author_node.find("./CollectiveName"))
+            surname = plain_text(author_node.find("./LastName"))
+            initials = plain_text(author_node.find("./Initials"))
+            display = collective or clean_space(" ".join(part for part in [surname, initials] if part))
+            if display:
+                values.append(display)
+        title = plain_text(record.find("./MedlineCitation/Article/ArticleTitle"))
+        if pmid and values:
+            pubmed_records[pmid] = {"authors": values, "title": title}
+
+    for ref in references:
+        record = pubmed_records.get(ref.get("pmid", "")) or {}
+        names = record.get("authors")
+        old_names = ref.get("authors") or []
+        if not names:
+            continue
+        new_prefix = ", ".join(names).rstrip(".") + "."
+        text = ref.get("text", "")
+        old_prefix = ", ".join(old_names).rstrip(".") + "." if old_names else ""
+        pubmed_title = record.get("title", "")
+        if old_prefix and text.startswith(old_prefix):
+            ref["text"] = new_prefix + text[len(old_prefix):]
+        elif pubmed_title and pubmed_title in text:
+            ref["text"] = new_prefix + " " + text[text.index(pubmed_title):]
+        elif re.match(r"^.+?\.\s+", text):
+            ref["text"] = re.sub(r"^.+?\.\s+", new_prefix + " ", text, count=1)
+        else:
+            continue
+        ref["authors"] = names
+        ref["hasEtAl"] = False
+
+    for ref in references:
+        ref.pop("pmid", None)
+        ref.pop("authors", None)
+        ref.pop("hasEtAl", None)
 
 
 def extract_keywords(article: ET.Element) -> list[str]:
@@ -606,6 +686,7 @@ def main() -> int:
     pmcid = normalize_pmcid(args.pmcid)
     xml_bytes = args.xml_file.read_bytes() if args.xml_file else fetch_xml(pmcid, args.email, args.api_key)
     article = parse_article(xml_bytes, pmcid)
+    enrich_reference_authors(article, args.email, args.api_key)
     if args.download_assets:
         count = download_assets(article, args.project_root, args.email)
         print(f"Downloaded {count} figure assets")
