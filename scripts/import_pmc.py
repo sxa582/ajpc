@@ -399,6 +399,61 @@ def extract_abstract(article: ET.Element) -> list[dict[str, str]]:
 
 
 def extract_references(article: ET.Element) -> list[dict[str, str]]:
+    def citation_text(citation: ET.Element) -> str:
+        """Format structured JATS citations with readable field separators."""
+        names: list[str] = []
+        person_group = citation.find("./{*}person-group")
+        if person_group is not None:
+            for name in person_group.findall("./{*}name"):
+                surname = plain_text(name.find("./{*}surname"))
+                given = plain_text(name.find("./{*}given-names"))
+                display = clean_space(" ".join(part for part in [surname, given] if part))
+                if display:
+                    names.append(display)
+            names.extend(plain_text(node) for node in person_group.findall("./{*}collab") if plain_text(node))
+
+        authors = ", ".join(names)
+        if authors:
+            authors = authors.rstrip(".") + "."
+        title = plain_text(citation.find("./{*}article-title")) or plain_text(citation.find("./{*}chapter-title"))
+        source = plain_text(citation.find("./{*}source"))
+        year = plain_text(citation.find("./{*}year"))
+        volume = plain_text(citation.find("./{*}volume"))
+        issue = plain_text(citation.find("./{*}issue"))
+        first_page = plain_text(citation.find("./{*}fpage"))
+        last_page = plain_text(citation.find("./{*}lpage"))
+        elocation = plain_text(citation.find("./{*}elocation-id"))
+        pages = "–".join(part for part in [first_page, last_page] if part) or elocation
+
+        publication = source
+        if year:
+            publication += (". " if publication else "") + year
+        if volume:
+            publication += (";" if publication else "") + volume
+            if issue:
+                publication += f"({issue})"
+        if pages:
+            publication += (":" if publication else "") + pages
+        if publication:
+            publication += "."
+
+        identifiers: list[str] = []
+        for pub_id in citation.findall("./{*}pub-id"):
+            value = plain_text(pub_id)
+            kind = (pub_id.get("pub-id-type") or "").lower()
+            if not value:
+                continue
+            if kind == "doi":
+                identifiers.append(f"DOI: {value}")
+            elif kind == "pmid":
+                identifiers.append(f"PMID: {value}")
+            elif kind in {"pmc", "pmcid"}:
+                identifiers.append(f"PMCID: {value if value.upper().startswith('PMC') else 'PMC' + value}")
+
+        title_text = title.rstrip(".") + "." if title else ""
+        structured = clean_space(" ".join(part for part in [authors, title_text, publication, ". ".join(identifiers)] if part))
+        return structured or plain_text(citation)
+
     references: list[dict[str, str]] = []
     for ref in all_nodes(article, "ref"):
         citation = ref.find("./{*}mixed-citation")
@@ -408,9 +463,9 @@ def extract_references(article: ET.Element) -> list[dict[str, str]]:
             citation = ref.find("./{*}nlm-citation")
         if citation is None:
             citation = ref
-        value = inline_html(citation)
+        value = citation_text(citation)
         if value:
-            references.append({"html": value})
+            references.append({"text": value})
     return references
 
 
