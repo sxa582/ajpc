@@ -124,14 +124,22 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 34px;
+      gap: 0;
     }
     .nav-inner a {
-      font-size: 0.75rem;
+      align-self: stretch;
+      display: flex;
+      flex: 1 1 0;
+      min-width: 0;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 0.8rem;
+      line-height: 1.35;
       font-weight: 800;
       letter-spacing: 0.05em;
       text-transform: uppercase;
-      padding: 16px 0 14px;
+      padding: 13px 8px 11px;
       border-bottom: 3px solid transparent;
     }
     .nav-inner a:hover,
@@ -581,7 +589,6 @@
 
     @media (max-width: 1050px) {
       .brand-row { grid-template-columns: 130px 1fr 130px; }
-      .nav-inner { gap: 23px; }
       .theme-paper { grid-template-columns: minmax(0, 1fr) minmax(170px, .42fr) 38px; gap: 18px; }
       .interviews-grid { grid-template-columns: 1fr 1fr; }
       .interview-card.featured { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr; }
