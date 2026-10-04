@@ -1,0 +1,217 @@
+{
+  "pmcid": "PMC13632090",
+  "pmid": "",
+  "doi": "10.1016/j.ajpc.2026.101703",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13632090/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "A prospective study of plasma levels of asprosin and incident type 2 diabetes in postmenopausal women",
+  "articleType": "Brief Report",
+  "published": "2026-06-13",
+  "year": "2026",
+  "volume": "30",
+  "issue": "",
+  "articleNumber": "101703",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2026",
+  "authors": [
+    {
+      "given": "Bo",
+      "surname": "Yang",
+      "display": "Bo Yang"
+    },
+    {
+      "given": "Jie",
+      "surname": "Li",
+      "display": "Jie Li"
+    },
+    {
+      "given": "Stella",
+      "surname": "Ng",
+      "display": "Stella Ng"
+    },
+    {
+      "given": "Elizabeth S.",
+      "surname": "Silva",
+      "display": "Elizabeth S. Silva"
+    },
+    {
+      "given": "JoAnn E.",
+      "surname": "Manson",
+      "display": "JoAnn E. Manson"
+    },
+    {
+      "given": "Lawrence S.",
+      "surname": "Phillips",
+      "display": "Lawrence S. Phillips"
+    },
+    {
+      "given": "Alexander P.",
+      "surname": "Reiner",
+      "display": "Alexander P. Reiner"
+    },
+    {
+      "given": "Atul R.",
+      "surname": "Chopra",
+      "display": "Atul R. Chopra"
+    },
+    {
+      "given": "Simin",
+      "surname": "Liu",
+      "display": "Simin Liu"
+    }
+  ],
+  "affiliations": [
+    "aDepartment of Epidemiology and Biostatistics, Joe C. Wen School of Population and Public Health, Mary and Steve Wen Cardiovascular Division, Department of Medicine, School of Medicine, Center for Global Cardiometabolic Health & Nutrition, University of California, Irvine, CA, USA",
+    "bHarrington Discovery Institute, Cleveland, OH, USA",
+    "cBrigham and Women’s Hospital, Harvard Medical School, and Harvard T.H. Chan School of Public Health, Boston, MA, United States",
+    "dDivision of Endocrinology, Emory University, Atlanta, GA, USA",
+    "eDepartments of Medicine and Surgery, The Warren Alpert Medical School, Brown University, Providence, RI, USA"
+  ],
+  "keywords": [
+    "Adipokines",
+    "Asprosin",
+    "Postmenopausal women",
+    "Type 2 diabetes",
+    "Women's Health Initiative"
+  ],
+  "abstract": [],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Identifying women at elevated risk of type 2 diabetes before the onset of overt obesity remains a central challenge in preventive cardiometabolic care [1]. Asprosin, a fasting-induced glucogenic adipokine, stimulates hepatic glucose release and relates to insulin resistance in cross-sectional studies [2,3]. Whether asprosin prospectively predicts incident type 2 diabetes and whether it might serve as an early metabolic signal in women who do not yet appear high-risk by adiposity has not been established. To investigate this, we conducted a large prospective case-control study nested in the ethnically diverse Women’s Health Initiative (WHI)."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The design of the WHI have been described in detail elsewhere [4]. In brief, between 1993 and 1998, 161,808 postmenopausal women aged 50–79 years were recruited into clinical trials (CT) or observational study (OS). Written informed consent was obtained from all participants, and the study protocol was approved at all participating institutions."
+        },
+        {
+          "type": "paragraph",
+          "html": "We conducted a prospective nested case-control study within the WHI. Eligible participants were free of diabetes, cardiovascular disease, and cancer (other than non-melanoma skin cancer) at baseline. Using incidence-density sampling, we matched 2602 incident type 2 diabetes cases to 2596 controls in a 1:1 ratio on age, race/ethnicity, clinical center, CT/OS, and time of blood draw. The median follow-up was 13.4 years."
+        },
+        {
+          "type": "paragraph",
+          "html": "Plasma asprosin was measured using a high-specificity sandwich enzyme-linked immunosorbent assay (ELISA) [2]. Samples from case-control pairs had identical lab procedures and were handled consistently to avoid any systematic difference. The median inter-assay coefficient of variation (CV) was 11.16%."
+        },
+        {
+          "type": "paragraph",
+          "html": "Baseline characteristics were summarized by case-control status. Multivariable logistic regression estimated odds ratios (ORs) per 1-SD asprosin increase and across quintiles. The adjusted model included age, race/ethnicity, assay batch, CT/OS, physical activity, smoking, alcohol drinking, family history of diabetes, education, menopause age, dietary glycemic load, Alternative Healthy Eating Index (AHEI), total energy intake, region, family income, and BMI. Missing covariates were addressed using multiple imputation. Tests for linear trend across quintiles and restricted cubic spline models for asprosin were performed. The potential interaction effect by BMI status (non-obese, BMI &lt;30 kg/m²; obese, BMI ≥30 kg/m²) was tested with a multiplicative product term."
+        },
+        {
+          "type": "paragraph",
+          "html": "All analyses were conducted using R. Statistical tests were two-sided, and P values &lt;0.05 were considered statistically significant."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Cases and controls were similar in age (∼63 years) and race/ethnicity distribution. Women who developed type 2 diabetes had higher BMI, higher dietary glycemic load, lower physical activity, and more frequent family history of diabetes (Fig. 1A)."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 1",
+          "caption": "Panel A. Baseline characteristics of cases and controls. Values are presented as mean (SD) for continuous variables, median (interquartile range) for skewed variables, and n (%) for categorical variables. P values were calculated using Welch Two Sample <em>t</em>-test for continuous variables, Wilcoxon rank-sum test for skewed variables, and Pearson’s Chi-squared test for categorical variables. Panel B. Associations between Plasma Asprosin Levels and Type 2 Diabetes Risk. Odds ratios (ORs) and 95% confidence intervals (CIs) were estimated using logistic regression models with multiple imputation for missing covariates. Model was adjusted for age, race/ethnicity, batch, trial assignments (CaD, DM, and HT), physical activity, smoking, alcohol intake, family history of diabetes, education, menopause age, dietary glycemic load, Alternate Healthy Eating Index (AHEI), total energy intake, region, family income, and body mass index (BMI). The standardized asprosin estimate represents the OR per 1–SD increase in plasma asprosin levels. Panel C. Interactions by Obesity Status Between Plasma Asprosin and Type 2 Diabetes Risk. Odds ratios (ORs) and 95% confidence intervals (CIs) were estimated using the fully adjusted multivariable logistic regression model. Analyses were stratified by obesity status.",
+          "src": "assets/pmc/PMC13632090/gr1.webp",
+          "alt": "Fig. 1 Panel A. Baseline characteristics of cases and controls. Values are presented as mean (SD) for continuous variables, median (interquartile range) for skewed variables, and n (%) for categorical variables. P values were calculated using Welch Two Sample t-test for continuous variables, Wilcoxon rank-sum test for skewed variables, and Pearson’s Chi-squared test for categorical variables. Panel B. Associations between Plasma Asprosin Levels and Type 2 Diabetes Risk. Odds ratios (ORs) and 95% confidence intervals (CIs) were estimated using logistic regression models with multiple imputation for missing covariates. Model was adjusted for age, race/ethnicity, batch, trial assignments (CaD, DM, and HT), physical activity, smoking, alcohol intake, family history of diabetes, education, menopause age, dietary glycemic load, Alternate Healthy Eating Index (AHEI), total energy intake, region, family income, and body mass index (BMI). The standardized asprosin estimate represents the OR per 1–SD increase in plasma asprosin levels. Panel C. Interactions by Obesity Status Between Plasma Asprosin and Type 2 Diabetes Risk. Odds ratios (ORs) and 95% confidence intervals (CIs) were estimated using the fully adjusted multivariable logistic regression model. Analyses were stratified by obesity status."
+        },
+        {
+          "type": "paragraph",
+          "html": "In the fully adjusted model, each 1-SD increase in plasma asprosin was associated with 6% higher odds of type 2 diabetes (OR, 1.06; 95% CI, 1.00–1.12). Women in the highest asprosin quintile had a 23% higher risk than those in the lowest quintile (OR, 1.23; 95% CI, 1.01–1.51; P for trend = 0.05) (Fig. 1B). Restricted cubic splines supported an approximately linear positive association (P for non-linearity = 0.84). Findings were robust after excluding cases diagnosed in the first 3 years, in complete-case analyses, and using log-transformed asprosin."
+        },
+        {
+          "type": "paragraph",
+          "html": "The association was significantly modified by BMI (P for interaction = 0.03). Among women with BMI &lt;30 kg/m², each 1-SD increase was associated with 13% higher type 2 diabetes risk (OR, 1.13; 95% CI, 1.04–1.23), and women in the highest quintile had 38% higher risk than those in the lowest quintile (OR, 1.38; 95% CI, 1.04–1.84; P for trend = 0.01). In contrast, no association was observed among women with BMI ≥30 kg/m² (Fig. 1C)."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In this large, ethnically diverse prospective cohort of postmenopausal women, higher baseline plasma asprosin was independently associated with incident type 2 diabetes, with the association most pronounced among women without obesity."
+        },
+        {
+          "type": "paragraph",
+          "html": "Asprosin appears to identify a subset of metabolically vulnerable women who would not be flagged as high-risk by adiposity-based screening alone. Among women with BMI &lt;30 kg/m², each 1-SD increment in plasma asprosin was associated with 13% higher odds of T2D, with a clear gradient across quintiles, whereas no association was observed among women with obesity. This pattern is biologically coherent: in women with established obesity, the dominant drivers of diabetes risk likely overshadow the contribution of any single adipokine, while in non-obese women asprosin may reveal early metabolic dysregulation that has not yet manifested as excess weight. This interpretation aligns with our recent companion analysis in the WHI, in which baseline asprosin predicted subsequent 3-year weight gain specifically among postmenopausal women with BMI &lt;30 kg/m² [5]. From a prevention standpoint, this is precisely the population for whom novel biomarkers are most needed, since current clinical risk tools rely heavily on adiposity and frequently miss non-obese women who later develop diabetes. Asprosin may therefore complement existing risk stratification and flag women who appear low-risk by conventional metrics but have underlying glucogenic dysregulation."
+        },
+        {
+          "type": "paragraph",
+          "html": "Several limitations should be acknowledged. First, plasma asprosin was measured once at baseline. Within-person variability and changes over time were not captured, and any resulting non-differential measurement error would most likely attenuate the observed associations toward the null. Second, as an observational biomarker study, our findings do not establish causality. Asprosin is intertwined with broader metabolic and inflammatory pathways, and residual confounding from unmeasured factors remains possible despite extensive adjustment for covariates. Third, fasting glucose, insulin, HOMA-IR, and HbA1c were not available, which precluded formal evaluation of mediation through insulin resistance or β-cell dysfunction and limited our ability to quantify incremental predictive value beyond standard glycemic biomarkers. Fourth, incident diabetes was based on self-reported diagnosis and medication use. Although this definition has been extensively validated in WHI and any misclassification with respect to baseline asprosin is likely non-differential, some outcome misclassification cannot be excluded. Lastly, the exclusively postmenopausal women cohort is both a limitation for generalizability and a strength. Hormonal transitions and shifts in adipokine physiology around menopause make this population particularly relevant for women&#x27;s cardiometabolic prevention research, where sex-specific risk markers remain underdeveloped."
+        },
+        {
+          "type": "paragraph",
+          "html": "In conclusion, higher baseline plasma asprosin levels were prospectively associated with increased type 2 diabetes risk among postmenopausal women, which appeared stronger among women without obesity. Our results identify plasma asprosin as a promising novel biomarker for detecting non-obese postmenopausal women at increased risk of type 2 diabetes, a group that has historically been difficult to identify before clinical disease emerges. Replication in independent cohorts, including men, premenopausal women, and additional racial and ethnic groups, and formal evaluation of how asprosin performs alongside HbA1c, fasting glucose, and established clinical risk scores will be important next steps."
+        }
+      ]
+    },
+    {
+      "title": "Funding",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The WHI program is funded by the National Heart, Lung, and Blood Institute, National Institutes of Health, U.S. Department of Health and Human Services through 75N92021D00001, 75N92021D00002, 75N92021D00003, 75N92021D00004, 75N92021D00005. Research reported in this work was supported by a grant from the National Institutes of Health (1R01DK125403-01). The study sponsor/funder was not involved in the design of the study; the collection, analysis, and interpretation of data; writing the report; and did not impose any restrictions regarding the publication of the report."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Bo Yang:</strong> Writing – review &amp; editing, Writing – original draft, Visualization, Software, Methodology, Investigation, Formal analysis, Data curation. <strong>Jie Li:</strong> Writing – review &amp; editing, Writing – original draft, Visualization, Software, Investigation, Formal analysis, Data curation. <strong>Stella Ng:</strong> Writing – review &amp; editing, Validation, Software, Investigation, Formal analysis. <strong>Elizabeth S. Silva:</strong> Writing – review &amp; editing, Resources, Data curation. <strong>JoAnn E. Manson:</strong> Writing – review &amp; editing, Validation, Methodology. <strong>Lawrence S. Phillips:</strong> Writing – review &amp; editing, Validation, Methodology. <strong>Alexander P. Reiner:</strong> Writing – review &amp; editing, Validation, Methodology. <strong>Atul R. Chopra:</strong> Writing – review &amp; editing, Resources, Methodology, Data curation. <strong>Simin Liu:</strong> Writing – review &amp; editing, Validation, Supervision, Resources, Project administration, Methodology, Funding acquisition, Data curation, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare the following financial interests/personal relationships which may be considered as potential competing interests:"
+        },
+        {
+          "type": "paragraph",
+          "html": "Simin Liu reports financial support was provided by National Institutes of Health. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "text": "US Preventive Services Task Force, Davidson KW, Barry MJ, Mangione CM, Cabana M, Caughey AB, Davis EM, Donahue KE, Doubeni CA, Krist AH, Kubik M, Li L, Ogedegbe G, Owens DK, Pbert L, Silverstein M, Stevermer J, Tseng CW, Wong JB. Screening for prediabetes and type 2 diabetes: US preventive services task force recommendation statement. Jama. 2021;326(8):736. DOI: 10.1001/jama.2021.12531. PMID: 34427594"
+    },
+    {
+      "text": "Romere C, Duerrschmid C, Bournat J, Constable P, Jain M, Xia F, Saha PK, Del Solar M, Zhu B, York B, Sarkar P, Rendon DA, Gaber MW, LeMaire SA, Coselli JS, Milewicz DM, Sutton VR, Butte NF, Moore DD, Chopra AR. Asprosin, a fasting-induced glucogenic protein hormone. Cell. 2016;165(3):566–579. DOI: 10.1016/j.cell.2016.02.063. PMCID: PMC4852710. PMID: 27087445"
+    },
+    {
+      "text": "Zhang L, Chen C, Zhou N, Fu Y, Cheng X. Circulating asprosin concentrations are increased in type 2 diabetes mellitus and independently associated with fasting glucose and triglyceride. Clin Chim Acta. 2019;489:183–188. DOI: 10.1016/j.cca.2017.10.034. PMID: 29104036"
+    },
+    {
+      "text": "Design of the Women's health initiative clinical trial and observational study. The women's health initiative study group. Control Clin Trials. 1998;19(1):61–109. DOI: 10.1016/s0197-2456(97)00078-0. PMID: 9492970"
+    },
+    {
+      "text": "Ng S, Yang B, Li J, Silva ES, Manson JE, Phillips LS, Reiner AP, Chopra AR, Liu S. Circulating asprosin concentrations and body weight changes in postmenopausal women: findings from the Women's Health Initiative. J Nutr. 2026;156(5). DOI: 10.1016/j.tjnut.2026.101441. PMCID: PMC13197911. PMID: 41759821"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}
