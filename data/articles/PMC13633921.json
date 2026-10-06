@@ -1,0 +1,449 @@
+{
+  "pmcid": "PMC13633921",
+  "pmid": "42830796",
+  "doi": "10.1016/j.ajpc.2026.101749",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13633921/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Neighborhood disadvantage and cardiovascular health in early adolescents in the United States",
+  "articleType": "Research Article",
+  "published": "2026-07-17",
+  "year": "2026",
+  "volume": "30",
+  "issue": "",
+  "articleNumber": "101749",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2026",
+  "authors": [
+    {
+      "given": "Christiane K.",
+      "surname": "Helmer",
+      "display": "Christiane K. Helmer"
+    },
+    {
+      "given": "Olivia",
+      "surname": "Veira",
+      "display": "Olivia Veira"
+    },
+    {
+      "given": "Erin E.",
+      "surname": "Dooley",
+      "display": "Erin E. Dooley"
+    },
+    {
+      "given": "Hoda S. Abdel",
+      "surname": "Magid",
+      "display": "Hoda S. Abdel Magid"
+    },
+    {
+      "given": "Alexander",
+      "surname": "Testa",
+      "display": "Alexander Testa"
+    },
+    {
+      "given": "Kelley Pettee",
+      "surname": "Gabriel",
+      "display": "Kelley Pettee Gabriel"
+    },
+    {
+      "given": "Fiona C.",
+      "surname": "Baker",
+      "display": "Fiona C. Baker"
+    },
+    {
+      "given": "Holly C.",
+      "surname": "Gooding",
+      "display": "Holly C. Gooding"
+    },
+    {
+      "given": "Jason M.",
+      "surname": "Nagata",
+      "display": "Jason M. Nagata"
+    }
+  ],
+  "affiliations": [
+    "aDivision of Adolescent & Young Adult Medicine, Department of Pediatrics, University of California, San Francisco, CA, USA",
+    "bDepartment of Medicine, Brigham and Women's Hospital, Boston, MA, USA",
+    "cDepartment of Epidemiology, University of Alabama at Birmingham, Birmingham, AL, USA",
+    "dDepartment of Population and Public Health Sciences, University of Southern California, Los Angeles, CA, USA",
+    "eDepartment of Management, Policy and Community Health, University of Texas Health Science Center at Houston, Houston, TX, USA",
+    "fCenter for Health Sciences, SRI International, Menlo Park, CA, USA",
+    "gDepartment of Pediatrics, Emory University, Atlanta, GA, USA"
+  ],
+  "keywords": [
+    "Teen",
+    "Youth",
+    "Social determinants of health",
+    "Built environment",
+    "Cardiometabolic"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Introduction:</strong> Adolescence is a critical period during which exposures to cardiovascular disease risk factors and related pathophysiologic changes begin. Yet neighborhood-level factors shaping cardiovascular health from adolescence onward remain understudied. The American Heart Association’s Life’s Essential 8 (LE8) is a composite cardiovascular health score, encompassing diet, physical activity, body mass index, blood pressure, and other factors. Area Deprivation Index (ADI), Social Vulnerability Index (SVI), and Childhood Opportunity Index (COI) estimate neighborhood disadvantage. This study examines associations between neighborhood disadvantage and LE8 cardiovascular risk factors in early adolescents."
+    },
+    {
+      "html": "<strong>Methods:</strong> We analyzed data from the Adolescent Brain Cognitive Development (ABCD) Study, including 8,160 early adolescents with behavioral subcomponent scores and 1,125 with overall LE8 and health factors subcomponent scores. Neighborhood disadvantage indices (ADI, SVI, COI) were derived from geospatial data. Multivariable linear regression models assessed associations between ADI, SVI, and COI at baseline (2016–2018) and LE8 scores at Year 2 (2018–2020) and Year 3 (2019–2021), adjusted for age, sex, and race/ethnicity."
+    },
+    {
+      "html": "<strong>Results:</strong> Higher neighborhood disadvantage was associated with lower (less healthy) LE8 cardiovascular health scores in early adolescents, driven mainly by behavioral factors. Overall LE8 scores were 9.45 points lower for the most deprived ADI quintile (95% CI: -11.86, -7.05; p&lt;0.001), 6.95 points lower for the most vulnerable SVI quintile (95% CI: -9.09, -4.82; p&lt;0.001), and 8.45 points lower for the lowest opportunity COI quintile (95% CI: -10.77, -6.12; p&lt;0.001)."
+    },
+    {
+      "html": "<strong>Conclusion:</strong> Higher neighborhood deprivation was associated with poorer LE8 cardiovascular health scores in early adolescence."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Cardiovascular disease (CVD) has been the leading cause of death in the United States for decades [1,2]. Although there have been investments in medical therapies for prevention and treatment, CVD remains responsible for one in five deaths annually. Though CVD mortality overwhelmingly affects adults, the underlying disease processes behind atherosclerosis, including endothelial dysfunction, dyslipidemia, and inflammatory cascades, originate in childhood [3,4]. Evaluating cardiovascular risk and addressing its upstream determinants in early adolescence may therefore be a powerful strategy for preventing or delaying the onset of overt disease in adulthood."
+        },
+        {
+          "type": "paragraph",
+          "html": "The American Heart Association’s (AHA) Life’s Essential 8 (LE8) score provides an evidence-based framework for assessing cardiovascular health by integrating diet, physical activity, sleep, nicotine use, body mass index (BMI), blood lipids, blood glucose, and blood pressure [5]. LE8 has been extensively applied in adult populations, with evidence demonstrating a significant association between higher (i.e., healthier) LE8 scores and reduced CVD risk and mortality [6]. However, fewer studies have applied the framework in adolescents."
+        },
+        {
+          "type": "paragraph",
+          "html": "Neighborhood context has been increasingly recognized in the literature as a key determinant of cardiovascular risk. Significant evidence demonstrates that neighborhood disadvantage is associated with poorer cardiovascular outcomes in adults [[7], [8], [9]]. In early adolescence, neighborhood characteristics, such as access to healthy food, safe recreational spaces, and limited exposure to environmental hazards, influence the behavioral factors that shape cardiovascular disease risk [10]. Early adolescent CVD risk is predictive of adult cardiovascular disease risk [11,12], making it a useful tool for identifying those who could benefit from early intervention. Recent studies have examined the relationship between neighborhood disadvantage and cardiovascular disease risk among children and adolescents with mixed results [[13], [14], [15]]. Building on this work, the present study uses multiple validated indices of neighborhood disadvantage (e.g., the Area Deprivation Index [16], Social Vulnerability Index [17], and Childhood Opportunity Index [18]) to examine associations between neighborhood resource access and LE8 cardiovascular health scores among early adolescents in the Adolescent Brain Cognitive Development (ABCD) Study [19]. We hypothesize that increased neighborhood disadvantage will be associated with lower LE8 scores (poorer cardiovascular health)."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We analyzed baseline (2016-2020), Year 2 (2018-2020), and Year 3 (2019-2021) data from the ongoing ABCD Study. The follow-up years were selected for analysis based on data availability of the LE8 components. The ABCD Study, which includes 21 sites across the United States, is the largest longitudinal study of brain health and development in the country [19]. At baseline, 11,875 children (ages 9-10 years) were recruited."
+        },
+        {
+          "type": "paragraph",
+          "html": "The methodology of the ABCD Study is described in detail elsewhere [20]. Centralized institutional review board (IRB) approval was acquired by the University of California, San Diego and secondary data analysis approval was given by the University of California, San Francisco. A parent or guardian and the child gave written informed consent and assent to the ABCD research team."
+        }
+      ]
+    },
+    {
+      "title": "Measures",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Using the geospatial location data outlined by the Linked External Data Environmental workgroup, the ABCD Study gathers individual, neighborhood, and state-level information needed to calculate neighborhood disadvantage indices [21]. We analyzed three indices of neighborhood disadvantage at baseline: the Area Deprivation Index (ADI), the Social Vulnerability Index (SVI), and the Childhood Opportunity Index (COI). Although these indices are conceptually related, each was developed for a distinct purpose and captures different dimensions of neighborhood context. Specifically, ADI reflects neighborhood socioeconomic deprivation, SVI assesses social vulnerability to external stressors, and COI measures resources and opportunities that support healthy child development. Therefore, all three indices were examined as complementary measures of neighborhood disadvantage and opportunity, with further details on each index provided below."
+        },
+        {
+          "type": "paragraph",
+          "html": "Area Deprivation Index. The ADI, developed by Gopal Singh, is one of the most robustly validated and utilized tools for measuring neighborhood-level disadvantage in the United States [16]. The index includes 17 indicators from census data, such as the percentage of families below the poverty level, income disparity, median home value, and the number of people aged 25 and older with at least a high school diploma [21]. Our study used baseline ADI percentiles at the census-tract level that included all 17 indicators. In accordance with national ADI percentiles, the 1<sup>st</sup> quintile represents the lowest neighborhood disadvantage, and the 5<sup>th</sup> quintile indicates the greatest neighborhood disadvantage."
+        },
+        {
+          "type": "paragraph",
+          "html": "Social Vulnerability Index. The Centers for Disease Control and Prevention (CDC) developed SVI as a place-based index to assess which communities may need high levels of support before and after stressors such as natural disasters and disease outbreaks [17]. The SVI is derived from county and census tract data and reflects 15 variables from the American Community Survey, organized into four themes, including socioeconomic status, household composition, minority status and language, and housing type and transportation. The resulting index characterizes a community’s vulnerability to severe weather events and public health emergencies [17]. Our study used census-tract-level data at baseline with participants categorized into quintiles based on national SVI percentiles. The 1<sup>st</sup> quintile represents the lowest vulnerability, and the 5<sup>th</sup> quintile represents the highest."
+        },
+        {
+          "type": "paragraph",
+          "html": "Childhood Opportunity Index. The COI 3.0 is a composite index developed to measure children’s access to resources in every neighborhood (at the census-block-level) in the United States [22]. Scores for overall COI and its three domains (education, health and environment, and social and economic opportunities) are included in the ABCD Study. At baseline, participants were categorized into quintiles reflective of national COI percentiles [23]. The 1<sup>st</sup> quintile represents the lowest neighborhood opportunity, and the 5<sup>th</sup> quintile represents the highest."
+        },
+        {
+          "type": "paragraph",
+          "html": "Cardiovascular health was measured using the LE8 score, a composite metric developed by the AHA to promote and assess heart health. LE8 includes diet, physical activity, nicotine exposure, sleep duration, BMI, blood lipids, blood glucose, and blood pressure. All LE8 components were assessed at the Year 2 follow-up, which served as the primary outcome timepoint for this study. To maximize completeness of cardiometabolic outcome data that were missing because of COVID-19-related restrictions on nonessential research activities, corresponding Year 3 measurements were used when Year 2 measurements were not available. Specifically, blood samples were first collected in Year 2 from a subset of participants who consented. However, nearly half of the sample did not complete a blood draw due to COVID-19 restrictions; in Year 3, some participants who missed the Year 2 blood draw were offered this assessment. As a result, blood glucose and lipid measures were available for fewer than 2,000 participants, of whom approximately 25% had Year 3 data imputed because Year 2 data were unavailable. The same approach was used for anthropometric measures (height and weight for BMI) and blood pressure, which were also affected by COVID-19-related restrictions during Year 2."
+        },
+        {
+          "type": "paragraph",
+          "html": "We computed an LE8 score (measured from 0 to 100), adapted for the ABCD Study based on the LE8 scoring framework previously applied to the National Health and Nutrition Examination Survey (NHANES) [24]. Each of the eight components was assigned a score, and the overall score was calculated as the average of these components. Subcomponent scores were also calculated: the behavioral factors subcomponent score was the average of diet, physical activity, nicotine exposure, and sleep scores. The health factors subcomponent score was the average of the BMI, blood lipids, blood glucose, and blood pressure scores. The health factors score was primarily based on Year 2 data, supplemented with Year 3 measurements for participants who missed the Year 2 follow-up. Higher LE8 scores indicate more favorable cardiovascular health and lower LE8 scores indicate poorer cardiovascular health."
+        },
+        {
+          "type": "paragraph",
+          "html": "Details of LE8 scoring are described in our previous study [25], which operationalized LE8 in the ABCD Study. For the present study, continuous LE8 scores were used as the primary outcome. In sensitivity analyses, LE8 scores were dichotomized into low–moderate (0–79) and high (80–100), as the small number of participants in the low category precluded use of a three-category classification as typically used in adult studies [26]."
+        }
+      ]
+    },
+    {
+      "title": "Statistical analysis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Of the 11,875 children recruited at baseline, 3,803 had missing behavioral data, missing neighborhood disadvantage data, or missing sociodemographic data. As a result, our study sample included 8,160 early adolescents with behavioral subcomponent scores, and 1,125 children had overall LE8 and health subcomponent scores. Sociodemographic differences between included and excluded participants for each analytic sample are presented in Supplementary Tables S1 and S2."
+        },
+        {
+          "type": "paragraph",
+          "html": "We calculated descriptive statistics, including means, standard deviations, and percentages, for all independent and dependent variables. Pearson correlation coefficients were calculated to assess overlap among the neighborhood quality indices. We used baseline neighborhood disadvantage (ADI, SVI, and COI) indices as primary predictors, and LE8 cardiovascular health scores at Years 2 and 3 were used as outcomes. We used multivariable linear regression models to estimate associations between neighborhood disadvantage and LE8 scores, adjusting for baseline sociodemographic confounders: age, sex, and race/ethnicity. Statistical significance was assessed using the Benjamini-Hochberg procedure to adjust for false discovery rate given multiple statistical tests. A test for trend was also conducted to assess dose-response relationships among outcomes that were significantly associated in linear regression analyses. For sensitivity analyses, we used modified Poission regression models to estimate associations between neighborhood disadvantage and binary LE8 scores, using high LE8 (80–100) as the reference group. Analyses were conducted using Stata 18 (StataCorp, College Station, TX)."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Sociodemographic characteristics of the 8,160 included participants are represented in Table 1. Of the analytical sample, the average age was 9.9, 47.3% were female, 41.6% were non-White, and the average overall LE8 score was 78.3. Compared to those included in the analysis of overall LE8 scores, those excluded were more likely to be younger and Black (Supplementary Table S2)."
+        },
+        {
+          "type": "table",
+          "label": "Table 1",
+          "caption": "Sociodemographic characteristics at baseline (2016–2018) and Life&#x27;s Essential 8 scores at Years 2 and 3 (2018–2021) of 8,160 Adolescent Brain Cognitive Development (ABCD) Study analytical sample participants.",
+          "html": "<table><tr><th colspan=\"1\" rowspan=\"1\">Characteristics</th><th colspan=\"1\" rowspan=\"1\">Mean (SD) / (%)</th></tr><tr><td colspan=\"1\" rowspan=\"1\">Age (years)</td><td colspan=\"1\" rowspan=\"1\">9.9 (0.6)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Sex</td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Female</td><td colspan=\"1\" rowspan=\"1\">47.3%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Male</td><td colspan=\"1\" rowspan=\"1\">52.7%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Race and ethnicity</td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Asian</td><td colspan=\"1\" rowspan=\"1\">6.2%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Black</td><td colspan=\"1\" rowspan=\"1\">15.9%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Latino/Hispanic</td><td colspan=\"1\" rowspan=\"1\">15.0%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Native American</td><td colspan=\"1\" rowspan=\"1\">3.5%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Other</td><td colspan=\"1\" rowspan=\"1\">0.9%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">White</td><td colspan=\"1\" rowspan=\"1\">58.4%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Life&#x27;s Essential 8 score</td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Overall summary score</td><td colspan=\"1\" rowspan=\"1\">78.3 (10.4)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Low (0–49)</td><td colspan=\"1\" rowspan=\"1\">0.4%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Moderate (50–79)</td><td colspan=\"1\" rowspan=\"1\">51.7%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">High (80–100)</td><td colspan=\"1\" rowspan=\"1\">47.9%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Behavioral factors subcomponent score</td><td colspan=\"1\" rowspan=\"1\">67.1 (15.9)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Low (0–49)</td><td colspan=\"1\" rowspan=\"1\">0.4%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Moderate (50–79)</td><td colspan=\"1\" rowspan=\"1\">19.8%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">High (80–100)</td><td colspan=\"1\" rowspan=\"1\">79.8%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Health factors subcomponent score</td><td colspan=\"1\" rowspan=\"1\">88.5 (11.6)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Low (0–49)</td><td colspan=\"1\" rowspan=\"1\">12.7%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Moderate (50–79)</td><td colspan=\"1\" rowspan=\"1\">61.1%</td></tr><tr><td colspan=\"1\" rowspan=\"1\">High (80–100)</td><td colspan=\"1\" rowspan=\"1\">26.2%</td></tr></table>"
+        },
+        {
+          "type": "paragraph",
+          "html": "Pearson correlation analyses demonstrated moderate to strong correlations between neighborhood indices (ADI vs. SVI: r = 0.57; COI vs. ADI: r = -0.69; COI vs. SVI: r = -0.84), indicating substantial but incomplete overlap."
+        },
+        {
+          "type": "paragraph",
+          "html": "Table 2 presents the multivariable linear regression models examining associations between children’s neighborhood quality at baseline and LE8 cardiovascular characteristics at Years 2 and 3. Greater neighborhood disadvantage, as indicated by higher ADI, higher SVI, and lower COI, was associated with lower LE8 cardiovascular health scores among early adolescents (N=1,125 for overall LE8, Fig. 1). Compared with the most advantaged quintile (Q1 for ADI/SVI; Q5 for COI), adolescents in the most disadvantaged quintile had significantly lower overall LE8 scores: ADI (-9.45 points; 95% CI: -11.86, -7.05; p&lt;0.001), SVI (-6.95 points; 95% CI: -9.09, -4.82; p&lt;0.001), and COI (-8.45 points; 95% CI: -10.77, -6.12; p&lt;0.001). Similar findings were observed for the behavioral factors subcomponent score (N=8,160). Adolescents in the most disadvantaged quintile had significantly lower scores compared with those in the most advantaged quintile across all indices: ADI (-13.00 points; 95% CI: -14.27, -11.72; p&lt;0.001), SVI (-8.87 points; 95% CI: -10.04, -7.69; p&lt;0.001), and COI (-11.66 points; 95% CI: -12.85, -10.47; p&lt;0.001). In contrast, associations between neighborhood disadvantage and the health factors subcomponent score were largely nonsignificant (N=1,125)."
+        },
+        {
+          "type": "table",
+          "label": "Table 2",
+          "caption": "Associations of baseline indices of children&#x27;s neighborhood quality and Life&#x27;s Essential 8 (LE8) cardiovascular health characteristics at Year 2 and 3 in the Adolescent Brain Cognitive Development (ABCD) Study.",
+          "html": "<table><tr><th colspan=\"1\" rowspan=\"3\">Children&#x27;s neighborhood quality</th><th colspan=\"2\" rowspan=\"1\">Overall LE8 summary score</th><th colspan=\"2\" rowspan=\"1\">Behavioral factors subcomponent score</th><th colspan=\"2\" rowspan=\"1\">Health factors subcomponent score</th></tr><tr><th colspan=\"2\" rowspan=\"1\">N=1,125</th><th colspan=\"2\" rowspan=\"1\">N=8,160</th><th colspan=\"2\" rowspan=\"1\">N=1,125</th></tr><tr><th colspan=\"1\" rowspan=\"1\">Adjusted B (95% CI)</th><th colspan=\"1\" rowspan=\"1\">p</th><th colspan=\"1\" rowspan=\"1\">Adjusted B (95% CI)</th><th colspan=\"1\" rowspan=\"1\">p</th><th colspan=\"1\" rowspan=\"1\">Adjusted B (95% CI)</th><th colspan=\"1\" rowspan=\"1\">p</th></tr><tr><td colspan=\"1\" rowspan=\"1\">Area Deprivation Index quintile</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">1st (lowest)</td><td colspan=\"1\" rowspan=\"1\">reference</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">reference</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">reference</td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">2nd</td><td colspan=\"1\" rowspan=\"1\"><strong>-2.78 (-4.28, -1.27)</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>&lt;0.001</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>-2.51 (-3.35, -1.68)</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>&lt;0.001</strong></td><td colspan=\"1\" rowspan=\"1\">-1.24 (-3.03, 0.54)</td><td colspan=\"1\" rowspan=\"1\">0.173</td></tr><tr><td colspan=\"1\" rowspan=\"1\">3rd</td><td colspan=\"1\" rowspan=\"1\"><strong>-6.36 (-8.07, -4.65)</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>&lt;0.001</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>-7.14 (-8.14, -6.15)</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>&lt;0.001</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>-2.70 (-4.73, -0.67)</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>0.009</strong></td></tr><tr><td colspan=\"1\" rowspan=\"1\">4th</td><td colspan=\"1\" rowspan=\"1\"><strong>-7.37 (-9.56, -5.19)</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>&lt;0.001</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>-11.16 (-12.37, -9.94)</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>&lt;0.001</strong></td><td colspan=\"1\" rowspan=\"1\">-1.59 (-4.18, 1.00)</td><td colspan=\"1\" rowspan=\"1\">0.229</td></tr><tr><td colspan=\"1\" rowspan=\"1\">5th (highest)</td><td colspan=\"1\" rowspan=\"1\"><strong>-9.45 (-11.86, -7.05)</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>&lt;0.001</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>-13.00 (-14.27, -11.72)</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>&lt;0.001</strong></td><td colspan=\"1\" rowspan=\"1\">-2.50 (-5.35, 0.35)</td><td colspan=\"1\" rowspan=\"1\">0.086</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Social Vulnerability Index quintile</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">1st (lowest)</td><td colspan=\"1\" rowspan=\"1\">reference</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">reference</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">reference</td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">2nd</td><td colspan=\"1\" rowspan=\"1\"><strong>-2.12 (-3.60, -0.64)</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>0.005</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>-1.17 (-2.06, -0.28)</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>0.010</strong></td><td colspan=\"1\" rowspan=\"1\">-1.58 (-3.31, 0.15)</td><td colspan=\"1\" rowspan=\"1\">0.073</td></tr><tr><td colspan=\"1\" rowspan=\"1\">3rd</td><td colspan=\"1\" rowspan=\"1\"><strong>-5.37 (-7.08, -3.65)</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>&lt;0.001</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>-4.72 (-5.72, -3.73)</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>&lt;0.001</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>-3.81 (-5.82, -1.81)</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>&lt;0.001</strong></td></tr><tr><td colspan=\"1\" rowspan=\"1\">4th</td><td colspan=\"1\" rowspan=\"1\"><strong>-6.15 (-8.14, -4.16)</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>&lt;0.001</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>-7.23 (-8.33, -6.13)</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>&lt;0.001</strong></td><td colspan=\"1\" rowspan=\"1\">-2.12 (-4.43, 0.20)</td><td colspan=\"1\" rowspan=\"1\">0.074</td></tr><tr><td colspan=\"1\" rowspan=\"1\">5th (highest)</td><td colspan=\"1\" rowspan=\"1\"><strong>-6.95 (-9.09, -4.82)</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>&lt;0.001</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>-8.87 (-10.04, -7.69)</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>&lt;0.001</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>-4.23 (-6.71, -1.74)</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>0.001</strong></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Child Opportunity Index quintile</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">5th (highest)</td><td colspan=\"1\" rowspan=\"1\">reference</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">reference</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">reference</td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">4th</td><td colspan=\"1\" rowspan=\"1\"><strong>-2.93 (-4.37, -1.49)</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>&lt;0.001</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>-3.69 (-4.53, -2.85)</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>&lt;0.001</strong></td><td colspan=\"1\" rowspan=\"1\">-1.38 (-3.07, 0.31)</td><td colspan=\"1\" rowspan=\"1\">0.109</td></tr><tr><td colspan=\"1\" rowspan=\"1\">3rd</td><td colspan=\"1\" rowspan=\"1\"><strong>-3.16 (-4.92, -1.40)</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>&lt;0.001</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>-5.58 (-6.61, -4.55)</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>&lt;0.001</strong></td><td colspan=\"1\" rowspan=\"1\">-1.28 (-3.34, 0.79)</td><td colspan=\"1\" rowspan=\"1\">0.224</td></tr><tr><td colspan=\"1\" rowspan=\"1\">2nd</td><td colspan=\"1\" rowspan=\"1\"><strong>-6.92 (-8.91, -4.93)</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>&lt;0.001</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>-9.20 (-10.37, -8.02)</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>&lt;0.001</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>-2.66 (-5.00, -0.33)</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>0.025</strong></td></tr><tr><td colspan=\"1\" rowspan=\"1\">1st (lowest)</td><td colspan=\"1\" rowspan=\"1\"><strong>-8.45 (-10.77, -6.12)</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>&lt;0.001</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>-11.66 (-12.85, -10.47)</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>&lt;0.001</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>-3.54 (-6.26, -0.81)</strong></td><td colspan=\"1\" rowspan=\"1\"><strong>0.011</strong></td></tr></table>"
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 1",
+          "caption": "Higher baseline neighborhood disadvantage (high ADI, high SVI, low COI) was associated with higher cardiovascular disease risk (lower Life’s Essential 8 scores) at Years 2 and 3. Statistical significance: *p &lt; 0.01, **p &lt; 0.001. Ref = reference group: “most favorable” neighborhood quality quintile (low ADI, low SVI, high COI).",
+          "src": "assets/pmc/PMC13633921/gr1.webp",
+          "alt": "Fig. 1 Higher baseline neighborhood disadvantage (high ADI, high SVI, low COI) was associated with higher cardiovascular disease risk (lower Life’s Essential 8 scores) at Years 2 and 3.Statistical significance: *p < 0.01, **p < 0.001.Ref = reference group: “most favorable” neighborhood quality quintile (low ADI, low SVI, high COI)."
+        },
+        {
+          "type": "paragraph",
+          "html": "A significant dose-response relationship was observed for the overall LE8 (N=1,125) and behavioral subcomponent (N=8,160) scores, with these scores progressively decreasing across increasing neighborhood deprivation quintiles for all three indices (ADI, SVI, and COI) (p-trend &lt; 0.001). Although statistically significant, the linear regression models only explained a modest proportion of variance in LE8 scores (Supplementary Table S3). Results from modified Poisson regression models were largely consistent with those from multivariable linear regression analyses (Supplementary Table S4)."
+        },
+        {
+          "type": "paragraph",
+          "html": "When examining individual LE8 components (behavioral components: N=8,160; health components: N=1,125), neighborhood disadvantage was significantly associated with lower diet, nicotine, physical activity, sleep duration, and BMI scores (Supplementary Table S5)."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Our study found that higher neighborhood disadvantage across all three indices (ADI, SVI, and COI) showed approximately dose-response relationships with lower LE8 cardiovascular health scores in early adolescents in a large, nationally representative cohort study. Specifically, early adolescents in the most advantaged neighborhoods had LE8 scores 7–9 points higher than those in the most disadvantaged neighborhoods. A 10-point increase in LE8 score has been associated with a 22–40% reduction in CVD risk [27]; therefore, while caution is warranted when extrapolating to adolescents, the 7–9-point lower scores observed among early adolescents in the most disadvantaged neighborhoods may have clinically meaningful implications for future cardiovascular risk. The consistency of findings across ADI, SVI, and COI also suggests an association between neighborhood context and LE8 scores. This consistency potentially reflects shared underlying dimensions of neighborhood disadvantage captured across these indices (e.g., socioeconomic status), although each measure also incorporates distinct conceptual domains."
+        },
+        {
+          "type": "paragraph",
+          "html": "The results also demonstrated that associations between neighborhood disadvantage and LE8 scores were primarily driven by behavioral factors (e.g., diet, physical activity, nicotine exposure, sleep duration), with strong and consistent associations observed for behavioral factors and largely nonsignificant associations with health factors. Additionally, confidence intervals for health factor (physiological health) estimates were relatively wide, suggesting limited precision and warranting caution in interpretation. Behavioral factors may drive the relationship between overall LE8 cardiovascular health scores and neighborhood disadvantage because, in early adolescence, CVD risk is more immediately shaped by modifiable behaviors such as physical activity and healthy sleep than by cardiometabolic measures like BMI, lipids, glucose, and blood pressure, which accumulate with aging and manifest more strongly over time. This suggests that neighborhood environments shape cardiovascular health in early adolescence primarily by enabling or limiting healthy behaviors through access to recreational spaces, healthy food options, and environments that facilitate quality sleep."
+        },
+        {
+          "type": "paragraph",
+          "html": "These findings align with a growing body of literature connecting neighborhood disadvantage to cardiovascular disease risk [28]. Previous studies have found associations between neighborhood disadvantage and CVD in adults [9,[29], [30], [31], [32], [33]], and area deprivation and cardiometabolic health among children and young adults [34,35]. However, no study to our knowledge has examined cardiovascular health using the LE8 framework in early adolescence in conjunction with three measures of neighborhood disadvantage."
+        },
+        {
+          "type": "paragraph",
+          "html": "Our study has several key strengths, including the use of a large, geographically diverse national cohort, the incorporation of multiple, validated measures of neighborhood-level deprivation, and a comprehensive assessment of cardiovascular health using the AHA’s LE8 framework. Limitations of our study include reliance on self- and caretaker-reported behavioral subcomponent data and potential residual confounding by unmeasured family or individual characteristics. Another limitation is that neighborhood disadvantage was measured at a single time point, limiting our ability to assess cumulative or time-varying neighborhood exposures. Given the examination of multiple exposures and outcomes, there is a potential for inflation of Type I error, which should be considered when interpreting the findings. Additionally, some cardiometabolic measures were obtained from either the Year 2 or Year 3 follow-up due to COVID-19-related disruptions in data collection. Consequently, outcomes were not measured at a uniform time point across participants, introducing the potential for timing-related variability and selection bias. However, incorporating available Year 3 data improved completeness of cardiometabolic measures and reduced the loss of participants that would have occurred if analyses were restricted to Year 2 data alone. Participants excluded from the analytic sample for LE8 scores were more likely to be younger and Black compared with those included, potentially resulting in underrepresentation of these groups and limiting the generalizability of the findings. Furthermore, behavioral and health factor estimates were not directly comparable due to differing analytic samples."
+        },
+        {
+          "type": "paragraph",
+          "html": "These findings have notable clinical and policy implications. Clinicians caring for early adolescents should consider integrating neighborhood disadvantage into cardiovascular risk assessment. Neighborhood disadvantage indices, such as ADI, could be integrated into electronic health records to identify patients who may benefit from social needs screening, connections to social workers, and additional resources. Our studies also reinforce recent calls for a Health in All Policies approach to urban and community planning [36]. This policy framework prioritizes neighborhood features such as walkable communities, access to healthy food, and green spaces, which have been shown to improve health outcomes by addressing barriers to healthful behaviors. This framework aligns with our finding that neighborhood disadvantage shapes early adolescent cardiovascular health through behavioral pathways. When young people have access to sidewalks, parks, and healthy foods within their schools and neighborhoods, they are more likely to adopt behaviors that reduce their risk of CVD."
+        },
+        {
+          "type": "paragraph",
+          "html": "Central illustration"
+        },
+        {
+          "type": "figure",
+          "label": "",
+          "caption": "",
+          "src": "assets/pmc/PMC13633921/gr2.webp",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Adolescence is a critical developmental period when exposure to neighborhood disadvantage may initiate pathophysiological processes that culminate in adult CVD. This study demonstrates that higher neighborhood-level deprivation, as measured by ADI, SVI, and COI, is independently associated with CVD risk factors, particularly behavioral factors and BMI, in early adolescence. Understanding the connection between neighborhood resource access and cardiovascular risk across the life course could enable physicians and health systems to target high-risk neighborhoods for intensive primary prevention strategies that address upstream determinants of CVD."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of generative AI and AI-assisted technologies in the manuscript preparation process",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "During the preparation of this work, the authors used ChatGPT to assist in the creation of the central illustration. The generated output was reviewed and, where necessary, modified by the authors. The authors take full responsibility for the content of the published article."
+        }
+      ]
+    },
+    {
+      "title": "Acknowledgements",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Funding",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "J.M.N. was funded by the National Institutes of Health (K08HL1549350) and the Doris Duke Charitable Foundation (2022056). The funders had no role in the design and conduct of the study; collection, management, analysis, and interpretation of the data; preparation, review, or approval of the manuscript; and decision to submit the manuscript for publication."
+        },
+        {
+          "type": "paragraph",
+          "html": "The ABCD Study was supported by the National Institutes of Health and additional federal partners under award numbers U01DA041022, U01DA041025, U01DA041028, U01DA041048, U01DA041089, U01DA041093, U01DA041106, U01DA041117, U01DA041120, U01DA041134, U01DA041148, U01DA041156, U01DA041174, U24DA041123, and U24DA041147. A full list of supporters is available at <a href=\"https://abcdstudy.org/federal-partners/\">https://abcdstudy.org/federal-partners/</a>. A listing of participating sites and a complete listing of the study investigators can be found at <a href=\"https://abcdstudy.org/principal-investigators.html\">https://abcdstudy.org/principal-investigators.html</a>. ABCD consortium investigators designed and implemented the study and/or provided data but did not necessarily participate in the analysis or writing of this report."
+        }
+      ]
+    },
+    {
+      "title": "Ethics approval",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The University of California, San Diego provided centralized institutional review board (IRB) approval and each participating site received local IRB approval."
+        }
+      ]
+    },
+    {
+      "title": "Consent, data, materials and/or code availability",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Written informed consent and assent were obtained from the parent/guardian and adolescent, respectively, to participate in the ABCD Study. Data used in the preparation of this article were obtained from the ABCD Study (<a href=\"https://abcdstudy.org\">https://abcdstudy.org</a>), held in the held in the NIH Brain Development Cohorts (NBDC) Portal."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Christiane K. Helmer:</strong> Writing – review &amp; editing, Writing – original draft, Formal analysis. <strong>Olivia Veira:</strong> Writing – review &amp; editing, Writing – original draft, Formal analysis. <strong>Erin E. Dooley:</strong> Writing – review &amp; editing. <strong>Hoda S. Abdel Magid:</strong> Writing – review &amp; editing. <strong>Alexander Testa:</strong> Writing – review &amp; editing. <strong>Kelley Pettee Gabriel:</strong> Writing – review &amp; editing. <strong>Fiona C. Baker:</strong> Writing – review &amp; editing, Methodology, Data curation. <strong>Holly C. Gooding:</strong> Writing – review &amp; editing. <strong>Jason M. Nagata:</strong> Writing – review &amp; editing, Writing – original draft, Supervision, Formal analysis, Data curation, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "text": "Heart Disease Facts. Heart Disease. 2025."
+    },
+    {
+      "text": "Heron M, Anderson RN. Changes in the leading cause of death: recent patterns in heart disease and cancer mortality. Natl Center for Health Statist Data Brief. 2016. PMID: 27598767"
+    },
+    {
+      "text": "Halcox JP, Deanfield JE. Childhood origins of endothelial dysfunction. Heart. 2005;91(10):1272–1274. DOI: 10.1136/hrt.2005.061317. PMCID: PMC1769127. PMID: 16162614"
+    },
+    {
+      "text": "Berenson GS, Srinivasan SR, Bao W, Newman WP, Tracy RE, Wattigney WA. Association between multiple cardiovascular risk factors and atherosclerosis in children and young adults. New Engl J Med. 1998;338(23):1650–1656. DOI: 10.1056/NEJM199806043382302. PMID: 9614255"
+    },
+    {
+      "text": "Lloyd-Jones DM, Allen NB, Anderson CAM, Black T, Brewer LC, Foraker RE, Grandner MA, Lavretsky H, Perak AM, Sharma G, Rosamond W, American Heart Association. Life’s Essential 8: updating and enhancing the American Heart Association’s construct of cardiovascular health. Circulation. 2022;146. DOI: 10.1161/CIR.0000000000001078. PMCID: PMC10503546. PMID: 35766027"
+    },
+    {
+      "text": "Sebastian SA, Shah Y, Paul H, Arsene C. Life’s Essential 8 and the risk of cardiovascular disease: a systematic review and meta-analysis. Eur J Prev Cardiol. 2025;32(5):358–373. DOI: 10.1093/eurjpc/zwae280. PMID: 39171613"
+    },
+    {
+      "text": "Diez Roux AV, Merkin SS, Arnett D, Chambless L, Massing M, Nieto FJ, Sorlie P, Szklo M, Tyroler HA, Watson RL. Neighborhood of residence and incidence of coronary heart disease. New Engl J Med. 2001;345(2):99–106. DOI: 10.1056/NEJM200107123450205. PMID: 11450679"
+    },
+    {
+      "text": "Barber S, Hickson DA, Wang X, Sims M, Nelson C, Diez-Roux AV. Neighborhood disadvantage, poor social conditions, and cardiovascular disease incidence among African American adults in the Jackson Heart Study. Am J Public Health. 2016;106(12):2219–2226. DOI: 10.2105/AJPH.2016.303471. PMCID: PMC5105010. PMID: 27736207"
+    },
+    {
+      "text": "Lusk JB, Blass B, Mahoney H, Hoffman MN, Clark AG, Bae J, Mentz RJ, Wang TY, Patel M, Hammill BG. Neighborhood socioeconomic disadvantage and 30-day outcomes for common cardiovascular conditions. J Am Heart Assoc. 2024;13(16). DOI: 10.1161/JAHA.124.036265. PMCID: PMC11963947. PMID: 39119993"
+    },
+    {
+      "text": "Zewdie H, Zhao AY, Patel HH, Hansen E, Messiah SE, Armstrong SC, Skinner AC, Neshteruk CD, Hipp JA, D'Agostino EM. The association between neighborhood quality, youth physical fitness, and modifiable cardiovascular disease risk factors. Ann Epidemiol. 2021;57:30–39. DOI: 10.1016/j.annepidem.2021.02.004. PMID: 33596444"
+    },
+    {
+      "text": "Nuotio J, Laitinen TT, Magnussen CG, Sinaiko AR, Bazzano LA, Daniels SR, Jacobs DR, Kartiosuo N, Koskinen J, Burgner DP, Kähönen M, Raitakari OT, Steinberger J, Urbina EM, Venn AJ, Viikari JSA, Woo JG, Dwyer T, Juonala M. Predictors in youth of adult cardiovascular events. Pediatrics. 2024;154(5). DOI: 10.1542/peds.2024-066736. PMCID: PMC11524034. PMID: 39397535"
+    },
+    {
+      "text": "Jacobs DR, Woo JG, Sinaiko AR, Daniels SR, Ikonen J, Juonala M, Kartiosuo N, Lehtimäki T, Magnussen CG, Viikari JSA, Zhang N, Bazzano LA, Burns TL, Prineas RJ, Steinberger J, Urbina EM, Venn AJ, Raitakari OT, Dwyer T. Childhood cardiovascular risk factors and adult cardiovascular events. New Engl J Med. 2022;386(20):1877–1888. DOI: 10.1056/NEJMoa2109191. PMCID: PMC9563825. PMID: 35373933"
+    },
+    {
+      "text": "Fletcher JM, McLaughlin SM. Neighborhood factors during adolescence: modest effects on cardiovascular risk, small impact on obesity and depression. Health Aff (Millwood). 2015;34(9):1472–1479. DOI: 10.1377/hlthaff.2015.0292. PMCID: PMC6714560. PMID: 26355048"
+    },
+    {
+      "text": "Denstel KD, Beyl RA, Danos DM, Kepper MM, Staiano AE, Theall KT, Tseng TS, Broyles ST. An examination of the relationships between the neighborhood social environment, adiposity, and cardiometabolic disease risk in adolescence: a cross-sectional study. BMC Public Health. 2023;23(1):1692. DOI: 10.1186/s12889-023-16580-0. PMCID: PMC10472712. PMID: 37658323"
+    },
+    {
+      "text": "Kakinami L, Serbin LA, Stack DM, Karmaker SC, Ledingham JE, Schwartzman AE. Neighbourhood disadvantage and behavioural problems during childhood and the risk of cardiovascular disease risk factors and events from a prospective cohort. Prev Med Rep. 2017;8:294–300. DOI: 10.1016/j.pmedr.2017.10.003. PMCID: PMC5723374. PMID: 29255665"
+    },
+    {
+      "text": "Singh GK. Area deprivation and widening inequalities in US mortality, 1969-1998. Am J Public Health. 2003;93(7):1137–1143. DOI: 10.2105/ajph.93.7.1137. PMCID: PMC1447923. PMID: 12835199"
+    },
+    {
+      "text": "Flanagan B.E., Gregory E.W., Hallisey E.J., Heitgerd J.L., Lewis B. A social vulnerability index for disaster management. J Homeland Secur Emerg Manage. 2011;8(1). DOI: 10.2202/1547-7355.1792"
+    },
+    {
+      "text": "Acevedo-Garcia D, McArdle N, Hardy EF, Crisan UI, Romano B, Norris D, Baek M, Reece J. The child opportunity index: improving collaboration between community development and public health. Health Aff (Millwood). 2014;33(11):1948–1957. DOI: 10.1377/hlthaff.2014.0679. PMID: 25367989"
+    },
+    {
+      "text": "Karcher NR, Barch DM. The ABCD Study: understanding the development of risk for mental and physical health outcomes. Neuropsychopharmacol. 2021;46(1):131–142. DOI: 10.1038/s41386-020-0736-6. PMCID: PMC7304245. PMID: 32541809"
+    },
+    {
+      "text": "Barch DM, Albaugh MD, Avenevoli S, Chang L, Clark DB, Glantz MD, Hudziak JJ, Jernigan TL, Tapert SF, Yurgelun-Todd D, Alia-Klein N, Potter AS, Paulus MP, Prouty D, Zucker RA, Sher KJ. Demographic, physical and mental health assessments in the Adolescent Brain Cognitive Development Study: rationale and description. Dev Cogn Neurosci. 2018;32:55–66. DOI: 10.1016/j.dcn.2017.10.010. PMCID: PMC5934320. PMID: 29113758"
+    },
+    {
+      "text": "Fan CC, Marshall A, Smolker H, Gonzalez MR, Tapert SF, Barch DM, Sowell E, Dowling GJ, Cardenas-Iniguez C, Ross J, Thompson WK, Herting MM. Adolescent Brain Cognitive Development (ABCD) Study linked external data (LED): protocol and practices for geocoding and assignment of environmental data. Dev Cogn Neurosci. 2021;52. DOI: 10.1016/j.dcn.2021.101030. PMCID: PMC8666341. PMID: 34891080"
+    },
+    {
+      "text": "Acevedo-Garcia D, Noelke C, McArdle N, Sofer N, Hardy EF, Weiner M, Baek M, Huntington N, Huber R, Reece J. PMID: 33017244"
+    },
+    {
+      "text": "What is child opportunity? 2024. Accessed January 19, 2026. https://www.diversitydatakids.org/research-library/research-brief/what-child-opportunity."
+    },
+    {
+      "text": "Lloyd-Jones DM, Ning H, Labarthe D, Brewer L, Sharma G, Rosamond W, Foraker RE, Black T, Grandner MA, Allen NB, Anderson C, Lavretsky H, Perak AM. Status of cardiovascular health in US adults and children using the American Heart Association’s new “Life’s Essential 8” metrics: prevalence estimates from the National Health and Nutrition Examination Survey (NHANES). Circulation. 2022;146(11):822–835. DOI: 10.1161/CIRCULATIONAHA.122.060911. PMID: 35766033"
+    },
+    {
+      "text": "Nagata JM, Helmer CK, Frimpong I, Heuer AW, Murillo KB, Nguyen ND, Huang OH, Al-Shoaibi AA, Gabriel KP, Dooley EE, Baker FC, Gooding HC. Cardiovascular health of US early adolescents assessed by the Life’s Essential 8 metric. AJPM Focus. 2026. DOI: 10.1016/j.focus.2026.100497. PMCID: PMC13487616. PMID: 42621349"
+    },
+    {
+      "text": "Metlock FE, Stanislas KA, Ogungbe O, Teshome B, Hinneh T, Turkson-Ocran RA, Himmelfarb CR, Sharma G, Commodore-Mensah Y. Sex differences in the association between cumulative social risk and Life’s Essential 8 cardiovascular health scores in U.S. adults. Am J Prevent Cardiol. 2026;28. DOI: 10.1016/j.ajpc.2026.101566. PMCID: PMC13325737. PMID: 42395081"
+    },
+    {
+      "text": "Ning H, Perak AM, Siddique J, Wilkins JT, Lloyd-Jones DM, Allen NB. Association between Life’s Essential 8 cardiovascular health metrics with cardiovascular events in the Cardiovascular Disease Lifetime Risk Pooling Project. Circ Cardiovasc Qual Outcomes. 2024;17(5). DOI: 10.1161/CIRCOUTCOMES.123.010568. PMCID: PMC11209842. PMID: 38639077"
+    },
+    {
+      "text": "Bazoukis G, Loscalzo J, Hall JL, Bollepalli SC, Singh JP, Armoundas AA. Impact of social determinants of health on cardiovascular disease. J Am Heart Assoc. 2025;14(5). DOI: 10.1161/JAHA.124.039031. PMCID: PMC12132660. PMID: 40035388"
+    },
+    {
+      "text": "Khan SS, Matsushita K, Sang Y, Ballew SH, Grams ME, Surapaneni A, Blaha MJ, Carson AP, Chang AR, Ciemins E, Go AS, Gutierrez OM, Hwang SJ, Jassal SK, Kovesdy CP, Lloyd-Jones DM, Shlipak MG, Palaniappan LP, Sperling L, Virani SS, Tuttle K, Neeland IJ, Chow SL, Rangaswami J, Pencina MJ, Ndumele CE, Coresh J, Chronic Kidney Disease Prognosis Consortium and the American Heart Association Cardiovascular-Kidney-Metabolic Science Advisory Group. Development and validation of the American Heart Association’s PREVENT equations. Circulation. 2024;149(6):430–449. DOI: 10.1161/CIRCULATIONAHA.123.067626. PMCID: PMC10910659. PMID: 37947085"
+    },
+    {
+      "text": "Deng K, Xu M, Sahinoz M, Cai Q, Shrubsole MJ, Lipworth L, Gupta DK, Dixon DD, Zheng W, Shah R, Yu D. Associations of neighborhood sociodemographic environment with mortality and circulating metabolites among low-income black and white adults living in the southeastern United States. BMC Med. 2024;22(1):249. DOI: 10.1186/s12916-024-03452-6. PMCID: PMC11184804. PMID: 38886716"
+    },
+    {
+      "text": "Akwo EA, Kabagambe EK, Harrell FE, Blot WJ, Bachmann JM, Wang TJ, Gupta DK, Lipworth L. Neighborhood deprivation predicts heart failure risk in a low-income population of Blacks and Whites in the southeastern United States. Circ Cardiovasc Qual Outcomes. 2018;11(1). DOI: 10.1161/CIRCOUTCOMES.117.004052. PMCID: PMC5769153. PMID: 29317456"
+    },
+    {
+      "text": "Denstel KD, Beyl RA, Danos DM, Kepper MM, Staiano AE, Theall KT, Tseng TS, Broyles ST. An examination of the relationships between the neighborhood social environment, adiposity, and cardiometabolic disease risk in adolescence: a cross-sectional study. BMC Public Health. 2023;23(1):1692. DOI: 10.1186/s12889-023-16580-0. PMCID: PMC10472712. PMID: 37658323"
+    },
+    {
+      "text": "Baker-Smith CM, Yang W, McDuffie MJ, Nescott EP, Wolf BJ, Wu CH, Zhang Z, Akins RE. Association of area deprivation with primary hypertension diagnosis among youth Medicaid recipients in Delaware. JAMA Netw Open. 2023;6(3). DOI: 10.1001/jamanetworkopen.2023.3012. PMCID: PMC10018318. PMID: 36920393"
+    },
+    {
+      "text": "Williams AD, Shenassa E, Slopen N, Rossen L. Cardiometabolic dysfunction among U.S. adolescents and area-level poverty: race/ethnicity-specific associations. J Adolesc Health. 2018;63(5):546–553. DOI: 10.1016/j.jadohealth.2018.07.003. PMCID: PMC6318802. PMID: 30348278"
+    },
+    {
+      "text": "Aris IM, Rifas-Shiman SL, Jimenez MP, Li LJ, Hivert MF, Oken E, James P. Neighborhood Child Opportunity Index and adolescent cardiometabolic risk. Pediatrics. 2021;147(2). DOI: 10.1542/peds.2020-018903. PMCID: PMC7906069. PMID: 33479165"
+    },
+    {
+      "text": "Rajagopalan S, Ramaswami A, Bhatnagar A, Brook RD, Fenton M, Gardner C, Neff R, Russell AG, Seto KC, Whitsel LP, American Heart Association Council on Hypertension; Council on Lifestyle and Cardiometabolic Health; Council on Peripheral Vascular Disease; Council on Lifelong Congenital Heart Disease and Heart Health in the Young; Council on Cardiovascular Surgery and Anesthesia; and the American Heart Association Advocacy Coordinating Committee. Toward heart-healthy and sustainable cities: a policy statement from the American Heart Association. Circulation. 2024;149(15):e1067–e1089. DOI: 10.1161/CIR.0000000000001217. PMCID: PMC12160618. PMID: 38436070"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

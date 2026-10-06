@@ -1,0 +1,644 @@
+{
+  "pmcid": "PMC13633904",
+  "pmid": "42830762",
+  "doi": "10.1016/j.ajpc.2026.101783",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13633904/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Study design, rationale, and baseline characteristics of ATTAIN-HYPERTENSION, a phase 3 trial of the oral GLP-1 receptor agonist orforglipron for hypertension",
+  "articleType": "Research Article",
+  "published": "2026-08-06",
+  "year": "2026",
+  "volume": "30",
+  "issue": "",
+  "articleNumber": "101783",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2026",
+  "authors": [
+    {
+      "given": "Luke",
+      "surname": "Laffin",
+      "display": "Luke Laffin"
+    },
+    {
+      "given": "Markus P.",
+      "surname": "Schlaich",
+      "display": "Markus P. Schlaich"
+    },
+    {
+      "given": "Michael E.",
+      "surname": "Hall",
+      "display": "Michael E. Hall"
+    },
+    {
+      "given": "Cathy C.",
+      "surname": "Xie",
+      "display": "Cathy C. Xie"
+    },
+    {
+      "given": "Girish",
+      "surname": "Rao",
+      "display": "Girish Rao"
+    },
+    {
+      "given": "Mallik",
+      "surname": "Rettiganti",
+      "display": "Mallik Rettiganti"
+    },
+    {
+      "given": "Ellen B.",
+      "surname": "Dennehy",
+      "display": "Ellen B. Dennehy"
+    },
+    {
+      "given": "Bruno",
+      "surname": "Linetzky",
+      "display": "Bruno Linetzky"
+    }
+  ],
+  "affiliations": [
+    "aCleveland Clinic Foundation, Cleveland, USA",
+    "bDobney Hypertension Centre, Medical School, University of Western Australia, Royal Perth Hospital and RPH Research Foundation, Perth, Australia",
+    "cThe University of Mississippi Medical Center, Jackson, USA",
+    "dEli Lilly and Company, Indianapolis, USA"
+  ],
+  "keywords": [
+    "Hypertension",
+    "Blood pressure",
+    "Orforglipron",
+    "GLP-1 RA",
+    "Pharmacotherapy",
+    "Randomized trial"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Background:</strong> Up to three-quarters of primary hypertension is epidemiologically attributed to excess adiposity. Incretin-based therapies are consistently associated with reduced blood pressure (BP) in clinical trials; however, no prior trial has investigated incretin-based therapies for hypertension treatment with BP as its primary efficacy outcome."
+    },
+    {
+      "html": "<strong>Methods:</strong> ATTAIN—HYPERTENSION is a phase 3 master protocol directing two identical, randomized, placebo-controlled studies. Participants with BMI≥25kg/m<sup>2</sup> and systolic BP (SBP)≥140 mmHg or diastolic BP (DBP)≥90 mmHg, independent of antihypertensive treatment, are randomized 2:1 to orforglipron or placebo. The study includes 5 periods: screening, a 4-week run-in during which treated participants change to standard background medications (olmesartan, amlodipine, hydrochlorothiazide), a 48-week treatment period including dose escalation and return to baseline antihypertensive medication, a 12-week randomized withdrawal period, and a 2-week safety follow-up. Primary end point is the change in office SBP at Week 36. Key secondary end points include change in ambulatory SBP, percent change in hsCRP, percent change in body weight, percent change in triglycerides and non-HDL cholesterol, and change in SBP across the randomized withdrawal period"
+    },
+    {
+      "html": "<strong>Results:</strong> ATTAIN—HYPERTENSION randomized 538 participants in Trial 1 and 546 in Trial 2 between April 2025 and January 2026 at 100 locations across 10 countries. The randomized population has a mean (SD) age of 53.7 (11.8) years, BMI of 35.6kg/m² (6.9), and office SBP of 144.2 mmHg (10.3). At screening, 55.4% of participants were treated with antihypertensive medication."
+    },
+    {
+      "html": "<strong>Conclusion:</strong> ATTAIN—HYPERTENSION investigates the efficacy and safety of orforglipron for the treatment of hypertension in adults with overweight or obesity. Described here are the novel trial design, its rationale, and the enrolled population’s baseline characteristics. (ClinicalTrials.gov: NCT06948422)"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Hypertension is the leading cause of mortality globally, with 10.8 million deaths directly attributable to uncontrolled blood pressure (BP), representing &gt;19% of total deaths [1]. Despite the availability of multiple well-established antihypertensive treatments, BP control rates remain poor and are decreasing. These trends are being driven by decreasing awareness and treatment rates [2], therapeutic inertia, suboptimal treatment intensification in clinical practice [3] and deprioritization of relevant pathophysiologic mechanisms."
+        },
+        {
+          "type": "paragraph",
+          "html": "Overweight or obesity affect over 2.5 billion people worldwide, increasing the risk of multiple health complications [4]. Epidemiological evidence indicates that 65% to 75% of primary hypertension cases are attributable to overweight or obesity [5]. Several mechanisms contribute to BP elevations among people with overweight and obesity, including kidney dysfunction associated with increased tubular sodium reabsorption through the accumulation of visceral, perirenal and renal sinus fat, activation of the renin–angiotensin–aldosterone system, increased renal sympathetic nerve activity (RSNA), impaired pressure natriuresis, among others [6,7]. Current approaches to achieve adequate BP control among people with hypertension often require a combination of several antihypertensive medications acting predominantly on the downstream effects of mechanisms influenced by adiposity and obesity, instead of the underlying obesity related pathophysiology [8]. Novel approaches targeting the underlying cause for sustained BP elevations in people with overweight or obesity represent an unmet clinical need."
+        },
+        {
+          "type": "paragraph",
+          "html": "Clinical guidelines from the United States, United Kingdom, and Europe recommend weight loss of at least 5% of body weight to prevent or treat hypertension in adults with overweight or obesity [[8], [9], [10], [11]]. The evidence for treatment of hypertension with weight management therapies from dedicated randomized clinical trials is limited. The ENCORE study demonstrated that the addition of exercise and weight loss to the Dietary Approaches to Stop Hypertension diet produced greater BP reductions compared with dietary modification alone in participants with overweight and obesity with above-normal BP [12]. The TONE trial showed that reduced sodium intake and weight loss constitute a feasible and effective nonpharmacologic strategy to maintain BP control following antihypertensive medication withdrawal in older adults [13]. The GATEWAY study proved that Roux-en-Y gastric bypass surgery combined with medical therapy was more effective than medical therapy alone in reducing the number of antihypertensive medications while maintaining controlled BP in people with obesity and hypertension [14]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Glucagon-like peptide-1 (GLP-1) receptor agonists (RA) and glucose-dependent insulinotropic polypeptide (GIP)/GLP-1 RAs have emerged as effective treatments for weight management in people with obesity and in people with overweight and other health-related conditions [14]. Accumulating evidence suggests that these medications may also reduce BP in participants with overweight or obesity, such that the 2025 US guidelines note that incretin mimetics, when used for weight management, may be effective as an adjunct to lower BP [15]. For example, in post hoc analyses of the SURMOUNT-1 trial and SURPASS clinical program, treatment with the GIP/GLP-1 RA tirzepatide was associated with reduced BP, and the underlying mechanisms appear to be both weight-dependent and weight-independent [[16], [17], [18]]. Furthermore, tirzepatide has been approved for the treatment of obstructive sleep apnea (OSA), a disease commonly associated with hypertension and obesity [19]. Treatment of OSA with tirzepatide may additionally mediate BP lowering [20]. In meta-analyses and post hoc analyses of clinical trials investigating the efficacy of semaglutide in people with overweight or obesity with and without diabetes, clinically meaningful BP lowering effects were observed [[21], [22], [23], [24]]. Similarly, orforglipron, an oral non-peptide GLP-1 RA, was associated with BP reduction across studies in adults with obesity or overweight with and without type 2 diabetes [[25], [26], [27], [28]]. Orforglipron is approved in the US in combination with a reduced-calorie diet and increased physical activity to reduce excess body weight and maintain weight reduction long term in adults with obesity or adults with overweight in the presence of at least one weight-related comorbid condition."
+        },
+        {
+          "type": "paragraph",
+          "html": "However, the above evidence for BP reduction associated with incretin-based therapies derives from secondary analyses of trials that did not enroll participants with hypertension as a primary indication [[17], [18], [19],[22], [23], [24], [25], [26], [27], [28], [29], [30]]; there are no dedicated prospective randomized trials assessing BP reduction as a primary outcome in well-characterized hypertension populations. Thus, existing evidence is limited by methodological constraints inherent to post hoc analyses, including heterogeneous and uncontrolled background antihypertensive medication use, absence of standardized BP measurement protocols, absence of ambulatory BP monitoring, end points not powered or pre-specified for BP outcomes, follow-up time not designed to characterize the trajectory and maximal extent of BP reduction over time and the lack of data on BP effect maintenance after treatment withdrawal."
+        },
+        {
+          "type": "paragraph",
+          "html": "ATTAIN—HYPERTENSION (ClinicalTrials.gov: NCT06948422) addresses this unmet methodological gap with a novel study design to investigate the safety and efficacy of orforglipron as a treatment to reduce BP in people with uncontrolled hypertension and overweight or obesity. The rationale, design, and baseline characteristics of this program are described within."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The ATTAIN—HYPERTENSION program is a phase 3 master protocol directing two independent, identical, multicenter, randomized, parallel-arm, double-blind, placebo-controlled studies. This program is being conducted in accordance with good clinical practice guidelines and the principles of the Declaration of Helsinki. Independent Ethics Committee or Institutional Review Board approval was received for each of the participating sites. A list of the institutional review boards is provided in the supplementary appendix (<strong>Supplementary Table 1</strong>). All participants provide written informed consent prior to trial participation."
+        }
+      ]
+    },
+    {
+      "title": "Study participants",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Participants eligible for this study are required to fulfill both hypertension-related and weight-related criteria outlined below."
+        },
+        {
+          "type": "paragraph",
+          "html": "Hypertension-related key inclusion criteria include uncontrolled hypertension defined as office SBP ≥ 140 mmHg and/or office DBP ≥ 90 mmHg (if DBP criteria alone is met, office SBP must be ≥130 mmHg) at screening and after the run-in period. Sites are trained to follow standardized procedures for assessment of BP, and to use validated and calibrated assessment devices evaluated by the independent scientific review process published by STRIDE-BP [31]. Further details are available in the supplementary appendix. Key exclusion criteria include office SBP ≥170 mmHg and/or office DBP ≥110 mmHg at screening or after run-in period; known secondary causes of hypertension; &lt; 80% adherence to study-provided antihypertensive medication prior to randomization as monitored by the site investigators."
+        },
+        {
+          "type": "paragraph",
+          "html": "Importantly, the program prohibits enrollment of individuals initiating or adjusting medication that may impact BP within 1 month of screening. This includes medications from the following classes: angiotensin receptor blockers (ARBs) and angiotensin-converting enzyme (ACE) inhibitors, thiazide and thiazide-like diuretics, dihydropyridine calcium channel blockers. A full list of restricted and prohibited medications is included in the supplementary appendix (Supplementary Table 2)."
+        },
+        {
+          "type": "paragraph",
+          "html": "A key overweight/obesity related eligibility criterion is a BMI ≥ 25 kg/m<sup>2</sup>. Key exclusion criteria include any use of GLP-1 RA or GIP/GLP-1 RA within 3 months of screening or prior or planned surgical intervention for weight reduction; and any self-reported change in body weight &gt; 5 kg within 3 months prior to screening. A complete list of eligibility criteria is included in Supplementary Table 3."
+        }
+      ]
+    },
+    {
+      "title": "Study design",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The ATTAIN—HYPERTENSION program is conducted under a phase 3 master protocol comprising two independent, identical, multicenter, randomized, parallel-arm, double-blind, placebo-controlled studies evaluating the efficacy and safety of orforglipron at maximum tolerated dose (MTD) compared with placebo in adult participants with hypertension and overweight or obesity. The two studies are conducted independently, but in parallel at the same sites. Participants are randomized to one of the two studies after enrollment. Unless otherwise stated, the end points are analyzed independently for each study. As the two studies are identical in design, the following description applies to both."
+        },
+        {
+          "type": "paragraph",
+          "html": "Participants are randomized 2:1 to orforglipron or placebo. Study intervention used in this program are capsule formulations, which are blinded for treatment and dose. Orforglipron is approved in the US as a tablet formulation. Capsule and tablet formulations are bioequivalent, with capsule doses of 1 mg, 3 mg, 6 mg, 12 mg, 24 mg, and 36 mg corresponding to approved tablet doses of 0.8 mg, 2.5 mg, 5.5 mg, 9 mg, 14.5 mg, and 17.2 mg, respectively [32]. Participants completed gradual capsule dose escalation to reach a MTD within the 12 mg, 24 mg, and 36 mg strengths (equivalent to 9 mg, 14.5 mg, and 17.2 mg tablet strength). The 60-week study consists of 5 periods: screening, run-in, treatment, randomized withdrawal, and safety follow-up (Fig. 1)."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 1",
+          "caption": "Study Design. Note: Only those participants taking antihypertensive medications at screening will complete the run-in period (Study Period 2). All other participants will proceed to randomization and treatment period after screening is complete. During Study Period 3b, participants return to their baseline antihypertensive regimen present at the time of randomization. Orforglipron is approved in the US as a tablet formulation. Capsule and tablet formulations are bioequivalent, with presented capsule doses of 1 mg, 3 mg, 6 mg, 12 mg, 24 mg, and 36 mg corresponding to approved tablet doses of 0.8 mg, 2.5 mg, 5.5 mg, 9 mg, 14.5 mg, and 17.2 mg, respectively [32]<em>. Abbreviations: d = day; HTN = hypertensive; MTD = maximum tolerated dose; OFG = orforglipron; QD = once daily</em>.",
+          "src": "assets/pmc/PMC13633904/gr1.webp",
+          "alt": "Fig. 1 Study Design. Note: Only those participants taking antihypertensive medications at screening will complete the run-in period (Study Period 2). All other participants will proceed to randomization and treatment period after screening is complete. During Study Period 3b, participants return to their baseline antihypertensive regimen present at the time of randomization. Orforglipron is approved in the US as a tablet formulation. Capsule and tablet formulations are bioequivalent, with presented capsule doses of 1 mg, 3 mg, 6 mg, 12 mg, 24 mg, and 36 mg corresponding to approved tablet doses of 0.8 mg, 2.5 mg, 5.5 mg, 9 mg, 14.5 mg, and 17.2 mg, respectively [32]. Abbreviations: d = day; HTN = hypertensive; MTD = maximum tolerated dose; OFG = orforglipron; QD = once daily."
+        }
+      ]
+    },
+    {
+      "title": "Screening and run-in (Study periods 1 and 2)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "During the 4-week screening period, initial study eligibility is assessed. Participants who enter the study taking ARBs/ACE inhibitors, thiazides or thiazide-like diuretics, or dihydropyridine calcium channel blocker medications are classified “treated” in ATTAIN—HYPERTENSION. Treated participants complete the run-in period. Participants without preexisting antihypertensive medications within the above medication classes are considered “untreated”, do not participate in the run-in period, and progress to study period 3 (randomized treatment period) after the screening period. Antihypertensive medication of other classes are considered restricted medications that participants are instructed to remain on stable doses throughout the program."
+        },
+        {
+          "type": "paragraph",
+          "html": "During the 4-week run-in period, participants switch from their pre-enrollment antihypertensive medication regimen to study-provided standard antihypertensive medications of approximately equivalent potency (olmesartan, hydrochlorothiazide, or amlodipine) termed “baseline medication”. A detailed table providing examples of equivalent doses of study-provided medications for each class is included in the supplementary appendix (Supplementary Table 4)."
+        }
+      ]
+    },
+    {
+      "title": "Randomized treatment period (Study period 3)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Upon completion of the screening period for untreated participants, and the run-in for treated participants, if hypertension remains uncontrolled (office SBP ≥ 140 mmHg and/or office DBP ≥ 90 mmHg, and if DBP criteria alone is met, office SBP must be ≥130 mmHg) and adequate adherence (≥80% adherence to study-provided antihypertensive medication) is demonstrated, participants undergo 24-hour ambulatory blood pressure monitoring (ABPM) and are then randomized to treatment at Week 0 (baseline). The treatment period is subdivided into three distinct periods, each with specified objectives."
+        }
+      ]
+    },
+    {
+      "title": "Study period 3a",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Participants are randomized to blinded study treatment orforglipron or placebo in a 2:1 ratio. Blinded study medication is initiated at 1 mg capsule strength (equivalent to 0.8 mg tablet strength) and escalated every 4 weeks until the MTD dose is reached. Participants are allowed 28 weeks to complete their dose escalation while optimizing tolerability. Adjustment to study-provided antihypertensive medications and doses is permitted at the investigator’s discretion during Study Period 3a."
+        }
+      ]
+    },
+    {
+      "title": "Study period 3b",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "At Week 32, participants return to the baseline antihypertensive regimen doses that were taken at the time of randomization to treatment (Week 0/ baseline) for 4 weeks. This four-week interval concludes with the primary end point assessment evaluating the change in office SBP from baseline to Week 36. Additionally a repeat 24-hour ABPM is undertaken. The protocol allows for this period to be shortened and concluded early, in the event of any safety concerns related to the adjustment of antihypertensive medications. In all cases, however, the office BP and 24-hr ABPM are completed prior to further changes in antihypertensive medication."
+        }
+      ]
+    },
+    {
+      "title": "Study period 3c",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Study Period 3c includes an additional 12-week period during which participants accrue further exposure to blinded study treatment at MTD. During this study period, the baseline antihypertensive medication present at the time of randomization to treatment may be adjusted at the discretion of the investigator, while study treatment continues within the MTD dose range."
+        }
+      ]
+    },
+    {
+      "title": "Randomized withdrawal (Study period 4)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Following completion of the 48-week treatment period, all participants remaining in the study on treatment enter a 12-week double-blind, randomized withdrawal period. Participants initially randomized to orforglipron are re-randomized 1:1 to continue MTD orforglipron or switch to placebo. Participants initially randomized to placebo will undergo a sham re-randomization and continue placebo for 12 weeks. Adjustments to study-provided antihypertensive medication are not permitted during this period; however, as in Study Period 3b, Study Period 4 may be shortened for safety issues requiring rescue or adjustment of antihypertensive medication. Blinded study medication is discontinued at the conclusion of Study Period 4."
+        }
+      ]
+    },
+    {
+      "title": "Safety follow-up",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "All participants complete a safety follow-up visit 2 weeks after discontinuing study treatment. Participants may remain on study-provided antihypertensive medication through the safety follow-up visit. This visit marks the end of all study-related procedures and treatment."
+        }
+      ]
+    },
+    {
+      "title": "Treatment",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "title": "Blinded study medication",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "All study participants are randomized to receive blinded, orally administered study intervention. Participants will escalate once-daily dose every 4 weeks until MTD is reached. Participants who are unable to reach a dose within the MTD range by Week 28 are discontinued from study treatment but may remain in the study. The site investigators receive detailed instructions on how to modify dose and manage treatment interruption, if necessary."
+        }
+      ]
+    },
+    {
+      "title": "Antihypertensive medication",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Antihypertensive medication may be adjusted at the investigator’s discretion throughout specified periods of study. In cases of severe hypertension (defined as SBP &gt;170 mmHg or DBP &gt;110 mmHg), or for other BP values deemed clinically unacceptable by the investigator, rescue medication with dose increases of an existing, or addition of new, study-provided antihypertensive medication is permitted."
+        }
+      ]
+    },
+    {
+      "title": "Restricted and prohibited medication",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Guidance regarding the use of medications that may either impact BP or interact with blinded study medication is provided to the investigators. A number of medications are permitted if they were started more than one month prior to screening and remain at that stable dose without adjustment throughout study participation. This includes beta blockers, mineralocorticoid receptor antagonists, non-dihydropyridine calcium channel blockers, alpha-adrenergic receptor blockers, or sodium-glucose co-transporter-2 inhibitors. Other permitted medication includes chronic (&gt;14 days) systemic glucocorticoid therapy (except topical, intraocular, intranasal, intraarticular, interphalangeal, or inhaled preparations), sympathomimetic agents, loop diuretics, and organic nitrate preparations if initiated at least 1 month of screening."
+        },
+        {
+          "type": "paragraph",
+          "html": "Medications that are not permitted throughout study participation include GLP-1 RA and GIP/GLP-1 RA, hydralazine, oral minoxidil, clonidine, guanfacine, CYP3A inhibitors or CYP3A inducers, P-gp substrates, or strong organic anion-transporting polypeptide (OATP) inhibitors."
+        }
+      ]
+    },
+    {
+      "title": "Diet and lifestyle counseling",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Sites are provided with a guide to diet and lifestyle counseling tailored for adults with overweight or obesity. This includes encouraging participants to engage in regular physical activity, such as 150 min of moderate-intensity aerobic exercise or 75 min of vigorous-intensity exercise per week and additional muscle-strengthening activities on at least 2 days per week. Additional guidance specific to participants with hypertension, including dietary sodium guidance, is also provided. Individualized diet and lifestyle counseling is offered to all participants throughout study participation via investigator’s guidance."
+        }
+      ]
+    },
+    {
+      "title": "Study assessments",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The primary efficacy end point is the change in office SBP from baseline to Week 36. Key secondary and additional end points are summarized in Table 1. Safety assessments include adverse events, clinical laboratory findings, psycho-behavioral status, and 12-lead electrocardiograms. Participants with type 2 diabetes (T2D) will have fundus photography to assess for any changes related to study treatment."
+        },
+        {
+          "type": "table",
+          "label": "Table 1",
+          "caption": "Summary of end points.",
+          "html": "<table><tr><th colspan=\"1\" rowspan=\"1\">End points</th></tr><tr><td colspan=\"1\" rowspan=\"1\"><strong>Primary</strong></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Change in office SBP from baseline to Week 36</td></tr><tr><td colspan=\"1\" rowspan=\"1\"><strong>Key Secondary (36-week outcomes)</strong></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Change from baseline to Week 36</td></tr><tr><td colspan=\"1\" rowspan=\"1\">● 24-hour ABPM SBP</td></tr><tr><td colspan=\"1\" rowspan=\"1\">● Percent change body weight</td></tr><tr><td colspan=\"1\" rowspan=\"1\">● Percent change in triglycerides</td></tr><tr><td colspan=\"1\" rowspan=\"1\">● Percent change in non-HDL cholesterol</td></tr><tr><td colspan=\"1\" rowspan=\"1\"><strong>Key Secondary (48-week outcomes)</strong></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Percent change in hsCRP concentration (mg/L) from baseline to Week 48</td></tr><tr><td colspan=\"1\" rowspan=\"1\"><strong>Key Secondary (Week 48 to Week 60 outcomes)</strong></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Change in office SBP from Week 48 to Week 60 in randomized withdrawal population</td></tr><tr><td colspan=\"1\" rowspan=\"1\"><strong>Additional Secondary</strong></td></tr><tr><td colspan=\"1\" rowspan=\"1\">● Change in 24-hour ABPM mean daytime SBP from baseline to Week 36● Change in 24-hour ABPM mean nighttime SBP from baseline to Week 36● Change in 24-hour ABPM mean DBP from baseline to Week 36</td></tr><tr><td colspan=\"1\" rowspan=\"1\">● Percentage of participants with office BP &lt;140/90 mmHg at Week 36● Percentage of participants with office BP &lt;130/80 mmHg at Week 36</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Change from baseline to Week 36 in office DBP</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Change from baseline to Week 32 in antihypertensive medication intensity</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Percent change in body weight from baseline to Week 60</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Change from baseline to Week 36 in Waist circumference and Waist-to-height ratio</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Percent change from baseline to Week 36 in fasting total cholesterol, LDL cholesterol, and apolipoprotein B</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Change in hsCRP concentration (mg/L) from baseline to Week 60</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Population PK and PD parameters</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Summary of safety data, including number and incidence of SAEs, TEAEs, and discontinuations due to AEs</td></tr></table>"
+        },
+        {
+          "type": "paragraph",
+          "html": "Additional biomarker assessments are conducted across the entire randomized cohort, including but not limited to angiotensinogen, aldosterone, plasma renin activity, NT-proBNP, and the ambulatory arterial stiffness index derived from 24-hour ABPM data. There will be additional mechanistic assessments conducted in a subset of approximately 200 participants; this is described in the Mechanism of Action Substudy section below."
+        }
+      ]
+    },
+    {
+      "title": "Mechanism of action substudy",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "A subset of approximately 200 participants provide consent to participate in MRI and 24-hour urine collection at baseline and at the time of the primary end point. The MRI acquisition protocol will include sequences for measurement of renal sinus fat, perirenal fat, renal fat content, visceral adipose tissue volume, abdominal subcutaneous adipose tissue volume, and liver fat content. Some participants also have extensive dietary recall interviews to aid in interpretation of 24-hour urine parameters. These data are used to explore a number of potential exploratory mechanisms by which orforglipron treatment may be beneficial in hypertension, including diet changes, leading to a reduction in sodium intake, reduction of the renin-angiotensin-aldosterone system (RAAS) activity mediated by an improvement in the fatty kidney, and increase in natriuretic peptide excretion."
+        }
+      ]
+    },
+    {
+      "title": "Statistical analysis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The sample size was determined by the primary end point. A difference of at least an additional 4 mmHg reduction in mean office SBP from baseline at 36 weeks for orforglipron MTD compared with placebo, with a common SD of 13 mmHg, is assumed for statistical power calculations. This was estimated based on SBP data obtained in previous clinical trials investigating GLP-1/GIP therapies [28,33]. Under this assumption, randomizing 487 participants in each study in a 2:1 ratio to orforglipron MTD (325 participants) and placebo (162 participants) provides &gt;89% power to demonstrate superiority of orforglipron MTD over placebo in mean change from baseline in SBP at Week 36 using a 2-sample <em>t</em>-test under the treatment regimen estimand. The greater allocation of participants to the orforglipron arm is to ensure that the study is sufficiently powered for the randomized withdrawal end point. The primary objective will be analyzed using the treatment regimen estimand and the efficacy estimand, with the efficacy estimand being considered as supportive. Within each estimand, multiplicity adjusted analyses will be performed on the primary and key secondary end points to control the familywise error rate at a 2-sided significance level of 0.05 within each study."
+        },
+        {
+          "type": "paragraph",
+          "html": "Under treatment regimen estimand, the primary and key secondary end points will be analyzed based on the intention-to-treat principle using randomized participants and treatment regimen estimand data points set, defined as data obtained during the treatment period at or after randomization, regardless of discontinuation of study intervention, initiation of prohibited medications or rescue therapy, or study intervention interruptions. End points will be analyzed for the two trials independently, except the key secondary end point of mean change in office SBP from Week 48 to Week 60 during the randomized withdrawal period. This end point will be evaluated using those participants originally randomized to orforglipron and re-randomized to orforglipron MTD or placebo at Week 48 by pooling data across the 2 studies. Treatment groups will be compared using an ANCOVA model controlling for baseline value and stratification factors [34]. The stratification factors include the use of antihypertensive medications at screening (yes or no), gender (individual assigned female at birth [AFAB], individual assigned male at birth [AMAB]), and the geographic region or country (the US, Europe, East Asia, and rest of world) of enrollment. Comparisons between treatment groups for binary outcomes included in additional secondary end points will be analyzed using a logistic regression model controlling for baseline value and stratification factors. Missing values at the end point of interest will be imputed using multiple imputation prior to fitting the models."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The ATTAIN—HYPERTENSION program randomized 538 participants in Trial 1 and 546 in Trial 2 (Total <em>N</em> = 1084) at 100 locations across 10 countries between April 2025 and January 2026. The mean (SD) age is 53.9 (12.2) and 53.6 (11.4) years, the mean body weight is 100.7 (22.6) and 103.4 (23.5) kg, and the mean systolic BP is 144.1 (10.5) and 144.3 (10.1) mmHg at baseline, in Trial 1 and Trial 2, respectively. Half of the participants are female (48% and 51.3%), most are White (72.1% and 75.1%), and 98.5% and 98.7% of participants have a known history of hypertension, in Trial 1 and Trial 2, respectively. 53.7% of randomized participants in Trial 1 and 57.0% of randomized participants in Trial 2 are stratified as treated with antihypertensive medication at screening and entered the run-in period. The key baseline demographics and clinical characteristics of enrolled participants are presented in Table 2. There are no meaningful differences in baseline characteristics between trials."
+        },
+        {
+          "type": "table",
+          "label": "Table 2",
+          "caption": "Key baseline demographics and clinical characteristics of randomized participants.",
+          "html": "<table><tr><th colspan=\"1\" rowspan=\"1\">Parameter</th><th colspan=\"1\" rowspan=\"1\">Trial 1</th><th colspan=\"1\" rowspan=\"1\">Trial 2</th><th colspan=\"1\" rowspan=\"1\">Total</th></tr><tr><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"><em>N</em> = 538</td><td colspan=\"1\" rowspan=\"1\"><em>N</em> = 546</td><td colspan=\"1\" rowspan=\"1\"><em>N</em> = 1084</td></tr><tr><td colspan=\"1\" rowspan=\"1\"><strong>Baseline demographics</strong></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Age (years), mean (SD)</td><td colspan=\"1\" rowspan=\"1\">53.9 (12.2)</td><td colspan=\"1\" rowspan=\"1\">53.6 (11.4)</td><td colspan=\"1\" rowspan=\"1\">53.7 (11.8)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Gender female, n (%)</td><td colspan=\"1\" rowspan=\"1\">258 (48.0%)</td><td colspan=\"1\" rowspan=\"1\">280 (51.3%)</td><td colspan=\"1\" rowspan=\"1\">538 (49.6%)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Race, n (%)†</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">White</td><td colspan=\"1\" rowspan=\"1\">388 (72.1%)</td><td colspan=\"1\" rowspan=\"1\">410 (75.1%)</td><td colspan=\"1\" rowspan=\"1\">798 (73.6%)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Asian</td><td colspan=\"1\" rowspan=\"1\">99 (18.4%)</td><td colspan=\"1\" rowspan=\"1\">97 (17.8%)</td><td colspan=\"1\" rowspan=\"1\">196 (18.1%)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Black or African American</td><td colspan=\"1\" rowspan=\"1\">42 (7.8%)</td><td colspan=\"1\" rowspan=\"1\">28 (5.1%)</td><td colspan=\"1\" rowspan=\"1\">70 (6.5%)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Native Hawaiian or other pacific</td><td colspan=\"1\" rowspan=\"1\">0</td><td colspan=\"1\" rowspan=\"1\">1 (0.2%)</td><td colspan=\"1\" rowspan=\"1\">1 (0.1%)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">American Indian or Alaska native</td><td colspan=\"1\" rowspan=\"1\">0</td><td colspan=\"1\" rowspan=\"1\">0</td><td colspan=\"1\" rowspan=\"1\">0</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Multiple</td><td colspan=\"1\" rowspan=\"1\">4 (0.7%)</td><td colspan=\"1\" rowspan=\"1\">3 (0.5%)</td><td colspan=\"1\" rowspan=\"1\">7 (0.6%)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Hispanic or Latino ethnic group, n (%)</td><td colspan=\"1\" rowspan=\"1\">154 (28.6%)</td><td colspan=\"1\" rowspan=\"1\">157 (28.8%)</td><td colspan=\"1\" rowspan=\"1\">311 (28.7%)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Country, n (%)</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">United States</td><td colspan=\"1\" rowspan=\"1\">119 (22.1%)</td><td colspan=\"1\" rowspan=\"1\">120 (22.0%)</td><td colspan=\"1\" rowspan=\"1\">239 (22.0%)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Argentina</td><td colspan=\"1\" rowspan=\"1\">96 (17.8%)</td><td colspan=\"1\" rowspan=\"1\">101 (18.5%)</td><td colspan=\"1\" rowspan=\"1\">197 (18.2%)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Spain</td><td colspan=\"1\" rowspan=\"1\">38 (7.1%)</td><td colspan=\"1\" rowspan=\"1\">33 (6.0%)</td><td colspan=\"1\" rowspan=\"1\">71 (6.5%)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">China</td><td colspan=\"1\" rowspan=\"1\">58 (10.8%)</td><td colspan=\"1\" rowspan=\"1\">60 (11.0%)</td><td colspan=\"1\" rowspan=\"1\">118 (10.9%)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Greece</td><td colspan=\"1\" rowspan=\"1\">38 (7.1%)</td><td colspan=\"1\" rowspan=\"1\">32 (5.9%)</td><td colspan=\"1\" rowspan=\"1\">70 (6.5%)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Poland</td><td colspan=\"1\" rowspan=\"1\">39 (7.2%)</td><td colspan=\"1\" rowspan=\"1\">46 (8.4%)</td><td colspan=\"1\" rowspan=\"1\">85 (7.8%)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Czech Republic</td><td colspan=\"1\" rowspan=\"1\">61 (11.3%)</td><td colspan=\"1\" rowspan=\"1\">63 (11.5%)</td><td colspan=\"1\" rowspan=\"1\">124 (11.4%)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Japan</td><td colspan=\"1\" rowspan=\"1\">30 (5.6%)</td><td colspan=\"1\" rowspan=\"1\">31 (5.7%)</td><td colspan=\"1\" rowspan=\"1\">61 (5.6%)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">India</td><td colspan=\"1\" rowspan=\"1\">7 (1.3%)</td><td colspan=\"1\" rowspan=\"1\">5 (0.9%)</td><td colspan=\"1\" rowspan=\"1\">12 (1.1%)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Germany</td><td colspan=\"1\" rowspan=\"1\">52 (9.7%)</td><td colspan=\"1\" rowspan=\"1\">55 (10.1%)</td><td colspan=\"1\" rowspan=\"1\">107 (9.9%)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Height (cm), mean (SD)</td><td colspan=\"1\" rowspan=\"1\">169.2 (10.0)</td><td colspan=\"1\" rowspan=\"1\">169.1 (10.3)</td><td colspan=\"1\" rowspan=\"1\">169.1(10.1)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Body Weight (kg), mean (SD)</td><td colspan=\"1\" rowspan=\"1\">100.7 (22.6)</td><td colspan=\"1\" rowspan=\"1\">103.4 (23.5)</td><td colspan=\"1\" rowspan=\"1\">102.1(23.1)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">BMI (kg/m<sup>2</sup>), mean (SD)</td><td colspan=\"1\" rowspan=\"1\">35.1 (6.7)</td><td colspan=\"1\" rowspan=\"1\">36.1 (7.0)</td><td colspan=\"1\" rowspan=\"1\">35.6 (6.9)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">BMI category</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">≥25 kg/m<sup>2</sup> to &lt;30 kg/m<sup>2</sup></td><td colspan=\"1\" rowspan=\"1\">127 (23.6%)</td><td colspan=\"1\" rowspan=\"1\">104 (19.0%)</td><td colspan=\"1\" rowspan=\"1\">231 (21.3%)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">≥30 kg/m<sup>2</sup> to &lt;35 kg/m<sup>2</sup></td><td colspan=\"1\" rowspan=\"1\">179 (33.3%)</td><td colspan=\"1\" rowspan=\"1\">166 (30.4%)</td><td colspan=\"1\" rowspan=\"1\">345 (31.8%)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">≥35 kg/m<sup>2</sup> to &lt;40 kg/m<sup>2</sup></td><td colspan=\"1\" rowspan=\"1\">125 (23.2%)</td><td colspan=\"1\" rowspan=\"1\">152 (27.8%)</td><td colspan=\"1\" rowspan=\"1\">277 (25.6%)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">≥40 kg/m<sup>2</sup></td><td colspan=\"1\" rowspan=\"1\">107 (19.9%)</td><td colspan=\"1\" rowspan=\"1\">124 (22.7%)</td><td colspan=\"1\" rowspan=\"1\">231 (21.3%)</td></tr><tr><td colspan=\"4\" rowspan=\"1\"><strong>Blood pressure-related baseline characteristics</strong></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Office SBP (mmHg), Average (SD)</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Baseline</td><td colspan=\"1\" rowspan=\"1\">144.1 (10.5)</td><td colspan=\"1\" rowspan=\"1\">144.3 (10.1)</td><td colspan=\"1\" rowspan=\"1\">144.2 (10.3)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Office DBP (mmHg), Average (SD)</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Baseline</td><td colspan=\"1\" rowspan=\"1\">89.4 (9.0)</td><td colspan=\"1\" rowspan=\"1\">89.7 (9.4)</td><td colspan=\"1\" rowspan=\"1\">89.6 (9.2)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Stratified as treated*</td><td colspan=\"1\" rowspan=\"1\">289 (53.7%)</td><td colspan=\"1\" rowspan=\"1\">311 (57.0%)</td><td colspan=\"1\" rowspan=\"1\">600 (55.4%)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Hypertension history</td><td colspan=\"1\" rowspan=\"1\">530 (98.5%)</td><td colspan=\"1\" rowspan=\"1\">539 (98.7%)</td><td colspan=\"1\" rowspan=\"1\">1069 (98.6%)</td></tr><tr><td colspan=\"4\" rowspan=\"1\"><strong>Other clinical baseline characteristics</strong></td></tr><tr><td colspan=\"1\" rowspan=\"1\">HbA1c (%), mean (SD)</td><td colspan=\"1\" rowspan=\"1\">5.7 (0.7)</td><td colspan=\"1\" rowspan=\"1\">5.8 (0.8)</td><td colspan=\"1\" rowspan=\"1\">5.8 (0.8)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">T2D at Baseline, n (%)</td><td colspan=\"1\" rowspan=\"1\">114 (21.2%)</td><td colspan=\"1\" rowspan=\"1\">102 (18.7%)</td><td colspan=\"1\" rowspan=\"1\">216 (19.9%)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">ASCVD History, n (%)</td><td colspan=\"1\" rowspan=\"1\">47 (8.7%)</td><td colspan=\"1\" rowspan=\"1\">55 (10.1%)</td><td colspan=\"1\" rowspan=\"1\">102 (9.4%)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">hsCRP (mg/L), median (IQR)</td><td colspan=\"1\" rowspan=\"1\">2.6 (1.2, 5.0)</td><td colspan=\"1\" rowspan=\"1\">2.8 (1.4, 5.8)</td><td colspan=\"1\" rowspan=\"1\">2.8 (1.2, 5.3)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">eGFR (mL/min/1.73 m<sup>2</sup>), mean (SD)</td><td colspan=\"1\" rowspan=\"1\">84.1 (19.2)</td><td colspan=\"1\" rowspan=\"1\">83.8 (18.8)</td><td colspan=\"1\" rowspan=\"1\">84 (19.0)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Lipids (mg/dL), median (IQR)</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Total cholesterol</td><td colspan=\"1\" rowspan=\"1\">193.7 (166.3, 223.5)</td><td colspan=\"1\" rowspan=\"1\">195.3 (163.2, 219.3)</td><td colspan=\"1\" rowspan=\"1\">194.1 (165.1, 220.4)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Triglycerides</td><td colspan=\"1\" rowspan=\"1\">133.7 (101.9, 184.2)</td><td colspan=\"1\" rowspan=\"1\">137.7 (101.9, 187.8)</td><td colspan=\"1\" rowspan=\"1\">136.4 (101.9, 185.1)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">HDL cholesterol</td><td colspan=\"1\" rowspan=\"1\">46.0 (40.2, 57.2)</td><td colspan=\"1\" rowspan=\"1\">47.2 (40.2, 57.2)</td><td colspan=\"1\" rowspan=\"1\">46.4 (40.2, 57.2)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">LDL cholesterol</td><td colspan=\"1\" rowspan=\"1\">112.7 (91.5, 139.6)</td><td colspan=\"1\" rowspan=\"1\">109.4 (85.8, 133.8)</td><td colspan=\"1\" rowspan=\"1\">111.8 (88.9, 136.9)</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Non-HDL cholesterol</td><td colspan=\"1\" rowspan=\"1\">143.1 (119.1, 173.2)</td><td colspan=\"1\" rowspan=\"1\">142.3 (115.2, 170.1)</td><td colspan=\"1\" rowspan=\"1\">143.1 (117.2, 171.3)</td></tr></table>"
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The rationale, design, and baseline characteristics of ATTAIN—HYPERTENSION, a phase 3 master protocol with two independent studies evaluating orforglipron as a primary treatment for hypertension in adults with obesity or overweight are described here. Excess adiposity is a major contributor to the development and maintenance of hypertension [5], however, no dedicated trial has investigated an incretin-based therapy with the specific purpose of treating hypertension. ATTAIN—HYPERTENSION addresses this gap through a purpose-built design that distinguishes it from prior work, including a well-characterized hypertension population, standardized background antihypertensive therapy, 24-hour ABPM, pre-specified BP end points, and a randomized withdrawal period to assess the durability of effect."
+        }
+      ]
+    },
+    {
+      "title": "Study population",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The BP thresholds specified in the inclusion criteria align with the classification of hypertension defined in international guidelines [[8], [9], [10]] and are consistent with those used in hypertension-focused trials [35]. Importantly, BP eligibility criteria are verified at screening and directly prior to randomization, ensuring that participants entering the treatment period have persistently elevated BP rather than transiently elevated readings at a single assessment."
+        },
+        {
+          "type": "paragraph",
+          "html": "The BMI inclusion criterion of ≥25 kg/m² follows the definition outlined by World Health Organization (WHO) [4], and is lower than the ≥27 kg/m² commonly applied in chronic weight management studies, which additionally require at least one weight-related comorbidity [30,36,37]<sup>.</sup> This design enables assessment of orforglipron&#x27;s antihypertensive and mechanistic effects across a broader BMI range. As a consequence, the average BMI in ATTAIN—HYPERTENSION is 35.6 kg/m² and understandably, but not markedly, higher than those reported in recent pivotal hypertension trials that did not include a BMI threshold, including PRECISION (33.7 kg/m²) [35], ADVANCE HYPERTENSION (31.2–32.4 kg/m²) [38], or BaxHTN (31.1–31.5 kg/m²) [39]. This speaks to the high prevalence of participants with obesity or overweight among contemporary hypertension trials. Additionally, while those trials included only participants uncontrolled on at least 2 antihypertensive medications or with resistant hypertension, ATTAIN—HYPERTENSION enrolled participants into 2 strata, treated and untreated, reflecting a broader spectrum of people who could benefit from an alternative approach for BP lowering. The inclusion of an untreated study population with uncontrolled hypertension at study start will provide evidence for the usage of orforglipron as a potential first-line treatment strategy."
+        }
+      ]
+    },
+    {
+      "title": "Study design elements",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "title": "Master protocol",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "ATTAIN—HYPERTENSION is a master protocol directing two identical, independent trials. The use of a master protocol directing two trials provides operational efficiencies and two adequate and well-controlled trials required to establish regulatory approval while harmonizing eligibility criteria, operational conduct, and end point assessment across two studies."
+        }
+      ]
+    },
+    {
+      "title": "Screening and run-in",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Those ATTAIN—HYPERTENSION participants considered as treated for hypertension at screening complete the run-in period while taking standardized antihypertensive treatment to establish a controlled pharmacological background to assess the BP lowering effect of orforglipron. Establishing a standard baseline therapy controls for the confounding effect of varying antihypertensive medication use between treatment groups and has been used in other hypertension treatment studies [35,38]. This period also confirms that BP remains uncontrolled under study-provided antihypertensive medication prior to randomization."
+        }
+      ]
+    },
+    {
+      "title": "Study period 3a",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The 20-week escalation period for orforglipron titration reflects requirements to improve tolerability of adverse events like gastrointestinal symptoms commonly observed with GLP-1 RAs. Additionally, this period allows orforglipron to reach the maximum antihypertensive treatment effect expected. Orforglipron was administered in capsule formulation in this program as the study was planned prior to United States FDA approval of the tablet formulation. The capsule formulations used in this program are bioequivalent to the approved tablet formulations [32]. To ensure adequate BP control during Period 3a, adjustment of antihypertensive medication is permitted. This prevents exposing participants to sustained, inadequate antihypertensive control during dose escalation."
+        }
+      ]
+    },
+    {
+      "title": "Study period 3b",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Given that antihypertensive medication may have been adjusted during the previous period, returning participants to their baseline antihypertensive regimen present at the time of randomization to treatment in Period 3b is critical before assessing the primary end point at Week 36. This ensures the evaluation of orforglipron&#x27;s antihypertensive effect on top of the same pharmacological background that characterized uncontrolled hypertension at baseline, isolating the study drug&#x27;s effect from any changes in background therapy introduced during escalation. This design mirrors the approach used in the KARDIA-1 study, which investigated zilebesiran for mild to moderate hypertension [40]. Participants&#x27; safety is maintained during this period by ensuring those participants with severe hypertension or symptomatic hypotension are not returned to baseline and advance to Period 3c. As an additional safeguard, participants who do return to baseline medication present at the time of randomization to treatment may advance to Period 3c on an accelerated timeline if unacceptable BP values are detected."
+        }
+      ]
+    },
+    {
+      "title": "Study period 3c",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Study Period 3c permits the adjustment of antihypertension treatment while participants will continue on MTD of the blinded study treatment."
+        }
+      ]
+    },
+    {
+      "title": "Randomized withdrawal period",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "A randomized withdrawal period is a recognized feature of hypertension studies and a regulatory requirement [41] to assess the durability of the effect and the potential consequences of treatment interruption [35]. The 6-month maintenance period at MTD prior to the randomized withdrawal meets regulatory expectations for the assessment of sustained antihypertensive efficacy in new treatments for hypertension. A 12-week randomized withdrawal period was selected to account for the uncertainty regarding the pace at which BP effects may reverse after orforglipron discontinuation, which may differ from conventional antihypertensive agents. The data for both studies under the ATTAIN—HYPERTENSION program will be pooled for analysis of the withdrawal effect. This ensures sufficient statistical power to detect the withdrawal effect while maintaining independence between the two study populations."
+        }
+      ]
+    },
+    {
+      "title": "Assessments",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The primary end point is change from baseline in office SBP, a standard efficacy measure for regulatory approval of antihypertensive therapies and devices [41]. The measurement of 24-hour ABPM as a key secondary end point provides additional assessment of BP, providing a full 24-hour profile, including changes in nocturnal BP, which is one of the strongest independent predictors of cardiovascular mortality and morbidity [9]. ABPM also avoids variability associated with the measurement in an office setting and provides BP readouts across activities throughout the day."
+        },
+        {
+          "type": "paragraph",
+          "html": "Orforglipron effectively lowers body weight and is associated with improvements in markers of cardiometabolic risk factors in people with overweight and obesity [26,27,36]. Therefore, the secondary end points also include body weight and improvement in cardiometabolic risk factors, specifically reduction of inflammatory biomarkers (hsCRP) and serum lipids (triglycerides and non-HDL cholesterol). This comprehensive assessment of improvements other than BP reflects the expectation that addressing overweight or obesity as the main driver of hypertension in the study population will simultaneously lead to additional beneficial effects in cardiometabolic parameters. This patient-centered design allows for the full characterization of the cardiometabolic benefits of orforglipron in people with hypertension and overweight or obesity, expanding on conventional hypertension trials and therapies that have not taken a holistic view to cardiovascular risk reduction."
+        },
+        {
+          "type": "paragraph",
+          "html": "Preclinical and post hoc clinical evidence of the SURPASS and SURMOUNT programs suggest that incretins may be involved in weight-related and weight-unrelated mechanisms leading to the improvement of cardiometabolic risk factors. However, no clinical trial has been conducted to dissect the effect of GLP-1 RAs on the mechanistic pathways associating hypertension with obesity. The mechanism of action substudy aims to address this gap. The outcomes will contribute to our understanding of whether orforglipron’s antihypertensive effect is mediated by improvements in renal fat accumulation, RAAS activation, sodium intake, and natriuretic peptide excretion. This will facilitate a clearer understanding of the contributions of weight-dependent and weight-independent mechanisms in GLP-1-mediated BP reduction. Gaining a better understanding of the mechanism involved in BP reduction represents an important advancement in our understanding of hypertension in people with overweight or obesity."
+        }
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The ATTAIN—HYPERTENSION program establishes a novel methodical approach for the specific evaluation of orforglipron as a primary treatment for hypertension in people with overweight or obesity. In addition to investigating the efficacy and safety of orforglipron for BP reduction, the program is designed to generate evidence supporting the use of orforglipron as a first-line antihypertensive treatment in untreated people, and as an add-on therapy to existing antihypertensive treatment in those with uncontrolled hypertension. The program also characterizes the effect of orforglipron on additional cardiometabolic parameters, and the mechanism through which BP is reduced."
+        },
+        {
+          "type": "paragraph",
+          "html": "Central Illustration."
+        },
+        {
+          "type": "figure",
+          "label": "",
+          "caption": "",
+          "src": "assets/pmc/PMC13633904/gr2.webp",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "title": "Funding",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This study was supported by 10.13039/100004312Eli Lilly and Company."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Luke Laffin:</strong> Writing – review &amp; editing, Conceptualization. <strong>Markus P. Schlaich:</strong> Writing – review &amp; editing, Conceptualization. <strong>Michael E. Hall:</strong> Writing – review &amp; editing, Conceptualization. <strong>Cathy C. Xie:</strong> Writing – review &amp; editing, Writing – original draft, Validation, Methodology, Formal analysis, Data curation, Conceptualization. <strong>Girish Rao:</strong> Writing – review &amp; editing, Writing – original draft, Conceptualization. <strong>Mallik Rettiganti:</strong> Writing – review &amp; editing, Conceptualization. <strong>Ellen B. Dennehy:</strong> Writing – review &amp; editing, Writing – original draft, Visualization, Supervision, Methodology, Data curation, Conceptualization. <strong>Bruno Linetzky:</strong> Writing – review &amp; editing, Writing – original draft, Visualization, Supervision, Project administration, Methodology, Investigation, Data curation, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare the following financial interests/personal relationships which may be considered as potential competing interests:"
+        },
+        {
+          "type": "paragraph",
+          "html": "Luke Laffin reports administrative support, article publishing charges, statistical analysis, and writing assistance were provided by 10.13039/100004312Eli Lilly and Company. Markus Schlaich reports financial support was provided by 10.13039/100004312Eli Lilly and Company. Michael E. Hall reports financial support was provided by 10.13039/100004312Eli Lilly and Company. Luke Laffin reports a relationship with 10.13039/501100012408Recor that includes: consulting or advisory. Luke Laffin reports a relationship with 10.13039/100004374Medtronic that includes: consulting or advisory. Luke Laffin reports a relationship with Mineralys Therapeutics, Inc. that includes: funding grants. Luke Laffin reports a relationship with CRISPR Therapeutics Inc that includes: funding grants. Luke Laffin reports a relationship with 10.13039/100004336Novartis that includes: consulting or advisory. Luke Laffin reports a relationship with 10.13039/501100004191Novo Nordisk that includes: consulting or advisory. Luke Laffin reports a relationship with Ripple Medical that includes: consulting or advisory. Luke Laffin reports a relationship with AstraZeneca Pharmaceuticals LP that includes: consulting or advisory. Luke Laffin reports a relationship with Arrowhead Pharmaceuticals Inc that includes: funding grants. Luke Laffin reports a relationship with Retension that includes: funding grants. Luke Laffin reports a relationship with Kardigan Inc that includes: funding grants. Luke Laffin reports a relationship with Madrigal Pharmaceuticals Inc that includes: funding grants. Luke Laffin reports a relationship with Diamedica that includes: funding grants. Luke Laffin reports a relationship with Editas Medicine that includes: funding grants. Luke Laffin reports a relationship with Kylonova Biopharma that includes: funding grants. Markus Schlaich reports a relationship with Medtronic Inc that includes: consulting or advisory and speaking and lecture fees. Markus Schlaich reports a relationship with Abbott Laboratories Inc that includes: consulting or advisory, funding grants, and speaking and lecture fees. Michael E. Hall reports a relationship with 10.13039/100004312Eli Lilly and Company that includes: consulting or advisory. Cathy C. Xie reports a relationship with 10.13039/100004312Eli Lilly and Company that includes: employment and equity or stocks. Girish Rao reports a relationship with 10.13039/100004312Eli Lilly and Company that includes: employment and equity or stocks. Mallik Rettiganti reports a relationship with 10.13039/100004312Eli Lilly and Company that includes: employment and equity or stocks. Ellen B. Dennehy reports a relationship with 10.13039/100004312Eli Lilly and Company that includes: employment and equity or stocks. Bruno Linetzky reports a relationship with 10.13039/100004312Eli Lilly and Company that includes: employment and equity or stocks. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "text": "GBD 2019 Risk Factors Collaborators. Global burden of 87 risk factors in 204 countries and territories, 1990-2019: a systematic analysis for the Global burden of disease study 2019. Lancet. 2020;396(10258):1223–1249. DOI: 10.1016/S0140-6736(20)30752-2. PMCID: PMC7566194. PMID: 33069327"
+    },
+    {
+      "text": "Muntner P, Hardy ST, Fine LJ, Jaeger BC, Wozniak G, Levitan EB, Colantonio LD. Trends in blood pressure control among US adults with hypertension, 1999-2000 to 2017-2018. JAMA. 2020;324(12):1190. DOI: 10.1001/jama.2020.14545. PMCID: PMC7489367. PMID: 32902588"
+    },
+    {
+      "text": "Carey RM, Muntner P, Bosworth HB, Whelton PK. Reprint of: prevention and control of hypertension. JACC. 2018;72:2996–3011. DOI: 10.1016/j.jacc.2018.10.022. PMID: 30522633"
+    },
+    {
+      "text": "W. World Health Organization, Obesity and overweight. https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight, 2025 (accessed 18-May-2025)."
+    },
+    {
+      "text": "Hall JE, do Carmo JM, da Silva AA, Wang Z, Hall ME. Obesity-induced hypertension. Circ Res. 2015;116(6):991–1006. DOI: 10.1161/CIRCRESAHA.116.305697. PMCID: PMC4363087. PMID: 25767285"
+    },
+    {
+      "text": "Hall JE, do Carmo JM, da Silva AA, Wang Z, Hall ME. Obesity, kidney dysfunction and hypertension: mechanistic links. Nat Rev Nephrol. 2019;15(6):367–385. DOI: 10.1038/s41581-019-0145-4. PMCID: PMC7278043. PMID: 31015582"
+    },
+    {
+      "text": "Kanbay M, Yayci E, Genc C, Copur S, Aktas O, Sarafidis P, Covic A, Ortiz A, Laffin LJ. From pathophysiology to novel approaches for obesity-associated hypertension. Clin Kidney J. 2025;18(8). DOI: 10.1093/ckj/sfaf218. PMCID: PMC12319540. PMID: 40761303"
+    },
+    {
+      "text": "Jones DW, Ferdinand KC, Taler SJ, Johnson HM, Shimbo D, Abdalla M, Altieri MM, Bansal N, Bello NA, Bress AP, Carter J, Cohen JB, Collins KJ, Commodore-Mensah Y, Davis LL, Egan B, Khan SS, Lloyd-Jones DM, Melnyk BM, Mistry EA, Ogunniyi MO, Schott SL, Smith SC, Talbot AW, Vongpatanasin W, Watson KE, Whelton PK, Williamson JD, Peer Review Committee Members. 2025 AHA/ACC/AANP/AAPA/ABC/ACCP/ACPM/AGS/AMA/ASPC/NMA/PCNA/SGIM Guideline for the prevention, detection, evaluation, and management of high blood pressure in adults. JACC. 2025;86(18):1567–1678. DOI: 10.1016/j.jacc.2025.05.007. PMID: 40815242"
+    },
+    {
+      "text": "McEvoy JW, McCarthy CP, Bruno RM, Brouwers S, Canavan MD, Ceconi C, Christodorescu RM, Daskalopoulou SS, Ferro CJ, Gerdts E, Hanssen H, Harris J, Lauder L, McManus RJ, Molloy GJ, Rahimi K, Regitz-Zagrosek V, Rossi GP, Sandset EC, Scheenaerts B, Staessen JA, Uchmanowicz I, Volterrani M, Touyz RM, ESC Scientific Document Group. 2024 ESC Guidelines for the management of elevated blood pressure and hypertension: developed by the task force on the management of elevated blood pressure and hypertension of the European society of cardiology (ESC) and endorsed by the European society of endocrinology (ESE) and the European stroke organisation (ESO). Eur Heart J. 2024;45(38):3912–4018. DOI: 10.1093/eurheartj/ehae178. PMID: 39210715"
+    },
+    {
+      "text": "N. NICE guideline, Hypertension in adults: diagnosis and management. https://www.nice.org.uk/guidance/NG136, 2019 (accessed 18-May-2026)."
+    },
+    {
+      "text": "Hall ME, Cohen JB, Ard JD, Egan BM, Hall JE, Lavie CJ, Ma J, Ndumele CE, Schauer PR, Shimbo D, American Heart Association Council on Hypertension; Council on Arteriosclerosis, Thrombosis and Vascular Biology; Council on Lifestyle and Cardiometabolic Health; and Stroke Council. Weight-loss strategies for prevention and treatment of hypertension: a scientific statement from the American heart association. Hypertension. 2021;78(5). DOI: 10.1161/HYP.0000000000000202. PMID: 34538096"
+    },
+    {
+      "text": "Blumenthal JA, Babyak MA, Hinderliter A, Watkins LL, Craighead L, Lin PH, Caccia C, Johnson J, Waugh R, Sherwood A. Effects of the DASH diet alone and in combination with exercise and weight loss on blood pressure and cardiovascular biomarkers in men and women with high blood pressure: the ENCORE Study. Arch Intern Med. 2010;170(2):126. DOI: 10.1001/archinternmed.2009.470. PMCID: PMC3633078. PMID: 20101007"
+    },
+    {
+      "text": "Whelton PK, Appel LJ, Espeland MA, Applegate WB, Ettinger WH, Kostis JB, Kumanyika S, Lacy CR, Johnson KC, Folmar S, Cutler JA. Sodium reduction and weight loss in the treatment of hypertension in older PersonsA randomized controlled trial of nonpharmacologic interventions in the elderly (TONE). JAMA. 1998;279(11):839. DOI: 10.1001/jama.279.11.839. PMID: 9515998"
+    },
+    {
+      "text": "Schiavon CA, Ikeoka D, Santucci EV, Santos RN, Damiani LP, Bueno PT, Oliveira JD, Torreglosa CR, Bersch-Ferreira AC, Miranda TA, Barros S, Halpern H, Monteiro FLJ, Cohen RV, Noujaim PM, de Souza MG, Amodeo C, Bortolotto LA, Berwanger O, Cavalcanti AB, Drager LF. Effects of bariatric surgery versus medical therapy on the 24-hour ambulatory blood pressure and the prevalence of resistant hypertension. Hypertension. 2019;73(3):571–577. DOI: 10.1161/HYPERTENSIONAHA.118.12290. PMID: 30661477"
+    },
+    {
+      "text": "Wong HJ, Sim B, Teo YH, Teo YN, Chan MY, Yeo LLL, Eng PC, Tan BYQ, Sattar N, Dalakoti M, Sia CH. Efficacy of GLP-1 receptor agonists on weight loss, BMI, and waist circumference for patients with obesity or overweight: a systematic review, meta-analysis, and meta-regression of 47 randomized Controlled trials. Diabet Care. 2025;48(2):292–300. DOI: 10.2337/dc24-1678. PMID: 39841962"
+    },
+    {
+      "text": "Writing Committee Members*, Jones DW, Ferdinand KC, Taler SJ, Johnson HM, Shimbo D, Abdalla M, Altieri MM, Bansal N, Bello NA, Bress AP, Carter J, Cohen JB, Collins KJ, Commodore-Mensah Y, Davis LL, Egan B, Khan SS, Lloyd-Jones DM, Melnyk BM, Mistry EA, Ogunniyi MO, Schott SL, Smith SC, Talbot AW, Vongpatanasin W, Watson KE, Whelton PK, Williamson JD. 2025 AHA/ACC/AANP/AAPA/ABC/ACCP/ACPM/AGS/AMA/ASPC/NMA/PCNA/SGIM Guideline for the prevention, detection, evaluation and management of high blood pressure in adults: a report of the American college of cardiology/American heart association joint committee on clinical practice guidelines. Hypertension. 2025;82(10). DOI: 10.1161/HYP.0000000000000249. PMID: 40811516"
+    },
+    {
+      "text": "Krumholz HM, de Lemos JA, Sattar N, Linetzky B, Sharma P, Mast CJ, Ahmad NN, Bunck MC, Stefanski A. Tirzepatide and blood pressure reduction: stratified analyses of the SURMOUNT-1 randomised controlled trial. Heart. 2024;110:1165–1171. DOI: 10.1136/heartjnl-2024-324170. PMCID: PMC11420724. PMID: 39084707"
+    },
+    {
+      "text": "Lingvay I, Mosenzon O, Brown K, Cui X, O'Neill C, Fernández Landó L, Patel H. Systolic blood pressure reduction with tirzepatide in patients with type 2 diabetes: insights from SURPASS clinical program. Cardiovasc Diabetol. 2023;22(1):66. DOI: 10.1186/s12933-023-01797-5. PMCID: PMC10039543. PMID: 36964557"
+    },
+    {
+      "text": "Horn DB, Linetzky B, Davies MJ, Laffin LJ, Wang H, Murphy MA, Zimner-Rapuch S, Lau E, Arad AD, Lee CJ. Cardiometabolic parameter change by weight regain on tirzepatide withdrawal in adults with obesity: a post hoc analysis of the SURMOUNT-4 trial. JAMA Intern Med. 2026;186(2):157. DOI: 10.1001/jamainternmed.2025.6112. PMCID: PMC12645400. PMID: 41284285"
+    },
+    {
+      "text": "Tasali E, Pamidi S, Covassin N, Somers VK. Obstructive sleep apnea and cardiometabolic disease: obesity, hypertension, and diabetes. Circ Res. 2025;137(5):764–787. DOI: 10.1161/CIRCRESAHA.125.325676. PMID: 40811500"
+    },
+    {
+      "text": "Malhotra A, Grunstein RR, Fietze I, Weaver TE, Redline S, Azarbarzin A, Sands SA, Schwab RJ, Dunn JP, Chakladar S, Bunck MC, Bednarik J, SURMOUNT-OSA Investigators. Tirzepatide for the treatment of obstructive sleep apnea and obesity. N Engl J Med. 2024;391(13):1193–1205. DOI: 10.1056/NEJMoa2404881. PMCID: PMC11598664. PMID: 38912654"
+    },
+    {
+      "text": "Ala M, Moheb Aleaba M. The blood pressure-lowering property of subcutaneous semaglutide: a systematic review, meta-analysis, and meta-regression. J Endocrinol Invest. 2025;48(2):283–294. DOI: 10.1007/s40618-024-02459-3. PMID: 39347905"
+    },
+    {
+      "text": "Li Y, Xue K, Hu R, Hu X, Guo R, Guo H, Li G. Meta-analysis of the effect of semaglutide on blood pressure in Obese populations. Am J Cardiovasc Drugs. 2025;25(5):655–665. DOI: 10.1007/s40256-025-00738-9. PMID: 40493329"
+    },
+    {
+      "text": "Verma S., Deanfield J., Arbel Y., Cariou B., Matos A.L.S.A., Hovingh G.K., Jeppesen O.K., Kahn S., Latkovskis G., Lingvay I., Maeng M., Maher V., Parkhomenko O., Poulter N., van de Borne P., Kure P., Lincoff A. Abstract 4141117: semaglutide and cardiovascular outcomes by blood pressure in the SELECT trial. Circulation. 2024;150. DOI: 10.1161/circ.150.suppl_1.4141117"
+    },
+    {
+      "text": "Wu W, Tong HM, Li YS, Cui J. The effect of semaglutide on blood pressure in patients with type-2 diabetes: a systematic review and meta-analysis. Endocrine. 2024;83(3):571–584. DOI: 10.1007/s12020-023-03636-9. PMCID: PMC10902041. PMID: 38097902"
+    },
+    {
+      "text": "Horn DB, Ryan DH, Kis SG, Alves B, Mu Y, Kim SG, Aberle J, Bain SC, Allen S, Sarker E, Wu Q, Stefanski A, Jouravskaya I, ATTAIN-2 Trial Investigators. Orforglipron, an oral small-molecule GLP-1 receptor agonist, for the treatment of obesity in people with type 2 diabetes (ATTAIN-2): a phase 3, double-blind, randomised, multicentre, placebo-controlled trial. Lancet. 2025;406(10522):2927–2944. DOI: 10.1016/S0140-6736(25)02165-8. PMID: 41275875"
+    },
+    {
+      "text": "Aronne LJ, Horn DB, le Roux CW, Chao AM, Ho W, Halpern B, Griffin R, Xie C, Valderas EG, Lee CJ, Ribeiro A, Hyman DM, Glass L, Xavier N. Orforglipron for maintenance of body weight reduction: the double-blind, randomized phase 3b ATTAIN-MAINTAIN trial. Nat Med. 2026;32:2679–2687. DOI: 10.1038/s41591-026-04386-7. PMCID: PMC13375559. PMID: 42120723"
+    },
+    {
+      "text": "Wharton S, Blevins T, Connery L, Rosenstock J, Raha S, Liu R, Ma X, Mather KJ, Haupt A, Robins D, Pratt E, Kazda C, Konig M, GZGI Investigators. Daily oral GLP-1 receptor agonist Orforglipron for adults with obesity. N Engl J Med. 2023;389(10):877–888. DOI: 10.1056/NEJMoa2302392. PMID: 37351564"
+    },
+    {
+      "text": "Rosenstock J, Hsia S, Nevarez Ruiz L, Eyde S, Cox D, Wu WS, Liu R, Li J, Fernández Landó L, Denning M, Ludwig L, Chen Y, ACHIEVE-1 Trial Investigators. Orforglipron, an oral small-molecule GLP-1 receptor agonist, in early type 2 diabetes. N Engl J Med. 2025;393(11):1065–1076. DOI: 10.1056/NEJMoa2505669. PMID: 40544435"
+    },
+    {
+      "text": "Wharton S, Lingvay I, Bogdanski P, Duque do Vale R, Jacob S, Karlsson T, Shaji C, Rubino D, Garvey WT, OASIS 4 Study Group. Oral semaglutide at a dose of 25 mg in adults with overweight or obesity. N Engl J Med. 2025;393(11):1077–1087. DOI: 10.1056/NEJMoa2500969. PMID: 40934115"
+    },
+    {
+      "text": "Stride BP, Validated devices for office /clinic blood pressure measurement. https://www.stridebp.org/office-hospital-pdf/, 2026 (accessed)."
+    },
+    {
+      "text": "Ma X, Li YG, Raha S, Sperry DC, Coutant DE, Bhattachar S. Pharmacokinetic bioequivalence of Orforglipron tablets and capsules in healthy participants with obesity or overweight. Diabetes Obes Metab. 2026;28:5803–5809. DOI: 10.1111/dom.70783. PMCID: PMC13243956. PMID: 41994902"
+    },
+    {
+      "text": "Frias JP, Hsia S, Eyde S, Liu R, Ma X, Konig M, Kazda C, Mather KJ, Haupt A, Pratt E, Robins D. Efficacy and safety of oral orforglipron in patients with type 2 diabetes: a multicentre, randomised, dose-response, phase 2 study. Lancet. 2023;402(10400):472–483. DOI: 10.1016/S0140-6736(23)01302-8. PMID: 37369232"
+    },
+    {
+      "text": "Ye T., Shao J., Yi Y., Zhao Q. Toward better practice of covariate adjustment in analyzing randomized clinical trials. J Am Stat Assoc. 2023;118(544):2370–2382. DOI: 10.1080/01621459.2022.2049278"
+    },
+    {
+      "text": "Danaietash P, Verweij P, Wang JG, Dresser G, Kantola I, Lawrence MK, Narkiewicz K, Schlaich M, Bellet M, PRECISION investigators. Identifying and treating resistant hypertension in PRECISION: a randomized long-term clinical trial with aprocitentan. J Clin Hypertens. 2022;24(7):804–813. DOI: 10.1111/jch.14517. PMCID: PMC9278594. PMID: 35686330"
+    },
+    {
+      "text": "Wharton S, Aronne LJ, Stefanski A, Alfaris NF, Ciudin A, Yokote K, Halpern B, Shukla AP, Zhou C, Macpherson L, Allen SE, Ahmad NN, Klise SR, ATTAIN-1 Trial Investigators. Orforglipron, an oral small-molecule GLP-1 receptor agonist for obesity treatment. N Engl J Med. 2025;393(18):1796–1806. DOI: 10.1056/NEJMoa2511774. PMID: 40960239"
+    },
+    {
+      "text": "Jastreboff AM, Aronne LJ, Ahmad NN, Wharton S, Connery L, Alves B, Kiyosue A, Zhang S, Liu B, Bunck MC, Stefanski A, SURMOUNT-1 Investigators. Tirzepatide once weekly for the treatment of obesity. N Engl J Med. 2022;387(3):205–216. DOI: 10.1056/NEJMoa2206038. PMID: 35658024"
+    },
+    {
+      "text": "Laffin LJ, Kopjar B, Melgaard C, Wolski K, Ibbitson J, Bhikam S, Weir MR, Ofili EO, Mehra R, Luther JM, Cohen DL, Sarraju A, Wilkinson MJ, Flack JM, Rodman D, Nissen SE, Advance-HTN Investigators. Lorundrostat efficacy and safety in patients with uncontrolled hypertension. N Engl J Med. 2025;392(18):1813–1823. DOI: 10.1056/NEJMoa2501440. PMID: 40267417"
+    },
+    {
+      "text": "Flack JM, Azizi M, Brown JM, Dwyer JP, Fronczek J, Jones ESW, Olsson DS, Perl S, Shibata H, Wang JG, Wilderäng U, Wittes J, Williams B, BaxHTN Investigators. Efficacy and safety of Baxdrostat in uncontrolled and resistant hypertension. N Engl J Med. 2025;393(14):1363–1374. DOI: 10.1056/NEJMoa2507109. PMCID: PMC7618089. PMID: 40888730"
+    },
+    {
+      "text": "Bakris GL, Saxena M, Gupta A, Chalhoub F, Lee J, Stiglitz D, Makarova N, Goyal N, Guo W, Zappe D, Desai AS, KARDIA-1 Study Group. RNA interference with Zilebesiran for mild to moderate hypertension: the KARDIA-1 randomized clinical trial. JAMA. 2024;331(9):740. DOI: 10.1001/jama.2024.0728. PMCID: PMC10873804. PMID: 38363577"
+    },
+    {
+      "text": "I. International Conference on Harmonisation. 2000."
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}
