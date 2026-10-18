@@ -1,0 +1,263 @@
+{
+  "pmcid": "PMC13676059",
+  "pmid": "",
+  "doi": "10.1016/j.ajpc.2026.101701",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13676059/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "A biomarker risk score predicts adverse cardiovascular outcomes in patients with angina and non-obstructive coronary artery disease",
+  "articleType": "Brief Report",
+  "published": "2026-06-10",
+  "year": "2026",
+  "volume": "31",
+  "issue": "",
+  "articleNumber": "101701",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2026",
+  "authors": [
+    {
+      "given": "Jingwen",
+      "surname": "Huang",
+      "display": "Jingwen Huang"
+    },
+    {
+      "given": "Ana",
+      "surname": "Leon",
+      "display": "Ana Leon"
+    },
+    {
+      "given": "Julia",
+      "surname": "Ossi",
+      "display": "Julia Ossi"
+    },
+    {
+      "given": "Yi-An",
+      "surname": "Ko",
+      "display": "Yi-An Ko"
+    },
+    {
+      "given": "Taha",
+      "surname": "Ahmed",
+      "display": "Taha Ahmed"
+    },
+    {
+      "given": "Jose R.",
+      "surname": "Medina-Inojosa",
+      "display": "Jose R. Medina-Inojosa"
+    },
+    {
+      "given": "Kristen",
+      "surname": "Harris",
+      "display": "Kristen Harris"
+    },
+    {
+      "given": "Ayman",
+      "surname": "Alkhoder",
+      "display": "Ayman Alkhoder"
+    },
+    {
+      "given": "Huiying",
+      "surname": "Yang",
+      "display": "Huiying Yang"
+    },
+    {
+      "given": "Liana",
+      "surname": "Alcaro",
+      "display": "Liana Alcaro"
+    },
+    {
+      "given": "Mahmoud Al",
+      "surname": "Kasem",
+      "display": "Mahmoud Al Kasem"
+    },
+    {
+      "given": "Rafia",
+      "surname": "Lodhi",
+      "display": "Rafia Lodhi"
+    },
+    {
+      "given": "Ahmed",
+      "surname": "Eldaidamouni",
+      "display": "Ahmed Eldaidamouni"
+    },
+    {
+      "given": "Wesam",
+      "surname": "Hritani",
+      "display": "Wesam Hritani"
+    },
+    {
+      "given": "Nisreen",
+      "surname": "Haroun",
+      "display": "Nisreen Haroun"
+    },
+    {
+      "given": "Muhammet",
+      "surname": "Hasan",
+      "display": "Muhammet Hasan"
+    },
+    {
+      "given": "Laurence S",
+      "surname": "Sperling",
+      "display": "Laurence S Sperling"
+    },
+    {
+      "given": "Arshed A.",
+      "surname": "Quyyumi",
+      "display": "Arshed A. Quyyumi"
+    },
+    {
+      "given": "Puja K.",
+      "surname": "Mehta",
+      "display": "Puja K. Mehta"
+    }
+  ],
+  "affiliations": [
+    "aEmory Clinical Cardiovascular Research Institute, Division of Cardiology, Department of Medicine, Emory University School of Medicine, Atlanta, Georgia",
+    "bDepartment of Surgery, Medstar Georgetown University, Washington, D.C, USA",
+    "cDepartment of Medicine, Emory University School of Medicine, Atlanta, Georgia",
+    "dDepartment of Biostatistics and Bioinformatics, Rollins School of Public Health, Emory University, Atlanta, Georgia",
+    "eWilliam Carey University College of Osteopathic Medicine, Hattiesburg, Mississippi, USA"
+  ],
+  "keywords": [],
+  "abstract": [],
+  "sections": [
+    {
+      "title": "Article",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Abbreviations and acronymsANOCAangina with non-obstructive coronary arteriesCADcoronary artery diseaseMACEmajor adverse cardiovascular eventsCV deathcardiovascular deathNT-proBNPN-terminal pro-B-type natriuretic peptideBRSbiomarker risk scoresHRsubdistribution hazard ratioNRInet reclassification improvementIDIintegrated discrimination improvement"
+        }
+      ]
+    },
+    {
+      "title": "Background",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Angina with non-obstructive coronary arteries (ANOCA) is increasingly recognized as a clinically important syndrome rather than a benign condition. Patients with ANOCA are at intermediate risk for major adverse cardiovascular events (MACE) despite the absence of flow-limiting epicardial stenosis and have persistent symptoms and impaired quality of life, comparable to those with obstructive coronary artery disease (CAD) [1,2]. However, risk stratification remains limited in everyday practice as routine clinical variables incompletely identify who among the ANOCA patients are at greatest risk. Recent evidence suggests that biomarkers reflecting distinct pathophysiologic processes may enhance risk stratification in ANOCA and may provide incremental prognostic information because ANOCA likely reflects multiple overlapping biological processes. This study aims to evaluate the individual and combined prognostic value of N-terminal pro-B-type natriuretic peptide (NT-proBNP), galectin-3, and homocysteine in predicting incident MACE and cardiovascular death in patients with ANOCA, hypothesizing that activation of these pathophysiologic pathways will identify high-risk subgroups amenable to more personalized and targeted management."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Between May 2004 and August 2014, patients undergoing clinically indicated coronary angiography were enrolled in the Emory Cardiovascular Biobank [3]. For this analysis, we included 559 patients with ANOCA, defined as angina or angina-equivalent symptoms with &lt;50 % epicardial coronary stenosis and no prior exclusionary cardiac conditions. Patients who had obstructive CAD, prior coronary revascularization, heart failure or left ventricular ejection fraction &lt;50 %, cardiomyopathy, significant valvular heart disease, pulmonary hypertension, chronic kidney disease with estimated glomerular filtration rate &lt; 45 mL/min per 1.73 m<sup>2</sup>, cardiac transplantation, cardiac surgery, congenital heart disease, or malignancy were excluded. Demographic and clinical data, collected via questionnaires and medical records, included age, sex, race, body mass index (BMI), ever smoking, diabetes mellitus, hypertension, dyslipidemia (defined as total cholesterol ≥200 mg/dL, low-density lipoprotein &gt;130 mg/dL, high-density lipoprotein &lt;40 mg/dL, or lipid-lowering therapy), statin use, and ever smoked [3]. Plasma NT-proBNP, galectin-3, and homocysteine were measured from fasting blood samples collected at the time of catheterization. The primary outcomes were 5-year MACE, defined as cardiovascular death, myocardial infarction, stroke, heart failure hospitalization, or revascularization, and cardiovascular death. The study was approved by the Emory University Institutional Review Board."
+        },
+        {
+          "type": "paragraph",
+          "html": "Group differences were evaluated using ANOVA for continuous variables and chi-squared tests for categorical variables. Non-normally distributed biomarkers (NT-proBNP, galectin-3, homocysteine) were compared using the Kruskal-Wallis test in unadjusted analyses and log-transformed for multivariable analyses. Fine-Gray competing risk regression was used to account for non-cardiovascular death, adjusting for age, sex, hypertension, diabetes, dyslipidemia, statin use, and smoking history. To address missing data, k-nearest neighbors (kNN) imputation (k = 5) was performed based on similarity across data points. Model performance was evaluated by C-statistic, net reclassification improvement (NRI), and integrated discrimination improvement (IDI) [4]."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The cohort had a mean age of 59.1±11.9 years, and 49.6 % were female. Median NT-proBNP, galectin-3, and homocysteine levels were 97.5 pg/mL, 13.55 ng/mL, and 9.25 μmol/L, respectively. During median follow-up of 5 years, 77 patients (13.8 %) experienced MACE and 45 (8.1 %) died of cardiovascular causes (Fig. 1A). NT-proBNP was weakly correlated with galectin-3 (r = 0.23, p = 0.012). No statistically significant correlations were found between NT-proBNP and homocysteine, and between Galectin-3 and homocysteine. To capture cumulative biomarker burden, we created a BRS by assigning 1 point for each biomarker above the cohort median, yielding scores from 0 to 3. A BRS of 0 was present in 17.6 % of patients, 1 in 32.6 %, 2 in 30.8 %, and 3 in 19.0 %."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 1",
+          "caption": "Panel A. BRS was calculated by summing binary scores for each biomarker (NT-proBNP, galectin-3, homocysteine) based on whether levels were above (score = 1) or below the median (score = 0). Values are presented as mean (SD), or N (%). BRS, biomarker risk score; SD, standard deviation; N, number; BMI, body mass index; MACE, major adverse cardiovascular events; CV, cardiovascular; NT-proBNP, N-terminal pro-B-type natriuretic peptide. Panel B. Model 1: Univariable Fine-Gray regression (each biomarker analyzed separately)<strong>.</strong> Model 2: Multivariable Fine-Gray regression (each biomarker analyzed separately, adjusted for age, sex, hypertension, diabetes, dyslipidemia, statin use, and ever smoked). Model 3: Multivariable Fine-Gray regression (all biomarkers entered simultaneously, adjusted for risk factors as above). Abbreviations: sHR, subdistribution hazard ratios; CI, confidence interval. Asterisks indicate statistical significance (<em>p</em> &lt; 0.05). sHR represents the difference in hazards per doubling of biomarker measurement. Panel C. Comparison of predictive performance for MACE and CV death between the baseline model (clinical risk factors: age, sex, hypertension, diabetes, dyslipidemia, statin use, and ever smoked) and the enhanced model (clinical risk factors plus NT-proBNP, galectin-3, and homocysteine). Delta (Δ) C-statistic represents the absolute improvement in discrimination when biomarkers are added to the baseline model. CI, confidence interval; NRI, net reclassification improvement; IDI, integrated discrimination improvement; NT-proBNP, N-terminal pro-B-type natriuretic peptide; MACE, major adverse cardiovascular events; CV death, cardiovascular death. Asterisks indicate statistical significance (<em>p</em> &lt; 0.05). Panel D. Three biomarkers reflecting distinct pathophysiological pathways (NT-proBNP, galectin-3, homocysteine) were combined into a Biomarker Risk Score (BRS 0-3) with increased MACE and CV death risks observed with higher BRS. Addition of biomarkers to clinical risk factors significantly improved model discrimination for both outcomes. sHR = subdistribution hazard ratio; MACE = major adverse cardiovascular events; CV = cardiovascular; ROC, Receiver operating characteristic curves.",
+          "src": "assets/pmc/PMC13676059/gr1.webp",
+          "alt": "Fig. 1 Panel A. BRS was calculated by summing binary scores for each biomarker (NT-proBNP, galectin-3, homocysteine) based on whether levels were above (score = 1) or below the median (score = 0). Values are presented as mean (SD), or N (%). BRS, biomarker risk score; SD, standard deviation; N, number; BMI, body mass index; MACE, major adverse cardiovascular events; CV, cardiovascular; NT-proBNP, N-terminal pro-B-type natriuretic peptide. Panel B. Model 1: Univariable Fine-Gray regression (each biomarker analyzed separately). Model 2: Multivariable Fine-Gray regression (each biomarker analyzed separately, adjusted for age, sex, hypertension, diabetes, dyslipidemia, statin use, and ever smoked). Model 3: Multivariable Fine-Gray regression (all biomarkers entered simultaneously, adjusted for risk factors as above). Abbreviations: sHR, subdistribution hazard ratios; CI, confidence interval. Asterisks indicate statistical significance (p < 0.05). sHR represents the difference in hazards per doubling of biomarker measurement. Panel C. Comparison of predictive performance for MACE and CV death between the baseline model (clinical risk factors: age, sex, hypertension, diabetes, dyslipidemia, statin use, and ever smoked) and the enhanced model (clinical risk factors plus NT-proBNP, galectin-3, and homocysteine). Delta (Δ) C-statistic represents the absolute improvement in discrimination when biomarkers are added to the baseline model. CI, confidence interval; NRI, net reclassification improvement; IDI, integrated discrimination improvement; NT-proBNP, N-terminal pro-B-type natriuretic peptide; MACE, major adverse cardiovascular events; CV death, cardiovascular death. Asterisks indicate statistical significance (p < 0.05). Panel D. Three biomarkers reflecting distinct pathophysiological pathways (NT-proBNP, galectin-3, homocysteine) were combined into a Biomarker Risk Score (BRS 0-3) with increased MACE and CV death risks observed with higher BRS. Addition of biomarkers to clinical risk factors significantly improved model discrimination for both outcomes. sHR = subdistribution hazard ratio; MACE = major adverse cardiovascular events; CV = cardiovascular; ROC, Receiver operating characteristic curves."
+        },
+        {
+          "type": "paragraph",
+          "html": "Each biomarker was independently associated with increased risk of MACE and CV death (Fig. 1B). In multivariable Fine-Gray models the cumulative incidence of MACE progressively increased with an increase in BRS, where those with a BRS of 3 had the highest cumulative incidence at 20.8 % at 5 year follow-up, and a sHR of 3.49 (95 % CI: 1.15-10.54, p = 0.027), compared to those with a BRS 0 had a MACE cumulative incidence of 5.8 %. Similarly, for CV death, those with a BRS of 3 exhibited the highest cumulative incidence of 13.0 %, with an adjusted sHR of 7.53 (95 % CI: 1.45-39.12, p = 0.016) compared to patients with a BRS of 0 who had a CV death cumulative incidence of 2.1 % (Fig. 1D). These associations remained significant after mutual adjustment for all three biomarkers and clinical covariates including age, sex, hypertension, diabetes, dyslipidemia, statin use, and ever smoked, indicating that each biomarker contributed independent prognostic information."
+        },
+        {
+          "type": "paragraph",
+          "html": "Adding NT-proBNP, galectin-3, and homocysteine to clinical risk factors improved prognostic discrimination. For MACE, the C-statistic increased from 59.4 % with clinical variables alone to 68.9 % with biomarkers added. This improvement was accompanied by significant gains in NRI and IDI, indicating that the biomarker-enhanced model improved classification of future risk beyond conventional factors. For cardiovascular death, the C-statistic increased from 68.6 % to 79.1 %, again with significant improvement in reclassification and discrimination. (Fig. 1C and D)."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Novel findings of this study are that among patients with ANOCA, elevated levels of NT-proBNP (ventricular stretch and remodeling), galectin-3 (pro-inflammation and fibrosis) and homocysteine (oxidative stress), are independent predictors of adverse CV events, even after adjusting for traditional risk factors. Our study is clinically relevant as all three biomarkers are readily available and prognostic, making the BRS feasible to incorporate into risk assessment of ANOCA patients; however, prospective trials are needed before BRS-guided management can be recommended. Several observations may explain these findings. NT-proBNP reflects myocardial stretch and hemodynamic burden and may identify occult diastolic dysfunction or heart failure with preserved ejection fraction physiology, both of which are plausible contributors to symptoms and prognosis in ANOCA [5]. Galectin-3 is involved in inflammation and fibrosis and may signal adverse vascular remodeling, microvascular dysfunction, or diffuse myocardial remodeling [6]. Homocysteine promotes oxidative stress and endothelial dysfunction, mechanisms that are highly relevant to coronary microvascular disease and abnormal vasomotor regulation [7]. Prior studies have linked ANOCA or microvascular angina with adverse outcomes and with individual biomarkers, but our study extends this work by showing that three markers spanning distinct pathways provide additive prognostic value in the same cohort."
+        },
+        {
+          "type": "paragraph",
+          "html": "This study includes a large, well-characterized cohort of patients with ANOCA who have angiography-confirmed non-obstructive CAD and rigorous exclusion of conditions that could independently elevate biomarker levels, such as heart failure, chronic kidney disease, or prior revascularization. However, limitations include the absence of coronary function testing to confirm microvascular dysfunction and other vascular endotypes, which could provide further mechanistic insights. Invasive coronary function testing to define microvascular endotypes based on coronary flow reserve, index of microcirculatory resistance, or vasospasm, was performed, precluding subgroup specific associations between biomarkers and outcomes. Median-derived BRS cutoffs are cohort-specific and exploratory, requiring validation against established clinical or data-driven thresholds in independent cohorts. Biomarker levels were measured at a single time point, potentially missing temporal variability. The single-center design may limit generalizability, and future studies should validate these findings in diverse populations and explore longitudinal biomarker trends and the impact of targeted interventions."
+        }
+      ]
+    },
+    {
+      "title": "Conclusions",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In patients with ANOCA, NT-proBNP, galectin-3, and homocysteine each independently predict adverse cardiovascular outcomes, and the addition of these biomarkers in a biomarker risk score improves prediction of MACE and cardiovascular death. These findings support biomarker-informed risk stratification in ANOCA and provide a rationale for external validation and future biomarker-guided studies. These findings are hypothesis-generating and require prospective external validation before clinical adoption."
+        }
+      ]
+    },
+    {
+      "title": "Fundings",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Jingwen Huang, MD is supported by Katz preventive cardiology fellowship. Arshed A. Quyyumi, MD is supported by 10.13039/100000002National Institutes of Health through the following grants: 1P01HL154996-04, 5R01HL157311-04, 1R01HL166004-03, R01 AG089759-01, 3P30DK111024-07S2, 5T32 HL130025. Puja K. Mehta, MD is supported by 10.13039/100000002National Institutes of Health: grant NIH R01HL157311."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Jingwen Huang:</strong> Writing – review &amp; editing, Writing – original draft, Visualization, Validation, Methodology, Formal analysis, Conceptualization. <strong>Ana Leon:</strong> Data curation. <strong>Julia Ossi:</strong> Writing – review &amp; editing, Writing – original draft. <strong>Yi-An Ko:</strong> Data curation. <strong>Taha Ahmed:</strong> Writing – review &amp; editing. <strong>Jose R. Medina-Inojosa:</strong> Writing – review &amp; editing. <strong>Kristen Harris:</strong> Writing – review &amp; editing. <strong>Ayman Alkhoder:</strong> Writing – review &amp; editing, Data curation. <strong>Huiying Yang:</strong> Data curation. <strong>Liana Alcaro:</strong> Writing – review &amp; editing. <strong>Mahmoud Al Kasem:</strong> Writing – review &amp; editing. <strong>Rafia Lodhi:</strong> Writing – review &amp; editing. <strong>Ahmed Eldaidamouni:</strong> Writing – review &amp; editing. <strong>Wesam Hritani:</strong> Writing – review &amp; editing. <strong>Nisreen Haroun:</strong> Writing – review &amp; editing. <strong>Muhammet Hasan:</strong> Writing – review &amp; editing. <strong>Laurence S Sperling:</strong> Writing – review &amp; editing, Supervision, Project administration, Investigation, Funding acquisition, Conceptualization. <strong>Arshed A. Quyyumi:</strong> Writing – review &amp; editing, Supervision, Investigation, Funding acquisition, Conceptualization. <strong>Puja K. Mehta:</strong> Writing – review &amp; editing, Supervision, Methodology, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "text": "Writing Committee Members, Gulati M, Levy PD, Mukherjee D, Amsterdam E, Bhatt DL, Birtcher KK, Blankstein R, Boyd J, Bullock-Palmer RP, Conejo T, Diercks DB, Gentile F, Greenwood JP, Hess EP, Hollenberg SM, Jaber WA, Jneid H, Joglar JA, Morrow DA, O'Connor RE, Ross MA, Shaw LJ. 2021 AHA/ACC/ASE/CHEST/SAEM/SCCT/SCMR guideline for the evaluation and diagnosis of chest pain. J Am Coll Cardiol.. 2021;78(22):e187–e285. DOI: 10.1016/j.jacc.2021.07.053. PMID: 34756653"
+    },
+    {
+      "text": "Writing Committee Members, Virani SS, Newby LK, Arnold SV, Bittner V, Brewer LC, Demeter SH, Dixon DL, Fearon WF, Hess B, Johnson HM, Kazi DS, Kolte D, Kumbhani DJ, LoFaso J, Mahtta D, Mark DB, Minissian M, Navar AM, Patel AR, Piano MR, Rodriguez F, Talbot AW, Taqueti VR, Thomas RJ, van Diepen S, Wiggins B, Williams MS. 2023 AHA/ACC/ACCP/ASPC/NLA/PCNA guideline for the management of patients with chronic coronary disease. J Am Coll Cardiol.. 2023;82(9):833–955. DOI: 10.1016/j.jacc.2023.04.003. PMID: 37480922"
+    },
+    {
+      "text": "Ko YA, Hayek S, Sandesara P, Samman Tahhan A, Quyyumi A. Cohort profile: the emory cardiovascular biobank (EmCAB). BMJ Open.. 2017;7(12). DOI: 10.1136/bmjopen-2017-018753. PMCID: PMC5778297. PMID: 29288185"
+    },
+    {
+      "text": "Gerds TA, Kattan MW, Schumacher M, Yu C. Estimating a time-dependent concordance index for survival prediction models with competing risks. Stat Med.. 2013;32(13):2173–2186. DOI: 10.1002/sim.5681. PMID: 23172755"
+    },
+    {
+      "text": "Suda A, Takahashi J, Schwidder M, Ong P, Ang D, Berry C, Camici PG, Crea F, Carlos Kaski J, Pepine C, Rimoldi O, Sechtem U, Yasuda S, Beltrame JF, Noel Bairey Merz C, Shimokawa H, Coronary Vasomotor Disorders International Study COVADIS Group. Prognostic association of plasma NT-proBNP levels in patients with microvascular angina: a report from the international cohort study by COVADIS. Int J Cardiol Heart Vasc.. 2022;43. DOI: 10.1016/j.ijcha.2022.101139. PMCID: PMC9626381. PMID: 36338319"
+    },
+    {
+      "text": "Blanda V, Bracale UM, Di Taranto MD, Fortunato G. Galectin-3 in cardiovascular diseases. Int J Mol Sci. 2020;21(23):9232. DOI: 10.3390/ijms21239232. PMCID: PMC7731136. PMID: 33287402"
+    },
+    {
+      "text": "Ahmad A, Corban MT, Toya T, Sara JD, Lerman B, Park JY, Lerman LO, Lerman A. Coronary microvascular endothelial dysfunction in patients with angina and nonobstructive coronary artery disease is associated with elevated serum homocysteine levels. J Am Heart Assoc.. 2020;9(19). DOI: 10.1161/JAHA.120.017746. PMCID: PMC7792413. PMID: 32993421"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

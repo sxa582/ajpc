@@ -1,0 +1,181 @@
+{
+  "pmcid": "PMC13676050",
+  "pmid": "",
+  "doi": "10.1016/j.ajpc.2026.101715",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13676050/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "C-reactive protein and mortality in 'SMuRF-less but inflamed' women and men: Evidence from the United Kingdom Biobank",
+  "articleType": "Brief Report",
+  "published": "2026-06-25",
+  "year": "2026",
+  "volume": "31",
+  "issue": "",
+  "articleNumber": "101715",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2026",
+  "authors": [
+    {
+      "given": "Florian",
+      "surname": "Kahles",
+      "display": "Florian Kahles"
+    },
+    {
+      "given": "Berkan",
+      "surname": "Kurt",
+      "display": "Berkan Kurt"
+    },
+    {
+      "given": "Martin",
+      "surname": "Reugels",
+      "display": "Martin Reugels"
+    },
+    {
+      "given": "Kai M",
+      "surname": "Schneider",
+      "display": "Kai M Schneider"
+    },
+    {
+      "given": "Nikolaus",
+      "surname": "Marx",
+      "display": "Nikolaus Marx"
+    },
+    {
+      "given": "Carolin V",
+      "surname": "Schneider",
+      "display": "Carolin V Schneider"
+    },
+    {
+      "given": "Paul M",
+      "surname": "Ridker",
+      "display": "Paul M Ridker"
+    }
+  ],
+  "affiliations": [
+    "aDepartment of Internal Medicine I - Cardiology, University Hospital Aachen, RWTH Aachen University, Aachen, Germany",
+    "bDepartment of Internal Medicine III - Gastroenterology, University Hospital Aachen, RWTH Aachen University, Aachen, Germany",
+    "cDepartment of Medicine I, Gastroenterology and Hepatology, TUD Dresden University of Technology, Dresden, Germany",
+    "dCenter for Regenerative Therapies Dresden (CRTD), TUD Dresden University of Technology, Dresden, Germany",
+    "eElse Kroener Fresenius Center for Digital Health, Faculty of Medicine and University Hospital Carl Gustav Carus, TUD Dresden University of Technology, Dresden, Germany",
+    "fCenter for Cardiovascular Disease Prevention, Division of Preventive Medicine, Mass General Brigham, Harvard Medical School, Boston, MA, USA"
+  ],
+  "keywords": [
+    "C-reactive protein",
+    "SMuRF",
+    "Inflammation",
+    "Primary prevention",
+    "Residual inflammatory risk",
+    "ASCVD",
+    "Sex-stratified"
+  ],
+  "abstract": [],
+  "sections": [
+    {
+      "title": "Article",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Residual inflammation captures a dimension of risk relevant for the development of atherosclerotic cardiovascular disease (ASCVD) and assessment of high-sensitivity C-reactive protein (hsCRP) can help to gauge this risk. As suggested by the 2025 Scientific Statement of the American College of Cardiology (ACC) on Inflammation and Cardiovascular Disease, hsCRP screening can assist in the identification of individuals prone to develop ASCVD related adverse outcomes [1]. Broadly, hsCRP levels &lt;1, 1–3 and &gt;3 mg/L associate with lower, intermediate, and higher residual inflammatory risk when interpreted in the context of other risk factors."
+        },
+        {
+          "type": "paragraph",
+          "html": "Several contemporary studies have affirmed that hsCRP, along with low-density lipoprotein cholesterol (LDL-C) and lipoprotein(a), independently predicts major adverse cardiovascular events (MACE) in the setting of primary prevention [2,3]. Recently, investigators in the United States Women’s Health Study additionally reported that individuals who lacked standard modifiable risk factors or “SMuRFs” who nonetheless had elevated levels of hsCRP were at increased lifetime risk for ASCVD events, a condition termed “SMuRF-less but Inflamed” [4]. To date, however, the generalizability of these findings beyond this female-only cohort remains uncertain."
+        },
+        {
+          "type": "paragraph",
+          "html": "We elected to address this issue within the population-based United Kingdom (UK) Biobank study that enrolled &gt;500,000 adults between 2006 and 2010. Data were extracted from hospital admission records and national registries. Individuals aged 40 years or older without known ASCVD and who were free of standard modifiable risk factors (SMuRF-less) at baseline were included in this analysis. Participants were classified as SMuRF-less based on the original definition [4] if they met the following criteria: no known history of hypertension, dyslipidemia, diabetes mellitus, no current tobacco smoking, systolic blood pressure (SBP) &lt;140 mmHg, diastolic blood pressure (DBP) &lt;90 mmHg, total cholesterol ≤213 mg/dL, LDL-C ≤ 135 mg/dL, HbA1c &lt;6.5% and glucose &lt;7.0 mmol/L. Serum concentrations of hsCRP were measured using a high-sensitivity immunoturbidimetric assay. Analyses included an interaction term between hsCRP and sex to assess sex-specific effects, allowing comparability with previously published data [4]. The primary outcome was all-cause death, secondary endpoints included a composite of CV death, non-fatal myocardial infarction, non-fatal stroke (major adverse CV events, MACE) as well as CV death. Associations with hsCRP were evaluated with Kaplan-Meier analyses and complete case multivariable Cox proportional hazards models using restricted cubic splines for hsCRP, estimated glomerular filtration rate (eGFR) and interaction terms where appropriate, with hazard ratios (HR) and 95% confidence intervals (CI) reported. For sensitivity analyses a stricter SMuRF-less status was modelled as a dichotomous effect modifier by inclusion of an interaction term to avoid loss of precision. Adjusted HRs were then derived from model-based contrasts using hsCRP contrast values corresponding to the median hsCRP levels within the &lt;1 mg/L and &gt;3 mg/L categories, stratified by sex."
+        },
+        {
+          "type": "paragraph",
+          "html": "During a median follow-up of 15.3 years, all-cause death was recorded in 3323 of 67,489 SMuRF-less subjects, of which the median age was 52 [45, 60] and 59.7% were female. MACE occurred in 2000 and CV death in 411 subjects. As shown in Fig. 1, in SMuRF-less women and men, those with intermediate (hsCRP 1–3 mg/L) and high (hsCRP &gt;3 mg/L) residual inflammatory risk had higher risk of death than those with hsCRP levels &lt;1 mg/L (log-rank p &lt; 0.0001). In univariable Cox regression analyses, hsCRP levels above 3 mg/L were associated with a higher risk of death in SMuRF-less women (1444 events; 3.6% event rate; HR: 2.21; 95% CI: 2.01–2.43) and men (1879 events; 6.9% event rate; HR: 2.22; 95% CI: 2.02–2.44) compared with levels &lt;1 mg/L (p &lt; 0.0001), with no difference between sexes (p for interaction 0.69). These results remained significant after multivariable adjustment for age, body mass index (BMI) and eGFR (p &lt; 0.0001) for women (HR: 1.54; 95% CI: 1.39–1.71) and men (HR: 1.61; 95% CI: 1.46–1.78; p for interaction 0.14). Sensitivity analyses including lower blood pressure and LDL-C thresholds based on current US-American (SBP &lt;130 mmHg, DBP &lt;80 mmHg, LDL-C &lt; 100 mg/dL) and European guidelines (SBP &lt;120 mmHg, DBP &lt;70 mmHg, LDL-C &lt; 116 mg/dL) showed consistent results in women (US: HR: 1.61; 95% CI: 1.44–1.80; EU: HR: 1.63; 95% CI: 1.45–1.84) and men (US: HR: 1.69; 95% CI: 1.51–1.89; EU: HR: 1.70; 95% CI: 1.52–1.91) (all p &lt; 0.0001)."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 1",
+          "caption": "(<em>Central illustration</em>) Incidence of all-cause death in SMuRF-less subjects. Kaplan-Meier curves illustrating the cumulative incidence of all-cause death stratified by hsCRP categories of &lt;1 mg/L vs. 1–3 mg/L vs. &gt;3 mg/L in “SMuRF-less” women <strong>(A)</strong> and men <strong>(B)</strong>. The number at risk is displayed below the x-axis and shaded areas represent 95% confidence intervals. <em>Abbreviations: hsCRP: high-sensitivity C-reactive protein; SMuRF: standard modifiable cardiovascular risk factors</em>.",
+          "src": "assets/pmc/PMC13676050/gr1.webp",
+          "alt": "Fig. 1 (Central illustration) Incidence of all-cause death in SMuRF-less subjects. Kaplan-Meier curves illustrating the cumulative incidence of all-cause death stratified by hsCRP categories of <1 mg/L vs. 1–3 mg/L vs. >3 mg/L in “SMuRF-less” women (A) and men (B). The number at risk is displayed below the x-axis and shaded areas represent 95% confidence intervals. Abbreviations: hsCRP: high-sensitivity C-reactive protein; SMuRF: standard modifiable cardiovascular risk factors."
+        },
+        {
+          "type": "paragraph",
+          "html": "Notably, all associations were consistent for MACE and CV death in women (MACE: 745 events; 1.9% event rate; adj. HR: 1.22; 95% CI: 1.04–1.44; CV death: 136 events; 0.3% event rate; adj. HR: 1.33; 95% CI: 0.98–1.79) and men (MACE: 1255 events; 4.6% event rate; adj. HR: 1.17; 95% CI: 1.01–1.36; CV death: 275 events; 1.0% event rate; adj. HR: 1.40; 95% CI: 1.05–1.87; p for interaction: MACE: 0.47, CV death: 0.68)."
+        },
+        {
+          "type": "paragraph",
+          "html": "The current data from UK Biobank provide confirmatory evidence that hsCRP associates with increased lifetime risk for ASCVD and all-cause mortality even among individuals lacking traditional risk factors. Importantly, the current data also extend prior findings in apparently healthy women [4] to now include apparently healthy men. For such “SMuRF-less but Inflamed” individuals, it would seem prudent for clinicians to encourage early preventive strategies including behavioral and lifestyle interventions targeting nutrition, physical activity, body weight management and smoking cessation [1,5]. Beyond such primordial prevention, recent analysis of “SMuRF-less but Inflamed” participants in the global JUPITER trial demonstrated that random allocation to rosuvastatin 20 mg daily as compared to placebo lowered cardiovascular event rates by 38% (HR 0.62; 95% CI: 0.45–0.85) [6]. Thus, for some “SMuRF-less but Inflamed” patients, physicians may also want to consider prophylactic statin therapy."
+        },
+        {
+          "type": "paragraph",
+          "html": "In conclusion, in a large primary prevention cohort of SMuRF-less women and men, higher hsCRP levels were associated with increased risks of long-term mortality and MACE. These findings extend prior observations beyond female-only cohorts and support broader screening of hsCRP to assist in the detection of individuals otherwise classified as low risk by traditional factors."
+        }
+      ]
+    },
+    {
+      "title": "Data availability",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Individual-level data can be accessed through the UK Biobank upon application and approval (<a href=\"https://www.ukbiobank.ac.uk\">www.ukbiobank.ac.uk</a>). Summary statistics generated in this study are available from the corresponding author upon reasonable request."
+        }
+      ]
+    },
+    {
+      "title": "Funding",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "F.K. was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation, 520275106, Emmy Noether Research Group; SFB TRR 219; Project-ID 322900939 [M-07]), the European Research Area Network on Cardiovascular Diseases (ERA-CVD and BMBF, Grant No. JTC-2019, MyPenPath - 01KL2004), the European Foundation for the Study of Diabetes (EFSD)/Novo Nordisk Foundation (NNF2OSA0066111) and the Interdisciplinary Centre for Clinical Research within the faculty of Medicine at the 10.13039/501100007210RWTH Aachen University (IZKF project PTD 1-11). K.M.S. is supported by the Federal Ministry of and Research (BMBF) and the Ministry of Culture and Science of the German State of North Rhine-Westphalia under the Excellence strategy of the federal government and the Laender and by the CRC 1382 project B09 funded by Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)—Project-ID 403224013—SFB 1382. N.M. is supported by the Deutsche Forschungsgemeinschaft (German Research Foundation; TRR 219; Project-ID 322900939 [M03, M05]."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Florian Kahles:</strong> Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Project administration, Resources, Supervision, Visualization, Writing – original draft, Writing – review &amp; editing. <strong>Berkan Kurt:</strong> Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Project administration, Visualization, Writing – original draft, Writing – review &amp; editing. <strong>Martin Reugels:</strong> Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Visualization, Writing – original draft, Writing – review &amp; editing. <strong>Kai M Schneider:</strong> Conceptualization, Methodology, Project administration, Resources, Writing – review &amp; editing. <strong>Nikolaus Marx:</strong> Conceptualization, Formal analysis, Investigation, Supervision, Writing – review &amp; editing. <strong>Carolin V Schneider:</strong> Conceptualization, Formal analysis, Funding acquisition, Investigation, Project administration, Resources, Supervision, Writing – review &amp; editing. <strong>Paul M Ridker:</strong> Conceptualization, Formal analysis, Investigation, Supervision, Writing – original draft, Writing – review &amp; editing."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare the following financial interests/personal relationships which may be considered as potential competing interests."
+        },
+        {
+          "type": "paragraph",
+          "html": "F.K. has served as a speaker for Novo Nordisk, Boehringer Ingelheim, Bayer, Amgen, Apontis Pharma, Eli Lilly, AstraZeneca, C.T.I., Cogitando, Synlab, CSL Vifor, DGK-Akademie, SphingoTec, 4TEEN4 Pharmaceuticals and diaplan GmbH, consulted Novo Nordisk, Eli Lilly, Bayer, Apontis Pharma, Pricewaterhouse Coopers/ Strategy&amp;, received travel support from Amgen, Novo Nordisk, Boehringer Ingelheim, Bayer, SphingoTec, 4TEEN4 Pharmaceuticals, diaplan GmbH, C.T.I., Cogitando, and Eli Lilly and has received research-related in-kind services from SphingoTec and 4TEEN4 Pharmaceuticals. B.K. has served as a speaker for Novo Nordisk, Lilly, Apontis Pharma, SphingoTec, 4TEEN4 Pharmaceuticals, DGK-Akademie, and the Professional Association of German Internists (BDI e.V.), has consulted for Novo Nordisk and Roche Diagnostics, has received travel support from Novo Nordisk, Lilly, Boehringer Ingelheim, AstraZeneca, Apontis Pharma, Daiichi Sankyo, Edwards Lifesciences, Medtronic, 4TEEN4 Pharmaceuticals, the German Society of Lipidology, DGK-Akademie and the German Cardiac Society and has received research-related in-kind services from SphingoTec and 4TEEN4 Pharmaceuticals. N.M. has given lectures for Amgen, Bayer, Boehringer Ingelheim, Sanofi-Aventis, MSD, BMS, AstraZeneca, Lilly, Novo Nordisk; has received unrestricted research grants from Boehringer Ingelheim, and has served as an advisor for Bayer, Boehringer Ingelheim, Sanofi-Aventis, MSD, BMS, AstraZeneca, Novo Nordisk. In addition, served in trial leadership for Boehringer Ingelheim and Novo Nordisk. N.M. declines all personal compensation from pharma or device companies. P.M.R. has received institutional research grant support from Kowa, Novartis, Amarin, Pfizer, Esperion, Novo Nordisk, and the NHLBI; during the past 3 years has served as a consultant to Novartis, Agepha, Arrowhead, AstraZeneca, CSL Behring, Civi Biopharma, Merck, SOCAR, Novo Nordisk, Eli Lilly, New Amsterdam, Boehringer Ingelheim, Cytokinetics, Nodthera, Tourmaline Bio, and Cardio Therapeutics; has minority shareholder equity positions in Uppton, Bitteroot Bio, and Angiowave; and receives compensation for service on the Peter Munk Advisory Board (University of Toronto), the Leducq Foundation, Paris, France."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "text": "Mensah GA, Arnold N, Prabhu SD, Ridker PM, Welty FK. PMID: 41020749"
+    },
+    {
+      "text": "Ridker PM, Moorthy MV, Cook NR, Rifai N, Lee IM, Buring JE. Inflammation, cholesterol, lipoprotein(a), and 30-year cardiovascular outcomes in women. N Engl J Med. 2024;391(22):2087–2097. DOI: 10.1056/NEJMoa2405182. PMCID: PMC11711015. PMID: 39216091"
+    },
+    {
+      "text": "Kurt B, Reugels M, Schneider KM, Spiesshoefer J, Milzi A, Gombert A, Fordyce CB, Wenzl FA, Pagidipati NJ, Rocha V, Fudim M, Sharma A, Lehrke M, Shimokawa H, Liuzzo G, Tokgozoglu L, Crea F, Lüscher TF, Libby P, Ridker PM, Marx N, Schneider CV, Kahles F. C-reactive protein and cardiovascular risk in the general population. Eur Heart J. 2025. DOI: 10.1093/eurheartj/ehaf937. PMCID: PMC13101082. PMID: 41378999"
+    },
+    {
+      "text": "Ridker PM, Figtree GA, Moorthy MV, Mora S, Buring JE. C-reactive protein and cardiovascular risk among women with no standard modifiable risk factors: evaluating the 'SMuRF-less but inflamed. Eur Heart J. 2026;47(3):306–314. DOI: 10.1093/eurheartj/ehaf658. PMCID: PMC12807569. PMID: 40878356"
+    },
+    {
+      "text": "Ridker PM. A test in context: high-sensitivity C-reactive protein. J Am Coll Cardiol. 2016;67(6):712–723. DOI: 10.1016/j.jacc.2015.11.037. PMID: 26868696"
+    },
+    {
+      "text": "Ridker PM. Statins for the \"SMuRFLess but inflamed\": silent vascular inflammation and the challenge of translational science. JACC Basic Transl Sci. 2025;10(8). DOI: 10.1016/j.jacbts.2025.101318. PMCID: PMC12302209. PMID: 40668163"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

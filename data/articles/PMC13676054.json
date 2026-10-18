@@ -1,0 +1,602 @@
+{
+  "pmcid": "PMC13676054",
+  "pmid": "",
+  "doi": "10.1016/j.ajpc.2026.101740",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13676054/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Absence of significant coronary artery disease does not eliminate smoking-related cardiovascular risk: insights from the PROMISE trial",
+  "articleType": "Research Article",
+  "published": "2026-07-11",
+  "year": "2026",
+  "volume": "31",
+  "issue": "",
+  "articleNumber": "101740",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2026",
+  "authors": [
+    {
+      "given": "Nóra M",
+      "surname": "Kerkovits",
+      "display": "Nóra M Kerkovits"
+    },
+    {
+      "given": "Thomas",
+      "surname": "Mayrhofer",
+      "display": "Thomas Mayrhofer"
+    },
+    {
+      "given": "Isabel L",
+      "surname": "Langenbach",
+      "display": "Isabel L Langenbach"
+    },
+    {
+      "given": "Jan M",
+      "surname": "Brendel",
+      "display": "Jan M Brendel"
+    },
+    {
+      "given": "Michelle D",
+      "surname": "Kelsey",
+      "display": "Michelle D Kelsey"
+    },
+    {
+      "given": "Maros",
+      "surname": "Ferencik",
+      "display": "Maros Ferencik"
+    },
+    {
+      "given": "Michael T",
+      "surname": "Lu",
+      "display": "Michael T Lu"
+    },
+    {
+      "given": "Neha",
+      "surname": "Pagidipati",
+      "display": "Neha Pagidipati"
+    },
+    {
+      "given": "Svati H",
+      "surname": "Shah",
+      "display": "Svati H Shah"
+    },
+    {
+      "given": "Pamela S",
+      "surname": "Douglas",
+      "display": "Pamela S Douglas"
+    },
+    {
+      "given": "Borek",
+      "surname": "Foldyna",
+      "display": "Borek Foldyna"
+    }
+  ],
+  "affiliations": [
+    "aCardiovascular Imaging Research Center (CIRC), Department of Radiology, Massachusetts General Hospital, Harvard Medical School, Boston, MA, USA",
+    "bMedical Imaging Centre, Semmelweis University, Budapest, Hungary",
+    "cCenter for Preventive Medicine and Digital Health, University of Heidelberg, Mannheim, Germany",
+    "dDepartment of Radiology, University of Tuebingen, Tuebingen, Germany",
+    "eDuke Clinical Research Institute, Duke University School of Medicine, Durham, NC, USA",
+    "fDivision of Cardiology, Department of Medicine, Duke University School of Medicine, Durham, NC, USA",
+    "gKnight Cardiovascular Institute, Oregon Health & Science University, Portland, OR, USA"
+  ],
+  "keywords": [
+    "Smoking",
+    "Inflammation",
+    "Atherosclerosis",
+    "Stress test",
+    "Coronary CT angiography",
+    "Prevention"
+  ],
+  "abstract": [
+    {
+      "html": "<strong>Background:</strong> Although the relationship between smoking and cardiovascular events is well established, it remains uncertain whether the outcomes of noninvasive testing (NIT) influence this relationship and how systemic biomarkers may aid risk stratification in patients presenting with chest pain."
+    },
+    {
+      "html": "<strong>Methods:</strong> This study included PROMISE participants with stable chest pain and available smoking status (current, ever, or never) and NIT results (Positive NIT: ≥70% coronary stenosis on CT angiography or inducible ischemia on stress testing). Smoking was associated with systemic biomarkers (e.g., hsCRP, IL-6, MMP-9), NIT results, and major adverse cardiovascular events (MACE: cardiovascular death, myocardial infarction, unstable angina), using regression and mediation models adjusted for traditional cardiovascular risk factors (median follow-up 24.4 months)."
+    },
+    {
+      "html": "<strong>Results:</strong> Among 9100 individuals (mean age 61±8 years; 53% female), 51% were ever-smokers, including 18% current smokers. Smoking was independently associated with MACE, with positive NIT mediating this relationship (current: 16%; ever: 12%, <em>p</em> ≤ 0.006). Compared with never-smokers, smoking was associated with MACE despite negative NIT (current: aHR 2.41, 95%CI 1.49–3.89; ever: aHR 1.80, 95%CI 1.25–2.59), with the most pronounced differences seen in men vs. women and CV death/MI (sex interaction <em>p</em> = 0.047). Smoking was associated with high levels of inflammatory biomarkers, particularly MMP-9 (+51%; current vs. never-smokers), which partially mediated the smoking-MACE association (current: 25%; ever: 8%, ≤0.05)."
+    },
+    {
+      "html": "<strong>Conclusions:</strong> Negative NIT does not reduce smoking-associated MACE risk in patients with stable chest pain. Particularly, current smoking confers substantial residual cardiovascular risk, potentially mediated by MMP-9-related matrix remodeling not captured by standard testing, supporting aggressive smoking cessation irrespective of NIT results."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Article",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "AbbreviationsACEAngiotensin-converting enzymeARBAngiotensin-receptor blockerASCVDAtherosclerotic cardiovascular diseaseBMIBody mass indexCADCoronary artery diseaseCCTACoronary computed tomography angiographyCVCardiovascularhsCRPHigh-sensitivity C-reactive proteinIL-6Interleukin-6MACEMajor adverse cardiovascular eventsMIMyocardial infarctionMMP-9Matrix metalloproteinase-9NITNoninvasive testing"
+        }
+      ]
+    },
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Tobacco smoking is one of the leading causes of preventable death worldwide [1], accounting for roughly one-quarter of cardiovascular (CV) fatalities in the United States and 20% of deaths from coronary heart disease in the WHO European Region [2,3]. Smoking is a major CV risk factor that promotes coronary artery disease (CAD) through adverse lipid changes, thrombosis, and endothelial injury, driving atherogenesis [[4], [5], [6]]. It also induces chronic systemic inflammation, reflected by elevated inflammatory biomarkers linked to vascular remodeling pathways [[7], [8], [9], [10]]. This pro-inflammatory milieu is increasingly recognized as a key link between smoking and atherosclerotic plaque progression [7], and is associated with an increased risk of myocardial infarction (MI), stroke, and CV death [11]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Stable chest pain is a common presenting symptom among smokers. Noninvasive testing (NIT), including coronary computed tomography angiography (CCTA) and stress testing, is recommended by guidelines as a first-line assessment for patients with stable chest pain and appropriate pre-test probability, to detect obstructive CAD or evaluate inducible ischemia, and guide risk stratification [12]. However, the interplay between smoking, inflammation, significant CAD as determined by NIT, and adverse events remains incompletely understood. In particular, it is unclear whether smokers with normal NIT findings still face a higher event risk due to underlying inflammatory status or adverse plaque characteristics beyond significant CAD."
+        },
+        {
+          "type": "paragraph",
+          "html": "To address this knowledge gap, we utilized the PROMISE (Prospective Multicenter Imaging Study for Evaluation of Chest Pain) [13], a large multicenter study of outpatients with stable chest pain undergoing initial non-invasive cardiac testing, to assess whether cigarette smoking is related to systemic inflammation, significant CAD on NIT, and adverse cardiovascular events. We further evaluated whether inflammation serves as a significant mediator of the relationship between smoking and clinical outcomes."
+        }
+      ]
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Study design and population",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This study included symptomatic outpatients without known CAD, referred to non-invasive testing and enrolled in the PROMISE trial. Briefly, the PROMISE trial was a pragmatic randomized comparative effectiveness trial that enrolled 10,003 participants across 193 North American centers between July 2010 and September 2013. PROMISE participants were randomized 1:1 to either CCTA or functional stress testing. All participants were followed for incident major adverse cardiovascular events (MACE), defined as CV death, non-fatal MI, or hospitalization for unstable angina for a minimum of 12 months [13]. As a sensitivity analysis, we evaluated a composite of hard cardiovascular events, defined as CV death or non-fatal MI. All events were adjudicated by an independent clinical events committee. For this study, participants were categorized as ever-smokers (current or former) or never-smokers based on baseline survey data. Patients with missing smoking data, those who did not undergo any diagnostic testing, or whose testing was considered non-diagnostic were excluded (Supplementary Figure 1). All patients provided written informed consent, and the main study protocol was approved by each of the local or central institutional review boards[13]. This secondary analysis was conducted with approval from the Mass General Brigham Institutional Review Board approval (IRB No 2009P002231)."
+        }
+      ]
+    },
+    {
+      "title": "Inflammatory biomarkers",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Serum concentrations of hsCRP, IL-6, adiponectin, resistin, galectin-3, and matrix metalloproteinase-9 (MMP-9) were available in up to 3775 patients. All biomarkers were quantified using single-molecule counting technology on the Erenna platform (Singulex, Alameda, California) as described previously [14]. All assays were conducted in a centralized core laboratory, blinded to clinical data and study results."
+        }
+      ]
+    },
+    {
+      "title": "Non-invasive testing",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Patients underwent either CCTA or site-selected functional stress testing (exercise ECG, nuclear, or stress echocardiography) according to randomization. Diagnostic testing was carried out following professional society guidelines. Site-reported test results were classified as negative or positive NIT. CCTA was considered positive if obstructive CAD was identified (≥70% stenosis in any branch or ≥50% in the left main for primary, and ≥50% for sensitivity analysis [NIT<sub>50</sub>]). For patients undergoing functional testing, positive results were defined as the presence of inducible perfusion defect on nuclear stress testing, new stress-induced wall motion abnormality on echocardiogram, or ST depression on ECG, depending on the type of testing [15]."
+        }
+      ]
+    },
+    {
+      "title": "Statistical analysis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Continuous variables are reported as mean ± standard deviation or median with interquartile range (Q1-Q3) and compared using unpaired <em>t</em>-tests or Wilcoxon rank-sum tests. Categorical variables are presented as absolute frequencies and percentages and compared using Fisher’s exact test."
+        },
+        {
+          "type": "paragraph",
+          "html": "Multivariable logistic regressions were used to assess the association between smoking and NIT positivity, while Cox proportional hazards models were used to evaluate the association between smoking and MACE, including a sensitivity analysis for CV death and MI. All multivariable analyses were adjusted in stages for demographics (age, sex, and race/ethnicity), CV risk factors (hypertension, dyslipidemia, diabetes, body mass index (BMI), and family history of premature CAD). Survival analyses were also adjusted for NIT positivity."
+        },
+        {
+          "type": "paragraph",
+          "html": "Multivariable mediation analyses were used to evaluate whether abnormal NIT findings or selected biomarkers mediated the relationship between smoking and MACE. Biomarkers for mediation analysis were selected through an initial series of bivariable Cox regressions, including smoking and each biomarker, followed by multivariable Cox models that incorporated only those biomarkers significantly associated with MACE in the first step. Stata 18.0 (StataCorp LP) was used to perform all statistical analyses, with two-tailed p-values &lt;0.05 considered statistically significant."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Study population",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Overall, 4659 (51%) of the 9100 included PROMISE participants were ever-smokers at baseline, with 1599 (34%) being current smokers and 3060 (66%) former smokers. Compared to never-smokers, ever-smokers were slightly younger (60±8 vs 61±8 years, <em>p</em> &lt; 0.001), more often males (53%vs 42%, <em>p</em> &lt; 0.001), and less often racial/ethnic minorities (20%vs 24%, <em>p</em> &lt; 0.001). Hypertension and dyslipidemia were slightly more prevalent among never-smokers (66%vs 63%, <em>p</em> = 0.003, and 70% vs 65%, <em>p</em> &lt; 0.001, respectively). Ever-smokers had a slightly lower BMI (30.2 ± 5.9 vs 30.7 ± 6.1 kg/m²) than never-smokers, despite leading more frequently a sedentary lifestyle (50%vs 47%, <em>p</em> &lt; 0.001). Ever-smokers had a substantially higher median pooled cohort equation ASCVD risk score (14% [IQR: 9–23] vs 8% [IQR: 4–15], <em>p</em> &lt; 0.001) and a two-fold higher prevalence of high-risk ASCVD category (10-year risk &gt;20%, 32% vs 16%, <em>p</em> &lt; 0.001). Detailed baseline characteristics are summarized in Table 1."
+        },
+        {
+          "type": "table",
+          "label": "Table 1",
+          "caption": "Baseline patient characteristics stratified by smoking.",
+          "html": "<table><tr><th colspan=\"1\" rowspan=\"1\"></th><th colspan=\"1\" rowspan=\"1\">All 9100 (100.0)</th><th colspan=\"1\" rowspan=\"1\">Never-smokers4441 (48.8)</th><th colspan=\"1\" rowspan=\"1\">Ever-smokers 4659 (51.2)</th><th colspan=\"1\" rowspan=\"1\">p</th></tr><tr><td colspan=\"1\" rowspan=\"1\">Demographics</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Age, years</td><td colspan=\"1\" rowspan=\"1\">61±8</td><td colspan=\"1\" rowspan=\"1\">61±8</td><td colspan=\"1\" rowspan=\"1\">60±8</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Sex, women</td><td colspan=\"1\" rowspan=\"1\">4789 (52.6)</td><td colspan=\"1\" rowspan=\"1\">2592 (58.4)</td><td colspan=\"1\" rowspan=\"1\">2197(47.2)</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Race (racial or ethnic minority)</td><td colspan=\"1\" rowspan=\"1\">2000 (22.1)</td><td colspan=\"1\" rowspan=\"1\">1054 (23.9)</td><td colspan=\"1\" rowspan=\"1\">946 (20.4)</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Cardiovascular risk factors</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Hypertension</td><td colspan=\"1\" rowspan=\"1\">5890 (64.7)</td><td colspan=\"1\" rowspan=\"1\">2943 (66.3)</td><td colspan=\"1\" rowspan=\"1\">2947 (63.3)</td><td colspan=\"1\" rowspan=\"1\">0.003</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Dyslipidemia</td><td colspan=\"1\" rowspan=\"1\">6154 (67.6)</td><td colspan=\"1\" rowspan=\"1\">3106 (69.9)</td><td colspan=\"1\" rowspan=\"1\">3048 (65.4)</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Diabetes mellitus</td><td colspan=\"1\" rowspan=\"1\">1935 (21.3)</td><td colspan=\"1\" rowspan=\"1\">966 (21.8)</td><td colspan=\"1\" rowspan=\"1\">969 (20.8)</td><td colspan=\"1\" rowspan=\"1\">0.271</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Family history of premature CAD</td><td colspan=\"1\" rowspan=\"1\">2885 (31.8)</td><td colspan=\"1\" rowspan=\"1\">1378 (31.1)</td><td colspan=\"1\" rowspan=\"1\">1507 (32.4)</td><td colspan=\"1\" rowspan=\"1\">0.183</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Peripheral or cerebrovascular disease</td><td colspan=\"1\" rowspan=\"1\">492 (5.4)</td><td colspan=\"1\" rowspan=\"1\">182 (4.1)</td><td colspan=\"1\" rowspan=\"1\">310 (6.7)</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td></tr><tr><td colspan=\"1\" rowspan=\"1\">CAD equivalent</td><td colspan=\"1\" rowspan=\"1\">2286 (25.1)</td><td colspan=\"1\" rowspan=\"1\">1096 (24.7)</td><td colspan=\"1\" rowspan=\"1\">1190 (25.5)</td><td colspan=\"1\" rowspan=\"1\">0.346</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Metabolic syndrome</td><td colspan=\"1\" rowspan=\"1\">3436 (37.8)</td><td colspan=\"1\" rowspan=\"1\">1664 (37.5)</td><td colspan=\"1\" rowspan=\"1\">1772 (38.0)</td><td colspan=\"1\" rowspan=\"1\">0.589</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Sedentary lifestyle</td><td colspan=\"1\" rowspan=\"1\">4407 (48.5)</td><td colspan=\"1\" rowspan=\"1\">2064 (46.5)</td><td colspan=\"1\" rowspan=\"1\">2343 (50.4)</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Body mass index, kg/m<sup>2</sup></td><td colspan=\"1\" rowspan=\"1\">30.4 ± 6.0</td><td colspan=\"1\" rowspan=\"1\">30.7 ± 6.1</td><td colspan=\"1\" rowspan=\"1\">30.2 ± 5.9</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Current smoker</td><td colspan=\"1\" rowspan=\"1\">1599 (17.6)</td><td colspan=\"1\" rowspan=\"1\">-</td><td colspan=\"1\" rowspan=\"1\">1599 (34.3)</td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Former smoker</td><td colspan=\"1\" rowspan=\"1\">3060 (33.6)</td><td colspan=\"1\" rowspan=\"1\">-</td><td colspan=\"1\" rowspan=\"1\">3060 (65.7)</td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">ASCVD risk score (PCE)</td><td colspan=\"1\" rowspan=\"1\">11.2 [6.1–19.6]</td><td colspan=\"1\" rowspan=\"1\">8.0 [4.4–14.9]</td><td colspan=\"1\" rowspan=\"1\">14.3 [8.8–23.2]</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Low risk (&lt;7.5%)</td><td colspan=\"1\" rowspan=\"1\">2915 (32.3)</td><td colspan=\"1\" rowspan=\"1\">2075 (47.2)</td><td colspan=\"1\" rowspan=\"1\">840 (18.2)</td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Intermediate risk (7.5–20%)</td><td colspan=\"1\" rowspan=\"1\">3921 (43.5)</td><td colspan=\"1\" rowspan=\"1\">1635 (37.2)</td><td colspan=\"1\" rowspan=\"1\">2286 (49.5)</td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">High risk (≥20%)</td><td colspan=\"1\" rowspan=\"1\">2177 (24.2)</td><td colspan=\"1\" rowspan=\"1\">689 (15.7)</td><td colspan=\"1\" rowspan=\"1\">1488 (32.3)</td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Baseline medication</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">β-blocker</td><td colspan=\"1\" rowspan=\"1\">2159 (24.8)</td><td colspan=\"1\" rowspan=\"1\">1063 (25.0)</td><td colspan=\"1\" rowspan=\"1\">1096 (24.6)</td><td colspan=\"1\" rowspan=\"1\">0.673</td></tr><tr><td colspan=\"1\" rowspan=\"1\">ACE-inhibitor or ARB</td><td colspan=\"1\" rowspan=\"1\">3811 (43.8)</td><td colspan=\"1\" rowspan=\"1\">1935 (45.5)</td><td colspan=\"1\" rowspan=\"1\">1876 (42.1)</td><td colspan=\"1\" rowspan=\"1\">0.001</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Statin</td><td colspan=\"1\" rowspan=\"1\">3980 (45.7)</td><td colspan=\"1\" rowspan=\"1\">2006 (47.2)</td><td colspan=\"1\" rowspan=\"1\">1974 (44.3)</td><td colspan=\"1\" rowspan=\"1\">0.008</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Aspirin</td><td colspan=\"1\" rowspan=\"1\">3886 (44.6)</td><td colspan=\"1\" rowspan=\"1\">1843 (43.3)</td><td colspan=\"1\" rowspan=\"1\">2043 (45.9)</td><td colspan=\"1\" rowspan=\"1\">0.019</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Clinical presentation</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Primary presenting symptom</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">0.009</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Chest pain</td><td colspan=\"1\" rowspan=\"1\">6620 (72.8)</td><td colspan=\"1\" rowspan=\"1\">3271 (73.7)</td><td colspan=\"1\" rowspan=\"1\">3349 (71.9)</td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Dyspnea or exertion</td><td colspan=\"1\" rowspan=\"1\">1367 (15.0)</td><td colspan=\"1\" rowspan=\"1\">615 (13.9)</td><td colspan=\"1\" rowspan=\"1\">752 (16.2)</td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Other</td><td colspan=\"1\" rowspan=\"1\">1107 (12.2)</td><td colspan=\"1\" rowspan=\"1\">553 (12.5)</td><td colspan=\"1\" rowspan=\"1\">554 (11.9)</td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Type of angina</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">0.263</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Typical</td><td colspan=\"1\" rowspan=\"1\">1042 (11.5)</td><td colspan=\"1\" rowspan=\"1\">495 (11.2)</td><td colspan=\"1\" rowspan=\"1\">547 (11.7)</td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Atypical</td><td colspan=\"1\" rowspan=\"1\">7094 (78.0)</td><td colspan=\"1\" rowspan=\"1\">3454 (77.8)</td><td colspan=\"1\" rowspan=\"1\">3640 (78.1)</td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Nonanginal pain</td><td colspan=\"1\" rowspan=\"1\">964 (10.6)</td><td colspan=\"1\" rowspan=\"1\">492 (11.1)</td><td colspan=\"1\" rowspan=\"1\">472 (10.1)</td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Non-invasive testing</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Functional testing or CCTA</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Negative</td><td colspan=\"1\" rowspan=\"1\">7984 (87.7)</td><td colspan=\"1\" rowspan=\"1\">3954 (89.0)</td><td colspan=\"1\" rowspan=\"1\">4030 (86.5)</td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Positive</td><td colspan=\"1\" rowspan=\"1\">1116 (12.3)</td><td colspan=\"1\" rowspan=\"1\">487 (11.0)</td><td colspan=\"1\" rowspan=\"1\">629 (13.5)</td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Functional testing arm</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">0.268</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Negative</td><td colspan=\"1\" rowspan=\"1\">4019 (87.4)</td><td colspan=\"1\" rowspan=\"1\">1964 (87.9)</td><td colspan=\"1\" rowspan=\"1\">2055 (87.4)</td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Positive</td><td colspan=\"1\" rowspan=\"1\">582 (12.7)</td><td colspan=\"1\" rowspan=\"1\">270 (12.1)</td><td colspan=\"1\" rowspan=\"1\">312 (13.2)</td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">CCTA arm</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Negative</td><td colspan=\"1\" rowspan=\"1\">3965 (88.1)</td><td colspan=\"1\" rowspan=\"1\">1990 (90.17)</td><td colspan=\"1\" rowspan=\"1\">1975 (86.2)</td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Positive</td><td colspan=\"1\" rowspan=\"1\">534 (11.9)</td><td colspan=\"1\" rowspan=\"1\">217 (9.8)</td><td colspan=\"1\" rowspan=\"1\">317 (13.8)</td><td colspan=\"1\" rowspan=\"1\"></td></tr></table>"
+        }
+      ]
+    },
+    {
+      "title": "Relationship between smoking and NIT results overall and by NIT type",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Positive NIT results were more frequent among ever-smokers than never-smokers (14%vs 11%, <em>p</em> &lt; 0.001), mainly driven by the CCTA arm (Table 1). In univariable analysis, ever-smoking (OR: 1.27, 95% CI 1.12–1.44, <em>p</em> &lt; 0.001) and current smoking (OR: 1.25, 95% CI 1.05–1.48, <em>p</em> = 0.012) were associated with positive NIT results. After multivariable adjustment, ever-smoking remained associated with a 24% higher likelihood of positive NIT results (aOR: 1.24, 95% CI 1.09–1.42, <em>p</em> = 0.001) and current smoking with 54% higher likelihood (aOR: 1.54, 95% CI 1.28–1.85, <em>p</em> &lt; 0.001). The association was significant in the CCTA arm (ever-smoking: aOR 1.44, 95% CI 1.19–1.74; current smoking: aOR 2.04, 95% CI 1.56–2.66; both <em>p</em> &lt; 0.001) but not in the functional testing arm. Supplementary Table 1 provides corresponding unadjusted and adjusted regression results."
+        }
+      ]
+    },
+    {
+      "title": "Association of smoking with MACE overall and in clinical subgroups",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Overall, ever-smokers had nearly double the rate of adverse events compared with never-smokers (MACE: 3.0% vs 1.7%, CV death + MI: 2.0% vs 0.9%, <em>p</em> &lt; 0.001 for both; Supplementary Table 2). In the multivariable Cox regression models, ever-smoking was associated with a nearly 60% increased risk of MACE, independent of demographic, clinical risk factors, and NIT results (aHR 1.58, 95% CI 1.19–2.09, <em>p</em> = 0.002; Model 3 in Table 2). The hazard ratio was more pronounced when analyzing the association of current smoking and MACE (aHR 1.89, 95% CI 1.30–2.74, <em>p</em> = 0.001). Even stronger associations were observed in a sensitivity analysis investigating the association of ever- and current-smoking with CV death + MI (ever-smoking: aHR 2.14, 95% CI 1.47–3.11, <em>p</em> &lt; 0.001; current smoking: aHR 3.33, 95% CI 2.08–5.36, <em>p</em> &lt; 0.001; Supplementary Table 3). Supplementary Figure 2 shows significant differences in MACE-free survival in ever-smokers stratified to current and former smoking status."
+        },
+        {
+          "type": "table",
+          "label": "Table 2",
+          "caption": "Predictive value of smoking for MACE overall and among subgroups by NIT results.",
+          "html": "<table><tr><th colspan=\"1\" rowspan=\"1\"></th><th colspan=\"3\" rowspan=\"1\">Univariable</th><th colspan=\"3\" rowspan=\"1\">Model 1</th><th colspan=\"3\" rowspan=\"1\">Model 2</th><th colspan=\"3\" rowspan=\"1\">Model 3</th></tr><tr><th colspan=\"1\" rowspan=\"1\"></th><th colspan=\"1\" rowspan=\"1\">HR</th><th colspan=\"1\" rowspan=\"1\">95% CI</th><th colspan=\"1\" rowspan=\"1\">p</th><th colspan=\"1\" rowspan=\"1\">HR</th><th colspan=\"1\" rowspan=\"1\">95% CI</th><th colspan=\"1\" rowspan=\"1\">p</th><th colspan=\"1\" rowspan=\"1\">HR</th><th colspan=\"1\" rowspan=\"1\">95% CI</th><th colspan=\"1\" rowspan=\"1\">p</th><th colspan=\"1\" rowspan=\"1\">HR</th><th colspan=\"1\" rowspan=\"1\">95% CI</th><th colspan=\"1\" rowspan=\"1\">p</th></tr><tr><td colspan=\"1\" rowspan=\"1\">Ever-smoking</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Overall</td><td colspan=\"1\" rowspan=\"1\">1.78</td><td colspan=\"1\" rowspan=\"1\">1.35–2.35</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td><td colspan=\"1\" rowspan=\"1\">1.71</td><td colspan=\"1\" rowspan=\"1\">1.29–2.26</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td><td colspan=\"1\" rowspan=\"1\">1.67</td><td colspan=\"1\" rowspan=\"1\">1.26–2.22</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td><td colspan=\"1\" rowspan=\"1\">1.58</td><td colspan=\"1\" rowspan=\"1\">1.19–2.09</td><td colspan=\"1\" rowspan=\"1\">0.002</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Subgroups by NIT</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Negative NIT</td><td colspan=\"1\" rowspan=\"1\">1.83</td><td colspan=\"1\" rowspan=\"1\">1.27–2.62</td><td colspan=\"1\" rowspan=\"1\">0.001</td><td colspan=\"1\" rowspan=\"1\">1.81</td><td colspan=\"1\" rowspan=\"1\">1.26–2.61</td><td colspan=\"1\" rowspan=\"1\">0.001</td><td colspan=\"1\" rowspan=\"1\">1.80</td><td colspan=\"1\" rowspan=\"1\">1.25–2.59</td><td colspan=\"1\" rowspan=\"1\">0.002</td><td colspan=\"1\" rowspan=\"1\">-</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">-</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Positive NIT</td><td colspan=\"1\" rowspan=\"1\">1.46</td><td colspan=\"1\" rowspan=\"1\">0.94–2.26</td><td colspan=\"1\" rowspan=\"1\">0.091</td><td colspan=\"1\" rowspan=\"1\">1.38</td><td colspan=\"1\" rowspan=\"1\">0.88–2.14</td><td colspan=\"1\" rowspan=\"1\">0.156</td><td colspan=\"1\" rowspan=\"1\">1.29</td><td colspan=\"1\" rowspan=\"1\">0.83–2.01</td><td colspan=\"1\" rowspan=\"1\">0.259</td><td colspan=\"1\" rowspan=\"1\">-</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">-</td></tr><tr><td colspan=\"1\" rowspan=\"1\">NIT and smoking categories</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Negative NIT, never-smoker</td><td colspan=\"1\" rowspan=\"1\">Ref.</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">-</td><td colspan=\"1\" rowspan=\"1\">Ref.</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">-</td><td colspan=\"1\" rowspan=\"1\">Ref.</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">-</td><td colspan=\"1\" rowspan=\"1\">-</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">-</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Negative NIT, ever-smoker</td><td colspan=\"1\" rowspan=\"1\">1.81</td><td colspan=\"1\" rowspan=\"1\">1.27–2.60</td><td colspan=\"1\" rowspan=\"1\">0.001</td><td colspan=\"1\" rowspan=\"1\">1.77</td><td colspan=\"1\" rowspan=\"1\">1.23–2.54</td><td colspan=\"1\" rowspan=\"1\">0.002</td><td colspan=\"1\" rowspan=\"1\">1.75</td><td colspan=\"1\" rowspan=\"1\">1.22–2.52</td><td colspan=\"1\" rowspan=\"1\">0.002</td><td colspan=\"1\" rowspan=\"1\">-</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">-</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Positive NIT, never-smoker</td><td colspan=\"1\" rowspan=\"1\">5.70</td><td colspan=\"1\" rowspan=\"1\">3.61–8.99</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td><td colspan=\"1\" rowspan=\"1\">5.13</td><td colspan=\"1\" rowspan=\"1\">3.24–8.12</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td><td colspan=\"1\" rowspan=\"1\">5.17</td><td colspan=\"1\" rowspan=\"1\">3.26–8.19</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td><td colspan=\"1\" rowspan=\"1\">-</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">-</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Positive NIT, ever-smoker</td><td colspan=\"1\" rowspan=\"1\">8.40</td><td colspan=\"1\" rowspan=\"1\">5.69–12.39</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td><td colspan=\"1\" rowspan=\"1\">7.33</td><td colspan=\"1\" rowspan=\"1\">4.93–10.91</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td><td colspan=\"1\" rowspan=\"1\">6.95</td><td colspan=\"1\" rowspan=\"1\">4.66–10.38</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td><td colspan=\"1\" rowspan=\"1\">-</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">-</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Current smoking</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Overall</td><td colspan=\"1\" rowspan=\"1\">2.01</td><td colspan=\"1\" rowspan=\"1\">1.41–2.85</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td><td colspan=\"1\" rowspan=\"1\">2.19</td><td colspan=\"1\" rowspan=\"1\">1.52–3.15</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td><td colspan=\"1\" rowspan=\"1\">2.11</td><td colspan=\"1\" rowspan=\"1\">1.46–3.06</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td><td colspan=\"1\" rowspan=\"1\">1.89</td><td colspan=\"1\" rowspan=\"1\">1.30–2.74</td><td colspan=\"1\" rowspan=\"1\">0.001</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Subgroups by NIT</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Negative NIT</td><td colspan=\"1\" rowspan=\"1\">2.10</td><td colspan=\"1\" rowspan=\"1\">1.34–3.30</td><td colspan=\"1\" rowspan=\"1\">0.001</td><td colspan=\"1\" rowspan=\"1\">2.37</td><td colspan=\"1\" rowspan=\"1\">1.48–3.81</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td><td colspan=\"1\" rowspan=\"1\">2.41</td><td colspan=\"1\" rowspan=\"1\">1.49–3.89</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td><td colspan=\"1\" rowspan=\"1\">-</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">-</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Positive NIT</td><td colspan=\"1\" rowspan=\"1\">1.60</td><td colspan=\"1\" rowspan=\"1\">0.92–2.78</td><td colspan=\"1\" rowspan=\"1\">0.097</td><td colspan=\"1\" rowspan=\"1\">1.53</td><td colspan=\"1\" rowspan=\"1\">0.86–2.72</td><td colspan=\"1\" rowspan=\"1\">0.146</td><td colspan=\"1\" rowspan=\"1\">1.29</td><td colspan=\"1\" rowspan=\"1\">0.72–2.33</td><td colspan=\"1\" rowspan=\"1\">0.388</td><td colspan=\"1\" rowspan=\"1\">-</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">-</td></tr><tr><td colspan=\"1\" rowspan=\"1\">NIT and smoking categories</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">Negative NIT, never-smoker</td><td colspan=\"1\" rowspan=\"1\">Ref.</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">-</td><td colspan=\"1\" rowspan=\"1\">Ref.</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">-</td><td colspan=\"1\" rowspan=\"1\">Ref.</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">-</td><td colspan=\"1\" rowspan=\"1\">-</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">-</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Negative NIT, current smoker</td><td colspan=\"1\" rowspan=\"1\">2.08</td><td colspan=\"1\" rowspan=\"1\">1.32–3.26</td><td colspan=\"1\" rowspan=\"1\">0.001</td><td colspan=\"1\" rowspan=\"1\">2.18</td><td colspan=\"1\" rowspan=\"1\">1.37–3.47</td><td colspan=\"1\" rowspan=\"1\">0.001</td><td colspan=\"1\" rowspan=\"1\">2.09</td><td colspan=\"1\" rowspan=\"1\">1.31–3.34</td><td colspan=\"1\" rowspan=\"1\">0.002</td><td colspan=\"1\" rowspan=\"1\">-</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">-</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Positive NIT, never-smoker</td><td colspan=\"1\" rowspan=\"1\">5.70</td><td colspan=\"1\" rowspan=\"1\">3.61–8.99</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td><td colspan=\"1\" rowspan=\"1\">5.19</td><td colspan=\"1\" rowspan=\"1\">3.27–8.23</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td><td colspan=\"1\" rowspan=\"1\">5.23</td><td colspan=\"1\" rowspan=\"1\">3.29–8.31</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td><td colspan=\"1\" rowspan=\"1\">-</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">-</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Positive NIT, current smoker</td><td colspan=\"1\" rowspan=\"1\">9.42</td><td colspan=\"1\" rowspan=\"1\">5.62–15.79</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td><td colspan=\"1\" rowspan=\"1\">9.02</td><td colspan=\"1\" rowspan=\"1\">5.33–15.25</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td><td colspan=\"1\" rowspan=\"1\">8.52</td><td colspan=\"1\" rowspan=\"1\">5.03–14.45</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td><td colspan=\"1\" rowspan=\"1\">-</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\">-</td></tr></table>"
+        },
+        {
+          "type": "paragraph",
+          "html": "In stratified subgroup analyses, the association between ever-smoking and adverse events tended to be higher in men compared to women with male ever-smokers having threefold increased risk of CV death + non-fatal MI compared to never-smokers (aHR 3.16, 95% CI 1.77–5.64, <em>p</em> &lt; 0.001), whereas the association was less pronounced in women (aHR 1.48, 95% CI 0.87–2.51, <em>p</em> = 0.149), with sex being a significant interaction term (<em>p</em> = 0.047). Fig. 1 shows individual subgroup analyses for MACE and CV death + MI, respectively."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 1",
+          "caption": "Associations of ever-smoking with MACE in patient subgroups. Multivariable Cox proportional analyses of ever-smoking in patient subgroups for the composite primary endpoint cardiovascular death, myocardial infarction, and unstable angina hospitalization. aHR: adjusted hazard ratios are controlled for age, sex, ethnic minority, hypertension, dyslipidemia, diabetes, family history of premature CAD, BMI, and significant CAD (i.e., positive NIT), always without controlling for the variable of interest. BMI: body mass index, MACE: major adverse cardiovascular events.",
+          "src": "assets/pmc/PMC13676054/gr1.webp",
+          "alt": "Fig. 1 Associations of ever-smoking with MACE in patient subgroups.Multivariable Cox proportional analyses of ever-smoking in patient subgroups for the composite primary endpoint cardiovascular death, myocardial infarction, and unstable angina hospitalization. aHR: adjusted hazard ratios are controlled for age, sex, ethnic minority, hypertension, dyslipidemia, diabetes, family history of premature CAD, BMI, and significant CAD (i.e., positive NIT), always without controlling for the variable of interest. BMI: body mass index, MACE: major adverse cardiovascular events."
+        }
+      ]
+    },
+    {
+      "title": "Interplay between smoking, noninvasive testing, and MACE",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Overall, individuals with positive NIT experienced a 5-fold higher MACE rate and a 2.5 times higher rate of CV death + MI (<em>p</em> &lt; 0.001 for both). Similar findings were seen across smoking categories, with 5.3x, 4.3x, and 4.3x higher MACE rates in never-smokers, ever-smokers, and current smokers, respectively. Comparable results were observed for CV death + MI, with individual event rates listed in Supplementary Table 2. The differences in MACE-free survival across NIT and smoking categories were statistically significant (unadjusted log-rank test: <em>p</em> &lt; 0.001), as shown in Fig. 2. Notably, after adjustment for clinical covariates, ever-smokers with positive NIT had a nearly 7-fold increased risk of MACE (aHR: 6.95, 95% CI 4.66–10.38, <em>p</em> &lt; 0.001), while current smokers had over a 8-fold higher risk of MACE (aHR: 8.52, 95% CI 5.03–14.45, <em>p</em> &lt; 0.001) compared to never-smokers with negative NIT (Model 2, Table 2). The results were similar for secondary analyses in which positive NIT was defined as a stenosis ≥50% for the CCTA arm (Supplementary Tables 2–3). A sensitivity analysis using hard CV events (CV death and MI) revealed similar results, with a 4-fold and nearly 6-fold higher risk of CV death + MI in ever-smokers and current smokers, respectively, as detailed in Supplementary Table 4. No statistically significant interaction was observed between smoking and NIT positivity with respect to outcomes (MACE: <em>p</em> = 0.362; CV death + MI: <em>p</em> = 0.245). While there was a significant interaction between smoking and testing modality with respect to NIT positivity (<em>p</em> = 0.010), this interaction was not significant in terms of outcomes (MACE: <em>p</em> = 0.985; CV death + MI: <em>p</em> = 0.332)."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 2",
+          "caption": "Kaplan-Meier curves by ever-smoking and noninvasive test result categories. Unadjusted Kaplan-Meier curves of MACE (cardiovascular death, myocardial infarction, and unstable angina hospitalization), stratified by smoking and noninvasive test results. NIT: non-invasive testing.",
+          "src": "assets/pmc/PMC13676054/gr2.webp",
+          "alt": "Fig. 2 Kaplan-Meier curves by ever-smoking and noninvasive test result categories.Unadjusted Kaplan-Meier curves of MACE (cardiovascular death, myocardial infarction, and unstable angina hospitalization), stratified by smoking and noninvasive test results. NIT: non-invasive testing."
+        },
+        {
+          "type": "paragraph",
+          "html": "Mediation analysis revealed that 12% of the total effect of ever-smoking and 16% of current smoking on MACE was mediated by the presence of significant coronary artery disease (i.e., positive NIT results) (Fig. 3A and Supplementary Table 5)."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 3",
+          "caption": "Mediators of the effect of smoking on MACE. All effects are adjusted for age, sex, hypertension, dyslipidemia, and diabetes. Sample sizes: Panel A, <em>n</em> = 9100; Panel B, <em>n</em> = 3743. Significant CAD is defined as abnormal NIT. MACE: major adverse cardiovascular events (cardiovascular death, myocardial infarction, and unstable angina hospitalization composite); CAD: coronary artery disease, NIT: noninvasive testing, MMP-9: matrix metalloproteinase-9.",
+          "src": "assets/pmc/PMC13676054/gr3.webp",
+          "alt": "Fig. 3 Mediators of the effect of smoking on MACE.All effects are adjusted for age, sex, hypertension, dyslipidemia, and diabetes. Sample sizes: Panel A, n = 9100; Panel B, n = 3743. Significant CAD is defined as abnormal NIT. MACE: major adverse cardiovascular events (cardiovascular death, myocardial infarction, and unstable angina hospitalization composite); CAD: coronary artery disease, NIT: noninvasive testing, MMP-9: matrix metalloproteinase-9."
+        }
+      ]
+    },
+    {
+      "title": "Associations of inflammatory biomarkers with smoking, NIT results, and MACE",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Systemic inflammatory biomarkers were available for a subset of PROMISE patients, ranging from 3551 to 3775 individuals. Ever-smokers had higher baseline levels of hsCRP (+9%), IL-6 (+12%), resistin (+3%), and MMP-9 (+22%) than never-smokers (<em>p</em> ≤ 0.024). In current smokers, hsCRP, IL-6, and MMP-9 were further elevated, while the protective biomarker adiponectin was significantly lower compared to never-smokers (−5%, <em>p</em> = 0.012)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Similar patterns were observed in the subgroup of patients with negative NIT results. In contrast, among those with positive NIT results, only IL-6 and MMP-9 were higher and galectin-3 was slightly lower in ever-smokers compared to never-smokers (<em>p</em> ≤ 0.037 for differences). The reduction in adiponectin among current smokers was even more pronounced in those with positive vs negative NIT results (7.5 vs 9.9 ug/ml, <em>p</em> = 0.002 for difference). Table 3 provides the individual biomarker values overall and by smoking status. Notably, hsCRP, IL-6, and MMP-9 median levels among ever-smokers with normal NIT were similar to those in never-smokers with positive NIT (<em>p</em> ≥ 0.087, Supplementary Table 6)."
+        },
+        {
+          "type": "table",
+          "label": "Table 3",
+          "caption": "Inflammatory biomarkers stratified by smoking history and noninvasive testing.",
+          "html": "<table><tr><th colspan=\"1\" rowspan=\"1\">Median [IQR]</th><th colspan=\"1\" rowspan=\"1\">All</th><th colspan=\"1\" rowspan=\"1\">Never-smokers</th><th colspan=\"1\" rowspan=\"1\">Ever-smokers</th><th colspan=\"1\" rowspan=\"1\">p*</th><th colspan=\"1\" rowspan=\"1\">Current smokers</th><th colspan=\"1\" rowspan=\"1\">p*</th></tr><tr><td colspan=\"1\" rowspan=\"1\">Overall</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">hsCRP, mg/l</td><td colspan=\"1\" rowspan=\"1\">2.4 [1.2–4.9]</td><td colspan=\"1\" rowspan=\"1\">2.3 [1.1–4.6]</td><td colspan=\"1\" rowspan=\"1\">2.5 [1.2–5.3]</td><td colspan=\"1\" rowspan=\"1\">0.008</td><td colspan=\"1\" rowspan=\"1\">2.7 [1.2–5.8]</td><td colspan=\"1\" rowspan=\"1\">0.009</td></tr><tr><td colspan=\"1\" rowspan=\"1\">IL-6, pg/ml</td><td colspan=\"1\" rowspan=\"1\">1.8 [1.2–2.8]</td><td colspan=\"1\" rowspan=\"1\">1.7 [1.1–2.6]</td><td colspan=\"1\" rowspan=\"1\">1.9 [1.2–2.9]</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td><td colspan=\"1\" rowspan=\"1\">2.0 [1.3–3.0]</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Adiponectin, ug/ml</td><td colspan=\"1\" rowspan=\"1\">10.3 [6.2–16.3]</td><td colspan=\"1\" rowspan=\"1\">10.3 [6.2–16.9]</td><td colspan=\"1\" rowspan=\"1\">10.3 [6.2–15.8]</td><td colspan=\"1\" rowspan=\"1\">0.204</td><td colspan=\"1\" rowspan=\"1\">9.8 [5.6–15.3]</td><td colspan=\"1\" rowspan=\"1\">0.006</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Resistin, ng/ml</td><td colspan=\"1\" rowspan=\"1\">11.9 [8.9–15.6]</td><td colspan=\"1\" rowspan=\"1\">11.8 [8.8–15.3]</td><td colspan=\"1\" rowspan=\"1\">12.1 [9.2–16.0]</td><td colspan=\"1\" rowspan=\"1\">0.023</td><td colspan=\"1\" rowspan=\"1\">12.0 [9.2–16.1]</td><td colspan=\"1\" rowspan=\"1\">0.189</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Galectin-3, ng/ml</td><td colspan=\"1\" rowspan=\"1\">15.0 [12.2–18.2]</td><td colspan=\"1\" rowspan=\"1\">15.1 [12.2–18.2]</td><td colspan=\"1\" rowspan=\"1\">14.9 [12.2–18.2]</td><td colspan=\"1\" rowspan=\"1\">0.845</td><td colspan=\"1\" rowspan=\"1\">14.8 [12.1–17.9]</td><td colspan=\"1\" rowspan=\"1\">0.448</td></tr><tr><td colspan=\"1\" rowspan=\"1\">MMP-9, ng/ml</td><td colspan=\"1\" rowspan=\"1\">68.8 [40.4- 115.5]</td><td colspan=\"1\" rowspan=\"1\">62.3 [36.8- 104.1]</td><td colspan=\"1\" rowspan=\"1\">75.9 [44.6–128.5]</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td><td colspan=\"1\" rowspan=\"1\">93.8 [57.9–159.5]</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Negative NIT</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">hsCRP, mg/l</td><td colspan=\"1\" rowspan=\"1\">2.4 [1.2–4.8]</td><td colspan=\"1\" rowspan=\"1\">2.3 [1.1–4.5]</td><td colspan=\"1\" rowspan=\"1\">2.5 [1.2–5.3]</td><td colspan=\"1\" rowspan=\"1\">0.015</td><td colspan=\"1\" rowspan=\"1\">2.6 [1.2–5.8]</td><td colspan=\"1\" rowspan=\"1\">0.034</td></tr><tr><td colspan=\"1\" rowspan=\"1\">IL-6, pg/ml</td><td colspan=\"1\" rowspan=\"1\">1.7 [1.1–2.7]</td><td colspan=\"1\" rowspan=\"1\">1.6 [1.1–2.6]</td><td colspan=\"1\" rowspan=\"1\">1.9 [1.2–2.9]</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td><td colspan=\"1\" rowspan=\"1\">2.0 [1.3–2.9]</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Adiponectin, ug/ml</td><td colspan=\"1\" rowspan=\"1\">10.5 [6.2–16.5]</td><td colspan=\"1\" rowspan=\"1\">10.5 [6.2–17.0]</td><td colspan=\"1\" rowspan=\"1\">10.5 [6.2–16.2]</td><td colspan=\"1\" rowspan=\"1\">0.445</td><td colspan=\"1\" rowspan=\"1\">9.9 [6.1–15.4]</td><td colspan=\"1\" rowspan=\"1\">0.033</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Resistin, ng/ml</td><td colspan=\"1\" rowspan=\"1\">11.9 [8.9–15.4]</td><td colspan=\"1\" rowspan=\"1\">11.8 [8.7–15.1]</td><td colspan=\"1\" rowspan=\"1\">11.9 [9.1–15.9]</td><td colspan=\"1\" rowspan=\"1\">0.045</td><td colspan=\"1\" rowspan=\"1\">11.8 [9.2–16.0]</td><td colspan=\"1\" rowspan=\"1\">0.196</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Galectin-3, ng/ml</td><td colspan=\"1\" rowspan=\"1\">14.9 [12.2–18.2]</td><td colspan=\"1\" rowspan=\"1\">15.0 [12.1–18.1]</td><td colspan=\"1\" rowspan=\"1\">14.9 [12.2–18.2]</td><td colspan=\"1\" rowspan=\"1\">0.611</td><td colspan=\"1\" rowspan=\"1\">14.8 [12.2–17.9]</td><td colspan=\"1\" rowspan=\"1\">0.832</td></tr><tr><td colspan=\"1\" rowspan=\"1\">MMP-9, ng/ml</td><td colspan=\"1\" rowspan=\"1\">67.9 [40.1–114.0]</td><td colspan=\"1\" rowspan=\"1\">61.6 [36.5–101.9]</td><td colspan=\"1\" rowspan=\"1\">75.2 [44.4–127.7]</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td><td colspan=\"1\" rowspan=\"1\">94.2 [57.5–157.8]</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Positive NIT</td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td><td colspan=\"1\" rowspan=\"1\"></td></tr><tr><td colspan=\"1\" rowspan=\"1\">hsCRP, mg/l</td><td colspan=\"1\" rowspan=\"1\">2.5 [1.2–5.0]</td><td colspan=\"1\" rowspan=\"1\">2.6 [1.1–5.0]</td><td colspan=\"1\" rowspan=\"1\">2.5 [1.4–5.2]</td><td colspan=\"1\" rowspan=\"1\">0.349</td><td colspan=\"1\" rowspan=\"1\">3.3 [1.4–6.1]</td><td colspan=\"1\" rowspan=\"1\">0.086</td></tr><tr><td colspan=\"1\" rowspan=\"1\">IL-6, pg/ml</td><td colspan=\"1\" rowspan=\"1\">2.0 [1.4–3.3]</td><td colspan=\"1\" rowspan=\"1\">1.9 [1.3–3.1]</td><td colspan=\"1\" rowspan=\"1\">2.2 [1.5–3.5]</td><td colspan=\"1\" rowspan=\"1\">0.031</td><td colspan=\"1\" rowspan=\"1\">2.3 [1.7–3.5]</td><td colspan=\"1\" rowspan=\"1\">0.014</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Adiponectin, ug/ml</td><td colspan=\"1\" rowspan=\"1\">9.2 [6.0–14.6]</td><td colspan=\"1\" rowspan=\"1\">9.8 [6.2–15.4]</td><td colspan=\"1\" rowspan=\"1\">8.75 [5.8–14.5]</td><td colspan=\"1\" rowspan=\"1\">0.169</td><td colspan=\"1\" rowspan=\"1\">7.5 [4.8–13.7]</td><td colspan=\"1\" rowspan=\"1\">0.046</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Resistin, ng/ml</td><td colspan=\"1\" rowspan=\"1\">12.5 [9.7–16.8]</td><td colspan=\"1\" rowspan=\"1\">11.9 [9.6–16.8]</td><td colspan=\"1\" rowspan=\"1\">12.9 [9.8–16.8]</td><td colspan=\"1\" rowspan=\"1\">0.375</td><td colspan=\"1\" rowspan=\"1\">12.4 [9.5–16.3]</td><td colspan=\"1\" rowspan=\"1\">0.869</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Galectin-3, ng/ml</td><td colspan=\"1\" rowspan=\"1\">15.3 [12.3–18.5]</td><td colspan=\"1\" rowspan=\"1\">15.6 [12.8–20.0]</td><td colspan=\"1\" rowspan=\"1\">14.9 [12.0–18.1]</td><td colspan=\"1\" rowspan=\"1\">0.037</td><td colspan=\"1\" rowspan=\"1\">14.7 [11.7–17.9]</td><td colspan=\"1\" rowspan=\"1\">0.092</td></tr><tr><td colspan=\"1\" rowspan=\"1\">MMP-9, ng/ml</td><td colspan=\"1\" rowspan=\"1\">73.7 [43.4–127.3]</td><td colspan=\"1\" rowspan=\"1\">69.5 [38.3–114.9]</td><td colspan=\"1\" rowspan=\"1\">78.6 [46.2–143.0]</td><td colspan=\"1\" rowspan=\"1\">0.031</td><td colspan=\"1\" rowspan=\"1\">91.5 [58.2–175.9]</td><td colspan=\"1\" rowspan=\"1\">&lt;0.001</td></tr></table>"
+        },
+        {
+          "type": "paragraph",
+          "html": "In a multivariable Cox regression model incorporating all available inflammatory biomarkers, MMP-9 (ng/ml) was the only biomarker remaining significant as an independent variable (HR 1.002, 95% CI 1.001–1.004, <em>p</em> = 0.002). Mediation analysis, adjusted for demographics and clinical risk factors, identified MMP-9 as a significant mediator of the association between ever-smoking and MACE, accounting for 8% of the total effect through this indirect pathway (Fig. 3B). Among current smokers, the proportion mediated by MMP-9 was 25% (Supplementary Table 5)."
+        }
+      ]
+    },
+    {
+      "title": "Associations of current vs. former smoking with NIT results and MACE",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Current smokers were substantially younger than former smokers (57±7 vs 62±8 years), and were less likely to have hypertension (57%vs 66%) or dyslipidemia (57%vs 70%); all <em>p</em> &lt; 0.001. Although the proportion of patients with positive NIT was similar among former and current smokers (13.6%vs 13.3%, <em>p</em> = 0.821), adjusted logistic regression demonstrated that current smokers were 30% more likely to have a positive NIT than former smokers (aOR 1.30, 95% CI 1.07–1.58, <em>p</em> = 0.008). Current smokers also exhibited a less favorable biomarker profile, including approximately 40% higher MMP-9 levels. Compared with former smokers, current smokers had a 49% higher risk of MACE and an 89% higher risk of CV death or MI, independent of demographics and traditional CV risk factors. Among smokers with negative NIT results, current smokers experienced nearly two-fold higher risks of MACE and CV death+MI (Supplementary Tables 7–8)."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Clinical assessment of cardiovascular risk factors, including smoking status, and noninvasive testing for ischemia or obstructive CAD are standard first-line assessments in patients with stable chest pain. While the association between smoking and MACE is well established, this study examined how smoking relates to adverse events across NIT result strata and explored its interplay with systemic inflammation, NIT-detected significant CAD, and MACE to refine cardiovascular risk assessment and guide management strategies."
+        },
+        {
+          "type": "paragraph",
+          "html": "The present study yielded four main findings. First, smoking, particularly current smoking nearly doubles the risk of MACE and triples the risk of CV death and MI, independent of other traditional CV risk factors and NIT results. Second, the relative hazard of MACE associated with smoking was significant among patients with negative NIT results while not reaching significance in those with positive findings, even though smokers more frequently had abnormal NIT and higher overall event rates. Third, ever and current smoking was associated with higher systemic inflammation, reflected by higher serum levels of hsCRP, IL-6, resistin, and MMP-9, with current smokers demonstrating further increases and reduced adiponectin levels. Finally, significant CAD, indicated by positive NIT results, and MMP-9 both partially mediated the relationship between smoking and MACE."
+        }
+      ]
+    },
+    {
+      "title": "Smoking, significant CAD, and MACE",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Smoking was associated with MACE in this cohort with stable chest pain, consistent with prior studies involving asymptomatic populations [16,17]. A slightly higher risk for hard cardiac events (CV death + MI) was observed among men, although confidence intervals overlapped, adding to the existing inconsistency in the literature regarding sex differences in the effects of smoking. Proposed explanations for sex-related differences in smoking-associated cardiovascular risk include differences in body size, lung capacity, hormonal influences, smoking behaviors, and patterns of healthcare utilization [18,19]. However, while some studies report greater smoking-related risk in women[18, 19], others have found no differences between sexes [20,21]. Moreover, these prior observations were derived primarily from population-based cohorts rather than symptomatic patients undergoing evaluation for suspected CAD. Smokers were more likely to have significant CAD detected by positive NIT overall, an association that was primarily driven by findings in the CCTA arm. This likely reflects the ability of CCTA to detect smoking-related coronary atherosclerosis that may not necessarily manifest as inducible ischemia, potentially leading to divergent findings between testing modalities, particularly in patients with intermediate (40%–70%) stenoses [22,23]. Despite these differences, the adverse prognostic impact of smoking appeared similar across testing strategies."
+        },
+        {
+          "type": "paragraph",
+          "html": "Significant CAD manifesting as positive NIT mediated part of smoking’s adverse effect on MACE. However, among patients with positive NIT, the impact of smoking was more apparent when outcomes were limited to CV death or MI, indicating that these events are more sensitive to smoking-related risk."
+        }
+      ]
+    },
+    {
+      "title": "Risk assessment of smokers with negative NIT",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Although significant CAD detected by positive NIT partially mediated smoking’s adverse effect on MACE, the most striking finding was the markedly elevated risk among smokers with negative NIT results, especially current smokers. Smokers with negative NIT had roughly double the risk of MACE and CV death or MI, compared to never-smokers, challenging the assumption that the absence of obstructive disease or ischemia confers equal reassurance across groups."
+        },
+        {
+          "type": "paragraph",
+          "html": "These findings align with prior data showing that patients with normal cardiac testing retain a measurable residual risk of ∼1% per year, particularly with persistent risk behaviors such as smoking [24]. Prognostic value of myocardial perfusion imaging may also be attenuated in young smokers, supporting a risk-adapted interpretation of NIT results [25]."
+        },
+        {
+          "type": "paragraph",
+          "html": "A negative NIT result does not exclude the presence of nonobstructive plaque, high-risk plaque features, endothelial dysfunction, or microvascular disease - all of which may be particularly relevant in smokers. In the PROMISE CCTA arm, high-risk plaque features doubled the risk of MACE among patients with nonobstructive CAD [26], and subsequent studies have reported that smoking is associated with increased odds of these plaque characteristics [27,28]. Together, these observations highlight the need for more detailed evaluation in symptomatic smokers without significant stenosis, particularly using CCTA and quantitative plaque analysis, which may further clarify how smoking influences specific plaque phenotypes, improve individualized risk stratification, and identify potential therapeutic targets (e.g. non-calcified plaque burden). Furthermore, our study underlines the importance of early smoking cessation even if NIT is negative."
+        }
+      ]
+    },
+    {
+      "title": "Inflammatory biomarkers among smokers",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Consistent with prior studies [8,29,30], ever-smoking was further linked to higher hsCRP, resitin, IL-6 and particularly MMP-9 (+22%). MMP-9 showed the strongest link to both smoking and MACE, mediating 8% of the overall smoking-MACE relationship. Current smokers demonstrated further increases in hsCRP, IL-6, and MMP-9, along with reduced adiponectin (−5%), in line with previous reports [8,31,32]. Importantly, former smokers had 40% lower MMP-9 levels than current smokers. The mediating effect of MMP-9 was stronger in current smokers (25%), supporting the potential involvement of MMP-9 in smoking-related vascular injury via extracellular matrix degradation, plaque destabilization, and thrombosis [[33], [34], [35]]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Given that these processes can occur in the absence of flow-limiting stenosis, our findings help explain how smokers may experience acute events even with negative NIT results. Although the link between smoking, heightened inflammation, and CV risk is well established, exploring the pathophysiology of this relationship in a large prospective cohort of symptomatic patients undergoing noninvasive evaluation for suspected CAD is novel. Stable chest pain patients with positive NIT results (reflecting underlying CV disease), regardless of smoking status, had higher inflammatory biomarker levels than those with normal test results, highlighting the connection between systemic inflammation and the presence of significant CAD [[36], [37], [38]]. Notably, ever-smokers with normal NIT showed biomarker profiles comparable to never-smokers with abnormal NIT, suggesting that smoking-related inflammation and matrix remodeling may precede overt structural disease and contribute to events even in the absence of ischemia."
+        },
+        {
+          "type": "paragraph",
+          "html": "Although clinical trials, such as CANTOS [39], JUPITER [40], and PROVE IT-TIMI 22 [41] demonstrate benefits of targeting inflammatory pathways, no specific MMP-9 inhibitors have been approved to date, and the clinical effects of nonspecific agents such as doxycycline remain complex [42,43]. Taken together, our findings support a potential role for MMP-9 and related vascular remodeling pathways in smoking-associated cardiovascular risk and emphasize that smoking cessation remains the most effective means to reduce inflammation-driven CV vulnerability."
+        }
+      ]
+    },
+    {
+      "title": "Limitations",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Some limitations warrant consideration. We acknowledge that the different NIT methods might have differences in specificity, sensitivity and prognostic value, which may have affected our results. Furthermore, the study had a median follow-up of just over two years and a relatively small number of MACE, limiting power for some subgroup analyses. The length of the follow-up period may also have limited our ability to capture the full long-term cardiovascular consequences of smoking, potentially resulting in an underestimation of the association between smoking and cardiovascular risk. Smoking status was self-reported and lacked quantification of tobacco exposure, including pack-years or time since cessation. Consequently, the study could not account for cumulative smoking burden or recency of exposure, introducing substantial heterogeneity within the ever-smoker category and potentially attenuating the observed associations. Prospective studies should evaluate whether smoking cessation influences outcomes in symptomatic patients with negative NIT results. Our findings should be interpreted within the context of the PROMISE population, which consisted of symptomatic patients with stable chest pain referred for noninvasive cardiovascular testing. As such, these results may not be generalizable to asymptomatic individuals undergoing screening or to broader primary prevention populations."
+        }
+      ]
+    },
+    {
+      "title": "Conclusions",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Among patients with stable chest pain, ever- and current-smoking were associated with greater systemic inflammation, more frequent abnormal NIT results, and increased cardiovascular risk. Current smoking conferred the greatest hazard, more than doubling the risk of MACE and tripling the risk of CV death or MI, independent of traditional risk factors and NIT findings. The substantially lower risk observed among former vs current smokers reinforces the importance of smoking cessation as a key preventive intervention. Notably, the excess risk was particularly evident among smokers with negative NIT results, suggesting that smoking-related inflammation and vascular injury confer cardiovascular vulnerability even before overt ischemia or obstruction develops. Thus, a negative NIT provides less reassurance, and should not be interpreted as evidence of low cardiovascular risk in symptomatic smokers. These findings support maintaining aggressive preventive risk reduction efforts in this population despite negative NIT results. Integrating biomarker and imaging data, our findings further suggest that elevated MMP-9 and NIT-detected CAD may partially mediate the smoking–MACE association, elucidating potential inflammatory and remodeling-related mechanisms that warrant further investigation as potential targets for preventive intervention."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of generative AI and AI-assisted technologies in the manuscript preparation process",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "During the preparation of this work, the authors used ChatGPT to assist in the creation of the central illustration. The generated output was reviewed and, where necessary, modified by the authors. The authors take full responsibility for the content of the published article."
+        }
+      ]
+    },
+    {
+      "title": "Disclosures",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Jan M. Brendel is funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) #540,505,270; Maros Ferencik reports consulting fees from Cleerly, HeartFlow, Elucid, and BioMarin, advisory board of Cleerly and Elucid, and stock options Elucid; Michael T. Lu reports funding to his institution from the American Heart Association, Amgen, AstraZeneca, Ionis, Johnson &amp; Johnson Innovation, Kowa Pharmaceuticals America, National Academy of Medicine, National Heart, Lung, and Blood Institute, and Risk Management Foundation of the Harvard Medical Institutions and serving on an advisory board for Eli Lilly, outside the submitted work; Borek Foldyna reports institutional research support from NIH/NHLBI, AstraZeneca, MedImmune, Cleerly, and MedTrace, all outside the submitted work. The other authors do not have any conflict of interest."
+        }
+      ]
+    },
+    {
+      "title": "Data sharing statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "PROMISE data sets are available at <a href=\"https://biolincc.nhlbi.nih.gov/studies/promise\">https://biolincc.nhlbi.nih.gov/studies/promise</a>. There are no commercial use data restrictions, and no data restrictions based on area of research."
+        }
+      ]
+    },
+    {
+      "title": "Previous presentation",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Part of this work was presented at the AHA 2025 Scientific Sessions. 10.1161/circ.152.suppl_3.436089."
+        }
+      ]
+    },
+    {
+      "title": "Central illustration",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "figure",
+          "label": "",
+          "caption": "hsCRP: high-sensitivity C-reactive protein, IL-6: interleukin-6, MACE: major adverse cardiovascular events, MMP-9: matrix metalloproteinase-9, NIT: noninvasive testing.",
+          "src": "assets/pmc/PMC13676054/gr4.webp",
+          "alt": "hsCRP: high-sensitivity C-reactive protein, IL-6: interleukin-6, MACE: major adverse cardiovascular events, MMP-9: matrix metalloproteinase-9, NIT: noninvasive testing."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Nóra M Kerkovits:</strong> Investigation, Writing – original draft, Visualization, Formal analysis, Data curation, Conceptualization. <strong>Thomas Mayrhofer:</strong> Formal analysis, Data curation. <strong>Isabel L Langenbach:</strong> Conceptualization. <strong>Jan M Brendel:</strong> Writing – review &amp; editing. <strong>Michelle D Kelsey:</strong> Writing – review &amp; editing. <strong>Maros Ferencik:</strong> Writing – review &amp; editing, Conceptualization. <strong>Michael T Lu:</strong> Writing – review &amp; editing. <strong>Neha Pagidipati:</strong> Writing – review &amp; editing. <strong>Svati H Shah:</strong> Writing – review &amp; editing. <strong>Pamela S Douglas:</strong> Writing – review &amp; editing, Writing – original draft, Resources, Conceptualization. <strong>Borek Foldyna:</strong> Writing – review &amp; editing, Writing – original draft, Supervision, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare the following financial interests/personal relationships which may be considered as potential competing interests:"
+        },
+        {
+          "type": "paragraph",
+          "html": "Pamela S. Douglas reports financial support was provided by 10.13039/100000050National Heart Lung and Blood Institute. Borek Foldyna reports a relationship with AstraZeneca Pharmaceuticals LP, Cleerly, MedTrace, 10.13039/501100004628MedImmune that includes: funding grants. Jan M Brendel reports a relationship with 10.13039/501100001659Deutsche Forschungsgemeinschaft that includes: funding grants. Maros Ferencik reports a relationship with Cleerly Inc, 10.13039/100020588HeartFlow, 10.13039/100031637Elucid, 10.13039/100008484Biomarin that includes: consulting or advisory. Maros Ferencik reports a relationship with Elucid Bioimaging Inc. that includes: equity or stocks. Michael T. Lu reports a relationship with 10.13039/100000968American Heart Association, 10.13039/100002429Amgen, 10.13039/100004325AstraZeneca, 10.13039/100013669Ionis, Johnson &amp; Johnson Innovation, Kowa Pharmaceuticals America, 10.13039/100009645National Academy of Medicine, NHLBI, Risk Management Foundation of the Harvard Medical Institutions that includes: funding grants. Michael T. Lu reports a relationship with 10.13039/100020536Eli Lilly that includes: consulting or advisory. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "text": "Reitsma MB, Flor LS, Mullany EC, Gupta V, Hay SI, Gakidou E. Spatial, temporal, and demographic patterns in prevalence of smoking tobacco use and initiation among young people in 204 countries and territories, 1990-2019. Lancet Publ Health. 2021;6(7):e472–e481. DOI: 10.1016/s2468-2667(21)00102-x. PMCID: PMC8251503. PMID: 34051921"
+    },
+    {
+      "text": "The Health Consequences of Smoking—50 Years of Progress: A Report of the Surgeon General. 2014."
+    },
+    {
+      "text": "Organization WH. Tob responsible 20% deaths coron heart dis: World health organ; 2020 [updated 22 September 2020. Available from: https://www.who.int/news/item/22-09-2020-tobacco-responsible-for-20-of-deaths-from-coronary-heart-disease."
+    },
+    {
+      "text": "Hahad O, Arnold N, Prochaska JH, Panova-Noeva M, Schulz A, Lackner KJ, Pfeiffer N, Schmidtmann I, Michal M, Beutel M, Wild PS, Keaney JF, Daiber A, Münzel T. Cigarette smoking is related to endothelial dysfunction of resistance, but not conduit arteries in the general population-results from the Gutenberg health Study. Front Cardiovasc Med. 2021;8. DOI: 10.3389/fcvm.2021.674622. PMCID: PMC8169997. PMID: 34095261"
+    },
+    {
+      "text": "Ambrose JA, Barua RS. The pathophysiology of cigarette smoking and cardiovascular disease: an update. J Am Coll Cardiol. 2004;43(10):1731–1737. DOI: 10.1016/j.jacc.2003.12.047. PMID: 15145091"
+    },
+    {
+      "text": "Messner B, Bernhard D. Smoking and cardiovascular disease. Arter Thromb Vasc Biol. 2014;34(3):509–515. DOI: 10.1161/ATVBAHA.113.300156. PMID: 24554606"
+    },
+    {
+      "text": "Tibuakuu M, Kamimura D, Kianoush S, DeFilippis AP, Al Rifai M, Reynolds LM, White WB, Butler KR, Mosley TH, Turner ST, Kullo IJ, Hall ME, Blaha MJ. The association between cigarette smoking and inflammation: the genetic epidemiology network of arteriopathy (GENOA) study. PLOS ONE. 2017;12(9). DOI: 10.1371/journal.pone.0184914. PMCID: PMC5602636. PMID: 28922371"
+    },
+    {
+      "text": "McEvoy JW, Nasir K, DeFilippis AP, Lima JA, Bluemke DA, Hundley WG, Barr RG, Budoff MJ, Szklo M, Navas-Acien A, Polak JF, Blumenthal RS, Post WS, Blaha MJ. Relationship of cigarette smoking with inflammation and subclinical vascular disease. Arter Thromb Vasc Biol. 2015;35(4):1002–1010. DOI: 10.1161/ATVBAHA.114.304960. PMCID: PMC4484586. PMID: 25745060"
+    },
+    {
+      "text": "Loftus IM, Naylor AR, Goodall S, Crowther M, Jones L, Bell PR, Thompson MM. Increased matrix metalloproteinase-9 activity in unstable carotid plaques. Stroke. 2000;31(1):40–47. DOI: 10.1161/01.STR.31.1.40. PMID: 10625713"
+    },
+    {
+      "text": "Rahman M, Alatiqi M, Al Jarallah M, Hussain MY, Monayem A, Panduranga P, Rajan R. 2025. DOI: 10.5334/gh.1399. PMCID: PMC11843939. PMID: 39991592"
+    },
+    {
+      "text": "Mehta NN, deGoma E, Shapiro MD. IL-6 and Cardiovascular risk: a narrative review. Curr Atheroscler Rep. 2025;27(1):12. DOI: 10.1007/s11883-024-01259-7. PMCID: PMC11599326. PMID: 39589436"
+    },
+    {
+      "text": "Writing Committee Members, Gulati M, Levy PD, Mukherjee D, Amsterdam E, Bhatt DL, Birtcher KK, Blankstein R, Boyd J, Bullock-Palmer RP, Conejo T, Diercks DB, Gentile F, Greenwood JP, Hess EP, Hollenberg SM, Jaber WA, Jneid H, Joglar JA, Morrow DA, O'Connor RE, Ross MA, Shaw LJ. 2021 AHA/ACC/ASE/CHEST/SAEM/SCCT/SCMR guideline for the evaluation and diagnosis of chest pain. J Am Coll Cardiol. 2021;78(22):e187–e285. DOI: 10.1016/j.jacc.2021.07.053. PMID: 34756653"
+    },
+    {
+      "text": "Douglas PS, Hoffmann U, Patel MR, Mark DB, Al-Khalidi HR, Cavanaugh B, Cole J, Dolor RJ, Fordyce CB, Huang M, Khan MA, Kosinski AS, Krucoff MW, Malhotra V, Picard MH, Udelson JE, Velazquez EJ, Yow E, Cooper LS, Lee KL, PROMISE Investigators. Outcomes of anatomical versus functional testing for coronary artery disease. N Engl J Med. 2015;372(14):1291–1300. DOI: 10.1056/NEJMoa1415516. PMCID: PMC4473773. PMID: 25773919"
+    },
+    {
+      "text": "Ferencik M, Mayrhofer T, Lu MT, Bittner DO, Emami H, Puchner SB, Meyersohn NM, Ivanov AV, Adami EC, Voora D, Ginsburg GS, Januzzi JL, Douglas PS, Hoffmann U. Coronary atherosclerosis, cardiac troponin, and interleukin-6 in patients with chest pain: the PROMISE trial results. JACC Cardiovasc Imaging. 2022;15(8):1427–1438. DOI: 10.1016/j.jcmg.2022.03.016. PMCID: PMC9353061. PMID: 35926901"
+    },
+    {
+      "text": "Hoffmann U, Ferencik M, Udelson JE, Picard MH, Truong QA, Patel MR, Huang M, Pencina M, Mark DB, Heitner JF, Fordyce CB, Pellikka PA, Tardif JC, Budoff M, Nahhas G, Chow B, Kosinski AS, Lee KL, Douglas PS, PROMISE Investigators. Prognostic value of noninvasive cardiovascular testing in patients with stable chest pain. Circulation. 2017;135(24):2320–2332. DOI: 10.1161/CIRCULATIONAHA.116.024360. PMCID: PMC5946057. PMID: 28389572"
+    },
+    {
+      "text": "Freund KM, Belanger AJ, D'Agostino RB, Kannel WB. The health risks of smoking the framingham study: 34 years of follow-up. Ann Epidemiol. 1993;3(4):417–424. DOI: 10.1016/1047-2797(93)90070-K. PMID: 8275219"
+    },
+    {
+      "text": "Budoff MJ, McClelland RL, Nasir K, Greenland P, Kronmal RA, Kondos GT, Shea S, Lima JA, Blumenthal RS. Cardiovascular events with absent or minimal coronary calcification: the multi-ethnic study of atherosclerosis (MESA). Am Heart J. 2009;158(4):554–561. DOI: 10.1016/j.ahj.2009.08.007. PMCID: PMC2766514. PMID: 19781414"
+    },
+    {
+      "text": "Prescott E, Hippe M, Schnohr P, Hein HO, Vestbo J. Smoking and risk of myocardial infarction in women and men: longitudinal population study. BMJ. 1998;316(7137):1043–1047. DOI: 10.1136/bmj.316.7137.1043. PMCID: PMC28505. PMID: 9552903"
+    },
+    {
+      "text": "Peters SA, Huxley RR, Woodward M. Do smoking habits differ between women and men in contemporary Western populations? Evidence from half a million people in the UK Biobank study. BMJ Open. 2014;4(12). DOI: 10.1136/bmjopen-2014-005663. PMCID: PMC4281541. PMID: 25550291"
+    },
+    {
+      "text": "Vallée A. Associations between tobacco smoking and mortality: a sex-stratified cohort analysis. Eur J Publ Health. 2025;35:1212–1218. DOI: 10.1093/eurpub/ckaf194. PMCID: PMC12707473. PMID: 41134686"
+    },
+    {
+      "text": "Jamrozik K, McLaughlin D, McCaul K, Almeida OP, Wong KY, Vagenas D, Dobson A. Women who smoke like men die like men who smoke: findings from two Australian cohort studies. Tob Control. 2011;20(4):258–265. DOI: 10.1136/tc.2010.039172. PMID: 21482557"
+    },
+    {
+      "text": "Schuijf JD, Wijns W, Jukema JW, Atsma DE, de Roos A, Lamb HJ, Stokkel MP, Dibbets-Schneider P, Decramer I, De Bondt P, van der Wall EE, Vanhoenacker PK, Bax JJ. Relationship between noninvasive coronary angiography with multi-slice computed tomography and myocardial perfusion imaging. J Am Coll Cardiol. 2006;48(12):2508–2514. DOI: 10.1016/j.jacc.2006.05.080. PMID: 17174190"
+    },
+    {
+      "text": "American College of Cardiology Foundation Task Force on Expert Consensus Documents, Mark DB, Berman DS, Budoff MJ, Carr JJ, Gerber TC, Hecht HS, Hlatky MA, Hodgson JM, Lauer MS, Miller JM, Morin RL, Mukherjee D, Poon M, Rubin GD, Schwartz RS. ACCF/ACR/AHA/NASCI/SAIP/SCAI/SCCT 2010 Expert Consensus document on coronary computed tomographic angiography. J Am Coll Cardiol. 2010;55(23):2663–2699. DOI: 10.1016/j.jacc.2009.11.013. PMID: 20513611"
+    },
+    {
+      "text": "Cosmi D, Mariottoni B, Cosmi F. Stable atypical chest pain with negative anatomical or functional diagnostic test: diagnosis no matter what or prevention at any cost?. Clin Cardiol. 2019;42(10):982–987. DOI: 10.1002/clc.23250. PMCID: PMC6788466. PMID: 31432542"
+    },
+    {
+      "text": "Wolak A, Rafaeli E, Toledano R, Novack V, Gilutz H, Henkin Y. Attenuated predictive power of a normal myocardial perfusion scan in young smokers. Eur J Intern Med. 2014;25(5):452–457. DOI: 10.1016/j.ejim.2014.03.017. PMID: 24793836"
+    },
+    {
+      "text": "Ferencik M, Mayrhofer T, Bittner DO, Emami H, Puchner SB, Lu MT, Meyersohn NM, Ivanov AV, Adami EC, Patel MR, Mark DB, Udelson JE, Lee KL, Douglas PS, Hoffmann U. Use of high-risk coronary atherosclerotic plaque detection for risk stratification of patients with stable chest pain: a secondary analysis of the PROMISE randomized clinical trial. JAMA Cardiol. 2018;3(2):144. DOI: 10.1001/jamacardio.2017.4973. PMCID: PMC5838601. PMID: 29322167"
+    },
+    {
+      "text": "Senoner T, Plank F, Langer C, Beyer C, Steinkohl F, Barbieri F, Adukauskaite A, Widmann G, Friedrich G, Dichtl W, Feuchtner GM. Smoking and obesity predict high-risk plaque by coronary CTA in low coronary artery calcium score (CACS). J Cardiovasc Comput Tomogr. 2021;15(6):499–505. DOI: 10.1016/j.jcct.2021.04.003. PMID: 33933380"
+    },
+    {
+      "text": "Park H.-B., Lee S.-E., Lee B.K, Hadamitzky M., Kim Y.-J., Conte E. The impact of cigarette smoking for high-risk coronary plaque development and plaque progression by serial coronary computed tomography angiography. J Cardiovasc Comput Tomogr. 2018;71(11_Supplement). DOI: 10.1016/S0735-1097(18)32172-7"
+    },
+    {
+      "text": "Wannamethee SG, Lowe GD, Shaper AG, Rumley A, Lennon L, Whincup PH. Associations between cigarette smoking, pipe/cigar smoking, and smoking cessation, and haemostatic and inflammatory markers for cardiovascular disease. Eur Heart J. 2005;26(17):1765–1773. DOI: 10.1093/eurheartj/ehi183. PMID: 15817606"
+    },
+    {
+      "text": "Nordskog BK, Blixt AD, Morgan WT, Fields WR, Hellmann GM. Matrix-degrading and pro-inflammatory changes in human vascular endothelial cells exposed to cigarette smoke condensate. Cardiovasc Toxicol. 2003;3(2):101–118. DOI: 10.1385/CT:3:2:101. PMID: 14501029"
+    },
+    {
+      "text": "Özkan E, Celik Y, Yucel-Lindberg T, Peker Y. Current smoking determines the levels of circulating MPO and MMP-9 in adults with coronary artery disease and obstructive sleep apnea. J Clin Med. 2023;12(12):4053. DOI: 10.3390/jcm12124053. PMCID: PMC10299467. PMID: 37373746"
+    },
+    {
+      "text": "Miyazaki T, Shimada K, Mokuno H, Daida H. Adipocyte derived plasma protein, adiponectin, is associated with smoking status in patients with coronary artery disease. Heart. 2003;89(6):663. DOI: 10.1136/heart.89.6.663. PMCID: PMC1767701. PMID: 12748229"
+    },
+    {
+      "text": "Galis ZS, Sukhova GK, Lark MW, Libby P. Increased expression of matrix metalloproteinases and matrix degrading activity in vulnerable regions of human atherosclerotic plaques. J Clin Invest. 1994;94(6):2493–2503. DOI: 10.1172/jci117619. PMCID: PMC330083. PMID: 7989608"
+    },
+    {
+      "text": "Pöllänen PJ, Karhunen PJ, Mikkelsson J, Laippala P, Perola M, Penttilä A, Mattila KM, Koivula T, Lehtimäki T. Coronary artery complicated lesion area is related to functional polymorphism of matrix metalloproteinase 9 gene. Arter Thromb Vasc Biol. 2001;21(9):1446–1450. DOI: 10.1161/hq0901.095545. PMID: 11557670"
+    },
+    {
+      "text": "Perlstein TS, Lee RT. Smoking, metalloproteinases, and vascular disease. Arter Thromb Vasc Biol. 2006;26(2):250–256. DOI: 10.1161/01.ATV.0000199268.27395.4f. PMID: 16339501"
+    },
+    {
+      "text": "Hansson GK. Inflammation, atherosclerosis, and coronary artery disease. N Engl J Med. 2005;352(16):1685–1695. DOI: 10.1056/NEJMra043430. PMID: 15843671"
+    },
+    {
+      "text": "Liuzzo G, Biasucci LM, Gallimore JR, Grillo RL, Rebuzzi AG, Pepys MB, Maseri A. The prognostic value of C-reactive protein and serum amyloid A protein in severe unstable Angina. N Engl J Med. 1994;331(7):417–424. DOI: 10.1056/NEJM199408183310701. PMID: 7880233"
+    },
+    {
+      "text": "Libby P, Ridker PM, Hansson GK, Leducq Transatlantic Network on Atherothrombosis. Inflammation in atherosclerosis: from pathophysiology to practice. J Am Coll Cardiol. 2009;54(23):2129–2138. DOI: 10.1016/j.jacc.2009.09.009. PMCID: PMC2834169. PMID: 19942084"
+    },
+    {
+      "text": "Ridker PM, Everett BM, Thuren T, MacFadyen JG, Chang WH, Ballantyne C, Fonseca F, Nicolau J, Koenig W, Anker SD, Kastelein JJP, Cornel JH, Pais P, Pella D, Genest J, Cifkova R, Lorenzatti A, Forster T, Kobalava Z, Vida-Simiti L, Flather M, Shimokawa H, Ogawa H, Dellborg M, Rossi PRF, Troquay RPT, Libby P, Glynn RJ, CANTOS Trial Group. Antiinflammatory therapy with Canakinumab for atherosclerotic disease. N Engl J Med. 2017;377(12):1119–1131. DOI: 10.1056/NEJMoa1707914. PMID: 28845751"
+    },
+    {
+      "text": "Ridker PM, Danielson E, Fonseca FA, Genest J, Gotto AM, Kastelein JJ, Koenig W, Libby P, Lorenzatti AJ, MacFadyen JG, Nordestgaard BG, Shepherd J, Willerson JT, Glynn RJ, JUPITER Study Group. Rosuvastatin to prevent vascular events in men and women with elevated C-reactive protein. N Engl J Med. 2008;359(21):2195–2207. DOI: 10.1056/NEJMoa0807646. PMID: 18997196"
+    },
+    {
+      "text": "Ridker PM, Cannon CP, Morrow D, Rifai N, Rose LM, McCabe CH, Pfeffer MA, Braunwald E, Pravastatin or Atorvastatin Evaluation and Infection Therapy-Thrombolysis in Myocardial Infarction 22 (PROVE IT-TIMI 22) Investigators. C-reactive protein levels and outcomes after Statin therapy. N Engl J Med. 2005;352(1):20–28. DOI: 10.1056/NEJMoa042378. PMID: 15635109"
+    },
+    {
+      "text": "Tessone A, Feinberg MS, Barbash IM, Reich R, Holbova R, Richmann M, Mardor Y, Leor J. Effect of matrix metalloproteinase inhibition by doxycycline on myocardial healing and remodeling after myocardial infarction. Cardiovasc Drugs Ther. 2005;19(6):383–390. DOI: 10.1007/s10557-005-5201-6. PMID: 16435072"
+    },
+    {
+      "text": "Wüst RCI, Coolen BF, Held NM, Daal MRR, Alizadeh Tazehkandi V, Baks-Te Bulte L, Wiersma M, Kuster DWD, Brundel BJJM, van Weeghel M, Strijkers GJ, Houtkooper RH. The antibiotic doxycycline impairs cardiac mitochondrial and contractile function. Int J Mol Sci. 2021;22(8):4100. DOI: 10.3390/ijms22084100. PMCID: PMC8071362. PMID: 33921053"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

@@ -1,0 +1,255 @@
+{
+  "pmcid": "PMC13676063",
+  "pmid": "",
+  "doi": "10.1016/j.ajpc.2026.101768",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13676063/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Polygenic risk score assessment of LDL-Cholesterol levels and progression to severe hypercholesterolemia and statin treatment; a longitudinal study from a large middle eastern biobank",
+  "articleType": "Brief Report",
+  "published": "2026-07-24",
+  "year": "2026",
+  "volume": "31",
+  "issue": "",
+  "articleNumber": "101768",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2026",
+  "authors": [
+    {
+      "given": "Umm-Kulthum Ismail",
+      "surname": "Umlai",
+      "display": "Umm-Kulthum Ismail Umlai"
+    },
+    {
+      "given": "Salman M",
+      "surname": "Toor",
+      "display": "Salman M Toor"
+    },
+    {
+      "given": "Usama",
+      "surname": "Aliyu",
+      "display": "Usama Aliyu"
+    },
+    {
+      "given": "Shaban",
+      "surname": "Mohammed",
+      "display": "Shaban Mohammed"
+    },
+    {
+      "given": "Nadeem",
+      "surname": "Qureshi",
+      "display": "Nadeem Qureshi"
+    },
+    {
+      "given": "Moza S.H.",
+      "surname": "Al Hail",
+      "display": "Moza S.H. Al Hail"
+    },
+    {
+      "given": "Mohammed",
+      "surname": "Gomaa",
+      "display": "Mohammed Gomaa"
+    },
+    {
+      "given": "Amin",
+      "surname": "Jayyousi",
+      "display": "Amin Jayyousi"
+    },
+    {
+      "given": "Jassim M.",
+      "surname": "Al Suwaidi",
+      "display": "Jassim M. Al Suwaidi"
+    },
+    {
+      "given": "Omar M.E.",
+      "surname": "Albagha",
+      "display": "Omar M.E. Albagha"
+    }
+  ],
+  "affiliations": [
+    "aCollege of Health and Life Sciences (CHLS), Hamad Bin Khalifa University (HBKU), Qatar Foundation (QF), P.O. Box 34110, Doha, Qatar",
+    "bDiabetes Research Center, Qatar Biomedical Research Institute (QBRI), Hamad Bin Khalifa University (HBKU), Qatar Foundation (QF), P.O. Box 34110, Doha, Qatar",
+    "cDepartment of Pharmacy, Hamad Medical Corporation, P.O. Box 3050, Doha, Qatar",
+    "dPrimary Care Stratified Medicine Research Group, Centre for Academic Primary Care, School of Medicine, University of Nottingham, Nottingham, United Kingdom",
+    "eAdult Cardiology, Heart Hospital, Hamad Medical Corporation (HMC), Doha, Qatar",
+    "fDepartment of Diabetes, Hamad Medical Corporation (HMC), Doha, Qatar"
+  ],
+  "keywords": [
+    "Cholesterol",
+    "GWAS",
+    "Hypercholesterolemia",
+    "LDL-C",
+    "PGS",
+    "Polygenic risk score"
+  ],
+  "abstract": [],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Hypercholesterolemia (HC), particularly elevated low-density lipoprotein cholesterol (LDL-C), is a major modifiable risk factor for atherosclerotic cardiovascular disease and affects approximately 20% of the global population [1]. LDL-C is influenced by monogenic, polygenic, lifestyle and environmental factors. Over 120 LDL-C polygenic scores (PGS) are listed in the PGS Catalog [2], but most were developed in European or predominantly European datasets, and their performance can be reduced in other ancestries because of differences in linkage disequilibrium, allele frequencies and effect sizes [3]. Moreover, existing LDL-C PGS have largely been evaluated using cross-sectional lipid traits or case-control definitions rather than longitudinal progression to clinically severe hypercholesterolemia. In previous work in the Qatar Biobank (QBB), multi-ancestry-derived PGS showed the strongest performance for LDL-C prediction [4]. Here, we integrated 11 published LDL-C PGS into a composite PGS (cPGS) and evaluated its association with treatment-corrected LDL-C, progression to severe hypercholesterolemia and statin treatment in the longitudinal QBB cohort."
+        }
+      ]
+    },
+    {
+      "title": "Materials and methods",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Study cohort",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The study included 13,695 native Qatari participants from QBB with whole-genome sequencing and phenotypic data. Whole-genome sequencing and serum LDL-C measurements were described previously [4]. LDL-C values were corrected for cholesterol-lowering treatment as described previously [5]. Severe hypercholesterolemia (Severe-HC) was defined as corrected LDL-C ≥ 4.9 mmol/L while the statin-treatment group (Statin-Tx) comprised participants on treatment and had corrected LDL-C &lt; 4.9 mmol/L. Participants not on statins and with LDL-C &lt; 4.9 mmol/L were considered without severe hypercholesterolemia. The study was approved by the Institutional Review Boards of QBB (E-2020-QF-QBB-RES-ACC-0154–0133) and Hamad Bin Khalifa University (QBRI-IRB 2021–03–081), and all participants provided written informed consent."
+        }
+      ]
+    },
+    {
+      "title": "Polygenic scores assessment and statistical analysis",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Eleven published LDL-C PGS from diverse populations were selected as previously described [2,4,6]. PGS were calculated for all participants and normalized within each cohort using PLINKv2.0. In the training cohort, LDL-C and the 11 PGS were used in an elastic net model to derive the cPGS. In the validation cohort, linear regression assessed association between PGS and treatment-corrected LDL-C and reported adjusted R<sup>2</sup> and incremental adjusted R<sup>2</sup> over clinical covariates. Participants were stratified into quintiles (Q1 to Q5) of cPGS genetic risk. Cox proportional hazards models in the test cohort estimated hazard ratios (HR) per SD increase in PGS and by cPGS quintile. Discrimination was assessed using the C-index, and incremental improvement was quantified as ΔC-index and Net Reclassification Improvement (NRI) using bootstrapping (2,000 resamples). Sensitivity analyses were performed after adding baseline LDL-C to the model, and in age- and BMI-matched groups using stratified Cox regression. Continuous variables are reported as mean (SD), and categorical variables as n (%). Welch&#x27;s <em>t</em>-test and chi-square tests were used to compare groups. Analyses were conducted in R v4.1.4, with <em>P</em> &lt; 0.05 considered significant."
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "title": "Characteristics of the study cohort",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The study design is depicted in Fig. 1A, while test cohort characteristics are presented in Fig. 1B During approximately six years of follow-up, 117 participants progressed to severe hypercholesterolemia, 140 initiated statin treatment and 1,846 remained free of severe hypercholesterolemia. Age, BMI and LDL-C were higher among progressors than non-progressors; both at baseline and follow-up."
+        },
+        {
+          "type": "figure",
+          "label": "Fig. 1",
+          "caption": "(A) Study design. The study included 13,695 native Qatari participants from Qatar biobank (QBB) with whole-genome sequencing and phenotypic data. Participants with baseline-only data were randomly partitioned into 70% training (<em>n</em> = 7,818) and 30% validation (<em>n</em> = 3,345) cohorts. Participants with baseline and follow-up data formed the longitudinal test cohort (<em>n</em> = 2,532); after excluding individuals with incomplete data (<em>n</em> = 18) and those with hypercholesterolemia at baseline (corrected LDL-C ≥ 4.9 mmol/L or on statin treatment; <em>n</em> = 411), 2,103 remained in the test cohort. Validation and test cohort were further stratified by severe HC (defined as LDL-C levels ≥ 4.9 mmol/L after correction for statin treatment), Statin Tx (defined as subjects on statin treatment and their LDL-C levels &lt; 4.9 mmol/L), and without severe HC (subjects not on statin treatment and their LDL-C levels &lt; 4.9mmol/L). (B) Test cohort characteristics (<em>n</em> = 2,103) Over ∼ 6 years follow-up time, 117 subjects progressed to Severe HC, 140 progressed to incident Statin-Tx, and 1,846 remained without severe HC. Continuous values shown as mean (SD). *<em>P-</em>values &lt;0.05, Welch’s <em>t</em>-test compared to non-progressors. (C) PGS performance assessment in the validation cohort, (i) Performance of individual PGS predicting corrected LDL-C using linear regression models (including age, sex, PGS, and genetic principal components) in the validation cohort; all <em>P</em> &lt; 0.001 except for PGS000814; Error bars are 95% CI; red dashed line represents adjusted R² of the base model including age and sex. (ii) frequency density of cPGS comparing those with severe HC (<em>n</em> = 250) to those without severe HC (<em>n</em> = 2,781); (iii) proportion of subjects with severe HC per cPGS quintile; (iv) frequency density of cPGS comparing those with Statin Tx (<em>n</em> = 314) to those without severe HC (<em>n</em> = 2,781); (v) Proportion of subjects with Statin Tx per cPGS quintile. (D) PGS performance predicting progression to severe HC in the test cohort; (i) Hazards ratio (HR) per standard deviation of PGS, (ii) Concordance index (C-index) for models including age, sex, BMI, PGS, and genetic principal components; red dashed line depicts C-index for the basic clinical model including age, sex, and BMI; Error bars are 95% CI for HR and standard error for C-index. (iii) frequency density of cPGS comparing those with severe HC (<em>n</em> = 117) to those without (<em>n</em> = 1,846); (iv) proportion of subjects with severe HC per cPGS quintile; (v) Hazards ratio (HR) per cPGS quintile compared to the lowest quintile. (E) PGS performance predicting progression to Statin Tx in the test cohort; (i) Hazards ratio (HR) per standard deviation of PGS, (ii) Concordance index (C-index) for models including age, sex, BMI, PGS, and genetic principal components; red dashed line depicts C-index for the basic clinical model including age, sex, and BMI; (iii) frequency density of cPGS comparing those with Statin Tx (<em>n</em> = 140) to those without severe (<em>n</em> = 1,846); (iv) proportion of subjects with Statin Tx per cPGS quintile; (v) Hazards ratio (HR) per cPGS quintile compared to the lowest quintile.",
+          "src": "assets/pmc/PMC13676063/gr1.webp",
+          "alt": "Fig. 1 (A) Study design. The study included 13,695 native Qatari participants from Qatar biobank (QBB) with whole-genome sequencing and phenotypic data. Participants with baseline-only data were randomly partitioned into 70% training (n = 7,818) and 30% validation (n = 3,345) cohorts. Participants with baseline and follow-up data formed the longitudinal test cohort (n = 2,532); after excluding individuals with incomplete data (n = 18) and those with hypercholesterolemia at baseline (corrected LDL-C ≥ 4.9 mmol/L or on statin treatment; n = 411), 2,103 remained in the test cohort. Validation and test cohort were further stratified by severe HC (defined as LDL-C levels ≥ 4.9 mmol/L after correction for statin treatment), Statin Tx (defined as subjects on statin treatment and their LDL-C levels < 4.9 mmol/L), and without severe HC (subjects not on statin treatment and their LDL-C levels < 4.9mmol/L). (B) Test cohort characteristics (n = 2,103) Over ∼ 6 years follow-up time, 117 subjects progressed to Severe HC, 140 progressed to incident Statin-Tx, and 1,846 remained without severe HC. Continuous values shown as mean (SD). *P-values <0.05, Welch’s t-test compared to non-progressors. (C) PGS performance assessment in the validation cohort, (i) Performance of individual PGS predicting corrected LDL-C using linear regression models (including age, sex, PGS, and genetic principal components) in the validation cohort; all P < 0.001 except for PGS000814; Error bars are 95% CI; red dashed line represents adjusted R² of the base model including age and sex. (ii) frequency density of cPGS comparing those with severe HC (n = 250) to those without severe HC (n = 2,781); (iii) proportion of subjects with severe HC per cPGS quintile; (iv) frequency density of cPGS comparing those with Statin Tx (n = 314) to those without severe HC (n = 2,781); (v) Proportion of subjects with Statin Tx per cPGS quintile. (D) PGS performance predicting progression to severe HC in the test cohort; (i) Hazards ratio (HR) per standard deviation of PGS, (ii) Concordance index (C-index) for models including age, sex, BMI, PGS, and genetic principal components; red dashed line depicts C-index for the basic clinical model including age, sex, and BMI; Error bars are 95% CI for HR and standard error for C-index. (iii) frequency density of cPGS comparing those with severe HC (n = 117) to those without (n = 1,846); (iv) proportion of subjects with severe HC per cPGS quintile; (v) Hazards ratio (HR) per cPGS quintile compared to the lowest quintile. (E) PGS performance predicting progression to Statin Tx in the test cohort; (i) Hazards ratio (HR) per standard deviation of PGS, (ii) Concordance index (C-index) for models including age, sex, BMI, PGS, and genetic principal components; red dashed line depicts C-index for the basic clinical model including age, sex, and BMI; (iii) frequency density of cPGS comparing those with Statin Tx (n = 140) to those without severe (n = 1,846); (iv) proportion of subjects with Statin Tx per cPGS quintile; (v) Hazards ratio (HR) per cPGS quintile compared to the lowest quintile."
+        }
+      ]
+    },
+    {
+      "title": "Performance of PGS in predicting LDL-C levels and hypercholesterolemia in the validation cohort",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In the validation cohort, most PGS predicted corrected LDL-C, but cPGS (which included 1,102,026 variants) had the largest incremental improvement when added to the model that included age and sex (Δ adjusted R<sup>2</sup> = 0.1289; <em>P</em> &lt; 0.001; Fig. 1C-i). Participants with severe hypercholesterolemia had substantially higher cPGS than those without hypercholesterolemia (0.58 versus −0.06; <em>P</em> &lt; 0.001; Fig. 1C-ii), and the proportion with severe hypercholesterolemia increased approximately 4-fold from the lowest (Q1) to highest (Q5) cPGS quintile (Fig. 1C-iii). The statin-treatment group showed a smaller but significant increase in cPGS (0.098 versus −0.06; <em>P</em> &lt; 0.01; Fig. 1C-iv), with ∼1.5-fold increase in the highest versus lowest cPGS quintile (Fig. 1C-v)."
+        }
+      ]
+    },
+    {
+      "title": "Performance of PGS in predicting progression to severe hypercholesterolemia or incident statin treatment in the test cohort",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In the longitudinal test cohort, cPGS predicted progression to severe hypercholesterolemia (HR/SD = 1.86; 95%CI 1.52–2.27; <em>P</em> &lt; 0.001; Fig. 1D-i) and improved discrimination beyond age, sex, and BMI (ΔC-index = 0.043; NRI = 0.325; <em>P</em> &lt; 0.05; Fig. 1D-ii). Severe-hypercholesterolemia progressors had higher cPGS than non-progressors (0.47 versus −0.04; <em>P</em> &lt; 0.001; Fig. 1D-iii). The highest cPGS quintile had a 3.5-fold higher proportion of severe hypercholesterolemia cases and an HR of 4.62 (95% CI 2.40–8.89; <em>P</em> &lt; 0.001) compared with the lowest quintile (Fig. 1D-v)."
+        },
+        {
+          "type": "paragraph",
+          "html": "Prediction of incident statin treatment was weaker (cPGS HR/SD = 1.30; 95%CI 1.09–1.56; <em>P</em> &lt; 0.01, ΔC-index = 0.016; <em>P</em> = 0.10; Fig. 1Ei). After adding baseline LDL-C to prediction models, cPGS remained associated with severe hypercholesterolemia (HR/SD = 1.38; 95%CI 1.11–1.71; <em>P</em> &lt; 0.01), but the incremental improvement was not significant (ΔC-index = 0.008; <em>P</em> = 0.33; NRI = 0.272; <em>P</em> = 0.12), and no PGS predicted incident statin treatment."
+        },
+        {
+          "type": "paragraph",
+          "html": "In age- and BMI-matched analyses, cPGS remained associated with progression to severe hypercholesterolemia and showed greater incremental discrimination (HR/SD = 1.99; 95%CI 1.48–2.68; ΔC-index = 0.230; NRI = 0.494; <em>P</em> &lt; 0.005). Similar, although less pronounced, findings were observed for incident statin treatment (HR/SD = 1.53; 95%CI 1.18–2.00; ΔC-index = 0.100; NRI=0.582; <em>P</em> &lt; 0.005)."
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We developed a cPGS and evaluated its performance in predicting corrected LDL-C levels, progression to severe hypercholesterolemia, and incident statin treatment. Most existing LDL-C polygenic scores have been developed using cross-sectional lipid measurements or case-control studies and have rarely been evaluated against longitudinal disease progression."
+        },
+        {
+          "type": "paragraph",
+          "html": "In this study, cPGS predicted future progression to severe hypercholesterolemia; the highest cPGS quintile had a 3.5-fold higher proportion of severe hypercholesterolemia cases and an HR of 4.6 compared with the lowest quintile. Importantly, the cPGS provided significant incremental predictive value beyond conventional clinical variables, including age, sex, and BMI, highlighting its potential utility for early risk stratification."
+        },
+        {
+          "type": "paragraph",
+          "html": "The performance of cPGS was weaker for incident statin treatment, likely because statin initiation also reflects clinical decision-making, healthcare access, comorbidities and patient preferences. Interestingly, the incremental predictive value of cPGS increased considerably in age- and BMI-matched analyses which suggests that cPGS captures risk information that is largely independent of age and adiposity and may be particularly useful for identifying individuals at increased risk despite otherwise similar clinical profiles."
+        },
+        {
+          "type": "paragraph",
+          "html": "Notably, when baseline LDL-C levels were incorporated into the prediction model, cPGS remained associated with progression to severe hypercholesterolemia; however, the incremental improvement in discrimination was no longer significant. This observation suggests that while genetic risk contributes to long-term susceptibility, measured LDL-C remains a strong predictor once available. However, the primary objective of a polygenic score is to identify individuals at increased risk before clinically significant LDL-C elevation occurs and before severe hypercholesterolemia develops."
+        },
+        {
+          "type": "paragraph",
+          "html": "In this study, cPGS predicted future progression to severe hypercholesterolemia, supporting its potential role for earlier risk stratification before traditional clinical risk factors become strongly predictive. Following external validation, such approaches may complement conventional risk assessment strategies and facilitate earlier identification of individuals who could benefit from preventive intervention."
+        },
+        {
+          "type": "paragraph",
+          "html": "Strengths include the large population-based cohort, whole-genome sequencing, longitudinal follow-up, independent training, validation and test datasets, and treatment-corrected LDL-C. Limitations include the absence of external validation, analysis based on single follow-up visit, and potential residual effects of statin treatment. To our knowledge, this is the first longitudinal evaluations of LDL-C PGS for severe hypercholesterolemia progression in a Middle Eastern population."
+        }
+      ]
+    },
+    {
+      "title": "Funding",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "This work was supported by a grant from the Qatar National Research Fund (QNRF) grant awarded to OMEA (PPM 03-0324-190038)."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Umm-Kulthum Ismail Umlai:</strong> Writing – original draft, Investigation, Formal analysis, Data curation. <strong>Salman M Toor:</strong> Writing – review &amp; editing, Methodology, Investigation. <strong>Usama Aliyu:</strong> Writing – review &amp; editing, Methodology, Investigation. <strong>Shaban Mohammed:</strong> Resources. <strong>Nadeem Qureshi:</strong> Resources. <strong>Moza S.H. Al Hail:</strong> Resources. <strong>Mohammed Gomaa:</strong> Resources. <strong>Amin Jayyousi:</strong> Resources. <strong>Jassim M. Al Suwaidi:</strong> Resources. <strong>Omar M.E. Albagha:</strong> Writing – review &amp; editing, Supervision, Investigation, Funding acquisition, Formal analysis, Conceptualization."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "text": "Roth GA, Mensah GA, Johnson CO, Addolorato G, Ammirati E, Baddour LM, Barengo NC, Beaton AZ, Benjamin EJ, Benziger CP, Bonny A, Brauer M, Brodmann M, Cahill TJ, Carapetis J, Catapano AL, Chugh SS, Cooper LT, Coresh J, Criqui M, DeCleene N, Eagle KA, Emmons-Bell S, Feigin VL, Fernández-Solà J, Fowkes G, Gakidou E, Grundy SM, He FJ, Howard G, Hu F, Inker L, Karthikeyan G, Kassebaum N, Koroshetz W, Lavie C, Lloyd-Jones D, Lu HS, Mirijello A, Temesgen AM, Mokdad A, Moran AE, Muntner P, Narula J, Neal B, Ntsekhe M, Moraes de Oliveira G, Otto C, Owolabi M, Pratt M, Rajagopalan S, Reitsma M, Ribeiro ALP, Rigotti N, Rodgers A, Sable C, Shakil S, Sliwa-Hahnle K, Stark B, Sundström J, Timpel P, Tleyjeh IM, Valgimigli M, Vos T, Whelton PK, Yacoub M, Zuhlke L, Murray C, Fuster V, GBD-NHLBI-JACC Global Burden of Cardiovascular Diseases Writing Group. Global burden of cardiovascular diseases and Risk factors, 1990-2019: update from the GBD 2019 study. J Am Coll Cardiol. 2020;76:2982–3021. DOI: 10.1016/J.JACC.2020.11.010. PMCID: PMC7755038. PMID: 33309175"
+    },
+    {
+      "text": "Lambert SA, Wingfield B, Gibson JT, Gil L, Ramachandran S, Yvon F, Saverimuttu S, Tinsley E, Lewis E, Ritchie SC, Wu J, Cánovas R, McMahon A, Harris LW, Parkinson H, Inouye M. Enhancing the polygenic score catalog with tools for score calculation and ancestry normalization. Nat Genet. 2024;56:1989–1994. DOI: 10.1038/s41588-024-01937-x. PMCID: PMC12041910. PMID: 39327485"
+    },
+    {
+      "text": "Thareja G, Al-Sarraj Y, Belkadi A, Almotawa M, Qatar Genome Program Research (QGPR) Consortium, Suhre K, Albagha OME. Whole genome sequencing in the Middle Eastern Qatari population identifies genetic associations with 45 clinically relevant traits. Nat Commun. 2021;12:1250. DOI: 10.1038/s41467-021-21381-3. PMCID: PMC7902658. PMID: 33623009"
+    },
+    {
+      "text": "Ismail Umlai UK, Toor SM, Al-Sarraj YA, Mohammed S, Al Hail MSH, Ullah E, Kunji K, El-Menyar A, Gomaa M, Jayyousi A, Saad M, Qureshi N, Al Suwaidi JM, Albagha OME. A multi-ancestry genome-wide association study and evaluation of polygenic scores of LDL-C levels. J Lipid Res. 2025;66. DOI: 10.1016/j.jlr.2025.100752. PMCID: PMC11927683. PMID: 39909172"
+    },
+    {
+      "text": "Haralambos K, Whatley SD, Edwards R, Gingell R, Townsend D, Ashfield-Watt P, Lansberg P, Datta DB, McDowell IF. Clinical experience of scoring criteria for Familial hypercholesterolaemia (FH) genetic testing in Wales. Atherosclerosis. 2015;240:190–196. DOI: 10.1016/J.ATHEROSCLEROSIS.2015.03.003. PMID: 25797312"
+    },
+    {
+      "text": "Graham SE, Clarke SL, Wu KH, Kanoni S, Zajac GJM, Ramdas S, Surakka I, Ntalla I, Vedantam S, Winkler TW, Locke AE, Marouli E, Hwang MY, Han S, Narita A, Choudhury A, Bentley AR, Ekoru K, Verma A, Trivedi B, Martin HC, Hunt KA, Hui Q, Klarin D, Zhu X, Thorleifsson G, Helgadottir A, Gudbjartsson DF, Holm H, Olafsson I, Akiyama M, Sakaue S, Terao C, Kanai M, Zhou W, Brumpton BM, Rasheed H, Ruotsalainen SE, Havulinna AS, Veturi Y, Feng Q, Rosenthal EA, Lingren T, Pacheco JA, Pendergrass SA, Haessler J, Giulianini F, Bradford Y, Miller JE, Campbell A, Lin K, Millwood IY, Hindy G, Rasheed A, Faul JD, Zhao W, Weir DR, Turman C, Huang H, Graff M, Mahajan A, Brown MR, Zhang W, Yu K, Schmidt EM, Pandit A, Gustafsson S, Yin X, Luan J, Zhao JH, Matsuda F, Jang HM, Yoon K, Medina-Gomez C, Pitsillides A, Hottenga JJ, Willemsen G, Wood AR, Ji Y, Gao Z, Haworth S, Mitchell RE, Chai JF, Aadahl M, Yao J, Manichaikul A, Warren HR, Ramirez J, Bork-Jensen J, Kårhus LL, Goel A, Sabater-Lleal M, Noordam R, Sidore C, Fiorillo E, McDaid AF, Marques-Vidal P, Wielscher M, Trompet S, Sattar N, Møllehave LT, Thuesen BH, Munz M, Zeng L, Huang J, Yang B, Poveda A, Kurbasic A, Lamina C, Forer L, Scholz M, Galesloot TE, Bradfield JP, Daw EW, Zmuda JM, Mitchell JS, Fuchsberger C, Christensen H, Brody JA, Feitosa MF, Wojczynski MK, Preuss M, Mangino M, Christofidou P, Verweij N, Benjamins JW, Engmann J, Kember RL, Slieker RC, Lo KS, Zilhao NR, Le P, Kleber ME, Delgado GE, Huo S, Ikeda DD, Iha H, Yang J, Liu J, Leonard HL, Marten J, Schmidt B, Arendt M, Smyth LJ, Cañadas-Garre M, Wang C, Nakatochi M, Wong A, Hutri-Kähönen N, Sim X, Xia R, Huerta-Chagoya A, Fernandez-Lopez JC, Lyssenko V, Ahmed M, Jackson AU, Yousri NA, Irvin MR, Oldmeadow C, Kim HN, Ryu S, Timmers PRHJ, Arbeeva L, Dorajoo R, Lange LA, Chai X, Prasad G, Lorés-Motta L, Pauper M, Long J, Li X, Theusch E, Takeuchi F, Spracklen CN, Loukola A, Bollepalli S, Warner SC, Wang YX, Wei WB, Nutile T, Ruggiero D, Sung YJ, Hung YJ, Chen S, Liu F, Yang J, Kentistou KA, Gorski M, Brumat M, Meidtner K, Bielak LF, Smith JA, Hebbar P, Farmaki AE, Hofer E, Lin M, Xue C, Zhang J, Concas MP, Vaccargiu S, van der Most PJ, Pitkänen N, Cade BE, Lee J, van der Laan SW, Chitrala KN, Weiss S, Zimmermann ME, Lee JY, Choi HS, Nethander M, Freitag-Wolf S, Southam L, Rayner NW, Wang CA, Lin SY, Wang JS, Couture C, Lyytikäinen LP, Nikus K, Cuellar-Partida G, Vestergaard H, Hildalgo B, Giannakopoulou O, Cai Q, Obura MO, van Setten J, Li X, Schwander K, Terzikhan N, Shin JH, Jackson RD, Reiner AP, Martin LW, Chen Z, Li L, Highland HM, Young KL, Kawaguchi T, Thiery J, Bis JC, Nadkarni GN, Launer LJ, Li H, Nalls MA, Raitakari OT, Ichihara S, Wild SH, Nelson CP, Campbell H, Jäger S, Nabika T, Al-Mulla F, Niinikoski H, Braund PS, Kolcic I, Kovacs P, Giardoglou T, Katsuya T, Bhatti KF, de Kleijn D, de Borst GJ, Kim EK, Adams HHH, Ikram MA, Zhu X, Asselbergs FW, Kraaijeveld AO, Beulens JWJ, Shu XO, Rallidis LS, Pedersen O, Hansen T, Mitchell P, Hewitt AW, Kähönen M, Pérusse L, Bouchard C, Tönjes A, Chen YI, Pennell CE, Mori TA, Lieb W, Franke A, Ohlsson C, Mellström D, Cho YS, Lee H, Yuan JM, Koh WP, Rhee SY, Woo JT, Heid IM, Stark KJ, Völzke H, Homuth G, Evans MK, Zonderman AB, Polasek O, Pasterkamp G, Hoefer IE, Redline S, Pahkala K, Oldehinkel AJ, Snieder H, Biino G, Schmidt R, Schmidt H, Chen YE, Bandinelli S, Dedoussis G, Thanaraj TA, Kardia SLR, Kato N, Schulze MB, Girotto G, Jung B, Böger CA, Joshi PK, Bennett DA, De Jager PL, Lu X, Mamakou V, Brown M, Caulfield MJ, Munroe PB, Guo X, Ciullo M, Jonas JB, Samani NJ, Kaprio J, Pajukanta P, Adair LS, Bechayda SA, de Silva HJ, Wickremasinghe AR, Krauss RM, Wu JY, Zheng W, den Hollander AI, Bharadwaj D, Correa A, Wilson JG, Lind L, Heng CK, Nelson AE, Golightly YM, Wilson JF, Penninx B, Kim HL, Attia J, Scott RJ, Rao DC, Arnett DK, Hunt SC, Walker M, Koistinen HA, Chandak GR, Yajnik CS, Mercader JM, Tusié-Luna T, Aguilar-Salinas CA, Villalpando CG, Orozco L, Fornage M, Tai ES, van Dam RM, Lehtimäki T, Chaturvedi N, Yokota M, Liu J, Reilly DF, McKnight AJ, Kee F, Jöckel KH, McCarthy MI, Palmer CNA, Vitart V, Hayward C, Simonsick E, van Duijn CM, Lu F, Qu J, Hishigaki H, Lin X, März W, Parra EJ, Cruz M, Gudnason V, Tardif JC, Lettre G, 't Hart LM, Elders PJM, Damrauer SM, Kumari M, Kivimaki M, van der Harst P, Spector TD, Loos RJF, Province MA, Psaty BM, Brandslund I, Pramstaller PP, Christensen K, Ripatti S, Widén E, Hakonarson H, Grant SFA, Kiemeney LALM, de Graaf J, Loeffler M, Kronenberg F, Gu D, Erdmann J, Schunkert H, Franks PW, Linneberg A, Jukema JW, Khera AV, Männikkö M, Jarvelin MR, Kutalik Z, Cucca F, Mook-Kanamori DO, van Dijk KW, Watkins H, Strachan DP, Grarup N, Sever P, Poulter N, Rotter JI, Dantoft TM, Karpe F, Neville MJ, Timpson NJ, Cheng CY, Wong TY, Khor CC, Sabanayagam C, Peters A, Gieger C, Hattersley AT, Pedersen NL, Magnusson PKE, Boomsma DI, de Geus EJC, Cupples LA, van Meurs JBJ, Ghanbari M, Gordon-Larsen P, Huang W, Kim YJ, Tabara Y, Wareham NJ, Langenberg C, Zeggini E, Kuusisto J, Laakso M, Ingelsson E, Abecasis G, Chambers JC, Kooner JS, de Vries PS, Morrison AC, North KE, Daviglus M, Kraft P, Martin NG, Whitfield JB, Abbas S, Saleheen D, Walters RG, Holmes MV, Black C, Smith BH, Justice AE, Baras A, Buring JE, Ridker PM, Chasman DI, Kooperberg C, Wei WQ, Jarvik GP, Namjou B, Hayes MG, Ritchie MD, Jousilahti P, Salomaa V, Hveem K, Åsvold BO, Kubo M, Kamatani Y, Okada Y, Murakami Y, Thorsteinsdottir U, Stefansson K, Ho YL, Lynch JA, Rader DJ, Tsao PS, Chang KM, Cho K, O'Donnell CJ, Gaziano JM, Wilson P, Rotimi CN, Hazelhurst S, Ramsay M, Trembath RC, van Heel DA, Tamiya G, Yamamoto M, Kim BJ, Mohlke KL, Frayling TM, Hirschhorn JN, Kathiresan S, VA Million Veteran Program, Global Lipids Genetics Consortium*, Boehnke M, Natarajan P, Peloso GM, Brown CD, Morris AP, Assimes TL, Deloukas P, Sun YV, Willer CJ. The power of genetic diversity in genome-wide association studies of lipids. Nature. 2021;600:675–679. DOI: 10.1038/s41586-021-04064-3. PMCID: PMC8730582. PMID: 34887591"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}
