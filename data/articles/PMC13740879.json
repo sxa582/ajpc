@@ -1,0 +1,466 @@
+{
+  "pmcid": "PMC13740879",
+  "pmid": "42997027",
+  "doi": "10.1016/j.ajpc.2026.101782",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13740879/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "The coverage gap in PREVENT: Why cardiovascular risk prediction needs a lab-free complement",
+  "articleType": "Discussion",
+  "published": "2026-08-04",
+  "year": "2026",
+  "volume": "30",
+  "issue": "",
+  "articleNumber": "101782",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2026",
+  "authors": [
+    {
+      "given": "Rebecca Arden",
+      "surname": "Harris",
+      "display": "Rebecca Arden Harris"
+    },
+    {
+      "given": "Warren B.",
+      "surname": "Bilker",
+      "display": "Warren B. Bilker"
+    },
+    {
+      "given": "Douglas S.",
+      "surname": "Jacoby",
+      "display": "Douglas S. Jacoby"
+    },
+    {
+      "given": "Michael G.",
+      "surname": "Levin",
+      "display": "Michael G. Levin"
+    },
+    {
+      "given": "Richard C.",
+      "surname": "Wender",
+      "display": "Richard C. Wender"
+    },
+    {
+      "given": "Sean",
+      "surname": "Hennessy",
+      "display": "Sean Hennessy"
+    }
+  ],
+  "affiliations": [
+    "aDepartment of Family Medicine and Community Health, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA",
+    "bPenn Cardiovascular Institute, University of Pennsylvania, Philadelphia, PA, USA",
+    "cLeonard Davis Institute of Health Economics, University of Pennsylvania, Philadelphia, PA, USA",
+    "dDepartment of Biostatistics and Epidemiology, University of Pennsylvania, Philadelphia, PA, USA",
+    "eDivision of Cardiovascular Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA",
+    "fCenter for Preventive Cardiology and Lipid Management, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA",
+    "gMichael J. Crescenz VA Medical Center, Philadelphia, PA, USA",
+    "hCenter for Public Health Initiatives, University of Pennsylvania, Philadelphia, PA, USA",
+    "iCenter for Real-World Effectiveness and Safety of Therapeutics, Department of Biostatistics, Epidemiology and Informatics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA"
+  ],
+  "keywords": [
+    "Cardiovascular risk prediction",
+    "PREVENT equations",
+    "Missing data",
+    "Health disparities",
+    "Risk prediction models"
+  ],
+  "abstract": [
+    {
+      "html": "The American Heart Association&#x27;s PREVENT equations are now embedded in three major AHA/ACC guidelines governing hypertension, dyslipidemia, and cardiovascular-kidney-metabolic syndrome, including a specific risk threshold that gates initiation of GLP-1-based therapy and SGLT2 inhibitors. This rapid guideline uptake has outpaced a persistent limitation: PREVENT requires laboratory values, chiefly lipids and estimated glomerular filtration rate, that are frequently missing in the populations where risk prediction matters most, including patients seen in community health centers, emergency departments, and substance use treatment programs. Real-world validation studies across multiple health systems show that PREVENT underestimates cardiovascular risk most severely in these same subgroups, with the largest underestimation among Medicaid-insured, uninsured, and Black patients. Imputation, whether simple substitution or multiple imputation, does not resolve this problem because the probability that a laboratory value is missing is itself associated with the underlying risk the model is trying to estimate, a form of informative missingness that standard imputation methods are not designed to address. We argue that the field should invest in developing and validating a standalone cardiovascular risk prediction model that does not require laboratory measures. Such a model would function as a complement to PREVENT, not a replacement, providing risk estimates for patients without laboratory data and helping identify those who warrant expedited evaluation. As PREVENT becomes the gatekeeper for guideline-directed therapy across three clinical domains simultaneously, closing this coverage gap is no longer a methodological refinement but a clinical implementation imperative."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The American Heart Association&#x27;s Predicting Risk of Cardiovascular Disease Events (PREVENT) equations represent a significant advance in cardiovascular risk prediction, incorporating kidney function and broadening the composite outcome to include heart failure [1]. Three major American Heart Association/American College of Cardiology (AHA/ACC) guidelines now endorse PREVENT: the 2025 Hypertension Guideline, which uses PREVENT for Stage 1 hypertension management [2]; the 2026 Dyslipidemia Guideline, which assigns PREVENT-ASCVD a Class I recommendation for adults aged 30–79 without established ASCVD [3]; and the 2026 CKM Syndrome Guideline, which uses a PREVENT-CVD score of ≥7.5% as a threshold for initiating GLP-1–based therapy or SGLT2 inhibitors in adults with type 2 diabetes and stages 2 or 3 CKM syndrome [4]. Yet real-world implementation has exposed two problems that guideline endorsement cannot fully resolve. First, PREVENT requires laboratory values that are frequently missing in the populations where accurate risk prediction matters most, leaving a substantial fraction of high-risk patients unscored. Second, calibration tends to degrade in disadvantaged subgroups even when missingness is addressed through imputation in the research design, because missingness is plausibly correlated with the cardiovascular risk the model is trying to estimate, a pattern known as “missing not at random” (MNAR) that standard imputation cannot correct [5,6]. Both problems are consistent with a common source: a structural mismatch between the derivation population, where laboratory predictors were complete by design, and the deployment population, where they are not. As PREVENT becomes embedded across three guideline domains simultaneously, patients for whom a score cannot be generated are excluded not only from quantitative risk estimation but from algorithm-driven pathways to guideline-directed therapy. The solution lies in developing alternative prediction models that do not require laboratory predictors in the first place. Such a model provides a risk estimate when current laboratory values are unavailable, complementing rather than replacing laboratory-based assessment."
+        }
+      ]
+    },
+    {
+      "title": "The laboratory coverage problem",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "PREVENT’s base model requires lipid values and estimated glomerular filtration rate (eGFR), with optional add-on models incorporating urine albumin-to-creatinine ratio and hemoglobin A1c [1]. In the controlled environment of derivation, required predictors were complete by design. In PREVENT’s own derivation cohorts, hemoglobin A1c was missing in 100% of several major research cohorts [1]; in the largest multinational validation, albumin-to-creatinine ratio was missing in 84% of new North American cohorts [7]. In real-world practice, laboratory missingness is concentrated exactly where it is most consequential. Evidence from a national study indicates that among low-income adults in Medicaid non-expansion states, uninsured individuals were substantially less likely to receive indicated cholesterol monitoring than their insured counterparts (72.6%vs. 93.7%), suggesting that missing lipid measurements in EHR data may partly reflect differential access to preventive care rather than random missingness [8]. EHR-based validation studies confirm this. In one large academic health system validation, 52% of lipid values were missing and only 31% of eligible patients had complete data; those with complete laboratory data differed systematically from the imputed cohort by insurance status and Area Deprivation Index (ADI), with Medicaid-insured and highest-ADI patients showing the worst calibration [9]. Independent data from our own institution corroborate the pattern in a different clinical context: lipid values were absent in &gt;90% of adults with documented stimulant use, consistent with broader failures of laboratory capture across care settings rather than a characteristic of this population alone [10]. The data missingness problem is most pronounced in community health centers, emergency departments, urgent care centers, and substance use treatment programs, settings where the laboratory values that PREVENT requires are rarely on hand, whether because the infrastructure is limited or because the encounter is not aimed at primary prevention."
+        },
+        {
+          "type": "paragraph",
+          "html": "Across multiple real-world validation studies, PREVENT has underestimated cardiovascular risk most severely in the subgroups with the greatest laboratory data gaps [11], including a 46% underestimation among Black adults aged 30–39 [12]. The largest multinational validation to date, spanning 6.4 million individuals, did not report calibration by race, insurance status, or socioeconomic disadvantage, leaving this equity-relevant question unaddressed at scale [7]."
+        }
+      ]
+    },
+    {
+      "title": "Why imputation alone is not enough",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "These findings are consistent with the hypothesis that calibration failures track with data quality and outcome ascertainment. The populations most burdened by miscalibration are also the most likely to go unscored because of missing laboratory data, a pattern consistent with MNAR. The problem begins upstream in the derivation data itself. The Optum Data Warehouse, which supplies &gt;90% of PREVENT&#x27;s derivation sample, relies on billing and EHR data in which ASCVD events may be underreported, particularly in disadvantaged subgroups where documentation gaps are most common [13]. Even if laboratory values were complete, differential outcome capture could still bias the baseline hazard downward in the populations where calibration has performed worst."
+        },
+        {
+          "type": "paragraph",
+          "html": "Multiple imputation depends on the missing-at-random assumption, which is violated when missingness is MNAR [14,6]. In practice, imputation operates at the cohort level rather than substituting for an individual patient&#x27;s missing laboratory result at the point of care. Recalibration addresses a different problem: it may improve performance, but not coverage, because the initial risk estimate still requires laboratory values."
+        }
+      ]
+    },
+    {
+      "title": "The case for a lab-free complement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "We therefore propose that the field invest in developing and validating cardiovascular risk prediction models that do not require laboratory values, as a complement to PREVENT rather than a replacement [15]. Such models would apply to any patient with routinely available clinical data, including the non-laboratory predictors already embedded in PREVENT (age, sex, blood pressure, BMI, smoking status, history of diabetes, and medication use), without requiring lipid panels or renal function tests. Importantly, an indicator for laboratory availability could itself be included as a predictor, since the absence of testing is informative about healthcare access and cardiovascular risk. This would avoid restricting derivation to a selected subgroup while leveraging the possibility that laboratory missingness may carry independent information about healthcare utilization, care access, or underlying risk."
+        },
+        {
+          "type": "paragraph",
+          "html": "PREVENT included eGFR and lipids for good reasons. A meta-analysis showed that adding eGFR and albumin-to-creatinine ratio to traditional risk factors improved discrimination for heart failure and cardiovascular mortality [16]. Lipids capture atherogenic burden that BMI approximates only crudely: a patient with BMI 28 and LDL 190 mg/dL has a fundamentally different risk profile from one with BMI 28 and LDL 90 mg/dL. Lipids and kidney function retain real predictive value; the problem is that a risk equation cannot guide prevention for patients it cannot score. A further limitation deserves acknowledgment: in disadvantaged populations, undiagnosed dyslipidemia or impaired kidney function may lead a lab-free model to underestimate risk in some individuals who would be classified as high risk if laboratories were obtained. That is a real tradeoff. But the alternative for these patients is often no estimate at all. Whether a lab-based model would perform substantially better in these specific populations has not been demonstrated, and a well-specified lab-free model incorporating history of diabetes, antihypertensive use, statin use, and smoking status can capture substantial metabolic and atherogenic burden without direct lipid or eGFR measurement."
+        }
+      ]
+    },
+    {
+      "title": "Tradeoffs and limitations",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "One might argue that the more direct solution is to ensure disadvantaged populations receive laboratory testing, which would simultaneously enable risk estimation, diagnosis of dyslipidemia and CKD, and treatment initiation. We agree that expanding laboratory access is essential and should proceed in parallel. Yet this has been the field&#x27;s default strategy for decades, and the persistence of large-scale laboratory missingness suggests that access barriers remain unresolved. For many patients, obtaining laboratory testing requires additional appointments, transportation, time away from work, copays, and childcare arrangements. A lab-free model therefore serves as a primary risk estimation pathway when laboratory measurements are unavailable, often providing the only completed risk assessment within the clinical encounter for patients who cannot reliably access downstream testing. That said, a lab-free risk score does not by itself enable pharmacotherapy initiation for all indicated treatments; starting an ACE inhibitor without creatinine and potassium, for example, would be clinically inappropriate regardless of estimated risk. Its immediate clinical value lies in triage: identifying patients who warrant same-visit laboratory ordering, prioritized follow-up, or care coordination in settings where the prevention pathway would otherwise not begin, and supporting risk-informed counseling and referral decisions that are currently made without quantitative risk assessment. In this way, the model does not replace laboratory-based care pathways but helps determine which patients enter them."
+        }
+      ]
+    },
+    {
+      "title": "A hybrid fallback, and the case for a standalone model",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "One alternative is to retain laboratory-based models while using a validated lab-free fallback for patients without current laboratory data. This approach mirrors conditional model use elsewhere in clinical prediction, such as Wells criteria followed by d-dimer testing. But if the fallback is derived and validated only among patients who happened to have laboratory values available, it inherits the same representativeness problem as PREVENT. A fallback derived in the full eligible population, including patients who currently go unscored, is a standalone lab-free model. That is what we propose, with calibration assessed both in the overall population and among patients missing at least one PREVENT-required laboratory value, the population the model is intended to serve."
+        },
+        {
+          "type": "paragraph",
+          "html": "Non-laboratory models have not been widely adopted in the United States, largely because they have been framed as tools for resource-limited settings rather than as solutions to data-availability problems affecting US clinical populations [17]. Existing lab-free tools illustrate this framing. The WHO non-laboratory risk charts were developed and validated explicitly for 21 global regions with variable laboratory access [18], and a non-laboratory score was recently validated against a laboratory-based score in a Brazilian community cohort, again outside a US clinical context [19]. No major US guideline has endorsed a lab-free approach for primary prevention. The expanding role of PREVENT in US guidelines makes this gap increasingly consequential. A guideline standard of care that cannot generate an estimate for a substantial proportion of EHR patients demands a complement, not just a workaround. Our group recently demonstrated feasibility by developing and internally validating a lab-free cardiovascular risk model among adults who use nonmedical stimulants, achieving good discrimination and calibration [10]. Although external validation is required before broader application, this work illustrates that clinically useful prediction models can be developed without laboratory inputs."
+        }
+      ]
+    },
+    {
+      "title": "What would be required",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "What is needed is a rigorously developed, contemporary lab-free cardiovascular risk prediction model that meets four criteria. First, it should be derived from populations regardless of laboratory availability. Second, it should predict PREVENT&#x27;s composite outcome using the same event definitions. Third, it should report both discrimination and calibration explicitly by race, insurance status, and neighborhood deprivation, as well as separately among individuals missing at least one PREVENT-required laboratory value, since this is the population the model is intended to serve. Fourth, it should be embedded as the clinical default when laboratory values are absent."
+        },
+        {
+          "type": "paragraph",
+          "html": "Such a model could be derived from national EHR repositories, including the All of Us Research Program and other multi-system consortia, with prespecified validation in systems stratified by payer mix and ADI distribution and explicit benchmarking of subgroup-specific performance against PREVENT&#x27;s observed results. Implementation would require AHA/ACC endorsement of a lab-free complement to PREVENT, along with integration into clinical decision support that automatically defaults to the lab-free calculator when laboratory values are absent, mirroring PREVENT&#x27;s own add-on architecture for optional predictors and extending the same logic in the opposite direction. Calculator uptake has historically been limited by workflow burden and uneven integration into routine practice [20,21]; automatic EHR-based defaulting, rather than clinician-initiated lookup, would be essential to avoiding the same fate."
+        }
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "With three major AHA/ACC guidelines now embedding the PREVENT equations, patients for whom a score cannot be generated are excluded not only from risk estimation but from the risk-threshold step of algorithm-driven pathways to guideline-directed therapy. Ensuring that risk estimation remains available for all patients regardless of laboratory data is no longer a methodological concern. It is a clinical imperative."
+        }
+      ]
+    },
+    {
+      "title": "Funding",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "RAH is supported by the 10.13039/100000026National Institute on Drug Abuse under award K23DA054157. MGL is supported by U.S. Department of Veterans Affairs Biomedical Research and Development Award IK2-BX006551; has received research grants from MyOme; and served as a consultant for BridgeBio, unrelated to the current work. This work does not represent the views of the Department of Veterans Affairs or the U.S. government."
+        }
+      ]
+    },
+    {
+      "title": "Disclosures",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "None"
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Rebecca Arden Harris:</strong> Conceptualization, Writing – original draft, Writing – review &amp; editing. <strong>Warren B. Bilker:</strong> Writing – review &amp; editing. <strong>Douglas S. Jacoby:</strong> Writing – review &amp; editing. <strong>Michael G. Levin:</strong> Writing – review &amp; editing. <strong>Richard C. Wender:</strong> Writing – review &amp; editing. <strong>Sean Hennessy:</strong> Conceptualization, Writing – review &amp; editing."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "text": "Khan S.S, Matsushita K., Sang Y. Development and validation of the American Heart Association's PREVENT equations. Circulation. 2024;149(6):430–449. DOI: 10.1161/CIRCULATIONAHA.123.067626. PMCID: PMC10910659. PMID: 37947085",
+      "pmid": "37947085",
+      "authors": [
+        "Khan S.S",
+        "Matsushita K.",
+        "Sang Y."
+      ],
+      "hasEtAl": true
+    },
+    {
+      "text": "Jones D.W, Ferdinand K.C, Taler S.J. 2025 AHA/ACC/AANP/AAPA/ABC/ACCP/ACPM/AGS/AMA/ASPC/NMA/PCNA/SGIM Guideline for the prevention, detection, evaluation, and management of high blood pressure in adults: a report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. J Am Coll Cardiol. 2025. DOI: 10.1016/j.jacc.2025.05.007. PMID: 40815242",
+      "pmid": "40815242",
+      "authors": [
+        "Jones D.W",
+        "Ferdinand K.C",
+        "Taler S.J"
+      ],
+      "hasEtAl": true
+    },
+    {
+      "text": "Blumenthal R.S, Morris P.B, Gaudino M. 2026 ACC/AHA/AACVPR/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Dyslipidemia: a report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. J Am Coll Cardiol. 2026;87(19):2624–2757. DOI: 10.1016/j.jacc.2025.11.016. PMID: 41824590",
+      "pmid": "41824590",
+      "authors": [
+        "Blumenthal R.S",
+        "Morris P.B",
+        "Gaudino M."
+      ],
+      "hasEtAl": true
+    },
+    {
+      "text": "Ndumele C.E, Rodriguez F. Writing Committee members. 2026 AHA/ACC/ADA/ASN Guideline for the prevention, detection, evaluation, and Management of cardiovascular-kidney-Metabolic Syndrome: a report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. Circulation. 2026. DOI: 10.1161/CIR.0000000000001453. PMID: 42263157",
+      "pmid": "42263157",
+      "authors": [
+        "Ndumele C.E",
+        "Rodriguez F."
+      ],
+      "hasEtAl": true
+    },
+    {
+      "text": "Little R.JA., Rubin D.B. 2002.",
+      "pmid": "",
+      "authors": [
+        "Little R.JA.",
+        "Rubin D.B"
+      ],
+      "hasEtAl": false
+    },
+    {
+      "text": "van Buuren S. 2018.",
+      "pmid": "",
+      "authors": [
+        "van Buuren S."
+      ],
+      "hasEtAl": false
+    },
+    {
+      "text": "Neuen B.L, Major R.W, Grams M.E. Multinational validation of the PREVENT and SCORE2 cardiovascular risk equations across 6.4 million individuals. Nat Med. 2026;32:2629–2638. DOI: 10.1038/s41591-026-04437-z. PMCID: PMC13375529. PMID: 42086979",
+      "pmid": "42086979",
+      "authors": [
+        "Neuen B.L",
+        "Major R.W",
+        "Grams M.E"
+      ],
+      "hasEtAl": true
+    },
+    {
+      "text": "Oseran A.S, Sun T., Wadhera R.K. Health care access and management of cardiovascular risk factors among working-age adults with low income by state Medicaid expansion status. JAMA Cardiol. 2022;7(7):708. DOI: 10.1001/jamacardio.2022.1282. PMCID: PMC9161120. PMID: 35648424",
+      "pmid": "35648424",
+      "authors": [
+        "Oseran A.S",
+        "Sun T.",
+        "Wadhera R.K."
+      ],
+      "hasEtAl": false
+    },
+    {
+      "text": "Hong C., Niu M., Wang H. Performance of PREVENT cardiovascular risk in electronic health record–Based clinical practice. JAMA Netw Open. 2026;9(4). DOI: 10.1001/jamanetworkopen.2026.6838. PMCID: PMC13080547. PMID: 41979878",
+      "pmid": "41979878",
+      "authors": [
+        "Hong C.",
+        "Niu M.",
+        "Wang H."
+      ],
+      "hasEtAl": true
+    },
+    {
+      "text": "Harris R.A, Wang F., Bilker W.B. Three-year cardiovascular risk prediction among people who use cocaine or methamphetamine. Drug Alcohol Depend Rep. 2026;20(20). DOI: 10.1016/j.dadr.2026.100459. PMCID: PMC13380514. PMID: 42472268",
+      "pmid": "42472268",
+      "authors": [
+        "Harris R.A",
+        "Wang F.",
+        "Bilker W.B"
+      ],
+      "hasEtAl": true
+    },
+    {
+      "text": "Cho S.MJ., Levin M., Chen R. AHA PREVENT equations and cardiovascular disease risk in diverse health care populations. J Am Coll Cardiol. 2025;86(3):181–192. DOI: 10.1016/j.jacc.2025.04.066. PMCID: PMC12686678. PMID: 40669956",
+      "pmid": "40669956",
+      "authors": [
+        "Cho S.MJ.",
+        "Levin M.",
+        "Chen R."
+      ],
+      "hasEtAl": true
+    },
+    {
+      "text": "Gauen A.M, Petito L.C, Zhang Y., Zhou H., Zhou M., Xia M., Fang M., Reynolds K., Xanthakis V., Safford M., Colantonio L.D, Rana J.S, Bellows B.K, Moran A.E, Huang X., Shah N.S, Allen N.B, An J. PREVENT equations in young adults: fairness, calibration, and performance across racial and ethnic groups. J Am Coll Cardiol. 2026;87:1343–1357. DOI: 10.1016/j.jacc.2025.12.019. PMID: 41636665",
+      "pmid": "41636665",
+      "authors": [
+        "Gauen A.M",
+        "Petito L.C",
+        "Zhang Y.",
+        "Zhou H.",
+        "Zhou M.",
+        "Xia M.",
+        "Fang M.",
+        "Reynolds K.",
+        "Xanthakis V.",
+        "Safford M.",
+        "Colantonio L.D",
+        "Rana J.S",
+        "Bellows B.K",
+        "Moran A.E",
+        "Huang X.",
+        "Shah N.S",
+        "Allen N.B",
+        "An J."
+      ],
+      "hasEtAl": false
+    },
+    {
+      "text": "Anderson T.S, Wilson L.M, Sussman J.B. Atherosclerotic cardiovascular disease risk estimates using the predicting risk of cardiovascular disease events equations. JAMA Intern Med. 2024;184(8):963. DOI: 10.1001/jamainternmed.2024.1302. PMCID: PMC11165411. PMID: 38856978",
+      "pmid": "38856978",
+      "authors": [
+        "Anderson T.S",
+        "Wilson L.M",
+        "Sussman J.B."
+      ],
+      "hasEtAl": false
+    },
+    {
+      "text": "Carpenter J.R, Kenward M.G. 2013.",
+      "pmid": "",
+      "authors": [
+        "Carpenter J.R",
+        "Kenward M.G."
+      ],
+      "hasEtAl": false
+    },
+    {
+      "text": "Gaziano T.A, Young C.R, Fitzmaurice G., Atwood S., Gaziano J.M. Laboratory-based versus non-laboratory-based method for assessment of cardiovascular disease risk: the NHANES I Follow-up Study cohort. Lancet. 2008;371(9616):923–931. DOI: 10.1016/S0140-6736(08)60418-3. PMCID: PMC2864150. PMID: 18342687",
+      "pmid": "18342687",
+      "authors": [
+        "Gaziano T.A",
+        "Young C.R",
+        "Fitzmaurice G.",
+        "Atwood S.",
+        "Gaziano J.M."
+      ],
+      "hasEtAl": false
+    },
+    {
+      "text": "Matsushita K., Coresh J., Sang Y. Estimated glomerular filtration rate and albuminuria for prediction of cardiovascular outcomes: a collaborative meta-analysis of individual participant data. Lancet Diabetes Endocrinol. 2015;3(7):514–525. DOI: 10.1016/S2213-8587(15)00040-6. PMCID: PMC4594193. PMID: 26028594",
+      "pmid": "26028594",
+      "authors": [
+        "Matsushita K.",
+        "Coresh J.",
+        "Sang Y."
+      ],
+      "hasEtAl": true
+    },
+    {
+      "text": "Joseph P., Yusuf S., Lee S.F. Prognostic validation of a non-laboratory and a laboratory based cardiovascular disease risk score in multiple regions of the world. Heart. 2018;104(7):581–587. DOI: 10.1136/heartjnl-2017-311609. PMCID: PMC5861396. PMID: 29066611",
+      "pmid": "29066611",
+      "authors": [
+        "Joseph P.",
+        "Yusuf S.",
+        "Lee S.F"
+      ],
+      "hasEtAl": true
+    },
+    {
+      "text": "WHO CVD Risk Chart Working Group. World Health Organization cardiovascular disease risk charts: revised models to estimate risk in 21 global regions. Lancet Glob Health. 2019;7(10):e1332–e1345. DOI: 10.1016/S2214-109X(19)30318-3. PMCID: PMC7025029. PMID: 31488387",
+      "pmid": "31488387",
+      "authors": [
+        "WHO CVD Risk Chart Working Group"
+      ],
+      "hasEtAl": false
+    },
+    {
+      "text": "Bernardes de Figueiredo Oliveira G., Belo Nunes R.A, Bassolli de Oliveira Alves L., Miranda de Menezes Neves P.D, Hamamoto Sato V.A, Kamada Triboni A.H, Alves de Oliveira Júnior H., Raupp da Rosa P., Díaz M.L, Lopez-Jaramillo J.P, Lanas F., Joseph P., Avezum Á. Prediction of cardiovascular risk: validation of a non-laboratory and a laboratory-based score in a Brazilian community-based cohort of the PURE study. Lancet Reg Health Am. 2025;43. DOI: 10.1016/j.lana.2025.101009. PMCID: PMC11959376. PMID: 40171144",
+      "pmid": "40171144",
+      "authors": [
+        "Bernardes de Figueiredo Oliveira G.",
+        "Belo Nunes R.A",
+        "Bassolli de Oliveira Alves L.",
+        "Miranda de Menezes Neves P.D",
+        "Hamamoto Sato V.A",
+        "Kamada Triboni A.H",
+        "Alves de Oliveira Júnior H.",
+        "Raupp da Rosa P.",
+        "Díaz M.L",
+        "Lopez-Jaramillo J.P",
+        "Lanas F.",
+        "Joseph P.",
+        "Avezum Á"
+      ],
+      "hasEtAl": false
+    },
+    {
+      "text": "Khan S.S, Lloyd-Jones D.M, Abdalla M., Bello N.A, Blyler C.A, Carter J., Commodore-Mensah Y., Ferdinand K.C, Johnson H.M, Jones D., Khera A., Muntner P., Schott S., Shimbo D., Smith S.C, Taler S.J, Yang E. American Heart Association and American College of Cardiology. Use of risk assessment to guide decision-making for blood pressure management in the primary prevention of cardiovascular disease: a scientific statement from the American Heart Association and American College of Cardiology. J Am Coll Cardiol. 2025;86(18):1539–1559. DOI: 10.1016/j.jacc.2025.08.001. PMID: 40879587",
+      "pmid": "40879587",
+      "authors": [
+        "Khan S.S",
+        "Lloyd-Jones D.M",
+        "Abdalla M.",
+        "Bello N.A",
+        "Blyler C.A",
+        "Carter J.",
+        "Commodore-Mensah Y.",
+        "Ferdinand K.C",
+        "Johnson H.M",
+        "Jones D.",
+        "Khera A.",
+        "Muntner P.",
+        "Schott S.",
+        "Shimbo D.",
+        "Smith S.C",
+        "Taler S.J",
+        "Yang E."
+      ],
+      "hasEtAl": false
+    },
+    {
+      "text": "Tuzzio L., O’Meara E.S., Holden E., Parchman M.L., Ralston J.D., Powell J.A., Baldwin L.M. Barriers to implementing cardiovascular risk calculation in primary care: alignment with the Consolidated Framework for Implementation Research. Am J Prev Med. 2021;60:250–257. DOI: 10.1016/j.amepre.2020.07.027. PMCID: PMC8638790. PMID: 33279368",
+      "pmid": "33279368",
+      "authors": [
+        "Tuzzio L.",
+        "O’Meara E.S.",
+        "Holden E.",
+        "Parchman M.L.",
+        "Ralston J.D.",
+        "Powell J.A.",
+        "Baldwin L.M."
+      ],
+      "hasEtAl": false
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

@@ -1,0 +1,291 @@
+{
+  "pmcid": "PMC13740875",
+  "pmid": "42997022",
+  "doi": "10.1016/j.ajpc.2026.101713",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13740875/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Heterogeneous competing causes of death and transportability of the PREVENT equations",
+  "articleType": "Discussion",
+  "published": "2026-06-20",
+  "year": "2026",
+  "volume": "30",
+  "issue": "",
+  "articleNumber": "101713",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2026",
+  "authors": [
+    {
+      "given": "Rebecca Arden",
+      "surname": "Harris",
+      "display": "Rebecca Arden Harris"
+    },
+    {
+      "given": "Warren B.",
+      "surname": "Bilker",
+      "display": "Warren B. Bilker"
+    },
+    {
+      "given": "Sean",
+      "surname": "Hennessy",
+      "display": "Sean Hennessy"
+    }
+  ],
+  "affiliations": [
+    "aDepartment of Family Medicine and Community Health, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA",
+    "bPenn Cardiovascular Institute, University of Pennsylvania, Philadelphia, PA, USA",
+    "cLeonard Davis Institute of Health Economics, University of Pennsylvania, Philadelphia, PA, USA",
+    "dDepartment of Biostatistics and Epidemiology, University of Pennsylvania, Philadelphia, PA, USA",
+    "eCenter for Real-World Effectiveness and Safety of Therapeutics, Department of Biostatistics, Epidemiology and Informatics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA"
+  ],
+  "keywords": [
+    "Cardiovascular risk prediction",
+    "Competing risks",
+    "PREVENT equations",
+    "Calibration",
+    "Transportability",
+    "Health equity",
+    "Cause-specific mortality"
+  ],
+  "abstract": [
+    {
+      "html": "The American Heart Association&#x27;s PREVENT equations represent a major advance in cardiovascular risk prediction, in part because they account for the possibility that patients may die from non-cardiovascular causes before experiencing a cardiovascular event. Despite this advance, recent external validations have found that PREVENT systematically underestimates cardiovascular risk in Black patients, socioeconomically disadvantaged groups, veterans, and those with Medicaid or no insurance."
+    },
+    {
+      "html": "We propose that one underrecognized contributor is how PREVENT handles non-cardiovascular death: by treating all such deaths from cancer, overdose, suicide, injury, and other causes as a single combined category. This aggregation is a problem because the mix of competing causes differs across populations. The direct consequence is that the model&#x27;s competing-risk adjustment reflects the cause-of-death composition of its derivation cohort rather than that of the population being evaluated, and standard recalibration methods cannot correct this mismatch. The direction of the resulting error is predictable: populations with disproportionately high overdose, suicide, and injury mortality relative to the cancer-dominant pattern of general-population derivation cohorts will have their cardiovascular risk systematically underestimated."
+    },
+    {
+      "html": "This problem is further obscured by a common methodological choice in validation studies: using Kaplan-Meier survival estimates rather than cause-specific competing-risk methods to measure observed event rates. This approach inflates apparent event rates in exactly the subgroups most affected, making miscalibration harder to interpret and potentially masking its true direction."
+    },
+    {
+      "html": "Future cardiovascular risk prediction models should separate non-cardiovascular deaths into cause-specific competing processes. External validations should use cause-specific competing-risk estimation. Health systems considering adoption of PREVENT should validate it locally before implementation, with particular attention to calibration within subgroups defined by competing-mortality burden."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The American Heart Association PREVENT equations represent a major update to cardiovascular risk prediction in more than a decade, expanding beyond atherosclerotic cardiovascular disease to include heart failure, incorporating kidney function, and accounting for competing non-cardiovascular mortality [8,16]. As PREVENT becomes integrated into guideline-based treatment thresholds, accurate calibration across diverse populations is essential for equitable implementation of preventive therapies."
+        },
+        {
+          "type": "paragraph",
+          "html": "A key advance of PREVENT over the earlier American Heart Association/American College of Cardiology Pooled Cohort Equations (PCEs) is its treatment of non-cardiovascular death as a competing event rather than as independent censoring, addressing systematic overprediction of CVD incidence in older and multimorbid patients [8]. However, recent external validations have identified persistent subgroup-specific calibration failures across racial, ethnic, and socially disadvantaged populations despite this modern competing-risk framework and recalibration efforts [7,12,13]."
+        },
+        {
+          "type": "paragraph",
+          "html": "One underrecognized explanation is that non-cardiovascular death may not represent a single transportable competing process. In PREVENT, all non-CVD deaths are modeled as one competing event category, but cancer, pulmonary, suicide, overdose, and injury deaths differ substantially in epidemiology and in their relationships to cardiovascular risk factors. Aggregating these causes embeds mixture weights into the competing hazard, weights that reflect the derivation population’s cause-of-death composition rather than a universal biological constant, and that baseline recalibration cannot correct. The general principle that lumping heterogeneous events into a single competing category reduces transportability of the competing hazard estimate is grounded in the competing-risk literature [2,15]; what has not been recognized is that this principle may apply directly to PREVENT and contribute to its observed calibration patterns."
+        }
+      ]
+    },
+    {
+      "title": "The competing risk problem PREVENT solved, and the one it did not",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "PREVENT addresses the independent-censoring problem of the PCEs by using cause-specific hazard models that estimate each hazard separately and combine them to estimate cumulative incidence [3]: a genuine advance. What it does not resolve is heterogeneity within the competing-risk category. The derivation paper specifies that “non-CVD deaths were treated as competing events” without disaggregating by cause [8]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Aggregation is not inherently wrong: if the aggregate competing hazard accurately represents the population at hand, no bias follows. The problem arises when PREVENT is applied to populations whose non-CVD mortality composition differs from the derivation cohorts, such as veterans or socioeconomically disadvantaged groups in whom overdose, suicide, and injury deaths are disproportionately common [9,18]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Each cause has a distinct relationship to the PREVENT predictor set. Cancer shares some predictors with cardiovascular disease (smoking, diabetes, obesity) but operates through different pathways. Suicide and overdose are strongly associated with psychiatric comorbidity and social deprivation, only partially captured by PREVENT’s optional Social Deprivation Index. Pulmonary and infectious deaths are disproportionately associated with smoking and renal impairment. Age and frailty are shared predictors across most of these causes and are well captured by PREVENT; this partially attenuates aggregation error in strata where the age structure of competing causes resembles the derivation mixture."
+        },
+        {
+          "type": "paragraph",
+          "html": "The problem is structural: the aggregate non-CVD competing hazard can be written as a weighted sum of cause-specific hazards, <em>λ<sub>ncvd</sub>(t)</em> = <em>Σ<sub>k</sub> w<sub>k</sub>λ<sub>k</sub>(t)</em>, where the mixture weights <em>w<sub>k</sub></em> reflect the cause-of-death composition of the derivation cohort. When those weights differ across populations, the aggregate competing hazard changes even if the cause-specific hazards <em>λ<sub>k</sub>(t)</em> are unchanged. Recalibrating the baseline hazard shifts the intercept of the survival function but cannot restore the latent mixture weights <em>w<sub>k</sub></em>: a mixture-dependent slope cannot be corrected by shifting the intercept. This limitation applies equally to slope or intercept-plus-slope recalibration, which rescales the spread of the risk score rather than the age- and time-varying shape of the competing hazard."
+        },
+        {
+          "type": "paragraph",
+          "html": "Independent of the recalibration question, the clinical stakes of this shift in <em>w<sub>k</sub></em> are not uniform across age. In younger patients, where CVD hazard substantially exceeds non-CVD hazard, the cumulative incidence function (CIF) is relatively insensitive to competing-hazard shifts, and aggregation error may be mathematically small. In older and multimorbid patients, precisely those with the highest non-CVD mortality burden, the competing hazard carries greater weight in the CIF, and composition-driven misspecification has larger potential impact. The bias is thus largest where it matters most clinically. This mechanism predicts specific directional consequences: populations with disproportionately high external-cause and overdose mortality relative to cancer, such as veterans, Black patients, and socioeconomically disadvantaged groups, should show underprediction of CVD risk, while populations with cancer-dominant non-CVD mortality, as may occur in some Asian subgroups, should show overprediction."
+        }
+      ]
+    },
+    {
+      "title": "Evidence from external validation studies",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Two recent large validation studies illustrate both sides of the problem. Mathew and colleagues validated PREVENT in 2.5 million US veterans using cause-specific cumulative incidence estimation [13]. Yet all non-CVD deaths were modeled as a single category, consistent with the derivation. They found good overall calibration (slope 1.09) but persistent underprediction in non-Hispanic Black veterans (slope 1.29), a gap that recalibration only partially corrected. The finding is consistent with the possibility that methodologically careful validation may not fully resolve calibration gaps when the underlying cause aggregation is carried forward from the derivation."
+        },
+        {
+          "type": "paragraph",
+          "html": "Hong and colleagues validated PREVENT in 406,230 patients at Duke University Health System using Kaplan–Meier survival estimates rather than competing-risk estimation [7]. Kaplan–Meier estimators inflate observed cumulative incidence when competing mortality is high [10], and this overestimation is greatest in subgroups with the highest non-CVD mortality burden: Black patients, those in the most disadvantaged neighborhood quartiles, and those with Medicaid or no insurance. Recalibration improved performance only modestly; adding race, social determinants, and their interactions did not materially change results. Panel B of Figure 2 in Hong et al. illustrates the extent of this miscalibration: calibration ratios for Black patients, the most socioeconomically disadvantaged quartiles, and Medicaid-insured patients fell well below 1.0, indicating substantial underprediction of CVD risk in precisely the subgroups predicted to be most affected by competing-cause composition differences [7]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Other validations similarly used Kaplan–Meier methods [4,6], and at least one that added a Fine–Gray sensitivity analysis still treated all non-coronary deaths as a single category [11], illustrating how addressing one methodological problem while leaving the other unresolved perpetuates the limitation. Scheuermann and colleagues provide something close to a natural control condition [17]. They used Fine–Gray competing-risk methods for observed outcomes [5], and their National Health and Nutrition Examination Survey (NHANES) cohort’s non-CVD mortality composition was cancer-dominant, reasonably approximating the general-population derivation mixture. They found only modest overall miscalibration (calibration slope 1.13), with no dramatic directional subgroup failures of the kind observed by Mathew or Hong. This pattern, correct methods with a composition-matched population, is compatible with the competing-cause mechanism, though it cannot be taken as direct evidence for it."
+        },
+        {
+          "type": "paragraph",
+          "html": "The recalibration limitation deserves particular emphasis as the most technically robust point in this argument. Marginal recalibration adjusts the overall incidence level but cannot recover the latent mixture weights <em>w<sub>k</sub></em> [15]. As noted above, this means subgroup-specific calibration errors that track competing-mortality burden persist after overall recalibration, precisely the pattern Mathew and colleagues observed."
+        }
+      ]
+    },
+    {
+      "title": "Direction of bias by population",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The directional predictions of the competing-cause mechanism are consistent with observed calibration patterns across validation studies. The observed bidirectional pattern (overprediction in some Asian subgroups, underprediction in Black patients [1,7,13,20]) is consistent with this mechanism, though unmeasured population-specific CVD risk factors remain a competing explanation. Both mechanisms are plausible and not mutually exclusive; empirical testing with disaggregated competing events is needed to estimate each contribution."
+        }
+      ]
+    },
+    {
+      "title": "Why this matters for clinical adoption",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "PREVENT is now embedded in clinical guidelines, including the 2025 AHA/ACC hypertension guidelines, which use PREVENT estimates to set treatment eligibility thresholds [19]. Because the direction of miscalibration depends on the specific competing-mortality composition, some populations may be systematically overtreated while others are undertreated. Black patients and patients with Medicaid or no insurance are disproportionately represented among subgroups with the highest non-CVD mortality burdens, the population characteristic that, under the competing-cause mechanism, drives systematic miscalibration. When threshold-based guidelines determine statin eligibility or antihypertensive initiation, directional miscalibration does not distribute randomly; it clusters in populations already carrying the greatest cardiovascular burden [21]. Addressing the competing-cause aggregation problem is therefore not only a methodological refinement; it is a precondition for equitable implementation of PREVENT-based guidelines."
+        }
+      ]
+    },
+    {
+      "title": "What would be required to address this",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Addressing this requires disaggregating non-CVD deaths into cause-specific competing processes, but full disaggregation need not be the starting point. Even a two-category split for non-CVD deaths, cancer versus non-cancer, would capture the largest source of composition variation and would be feasible in most derivation cohorts, since cancer deaths are well coded and sufficiently common to support stable hazard estimates."
+        },
+        {
+          "type": "paragraph",
+          "html": "Critically, cause-specific competing-risk methods are needed at both stages of the evidence cycle: in the derivation sample, to estimate transportable cause-specific competing hazards, and in external validation, to place predicted and observed cumulative incidence on the same methodological footing. Addressing one without the other leaves the transportability problem only partially resolved."
+        },
+        {
+          "type": "paragraph",
+          "html": "Health systems contemplating adoption of PREVENT should validate the model in their own patient population before implementation. Local validation should assess calibration both overall and within subgroups defined by competing-mortality burden, including race and ethnicity, insurance status, and neighborhood deprivation, using cause-specific competing-risk estimation for observed outcomes. Without cause-of-death data, a health system cannot determine whether poor calibration reflects composition-driven competing-cause mismatch, systematic CVD risk factor differences, or both; nor can it determine the extent to which recalibration will correct the problem versus leaving subgroup-specific errors intact. This diagnostic information is a prerequisite for deciding whether PREVENT can be adopted as derived, requires local recalibration, or needs structural modification."
+        },
+        {
+          "type": "paragraph",
+          "html": "Cause-of-death information is available in most PREVENT derivation cohorts, and ICD coding allows coarse cause-specific decomposition in administrative datasets. One practical consideration is cause-of-death misclassification: death certificates may carry errors, with concordance varying by cause [14]. Re-derivation with disaggregated competing events would benefit from validation using linked clinical records or adjudicated endpoints where available."
+        }
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "PREVENT represents a genuine advance in cardiovascular risk prediction. The concern raised here is that aggregating all non-CVD deaths into a single competing category introduces a transportability vulnerability whose mechanism is specific: the aggregation embeds mixture weights <em>w<sub>k</sub></em> that baseline recalibration cannot correct, because recalibration shifts the intercept while those weights remain fixed. Whether this accounts for a clinically meaningful share of observed calibration failures requires direct empirical testing, particularly given that age and frailty, shared predictors across competing causes, may partially attenuate the error in some strata. This uncertainty is compounded by the frequent use of Kaplan–Meier methods in external validation studies, which inflates observed cumulative incidence and may obscure the true direction and magnitude of miscalibration. Naming both mechanisms clearly is the first step toward that investigation."
+        }
+      ]
+    },
+    {
+      "title": "Funding",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "RAH is supported by K23DA054157."
+        }
+      ]
+    },
+    {
+      "title": "Disclosures",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "None."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Rebecca Arden Harris:</strong> Conceptualization, Writing – original draft. <strong>Warren B. Bilker:</strong> Writing – review &amp; editing. <strong>Sean Hennessy:</strong> Writing – review &amp; editing."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "text": "Au M, Zhang Y, Zhou MM, Choi SK, Zhou H, Harrison TN, Mefford MT, Lee MS, Yang E, Shah NS, Reynolds K, An J. PREVENT equation performance in Asian and Native Hawaiian and Other Pacific Islander groups. JAMA Netw Open. 2026;9(2). DOI: 10.1001/jamanetworkopen.2025.56915. PMCID: PMC12902880. PMID: 41678194"
+    },
+    {
+      "text": "Austin PC, Lee DS, Fine JP. Introduction to the analysis of survival data in the presence of competing risks. Circulation. 2016;133(6):601–609. DOI: 10.1161/CIRCULATIONAHA.115.017719. PMCID: PMC4741409. PMID: 26858290"
+    },
+    {
+      "text": "Austin PC, Putter H, Lee DS, Steyerberg EW. Estimation of the absolute risk of cardiovascular disease and other events: issues with the use of multiple Fine-Gray subdistribution hazard models. Circ Cardiovasc Qual Outcomes. 2022;15(2). DOI: 10.1161/CIRCOUTCOMES.121.008368. PMCID: PMC8833235. PMID: 35098725"
+    },
+    {
+      "text": "Cho SMJ, Levin M, Chen R, Samarakoon R, Judy R, Hartmann K, Postupaka D, Viscosi V, Farber-Eger E, Fahed AC, Honigberg MC, Patel CJ, Hornsby W, Wells QS, Damrauer SM, Do R, Natarajan P. AHA PREVENT equations and cardiovascular disease risk in diverse health care populations. J Am Coll Cardiol. 2025;86(3):181–192. DOI: 10.1016/j.jacc.2025.04.066. PMCID: PMC12686678. PMID: 40669956"
+    },
+    {
+      "text": "Fine J.P., Gray R.J. A proportional hazards model for the subdistribution of a competing risk. J Am Stat Assoc. 1999;94(446):496–509."
+    },
+    {
+      "text": "Gauen AM, Petito LC, Zhang Y, Zhou H, Zhou M, Xia M, Fang M, Reynolds K, Xanthakis V, Safford M, Colantonio LD, Rana JS, Bellows BK, Moran AE, Huang X, Shah NS, Allen NB, An J. PREVENT equations in young adults: fairness, calibration, and performance across racial and ethnic groups. J Am Coll Cardiol. 2026;S0735-1097(25). DOI: 10.1016/j.jacc.2025.12.019. PMID: 41636665"
+    },
+    {
+      "text": "Hong C, Niu M, Wang H, Wojdyla DM, Economou-Zavlanos N, Engelhard MM, Pignone M, Patel MR, Pencina MJ. Performance of PREVENT cardiovascular risk in electronic health record-based clinical practice. JAMA Netw Open. 2026;9(4). DOI: 10.1001/jamanetworkopen.2026.6838. PMCID: PMC13080547. PMID: 41979878"
+    },
+    {
+      "text": "Khan SS, Matsushita K, Sang Y, Ballew SH, Grams ME, Surapaneni A, Blaha MJ, Carson AP, Chang AR, Ciemins E, Go AS, Gutierrez OM, Hwang SJ, Jassal SK, Kovesdy CP, Lloyd-Jones DM, Shlipak MG, Palaniappan LP, Sperling L, Virani SS, Tuttle K, Neeland IJ, Chow SL, Rangaswami J, Pencina MJ, Ndumele CE, Coresh J, Chronic Kidney Disease Prognosis Consortium and the American Heart Association Cardiovascular-Kidney-Metabolic Science Advisory Group. Development and validation of the American Heart Association’s PREVENT equations. Circulation. 2024;149(6):430–449. DOI: 10.1161/CIRCULATIONAHA.123.067626. PMCID: PMC10910659. PMID: 37947085"
+    },
+    {
+      "text": "Kuo CT, Kawachi I. County-level income inequality, social mobility, and deaths of despair in the US, 2000–2019. JAMA Netw Open. 2023;6(7). DOI: 10.1001/jamanetworkopen.2023.23030. PMCID: PMC10339154. PMID: 37436752"
+    },
+    {
+      "text": "Lacny S, Wilson T, Clement F, Roberts DJ, Faris P, Ghali WA, Marshall DA. Kaplan-Meier survival analysis overestimates cumulative incidence of health-related events in competing risk settings: a meta-analysis. J Clin Epidemiol. 2018;93:25–35. DOI: 10.1016/j.jclinepi.2017.10.006. PMID: 29045808"
+    },
+    {
+      "text": "Lee MS, Onwuzurike J, Wu YL, Palmer-Toy DE, An J, Chen W. PREVENT and PCE models for estimating ASCVD risk stratified by statin exposure. JAMA Netw Open. 2025;8(9). DOI: 10.1001/jamanetworkopen.2025.32164. PMCID: PMC12441873. PMID: 40956580"
+    },
+    {
+      "text": "Lewis AA, Bacong AM, Palaniappan L, Hernandez-Boussard T. Validation of the American Heart Association predicting risk of cardiovascular disease events equations in diverse socioeconomic groups: the All of Us cohort. J Am Heart Assoc. 2025;14(18). DOI: 10.1161/JAHA.125.041549. PMCID: PMC12554416. PMID: 40932135"
+    },
+    {
+      "text": "Mathew RO, Khan SS, Tuttle KR, Ho JE, Abramov D, Bangalore S, Sidhu MS, Ndumele CE, Powell-Wiley TM, Neeland IJ, Coresh J, Elkind MSV, Rangaswami J. Performance of the American Heart Association’s PREVENT risk score for cardiovascular risk prediction in a multiethnic population. Nat Med. 2025;31(8):2655–2662. DOI: 10.1038/s41591-025-03789-2. PMID: 40615687"
+    },
+    {
+      "text": "McGivern L, Shulman L, Carney JK, Shapiro S, Bundock E. Death certification errors and the effect on mortality statistics. Public Health Rep. 2017;132(6):669–675. DOI: 10.1177/0033354917736514. PMCID: PMC5692167. PMID: 29091542"
+    },
+    {
+      "text": "Mozumder SI, Booth S, Riley RD, Rutherford MJ, Lambert PC. Calibration of cause-specific absolute risk for external validation using each cause-specific hazards model in the presence of competing events. Diagn Progn Res. 2025;9:23. DOI: 10.1186/s41512-025-00197-5. PMCID: PMC12519608. PMID: 41084079"
+    },
+    {
+      "text": "Murphy BS, Hershey MS, Huang S, Nam Y, Post WS, McClelland RL, DeFilippis AP. PREVENT risk score vs the pooled cohort equations in MESA. JACC Adv. 2025;4(6 Pt 1). DOI: 10.1016/j.jacadv.2025.101825. PMCID: PMC12155567. PMID: 40424675"
+    },
+    {
+      "text": "Scheuermann B, Brown A, Colburn T, Hakeem H, Chow CH, Ade C. External validation of the American Heart Association PREVENT cardiovascular disease risk equations. JAMA Netw Open. 2024;7(10). DOI: 10.1001/jamanetworkopen.2024.38311. PMCID: PMC11470385. PMID: 39392632"
+    },
+    {
+      "text": "U.S. Department of Veterans Affairs. 2025."
+    },
+    {
+      "text": "Jones DW, Ferdinand KC, Taler SJ, Johnson HM, Shimbo D, Abdalla M, Altieri MM, Bansal N, Bello NA, Bress AP, Carter J, Cohen JB, Collins KJ, Commodore-Mensah Y, Davis LL, Egan B, Khan SS, Lloyd-Jones DM, Melnyk BM, Mistry EA, Ogunniyi MO, Schott SL, Smith SC, Talbot AW, Vongpatanasin W, Watson KE, Whelton PK, Williamson JD, Peer Review Committee Members. 2025 AHA/ACC/AANP/AAPA/ABC/ACCP/ACPM/AGS/AMA/ASPC/NMA/PCNA/SGIM guideline for the prevention, detection, evaluation, and management of high blood pressure in adults. J Am Coll Cardiol. 2025;86(18):1567–1678. DOI: 10.1016/j.jacc.2025.05.007. PMID: 40815242"
+    },
+    {
+      "text": "Yan X, Bacong AM, Huang Q, Husby H, Dudum R, Jose P, Palaniappan L, Rodriguez F. Performance of the American Heart Association’s PREVENT equations among disaggregated racial and ethnic subgroups. JAMA Cardiol. 2025;10(9):876. DOI: 10.1001/jamacardio.2025.1865. PMCID: PMC12199177. PMID: 40560603"
+    },
+    {
+      "text": "Zinzuwadia AN, Mineeva O, Li C, Farukhi Z, Giulianini F, Cade B, Chen L, Karlson E, Paynter N, Mora S, Demler O. Tailoring risk prediction models to local populations. JAMA Cardiol. 2024;9(11):1018. DOI: 10.1001/jamacardio.2024.2912. PMCID: PMC11411452. PMID: 39292486"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}

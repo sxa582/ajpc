@@ -1,0 +1,149 @@
+{
+  "pmcid": "PMC13742048",
+  "pmid": "",
+  "doi": "10.1016/j.ajpc.2026.101554",
+  "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13742048/",
+  "journal": "American Journal of Preventive Cardiology",
+  "title": "Improving risk prediction via predicting coronary plaque volume",
+  "articleType": "Discussion",
+  "published": "2026-03-13",
+  "year": "2026",
+  "volume": "31",
+  "issue": "",
+  "articleNumber": "101554",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "licenseText": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "copyright": "2026",
+  "authors": [
+    {
+      "given": "Rishi",
+      "surname": "Rikhi",
+      "display": "Rishi Rikhi"
+    },
+    {
+      "given": "Michael J.",
+      "surname": "Blaha",
+      "display": "Michael J. Blaha"
+    },
+    {
+      "given": "Ron",
+      "surname": "Blankstein",
+      "display": "Ron Blankstein"
+    }
+  ],
+  "affiliations": [
+    "aDivision of Cardiovascular Medicine, Department of Medicine, Brigham and Women’s Hospital, Harvard Medical School, Boston, MA, USA",
+    "bJohns Hopkins Ciccarone Center for the Prevention of Cardiovascular Disease, Baltimore, Maryland, USA"
+  ],
+  "keywords": [
+    "Coronary atherosclerosis",
+    "Genomics",
+    "Prevention",
+    "Lipids"
+  ],
+  "abstract": [],
+  "sections": [
+    {
+      "title": "Article",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "In primary prevention, risk assessment with conventional risk scores is the foundation for guiding therapies to delay the onset and progression of atherosclerosis, as well as reduce atherosclerotic cardiovascular disease (ASCVD) events [1]. Despite many advances ranging from genetics to novel biomarkers, a need exists to improve risk assessment, especially among individuals with borderline or intermediate risk [2]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Coronary artery calcium (CAC) is commonly used to refine risk when there is uncertainty regarding statin initiation and serves as a direct measure of plaque, capturing long term exposure to both known and unknown risk factors [1]. In fact, when combined with conventional risk scores, CAC significantly improves ASCVD risk prediction, even among low-risk individuals [3]. Recent advancements in omics research have allowed for the development of risk scores that capture genetic and metabolic risk, which have been shown to modestly improve ASCVD risk prediction [4,5]. However, data are limited regarding whether genomic and lipidomic profiling provide incremental value beyond coronary plaque volume or improve prediction of plaque burden."
+        },
+        {
+          "type": "paragraph",
+          "html": "The extent and severity of coronary plaque can be assessed by coronary computed tomographic angiography (CCTA), and recent advances in artificial intelligence techniques have enabled quantitative coronary plaque analysis [6]. Importantly, the amount of plaque detected by CAC or CCTA has powerful prognostic implications, as individuals with higher plaque burden have greater ASCVD risk, irrespective of whether obstructive or non-obstructive coronary artery disease (CAD) is present [7]. Given this information, it seems potentially compelling that combining CAC, genetic, and lipidomic information could help improve risk assessment and identify individuals where further imaging or treatment may be indicated."
+        },
+        {
+          "type": "paragraph",
+          "html": "In this issue of <em>American Journal of Preventive Cardiology</em>, Soh et al. investigate the predictive value of a Lipidomic Risk Score (LRS), Polygenic Risk Score (PRS), and CAC in identifying coronary artery plaque volume when added to the Multi-Ethnic Study of Atherosclerosis (MESA) 10-year cardiovascular risk score [8]. Here, the LRS included 705 lipid species that was validated in an Australian cohort and the PRS was derived from the UK Biobank cohort [8]. The cross-sectional study included a development cohort (mean age 58.5 years, 43.1 % female) of 232 participants from GenoCAD and an external validation cohort (mean age 61.7 years, 28.1 % female) of 199 participants from the Early Detection of CAD by Polygenic Risk Scoring (EDCAD-PMS) [8]. All participants were statin-naïve with a family history of CAD [8]."
+        },
+        {
+          "type": "paragraph",
+          "html": "The authors found a weak correlation between LRS and PRS with total plaque volume, whereas CAC showed a moderate correlation with both total plaque volume and non-calcified plaque volume [8]. Compared to the 10-year MESA cardiovascular risk score, the addition of PRS and LRS to the model increased the AUC for high coronary total plaque volume, defined as &gt;48mm[3], modestly from 0.498 to 0.552 in the validation cohort [8]. In contrast, the addition of CAC to the 10-year MESA cardiovascular risk score increased the AUC substantially from 0.498 to 0.823 [8]. Overall, the highest predictive performance for high coronary total plaque volume was seen when PRS, LRS, and CAC were all added to the 10-year MESA cardiovascular risk score (AUC=0.913) [8]. A similar improvement in model fit was found in a sensitivity analysis building upon the more recently developed Predicting Risk of Cardiovascular Disease EVENTs (PREVENT) risk score [8]."
+        },
+        {
+          "type": "paragraph",
+          "html": "Certain limitations exist in this study [8]. All participants had a family history of CAD [8]. Thus, the overall population had elevated genetic risk, which may have limited the predictive value of PRS [8]. Additionally, CCTA was only performed in those with a CAC&gt;0 and &lt;400, limiting generalizability to individuals without CAC, and generally lower-risk individuals [8]. In primary prevention, individuals without CAC and a 10-year ASCVD risk &lt;20 % may have ASCVD event rates that are below the level of statin initiation [9]. Therefore, the 2018 American Heart Association (AHA)/American College of Cardiology (ACC) Blood Cholesterol Guideline provide an option to delay or withhold statin therapy in intermediate risk individuals with a CAC of zero, if the decision for statin initiation is uncertain [1]. However, this recommendation does not apply to those with diabetes, current smoking, and most relevant to the current study, strong family history of premature ASCVD, as a CAC of zero does not sufficiently lower risk in these populations [1]. In the absence of CAC, PRS and LRS could have a potential role in further refining risk and identifying individuals with non-calcified plaque – a marker of higher long term risk even when CAC is zero – who could benefit from more aggressive primary prevention efforts. In addition, PRS and LRS could conceivably identify individuals without any plaque who have a higher risk of developing incident plaque. However, these concepts require testing in large cohorts of individuals with sufficiently long follow-up to observe plaque progression."
+        },
+        {
+          "type": "paragraph",
+          "html": "The authors should be congratulated for their novel and robust multi-omics approach toward coronary artery plaque volume prediction [8]. While conventional risk scores are fundamental for assessing risk in primary prevention, they may fail to capture individuals with atherosclerotic burden who are defined at low risk. For instance, in the current study, 54 % of individuals with a low 10-year MESA cardiovascular risk score (&lt;5 %) had high coronary plaque volume [8]. However, the percentage of individuals with high total coronary plaque volume reduced to 25 % in participants who also had low PRS, LRS and CAC [8]. These data demonstrate the potential value of using omics and imaging in refining prediction of atherosclerotic disease burden."
+        },
+        {
+          "type": "paragraph",
+          "html": "This study highlights the distinct biological processes that are captured by conventional risk scores, PRS, LRS, and CAC [8]. Conventional risk scores assess exposure to risk factors, but may not always capture all relevant risk factors, or exposure to risk factors over time [10]. PRS measures inherited risk from genetic variants, while LRS estimates metabolic risk from the plasma lipidome [2,4]. On the other hand, CAC is a direct visual assessment of cumulative plaque burden [1]. It is thus not surprising that once CAC is present, it provides the most robust prognostic value, as was the case in the present study where the additional value of PRS and LRS was modest. These findings are in keeping with those of Khan et al., who found CAC to improve risk prediction for coronary heart disease when added to the pooled cohort equations, while PRS did not significantly improve risk prediction [2]. However, in another analysis by Edmin et al. from a much younger cohort, the Coronary Artery Risk development in Young Adults study, there was significantly greater risk among individuals without CAC in the highest PRS quintile compared to lowest PRS quntile [5]. Collectively, these findings highlight the unique biological processes captured by omics and CAC, and suggest PRS may be of possible value in younger individuals without CAC."
+        },
+        {
+          "type": "paragraph",
+          "html": "The field of prevention has seen rapid advancements in cardiac imaging, conventional risk scores, and multi-omics. Currently, CCTA is primarily used for assessing intermediate and high-risk individuals presenting with chest pain [11]. However, with further research, reduced costs, greater availability, and lower radiation protocols, it is conceivable that CCTA with quantitative plaque assessment may have a greater role in asymptomatic patients to guide prevention strategies [12]. While conventional risk scores are important tools for defining statin eligibility, PRS, LRS, and CAC may help identify, quantify, and contextualize plaque burden phenotypes to refine risk and identify individuals most likely to benefit from more aggressive treatment."
+        }
+      ]
+    },
+    {
+      "title": "CRediT authorship contribution statement",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "<strong>Rishi Rikhi:</strong> Writing – review &amp; editing, Writing – original draft. <strong>Michael J. Blaha:</strong> Writing – review &amp; editing, Writing – original draft. <strong>Ron Blankstein:</strong> Writing – review &amp; editing, Writing – original draft."
+        }
+      ]
+    },
+    {
+      "title": "Declaration of competing interest",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "html": "Dr. Blankstein reports consulting and research support from Amgen Inc, Novartis Inc, Nanox AI, Heartflow Inc, and Caristo Inc. The remaining authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "text": "Grundy SM, Stone NJ, Bailey AL, Beam C, Birtcher KK, Blumenthal RS, Braun LT, de Ferranti S, Faiella-Tommasino J, Forman DE, Goldberg R, Heidenreich PA, Hlatky MA, Jones DW, Lloyd-Jones D, Lopez-Pajares N, Ndumele CE, Orringer CE, Peralta CA, Saseen JJ, Smith SC, Sperling L, Virani SS, Yeboah J. 2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA guideline on the management of blood cholesterol: a report of the American college of cardiology/American heart association task force on clinical practice guidelines. J Am Coll Cardiol. 2019;73:e285–e350. DOI: 10.1016/j.jacc.2018.11.003. PMID: 30423393"
+    },
+    {
+      "text": "Khan SS, Post WS, Guo X, Tan J, Zhu F, Bos D, Sedaghati-Khayat B, van Rooij J, Aday A, Allen NB, Bos MM, Uitterlinden AG, Budoff MJ, Lloyd-Jones DM, Mosley JD, Rotter JI, Greenland P, Kavousi M. Coronary artery calcium score and polygenic risk score for the prediction of Coronary heart disease events. JAMA. 2023;329:1768–1777. DOI: 10.1001/jama.2023.7575. PMCID: PMC10208141. PMID: 37219552"
+    },
+    {
+      "text": "Davis JR, Razavi AC, Ellberg CC, Blaha MJ, Criqui MH, Bhatia HS. Utility of coronary artery calcium scoring in low-risk patients: the multi-ethnic study of atherosclerosis (MESA). Am J Prev Cardiol. 2025;24. DOI: 10.1016/j.ajpc.2025.101329. PMCID: PMC12557561. PMID: 41159137"
+    },
+    {
+      "text": "Wu J, Giles C, Dakic A, Beyene HB, Huynh K, Wang T, Meikle T, Olshansky G, Salim A, Duong T, Watts GF, Hung J, Hui J, Cadby G, Beilby J, Blangero J, Moses EK, Shaw JE, Magliano DJ, Zhu D, Yang JY, Grieve SM, Wilson A, Chow CK, Vernon ST, Gray MP, Figtree GA, Carrington MJ, Inouye M, Marwick TH, Meikle PJ. Lipidomic risk score to enhance cardiovascular risk stratification for primary prevention. J Am Coll Cardiol. 2024;84:434–446. DOI: 10.1016/j.jacc.2024.04.060. PMID: 39048275"
+    },
+    {
+      "text": "Emdin CA, Xia R, Agrawal S, Rana JS, Lloyd-Jones D, Fornage M, Khera AV. Polygenic score assessed in young adulthood and onset of subclinical atherosclerosis and coronary heart disease. J Am Coll Cardiol. 2022;80:280–282. DOI: 10.1016/j.jacc.2022.05.013. PMCID: PMC10278962. PMID: 35835500"
+    },
+    {
+      "text": "Chandrashekhar Y, Blankstein R, Shaw LJ, Ferencik M, Leipsic J, Trinquart L, Villines TC, ACC Quantitative Coronary Plaque Analysis Symposium Collaborators. Quantitative coronary plaque analysis in clinical practice: 2025 ACC scientific statement: a report of the American college of cardiology. JACC Cardiovasc Imaging. 2025. DOI: 10.1016/j.jcmg.2025.11.008. PMID: 41405512"
+    },
+    {
+      "text": "Bittencourt MS, Hulten E, Ghoshhajra B, O'Leary D, Christman MP, Montana P, Truong QA, Steigner M, Murthy VL, Rybicki FJ, Nasir K, Gowdak LH, Hainer J, Brady TJ, Di Carli MF, Hoffmann U, Abbara S, Blankstein R. Prognostic value of nonobstructive and obstructive coronary artery disease detected by coronary computed tomography angiography to identify cardiovascular events. Circ Cardiovasc Imaging. 2014;7:282–291. DOI: 10.1161/CIRCIMAGING.113.001047. PMID: 24550435"
+    },
+    {
+      "text": "Soh CH, Khanna S, Wu J, Venkataraman P, Giles C, Nerlekar N, Carrington M, Watts GF, Nicholls SJ, Meikle P, Marwick TH. Screening for high coronary plaque volume in primary prevention: integration of multi-omics and coronary calcium scoring into cardiovascular risk assessment. Am J Prev Cardiol. 2026. DOI: 10.1016/j.ajpc.2026.101461. PMCID: PMC13261162. PMID: 42291079"
+    },
+    {
+      "text": "Nasir K, Bittencourt MS, Blaha MJ, Blankstein R, Agatson AS, Rivera JJ, Miedema MD, Sibley CT, Shaw LJ, Blumenthal RS, Budoff MJ, Krumholz HM. Implications of coronary artery calcium testing among statin candidates according to American college of cardiology/American heart association cholesterol management guidelines: MESA (Multi-Ethnic Study of Atherosclerosis). J Am Coll Cardiol. 2015;66:1657–1668. DOI: 10.1016/j.jacc.2015.07.066. PMID: 26449135"
+    },
+    {
+      "text": "Khan SS, Coresh J, Pencina MJ, Ndumele CE, Rangaswami J, Chow SL, Palaniappan LP, Sperling LS, Virani SS, Ho JE, Neeland IJ, Tuttle KR, Rajgopal Singh R, Elkind MSV, Lloyd-Jones DM, American Heart Association. Novel prediction equations for absolute risk assessment of total cardiovascular disease incorporating cardiovascular-kidney-metabolic health: a scientific statement from the American heart association. Circulation. 2023;148:1982–2004. DOI: 10.1161/CIR.0000000000001191. PMID: 37947094"
+    },
+    {
+      "text": "Gulati M, Levy PD, Mukherjee D, Amsterdam E, Bhatt DL, Birtcher KK, Blankstein R, Boyd J, Bullock-Palmer RP, Conejo T, Diercks DB, Gentile F, Greenwood JP, Hess EP, Hollenberg SM, Jaber WA, Jneid H, Joglar JA, Morrow DA, O'Connor RE, Ross MA, Shaw LJ. 2021 AHA/ACC/ASE/CHEST/SAEM/SCCT/SCMR Guideline for the evaluation and diagnosis of chest pain: a report of the American college of cardiology/American heart association joint committee on clinical practice guidelines. Circulation. 2021;144:e368–e454. DOI: 10.1161/CIR.0000000000001029. PMID: 34709879"
+    },
+    {
+      "text": "Bergström G, Engström G, Björnson E, Adiels M, Andersson JSO, Andersson T, Carlhäll CJ, Cederlund K, Erlinge D, Fagman E, Good E, Gummesson A, Hagström E, James S, Janzon M, Katsoularis I, Kuhl J, Löfmark H, Markstad H, Oldgren J, Oskarsson V, Ostenfeld E, Persson A, Pistea A, Rosengren A, Spaak J, Sundström J, Söderberg S, Thunström E, Östgren CJ, Lind L, Jernberg T. Coronary computed tomography angiography in prediction of first Coronary events. JAMA. 2026;335:245–254. DOI: 10.1001/jama.2025.21077. PMCID: PMC12598578. PMID: 41206900"
+    }
+  ],
+  "source": "PMC EFetch JATS XML"
+}
